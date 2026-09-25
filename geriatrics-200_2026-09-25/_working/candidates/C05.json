@@ -1,0 +1,883 @@
+{
+ "category": "C05",
+ "category_name": "Frailty, function and recovery",
+ "draw_log": [
+  {
+   "draw_id": "C05-R01",
+   "string": "4e8fe047eeec134b1c22d8c010d9",
+   "result": "candidate C05-01 (the suitcase, air traffic control, 'rerouting' and the community pharmacist viewpoint gave nothing usable; a pharmacist-noticed decline idea was rejected for lack of evidence)"
+  },
+  {
+   "draw_id": "C05-R02",
+   "string": "ed6f0cd23941ffb3d6219f7d08e8",
+   "result": "candidate C05-02 (umbrella, bridge building and 'mapping' gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R03",
+   "string": "a63716bd084bfe94cfed41f26302",
+   "result": "candidate C05-03 (tailoring, 'unpacking' and 'the first night' gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R04",
+   "string": "ffd2e93f82d0467b7a78f9e7d2d6",
+   "result": "candidate C05-04 (rejected sub-idea: CFS level 9 as the one level defined by prognosis rather than function; accurate but too slight for a post; map legend, bus timetables and 'the last week of life' gave nothing else usable)"
+  },
+  {
+   "draw_id": "C05-R05",
+   "string": "9f17d0aa83773f85452f58c20f67",
+   "result": "candidate C05-05 (rejected sub-idea: a person living alone with no informant for a frailty history; too close to E010; seed packet, theatre lighting and 'rewinding' gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R06",
+   "string": "aebc8b992aa745f0d329c7fead48",
+   "result": "candidate C05-06 (a public 'Ask for your own goal' twin was rejected as a near duplicate of E129; bookmark, cartography, 'noise' and 'five years' gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R07",
+   "string": "20cda62de35b7e6e449e24031e82",
+   "result": "candidate C05-07 (sewing pattern, 'rehearsing', 'small print', the speech and language therapist viewpoint and 'the last week of life' gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R08",
+   "string": "a2fb25208e30e8ffe35ebe8474c3",
+   "result": "candidate C05-08 (rejected sub-idea: 'CGA works on wards but not by visiting teams'; the 2011 meta-analysis favoured wards but the 2017 Cochrane update was underpowered to test it, so the claim can't be made as phrased; door hinge, museum curation and the ward clerk viewpoint gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R09",
+   "string": "dc5ad1b4356a8e8fe1b13e10c7bc",
+   "result": "candidate C05-09 (public libraries, 'rerouting' and 'rhythm' gave nothing usable; a life-space idea was dropped because C02-23 covers it)"
+  },
+  {
+   "draw_id": "C05-R10",
+   "string": "8eaf3e405a967a74b24f99b3bb3e",
+   "result": "candidate C05-10 (rejected sub-idea: 'who pays' for frailty as unpaid family care hours; belongs to C18; seed packet and bookkeeping gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R11",
+   "string": "030bc8804f54b1de304738c07efc",
+   "result": "candidates C05-11 and C05-12 (hand mirror, school timetables, 'rehousing', 'noise' and the community pharmacist viewpoint gave nothing usable)"
+  },
+  {
+   "draw_id": "C05-R12",
+   "string": "5c7a996d9a916563e631c50a4901",
+   "result": "no usable idea: counting how long a person takes to recover from minor illnesses, or recording the direction of change in frailty scores, repeats E122, E126 and E128; weather vane, cartography and 'margins' suggested only metaphors, not an accurate new angle"
+  },
+  {
+   "draw_id": "C05-R13",
+   "string": "aeb5e60432116dee75c3a96d6ec6",
+   "result": "no usable idea: the trade-offs suggested (restrictive safety measures against keeping mobility on a first night in a care home; pruning the problem list from a geriatric assessment) belong to falls (C01) and care homes (C16) or overlap C07-31 (Patient Priorities Care); nothing specific to frailty survived"
+  },
+  {
+   "draw_id": "C05-R14",
+   "string": "8c1fb3d3e6831a84325603f8f48f",
+   "result": "candidate C05-13 (rejected sub-idea: acute frailty units at the front door; the evidence found was mostly observational and hospital at home belongs to C15; suitcase, bakeries and 'distance' gave nothing usable)"
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C05-01",
+   "origin": "random",
+   "draw_id": "C05-R01",
+   "stimulus_use": "The operation 'follow the event over time' and the quality 'first impressions' suggested plotting function at three points (two weeks before admission, at admission, at discharge), where the ward team's first impression is the person at their lowest.",
+   "working_title": "Better than on admission, worse than before the illness",
+   "core_insight": "Recovery measured from the day of admission can look like steady improvement while the person still leaves hospital less able than they were two weeks before they became ill.",
+   "angle": "In a large cohort of medical inpatients aged 70 and over, about a third left hospital with worse basic daily function than two weeks before admission, and most of these had lost the ability before they arrived and did not regain it on the ward. A note that says 'mobility improving' measures from the worst day, so it hides the loss.",
+   "position": "Hospital teams should record function from about two weeks before the illness and state at discharge how far the person is from that level, not only how far they have come since admission.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "In 2,293 medical inpatients aged 70 and over, 35% had worse function in basic activities of daily living at discharge than two weeks before admission (prospective cohort: Covinsky 2003, J Am Geriatr Soc)",
+    "Of these, 23% of all patients had declined before admission and not recovered by discharge, and 12% declined only during the stay; a further 20% declined before admission and recovered by discharge (same cohort)",
+    "Decline from the pre-admission level to discharge rose with age, from 23% at 70 to 74 to 63% at 90 and over (same cohort)",
+    "Function before admission is often poorly documented in hospital notes (narrative review: Covinsky, Pierluissi and Johnston 2011, JAMA; to verify in full text)"
+   ],
+   "evidence_leads": [
+    "Covinsky KE, Palmer RM, Fortinsky RH, et al. Loss of independence in activities of daily living in older adults hospitalized with medical illnesses: increased vulnerability with age. J Am Geriatr Soc 2003;51:451-8. doi:10.1046/j.1532-5415.2003.51152.x (PubMed abstract read)",
+    "Covinsky KE, Pierluissi E, Johnston CB. Hospitalization-associated disability. JAMA 2011;306:1782-93 (PMID 22028354 found on PubMed; content not yet read)",
+    "Sager MA, Franke T, Inouye SK, et al. Functional outcomes of acute medical illness and hospitalization in older persons. Arch Intern Med 1996;156:645-52 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A person can improve every day in hospital and still go home less able than they were a fortnight before they fell ill.",
+   "visual_idea": "Diagram plus icon array. Left: a three-point line labelled 'Illustrative example' (two weeks before, admission, discharge) with one bracket marked 'improvement since admission' and a second marked 'still below the level before the illness'. Right: an icon array of 100 people aged 70 and over from Covinsky 2003 showing 23 who declined before admission and did not recover, 12 who declined during the stay and 20 who declined and recovered, each group labelled, not colour alone.",
+   "pause": "Ward staff recognise 'mobility improving' from their own notes and see what it leaves out.",
+   "gain": "A clear reference point for measuring recovery and a sentence to use in discharge letters.",
+   "follow": "The account shows how the choice of measure changes what clinicians see.",
+   "earlier_overlap": "E127 (score the CFS for two weeks ago, not on the day of illness) is nearest; that was about frailty scoring, this is about how recovery is measured and reported at discharge. C02-12 in this collection uses Boyd 2008 on recovery after discharge, a different point.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-02",
+   "origin": "random",
+   "draw_id": "C05-R02",
+   "stimulus_use": "The operation 'find an outcome that patients value and the routine measure misses', with the physiotherapist viewpoint and the quality 'what is left over', pointed to the extra effort and changed method behind a task that is still scored as independent.",
+   "working_title": "Still doing it, but doing it differently",
+   "core_insight": "Many older people keep doing a task by changing how or how often they do it before they report any difficulty, and this stage (called preclinical disability) is linked with later loss of ability, yet a yes or no question about difficulty misses it.",
+   "angle": "The question 'Do you have difficulty with stairs?' misses the person who now takes them one at a time with both hands on the rail. Asking 'Have you changed how you do it, or how often?' finds people at an earlier stage, when strength and balance work has more to work with.",
+   "position": "Functional histories in older people should include a question about changed method or frequency, because it identifies people before difficulty and dependence begin.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Older women who reported changing how or how often they did a task, without reporting difficulty, had objective walking speed, balance and strength between those of women with no change and women with difficulty (cross-sectional analysis: Fried 2001, J Clin Epidemiol, Women's Health and Aging Study II)",
+    "Women aged 70 to 79 who developed preclinical mobility disability were more likely 1.5 years later to report new walking difficulty and to stop walking 8 blocks outdoors (prospective cohort: Weiss 2011, Arch Gerontol Geriatr)",
+    "Preclinical mobility disability predicts incident mobility disability (prospective cohort: Fried 2000, J Gerontol A; to verify)",
+    "Limitation to state: the studies were in initially high-functioning women aged 70 to 79 in Baltimore"
+   ],
+   "evidence_leads": [
+    "Fried LP, Young Y, Rubin G, Bandeen-Roche K. Self-reported preclinical disability identifies older women with early declines in performance and early disease. J Clin Epidemiol 2001;54:889-901. doi:10.1016/s0895-4356(01)00357-2 (PubMed abstract read)",
+    "Weiss CO, Wolff JL, Egleston B, Seplaki CL, Fried LP. Incident preclinical mobility disability (PCMD) increases future risk of new difficulty walking and reduction in walking activity. Arch Gerontol Geriatr 2012;54:e329-33. doi:10.1016/j.archger.2011.08.018 (PubMed abstract read)",
+    "Fried LP, Bandeen-Roche K, Chaves PH, Johnson BA. Preclinical mobility disability predicts incident mobility disability in older women. J Gerontol A Biol Sci Med Sci 2000;55:M43-52 (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Someone who now takes the stairs one at a time, holding the rail with both hands, may still answer 'no difficulty'.",
+   "visual_idea": "Comparison card with three columns for one task (stairs): 'No change', 'Changed how or how often' and 'Difficulty or needs help', each with a short plain example and a small drawn figure. Bottom line gives the question to ask: 'Have you changed how you do this, or how often?'",
+   "pause": "Clinicians realise their usual question has a gap they can close in one sentence.",
+   "gain": "A specific extra question and the evidence that it picks up people earlier.",
+   "follow": "Practical history-taking points that change what gets found.",
+   "earlier_overlap": "E126 (weight loss, slower walking and needing help are easier to spot than a score) is nearest; this adds a defined, evidence-based stage before difficulty. C01-13 in this collection asks what has stopped; this is about tasks that continue in a changed way.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-03",
+   "origin": "random",
+   "draw_id": "C05-R03",
+   "stimulus_use": "The operation 'count something nobody counts' with the son viewpoint and the quality 'redundancy' suggested counting the people behind someone recorded as independent, and asking who covers when one of them is away.",
+   "working_title": "'Independent' needs a list of names",
+   "core_insight": "'Lives alone, independent' can hide regular help from family, neighbours or services; asking who does each task (shopping, meals, medicines, money, laundry, transport) gives a truer picture of function and a more accurate frailty score, and shows how fragile the arrangement is.",
+   "angle": "The Clinical Frailty Scale separates its middle levels by whether a person needs help with tasks such as finances, transport, heavy housework, shopping and meals. A history that records only 'independent' can't score those levels correctly, and it misses the question that predicts a crisis: who covers if the helper is ill or away?",
+   "position": "A functional history should record who does each instrumental task and how often, and who would cover if that person were unavailable, instead of a single word.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "CFS 5 (living with mild frailty) is defined by needing help with higher-order instrumental activities such as finances, transport and heavy housework, and CFS 6 by needing help with all outside activities and with keeping house (CFS version 2.0 level descriptions: Rockwood and Theou 2020, Can Geriatr J; wording to verify in the figure)",
+    "The Lawton instrumental activities scale covers telephone, shopping, food preparation, housekeeping, laundry, transport, own medicines and finances (original instrument paper: Lawton and Brody 1969)",
+    "Many older people living at home receive regular unpaid help with daily tasks from family, friends or neighbours (national survey: Health Survey for England social care module or ELSA; source and figure to find)"
+   ],
+   "evidence_leads": [
+    "Rockwood K, Theou O. Using the Clinical Frailty Scale in allocating scarce health care resources. Can Geriatr J 2020;23:210-5. doi:10.5770/cgj.23.463 (PubMed abstract read; level descriptions in the full-text figure)",
+    "Lawton MP, Brody EM. Assessment of older people: self-maintaining and instrumental activities of daily living. Gerontologist 1969;9:179-86",
+    "NHS Digital. Health Survey for England 2018: social care for older adults (unsure of year and table)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "'Lives alone, independent' tells the next clinician nothing about who does the shopping.",
+   "visual_idea": "Checklist card laid out as a small table: tasks down the left (shopping, meals, medicines, money, laundry, bins, getting to appointments), columns 'Does it themselves', 'Who helps' and 'How often'. Final row in burnt orange text: 'If that person is away, who covers?'",
+   "pause": "Most clinicians have written 'independent' in a history and know how much it can hide.",
+   "gain": "A quick structure that improves both the frailty score and the discharge plan.",
+   "follow": "Teaching points that make routine documentation more useful.",
+   "earlier_overlap": "E149 (the family's one-page baseline) is nearest; that was written for families in a delirium context, this is clinician history-taking about hidden help and its effect on frailty scoring. C16-05 in this collection (which tasks the person keeps) concerns home care, a different point.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-04",
+   "origin": "random",
+   "draw_id": "C05-R04",
+   "stimulus_use": "The operation 'find the first question worth asking' from the viewpoint of a researcher designing a trial gave the first question to ask of any frailty study: which frailty measure decided who was frail?",
+   "working_title": "Which frailty?",
+   "core_insight": "Different frailty tools label different people as frail: in one English cohort, 35 published frailty scores often disagreed about which individuals were frail, so results from a study using one tool can't be assumed to apply to people identified with another.",
+   "angle": "Reported frailty prevalence in community studies ranges from 4% to 59% depending on the definition. A trial 'in frail older people' may have enrolled people quite unlike the patients labelled frail in your clinic by a different tool.",
+   "position": "When a study, guideline or service uses the word frail, the first question is which tool and which cut-off was used; results should be applied to people identified in the same way.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In 5,377 participants aged 60 and over in the English Longitudinal Study of Ageing, agreement between 35 frailty scores in classifying individuals ranged from Cohen's kappa 0.10 to 0.83, that is from little better than chance to strong agreement (cohort analysis: Aguayo 2017, Am J Epidemiol)",
+    "The authors concluded that most pairs of scores can't be assumed to be interchangeable and that results based on different scores can't be compared or pooled (Aguayo 2017)",
+    "Reported community prevalence of frailty ranged from 4.0% to 59.1% across studies; pooled prevalence was 9.9% with physical definitions and 13.6% with broader definitions (systematic review: Collard 2012, J Am Geriatr Soc)"
+   ],
+   "evidence_leads": [
+    "Aguayo GA, Donneau AF, Vaillant MT, et al. Agreement between 35 published frailty scores in the general population. Am J Epidemiol 2017;186:420-34. doi:10.1093/aje/kwx061 (PubMed abstract read)",
+    "Collard RM, Boter H, Schoevers RA, Oude Voshaar RC. Prevalence of frailty in community-dwelling older persons: a systematic review. J Am Geriatr Soc 2012;60:1487-92. doi:10.1111/j.1532-5415.2012.04054.x (PubMed abstract read)",
+    "O'Caoimh R, Sezgin D, O'Donovan MR, et al. Prevalence of frailty in 62 countries across the world: a systematic review and meta-analysis of population-level studies. Age Ageing 2021;50:96-104 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Two studies of 'frail older people' can have enrolled quite different people.",
+   "visual_idea": "Accurate range chart: one horizontal bar from 4% to 59% labelled 'reported prevalence across community studies', with two marked points for the pooled physical (about 10%) and broader (about 14%) estimates, source line Collard 2012. Second panel: a plain sentence on the ELSA comparison of 35 scores.",
+   "pause": "Practitioners who apply trial results to their own frail patients see an assumption they have not checked.",
+   "gain": "One question to ask before using any frailty study.",
+   "follow": "Careful evidence reading without jargon.",
+   "earlier_overlap": "none; E121 to E134 did not address differences between frailty measures.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-05",
+   "origin": "random",
+   "draw_id": "C05-R05",
+   "stimulus_use": "The operation 'apply it to the poorest or most isolated person' and the quality 'defaults' prompted a look at the default age of 65 used to start looking for frailty, and at who that default misses.",
+   "working_title": "Frailty before 65, and more often in poorer areas",
+   "core_insight": "Frailty is found in middle age as well as later life, and in UK Biobank it was linked with socioeconomic deprivation and with having several long-term conditions, so services that only look for frailty from 65 can miss people in poorer areas who become frail earlier.",
+   "angle": "In nearly half a million UK adults aged 37 to 73, about 3 in 100 met frailty criteria and frailty was linked with deprivation and with higher mortality at every age band studied except women aged 37 to 45. English general practice frailty identification was set up for people aged 65 and over, and the Clinical Frailty Scale is not widely validated in younger adults, so the right tool matters as much as the age.",
+   "position": "Looking for frailty should be triggered by need (several long-term conditions, falls, declining function) as well as by age; an age threshold alone will miss more people from poorer areas. This is a judgement grounded in the evidence on distribution, and it should be marked as such.",
+   "audience": "both",
+   "series": "Who gets left out",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "In 493,737 UK Biobank participants aged 37 to 73, 3% met the frailty phenotype and 38% were pre-frail (cohort analysis: Hanlon 2018, Lancet Public Health)",
+    "Frailty was associated with socioeconomic deprivation, multimorbidity, smoking and obesity (same study)",
+    "Frailty and pre-frailty were associated with mortality in all age and sex strata except women aged 37 to 45, after adjustment (same study)",
+    "UK Biobank participants are healthier and less deprived than the UK population, so these figures probably understate frailty in middle age (UK Biobank representativeness paper, e.g. Fry 2017 Am J Epidemiol; to verify)",
+    "In England, identification of moderate and severe frailty in general practice became a contractual requirement in 2017 for patients aged 65 and over (official GMS contract document; the 2017 date is in Travers 2019 BJGP abstract, the age limit to verify)",
+    "The Clinical Frailty Scale is not widely validated in younger people (Rockwood and Theou 2020)",
+    "In Scotland, multimorbidity begins 10 to 15 years earlier in the most deprived areas than in the most affluent (cross-sectional study: Barnett 2012, Lancet; wording to verify)"
+   ],
+   "evidence_leads": [
+    "Hanlon P, Nicholl BI, Jani BD, et al. Frailty and pre-frailty in middle-aged and older adults and its association with multimorbidity and mortality: a prospective analysis of 493 737 UK Biobank participants. Lancet Public Health 2018;3:e323-32. doi:10.1016/S2468-2667(18)30091-4 (PubMed abstract read)",
+    "Barnett K, Mercer SW, Norbury M, et al. Epidemiology of multimorbidity and implications for health care, research, and medical education: a cross-sectional study. Lancet 2012;380:37-43 (unsure of exact wording on the 10 to 15 year gap)",
+    "Travers J, Romero-Ortuno R, Bailey J, Cooney MT. Delaying and reversing frailty: a systematic review of primary care interventions. Br J Gen Pract 2019;69:e61-9. doi:10.3399/bjgp18X700241 (PubMed abstract read; states 2017 contractual requirement)",
+    "Fry A, Littlejohns TJ, Sudlow C, et al. Comparison of sociodemographic and health-related characteristics of UK Biobank participants with those of the general population. Am J Epidemiol 2017;186:1026-34 (unsure)",
+    "Rockwood K, Theou O. Can Geriatr J 2020;23:210-5 (PubMed abstract read)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "In a study of nearly half a million UK adults aged 37 to 73, about [N to verify] in 100 already met the criteria for frailty.",
+   "visual_idea": "Diagram: an age line from 40 to 90 with a marker at 65 labelled 'where routine frailty identification in English general practice starts'. The band before 65 is shaded and labelled 'frailty is also found here, more often in deprived areas (UK Biobank)'. No invented curve; if an age-band chart is used, only with figures from the Hanlon full text.",
+   "pause": "Readers assume frailty is an old-age problem; the age range of the study stops them.",
+   "gain": "A clear reason to look for frailty by need, and an understanding of who is missed.",
+   "follow": "Specific evidence on inequality in health, without slogans.",
+   "earlier_overlap": "E074 (falls guidance now includes some people under 65) is nearest; that concerned falls, this concerns frailty and deprivation. Note the connection with C05-17: frailty occurs in younger adults, but the CFS is not the validated tool for them.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-06",
+   "origin": "random",
+   "draw_id": "C05-R06",
+   "stimulus_use": "The operation 'find an outcome that patients value and the routine measure misses', with the process 'adjusting' (setting a measure to the individual), led to goal attainment scaling.",
+   "working_title": "The measure that found the benefit",
+   "core_insight": "In a randomised trial of a geriatric assessment team for frail older people, goal attainment scaling, which scores progress on each person's own goals, was the only measure that detected clinically important change; standard function and quality-of-life scales did not.",
+   "angle": "If a service for frail people is judged only on standard scales, it can look ineffective while helping people with the things they asked for. Personal goals are measurable when the levels of success are agreed in advance.",
+   "position": "Evaluations of assessment and rehabilitation services for frail older people should include a measure of each person's own goals alongside standard scales.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In a randomised trial of an interdisciplinary mobile geriatric assessment team in 265 rural frail older adults, goal attainment scaling was the most responsive measure at 3 months compared with the Barthel index, the Physical Self-Maintenance Scale, an instrumental activities scale and the Spitzer quality-of-life index (RCT secondary analysis: Rockwood 2003, J Clin Epidemiol)",
+    "Only goal attainment scaling detected clinically important change associated with the intervention (same paper)",
+    "In goal attainment scaling each goal has five levels of attainment set before treatment, from much worse than expected to much better than expected (method paper: Kiresuk and Sherman 1968)",
+    "Limitation to state: goal ratings are harder to blind and depend on how goals are set"
+   ],
+   "evidence_leads": [
+    "Rockwood K, Howlett S, Stadnyk K, et al. Responsiveness of goal attainment scaling in a randomized controlled trial of comprehensive geriatric assessment. J Clin Epidemiol 2003;56:736-43. doi:10.1016/s0895-4356(03)00132-x (PubMed abstract read)",
+    "Kiresuk TJ, Sherman RE. Goal attainment scaling: a general method for evaluating comprehensive community mental health programs. Community Ment Health J 1968;4:443-53",
+    "van Oppen JD, Conroy SP, Lalseta J, et al. The patient-reported outcome measure for older people living with frailty receiving acute care (PROM-OPAC). J Patient Rep Outcomes 2024;8:119. doi:10.1186/s41687-024-00796-8 (PubMed abstract read; supporting context)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "In one trial of a geriatric assessment service, the only outcome measure that picked up a clinically important benefit was progress on each person's own goals.",
+   "visual_idea": "Illustrated scale card labelled 'Illustrative example': one goal ('walk to the post box and back') with five levels from 'much worse than expected' to 'much better than expected', set before treatment. Beside it, the single Barthel mobility item for comparison. Credit line Rockwood 2003.",
+   "pause": "Service leads and researchers see that their choice of outcome can hide a real benefit.",
+   "gain": "A named, practical method for measuring what the person wants.",
+   "follow": "The account treats measurement as part of good care.",
+   "earlier_overlap": "E129 (a good frailty conversation includes what the person still wants) is nearest; this is about measuring outcomes against the person's goals, with trial evidence.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-07",
+   "origin": "random",
+   "draw_id": "C05-R07",
+   "stimulus_use": "The operation 'reverse the default assumption' was applied to the common belief that frailty only ever gets worse.",
+   "working_title": "Frailty can change in both directions",
+   "core_insight": "Frailty often changes over time and some people become less frail; in pooled studies over about four years, roughly 1 in 7 older people improved, and exercise to build strength combined with enough protein has the most consistent evidence for delaying or reversing frailty.",
+   "angle": "Improvement is most common among people in the early stage (pre-frail): about a quarter returned to robust, while only about 3 in 100 people who were frail became fully robust, though about 40 in 100 moved to a milder stage. So the best time to act is early, and action is still worthwhile later.",
+   "position": "If you have been told you are frail or becoming frail, ask for the assessment to be repeated over time and ask about strength exercise and nutrition, because frailty can improve.",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Among 42,775 community-dwelling older people in 16 studies (mean follow-up 3.9 years), 13.7% improved in frailty status, 29.1% worsened and 56.5% stayed the same (systematic review and meta-analysis: Kojima 2019, Ageing Res Rev; frailty phenotype only)",
+    "Of people frail at baseline, 3.3% became robust, 40.3% became pre-frail and 54.5% remained frail; of those pre-frail, 23.1% became robust (same review)",
+    "In a US cohort, transitions from frail to non-frail within 18 months were very rare (0% to 0.9%), while transitions to greater frailty were more common than to lesser frailty (cohort: Gill 2006, Arch Intern Med)",
+    "In a systematic review of primary care interventions, strength training combined with protein supplementation was ranked most effective and easiest to implement (systematic review: Travers 2019, BJGP)",
+    "In a Singapore RCT of prefrail and frail adults (mean age 70), 6-month physical, nutritional, cognitive and combined interventions each reduced frailty more than usual care, though frailty also fell in 15% of controls (RCT: Ng 2015, Am J Med)"
+   ],
+   "evidence_leads": [
+    "Kojima G, Taniguchi Y, Iliffe S, Jivraj S, Walters K. Transitions between frailty states among community-dwelling older people: a systematic review and meta-analysis. Ageing Res Rev 2019;50:81-8. doi:10.1016/j.arr.2019.01.010 (PubMed abstract read)",
+    "Gill TM, Gahbauer EA, Allore HG, Han L. Transitions between frailty states among community-living older persons. Arch Intern Med 2006;166:418-23. doi:10.1001/archinte.166.4.418 (PubMed abstract read)",
+    "Travers J, Romero-Ortuno R, Bailey J, Cooney MT. Br J Gen Pract 2019;69:e61-9. doi:10.3399/bjgp18X700241 (PubMed abstract read)",
+    "Ng TP, Feng L, Nyunt MSZ, et al. Nutritional, physical, cognitive, and combination interventions and frailty reversal among older adults: a randomized controlled trial. Am J Med 2015;128:1225-36. doi:10.1016/j.amjmed.2015.06.017 (PubMed abstract read)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "In studies that followed older people for about four years, around [N to verify] in 100 became less frail over that time.",
+   "visual_idea": "Diagram: three labelled boxes (robust, pre-frail, frail) with arrows in both directions, each arrow labelled with the pooled percentage from Kojima 2019, arrow thickness matching the size. Footnote: 'Community studies using the frailty phenotype; average follow-up about 4 years.'",
+   "pause": "People who have been told they are frail rarely hear that it can improve.",
+   "gain": "Realistic hope, with numbers, and two things to ask about.",
+   "follow": "The account gives balanced evidence to older people directly.",
+   "earlier_overlap": "E121 and E124 (frailty as lost reserve; frailty is no reason for 'do not bother') are nearest; this adds evidence that frailty status changes and can improve, and what helps.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-08",
+   "origin": "random",
+   "draw_id": "C05-R08",
+   "stimulus_use": "The operation 'reverse the default assumption' with the quality 'sequence' questioned the idea that a thorough assessment helps wherever it is done, and put the sequence of assessing, planning, acting and following up at the centre.",
+   "working_title": "Where comprehensive geriatric assessment has shown benefit",
+   "core_insight": "Comprehensive geriatric assessment in hospital has high-certainty trial evidence that more people are alive and living at home months later, while for frail older people living at home, trials showed little or no difference in death or care home admission and only low-certainty evidence of fewer unplanned admissions.",
+   "angle": "The same name covers different services. The Cochrane definition describes a diagnostic and therapeutic process that ends in a coordinated plan with follow-up, not an assessment form, and the strongest evidence comes from hospital services tested on that model.",
+   "position": "Services that call themselves comprehensive geriatric assessment should be judged on whether they deliver and follow up a plan, and claims for community services should match the more modest evidence.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In 29 trials (13,766 participants), hospital CGA increased the likelihood of being alive and in one's own home at 3 to 12 months (RR 1.06; high certainty) and reduced nursing home admission (RR 0.80; high certainty), with little or no difference in mortality or dependence (Cochrane review: Ellis 2017)",
+    "Absolute effects per 1,000 people for these outcomes (Cochrane summary of findings table; to extract from full text)",
+    "In 21 studies (7,893 participants), CGA for community-dwelling frail older people probably made little or no difference to mortality, made little or no difference to nursing home admission (high certainty), and may reduce unplanned hospital admission (RR 0.83; low certainty) (Cochrane review: Briggs 2022)",
+    "CGA is defined as a multidimensional, multidisciplinary diagnostic and therapeutic process that leads to a coordinated plan for treatment and follow-up (Ellis 2017 background)",
+    "The 2011 meta-analysis suggested larger benefit from designated wards than from visiting teams; the 2017 update judged this comparison underpowered (Ellis 2011 BMJ; Ellis 2017)"
+   ],
+   "evidence_leads": [
+    "Ellis G, Gardner M, Tsiachristas A, et al. Comprehensive geriatric assessment for older adults admitted to hospital. Cochrane Database Syst Rev 2017;9:CD006211. doi:10.1002/14651858.CD006211.pub3 (PubMed abstract read)",
+    "Briggs R, McDonough A, Ellis G, et al. Comprehensive Geriatric Assessment for community-dwelling, high-risk, frail, older people. Cochrane Database Syst Rev 2022;5:CD012705. doi:10.1002/14651858.CD012705.pub2 (PubMed abstract read)",
+    "Ellis G, Whitehead MA, Robinson D, O'Neill D, Langhorne P. Comprehensive geriatric assessment for older adults admitted to hospital: meta-analysis of randomised controlled trials. BMJ 2011;343:d6553. doi:10.1136/bmj.d6553 (PubMed abstract read)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Comprehensive geriatric assessment has strong trial evidence in hospital and much weaker evidence for frail people living at home.",
+   "visual_idea": "Comparison card with two columns, 'In hospital (29 trials)' and 'Frail older people at home (21 studies)'; rows for alive and at home, care home admission, death and unplanned admission, each cell in plain words with a certainty label ('high certainty', 'low certainty'). Credit line: Ellis 2017; Briggs 2022, Cochrane.",
+   "pause": "Many readers assume the evidence for CGA is the same everywhere.",
+   "gain": "An accurate summary of where the evidence is strong, and a test for any service using the name.",
+   "follow": "Balanced reading of evidence that supports geriatric medicine without overclaiming.",
+   "earlier_overlap": "E132 (ask whether CGA is available) is nearest; this interprets the evidence by setting and states the limits.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-09",
+   "origin": "random",
+   "draw_id": "C05-R09",
+   "stimulus_use": "The operation 'find an outcome that patients value and the routine measure misses', with the community pharmacist viewpoint, pointed to managing one's own medicines, one of several tasks for living at home that the Barthel index does not score.",
+   "working_title": "Full marks on the Barthel, and still unable to manage at home",
+   "core_insight": "The Barthel index scores 10 basic activities and none of the instrumental tasks needed to live at home, such as shopping, cooking, managing medicines and money, so a person can score full marks on a ward and still be unable to manage alone.",
+   "angle": "A Barthel score is usually measured in a hospital bay where meals arrive and medicines are handed out. The tasks that decide whether someone can live alone are measured by other scales and are best assessed in or near the setting the person is going home to.",
+   "position": "Discharge planning and rehabilitation goals should include instrumental activities, assessed in a realistic setting, and should never rest on a Barthel score alone.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "The Barthel index covers 10 items: feeding, bathing, grooming, dressing, bowels, bladder, toilet use, transfers, mobility and stairs (original instrument paper: Mahoney and Barthel 1965; Collin 1988 reliability study)",
+    "The Lawton instrumental activities scale covers telephone use, shopping, food preparation, housekeeping, laundry, transport, responsibility for own medicines and handling finances (instrument paper: Lawton and Brody 1969)",
+    "The Barthel index has a ceiling effect in people with milder disability (measurement review; source to find, e.g. Sainsbury 2005 Age Ageing, unsure)"
+   ],
+   "evidence_leads": [
+    "Mahoney FI, Barthel DW. Functional evaluation: the Barthel Index. Md State Med J 1965;14:61-5",
+    "Collin C, Wade DT, Davies S, Horne V. The Barthel ADL Index: a reliability study. Int Disabil Stud 1988;10:61-3",
+    "Lawton MP, Brody EM. Gerontologist 1969;9:179-86",
+    "Sainsbury A, Seebass G, Bansal A, Young JB. Reliability of the Barthel Index when used with older people. Age Ageing 2005;34:228-32 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A top score on the Barthel index says nothing about whether someone can shop, cook or sort out their own tablets.",
+   "visual_idea": "Comparison card: left column 'Scored by the Barthel index' listing the 10 items; right column 'Not scored by it' listing shopping, cooking, medicines, money, laundry, transport, telephone. Small drawings of a hospital bay tray on the left and a home kitchen on the right.",
+   "pause": "Clinicians who use the Barthel daily see its limits laid out plainly.",
+   "gain": "A clear rule for discharge assessment.",
+   "follow": "Useful teaching on the tools clinicians already use.",
+   "earlier_overlap": "none close; C02-23 (life-space) and C07-06 (days at home) in this collection address different gaps in measurement.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-10",
+   "origin": "random",
+   "draw_id": "C05-R10",
+   "stimulus_use": "The operation 'name the trade-off openly', with the process 'translating' and the GP viewpoint, prompted the trade-off between using the word frail with a person and translating the assessment into what it means for them.",
+   "working_title": "Telling someone they are frail",
+   "core_insight": "Many older people dislike the word frail and hear it as a judgement on who they are, yet they want to know their risks and what might prevent or improve them, and that information can be given without relying on the label.",
+   "angle": "Openness about vulnerability is needed for shared decisions; a label heard as a verdict may discourage the activity that helps. The trade-off deserves to be named: honesty about risk against a word some people experience as stigma. In one study, people who were frail were more willing to discuss it than those who were not.",
+   "position": "Explain what a frailty assessment found as specific risks, strengths and actions, check how the person understands the word frail, and use it with care.",
+   "audience": "both",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "In US focus groups with 29 community-dwelling older adults, perceptions of frailty differed from the medical definition; participants who were frail were more receptive to discussing it; many felt the information could be given without the word frail, which had a negative connotation (qualitative study: Schoenborn 2018, BMC Geriatr)",
+    "Participants wanted to know how to treat or prevent frailty and what risks it carries (same study)",
+    "UK older people interviewed about frailty resisted identifying as frail and linked the label with loss of identity (qualitative study: Warmoth 2016, Ageing and Society; not on PubMed, to verify)",
+    "Strength training with protein supplementation has the most consistent evidence for delaying or reversing frailty (systematic review: Travers 2019)"
+   ],
+   "evidence_leads": [
+    "Schoenborn NL, Van Pilsum Rasmussen SE, Xue QL, et al. Older adults' perceptions and informational needs regarding frailty. BMC Geriatr 2018;18:46. doi:10.1186/s12877-018-0741-3 (PubMed abstract read)",
+    "Warmoth K, Lang IA, Phoenix C, et al. 'Thinking you're old and frail': a qualitative study of frailty in older adults. Ageing Soc 2016;36:1483-1500 (unsure)",
+    "Age UK and British Geriatrics Society. Frailty: language and perceptions. 2015 (unsure of title and year)",
+    "Travers J et al. Br J Gen Pract 2019;69:e61-9 (PubMed abstract read)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Many older people want to know their risks and what might help, and many dislike being called frail.",
+   "visual_idea": "Comparison card labelled 'Illustrative wording': left, a single line 'You are frail'; right, the same assessment translated into a specific finding, the risk it raises and what can be done, for example slower walking and weaker legs, a higher chance of falling, and strength exercise with enough protein. Footer with the series name.",
+   "pause": "Clinicians who use the word daily, and older people who have heard it, both recognise the problem.",
+   "gain": "A way to be honest about risk that the person is more likely to accept and act on.",
+   "follow": "The account takes older people's views seriously and gives practical wording.",
+   "earlier_overlap": "E121 (frailty is not an insult; it is lost reserve) is nearest; that defended the word's meaning, this weighs using it with the person, with evidence on how older people hear it.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-11",
+   "origin": "random",
+   "draw_id": "C05-R11",
+   "stimulus_use": "The operation 'ask what would change the decision' became a question an older person can ask when frailty is given as the reason against an operation.",
+   "working_title": "Told you are too frail for an operation? Ask which parts could change",
+   "core_insight": "Frailty raises the risks of surgery, but some of the problems that add to it can be assessed and sometimes improved before planned surgery, and UK guidance from 2021 recommends identifying frailty and involving geriatric assessment throughout the surgical pathway.",
+   "angle": "Asking 'What would need to change for this to be offered?' turns a verdict into information: which risks are fixed, which can be improved and how long that would take, or why another treatment is better.",
+   "position": "When frailty is the reason given against an operation, the person should be told which parts of the risk are fixed and which could be improved, and whether a geriatric assessment has been done.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "Frailty predicts adverse outcomes after both elective and emergency surgery (guideline commentary: Partridge 2022, Age Ageing)",
+    "A 2021 guideline from the Centre for Perioperative Care and the British Geriatrics Society covers identifying frailty and using comprehensive geriatric assessment and optimisation across the surgical pathway (guideline document; summary in Partridge 2022)",
+    "The guideline names specific problems to assess and improve before surgery, such as anaemia, nutrition, medicines and physical fitness (guideline full text; to verify which are named)",
+    "In older adults having emergency abdominal surgery, frailty predicted needing more care at discharge more strongly than age (cohort: Carter 2020, Br J Surg)"
+   ],
+   "evidence_leads": [
+    "Centre for Perioperative Care and British Geriatrics Society. Guideline for perioperative care for people living with frailty undergoing elective and emergency surgery. 2021 (official document; unsure it can be opened)",
+    "Partridge JSL, Ryan J, Dhesi JK. New guidelines for the perioperative care of people living with frailty undergoing elective and emergency surgery: a commentary. Age Ageing 2022;51:afac237. doi:10.1093/ageing/afac237 (PubMed abstract read)",
+    "Carter B, Law J, Hewitt J, et al. Association between preadmission frailty and care level at discharge in older adults undergoing emergency laparotomy. Br J Surg 2020;107:218-26. doi:10.1002/bjs.11392 (PubMed abstract read)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "If you are told you are too frail for an operation, you can ask which parts of that risk could change.",
+   "visual_idea": "Question card with three numbered questions: 'What makes the risk high for me?', 'Which of those could be improved before surgery, and how long would that take?', 'Has a geriatric assessment been done?'. A drawn older person and a relative sitting with a surgeon, all seated at the same level.",
+   "pause": "Being told 'too frail' is a common and discouraging experience for older people and families.",
+   "gain": "Three questions that lead to a clearer explanation or a plan.",
+   "follow": "The account helps older people take part in decisions about their own care.",
+   "earlier_overlap": "E134 ('too frail for rehab': ask what they mean) is the nearest; this applies the question to surgery, uses the 2021 perioperative guideline and focuses on which risks can change. Also related to C05-22 (practitioner evidence on frailty and emergency surgery).",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-12",
+   "origin": "random",
+   "draw_id": "C05-R11",
+   "stimulus_use": "The same draw's operation, 'ask what would change the decision', led to the point that when a frailty score will change a decision, the way it is scored has to be reliable.",
+   "working_title": "If the frailty score will change the decision, score it carefully",
+   "core_insight": "The Clinical Frailty Scale was designed to summarise a geriatric assessment but is now scored by many staff without frailty training; a published classification tree helps less experienced staff score it close to expert ratings.",
+   "angle": "In a validation study, scores from the classification tree were the same as, or within one level of, geriatricians' scores for 93 in 100 people. One level can cross a threshold that a pathway uses, so the method and the source of information should be recorded.",
+   "position": "Where a CFS score informs a decision, staff should use a structured method such as the classification tree, take a history from someone who knows the person, and record how the score was reached.",
+   "audience": "practitioners",
+   "series": "Small detail, real effect",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "The CFS was originally developed to summarise a comprehensive geriatric assessment and yield a care plan, and since COVID-19 has been widely used by professionals without training in frailty care, including for resource allocation (validation study introduction: Theou 2021, Age Ageing)",
+    "In 115 older adults, CFS scores from the classification tree agreed with geriatricians' scores (intraclass correlation 0.83) and were the same or within one level in 93% (same study)",
+    "Compared with scores from junior doctors, the tree agreed within one level in 88.5% (same study)",
+    "The CFS describes the person's baseline state and requires clinical judgement (Rockwood and Theou 2020)",
+    "Some care pathways use CFS thresholds (for example 5 or more) to trigger decisions or referral (pathway or guideline documents; examples to find and verify)"
+   ],
+   "evidence_leads": [
+    "Theou O, Perez-Zepeda MU, van der Valk AM, et al. A classification tree to assist with routine scoring of the Clinical Frailty Scale. Age Ageing 2021;50:1406-11. doi:10.1093/ageing/afab006 (PubMed abstract read; single centre)",
+    "Rockwood K, Theou O. Can Geriatr J 2020;23:210-5. doi:10.5770/cgj.23.463 (PubMed abstract read)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A frailty score that is one level too high can move a person across a threshold that changes what they are offered.",
+   "visual_idea": "Icon array of 100 people from Theou 2021: 93 marked 'same or within one level of the geriatrician', 7 marked 'differed by more', distinguished by shape and label as well as colour. Caption line naming the classification tree and where to find it (check the CFS licence terms before reproducing any part of the scale).",
+   "pause": "Staff who score the CFS quickly at the front door recognise the stakes.",
+   "gain": "A named tool and a habit (record how the score was reached).",
+   "follow": "Practical, specific improvements to common clinical tools.",
+   "earlier_overlap": "E127 (don't score the CFS from the end of the bed during acute illness) and E123 (CFS and 4AT do different jobs) are nearest; this adds a structured scoring method with evidence of reliability.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-13",
+   "origin": "random",
+   "draw_id": "C05-R14",
+   "stimulus_use": "The operation 'reverse the default assumption', with the service manager viewpoint and 'the first 48 hours', reversed the usual starting point of emergency care measures (waiting time, admission avoided) to ask what the person wanted from those first days.",
+   "working_title": "What people living with frailty want from emergency care",
+   "core_insight": "When people living with frailty were interviewed in their first 72 hours of emergency hospital care, the outcomes they wanted were about autonomy (information, control and feeling secure) and about functioning, which routine acute care measures do not record.",
+   "angle": "A theme new to the literature was security: wanting to feel safe in their usual home with their health problems. People with milder frailty wanted to keep supporting the people they love. A patient-reported measure built on this has since been field-tested.",
+   "position": "Acute services for older people living with frailty should ask and record what the person wants from the visit, alongside waiting times and admission rates.",
+   "audience": "both",
+   "series": "What gets counted",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In a UK interview study of 22 people aged 71 to 98 with Clinical Frailty Scale 5 to 8, recruited in their first 72 hours in hospital, outcome goals grouped into autonomy (information, control, security) and functioning (physical, psychosocial, relief) (qualitative study: van Oppen 2022, BMC Geriatr)",
+    "Participants described a wish to feel safe in their usual place of living and with their health problems (same study)",
+    "People with milder frailty were concerned to keep supporting loved ones (same study; the abstract text on severe frailty is cut off and needs full-text reading)",
+    "A patient-reported outcome measure for older people with frailty in acute care (PROM-OPAC) was field-tested in 241 people with acceptable reliability (validation study: van Oppen 2024, J Patient Rep Outcomes)"
+   ],
+   "evidence_leads": [
+    "van Oppen JD, Coats TJ, Conroy SP, et al. What matters most in acute care: an interview study with older people living with frailty. BMC Geriatr 2022;22:156. doi:10.1186/s12877-022-02798-x (PubMed abstract read; author order and page to verify)",
+    "van Oppen JD, Conroy SP, Lalseta J, et al. J Patient Rep Outcomes 2024;8:119. doi:10.1186/s41687-024-00796-8 (PubMed abstract read)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "When people living with frailty were asked what they wanted from emergency hospital care, they talked about information, control and feeling safe at home.",
+   "visual_idea": "Comparison card: left column 'What acute services usually record' (time in the department, admitted or not, length of stay); right column 'What people living with frailty said they wanted' (to understand what is happening, to have a say, to feel safe at home, to be able to do things, relief of symptoms), taken from the study's themes. Credit line van Oppen 2022.",
+   "pause": "Staff and families recognise that the usual measures leave the person's own aims out.",
+   "gain": "Specific outcomes to ask about in the first conversation.",
+   "follow": "The account puts older people's own words at the centre of how services are judged.",
+   "earlier_overlap": "none in the earlier set; C15 in this collection may cover emergency waits, but this is about outcome goals.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-14",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Most people over 85 living at home are not frail",
+   "core_insight": "Frailty becomes more common with age, but in pooled community studies about 1 in 10 people aged 65 and over were frail, and even among those aged 85 and over most were not, so age alone does not tell you who is frail.",
+   "angle": "A 90-year-old should not be assumed to be frail, and a 70-year-old can be. The figures also depend on which frailty definition is used, which should be said plainly alongside them.",
+   "position": "Frailty should be assessed, not assumed from a person's age.",
+   "audience": "both",
+   "series": "Reading the evidence",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "The pooled prevalence of frailty in community-dwelling people aged 65 and over was 10.7% (21 studies, 61,500 participants) (systematic review: Collard 2012, J Am Geriatr Soc)",
+    "Prevalence rose with age, to about a quarter of people aged 85 and over (same review; age-band figures in full text, to verify)",
+    "Prevalence was higher in women than men (same review)",
+    "Reported prevalence varied from 4.0% to 59.1% depending on the definition (same review)"
+   ],
+   "evidence_leads": [
+    "Collard RM, Boter H, Schoevers RA, Oude Voshaar RC. J Am Geriatr Soc 2012;60:1487-92. doi:10.1111/j.1532-5415.2012.04054.x (PubMed abstract read; age-band table to check in full text)",
+    "O'Caoimh R et al. Age Ageing 2021;50:96-104 (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "In pooled studies of people aged 85 and over living at home, about [N to verify] in 4 met the criteria for frailty, which means most did not.",
+   "visual_idea": "Two icon arrays of 100 people, one for ages 65 to 69 and one for 85 and over, with frail people marked by shape and label, using only the verified age-band figures from Collard 2012. Footnote on definitions.",
+   "pause": "Many readers, including older people, assume that very old means frail.",
+   "gain": "An accurate picture of frailty by age and a reason to expect an assessment rather than an assumption.",
+   "follow": "The account corrects common assumptions about ageing with numbers, not slogans.",
+   "earlier_overlap": "E121 and E122 describe frailty; neither gives prevalence by age. C05-04 uses the same review for the spread of definitions; this candidate uses it for age, so only one should carry the definition point in full.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-15",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Frailty, disability and many conditions are three different things",
+   "core_insight": "Frailty, disability and having several long-term conditions overlap but are distinct, and in a large US cohort many frail people had no disability, so each needs its own assessment and none should stand in for another.",
+   "angle": "Someone with a lifelong or stable disability may not be frail, and someone with no disability may be frail and at high risk from a minor illness. Using disability or a list of diagnoses as shorthand for frailty leads to wrong expectations about recovery.",
+   "position": "Record frailty, disability and long-term conditions separately; using one as a proxy for another misleads decisions about treatment and rehabilitation.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Comorbidity, frailty and disability are distinct clinical entities that are causally related (narrative review with targeted analyses: Fried 2004, J Gerontol A)",
+    "Among frail participants in the Cardiovascular Health Study, a substantial proportion had neither disability nor multimorbidity, and only a minority had disability (Fried 2001 or Fried 2004; overlap percentages to verify in full text)",
+    "The CFS is not widely validated in people with stable single-system disabilities (Rockwood and Theou 2020)"
+   ],
+   "evidence_leads": [
+    "Fried LP, Ferrucci L, Darer J, Williamson JD, Anderson G. Untangling the concepts of disability, frailty, and comorbidity: implications for improved targeting and care. J Gerontol A Biol Sci Med Sci 2004;59:255-63. doi:10.1093/gerona/59.3.m255 (PubMed abstract read)",
+    "Fried LP, Tangen CM, Walston J, et al. Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci 2001;56:M146-56 (overlap figures unsure)",
+    "Rockwood K, Theou O. Can Geriatr J 2020;23:210-5 (PubMed abstract read)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Someone with a lifelong disability may not be frail, and someone with no disability may be.",
+   "visual_idea": "Diagram: three overlapping circles labelled 'Frailty', 'Disability' and 'Several long-term conditions', with the Cardiovascular Health Study percentages for frail participants placed in each region only after verification from the full text; a one-line definition under each circle.",
+   "pause": "The opening line contradicts a common assumption in a way clinicians can check against their own patients.",
+   "gain": "A clear conceptual distinction with practical consequences for decisions.",
+   "follow": "Teaching that sharpens basic geriatric concepts.",
+   "earlier_overlap": "E121 (frailty as lost reserve) and E133 (frailty is no reason to skip investigation) are nearest; neither separated frailty from disability and multimorbidity.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-16",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "The frailty score counts dependence, whatever its cause",
+   "core_insight": "Clinical Frailty Scale levels are defined by how much help a person needs, from whatever cause, and the scale's guidance says that in dementia the degree of frailty generally corresponds to the degree of dementia, so the number alone does not say whether the problem is physical or cognitive.",
+   "angle": "Two people with the same CFS 6 can have very different physical reserve: one struggles with stairs and bathing, the other walks well but needs prompting to dress because of moderate dementia. For surgery, rehabilitation or exercise decisions that difference is large.",
+   "position": "Always record what drove the CFS score (physical, cognitive or both) next to the number, and don't use the number alone to predict how someone will tolerate surgery or rehabilitation.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "CFS level 7 is defined as completely dependent for personal care from whatever cause, physical or cognitive (CFS version 2.0 text: Rockwood and Theou 2020 figure; to verify wording)",
+    "CFS guidance states that in people with dementia the degree of frailty generally corresponds to the degree of dementia, with descriptions of mild, moderate and severe dementia (CFS version 2.0 scoring guidance; to verify)",
+    "CFS 6 includes needing help with outside activities, keeping house and bathing, and possibly minimal help such as prompting with dressing (CFS version 2.0 text; to verify)",
+    "The CFS requires clinical judgement (Rockwood and Theou 2020 abstract)"
+   ],
+   "evidence_leads": [
+    "Rockwood K, Theou O. Can Geriatr J 2020;23:210-5. doi:10.5770/cgj.23.463 (PubMed abstract read; level wording and dementia guidance in the full-text figure)",
+    "Rockwood K, Song X, MacKnight C, et al. A global clinical measure of fitness and frailty in elderly people. CMAJ 2005;173:489-95"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Two people can both score 6 on the Clinical Frailty Scale for different reasons: one struggles with stairs and bathing, the other walks well but needs prompting to get dressed.",
+   "visual_idea": "Comparison card labelled 'Illustrative example': two drawn figures both tagged 'CFS 6'; left caption 'help with stairs, bathing and outside tasks (physical)', right caption 'walks well; needs prompting to dress and help with outside tasks (moderate dementia)'. Bottom line: 'Write the reason next to the number.'",
+   "pause": "Clinicians who read CFS numbers in referrals realise they often don't know what produced them.",
+   "gain": "A simple documentation habit that makes the score more useful.",
+   "follow": "Careful teaching on a scale they use every day.",
+   "earlier_overlap": "E123 and E127 (CFS use at the front door and timing) are nearest; this is about what the number means when dependence is cognitive.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-17",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "A frailty scale built for older people",
+   "core_insight": "The Clinical Frailty Scale is not widely validated in younger people or in people with stable disabilities affecting one body system, such as cerebral palsy or a learning disability, and using it for them can record lifelong dependence as frailty.",
+   "angle": "In March 2020, NICE's COVID-19 critical care guideline was amended to say the CFS should not be used in younger people, people with stable long-term disabilities, learning disabilities or autism, and that an individual assessment was needed. The scale's authors say the same in their own guidance.",
+   "position": "Frailty scales should be used only in the people they were designed and tested for, and always alongside individual assessment; dependence caused by a stable lifelong disability is not frailty and should not lower anyone's access to treatment.",
+   "audience": "both",
+   "series": "Who gets left out",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "The CFS is not widely validated in younger people or those with stable single-system disabilities, and requires clinical judgement (guidance paper by the scale's authors: Rockwood and Theou 2020, Can Geriatr J)",
+    "Since COVID-19 the CFS has been used widely by professionals without frailty training as a resource allocation tool and for care rationing (Theou 2021 introduction)",
+    "NICE guideline NG159 (COVID-19 rapid guideline: critical care in adults) was updated in March 2020 to state that the CFS should not be used in younger people, people with stable long-term disabilities, learning disabilities or autism, and that an individualised assessment was recommended (official NICE document; dates and wording to verify, ideally from a published paper describing the change)"
+   ],
+   "evidence_leads": [
+    "Rockwood K, Theou O. Can Geriatr J 2020;23:210-5. doi:10.5770/cgj.23.463 (PubMed abstract read)",
+    "Theou O et al. Age Ageing 2021;50:1406-11. doi:10.1093/ageing/afab006 (PubMed abstract read)",
+    "NICE. COVID-19 rapid guideline: critical care in adults (NG159), published 20 March 2020, updated 25 March 2020 (unsure of dates; official page not openable here)",
+    "A published commentary or news report on the NG159 amendment, e.g. in BMJ 2020 (unsure; not found in PubMed search)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "The Clinical Frailty Scale was built to describe older people, and using it for adults with lifelong disabilities gives misleading scores.",
+   "visual_idea": "Statement card in two panels: 'Designed and tested for: older adults, describing how they were before an acute illness' and 'Not widely validated for: younger people; stable disabilities such as cerebral palsy or a learning disability'. Credit line Rockwood and Theou 2020.",
+   "pause": "Disabled people, their families and staff who remember 2020 will recognise the issue.",
+   "gain": "A clear statement of where the scale applies and where it does not.",
+   "follow": "The account defends equal dignity with specific evidence rather than general statements.",
+   "earlier_overlap": "E074 (younger high-risk people in falls guidance) is loosely related; nothing earlier covered the scope of the CFS. Related to C05-05 and C05-25 in this list; if more than one is selected, they must be written to agree (frailty can occur earlier; the CFS is not the right tool there).",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-18",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "A frailty score from the GP record counts what was coded",
+   "core_insight": "The electronic frailty index used in UK general practice is calculated from 36 deficits coded in the GP record; it predicts outcomes across populations, but it can only count what has been recorded, and its developers list limitations of the original version that a newer version addresses.",
+   "angle": "A person who seldom sees the GP may score low because little is coded; the original index did not drop problems known to resolve. The index was built to find people for further assessment, so its category is a prompt, not a diagnosis.",
+   "position": "An electronic frailty index category should prompt a clinical assessment with the person, and should not be recorded or acted on as a diagnosis of frailty on its own.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "The eFI uses 36 deficits built from 2,171 clinical codes; categories of fit, mild, moderate and severe frailty were set by population quartiles; it predicted mortality, hospitalisation and nursing home admission with good to moderate discrimination but low calibration (development study: Clegg 2016, Age Ageing)",
+    "The original eFI's limitations include equal weighting of deficits, no time limits on deficits known to resolve, and the way category cut-points were set; eFI2 was developed to address them (development study: Best 2025, Age Ageing)",
+    "The eFI is nationally implemented in UK primary care record systems (Best 2025 abstract)",
+    "By construction, the eFI counts only deficits present as codes in the record (Clegg 2016 methods)",
+    "NHS England guidance advises confirming eFI results with clinical judgement or assessment (official toolkit; unsure of document)"
+   ],
+   "evidence_leads": [
+    "Clegg A, Bates C, Young J, et al. Development and validation of an electronic frailty index using routine primary care electronic health record data. Age Ageing 2016;45:353-60. doi:10.1093/ageing/afw039 (PubMed abstract read)",
+    "Best K, Shuweihdi F, Alvarez JCB, et al. Development and external validation of the electronic frailty index 2 using routine primary care electronic health record data. Age Ageing 2025;54(4):afaf077. doi:10.1093/ageing/afaf077 (PubMed abstract read)",
+    "Hollinghurst J, Fry R, Akbari A, et al. External validation of the electronic Frailty Index using the population of Wales. Age Ageing 2019;48:922-6. doi:10.1093/ageing/afz110 (PubMed abstract read)",
+    "NHS England. Toolkit for general practice in supporting older people living with frailty. 2017 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "The electronic frailty index in a GP record is calculated from codes, so it can only count what someone has written down.",
+   "visual_idea": "Flow diagram: 'codes in the record' to 'count of 36 deficits' to 'score' to 'category', with two annotations: 'not coded, not counted' and 'in the original version, problems that had resolved stayed counted'. Final box: 'next step: assess the person'.",
+   "pause": "GPs and hospital teams see eFI categories in referrals and records every day.",
+   "gain": "An accurate understanding of what the number measures and how to use it.",
+   "follow": "Clear explanations of the tools that shape services.",
+   "earlier_overlap": "none.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-19",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "An occupational therapist, a nurse and a handyman",
+   "core_insight": "In a randomised trial of 300 older adults on low incomes who had difficulty with daily tasks, up to 10 home visits from an occupational therapist, a nurse and a home repair worker, working on goals each person chose, reduced difficulty with basic daily activities at 5 months compared with social visits.",
+   "angle": "Disability comes from the gap between what a person can do and what their home asks of them; the programme worked on both the person and the house. The benefit for household tasks such as shopping and cooking was smaller and not statistically clear.",
+   "position": "If daily tasks at home are getting harder, ask for an occupational therapy assessment that looks at both you and your home; a combined approach has trial evidence of reducing disability.",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "claims_needing_evidence": [
+    "CAPABLE trial: 300 low-income community-dwelling adults aged 65 and over in Baltimore with difficulty in at least 1 basic or 2 instrumental daily activities; up to 10 home visits over 5 months by occupational therapists, registered nurses and home modifiers addressing self-identified goals; controls received 10 social visits (RCT: Szanton 2019, JAMA Intern Med)",
+    "Difficulty with basic daily activities scores were 30% lower in the CAPABLE group at 5 months (relative risk 0.70); the 17% reduction for instrumental activities was not statistically significant (same trial)",
+    "More CAPABLE participants reported that the programme made their life easier (82% against 43%) (same trial)",
+    "Absolute disability scores in each group (full text; to extract)",
+    "Population limits to state: 87% women, most self-identified as Black, one US city (same trial)"
+   ],
+   "evidence_leads": [
+    "Szanton SL, Xue QL, Leff B, et al. Effect of a biobehavioral environmental approach on disability among low-income older adults: a randomized clinical trial. JAMA Intern Med 2019;179:204-11. doi:10.1001/jamainternmed.2018.6026 (PubMed abstract read)",
+    "Gitlin LN, Winter L, Dennis MP, et al. A randomized trial of a multicomponent home intervention to reduce functional difficulties in older adults. J Am Geriatr Soc 2006;54:809-16 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A trial sent an occupational therapist, a nurse and a handyman into the homes of older people on low incomes, and their difficulty with everyday tasks fell.",
+   "visual_idea": "Annotated drawn scene of a home, labelled 'Illustrative example of the kinds of changes': a rail by the stairs, a grab rail by the bath, better lighting, a raised seat, with small labels for the three roles (occupational therapist: how tasks are done; nurse: pain, mood, medicines; repair worker: the house). Credit line Szanton 2019.",
+   "pause": "A concrete, unusual team that people can picture.",
+   "gain": "Evidence that difficulty with daily tasks can be reduced, and what to ask for.",
+   "follow": "Examples of care that works for people on low incomes, not only warnings.",
+   "earlier_overlap": "E068 (home hazard work with occupational therapy reduces falls) is nearest; this is about disability in daily tasks, with the person's own goals and a low-income population.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-20",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "What a comprehensive geriatric assessment should give you",
+   "core_insight": "A comprehensive geriatric assessment is a team process that looks at medical problems, medicines, mood and memory, mobility and daily tasks, and home and support, and it should end with a plan that says what will be done, by whom, and when it will be reviewed.",
+   "angle": "Knowing what the assessment covers helps you prepare: bring the medicines, glasses and hearing aids, a note of what has changed and when, someone who knows your usual day, and what you most want to be able to do. Before leaving, ask for the plan and who is following it up.",
+   "position": "A comprehensive geriatric assessment should finish with a written plan and a named person responsible for follow-up; ask for both.",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "CGA is a multidimensional, multidisciplinary diagnostic and therapeutic process that determines a person's medical, mental and functional problems and leads to a coordinated plan for treatment and follow-up (Cochrane review definition: Ellis 2017)",
+    "CGA domains include medical, psychological and cognitive, functional, social and environmental assessment (British Geriatrics Society CGA toolkit; or umbrella review Parker 2018 Age Ageing, unsure)",
+    "In hospital, CGA increases the likelihood of being alive and living at home 3 to 12 months later (Ellis 2017)"
+   ],
+   "evidence_leads": [
+    "Ellis G et al. Cochrane Database Syst Rev 2017;9:CD006211. doi:10.1002/14651858.CD006211.pub3 (PubMed abstract read)",
+    "British Geriatrics Society. Comprehensive Geriatric Assessment Toolkit for Primary Care Practitioners. 2019 (unsure of title and year)",
+    "Parker SG, McCue P, Phelps K, et al. What is Comprehensive Geriatric Assessment (CGA)? An umbrella review. Age Ageing 2018;47:149-55 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A comprehensive geriatric assessment should end with a plan: what will be done, by whom, and when it will be checked.",
+   "visual_idea": "Checklist card in two halves: 'Bring' (medicines, glasses and hearing aids, a note of what changed and when, someone who knows your usual day, what you want to be able to do) and 'Before you leave, ask' (What is the plan? Who does each part? When is it reviewed? Who do I contact?).",
+   "pause": "Families told 'they will have a geriatric assessment' rarely know what it involves.",
+   "gain": "A checklist to prepare and three questions to finish with.",
+   "follow": "Plain, practical guides to how geriatric services work.",
+   "earlier_overlap": "E132 (ask whether CGA is available) and E136 (bring the bag of boxes) are nearest; this explains what CGA covers and what should come out of it.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-21",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "'Off legs' needs a cause",
+   "core_insight": "Labels such as 'acopia', 'social admission' and 'off legs' describe a sudden loss of function in an older person without explaining it, and people given these labels have often been found to have acute, treatable illness.",
+   "angle": "In someone living with frailty, a sudden loss of function is a common way for illness to show itself. The label can end the search for a cause. The replacement is a description with dates (what the person could do before, what changed and when) and a list of causes being looked for.",
+   "position": "'Acopia' and 'social admission' should not be used as working diagnoses; notes should record the change in function with dates and the causes being sought.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "In a UK retrospective study of patients labelled with 'acopia', most had acute medical diagnoses (Kee and Rippingale 2009, Age Ageing; no abstract on PubMed, content to verify in full text)",
+    "Patients referred with 'acopia' are likely to be frail with several conditions and an acute, potentially reversible illness, and should be assessed using comprehensive geriatric assessment principles (clinical review: Granger 2013, Acute Med)",
+    "Geriatricians have described 'acopia' and 'inability to cope' as unhelpful and pejorative labels (letter: Dyer 2018, Age Ageing)",
+    "A survey of UK hospital doctors examined attitudes to the terms 'acopia' and 'social admission' (letter with data: Curran and Chattopadhyay 2015, Clin Med; findings to verify)"
+   ],
+   "evidence_leads": [
+    "Kee YYK, Rippingale C. The prevalence and characteristic of patients with 'acopia'. Age Ageing 2009;38:103-5. doi:10.1093/ageing/afn238 (found on PubMed; no abstract, full text needed)",
+    "Granger K, Ninan S, Stopford E. The patient presenting with 'acopia'. Acute Med 2013;12:173-7 (PubMed abstract read)",
+    "Dyer AH, Ryan D, O'Callaghan S. 'Acopia' and 'inability to cope' remain unhelpful and pejorative labels for complexity in older adults presenting to the acute hospital. Age Ageing 2018;47:488. doi:10.1093/ageing/afy013 (found on PubMed; letter)",
+    "Curran D, Chattopadhyay I. Survey on the attitudes of hospital doctors towards the terms 'acopia' and 'social admission' in clinical practice. Clin Med 2015;15:312. doi:10.7861/clinmedicine.15-3-312 (found on PubMed)",
+    "Oliver D. 'Acopia' and 'social admission' are not diagnoses: why older people deserve better. J R Soc Med 2008;101:168-74 (unsure; not found in PubMed search)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "'Off legs' tells the next doctor what happened and nothing about why.",
+   "visual_idea": "Comparison card: left, three crossed-through labels ('acopia', 'social admission', 'off legs'); right, an 'Illustrative example' of a better note: 'Two weeks ago: walked to the shop with a stick. Since Tuesday: can't stand without help of two. Causes being checked: infection, pain, new medicines, blood tests, bladder, bowels.'",
+   "pause": "Almost every hospital clinician has seen these labels in a referral.",
+   "gain": "Replacement wording that keeps the search for a cause open.",
+   "follow": "Direct criticism of poor practice with a practical alternative.",
+   "earlier_overlap": "E133 (frailty is no reason to skip investigation), E153 ('we see this a lot' is not an explanation) and E064 (a fall is a medical event) are nearest; this targets these specific labels and gives replacement wording.",
+   "delirium_check": "delirium is not the topic; if a list of causes on the visual includes it, that is an incidental mention"
+  },
+  {
+   "cand_id": "C05-22",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Before emergency surgery, frailty told more than age",
+   "core_insight": "In a UK study of 934 people aged 65 and over having emergency abdominal surgery, frailty before admission predicted who would need more care at discharge more strongly than age did.",
+   "angle": "About 37 in 100 needed a higher level of care after discharge than before. Age is the common shorthand for surgical risk in older people; a frailty assessment gives better information for planning and for the conversation, though it remains a group estimate.",
+   "position": "Before emergency surgery in older people, assess frailty rather than relying on age, and use the result to plan support and discuss likely recovery, not as a gate to treatment.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "The ELF study included 934 patients aged 65 and over from 49 UK hospitals undergoing emergency laparotomy; 20.2% were frail, and 37.4% had an increased care level at discharge (prospective cohort: Carter 2020, Br J Surg)",
+    "Increasing frailty was associated with increased care level at discharge, with greater predictive power than age (same study)",
+    "Adjusted odds of an increased care level rose with CFS level compared with fit patients (same study; odds ratios not to be turned into 'times more likely')",
+    "Frailty was associated with mortality after emergency laparotomy in the same cohort (Parmar 2021, Ann Surg; unsure)"
+   ],
+   "evidence_leads": [
+    "Carter B, Law J, Hewitt J, et al. Association between preadmission frailty and care level at discharge in older adults undergoing emergency laparotomy. Br J Surg 2020;107:218-26. doi:10.1002/bjs.11392 (PubMed abstract read)",
+    "Parmar KL, Law J, Carter B, et al. Frailty in older patients undergoing emergency laparotomy: results from the UK Observational Emergency Laparotomy and Frailty (ELF) Study. Ann Surg 2021;273:709-18 (unsure)",
+    "Centre for Perioperative Care and British Geriatrics Society perioperative frailty guideline, 2021 (see C05-11)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Before emergency abdominal surgery in people aged 65 and over, a frailty score predicted who would need more care afterwards better than age did.",
+   "visual_idea": "Icon array of 100 people from the ELF study: [N to verify, about 37] marked 'needed more care after discharge than before', with a short text panel: 'Frailty before admission predicted this better than age.' Credit line Carter 2020, BJS.",
+   "pause": "Surgeons and physicians who still use age as the headline risk see a better measure.",
+   "gain": "Evidence to change a routine risk discussion.",
+   "follow": "Evidence that supports fair treatment of older people without dismissing real risk.",
+   "earlier_overlap": "E124 (frailty changes the method, not whether to treat) is nearest; this adds surgical evidence comparing frailty with age. Related to C05-11 (public version about being told 'too frail').",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-23",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "When you and your parent disagree about what they can do",
+   "core_insight": "Older people and their relatives often give different accounts of what the older person can manage; in one study relatives tended to report more disability than the person did, and both differed from what was observed, so watching the task being done is the fairest way to settle it.",
+   "angle": "Disagreement is common and neither account is automatically right. An occupational therapist or physiotherapist watching a real task, such as making a hot drink or getting in and out of the bath, gives both of you something to agree on.",
+   "position": "When your account and your parent's differ, ask for the task to be observed, ideally at home, rather than arguing from memory.",
+   "audience": "public",
+   "series": "Small detail, real effect",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "In 233 pairs of older people after hip fracture and their proxies (Baltimore), proxies tended to report more disability than the older people themselves; agreement varied by type of function (comparison study: Magaziner 1997, Am J Epidemiol)",
+    "Agreement with observed performance differed from agreement with self-report, particularly for instrumental and physical functioning (same study)",
+    "Self-rated function in frail older people can differ from observed ability (comparison study: Elam 1991, Am J Public Health; unsure)",
+    "Occupational therapists assess how people carry out daily tasks at home (professional body information: Royal College of Occupational Therapists; to find)"
+   ],
+   "evidence_leads": [
+    "Magaziner J, Zimmerman SI, Gruber-Baldini AL, Hebel JR, Fox KM. Proxy reporting in five areas of functional status: comparison with self-reports and observations of performance. Am J Epidemiol 1997;146:418-28. doi:10.1093/oxfordjournals.aje.a009295 (PubMed abstract read; hip fracture population)",
+    "Elam JT, Graney MJ, Beaver T, et al. Comparison of subjective ratings of function with observed functional ability of frail older persons. Am J Public Health 1991;81:1127-30 (unsure)",
+    "Royal College of Occupational Therapists public information on home assessments (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "If you and your mother give different answers about what she can manage, you may both be partly right.",
+   "visual_idea": "Three-panel comic strip labelled 'Illustrative example': panel 1, an older woman saying she manages the bath; panel 2, her son saying she can't; panel 3, a therapist watching her get into the bath with a board and rail, both family members looking on. No names, no real people.",
+   "pause": "Many families have had this argument.",
+   "gain": "A way out of the argument that respects both people, and a request to make.",
+   "follow": "Practical help for families that respects the older person's own account.",
+   "earlier_overlap": "E024 (the first person to worry is often right; informants notice change first) is nearest, in a dementia context; this concerns daily function and suggests observation as the tie-breaker, noting relatives may also overstate disability.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-24",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "What the frailty number in a letter means",
+   "core_insight": "'CFS' in a letter refers to the Clinical Frailty Scale, which runs from 1 (very fit) to 9 (terminally ill); levels 4 to 8 describe increasing need for help, and the score is meant to describe how the person was about two weeks before an illness.",
+   "angle": "Families often see 'CFS 6' with no explanation. A plain translation of each level, plus three questions: what was the score based on, does it describe my usual self or how I was when ill, and what is it being used for.",
+   "position": "You can ask what your frailty score was based on and whether it reflects your usual self before the illness.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "CFS version 2.0 has 9 levels: very fit, fit, managing well, living with very mild frailty, living with mild frailty, living with moderate frailty, living with severe frailty, living with very severe frailty, terminally ill (Rockwood and Theou 2020)",
+    "The CFS is scored for the person's baseline state, which the guidance describes as about two weeks before an acute illness (Rockwood and Theou 2020; two-week wording to verify)",
+    "Level 9 applies to people with a life expectancy under about 6 months who are not otherwise severely frail (CFS version 2.0 text; to verify)"
+   ],
+   "evidence_leads": [
+    "Rockwood K, Theou O. Can Geriatr J 2020;23:210-5. doi:10.5770/cgj.23.463 (PubMed abstract read; level names confirmed in abstract for level 4, others in the figure)",
+    "Rockwood K et al. CMAJ 2005;173:489-95"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "If a hospital letter says 'CFS 6', it refers to the Clinical Frailty Scale, a 9-level description of how much help someone needs day to day.",
+   "visual_idea": "Carousel of 3 slides: 1, the 9 levels in plain words (drawn as a simple ladder, not the copyrighted pictograms; check the licence before reproducing any official wording); 2, 'It should describe you as you were about two weeks before this illness'; 3, three questions to ask.",
+   "pause": "People who have seen an unexplained number in their own or a parent's letter.",
+   "gain": "A plain translation and three questions.",
+   "follow": "The account explains medical shorthand to the people it is written about.",
+   "earlier_overlap": "E127 (score the CFS for two weeks before, written for clinicians) and E121 are nearest; this is a plain-language guide for older people and families.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C05-25",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Frailty often comes earlier for adults with learning disabilities",
+   "core_insight": "In a large Dutch study of adults aged 50 and over with intellectual disabilities, frailty was more common and began earlier than in the general population, and higher frailty scores were followed by increases in care needs.",
+   "angle": "Declining function in an adult with a learning disability is easily put down to the lifelong disability. Frailty was measured separately in this study, and it still predicted increased care needs after items about daily activities were removed, so it is worth looking for from the 50s.",
+   "position": "Adults with learning disabilities should have their function and frailty reviewed from their 50s, using measures suited to them, so that treatable decline is not attributed to the lifelong disability.",
+   "audience": "public",
+   "series": "Who gets left out",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "In the Healthy Ageing and Intellectual Disability study (Netherlands, about 1,000 adults aged 50 and over), people with intellectual disabilities were frail earlier and more severely than the general population, and frailty was related to early mortality, disability and care intensity (overview: Schoufour 2015, Tijdschr Gerontol Geriatr, Dutch-language abstract read in English)",
+    "Only 6.6% of participants were in the least frail group, compared with more than 43% of the general ageing population on the same threshold (cohort analysis: Schoufour 2014, Res Dev Disabil, online 2013)",
+    "A higher frailty index at baseline predicted increased care intensity after 3 years, and this held after daily-activity items were removed from the index (cohort: Schoufour 2014, Res Dev Disabil)",
+    "Evenhuis 2012 J Am Geriatr Soc reported frailty prevalence in 50 to 64-year-olds with intellectual disabilities similar to that in much older people in the general population (unsure; to verify)"
+   ],
+   "evidence_leads": [
+    "Schoufour JD, Echteld MA, Evenhuis HM. Frailty in people with intellectual disabilities: operationalization, risks and detection. Tijdschr Gerontol Geriatr 2015;46:92-103. doi:10.1007/s12439-015-0126-4 (PubMed abstract read; article in Dutch)",
+    "Schoufour JD, van Wijngaarden J, Mitnitski A, et al. Characteristics of the least frail adults with intellectual disabilities: a positive biology perspective. Res Dev Disabil 2014;35:127-36. doi:10.1016/j.ridd.2013.10.016 (PubMed abstract read)",
+    "Schoufour JD, Evenhuis HM, Echteld MA. The impact of frailty on care intensity in older people with intellectual disabilities. Res Dev Disabil 2014;35:3455-61. doi:10.1016/j.ridd.2014.08.006 (PubMed abstract read)",
+    "Evenhuis HM, Hermans H, Hilgenkamp TI, Bastiaanse LP, Echteld MA. Frailty and disability in older adults with intellectual disabilities: results from the healthy ageing and intellectual disability study. J Am Geriatr Soc 2012;60:934-8 (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "In a large Dutch study, adults with learning disabilities showed signs of frailty years earlier than the general population.",
+   "visual_idea": "Two icon arrays of 100 people: 'least frail group, adults 50 and over with intellectual disabilities: about 7' and 'general ageing population on the same threshold: more than 43', from Schoufour, shape and label as well as colour. Footnote on the frailty index used.",
+   "pause": "Family carers and support workers for adults with learning disabilities rarely see frailty discussed for their relative.",
+   "gain": "A reason to ask for a review of function earlier, and evidence to support the request.",
+   "follow": "Attention to people poorly served by services built around typical ageing.",
+   "earlier_overlap": "E074 (falls guidance includes people under 65 with a learning disability) is loosely related. Related to C05-17 in this list (CFS not validated in learning disability); if both are selected they must agree: frailty can occur earlier, and the CFS is not the right tool to measure it.",
+   "delirium_check": "delirium is not the topic"
+  }
+ ]
+}
