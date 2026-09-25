@@ -2,20 +2,76 @@
   "category": "C03",
   "category_name": "Hip fracture",
   "draw_log": [
-    {"draw_id": "C03-R01", "string": "59f9d8a647c501c7c58b8d8b9e8d", "result": "candidate C03-01"},
-    {"draw_id": "C03-R02", "string": "64dd6e6d95857ff4f4a8056950ad", "result": "candidate C03-02"},
-    {"draw_id": "C03-R03", "string": "979d6d093d6c2bb271d8d91bc9b3", "result": "candidate C03-03"},
-    {"draw_id": "C03-R04", "string": "db5e0adc711c9e4d3f3dd6c842d0", "result": "candidate C03-04; candidate C03-05"},
-    {"draw_id": "C03-R05", "string": "e27d0d89818f0657e52e475fd9b8", "result": "candidate C03-06"},
-    {"draw_id": "C03-R06", "string": "8ff816e0579a801137c386875705", "result": "candidate C03-07"},
-    {"draw_id": "C03-R07", "string": "134e1cef4fd043ec41aa2116cb54", "result": "candidate C03-08"},
-    {"draw_id": "C03-R08", "string": "84921cfc52949b20f4451a1903e4", "result": "candidate C03-09"},
-    {"draw_id": "C03-R09", "string": "ec37afeab63b3ee6ff8d16280145", "result": "candidate C03-10"},
-    {"draw_id": "C03-R10", "string": "25ef5acb61d709bd1615dfbe870b", "result": "candidate C03-11; candidate C03-12"},
-    {"draw_id": "C03-R11", "string": "45e1015a7078d86860e321e35b21", "result": "candidate C03-13"},
-    {"draw_id": "C03-R12", "string": "77792588c9b4bb18277826230ecd", "result": "candidate C03-14"},
-    {"draw_id": "C03-R13", "string": "b841574dc7d9c9a491712dead64b", "result": "candidate C03-15"},
-    {"draw_id": "C03-R14", "string": "c0e0fcd13665fe4214eb585e658f", "result": "no usable idea: the prompts (a son organising a year of tablets and appointments, bus timetables, a light at night) led to alendronate timing with calcium, walking to the bus stop and night-time lighting, which belong to C04 or repeat C02-05, C02-23 and C01-12; nothing specific to hip fracture survived"}
+    {
+      "draw_id": "C03-R01",
+      "string": "59f9d8a647c501c7c58b8d8b9e8d",
+      "result": "candidate C03-01"
+    },
+    {
+      "draw_id": "C03-R02",
+      "string": "64dd6e6d95857ff4f4a8056950ad",
+      "result": "candidate C03-02"
+    },
+    {
+      "draw_id": "C03-R03",
+      "string": "979d6d093d6c2bb271d8d91bc9b3",
+      "result": "candidate C03-03"
+    },
+    {
+      "draw_id": "C03-R04",
+      "string": "db5e0adc711c9e4d3f3dd6c842d0",
+      "result": "candidate C03-04; candidate C03-05"
+    },
+    {
+      "draw_id": "C03-R05",
+      "string": "e27d0d89818f0657e52e475fd9b8",
+      "result": "candidate C03-06"
+    },
+    {
+      "draw_id": "C03-R06",
+      "string": "8ff816e0579a801137c386875705",
+      "result": "candidate C03-07"
+    },
+    {
+      "draw_id": "C03-R07",
+      "string": "134e1cef4fd043ec41aa2116cb54",
+      "result": "candidate C03-08"
+    },
+    {
+      "draw_id": "C03-R08",
+      "string": "84921cfc52949b20f4451a1903e4",
+      "result": "candidate C03-09"
+    },
+    {
+      "draw_id": "C03-R09",
+      "string": "ec37afeab63b3ee6ff8d16280145",
+      "result": "candidate C03-10"
+    },
+    {
+      "draw_id": "C03-R10",
+      "string": "25ef5acb61d709bd1615dfbe870b",
+      "result": "candidate C03-11; candidate C03-12"
+    },
+    {
+      "draw_id": "C03-R11",
+      "string": "45e1015a7078d86860e321e35b21",
+      "result": "candidate C03-13"
+    },
+    {
+      "draw_id": "C03-R12",
+      "string": "77792588c9b4bb18277826230ecd",
+      "result": "candidate C03-14"
+    },
+    {
+      "draw_id": "C03-R13",
+      "string": "b841574dc7d9c9a491712dead64b",
+      "result": "candidate C03-15"
+    },
+    {
+      "draw_id": "C03-R14",
+      "string": "c0e0fcd13665fe4214eb585e658f",
+      "result": "no usable idea: the prompts (a son organising a year of tablets and appointments, bus timetables, a light at night) led to alendronate timing with calcium, walking to the bus stop and night-time lighting, which belong to C04 or repeat C02-05, C02-23 and C01-12; nothing specific to hip fracture survived"
+    }
   ],
   "candidates": [
     {
@@ -43,7 +99,7 @@
         "Quah C et al. The influence of socioeconomic status on the incidence, outcome and mortality of fractures of the hip. J Bone Joint Surg Br 2011 (unsure)"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "In England, people from the most deprived areas were more likely to die in the year after a hip fracture than people from the least deprived areas.",
+      "opening_line_draft": "People from the poorest areas of England were more likely to die in the year after a hip fracture than people from the richest.",
       "visual_idea": "Comparison chart: two bars for 1-year mortality in the most and least deprived fifths of areas, using absolute percentages only if the full text gives them (otherwise a statement card without figures), with a caption line that the link does not prove cause and a short list of questions services can ask of their own data.",
       "pause": "A clear gap in a condition most people assume is treated the same for everyone.",
       "gain": "A reason to ask whether local results are checked by deprivation, and where extra support after discharge could go.",
@@ -108,7 +164,7 @@
         "Marufu TC et al. Prediction systems for mortality after hip fracture surgery: a systematic review (2016, unsure)"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "A Nottingham Hip Fracture Score gives the share of people with that score who died within [N to verify] days in the data it was built on; it can't say which of them is the person in front of you.",
+      "opening_line_draft": "A Nottingham Hip Fracture Score summarises what happened to a group of people with that score; it can't pick out the person in front of you.",
       "visual_idea": "Icon array chart: 100 figures for one high NHFS band, with the verified predicted number who die within 30 days marked in burnt orange and the rest in teal, labelled 'predicted from derivation data'; a second panel lists what the score does not include (mobility before the fracture, the person's goals and wishes).",
       "pause": "Practitioners who use the score every day see it redrawn as people.",
       "gain": "A clearer sense of what the number can and can't support in a decision.",
@@ -131,7 +187,7 @@
       "claims_needing_evidence": [
         "In the Trondheim Hip Fracture Trial, body-worn monitors on day 4 after surgery recorded mean upright time of 57.6 minutes in 24 hours with comprehensive geriatric care and 45.1 minutes with orthopaedic care (Taraldsen 2014, J Gerontol A Biol Sci Med Sci; abstract read).",
         "The geriatric care group also had more upright events and better lower limb function on day 5, with no difference in the need for help to walk (same source).",
-        "UK national hip fracture audit measures include mobilisation out of bed by the day after surgery (NHFD key performance indicator; official report, check current wording). No findings of the Scottish Hip Fracture Audit to be stated or implied beyond published reports.",
+        "UK national hip fracture audit measures include mobilisation out of bed by the day after surgery (NHFD performance indicator; official report, check current wording). No findings of the Scottish Hip Fracture Audit to be stated or implied beyond published reports.",
         "Physical activity stays low in the months after discharge following hip fracture (Fleig 2016 or similar; unsure)."
       ],
       "evidence_leads": [
@@ -209,7 +265,7 @@
         "Royal College of Emergency Medicine guidance on fascia iliaca block in the emergency department (unsure)"
       ],
       "evidence_risk": "low",
-      "opening_line_draft": "Between the floor at home and the ward bed, a person with a broken hip is moved several times: onto a trolley, off it, onto an X-ray table, onto a bed.",
+      "opening_line_draft": "On the way from the floor at home to a ward bed, a person with a broken hip is lifted or slid several times.",
       "visual_idea": "Diagram: a left-to-right sequence of drawn transfers (floor to ambulance trolley, to emergency department trolley, to X-ray table, to ward bed), each marked 'the hip moves', with a marker showing a nerve block given early in the emergency department and a bracket showing the later moves that follow it; caption gives the Cochrane finding on pain on movement.",
       "pause": "Anyone who has watched the sequence recognises it, and few have counted it.",
       "gain": "Practitioners get a timing argument; families get a specific question to ask.",
@@ -278,7 +334,7 @@
       "visual_idea": "Diagram: the handover from hospital ward to care home with three boxes (hospital therapy team, care home staff, visiting therapist) and arrows labelled with what needs to pass between them (how the person stands, walks and transfers; what to practise each day; who reviews progress); a small panel gives the Crotty trial result at 4 weeks and 12 months in plain words.",
       "pause": "Care home staff and families see a group they know is often missed.",
       "gain": "A realistic reading of what outreach rehabilitation achieved, and a concrete idea of what to hand over.",
-      "follow": "Reads evidence honestly about people services overlook.",
+      "follow": "Reads the evidence carefully for people services overlook.",
       "earlier_overlap": "E134 questions 'too frail for rehab' in general and E082 covers falls in care homes; this post is about rehabilitation after hip fracture for care home residents and the handover to care home staff.",
       "delirium_check": "delirium is not the topic"
     },
@@ -313,7 +369,7 @@
       "visual_idea": "Question card: three questions a relative can ask (Who is making this decision? Can she decide for herself if she is given help and time? What do you need to know about what she would want?) with a small footnote naming the relevant law in each UK nation.",
       "pause": "Many relatives assume they are signing, or have been asked to.",
       "gain": "An accurate picture of their role and questions that bring the person's wishes into the decision.",
-      "follow": "Explains rights and processes accurately and plainly.",
+      "follow": "Explains rights and processes accurately and clearly.",
       "earlier_overlap": "E116 asks families to tell the team who the person was last week; this post explains the legal role of relatives in consent. It borders C09 (capacity), so selection should avoid a near copy there.",
       "delirium_check": "delirium is not the topic"
     },
@@ -341,7 +397,7 @@
         "Carers UK reports on older carers (unsure)"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "When an older person is admitted with a broken hip, staff record who to contact; the question to add is whether anyone at home depends on them.",
+      "opening_line_draft": "When you are admitted with a broken hip, tell staff if anyone at home depends on you for care.",
       "visual_idea": "Illustration: a drawn admission form, labelled 'Illustrative', with the next-of-kin box filled in and an added line 'Does anyone depend on you for care? Who, and who is with them now?', annotated with where a 'yes' should go that day.",
       "pause": "Older carers and their families recognise the fear at once.",
       "gain": "A question patients or relatives can raise straight away, and one staff can add to clerking.",
@@ -406,7 +462,7 @@
         "Handoll HHG et al. Multidisciplinary rehabilitation for older people with hip fractures. Cochrane Database Syst Rev 2021 (unsure)"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "A decision about a permanent move to a care home, taken in the first weeks after a hip fracture, is taken months before walking usually reaches its best.",
+      "opening_line_draft": "A permanent move to a care home, decided in the first weeks after a hip fracture, is decided months before walking usually recovers.",
       "visual_idea": "Comparison card: left 'Week 2 in hospital' and right 'Month 6', each with the same three questions (Can she get to the toilet? Can she get out of a chair? What does she want?) and a note that answers in the left column are often different by the right column; a line at the foot with the Magaziner recovery times; labelled as a prompt for discussion, not data about one person.",
       "pause": "Families facing the question this week.",
       "gain": "A reason, and words, to ask for time, rehabilitation or a supported trial at home before a permanent decision.",
@@ -472,7 +528,7 @@
         "Cooper C et al. Secular trends in the incidence of hip and other osteoporotic fractures. Osteoporos Int 2011 (unsure)"
       ],
       "evidence_risk": "low",
-      "opening_line_draft": "Your chance of breaking a hip at a given age has fallen in most of the countries studied, and the number of hip fractures is still projected to rise steeply by [N to verify].",
+      "opening_line_draft": "At a given age, your chance of breaking a hip has fallen in most countries studied, yet the total number is projected to rise.",
       "visual_idea": "Chart with two panels from Sing 2023: left, the standardised rate per 100,000 people over time for the UK (or selected countries) labelled 'rate, adjusted for age and sex'; right, the projected number of hip fractures per year in 2018 and 2050 labelled 'number per year (projected)'.",
       "pause": "An apparent contradiction resolved in one picture.",
       "gain": "A question for reading any health headline: is this a rate or a count?",
@@ -602,7 +658,7 @@
         "Griffiths R et al. Association of Anaesthetists hip fracture guideline 2020, mode of anaesthesia section. Anaesthesia 2021;76:225-237"
       ],
       "evidence_risk": "low",
-      "opening_line_draft": "Spinal or general anaesthetic for a broken hip: in a trial of [N to verify] older adults, walking and survival two months later were similar with either.",
+      "opening_line_draft": "Spinal or general anaesthetic for a broken hip: in a large trial, walking and survival two months later were similar.",
       "visual_idea": "Comparison: two icon arrays of 100 people each (spinal, general) showing the verified proportions who had died or could not walk about 3 metres at 60 days (about 18 in 100 in each), with plain labels and the trial name.",
       "pause": "A question families ask, answered with a clear result.",
       "gain": "Relief from a false dilemma and a prompt to discuss preferences.",
@@ -681,7 +737,7 @@
       "stimulus_use": null,
       "working_title": "What should and shouldn't hold up hip fracture surgery",
       "core_insight": "Guidance lists a short set of problems worth correcting before hip fracture surgery (such as marked anaemia, anticoagulant effect, dehydration, electrolyte problems, uncontrolled diabetes or heart failure, a correctable arrhythmia or a chest infection), while antiplatelet drugs and waiting for an echocardiogram are not usually reasons to delay.",
-      "angle": "Delays attributed to 'medically unfit' often turn out to be waits for a test or for a drug to wear off that guidance says need not delay surgery. Knowing the short list helps a junior doctor ask what exactly is being corrected and by when.",
+      "angle": "Delays attributed to 'medically unfit' often turn out to be waits for a test or for a drug to wear off that guidance says need not delay surgery. Knowing the short list helps a junior doctor ask what is being corrected and by when.",
       "position": "Hip fracture surgery should not be delayed for antiplatelet drugs or routine echocardiography; any delay should name the specific correctable problem and when it will be corrected.",
       "audience": "practitioners",
       "series": "Teaching round",
@@ -729,7 +785,7 @@
         "Griffiths R et al. Association of Anaesthetists hip fracture guideline 2020. Anaesthesia 2021;76:225-237"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "For most people who break a hip, an operation is the best way to control the pain; for a few people close to the end of life, it may not be.",
+      "opening_line_draft": "For most people who break a hip, an operation is the best pain relief. For a few people close to the end of life, it may not be.",
       "visual_idea": "Comparison: two columns, 'Operation' and 'Care without an operation', listing what each involves (pain relief, nursing, positioning, support for the family) and the FRAIL-HIP findings in plain words, with a clear note: 'A small, selected group of very frail care home residents; not a randomised trial'.",
       "pause": "Families facing this decision rarely see it discussed openly.",
       "gain": "Permission to ask about both options and an accurate picture of each.",
@@ -784,7 +840,7 @@
       "post_type": "good_care",
       "claims_needing_evidence": [
         "In an open randomised trial of 318 women with hip fracture on one acute trauma ward, those supported by dietetic assistants were less likely to die on the ward (4.1% versus 10.1%) and by 4 months (13.1% versus 22.9%), and had higher mean energy intake (1,105 versus 756 kcal a day) (Duncan 2006, Age Ageing; abstract read).",
-        "Limitations: single centre, open design, women only, conducted about two decades ago (same source; state plainly).",
+        "Limitations: single centre, open design, women only, conducted about two decades ago (same source; state clearly).",
         "Wider evidence on nutritional supplementation after hip fracture is of low certainty (Avenell 2016, Cochrane; unsure)."
       ],
       "evidence_leads": [
@@ -919,7 +975,7 @@
         "Fairhall NJ et al. Interventions for improving mobility after hip fracture surgery in adults. Cochrane Database Syst Rev 2022 (unsure)"
       ],
       "evidence_risk": "low",
-      "opening_line_draft": "In a US trial of home physiotherapy months after a hip fracture, about [N to verify] in 5 people in each group could walk [N to verify] metres in [N to verify] minutes at the end.",
+      "opening_line_draft": "After 16 weeks of home physiotherapy in a US trial, about [N to verify] in 5 people in either group could walk [N to verify] metres in six minutes.",
       "visual_idea": "Chart: two icon arrays of 100 (training, active control) with the verified proportions reaching community walking at 16 weeks, and a strip below showing what both groups received (2 to 3 home visits a week for 16 weeks, nutrition advice, vitamin D).",
       "pause": "An honest result about how hard recovery can be.",
       "gain": "Practice in reading a trial with an active control.",
@@ -951,7 +1007,7 @@
         "National Hip Fracture Database annual report (official document)"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "People interviewed in the months after a hip fracture put steady walking, without falls or fear of falling, at the top of what they wanted back.",
+      "opening_line_draft": "Asked months after a hip fracture what they most wanted back, people described steady walking without falls or fear of falling.",
       "visual_idea": "Comparison: two columns, 'Often reported by services' (time to surgery, length of stay, deaths at 30 days) and 'Core outcomes agreed for trials' (pain, daily activities, walking indoors and outdoors, quality of life, deaths), with a pull-out of the patient priority from Griffiths 2015.",
       "pause": "Service leads and families both recognise the gap.",
       "gain": "A short list of outcomes worth asking a service about.",
@@ -984,7 +1040,7 @@
         "Visschedijk J et al. Fear of falling after hip fracture: a systematic review of measurement instruments, prevalence, interventions, and related factors. J Am Geriatr Soc 2010 (unsure)"
       ],
       "evidence_risk": "medium",
-      "opening_line_draft": "Follow-up after a hip fracture should ask about the wound and the walking frame, and two more things: how is your mood, and are you afraid of falling?",
+      "opening_line_draft": "After a hip fracture, follow-up should cover your mood and any fear of falling, as well as the wound and the walking frame.",
       "visual_idea": "Question card: three questions for a follow-up appointment (How has your mood been? Are you avoiding walking or going out because you are afraid of falling? What would you like to be able to do again?) with a small note giving the Bower 2020 finding as natural frequencies.",
       "pause": "People recovering recognise a part of recovery that nobody asked them about.",
       "gain": "Permission, and words, to raise mood and fear at an appointment.",
