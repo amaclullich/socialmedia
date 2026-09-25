@@ -562,11 +562,12 @@
   POSES.rising = (c, g) => {
     c.defSeat = 'armchair';
     const si = seatOf(c);
-    const r = makeRig(c, P(30, -si.h - 40), 40 + c.lean, 4, -22);
-    r.leg('far', P(58, -16)); r.leg('near', P(66, -16));
+    // midway from sitting to standing: hips lifted clear of the seat, trunk forward over the feet
+    const r = makeRig(c, P(32, -si.h - 56), 34 + c.lean, 4, -16);
+    r.leg('far', P(54, -16)); r.leg('near', P(62, -16));
     r.farArmLate = true;
     if (c.o.hands === 'crossed') { const ch = add(r.at(0.72), mul(r.fn(0.72), 30)); r.arm('far', add(ch, P(2, -8))); r.arm('near', add(ch, P(-4, 6))); }
-    else if (si.arm) { r.arm('far', P(52, -si.arm - 11)); r.arm('near', P(46, -si.arm - 9)); }
+    else if (si.arm) { r.arm('far', P(60, -si.arm - 11)); r.arm('near', P(54, -si.arm - 9)); }
     else { r.arm('far', onThigh(r.legs.far, 0.85, 18)); r.arm('near', onThigh(r.legs.near, 0.85, 18)); }
     seatLayers(r, c, g, si);
     r.shadow = [40, 80];
