@@ -12,12 +12,12 @@
  .kart svg { position: absolute; inset: 0; width: 100%; height: 100%; }
  .kcell .cap { flex: 0 0 auto; font-size: 24px; line-height: 1.2; padding: 8px 12px 9px; font-weight: 600; color: var(--ink); }
  .kcell .cap i { font-style: normal; font-weight: 400; color: var(--ink-2); }
- .sw { display: grid; gap: 12px; margin-top: 16px; }
+ .sw { display: grid; gap: 10px; margin-top: 10px; }
  .sw.c4 { grid-template-columns: repeat(4, 1fr); } .sw.c6 { grid-template-columns: repeat(6, 1fr); }
  .sw div { border-radius: 12px; border: 2px solid var(--line); overflow: hidden; background: #fff; }
- .sw span.chip { display: block; height: 58px; border-bottom: 2px solid var(--line); }
- .sw b { display: block; font-size: 24px; font-weight: 600; padding: 6px 10px 0; }
- .sw em { display: block; font-size: 22px; font-style: normal; color: var(--ink-2); padding: 0 10px 8px; }
+ .sw span.chip { display: block; height: 34px; border-bottom: 2px solid var(--line); }
+ .sw b { display: block; font-size: 24px; line-height: 1.15; font-weight: 600; padding: 4px 10px 0; }
+ .sw em { display: block; font-size: 22px; line-height: 1.15; font-style: normal; color: var(--ink-2); padding: 0 10px 5px; }
  h2.kh { font-size: 44px; }
  .lead.k { font-size: 30px; margin-top: 10px; }
 </style></head><body><div class="sheet">
@@ -129,7 +129,7 @@ function grid(id, cells) {
   const host = document.getElementById(id);
   cells.forEach((c, i) => {
     const f = document.createElement('div'); f.className = 'kcell';
-    f.innerHTML = `<div class="kart" id="${id}-${i}"></div><div class="cap">${c.cap}</div>`;
+    f.innerHTML = `<div class="kart" id="${id}-${i}"></div><div class="cap">${c.cap.replace(/_/g, '_<wbr>')}</div>`;
     host.appendChild(f);
     K.draw(`#${id}-${i}`, c.w, c.h, [floor(c), ...c.art()], { fit: 'xMidYMid meet' });
   });
@@ -148,7 +148,7 @@ grid('g-poses1', [
   cell('walking_frame', W, H, () => [K.person({ pose: 'walking_frame', x: 105, y, age: 'older', sex: 'f', skin: 'olive', hair: 'silver', hairStyle: 'bun', top: 'teal', bottom: 'stone' })], { fy: y }),
   cell('walking_frame <i>wheeled</i>', W, H, () => [K.person({ pose: 'walking_frame', frame: 'wheeled', x: 105, y, age: 'older', skin: 'tan', hair: 'white', hairStyle: 'short', top: 'brick', bottom: 'charcoal', shoeStyle: 'slipper', shoes: 'navy' })], { fy: y }),
   cell('walking_frame <i>rollator</i>', W, H, () => [K.person({ pose: 'walking_frame', frame: 'rollator', x: 95, y, age: 'older', sex: 'f', skin: 'medium', hair: 'grey', hairStyle: 'coily', top: 'plum', bottom: 'navy' })], { fy: y }),
-  cell('reaching_up <i>on tiptoe</i>', W, H + 40, () => [K.shelf({ x: 200, y: y + 40, height: 470, cupboard: true, w: 180 }), K.person({ pose: 'reaching_up', x: 150, y: y + 40, age: 'older', sex: 'f', skin: 'light', hair: 'grey', hairStyle: 'wavy', top: 'gold', bottom: 'denim' })], { fy: y + 40 }),
+  cell('reaching_up <i>on tiptoe</i>', W, H + 110, () => [K.shelf({ x: 200, y: y + 110, height: 440, cupboard: true, w: 180 }), K.person({ pose: 'reaching_up', x: 150, y: y + 110, age: 'older', sex: 'f', skin: 'light', hair: 'grey', hairStyle: 'wavy', top: 'gold', bottom: 'denim' })], { fy: y + 110 }),
   cell('kneeling <i>facing left</i>', W, H, () => [K.person({ pose: 'kneeling', role: 'physio', x: 190, y, facing: 'left', skin: 'brown', hair: 'black', hairStyle: 'ponytail', sex: 'f' })], { fy: y }),
 ]); }
 
@@ -170,7 +170,7 @@ grid('g-poses2', [
 { const W = 560, H = 300, y = H - 26;
 grid('g-poses3', [
   cell('lying_bed <i>hospital, rails down</i>', W, H, () => [K.person({ pose: 'lying_bed', x: 280, y, scale: 1.05, age: 'older', skin: 'fair', hair: 'grey', hairStyle: 'short', top: 'paleblue' })], { fy: y }),
-  cell('sitting_up_bed <i>backrest 60, rails up</i>', W, H + 40, () => [K.person({ pose: 'sitting_up_bed', rails: 'up', x: 290, y: y + 40, scale: 1.05, age: 'older', sex: 'f', skin: 'brown', hair: 'white', hairStyle: 'curly', top: 'lilac' })], { fy: y + 40 }),
+  cell('sitting_up_bed <i>backrest 60, rails up</i>', W, H + 100, () => [K.person({ pose: 'sitting_up_bed', rails: 'up', x: 290, y: y + 100, scale: 1.05, age: 'older', sex: 'f', skin: 'brown', hair: 'white', hairStyle: 'curly', top: 'lilac' })], { fy: y + 100 }),
   cell('lying_bed <i>bed domestic</i>', W, H, () => [K.person({ pose: 'lying_bed', bed: 'domestic', blanket: 'sage', x: 290, y, scale: 1.05, age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'bob', top: 'rose' })], { fy: y }),
   cell('wheelchair <i>hands on rims</i>, pushing', W, H + 150, () => { const wc = { x: 330, y: y + 150, scale: 1 }; const h = K.anchor('wheelchair', wc).handles; return [K.person({ pose: 'pushing', x: 170, y: y + 150, role: 'care_worker', skin: 'olive', hair: 'dark', hairStyle: 'short', hands: { near: h, far: { x: h.x + 4, y: h.y - 3 } } }), K.person(Object.assign({ pose: 'wheelchair', hands: 'rims', age: 'older', skin: 'light', hair: 'white', hairStyle: 'balding', top: 'navy', bottom: 'stone', extras: ['glasses'] }, wc))]; }, { fy: y + 150 }),
   cell('on_floor <i>sitting, after a fall</i>', W, H, () => [K.person({ pose: 'on_floor', x: 200, y, scale: 1.05, age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'curly', top: 'rose', bottom: 'navy', extras: ['cardigan'], cardigan: 'cream' })], { fy: y }),
@@ -234,7 +234,7 @@ grid('g-props1', [
 { const W = 330, H = 400, y = H - 26;
 grid('g-props2', [
   cell('bed <i>hospital, rails up</i>', 520, 340, () => [K.bed({ x: 260, y: 316, rails: 'up' })], { fy: 316 }),
-  cell('bed <i>backrest 45</i>', 520, 340, () => [K.bed({ x: 260, y: 316, backrest: 45 }), K.pillow({ x: 150, y: 316 - 140 })], { fy: 316 }),
+  cell('bed <i>backrest 45</i>', 520, 340, () => [K.bed({ x: 260, y: 316, backrest: 45 })], { fy: 316 }),
   cell('bed <i>type domestic</i>', 520, 340, () => [K.bed({ x: 260, y: 316, type: 'domestic' }), K.pillow({ x: 90, y: 316 - 118 }), K.blanket({ x: 400, y: 316 - 118, type: 'spread', w: 200, colour: 'sage' })], { fy: 316 }),
   cell('over_bed_table', W, H, () => [K.over_bed_table({ x: 180, y }), K.tray({ x: 150, y: y - 212, w: 140 })], { fy: y }),
   cell('wheelchair', W, H, () => [K.wheelchair({ x: 150, y })], { fy: y }),
@@ -335,7 +335,7 @@ swatches('sw-cloth', K.C, ['deep', 'teal', 'mint', 'pale', 'orange', 'gold', 'sa
     K.glasses({ x: btX + 22, y: top, scale: S, folded: true }),
     K.call_bell({ x: btX + 78, y: top, scale: S * 0.95, cableTo: { x: 10, y: 150 } }),
   ], { cls: 'art' });
-  K.pins('#sceneB', [{ n: 1, x: btX + 78, y: top - 100 }, { n: 2, x: btX + 22, y: top - 44 }, { n: 3, x: btX - 62, y: top - 146 }]);
+  K.pins('#sceneB', [{ n: 1, x: btX + 116, y: top - 80 }, { n: 2, x: btX + 14, y: top - 58 }, { n: 3, x: btX - 62, y: top - 146 }]);
 })();
 
 /* ---------- 16 scene C: three-panel strip ---------- */

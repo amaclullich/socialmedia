@@ -229,12 +229,12 @@
   };
   const HEAD_FRONT = 'M0,-28C13,-28 22,-17 22,-2C22,14 13,28 0,28C-13,28 -22,14 -22,-2C-22,-17 -13,-28 0,-28Z';
   const HAIR_FRONT = {
-    short: ['M-24,4C-27,-17 -15,-32 0,-32C15,-32 27,-17 24,4L21,4C21,-5 20,-10 17,-14C9,-19 -9,-19 -17,-14C-20,-10 -21,-5 -21,4Z'],
-    pixie: ['M-25,8C-28,-16 -16,-33 0,-33C16,-33 28,-16 25,8C23,0 22,-6 18,-11C10,-15 -4,-18 -12,-13C-18,-10 -21,-4 -22,6Z'],
-    cropped: ['M-23,0C-25,-17 -14,-30 0,-30C14,-30 25,-17 23,0L21,0C21,-8 19,-12 16,-16C8,-20 -8,-20 -16,-16C-19,-12 -21,-8 -21,0Z'],
-    balding: ['M-24,8C-26,-2 -24,-12 -19,-17C-17,-10 -18,-2 -18,8Z', 'M24,8C26,-2 24,-12 19,-17C17,-10 18,-2 18,8Z'],
-    bun: ['circle:0,-32,10', 'M-24,4C-26,-16 -15,-31 0,-31C15,-31 26,-16 24,4C22,-2 21,-8 17,-13C9,-18 -9,-18 -17,-13C-21,-8 -22,-2 -24,4Z'],
-    ponytail: ['M-24,4C-26,-16 -15,-31 0,-31C15,-31 26,-16 24,4C22,-2 21,-8 17,-13C9,-18 -9,-18 -17,-13C-21,-8 -22,-2 -24,4Z'],
+    short: ['M-23,-4C-26,-20 -14,-32 0,-32C14,-32 26,-20 23,-4L21,-6C20,-13 17,-17 12,-19C6,-18 -6,-18 -12,-19C-17,-17 -20,-13 -21,-6Z'],
+    pixie: ['M-24,0C-27,-19 -15,-33 0,-33C15,-33 27,-19 24,0C22,-6 21,-10 17,-14C9,-17 -3,-19 -11,-15C-17,-12 -20,-8 -22,-1Z'],
+    cropped: ['M-22,-6C-24,-20 -13,-30 0,-30C13,-30 24,-20 22,-6L20,-8C19,-14 16,-18 11,-20C5,-19 -5,-19 -11,-20C-16,-18 -19,-14 -20,-8Z'],
+    balding: ['M-23.5,-5C-25,-11 -23,-16 -19.5,-19C-18.5,-14 -19,-9 -19.5,-5Z', 'M23.5,-5C25,-11 23,-16 19.5,-19C18.5,-14 19,-9 19.5,-5Z'],
+    bun: ['circle:0,-32,10', 'M-23,-3C-26,-18 -15,-31 0,-31C15,-31 26,-18 23,-3C21,-8 20,-12 17,-15C9,-19 -9,-19 -17,-15C-20,-12 -21,-8 -23,-3Z'],
+    ponytail: ['M-23,-3C-26,-18 -15,-31 0,-31C15,-31 26,-18 23,-3C21,-8 20,-12 17,-15C9,-19 -9,-19 -17,-15C-20,-12 -21,-8 -23,-3Z'],
     long: ['M-20,-13C-12,-19 12,-19 20,-13C23,-4 22,14 22,40L31,45C34,20 31,-4 27,-17C21,-31 -21,-31 -27,-17C-31,-4 -34,20 -31,45L-22,40C-22,14 -23,-4 -20,-13Z'],
     bob: ['M-20,-12C-12,-19 12,-19 20,-12C23,-4 23,10 24,20C27,24 31,20 30,14C32,-4 30,-20 22,-27C12,-34 -12,-34 -22,-27C-30,-20 -32,-4 -30,14C-31,20 -27,24 -24,20C-23,10 -23,-4 -20,-12Z'],
     wavy: ['M-20,-12C-12,-19 12,-19 20,-12C23,-2 21,14 25,30C29,36 34,30 31,22C34,6 31,-14 24,-24C14,-35 -14,-35 -24,-24C-31,-14 -34,6 -31,22C-34,30 -29,36 -25,30C-21,14 -23,-2 -20,-12Z'],
@@ -394,8 +394,8 @@
     r.H = P(0, hipY - LEN.spine - 12 - 35);
     const hw = 17 * c.bw;
     if (seated) {
-      r.legs = [-1, 1].map(s => ({ hip: P(s * hw, hipY), knee: P(s * (hw + 4), hipY + 20), ankle: P(s * (hw + 5), -16) }));
-      r.arms = [-1, 1].map((s, i) => { const sh0 = r.S[i]; const el = P(s * 45 * c.bw, sh0.y + 70); return { sh: sh0, el, hand: P(s * 21, hipY + 2) }; });
+      r.legs = [-1, 1].map(s => ({ hip: P(s * hw, hipY), knee: P(s * (hw + 5), hipY + 28), ankle: P(s * (hw + 6), -16) }));
+      r.arms = [-1, 1].map((s, i) => { const sh0 = r.S[i]; const el = P(s * 45 * c.bw, sh0.y + 70); return { sh: sh0, el, hand: P(s * 23, hipY + 8) }; });
     } else {
       r.legs = [-1, 1].map(s => ({ hip: P(s * hw, hipY), knee: P(s * (hw + 0.5), -113), ankle: P(s * (hw + 1), -16) }));
       r.arms = [-1, 1].map((s, i) => { const sh0 = r.S[i]; const el = P(s * (43 * c.bw + 1), sh0.y + 73); return { sh: sh0, el, hand: P(s * (45 * c.bw + 2), sh0.y + 136) }; });
@@ -407,20 +407,26 @@
     const bw = c.bw, sk = c.bottomStyle === 'skirt';
     let s = r.under;
     const [ra, rb, rc] = legRadii(c);
-    const legs = [];
-    r.legs.forEach(L => { legs.push(capsule(L.hip, L.knee, r.seated ? ra + 1.5 : ra, rb)); legs.push(capsule(L.knee, L.ankle, rb, rc)); });
-    const pelvis = r.seated ? ellP(P(0, r.hipY - 4), 38 * bw, 17, 0) : `M${-37 * bw},${r.hipY - 16}L${37 * bw},${r.hipY - 16}L${30 * bw},${r.hipY + 22}L${-30 * bw},${r.hipY + 22}Z`;
-    s += g.m([sk ? null : pelvis].concat(legs), sk ? c.legs : c.bottom);
-    r.legs.forEach((L, i) => { const sx = i ? 1 : -1; s += G(g.p('M-13,2C-14,-8 -7,-11 0,-11C7,-11 14,-8 13,2L14,10C14,14 -14,14 -14,10Z', c.shoes), `translate(${n1(L.ankle.x + sx * 3)},${n1(L.ankle.y + 2)})`); });
+    const shoesF = () => r.legs.map((L, i) => { const sx = i ? 1 : -1; return G(g.p('M-13,2C-14,-8 -7,-11 0,-11C7,-11 14,-8 13,2L14,10C14,14 -14,14 -14,10Z', c.shoes), `translate(${n1(L.ankle.x + sx * 3)},${n1(L.ankle.y + 2)})`); }).join('');
+    if (r.seated) {
+      // shins first, then the lap (thighs seen end-on, knees towards the viewer) on top
+      s += g.m(r.legs.map(L => capsule(L.knee, L.ankle, rb, rc)), sk ? c.legs : c.bottom) + shoesF();
+      if (!sk) s += g.m([ellP(P(0, r.hipY - 2), 40 * bw, 18, 0)].concat(r.legs.map(L => capsule(L.hip, L.knee, ra + 3, rb + 3))), c.bottom);
+    } else {
+      const legs = [];
+      r.legs.forEach(L => { legs.push(capsule(L.hip, L.knee, ra, rb)); legs.push(capsule(L.knee, L.ankle, rb, rc)); });
+      const pelvis = `M${-37 * bw},${r.hipY - 16}L${37 * bw},${r.hipY - 16}L${30 * bw},${r.hipY + 22}L${-30 * bw},${r.hipY + 22}Z`;
+      s += g.m([sk ? null : pelvis].concat(legs), sk ? c.legs : c.bottom) + shoesF();
+    }
     if (sk) {
       const y0 = r.hipY - 14, y1 = r.seated ? r.hipY + 20 : -96;
-      s += g.p(r.seated ? `M${-38 * bw},${y0}L${38 * bw},${y0}C${46 * bw},${y0 + 10} ${48 * bw},${y1 - 6} ${46 * bw},${y1 + 4}L${-46 * bw},${y1 + 4}C${-48 * bw},${y1 - 6} ${-46 * bw},${y0 + 10} ${-38 * bw},${y0}Z` : `M${-37 * bw},${y0}L${37 * bw},${y0}L${48 * bw},${y1}L${-48 * bw},${y1}Z`, c.bottom);
+      s += g.p(r.seated ? `M${-38 * bw},${y0}L${38 * bw},${y0}C${46 * bw},${y0 + 10} ${48 * bw},${y1 + 14} ${46 * bw},${y1 + 26}L${-46 * bw},${y1 + 26}C${-48 * bw},${y1 + 14} ${-46 * bw},${y0 + 10} ${-38 * bw},${y0}Z` : `M${-37 * bw},${y0}L${37 * bw},${y0}L${48 * bw},${y1}L${-48 * bw},${y1}Z`, c.bottom);
     }
     // neck and torso
     s += g.p(capsule(r.at(0.98), P(0, r.H.y + 14), 10, 10), c.skin);
     const belly = (c.build === 'broad' ? 5 : 0) + (c.age === 'older' ? 2 : 0);
     const hem = c.topStyle === 'tunic' || c.cardigan ? -0.2 : -0.12;
-    const rows = [[r.seated ? Math.max(hem, 0.02) : hem, 38], [0.12, 37], [0.42, 33 + belly], [0.74, 37], [0.93, 41], [1.02, 34], [1.1, 12]];
+    const rows = [[r.seated ? Math.max(hem, 0.09) : hem, 38], [0.12, 37], [0.42, 33 + belly], [0.74, 37], [0.93, 41], [1.02, 34], [1.1, 12]];
     const right = rows.map(([u, w]) => P(w * bw * (u > 1.05 ? 1 / bw : 1), r.at(u).y));
     const left = right.slice().reverse().map(p => P(-p.x, p.y));
     const tor = smooth(right.concat(left), false) + 'Z';
@@ -514,7 +520,7 @@
       r.shadow = [50, 100];
       return r;
     }
-    const r = makeRig(c, P(0, -207), 9 + c.lean, 4, 6);
+    const r = makeRig(c, P(0, -207), 9 + c.lean, 4, -2);
     r.leg('near', P(20, -16)); r.leg('far', P(-12, -16));
     const bx = 34, hh = Kit.dims.frameHandle;
     r.arm('far', P(bx + 24, -hh - 7)); r.arm('near', P(bx + 16, -hh - 3));
@@ -961,7 +967,7 @@
   });
   prop('glasses', (g, o) => {
     const fr = cc(o.colour) || '#3B4A52';
-    if (o.folded) return g.r(-26, -12, 52, 12, 5, 'rgba(227,241,242,.9)') + g.t('M-24,-10H24', fr, 2.6);
+    if (o.folded) return g.t('M-28,-8L28,-17M-28,-17L28,-8', fr, 2.6) + g.r(-31, -24, 26, 18, 7, 'rgba(227,241,242,.55)') + g.r(5, -24, 26, 18, 7, 'rgba(227,241,242,.55)') + g.t('M-5,-18Q0,-22 5,-18', fr, 2.8) + g.t('M-28,-24H-8M8,-24H28', fr, 2.2);
     return g.t('M-30,-14L-40,-22M30,-14L40,-22', fr, 2.8) + g.r(-31, -24, 26, 18, 7, 'rgba(227,241,242,.9)') + g.r(5, -24, 26, 18, 7, 'rgba(227,241,242,.9)') + g.t('M-5,-18Q0,-22 5,-18', fr, 2.8) + g.t('M-28,-24H-8M8,-24H28', fr, 2.2);
   });
   prop('hearing_aid', (g, o) => {
