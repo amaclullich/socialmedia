@@ -1,0 +1,945 @@
+{
+ "category": "C15",
+ "category_name": "Hospital care, emergency care and discharge",
+ "draw_log": [
+  {
+   "draw_id": "C15-R01",
+   "string": "55b967f96f09190def6388d94ad1",
+   "result": "candidate C15-01, candidate C15-02 (the operation, wall calendar, timing, the care home manager viewpoint and 'the first hour' were used; cartography and 'inheriting' gave nothing usable beyond framing the care home as the service that takes over the plan)"
+  },
+  {
+   "draw_id": "C15-R02",
+   "string": "5025cd41ae8c26996e36c65a261f",
+   "result": "candidate C15-03 (the operation and the doctor in training viewpoint were used; sewing pattern, bakeries, borrowing and 'hidden cost' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R03",
+   "string": "5d8fd7b1261431961f188137e5bf",
+   "result": "no usable idea: the speech and language therapist viewpoint in the first 48 hours led only to swallow screening, nil by mouth waits and communication after stroke, which C13-07, C13-15 and C09-21 already cover; suitcase, hill walking, rehousing and delay added nothing true and new"
+  },
+  {
+   "draw_id": "C15-R04",
+   "string": "9c78dfd5e405ec2b73af60ac7e1a",
+   "result": "candidate C15-04 (the operation, the community pharmacist viewpoint, 'the first night' and 'unpacking' were used; lantern, tailoring and 'reversibility' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R05",
+   "string": "38a753c14b8a1f5b50d2bb153e9c",
+   "result": "candidate C15-05 (the operation and 'rationing' were used; umbrella, postal delivery, 'averages', the care home manager viewpoint and 'five years' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R06",
+   "string": "1fac577723d164523ff0d4f07caa",
+   "result": "candidate C15-06 (the operation, 'residue' and the ward clerk viewpoint were used; bus pass, bus timetables and 'three months' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R07",
+   "string": "e2e9467c496fd9fcf920825740a2",
+   "result": "candidate C15-07 (the operation, 'delay', the GP viewpoint and 'the last week of life' were used; thermostat and public libraries gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R08",
+   "string": "88d701fc61931b69986cc704febb",
+   "result": "no usable idea: the community pharmacist viewpoint in the first 48 hours after discharge led to medicines reconciliation and the Discharge Medicines Service, already developed in C16-11 and C06-02 and used for C15-04 from draw R04; the 'order of events' idea about discharge-day prescriptions had no evidence strong enough to carry a post"
+  },
+  {
+   "draw_id": "C15-R09",
+   "string": "81c436f1d538c4b742b78983f85c",
+   "result": "candidate C15-08 (the operation and the spouse viewpoint were used; jigsaw, air traffic control, borrowing and 'first impressions' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R10",
+   "string": "ceb1f0c1fd478f6434e49f5fd39a",
+   "result": "candidate C15-09 (weather forecasting, 'exceptions' and the operation were used; the speech and language therapist viewpoint, recipe card and 'the first night' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R11",
+   "string": "4329179d367f4b0ddab181efad94",
+   "result": "candidate C15-10 (the operation and 'queuing' were used; recipe card, bakeries, 'drift', the spouse viewpoint and 'the first minute' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R12",
+   "string": "31815d16b826978493080c3ea5e3",
+   "result": "candidate C15-11 (the operation, 'sorting' and the paramedic viewpoint were used; recipe card, archives, 'who pays' and 'the moment of discharge' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R13",
+   "string": "3a23312a1c6dbbad5506230273b3",
+   "result": "candidate C15-12 (the operation, the son viewpoint and 'the first 48 hours' were used; door hinge, railway signalling, mapping and 'rhythm' gave nothing usable)"
+  },
+  {
+   "draw_id": "C15-R14",
+   "string": "d310a64099f69d6fb2290210acb0",
+   "result": "candidate C15-13 (the operation and 'rerouting' were used; fuse box, car maintenance, 'drift', the community pharmacist viewpoint and 'the first minute' gave nothing usable)"
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C15-01",
+   "origin": "random",
+   "draw_id": "C15-R01",
+   "stimulus_use": "The operation 'reveal what is omitted' with 'timing' and the wall calendar led to the stop date that is often missing from an antibiotic on the discharge prescription, shown as a calendar.",
+   "working_title": "The antibiotic needs a stop date on the discharge letter",
+   "core_insight": "In a large US study of adults in hospital with pneumonia, two thirds received more antibiotic days than needed, almost all the extra days came from the discharge prescription, and each extra day was linked with more side effects reported by patients.",
+   "angle": "Antibiotic overuse is usually discussed as a prescribing decision on admission. This study located the excess at the point of discharge, where a course without a written total duration or end date runs on. Writing the last day as a calendar date is a small, checkable fix.",
+   "position": "Every antibiotic on a discharge prescription should carry the planned last day as a calendar date and the total course length, and the discharge letter should say who reviews it if the person is not better.",
+   "audience": "practitioners",
+   "series": "Small detail, real effect",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "In 6,481 medical patients with pneumonia in 43 Michigan hospitals, 67.8% received excess antibiotic treatment (cohort: Vaughn et al. 2019, abstract checked)",
+    "Antibiotics prescribed at discharge accounted for 93.2% of the excess duration (Vaughn 2019)",
+    "Not documenting the total treatment duration at discharge was associated with receiving excess treatment (Vaughn 2019)",
+    "Each excess day was associated with a 5% increase in the odds of patient-reported antibiotic-associated adverse events, and excess treatment was not associated with better outcomes (Vaughn 2019; observational, so no causal verb)",
+    "NICE guidance recommends a 5-day course for most adults with community-acquired pneumonia (NICE NG138, 2019)",
+    "UK antimicrobial stewardship guidance asks prescribers to record a review or stop date (UKHSA Start Smart then Focus, updated 2023)",
+    "The risk of Clostridioides difficile infection is higher in older people (surveillance data, e.g. UKHSA; to verify before use)"
+   ],
+   "evidence_leads": [
+    "Vaughn VM, Flanders SA, Snyder A, et al. Excess antibiotic treatment duration and adverse events in patients hospitalized with pneumonia: a multihospital cohort study. Ann Intern Med 2019;171:153-63. doi:10.7326/M18-3640 (abstract checked on PubMed)",
+    "NICE NG138. Pneumonia (community-acquired): antimicrobial prescribing, 2019",
+    "UKHSA. Start Smart then Focus: antimicrobial stewardship toolkit for inpatient care settings, 2023 update (unsure of year)",
+    "Spellberg B, Rice LB. Duration of antibiotic therapy: shorter is better. Ann Intern Med 2019 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Most of the extra antibiotic days in a large study of pneumonia came from the prescription written at discharge.",
+   "visual_idea": "Wall-calendar graphic labelled 'Illustrative example': start date and planned last dose circled, days after it shaded as 'extra days'. Beside it, two discharge lines: 'Amoxicillin, continue' and 'Amoxicillin 500 mg three times a day, last dose evening of [date]; total 5 days'. Credit line: Vaughn et al., Ann Intern Med 2019.",
+   "pause": "Doctors writing discharge prescriptions recognise the 'continue' line they wrote last week.",
+   "gain": "A specific wording change backed by a large study.",
+   "follow": "Teaching that finds the exact point in a process where harm accumulates.",
+   "earlier_overlap": "none; E142 and E145 concern medicine reviews after discharge in general, not antibiotic duration",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-02",
+   "origin": "random",
+   "draw_id": "C15-R01",
+   "stimulus_use": "The care home manager viewpoint and 'the first hour', with the operation 'reveal what is omitted', led to the questions a care home must answer when a resident returns from hospital, which a letter written for the GP may not address.",
+   "working_title": "The four answers a care home needs before the first night",
+   "core_insight": "When a resident returns from hospital, care home staff need to know how the person now moves, what they can eat and drink, which medicines are next due and at what time, and what to do if they get worse overnight, so the discharge information should answer those four questions directly.",
+   "angle": "Discharge letters are usually written for the GP and organised by diagnosis. The people who take over care that evening need practical answers in a different order: moving, eating, the next dose, and the plan for deterioration.",
+   "position": "Discharge information for a care home should state current mobility and transfers, current eating and drinking advice, the time of the last dose of each medicine, and an escalation plan, and it should arrive with the resident.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "NICE recommends that discharge information is shared with the care home and other providers at the time of discharge (NICE NG27, 2015; check the exact recommendation wording)",
+    "Care home staff report receiving incomplete or late information when residents return from hospital (CQC 'Beyond barriers' 2018 or qualitative studies; to find)",
+    "Many older people leave hospital with changed ability in daily activities compared with before admission (meta-analysis: Loyd et al. 2020, used in C02)",
+    "Treatment escalation or anticipatory care plans are part of recommended information at transfer (ReSPECT or Anticipatory Care Planning guidance in Scotland; to verify)"
+   ],
+   "evidence_leads": [
+    "NICE NG27. Transition between inpatient hospital settings and community or care home settings for adults with social care needs, 2015",
+    "Care Quality Commission. Beyond barriers: how older people move between health and social care in England, 2018",
+    "Healthwatch England. Safely home: what happens when people leave hospital and care settings? 2015",
+    "Loyd C et al. Prevalence of hospital-associated disability in older adults: a meta-analysis. J Am Med Dir Assoc 2020;21:455-61",
+    "Qualitative UK studies of care home staff experience of hospital discharge (unsure of authors)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "When a resident comes back from hospital, the care home needs four answers before the first night: how she moves now, what she can eat and drink, which medicines are due next, and what to do if she gets worse.",
+   "visual_idea": "Question card in four boxes, each with a drawn icon (walking frame, cup, clock with a tablet, telephone): 'How does she move now?', 'What can she eat and drink?', 'What is due next, and when?', 'If she gets worse tonight, then what?'. Footer suggests these as headings for the discharge letter.",
+   "pause": "Care home nurses and managers know the evening arrival with a letter that answers none of these.",
+   "gain": "Four headings that make a discharge letter usable by the people providing care that night.",
+   "follow": "Practical help across the hospital and care home boundary.",
+   "earlier_overlap": "E027 (write the suspected dementia diagnosis in the discharge letter) and E149 (a baseline page above the bed); this concerns the practical handover to a care home. Also near C16-22 (transfer bag) and C03-08 (hip fracture return) in this collection; this is general and about letter content.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-03",
+   "origin": "random",
+   "draw_id": "C15-R02",
+   "stimulus_use": "The operation 'test a familiar slogan against the evidence' with the doctor in training viewpoint led to a bed-rest slogan often repeated to new staff, checked against the studies usually linked to it.",
+   "working_title": "Ten days in bed, ten years of ageing: what was measured",
+   "core_insight": "The slogan that ten days in a hospital bed ages an older person's muscles by ten years points in the right direction, but the best-known bed-rest study measured something narrower: in 11 healthy volunteers with an average age of 67, ten days of continuous bed rest reduced leg strength and aerobic capacity substantially, while simple physical performance tests did not change.",
+   "angle": "The slogan is useful for motivation and loose as a fact. Quoting what was actually measured (strength, stair-climbing power, aerobic capacity, in healthy people lying in bed for ten days) is more accurate, still alarming, and harder to dismiss.",
+   "position": "Teach the measured findings rather than the slogan; the case for getting older people up and moving in hospital is strong enough without an equivalence nobody measured directly (the last clause needs checking before use).",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In 11 healthy older adults (mean age 67) on 10 days of continuous bed rest, knee extensor strength fell by 13.2%, stair-climbing power by 14% and maximal aerobic capacity by 12%, while SPPB and a five-item physical performance test did not change significantly (Kortebein et al. 2008, abstract checked)",
+    "The same group lost about 1 kg of lean leg mass (Kortebein et al. 2007 JAMA research letter; full text needed)",
+    "The slogan 'for people over 80, 10 days in hospital leads to the equivalent of 10 years of muscle ageing' is used in NHS campaigns such as End PJ Paralysis and attributed to Gill et al. 2004 (campaign materials; to find the exact source and wording)",
+    "Gill et al. 2004 studied the link between hospitalisation, restricted activity and new disability in community-living older people, and did not measure muscle ageing (read the Gill 2004 abstract)",
+    "Low mobility during hospital stays is associated with functional decline in older people (cohort: Brown CJ et al. 2004 J Am Geriatr Soc; to check)"
+   ],
+   "evidence_leads": [
+    "Kortebein P, Symons TB, Ferrando A, et al. Functional impact of 10 days of bed rest in healthy older adults. J Gerontol A Biol Sci Med Sci 2008;63:1076-81. doi:10.1093/gerona/63.10.1076 (abstract checked on PubMed)",
+    "Kortebein P, Ferrando A, Lombeida J, Wolfe R, Evans WJ. Effect of 10 days of bed rest on skeletal muscle in healthy older adults. JAMA 2007;297:1772-4 (research letter; PubMed record found, no abstract)",
+    "Gill TM, Allore HG, Holford TR, Guo Z. Hospitalization, restricted activity, and the development of disability among older persons. JAMA 2004;292:2115-24 (PubMed record found)",
+    "End PJ Paralysis campaign materials, 2017 onwards (unsure of the exact citation used)",
+    "Brown CJ, Friedkin RJ, Inouye SK. Prevalence and outcomes of low mobility in hospitalized older patients. J Am Geriatr Soc 2004;52:1263-70 (unsure of pages)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "The saying that ten days in a hospital bed ages the muscles by ten years is widely taught; the study usually linked to it measured something narrower, and still worrying.",
+   "visual_idea": "Comparison card. Left, the slogan in quotation marks with the label 'What is often said'. Right, 'What was measured': 11 healthy volunteers, average age 67, 10 days of bed rest; three bars for knee strength, stair-climbing power and aerobic capacity with the measured falls; a fourth line 'Simple physical performance tests: no significant change'. Credit line: Kortebein et al., J Gerontol A 2008.",
+   "pause": "Staff who have repeated the slogan at an induction will want to know what sits behind it.",
+   "gain": "The actual figures to quote, and the limits of the study.",
+   "follow": "Careful reading of the evidence behind popular claims, without dismissing the underlying concern.",
+   "earlier_overlap": "E131 (bed rest is a frailty accelerator; a week in bed can take more muscle than a year of ordinary ageing) made a similar equivalence claim; this post examines the evidence behind such claims. C02-28 in this collection reads the End PJ Paralysis campaign evaluations, not the slogan's source.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-04",
+   "origin": "random",
+   "draw_id": "C15-R04",
+   "stimulus_use": "The operation 'look at the smallest practical detail' with the community pharmacist viewpoint, 'the first night' and 'unpacking' led to the doses already given on the day of discharge and the day a weekly medicine is next due, checked as the bag is unpacked at home.",
+   "working_title": "Which of today's doses have you already had?",
+   "core_insight": "On the day you leave hospital, ask which of that day's doses the ward has already given and when each medicine is next due, including any weekly tablet or patch, so that nothing is doubled or missed on the first evening at home.",
+   "angle": "Discharge advice focuses on which medicines changed. The first evening depends on something smaller: the ward may have given the morning and lunchtime doses, and a weekly tablet's day may have moved during the admission.",
+   "position": "Discharge information should state the time of the last dose given on the ward for each medicine and the next due day for weekly medicines; families are entitled to ask for it.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "Medication errors and discrepancies are common in the period after discharge from hospital (systematic review: Alqenae et al. 2020)",
+    "Taking a weekly medicine such as methotrexate daily by mistake can cause serious harm, and UK regulators have issued safety measures about it (MHRA Drug Safety Update, September 2020)",
+    "Weekly bisphosphonates such as alendronate are taken on a fixed day each week (product information)",
+    "Hospitals usually supply medicines to take home at discharge, and the ward may have given that day's earlier doses (describe as general practice; check wording with a pharmacy source)"
+   ],
+   "evidence_leads": [
+    "Alqenae FA, Steinke D, Keers RN. Prevalence and nature of medication errors and medication-related harm following discharge from hospital to community settings: a systematic review. Drug Saf 2020;43:517-37 (unsure of pages)",
+    "MHRA. Methotrexate once-weekly for autoimmune diseases: new measures to reduce risk of fatal overdose due to inadvertent daily instead of weekly dosing. Drug Safety Update, September 2020",
+    "NPSA. Improving compliance with oral methotrexate guidelines. Patient Safety Alert, 2006 (unsure)",
+    "NICE NG5. Medicines optimisation, 2015 (medicines reconciliation at transfer)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "On the day you leave hospital, ask which of today's tablets you have already been given.",
+   "visual_idea": "Checklist card titled 'Before you leave the ward': 1 Which of today's doses have been given, and at what time? 2 When is the next dose of each medicine? 3 Any weekly tablet, injection or patch: which day is it due now? 4 Which boxes at home should be put aside? Drawn image of a hospital medicines bag being unpacked on a kitchen table next to older boxes.",
+   "pause": "Families who have stood in a kitchen with two sets of boxes will recognise the problem.",
+   "gain": "Three questions that prevent a doubled or missed dose on the first evening.",
+   "follow": "Concrete, low-effort actions for families at a stressful moment.",
+   "earlier_overlap": "E136 (bring the bag of boxes to hospital) and E145 (a sleeping tablet started in hospital) concern admission and new prescriptions; this concerns dose timing on discharge day. Near C06-12 and C16-11 in this collection, which cover look-alike tablets and a stopped tablet returning.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-05",
+   "origin": "random",
+   "draw_id": "C15-R05",
+   "stimulus_use": "The operation 'trace a handover between people or services' and 'rationing' led to following a home care package from the day of admission, through suspension or release, to the restart that discharge depends on.",
+   "working_title": "Is the home care being kept open?",
+   "core_insight": "If someone had home carers before going into hospital, the family can ask early whether that care is being held open and for how long, because care that is released during the admission may have to be arranged again before discharge.",
+   "angle": "Families assume the carers will simply restart. The handover between hospital and home care provider is a separate step, and its timing is set by local rules the family rarely hears about.",
+   "position": "Families should be told on admission what happens to an existing home care package and for how long it is held, and should ask if they are not told.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "Home care packages may be suspended during a hospital stay and may be ended if the stay goes beyond a locally set period (local authority or provider policies; ADASS or Healthwatch reports; to find)",
+    "Waiting for home care to start or restart is one of the recorded reasons for delayed discharge (Public Health Scotland delayed discharge statistics reason codes; NHS England discharge delay data)",
+    "Older people whose discharge is delayed spend extra days in hospital (NAO 2016; Rojas-Garcia et al. 2018)"
+   ],
+   "evidence_leads": [
+    "Public Health Scotland. Delayed discharges in NHSScotland, monthly official statistics (reason codes)",
+    "National Audit Office. Discharging older patients from hospital, 2016",
+    "Healthwatch England. Safely home, 2015",
+    "ADASS or local authority home care policies on holding packages during admission (unsure)"
+   ],
+   "evidence_risk": "high",
+   "opening_line_draft": "If carers came to your mother's home before she went into hospital, ask whether that care is being kept open for her, and until when.",
+   "visual_idea": "Simple timeline diagram labelled 'Illustrative sequence': admission day; home care provider told; care held for a set period (period shown as 'set locally'); care released or kept; discharge date; care restarts or a new package is sought. A question mark at each handover with the question to ask.",
+   "pause": "Families who have waited for a care package that used to exist will stop.",
+   "gain": "A question to ask on day one rather than at discharge.",
+   "follow": "Explains how services connect, in terms families can act on.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-06",
+   "origin": "random",
+   "draw_id": "C15-R06",
+   "stimulus_use": "'Residue' suggested the test results left over after discharge, the ward clerk viewpoint suggested results arriving after the patient has gone, and the operation 'ask who bears the cost' pointed to the patient and GP who inherit a result that nobody owns.",
+   "working_title": "Results still awaited: name who will read them",
+   "core_insight": "Many patients leave hospital with test results still to come back, and in a US study the responsible doctors were unaware of most of the potentially actionable ones, so every discharge letter should list the awaited results and name who will act on them.",
+   "angle": "The cost of an unowned result falls on the patient, who may not know a test was sent, and on the GP, who receives it without context. The fix is a named person and a line on the letter.",
+   "position": "A discharge letter should list tests still awaited and name the person responsible for acting on each; 'GP to chase' without saying what or why moves the risk without managing it.",
+   "audience": "practitioners",
+   "series": "Small detail, real effect",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Of 2,644 patients discharged from two US academic hospitals in 2004, 41% had test results return after discharge (cross-sectional: Roy et al. 2005, abstract checked)",
+    "9.4% of the returning results were potentially actionable, and physicians were unaware of 61.6% of those surveyed; of these, 37% were judged actionable and about 13% urgent (Roy 2005)",
+    "The study could not show whether lack of awareness led to harm (Roy 2005 limitation)",
+    "Interventions to track results pending at discharge have been evaluated with mixed effects (systematic review: Darragh et al. 2018; to check)"
+   ],
+   "evidence_leads": [
+    "Roy CL, Poon EG, Karson AS, et al. Patient safety concerns arising from test results that return after hospital discharge. Ann Intern Med 2005;143:121-8. doi:10.7326/0003-4819-143-2-200507190-00011 (abstract checked on PubMed)",
+    "Darragh PJ, Bodley T, Orchanian-Cheff A, et al. A systematic review of interventions to follow-up test results pending at discharge. J Gen Intern Med 2018;33:750-8 (unsure)",
+    "Kripalani S et al. Deficits in communication and information transfer between hospital-based and primary care physicians. JAMA 2007;297:831-41"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Test results that come back after discharge are easy to miss: in a US study, the responsible doctors were unaware of most of the potentially actionable ones.",
+   "visual_idea": "Timeline diagram labelled 'Illustrative example': blood culture sent on day 5, discharge on day 6, result on day 8, with two branches: 'Nobody named: result filed' and 'Named on the letter: result read and acted on'. Below, a mock discharge-letter box headed 'Results awaited: test, expected date, who will act'.",
+   "pause": "Junior doctors and GPs both recognise the result that arrives after the patient has left.",
+   "gain": "A one-line addition to the discharge letter that closes a known gap.",
+   "follow": "Specific fixes to handovers between hospital and primary care.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-07",
+   "origin": "random",
+   "draw_id": "C15-R07",
+   "stimulus_use": "The operation 'compare the stated aim of a service with what happens', with 'delay', the GP viewpoint and 'the last week of life', led to rapid discharge home to die, whose aim is speed and whose steps can each wait on another.",
+   "working_title": "Getting home to die: start every step on the same day",
+   "core_insight": "When a person who is dying wants to go home and time is short, the discharge depends on several separate arrangements (equipment, medicines for symptoms, community nurses, the GP, care overnight and transport), and asking for them all to be started the same day gives the best chance of getting home in time.",
+   "angle": "A 'rapid discharge' is only as fast as its slowest step. Families can ask what each step is waiting for, and the GP and district nurses need to know on the day, not from a letter afterwards.",
+   "position": "Rapid discharge to die at home should run its steps in parallel, with one named coordinator, and families should be told openly that time may run out (judgement).",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "claims_needing_evidence": [
+    "Quality improvement work on rapid (compassionate) discharge identifies delays in obtaining home equipment and medicines and poor communication between teams as the main barriers (BMJ Open Qual 2024 'Fulfilling last wishes'; read full text)",
+    "NICE recommends anticipatory prescribing of medicines for likely symptoms in the last days of life (NICE NG31, 2015)",
+    "In England, the NHS Continuing Healthcare Fast Track Pathway allows care to be funded quickly for people nearing the end of life (DHSC National Framework for NHS Continuing Healthcare, 2022); check the Scottish equivalent before use",
+    "Some people referred for rapid discharge die in hospital before discharge can happen (service audits or studies; to find)"
+   ],
+   "evidence_leads": [
+    "Fulfilling last wishes: improving the compassionate discharge process. BMJ Open Qual 2024. doi:10.1136/bmjoq-2023-002666 (PubMed record found; authors not yet checked)",
+    "NICE NG31. Care of dying adults in the last days of life, 2015",
+    "Department of Health and Social Care. National Framework for NHS Continuing Healthcare and NHS-funded Nursing Care, 2022 (Fast Track Pathway Tool)",
+    "Scottish Palliative Care Guidelines: rapid discharge or end-of-life care at home (unsure of title)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "When someone who is dying wants to go home, ask the ward to start every part of the discharge today, and ask what each part is waiting for.",
+   "visual_idea": "Parallel-track diagram titled 'Started on the same day': five horizontal lanes (equipment such as bed, mattress and commode; medicines for symptoms at home; district nurses and GP told; care for the nights; transport and paperwork, including the resuscitation decision), all starting from one point and joining at 'Home'. A single named coordinator shown at the start.",
+   "pause": "Families who have been told 'we are trying to get him home' and then waited will recognise this.",
+   "gain": "A way to ask about each step instead of waiting for one call.",
+   "follow": "Practical guidance on end-of-life care that respects what the person wants.",
+   "earlier_overlap": "none. In this collection, C19-11 (anticipatory medicines at home) and C19-30 (home palliative care teams) are related; this post concerns the hospital discharge process.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-08",
+   "origin": "random",
+   "draw_id": "C15-R09",
+   "stimulus_use": "The operation 'ask what would change the decision' with the spouse viewpoint led to the admission decision in the emergency department, where what the family can and can't provide at home is part of the decision.",
+   "working_title": "What would let him be treated at home tonight?",
+   "core_insight": "In the emergency department, the decision to admit an older person partly depends on what support is available at home, so it is reasonable to ask what would need to be in place for treatment at home, and to say clearly what you can and can't provide.",
+   "angle": "Families often feel the admission decision is purely medical. Asking what would change it brings in services such as hospital at home or urgent community response where they exist, and it also protects a spouse from silently taking on more than they can manage.",
+   "position": "Staff should ask families both what they can offer and what they can't, and families should feel free to say either; neither answer should be assumed (judgement).",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "For selected older people referred for admission, hospital-level care at home with comprehensive geriatric assessment had similar outcomes to admission (RCT: Shepperd et al. 2021)",
+    "Urgent community response services in England aim to respond to people in crisis at home within two hours (NHS England, 2022; check)",
+    "Availability of hospital at home and same-day community services varies by area (Healthcare Improvement Scotland Hospital at Home programme; NHS England virtual wards; to verify)",
+    "Many older people prefer to be treated at home when it is safe (survey or trial satisfaction data; Shepperd 2021 secondary outcomes)"
+   ],
+   "evidence_leads": [
+    "Shepperd S, Butler C, Cradduck-Bamford A, et al. Is comprehensive geriatric assessment admission avoidance hospital at home an alternative to hospital admission for older persons? A randomized trial. Ann Intern Med 2021;174:889-98 (abstract checked on PubMed)",
+    "NHS England. Urgent community response: two-hour standard guidance, 2022 (unsure)",
+    "Healthcare Improvement Scotland. Hospital at Home programme reports (unsure)",
+    "British Geriatrics Society. Silver Book II: quality care for older people with urgent care needs, 2021"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "In the emergency department, you can ask what would need to be in place for your husband to be treated at home tonight rather than admitted.",
+   "visual_idea": "Question card with two columns under the heading 'Tell the team': 'What we can do tonight' and 'What we can't do', with example rows drawn as blank lines (for example 'stay overnight', 'help him to the toilet', 'give tablets', 'lift him if he falls'), and a third box 'Ask: is there a hospital at home or rapid response team here?'.",
+   "pause": "A spouse sitting beside a trolley at midnight wonders whether home is possible.",
+   "gain": "A question that opens alternatives and a way to state limits without guilt.",
+   "follow": "Supports families without assuming unlimited unpaid care.",
+   "earlier_overlap": "E116 (tell the team who this person was last week) concerns baseline; this concerns the admission decision. Near C17-02 in this collection, which applies a similar question to discharge rather than admission.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-09",
+   "origin": "random",
+   "draw_id": "C15-R10",
+   "stimulus_use": "'Weather forecasting' and 'exceptions' suggested prediction and the people a forecast misses; the operation 'change the viewpoint' moved attention from the score to what the person and family know that the score leaves out.",
+   "working_title": "What a readmission risk score can't see",
+   "core_insight": "A systematic review found that most readmission risk prediction models discriminate poorly, and few include function or social circumstances, which the person and their family can often describe at the bedside.",
+   "angle": "Scores are often used to decide who gets extra discharge support. The review shows their limits and suggests the missing information is the kind a conversation provides: who is at home, whether medicines can be managed, how the person walked before.",
+   "position": "Use readmission scores as a prompt at most, and ask the person and family the questions the score leaves out before deciding who needs extra support.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "Of 26 validated readmission models, those based on administrative data tested in large US populations had poor discrimination (c statistic 0.55 to 0.65) (systematic review: Kansagara et al. 2011, abstract checked)",
+    "Models usable early in admission had c statistics of 0.56 to 0.72, and those usable at discharge 0.68 to 0.83 (Kansagara 2011)",
+    "Few models examined function, illness severity or social determinants; two studies found functional and social variables improved discrimination (Kansagara 2011)",
+    "A plain reading of the c statistic: the chance that the model ranks a randomly chosen readmitted patient above one who was not readmitted, where 0.5 is chance (methods source)",
+    "Later reviews reached similar conclusions (Zhou et al. 2016 BMJ Open; to check)"
+   ],
+   "evidence_leads": [
+    "Kansagara D, Englander H, Salanitro A, et al. Risk prediction models for hospital readmission: a systematic review. JAMA 2011;306:1688-98. doi:10.1001/jama.2011.1515 (abstract checked on PubMed)",
+    "Zhou H, Della PR, Roberts P, Goh L, Dhaliwal SS. Utility of models to predict 28-day or 30-day unplanned hospital readmissions: an updated systematic review. BMJ Open 2016;6:e011060 (unsure)",
+    "van Walraven C et al. Derivation and validation of an index to predict early death or unplanned readmission after discharge from hospital to the community (LACE). CMAJ 2010;182:551-7 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Most readmission risk scores rank patients only modestly better than chance, and few include what the person's family could tell you.",
+   "visual_idea": "Diagram: a scale from 0.5 ('no better than chance') to 1.0 ('perfect ranking') with the reported ranges of c statistics marked as bands and labelled by model type; beside it, a short list 'Often missing from the models': walking before admission, who is at home, managing medicines, understanding of the plan. Credit line: Kansagara et al., JAMA 2011.",
+   "pause": "Discharge coordinators who use a risk score every day will want to know how well it works.",
+   "gain": "A calibrated view of the score and the questions to add.",
+   "follow": "Evidence reading that respects both tools and conversations.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-10",
+   "origin": "random",
+   "draw_id": "C15-R11",
+   "stimulus_use": "The operation 'compare what is recorded with what is experienced' and 'queuing' led to comparing the points at which official waiting-time clocks start with the wait a person experiences from arrival, or from the 999 call.",
+   "working_title": "When does the waiting clock start?",
+   "core_insight": "Different official emergency waiting measures start their clocks at different points, so a person's experienced wait, from the call or arrival to a ward bed, can be much longer than a headline figure suggests; knowing which clock a figure uses helps readers interpret it.",
+   "angle": "The '12-hour trolley wait' in England has been counted from the decision to admit, while research linking long waits with harm, such as the 2022 English mortality study, measured from arrival. Two figures with similar names describe different waits.",
+   "position": "explanatory, no position",
+   "audience": "both",
+   "series": "What gets counted",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "NHS England's '12-hour trolley wait' measure counts time from decision to admit to admission (NHS England A&E statistics definitions; official document needed)",
+    "NHS England also publishes, or has published, the number of patients spending 12 hours or more in A&E from arrival (NHS England statistics; check dates)",
+    "Public Health Scotland reports A&E waits measured from arrival to departure (PHS A&E activity and waiting times; check)",
+    "Time waiting in an ambulance outside the department before handover may not be counted in A&E time (NHS England or ambulance service definitions; check)",
+    "The Jones et al. 2022 mortality study measured time from arrival at the emergency department (abstract checked)"
+   ],
+   "evidence_leads": [
+    "NHS England. A&E attendances and emergency admissions: statistical guidance and definitions (unsure of current document title)",
+    "Public Health Scotland. A&E activity and waiting times, weekly and monthly releases",
+    "Royal College of Emergency Medicine. Reports on 12-hour waits from arrival (unsure of year)",
+    "Jones S, Moulton C, Swift S, et al. Association between delays to patient admission from the emergency department and all-cause 30-day mortality. Emerg Med J 2022;39:168-73 (abstract checked on PubMed)"
+   ],
+   "evidence_risk": "high",
+   "opening_line_draft": "In England, the official '12-hour trolley wait' has been counted from the decision to admit, which can be many hours after the person arrived.",
+   "visual_idea": "Timeline diagram labelled 'Illustrative example', one person's night: 999 call, ambulance arrives, arrival at hospital, handover, first assessment, decision to admit, ward bed. Brackets beneath show which stretch each named measure counts ('4-hour standard', '12 hours from arrival', '12-hour trolley wait'), each labelled in text, not by colour alone.",
+   "pause": "People who waited far longer than the published figures suggest will want to know why.",
+   "gain": "The ability to read a waiting-time headline correctly.",
+   "follow": "Clear explanations of how health service statistics are built.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-11",
+   "origin": "random",
+   "draw_id": "C15-R12",
+   "stimulus_use": "'Sorting' and the paramedic viewpoint led to trauma triage, and the operation 'change the viewpoint' led to seeing an older person's low fall through triage rules built around high-energy injury.",
+   "working_title": "A fall from standing height can be major trauma",
+   "core_insight": "In UK trauma registry data, falls from less than two metres became the commonest cause of major trauma, and older people make up a large share of major trauma patients, so a low fall in an older person should be assessed for serious injury rather than triaged by mechanism alone.",
+   "angle": "Trauma systems were designed around road collisions in young people. For older people the mechanism looks minor while the injury can be severe, especially rib fractures, where each additional fracture is linked with higher risk of pneumonia and death.",
+   "position": "Triage of older people after a fall should look at the injury and the person (age, anticoagulants, rib and head injury) rather than the height of the fall.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "In TARN data, the mean age of major trauma patients rose from 36.1 in 1990 to 53.8 in 2013, people over 75 were 26.9% of cases in 2013, and falls from less than 2 m were the commonest mechanism (39.1%) (registry analysis: Kehoe et al. 2015, abstract checked)",
+    "Older people with major trauma are less likely to receive trauma team activation or senior review (TARN 'Major Trauma in Older People' report 2017; to check)",
+    "In a US trauma centre cohort, each additional rib fracture in people aged 65 and over was associated with higher odds of death (odds ratio 1.19) and pneumonia (odds ratio 1.16 in the results; the conclusion states 27%, so check the discrepancy before quoting) (Bulger et al. 2000, abstract checked)",
+    "NICE guidance on major trauma applies regardless of mechanism (NICE NG39, 2016; check wording)"
+   ],
+   "evidence_leads": [
+    "Kehoe A, Smith JE, Edwards A, Yates D, Lecky F. The changing face of major trauma in the UK. Emerg Med J 2015;32:911-5. doi:10.1136/emermed-2015-205265 (abstract checked on PubMed)",
+    "Bulger EM, Arneson MA, Mock CN, Jurkovich GJ. Rib fractures in the elderly. J Trauma 2000;48:1040-6. doi:10.1097/00005373-200006000-00007 (abstract checked on PubMed)",
+    "Trauma Audit and Research Network. Major trauma in older people, 2017 (unsure of authors)",
+    "NICE NG39. Major trauma: assessment and initial management, 2016",
+    "Chang DC et al. Undertriage of elderly trauma patients to state-designated trauma centers. Arch Surg 2008 (unsure of journal)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "The commonest cause of major trauma in UK registry data is now a fall from less than two metres.",
+   "visual_idea": "Comparison chart from Kehoe 2015: two labelled columns for 1990 and 2013 showing mean age of major trauma patients and the commonest mechanism (road collision in 1990, fall under 2 m in 2013), with values printed. Credit line: Kehoe et al., Emerg Med J 2015.",
+   "pause": "Paramedics and emergency staff who triage low falls as minor will stop at the data.",
+   "gain": "A reason and a method to look harder at the injury after a low fall.",
+   "follow": "Teaching that updates old assumptions with registry data.",
+   "earlier_overlap": "E064 (a fall is a medical event) and E080 (syncope) concern the cause of the fall; this concerns detecting serious injury after it.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-12",
+   "origin": "random",
+   "draw_id": "C15-R13",
+   "stimulus_use": "The operation 'reverse the default assumption' led to questioning the default that admission is the safest option for an acutely unwell older person; the son viewpoint and 'the first 48 hours' prompted attention to what the family does during treatment at home.",
+   "working_title": "Hospital at home: what the UK trial found",
+   "core_insight": "In a UK trial of 1,055 older people referred for emergency admission, treatment by a hospital-at-home team with comprehensive geriatric assessment gave similar rates of living at home and of death at six months as hospital admission, and fewer people were in long-term residential care.",
+   "angle": "The default assumes hospital is safest. For selected, stable older people, the trial suggests home treatment can match it on the main outcomes, with fewer moves into care homes; what it asks of families and how people were selected need to be stated too.",
+   "position": "For selected older people who are medically unwell but stable, hospital-level care at home with a geriatric team is a reasonable alternative to admission; the choice should include what the person wants and what the household can manage.",
+   "audience": "both",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "At 6 months, 78.6% of the hospital-at-home group and 75.3% of the hospital group were living at home (relative risk 1.05, 95% CI 0.95 to 1.15) (RCT: Shepperd et al. 2021, abstract checked)",
+    "Deaths at 6 months were 16.9% and 17.7% (no clear difference) (Shepperd 2021)",
+    "Long-term residential care at 6 months was 5.7% versus 8.7% (relative risk 0.58) (Shepperd 2021)",
+    "Participants had a mean age of 83 and were physiologically stable, mostly referred from short-stay acute medical assessment units (Shepperd 2021 limitations)",
+    "Carer outcomes in the trial (for example carer strain) need checking before any statement about families (trial report or NIHR HS&DR report)",
+    "The Cochrane review of admission avoidance hospital at home found little or no difference in mortality and possibly fewer admissions to residential care (Shepperd et al. 2016; check for a 2024 update)"
+   ],
+   "evidence_leads": [
+    "Shepperd S, Butler C, Cradduck-Bamford A, et al. Ann Intern Med 2021;174:889-98. doi:10.7326/M20-5688 (abstract checked on PubMed)",
+    "Shepperd S, Iliffe S, Doll HA, et al. Admission avoidance hospital at home. Cochrane Database Syst Rev 2016;9:CD007491 (unsure of issue; check for a 2024 update by Edgar K et al.)",
+    "NIHR Health Services and Delivery Research report of the CGA hospital at home trial (unsure of year)",
+    "Healthcare Improvement Scotland. Hospital at Home programme (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A UK trial compared hospital-at-home care with admission for older people: no clear difference in deaths or in living at home at six months, and fewer moves into care homes.",
+   "visual_idea": "Icon array comparison per 100 people at 6 months, two panels ('Treated at home by the team' and 'Admitted to hospital'): living at home, died, in long-term residential care, with the measured figures written beside each group and a note that the first two did not differ clearly. Credit line: Shepperd et al., Ann Intern Med 2021.",
+   "pause": "Families and clinicians who assume hospital is always safer will be surprised by the comparison.",
+   "gain": "A fair summary of a UK trial, including who it applies to.",
+   "follow": "Balanced accounts of alternatives to standard care.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic; the trial listed delirium as a secondary outcome and noted it may have been undetected, and the post will not use those findings"
+  },
+  {
+   "cand_id": "C15-13",
+   "origin": "random",
+   "draw_id": "C15-R14",
+   "stimulus_use": "The operation 'count something nobody counts' and 'rerouting' led to counting the bed and ward moves in one person's stay, including moves made at night.",
+   "working_title": "Count the bed moves",
+   "core_insight": "Hospitals report admissions and length of stay but rarely the number of times one person is moved between beds and wards, although an Australian hospital study found each move was linked with higher odds of an injurious fall.",
+   "angle": "Each move means a new bay, new staff and a new handover, and for an older person often a night of disruption. The number of moves is easy to count and seldom reported.",
+   "position": "Hospitals should count bed and ward moves per patient, report moves at night, and avoid moves of older people for bed management reasons where possible (judgement supported by observational data).",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "In 14,133 patients in one Australian hospital in 2008 to 2009, each bed or ward transfer was associated with increased odds of falls with injury and of wound infections in surgical patients; medication errors were not associated (cross-sectional: Blay et al. 2017, abstract checked)",
+    "Patients placed on wards outside their specialty (outliers) have been linked with longer stays or other adverse outcomes in NHS data (Stylianou et al. 2017 BMJ Open; to check)",
+    "Routine NHS statistics do not report the number of bed moves per patient (check PHS and NHS England publications; phrase cautiously)",
+    "Night-time moves of patients are recorded by some hospitals and have been reported through freedom of information requests (to find a published source or drop)"
+   ],
+   "evidence_leads": [
+    "Blay N, Roche MA, Duffield C, Xu X. Intrahospital transfers and adverse patient outcomes: an analysis of administrative health data. J Clin Nurs 2017;26:4927-35. doi:10.1111/jocn.13976 (abstract checked on PubMed)",
+    "Stylianou N, Fackrell R, Vasilakis C. Are medical outliers associated with worse patient outcomes? A retrospective study within a regional NHS hospital using routine data. BMJ Open 2017;7:e015676 (unsure)",
+    "Goulding L, Adamson J, Watt I, Wright J. Patient safety in patients who occupy beds on clinically inappropriate wards: a qualitative interview study with NHS staff. BMJ Qual Saf 2012 (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Every move to a new bed or ward means new staff and a new handover, and one hospital study linked each move with higher odds of a fall that caused injury.",
+   "visual_idea": "Illustrated floor plan labelled 'Illustrative example' tracing one older woman's stay: emergency department, assessment unit, a surgical ward as an outlier, a medical ward, a side room, with move numbers and times (one marked at night). Caption box: 'Moves this stay: count them.' Credit line for the linked finding: Blay et al., J Clin Nurs 2017.",
+   "pause": "Ward staff and families who have lost track of how many times a patient moved.",
+   "gain": "A simple, countable measure to add to ward reporting.",
+   "follow": "Attention to the parts of hospital care that are easy to overlook and easy to fix.",
+   "earlier_overlap": "E081 (hospital falls; lists bed moves among causes) mentions moves in passing; this post makes moves a measure. In this collection, C19-15 counts moves between settings near death, and C08 rejected a ward-move idea because it drifted into delirium; this version uses falls and infection findings only.",
+   "delirium_check": "delirium is not the topic; moves have also been linked with delirium in other studies, but the post will not discuss that"
+  },
+  {
+   "cand_id": "C15-14",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Longer waits for a bed, more deaths within 30 days",
+   "core_insight": "In English hospital data covering over five million admitted patients, longer time in the emergency department before admission was linked with higher 30-day mortality after adjustment for age, illness and crowding, rising steadily from about five hours after arrival.",
+   "angle": "The study is often summarised as 'one extra death for every 82 patients delayed'. Reading it properly means saying what it adjusted for, that it is observational, and that the figure describes patients waiting beyond 6 to 8 hours compared with shorter waits.",
+   "position": "Long waits before admission are a patient-safety problem and should be reported as one; the study shows a consistent link, not proof that each extra hour causes a death.",
+   "audience": "both",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "The study included 5,249,891 patients admitted from type 1 emergency departments in England from April 2016 to March 2018 (cross-sectional: Jones et al. 2022, abstract checked)",
+    "Mortality rose in a linear fashion from 5 hours after arrival up to 12 hours (Jones 2022)",
+    "The authors estimated one extra death for every 82 admitted patients whose transfer to a bed was delayed beyond 6 to 8 hours from arrival (Jones 2022; check the comparison group in the full text)",
+    "The model adjusted for sex, age, deprivation, comorbidities, time of day, month, previous attendances and department crowding (Jones 2022)",
+    "Older people are more likely than younger adults to experience long emergency department waits (NHS England, PHS or RCEM data; to find)"
+   ],
+   "evidence_leads": [
+    "Jones S, Moulton C, Swift S, et al. Association between delays to patient admission from the emergency department and all-cause 30-day mortality. Emerg Med J 2022;39:168-73. doi:10.1136/emermed-2021-211572 (abstract checked on PubMed)",
+    "Plunkett PK, Byrne DG, Breslin T, Bennett K, Silke B. Increasing wait times predict increasing mortality for emergency medical admissions. Eur J Emerg Med 2011;18:192-6 (unsure)",
+    "Royal College of Emergency Medicine reports on long waits and older people (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "People in England who waited longer in the emergency department before getting a bed were more likely to die within 30 days.",
+   "visual_idea": "Line chart redrawn from the paper's reported standardised mortality by time from arrival to admission, with the x-axis in hours and a note 'association, adjusted; not proof of cause'. If the figure's values can't be extracted accurately, use a statement card with the single verified figure and its comparison group. Credit line: Jones et al., Emerg Med J 2022.",
+   "pause": "Anyone who has waited overnight for a bed with a parent.",
+   "gain": "What the most-quoted study shows and how far it goes.",
+   "follow": "Careful reading of evidence on topics that are often argued about loosely.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-15",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "On a trolley for hours: the basics still apply",
+   "core_insight": "During a long wait on a trolley or chair in the emergency department, an older person still needs a drink if allowed, help to the toilet, their usual medicines on time, and help to change position, and it is reasonable to ask for each.",
+   "angle": "Long waits are discussed as a system failure. For the person on the trolley, the harms are specific and partly preventable: missed doses, pressure damage, thirst and incontinence from not being taken to the toilet. Naming them helps families ask kindly and precisely.",
+   "position": "Basic care during a long wait is part of treatment, and asking for it is reasonable; staff working in crowded departments are not the problem this post describes.",
+   "audience": "public",
+   "series": "Small detail, real effect",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "Pressure ulcers occur in emergency departments, and longer stays in the department are associated with their occurrence (prospective study: Dugaret et al. 2012, Int Wound J; read the abstract)",
+    "Omitted and delayed medicines in hospital cause harm, and critical medicines should not be delayed (NPSA Rapid Response Report NPSA/2010/RRR009)",
+    "Older people often experience long waits in UK emergency departments (NHS England, PHS or RCEM data; to find)",
+    "Some patients must not eat or drink while awaiting tests or surgery, so the advice is to ask whether drinking is allowed (general clinical practice; phrase as a question)"
+   ],
+   "evidence_leads": [
+    "Dugaret E, Videau MN, Faure I, et al. Prevalence and incidence rates of pressure ulcers in an emergency department. Int Wound J 2012 (PubMed record found; issue and pages to check)",
+    "National Patient Safety Agency. Reducing harm from omitted and delayed medicines in hospital. RRR009, 2010",
+    "Royal College of Nursing. Report on corridor care, 2025 (unsure of title)",
+    "British Geriatrics Society. Silver Book II, 2021"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "A long wait on a trolley in A&E still needs the basics: a drink if you are allowed one, the toilet, your usual medicines, and help to change position.",
+   "visual_idea": "Drawn scene of an older woman on a trolley in a busy corridor with a family member beside her, four numbered labels pointing to a cup, a toilet sign, a medicines bag and the heels on the mattress, each with a short question ('Can she drink?', 'Can she be helped to the toilet?', 'Are her usual medicines due?', 'Can she be moved to take the pressure off?'). Labelled 'Illustrative scene'.",
+   "pause": "Families who have sat beside a trolley for hours.",
+   "gain": "Four specific, polite requests that reduce avoidable harm.",
+   "follow": "Useful advice for the situations people actually face in emergency care.",
+   "earlier_overlap": "E151 (ask the named nurse about eating, bowels, urine and thinking) is for ward stays; this concerns emergency department waits.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-16",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "A normal temperature can be a fever for this person",
+   "core_insight": "Older people with serious infection often do not reach standard fever thresholds, so a rise from the person's usual temperature (such as an increase of more than 1.1 degrees Celsius) or a lower repeated threshold can indicate infection even when an early warning score records the temperature as normal.",
+   "angle": "NEWS2 gives no points for temperatures from 36.1 to 38.0 degrees. For an older person whose usual temperature is around 36.0, a reading of 37.5 may be a meaningful change that the score does not flag. The practical step is to record and compare with the person's baseline.",
+   "position": "When assessing an older person for infection, compare the temperature with their usual reading, and do not let a 'normal' temperature or a low early warning score close the question.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "The IDSA guideline for long-term care residents defines fever as a single oral temperature above 37.8 degrees C, repeated oral readings above 37.2 degrees C, or an increase of more than 1.1 degrees C over baseline (High et al. 2009; check the full text for exact wording)",
+    "Typically defined fever is absent in more than half of long-term care residents with serious infection (High et al. 2009 abstract)",
+    "NEWS2 scores 0 for temperatures of 36.1 to 38.0 degrees C (Royal College of Physicians, NEWS2, 2017; check the chart)",
+    "Older adults may have lower baseline temperatures and blunted fever responses (review: Norman 2000 Clin Infect Dis; to check)",
+    "The guideline population was long-term care residents, not all older people in emergency departments (state as a limitation)"
+   ],
+   "evidence_leads": [
+    "High KP, Bradley SF, Gravenstein S, et al. Clinical practice guideline for the evaluation of fever and infection in older adult residents of long-term care facilities: 2008 update by the Infectious Diseases Society of America. Clin Infect Dis 2009;48:149-71. doi:10.1086/595683 (abstract checked on PubMed)",
+    "Norman DC. Fever in the elderly. Clin Infect Dis 2000;31:148-51 (unsure of pages)",
+    "Royal College of Physicians. National Early Warning Score (NEWS) 2, 2017",
+    "NICE guideline on suspected sepsis in people aged 16 and over, 2024 update (unsure of number)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A temperature of 37.5 degrees scores nothing on NEWS2, and for an older person whose usual reading is 36.0 it may be the first sign of infection.",
+   "visual_idea": "Thermometer-scale diagram from 35 to 40 degrees C with the NEWS2 bands marked in text and a second scale beside it showing one illustrative person's usual temperature (36.0) and a reading of 37.5, with the gap labelled 'rise from baseline'. Clearly labelled 'Illustrative example'. Credit lines: High et al., Clin Infect Dis 2009; RCP NEWS2 2017.",
+   "pause": "Clinicians who rely on a fever cut-off will see a gap in the usual screen.",
+   "gain": "A concrete habit: compare with the person's own baseline.",
+   "follow": "Teaching points specific to older people that general guidance tends to miss.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-17",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "What comprehensive geriatric assessment does in hospital",
+   "core_insight": "Across 29 trials, older people who received comprehensive geriatric assessment (a full assessment of health, function, medicines, mood and support by a specialist team) after admission were more likely to be alive and living in their own homes 3 to 12 months later, with little or no difference in deaths and fewer moves into care homes.",
+   "angle": "The benefit shows up in an outcome patients value, living at home, rather than in survival. Whether a dedicated ward works better than a visiting team is often asserted, but the latest Cochrane review says the evidence is too weak to tell.",
+   "position": "Older people with frailty admitted as emergencies should have access to comprehensive geriatric assessment; claims about which delivery model is best should be made cautiously.",
+   "audience": "both",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "claims_needing_evidence": [
+    "29 trials with 13,766 participants were included (Cochrane review: Ellis et al. 2017, abstract checked)",
+    "CGA increased the likelihood of being alive and in one's own home at 3 to 12 months (risk ratio 1.06, 95% CI 1.01 to 1.10; high-certainty evidence) (Ellis 2017)",
+    "Little or no difference in mortality (RR 1.00) and fewer nursing home admissions (RR 0.80) (Ellis 2017)",
+    "The review was uncertain whether wards and mobile teams differ, because the analysis was underpowered (Ellis 2017)",
+    "An absolute figure (people per 100 alive and at home) requires the control-group rate from the review before it can be stated ([N to verify])"
+   ],
+   "evidence_leads": [
+    "Ellis G, Gardner M, Tsiachristas A, et al. Comprehensive geriatric assessment for older adults admitted to hospital. Cochrane Database Syst Rev 2017;9:CD006211. doi:10.1002/14651858.CD006211.pub3 (abstract checked on PubMed)",
+    "Ellis G, Whitehead MA, Robinson D, O'Neill D, Langhorne P. Comprehensive geriatric assessment for older adults admitted to hospital: meta-analysis of randomised controlled trials. BMJ 2011;343:d6553 (unsure of article number)",
+    "British Geriatrics Society. Comprehensive Geriatric Assessment Toolkit for primary care practitioners, 2019 (unsure; hospital guidance may differ)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Older people admitted to hospital were more likely to be living in their own homes months later when a specialist team assessed their whole health, function, medicines, mood and support.",
+   "visual_idea": "Carousel of three slides. Slide 1: what CGA covers, as five labelled icons (health, function, medicines, mood, support). Slide 2: three findings in plain words with direction arrows and certainty labels (alive and at home: more likely; deaths: little or no difference; care home admission: less likely). Slide 3: 'Unclear: ward or visiting team'. Credit line: Ellis et al., Cochrane 2017.",
+   "pause": "Readers see an outcome, living at home, that they care about.",
+   "gain": "A clear account of what CGA achieves and what is still uncertain.",
+   "follow": "Explains the core practice of geriatric medicine with its evidence.",
+   "earlier_overlap": "E132 (ask whether comprehensive geriatric assessment is available) is a public prompt; this post presents the trial evidence and its limits.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-18",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "What discharge planning achieves in trials",
+   "core_insight": "In a Cochrane review of 33 trials, an individual discharge plan for older people admitted with a medical condition probably shortened the initial stay by less than a day and modestly reduced readmissions over about three months, with little or no difference in mortality or function.",
+   "angle": "Discharge planning is universally recommended and often presented as the answer to delays. The trial evidence supports it with modest effects, which is useful for setting expectations and for seeing what else discharge depends on.",
+   "position": "Individual discharge planning is worth doing and its benefits are modest; it should be judged by realistic expectations rather than as a solution to every delay.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "33 trials with 12,242 participants were included (Cochrane review: Gonçalves-Bradley et al. 2022, abstract checked)",
+    "For people in hospital with a medical condition, discharge planning reduced initial length of stay (mean difference -0.73 days, 95% CI -1.33 to -0.12; moderate certainty) (Gonçalves-Bradley 2022)",
+    "Readmission over an average of three months was lower (RR 0.89, 95% CI 0.81 to 0.97; moderate certainty) (Gonçalves-Bradley 2022)",
+    "Little or no difference in mortality at 3 to 9 months (RR 1.05) and in functional and psychological status (low certainty) (Gonçalves-Bradley 2022)",
+    "Satisfaction may be increased (very low certainty) and costs are uncertain (Gonçalves-Bradley 2022)",
+    "An absolute readmission difference per 100 people needs the control-group rate from the review ([N to verify])"
+   ],
+   "evidence_leads": [
+    "Gonçalves-Bradley DC, Lannin NA, Clemson L, Cameron ID, Shepperd S. Discharge planning from hospital. Cochrane Database Syst Rev 2022;2:CD000313. doi:10.1002/14651858.CD000313.pub6 (abstract checked on PubMed)",
+    "NICE NG27, 2015"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Trials of individual discharge plans for older people found small benefits: stays shorter by less than a day and somewhat fewer readmissions.",
+   "visual_idea": "Statement card with three rows, each a finding and its certainty in words: 'Length of stay: about three quarters of a day shorter (moderate certainty)', 'Readmission within about 3 months: somewhat fewer (moderate certainty)', 'Deaths and function: little or no difference'. Credit line: Gonçalves-Bradley et al., Cochrane 2022.",
+   "pause": "Discharge coordinators and managers who have been told planning will fix flow.",
+   "gain": "Realistic expectations backed by a large review.",
+   "follow": "Evidence reading on everyday hospital processes.",
+   "earlier_overlap": "none. In this collection, C18 includes a meta-analysis of caregiver integration in discharge planning; this post covers the general review.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-19",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "'Medically fit' needs a second sentence",
+   "core_insight": "'Medically fit for discharge' records that acute medical treatment is finished, and the note should also say what the person still needs, such as rehabilitation, a care package, equipment or a result, because many older people are less able at that point than before they became ill.",
+   "angle": "The phrase is a common shortcut. It is read by families and other teams as 'well' or 'back to normal', and it can make the remaining needs look like somebody else's problem. A second sentence fixes both.",
+   "position": "Write 'no longer needs acute medical care' and follow it with the person's remaining needs and who is meeting them; explain the phrase to families when it is used.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "About 3 in 10 older adults leave acute hospital with new loss of independence in at least one basic daily activity (meta-analysis: Loyd et al. 2020)",
+    "Official delayed discharge statistics use a 'ready for discharge' date set by clinical teams (Public Health Scotland definitions; check wording)",
+    "NHS England guidance introduced 'criteria to reside' to describe when a person no longer needs to be in an acute bed (Hospital discharge service policy and operating model, 2020; check)",
+    "The phrase 'medically fit' has been criticised in professional commentary (to find; drop if not found)"
+   ],
+   "evidence_leads": [
+    "Loyd C, Markland AD, Zhang Y, et al. Prevalence of hospital-associated disability in older adults: a meta-analysis. J Am Med Dir Assoc 2020;21:455-61",
+    "Public Health Scotland. Delayed discharges in NHSScotland: definitions and data manual (unsure of title)",
+    "NHS England / Department of Health and Social Care. Hospital discharge service: policy and operating model, 2020; Hospital discharge and community support guidance, 2022 onwards",
+    "Professional commentary on 'medically fit' language (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "'Medically fit' describes the end of acute treatment; the note should also say what the person still needs and who is providing it.",
+   "visual_idea": "Comparison card labelled 'Illustrative example'. Left: a note line 'Medically fit for discharge.' Right: 'No longer needs acute medical care. Still needs: walking practice twice a day, a care package for mornings, the bone scan result. Family told on [date].'",
+   "pause": "Doctors who write the phrase daily, and therapists who read it.",
+   "gain": "A better sentence for the notes and for talking to families.",
+   "follow": "Teaching on the words clinicians use and how others read them.",
+   "earlier_overlap": "E127 (do not assign frailty scores on the day of acute illness) concerns timing of assessment; no close overlap.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-20",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Delayed discharge is counted in bed days",
+   "core_insight": "Delayed discharge is reported mainly as bed days, a measure of the hospital's capacity, while a mixed-studies review found it is linked with infections, depression, loss of mobility and daily activities, and death for the person who is waiting.",
+   "angle": "The official count describes the hospital's problem. The person's problem is different and is not in the headline. The phrase 'bed blocker' places the fault on the person who is waiting for services to be arranged.",
+   "position": "Reports on delayed discharge should describe what waiting does to the person as well as the bed days lost, and the term 'bed blocker' should not be used (judgement).",
+   "audience": "both",
+   "series": "What gets counted",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "Delayed discharge was associated with mortality, infections, depression, and reductions in mobility and daily activities; most quantitative studies were of moderate or low quality (systematic review: Rojas-Garcia et al. 2018, abstract checked)",
+    "Public Health Scotland publishes monthly counts of delayed discharges and bed days occupied by them (official statistics)",
+    "People whose delay involves adults with incapacity processes have longer delays on average (PHS, code 9 categories; check)",
+    "The term 'bed blocking' is used in media and policy discussion and has been criticised by professional bodies (to find, e.g. BGS)"
+   ],
+   "evidence_leads": [
+    "Rojas-Garcia A, Turner S, Pizzo E, et al. Impact and experiences of delayed discharge: a mixed-studies systematic review. Health Expect 2018;21:41-56. doi:10.1111/hex.12619 (abstract checked on PubMed)",
+    "Public Health Scotland. Delayed discharges in NHSScotland, monthly releases",
+    "NHS England. Discharge delays (acute) monthly data (unsure of title)",
+    "British Geriatrics Society statements on the language of delayed discharge (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Delayed discharge is reported in bed days. For the person who is waiting, a review linked it with infections, low mood and loss of mobility.",
+   "visual_idea": "Two-column comparison. Left, 'What is reported': bed days occupied, number of people delayed, reason codes. Right, 'What the review linked with waiting': infections, low mood, reduced mobility and daily activities, death, each with a note 'association; mostly moderate or low quality studies'. Credit line: Rojas-Garcia et al., Health Expect 2018.",
+   "pause": "Staff and families tired of hearing people described as blocking beds.",
+   "gain": "A clearer picture of what delay means for the person.",
+   "follow": "Measurement viewed from the patient's side, stated with its evidence limits.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-21",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Sent home from A&E: ask about the next step",
+   "core_insight": "Older people who go home from the emergency department have higher rates of return visits, admission and loss of function in the following months than younger adults, so before leaving it helps to ask what was found, what should prompt a return, and whether any follow-up has been arranged.",
+   "angle": "Going home from A&E feels like good news and often is. The evidence says it is also a point of risk for older people, particularly those who live alone or were already struggling, and a few questions make the next weeks safer.",
+   "position": "Older people leaving the emergency department should leave with a clear reason to return and, where needed, a referral (for example after a fall); families can ask for both.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "Compared with younger people, older adults have longer emergency department stays, more repeat visits and higher rates of adverse outcomes after discharge (systematic review: Aminzadeh and Dalziel 2002, abstract checked)",
+    "Risk factors include functional impairment, recent hospital or emergency use, living alone and lack of social support (Aminzadeh and Dalziel 2002)",
+    "Screening and discharge-planning interventions in the emergency department had inconclusive results in that review (Aminzadeh and Dalziel 2002; check newer evidence)",
+    "After an emergency department attendance with a fall, a medical and occupational therapy assessment reduced further falls in a UK trial (RCT: Close et al. 1999, PROFET; to check)"
+   ],
+   "evidence_leads": [
+    "Aminzadeh F, Dalziel WB. Older adults in the emergency department: a systematic review of patterns of use, adverse outcomes, and effectiveness of interventions. Ann Emerg Med 2002;39:238-47. doi:10.1067/mem.2002.121523 (abstract checked on PubMed)",
+    "Close J, Ellis M, Hooper R, et al. Prevention of falls in the elderly trial (PROFET): a randomised controlled trial. Lancet 1999;353:93-7",
+    "McCusker J et al. Detection of older people at increased risk of adverse health outcomes after an emergency visit: the ISAR screening tool. J Am Geriatr Soc 1999;47:1229-37 (unsure)",
+    "British Geriatrics Society. Silver Book II, 2021"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "After an A&E visit that ends at home, older people have more return visits, admissions and loss of function in the following months than younger adults.",
+   "visual_idea": "Question card titled 'Before leaving A&E': 1 What did you find, and what did you rule out? 2 What should make us come back, or call? 3 Will the GP get a letter? 4 Is any follow-up arranged, for example after a fall? Drawn image of an older man and his daughter at a cubicle with a clinician.",
+   "pause": "Families relieved to be going home who have not thought about the next week.",
+   "gain": "Four questions for the moment of leaving.",
+   "follow": "Practical preparation for common emergency care situations.",
+   "earlier_overlap": "E078 and E079 concern falls clinics; in this collection C01-10 covers people left at home by the ambulance after a fall. This post covers any emergency department discharge.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-22",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "How many readmissions are avoidable? Studies disagree widely",
+   "core_insight": "A systematic review of 34 studies found that the proportion of readmissions judged avoidable ranged from 5% to 79%, with a median of about 27%, mostly using subjective judgements at single hospitals, so a readmission rate on its own says little about the quality of a discharge.",
+   "angle": "Readmission rates are used as quality indicators. If most readmissions are unavoidable, and studies can't agree how many are, the rate mixes good and poor care. Reviewing a sample of readmissions for specific preventable causes tells a team more.",
+   "position": "Treat a readmission rate as a prompt to review cases, not as a verdict on a discharge; judge discharge quality with case review and outcomes people value (judgement grounded in the review).",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "Across 34 studies, the median proportion of readmissions deemed avoidable was 27.1%, ranging from 5% to 79% (systematic review: van Walraven et al. 2011, abstract checked)",
+    "All but three studies used subjective criteria; most were at single teaching hospitals, used one reviewer and did not consider community information (van Walraven 2011)",
+    "Later national cohort work in US general medicine found about a quarter of readmissions potentially preventable (Auerbach et al. 2016 JAMA Intern Med; to check)",
+    "Some reviews question whether readmission rate is a valid quality indicator (Fischer et al. 2014 PLoS One; to check)"
+   ],
+   "evidence_leads": [
+    "van Walraven C, Bennett C, Jennings A, Austin PC, Forster AJ. Proportion of hospital readmissions deemed avoidable: a systematic review. CMAJ 2011;183:E391-402. doi:10.1503/cmaj.101860 (abstract checked on PubMed)",
+    "Auerbach AD, Kripalani S, Vasilevskis EE, et al. Preventability and causes of readmissions in a national cohort of general medicine patients. JAMA Intern Med 2016;176:484-93 (unsure of pages)",
+    "Fischer C, Lingsma HF, Marang-van de Mheen PJ, et al. Is the readmission rate a valid quality indicator? A review of the evidence. PLoS One 2014;9:e112282 (unsure)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Studies that reviewed readmissions judged anywhere from [N to verify] in 100 to [N to verify] in 100 of them avoidable.",
+   "visual_idea": "Dot plot labelled with the range and median from the review, one axis from 0 to 100 per 100 readmissions judged avoidable, the median marked and labelled. If study-level values can't be extracted, use a simple bar showing the range with the median marked. Credit line: van Walraven et al., CMAJ 2011.",
+   "pause": "Managers and clinicians judged on readmission rates.",
+   "gain": "A defensible way to read and use the measure.",
+   "follow": "Scrutiny of common performance measures using evidence.",
+   "earlier_overlap": "none. In this collection, C07-06 proposes days at home as an outcome; this post examines the readmission measure itself.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-23",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Pneumonia in a care home: hospital, or treatment where they live?",
+   "core_insight": "In a Canadian trial in 22 nursing homes, residents with pneumonia treated in the home on a clinical pathway (oral antibiotics, oxygen monitoring, fluids and close nursing review) were admitted to hospital less than half as often as those given usual care, without a clear difference in deaths.",
+   "angle": "The choice is often presented as hospital or nothing. The trial shows a third option that worked when the home had extra monitoring. The decision still depends on the person's wishes, how unwell they are, and what the home can provide.",
+   "position": "For care home residents with pneumonia, treatment in the home with proper monitoring is a reasonable option for many, and the decision should include the resident's wishes and the home's capacity to monitor (judgement based on one trial).",
+   "audience": "public",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "In 680 residents aged 65 and over in 22 Ontario nursing homes, 10% of the pathway group and 22% of the usual care group were hospitalised (cluster RCT: Loeb et al. 2006, abstract checked)",
+    "Mortality was 8% versus 9% with no clear difference; quality of life and function did not differ (Loeb 2006)",
+    "The pathway included oral antibiotics, portable chest X-ray, oxygen saturation monitoring, rehydration and close monitoring by a research nurse (Loeb 2006)",
+    "UK care homes may not have equivalent nursing or monitoring, so applicability varies (state as limitation)"
+   ],
+   "evidence_leads": [
+    "Loeb M, Carusone SC, Goeree R, et al. Effect of a clinical pathway to reduce hospitalizations in nursing home residents with pneumonia: a randomized controlled trial. JAMA 2006;295:2503-10. doi:10.1001/jama.295.21.2503 (abstract checked on PubMed)",
+    "NICE NG138. Pneumonia (community-acquired): antimicrobial prescribing, 2019",
+    "Givens JL et al. Survival and comfort after treatment of pneumonia in advanced dementia. Arch Intern Med 2010 (used in C19-25; not needed here)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A care home resident with pneumonia can often be treated where they live: in a Canadian trial, treatment in the home with closer monitoring cut hospital admissions by more than half, with no clear difference in deaths.",
+   "visual_idea": "Icon array per 100 residents in two panels, 'Treated in the home on the pathway' and 'Usual care', showing hospital admissions and deaths with the measured percentages written beside them; a note lists what the pathway included. Credit line: Loeb et al., JAMA 2006.",
+   "pause": "Families facing a phone call from a care home about a chest infection.",
+   "gain": "Evidence that treatment where the person lives can work, and the conditions it needs.",
+   "follow": "Balanced decision support for families and care home staff.",
+   "earlier_overlap": "none. In this collection, C19-25 covers antibiotic treatment of pneumonia in advanced dementia and survival versus comfort; this post covers the place of treatment for care home residents generally, with trial evidence.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-24",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Ask for the planned discharge date early",
+   "core_insight": "Many hospitals set an expected date of discharge early in a stay, and asking for it, and for what has to happen before it, lets families plan transport, time off work, the home and support, rather than hearing about discharge on the day.",
+   "angle": "Families often learn about discharge late. The expected date is usually already written somewhere. Asking for it early, as a planning estimate that can change, turns a surprise into a plan.",
+   "position": "Families should be told the expected discharge date and what it depends on, and should ask if they are not told.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "NHS patient flow guidance recommends that every patient has an expected discharge date set early in the admission (NHS Improvement SAFER patient flow bundle, 2016 onwards; check wording)",
+    "Patients and families have reported being given little notice of discharge (Healthwatch England 'Safely home' 2015; CQC Adult Inpatient Survey discharge questions)",
+    "Individual discharge planning modestly reduces length of stay and readmission (Cochrane: Gonçalves-Bradley 2022)",
+    "Carers have a right to be involved in discharge planning in some UK legislation (Carers (Scotland) Act 2016 section 28; Care Act 2014 guidance; check, and avoid duplicating C18-16)"
+   ],
+   "evidence_leads": [
+    "NHS Improvement. SAFER patient flow bundle, 2016 (unsure of date)",
+    "Healthwatch England. Safely home, 2015",
+    "Care Quality Commission. Adult Inpatient Survey, most recent year (discharge section)",
+    "Gonçalves-Bradley DC et al. Discharge planning from hospital. Cochrane 2022 (abstract checked on PubMed)",
+    "Carers (Scotland) Act 2016, section 28 (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Ask the ward what date they are planning for discharge, and what has to happen before it.",
+   "visual_idea": "Calendar card labelled 'Illustrative example' with an expected discharge date circled and three sticky-note labels before it: 'Walking with the frame: physio', 'Carers restarting: council', 'Medicines ready: pharmacy'. Caption: 'A planning date can move. Ask what it depends on.'",
+   "pause": "Families who were phoned at noon to say their mother was leaving at three.",
+   "gain": "A simple question that gives days of notice instead of hours.",
+   "follow": "Everyday advice that makes hospital systems easier to work with.",
+   "earlier_overlap": "none. In this collection, C18-16 covers the carer's right to be involved in discharge and C02-10 the tasks of the first hour home; this post concerns timing.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-25",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Older people with a learning disability in hospital",
+   "core_insight": "People with a learning disability die on average many years younger than the rest of the population, and more of their deaths are judged avoidable with good health care, so a hospital stay should include the adjustments the law requires, such as a hospital passport, the learning disability liaison team and the people who know them best.",
+   "angle": "People with a learning disability are now living into older age, with the frailty and illnesses that brings, and often reach geriatric wards. The confidential inquiry found problems such as not adjusting care as needs changed and carers not feeling listened to.",
+   "position": "Every admission of a person with a learning disability should use their hospital passport, involve the liaison team, and include the family or support workers who know them; hospitals have a legal duty to make reasonable adjustments.",
+   "audience": "both",
+   "series": "Who gets left out",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "In the Confidential Inquiry (south-west England, deaths 2010 to 2012), the median age at death of people with intellectual disabilities was 64; men died 13 years and women 20 years younger than the general population (population study: Heslop et al. 2014, abstract checked)",
+    "37% of deaths were from causes amenable to good-quality health care, compared with 13% in the general population (Heslop 2014)",
+    "Contributory factors included problems with advance care planning, Mental Capacity Act adherence, adjusting care as needs changed and carers not feeling listened to (Heslop 2014)",
+    "More recent LeDeR reports give current median ages at death and avoidable death rates (LeDeR annual report, King's College London; check the latest year)",
+    "The Equality Act 2010 requires reasonable adjustments for disabled people in services (legislation)",
+    "Learning disability liaison nurses and hospital passports are established in NHS hospitals (NHS England or professional guidance; check)"
+   ],
+   "evidence_leads": [
+    "Heslop P, Blair PS, Fleming P, et al. The Confidential Inquiry into premature deaths of people with intellectual disabilities in the UK: a population-based study. Lancet 2014;383:889-95. doi:10.1016/S0140-6736(13)62026-7 (abstract checked on PubMed)",
+    "LeDeR: Learning from lives and deaths of people with a learning disability and autistic people, annual report, King's College London, 2023 or 2024 (unsure of year)",
+    "Equality Act 2010, section 20 (legislation.gov.uk)",
+    "Scottish Learning Disabilities Observatory reports on mortality (unsure)"
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "People with a learning disability in one English inquiry died a median of [N to verify] years younger than the general population, and more of their deaths were judged avoidable with good health care.",
+   "visual_idea": "Comparison chart from Heslop 2014: two pairs of bars (men, women) showing median age at death for people with intellectual disabilities and for the general population, with values printed; beside it a checklist 'In hospital, ask for: the hospital passport, the learning disability liaison team, the person who knows them best'. Credit line: Heslop et al., Lancet 2014.",
+   "pause": "Families and support workers who have had to fight to be heard on a ward.",
+   "gain": "Evidence for the problem and three practical requests.",
+   "follow": "Attention to people who are poorly served, with specific evidence.",
+   "earlier_overlap": "E074 (falls guidance includes younger people with a learning disability) mentions the group in passing; this post concerns hospital care.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C15-26",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "A coach for the first month after discharge",
+   "core_insight": "In a US trial of 750 older people, a four-week care transitions programme that prepared patients and carers to manage their medicines, keep their own health record, arrange follow-up and recognise warning signs reduced readmissions at 30 and 90 days.",
+   "angle": "The programme's effective parts are plain: it treats the patient and family as the people carrying the plan between services and gives them the skills and a named person to do it. The limitation is that the evidence comes from a US health system.",
+   "position": "Discharge support should prepare the person and family to manage the first weeks themselves, with a named person to contact; UK services should test such programmes rather than assume US results transfer (judgement).",
+   "audience": "both",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "claims_needing_evidence": [
+    "In 750 community-dwelling adults aged 65 and over in Colorado (2002 to 2003), readmission at 30 days was 8.3% with the intervention versus 11.9% with usual care, and at 90 days 16.7% versus 22.5% (RCT: Coleman et al. 2006, abstract checked)",
+    "The intervention included tools for cross-site communication, encouragement to take an active role and assert preferences, and a transition coach (Coleman 2006)",
+    "Readmissions for the original condition were also lower at 90 and 180 days, and hospital costs were lower at 180 days (Coleman 2006)",
+    "The four elements (medicines self-management, a personal health record, follow-up, knowledge of warning signs) are described in the programme materials (Care Transitions Program; check the full text)",
+    "Other transitional care trials, such as nurse-led discharge planning and home follow-up, also reduced readmissions (Naylor et al. 1999 JAMA; to check)"
+   ],
+   "evidence_leads": [
+    "Coleman EA, Parry C, Chalmers S, Min SJ. The care transitions intervention: results of a randomized controlled trial. Arch Intern Med 2006;166:1822-8. doi:10.1001/archinte.166.17.1822 (abstract checked on PubMed)",
+    "Naylor MD, Brooten D, Campbell R, et al. Comprehensive discharge planning and home follow-up of hospitalized elders: a randomized clinical trial. JAMA 1999;281:613-20",
+    "Rodakowski J et al. Caregiver integration during discharge planning for older adults to reduce resource use: a metaanalysis. J Am Geriatr Soc 2017 (used in C18)"
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A US trial gave older people leaving hospital a coach for four weeks and a short list of things to manage themselves, and fewer of them came back into hospital.",
+   "visual_idea": "Diagram of the four elements as four labelled boxes around a central figure of an older person and a family member (medicines, own health record, follow-up appointment, warning signs and who to call), with a small bar comparison of 30-day and 90-day readmission per 100 people, values printed. Credit line: Coleman et al., Arch Intern Med 2006.",
+   "pause": "Readers see a concrete model rather than another description of failure.",
+   "gain": "The components of a programme that worked, and its limits.",
+   "follow": "Examples of good care with the evidence stated fairly.",
+   "earlier_overlap": "E142 (medicines review after discharge as a named task) is related in spirit; no close overlap. In this collection, C18 covers caregiver integration in discharge planning.",
+   "delirium_check": "delirium is not the topic"
+  }
+ ]
+}
