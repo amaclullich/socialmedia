@@ -1,0 +1,341 @@
+--- card 1 ---
+ILLUSTRATION KIT
+Poses 1
+Poses: standing and walking
+standing side
+standing view front
+walking
+stick crook handle
+walking_frame
+walking_frame wheeled
+walking_frame rollator
+reaching_up on tiptoe
+kneeling facing left
+Alasdair MacLullich
+Kit.person({pose})
+
+--- card 2 ---
+ILLUSTRATION KIT
+Poses 2
+Poses: sitting and standing up
+seated_side seat chair
+seated_side armchair
+seated_side sofa, hands lap
+seated_front chair
+seated_front armchair
+seated_talking
+rising hands on arms
+rising chair, arms crossed
+wheelchair hands on lap
+Alasdair MacLullich
+Kit.person({pose, seat})
+
+--- card 3 ---
+ILLUSTRATION KIT
+Poses 3
+Poses: bed, floor, pairs
+lying_bed hospital, rails down
+sitting_up_bed backrest 60, rails up
+lying_bed bed domestic
+wheelchair hands on rims, pushing
+on_floor sitting, after a fall
+on_floor variant lying
+Kit.linkArms arm in arm
+seated_front seat none, bed edge
+Alasdair MacLullich
+Kit.person, Kit.linkArms
+
+--- card 4 ---
+ILLUSTRATION KIT
+People 1
+Hair styles, side and front
+short grey
+pixie white
+cropped black
+balding white
+bun silver
+ponytail brown
+long blonde
+bob grey
+wavy auburn
+curly saltpepper
+coily white
+headscarf teal
+Alasdair MacLullich
+opts.hairStyle, opts.hair
+
+--- card 5 ---
+ILLUSTRATION KIT
+People 2
+Eight skin tones
+light
+fair
+medium
+olive
+tan
+brown
+dark
+deep
+Alasdair MacLullich
+opts.skin
+
+--- card 6 ---
+ILLUSTRATION KIT
+People 3
+Build, age and extras
+build slim
+build medium
+build broad
+age young
+age adult
+age older slight stoop
+glasses, hearing_aid
+beard, cardigan
+apron, lanyard
+Alasdair MacLullich
+opts.build, opts.age, opts.extras
+
+--- card 7 ---
+ILLUSTRATION KIT
+People 4
+Staff presets, no text or logos
+role nurse
+role hca
+role hca_lilac
+role doctor
+role physio
+role care_worker
+role pharmacist
+role ot
+role paramedic
+Alasdair MacLullich
+opts.role
+
+--- card 8 ---
+ILLUSTRATION KIT
+Props 1
+Props: seats, tables, units
+chair
+chair view front
+armchair
+armchair view front
+sofa
+sofa view side
+stool
+commode
+table
+desk
+kitchen_counter sink
+bedside_table
+Alasdair MacLullich
+Kit.chair and others
+
+--- card 9 ---
+ILLUSTRATION KIT
+Props 2
+Props: beds and mobility aids
+bed hospital, rails up
+bed backrest 45
+bed type domestic
+over_bed_table
+wheelchair
+walking_frame
+walking_frame wheeled
+walking_frame rollator
+stick crook, derby, offset
+Alasdair MacLullich
+Kit.bed, Kit.wheelchair and others
+
+--- card 10 ---
+ILLUSTRATION KIT
+Props 3
+Props: bedside and tabletop
+call_bell
+glasses
+glasses folded
+hearing_aid
+pill_organiser 7
+pill_organiser rows 4
+medicine_bottle
+medicine_bottle box, blister
+cup, glass
+water_jug
+plate_meal
+tray
+kettle
+phone, landline
+notepad
+bag_of_medicines
+pillow
+blanket folded
+shoes
+slippers
+Alasdair MacLullich
+Small objects sit on a surface point
+
+--- card 11 ---
+ILLUSTRATION KIT
+Props 4
+Props: home, bathroom, outside
+door
+door open
+window
+window curtains
+stairs
+rug
+rug curled
+lamp floor, table
+toilet_with_grab_rails
+raised_toilet_seat
+grab_rail
+radiator
+plant
+bookshelf
+front_door_step rail
+shelf, cupboard
+curtain hospital bay
+tree
+bench
+shadow under anything
+Alasdair MacLullich
+Kit.door and others
+
+--- card 12 ---
+ILLUSTRATION KIT
+Rooms
+Rooms: plain walls, no signs
+home_living
+home_bedroom
+kitchen
+bathroom
+hospital_bay
+care_home_lounge
+gp_room
+outdoors_street
+Alasdair MacLullich
+Kit.room(type, {w, h, ground, scale})
+
+--- card 13 ---
+ILLUSTRATION KIT
+Palettes
+Palettes
+Skin, Kit.SKIN
+light
+#F4D9C6
+fair
+#EBC3A5
+medium
+#D6A27E
+olive
+#C08B63
+tan
+#A66F4B
+brown
+#82532F
+dark
+#613C23
+deep
+#462A19
+Hair, Kit.HAIR
+white
+#F4F2ED
+silver
+#D4D6D4
+grey
+#A6ABAD
+saltpepper
+#8F9497
+darkgrey
+#6E7477
+black
+#1F1C1B
+dark
+#302722
+brown
+#5C3C28
+auburn
+#8D4B2B
+blonde
+#D8B87C
+sandy
+#B99A6B
+Clothing, Kit.C (brand first, then neutrals and warm muted tones)
+deep
+#0F3C4F
+teal
+#15535B
+mint
+#DCEBEA
+pale
+#B9CDCC
+orange
+#C24E12
+gold
+#D9A441
+sand
+#EFE6D6
+white
+#FFFFFF
+light
+#D9DEDC
+grey
+#5F6B76
+slate
+#3B4A52
+mustard
+#C99A2E
+plum
+#6B4E6E
+sage
+#8FA98F
+brick
+#A0522D
+navy
+#243B55
+paleblue
+#A9C4DA
+lilac
+#B7A7CB
+Alasdair MacLullich
+Pass a name or any hex
+
+--- card 14 ---
+ILLUSTRATION KIT
+Scene A
+Example: drawn illustration
+Standing up, with support at eye level
+Alasdair MacLullich
+Kit example scene
+
+--- card 15 ---
+ILLUSTRATION KIT
+Scene B
+Example: annotated scene
+Everything he needs, out of reach
+1Call bell on the table, not by his hand
+2Glasses folded, out of reach
+3Water jug too far away to pour
+1
+2
+3
+Alasdair MacLullich
+Kit example scene
+
+--- card 16 ---
+ILLUSTRATION KIT
+Scene C
+Example: comic strip, illustrative
+A medicines review
+He brings every box he takes to the pharmacy.
+They talk through what each one is for.
+Two are stopped. Fewer boxes, a simpler routine.
+Alasdair MacLullich
+Kit example scene
+
+--- card 17 ---
+ILLUSTRATION KIT
+Scene D
+Example: drawn illustration
+Out for a walk together
+Alasdair MacLullich
+Kit example scene

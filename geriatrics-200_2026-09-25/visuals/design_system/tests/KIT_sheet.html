@@ -1,0 +1,382 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Illustration kit sheet</title>
+<link rel="stylesheet" href="../base.css"><script src="../kit.js"></script>
+<style>
+ /* reference-sheet layout only; the scene cards below use base.css classes unchanged */
+ .kgrid { display: grid; gap: 14px; flex: 1 1 auto; min-height: 0; margin-top: 22px; grid-auto-rows: minmax(0, 1fr); }
+ .kgrid.c2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .kgrid.c3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+ .kgrid.c4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+ .kgrid.c5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+ .kcell { display: flex; flex-direction: column; min-height: 0; border: 2px solid var(--line); border-radius: 14px; background: var(--white); }
+ .kart { flex: 1 1 auto; position: relative; min-height: 0; background: var(--sand); border-radius: 12px 12px 0 0; overflow: hidden; }
+ .kart svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+ .kcell .cap { flex: 0 0 auto; font-size: 24px; line-height: 1.2; padding: 8px 12px 9px; font-weight: 600; color: var(--ink); }
+ .kcell .cap i { font-style: normal; font-weight: 400; color: var(--ink-2); }
+ .sw { display: grid; gap: 12px; margin-top: 16px; }
+ .sw.c4 { grid-template-columns: repeat(4, 1fr); } .sw.c6 { grid-template-columns: repeat(6, 1fr); }
+ .sw div { border-radius: 12px; border: 2px solid var(--line); overflow: hidden; background: #fff; }
+ .sw span.chip { display: block; height: 58px; border-bottom: 2px solid var(--line); }
+ .sw b { display: block; font-size: 24px; font-weight: 600; padding: 6px 10px 0; }
+ .sw em { display: block; font-size: 22px; font-style: normal; color: var(--ink-2); padding: 0 10px 8px; }
+ h2.kh { font-size: 44px; }
+ .lead.k { font-size: 30px; margin-top: 10px; }
+</style></head><body><div class="sheet">
+
+<!-- 1 poses: standing and walking -->
+<div class="card" id="poses1"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Poses 1</span></div>
+ <div class="content"><h2 class="kh">Poses: standing and walking</h2><div class="kgrid c3" id="g-poses1"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.person({pose})</span></div></div>
+
+<!-- 2 poses: sitting -->
+<div class="card" id="poses2"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Poses 2</span></div>
+ <div class="content"><h2 class="kh">Poses: sitting and standing up</h2><div class="kgrid c3" id="g-poses2"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.person({pose, seat})</span></div></div>
+
+<!-- 3 poses: bed, floor, pairs -->
+<div class="card" id="poses3"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Poses 3</span></div>
+ <div class="content"><h2 class="kh">Poses: bed, floor, pairs</h2><div class="kgrid c2" id="g-poses3"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.person, Kit.linkArms</span></div></div>
+
+<!-- 4 hair -->
+<div class="card" id="hair"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">People 1</span></div>
+ <div class="content"><h2 class="kh">Hair styles, side and front</h2><div class="kgrid c3" id="g-hair"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">opts.hairStyle, opts.hair</span></div></div>
+
+<!-- 5 skin tones -->
+<div class="card" id="skin"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">People 2</span></div>
+ <div class="content"><h2 class="kh">Eight skin tones</h2><div class="kgrid c4" id="g-skin"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">opts.skin</span></div></div>
+
+<!-- 6 builds, ages, extras -->
+<div class="card" id="build"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">People 3</span></div>
+ <div class="content"><h2 class="kh">Build, age and extras</h2><div class="kgrid c3" id="g-build"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">opts.build, opts.age, opts.extras</span></div></div>
+
+<!-- 7 roles -->
+<div class="card" id="roles"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">People 4</span></div>
+ <div class="content"><h2 class="kh">Staff presets, no text or logos</h2><div class="kgrid c3" id="g-roles"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">opts.role</span></div></div>
+
+<!-- 8 props: seating and tables -->
+<div class="card" id="props1"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Props 1</span></div>
+ <div class="content"><h2 class="kh">Props: seats, tables, units</h2><div class="kgrid c4" id="g-props1"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.chair and others</span></div></div>
+
+<!-- 9 props: beds and mobility -->
+<div class="card" id="props2"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Props 2</span></div>
+ <div class="content"><h2 class="kh">Props: beds and mobility aids</h2><div class="kgrid c3" id="g-props2"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.bed, Kit.wheelchair and others</span></div></div>
+
+<!-- 10 props: small objects -->
+<div class="card" id="props3"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Props 3</span></div>
+ <div class="content"><h2 class="kh">Props: bedside and tabletop</h2><div class="kgrid c4" id="g-props3"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Small objects sit on a surface point</span></div></div>
+
+<!-- 11 props: home and fittings -->
+<div class="card" id="props4"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Props 4</span></div>
+ <div class="content"><h2 class="kh">Props: home, bathroom, outside</h2><div class="kgrid c4" id="g-props4"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.door and others</span></div></div>
+
+<!-- 12 rooms -->
+<div class="card" id="rooms"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Rooms</span></div>
+ <div class="content"><h2 class="kh">Rooms: plain walls, no signs</h2><div class="kgrid c2" id="g-rooms"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit.room(type, {w, h, ground, scale})</span></div></div>
+
+<!-- 13 palettes -->
+<div class="card" id="palettes"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Palettes</span></div>
+ <div class="content"><h2 class="kh">Palettes</h2>
+  <div class="small mt-s">Skin, Kit.SKIN</div><div class="sw c6" id="sw-skin"></div>
+  <div class="small mt-s">Hair, Kit.HAIR</div><div class="sw c6" id="sw-hair"></div>
+  <div class="small mt-s">Clothing, Kit.C (brand first, then neutrals and warm muted tones)</div><div class="sw c6" id="sw-cloth"></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Pass a name or any hex</span></div></div>
+
+<!-- 14 scene A -->
+<div class="card" id="sceneA-card"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Scene A</span></div>
+ <div class="content"><div class="kicker">Example: drawn illustration</div><h1 class="s">Standing up, with support at eye level</h1><div class="scene" id="sceneA"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit example scene</span></div></div>
+
+<!-- 15 scene B -->
+<div class="card" id="sceneB-card"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Scene B</span></div>
+ <div class="content"><div class="kicker">Example: annotated scene</div><h1 class="s">Everything he needs, out of reach</h1>
+  <div class="scene" id="sceneB">
+   <div class="callout" style="left:20px;top:20px;width:282px"><span class="n">1</span>Call bell on the table, not by his hand</div>
+   <div class="callout" style="left:319px;top:20px;width:282px"><span class="n">2</span>Glasses folded, out of reach</div>
+   <div class="callout" style="left:618px;top:20px;width:282px"><span class="n">3</span>Water jug too far away to pour</div>
+  </div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit example scene</span></div></div>
+
+<!-- 16 scene C -->
+<div class="card" id="sceneC-card"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Scene C</span></div>
+ <div class="content"><div class="kicker">Example: comic strip, illustrative</div><h1 class="s">A medicines review</h1>
+  <div class="strip p3">
+   <div class="panelbox"><div class="art" id="p1"></div><div class="cap">He brings every box he takes to the pharmacy.</div></div>
+   <div class="panelbox"><div class="art" id="p2"></div><div class="cap">They talk through what each one is for.</div></div>
+   <div class="panelbox"><div class="art" id="p3"></div><div class="cap">Two are stopped. Fewer boxes, a simpler routine.</div></div>
+  </div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit example scene</span></div></div>
+
+<!-- 17 scene D -->
+<div class="card" id="sceneD-card"><div class="topline"><span class="series">Illustration kit</span><span class="slidecount">Scene D</span></div>
+ <div class="content"><div class="kicker">Example: drawn illustration</div><h1 class="s">Out for a walk together</h1><div class="scene" id="sceneD"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit example scene</span></div></div>
+
+</div>
+<script>
+const K = Kit;
+/* ---------- sheet helpers ---------- */
+function grid(id, cells) {
+  const host = document.getElementById(id);
+  cells.forEach((c, i) => {
+    const f = document.createElement('div'); f.className = 'kcell';
+    f.innerHTML = `<div class="kart" id="${id}-${i}"></div><div class="cap">${c.cap}</div>`;
+    host.appendChild(f);
+    K.draw(`#${id}-${i}`, c.w, c.h, [floor(c), ...c.art()], { fit: 'xMidYMid meet' });
+  });
+}
+function floor(c) { return c.noFloor ? '' : `<rect x="-400" y="${c.fy || c.h - 22}" width="${c.w + 800}" height="400" fill="#E6DAC4"/><rect x="-400" y="${c.fy || c.h - 22}" width="${c.w + 800}" height="3" fill="#1F2A30" opacity=".35"/>`; }
+const fl = c => c.fy || c.h - 22;
+const cell = (cap, w, h, art, extra) => Object.assign({ cap, w, h, art }, extra || {});
+
+/* ---------- 1 poses: standing and walking ---------- */
+{ const W = 330, H = 460, y = H - 30;
+grid('g-poses1', [
+  cell('standing <i>side</i>', W, H, () => [K.person({ pose: 'standing', x: 150, y, age: 'older', sex: 'f', skin: 'fair', hair: 'white', hairStyle: 'pixie', top: 'plum', bottom: 'oat', bottomStyle: 'skirt', legs: '#C9B8A6', extras: ['cardigan', 'glasses'], cardigan: 'cream' })], { fy: y }),
+  cell('standing <i>view front</i>', W, H, () => [K.person({ pose: 'standing', view: 'front', x: 165, y, age: 'older', build: 'broad', skin: 'dark', hair: 'grey', hairStyle: 'short', top: 'teal', bottom: 'charcoal' })], { fy: y }),
+  cell('walking', W, H, () => [K.person({ pose: 'walking', x: 150, y, skin: 'brown', hair: 'black', hairStyle: 'cropped', top: 'mustard', bottom: 'navy' })], { fy: y }),
+  cell('stick <i>crook handle</i>', W, H, () => [K.person({ pose: 'stick', x: 130, y, age: 'older', build: 'broad', skin: 'light', hair: 'grey', hairStyle: 'balding', top: 'sage', bottom: 'slate', extras: ['hearing_aid'] })], { fy: y }),
+  cell('walking_frame', W, H, () => [K.person({ pose: 'walking_frame', x: 105, y, age: 'older', sex: 'f', skin: 'olive', hair: 'silver', hairStyle: 'bun', top: 'teal', bottom: 'stone' })], { fy: y }),
+  cell('walking_frame <i>wheeled</i>', W, H, () => [K.person({ pose: 'walking_frame', frame: 'wheeled', x: 105, y, age: 'older', skin: 'tan', hair: 'white', hairStyle: 'short', top: 'brick', bottom: 'charcoal', shoeStyle: 'slipper', shoes: 'navy' })], { fy: y }),
+  cell('walking_frame <i>rollator</i>', W, H, () => [K.person({ pose: 'walking_frame', frame: 'rollator', x: 95, y, age: 'older', sex: 'f', skin: 'medium', hair: 'grey', hairStyle: 'coily', top: 'plum', bottom: 'navy' })], { fy: y }),
+  cell('reaching_up <i>on tiptoe</i>', W, H + 40, () => [K.shelf({ x: 200, y: y + 40, height: 470, cupboard: true, w: 180 }), K.person({ pose: 'reaching_up', x: 150, y: y + 40, age: 'older', sex: 'f', skin: 'light', hair: 'grey', hairStyle: 'wavy', top: 'gold', bottom: 'denim' })], { fy: y + 40 }),
+  cell('kneeling <i>facing left</i>', W, H, () => [K.person({ pose: 'kneeling', role: 'physio', x: 190, y, facing: 'left', skin: 'brown', hair: 'black', hairStyle: 'ponytail', sex: 'f' })], { fy: y }),
+]); }
+
+/* ---------- 2 poses: sitting ---------- */
+{ const W = 330, H = 420, y = H - 28;
+grid('g-poses2', [
+  cell('seated_side <i>seat chair</i>', W, H, () => [K.person({ pose: 'seated_side', x: 130, y, age: 'older', sex: 'f', skin: 'deep', hair: 'grey', hairStyle: 'coily', top: 'brick', bottom: 'charcoal' })], { fy: y }),
+  cell('seated_side <i>armchair</i>', W, H, () => [K.person({ pose: 'seated_side', seat: 'armchair', x: 130, y, age: 'older', skin: 'medium', hair: 'saltpepper', hairStyle: 'short', top: 'navy', bottom: 'stone', extras: ['beard', 'glasses'] })], { fy: y }),
+  cell('seated_side <i>sofa, hands lap</i>', W, H, () => [K.person({ pose: 'seated_side', seat: 'sofa', hands: 'lap', seatColour: 'mustard', x: 130, y, age: 'older', sex: 'f', skin: 'tan', hair: 'white', hairStyle: 'bob', top: 'sage', bottom: 'plum', bottomStyle: 'skirt', legs: '#8C6A55' })], { fy: y }),
+  cell('seated_front <i>chair</i>', W, H, () => [K.person({ pose: 'seated_front', x: 165, y, age: 'older', skin: 'tan', hair: 'darkgrey', hairStyle: 'balding', top: 'mustard', bottom: 'navy' })], { fy: y }),
+  cell('seated_front <i>armchair</i>', W, H, () => [K.person({ pose: 'seated_front', seat: 'armchair', seatColour: 'teal', x: 165, y, age: 'older', sex: 'f', skin: 'fair', hair: 'white', hairStyle: 'bob', top: 'plum', bottom: 'stone', extras: ['cardigan'], cardigan: 'oat' })], { fy: y }),
+  cell('seated_talking', W, H, () => [K.person({ pose: 'seated_talking', x: 120, y, age: 'older', skin: 'deep', hair: 'white', hairStyle: 'cropped', top: 'green', bottom: 'slate' })], { fy: y }),
+  cell('rising <i>hands on arms</i>', W, H, () => [K.person({ pose: 'rising', x: 110, y, age: 'older', sex: 'f', skin: 'fair', hair: 'white', hairStyle: 'pixie', top: 'plum', bottom: 'stone', extras: ['cardigan'], seatColour: 'sage' })], { fy: y }),
+  cell('rising <i>chair, arms crossed</i>', W, H, () => [K.person({ pose: 'rising', seat: 'chair', hands: 'crossed', x: 110, y, age: 'older', skin: 'olive', hair: 'grey', hairStyle: 'short', top: 'denim', bottom: 'charcoal' })], { fy: y }),
+  cell('wheelchair <i>hands on lap</i>', W, H, () => [K.person({ pose: 'wheelchair', x: 130, y, sex: 'f', skin: 'brown', hair: 'plum', hairStyle: 'headscarf', top: 'teal', bottom: 'navy' })], { fy: y }),
+]); }
+
+/* ---------- 3 poses: bed, floor, pairs ---------- */
+{ const W = 560, H = 300, y = H - 26;
+grid('g-poses3', [
+  cell('lying_bed <i>hospital, rails down</i>', W, H, () => [K.person({ pose: 'lying_bed', x: 280, y, scale: 1.05, age: 'older', skin: 'fair', hair: 'grey', hairStyle: 'short', top: 'paleblue' })], { fy: y }),
+  cell('sitting_up_bed <i>backrest 60, rails up</i>', W, H + 40, () => [K.person({ pose: 'sitting_up_bed', rails: 'up', x: 290, y: y + 40, scale: 1.05, age: 'older', sex: 'f', skin: 'brown', hair: 'white', hairStyle: 'curly', top: 'lilac' })], { fy: y + 40 }),
+  cell('lying_bed <i>bed domestic</i>', W, H, () => [K.person({ pose: 'lying_bed', bed: 'domestic', blanket: 'sage', x: 290, y, scale: 1.05, age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'bob', top: 'rose' })], { fy: y }),
+  cell('wheelchair <i>hands on rims</i>, pushing', W, H + 150, () => { const wc = { x: 330, y: y + 150, scale: 1 }; const h = K.anchor('wheelchair', wc).handles; return [K.person({ pose: 'pushing', x: 170, y: y + 150, role: 'care_worker', skin: 'olive', hair: 'dark', hairStyle: 'short', hands: { near: h, far: { x: h.x + 4, y: h.y - 3 } } }), K.person(Object.assign({ pose: 'wheelchair', hands: 'rims', age: 'older', skin: 'light', hair: 'white', hairStyle: 'balding', top: 'navy', bottom: 'stone', extras: ['glasses'] }, wc))]; }, { fy: y + 150 }),
+  cell('on_floor <i>sitting, after a fall</i>', W, H, () => [K.person({ pose: 'on_floor', x: 200, y, scale: 1.05, age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'curly', top: 'rose', bottom: 'navy', extras: ['cardigan'], cardigan: 'cream' })], { fy: y }),
+  cell('on_floor <i>variant lying</i>', W, H, () => [K.person({ pose: 'on_floor', variant: 'lying', x: 210, y, scale: 1.05, age: 'older', skin: 'olive', hair: 'grey', hairStyle: 'short', top: 'sage', bottom: 'slate' })], { fy: y }),
+  cell('Kit.linkArms <i>arm in arm</i>', W, H + 150, () => [K.linkArms({ age: 'older', skin: 'medium', hair: 'white', hairStyle: 'short', top: 'navy', bottom: 'stone' }, { pose: 'stick', x: 230, y: y + 150, age: 'older', sex: 'f', skin: 'fair', hair: 'silver', hairStyle: 'bob', top: 'mustard', bottom: 'charcoal' })], { fy: y + 150 }),
+  cell('seated_front <i>seat none, bed edge</i>', W, H + 150, () => [K.bed({ x: 280, y: y + 110, type: 'domestic', colour: 'pale' }), K.person({ pose: 'seated_front', seat: 'none', seatHeight: 118, x: 280, y: y + 150, age: 'older', skin: 'dark', hair: 'grey', hairStyle: 'cropped', top: 'white', bottom: 'navy', shoeStyle: 'slipper', shoes: 'plum' })], { fy: y + 150 }),
+]); }
+
+/* ---------- 4 hair ---------- */
+{ const W = 320, H = 200;
+const hs = [['short', 'medium', 'grey', 'older', 'm'], ['pixie', 'fair', 'white', 'older', 'f'], ['cropped', 'deep', 'black', 'adult', 'm'], ['balding', 'light', 'white', 'older', 'm'], ['bun', 'olive', 'silver', 'older', 'f'], ['ponytail', 'tan', 'brown', 'young', 'f'],
+  ['long', 'light', 'blonde', 'adult', 'f'], ['bob', 'brown', 'grey', 'older', 'f'], ['wavy', 'fair', 'auburn', 'adult', 'f'], ['curly', 'medium', 'saltpepper', 'older', 'f'], ['coily', 'dark', 'white', 'older', 'f'], ['headscarf', 'tan', 'teal', 'adult', 'f']];
+grid('g-hair', hs.map(([st, sk, hc, ag, sx]) => cell(`${st} <i>${hc}</i>`, W, H, () => [
+  K.person({ pose: 'standing', x: 95, y: 430, age: ag, sex: sx, skin: sk, hair: hc, hairStyle: st, top: 'teal', shadow: false }),
+  K.person({ pose: 'standing', view: 'front', x: 225, y: 430, age: ag, sex: sx, skin: sk, hair: hc, hairStyle: st, top: 'teal', shadow: false })], { noFloor: true }))); }
+
+/* ---------- 5 skin ---------- */
+{ const W = 220, H = 440, y = H - 26;
+const tones = ['light', 'fair', 'medium', 'olive', 'tan', 'brown', 'dark', 'deep'];
+const looks = [['white', 'pixie', 'plum', 'f', 'older'], ['grey', 'short', 'navy', 'm', 'older'], ['dark', 'long', 'mustard', 'f', 'adult'], ['saltpepper', 'balding', 'sage', 'm', 'older'], ['black', 'bun', 'brick', 'f', 'adult'], ['grey', 'cropped', 'teal', 'm', 'older'], ['white', 'coily', 'gold', 'f', 'older'], ['black', 'cropped', 'denim', 'm', 'young']];
+grid('g-skin', tones.map((t, i) => cell(t, W, H, () => [K.person({ pose: 'standing', view: 'front', x: 110, y, skin: t, hair: looks[i][0], hairStyle: looks[i][1], top: looks[i][2], sex: looks[i][3], age: looks[i][4], bottom: i % 2 ? 'charcoal' : 'stone' })], { fy: y }))); }
+
+/* ---------- 6 build, age, extras ---------- */
+{ const W = 300, H = 440, y = H - 26, HB = 210;
+const bust = (o) => [K.person(Object.assign({ pose: 'standing', x: 105, y: 450, shadow: false }, o)), K.person(Object.assign({ pose: 'standing', view: 'front', x: 225, y: 450, shadow: false }, o))];
+grid('g-build', [
+  cell('build slim', W, H, () => [K.person({ pose: 'standing', build: 'slim', x: 150, y, age: 'older', skin: 'fair', hair: 'grey', hairStyle: 'short', top: 'navy', bottom: 'stone' })], { fy: y }),
+  cell('build medium', W, H, () => [K.person({ pose: 'standing', build: 'medium', x: 150, y, age: 'older', sex: 'f', skin: 'brown', hair: 'grey', hairStyle: 'bob', top: 'brick', bottom: 'charcoal' })], { fy: y }),
+  cell('build broad', W, H, () => [K.person({ pose: 'standing', build: 'broad', x: 150, y, age: 'older', skin: 'olive', hair: 'white', hairStyle: 'balding', top: 'sage', bottom: 'slate' })], { fy: y }),
+  cell('age young', W, H, () => [K.person({ pose: 'standing', age: 'young', x: 150, y, sex: 'f', skin: 'tan', hair: 'black', hairStyle: 'ponytail', top: 'gold', bottom: 'denim', shoes: 'white' })], { fy: y }),
+  cell('age adult', W, H, () => [K.person({ pose: 'standing', age: 'adult', x: 150, y, skin: 'dark', hair: 'black', hairStyle: 'cropped', top: 'plum', bottom: 'charcoal' })], { fy: y }),
+  cell('age older <i>slight stoop</i>', W, H, () => [K.person({ pose: 'standing', age: 'older', x: 150, y, sex: 'f', skin: 'light', hair: 'white', hairStyle: 'curly', top: 'teal', bottom: 'oat', extras: ['cardigan'], cardigan: 'mustard' })], { fy: y }),
+  cell('glasses, hearing_aid', W, HB, () => bust({ age: 'older', skin: 'medium', hair: 'white', hairStyle: 'short', top: 'navy', extras: ['glasses', 'hearing_aid'] }), { noFloor: true }),
+  cell('beard, cardigan', W, HB, () => bust({ age: 'older', skin: 'fair', hair: 'grey', hairStyle: 'balding', top: 'sage', extras: ['beard', 'cardigan'], cardigan: 'oat' }), { noFloor: true }),
+  cell('apron, lanyard', W, HB, () => bust({ role: 'care_worker', skin: 'brown', hair: 'black', hairStyle: 'bun', sex: 'f', extras: ['apron'] }), { noFloor: true }),
+]); }
+
+/* ---------- 7 roles ---------- */
+{ const W = 300, H = 440, y = H - 26;
+const r = [['nurse', 'brown', 'black', 'bun', 'f'], ['hca', 'light', 'blonde', 'ponytail', 'f'], ['hca_lilac', 'olive', 'dark', 'short', 'm'], ['doctor', 'medium', 'black', 'cropped', 'm'], ['physio', 'fair', 'auburn', 'ponytail', 'f'], ['care_worker', 'dark', 'black', 'cropped', 'm'], ['pharmacist', 'tan', 'teal', 'headscarf', 'f'], ['ot', 'light', 'brown', 'bob', 'f'], ['paramedic', 'fair', 'sandy', 'short', 'm']];
+grid('g-roles', r.map(([role, sk, hc, st, sx], i) => cell(`role <i>${role}</i>`, W, H, () => [K.person({ pose: 'standing', view: i % 2 ? 'side' : 'front', x: 150, y, role, skin: sk, hair: hc, hairStyle: st, sex: sx })], { fy: y }))); }
+
+/* ---------- 8 props: seats, tables, units ---------- */
+{ const W = 300, H = 330, y = H - 24;
+grid('g-props1', [
+  cell('chair', W, H, () => [K.chair({ x: 150, y })], { fy: y }),
+  cell('chair <i>view front</i>', W, H, () => [K.chair({ x: 150, y, view: 'front', cushion: 'sage' })], { fy: y }),
+  cell('armchair', W, H, () => [K.armchair({ x: 150, y })], { fy: y }),
+  cell('armchair <i>view front</i>', W, H, () => [K.armchair({ x: 150, y, view: 'front', colour: 'plum' })], { fy: y }),
+  cell('sofa', W * 1.6, H * 1.6, () => [K.sofa({ x: W * 0.8, y: H * 1.6 - 24, seats: 2 })], { fy: H * 1.6 - 24 }),
+  cell('sofa <i>view side</i>', W, H, () => [K.sofa({ x: 140, y, view: 'side', colour: 'mustard' })], { fy: y }),
+  cell('stool', W, H, () => [K.stool({ x: 150, y })], { fy: y }),
+  cell('commode', W, H, () => [K.commode({ x: 150, y })], { fy: y }),
+  cell('table', W, H, () => [K.table({ x: 150, y, w: 250 }), K.cup({ x: 110, y: y - 168 }), K.plate_meal({ x: 190, y: y - 168, scale: 0.9 })], { fy: y }),
+  cell('desk', W, H, () => [K.desk({ x: 150, y, w: 260 })], { fy: y }),
+  cell('kitchen_counter <i>sink</i>', W, H, () => [K.kitchen_counter({ x: 150, y, w: 270, sink: true }), K.kettle({ x: 70, y: y - 205, scale: 0.8 })], { fy: y }),
+  cell('bedside_table', W, H, () => [K.bedside_table({ x: 150, y }), K.water_jug({ x: 130, y: y - 184 }), K.glass({ x: 178, y: y - 184 })], { fy: y }),
+]); }
+
+/* ---------- 9 props: beds and mobility ---------- */
+{ const W = 330, H = 400, y = H - 26;
+grid('g-props2', [
+  cell('bed <i>hospital, rails up</i>', 520, 340, () => [K.bed({ x: 260, y: 316, rails: 'up' })], { fy: 316 }),
+  cell('bed <i>backrest 45</i>', 520, 340, () => [K.bed({ x: 260, y: 316, backrest: 45 }), K.pillow({ x: 150, y: 316 - 140 })], { fy: 316 }),
+  cell('bed <i>type domestic</i>', 520, 340, () => [K.bed({ x: 260, y: 316, type: 'domestic' }), K.pillow({ x: 90, y: 316 - 118 }), K.blanket({ x: 400, y: 316 - 118, type: 'spread', w: 200, colour: 'sage' })], { fy: 316 }),
+  cell('over_bed_table', W, H, () => [K.over_bed_table({ x: 180, y }), K.tray({ x: 150, y: y - 212, w: 140 })], { fy: y }),
+  cell('wheelchair', W, H, () => [K.wheelchair({ x: 150, y })], { fy: y }),
+  cell('walking_frame', W, H, () => [K.walking_frame({ x: 110, y })], { fy: y }),
+  cell('walking_frame <i>wheeled</i>', W, H, () => [K.walking_frame({ x: 110, y, type: 'wheeled' })], { fy: y }),
+  cell('walking_frame <i>rollator</i>', W, H, () => [K.walking_frame({ x: 130, y, type: 'rollator' })], { fy: y }),
+  cell('stick <i>crook, derby, offset</i>', W, H, () => [K.stick({ x: 80, y, angle: 4 }), K.stick({ x: 170, y, type: 'derby', colour: 'slate', angle: 4 }), K.stick({ x: 250, y, type: 'offset', colour: '#8A969C', angle: 4 })], { fy: y }),
+]); }
+
+/* ---------- 10 props: bedside and tabletop ---------- */
+{ const W = 220, H = 180, y = H - 30;
+const t = (cap, fn, o) => cell(cap, W, H, () => [`<rect x="-100" y="${y}" width="${W + 200}" height="12" rx="3" fill="#C9A07A" stroke="#1F2A30" stroke-width="3"/>`, fn()], Object.assign({ noFloor: true }, o || {}));
+grid('g-props3', [
+  t('call_bell', () => K.call_bell({ x: 80, y, cableTo: { x: 90, y: -8 } })),
+  t('glasses', () => K.glasses({ x: 110, y, scale: 1.4 })),
+  t('glasses <i>folded</i>', () => K.glasses({ x: 110, y, scale: 1.6, folded: true })),
+  t('hearing_aid', () => K.hearing_aid({ x: 110, y, scale: 1.3 })),
+  t('pill_organiser <i>7</i>', () => K.pill_organiser({ x: 110, y, open: [2, 3], pills: 3 })),
+  t('pill_organiser <i>rows 4</i>', () => K.pill_organiser({ x: 110, y, rows: 4, open: [0, 8, 15] })),
+  t('medicine_bottle', () => K.medicine_bottle({ x: 110, y, scale: 1.3 })),
+  t('medicine_bottle <i>box, blister</i>', () => [K.medicine_bottle({ x: 75, y, type: 'box', scale: 1.3 }), K.medicine_bottle({ x: 155, y, type: 'blister', scale: 1.2 })].join('')),
+  t('cup, glass', () => [K.cup({ x: 75, y, scale: 1.3 }), K.glass({ x: 150, y, scale: 1.3 })].join('')),
+  t('water_jug', () => K.water_jug({ x: 105, y, scale: 1.3 })),
+  t('plate_meal', () => K.plate_meal({ x: 110, y, scale: 1.4 })),
+  t('tray', () => [K.tray({ x: 110, y, w: 180 }), K.plate_meal({ x: 100, y: y - 10 }), K.cup({ x: 170, y: y - 10, scale: 0.8 })].join('')),
+  t('kettle', () => K.kettle({ x: 110, y, scale: 1.2 })),
+  t('phone, landline', () => [K.phone({ x: 70, y, scale: 1.2 }), K.phone({ x: 150, y, type: 'landline', scale: 1.1 })].join('')),
+  t('notepad', () => K.notepad({ x: 110, y, scale: 1.2 })),
+  t('bag_of_medicines', () => K.bag_of_medicines({ x: 110, y, scale: 1.2 })),
+  t('pillow', () => K.pillow({ x: 110, y, w: 150 })),
+  t('blanket <i>folded</i>', () => K.blanket({ x: 110, y, w: 150 })),
+  t('shoes', () => K.shoes({ x: 100, y, scale: 1.4 })),
+  t('slippers', () => K.slippers({ x: 100, y, scale: 1.4 })),
+]); }
+
+/* ---------- 11 props: home and fittings ---------- */
+{ const W = 240, H = 250, y = H - 22;
+const c = (cap, fn, o) => cell(cap, W, H, fn, Object.assign({ fy: y }, o || {}));
+grid('g-props4', [
+  c('door', () => [K.door({ x: 120, y, scale: 0.46 })]),
+  c('door <i>open</i>', () => [K.door({ x: 120, y, scale: 0.46, open: true })]),
+  c('window', () => [K.window({ x: 120, y: y - 70, scale: 0.62 })]),
+  c('window <i>curtains</i>', () => [K.window({ x: 120, y: y - 60, scale: 0.5, curtains: 'sage' })]),
+  c('stairs', () => [K.stairs({ x: 40, y, scale: 0.48 })]),
+  c('rug', () => [K.rug({ x: 110, y: y - 6, w: 180 })]),
+  c('rug <i>curled</i>', () => [K.rug({ x: 110, y: y - 6, w: 180, curled: true, colour: 'teal', border: 'sand' })]),
+  c('lamp <i>floor, table</i>', () => [K.lamp({ x: 70, y, scale: 0.55 }), K.lamp({ x: 170, y, type: 'table', scale: 0.9 })]),
+  c('toilet_with_grab_rails', () => [K.toilet_with_grab_rails({ x: 120, y, scale: 0.8 })]),
+  c('raised_toilet_seat', () => [K.raised_toilet_seat({ x: 120, y, arms: true, scale: 1.2 })]),
+  c('grab_rail', () => [K.grab_rail({ x: 110, y: y - 120, length: 150 }), K.grab_rail({ x: 210, y: y - 110, length: 120, angle: -90 })]),
+  c('radiator', () => [K.radiator({ x: 120, y, scale: 0.95 })]),
+  c('plant', () => [K.plant({ x: 120, y, scale: 1.1 })]),
+  c('bookshelf', () => [K.bookshelf({ x: 120, y, scale: 0.62 })]),
+  c('front_door_step <i>rail</i>', () => [K.front_door_step({ x: 120, y, scale: 0.4, rail: true })]),
+  c('shelf, cupboard', () => [K.shelf({ x: 70, y, scale: 0.5, w: 160 }), K.shelf({ x: 170, y, scale: 0.5, cupboard: true, w: 160, height: 300 })]),
+  c('curtain <i>hospital bay</i>', () => [K.curtain({ x: 120, y, scale: 0.36, w: 280 })]),
+  c('tree', () => [K.tree({ x: 120, y, scale: 0.5 })]),
+  c('bench', () => [K.bench({ x: 120, y, scale: 0.7 })]),
+  c('shadow <i>under anything</i>', () => [K.shadow(120, y, 70), K.plant({ x: 120, y, scale: 0.8, colour: 'teal' })]),
+]); }
+
+/* ---------- 12 rooms ---------- */
+{ const W = 600, H = 300;
+grid('g-rooms', K.rooms.map(t => cell(t, W, H, () => [K.room(t, { w: W, h: H, ground: H - 20, scale: 0.6 }), K.person({ pose: 'standing', x: 300, y: H - 20, scale: 0.6, age: 'older', skin: 'medium', hair: 'white', hairStyle: 'short', top: 'navy', bottom: 'stone' })], { noFloor: true }))); }
+
+/* ---------- 13 palettes ---------- */
+function swatches(id, obj, keys) { document.getElementById(id).innerHTML = (keys || Object.keys(obj)).map(k => `<div><span class="chip" style="background:${obj[k]}"></span><b>${k}</b><em>${obj[k]}</em></div>`).join(''); }
+swatches('sw-skin', K.SKIN);
+swatches('sw-hair', K.HAIR, ['white', 'silver', 'grey', 'saltpepper', 'darkgrey', 'black', 'dark', 'brown', 'auburn', 'blonde', 'sandy']);
+swatches('sw-cloth', K.C, ['deep', 'teal', 'mint', 'pale', 'orange', 'gold', 'sand', 'white', 'light', 'grey', 'slate', 'mustard', 'plum', 'sage', 'brick', 'navy', 'paleblue', 'lilac']);
+
+/* ---------- 14 scene A: rising from an armchair, physio kneeling alongside ---------- */
+(function () {
+  const W = 1000, H = 900, S = 1.5, g = 850;
+  const woman = { pose: 'rising', seat: 'armchair', seatColour: 'sage', x: 250, y: g, scale: S, age: 'older', sex: 'f', skin: 'fair', hair: 'white', hairStyle: 'pixie', top: 'plum', bottom: 'stone', extras: ['cardigan'], cardigan: 'oat', shoes: '#6B5647' };
+  const knee = K.joint(woman, 'nearKnee');
+  K.draw('#sceneA', W, H, [
+    K.room('home_living', { w: W, h: H, ground: g, scale: S }),
+    K.window({ x: 520, y: g - 70 * S - 300, scale: 1.2, curtains: 'mustard' }),
+    K.lamp({ x: 70, y: g - 10, scale: 1.1 }),
+    K.plant({ x: 930, y: g - 6, scale: 1.2 }),
+    K.person(woman),
+    K.person({ pose: 'kneeling', role: 'physio', x: 640, y: g + 4, scale: S, facing: 'left', skin: 'brown', hair: 'black', hairStyle: 'ponytail', sex: 'f', hands: { near: { x: knee.x + 18, y: knee.y + 30 } } }),
+  ], { cls: 'art' });
+})();
+
+/* ---------- 15 scene B: bell, glasses and jug out of reach ---------- */
+(function () {
+  const W = 1000, H = 860, S = 1.32, g = 800, btX = 780;
+  const bt = K.anchor('bedside_table', { x: btX, y: g, scale: S });
+  const top = bt.top.y;
+  K.draw('#sceneB', W, H, [
+    K.room('hospital_bay', { w: W, h: H, ground: g, scale: S }),
+    K.curtain({ x: -10, y: g - 40, scale: S, w: 110 }),
+    K.person({ pose: 'sitting_up_bed', x: 330, y: g, scale: S, age: 'older', skin: 'olive', hair: 'grey', hairStyle: 'balding', top: 'paleblue', blanket: '#DDE8EE' }),
+    K.bedside_table({ x: btX, y: g, scale: S, w: 150 }),
+    K.water_jug({ x: btX - 62, y: top, scale: S }),
+    K.glasses({ x: btX + 22, y: top, scale: S, folded: true }),
+    K.call_bell({ x: btX + 78, y: top, scale: S * 0.95, cableTo: { x: 10, y: 150 } }),
+  ], { cls: 'art' });
+  K.pins('#sceneB', [{ n: 1, x: btX + 78, y: top - 100 }, { n: 2, x: btX + 22, y: top - 44 }, { n: 3, x: btX - 62, y: top - 146 }]);
+})();
+
+/* ---------- 16 scene C: three-panel strip ---------- */
+(function () {
+  const W = 1000, H = 240;
+  const man = { age: 'older', skin: 'tan', hair: 'saltpepper', hairStyle: 'short', top: 'navy', bottom: 'stone', extras: ['glasses'], build: 'broad' };
+  const ph = { role: 'pharmacist', skin: 'light', hair: 'auburn', hairStyle: 'bob', sex: 'f' };
+  const S = 0.98, g = 410, cnt = K.anchor('kitchen_counter', { x: 520, y: g, scale: S }), ct = cnt.top.y;
+  const counter = () => K.kitchen_counter({ x: 520, y: g, scale: S, w: 360, colour: 'pale', top: '#E9E4DA' });
+  K.draw('#p1', W, H, [K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
+    K.person(Object.assign({ pose: 'standing', x: 740, y: g, scale: S, facing: 'left', tilt: 22, hands: { near: { x: 590, y: ct - 34 } } }, ph)),
+    counter(),
+    K.person(Object.assign({ pose: 'standing', x: 300, y: g, scale: S, tilt: 24, hold: 'bag' }, man)),
+    K.medicine_bottle({ x: 470, y: ct, scale: S, type: 'box' }), K.medicine_bottle({ x: 505, y: ct, scale: S }), K.medicine_bottle({ x: 540, y: ct, scale: S, type: 'box', band: 'gold' }),
+    K.medicine_bottle({ x: 505, y: ct - 26 * S, scale: S, type: 'box', band: 'plum' }), K.medicine_bottle({ x: 575, y: ct, scale: S, type: 'blister' }), K.medicine_bottle({ x: 610, y: ct, scale: S, colour: '#E9EDEC' }),
+  ]);
+  const S2 = 0.92, g2 = 365, tb = K.anchor('table', { x: 500, y: g2, scale: S2 });
+  K.draw('#p2', W, H, [K.room('gp_room', { w: W, h: H, ground: g2, scale: S2 }),
+    K.person(Object.assign({ pose: 'seated_side', x: 720, y: g2, scale: S2, facing: 'left', tilt: 4 }, ph)),
+    K.person(Object.assign({ pose: 'seated_talking', x: 270, y: g2, scale: S2 }, man)),
+    K.table({ x: 500, y: g2, scale: S2, w: 230 }),
+    K.pill_organiser({ x: 500, y: tb.top.y, scale: S2 * 0.9, open: [0, 1, 2], pills: 3 }),
+  ]);
+  K.draw('#p3', W, H, [K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
+    K.person(Object.assign({ pose: 'standing', x: 740, y: g, scale: S, facing: 'left', tilt: 6 }, ph)),
+    counter(),
+    K.person(Object.assign({ pose: 'standing', x: 300, y: g, scale: S, tilt: 4, hands: { near: { x: 452, y: ct - 22 } } }, man)),
+    K.medicine_bottle({ x: 520, y: ct, scale: S, type: 'box' }), K.medicine_bottle({ x: 560, y: ct, scale: S }),
+    K.pill_organiser({ x: 470, y: ct, scale: S * 0.7, pills: 2 }),
+  ]);
+})();
+
+/* ---------- 17 scene D: couple walking arm in arm, one with a stick ---------- */
+(function () {
+  const W = 1000, H = 900, S = 1.35, g = 800;
+  K.draw('#sceneD', W, H, [
+    K.room('outdoors_street', { w: W, h: H, ground: g, scale: S * 0.7 }),
+    K.tree({ x: 120, y: g - 70, scale: 1.2 }), K.tree({ x: 880, y: g - 70, scale: 1.05, colour: '#7F9C84' }),
+    K.bench({ x: 820, y: g - 40, scale: S * 0.8 }),
+    K.linkArms({ skin: 'dark', hair: 'white', hairStyle: 'cropped', top: 'navy', bottom: 'stone', age: 'older', extras: ['beard'], shoes: '#3E3129' },
+               { pose: 'stick', x: 400, y: g, scale: S, skin: 'dark', hair: 'grey', hairStyle: 'coily', top: 'mustard', bottom: 'charcoal', age: 'older', sex: 'f', shoes: '#5B4A40' }),
+  ], { cls: 'art' });
+})();
+</script></body></html>
