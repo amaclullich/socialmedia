@@ -544,7 +544,7 @@
   };
   POSES.seated_talking = (c, g) => {
     const si = seatOf(c);
-    const r = makeRig(c, P(4, -si.h - 21), 13 + c.lean, 3, 4);
+    const r = makeRig(c, P(4, -si.h - 21), 13 + c.lean, 3, -9);
     r.leg('far', P(84, -16)); r.leg('near', P(95, -16));
     r.farArmLate = true;
     r.arm('far', onThigh(r.legs.far, 0.9, 20));
@@ -965,10 +965,13 @@
     return g.t('M-30,-14L-40,-22M30,-14L40,-22', fr, 2.8) + g.r(-31, -24, 26, 18, 7, 'rgba(227,241,242,.9)') + g.r(5, -24, 26, 18, 7, 'rgba(227,241,242,.9)') + g.t('M-5,-18Q0,-22 5,-18', fr, 2.8) + g.t('M-28,-24H-8M8,-24H28', fr, 2.2);
   });
   prop('hearing_aid', (g, o) => {
-    const col = cc(o.colour) || '#A6B0B5';
-    let s = g.ld('M26,-58C44,-70 60,-58 54,-40C50,-28 40,-22 38,-8', 3, 'rgba(215,230,232,.9)');
-    s += g.p('M20,-58C30,-66 34,-50 30,-30C27,-12 16,2 4,4C-4,5 -6,-3 0,-7C10,-14 16,-28 16,-44C16,-52 16,-56 20,-58Z', col);
-    s += g.c(22, -52, 2.8, shade(col, 0.6)) + g.e(38, -4, 7, 5, 'rgba(240,244,244,.95)', -20);
+    // behind-the-ear aid drawn large as an object: body, clear ear hook, thin tube and dome
+    const col = cc(o.colour) || '#A7B1B6';
+    let s = g.ld('M-4,-78C4,-98 30,-100 38,-80C44,-64 40,-50 34,-40', 5, 'rgba(214,230,232,.95)');
+    s += g.ld('M34,-40C28,-28 30,-14 42,-8', 2.4, 'rgba(214,230,232,.95)');
+    s += g.e(46, -6, 8, 6, 'rgba(236,242,242,.95)', -25);
+    s += g.p('M-8,-80C0,-84 6,-76 6,-62C6,-40 -2,-16 -16,-4C-24,2 -32,-2 -30,-10C-22,-24 -18,-44 -18,-60C-18,-72 -14,-78 -8,-80Z', col);
+    s += g.c(-6, -66, 3.5, shade(col, 0.6)) + g.t('M-26,-14C-18,-18 -12,-24 -10,-30', shade(col, 0.7), 1.8);
     return s;
   });
   prop('pill_organiser', (g, o) => {
@@ -1078,15 +1081,20 @@
     return s;
   });
   prop('rug', (g, o) => {
-    const w = o.w || 300, f = cc(o.colour) || Kit.C.brick, b = cc(o.border) || Kit.C.gold;
+    // seen from a low angle: a flat quadrilateral on the floor; curled: true lifts the front-right corner
+    const w = o.w || 300, dp = o.depth || 44, f = cc(o.colour) || Kit.C.brick, b = cc(o.border) || Kit.C.gold, und = shade(f, 1.4);
+    const A = P(-w / 2, 0), B = P(w / 2, 0), C = P(w / 2 + 26, -dp), Dd = P(-w / 2 + 26, -dp);
     let s = '';
     if (o.curled) {
-      s += g.p(`M${-w / 2},0L${w / 2 - 50},0C${w / 2 - 40},-2 ${w / 2 - 30},-14 ${w / 2 - 18},-24C${w / 2 - 4},-34 ${w / 2 + 12},-26 ${w / 2 + 6},-14C${w / 2},-6 ${w / 2 - 14},-10 ${w / 2 - 14},-18L${w / 2 - 30},-8C${w / 2 - 44},-4 ${w / 2 - 50},-8 ${w / 2 - 50},-8L${-w / 2 + 6},-8Z`, f);
-      s += g.t(`M${-w / 2 + 10},-4H${w / 2 - 60}`, b, 2.6);
+      const B1 = P(w / 2 - 74, 0), B2 = lerp(B, C, 0.62), tip = P(w / 2 - 40, -dp - 38);
+      s += g.p(`M${pt(A)}L${pt(B1)}L${pt(B2)}L${pt(C)}L${pt(Dd)}Z`, f);
+      s += g.t(`M${pt(add(A, P(16, -7)))}L${pt(add(B1, P(-6, -7)))}M${pt(add(Dd, P(12, 7)))}L${pt(add(C, P(-14, 7)))}`, b, 3);
+      s += `<path d="M${pt(B1)}L${pt(B2)}L${pt(add(tip, P(8, 30)))}Z" fill="${OL}" opacity=".12"/>`;
+      s += g.p(`M${pt(B1)}C${pt(add(B1, P(4, -18)))} ${pt(add(tip, P(-18, 6)))} ${pt(tip)}L${pt(add(tip, P(10, -2)))}C${pt(add(tip, P(20, 14)))} ${pt(add(B2, P(4, -14)))} ${pt(B2)}Z`, und);
     } else {
-      s += g.p(`M${-w / 2},0L${w / 2},0L${w / 2 - 6},-8L${-w / 2 + 6},-8Z`, f) + g.t(`M${-w / 2 + 10},-4H${w / 2 - 10}`, b, 2.6);
+      s += g.p(`M${pt(A)}L${pt(B)}L${pt(C)}L${pt(Dd)}Z`, f);
+      s += g.t(`M${pt(add(A, P(16, -7)))}L${pt(add(B, P(-8, -7)))}M${pt(add(Dd, P(12, 7)))}L${pt(add(C, P(-14, 7)))}`, b, 3);
     }
-    s += g.t(`M${-w / 2 - 6},-2H${-w / 2}M${-w / 2 - 6},-6H${-w / 2 + 4}`, f, 2);
     return s;
   });
   prop('lamp', (g, o) => {
@@ -1099,21 +1107,22 @@
     return G(g.r(-L / 2 - 8, -12, 14, 24, 4, shade(col, 0.88)) + g.r(L / 2 - 6, -12, 14, 24, 4, shade(col, 0.88)) + g.l([P(-L / 2, 0), P(L / 2, 0)], 11, col) + g.l([P(-L / 2 + 2, 10), P(-L / 2 + 2, 0)], 9, col) + g.l([P(L / 2 - 2, 10), P(L / 2 - 2, 0)], 9, col), `rotate(${a})`);
   });
   prop('toilet_with_grab_rails', (g, o) => {
-    const w = '#FBFBFA';
+    // side view, user faces right; cistern against the back wall at the left
+    const w = '#FBFBFA', w2 = '#EEF1F0';
     let s = '';
     if (o.rails !== false) {
-      s += G(D.grab_rail(g, { length: 150 }), 'translate(10,-232)');
-      s += G(D.grab_rail(g, { length: 120, angle: -90 }), 'translate(112,-260)');
+      s += G(D.grab_rail(g, { length: 170 }), 'translate(10,-186)');
+      s += G(D.grab_rail(g, { length: 130, angle: -90 }), 'translate(120,-250)');
     }
-    s += g.r(-88, -250, 36, 124, 8, w) + g.r(-94, -258, 48, 12, 4, w) + g.r(-74, -272, 16, 14, 3, '#DCE2E2');
-    s += g.p('M-58,-96L46,-96C54,-96 54,-86 48,-80C34,-66 22,-54 18,-30L14,0L-38,0L-40,-40C-50,-56 -58,-70 -58,-96Z', w);
-    s += g.r(-62, -104, 116, 10, 5, '#F0F2F1');
-    if (o.raised) s += g.r(-58, -130, 108, 28, 8, '#FFFFFF') + g.r(-54, -138, 100, 10, 5, '#F4F6F5');
+    s += g.r(-96, -206, 44, 112, 8, w) + g.r(-100, -214, 52, 12, 4, w2) + g.r(-82, -222, 18, 8, 3, '#D5DCDC');
+    s += g.p('M-60,-94L50,-94C58,-94 58,-84 52,-78C38,-64 26,-50 20,-28L16,0L-34,0L-38,-40C-48,-56 -58,-70 -60,-94Z', w);
+    s += g.r(-64, -104, 122, 12, 6, w2);
+    if (o.raised) s += g.r(-60, -132, 114, 28, 8, '#FFFFFF') + g.r(-56, -140, 106, 10, 5, w2);
     return s;
   });
   prop('raised_toilet_seat', (g, o) => {
-    let s = g.p('M-56,-4L50,-4C58,-4 58,-40 50,-44L-56,-44C-62,-44 -62,-4 -56,-4Z', '#FFFFFF') + g.r(-58, -52, 116, 10, 5, '#F4F6F5') + g.t('M-40,-24H36', '#C9D2D2', 2);
-    if (o.arms) s += g.l([P(-40, -44), P(-40, -96), P(40, -96), P(40, -44)], 7, '#DDE3E3');
+    let s = g.p('M-58,-4L54,-4C60,-4 62,-12 60,-20L56,-40L-60,-40L-62,-12C-62,-6 -61,-4 -58,-4Z', '#FFFFFF') + g.r(-62, -48, 122, 10, 5, '#F2F4F3') + g.p('M34,-40L58,-40L56,-26C48,-26 40,-30 34,-40Z', '#E4E9E8');
+    if (o.arms) s += g.l([P(-44, -44), P(-44, -100), P(36, -100), P(36, -44)], 8, '#D9E0E0');
     return s;
   });
   prop('commode', (g, o) => {
@@ -1196,6 +1205,23 @@
   prop('tree', (g, o) => { const f = cc(o.colour) || Kit.C.sage, h = o.h || 420; return g.l([P(0, 0), P(0, -h * 0.5)], 16, PR.woodDk) + g.p(`M0,${-h}C${h * 0.26},${-h} ${h * 0.34},${-h * 0.74} ${h * 0.26},${-h * 0.56}C${h * 0.2},${-h * 0.42} ${-h * 0.2},${-h * 0.42} ${-h * 0.26},${-h * 0.56}C${-h * 0.34},${-h * 0.74} ${-h * 0.26},${-h} 0,${-h}Z`, f); });
   prop('bench', (g, o) => { const w = o.w || 260; return g.l([P(-w / 2 + 20, 0), P(-w / 2 + 20, -100)], 8, Kit.C.slate) + g.l([P(w / 2 - 20, 0), P(w / 2 - 20, -100)], 8, Kit.C.slate) + g.r(-w / 2, -104, w, 12, 3, PR.wood) + g.r(-w / 2, -176, w, 12, 3, PR.wood) + g.r(-w / 2, -150, w, 12, 3, PR.wood) + g.l([P(-w / 2 + 20, -100), P(-w / 2 + 16, -180)], 7, Kit.C.slate) + g.l([P(w / 2 - 20, -100), P(w / 2 - 16, -180)], 7, Kit.C.slate); });
   Kit.props = Object.keys(D);
+  /* key points of a placed prop, in scene coordinates, e.g. Kit.anchor('table', {x, y, scale}).top */
+  Kit.anchor = function (name, o = {}) {
+    const s = o.scale == null ? 1 : o.scale, fx = o.facing === 'left' ? -1 : 1, X = o.x || 0, Y = o.y || 0, dm = Kit.dims;
+    const bt = o.height || (o.type === 'domestic' ? dm.domesticBedTop : dm.hospitalBedTop);
+    const tab = {
+      chair: { seat: P(10, -dm.chairSeat) }, armchair: { seat: P(20, -dm.armchairSeat), arm: P(24, -dm.armchairArm - 10), armFront: P(66, -dm.armchairArm - 10) },
+      sofa: { seat: P(0, -dm.sofaSeat) }, stool: { seat: P(0, -dm.stoolSeat) },
+      bed: { top: P(0, -bt), head: P(-190, -bt), foot: P(190, -bt), footEnd: P(230, -bt) },
+      bedside_table: { top: P(0, -dm.bedsideTop), left: P(-30, -dm.bedsideTop), right: P(30, -dm.bedsideTop) }, over_bed_table: { top: P(-14, -(o.height || dm.overBedTop)) },
+      table: { top: P(0, -(o.height || dm.tableTop)) }, desk: { top: P(0, -dm.deskTop) }, kitchen_counter: { top: P(0, -dm.counterTop) },
+      wheelchair: { handles: P(-60, -237), seat: P(20, -dm.wheelchairSeat), footplate: P(128, -30) },
+      walking_frame: { grip: P(30, -dm.frameHandle) }, shelf: { top: P(0, -(o.height || 440)) }, window: { sill: P(0, 10) }
+    }[name] || {};
+    const out = {};
+    Object.keys(tab).forEach(k => { const q = tab[k]; out[k] = P(X + q.x * s * fx, Y + q.y * s); });
+    return out;
+  };
 
   /* ================================================================== ROOMS */
   const ROOMS = {

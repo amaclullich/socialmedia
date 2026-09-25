@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><script src="../kit.js"></script>
+<style>.card{padding:20px}.g{position:absolute;inset:0}</style></head><body><div class="sheet">
+<div class="card" id="c1"><div class="g" id="a1"></div></div>
+</div>
+<script>
+const K=Kit;
+let out=[];
+K.rooms.forEach((t,i)=>{const col=i%2,row=Math.floor(i/2);const ox=col*540,oy=row*337;
+ out.push(`<svg x="${ox}" y="${oy}" width="530" height="327" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid slice">${K.room(t,{w:1000,h:620})}${K.person({pose:'standing',x:500,y:K.room? 484:0,scale:.9,age:'older',hair:'white'})}</svg>`);
+});
+out.push(K.rug({x:300,y:1340,curled:true}), K.toilet_with_grab_rails({x:700,y:1340,scale:.6}), K.hearing_aid({x:900,y:1340}), K.raised_toilet_seat({x:1000,y:1340,scale:.6,arms:true}));
+K.draw('#a1',1080,1350,out,{fit:'xMidYMid meet'});
+</script></body></html>
