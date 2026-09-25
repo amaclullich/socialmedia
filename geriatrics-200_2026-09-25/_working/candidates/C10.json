@@ -1,0 +1,1097 @@
+{
+ "category": "C10",
+ "category_name": "Pain",
+ "draw_log": [
+  {
+   "draw_id": "C10-R01",
+   "string": "b8ef57990cd81608089cd4ff4cb6",
+   "result": "candidate C10-01"
+  },
+  {
+   "draw_id": "C10-R02",
+   "string": "4654071654029418c15b5a726fc3",
+   "result": "candidate C10-02"
+  },
+  {
+   "draw_id": "C10-R03",
+   "string": "59a8ba2bf9444947da9647aa998a",
+   "result": "candidate C10-03"
+  },
+  {
+   "draw_id": "C10-R04",
+   "string": "ecc6becac80a16b3c7170fce0d95",
+   "result": "candidate C10-04"
+  },
+  {
+   "draw_id": "C10-R05",
+   "string": "1644722bf73ded0cf785f7d41425",
+   "result": "candidate C10-05"
+  },
+  {
+   "draw_id": "C10-R06",
+   "string": "8641ab1b80900d3059254efd5c0a",
+   "result": "candidate C10-06"
+  },
+  {
+   "draw_id": "C10-R07",
+   "string": "7921ca980579c6a001d411253cf5",
+   "result": "candidate C10-07"
+  },
+  {
+   "draw_id": "C10-R08",
+   "string": "1ac8f5c58c587f93778c59ac4321",
+   "result": "candidate C10-08"
+  },
+  {
+   "draw_id": "C10-R09",
+   "string": "9cf57304f81dca0eadff68208245",
+   "result": "candidate C10-09"
+  },
+  {
+   "draw_id": "C10-R10",
+   "string": "d4107d9293d1c35f94cff13c2643",
+   "result": "candidate C10-10"
+  },
+  {
+   "draw_id": "C10-R11",
+   "string": "6903066005956e19c617fffa50ed",
+   "result": "candidate C10-11"
+  },
+  {
+   "draw_id": "C10-R12",
+   "string": "f6267e2cc602d529ed7c30ed5da7",
+   "result": "no usable idea: the operation 'compare the stated aim of a service with what happens' with the home care worker at discharge pointed to 'as directed' and when-required labels that a care worker has no basis to act on, which C18-08 already covers; the fallback (leftover opioids at home after discharge) rests on surgical data from younger patients and adds little for older people"
+  },
+  {
+   "draw_id": "C10-R13",
+   "string": "2e9e6b3a94124ff715f24834a870",
+   "result": "candidate C10-12"
+  },
+  {
+   "draw_id": "C10-R14",
+   "string": "1e466bdef720ee2f0dddcdb21df3",
+   "result": "candidate C10-13"
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C10-01",
+   "origin": "random",
+   "draw_id": "C10-R01",
+   "stimulus_use": "The operation 'change the scale' and the GP viewpoint turned a population result (a small average benefit in trials) into the question a GP faces with one patient; 'thresholds' and 'three months' suggested a stated goal and a review point. Umbrella, bakeries and rationing gave nothing.",
+   "working_title": "The trial average and the person in front of you",
+   "core_insight": "Trials report the average benefit of a painkiller across many people and do not show whether one particular person will benefit, so a new medicine for persistent pain is best started as a planned personal trial with an agreed goal, a review date and a plan to stop it if the goal is not met.",
+   "angle": "Prescribing for persistent pain is usually argued at population level (paracetamol and opioids help little on average). At the level of one person the useful response is a time-limited trial: name the activity the medicine should make easier, set a review date, and stop what has not helped. This avoids both refusing everything because averages are small and continuing everything by default.",
+   "position": "Every new medicine for persistent pain in an older person should start with a written goal, a review date and an agreed rule for stopping it.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "Randomised trials of analgesics report average differences between groups and do not by themselves identify which individuals benefit (methodological literature on heterogeneity of treatment effect).",
+    "UK guidance on opioids for persistent pain recommends a trial with agreed goals, and tapering and stopping if the trial does not give useful benefit (Faculty of Pain Medicine, Opioids Aware; professional guidance).",
+    "UK guidance on managing pain in older people recommends regular review of benefit and adverse effects of analgesics (Abdulla 2013, Age and Ageing guideline supplement).",
+    "As an example of a small average effect: paracetamol for hip or knee osteoarthritis reduced pain by about 3 points on a 0 to 100 scale more than placebo (Cochrane review, Leopoldino 2019)."
+   ],
+   "evidence_leads": [
+    "Faculty of Pain Medicine. Opioids Aware (online resource, 2015 onward) (unsure of current version and exact wording on trials).",
+    "Abdulla A et al. Guidance on the management of pain in older people. Age Ageing 2013;42 Suppl 1:i1-57 (PMID 23420266 or 23335785, unsure which).",
+    "Leopoldino AO et al. Paracetamol versus placebo for knee and hip osteoarthritis. Cochrane Database Syst Rev 2019;CD013273. PMID 30801133 (abstract seen via PubMed).",
+    "Kent DM et al. Personalized evidence based medicine: predictive approaches to heterogeneous treatment effects. BMJ 2018 (unsure).",
+    "Senn S. Mastering variation: variance components and personalised medicine. Stat Med 2016 (unsure)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "A trial average describes hundreds of people. For the one person in front of you, the useful test is a planned trial: a goal, a date to judge it, and a plan to stop.",
+   "visual_idea": "Diagram in two panels. Left, 'What a trial reports': two overlapping curves labelled 'medicine' and 'dummy tablet' with a small gap between their averages, marked 'Illustrative, not data'. Right, 'One person': a three-box card, 'Goal (for example, walk to the shop)', 'Review date', 'Stop if not met'.",
+   "pause": "GPs and pharmacists caught between 'the evidence says it barely works' and a patient in pain.",
+   "gain": "A way to act on small average effects without refusing treatment or continuing it by default.",
+   "follow": "Shows the account turns evidence into decisions for one patient.",
+   "earlier_overlap": "none in the earlier set; C03-11 (an end date for opioids after hip fracture) is related but covers discharge after surgery only.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-02",
+   "origin": "random",
+   "draw_id": "C10-R02",
+   "stimulus_use": "The operation 'ask what would change the decision', with the paramedic viewpoint and 'the first 48 hours', prompted the safety-net question a family can ask when a new painkiller starts: which changes in the first two days should make them call. Till receipt, public libraries, stocktaking and permission gave nothing.",
+   "working_title": "The first two days on a new strong painkiller",
+   "core_insight": "When an older person starts an opioid, gabapentin or pregabalin, side effects such as drowsiness, unsteadiness, sickness and constipation can appear within days, so the family should ask before leaving which changes should make them call, and which number to ring.",
+   "angle": "Prescribing conversations cover dose and frequency. The paramedic's question is different: what would make this a call-back? Naming the specific changes (much sleepier than usual, new unsteadiness or a fall, muddled thinking, slow or shallow breathing, being sick, no bowel movement for [N to verify] days) and the number to ring turns vague worry into a plan.",
+   "position": "Anyone starting an older person on an opioid, gabapentin or pregabalin should tell them and their family which changes in the first days need a call, and to whom.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Common adverse effects of opioids include drowsiness, nausea, constipation and dizziness (BNF, SPCs, Faculty of Pain Medicine Opioids Aware).",
+    "Gabapentin and pregabalin commonly cause dizziness and drowsiness, and the MHRA has warned of respiratory depression, particularly with opioids or in older people (SPCs; MHRA Drug Safety Updates).",
+    "In older adults the risk of falls or fractures is raised soon after starting an opioid (observational cohorts, e.g. Miller 2011 JAGS; Buckeridge 2010 JAGS).",
+    "The MHRA advises that patients be counselled about opioid risks at the start of treatment (MHRA Drug Safety Update, September 2020)."
+   ],
+   "evidence_leads": [
+    "Miller M, Sturmer T, Azrael D, Levin R, Solomon DH. Opioid analgesics and the risk of fractures in older adults with arthritis. J Am Geriatr Soc 2011;59:430-8 (unsure).",
+    "Buckeridge D et al. Risk of injury associated with opioid use in older adults. J Am Geriatr Soc 2010;58:1664-70 (unsure).",
+    "MHRA Drug Safety Update. Opioids: risk of dependence and addiction. September 2020 (official).",
+    "MHRA Drug Safety Update. Pregabalin: risk of severe respiratory depression (2021) and gabapentin equivalent (2017) (unsure of dates).",
+    "BNF monographs for morphine, oxycodone, gabapentin and pregabalin."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "When a new strong painkiller is started, ask one thing before you leave: what should make us ring you in the next two days, and which number do we ring?",
+   "visual_idea": "Question card. The question at the top, then a checklist of changes to watch for (much sleepier than usual; new unsteadiness or a fall; muddled thinking; slow or shallow breathing; being sick; no bowel movement), and a blank line 'Number to ring'. Drawn illustration of an older man and his daughter at a kitchen table with a medicine box and a written note.",
+   "pause": "Families collecting a new prescription who have been told the dose but not what to watch for.",
+   "gain": "A specific safety-net question and a list of changes to watch for.",
+   "follow": "Shows the account gives families questions they can use the same day.",
+   "earlier_overlap": "none; E138 (codeine) is about drug choice, and C03-11 covers stopping opioids after hip fracture rather than early warning signs.",
+   "delirium_check": "delirium is not the topic; 'muddled thinking' appears once in a list of side effects to report."
+  },
+  {
+   "cand_id": "C10-03",
+   "origin": "random",
+   "draw_id": "C10-R03",
+   "stimulus_use": "The operation 'look at what happens at night' and the night nurse viewpoint pointed to painful night-time leg cramps, a common cause of broken sleep; 'three months' matched the regular review advised for quinine and 'reversibility' the advice to stop it if a trial has not helped. Fuse box, beekeeping and harvesting gave nothing.",
+   "working_title": "Night cramps and quinine: a small benefit with rare serious harms",
+   "core_insight": "Quinine reduces the number of night-time leg cramps only modestly and can rarely cause serious harm, so UK advice is to use it only when cramps are frequent and disrupt sleep, after other causes have been looked for and stretching has been tried, and to stop it if a trial has not helped.",
+   "angle": "For anyone taking quinine for cramps, the useful question is whether it was ever reviewed. The Cochrane review found fewer cramps with quinine over two weeks but more minor side effects, and serious harms are rare but can be fatal; UK regulatory advice limits it to a trial with review. Readers can check the list, ask about medicines linked with cramps, and try calf stretching before bed.",
+   "position": "Anyone taking quinine for leg cramps should have it reviewed, and it should continue only if a trial clearly reduced the cramps.",
+   "audience": "public",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "Compared with placebo, quinine reduced cramp number over two weeks by 28%, cramp intensity by 10% and cramp days by 20%, with more minor adverse events (risk difference 3%) (Cochrane review, El-Tawil 2015).",
+    "Quinine can rarely cause serious adverse effects, including thrombocytopenia and heart rhythm effects, and is dangerous in overdose (Cochrane review; MHRA Drug Safety Update 2010; SPC).",
+    "MHRA advice: quinine is not for routine treatment of nocturnal leg cramps; consider only when cramps regularly disrupt sleep, are very painful or frequent, other treatable causes are excluded and non-drug measures have not worked; stop after about 4 weeks if no benefit; review periodically (MHRA Drug Safety Update, June 2010).",
+    "In a randomised trial in adults over 55, calf and hamstring stretching before sleep reduced the frequency and severity of night cramps (Hallegraeff 2012, J Physiother).",
+    "Some medicines, such as diuretics, are associated with leg cramps (NICE CKS leg cramps; sequence symmetry studies)."
+   ],
+   "evidence_leads": [
+    "El-Tawil S et al. Quinine for muscle cramps. Cochrane Database Syst Rev 2015;CD005044.pub3. PMID 25842375 (abstract seen via PubMed).",
+    "MHRA Drug Safety Update. Quinine: not to be used routinely for nocturnal leg cramps. June 2010 (official; unsure of exact title).",
+    "Hallegraeff JM, van der Schans CP, de Ruiter R, de Greef MH. Stretching before sleep reduces the frequency and severity of nocturnal leg cramps in older adults: a randomised trial. J Physiother 2012;58:17-22 (unsure).",
+    "NICE Clinical Knowledge Summaries: Leg cramps (unsure of revision date).",
+    "Garrison SR et al. Nocturnal leg cramps and prescription use that precedes them: a sequence symmetry analysis. Arch Intern Med 2012;172:120-6 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Quinine for night-time leg cramps is no longer a routine prescription in the UK.",
+   "visual_idea": "Comparison card. Left column 'What quinine can do': fewer cramps, [N to verify] fewer over two weeks in pooled trials. Right column 'What it can risk': stomach upset; rare serious blood and heart rhythm problems; dangerous in overdose. Footer row 'Try or check first: calf stretching before bed; other medicines; a trial with a stop date'.",
+   "pause": "People woken by cramps who have quinine on their repeat list, or who were told nothing can be done.",
+   "gain": "Realistic expectations of quinine and a short list of things to try or check.",
+   "follow": "Shows the account weighs benefits against harms for ordinary medicines.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-04",
+   "origin": "random",
+   "draw_id": "C10-R04",
+   "stimulus_use": "The operation 'name the trade-off openly' led to the anti-inflammatory decision in arthritis, where the more effective tablet carries more risk; 'a decade' suggested the difference between a short course and years of unreviewed use. Envelope, orchestras, translating, habit and the night nurse viewpoint gave nothing.",
+   "working_title": "Ibuprofen for arthritis: more relief, more risk",
+   "core_insight": "For older people with arthritis, anti-inflammatory tablets (NSAIDs) relieve pain more than paracetamol but carry more risk to the stomach, kidneys, heart and blood pressure, so the choice should be made openly: gel first where it fits, then the lowest dose for the shortest time with stomach protection and checks, and avoided by people for whom the risks are highest.",
+   "angle": "Two reflexes both do harm: refusing every NSAID to an older person with a painful knee, which can leave them on opioids with harms of their own, and repeat prescriptions of ibuprofen that nobody reviews for years. Naming both sides lets the person choose.",
+   "position": "Oral NSAIDs for arthritis in older people should be neither refused by reflex nor continued without review; the decision should be made with the person, with risks checked and a review date set.",
+   "audience": "both",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "In a network meta-analysis of osteoarthritis trials, several NSAIDs (for example diclofenac 150 mg a day) gave clinically important pain reduction while paracetamol did not (da Costa 2017, Lancet).",
+    "NSAIDs increase the risk of gastrointestinal bleeding, kidney injury, raised blood pressure, heart failure and cardiovascular events, and these risks are higher in older people (AGS Beers Criteria 2023; CNT Collaboration 2013; Abdulla 2013).",
+    "NICE NG226 advises considering an oral NSAID for osteoarthritis at the lowest effective dose for the shortest possible time, with a proton pump inhibitor, after a topical NSAID where appropriate (NICE guideline 2022).",
+    "In older US adults with arthritis, starting opioids was linked with more fractures and deaths than starting non-selective NSAIDs (Solomon 2010, observational; association only)."
+   ],
+   "evidence_leads": [
+    "da Costa BR et al. Effectiveness of non-steroidal anti-inflammatory drugs for the treatment of pain in knee and hip osteoarthritis: a network meta-analysis. Lancet 2017;390:e21-e33 (unsure of pages).",
+    "Coxib and traditional NSAID Trialists' (CNT) Collaboration. Vascular and upper gastrointestinal effects of non-steroidal anti-inflammatory drugs. Lancet 2013;382:769-79.",
+    "American Geriatrics Society Beers Criteria Update Expert Panel. J Am Geriatr Soc 2023;71:2052-81.",
+    "NICE NG226. Osteoarthritis in over 16s: diagnosis and management. 2022 (official).",
+    "Solomon DH et al. The comparative safety of analgesics in older adults with arthritis. Arch Intern Med 2010;170:1968-76 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Anti-inflammatory tablets such as ibuprofen ease arthritis pain more than paracetamol does, and they carry more risk for older people.",
+   "visual_idea": "Comparison card, 'What it offers' against 'What it risks', with a lower strip 'Ways to lower the risk': gel first for knees and hands; lowest dose, shortest time; stomach protection; kidney and blood pressure checks; avoid with some heart, kidney and blood-thinning conditions or medicines.",
+   "pause": "Older people told never to take ibuprofen, and clinicians who have seen both bleeding and untreated pain.",
+   "gain": "A fair summary of the trade-off and the steps that lower the risk.",
+   "follow": "Shows the account presents decisions with both sides stated.",
+   "earlier_overlap": "none in the earlier set. C06-32 (ibuprofen with a diuretic and ACE inhibitor) and C06-21 (sick-day rules) cover specific interactions; this post covers the benefit and risk decision itself.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-05",
+   "origin": "random",
+   "draw_id": "C10-R05",
+   "stimulus_use": "The operation 'compare what is recorded with what is experienced' and the cartography domain suggested a body map: the record names one painful joint while the person hurts in several places. The neighbour viewpoint, jigsaw, unpacking and noise gave nothing further.",
+   "working_title": "Ask where else it hurts",
+   "core_insight": "Many older people with persistent pain hurt in more than one place, and in a Boston cohort pain in two or more sites was linked with a higher rate of falls than pain in one site, so a pain assessment should record every site, for example on a body outline the person marks.",
+   "angle": "Referral letters and problem lists record the joint that prompted the visit. A body outline takes a minute and shows the whole picture; pain in several sites was linked with more falls, and it changes the plan (exercise choices, medicines, walking aids).",
+   "position": "Pain assessment in older people should record every site of pain, not only the one that prompted the visit.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "In MOBILIZE Boston (749 adults aged 70 and over), age-adjusted fall rates were 1.18 per person-year with pain in two or more sites, 0.90 with single-site pain and 0.78 with no joint pain; adjusted rate ratio 1.53 for two or more sites compared with no pain (Leveille 2009 JAMA, cohort; association only).",
+    "Chronic musculoskeletal pain seldom presents in a single body site (population studies, e.g. Carnes 2007).",
+    "UK national guidelines on pain assessment in older people include assessing the location of pain, with body maps as one method (Schofield 2018, Age and Ageing).",
+    "The Brief Pain Inventory includes a body diagram for marking pain sites (instrument documentation)."
+   ],
+   "evidence_leads": [
+    "Leveille SG et al. Chronic musculoskeletal pain and the occurrence of falls in an older population. JAMA 2009;302:2214-21. PMID 19934422 (abstract seen via PubMed).",
+    "Schofield P. The assessment of pain in older people: UK national guidelines. Age Ageing 2018;47 Suppl 1:i1-i22 (PMID 29579142 or 29584807, unsure).",
+    "Carnes D et al. Chronic musculoskeletal pain rarely presents in a single body site: results from a UK population study. Rheumatology 2007;46:1168-70 (unsure).",
+    "Cleeland CS. The Brief Pain Inventory user guide (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "The referral says knee pain. Ask where else it hurts.",
+   "visual_idea": "Annotated drawn body outline, front and back, with several shaded sites (knee, lower back, feet, shoulder) labelled 'Illustrative example', beside the statement 'Pain in two or more places was linked with more falls than pain in one place' and the source line (Leveille 2009, JAMA).",
+   "pause": "Clinicians who assess pain one joint at a time.",
+   "gain": "A one-minute tool and a reason to use it.",
+   "follow": "Shows the account turns research into small changes in assessment.",
+   "earlier_overlap": "none; E054 (PAINAD) is an observational scale for people unable to self-report, and this post is about recording sites in people who can.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-06",
+   "origin": "random",
+   "draw_id": "C10-R06",
+   "stimulus_use": "The operation 'examine a neglected consequence', with the daughter viewpoint and 'three months', suggested a side effect that appears weeks later and gets treated as a new problem: ankle swelling after gabapentin or pregabalin, answered with a water tablet. Thermostat, chess, harvesting and handovers gave nothing.",
+   "working_title": "Swollen ankles after a nerve pain tablet",
+   "core_insight": "Ankle swelling is a recognised side effect of gabapentin and pregabalin, and studies of older adults found loop diuretics (water tablets) started more often after these medicines than before, a sign that the swelling is sometimes treated with a second drug instead of a review of the first.",
+   "angle": "The neglected consequence of a pain medicine is a second prescription with harms of its own (more trips to the toilet, dizziness, dehydration, blood test changes). The family question 'could this be the pain tablet?' is often the first step to stopping the cascade.",
+   "position": "When ankles swell after starting gabapentin or pregabalin, the pain medicine should be reviewed before a water tablet is added.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Peripheral oedema is a listed common adverse effect of pregabalin and of gabapentin (SPCs, BNF).",
+    "In US veterans aged 66 and over, loop diuretics were started more often in the 6 months after gabapentinoid initiation than in the 6 months before (adjusted sequence ratio 1.23, 95% CI 1.13 to 1.34), consistent with a prescribing cascade (Growdon 2024, JAGS, prescription sequence symmetry analysis).",
+    "A similar signal was found in Japanese adults aged 65 and over (Omata 2024) and, reportedly, in Ontario older adults with low back pain (Read 2021, unsure).",
+    "Loop diuretics in older people can cause dehydration, electrolyte disturbance, dizziness and urinary frequency (BNF; reviews)."
+   ],
+   "evidence_leads": [
+    "Growdon ME et al. Which older adults are at highest risk of prescribing cascades? A national study of the gabapentinoid-loop diuretic cascade. J Am Geriatr Soc 2024;72:1728-40. PMID 38547357 (abstract seen via PubMed).",
+    "Omata R et al. Prescribing cascades of loop diuretics and anti-vertigo drugs following treatment with gabapentinoids and benzodiazepines. Drugs Real World Outcomes 2024;11:529-40. PMID 39115607 (abstract seen via PubMed).",
+    "Read SH et al. Evidence of a gabapentinoid and diuretic prescribing cascade among older adults with lower back pain. J Am Geriatr Soc 2021 (unsure).",
+    "Pregabalin and gabapentin SPCs (electronic Medicines Compendium)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Swollen ankles a few weeks after starting pregabalin or gabapentin can be a side effect of the pain medicine.",
+   "visual_idea": "Cascade diagram of three boxes linked by plain lines: 'Nerve pain tablet started', then 'Ankles swell', then 'Water tablet added' (with its own effects listed: more trips to the toilet, dizziness, blood tests). A branch from the middle box leads to a question card: 'Could this be the pain tablet?'",
+   "pause": "Families who have watched one new tablet follow another.",
+   "gain": "One specific question that can stop a prescribing cascade.",
+   "follow": "Shows the account explains how medicines interact across a person's whole list.",
+   "earlier_overlap": "none in the earlier set. C06-18 covers the same cascade pattern after amlodipine; this is the pain-medicine version, and the two should not be scheduled close together.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-07",
+   "origin": "random",
+   "draw_id": "C10-R07",
+   "stimulus_use": "The operation 'ask who bears the cost', with the physiotherapist viewpoint and 'the first month', prompted the observation that the person bears an early cost of exercise for arthritis (some aching) before the benefit arrives, and that saying so in advance helps them keep going. Thermostat, museum curation and counting gave nothing.",
+   "working_title": "The ache in the first weeks of exercise",
+   "core_insight": "Exercise reduces knee and hip arthritis pain over weeks, and some aching when starting is common and usually harmless, so knowing in advance what level of discomfort is acceptable, and how long the benefit takes, helps people keep going long enough to benefit.",
+   "angle": "People are told that exercise helps arthritis and then stop in the second week because it aches. The physiotherapy practice of agreeing an acceptable level of discomfort (for example, soreness that settles by the next morning) and a time scale for benefit is rarely passed on outside a clinic.",
+   "position": "Anyone recommending exercise for arthritis pain should explain that some aching is expected at first, what level is acceptable, when to report it, and how long benefit usually takes.",
+   "audience": "public",
+   "series": "Small detail, real effect",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Exercise therapy reduces pain and improves function in knee osteoarthritis (Cochrane review, Fransen 2015) and hip osteoarthritis (Fransen 2014).",
+    "NICE NG226 recommends explaining to people with osteoarthritis that exercise may cause some discomfort at first and that long-term adherence brings benefit (NICE 2022; exact wording unsure).",
+    "Physiotherapy trials and programmes use a pain-monitoring approach that allows exercise-related pain within agreed limits, settling by the next day (e.g. Thomee 1997; ESCAPE-pain materials; unsure).",
+    "Benefit from exercise programmes for knee pain builds over several weeks (Cochrane timing of outcomes; ESCAPE-pain six-week programme).",
+    "Pain that is worse the next day or a newly swollen joint should be reported (physiotherapy guidance; to verify)."
+   ],
+   "evidence_leads": [
+    "Fransen M et al. Exercise for osteoarthritis of the knee. Cochrane Database Syst Rev 2015;CD004376 (unsure of details).",
+    "Fransen M et al. Exercise for osteoarthritis of the hip. Cochrane Database Syst Rev 2014;CD007912 (unsure).",
+    "NICE NG226. Osteoarthritis in over 16s. 2022 (official).",
+    "Thomee R. A comprehensive treatment approach for patellofemoral pain syndrome in young women. Phys Ther 1997;77:1690-703 (unsure; source of the pain-monitoring model).",
+    "Hurley MV et al. Clinical effectiveness of a rehabilitation program integrating exercise, self-management, and active coping strategies for chronic knee pain. Arthritis Rheum 2007;57:1211-19 (unsure)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Exercise for a painful knee can ache in the first weeks. Knowing how much ache is acceptable, and for how long, helps people keep going long enough to benefit.",
+   "visual_idea": "Timeline diagram over [N to verify] weeks. Early weeks labelled 'Some aching is common; ache that settles by next morning is acceptable'. Later weeks labelled 'Pain and function improve for many people'. Side box 'Tell your physiotherapist if pain is worse the next day or a joint swells'. Marked 'Illustrative, not data'.",
+   "pause": "People with arthritis who tried exercise and stopped because it hurt.",
+   "gain": "Realistic expectations and a simple rule for acceptable discomfort.",
+   "follow": "Shows the account gives the practical detail that makes advice usable.",
+   "earlier_overlap": "none; E065 and E083 are about exercise for falls and strength, not arthritis pain.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-08",
+   "origin": "random",
+   "draw_id": "C10-R08",
+   "stimulus_use": "The operation 'change the scale' and the service manager viewpoint moved attention from one patient's pain to the dashboard that counts pain scores recorded; the question became whether counting scores changes care. Lantern, cartography, rationing and first impressions gave nothing.",
+   "working_title": "Counting pain scores did not improve pain care",
+   "core_insight": "When a US health system required a 0 to 10 pain score at every visit, a before-and-after review in one clinic found no improvement in how pain was assessed or treated, and many patients with substantial pain received no new treatment, so services should count what happens after a high score, not only whether a score was recorded.",
+   "angle": "Completion of pain scores is easy to audit and often reported as a quality measure. The measure that reflects care is the next step: was a score of 4 or more followed by assessment, treatment and a recheck? The initiative's name contains a word on the house banned list, so posts should describe it ('a rule that every visit record a pain score') or quote the name only as a name.",
+   "position": "Services should audit what happens after a high pain score (assessment, treatment, reassessment), not only the proportion of patients with a score recorded.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "In a review of 300 randomly selected visits before and 300 after the Veterans Health Administration pain-scoring initiative in one general medicine clinic, 7 process indicators of pain care were unchanged (Mularski 2006, J Gen Intern Med).",
+    "Of 79 patients reporting pain of 4 or more after implementation, 22% had no documented attention to pain, 27% no further assessment and 52% no new therapy at that visit (Mularski 2006).",
+    "UK guidance on assessing pain in older people recommends reassessing after treatment (Schofield 2018; Faculty of Pain Medicine Core Standards, unsure).",
+    "Limitations to state: single centre, US outpatients, published 2006."
+   ],
+   "evidence_leads": [
+    "Mularski RA et al. Measuring pain as the 5th vital sign does not improve quality of pain management. J Gen Intern Med 2006;21:607-12. PMID 16808744 (abstract seen via PubMed).",
+    "Schofield P. The assessment of pain in older people: UK national guidelines. Age Ageing 2018;47 Suppl 1 (unsure PMID).",
+    "Faculty of Pain Medicine. Core Standards for Pain Management Services in the UK (2015 or 2021 edition, unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "A rule that every clinic visit must record a pain score from 0 to 10 did not, on its own, improve pain care in a US study of [N to verify] visits.",
+   "visual_idea": "Chart from the paper: paired bars for selected indicators before and after (for example 'pain examined' and 'new pain medicine started') showing little change, with denominators (visits before and after) and source; beneath, a statement 'Count what happens after a high score'.",
+   "pause": "Ward managers and quality leads who report pain-score completion.",
+   "gain": "A better audit question.",
+   "follow": "Shows the account questions what services measure.",
+   "earlier_overlap": "E181 makes the same logical point for delirium tools (completion rates are not detection rates); this applies it to pain with separate evidence.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-09",
+   "origin": "random",
+   "draw_id": "C10-R09",
+   "stimulus_use": "The operation 'reveal what is omitted' and the quality 'inventory' suggested the paracetamol that nobody adds up: it is inside co-codamol, co-dydramol and cold and flu remedies as well as plain paracetamol. Ticket stub, public libraries, pruning and the service manager viewpoint gave nothing.",
+   "working_title": "Paracetamol in more packets than one",
+   "core_insight": "Paracetamol is an ingredient of co-codamol, co-dydramol and many cold and flu remedies, so taking one of these with plain paracetamol can exceed the safe daily dose; in a Scottish liver unit series, people whose excess doses built up over time were older than those with single overdoses, and pain relief was the commonest reason.",
+   "angle": "Accidental paracetamol excess in older people is often a counting problem: two products, each taken as the packet says. The fix is to add up paracetamol across every product, including those bought from shops, and for pharmacists and GPs to ask about bought medicines when reviewing pain relief.",
+   "position": "Anyone taking a painkiller that contains paracetamol should check every other product they take for paracetamol, and clinicians reviewing pain relief should ask about bought medicines.",
+   "audience": "public",
+   "series": "Small detail, real effect",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Co-codamol and co-dydramol contain paracetamol, and many over-the-counter cold and flu remedies contain paracetamol (BNF; product information).",
+    "The usual maximum oral dose of paracetamol for adults is 4 g in 24 hours, and packs advise against taking other paracetamol-containing products at the same time (BNF; product labelling).",
+    "Of 663 patients admitted with paracetamol-induced severe liver injury to the Scottish Liver Transplantation Unit (1992 to 2008), 24.3% had taken a staggered overdose; these patients were older, relief of pain was the commonest reason given for repeated excess doses (58.2%), and mortality was higher (37.3% vs 27.8%) (Craig 2012, Br J Clin Pharmacol).",
+    "Dose reduction may be needed in some adults, for example those with low body weight (BNF; strength of advice for oral paracetamol to verify)."
+   ],
+   "evidence_leads": [
+    "Craig DGN et al. Staggered overdose pattern and delay to hospital presentation are associated with adverse outcomes following paracetamol-induced hepatotoxicity. Br J Clin Pharmacol 2012;73:285-94. PMID 22106945 (abstract seen via PubMed).",
+    "BNF paracetamol monograph and co-codamol and co-dydramol entries.",
+    "MHRA guidance on paracetamol pack sizes and labelling (unsure of document)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Paracetamol is in more packets than the ones labelled paracetamol.",
+   "visual_idea": "Checklist card: 'Paracetamol can also be in': co-codamol; co-dydramol; many cold and flu powders and capsules; some combination painkillers. Then 'Add up all of them. Ask a pharmacist if unsure.' Drawn illustration of several generic unbranded boxes on a kitchen table, no brand names.",
+   "pause": "Older people and carers managing painkillers and a winter cold at the same time.",
+   "gain": "A specific check that prevents accidental excess.",
+   "follow": "Shows the account gives safety details families can act on.",
+   "earlier_overlap": "E139 covers anticholinergic ingredients in bought sleep and cold remedies, and C06-15 covers listing bought medicines; this post is specific to adding up paracetamol.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-10",
+   "origin": "random",
+   "draw_id": "C10-R10",
+   "stimulus_use": "The operation 'look at the smallest practical detail', with 'margins' and 'the first 48 hours', led to the strength printed on a bottle of liquid morphine, where confusing two concentrations leaves no margin for error. Key ring, railway signalling, tuning and the service manager viewpoint gave nothing.",
+   "working_title": "Liquid morphine: check the strength on the bottle",
+   "core_insight": "Oral morphine liquid is supplied in a standard strength and a concentrated strength that holds [N to verify] times as much morphine in each millilitre, so doses should be written and checked in milligrams as well as millilitres, and families giving it at home should know which strength they have.",
+   "angle": "Errors with liquid opioids come from treating millilitres and milligrams as the same thing. The safeguards are small: the dose written in mg with the matching ml for the strength in use, one strength at home where possible, and a check of the label whenever a new bottle arrives.",
+   "position": "Every prescription and chart for liquid morphine should state the dose in milligrams and the strength being used, and families giving it at home should be shown how to read the label.",
+   "audience": "both",
+   "series": "Small detail, real effect",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Oral morphine solution is available in the UK as 10 mg in 5 ml and as a concentrated solution of 100 mg in 5 ml (20 mg per ml) (BNF; SPCs).",
+    "A UK patient safety alert addressed dosing errors with opioid medicines, including confusion between strengths and formulations, and recommended checking the dose and strength before prescribing and giving (NPSA Rapid Response Report NPSA/2008/RRR05).",
+    "Reported errors include mix-ups between concentrated and standard morphine solutions (NHS incident reports or ISMP alerts; unsure)."
+   ],
+   "evidence_leads": [
+    "National Patient Safety Agency. Rapid Response Report NPSA/2008/RRR05: Reducing dosing errors with opioid medicines. July 2008 (official; unsure of exact title).",
+    "BNF morphine preparations; Oramorph oral solution and concentrated oral solution SPCs.",
+    "Scottish Palliative Care Guidelines: choosing and using opioids (unsure).",
+    "Institute for Safe Medication Practices alerts on concentrated oral morphine (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Liquid morphine comes in two strengths, and the concentrated one holds [N to verify] times as much morphine in each millilitre.",
+   "visual_idea": "Side-by-side drawings of two generic unbranded labels, 'Morphine oral solution 10 mg in 5 ml' and 'Morphine oral solution concentrate 100 mg in 5 ml' (strengths verified before drawing), with a line to a chart entry showing the dose in mg and the matching ml, labelled 'Illustrative example'.",
+   "pause": "Nurses, pharmacists and family carers who handle liquid morphine.",
+   "gain": "A simple safeguard against a strength mix-up.",
+   "follow": "Shows the account pays attention to practical details that prevent harm.",
+   "earlier_overlap": "none; C19-01 (recalculating breakthrough doses) and C06-08 (patches) are separate opioid safety points.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-11",
+   "origin": "random",
+   "draw_id": "C10-R11",
+   "stimulus_use": "The operation 'apply it to the poorest or most isolated person' and the occupational therapist viewpoint raised the question of whether persistent pain leaves people isolated; the evidence found gave a more specific answer, that pain was linked with loneliness but not with fewer contacts. Door hinge, bridge building, timing and rhythm gave nothing.",
+   "working_title": "In pain, visited, and lonely",
+   "core_insight": "In the English Longitudinal Study of Ageing, people with persistent musculoskeletal pain were more likely to be lonely yet less likely to be socially isolated than people without pain, so a person in pain who has visitors may still be lonely and is worth asking directly.",
+   "angle": "Checks for isolation often count contacts. Pain can bring more contact (appointments, family help) while taking away the activities people chose for themselves. Asking about loneliness directly, and setting pain goals around social activities the person has lost, covers what a contact count misses.",
+   "position": "Clinicians treating persistent pain in older people should ask about loneliness directly, even when the person has frequent visitors.",
+   "audience": "both",
+   "series": "Who gets left out",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In a cross-sectional analysis of 9,299 ELSA participants aged 50 and over (mean age 65.8), musculoskeletal pain was associated with higher odds of loneliness (OR 1.15, 95% CI 1.01 to 1.31) and lower odds of social isolation (OR 0.87, 95% CI 0.75 to 0.99) (Smith 2019, Br J Pain).",
+    "The analysis was cross-sectional and does not show whether pain leads to loneliness or the reverse (study design).",
+    "Social isolation refers to the number of contacts and loneliness to how a person feels about them (definitions used in the paper)."
+   ],
+   "evidence_leads": [
+    "Smith TO, Dainty JR, Williamson E, Martin KR. Association between musculoskeletal pain with social isolation and loneliness: analysis of the English Longitudinal Study of Ageing. Br J Pain 2019;13:82-90. PMID 31019689 (abstract seen via PubMed).",
+    "Powell VD et al. Unwelcome companions: loneliness associates with the cluster of pain, fatigue, and depression in older adults. Gerontol Geriatr Med 2021 (unsure).",
+    "Longitudinal ELSA analyses of pain and loneliness (unsure; search needed)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "People with persistent joint and muscle pain in an English study were lonelier than people without pain, yet less often isolated.",
+   "visual_idea": "Comparison graphic of two measures side by side: 'Social isolation (number of contacts): lower odds with pain' and 'Loneliness (how people feel about their contacts): higher odds with pain', each with an up or down marker and a word label, source line Smith 2019, Br J Pain. Drawn scene of an older woman with a walking stick seeing a visitor out at her front door.",
+   "pause": "Practitioners who assume that visitors mean someone is not lonely.",
+   "gain": "A distinction between isolation and loneliness, and a question to ask.",
+   "follow": "Shows the account reads studies closely enough to find the unexpected result.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-12",
+   "origin": "random",
+   "draw_id": "C10-R13",
+   "stimulus_use": "The operation 'look at what happens at night or at the weekend', with the neighbour viewpoint and 'the first week', suggested the Friday evening when a discharge supply of painkillers runs out and the usual fallback, an emergency supply from a pharmacist, is not allowed for many strong painkillers; 'hidden cost' fitted the gap. Envelope, aviation checklists and negotiating gave nothing.",
+   "working_title": "Order strong painkillers before the weekend",
+   "core_insight": "UK law lets a pharmacist make an emergency supply of many prescription medicines at a patient's request, but not of most controlled drugs, which include strong opioid tablets and patches, tramadol, gabapentin and pregabalin, so people taking them should order repeats well before they run out, especially before weekends and public holidays.",
+   "angle": "Families assume the pharmacy can tide them over. For these medicines a new prescription is needed, which out of hours can mean a long wait through NHS 111 or NHS 24, and stopping gabapentin, pregabalin or an opioid suddenly can cause withdrawal symptoms and a return of pain. The end of a hospital discharge supply is a common gap.",
+   "position": "Anyone prescribed a controlled-drug painkiller, particularly at discharge, should be told when their supply will run out and that a pharmacist is not allowed to make an emergency supply of it.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Under the Human Medicines Regulations 2012 (regulation 225), emergency supply at a patient's request is not permitted for Schedule 1, 2 or 3 controlled drugs, with an exception for phenobarbital for epilepsy (legislation; RPS guidance).",
+    "Gabapentin and pregabalin became Schedule 3 controlled drugs in the UK from 1 April 2019 (MHRA Drug Safety Update April 2019; Home Office).",
+    "Tramadol and buprenorphine are Schedule 3; oxycodone, fentanyl and morphine tablets are Schedule 2 (Misuse of Drugs Regulations 2001, as amended).",
+    "Low-strength oral morphine solution (10 mg in 5 ml) is a Schedule 5 preparation and can be supplied in an emergency, so the post must not say that all morphine is excluded (Misuse of Drugs Regulations; to verify).",
+    "Stopping gabapentinoids or opioids abruptly can cause withdrawal symptoms (SPCs; MHRA).",
+    "Any statement about the length of hospital discharge supplies must come from a source or be left out (local policies vary)."
+   ],
+   "evidence_leads": [
+    "The Human Medicines Regulations 2012 (SI 2012/1916), regulation 225, emergency sale or supply (official; legislation.gov.uk).",
+    "Royal Pharmaceutical Society. Medicines, Ethics and Practice, section on emergency supply (unsure of edition).",
+    "MHRA Drug Safety Update. Pregabalin (Lyrica), gabapentin (Neurontin) and risk of abuse and dependence: new scheduling requirements from 1 April 2019 (official).",
+    "The Misuse of Drugs (Amendment) (England, Wales and Scotland) Regulations 2014, tramadol rescheduling (unsure of exact title)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "If you run out of most prescription medicines, a pharmacist can usually give you a few days' emergency supply. For most strong painkillers, and for gabapentin and pregabalin, the law does not allow it.",
+   "visual_idea": "Checklist card titled 'Painkillers a pharmacist is not allowed to supply in an emergency', listing categories (strong opioid tablets and patches such as oxycodone, morphine tablets, fentanyl and buprenorphine; tramadol; gabapentin; pregabalin), with a footer 'Order at least [N to verify] working days before you run out, and before weekends and holidays'. Small drawn calendar with Friday circled.",
+   "pause": "People on these medicines and the neighbours or relatives who collect their prescriptions.",
+   "gain": "A legal fact that prevents a painful weekend without medicine.",
+   "follow": "Shows the account passes on practical knowledge that families are rarely told.",
+   "earlier_overlap": "none; C19-11 covers 'just in case' medicines near the end of life, not regular painkillers running out.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-13",
+   "origin": "random",
+   "draw_id": "C10-R14",
+   "stimulus_use": "The operation 'count something nobody counts', with the viewpoint of a doctor in training at 'the moment of discharge', led to the as-required opioid doses given in the last day before discharge, a number on the chart that is rarely added up before the discharge prescription is written. Light switch, public libraries, rerouting and rhythm gave nothing.",
+   "working_title": "Count the as-required doses before writing the discharge opioid",
+   "core_insight": "The number of as-required opioid doses a person took in the 24 hours before discharge shows how much opioid they still need, yet in a large US surgical study more than a third of patients took none in that period and almost half of those were still prescribed opioids to take home.",
+   "angle": "Discharge opioid prescriptions are often copied from the inpatient chart or set by habit. For an older person, a take-home opioid they do not need adds falls, constipation and drowsiness; one they need but do not get means pain at home. Counting the doses is a quick check for both.",
+   "position": "Before prescribing an opioid at discharge, the prescriber should count the as-required doses used in the previous 24 hours and base the supply on that use, with a plan to reduce.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Among 18,343 postoperative patients (mean age 52.2) in two US hospitals, 35.7% used no opioids in the 24 hours before discharge, and 45.6% of those were prescribed opioids at discharge (Chen 2018, JAMA Surg).",
+    "Discharge opioid quantities varied widely for a given level of pre-discharge use (Chen 2018).",
+    "Opioid use in older adults is linked with falls and fractures (observational studies, e.g. Solomon 2010; Miller 2011).",
+    "Population caveat to state: surgical patients with a mean age of 52, not older medical inpatients."
+   ],
+   "evidence_leads": [
+    "Chen EY, Marcantonio A, Tornetta P. Correlation between 24-hour predischarge opioid use and amount of opioids prescribed at hospital discharge. JAMA Surg 2018;153:e174859. PMID 29238810 (abstract seen via PubMed).",
+    "Faculty of Pain Medicine. Surgery and opioids: best practice guidelines 2021 (unsure).",
+    "Solomon DH et al. Arch Intern Med 2010;170:1968-76 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Before writing an opioid on the discharge prescription, count how many as-required doses the person took in the last 24 hours.",
+   "visual_idea": "Annotated scene: a drawn section of a generic inpatient drug chart, marked 'Illustrative example', with the as-required opioid row and the last 24 hours highlighted, and a three-way prompt box: 'None used: is a take-home opioid needed?'; 'Some used: short supply and a plan to reduce'; 'Frequent use: review the regular plan before discharge'.",
+   "pause": "Doctors in training writing discharge letters.",
+   "gain": "A quick check that fits the discharge prescription to the person.",
+   "follow": "Shows the account teaches practical prescribing habits.",
+   "earlier_overlap": "none in the earlier set; C03-11 (end date for opioids after hip fracture) is related, while this post gives a counting method for any ward.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-14",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "A gel before tablets for a painful knee",
+   "core_insight": "For knee arthritis, NICE recommends an anti-inflammatory gel as the first medicine to offer; rubbed into the skin over the joint it eases pain for some people while much less of the drug reaches the bloodstream than with tablets.",
+   "angle": "Many older people go straight to tablets, or avoid anti-inflammatories altogether after a warning about ibuprofen. The gel is a separate option with a different safety profile, and it suits joints close to the skin such as knees and hands.",
+   "position": "Older people with knee arthritis should be offered an anti-inflammatory gel before anti-inflammatory tablets.",
+   "audience": "public",
+   "series": "Small detail, real effect",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "NICE NG226 (2022) recommends offering a topical NSAID to people with knee osteoarthritis, alongside core treatments, before other medicines (NICE guideline).",
+    "In a Cochrane review, topical diclofenac and ketoprofen relieved pain in knee and hand osteoarthritis more than placebo gel over 6 to 12 weeks, with a number needed to treat of about [N to verify] (Derry 2016).",
+    "Systemic adverse events with topical NSAIDs were no more frequent than with placebo, while local skin reactions were more common with some products (Derry 2016).",
+    "Blood levels after topical diclofenac are a small fraction of those after oral dosing (pharmacokinetic study, e.g. Kienzler 2010; unsure)."
+   ],
+   "evidence_leads": [
+    "NICE NG226. Osteoarthritis in over 16s: diagnosis and management. October 2022 (official).",
+    "Derry S, Conaghan P, Da Silva JAP, Wiffen PJ, Moore RA. Topical NSAIDs for chronic musculoskeletal pain in adults. Cochrane Database Syst Rev 2016;CD007400.pub3 (unsure of PMID).",
+    "Kienzler JL et al. Systemic bioavailability of topical diclofenac sodium gel 1% versus oral diclofenac sodium in healthy volunteers. J Clin Pharmacol 2010;50:50-61 (unsure).",
+    "American Geriatrics Society Beers Criteria 2023 (oral NSAID cautions)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "NICE recommends an anti-inflammatory gel as the first medicine to try for knee arthritis, ahead of anti-inflammatory tablets.",
+   "visual_idea": "Comparison card. 'Gel on the knee': acts near the joint; much less reaches the bloodstream; possible skin rash. 'Tablet': whole-body effect; stomach, kidney and heart risks higher in later life. Footer: 'Use as directed; wash hands after; give it [N to verify] weeks before judging'.",
+   "pause": "Older people with knee pain who have been told to avoid ibuprofen.",
+   "gain": "A lower-risk option to ask for.",
+   "follow": "Shows the account explains options as well as warnings.",
+   "earlier_overlap": "none; C06-32 warns about ibuprofen tablets with some blood pressure medicines, and this post gives the topical alternative; it pairs with C10-04.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-15",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Paracetamol for knee and hip arthritis: what the trials found",
+   "core_insight": "In a Cochrane review of 10 trials, paracetamol reduced hip and knee arthritis pain by only about 3 points on a 0 to 100 scale more than a dummy tablet, well below the change people usually notice, and NICE no longer recommends it routinely for osteoarthritis, so stopping it when it is not clearly helping is reasonable.",
+   "angle": "Regular paracetamol is treated as the harmless default for arthritis. The trials show the average benefit is too small to notice, and higher doses did no better than lower ones. If it clearly helps a person, that is their evidence; if not, stopping it removes a tablet and moves attention to exercise, weight, gel and other options.",
+   "position": "Regular paracetamol for knee or hip arthritis should be reviewed, and stopped if the person notices no clear benefit.",
+   "audience": "both",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "Cochrane review (10 RCTs, 3,541 participants): at 3 weeks to 3 months, pain fell by 23 points on a 0 to 100 scale with placebo and 3.23 points more with paracetamol; the review took 9 points as the minimal clinically important difference (Leopoldino 2019).",
+    "Effects did not differ between doses of 3 g a day or less and 3.9 g a day or more (Leopoldino 2019 subgroup analysis).",
+    "Adverse events overall were similar to placebo; abnormal liver tests were more common with paracetamol (70 vs 18 per 1000), of uncertain clinical importance (Leopoldino 2019).",
+    "NICE NG226 advises not routinely offering paracetamol or weak opioids for osteoarthritis unless used infrequently for short-term relief and other treatments are contraindicated, not tolerated or ineffective (NICE 2022)."
+   ],
+   "evidence_leads": [
+    "Leopoldino AO et al. Paracetamol versus placebo for knee and hip osteoarthritis. Cochrane Database Syst Rev 2019;CD013273. PMID 30801133 (abstract seen via PubMed).",
+    "NICE NG226. Osteoarthritis in over 16s. 2022 (official).",
+    "Machado GC et al. Efficacy and safety of paracetamol for spinal pain and osteoarthritis: systematic review and meta-analysis of randomised placebo controlled trials. BMJ 2015;350:h1225 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "In trials of knee and hip arthritis, paracetamol eased pain by about [N to verify] points on a 100-point scale more than a dummy tablet. The smallest change people usually notice is about [N to verify] points.",
+   "visual_idea": "Chart: a horizontal 0 to 100 pain scale showing the reduction with the dummy tablet, the extra reduction with paracetamol, and a marker for the smallest noticeable change used by the review, all values verified, with source (Leopoldino 2019, Cochrane), number of trials and follow-up period.",
+   "pause": "People who take paracetamol every day for their knees, and prescribers who start it by default.",
+   "gain": "A plain reading of the evidence and a reason to review a default tablet.",
+   "follow": "Shows the account reads trials carefully and states small results plainly.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-16",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "The knee X-ray is a poor guide to the pain",
+   "core_insight": "Knee X-ray findings match pain poorly: many people with arthritis on the X-ray have little pain and many with knee pain have near-normal X-rays, so NICE advises diagnosing osteoarthritis from symptoms in people aged 45 and over without routine imaging, and an X-ray should not decide how much a person can do.",
+   "angle": "People are shown an X-ray, told it is 'bone on bone', and then avoid activity that would help. The X-ray records joint structure; the pain and function the person experiences are what treatment should follow.",
+   "position": "Older people with typical knee pain should not be told that their X-ray predicts how much they will hurt or what they can do; treatment should follow symptoms and function.",
+   "audience": "public",
+   "series": "What gets counted",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "In population studies, 15% to 76% of people with knee pain had radiographic osteoarthritis, and 15% to 81% of people with radiographic osteoarthritis had knee pain, depending on definitions (Bedson and Croft 2008, systematic search).",
+    "NICE NG226 recommends diagnosing osteoarthritis clinically, without investigations, in people aged 45 or over with activity-related joint pain and either no morning stiffness or stiffness lasting no longer than 30 minutes (NICE 2022).",
+    "Descriptions of severe X-ray damage can increase fear of activity and belief that surgery is the only option (qualitative studies, e.g. Bunzli 2019; unsure; can be dropped)."
+   ],
+   "evidence_leads": [
+    "Bedson J, Croft PR. The discordance between clinical and radiographic knee osteoarthritis: a systematic search and summary of the literature. BMC Musculoskelet Disord 2008;9:116. PMID 18764949 (abstract seen via PubMed).",
+    "NICE NG226. Osteoarthritis in over 16s. 2022 (official).",
+    "Bunzli S et al. Misconceptions and the acceptance of evidence-based nonsurgical interventions for knee osteoarthritis: a qualitative study. Clin Orthop Relat Res 2019 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "The X-ray of your knee is a poor guide to how much it will hurt, or to what you can do.",
+   "visual_idea": "Comparison: two schematic knee X-ray outlines side by side (drawn, not real images), one labelled 'marked changes, little pain' and the other 'mild changes, a lot of pain', with the line 'Both are common' and the source (Bedson and Croft 2008), and a footer 'Treatment follows your symptoms and what you want to do'.",
+   "pause": "People told their knee is 'bone on bone'.",
+   "gain": "Understanding that the X-ray does not set the limits of activity or treatment.",
+   "follow": "Shows the account explains what tests do and do not tell you.",
+   "earlier_overlap": "none; E026 (a normal CT does not rule out dementia) uses a similar test-limits structure on a different subject.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-17",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "A group class for knee and hip pain",
+   "core_insight": "ESCAPE-pain, a group programme that combines exercise with plain explanation of arthritis and ways of coping, improved function and pain in UK trials for people with chronic knee pain, and in one trial cost less than usual outpatient physiotherapy for similar results.",
+   "angle": "The programme targets the belief that movement damages painful joints as well as the muscles: each session pairs discussion with an exercise circuit. Its spread in NHS and community venues shows that non-drug pain care can be delivered at scale, in groups that also bring company.",
+   "position": "Older people with persistent knee or hip pain should be offered a structured exercise and education programme such as ESCAPE-pain before or alongside medicines.",
+   "audience": "both",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "claims_needing_evidence": [
+    "In a cluster randomised trial in primary care, the ESCAPE-knee pain programme improved physical function compared with usual care, with benefits persisting at follow-up (Hurley 2007, Arthritis Rheum; 30-month follow-up 2012; unsure of details).",
+    "In a pragmatic RCT of 64 people with chronic knee pain, ESCAPE-knee pain and outpatient physiotherapy gave similar improvements at 12 months; the programme cost 64 pounds per person against 130 pounds, and healthcare use costs over a year were 320 against 583 pounds (Jessep 2009, Physiotherapy).",
+    "ESCAPE-pain runs as 12 sessions over 6 weeks and has a version for hips (programme materials; unsure).",
+    "NICE NG226 recommends therapeutic exercise and information as core treatments for osteoarthritis (NICE 2022)."
+   ],
+   "evidence_leads": [
+    "Hurley MV et al. Clinical effectiveness of a rehabilitation program integrating exercise, self-management, and active coping strategies for chronic knee pain: a cluster randomized trial. Arthritis Rheum 2007;57:1211-19 (unsure).",
+    "Jessep SA, Walsh NE, Ratcliffe J, Hurley MV. Long-term clinical benefits and costs of an integrated rehabilitation programme compared with outpatient physiotherapy for chronic knee pain. Physiotherapy 2009;95:94-102. PMID 19627690 (abstract seen via PubMed).",
+    "Hurley MV et al. Long-term outcomes and costs of an integrated rehabilitation program for chronic knee pain: a pragmatic, cluster randomized, controlled trial. Arthritis Care Res 2012;64:238-47 (unsure).",
+    "ESCAPE-pain programme evaluation reports (Health Innovation Network; unsure).",
+    "NICE NG226 (official)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "ESCAPE-pain is a group class for knee and hip pain that mixes exercise with plain talk about how arthritis works.",
+   "visual_idea": "Drawn illustration of a mixed group of older adults in a community hall doing sit-to-stand and step exercises with a physiotherapist, with a side panel of the session structure (discussion topic, exercise circuit, practice at home) and programme length shown as [N to verify] sessions over [N to verify] weeks.",
+   "pause": "People with arthritis who have only been offered tablets, and service leads looking for a model.",
+   "gain": "A named, evidence-based option to ask for.",
+   "follow": "Shows the account highlights care that works, with its evidence.",
+   "earlier_overlap": "none; E065 covers balance exercise for falls.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-18",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Tramadol is more than a weak opioid",
+   "core_insight": "Tramadol also raises serotonin and noradrenaline, so in older people it brings risks that other opioids pose less (serotonin toxicity with some antidepressants, seizures, low sodium, low blood sugar); in UK primary care data, starting tramadol was linked with about twice the rate of hospital admission for low sodium compared with starting codeine.",
+   "angle": "Tramadol is often chosen as a middle option because it sounds mild. Its second action and its partly enzyme-dependent activation (like codeine, it relies partly on CYP2D6) make its effects less predictable, and its interactions with SSRIs, SNRIs and other serotonergic drugs are common in older people.",
+   "position": "Tramadol should not be treated as a gentle opioid for older people; it needs particular care with antidepressants and in people with epilepsy or low sodium, and a low dose of another opioid may be more predictable. (Prescribing judgement, supported by the cited safety data.)",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Tramadol inhibits reuptake of serotonin and noradrenaline in addition to its opioid receptor activity (SPC; pharmacology reviews).",
+    "Tramadol lowers the seizure threshold and can contribute to serotonin syndrome with serotonergic drugs (SPC; MHRA).",
+    "In a UK CPRD cohort of 332,880 patients starting tramadol or codeine, hospitalisation for hyponatraemia in the first 30 days was 4.6 vs 1.9 per 10,000 person-months (adjusted HR 2.05, 95% CI 1.08 to 3.86) (Fournier 2015, Am J Med).",
+    "Tramadol was associated with more hospitalisation for hypoglycaemia than codeine (Fournier 2015, JAMA Intern Med; unsure).",
+    "Tramadol's opioid effect depends partly on CYP2D6 conversion to O-desmethyltramadol (pharmacology reviews).",
+    "The AGS Beers Criteria list tramadol among drugs to use with caution because of hyponatraemia or SIADH (Beers 2023)."
+   ],
+   "evidence_leads": [
+    "Fournier JP et al. Tramadol for noncancer pain and the risk of hyponatremia. Am J Med 2015;128:418-25. PMID 25460534 (abstract seen via PubMed).",
+    "Fournier JP et al. Tramadol use and the risk of hospitalization for hypoglycemia in patients with noncancer pain. JAMA Intern Med 2015;175:186-93 (unsure).",
+    "American Geriatrics Society Beers Criteria 2023. J Am Geriatr Soc 2023;71:2052-81.",
+    "Tramadol SPC (electronic Medicines Compendium).",
+    "Abdulla A et al. Age Ageing 2013;42 Suppl 1 (unsure PMID)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Tramadol is an opioid that also raises serotonin and noradrenaline, and that second action brings its own risks in later life.",
+   "visual_idea": "Diagram: tramadol in the centre with two branches. 'Opioid effects': drowsiness, constipation, falls. 'Serotonin and noradrenaline effects': serotonin toxicity with some antidepressants, seizures, low sodium, low blood sugar. Footer: 'Check the antidepressant list before prescribing'.",
+   "pause": "Prescribers who reach for tramadol as a middle option.",
+   "gain": "The specific risks and interactions to check.",
+   "follow": "Shows the account teaches pharmacology that changes prescribing.",
+   "earlier_overlap": "E138 covers codeine's unpredictable conversion to morphine; this post is about tramadol's additional actions.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-19",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Reduced kidney function changes the opioid",
+   "core_insight": "Morphine is broken down into active products that the kidneys clear, so when kidney function is reduced they build up over days and can cause drowsiness, muscle twitching (myoclonus), hallucinations and slow breathing; the dose, the interval or the choice of opioid should change.",
+   "angle": "Kidney function falls with age and during acute illness, and a creatinine in the normal range can hide low function in a small, frail person with little muscle. Toxicity from accumulated breakdown products develops over days, and twitching is an early sign that is easy to miss.",
+   "position": "Before starting or increasing morphine in an older person, check kidney function and adjust; if twitching or new drowsiness appear, consider accumulation first.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Morphine-6-glucuronide and morphine-3-glucuronide are cleared by the kidneys and accumulate in renal impairment (pharmacology; King 2011 systematic review).",
+    "Opioid toxicity in renal impairment can present with sedation, myoclonus, hallucinations and respiratory depression (King 2011; palliative care guidelines).",
+    "Guidance for moderate to severe renal impairment suggests reducing dose or frequency or using an opioid less dependent on renal clearance, such as fentanyl or alfentanil, with specialist advice (EPCRC-based guidance; Scottish Palliative Care Guidelines; unsure).",
+    "Serum creatinine can overestimate kidney function in people with low muscle mass (renal physiology reviews)."
+   ],
+   "evidence_leads": [
+    "King S, Forbes K, Hanks GW, Ferro CJ, Chambers EJ. A systematic review of the use of opioid medication for those with moderate to severe cancer pain and renal impairment: a European Palliative Care Research Collaborative opioid guidelines project. Palliat Med 2011;25:525-52 (PMID possibly 21708859, unsure).",
+    "Scottish Palliative Care Guidelines: pain management in patients with renal impairment (official; unsure of title).",
+    "Dean M. Opioids in renal failure and dialysis patients. J Pain Symptom Manage 2004;28:497-504 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Morphine's breakdown products leave the body through the kidneys, so when kidney function is low they build up over days.",
+   "visual_idea": "Flow diagram: morphine to liver to active breakdown products to kidneys; a narrowed path labelled 'reduced kidney function' leads to a 'build-up' box listing signs (drowsiness, twitching, hallucinations, slow breathing) and an action box 'lower dose, longer interval, or a different opioid; seek advice'.",
+   "pause": "Ward doctors and nurses who notice twitching or drowsiness a few days into morphine.",
+   "gain": "A mechanism and an action.",
+   "follow": "Shows the account teaches prescribing safety.",
+   "earlier_overlap": "E107 (modified-release oxycodone after hip fracture) is about titration; this post is about renal accumulation of morphine.",
+   "delirium_check": "delirium is not the topic; hallucinations appear once as a sign of opioid toxicity."
+  },
+  {
+   "cand_id": "C10-20",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Offer a word scale as well as numbers",
+   "core_insight": "Some older people find a 0 to 10 pain score hard to use and give more consistent answers on a verbal scale (no pain, mild, moderate, severe), and UK guidance on assessing pain in older people advises choosing a scale the person can use and keeping to it.",
+   "angle": "A shrug or an unexpected number in response to 'score your pain out of ten' is often a problem with the scale, yet the answer is recorded anyway. Offering words, or a printed scale in large type for someone with poor sight or hearing, makes the score more repeatable from shift to shift.",
+   "position": "Pain assessment for older people should offer a verbal descriptor scale when a 0 to 10 score is hard for the person, and use the same scale each time.",
+   "audience": "practitioners",
+   "series": "Small detail, real effect",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Older adults, including those with mild to moderate cognitive impairment, complete verbal descriptor scales more often or more reliably than some other intensity scales (Herr 2004; Closs 2004).",
+    "UK national guidelines recommend the numeric rating scale, verbal descriptor scale or Faces Pain Scale for older people who can self-report, chosen to suit the person (Schofield 2018).",
+    "Sensory impairment affects use of pain scales, and large-print or adapted versions are advised (Schofield 2018; unsure)."
+   ],
+   "evidence_leads": [
+    "Schofield P. The assessment of pain in older people: UK national guidelines. Age Ageing 2018;47 Suppl 1:i1-i22 (unsure PMID).",
+    "Herr KA, Spratt K, Mobily PR, Richardson G. Pain intensity assessment in older adults: use of experimental pain to compare psychometric properties and usability of selected pain scales with younger adults. Clin J Pain 2004;20:207-19 (unsure).",
+    "Closs SJ, Barr B, Briggs M, Cash K, Seers K. A comparison of five pain assessment scales for nursing home residents with varying degrees of cognitive impairment. J Pain Symptom Manage 2004;27:196-205 (unsure).",
+    "Hjermstad MJ et al. Studies comparing numerical rating scales, verbal rating scales, and visual analogue scales for assessment of pain intensity in adults: a systematic literature review. J Pain Symptom Manage 2011;41:1073-93 (unsure)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Some older people find a 0 to 10 pain score hard to use. A word scale (none, mild, moderate, severe) often gives a steadier answer.",
+   "visual_idea": "Comparison card: a 0 to 10 number line beside a four-word vertical scale printed in large type, with the note 'Use the scale the person can use; use the same one every time', and a drawn nurse holding a large-print card for an older man.",
+   "pause": "Nurses who get a shrug in reply to 'out of ten'.",
+   "gain": "An alternative scale and a rule for consistency.",
+   "follow": "Shows the account attends to small details of assessment.",
+   "earlier_overlap": "E054 (PAINAD) is for people unable to self-report; this is for people who can but find numbers hard.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-21",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Score the pain when moving",
+   "core_insight": "In arthritis, after fractures and after surgery, pain is often worst on moving, turning or walking, so a pain score taken while the person lies still can look low while pain stops them getting up; asking about pain during the activities they need to do gives a truer picture.",
+   "angle": "A chart of low resting scores can sit beside a person who will not get out of bed. Asking 'how bad is it when you stand, turn or walk?', or watching one movement, links the assessment to rehabilitation and to what the person wants to do.",
+   "position": "Pain assessment in older people should include pain on movement or during a relevant activity, recorded alongside pain at rest.",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "Movement-evoked pain is often more intense than pain at rest after surgery and in musculoskeletal conditions, and relates more closely to function (Srikandarajah and Gilron 2011; Corbett 2019).",
+    "Acute pain guidance recommends assessing pain with movement and function, such as coughing, deep breathing or mobilising (ANZCA Acute Pain Management: Scientific Evidence 2020; unsure).",
+    "UK pain assessment guidance for older people includes the effect of pain on function (Schofield 2018)."
+   ],
+   "evidence_leads": [
+    "Srikandarajah S, Gilron I. Systematic review of movement-evoked pain versus pain at rest in postsurgical clinical trials and meta-analyses: a fundamental distinction requiring standardized measurement. Pain 2011;152:1734-9 (unsure).",
+    "Corbett DB et al. Movement-evoked pain: transforming the way we understand and measure pain. Pain 2019;160:757-61 (unsure).",
+    "Schug SA et al. Acute Pain Management: Scientific Evidence, 5th edition. ANZCA and FPM, 2020 (unsure).",
+    "Schofield P. Age Ageing 2018;47 Suppl 1 (unsure PMID)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Pain scored while lying still says little about the pain of getting up, washing or walking.",
+   "visual_idea": "Comparison of two drawn panels of the same older woman: lying in bed, labelled 'At rest: 2 out of 10', and standing with a frame, labelled 'Standing: 7 out of 10', both marked 'Illustrative example', with the caption 'Record both'.",
+   "pause": "Nurses and therapists who see low scores on the chart and a person who will not stand.",
+   "gain": "A better question and a reason to record both scores.",
+   "follow": "Shows the account links assessment to what people need to do.",
+   "earlier_overlap": "E056 notes a grimace on rolling in dementia, and C02-27 covers timing pain relief before therapy; this post is about what the recorded score measures.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-22",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Leg pain that eases when sitting",
+   "core_insight": "In older adults with leg pain on walking, having no pain when seated and relief on bending forward (for example leaning on a shopping trolley) make lumbar spinal stenosis much more likely, which helps separate it from circulation problems and hip arthritis.",
+   "angle": "Walking-related leg pain in an older person is often put down to 'circulation' or 'arthritis'. Two history questions carry most of the diagnostic information: relief with sitting or stooping suggests stenosis, while pain from the circulation eases on standing still.",
+   "position": "When an older person has leg pain on walking, ask whether it eases on sitting or bending forward before attributing it to circulation or arthritis.",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "claims_needing_evidence": [
+    "In a systematic review of clinical examination for lumbar spinal stenosis (4 studies, 741 patients), no pain when seated had a likelihood ratio of 7.4, improvement on bending forward 6.4, bilateral buttock or leg pain 6.3 and wide-based gait 13, while absence of neurogenic claudication had 0.23 (Suri 2010, JAMA).",
+    "Vascular claudication typically eases on standing still without sitting or bending (clinical reviews, e.g. Katz and Harris 2008, NEJM).",
+    "The diagnosis needs the clinical picture together with imaging (Suri 2010)."
+   ],
+   "evidence_leads": [
+    "Suri P, Rainville J, Kalichman L, Katz JN. Does this older adult with lower extremity pain have the clinical syndrome of lumbar spinal stenosis? JAMA 2010;304:2628-36. PMID 21156951 (abstract seen via PubMed).",
+    "Katz JN, Harris MB. Lumbar spinal stenosis. N Engl J Med 2008;358:818-25 (unsure).",
+    "NICE CKS or NG59 on sciatica and spinal stenosis (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Leg pain on walking that eases when the person sits, or leans on a shopping trolley, points towards lumbar spinal stenosis.",
+   "visual_idea": "Comparison card. Left 'Spinal stenosis': eases on sitting or bending forward; leaning on a trolley helps. Right 'Circulation (vascular claudication)': eases on standing still; often calf pain. Drawn figures of an older man leaning on a supermarket trolley and an older woman standing still on a pavement. No likelihood ratios converted into 'times more likely'.",
+   "pause": "Clinicians who hear 'my legs give out on the walk to the shops'.",
+   "gain": "Two history questions with strong diagnostic value.",
+   "follow": "Shows the account teaches clinical history.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-23",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Ask about the shingles vaccine",
+   "core_insight": "Shingles becomes more common with age and can leave nerve pain (postherpetic neuralgia) that lasts months after the rash; in trials in people aged 70 and over, the recombinant shingles vaccine prevented about 9 in 10 cases of shingles and of postherpetic neuralgia, and it is offered free on the NHS to people in eligible groups.",
+   "angle": "Preventing pain is rarely discussed as pain care. For older people, checking eligibility for the shingles vaccine is one of the few ways to prevent a persistent pain condition before it starts.",
+   "position": "Older people should check whether they are eligible for the shingles vaccine and have it if they are.",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "The incidence of shingles and the risk of postherpetic neuralgia rise with age (UKHSA Green Book chapter 28a; epidemiological reviews).",
+    "In ZOE-70 (13,900 evaluable adults aged 70 and over, mean follow-up 3.7 years), vaccine efficacy against shingles was 89.8%; in pooled analyses of people 70 and over it was 91.3% against shingles and 88.8% against postherpetic neuralgia (Cunningham 2016, NEJM).",
+    "Injection-site and general reactions in the week after vaccination were more frequent with the vaccine than placebo (Cunningham 2016).",
+    "Current UK eligibility (for example people turning 65, people aged 70 to 79, and people with severe immunosuppression from age 50) must be checked against UKHSA and Public Health Scotland sources on the posting date, as it has changed in phases (official; not openable here)."
+   ],
+   "evidence_leads": [
+    "Cunningham AL et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med 2016;375:1019-32. PMID 27626517 (abstract seen via PubMed).",
+    "Lal H et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. N Engl J Med 2015;372:2087-96 (ZOE-50).",
+    "UKHSA. Immunisation against infectious disease (the Green Book), chapter 28a: Shingles (official).",
+    "Public Health Scotland shingles vaccination programme information (official)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Nerve pain after shingles can last for months after the rash has gone. A vaccine offered in the UK prevents most cases.",
+   "visual_idea": "Statement card 'In people aged 70 and over, the vaccine prevented about 9 in 10 cases of shingles and of the nerve pain that can follow' (figures verified), with source Cunningham 2016, NEJM, and a question card 'Am I eligible for the shingles vaccine?' with a drawn older couple reading a GP practice letter.",
+   "pause": "People who have seen a friend or relative with long-lasting pain after shingles.",
+   "gain": "A concrete preventive step and the question to ask.",
+   "follow": "Shows the account covers prevention as well as treatment.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-24",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Coming down from a long-term opioid",
+   "core_insight": "Many people on long-term opioids fear their pain will worsen if the dose is reduced, yet studies of dose reduction (mostly low quality) more often reported improved pain, function and quality of life; reduction works best when it is slow, agreed with the person and supported, because abrupt or forced stopping carries its own risks.",
+   "angle": "The case for reducing opioids is usually made on harms (falls, drowsiness, hormone effects, dependence). The less known point for patients is that pain often does not get worse. The trade-off is fair only if both sides are said: the benefits of reducing, and the harms of forcing it quickly.",
+   "position": "Older people on long-term opioids for persistent non-cancer pain should be offered a slow, agreed reduction with regular review, and abrupt or one-sided stopping should be avoided.",
+   "audience": "both",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "A systematic review of 67 studies found very low quality evidence that pain severity, function and quality of life may improve after long-term opioid dose reduction (Frank 2017, Ann Intern Med).",
+    "In a large US cohort, opioid tapering was associated with higher rates of overdose and mental health crisis (Agnoli 2021, JAMA; observational).",
+    "In the SPACE trial of chronic back pain or hip or knee osteoarthritis pain, opioids were not better than non-opioid medicines for pain-related function over 12 months (Krebs 2018, JAMA; participants mostly middle-aged).",
+    "UK guidance recommends gradual, agreed tapering with review (Faculty of Pain Medicine, Opioids Aware; any specific rate such as 10% every 1 to 2 weeks to be verified)."
+   ],
+   "evidence_leads": [
+    "Frank JW et al. Patient outcomes in dose reduction or discontinuation of long-term opioid therapy: a systematic review. Ann Intern Med 2017;167:181-91. PMID 28715848 (abstract seen via PubMed).",
+    "Agnoli A et al. Association of dose tapering with overdose or mental health crisis among patients prescribed long-term opioids. JAMA 2021;326:411-19 (unsure).",
+    "Krebs EE et al. Effect of opioid vs nonopioid medications on pain-related function in patients with chronic back pain or hip or knee osteoarthritis pain: the SPACE randomized clinical trial. JAMA 2018;319:872-82 (unsure).",
+    "Faculty of Pain Medicine. Opioids Aware: tapering and stopping (unsure).",
+    "NICE NG193. Chronic pain (primary and secondary) in over 16s. 2021 (official)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Many people on long-term opioids fear that their pain will get worse if the dose comes down.",
+   "visual_idea": "Comparison card. 'Reducing slowly, with agreement': in low-quality studies, pain, function and quality of life more often improved; fewer side effects. 'Stopping suddenly': withdrawal symptoms; return of pain; distress. Footer: 'Agree the pace; review every [N to verify] weeks'.",
+   "pause": "People who have taken opioids for years and have been told they must come off.",
+   "gain": "Evidence on what usually happens to pain, and why the pace of reduction is important.",
+   "follow": "Shows the account weighs both sides of a hard decision.",
+   "earlier_overlap": "none in the earlier set; C06-09 (stopping has side effects) is general, while this post is opioid-specific and adds evidence on pain after reduction.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-25",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Morphine near the end of life and the fear of shortening it",
+   "core_insight": "Families sometimes worry that morphine given near death will shorten life; a review of palliative care studies found that doses rise as death approaches because symptoms change, but no evidence that starting or increasing opioids adjusted to symptoms brings death forward, so this fear should not stop relief of pain or breathlessness.",
+   "angle": "Higher doses and death arrive close together, so timing looks like cause. Separating the two helps relatives accept relief for the person they love and helps staff give as-needed doses without hesitation.",
+   "position": "Near the end of life, opioids adjusted to symptoms should be given when needed, and fear that they shorten life should be discussed openly rather than left to delay relief.",
+   "audience": "public",
+   "series": "Weighing it up",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "A review concluded that people receive higher doses of opioids and sedatives closer to death, and found no evidence that starting or increasing them was associated with precipitating death (Sykes and Thorns 2003, Lancet Oncol).",
+    "Observational studies in hospice populations found no association between opioid dose and shorter survival (e.g. Thorns and Sykes 2000, Lancet; Portenoy 2006, J Pain Symptom Manage; unsure).",
+    "NICE NG31 recommends individualised as-needed and regular medicines for pain and breathlessness in the last days of life (NICE 2015).",
+    "The evidence is observational, and the post should say so without undermining the conclusion."
+   ],
+   "evidence_leads": [
+    "Sykes N, Thorns A. The use of opioids and sedatives at the end of life. Lancet Oncol 2003;4:312-8. PMID 12732169 (abstract seen via PubMed).",
+    "Thorns A, Sykes N. Opioid use in last week of life and implications for end-of-life decision-making. Lancet 2000;356:398-9 (unsure).",
+    "Portenoy RK et al. Opioid use and survival at the end of life: a survey of a hospice population. J Pain Symptom Manage 2006;32:532-40 (unsure).",
+    "NICE NG31. Care of dying adults in the last days of life. 2015 (official)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Families sometimes worry that the morphine given in the last days will shorten life.",
+   "visual_idea": "Statement card with two short lines: 'Doses often rise near death because symptoms change.' 'Studies have not found that doses adjusted to symptoms bring death forward.' Source line Sykes and Thorns 2003. Drawn scene of a nurse and a relative talking calmly at a bedside.",
+   "pause": "Relatives at a bedside who hesitate to ask for another dose.",
+   "gain": "Evidence that separates timing from cause, and confidence to ask for relief.",
+   "follow": "Shows the account handles questions near the end of life plainly.",
+   "earlier_overlap": "none in the earlier set. C19-19 covers the fear that being offered morphine means the final stage; this covers the fear that doses shorten life, so the two should be coordinated. The post must not mention or imply any position on assisted dying.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-26",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Pregabalin for sciatica: what the trial found",
+   "core_insight": "In a placebo-controlled trial, pregabalin did not reduce sciatica leg pain more than placebo at 8 weeks or at 1 year and caused more side effects, dizziness most often, and NICE advises against gabapentin and pregabalin for sciatica; in older people dizziness and drowsiness also raise the risk of falls.",
+   "angle": "Gabapentin and pregabalin are still started for sciatica and back-related leg pain under the label 'nerve pain'. The trial and the guideline point the other way, and in older people the side effects (dizziness, sleepiness, swelling, and breathing risks when combined with opioids) weigh more heavily.",
+   "position": "Gabapentin and pregabalin should not be started for sciatica in older people, and existing prescriptions for this purpose should be reviewed.",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In PRECISE (209 patients with sciatica), leg pain intensity at week 8 did not differ between pregabalin and placebo (adjusted difference 0.5, 95% CI -0.2 to 1.2) or at week 52; there were 227 adverse events with pregabalin against 124 with placebo, dizziness most common (Mathieson 2017, NEJM).",
+    "NICE NG59 recommends not offering gabapentinoids, other antiepileptics, oral corticosteroids or benzodiazepines for managing sciatica (NICE 2016, updated 2020).",
+    "Systematic reviews found little evidence of benefit and more adverse effects with gabapentinoids for low back pain and radicular pain (Enke 2018, CMAJ; Shanthanna 2017, PLoS Med).",
+    "Trial participants were adults of working age on average (mean age to verify); the extension to older people rests on side-effect profiles."
+   ],
+   "evidence_leads": [
+    "Mathieson S et al. Trial of pregabalin for acute and chronic sciatica. N Engl J Med 2017;376:1111-20. PMID 28328324 (abstract seen via PubMed).",
+    "NICE NG59. Low back pain and sciatica in over 16s: assessment and management. 2016, updated 2020 (official).",
+    "Enke O et al. Anticonvulsants in the treatment of low back pain and lumbar radicular pain: a systematic review and meta-analysis. CMAJ 2018;190:E786-93 (unsure).",
+    "Shanthanna H et al. Benefits and safety of gabapentinoids in chronic low back pain: a systematic review and meta-analysis of randomized controlled trials. PLoS Med 2017;14:e1002369 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "In a placebo-controlled trial, pregabalin eased sciatica no more than a dummy capsule did, and it caused more dizziness.",
+   "visual_idea": "Chart: two bars for mean leg-pain score at 8 weeks (pregabalin and placebo) with values, trial size and source; beneath, the NICE recommendation in plain words.",
+   "pause": "Prescribers who reach for pregabalin for leg pain coming from the back.",
+   "gain": "A clear reading of the trial and the guideline.",
+   "follow": "Shows the account reads trials carefully.",
+   "earlier_overlap": "none; C10-06 (swelling after gabapentinoids) is a separate point and should be spaced from this one.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-27",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Treat the insomnia as well as the pain",
+   "core_insight": "In older adults with arthritis pain and insomnia, telephone CBT for insomnia improved sleep and tiredness for a year while its effect on pain was small and did not last, so insomnia deserves treatment in its own right rather than being left until the pain is controlled.",
+   "angle": "Clinicians often assume sleep will follow once pain is better, and offer sedating medicines in the meantime. This trial shows insomnia can be treated directly in people whose pain continues, with benefits the person notices (sleep, tiredness) even when pain scores change little.",
+   "position": "Older people with persistent pain and insomnia should be offered CBT for insomnia, rather than waiting for the pain to be controlled or being given a sedative.",
+   "audience": "both",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "claims_needing_evidence": [
+    "In 327 adults aged 60 and over (mean 70.2) with insomnia and osteoarthritis pain, telephone CBT-I reduced Insomnia Severity Index scores more than education only (adjusted difference -3.5 points at 2 months and -3.0 at 12 months), and 56.3% against 25.8% were in remission at 12 months (McCurry 2021, JAMA Intern Med).",
+    "Fatigue was lower with CBT-I at 2 and 12 months; pain differed after treatment but not at 12 months (McCurry 2021).",
+    "Sleep disturbance and pain are linked in both directions, and poor sleep predicts later pain (Finan 2013, J Pain review)."
+   ],
+   "evidence_leads": [
+    "McCurry SM et al. Effect of telephone cognitive behavioral therapy for insomnia in older adults with osteoarthritis pain: a randomized clinical trial. JAMA Intern Med 2021;181:530-8. PMID 33616613 (abstract seen via PubMed).",
+    "Finan PH, Goodin BR, Smith MT. The association of sleep and pain: an update and a path forward. J Pain 2013;14:1539-52 (unsure).",
+    "Vitiello MV et al. Short-term improvement in insomnia symptoms predicts long-term improvements in sleep, pain, and fatigue in older adults with comorbid osteoarthritis and insomnia. Pain 2014;155:1547-54 (unsure)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Treating insomnia in older people with arthritis pain improved their sleep for a year, even though the pain itself changed little.",
+   "visual_idea": "Chart: icon arrays of 100 people for 'insomnia in remission at 12 months' in each group (verified figures), with a note 'Pain: small difference just after treatment, not sustained at 12 months', source McCurry 2021.",
+   "pause": "People with arthritis who sleep badly and have been told it will improve when the pain does.",
+   "gain": "Evidence that insomnia can be treated directly, and what to expect.",
+   "follow": "Shows the account connects problems that are usually treated separately.",
+   "earlier_overlap": "none in the earlier set. C11-09 uses the same trial to argue for telephone delivery; only one of the two should use it, or they should be well spaced.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-28",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Say what the pain stops you doing",
+   "core_insight": "A pain score records how much it hurts but not what it costs a person, so telling the clinician which activities pain has stopped (walking to the shop, sleeping through, getting into the bath, seeing friends) gives them a goal to treat towards and a way to judge whether treatment has worked.",
+   "angle": "Many older people expect pain with age and play it down. Lost activities are concrete and harder to dismiss, and they turn a consultation about a number into one about a goal that means something to the person.",
+   "position": "Older people should describe what pain stops them doing, and clinicians should record at least one activity-based goal for pain treatment.",
+   "audience": "public",
+   "series": "What gets counted",
+   "post_type": "public_explanation",
+   "claims_needing_evidence": [
+    "Many older people regard pain as a normal part of ageing and under-report it (qualitative studies and reviews, e.g. Gammons and Caswell 2014; unsure).",
+    "Chronic pain affected about 62% of people over 75 in UK population studies (Fayaz 2016, BMJ Open, pooled age-stratified data).",
+    "Recommended core outcome domains for chronic pain trials include physical and emotional functioning as well as pain intensity (IMMPACT, Dworkin 2005, Pain).",
+    "UK guidance on pain assessment in older people includes the effect of pain on function and daily activities (Schofield 2018)."
+   ],
+   "evidence_leads": [
+    "Dworkin RH et al. Core outcome measures for chronic pain clinical trials: IMMPACT recommendations. Pain 2005;113:9-19.",
+    "Fayaz A et al. Prevalence of chronic pain in the UK: a systematic review and meta-analysis of population studies. BMJ Open 2016;6:e010364. PMID 27324708 (abstract seen via PubMed).",
+    "Gammons V, Caswell G. Older people and barriers to self-reporting of chronic pain. Br J Nurs 2014;23:274-8 (unsure).",
+    "Schofield P. Age Ageing 2018;47 Suppl 1 (unsure PMID)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Before your next appointment about pain, write down three things it stops you doing.",
+   "visual_idea": "Checklist card titled 'What has pain stopped you doing?' with blank lines and example prompts (walking to the shop; sleeping through the night; getting in and out of the bath; seeing friends; a hobby), ending with 'Which one would you most like back?'",
+   "pause": "Older people who say 'it's just my age' when asked about pain.",
+   "gain": "A way to make pain concrete and to set a goal for treatment.",
+   "follow": "Shows the account helps people get more from appointments.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-29",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "More pain, more opioids, in poorer areas",
+   "core_insight": "In England, chronic pain is more common and more severe in more deprived areas, and opioid prescribing is higher there, so people with the fewest resources may be more often managed with medicines that help persistent pain least.",
+   "angle": "The social gradient in pain is rarely discussed. Non-drug treatments that help (exercise programmes, physiotherapy, psychological support) depend on time, transport and local services; where they are harder to reach, prescriptions may fill the gap. This is a question of fair access, not a criticism of individual prescribers.",
+   "position": "We should plan persistent pain services so that non-drug treatments reach the most deprived areas, where pain is most common. (Ethical judgement, marked as such, supported by the prevalence and prescribing findings.)",
+   "audience": "both",
+   "series": "Who gets left out",
+   "post_type": "criticism",
+   "claims_needing_evidence": [
+    "In Health Survey for England 2011 data, chronic pain prevalence, high-intensity pain and opioid use were greater in more deprived areas (Todd 2018, BMJ Open, 'The Pain Divide'; unsure of details).",
+    "In English primary care (2010 to 2014), more opioids were prescribed in areas of greater social deprivation and in the north (Mordecai 2018, BJGP; area-level, ecological).",
+    "Opioids give limited benefit for long-term non-cancer pain (Krebs 2018; NICE NG193).",
+    "Any claim that non-drug treatments are harder to reach in deprived areas needs its own evidence; if none is found, present it only as a question or judgement."
+   ],
+   "evidence_leads": [
+    "Todd A, Akhter N, Cairns JM, et al. The Pain Divide: a cross-sectional analysis of chronic pain prevalence, pain intensity and opioid utilisation in England. BMJ Open 2018;8:e023391 (unsure).",
+    "Mordecai L, Reynolds C, Donaldson LJ, de C Williams AC. Patterns of regional variation of opioid prescribing in primary care in England: a retrospective observational study. Br J Gen Pract 2018;68:e225-33. PMID 29440012 (abstract seen via PubMed).",
+    "Curtis HJ et al. Opioid prescribing trends and geographical variation in England, 1998-2018: a retrospective database study. Lancet Psychiatry 2019;6:140-50 (unsure).",
+    "Fayaz A et al. BMJ Open 2016. PMID 27324708 (abstract seen via PubMed)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Persistent pain is more common in England's poorer areas, and so is opioid prescribing.",
+   "visual_idea": "Chart: two simple bar series by deprivation fifth (chronic pain prevalence; opioid use) from the verified source, with denominators and year; if the data can't be extracted, a statement card with the two findings and source lines.",
+   "pause": "Readers in general practice and public health, and people in poorer areas who feel their pain is met only with tablets.",
+   "gain": "Evidence of a pain gradient and a question about fair access.",
+   "follow": "Shows the account attends to people poorly served.",
+   "earlier_overlap": "none; C19-28 covers deprivation and place of death.",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-30",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Knee replacement: ask about pain afterwards",
+   "core_insight": "Knee replacement relieves pain for most people, but in the best-quality studies about 1 in 5 reported troublesome pain in the joint months to years later (fewer after hip replacement), so the decision should include an open discussion of that chance and of non-surgical options first.",
+   "angle": "Surgical success is often judged by the implant (how rarely it needs redoing), which tells a person little about whether they will still hurt. 'What are my chances of still having pain?' is a fair question to ask the surgeon.",
+   "position": "People considering knee replacement should be told the chance of persistent pain as well as the chance of relief.",
+   "audience": "public",
+   "series": "Weighing it up",
+   "post_type": "decision_support",
+   "claims_needing_evidence": [
+    "In a systematic review of prospective studies in unselected patients, an unfavourable long-term pain outcome was reported by about 7% to 23% after hip and 10% to 34% after knee replacement; in the best-quality studies, 9% or more after hip and about 20% after knee (Beswick 2012, BMJ Open).",
+    "Joint replacement is highly successful when judged by prosthesis-related outcomes (Beswick 2012; National Joint Registry reports).",
+    "Most people report satisfaction after knee replacement (e.g. Bourne 2010, Clin Orthop Relat Res; unsure of figure).",
+    "NICE recommends core non-surgical treatment for osteoarthritis and referral for joint replacement when symptoms substantially affect quality of life and non-surgical management has not helped (NICE NG226, NG157; exact wording unsure)."
+   ],
+   "evidence_leads": [
+    "Beswick AD, Wylde V, Gooberman-Hill R, Blom A, Dieppe P. What proportion of patients report long-term pain after total hip or knee replacement for osteoarthritis? BMJ Open 2012;2:e000435. PMID 22357571 (abstract seen via PubMed).",
+    "Bourne RB et al. Patient satisfaction after total knee arthroplasty: who is satisfied and who is not? Clin Orthop Relat Res 2010;468:57-63 (unsure).",
+    "NICE NG157. Joint replacement (primary): hip, knee and shoulder. 2020 (official).",
+    "NICE NG226. Osteoarthritis in over 16s. 2022 (official)."
+   ],
+   "evidence_risk": "low",
+   "opening_line_draft": "Before a knee replacement, ask how likely you are to still have pain afterwards.",
+   "visual_idea": "Icon array of 5 figures with 1 shaded, labelled 'In the best-quality studies, about 1 in 5 people had troublesome knee pain after a knee replacement' (verified), source Beswick 2012, with a question card 'What are my chances of still having pain? What should I try first?'",
+   "pause": "People on a waiting list for a knee replacement, or considering one.",
+   "gain": "A fair question and a realistic expectation.",
+   "follow": "Shows the account presents treatment decisions with the outcomes people care about.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  },
+  {
+   "cand_id": "C10-31",
+   "origin": "non_random",
+   "draw_id": null,
+   "stimulus_use": null,
+   "working_title": "Psychological treatments for pain help in later life too",
+   "core_insight": "A meta-analysis of 22 trials in older adults (mean age about 72) found that psychological treatments for persistent pain, mostly based on CBT, gave small benefits in pain, in unhelpful thoughts that pain will be unbearable, and in confidence in managing pain, with group sessions working best, so age is no reason to leave them off the list.",
+   "angle": "Psychological pain treatments are sometimes assumed to suit younger, working-age people, and older people may hear the offer as 'it's in your head'. The pooled trials in older adults show modest benefits and favour groups, which also bring company. Because the effects are small, they belong alongside exercise and medicines, not in place of them.",
+   "position": "Older people with persistent pain should be offered psychological approaches on the same basis as younger people. (Ethical position, supported by trial evidence of benefit in older adults.)",
+   "audience": "both",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "claims_needing_evidence": [
+    "In a meta-analysis of 22 RCTs (2,608 participants, mean age 71.9), psychological interventions reduced pain intensity (difference in standardised mean difference -0.181) and catastrophising (-0.184) and improved self-efficacy (0.193) after treatment, with no clear difference in physical function; group delivery showed the most consistent effect (Niknejad 2018, JAMA Intern Med).",
+    "NICE NG193 recommends CBT or ACT for chronic primary pain, with no upper age limit (NICE 2021).",
+    "Any claim that older adults are referred less often to psychological pain treatment needs its own evidence (unsure); drop it if unsupported."
+   ],
+   "evidence_leads": [
+    "Niknejad B et al. Association between psychological interventions and chronic pain outcomes in older adults: a systematic review and meta-analysis. JAMA Intern Med 2018;178:830-9. PMID 29801109 (abstract seen via PubMed).",
+    "NICE NG193. Chronic pain (primary and secondary) in over 16s. 2021 (official).",
+    "Nicholas MK et al. Cognitive behavioral group treatment for chronic pain in older adults: a randomized controlled trial. Pain 2013;154:824-35 (unsure)."
+   ],
+   "evidence_risk": "medium",
+   "opening_line_draft": "Psychological treatments for persistent pain gave older adults small but measurable benefits in pooled trials, and group sessions worked best.",
+   "visual_idea": "Statement card with a drawn small group session (mixed older adults and a facilitator) and three short outcome lines: 'pain a little lower', 'fewer thoughts that the pain will be unbearable', 'more confidence in managing it', with 'small effects' clearly labelled and the source line.",
+   "pause": "Older people who fear a referral to psychology means they are not believed, and clinicians who do not refer older patients.",
+   "gain": "A realistic picture of what psychological approaches offer in later life.",
+   "follow": "Shows the account presents modest benefits honestly.",
+   "earlier_overlap": "none",
+   "delirium_check": "delirium is not the topic"
+  }
+ ]
+}
