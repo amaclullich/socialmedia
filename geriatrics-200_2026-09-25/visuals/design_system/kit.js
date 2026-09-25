@@ -1082,11 +1082,11 @@
   });
   prop('rug', (g, o) => {
     // seen from a low angle: a flat quadrilateral on the floor; curled: true lifts the front-right corner
-    const w = o.w || 300, dp = o.depth || 44, f = cc(o.colour) || Kit.C.brick, b = cc(o.border) || Kit.C.gold, und = shade(f, 1.4);
+    const w = o.w || 300, dp = o.depth || 44, f = cc(o.colour) || Kit.C.brick, b = cc(o.border) || Kit.C.gold, und = cc(o.backing) || '#D9CCB4';
     const A = P(-w / 2, 0), B = P(w / 2, 0), C = P(w / 2 + 26, -dp), Dd = P(-w / 2 + 26, -dp);
     let s = '';
     if (o.curled) {
-      const B1 = P(w / 2 - 74, 0), B2 = lerp(B, C, 0.62), tip = P(w / 2 - 40, -dp - 38);
+      const B1 = P(w / 2 - 52, 0), B2 = lerp(B, C, 0.5), tip = P(w / 2 - 26, -dp - 14);
       s += g.p(`M${pt(A)}L${pt(B1)}L${pt(B2)}L${pt(C)}L${pt(Dd)}Z`, f);
       s += g.t(`M${pt(add(A, P(16, -7)))}L${pt(add(B1, P(-6, -7)))}M${pt(add(Dd, P(12, 7)))}L${pt(add(C, P(-14, 7)))}`, b, 3);
       s += `<path d="M${pt(B1)}L${pt(B2)}L${pt(add(tip, P(8, 30)))}Z" fill="${OL}" opacity=".12"/>`;
@@ -1235,37 +1235,52 @@
     outdoors_street: { street: true }
   };
   Kit.rooms = Object.keys(ROOMS);
+  /* Kit.room(type, {w, h, ground, depth, scale}): wall and floor bands only.
+     ground = the y where people and furniture stand (default 86% of h); the wall meets the floor
+     depth * scale above it (default 70), so feet sit on the floor, not on the skirting line.
+     scale = the scale used for people in the scene, so rails and tiles sit at real heights. */
   Kit.room = function (type, o = {}) {
-    const w = o.w || 1000, h = o.h || 800, fy = o.floor == null ? Math.round(h * 0.78) : o.floor, R0 = ROOMS[type] || ROOMS.home_living;
-    const X0 = -600, W = w + 1200, lw = Kit.LW;
-    const rect = (y, hh, f) => `<rect x="${X0}" y="${n1(y)}" width="${W}" height="${n1(hh)}" fill="${f}"/>`;
+    const w = o.w || 1000, h = o.h || 800, sc = o.scale || 1, R0 = ROOMS[type] || ROOMS.home_living;
+    const ground = o.ground != null ? o.ground : o.floor != null ? o.floor + Math.round(70 * sc) : Math.round(h * 0.86);
+    const fy = ground - Math.round((o.depth != null ? o.depth : 70) * sc);
+    const X0 = -800, W = w + 1600, lw = Kit.LW;
+    const rect = (y, hh, f) => `<rect x="${X0}" y="${n1(y)}" width="${W}" height="${n1(Math.max(0, hh))}" fill="${f}"/>`;
     const line = (y, f, sw) => `<rect x="${X0}" y="${n1(y - sw / 2)}" width="${W}" height="${n1(sw)}" fill="${f}"/>`;
     let s = '';
     if (R0.street) {
-      s += rect(-600, fy + 600, cc(o.sky) || '#DDEBEA');
-      // far houses and hedge (plain shapes, no signs)
-      const hy = fy - (o.houseHeight || Math.round(h * 0.42));
-      for (let x = -200; x < w + 200; x += 260) s += `<path d="M${x},${fy - 60}V${hy + 40}L${x + 110},${hy - 30}L${x + 220},${hy + 40}V${fy - 60}Z" fill="${x % 520 === 0 ? '#E7DCC9' : '#D6E1DF'}" stroke="${OL}" stroke-width="${lw}" stroke-linejoin="round" opacity=".9"/>`;
-      s += `<rect x="${X0}" y="${fy - 74}" width="${W}" height="48" rx="20" fill="#9DB59C" stroke="${OL}" stroke-width="${lw * 2}" paint-order="stroke"/>`;
-      s += rect(fy - 30, 30, '#C9C7BE') + line(fy - 30, OL, lw);
-      s += rect(fy, 600, '#DADBD5') + line(fy, OL, lw);
-      for (let x = -40; x < w + 40; x += 150) s += `<path d="M${x},${fy + 4}L${x - 30},${fy + 70}" stroke="#C3C5BE" stroke-width="3"/>`;
-      s += rect(fy + 70, 16, '#BFC1BA') + line(fy + 70, OL, lw) + rect(fy + 86, 600, '#9CA6A9') + line(fy + 86, OL, lw);
+      s += rect(-800, fy + 800, cc(o.sky) || '#DDEBEA');
+      const hh = 330 * sc, hy = fy - 40 * sc - hh;
+      let k = 0;
+      for (let x = -160; x < w + 200; x += 300 * sc, k++) {
+        const hw = 250 * sc, col = ['#E8DECC', '#D5E0DE', '#E3D4C4'][k % 3];
+        s += `<path d="M${n1(x)},${n1(fy - 30 * sc)}V${n1(hy + 90 * sc)}L${n1(x + hw / 2)},${n1(hy)}L${n1(x + hw)},${n1(hy + 90 * sc)}V${n1(fy - 30 * sc)}Z" fill="${col}" stroke="${OL}" stroke-width="${lw}" stroke-linejoin="round"/>`;
+        s += `<rect x="${n1(x + hw * 0.18)}" y="${n1(hy + 130 * sc)}" width="${n1(hw * 0.24)}" height="${n1(70 * sc)}" fill="#F4F7F6" stroke="${OL}" stroke-width="${lw * 0.8}"/><rect x="${n1(x + hw * 0.58)}" y="${n1(hy + 130 * sc)}" width="${n1(hw * 0.24)}" height="${n1(70 * sc)}" fill="#F4F7F6" stroke="${OL}" stroke-width="${lw * 0.8}"/>`;
+      }
+      s += `<rect x="${X0}" y="${n1(fy - 70 * sc)}" width="${W}" height="${n1(56 * sc)}" rx="${n1(24 * sc)}" fill="#9DB59C" stroke="${OL}" stroke-width="${lw * 2}" paint-order="stroke"/>`;
+      s += rect(fy - 20 * sc, 20 * sc, '#C9C4B8') + line(fy - 20 * sc, OL, lw);
+      s += rect(fy, 800, '#DCDDD6') + line(fy, OL, lw);
+      const kerb = ground + 60 * sc;
+      let d = ''; for (let x = -60; x < w + 60; x += 160 * sc) d += `M${n1(x + 40 * sc)},${n1(fy + 3)}L${n1(x)},${n1(kerb - 3)}`;
+      s += `<path d="${d}" stroke="#C6C8C0" stroke-width="3"/>`;
+      s += rect(kerb, 16 * sc, '#C2C4BC') + line(kerb, OL, lw) + rect(kerb + 16 * sc, 800, '#9EA8AB') + line(kerb + 16 * sc, OL, lw);
       return s;
     }
-    s += rect(-600, fy + 600, cc(o.wall) || R0.wall);
-    if (R0.lower) s += rect(fy - Math.round(h * 0.3), Math.round(h * 0.3), R0.lower);
-    if (R0.dado) s += line(fy - Math.round(h * 0.3), R0.dado, 10) + line(fy - Math.round(h * 0.3) - 5, OL, lw * 0.7) + line(fy - Math.round(h * 0.3) + 5, OL, lw * 0.7);
-    if (R0.tiles === 'wall') { const ty = fy - Math.round(h * 0.34); s += rect(ty, fy - ty, '#F2F6F5'); let d = ''; for (let y = ty + 40; y < fy; y += 40) d += `M${X0},${y}H${X0 + W}`; for (let x = -40; x < w + 40; x += 40) d += `M${x},${ty}V${fy}`; s += `<path d="${d}" stroke="#D3DEDD" stroke-width="2"/>` + line(ty, OL, lw); }
-    if (R0.trunking) { const ty = fy - Math.round(h * 0.62); s += `<rect x="${X0}" y="${ty}" width="${W}" height="34" fill="#F8F9F7" stroke="${OL}" stroke-width="${lw}"/>` + line(ty + 17, '#E3E8E6', 3); }
-    s += rect(fy, 600, cc(o.floorColour) || R0.floor);
-    s += rect(fy + Math.round((h - fy) * 0.55), 600, R0.floor2);
-    if (R0.boards) { let d = ''; for (let y = fy + 24; y < h + 40; y += 30) d += `M${X0},${y}H${X0 + W}`; s += `<path d="${d}" stroke="${shade(R0.floor, 0.9)}" stroke-width="2"/>`; }
-    if (R0.tiles === 'floor') { let d = ''; for (let y = fy + 30; y < h + 40; y += 36) d += `M${X0},${y}H${X0 + W}`; s += `<path d="${d}" stroke="${shade(R0.floor, 0.9)}" stroke-width="2"/>`; }
-    s += `<rect x="${X0}" y="${fy - 18}" width="${W}" height="18" fill="${R0.skirt}" stroke="${OL}" stroke-width="${lw}"/>`;
+    const wall = cc(o.wall) || R0.wall;
+    s += rect(-800, fy + 800, wall);
+    const dadoY = fy - 205 * sc;
+    if (R0.lower) s += rect(dadoY, fy - dadoY, R0.lower);
+    if (R0.dado) s += line(dadoY, R0.dado, 9 * sc) + line(dadoY - 4.5 * sc, OL, lw * 0.7) + line(dadoY + 4.5 * sc, OL, lw * 0.7);
+    if (R0.tiles === 'wall') { const ty = fy - 270 * sc, t = 44 * sc; s += rect(ty, fy - ty, '#F2F6F5'); let d = ''; for (let y = ty + t; y < fy; y += t) d += `M${X0},${n1(y)}H${X0 + W}`; for (let x = -40; x < w + 40; x += t) d += `M${n1(x)},${n1(ty)}V${n1(fy)}`; s += `<path d="${d}" stroke="#D3DEDD" stroke-width="2"/>` + line(ty, OL, lw); }
+    if (R0.trunking) { const ty = fy - 340 * sc; s += `<rect x="${X0}" y="${n1(ty)}" width="${W}" height="${n1(36 * sc)}" fill="#F8F9F7" stroke="${OL}" stroke-width="${lw}"/>` + line(ty + 18 * sc, '#E3E8E6', 3); }
+    const fl = cc(o.floorColour) || R0.floor;
+    s += rect(fy, 800, fl);
+    s += rect(fy + (ground - fy) * 0.55 + (h - ground) * 0.5, 800, cc(o.floorColour) ? shade(fl, 0.95) : R0.floor2);
+    if (R0.boards || R0.tiles === 'floor') { let d = ''; const st = (R0.boards ? 22 : 30) * sc; for (let y = fy + st, i = 1; y < h + 40; y += st * (1 + i * 0.12), i++) d += `M${X0},${n1(y)}H${X0 + W}`; s += `<path d="${d}" stroke="${shade(fl, 0.9)}" stroke-width="2"/>`; }
+    s += `<rect x="${X0}" y="${n1(fy - 16 * sc)}" width="${W}" height="${n1(16 * sc)}" fill="${R0.skirt}" stroke="${OL}" stroke-width="${lw}"/>`;
     s += line(fy, OL, lw);
     return s;
   };
+  Kit.groundOf = (o = {}) => { const h = o.h || 800, sc = o.scale || 1; return o.ground != null ? o.ground : o.floor != null ? o.floor + Math.round(70 * sc) : Math.round(h * 0.86); };
 
   /* ================================================================== SCENE */
   Kit.shadow = (x, y, w) => shadowEl(x, w, y);
@@ -1279,6 +1294,25 @@
     const els = typeof target === 'string' ? document.querySelectorAll(target) : [target];
     els.forEach(el => { if (el) el.innerHTML = svg; });
     return svg;
+  };
+
+  /* Place numbered HTML pins over an SVG scene. host = the .scene element; items = [{n, x, y}] in viewBox units.
+     Uses the rendered SVG transform, so it stays correct with preserveAspectRatio slice. */
+  Kit.pins = function (host, items) {
+    host = typeof host === 'string' ? document.querySelector(host) : host;
+    const svg = host.querySelector('svg'); if (!svg) return [];
+    const hr = host.getBoundingClientRect(), m = svg.getScreenCTM(), p = svg.createSVGPoint();
+    return items.map(it => {
+      p.x = it.x; p.y = it.y; const q = p.matrixTransform(m);
+      const el = document.createElement('div'); el.className = 'pin'; el.textContent = it.n;
+      el.style.left = n1(q.x - hr.left) + 'px'; el.style.top = n1(q.y - hr.top) + 'px'; host.appendChild(el); return el;
+    });
+  };
+  /* viewBox point to CSS px inside the host, for placing callouts next to things */
+  Kit.toHost = function (host, x, y) {
+    host = typeof host === 'string' ? document.querySelector(host) : host;
+    const svg = host.querySelector('svg'), hr = host.getBoundingClientRect(), p = svg.createSVGPoint(); p.x = x; p.y = y;
+    const q = p.matrixTransform(svg.getScreenCTM()); return { left: q.x - hr.left, top: q.y - hr.top };
   };
 
   window.Kit = Kit;
