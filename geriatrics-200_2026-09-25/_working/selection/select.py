@@ -103,9 +103,12 @@ for k in sorted(cats):
         s = c['scores'].get(cid, {})
         flag = next((e['reason'] for e in c['excluded'] if e['cand_id'] == cid), '')
         mark = 'SEL' if cid in c['ranked'][:alloc[k]] else ('RES' if cid in c['ranked'][alloc[k]:alloc[k] + max(3, math.ceil(alloc[k] / 4))] else '   ')
-        lines.append(f"- [{mark}] {cid} total {s.get('total')} | {cc['audience']} | {cc['series']} | {cc.get('post_type')} | risk {cc.get('evidence_risk')} | {cc['working_title']} :: {cc['core_insight']}"
+        ins = cc['core_insight'] if len(cc['core_insight']) <= 170 else cc['core_insight'][:167] + '...'
+        acc = (s.get('accuracy_concern') or '')
+        acc = acc if len(acc) <= 110 else acc[:107] + '...'
+        lines.append(f"- [{mark}] {cid} {s.get('total')} | {cc['audience'][:5]} | {cc['series']} | {cc.get('post_type','')[:10]} | risk {cc.get('evidence_risk')} | {cc['working_title']} :: {ins}"
                      + (f" || EXCLUDED: {flag}" if flag else '')
-                     + (f" || accuracy: {s.get('accuracy_concern')}" if s.get('accuracy_concern') else '')
-                     + (f" || sharpen: {s.get('sharpen')}" if s.get('sharpen') else ''))
+                     + (f" || acc: {acc}" if acc else '')
+                     + (f" || dup: {s.get('duplicate_of')}" if s.get('duplicate_of') else ''))
 open(os.path.join(HERE, "DIGEST_FOR_EDITOR.md"), "w").write("\n".join(lines) + "\n")
 print("digest lines", len(lines))
