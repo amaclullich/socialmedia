@@ -1,0 +1,1084 @@
+{
+  "category": "C11",
+  "category_name": "Sleep",
+  "draw_log": [
+    {
+      "draw_id": "C11-R01",
+      "string": "bb0bdc2ed6568912790c2633abef",
+      "result": "candidate C11-01"
+    },
+    {
+      "draw_id": "C11-R02",
+      "string": "518b854131cd8b40379e409a0eb6",
+      "result": "candidate C11-02"
+    },
+    {
+      "draw_id": "C11-R03",
+      "string": "c2c9cb4e748e02c955634698ea61",
+      "result": "candidate C11-03"
+    },
+    {
+      "draw_id": "C11-R04",
+      "string": "9d53672b119b1c464dc8e1e25421",
+      "result": "candidates C11-04 and C11-05"
+    },
+    {
+      "draw_id": "C11-R05",
+      "string": "d871731e6b23e43ee4d2b8065ccc",
+      "result": "candidate C11-06"
+    },
+    {
+      "draw_id": "C11-R06",
+      "string": "3f5d3eae506ea5b8eaad945c5a94",
+      "result": "candidate C11-07"
+    },
+    {
+      "draw_id": "C11-R07",
+      "string": "45695be9e5fae21873b01e5b55e5",
+      "result": "candidate C11-08"
+    },
+    {
+      "draw_id": "C11-R08",
+      "string": "d9def822bf15f5236e5bb7aaf1ee",
+      "result": "candidate C11-09"
+    },
+    {
+      "draw_id": "C11-R09",
+      "string": "9725955b9855d7c0b3f6167e3fb9",
+      "result": "candidate C11-10"
+    },
+    {
+      "draw_id": "C11-R10",
+      "string": "71db538a15efbe9fc5ddddd954bc",
+      "result": "candidate C11-11"
+    },
+    {
+      "draw_id": "C11-R11",
+      "string": "981d4b14071030473bf44d5abbe8",
+      "result": "candidate C11-12"
+    },
+    {
+      "draw_id": "C11-R12",
+      "string": "7cc1b030f6e1fe0a6a41ca88dfc9",
+      "result": "candidate C11-13"
+    },
+    {
+      "draw_id": "C11-R13",
+      "string": "c693787725639ebdbdd25e5ade3a",
+      "result": "candidate C11-14"
+    },
+    {
+      "draw_id": "C11-R14",
+      "string": "fbd78cbe4511b2582c051bb83b2c",
+      "result": "candidate C11-15"
+    }
+  ],
+  "candidates": [
+    {
+      "cand_id": "C11-01",
+      "origin": "random",
+      "draw_id": "C11-R01",
+      "stimulus_use": "The operation 'ask who bears the cost' pointed at who absorbs night-time care after a discharge assessed in daytime, and 'the moment of discharge' fixed the timing; the door hinge, restaurant kitchen and speech and language therapist gave nothing usable.",
+      "working_title": "Who helps between bedtime and breakfast?",
+      "core_insight": "Discharge planning that assesses daytime tasks can miss how often a person will need help overnight, and who will give it.",
+      "angle": "Put one night-time question on the discharge checklist: how many times will this person need help between bedtime and breakfast, with what, and who will be awake to give it. If the answer is an exhausted relative or nobody, the plan is incomplete.",
+      "position": "Discharge planning for older people should record night-time needs (getting up to the toilet, getting back to bed, pain, distress) and name who meets them. This is a practice judgement, supported by evidence on nocturia and carer sleep, not a trial finding.",
+      "audience": "practitioners",
+      "series": "What gets counted",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "Getting up at night to pass urine is common in older people and is linked with falls (systematic review of observational studies).",
+        "Family carers of people with dementia commonly have disturbed sleep, and disrupted night routines are one contributor (review).",
+        "UK discharge guidance expects assessment of the person's and carer's needs before discharge (official guideline; NICE pages could not be opened here, so a published copy or summary is needed).",
+        "Optional, only if an openable source exists: home care visits in the UK are concentrated in the daytime and overnight support is limited (official social care statistics); otherwise phrase as a question, not a claim."
+      ],
+      "evidence_leads": [
+        "Pesonen JS et al. The impact of nocturia on falls and fractures: systematic review and meta-analysis. J Urol 2020;203:674-683. PMID 31347956 (abstract checked on PubMed in this session: pooled RR 1.20 for falls; very low certainty as a cause).",
+        "McCurry SM et al. Sleep disturbances in caregivers of persons with dementia. Sleep Med Rev 2007;11:143-53. PMID 17287134 (abstract checked: about two-thirds of dementia caregivers have some sleep disturbance during caregiving).",
+        "NICE NG27 (2015) Transition between inpatient hospital settings and community or care home settings for adults with social care needs (official; not openable here).",
+        "Carers UK State of Caring survey, night-time care items (unsure)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "How many times will this person need help between bedtime and breakfast, and who will give it? Put that question on the discharge checklist.",
+      "visual_idea": "Checklist card titled 'The night after discharge', with a clock band from 22:00 to 07:00 and five prompts: times up to the toilet, help to get back to bed, pain at night, who is in the house, how they call for help. No numbers.",
+      "pause": "Practitioners recognise that discharge planning is done in daylight by people who go home at night.",
+      "gain": "A single question and a short list to add to their discharge routine.",
+      "follow": "Shows the account thinks about how plans work in real homes, not only on paper.",
+      "earlier_overlap": "E072 (ask what happens at night; falls on the way to the toilet, family audience). This differs: it is a discharge-planning question for practitioners about who provides night-time help.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-02",
+      "origin": "random",
+      "draw_id": "C11-R02",
+      "stimulus_use": "'Look at what happens at night' and the viewpoint of a hospital doctor in training produced the scene of a night call about a patient who is awake; 'adjusting' suggested moving the time of existing doses rather than adding a drug. Hourglass, chess and last week of life gave nothing.",
+      "working_title": "The 2am sleep call: read the drug chart times first",
+      "core_insight": "Before prescribing a sleeping tablet at night, check whether the timing of existing medicines explains the sleeplessness or waking.",
+      "angle": "Common culprits are dose times, not drugs: a loop diuretic given at teatime, a steroid given in the evening, donepezil at bedtime in someone with vivid dreams, a long gap in Parkinson's medicines overnight. The fix is often to move a dose.",
+      "position": "When an older inpatient is awake at night, reviewing medicine timing and simple causes (pain, full bladder, noise) should come before a sedative, because sedative hypnotics give older people small sleep gains and more cognitive and daytime side effects.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "An evening dose of a loop diuretic increases urine output during the night (BNF or SPC dosing advice; pharmacology source).",
+        "Glucocorticoids can cause insomnia, and a single morning dose is the usual recommendation (BNF or SPC).",
+        "Donepezil can cause insomnia and abnormal dreams, and morning dosing is an accepted option if sleep is disturbed (SPC; trial or review).",
+        "In Parkinson's disease, symptoms can return overnight when levodopa wears off, and night-time dosing needs review (NICE NG71 or review).",
+        "In people over 60, sedative hypnotics gave a small sleep benefit with more adverse cognitive events and daytime fatigue than placebo (meta-analysis).",
+        "Pain and toilet visits are among the most reported causes of disturbed sleep in hospital (multicentre survey)."
+      ],
+      "evidence_leads": [
+        "Glass J et al. Sedative hypnotics in older people with insomnia: meta-analysis of risks and benefits. BMJ 2005;331:1169. PMID 16284208 (abstract checked).",
+        "Wesselius HM et al. JAMA Intern Med 2018;178:1201-1208. PMID 30014139 (abstract checked: pain and toilet visits among the most reported sleep disturbers).",
+        "Aricept (donepezil) SPC, undesirable effects and administration (official; not openable here).",
+        "BNF monographs for furosemide and prednisolone (official; not openable here).",
+        "NICE NG71 Parkinson's disease in adults, 2017 (official).",
+        "A trial or review supporting morning donepezil dosing for sleep disturbance (unsure)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Called at 2am about an older patient who is awake? Read the times on the drug chart before you prescribe anything new.",
+      "visual_idea": "Annotated drug chart, clearly labelled 'Illustrative example', with dose times circled (teatime diuretic, evening steroid, bedtime donepezil) and handwritten-style notes 'move to morning?'; a side box lists pain, bladder, noise.",
+      "pause": "Every doctor in training knows this call; the answer is in front of them.",
+      "gain": "A two-minute check that can avoid a sedative and fix the cause.",
+      "follow": "Teaching that is usable on the next night shift.",
+      "earlier_overlap": "E071 (a new night sedative raises falls risk). This differs: it teaches medicine timing as a cause of sleeplessness and a fix.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-03",
+      "origin": "random",
+      "draw_id": "C11-R03",
+      "stimulus_use": "'Ask what would change the decision' led to trials that tested what changes older people's decisions about long-term benzodiazepines; the answer was written information sent to the person. Wall calendar, rationing and ward clerk gave nothing.",
+      "working_title": "The leaflet that changed the decision",
+      "core_insight": "In two Quebec trials, sending older people clear written information about benzodiazepine risks and a tapering plan led far more of them to stop than usual care.",
+      "angle": "The person taking the tablet was treated as the decision-maker. Many started the conversation with their doctor or pharmacist themselves.",
+      "position": "Older people on long-term benzodiazepines or Z-drugs should be given direct, written information on risks and on how to cut down slowly; it respects their agency and it worked in trials.",
+      "audience": "both",
+      "series": "Care that works",
+      "post_type": "good_care",
+      "claims_needing_evidence": [
+        "EMPOWER: 303 long-term benzodiazepine users aged 65 to 95; at 6 months 27% of the leaflet group had stopped versus 5% with usual care; 62% of recipients started a conversation about stopping (cluster RCT).",
+        "D-PRESCRIBE: among sedative-hypnotic users, 43% stopped at 6 months with a pharmacist-led educational approach versus 9% with usual care; 38% of those who tapered reported withdrawal symptoms; no adverse events needing hospital care (cluster RCT).",
+        "Both trials were in Quebec; results may differ elsewhere (stated by the authors)."
+      ],
+      "evidence_leads": [
+        "Tannenbaum C et al. EMPOWER cluster randomized trial. JAMA Intern Med 2014;174:890-8. PMID 24733354 (abstract checked).",
+        "Martin P et al. D-PRESCRIBE randomized clinical trial. JAMA 2018;320:1889-98. PMID 30422193 (abstract checked).",
+        "Canadian Deprescribing Network patient brochure on sedative-hypnotics (official; unsure of current version)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "In a Quebec trial, older people who had taken benzodiazepines for years were sent a leaflet on the risks and how to cut down. Six months later, [N to verify] in 100 had stopped, against [N to verify] in 100 with usual care.",
+      "visual_idea": "Two icon arrays of 100 people side by side (leaflet versus usual care), filled for those who had stopped at 6 months, with the denominator and time period labelled; credit line Tannenbaum, JAMA Intern Med, 2014.",
+      "pause": "A large effect from something as ordinary as a leaflet.",
+      "gain": "Practitioners get a method; older people learn they can ask for the information and a plan.",
+      "follow": "Evidence-based deprescribing that treats older people as decision-makers.",
+      "earlier_overlap": "E145 (hospital-started sleeping tablet continuing at home) and E142 (medication review after delirium). This differs: it shows evidence on how to support stopping.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-04",
+      "origin": "random",
+      "draw_id": "C11-R04",
+      "stimulus_use": "'Find the first question worth asking' and 'bus timetables' pointed at the fixed times of going to bed and getting up; the night nurse viewpoint recalled early settling times in wards and homes.",
+      "working_title": "The first sleep question is about the clock",
+      "core_insight": "An older person who spends much longer in bed than they can sleep will spend long periods awake in bed, and asking bedtime and getting-up time is how you find this.",
+      "angle": "Time in bed often grows after retirement, illness or a move into care. The effective treatment (sleep restriction or a gentler 'compression' of time in bed) reduces time in bed, which is the opposite of the usual advice to rest more.",
+      "position": "The first questions for an older person's sleep complaint should be what time they go to bed, what time they get up, and when they nap, before any drug is considered.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "Sleep efficiency (the share of time in bed spent asleep) falls with age and continues to fall after 60 in healthy adults (meta-analysis).",
+        "Sleep restriction therapy, which limits time in bed to the time actually slept, is recommended for chronic insomnia (AASM guideline, conditional) and reduced insomnia severity in UK primary care (RCT).",
+        "Sleep restriction can cause temporary daytime sleepiness, so caution is needed for people who drive or are at high risk of falls (trial safety data or review).",
+        "Brief behavioural treatment in older adults, which includes reducing time in bed, improved insomnia (RCT)."
+      ],
+      "evidence_leads": [
+        "Ohayon MM et al. Sleep 2004;27:1255-73. PMID 15586779 (abstract checked: only sleep efficiency continued to decrease after 60).",
+        "Edinger JD et al. AASM guideline on behavioural and psychological treatments. J Clin Sleep Med 2021;17:255-262. PMID 33164742 (abstract checked).",
+        "Kyle SD et al. HABIT trial. Lancet 2023;402:975-987. PMID 37573859 (abstract checked).",
+        "Buysse DJ et al. Arch Intern Med 2011;171:887-95. PMID 21263078 (abstract checked).",
+        "Kyle SD et al. Sleep restriction therapy and daytime sleepiness, Sleep 2014 (unsure)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "The first question for an older person who sleeps badly is about the clock: what time into bed, and what time out?",
+      "visual_idea": "Diagram with two horizontal bars for one night, labelled 'Illustrative example': the first shows a long time in bed with a large shaded 'awake in bed' section; the second shows a shorter time in bed with less time awake. No real data implied.",
+      "pause": "A simple question that many consultations skip.",
+      "gain": "A history step and an explanation they can give the patient.",
+      "follow": "Clear teaching that changes the next consultation.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-05",
+      "origin": "random",
+      "draw_id": "C11-R04",
+      "stimulus_use": "The same draw's 'a decade' and 'pruning' suggested slow reduction after very long use; the operation framed what to ask before stopping.",
+      "working_title": "Years on a sleeping tablet: stopping is still possible",
+      "core_insight": "People who have taken sleeping tablets for many years can often stop with a slow, supervised reduction, and adding CBT for insomnia improves the chance of success.",
+      "angle": "Long use is often treated as a reason to leave things alone. A trial in long-term users (average nearly two decades) found most were off within weeks when reduction was supervised, but better sleep could take months to appear.",
+      "position": "Long-term use is a reason to plan a supported taper, not to avoid the conversation; tablets should not be stopped suddenly.",
+      "audience": "public",
+      "series": "Weighing it up",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "In a trial of 76 adults (mean age 62.5) who had used benzodiazepines for sleep for a mean of 19.3 years, 63% were drug-free within an average of 7 weeks; 85% with taper plus CBT, 48% with taper alone, 54% with CBT alone (RCT).",
+        "In the same trial, sleep improvements with CBT became more noticeable over months, and no significant withdrawal symptoms or adverse events were reported (RCT).",
+        "In D-PRESCRIBE, 38% of older adults who tapered sedative-hypnotics reported withdrawal symptoms, with no events needing hospital care (RCT).",
+        "Sudden stopping of benzodiazepines after long use can cause withdrawal symptoms, and gradual tapering is recommended (deprescribing guideline)."
+      ],
+      "evidence_leads": [
+        "Morin CM et al. Am J Psychiatry 2004;161:332-42. PMID 14754783 (abstract checked; note trial population mean age 62.5).",
+        "Martin P et al. JAMA 2018;320:1889-98. PMID 30422193 (abstract checked).",
+        "Pottie K et al. Deprescribing benzodiazepine receptor agonists: evidence-based clinical practice guideline. Can Fam Physician 2018;64:339-351 (unsure of pages)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "In one trial, people had taken sleeping tablets for an average of [N to verify] years. With slow, supervised reduction, most were off them within [N to verify] weeks.",
+      "visual_idea": "Timeline diagram labelled 'Illustrative example' showing a dose reduced in steps over several weeks with CBT sessions alongside, and a later marker 'sleep may take months to improve'; no invented doses.",
+      "pause": "Long-term users who assume it is too late to change.",
+      "gain": "Realistic expectations and what to ask the GP or pharmacist for.",
+      "follow": "Decision posts that give both sides and a plan.",
+      "earlier_overlap": "E145 (hospital-started sleeping tablet still taken months later). This differs: it addresses very long-term users and how to stop safely.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-06",
+      "origin": "random",
+      "draw_id": "C11-R05",
+      "stimulus_use": "'Thermostat' combined with 'look at what happens at night' turned attention to bedroom temperature during hot nights; archives, pruning, paperwork and the occupational therapist gave nothing.",
+      "working_title": "The bedroom at 2am in a heatwave",
+      "core_insight": "Hot nights shorten sleep, older adults' sleep appears more affected, and people in hot flats without cooling or money for it are most exposed.",
+      "angle": "Heat advice usually focuses on the afternoon. The bedroom at night is part of heat protection, and simple measures help.",
+      "position": "Heatwave plans for older people should cover the bedroom at night, with particular attention to people living alone in hot or top-floor homes.",
+      "audience": "public",
+      "series": "Who gets left out",
+      "post_type": "public_explanation",
+      "claims_needing_evidence": [
+        "Higher night-time temperatures are linked with shorter sleep, with a larger effect in older adults and in lower-income countries (large sleep-tracker study).",
+        "Older people are at higher risk of heat-related illness and death (official heat mortality reports or systematic review).",
+        "Practical measures such as shading sun-facing rooms by day and ventilating when it is cooler outside reduce indoor heat (official heat-health guidance; not openable here)."
+      ],
+      "evidence_leads": [
+        "Minor K et al. Rising temperatures erode human sleep globally. One Earth 2022;5:534-549 (not PubMed-indexed; details unsure, check the DOI and full text).",
+        "UKHSA heat mortality monitoring reports (official; not openable here).",
+        "UKHSA Beat the Heat guidance (official; not openable here).",
+        "Okamoto-Mizuno K, Mizuno K. Effects of thermal environment on sleep and circadian rhythm. J Physiol Anthropol 2012 (unsure)."
+      ],
+      "evidence_risk": "high",
+      "opening_line_draft": "Heatwave plans for older people should include the bedroom at night, not only the hot afternoon.",
+      "visual_idea": "Drawn illustration of a top-floor bedroom at night on warm sand ground, with accurate labels: curtains closed on the sunny side by day, window opened when it is cooler outside, water by the bed, light bedding, phone within reach.",
+      "pause": "Seasonal relevance and a less familiar angle on heat.",
+      "gain": "Practical steps and awareness of who is most exposed.",
+      "follow": "Attention to poorer and isolated people with practical help.",
+      "earlier_overlap": "none (E170 is about daylight in hospital bays).",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-07",
+      "origin": "random",
+      "draw_id": "C11-R06",
+      "stimulus_use": "The operation 'find an outcome that patients value and the routine measure misses' led to a care home trial where night sleep barely changed but residents' days did; 'the first week' matched its five-day intervention. Ticket stub, kitchens and repairing gave nothing.",
+      "working_title": "The care home sleep trial that changed the days",
+      "core_insight": "A five-day non-drug programme in nursing homes changed night-time sleep measures very little but reduced daytime sleeping and increased social and physical activity.",
+      "angle": "Judged only on night sleep, the programme would look like a failure. Judged on what residents did with their days, it helped. The measure chosen decides the verdict.",
+      "position": "Sleep programmes in care homes should be judged on residents' days (alertness, activity, conversation) as well as their nights.",
+      "audience": "both",
+      "series": "What gets counted",
+      "post_type": "evidence_interpretation",
+      "claims_needing_evidence": [
+        "The trial randomised 118 nursing home residents (mean age 86.9) with excessive daytime sleeping and disrupted night sleep; the intervention combined less daytime time in bed, at least 30 minutes of daily sunlight, more physical activity, a bedtime routine and less noise and light at night, for five days and nights (RCT).",
+        "Night sleep: only a modest change in the length of night-time awakenings; no significant change in percentage of night asleep or number of awakenings (RCT).",
+        "Daytime sleeping fell from 32% to 21% of observations with the intervention, with little change in controls (32% to 30%); participation in social and physical activities and conversation increased (RCT).",
+        "The trial was in four Los Angeles nursing homes; applicability to UK care homes needs stating."
+      ],
+      "evidence_leads": [
+        "Alessi CA et al. Randomized, controlled trial of a nonpharmacological intervention to improve abnormal sleep/wake patterns in nursing home residents. J Am Geriatr Soc 2005;53:803-10. PMID 15877555 (abstract checked).",
+        "Ouslander JG et al. Nonpharmacological intervention to improve sleep in nursing home patients, JAGS 2006 (unsure)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Five days of daylight, activity and less noise at night: in a care home trial, residents' night sleep changed little, but the share of the day they spent asleep fell from [N to verify] to [N to verify] in 100 observations.",
+      "visual_idea": "Accurate paired bar chart of daytime sleeping (percentage of observations) at baseline and follow-up for intervention and usual care, labelled with denominators and time period; small icons for the five intervention parts; credit line Alessi, JAGS, 2005.",
+      "pause": "A result that runs against the obvious expectation.",
+      "gain": "A better way to judge sleep interventions and concrete ideas for care homes.",
+      "follow": "Careful reading of evidence that looks at outcomes residents value.",
+      "earlier_overlap": "E170 (open the blinds in hospital bays). This differs: care home trial, and the argument is about which outcome is counted.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-08",
+      "origin": "random",
+      "draw_id": "C11-R07",
+      "stimulus_use": "'Compare the stated aim of a service with what happens' contrasted hospital rest and recovery with routine overnight tasks for stable patients; 'visibility' suggested counting night-time room entries. Thermostat, refereeing, borrowing and porter gave nothing.",
+      "working_title": "Does the 2am check need to happen?",
+      "core_insight": "Hospital patients report sleeping less and waking more than at home, often because staff wake them, and overnight observations and medicines for stable patients can be timed to protect sleep.",
+      "angle": "A written sleep plan for stable patients (tasks clustered, no routine 2am observations where the clinical picture does not require them) is a clinical decision. One programme that nudged teams to skip unnecessary night-time observations and medicines cut night room entries.",
+      "position": "For stable patients, overnight observations and medicine times should follow clinical need, with a recorded plan for protected sleep.",
+      "audience": "practitioners",
+      "series": "Small detail, real effect",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "In a Dutch multicentre survey of 2005 inpatients (median age 68), total sleep time was 83 minutes shorter than at home, awakenings rose from 2.0 to 3.3, patients woke 44 minutes earlier, and 36% reported being woken by hospital staff (cross-sectional study).",
+        "The most reported sleep disturbers were noise from other patients, medical devices, pain and toilet visits (same study).",
+        "SIESTA, combining electronic prompts to forgo routine night-time observations and medicines with staff education and nurse coaching, was associated with 44% fewer night-time room entries on the enhanced unit and more patients reporting no disruption for night-time observations (70% versus 41%) (single-centre before-after study).",
+        "Under NEWS2, a stable patient with an aggregate score of 0 has a minimum monitoring frequency of 12-hourly (RCP NEWS2 document; official, needs an openable copy)."
+      ],
+      "evidence_leads": [
+        "Wesselius HM et al. JAMA Intern Med 2018;178:1201-1208. PMID 30014139 (abstract checked).",
+        "Arora VM et al. Effectiveness of SIESTA on objective and subjective metrics of nighttime hospital sleep disruptors. J Hosp Med 2019;14:38-41. PMID 30667409 (abstract checked).",
+        "Royal College of Physicians. National Early Warning Score (NEWS) 2, 2017 (official; not openable here).",
+        "Yoder JC et al. Noise and sleep among adult medical inpatients. JAMA Intern Med 2013 (unsure)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Patients in hospital report sleeping [N to verify] minutes less than at home, and about [N to verify] in 100 say staff woke them.",
+      "visual_idea": "Two timelines from 22:00 to 07:00 for a stable patient, labelled 'Illustrative example': one with scattered interruptions (observations, medicines, bloods, lights), one with tasks clustered and a protected block; headline figure credited to Wesselius, JAMA Intern Med, 2018.",
+      "pause": "Every ward nurse and doctor recognises the night routine.",
+      "gain": "A specific, low-cost change to propose on their ward.",
+      "follow": "Practical system improvements with evidence behind them.",
+      "earlier_overlap": "E170 (daylight) and E081 (hospital falls). This differs: overnight task timing and sleep.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-09",
+      "origin": "random",
+      "draw_id": "C11-R08",
+      "stimulus_use": "'Apply it to the poorest or most isolated person' raised the question of who is unable to use app-based CBT for insomnia; 'envelope' pointed to formats that need no internet. Bridge building, mapping and first night gave nothing.",
+      "working_title": "CBT for insomnia down the phone",
+      "core_insight": "CBT for insomnia delivered by telephone improved sleep in older adults, so people without internet access need not be left with only a sleeping tablet.",
+      "angle": "Digital CBT-I widens access for many people. For older people who are offline, telephone delivery has trial evidence of lasting benefit.",
+      "position": "Services that offer CBT for insomnia to older people should also offer a route that does not need the internet, such as telephone sessions.",
+      "audience": "both",
+      "series": "Who gets left out",
+      "post_type": "good_care",
+      "claims_needing_evidence": [
+        "In a trial of 327 adults aged 60 and over (mean 70.2) with insomnia and osteoarthritis pain, six 20 to 30 minute telephone CBT-I sessions over 8 weeks reduced insomnia severity more than education only, and at 12 months 56% versus 26% were in remission (RCT).",
+        "CBT-I is recommended as first-line treatment for chronic insomnia in adults (ACP and AASM guidelines).",
+        "NICE recommends a digital CBT-I programme as an option in primary care (NICE MTG70; official, not openable here).",
+        "A substantial share of people aged 75 and over in the UK do not use the internet (Ofcom or ONS; official, not openable here; could be phrased without a number)."
+      ],
+      "evidence_leads": [
+        "McCurry SM et al. Effect of telephone CBT-I in older adults with osteoarthritis pain. JAMA Intern Med 2021;181:530-538. PMID 33616613 (abstract checked).",
+        "Qaseem A et al. Management of chronic insomnia disorder in adults: ACP guideline. Ann Intern Med 2016;165:125-33. PMID 27136449.",
+        "Edinger JD et al. J Clin Sleep Med 2021;17:255-262. PMID 33164742 (abstract checked).",
+        "NICE MTG70 Sleepio for treating insomnia and insomnia symptoms, 2022 (official).",
+        "Ofcom Adults' Media Use and Attitudes report 2024 (official; unsure of figures)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Six phone calls of [N to verify] minutes each improved sleep in older adults with arthritis pain and insomnia, and the benefit was still there a year later.",
+      "visual_idea": "Comparison card: left column 'App-based CBT-I needs' (a smartphone or computer, internet, confidence online); right column 'Telephone CBT-I needs' (a phone); below, a verified bar for remission at 12 months in each trial arm with the denominator.",
+      "pause": "A plain, inclusive solution to an access problem.",
+      "gain": "Knowing that the option exists and can be asked for or commissioned.",
+      "follow": "Attention to people who are excluded by default designs.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-10",
+      "origin": "random",
+      "draw_id": "C11-R09",
+      "stimulus_use": "'Trace a handover between people or services' followed a device from home to ambulance to ward; the CPAP machine is the thing easily left behind. Stopwatch, bakeries and residue gave nothing.",
+      "working_title": "Your CPAP machine goes to hospital with you",
+      "core_insight": "If you use CPAP for sleep apnoea, take the machine, mask, tubing and power lead into hospital, including for planned surgery, and tell staff you use it.",
+      "angle": "Sleep apnoea does not stop on admission, and strong painkillers and sedatives given in hospital can make breathing during sleep worse. Guidelines advise continuing CPAP around surgery.",
+      "position": "People who use CPAP should bring it and be helped to use it in hospital; admission checklists should ask about it.",
+      "audience": "public",
+      "series": "Small detail, real effect",
+      "post_type": "public_explanation",
+      "claims_needing_evidence": [
+        "Perioperative guidelines recommend that people with known obstructive sleep apnoea continue CPAP around surgery (anaesthesia society guidelines).",
+        "Opioids and sedatives can worsen breathing during sleep in people with sleep apnoea (anaesthesia guideline or review).",
+        "Optional: CPAP reduced night-time urination in people with sleep apnoea in pooled before-after studies (meta-analysis, low quality)."
+      ],
+      "evidence_leads": [
+        "Memtsoudis SG et al. Society of Anesthesia and Sleep Medicine guideline on intraoperative management of adult patients with obstructive sleep apnea. Anesth Analg 2018. PMID 29944522 (found on PubMed; content not yet read).",
+        "Chung F et al. SASM guidelines on preoperative screening and assessment of adult patients with OSA. Anesth Analg 2016;123:452-73 (unsure).",
+        "American Society of Anesthesiologists practice guidelines for perioperative management of patients with OSA. Anesthesiology 2014;120:268-86 (unsure).",
+        "Wang T et al. CPAP and nocturia in OSA: meta-analysis. Int Neurourol J 2015;19:178-84. PMID 26620900 (abstract checked)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "If you sleep with a CPAP machine, pack it for hospital: machine, mask, tubing and power lead.",
+      "visual_idea": "Checklist card 'Hospital bag for CPAP users' with drawn items (machine, mask, tubing, power lead, a note of settings and the sleep clinic's number) and the line 'Tell the nurse when you arrive'.",
+      "pause": "Concrete, easily overlooked, affects many households.",
+      "gain": "An easy action that protects breathing in hospital.",
+      "follow": "Small practical posts that prevent avoidable harm.",
+      "earlier_overlap": "E161 (hearing aid on the ear on the day of admission). This differs: a different device and a breathing safety reason.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-11",
+      "origin": "random",
+      "draw_id": "C11-R10",
+      "stimulus_use": "'Take a common shortcut and qualify it' targeted the habit of handing out a sleep hygiene leaflet for chronic insomnia; tape measure, kitchens, weaving and care home manager gave nothing further.",
+      "working_title": "The sleep hygiene booklet was the comparison",
+      "core_insight": "Sleep hygiene advice on its own is weak treatment for chronic insomnia; the parts that work are stimulus control, sleep restriction and full CBT for insomnia.",
+      "angle": "In the English HABIT trial the sleep hygiene booklet was what the comparison group received, and four nurse sessions of sleep restriction did better. A leaflet about caffeine and dark bedrooms is a starting point, not the treatment.",
+      "position": "A sleep hygiene leaflet should not be the whole response to chronic insomnia in an older person; offer the active behavioural components.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "The AASM suggests clinicians not use sleep hygiene as a single-component therapy for chronic insomnia (guideline, conditional recommendation).",
+        "HABIT: 642 adults (mean age 55.4, range 19 to 88) from 35 English practices; four nurse-delivered sleep restriction sessions plus booklet versus booklet only; insomnia severity at 6 months 10.9 versus 13.9; incremental cost per QALY about 2,076 pounds (RCT).",
+        "In older adults, brief behavioural treatment produced response in 67% versus 25% with printed educational material (RCT)."
+      ],
+      "evidence_leads": [
+        "Edinger JD et al. J Clin Sleep Med 2021;17:255-262. PMID 33164742 (abstract checked).",
+        "Kyle SD et al. Lancet 2023;402:975-987. PMID 37573859 (abstract checked).",
+        "Buysse DJ et al. Arch Intern Med 2011;171:887-95. PMID 21263078 (abstract checked)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "The comparison group in a large English insomnia trial got a sleep hygiene booklet. Nurse-delivered sleep restriction did better.",
+      "visual_idea": "Comparison card: left 'Sleep hygiene' (caffeine, alcohol, dark room, screens); right 'What treats chronic insomnia' (fixed getting-up time, time in bed matched to sleep, bed for sleep, get up if awake a long time, CBT); source line Kyle, Lancet, 2023; Edinger, JCSM, 2021.",
+      "pause": "Challenges a near-universal habit in practice.",
+      "gain": "The active components to offer instead.",
+      "follow": "Teaching that updates routine practice.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-12",
+      "origin": "random",
+      "draw_id": "C11-R11",
+      "stimulus_use": "'What is left over' and 'ask who bears the cost' led to the next-morning effects of a night-time sleeping tablet, which the person pays for at breakfast and on the road. Ticket stub, car maintenance, packing and 'a son' gave nothing.",
+      "working_title": "What is still working at breakfast",
+      "core_insight": "Some sleeping tablets still affect balance, reactions and driving the next morning, and older people often clear them more slowly.",
+      "angle": "Ask the pharmacist two questions: how long does this stay active, and is it safe to drive tomorrow morning?",
+      "position": "Anyone taking a sleeping tablet should know its next-morning effects and ask about driving before they rely on it.",
+      "audience": "public",
+      "series": "Ask this",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "In people over 60, daytime fatigue and psychomotor adverse events were more common with sedative hypnotics than placebo (meta-analysis).",
+        "Product information for zopiclone warns of next-day impairment, including of driving, particularly if taken less than 12 hours before activities needing alertness (SPC; official, not openable here).",
+        "Many benzodiazepines and Z-drugs are cleared more slowly in older people, so effects last longer (SPC or pharmacokinetic review).",
+        "US regulators lowered recommended zolpidem doses because of next-morning impairment (FDA safety communication 2013; official)."
+      ],
+      "evidence_leads": [
+        "Glass J et al. BMJ 2005;331:1169. PMID 16284208 (abstract checked).",
+        "Zopiclone SPC, sections 4.4 and 4.7 (official; not openable here).",
+        "FDA Drug Safety Communication on zolpidem and next-morning impairment, January 2013 (official).",
+        "Verster JC et al. Residual effects of sleep medication on driving ability. Sleep Med Rev 2004 (unsure).",
+        "American Geriatrics Society 2023 Beers Criteria. J Am Geriatr Soc 2023;71:2052-2081. PMID 37139824."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "A sleeping tablet taken at 11pm can still affect balance, reactions and driving the next morning. Ask how long yours stays active.",
+      "visual_idea": "Question card with a simple timeline (tablet at 23:00, stairs at 07:00, car at 08:00) and three questions: How long does this stay active? Is it safe to drive tomorrow morning? Is there a non-drug option I could try first? No numbers unless verified.",
+      "pause": "Driving and morning stairs are everyday concerns.",
+      "gain": "Precise questions to ask the pharmacist or GP.",
+      "follow": "The Ask this series gives questions that get useful answers.",
+      "earlier_overlap": "E071 (unsteadiness at 03:00 after a night sedative, practitioner). This differs: next-morning effects and driving, public.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-13",
+      "origin": "random",
+      "draw_id": "C11-R12",
+      "stimulus_use": "'Examine a neglected consequence' and 'noise' led to the fact that people who take hearing aids out at night may not wake to a standard smoke alarm. Spool of thread, libraries and the pharmacist gave nothing.",
+      "working_title": "Hearing aids out, smoke alarm on",
+      "core_insight": "In a sleep study of adults with hearing loss, a standard high-pitched smoke alarm woke only about half, while a lower-pitched alarm or a bed or pillow shaker woke far more; flashing strobes woke few.",
+      "angle": "Taking hearing aids out at night is normal, and it changes which alarm will wake you. Fire and rescue services can advise on alarms for people who are hard of hearing.",
+      "position": "Anyone with hearing loss who sleeps without hearing aids should have an alarm they can wake to, and can ask their fire and rescue service for a home fire safety visit.",
+      "audience": "public",
+      "series": "Small detail, real effect",
+      "post_type": "public_explanation",
+      "claims_needing_evidence": [
+        "In 38 adults aged 18 to 80 with mild to moderately severe hearing loss, tested in deep sleep, a 520 Hz square wave signal woke 92% at 75 dBA versus 56% for the standard 3100 Hz alarm; bed and pillow shakers woke 80 to 84%; strobe lights woke 27% (laboratory study).",
+        "UK fire and rescue services offer free home fire safety visits and can advise on alarms for people who are deaf or hard of hearing (official service pages; provision varies).",
+        "Optional: fire death rates are higher in older age groups (official fire statistics)."
+      ],
+      "evidence_leads": [
+        "Bruck D, Thomas IR. Smoke alarms for sleeping adults who are hard-of-hearing. Ear Hear 2009;30:73-80. PMID 19125029 (abstract checked).",
+        "Scottish Fire and Rescue Service Home Fire Safety Visit pages (official; not openable here).",
+        "Home Office fire statistics data tables on fatalities by age (official; unsure of table number)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "In a sleep study of adults with hearing loss, a standard high-pitched smoke alarm woke [N to verify] in 100. A lower-pitched alarm woke [N to verify] in 100.",
+      "visual_idea": "Accurate horizontal bar chart from Bruck and Thomas 2009: percentage woken by the standard alarm, the low-pitched alarm, bed or pillow shaker, and strobe light, with n = 38 and the test conditions stated; credit line Bruck, Ear Hear, 2009.",
+      "pause": "A safety fact almost nobody has considered.",
+      "gain": "A specific check and a free service to contact.",
+      "follow": "Small practical details with a real effect on safety.",
+      "earlier_overlap": "E161 and E171 (hearing aids and amplifiers in hospital). This differs: home fire safety during sleep.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-14",
+      "origin": "random",
+      "draw_id": "C11-R13",
+      "stimulus_use": "'Test a familiar slogan against the evidence' and 'averages' led to checking the saying that older people need less sleep against a lifespan meta-analysis; hourglass, insurance claims, queuing and paramedic gave nothing.",
+      "working_title": "Test the saying: older people need less sleep",
+      "core_insight": "In healthy adults most age-related change in measured sleep has happened by about 60; after that only sleep efficiency keeps falling, so marked new sleep trouble in later life is worth looking into.",
+      "angle": "The age effects were smaller in studies that screened out illness, medicines and sleep disorders. Much of what gets called 'old age sleep' is pain, bladder, medicines, mood or breathing problems.",
+      "position": "New or worsening sleep problems in later life should be treated as a symptom to explain, not written off as ageing.",
+      "audience": "both",
+      "series": "Reading the evidence",
+      "post_type": "evidence_interpretation",
+      "claims_needing_evidence": [
+        "A meta-analysis of 65 studies (3,577 people aged 5 to 102) found that in adults total sleep time, sleep efficiency and deep sleep decreased and time awake after sleep onset increased with age, but only sleep efficiency continued to decrease significantly after 60 (meta-analysis).",
+        "Age effects were modified, and sometimes diminished, by how well participants were screened for illness, medicines and sleep disorders (same meta-analysis).",
+        "The US National Sleep Foundation recommends 7 to 8 hours for adults aged 65 and over (consensus panel).",
+        "Sleep complaints in older people are associated with health problems such as pain, depression and respiratory symptoms (epidemiological study)."
+      ],
+      "evidence_leads": [
+        "Ohayon MM et al. Meta-analysis of quantitative sleep parameters from childhood to old age. Sleep 2004;27:1255-73. PMID 15586779 (abstract checked).",
+        "Hirshkowitz M et al. National Sleep Foundation's sleep time duration recommendations. Sleep Health 2015;1:40-43. PMID 29073412.",
+        "Foley DJ et al. Sleep complaints among elderly persons: an epidemiologic study of three communities. Sleep 1995;18:425-32 (unsure)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Sleep changes with age, but in healthy people most of the measured change has happened by about age [N to verify].",
+      "visual_idea": "Two-column card: 'What ageing explains' (slightly lighter, more broken sleep; earlier timing) and 'What usually needs looking at' (pain, needing the toilet, medicines, low mood, snoring with pauses); source line Ohayon, Sleep, 2004. No curve unless drawn from verified data.",
+      "pause": "Challenges an assumption many older people and practitioners hold.",
+      "gain": "Permission to seek help, plus the causes to check.",
+      "follow": "Evidence read carefully and turned into something usable.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-15",
+      "origin": "random",
+      "draw_id": "C11-R14",
+      "stimulus_use": "'Count something nobody counts' pointed at measuring urine volumes overnight rather than only the number of trips; suitcase, aviation checklists, tuning and small print gave nothing.",
+      "working_title": "Count the volume, not only the trips",
+      "core_insight": "A frequency-volume chart over a few days separates making too much urine at night from a bladder that holds less, and the causes and treatments differ.",
+      "angle": "A large night-time volume points away from the bladder: evening diuretics, fluids or alcohol, ankle swelling that is reabsorbed lying down, heart failure, high glucose, untreated sleep apnoea. Bladder drugs will not fix these, and antimuscarinics carry cognitive risks in frail older people.",
+      "position": "Night-time urination in an older person should be assessed with a frequency-volume chart before bladder medicines are started.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "In older adults, nocturnal polyuria is defined as night-time urine exceeding about a third of 24-hour output (International Continence Society standardisation).",
+        "UK guidance recommends a frequency-volume chart or bladder diary in assessing lower urinary tract symptoms (NICE CG97 and NG123; official, not openable here).",
+        "CPAP reduced the number of night-time voids and night urine volume in people with sleep apnoea (meta-analysis of before-after studies).",
+        "Nocturia is associated with falls (pooled RR about 1.2, observational; very low certainty as a cause).",
+        "Antimuscarinic bladder drugs are not recommended for frail older adults with nocturia because of cognitive and falls risks (review; Beers Criteria)."
+      ],
+      "evidence_leads": [
+        "van Kerrebroeck P et al. The standardisation of terminology in nocturia: report from the ICS. Neurourol Urodyn 2002;21:179-83 (unsure).",
+        "Wolff DT et al. Managing nocturia in frail older adults. Drugs Aging 2021;38:95-109. PMID 33230803 (abstract checked).",
+        "Wang T et al. Int Neurourol J 2015;19:178-84. PMID 26620900 (abstract checked).",
+        "Pesonen JS et al. J Urol 2020;203:674-683. PMID 31347956 (abstract checked).",
+        "NICE CG97 Lower urinary tract symptoms in men (official)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Getting up at night to pass urine has two common patterns: too much urine made overnight, or a bladder that holds less. A frequency-volume chart tells them apart.",
+      "visual_idea": "Diagram of two short frequency-volume charts side by side, labelled 'Illustrative example': one with large night-time volumes (causes listed beneath), one with small frequent voids day and night (causes listed beneath).",
+      "pause": "A cheap test that changes the diagnosis.",
+      "gain": "A differential diagnosis and a first investigation.",
+      "follow": "Teaching rounds with bedside value.",
+      "earlier_overlap": "E072 (night-time toilet trips and falls). This differs: diagnosis of the cause of nocturia.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-16",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "About twenty-five minutes a night",
+      "core_insight": "In trials in people over 60, sleeping tablets added on average about 25 minutes of sleep a night, while memory and thinking side effects and daytime tiredness were more common.",
+      "angle": "Put the benefit in minutes next to the harms in the same frame, so the person can weigh them for themselves.",
+      "position": "For most older people with insomnia, the average benefit of a sleeping tablet is small compared with its risks, and CBT for insomnia should be offered first; a short course may still be a reasonable choice for some after discussion.",
+      "audience": "both",
+      "series": "Weighing it up",
+      "post_type": "evidence_interpretation",
+      "claims_needing_evidence": [
+        "A meta-analysis of 24 RCTs (2,417 participants aged 60 and over) found sedative hypnotics increased total sleep time by a mean of 25.2 minutes and reduced night awakenings by 0.63 compared with placebo (meta-analysis).",
+        "Adverse cognitive events and daytime fatigue were more common with sedatives than placebo; absolute numbers or numbers needed to treat and harm are needed from the full text before stating size (meta-analysis).",
+        "In US nursing home residents, Z-drug use was associated with hip fracture, more so in new users (case-crossover study).",
+        "The Beers Criteria advise avoiding benzodiazepines and Z-drugs in older adults (guideline)."
+      ],
+      "evidence_leads": [
+        "Glass J et al. BMJ 2005;331:1169. PMID 16284208; full text PMC1285093 for numbers needed to treat and harm (abstract checked).",
+        "Berry SD et al. Nonbenzodiazepine sleep medication use and hip fractures in nursing home residents. JAMA Intern Med 2013;173:754-61. PMID 23460413 (abstract checked).",
+        "American Geriatrics Society 2023 Beers Criteria. PMID 37139824."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "About [N to verify] extra minutes of sleep a night. That was the average gain from sleeping tablets in trials in people over [N to verify].",
+      "visual_idea": "Comparison card: left panel 'Average gain' with the verified minutes and a note on fewer wakings; right panel 'More common with the tablets' listing memory and thinking problems, daytime tiredness, unsteadiness; if the full text gives numbers needed to treat and harm, show them as two icon arrays; credit line Glass, BMJ, 2005.",
+      "pause": "A small, concrete number that people do not expect.",
+      "gain": "A fair basis for a decision.",
+      "follow": "Weighing it up posts set benefits and harms side by side.",
+      "earlier_overlap": "E071 and E145 (harms of night sedatives). This differs: it quantifies the benefit and frames the trade-off.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-17",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Reading the CBT versus zopiclone trial",
+      "core_insight": "A small Norwegian trial in adults averaging 61 found CBT improved sleep efficiency more than zopiclone at 6 weeks and 6 months, and zopiclone did not differ from placebo on most outcomes.",
+      "angle": "Read it for what it is: 46 people, younger-old, insomnia without major illness, zopiclone 7.5 mg. It agrees with larger evidence and guidelines, but it is too small and too young to carry the argument alone.",
+      "position": "Evidence supports CBT for insomnia before zopiclone in older people; this trial is supportive, not decisive.",
+      "audience": "practitioners",
+      "series": "Reading the evidence",
+      "post_type": "evidence_interpretation",
+      "claims_needing_evidence": [
+        "The trial randomised 46 adults (mean age 60.8) with chronic primary insomnia to CBT (18), zopiclone 7.5 mg (16) or placebo (12) for 6 weeks, with 6-month follow-up of active arms (RCT).",
+        "CBT improved sleep efficiency from 81.4% to 90.1% at 6 months, compared with 82.3% to 81.9% on zopiclone; total sleep time was similar across groups; zopiclone did not differ from placebo for most outcomes (RCT).",
+        "Guidelines recommend CBT-I as first-line treatment for chronic insomnia in adults, including older adults (ACP 2016; European guideline 2023)."
+      ],
+      "evidence_leads": [
+        "Sivertsen B et al. CBT vs zopiclone for chronic primary insomnia in older adults. JAMA 2006;295:2851-8. PMID 16804151 (abstract checked).",
+        "Qaseem A et al. Ann Intern Med 2016;165:125-33. PMID 27136449.",
+        "Riemann D et al. The European Insomnia Guideline 2023. J Sleep Res 2023 (PMID not yet confirmed).",
+        "Morin CM et al. Behavioral and pharmacological therapies for late-life insomnia. JAMA 1999;281:991-9 (unsure)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "The Norwegian trial of CBT against zopiclone in older adults had [N to verify] participants, with an average age of about [N to verify].",
+      "visual_idea": "Annotated study card: population, numbers per arm, dose, duration, main result, and two boxes 'What it shows' and 'What it does not show'; credit line Sivertsen, JAMA, 2006.",
+      "pause": "Practitioners like seeing a familiar citation examined fairly.",
+      "gain": "A reading habit and a clear position.",
+      "follow": "Reading the evidence posts are fair to both the finding and its limits.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-18",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Two sessions and two phone calls",
+      "core_insight": "Brief behavioural treatment for insomnia, delivered by a nurse in two sessions and two phone calls, helped most older adults in a US trial, and nurse-delivered sleep restriction worked in English general practice.",
+      "angle": "Access to CBT-I is limited, but its active parts can be delivered by a trained nurse with a short protocol, and results lasted months.",
+      "position": "Primary care teams should offer brief behavioural treatment for insomnia to older people; the evidence supports nurse delivery.",
+      "audience": "practitioners",
+      "series": "Care that works",
+      "post_type": "good_care",
+      "claims_needing_evidence": [
+        "In 79 older adults (mean age 71.7) with chronic insomnia and common comorbidities, nurse-delivered brief behavioural treatment (2 sessions and 2 phone calls) gave response in 67% versus 25% and remission in 55% versus 13% with printed information at 4 weeks; benefits were maintained at 6 months (RCT).",
+        "In English general practice, four nurse-delivered sleep restriction sessions reduced insomnia severity at 6 months compared with a sleep hygiene booklet and were likely cost-effective; mean participant age was 55 (range 19 to 88) (RCT).",
+        "The AASM suggests multicomponent brief therapies for chronic insomnia (guideline, conditional)."
+      ],
+      "evidence_leads": [
+        "Buysse DJ et al. Efficacy of brief behavioral treatment for chronic insomnia in older adults. Arch Intern Med 2011;171:887-95. PMID 21263078 (abstract checked).",
+        "Kyle SD et al. HABIT. Lancet 2023;402:975-987. PMID 37573859 (abstract checked).",
+        "Edinger JD et al. J Clin Sleep Med 2021;17:255-262. PMID 33164742 (abstract checked)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Two sessions with a nurse and two phone calls: in a trial in older adults with long-standing insomnia, that was the whole treatment.",
+      "visual_idea": "Four-week timeline diagram (session, call, session, call) with the behavioural rules as used in the trial (to be checked against the paper's methods); a verified result box; credit line Buysse, Arch Intern Med, 2011.",
+      "pause": "The brevity is surprising.",
+      "gain": "A model their service could adopt.",
+      "follow": "Care that works posts show what good care needs in practice.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-19",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Dozing in the chair: ask about the medicines",
+      "core_insight": "Falling asleep in the day without meaning to is common in later life but is not explained by age alone; medicines, sleep apnoea, low mood and other illness are common causes worth checking.",
+      "angle": "The question to ask is specific: could one of my medicines be making me sleepy in the day?",
+      "position": "New or increasing daytime sleepiness in an older person deserves a medicines review and a look for causes.",
+      "audience": "public",
+      "series": "Ask this",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "Many medicines commonly taken by older people cause daytime drowsiness, including opioids, gabapentin and pregabalin, sedating antihistamines, some antidepressants, benzodiazepines and Z-drugs, and antipsychotics (BNF or SPC; Beers Criteria).",
+        "Daytime fatigue was more common with sedative hypnotics than placebo in people over 60 (meta-analysis).",
+        "Excessive daytime sleepiness in older people is associated with medical conditions, depression, medicines and sleep disorders rather than age itself (epidemiological study or review)."
+      ],
+      "evidence_leads": [
+        "American Geriatrics Society 2023 Beers Criteria. PMID 37139824.",
+        "Glass J et al. BMJ 2005;331:1169. PMID 16284208 (abstract checked).",
+        "Vaz Fragoso CA, Gill TM. Sleep complaints in community-living older persons: a multifactorial geriatric syndrome. J Am Geriatr Soc 2007;55:1853-66 (unsure).",
+        "Foley DJ et al. Sleep disturbances and chronic disease in older adults. J Psychosom Res 2004 (unsure)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Nodding off in the chair every afternoon is easy to put down to age. Ask whether one of your medicines could be the cause.",
+      "visual_idea": "Question card: 'If you doze off in the day without meaning to, ask: Which of my medicines can cause drowsiness? Do I snore or stop breathing in my sleep? Has my mood changed? Is something waking me at night?'",
+      "pause": "A very common, recognisable situation.",
+      "gain": "Specific questions for the next appointment or pharmacy visit.",
+      "follow": "Ask this posts give words that work in a short appointment.",
+      "earlier_overlap": "E135 and E144 (anticholinergic and other drugs affecting attention). This differs: it starts from the symptom of daytime sleepiness.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-20",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Sleep apnoea in older people may not look sleepy",
+      "core_insight": "Sleep apnoea is common in older people but may show as night-time urination, poor concentration or unrefreshing sleep more than obvious sleepiness, so ask the bed partner.",
+      "angle": "Screening that leans on daytime sleepiness can miss older people; witnessed pauses, loud snoring and nocturia are the history points.",
+      "position": "Consider sleep apnoea in older people with nocturia, cognitive complaints or hard-to-control blood pressure, even when they deny sleepiness.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "Obstructive sleep apnoea becomes more common with age (population polysomnography study or systematic review).",
+        "Older adults with sleep apnoea often report less daytime sleepiness than middle-aged adults with similar severity (review).",
+        "Sleep apnoea is associated with nocturia, and CPAP reduced night-time voids in pooled before-after studies (meta-analysis).",
+        "UK guidance covers assessment of obstructive sleep apnoea in adults (NICE NG202; official, not openable here)."
+      ],
+      "evidence_leads": [
+        "Heinzer R et al. Prevalence of sleep-disordered breathing in the general population: the HypnoLaus study. Lancet Respir Med 2015;3:310-8 (unsure).",
+        "Senaratna CV et al. Prevalence of obstructive sleep apnea in the general population: a systematic review. Sleep Med Rev 2017;34:70-81 (unsure).",
+        "Launois SH, Pepin JL, Levy P. Sleep apnea in the elderly: a specific entity? Sleep Med Rev 2007;11:87-97 (unsure).",
+        "Wang T et al. Int Neurourol J 2015;19:178-84. PMID 26620900 (abstract checked).",
+        "NICE NG202 Obstructive sleep apnoea/hypopnoea syndrome and obesity hypoventilation syndrome in over 16s, 2021 (official)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "An older person with sleep apnoea may say they are not sleepy at all. Ask the person who shares the bedroom about snoring and pauses in breathing.",
+      "visual_idea": "Annotated scene of a bedroom at night, drawn, with labels: loud snoring, pauses in breathing seen by a partner, up to pass urine, morning headache, poor concentration next day; footer with series name.",
+      "pause": "Contradicts the textbook picture of the sleepy patient.",
+      "gain": "History questions and triggers for referral.",
+      "follow": "Teaching that fits the older patients they see.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-21",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Acting out dreams",
+      "core_insight": "Shouting, punching or kicking during dreams in later life can be REM sleep behaviour disorder, which is strongly linked with later Parkinson's disease or dementia with Lewy bodies; it deserves assessment, bedroom safety and a careful conversation.",
+      "angle": "It is often described by the bed partner, not the patient, and often called nightmares or restless sleep. Some antidepressants can bring it on or worsen it.",
+      "position": "Dream enactment in an older adult should prompt a history from the bed partner, referral for assessment, safety advice and medicine review, with an honest, supported discussion about what it may mean.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "In 1,280 people with polysomnography-confirmed idiopathic REM sleep behaviour disorder (mean age 66, 82.5% men), the rate of developing an overt neurodegenerative syndrome was 6.3% per year, and 73.5% had converted after 12 years (multicentre cohort).",
+        "REM sleep behaviour disorder is a core clinical feature in consensus diagnostic criteria for dementia with Lewy bodies (consensus criteria).",
+        "Serotonergic antidepressants can induce or worsen REM sleep behaviour disorder (guideline or review).",
+        "Injuries to the person or bed partner occur, and bedroom safety measures are recommended (guideline)."
+      ],
+      "evidence_leads": [
+        "Postuma RB et al. Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder. Brain 2019;142:744-759. PMID 30789229 (abstract checked).",
+        "McKeith IG et al. Diagnosis and management of dementia with Lewy bodies: fourth consensus report. Neurology 2017;89:88-100 (unsure).",
+        "Howell M et al. Management of REM sleep behavior disorder: an AASM clinical practice guideline. J Clin Sleep Med 2023 (unsure)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Ask the bed partner: does the person act out dreams, shouting, punching or kicking while asleep?",
+      "visual_idea": "Checklist card with four headings: Ask (the bed partner), Assess (refer for a sleep study where available), Protect (bedroom safety: padding, space, moving hazards), Talk (what it may mean, with time and support); credit line Postuma, Brain, 2019 for the conversion figures if used.",
+      "pause": "A striking link most readers will not know.",
+      "gain": "A history question and a humane plan.",
+      "follow": "Teaching that joins sleep, neurology and good communication.",
+      "earlier_overlap": "E004 (Lewy body and frontotemporal dementia under-recorded). This differs: a specific sleep history and its management.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-22",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Restless legs: iron and the medicines list first",
+      "core_insight": "Before treating restless legs in an older person, check iron stores and look for medicines and habits that worsen it; dopamine agonists are no longer suggested for standard use because of worsening over time.",
+      "angle": "The 2025 AASM guideline moved first-line treatment towards iron (when ferritin is 75 or lower, or transferrin saturation below 20%) and gabapentinoids, and away from pramipexole, ropinirole and rotigotine. Common aggravators include sedating antihistamines, serotonergic antidepressants, antidopaminergic drugs, alcohol, caffeine and untreated sleep apnoea.",
+      "position": "Check ferritin and transferrin saturation and review medicines before starting or increasing restless legs treatment; avoid starting dopamine agonists as standard, and weigh gabapentinoid side effects in older people.",
+      "audience": "practitioners",
+      "series": "Teaching round",
+      "post_type": "teaching",
+      "claims_needing_evidence": [
+        "The AASM advises iron studies (ferritin and transferrin saturation) in all patients with clinically significant restless legs, with iron treatment if ferritin is 75 ng/mL or lower or transferrin saturation below 20% (guideline).",
+        "The first step is to address aggravating factors: alcohol, caffeine, antihistaminergic, serotonergic and antidopaminergic medicines, and untreated obstructive sleep apnoea (guideline).",
+        "The AASM suggests against standard use of levodopa, pramipexole, ropinirole and rotigotine, and recommends gabapentin, gabapentin enacarbil and pregabalin (guideline).",
+        "Gabapentinoids can cause dizziness and sedation, relevant to falls in older people (SPC or Beers Criteria)."
+      ],
+      "evidence_leads": [
+        "Winkelman JW et al. Treatment of restless legs syndrome and periodic limb movement disorder: an AASM clinical practice guideline. J Clin Sleep Med 2025;21:137-152. PMID 39324694 (abstract checked).",
+        "American Geriatrics Society 2023 Beers Criteria. PMID 37139824.",
+        "NICE CKS Restless legs syndrome (official; not openable here; UK practice may differ from the US guideline)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Restless legs in an older person: check ferritin and the medicines list before writing a new prescription.",
+      "visual_idea": "Flow diagram: confirm the features (urge to move, worse at rest and in the evening, eased by moving) then check iron then remove aggravators then choose treatment, with a side note on why dopamine agonists are now avoided as standard; credit line Winkelman, JCSM, 2025.",
+      "pause": "A guideline change many clinicians have not caught up with.",
+      "gain": "An up-to-date sequence to follow.",
+      "follow": "Teaching that keeps practice current.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-23",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Benzodiazepines and dementia: two studies side by side",
+      "core_insight": "A Quebec case-control study linked benzodiazepine use with Alzheimer's disease, but a Seattle cohort found no rise in risk with heavier use, so the dementia link is uncertain; the case for reducing them rests on better-established harms.",
+      "angle": "Insomnia and anxiety can be early signs of dementia, so the tablets may follow the illness rather than cause it. Fear of dementia should not lead to sudden stopping; falls, fractures and next-morning effects are the reasons to plan a slow reduction.",
+      "position": "The dementia link has not been established; long-term benzodiazepines in older people should still be reduced slowly and with support because of falls, fractures and next-day impairment.",
+      "audience": "both",
+      "series": "Reading the evidence",
+      "post_type": "evidence_interpretation",
+      "claims_needing_evidence": [
+        "A case-control study of 1,796 people with Alzheimer's disease and 7,184 controls in Quebec found ever use of benzodiazepines associated with Alzheimer's disease (adjusted OR 1.51; 1.43 after further adjustment for anxiety, depression and insomnia), stronger with longer exposure (case-control study).",
+        "A prospective cohort of 3,434 people aged 65 and over in Seattle found slightly higher dementia risk with low use but not with the highest use (HR 1.07, 95% CI 0.82 to 1.39), and no faster cognitive decline; the authors concluded the results do not support a causal link (cohort study).",
+        "Z-drug use was associated with hip fracture in nursing home residents (case-crossover study); sedative hypnotics caused more adverse cognitive and psychomotor events than placebo (meta-analysis)."
+      ],
+      "evidence_leads": [
+        "Billioti de Gage S et al. Benzodiazepine use and risk of Alzheimer's disease: case-control study. BMJ 2014;349:g5205. PMID 25208536 (abstract checked).",
+        "Gray SL et al. Benzodiazepine use and risk of incident dementia or cognitive decline. BMJ 2016;352:i90. PMID 26837813 (abstract checked).",
+        "Berry SD et al. JAMA Intern Med 2013;173:754-61. PMID 23460413 (abstract checked).",
+        "Glass J et al. BMJ 2005;331:1169. PMID 16284208 (abstract checked)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Headlines have linked benzodiazepines, including some sleeping tablets, with dementia. Two large studies, read side by side, give a less certain answer.",
+      "visual_idea": "Comparison card with two columns (Quebec case-control 2014; Seattle cohort 2016): design, number of people, finding, main limitation; bottom strip 'What to do' (do not stop suddenly; ask about a slow, supported reduction).",
+      "pause": "A common worry among people who take these tablets and their families.",
+      "gain": "A calm, accurate reading and a clear next step.",
+      "follow": "Reading the evidence posts separate association from cause without dismissing risk.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-24",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Melatonin: realistic expectations",
+      "core_insight": "Prescribed prolonged-release melatonin is licensed in the UK for short-term use in people aged 55 and over with insomnia, with modest effects; in Alzheimer's disease it may make little or no difference to sleep, and melatonin bought online can contain very different amounts from the label.",
+      "angle": "Feeling natural does not tell you whether it works or how much you are taking. Decide in advance what would count as success and when to stop if it does not help.",
+      "position": "Melatonin can be a reasonable short trial for some older people with realistic expectations and a review date; it is not a proven treatment for sleep problems in dementia, and prescribed or regulated products are preferable.",
+      "audience": "public",
+      "series": "Weighing it up",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "In the UK, prolonged-release melatonin 2 mg is licensed for short-term treatment of primary insomnia in people aged 55 and over, for up to 13 weeks (SPC; official, not openable here).",
+        "A Cochrane review found low-certainty evidence that melatonin up to 10 mg may have little or no effect on major sleep outcomes over 8 to 10 weeks in people with Alzheimer's disease and sleep disturbance (systematic review).",
+        "Melatonin supplements sold without prescription have been found to contain amounts very different from the label (product analysis studies in Canada and the US).",
+        "In people with primary sleep disorders, melatonin modestly shortened time to fall asleep (meta-analysis)."
+      ],
+      "evidence_leads": [
+        "McCleery J, Sharpley AL. Pharmacotherapies for sleep disturbances in dementia. Cochrane Database Syst Rev 2020;11:CD009178. PMID 33189083 (abstract checked).",
+        "Erland LA, Saxena PK. Melatonin natural health products and supplements: presence of serotonin and significant variability of melatonin content. J Clin Sleep Med 2017;13:275-281. PMID 27855744.",
+        "Cohen PA et al. Quantity of melatonin and CBD in melatonin gummies sold in the US. JAMA 2023;329:1401-1402. PMID 37097362 (unsure of title wording).",
+        "Ferracioli-Oda E et al. Meta-analysis: melatonin for the treatment of primary sleep disorders. PLoS One 2013 (unsure).",
+        "Circadin SPC (official)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Melatonin is often chosen because it feels natural. In trials in people with Alzheimer's disease and poor sleep, it may make little or no difference.",
+      "visual_idea": "Three-column card: 'What prescribed melatonin is for' (licence, age, duration), 'What the evidence does not show' (benefit in Alzheimer's sleep problems), 'What to ask' (what counts as success, when to review, where the product comes from). No numbers unless verified.",
+      "pause": "Widely used and widely assumed to help.",
+      "gain": "Realistic expectations and questions to ask.",
+      "follow": "Weighing it up posts give fair, practical judgements.",
+      "earlier_overlap": "E139 (over-the-counter sleep remedies containing sedating antihistamines). This differs: melatonin's evidence and product quality.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-25",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Quetiapine is not a sleeping tablet",
+      "core_insight": "Low-dose quetiapine and other sedating antipsychotics are sometimes used as sleeping tablets in older people despite limited evidence for insomnia and known harms, including higher risk of stroke and death in people with dementia.",
+      "angle": "A small dose does not change the drug class or its risks; the reason for starting is often not recorded, and it can continue for years.",
+      "position": "Antipsychotics should not be used to treat insomnia in older people; any antipsychotic given for sleep should be reviewed with a view to tapering.",
+      "audience": "practitioners",
+      "series": "Weighing it up",
+      "post_type": "criticism",
+      "claims_needing_evidence": [
+        "Evidence for quetiapine as a treatment for insomnia disorder is limited (review).",
+        "The Beers Criteria advise avoiding antipsychotics in older adults except for specific indications, citing increased risk of stroke and mortality in people with dementia (guideline).",
+        "UK regulators have warned about increased risk of stroke and death with antipsychotics in older people with dementia (MHRA; official, not openable here).",
+        "Optional: low-dose quetiapine is associated with adverse outcomes in observational studies (cohort study; needs a specific source)."
+      ],
+      "evidence_leads": [
+        "Atkin T, Comai S, Gobbi G. Drugs for insomnia beyond benzodiazepines. Pharmacol Rev 2018;70:197-245. PMID 29487083 (abstract checked: limited evidence for quetiapine in insomnia disorder).",
+        "American Geriatrics Society 2023 Beers Criteria. PMID 37139824.",
+        "Maust DT et al. Antipsychotics, other psychotropics, and the risk of death in patients with dementia. JAMA Psychiatry 2015;72:438-45 (unsure).",
+        "MHRA Drug Safety Update on antipsychotics in elderly people with dementia (official; unsure of date)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "A small dose of quetiapine at night is still an antipsychotic.",
+      "visual_idea": "Statement card with the opening line, and beneath it a three-row comparison: what it is licensed for, what it is sometimes used for at night, what the evidence shows for insomnia.",
+      "pause": "Names a common practice directly.",
+      "gain": "A clear rationale to review these prescriptions.",
+      "follow": "Direct, evidence-based prescribing posts.",
+      "earlier_overlap": "E140 (haloperidol in delirium) and E057 (antipsychotics before personal care). This differs: antipsychotics used as hypnotics.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-26",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "The carer's nights",
+      "core_insight": "Many family carers of people with dementia have disturbed sleep, and their own nights should be part of a carer's assessment and support plan.",
+      "angle": "The person being cared for may get a sleep assessment; the carer who is up at 3am often gets none. Night sitting, respite and treating the causes of the person's waking can help both.",
+      "position": "Carer assessments should ask about the carer's nights and lead to specific help; it is wrong to plan care that assumes unlimited unpaid night work (ethical judgement).",
+      "audience": "public",
+      "series": "Who gets left out",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "About two-thirds of family carers of people with dementia experience some form of sleep disturbance during caregiving; contributors include disrupted night routines, strain and depression, and the carer's own health (review).",
+        "Unpaid carers in the UK have a legal right to an assessment of their own needs (Care Act 2014 in England; adult carer support plans under the Carers (Scotland) Act 2016; official).",
+        "Night-time disturbance in the person with dementia is associated with carer distress and with moves into care homes (primary cohort study needed; a review's background statement is not enough)."
+      ],
+      "evidence_leads": [
+        "McCurry SM et al. Sleep disturbances in caregivers of persons with dementia. Sleep Med Rev 2007;11:143-53. PMID 17287134 (abstract checked).",
+        "Care Act 2014, section 10 (official).",
+        "Carers (Scotland) Act 2016 (official).",
+        "Hope T et al. Predictors of institutionalization for people with dementia living at home with a carer. Int J Geriatr Psychiatry 1998;13:682-90 (unsure)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "If you care for someone who is up in the night, your own sleep belongs in the carer's assessment.",
+      "visual_idea": "Question card for carers: 'Say how many nights a week you are woken, what for, how long it takes to settle, and how you are the next day. Ask about night sitting, respite, and whether the causes of the night waking have been looked at.'",
+      "pause": "Carers recognise themselves and feel seen.",
+      "gain": "Words to use and requests to make.",
+      "follow": "Practical support for carers that does not assume endless unpaid work.",
+      "earlier_overlap": "E154 and E160 (family endurance and advocacy in hospital). This differs: the carer's own sleep at home and the carer's assessment.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-27",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Ask a care home about the night",
+      "core_insight": "When choosing or reviewing a care home, ask what happens at night: bedtimes and who decides them, how night checks are done, how continence care is given, and how noise and light are managed.",
+      "angle": "Residents spend many hours of each day in bed or at night; homes that individualise bedtimes and night care protect sleep and dignity, and a good home will have clear answers.",
+      "position": "Families and residents are entitled to ask specific questions about night-time care, and the answers help judge a home.",
+      "audience": "public",
+      "series": "Ask this",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "Many nursing home residents have fragmented night sleep and excessive daytime sleeping (in one US screening, 339 of 492 residents had excessive daytime sleeping) (RCT screening data).",
+        "Night-time noise, light and routine continence care disrupt residents' sleep (observational and intervention studies in nursing homes).",
+        "UK care standards require care that reflects residents' preferences, including daily routines (CQC Regulation 9; Scottish Health and Social Care Standards; official)."
+      ],
+      "evidence_leads": [
+        "Alessi CA et al. J Am Geriatr Soc 2005;53:803-10. PMID 15877555 (abstract checked).",
+        "Schnelle JF et al. The nursing home at night: effects of an intervention on noise, light, and sleep. J Am Geriatr Soc 1999;47:430-8 (unsure).",
+        "Schnelle JF et al. The relationship between night-time sleep and incontinence care in nursing homes, J Am Geriatr Soc 1993 (unsure).",
+        "CQC Regulation 9: Person-centred care (official).",
+        "Health and Social Care Standards, Scotland 2017 (official)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "Most care home visits happen in daylight. Ask what happens between 8pm and 8am.",
+      "visual_idea": "Question card with five questions: What time do residents go to bed, and who decides? How are night checks done, and can they be changed for one person? How is continence care done at night? How are noise and lights kept down? What happens if someone is awake at 3am?",
+      "pause": "Families choosing a home rarely think to ask about nights.",
+      "gain": "A ready list of questions for a visit or review.",
+      "follow": "Ask this posts turn worry into specific questions.",
+      "earlier_overlap": "E082 (falls in care homes). This differs: night-time routines and sleep.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-28",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Treating insomnia and later depression",
+      "core_insight": "In a trial of older adults with insomnia, CBT for insomnia roughly halved new or recurrent major depression over three years compared with sleep education.",
+      "angle": "Treating insomnia properly may prevent depression as well as improve nights. Read with care: one site, mostly White participants, and fewer CBT participants completed follow-up.",
+      "position": "Insomnia in later life deserves proper treatment with CBT for insomnia; the depression finding is promising but comes from one trial.",
+      "audience": "both",
+      "series": "Reading the evidence",
+      "post_type": "evidence_interpretation",
+      "claims_needing_evidence": [
+        "The trial randomised 291 adults aged 60 and over (mean 70.1) with insomnia and no current major depression to 2 months of CBT-I or sleep education therapy (RCT).",
+        "Incident or recurrent major depression occurred in 12.2% of the CBT-I group and 25.9% of the sleep education group over follow-up (HR 0.51) (RCT).",
+        "Follow-up completion at 24 months was lower in the CBT-I group (73%) than the comparison group (87%), and the sample was 83% White (RCT)."
+      ],
+      "evidence_leads": [
+        "Irwin MR et al. Prevention of incident and recurrent major depression in older adults with insomnia: a randomized clinical trial. JAMA Psychiatry 2022;79:33-41. PMID 34817561 (abstract checked)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "In a trial of older adults with insomnia, [N to verify] in 100 who had CBT developed major depression over three years, against [N to verify] in 100 who had sleep education.",
+      "visual_idea": "Two icon arrays of 100 (CBT-I and sleep education) with verified proportions shaded, time period and denominators labelled, and a limitation strip; credit line Irwin, JAMA Psychiatry, 2022.",
+      "pause": "An unexpected benefit of a sleep treatment.",
+      "gain": "A reason to treat insomnia and a model of reading a trial fairly.",
+      "follow": "Reading the evidence posts give the result and its limits.",
+      "earlier_overlap": "none",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-29",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Desmopressin for night-time urination: the sodium cost",
+      "core_insight": "Desmopressin reduces urine made overnight but carries a high risk of low sodium in older people, so it needs careful selection and early sodium checks and is best avoided in frail older adults.",
+      "angle": "The drug that targets the right mechanism for nocturnal polyuria also carries the most dangerous side effect for this age group.",
+      "position": "Desmopressin should rarely be used for nocturia in older people, and only with baseline and early sodium monitoring; the Beers Criteria advise avoiding it for this purpose.",
+      "audience": "practitioners",
+      "series": "Weighing it up",
+      "post_type": "decision_support",
+      "claims_needing_evidence": [
+        "In a US cohort of new users (mean age 70), hyponatraemia was diagnosed at 146 per 1,000 person-years with desmopressin versus 11 per 1,000 with oxybutynin (cohort study; limitations include unmeasured confounding and few baseline sodium results).",
+        "A review of nocturia in frail older adults concluded desmopressin is not recommended in the frail because of hyponatraemia risk (review).",
+        "The 2023 Beers Criteria advise avoiding desmopressin for nocturia or nocturnal polyuria (guideline; check current wording).",
+        "Licensed low-dose formulations require sodium monitoring, with extra caution from age 65 (SPC; official, not openable here)."
+      ],
+      "evidence_leads": [
+        "Fralick M et al. Desmopressin and the risk of hyponatremia: a population-based cohort study. PLoS Med 2019;16:e1002930. PMID 31634354 (abstract checked).",
+        "Wolff DT et al. Drugs Aging 2021;38:95-109. PMID 33230803 (abstract checked).",
+        "American Geriatrics Society 2023 Beers Criteria. PMID 37139824.",
+        "Noqdirna SPC (official; unsure)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "Desmopressin reduces the urine made overnight. In a US cohort with an average age of [N to verify], low sodium was diagnosed at [N to verify] per 1,000 person-years, against [N to verify] with oxybutynin.",
+      "visual_idea": "Accurate two-bar chart of hyponatraemia rate per 1,000 person-years (desmopressin versus oxybutynin) with the cohort description and a note on limitations; side box 'If used: baseline sodium, early repeat, stop if low'; credit line Fralick, PLoS Med, 2019.",
+      "pause": "The size of the rate difference.",
+      "gain": "Safer prescribing decisions for nocturia.",
+      "follow": "Weighing it up posts show benefits and harms in numbers.",
+      "earlier_overlap": "E189 (low sodium presenting as personality change). This differs: a specific nocturia drug decision.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-30",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "The bedtime drink",
+      "core_insight": "Alcohol can help people fall asleep but tends to disrupt sleep in the second half of the night, and can worsen snoring, sleep apnoea and restless legs.",
+      "angle": "A drink to get off to sleep can be one reason for waking at 4am. A simple test is to stop the bedtime drink for two weeks and see what happens to the early hours.",
+      "position": "If you drink to help you sleep, try stopping the bedtime drink for a couple of weeks and see whether early-morning waking improves.",
+      "audience": "public",
+      "series": "Small detail, real effect",
+      "post_type": "public_explanation",
+      "claims_needing_evidence": [
+        "Alcohol shortens the time to fall asleep and deepens sleep early in the night, with more disruption in the second half (review).",
+        "Alcohol is linked with a higher risk or severity of sleep apnoea (meta-analysis).",
+        "Alcohol is an aggravating factor for restless legs (AASM guideline).",
+        "Older people reach higher blood alcohol levels than younger people after the same amount (review or official source)."
+      ],
+      "evidence_leads": [
+        "Ebrahim IO et al. Alcohol and sleep I: effects on normal sleep. Alcohol Clin Exp Res 2013;37:539-49. PMID 23347102.",
+        "Simou E, Britton J, Leonardi-Bee J. Alcohol and the risk of sleep apnoea: a systematic review and meta-analysis. Sleep Med 2018;42:38-46 (unsure).",
+        "Winkelman JW et al. J Clin Sleep Med 2025;21:137-152. PMID 39324694 (abstract checked: alcohol listed as an aggravating factor).",
+        "A source on age and blood alcohol concentration (unsure)."
+      ],
+      "evidence_risk": "medium",
+      "opening_line_draft": "A drink at bedtime can help you fall asleep. It also tends to break up sleep in the early hours.",
+      "visual_idea": "Diagram of one night from 23:00 to 07:00, labelled 'Illustrative, based on review findings', showing deeper sleep early and more waking later after alcohol; a small note 'Try two weeks without the bedtime drink'.",
+      "pause": "A common habit with a surprising effect.",
+      "gain": "A simple, free experiment.",
+      "follow": "Practical sleep advice grounded in evidence.",
+      "earlier_overlap": "E147 (alcohol withdrawal presenting in hospital). This differs: alcohol's effect on sleep at home.",
+      "delirium_check": "delirium is not the topic"
+    },
+    {
+      "cand_id": "C11-31",
+      "origin": "non_random",
+      "draw_id": null,
+      "stimulus_use": null,
+      "working_title": "Offer the warm drink first",
+      "core_insight": "On a medical ward, offering older patients a warm drink, a back rub and relaxation audio before any sleeping tablet reduced sedative use from about half of patients to under a third.",
+      "angle": "Making the non-drug option the first thing a nurse offers changes prescribing. Limits: a before-and-after study on one US ward in the 1990s; people already on long-term sleeping tablets were more likely to decline.",
+      "position": "Wards should offer a non-drug sleep routine before a sleeping tablet for older patients who are awake, and record what was offered.",
+      "audience": "both",
+      "series": "Care that works",
+      "post_type": "good_care",
+      "claims_needing_evidence": [
+        "In 111 patients aged 70 and over (mean 79.3) on a general medical unit, a nurse-delivered protocol of back rub, warm drink and relaxation tapes, offered before any sedative-hypnotic, reduced sedative-hypnotic use from 54% at baseline to 31% (prospective cohort with pre-intervention comparison).",
+        "Sleep quality correlated with the number of protocol parts received, and adherence was 74% of patient-days (same study).",
+        "Chronic sedative-hypnotic users were more likely to refuse the protocol (64% versus 41%) (same study)."
+      ],
+      "evidence_leads": [
+        "McDowell JA, Mion LC, Lydon TJ, Inouye SK. A nonpharmacologic sleep protocol for hospitalized older patients. J Am Geriatr Soc 1998;46:700-5. PMID 9625184 (abstract checked).",
+        "Wesselius HM et al. JAMA Intern Med 2018;178:1201-1208. PMID 30014139 (context on in-hospital sleep disturbers)."
+      ],
+      "evidence_risk": "low",
+      "opening_line_draft": "A warm drink, a back rub and a relaxation recording, offered before any sleeping tablet: on one medical ward, sleeping tablet use in older patients fell from [N to verify] in 100 to [N to verify] in 100.",
+      "visual_idea": "Before-and-after icon arrays of 100 patients with the verified proportions given a sedative-hypnotic, three simple drawn icons (cup, hands, headphones), and the label 'Before-and-after study on one ward'; credit line McDowell, JAGS, 1998.",
+      "pause": "A humane, cheap routine with a clear effect.",
+      "gain": "A routine a ward can adopt tonight.",
+      "follow": "Care that works posts show ordinary care done deliberately.",
+      "earlier_overlap": "E170 (daylight) and E164 (multicomponent prevention using ordinary objects). This differs: a specific nursing routine offered before hypnotics.",
+      "delirium_check": "delirium is not the topic (the study came from a research group known for delirium work; the post will not mention delirium)"
+    }
+  ]
+}
