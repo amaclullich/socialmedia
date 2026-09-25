@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><script src="../kit.js"></script></head><body><div class="sheet">
+<div class="card" id="q"><div class="topline"><span class="series">Test</span><span class="slidecount">1</span></div><div class="content"><h1 class="s">Quick start test</h1><div class="scene" id="s1"></div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">test</span></div></div>
+<div class="card" id="q2"><div class="topline"><span class="series">Test</span><span class="slidecount">2</span></div><div class="content"><h1 class="s">Sofa and kitchen test</h1><div class="scene" id="s2"></div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">test</span></div></div>
+</div><script>
+const W = 1000, H = 900, S = 1.4, g = 830;
+Kit.draw('#s1', W, H, [
+  Kit.room('home_living', { w: W, h: H, ground: g, scale: S }),
+  Kit.window({ x: 560, y: g - 70 * S - 300, scale: 1.2, curtains: 'mustard' }),
+  Kit.person({ pose: 'seated_side', seat: 'armchair', x: 300, y: g, scale: S, age: 'older', sex: 'f', skin: 'brown', hair: 'white', hairStyle: 'coily', top: 'plum', bottom: 'stone', extras: ['glasses', 'cardigan'] }),
+  Kit.person({ pose: 'seated_talking', x: 700, y: g, scale: S, facing: 'left', age: 'older', skin: 'fair', hair: 'grey', hairStyle: 'balding', top: 'sage' }),
+  Kit.plant({ x: 930, y: g - 6, scale: 1.2 }),
+], { cls: 'art' });
+const S2=1.3,g2=840;
+const t = Kit.anchor('kitchen_counter', { x: 760, y: g2, scale: S2 });
+Kit.draw('#s2', W, H, [
+  Kit.room('care_home_lounge', { w: W, h: H, ground: g2, scale: S2 }),
+  Kit.sofa({ x: 300, y: g2, seats: 2, scale:S2 }),
+  Kit.person({ pose: 'seated_front', seat: 'none', seatHeight: Kit.dims.sofaSeat, x: 300-55*S2, y: g2, scale:S2, age:'older', sex:'f', skin:'light', hair:'white', hairStyle:'bob', top:'teal', bottom:'plum', bottomStyle:'skirt', legs:'#D9B9A0' }),
+  Kit.person({ pose: 'seated_front', seat: 'none', seatHeight: Kit.dims.sofaSeat, x: 300+55*S2, y: g2, scale:S2, age:'older', skin:'dark', hair:'grey', hairStyle:'short', top:'mustard', bottom:'navy', hold:'cup' }),
+  Kit.kitchen_counter({ x: 760, y: g2, scale: S2, w: 300, sink:true }),
+  Kit.kettle({ x: t.top.x - 90, y: t.top.y, scale: S2 }),
+  Kit.person({ pose: 'standing', x: 700, y: g2+40, scale: S2, facing:'left', role:'care_worker', skin:'olive', hair:'dark', hairStyle:'ponytail', sex:'f', hold:'cup' }),
+], { cls: 'art' });
+</script></body></html>
