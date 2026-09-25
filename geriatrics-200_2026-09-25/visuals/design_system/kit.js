@@ -647,7 +647,9 @@
     r.shadow = [0, 60];
     return r;
   };
-  POSES.arm_in_arm = POSES.walking;
+  /* arm_in_arm on its own: walking with the far arm bent forward to link with a partner drawn behind.
+     Kit.linkArms(a, b) does the pairing for you and is the recommended route. */
+  POSES.arm_in_arm = (c, g) => { const r = POSES.walking(c, g); r.armFK('far', 36, 40); r.farArmLate = false; return r; };
   Kit.poses = Object.keys(POSES);
 
   function seatLayers(r, c, g, si) {
