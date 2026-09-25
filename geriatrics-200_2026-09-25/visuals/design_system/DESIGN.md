@@ -76,3 +76,10 @@ One per card, 400 characters or fewer. Describe what the card says and shows: th
 3. Check any chart against its data: bar lengths, counts of filled marks, labels, denominators, time periods.
 4. Check the drawing against the brief: the right people, posture, equipment and setting; nothing broken (limbs, joints, floating figures); nothing that stereotypes or mocks.
 5. Check nothing touches the card edge, nothing overlaps, and the render report is clean.
+
+## Lessons from the kit reference sheet (review, 25 September)
+
+- Figures read well at card size but become small inside wide comic panels. In comics and scenes, draw people large: the main figure should be at least 45% of the panel height, and crop the room tightly around the action rather than showing the whole room.
+- Standing profile figures look stiff when shown alone; give them something to do (holding, reaching, turning towards someone) and vary poses in any group.
+- Arm-in-arm pairs and small props (folded glasses, a call bell) need a larger scale or a numbered pin to be legible at phone size.
+- Prefer one clear scene per card over busy rooms. The drawing should show the point of the post at a glance.
