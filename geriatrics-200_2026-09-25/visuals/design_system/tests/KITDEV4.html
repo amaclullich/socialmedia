@@ -15,9 +15,9 @@
   <div class="kicker">Example: annotated scene</div>
   <h1 class="s">Everything he needs, out of reach</h1>
   <div class="scene" id="sceneB">
-   <div class="callout" style="left:28px;top:26px"><span class="n">1</span>Call bell on the table, not at his hand</div>
-   <div class="callout" style="left:28px;top:118px"><span class="n">2</span>Glasses folded, too far away</div>
-   <div class="callout" style="left:28px;top:210px"><span class="n">3</span>Water jug he cannot reach</div>
+   <div class="callout" style="left:20px;top:20px;width:282px"><span class="n">1</span>Call bell on the table, not by his hand</div>
+   <div class="callout" style="left:319px;top:20px;width:282px"><span class="n">2</span>Glasses folded, out of reach</div>
+   <div class="callout" style="left:618px;top:20px;width:282px"><span class="n">3</span>Water jug too far away to pour</div>
   </div>
  </div>
  <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kit example scene</span></div>
@@ -63,44 +63,43 @@ const K = Kit;
 })();
 /* Scene B: hospital bed, bell glasses and jug out of reach */
 (function(){
-  const W=1000,H=860,S=1.25,g=790;
-  const bt=K.anchor('bedside_table',{x:880,y:g,scale:S});
-  const svg=K.draw('#sceneB',W,H,[
+  const W=1000,H=860,S=1.32,g=800;
+  const btX=790, bt=K.anchor('bedside_table',{x:btX,y:g,scale:S});
+  K.draw('#sceneB',W,H,[
     K.room('hospital_bay',{w:W,h:H,ground:g,scale:S}),
-    K.curtain({x:30,y:g-40,scale:S,w:120}),
-    K.person({pose:'sitting_up_bed',x:360,y:g,scale:S,age:'older',skin:'olive',hair:'grey',hairStyle:'balding',top:'paleblue',blanket:'#DDE8EE'}),
-    K.bedside_table({x:880,y:g,scale:S}),
-    K.water_jug({x:bt.left.x-8,y:bt.top.y,scale:S}),
-    K.glasses({x:bt.right.x+4,y:bt.top.y,scale:S*0.9,folded:true}),
-    K.call_bell({x:bt.right.x+18,y:bt.top.y-2,scale:S*0.85,angle:-90,cable:true,cableTo:{x:40,y:-160}}),
+    K.curtain({x:-10,y:g-40,scale:S,w:110}),
+    K.person({pose:'sitting_up_bed',x:330,y:g,scale:S,age:'older',skin:'olive',hair:'grey',hairStyle:'balding',top:'paleblue',blanket:'#DDE8EE'}),
+    K.bedside_table({x:btX,y:g,scale:S}),
+    K.water_jug({x:bt.left.x-6,y:bt.top.y,scale:S*1.1}),
+    K.glasses({x:bt.right.x+10,y:bt.top.y,scale:S*1.1,folded:true}),
+    K.call_bell({x:bt.right.x+14,y:bt.top.y-16,scale:S*1.05,angle:-90,cableTo:{x:-20,y:120}}),
   ],{cls:'art'});
-  requestAnimationFrame(()=>{});
-  K.pins('#sceneB',[{n:1,x:bt.right.x-30,y:bt.top.y-70},{n:2,x:bt.right.x+4,y:bt.top.y-60},{n:3,x:bt.left.x-8,y:bt.top.y-150}]);
+  K.pins('#sceneB',[{n:1,x:bt.right.x-6,y:bt.top.y-72},{n:2,x:bt.right.x+36,y:bt.top.y-42},{n:3,x:bt.left.x-10,y:bt.top.y-160}]);
 })();
 /* Scene C: three-panel strip */
 (function(){
   const W=1000,H=240;
   const man={age:'older',skin:'tan',hair:'saltpepper',hairStyle:'short',top:'navy',bottom:'stone',extras:['glasses'],build:'broad'};
   const ph={role:'pharmacist',skin:'light',hair:'auburn',hairStyle:'bob',sex:'f'};
-  const S=0.78,g=330;
+  const S=0.98,g=410;
   const cnt=K.anchor('kitchen_counter',{x:520,y:g,scale:S});
   K.draw('#p1',W,H,[K.room('gp_room',{w:W,h:H,ground:g,scale:S}),
-    K.person(Object.assign({pose:'standing',x:720,y:g,scale:S,facing:'left',tilt:22,hands:{near:{x:560,y:cnt.top.y-30}}},ph)),
+    K.person(Object.assign({pose:'standing',x:740,y:g,scale:S,facing:'left',tilt:22,hands:{near:{x:590,y:cnt.top.y-34}}},ph)),
     K.kitchen_counter({x:520,y:g,scale:S,w:360,colour:'pale',top:'#E9E4DA'}),
-    K.person(Object.assign({pose:'standing',x:330,y:g,scale:S,tilt:24,hold:'bag'},man)),
+    K.person(Object.assign({pose:'standing',x:300,y:g,scale:S,tilt:24,hold:'bag'},man)),
     K.medicine_bottle({x:470,y:cnt.top.y,scale:S,type:'box'}),K.medicine_bottle({x:505,y:cnt.top.y,scale:S}),K.medicine_bottle({x:540,y:cnt.top.y,scale:S,type:'box',band:'gold'}),K.medicine_bottle({x:505,y:cnt.top.y-26*S,scale:S,type:'box',band:'plum'}),K.medicine_bottle({x:575,y:cnt.top.y,scale:S,type:'blister'}),K.medicine_bottle({x:610,y:cnt.top.y,scale:S,colour:'#E9EDEC'}),
   ]);
-  const S2=0.74,g2=320,tb=K.anchor('table',{x:500,y:g2,scale:S2});
+  const S2=0.92,g2=365,tb=K.anchor('table',{x:500,y:g2,scale:S2});
   K.draw('#p2',W,H,[K.room('gp_room',{w:W,h:H,ground:g2,scale:S2}),
-    K.person(Object.assign({pose:'seated_side',x:690,y:g2,scale:S2,facing:'left',tilt:4},ph)),
-    K.person(Object.assign({pose:'seated_talking',x:300,y:g2,scale:S2},man)),
-    K.table({x:500,y:g2,scale:S2,w:200}),
+    K.person(Object.assign({pose:'seated_side',x:720,y:g2,scale:S2,facing:'left',tilt:4},ph)),
+    K.person(Object.assign({pose:'seated_talking',x:270,y:g2,scale:S2},man)),
+    K.table({x:500,y:g2,scale:S2,w:230}),
     K.pill_organiser({x:500,y:tb.top.y,scale:S2*0.9,open:[0,1,2],pills:3}),
   ]);
   K.draw('#p3',W,H,[K.room('gp_room',{w:W,h:H,ground:g,scale:S}),
-    K.person(Object.assign({pose:'standing',x:720,y:g,scale:S,facing:'left',tilt:6},ph)),
+    K.person(Object.assign({pose:'standing',x:740,y:g,scale:S,facing:'left',tilt:6},ph)),
     K.kitchen_counter({x:520,y:g,scale:S,w:360,colour:'pale',top:'#E9E4DA'}),
-    K.person(Object.assign({pose:'standing',x:330,y:g,scale:S,tilt:4,hands:{near:{x:470,y:cnt.top.y-24}}},man)),
+    K.person(Object.assign({pose:'standing',x:300,y:g,scale:S,tilt:4,hands:{near:{x:452,y:cnt.top.y-22}}},man)),
     K.medicine_bottle({x:520,y:cnt.top.y,scale:S,type:'box'}),K.medicine_bottle({x:560,y:cnt.top.y,scale:S}),
     K.pill_organiser({x:470,y:cnt.top.y,scale:S*0.7,pills:2}),
   ]);

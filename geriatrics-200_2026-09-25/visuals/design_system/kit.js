@@ -278,7 +278,7 @@
     let s = g.p(HEAD_SIDE, c.skin);
     const earHidden = ['long', 'bob', 'headscarf', 'wavy'].includes(c.hairStyle);
     if (!earHidden) s += g.e(-3, 1, 5, 8, shade(c.skin, 0.93));
-    if (c.extras.has('beard')) s += g.p('M-7,5C-6,16 1,27 12,27C19,26 23,20 25,9C21,14 14,16 8,14C2,12 -3,9 -7,5Z', c.o.beardColour ? hairCol(c.o.beardColour) : c.hair);
+    if (c.extras.has('beard')) s += g.p('M-5,11C-1,22 7,29 15,29C21,28 25,22 26,13C22,18 15,21 9,20C3,19 -1,16 -5,11Z', c.o.beardColour ? hairCol(c.o.beardColour) : c.hair);
     s += hairMarkup(c, g, false);
     if (c.extras.has('hearing_aid') && c.hairStyle !== 'headscarf') s += g.p('M-9,-9C-13,-6 -14,2 -12,8C-11,10 -8,10 -8,8C-9,3 -8,-3 -6,-7C-5,-9 -7,-10 -9,-9Z', '#9AA5AB') + g.t('M-7,-8C-4,-11 0,-8 -1,-3', OL, 1.6);
     if (c.extras.has('glasses')) s += g.t('M-2,-3L19,-4', OL, 2.4) + g.r(18, -8.5, 8, 11, 3, 'rgba(227,241,242,.9)');
@@ -289,7 +289,7 @@
     const earHidden = ['long', 'bob', 'headscarf', 'wavy'].includes(c.hairStyle);
     if (!earHidden) s += g.e(-21.5, 2, 5, 8, shade(c.skin, 0.93)) + g.e(21.5, 2, 5, 8, shade(c.skin, 0.93));
     s += g.p(HEAD_FRONT, c.skin);
-    if (c.extras.has('beard')) s += g.p('M-21,4C-20,20 -10,29 0,29C10,29 20,20 21,4C16,12 8,15 0,15C-8,15 -16,12 -21,4Z', c.o.beardColour ? hairCol(c.o.beardColour) : c.hair);
+    if (c.extras.has('beard')) s += g.p('M-20,8C-18,22 -9,30 0,30C9,30 18,22 20,8C16,16 9,20 0,20C-9,20 -16,16 -20,8Z', c.o.beardColour ? hairCol(c.o.beardColour) : c.hair);
     s += hairMarkup(c, g, true);
     if (c.extras.has('hearing_aid') && !earHidden) s += g.p('M24,-9C28,-8 29,-2 28,4C27,6 25,6 25,4C26,0 25,-4 23,-7Z', '#9AA5AB');
     if (c.extras.has('glasses')) s += g.r(-16, -6, 12, 8, 3, 'rgba(227,241,242,.75)') + g.r(4, -6, 12, 8, 3, 'rgba(227,241,242,.75)') + g.t('M-4,-2.5Q0,-5 4,-2.5M-16,-3H-21M16,-3H21', OL, 2);
@@ -1287,12 +1287,13 @@
   Kit.at = (x, y, s, markup, flip) => G(markup, T(x, y, s == null ? 1 : s, flip ? -1 : 1));
   Kit.scene = function (w, h, children, o = {}) {
     const body = flat(children || []).filter(Boolean).join('');
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="${o.fit || 'xMidYMid slice'}"${o.cls ? ` class="${o.cls}"` : ''}${o.style ? ` style="${o.style}"` : ''} aria-hidden="true">${o.bg ? `<rect x="-2000" y="-2000" width="${w + 4000}" height="${h + 4000}" fill="${cc(o.bg)}"/>` : ''}${body}</svg>`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="${o.fit || 'xMidYMid slice'}"${o.cls ? ` class="${o.cls}"` : ''}${o.style ? ` style="${o.style}"` : ''}  data-kit="1" aria-hidden="true"><g class="bleed">${o.bg ? `<rect x="-2000" y="-2000" width="${w + 4000}" height="${h + 4000}" fill="${cc(o.bg)}"/>` : ''}${body}</g></svg>`;
   };
   Kit.draw = function (target, w, h, children, o) {
     const svg = Kit.scene(w, h, children, o);
     const els = typeof target === 'string' ? document.querySelectorAll(target) : [target];
-    els.forEach(el => { if (el) el.innerHTML = svg; });
+    // insert as the first child, keeping any HTML callouts or pins already in the host
+    els.forEach(el => { if (!el) return; [...el.children].forEach(ch => { if (ch.tagName.toLowerCase() === 'svg' && ch.dataset.kit) ch.remove(); }); el.insertAdjacentHTML('afterbegin', svg); });
     return svg;
   };
 
