@@ -1,0 +1,206 @@
+/* Geriatrics 200 collection: design system base. Layout unit is a 1080 x 1350 card (4:5),
+   rendered at device scale 2 to 2160 x 2700. See DESIGN.md for rules. */
+
+@font-face { font-family: "Montserrat"; font-weight: 600; src: url("fonts/montserrat-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 700; src: url("fonts/montserrat-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 800; src: url("fonts/montserrat-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 900; src: url("fonts/montserrat-latin-900-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 400; src: url("fonts/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 400; font-style: italic; src: url("fonts/inter-latin-400-italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 500; src: url("fonts/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url("fonts/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 700; src: url("fonts/inter-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 800; src: url("fonts/inter-latin-800-normal.woff2") format("woff2"); }
+
+:root {
+  --ground: #FBFAF6;   /* off-white card ground */
+  --ink: #1F2A30;      /* primary text */
+  --ink-2: #5F6B76;    /* secondary text */
+  --deep: #0F3C4F;     /* deep teal: dark panels and dark cards */
+  --teal: #15535B;     /* teal: headings on light, structure */
+  --mint: #DCEBEA;     /* mint panels */
+  --pale: #B9CDCC;     /* pale teal: rules, empty marks */
+  --orange: #C24E12;   /* emphasis on light grounds only, never on teal */
+  --gold: #D9A441;     /* text on deep teal only */
+  --sand: #EFE6D6;     /* warm illustration ground */
+  --line: #D9DEDC;     /* hairlines */
+  --chart-a: #00909A;  /* chart series A (validated pair with --chart-b) */
+  --chart-b: #C24E12;  /* chart series B */
+  --chart-empty: #D5DEDD; /* unfilled marks */
+  --white: #FFFFFF;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #E9ECEB; }
+body { font-family: "Inter", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+.sheet { display: flex; flex-wrap: wrap; gap: 40px; padding: 40px; }
+
+/* ---------- the card ---------- */
+.card {
+  position: relative; width: 1080px; height: 1350px; overflow: hidden;
+  background: var(--ground); color: var(--ink);
+  display: flex; flex-direction: column;
+  padding: 72px 80px 0 80px;
+}
+.card.dark { background: var(--deep); color: var(--white); }
+.card.mint { background: var(--mint); }
+.card.sand { background: var(--sand); }
+
+.topline { display: flex; justify-content: space-between; align-items: center; height: 44px; flex: 0 0 auto; }
+.series {
+  font-family: "Montserrat"; font-weight: 800; font-size: 26px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--teal); display: flex; align-items: center; gap: 14px;
+}
+.series::before { content: ""; width: 34px; height: 8px; border-radius: 4px; background: var(--orange); display: inline-block; }
+.card.dark .series { color: var(--gold); }
+.card.dark .series::before { background: var(--gold); }
+.slidecount { font-family: "Inter"; font-weight: 600; font-size: 26px; color: var(--ink-2); }
+.card.dark .slidecount { color: #B9CDCC; }
+
+.content { flex: 1 1 auto; display: flex; flex-direction: column; padding-top: 44px; min-height: 0; }
+.content.center { justify-content: center; }
+.content.bottom { justify-content: flex-end; padding-bottom: 40px; }
+
+.foot {
+  flex: 0 0 auto; height: 112px; display: flex; justify-content: space-between; align-items: center;
+  border-top: 2px solid var(--line); margin: 0 -80px; padding: 0 80px;
+  font-size: 24px; color: var(--ink-2); gap: 28px;
+}
+.card.dark .foot { border-top-color: rgba(255,255,255,0.18); color: #C9D6D5; }
+.foot .author { font-family: "Montserrat"; font-weight: 800; color: var(--teal); white-space: nowrap; font-size: 25px; }
+.card.dark .foot .author { color: var(--white); }
+.foot .src { text-align: right; line-height: 1.3; }
+
+/* ---------- type ---------- */
+.kicker { font-family: "Inter"; font-weight: 700; font-size: 30px; color: var(--orange); margin-bottom: 18px; }
+.card.dark .kicker { color: var(--gold); }
+h1, .h1 { font-family: "Montserrat"; font-weight: 800; font-size: 84px; line-height: 1.04; letter-spacing: -0.015em; color: var(--ink); }
+h1.xl, .h1.xl { font-size: 100px; }
+h1.m, .h1.m { font-size: 70px; }
+h1.s, .h1.s { font-size: 60px; }
+.card.dark h1, .card.dark .h1 { color: var(--white); }
+h1 em, .h1 em { font-style: normal; color: var(--orange); }
+.card.dark h1 em, .card.dark .h1 em { color: var(--gold); }
+h2, .h2 { font-family: "Montserrat"; font-weight: 800; font-size: 50px; line-height: 1.1; color: var(--teal); }
+.card.dark h2, .card.dark .h2 { color: var(--gold); }
+h3, .h3 { font-family: "Montserrat"; font-weight: 700; font-size: 36px; line-height: 1.2; color: var(--ink); }
+.card.dark h3 { color: var(--white); }
+.lead { font-size: 40px; line-height: 1.35; font-weight: 500; margin-top: 32px; }
+.body { font-size: 34px; line-height: 1.42; font-weight: 400; margin-top: 24px; }
+.small { font-size: 28px; line-height: 1.38; color: var(--ink-2); }
+.card.dark .small { color: #C9D6D5; }
+.content > p + p, .panel > p + p, .col > p + p { margin-top: 20px; }
+.mt-s { margin-top: 20px; } .mt-m { margin-top: 40px; } .mt-l { margin-top: 64px; } .mt-auto { margin-top: auto; }
+b, strong { font-weight: 700; }
+
+/* ---------- big number ---------- */
+.bignum { font-family: "Montserrat"; font-weight: 800; font-size: 240px; line-height: 0.92; letter-spacing: -0.03em; color: var(--orange); }
+.bignum.m { font-size: 180px; }
+.card.dark .bignum { color: var(--gold); }
+.bignum-label { font-size: 38px; line-height: 1.3; font-weight: 600; margin-top: 18px; max-width: 880px; }
+
+/* ---------- panels ---------- */
+.panel { background: var(--white); border-radius: 22px; padding: 40px 44px; border: 2px solid var(--line); }
+.panel.mint { background: var(--mint); border-color: var(--mint); }
+.panel.deep { background: var(--deep); border-color: var(--deep); color: var(--white); }
+.panel.deep h3 { color: var(--gold); }
+.panel.sand { background: var(--sand); border-color: var(--sand); }
+.panel + .panel { margin-top: 28px; }
+
+/* ---------- badges and labels ---------- */
+.badge { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 24px; letter-spacing: 0.04em; text-transform: uppercase;
+  border-radius: 999px; padding: 10px 22px; background: var(--mint); color: var(--teal); }
+.badge.illustrative { background: var(--white); color: var(--ink-2); border: 2px dashed var(--ink-2); }
+.badge.measured { background: var(--teal); color: var(--white); }
+.card.dark .badge { background: rgba(255,255,255,0.12); color: var(--white); }
+
+/* ---------- numbered list / checklist ---------- */
+.steps { list-style: none; counter-reset: s; margin-top: 36px; display: flex; flex-direction: column; gap: 26px; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 76px 1fr; gap: 26px; align-items: start; font-size: 34px; line-height: 1.36; }
+.steps li::before { content: counter(s); width: 64px; height: 64px; border-radius: 50%; background: var(--teal); color: var(--white);
+  font-family: "Montserrat"; font-weight: 800; font-size: 32px; display: flex; align-items: center; justify-content: center; margin-top: -4px; }
+.card.dark .steps li::before { background: var(--gold); color: var(--deep); }
+.steps li b { display: block; font-size: 36px; margin-bottom: 4px; }
+
+.ticks { list-style: none; margin-top: 30px; display: flex; flex-direction: column; gap: 22px; }
+.ticks li { display: grid; grid-template-columns: 56px 1fr; gap: 18px; font-size: 34px; line-height: 1.36; align-items: start; }
+.ticks li::before { content: ""; width: 44px; height: 44px; border-radius: 10px; border: 4px solid var(--teal); margin-top: 2px;
+  background: linear-gradient(135deg, transparent 0 0); }
+.ticks li.q::before { content: "?"; font-family: "Montserrat"; font-weight: 800; font-size: 30px; color: var(--white); background: var(--orange);
+  border-color: var(--orange); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+
+/* ---------- comparison ---------- */
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 40px; flex: 1 1 auto; min-height: 0; }
+.compare .col { border-radius: 22px; padding: 36px 34px; display: flex; flex-direction: column; gap: 20px; }
+.compare .col.a { background: var(--white); border: 3px solid var(--pale); }
+.compare .col.b { background: var(--mint); border: 3px solid var(--teal); }
+.compare .col h3 { font-size: 34px; line-height: 1.2; }
+.compare .col .tag { font-family: "Montserrat"; font-weight: 800; font-size: 24px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
+.compare .col.b .tag { color: var(--teal); }
+.compare .col p, .compare .col li { font-size: 31px; line-height: 1.36; }
+.compare .col ul { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+.compare .col ul li { padding-left: 34px; position: relative; }
+.compare .col.a ul li::before { content: ""; position: absolute; left: 0; top: 14px; width: 16px; height: 16px; border-radius: 50%; border: 3px solid var(--ink-2); }
+.compare .col.b ul li::before { content: ""; position: absolute; left: 0; top: 13px; width: 18px; height: 18px; border-radius: 4px; background: var(--teal); }
+
+/* two-row comparison (stacked) */
+.rowcompare { display: flex; flex-direction: column; gap: 22px; margin-top: 36px; }
+.rowcompare .row { display: grid; grid-template-columns: 260px 1fr; gap: 26px; align-items: center; border-radius: 18px; padding: 26px 30px; background: var(--white); border: 2px solid var(--line); }
+.rowcompare .row .k { font-family: "Montserrat"; font-weight: 800; font-size: 28px; color: var(--teal); text-transform: uppercase; letter-spacing: 0.04em; }
+.rowcompare .row .v { font-size: 32px; line-height: 1.34; }
+
+/* ---------- simple flow (HTML) ---------- */
+.flow { display: flex; flex-direction: column; gap: 0; margin-top: 36px; }
+.flow .step { background: var(--white); border: 3px solid var(--teal); border-radius: 18px; padding: 24px 30px; font-size: 32px; line-height: 1.32; }
+.flow .step.alt { border-color: var(--orange); }
+.flow .step.fill { background: var(--teal); color: var(--white); }
+.flow .step b { font-family: "Montserrat"; font-weight: 800; }
+.flow .arrow { height: 54px; display: flex; align-items: center; justify-content: flex-start; padding-left: 60px; color: var(--teal); font-size: 26px; font-weight: 600; gap: 20px; }
+.flow .arrow::before { content: ""; width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-top: 22px solid var(--teal); }
+
+/* ---------- timeline ---------- */
+.timeline { position: relative; margin-top: 40px; padding-left: 70px; display: flex; flex-direction: column; gap: 30px; }
+.timeline::before { content: ""; position: absolute; left: 22px; top: 12px; bottom: 12px; width: 6px; border-radius: 3px; background: var(--pale); }
+.timeline .ev { position: relative; }
+.timeline .ev::before { content: ""; position: absolute; left: -62px; top: 6px; width: 34px; height: 34px; border-radius: 50%; background: var(--ground); border: 6px solid var(--teal); }
+.timeline .ev.hot::before { border-color: var(--orange); background: var(--orange); }
+.timeline .ev .t { font-family: "Montserrat"; font-weight: 800; font-size: 28px; color: var(--teal); text-transform: uppercase; letter-spacing: 0.04em; }
+.timeline .ev .d { font-size: 32px; line-height: 1.34; margin-top: 4px; }
+
+/* ---------- quote-free speech for illustrative comics ---------- */
+.strip { display: grid; gap: 22px; margin-top: 30px; flex: 1 1 auto; min-height: 0; }
+.strip.p3 { grid-template-rows: repeat(3, 1fr); }
+.strip.p4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+.panelbox { border: 4px solid var(--ink); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; background: var(--white); min-height: 0; }
+.panelbox .art { flex: 1 1 auto; position: relative; min-height: 0; background: var(--sand); }
+.panelbox .art svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.panelbox .cap { flex: 0 0 auto; padding: 16px 22px; font-size: 27px; line-height: 1.3; background: var(--white); border-top: 4px solid var(--ink); }
+.panelbox .cap b { font-weight: 700; }
+.bubble { position: absolute; background: var(--white); border: 3px solid var(--ink); border-radius: 22px; padding: 12px 18px; font-size: 25px; line-height: 1.25; max-width: 60%; }
+.bubble::after { content: ""; position: absolute; bottom: -20px; left: 40px; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 20px solid var(--ink); }
+
+/* ---------- annotated scene ---------- */
+.scene { position: relative; flex: 1 1 auto; min-height: 0; margin-top: 24px; border-radius: 22px; overflow: hidden; background: var(--sand); }
+.scene svg.art { position: absolute; inset: 0; width: 100%; height: 100%; }
+.callout { position: absolute; background: var(--white); border: 3px solid var(--teal); border-radius: 16px; padding: 12px 18px; font-size: 26px; line-height: 1.25; font-weight: 600; max-width: 360px; }
+.callout .n { display: inline-flex; width: 38px; height: 38px; border-radius: 50%; background: var(--orange); color: var(--white); font-family: "Montserrat"; font-weight: 800; font-size: 22px; align-items: center; justify-content: center; margin-right: 10px; vertical-align: middle; }
+.pin { position: absolute; width: 44px; height: 44px; border-radius: 50%; background: var(--orange); color: var(--white); border: 4px solid var(--white);
+  font-family: "Montserrat"; font-weight: 800; font-size: 24px; display: flex; align-items: center; justify-content: center; transform: translate(-50%, -50%); box-shadow: 0 0 0 3px var(--orange); }
+
+/* ---------- charts (SVG produced by chart.js) ---------- */
+.chart { margin-top: 30px; width: 100%; }
+.chart text { font-family: "Inter"; }
+.legend { display: flex; gap: 34px; flex-wrap: wrap; margin-top: 18px; font-size: 28px; color: var(--ink); }
+.legend .k { display: inline-flex; align-items: center; gap: 12px; }
+.legend .sw { width: 28px; height: 28px; border-radius: 6px; display: inline-block; }
+.chartnote { font-size: 26px; line-height: 1.35; color: var(--ink-2); margin-top: 16px; }
+
+/* ---------- utilities ---------- */
+.row { display: flex; gap: 30px; align-items: center; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.grow { flex: 1 1 auto; min-height: 0; }
+.center-text { text-align: center; }
+.muted { color: var(--ink-2); }
+.teal { color: var(--teal); } .orange { color: var(--orange); } .gold { color: var(--gold); }
+.rule { height: 4px; width: 120px; background: var(--orange); border-radius: 2px; margin: 34px 0; }
+.card.dark .rule { background: var(--gold); }

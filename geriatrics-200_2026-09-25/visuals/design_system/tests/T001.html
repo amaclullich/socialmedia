@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><script src="../chart.js"></script></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">1/4</span></div>
+ <div class="content center">
+  <div class="kicker">Test layout only, placeholder text</div>
+  <h1>Glasses in the drawer, <em>not on the face</em></h1>
+  <p class="lead">A test of the statement card. Plain lead text at 40 pixels, legible at phone size.</p>
+  <p class="body">Body text at 34 pixels. One idea per sentence. This card uses no real data.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Placeholder source line</span></div>
+</div>
+<div class="card dark" id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/4</span></div>
+ <div class="content center">
+  <div class="bignum">1 in 3</div>
+  <div class="bignum-label">Placeholder label for a big number. Not a real figure.</div>
+  <div class="rule"></div>
+  <p class="body">Secondary text on the deep teal ground.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Placeholder</span></div>
+</div>
+<div class="card" id="s3">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">3/4</span></div>
+ <div class="content">
+  <h1 class="s">Recorded against experienced</h1>
+  <div class="compare">
+   <div class="col a"><span class="tag">In the notes</span><h3>Column A heading</h3><ul><li>First point placeholder</li><li>Second point here</li><li>Third point</li></ul></div>
+   <div class="col b"><span class="tag">At home</span><h3>Column B heading</h3><ul><li>First point placeholder</li><li>Second point here</li><li>Third point</li></ul></div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Placeholder</span></div>
+</div>
+<div class="card" id="s4">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">4/4</span></div>
+ <div class="content">
+  <h1 class="s">Chart test with placeholder numbers</h1>
+  <div id="bars" class="chart"></div>
+  <div class="legend"><span class="k"><span class="sw" style="background:#00909A"></span>Group A</span><span class="k"><span class="sw" style="background:#C24E12"></span>Group B</span></div>
+  <div class="grid2 mt-m"><div id="ia1"></div><div id="ia2"></div></div>
+  <div class="grid2"><p class="small">12 in 100 (placeholder)</p><p class="small">27 in 100 (placeholder)</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Placeholder</span></div>
+</div>
+</div>
+<script>
+barChart('#bars',[{label:'Group A placeholder',value:12,display:'12%',colour:'a'},{label:'Group B placeholder',value:27,display:'27%',colour:'b'}],{max:40,width:920,ticks:[0,10,20,30,40],tickFmt:t=>t+'%'});
+iconArray('#ia1',{filled:12,fillColour:'a',size:34,gap:7});
+iconArray('#ia2',{filled:27,fillColour:'b',size:34,gap:7});
+</script></body></html>
