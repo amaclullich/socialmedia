@@ -67,6 +67,7 @@
     return `M${pt(a1)}L${pt(b1)}A${n1(r2)} ${n1(r2)} 0 ${s < 0 ? 1 : 0} 0 ${pt(b2)}L${pt(a2)}A${n1(r1)} ${n1(r1)} 0 ${s > 0 ? 1 : 0} 0 ${pt(a1)}Z`;
   }
   function circP(c, r) { return `M${n1(c.x - r)},${n1(c.y)}a${n1(r)},${n1(r)} 0 1 0 ${n1(2 * r)},0a${n1(r)},${n1(r)} 0 1 0 ${n1(-2 * r)},0Z`; }
+  function rrP(x, y, w, h, r) { r = Math.min(r, w / 2, h / 2); return `M${n1(x + r)},${n1(y)}H${n1(x + w - r)}A${r} ${r} 0 0 1 ${n1(x + w)},${n1(y + r)}V${n1(y + h - r)}A${r} ${r} 0 0 1 ${n1(x + w - r)},${n1(y + h)}H${n1(x + r)}A${r} ${r} 0 0 1 ${n1(x)},${n1(y + h - r)}V${n1(y + r)}A${r} ${r} 0 0 1 ${n1(x + r)},${n1(y)}Z`; }
   function ellP(c, rx, ry, a) { const u = rot(P(rx, 0), a || 0), p1 = add(c, u), p2 = sub(c, u); return `M${pt(p1)}A${n1(rx)} ${n1(ry)} ${n1(a || 0)} 1 0 ${pt(p2)}A${n1(rx)} ${n1(ry)} ${n1(a || 0)} 1 0 ${pt(p1)}Z`; }
   /* Catmull-Rom through points, as cubic beziers */
   function smooth(pts, closed, k) {
@@ -193,7 +194,7 @@
     const tt = r.tan(1);
     r.N = add(top, mul(tt, 12));
     r.ha = angUp(tt) + r.tilt;
-    r.H = add(add(r.N, upv(r.ha, 33)), mul(r.fn(1), c.age === 'older' ? 2.5 : 0));
+    r.H = add(add(r.N, upv(r.ha, 35)), mul(r.fn(1), c.age === 'older' ? 2.5 : 0));
     r.leg = (w, ankle, foot) => { const k = ik(r.hip, ankle, LEN.thigh, LEN.shin, -1); r.legs[w] = { hip: r.hip, knee: k.m, ankle: k.end, foot: foot || 0 }; };
     r.legK = (w, knee, ankle, foot) => { const kn = add(r.hip, mul(nrm(sub(knee, r.hip)), LEN.thigh)); const an = add(kn, mul(nrm(sub(ankle, kn)), LEN.shin)); r.legs[w] = { hip: r.hip, knee: kn, ankle: an, foot: foot || 0 }; };
     r.arm = (w, hand, bend) => { const k = ik(r.S, hand, LEN.upper, LEN.fore, bend == null ? 1 : bend); r.arms[w] = { sh: r.S, el: k.m, hand: k.end }; };
@@ -204,36 +205,53 @@
   function onThigh(L, f, lift) { const d = nrm(sub(L.knee, L.hip)); let n = P(d.y, -d.x); if (n.y > 0) n = mul(n, -1); return add(lerp(L.hip, L.knee, f), mul(n, lift)); }
 
   /* ---------------- head, hair and face-free details ---------------- */
+  const HS = 1.08; // head scale: slightly larger than life reads better at phone size
   const HEAD_SIDE = 'M1,-29C15,-29 25,-19 25,-5C25,6 23,14 18,21C13,27 6,29 -1,28C-9,27 -16,23 -20,16C-25,8 -27,-3 -25,-12C-22,-23 -12,-29 1,-29Z';
+  /* hair: [shapes], plus optional strand lines (drawn inside) so hair never reads as a helmet */
   const HAIR_SIDE = {
-    short: ['M20,-15C18,-31 -4,-37 -19,-28C-30,-20 -31,-1 -24,15C-21,18 -16,19 -13,17C-14,8 -12,-2 -7,-7C-1,-11 7,-11 13,-12C16,-12 19,-13 20,-15Z'],
-    cropped: ['M19,-18C15,-30 -5,-33 -18,-26C-27,-19 -28,-3 -23,13L-16,13C-16,5 -13,-3 -8,-8C-2,-12 6,-14 12,-15C15,-16 17,-17 19,-18Z'],
-    balding: ['M-4,-20C-15,-21 -25,-14 -27,-2C-28,7 -25,14 -20,18L-14,16C-15,8 -13,-1 -8,-5C-5,-8 -2,-9 2,-10C0,-14 -2,-17 -4,-20Z'],
-    bun: ['M21,-14C18,-31 -4,-36 -19,-28C-28,-21 -29,-6 -24,7L-13,4C-12,-3 -8,-8 -3,-10C4,-13 13,-12 21,-14Z', 'circle:-25,-19,11'],
-    long: ['M20,-16C17,-32 -7,-38 -22,-27C-32,-18 -32,-2 -30,14C-29,30 -30,42 -26,52C-19,56 -12,55 -7,50C-10,38 -10,24 -8,12C-6,2 -3,-6 3,-10C9,-13 15,-13 20,-16Z'],
-    bob: ['M21,-13C19,-32 -7,-38 -22,-28C-32,-19 -32,1 -29,17C-27,24 -19,27 -10,25C-11,16 -9,5 -3,-3C3,-9 13,-9 21,-13Z'],
-    wavy: ['M21,-14C18,-33 -8,-38 -23,-27C-33,-17 -31,0 -32,12C-33,22 -27,30 -30,38C-24,44 -14,42 -9,36C-12,28 -9,18 -9,10C-8,0 -4,-7 3,-10C9,-12 15,-11 21,-14Z'],
+    short: ['M21,-18C18,-32 -4,-36 -18,-29C-29,-22 -31,-6 -26,8C-24,13 -21,16 -18,17L-13,13C-12,6 -10,-2 -7,-8C-4,-11 1,-11 3,-8L4,-2L8,-2L9,-10C12,-13 17,-15 21,-18Z'],
+    pixie: ['M22,-15C21,-33 -6,-39 -21,-30C-32,-22 -33,-4 -27,10C-25,15 -20,17 -16,15C-15,8 -12,0 -8,-6C-4,-10 2,-10 6,-9C12,-9 18,-11 22,-15Z'],
+    cropped: ['M19,-20C15,-31 -5,-33 -18,-27C-27,-20 -28,-5 -24,8L-15,10C-13,2 -10,-5 -6,-9C-2,-11 2,-10 3,-7L4,-3L7,-3L8,-10C11,-15 15,-18 19,-20Z'],
+    balding: ['M6,-8C1,-15 -10,-18 -20,-16C-27,-11 -29,2 -26,10C-24,14 -21,17 -18,17L-13,13C-12,6 -10,-2 -7,-7C-4,-10 1,-10 3,-7L4,1L7,1Z'],
+    bun: ['M21,-15C19,-32 -4,-37 -19,-29C-28,-23 -30,-8 -25,6L-16,8C-14,0 -10,-7 -5,-10C2,-13 12,-12 21,-15Z', 'circle:-27,-15,11'],
+    ponytail: ['M21,-15C19,-32 -4,-37 -19,-29C-28,-23 -30,-8 -25,6L-16,8C-14,0 -10,-7 -5,-10C2,-13 12,-12 21,-15Z', 'M-24,-20C-34,-18 -38,-6 -38,8C-38,22 -34,34 -30,42C-26,40 -26,30 -27,20C-28,8 -26,-4 -20,-12Z'],
+    long: ['M21,-16C18,-33 -7,-39 -22,-28C-32,-19 -32,-2 -31,14C-30,30 -31,44 -27,54C-20,58 -12,57 -7,52C-10,40 -10,26 -8,14C-6,4 -3,-5 3,-10C9,-13 15,-13 21,-16Z'],
+    bob: ['M22,-13C20,-33 -7,-39 -22,-29C-33,-20 -33,0 -30,16C-28,23 -20,27 -10,26C-11,16 -9,5 -3,-3C3,-9 13,-9 22,-13Z'],
+    wavy: ['M22,-14C19,-33 -8,-39 -23,-28C-33,-18 -32,-2 -33,10C-34,20 -28,28 -31,37C-25,44 -14,42 -9,35C-12,27 -9,18 -9,10C-8,0 -4,-7 3,-10C9,-12 15,-11 22,-14Z'],
     curly: 'CURLY', coily: 'COILY',
     headscarf: ['M17,-20C11,-36 -16,-39 -29,-25C-38,-13 -37,11 -33,27C-30,42 -34,54 -40,64L26,64C28,52 26,40 20,31C14,31 8,27 8,20C9,9 11,-4 17,-20Z']
   };
+  const STRANDS_SIDE = {
+    short: 'M15,-24C5,-30 -8,-29 -17,-20M-2,-31C-12,-29 -22,-20 -24,-6', pixie: 'M16,-24C4,-31 -10,-29 -19,-18M2,-32C-12,-31 -24,-20 -26,-4',
+    cropped: '', balding: 'M-6,-14C-14,-13 -21,-8 -23,2', bun: 'M15,-24C4,-30 -10,-29 -20,-20M8,-31C-4,-34 -16,-28 -22,-21',
+    ponytail: 'M15,-24C4,-30 -10,-29 -20,-20M-32,-2C-33,12 -31,26 -29,36', long: 'M13,-25C0,-31 -14,-25 -21,-10C-24,6 -22,26 -19,46', bob: 'M15,-24C1,-30 -14,-25 -21,-8C-23,2 -22,14 -19,22',
+    wavy: 'M14,-25C0,-31 -14,-25 -21,-10C-24,2 -18,14 -23,26', headscarf: 'M-2,-34C-16,-30 -28,-16 -30,4M-26,30C-22,42 -24,52 -30,60'
+  };
   const HEAD_FRONT = 'M0,-28C13,-28 22,-17 22,-2C22,14 13,28 0,28C-13,28 -22,14 -22,-2C-22,-17 -13,-28 0,-28Z';
   const HAIR_FRONT = {
-    short: ['M-24,6C-27,-16 -15,-32 0,-32C15,-32 27,-16 24,6C22,0 21,-7 17,-12C9,-18 -9,-18 -17,-12C-21,-7 -22,0 -24,6Z'],
-    cropped: ['M-23,0C-25,-17 -14,-30 0,-30C14,-30 25,-17 23,0C22,-6 20,-11 16,-15C8,-19 -8,-19 -16,-15C-20,-11 -22,-6 -23,0Z'],
+    short: ['M-24,4C-27,-17 -15,-32 0,-32C15,-32 27,-17 24,4L21,4C21,-5 20,-10 17,-14C9,-19 -9,-19 -17,-14C-20,-10 -21,-5 -21,4Z'],
+    pixie: ['M-25,8C-28,-16 -16,-33 0,-33C16,-33 28,-16 25,8C23,0 22,-6 18,-11C10,-15 -4,-18 -12,-13C-18,-10 -21,-4 -22,6Z'],
+    cropped: ['M-23,0C-25,-17 -14,-30 0,-30C14,-30 25,-17 23,0L21,0C21,-8 19,-12 16,-16C8,-20 -8,-20 -16,-16C-19,-12 -21,-8 -21,0Z'],
     balding: ['M-24,8C-26,-2 -24,-12 -19,-17C-17,-10 -18,-2 -18,8Z', 'M24,8C26,-2 24,-12 19,-17C17,-10 18,-2 18,8Z'],
-    bun: ['circle:0,-31,10', 'M-24,4C-26,-16 -15,-31 0,-31C15,-31 26,-16 24,4C22,-2 21,-8 17,-13C9,-18 -9,-18 -17,-13C-21,-8 -22,-2 -24,4Z'],
+    bun: ['circle:0,-32,10', 'M-24,4C-26,-16 -15,-31 0,-31C15,-31 26,-16 24,4C22,-2 21,-8 17,-13C9,-18 -9,-18 -17,-13C-21,-8 -22,-2 -24,4Z'],
+    ponytail: ['M-24,4C-26,-16 -15,-31 0,-31C15,-31 26,-16 24,4C22,-2 21,-8 17,-13C9,-18 -9,-18 -17,-13C-21,-8 -22,-2 -24,4Z'],
     long: ['M-20,-13C-12,-19 12,-19 20,-13C23,-4 22,14 22,40L31,45C34,20 31,-4 27,-17C21,-31 -21,-31 -27,-17C-31,-4 -34,20 -31,45L-22,40C-22,14 -23,-4 -20,-13Z'],
     bob: ['M-20,-12C-12,-19 12,-19 20,-12C23,-4 23,10 24,20C27,24 31,20 30,14C32,-4 30,-20 22,-27C12,-34 -12,-34 -22,-27C-30,-20 -32,-4 -30,14C-31,20 -27,24 -24,20C-23,10 -23,-4 -20,-12Z'],
     wavy: ['M-20,-12C-12,-19 12,-19 20,-12C23,-2 21,14 25,30C29,36 34,30 31,22C34,6 31,-14 24,-24C14,-35 -14,-35 -24,-24C-31,-14 -34,6 -31,22C-34,30 -29,36 -25,30C-21,14 -23,-2 -20,-12Z'],
     curly: 'CURLY', coily: 'COILY',
     headscarf: ['M0,-37C21,-37 32,-21 32,1C32,21 31,33 41,60L-41,60C-31,33 -32,21 -32,1C-32,-21 -21,-37 0,-37ZM0,-22C-11,-22 -16,-12 -16,0C-16,13 -9,23 0,23C9,23 16,13 16,0C16,-12 11,-22 0,-22Z']
   };
+  const STRANDS_FRONT = {
+    short: 'M-6,-30C-2,-24 6,-22 14,-24', pixie: 'M-4,-31C0,-24 8,-20 16,-20', bun: 'M0,-30V-19M-10,-28C-8,-22 -5,-19 -2,-18M10,-28C8,-22 5,-19 2,-18', ponytail: 'M0,-30V-19M-10,-28C-8,-22 -5,-19 -2,-18M10,-28C8,-22 5,-19 2,-18',
+    long: 'M-2,-29C-1,-24 0,-21 0,-19M-26,-6C-27,10 -26,26 -26,38M26,-6C27,10 26,26 26,38', bob: 'M-2,-31C-1,-26 0,-22 0,-19M-26,-4C-27,6 -26,14 -26,18M26,-4C27,6 26,14 26,18',
+    wavy: 'M-2,-31C-1,-26 0,-22 0,-19M-27,-2C-28,10 -25,20 -28,28M27,-2C28,10 25,20 28,28', balding: '', cropped: '', headscarf: 'M-20,-26C-28,-12 -28,10 -26,28M20,-26C28,-12 28,10 26,28'
+  };
   function curls(front, big) {
     const out = [], rr = big ? 11.5 : 9, rad = big ? 27 : 24.5;
-    const a0 = front ? -200 : -214, a1 = front ? 20 : 62, step = big ? 21 : 19;
+    const a0 = front ? -200 : -212, a1 = front ? 20 : -36, step = big ? 21 : 19;
     for (let a = a0; a <= a1 + 0.1; a += step) { const x = Math.cos(a * R) * rad, y = Math.sin(a * R) * rad - (big ? 3 : 2); out.push(circP(P(x, y), rr)); }
     // core fill so no skin shows between curls
-    out.push(front ? `M-24,2C-27,-20 -14,-${big ? 33 : 31} 0,-${big ? 33 : 31}C14,-${big ? 33 : 31} 27,-20 24,2Z` : `M22,-12C18,-33 -8,-37 -23,-27C-31,-18 -31,0 -25,14L-12,10C-12,-2 -6,-8 4,-11Z`);
+    out.push(front ? `M-24,2C-27,-20 -14,-${big ? 33 : 31} 0,-${big ? 33 : 31}C14,-${big ? 33 : 31} 27,-20 24,2Z` : `M20,-16C16,-33 -8,-37 -23,-27C-31,-18 -31,0 -25,14L-12,10C-12,-2 -6,-8 2,-12Z`);
     return out;
   }
   function hairShapes(style, front) {
@@ -246,6 +264,8 @@
   function hairMarkup(c, g, front) {
     const ds = hairShapes(c.hairStyle, front);
     let s = c.hairStyle === 'headscarf' && front ? `<path d="${ds[0]}" fill="${c.hair}" fill-rule="evenodd" stroke="${OL}" stroke-width="${n1(g.lw * 2)}" paint-order="stroke" stroke-linejoin="round"/>` : g.m(ds, c.hair);
+    const st = (front ? STRANDS_FRONT : STRANDS_SIDE)[c.hairStyle];
+    if (st) { const [hr, hg, hb] = rgb(c.hair); const lum = (0.3 * hr + 0.59 * hg + 0.11 * hb) / 255; s += g.t(st, lum < 0.28 ? shade(c.hair, 1.45) : shade(c.hair, 0.78), 1.7); }
     if (c.hairName === 'saltpepper' && c.hairStyle !== 'headscarf') {
       const id = 'kh' + (++UID);
       const strokes = [];
@@ -262,7 +282,7 @@
     s += hairMarkup(c, g, false);
     if (c.extras.has('hearing_aid') && c.hairStyle !== 'headscarf') s += g.p('M-9,-9C-13,-6 -14,2 -12,8C-11,10 -8,10 -8,8C-9,3 -8,-3 -6,-7C-5,-9 -7,-10 -9,-9Z', '#9AA5AB') + g.t('M-7,-8C-4,-11 0,-8 -1,-3', OL, 1.6);
     if (c.extras.has('glasses')) s += g.t('M-2,-3L19,-4', OL, 2.4) + g.r(18, -8.5, 8, 11, 3, 'rgba(227,241,242,.9)');
-    return G(s, `translate(${pt(r.H)}) rotate(${n1(r.ha)})`);
+    return G(s, `translate(${pt(r.H)}) rotate(${n1(r.ha)}) scale(${HS})`);
   }
   function headFront(H, c, g, tilt) {
     let s = '';
@@ -272,8 +292,8 @@
     if (c.extras.has('beard')) s += g.p('M-21,4C-20,20 -10,29 0,29C10,29 20,20 21,4C16,12 8,15 0,15C-8,15 -16,12 -21,4Z', c.o.beardColour ? hairCol(c.o.beardColour) : c.hair);
     s += hairMarkup(c, g, true);
     if (c.extras.has('hearing_aid') && !earHidden) s += g.p('M24,-9C28,-8 29,-2 28,4C27,6 25,6 25,4C26,0 25,-4 23,-7Z', '#9AA5AB');
-    if (c.extras.has('glasses')) s += g.r(-18, -7, 14, 10, 4, 'rgba(227,241,242,.9)') + g.r(4, -7, 14, 10, 4, 'rgba(227,241,242,.9)') + g.t('M-4,-3Q0,-6 4,-3', OL, 2.2);
-    return G(s, `translate(${pt(H)}) rotate(${n1(tilt || 0)})`);
+    if (c.extras.has('glasses')) s += g.r(-16, -6, 12, 8, 3, 'rgba(227,241,242,.75)') + g.r(4, -6, 12, 8, 3, 'rgba(227,241,242,.75)') + g.t('M-4,-2.5Q0,-5 4,-2.5M-16,-3H-21M16,-3H21', OL, 2);
+    return G(s, `translate(${pt(H)}) rotate(${n1(tilt || 0)}) scale(${HS})`);
   }
 
   /* ---------------- side-view body parts ---------------- */
@@ -286,12 +306,12 @@
   }
   function legRadii(c) { const bw = c.bw, sk = c.bottomStyle === 'skirt'; return sk ? [17 * bw, 12.5 * bw, 9 * Math.sqrt(bw)] : [21 * bw, 16.5 * bw, 12.5 * Math.sqrt(bw)]; }
   function legShapes(L, c) { const [a, b, d] = legRadii(c); return [capsule(L.hip, L.knee, a, b), capsule(L.knee, L.ankle, b, d)]; }
-  function pelvisShape(r, c) { const n = r.fn(0), a = angDeg(n); return ellP(add(r.hip, mul(n, -3)), 27 * c.bw, 24, a); }
+  function pelvisShape(r, c) { const n = r.fn(0), a = angDeg(n); return ellP(add(r.hip, mul(n, -3)), 28 * c.bw, 24, a); }
   function armSide(A, c, g, far) {
     if (!A) return '';
     const bw = c.bw, top = c.cardigan || c.top;
     const sleeve = far ? shade(top, 0.84) : top, skin = far ? shade(c.skin, 0.9) : c.skin;
-    const r1 = 12.5 * bw, r2 = 10.5 * bw, r3 = 8.5 * Math.sqrt(bw);
+    const r1 = 11.5 * bw, r2 = 9.8 * bw, r3 = 8 * Math.sqrt(bw);
     const upper = capsule(A.sh, A.el, r1, r2), lower = capsule(A.el, A.hand, r2, r3);
     const fd = nrm(sub(A.hand, A.el)), hc = add(A.hand, mul(fd, 6));
     const handD = ellP(hc, 10.5, 8.5, angDeg(fd));
@@ -304,7 +324,7 @@
   function torsoOutline(r, c, inset, hemU) {
     const bw = c.bw, belly = (c.build === 'broad' ? 9 : c.build === 'slim' ? -2 : 0) + (c.age === 'older' ? 3 : 0), fem = c.sex === 'f' ? 3 : 0;
     const hem = hemU != null ? hemU : (c.topStyle === 'tunic' ? -0.2 : c.cardigan ? -0.2 : -0.12);
-    const rows = [[hem, 27, 25], [0.08, 26, 24.5], [0.4, 20, 22 + belly], [0.7, 22, 25 + fem], [0.92, 21, 21], [1.02, 17, 14], [1.1, 10, 8]];
+    const rows = [[hem, 29, 26], [0.08, 28, 25.5], [0.4, 22, 24 + belly], [0.7, 24, 28 + fem], [0.92, 22, 23], [1.02, 17, 15], [1.1, 10, 8]];
     const front = [], back = [];
     rows.forEach(([u, b, f]) => { const p = r.at(u), n = r.fn(u); front.push(add(p, mul(n, f * bw - (inset || 0) * (u > 1 ? 0.3 : 1)))); back.unshift(add(p, mul(n, -b * bw))); });
     return { d: smooth(front.concat(back), false) + 'Z', front, back };
@@ -344,7 +364,7 @@
     const h = hull(pts);
     return g.p(smooth(h, true, 0.55), c.bottom);
   }
-  function neckSide(r, c, g) { const a = r.at(0.98), b = add(r.H, rot(P(-5, 18), r.ha)); return g.p(capsule(a, b, 10 * Math.sqrt(c.bw), 10), c.skin); }
+  function neckSide(r, c, g) { const a = r.at(0.98), b = add(r.H, rot(P(-5, 19), r.ha)); return g.p(capsule(a, b, 10 * Math.sqrt(c.bw), 10), c.skin); }
 
   function drawSide(r, c, g) {
     let s = r.under;
@@ -371,11 +391,11 @@
     const r = { front: true, c, hipY, under: '', mid: '', over: '', held: '' };
     r.at = u => P(0, hipY - u * LEN.spine);
     r.S = [P(-35 * c.bw, hipY - 0.94 * LEN.spine), P(35 * c.bw, hipY - 0.94 * LEN.spine)];
-    r.H = P(0, hipY - LEN.spine - 12 - 33);
+    r.H = P(0, hipY - LEN.spine - 12 - 35);
     const hw = 17 * c.bw;
     if (seated) {
-      r.legs = [-1, 1].map(s => ({ hip: P(s * hw, hipY), knee: P(s * (hw + 4), hipY + 11), ankle: P(s * (hw + 5), -16) }));
-      r.arms = [-1, 1].map((s, i) => { const sh0 = r.S[i]; const el = P(s * 45 * c.bw, sh0.y + 70); return { sh: sh0, el, hand: P(s * 20, hipY - 22) }; });
+      r.legs = [-1, 1].map(s => ({ hip: P(s * hw, hipY), knee: P(s * (hw + 4), hipY + 20), ankle: P(s * (hw + 5), -16) }));
+      r.arms = [-1, 1].map((s, i) => { const sh0 = r.S[i]; const el = P(s * 45 * c.bw, sh0.y + 70); return { sh: sh0, el, hand: P(s * 21, hipY + 2) }; });
     } else {
       r.legs = [-1, 1].map(s => ({ hip: P(s * hw, hipY), knee: P(s * (hw + 0.5), -113), ankle: P(s * (hw + 1), -16) }));
       r.arms = [-1, 1].map((s, i) => { const sh0 = r.S[i]; const el = P(s * (43 * c.bw + 1), sh0.y + 73); return { sh: sh0, el, hand: P(s * (45 * c.bw + 2), sh0.y + 136) }; });
@@ -400,7 +420,7 @@
     s += g.p(capsule(r.at(0.98), P(0, r.H.y + 14), 10, 10), c.skin);
     const belly = (c.build === 'broad' ? 5 : 0) + (c.age === 'older' ? 2 : 0);
     const hem = c.topStyle === 'tunic' || c.cardigan ? -0.2 : -0.12;
-    const rows = [[hem, 38], [0.1, 37], [0.42, 33 + belly], [0.74, 37], [0.93, 40], [1.02, 33], [1.1, 12]];
+    const rows = [[r.seated ? Math.max(hem, 0.02) : hem, 38], [0.12, 37], [0.42, 33 + belly], [0.74, 37], [0.93, 41], [1.02, 34], [1.1, 12]];
     const right = rows.map(([u, w]) => P(w * bw * (u > 1.05 ? 1 / bw : 1), r.at(u).y));
     const left = right.slice().reverse().map(p => P(-p.x, p.y));
     const tor = smooth(right.concat(left), false) + 'Z';
@@ -506,7 +526,7 @@
   POSES.seated_side = (c, g) => {
     const si = seatOf(c);
     const old = c.age === 'older';
-    const r = makeRig(c, P(0, -si.h - 21), (si.back ? -4 : 3) + c.lean, old ? 5 : 2, (old ? 5 : 2));
+    const r = makeRig(c, P(0, -si.h - 21), (si.back ? -7 : 3) + c.lean, old ? 5 : 2, (old ? 7 : 4));
     const fx = si.h > 112 ? 80 : 88;
     r.leg('far', P(fx - 6, -16)); r.leg('near', P(fx + 4, -16));
     r.farArmLate = true;
@@ -528,7 +548,7 @@
     r.leg('far', P(84, -16)); r.leg('near', P(95, -16));
     r.farArmLate = true;
     r.arm('far', onThigh(r.legs.far, 0.9, 20));
-    r.armFK('near', 30, 78);
+    r.armFK('near', 34, 96);
     seatLayers(r, c, g, si);
     r.shadow = [30, 80];
     return r;
@@ -536,7 +556,7 @@
   POSES.rising = (c, g) => {
     c.defSeat = 'armchair';
     const si = seatOf(c);
-    const r = makeRig(c, P(30, -si.h - 40), 40 + c.lean, 4, -6);
+    const r = makeRig(c, P(30, -si.h - 40), 40 + c.lean, 4, -22);
     r.leg('far', P(58, -16)); r.leg('near', P(66, -16));
     r.farArmLate = true;
     if (c.o.hands === 'crossed') { const ch = add(r.at(0.72), mul(r.fn(0.72), 30)); r.arm('far', add(ch, P(2, -8))); r.arm('near', add(ch, P(-4, 6))); }
@@ -550,12 +570,12 @@
     const r = makeRig(c, P(0, -114), 5 + c.lean, 2, 6);
     const downNear = c.o.knee !== 'far';
     const down = downNear ? 'near' : 'far', upL = downNear ? 'far' : 'near';
-    r.legK(down, P(-4, -15), P(-88, -44), 70);
+    r.legK(down, P(-4, -15), P(-94, -12), 180);
     r.leg(upL, P(86, -16), 0);
     r.farArmLate = true;
-    if (c.o.reach === false) r.arm('near', onThigh(r.legs[upL], 0.9, 20));
-    else r.armFK('near', 52, 26);
-    r.arm('far', onThigh(r.legs[upL], 0.85, 20));
+    if (c.o.reach === false) r.arm('near', onThigh(r.legs[upL], 0.95, 22));
+    else r.armFK('near', 42, 22);
+    r.arm('far', onThigh(r.legs[upL], 0.6, 20));
     r.shadow = [0, 90];
     return r;
   };
@@ -564,7 +584,7 @@
     const r = makeRig(c, P(0, tip ? -214 : -209), -4 + c.lean, 0, -22);
     r.leg('near', P(5, tip ? -24 : -16), tip ? 14 : 0); r.leg('far', P(-7, tip ? -24 : -16), tip ? 14 : 0);
     r.arm('near', P(36, -436));
-    r.armFK('far', 30, 40);
+    r.armFK('far', -6, 18);
     r.shadow = [0, 52];
     return r;
   };
@@ -572,7 +592,7 @@
     if (c.o.variant === 'lying') {
       const r = makeRig(c, P(0, -26), -88 + c.lean, 0, 8);
       r.leg('near', P(118, -15), -40); r.leg('far', P(188, -14), -82);
-      r.arm('near', add(r.at(0.4), mul(r.fn(0.4), 30)), 1); r.armFK('far', 8, 6);
+      r.armFK('near', 10, 8); r.armFK('far', 8, 6);
       r.shadow = [-20, 150];
       return r;
     }
@@ -588,7 +608,7 @@
     const hip = P(B.hipX, -B.mt - 24);
     const r = makeRig(c, hip, -84 + c.lean, 0, 14);
     r.leg('far', P(hip.x + 182, -B.mt - 14), -80); r.leg('near', P(hip.x + 189, -B.mt - 15), -84);
-    r.arm('near', add(r.at(0.36), mul(r.fn(0.36), 36)), 1);
+    r.armFK('near', 8, 6);
     r.armFK('far', 6, 8);
     bedLayers(r, c, g, B, 0.8);
     return r;
@@ -640,7 +660,11 @@
   function bedLayers(r, c, g, B, fromU) {
     const bo = { type: B.type, height: B.mt, backrest: B.back, rails: B.rails, colour: c.o.bedColour, blanket: c.o.blanket };
     if (B.draw) r.under = D.bed(g, Object.assign({ part: 'back' }, bo));
-    r.under += D.pillow(g, { x: r.H.x - 4 - (B.back ? 10 : 0), y: B.back ? r.H.y + 30 : -B.mt, angle: B.back ? -(90 - B.back) + 90 - 90 + (B.back ? B.back - 90 : 0) : 0, w: 104, seatUp: !!B.back, back: B.back, hx: r.H.x, hy: r.H.y });
+    if (B.back) {
+      const dd = P(-Math.cos(B.back * R), -Math.sin(B.back * R)), p0 = P(B.hingeX, -B.mt);
+      const k = (r.H.x - p0.x) * dd.x + (r.H.y - p0.y) * dd.y, pp = add(p0, mul(dd, k - 14));
+      r.under += D.pillow(g, { _inner: true, x: pp.x, y: pp.y, angle: B.back, w: 84, thick: 34 });
+    } else r.under += D.pillow(g, { _inner: true, x: r.H.x - 2, y: -B.mt, w: 104 });
     if (c.o.blanket !== false) r.mid = blanketOver(r, c, g, B, fromU);
     if (B.draw) r.over = D.bed(g, Object.assign({ part: 'front' }, bo));
   }
@@ -670,8 +694,8 @@
     d += `L${n1(x0 - 8)},${n1(pts[0].y + 6)}Z`;
     let s = g.p(d, col);
     // folded top edge
-    if (B.type !== 'domestic') {
-      const a = pts[0], b = pts[1] || pts[0];
+    if (B.type !== 'domestic' && fromU > 0.5) {
+      const a = pts[0], b = lerp(pts[0], pts[1] || pts[0], 0.6);
       s += g.p(`M${pt(add(a, P(-8, 4)))}L${pt(add(b, P(0, -2)))}L${n1(b.x + 2)},${n1(topY + drape)}L${n1(a.x - 8)},${n1(topY + drape)}Z`, '#FFFFFF');
     }
     return s;
@@ -717,7 +741,7 @@
   Kit.linkArms = function (a, b) {
     const s = b.scale == null ? 1 : b.scale, fx = b.facing === 'left' ? -1 : 1;
     const A = Object.assign({ pose: 'walking' }, a, { facing: b.facing, scale: s });
-    if (A.x == null) A.x = (b.x || 0) + 58 * s * fx;
+    if (A.x == null) A.x = (b.x || 0) + 84 * s * fx;
     if (A.y == null) A.y = (b.y || 0) - 3 * s;
     // A's near arm: elbow bent, forearm forward at waist height
     const cA = config(A), gA = pen(Kit.LW / s), rA = POSES[A.pose](cA, gA);
@@ -817,30 +841,27 @@
     [-196, 196].forEach(x => { b += g.r(x - 8, -36, 16, 16, 3, dk) + g.c(x, -11, 11, PR.tyre) + g.c(x, -11, 3.5, PR.metal); });
     b += g.r(-206, -44, 412, 12, 5, dk);
     b += g.r(-132, -pl + 6, 20, pl - 50, 4, frame) + g.r(112, -pl + 6, 20, pl - 50, 4, frame);
-    b += g.r(hx, -pl, 214 - hx, 9, 3, frame);
-    b += g.r(hx, -mt, 214 - hx, 36, 10, PR.mattress);
-    const secL = hx + 214;
-    const seg = g.r(-secL, 0, secL, 9, 3, frame, '') + g.r(-secL, -36 + 0, secL, 36, 10, PR.mattress);
-    b += G(g.r(-secL, 36 - 36, secL, 9, 3, frame) + g.r(-secL, 0 - 36, secL, 36, 10, PR.mattress), `translate(${hx},${-pl}) rotate(${n1(beta)})`);
-    b += g.c(hx, -pl + 2, 7, frame);
+    // backrest section pivots about the mattress top at the hinge, so its surface passes through (hx, -mt)
+    const piv = P(hx, -mt), secL = hx + 214;
+    const rp = pts => 'M' + pts.map(q => pt(add(piv, rot(q, beta)))).join('L') + 'Z';
+    b += g.m([rrP(hx, -pl, 214 - hx, 9, 3), beta ? rp([P(-secL, 36), P(0, 36), P(0, 45), P(-secL, 45)]) : rrP(-214, -pl, secL, 9, 3)], frame);
+    b += g.m([rrP(hx - 2, -mt, 216 - hx, 36, 10), beta ? rp([P(-secL, 0), P(0, 0), P(0, 36), P(-secL, 36)]) : rrP(-214, -mt, secL + 4, 36, 10), beta ? circP(P(hx, -mt + 18), 18) : null], PR.mattress);
+    b += g.c(hx, -pl + 4, 6, dk);
     let f = '';
     const rails = o.rails || 'down';
     if (rails !== 'none') {
       const up = rails === 'up';
-      const rail = (x0, x1) => { const y1 = up ? -64 : 20, y0 = up ? -12 : 46; let s = g.r(x0, y1, x1 - x0, 10, 5, PR.metal) + g.r(x0, y0 - 10, x1 - x0, 9, 4, PR.metal); for (let x = x0 + 16; x < x1 - 8; x += (x1 - x0 - 16) / 3) s += g.l([P(x, y1 + 8), P(x, y0 - 8)], 4, PR.metal); return s; };
+      const rail = (x0, x1) => { const y1 = up ? -64 : 40, y0 = up ? -12 : 62; let s = g.r(x0, y1, x1 - x0, 10, 5, PR.metal) + g.r(x0, y0 - 10, x1 - x0, 9, 4, PR.metal); for (let x = x0 + 16; x < x1 - 8; x += (x1 - x0 - 16) / 3) s += g.l([P(x, y1 + 8), P(x, y0 - 8)], 4, PR.metal); return s; };
       f += G(rail(-126, 6), `translate(${hx},${-mt}) rotate(${n1(beta)})`);
       f += G(rail(20, 184), `translate(0,${-mt})`);
     }
     return part === 'back' ? b : part === 'front' ? f : b + f;
   });
   prop('pillow', (g, o) => {
-    const w = o.w || 100;
-    if (o.seatUp) {
-      // pillow lying against a raised backrest behind the head
-      const a = -(o.back || 60);
-      return G(g.p(`M${-w / 2},-4C${-w / 2},-24 ${w / 2},-24 ${w / 2},-4C${w / 2 + 4},6 ${w / 2},10 ${w / 2 - 6},10L${-w / 2 + 6},10C${-w / 2},10 ${-w / 2 - 4},6 ${-w / 2},-4Z`, o.colour ? cc(o.colour) : PR.linen), `translate(${n1(o.hx - 18)},${n1(o.hy + 30)}) rotate(${n1(a)})`);
-    }
-    return G(g.p(`M${-w / 2},-2C${-w / 2 - 2},-26 ${w / 2 + 2},-26 ${w / 2},-2C${w / 2 + 3},0 ${w / 2},1 ${w / 2 - 6},1L${-w / 2 + 6},1C${-w / 2},1 ${-w / 2 - 3},0 ${-w / 2},-2Z`, o.colour ? cc(o.colour) : PR.linen), `translate(${n1(o.x || 0)},${n1(o.y || 0)})`);
+    // (x, y) = the middle of the pillow's underside; angle tilts it (used against a raised backrest)
+    const w = o.w || 100, f = o.colour ? cc(o.colour) : PR.linen;
+    const th = o.thick || 26; const d = `M${-w / 2},-2C${-w / 2 - 2},${-th} ${w / 2 + 2},${-th} ${w / 2},-2C${w / 2 + 3},0 ${w / 2},1 ${w / 2 - 6},1L${-w / 2 + 6},1C${-w / 2},1 ${-w / 2 - 3},0 ${-w / 2},-2Z`;
+    return (o.x || o.y || o.angle) && o._inner ? G(g.p(d, f), `translate(${n1(o.x || 0)},${n1(o.y || 0)}) rotate(${n1(o.angle || 0)})`) : g.p(d, f);
   });
   prop('blanket', (g, o) => {
     const f = cc(o.colour) || Kit.C.sage, w = o.w || 120;
