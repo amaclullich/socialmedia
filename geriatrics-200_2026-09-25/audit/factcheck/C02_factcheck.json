@@ -1,0 +1,272 @@
+{
+ "category": "C02",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C02-P01",
+  "C02-P02",
+  "C02-P03",
+  "C02-P04",
+  "C02-P05",
+  "C02-P06",
+  "C02-P07",
+  "C02-P08",
+  "C02-P09",
+  "C02-P10"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:30312372",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:17680369",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:22211512",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:17973269",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:8054165",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:39332131",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:19570158",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31968063",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:22695790",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31734122",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:8190152",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23450551",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:19293070",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30419096",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:35040873",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:36355032",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C02-P02",
+   "where": "threads",
+   "text": "A trial in 122 people with dementia found adapted strength training worked whatever their degree of cognitive impairment.",
+   "problem": "Overstates the trial: the finding is that cognitive impairment did not predict response, not that training 'worked whatever' the impairment; the comparator (placebo exercise) and mild-to-moderate restriction are dropped.",
+   "source_says": "Hauer 2012 abstract: 'Low baseline performance on motor tasks but not cognitive impairment predicted positive training response'; participants had mild to moderate dementia; control was low-intensity motor placebo activity.",
+   "severity": "major",
+   "replacement": "A trial in 122 people with mild to moderate dementia found adapted strength training improved strength and chair rises compared with gentle placebo exercise, and the degree of cognitive impairment did not predict who improved."
+  },
+  {
+   "tmp_id": "C02-P02",
+   "where": "bluesky",
+   "text": "People with Alzheimer's disease who forget a physio session can still improve at the movement with practice, a review of lab studies found.",
+   "problem": "Population/setting swap: the review studied laboratory motor tasks, not physiotherapy sessions, and found learning below normal levels; attributing a physio-session finding to it is inaccurate.",
+   "source_says": "van Halteren-van Tilborg 2007: 23 experimental (laboratory) studies of implicit motor-skill learning; performance 'will not reach normal levels'.",
+   "severity": "major",
+   "replacement": "A review of 23 lab studies found people with Alzheimer's disease still improved at movement tasks with practice, though more slowly than people without dementia."
+  },
+  {
+   "tmp_id": "C02-P02",
+   "where": "x",
+   "text": "A German trial in 122 people with mild to moderate dementia found that 3 months of adapted strength and balance training improved strength and chair rises.",
+   "problem": "Comparator missing; reads as within-group change.",
+   "source_says": "Hauer 2012: intervention vs low-intensity motor placebo activity.",
+   "severity": "minor",
+   "replacement": "A German trial in 122 people with mild to moderate dementia found that 3 months of adapted strength and balance training improved strength and chair rises compared with gentle placebo exercise."
+  },
+  {
+   "tmp_id": "C02-P02",
+   "where": "linkedin",
+   "text": "Rehabilitation trials point the same way.",
+   "problem": "Plural implies several trials; only one trial is cited.",
+   "source_says": "Only Hauer 2012 is in the evidence record.",
+   "severity": "minor",
+   "replacement": "A rehabilitation trial points the same way."
+  },
+  {
+   "tmp_id": "C02-P01",
+   "where": "linkedin",
+   "text": "Low strength also follows depression, stroke, balance disorders and peripheral vascular disease.",
+   "problem": "Causal/temporal verb stronger than source, which lists these as other possible reasons to consider.",
+   "source_says": "EWGSOP2 Figure 1: 'Consider other reasons for low muscle strength (e.g. depression, stroke, balance disorders, peripheral vascular disorders).'",
+   "severity": "minor",
+   "replacement": "Low strength can have other causes, such as depression, stroke, balance disorders or peripheral vascular disease."
+  },
+  {
+   "tmp_id": "C02-P01",
+   "where": "bluesky",
+   "text": "Sarcopenia (muscle loss) is found by weakness first.",
+   "problem": "Gloss 'muscle loss' conflicts with the strength-first definition used in the same post and in the other versions.",
+   "source_says": "EWGSOP2: low muscle strength is the primary parameter.",
+   "severity": "minor",
+   "replacement": "Sarcopenia (loss of muscle strength and mass) is found by weakness first."
+  },
+  {
+   "tmp_id": "C02-P03",
+   "where": "source_reply",
+   "text": "Liu 2010 https://doi.org/10.1016/j.archger.2010.04.003",
+   "problem": "Year error: the article is Arch Gerontol Geriatr 2011;52(3):299-303.",
+   "source_says": "Evidence source record PMID:20416960, year 2011.",
+   "severity": "minor",
+   "replacement": "Liu 2011 https://doi.org/10.1016/j.archger.2010.04.003"
+  },
+  {
+   "tmp_id": "C02-P03",
+   "where": "bluesky",
+   "text": "In one English clinic, 44 in 100 sticks were the wrong length.",
+   "problem": "Denominator and setting dropped in compressed version.",
+   "source_says": "Sheehan 2008: 50 patients attending a rheumatology department.",
+   "severity": "minor",
+   "replacement": "In one English clinic survey of 50 stick users, 44 in 100 sticks were the wrong length."
+  },
+  {
+   "tmp_id": "C02-P04",
+   "where": "x",
+   "text": "In care homes studied by Berlin researchers in the early 1990s,",
+   "problem": "Dates the fieldwork; the record only supports publication in the early 1990s (the 1994 abstract cites the institutional research without dates). Same in linkedin, bluesky ('Early 1990s Berlin studies') and threads.",
+   "source_says": "C02-14-a qualification: say 'published in the early 1990s' rather than naming fieldwork dates.",
+   "severity": "minor",
+   "replacement": "In care homes studied by Berlin researchers, who published in the early 1990s,"
+  },
+  {
+   "tmp_id": "C02-P04",
+   "where": "threads",
+   "text": "In care homes studied in Berlin in the early 1990s,",
+   "problem": "As above: fieldwork dates not supported.",
+   "source_says": "C02-14-a qualification.",
+   "severity": "minor",
+   "replacement": "In care homes studied by Berlin researchers publishing in the early 1990s,"
+  },
+  {
+   "tmp_id": "C02-P05",
+   "where": "threads",
+   "text": "Pooled reviews disagree, and certainty for complications is low.",
+   "problem": "Compressed from 'low or very low'; also the umbrella review covers all adults.",
+   "source_says": "McIsaac 2022 umbrella review: low to very low certainty for complications, all adults.",
+   "severity": "minor",
+   "replacement": "Pooled reviews disagree, and certainty for complications is low or very low."
+  },
+  {
+   "tmp_id": "C02-P05",
+   "where": "linkedin",
+   "text": "One 2026 meta-analysis of 9 trials in people 60 and over found about a third fewer complications in relative terms,",
+   "problem": "Population incomplete: the trials were in gastrointestinal cancer surgery.",
+   "source_says": "Liu 2026: 9 RCTs in patients 60+ or frail with gastrointestinal cancer, RR 0.67 (0.46 to 0.99).",
+   "severity": "minor",
+   "replacement": "One 2026 meta-analysis of 9 trials in people 60 and over having bowel or stomach cancer surgery found about a third fewer complications in relative terms,"
+  },
+  {
+   "tmp_id": "C02-P06",
+   "where": "bluesky",
+   "text": "85% of women and 76% of men over 65 walked slower than that (short timed walk).",
+   "problem": "Age band is 65 and over, not over 65.",
+   "source_says": "Asher 2012: adults aged >=65.",
+   "severity": "minor",
+   "replacement": "85% of women and 76% of men aged 65 and over walked slower than that (short timed walk)."
+  },
+  {
+   "tmp_id": "C02-P07",
+   "where": "x",
+   "text": "About 3 in 10 older people admitted to acute hospital leave less able to wash, dress, use the toilet or get in and out of a bed or chair than before they became ill, a 2020 pooled analysis found.",
+   "problem": "The 30% pooled figure uses baselines taken before or at admission; 'before they became ill' fits only the 2-week pre-admission sensitivity analysis (33%). Same wording in threads.",
+   "source_says": "Loyd 2020: combined prevalence 30%; studies assessing decline from 2 weeks before admission 33%.",
+   "severity": "minor",
+   "replacement": "About 3 in 10 older people admitted to acute hospital leave less able to wash, dress, use the toilet or get in and out of a bed or chair than before admission, a 2020 pooled analysis found."
+  },
+  {
+   "tmp_id": "C02-P07",
+   "where": "bluesky",
+   "text": "About 3 in 10 older people leave acute hospital less able to do basic self-care than before they got ill.",
+   "problem": "Drops the qualification that some loss starts with the illness (not shown to be caused by hospital) and the baseline issue.",
+   "source_says": "Loyd 2020 observational prevalence; C02-10-a: do not imply hospital caused it.",
+   "severity": "minor",
+   "replacement": "About 3 in 10 older people leave acute hospital less able to do basic self-care than before admission. Some of that starts with the illness."
+  },
+  {
+   "tmp_id": "C02-P08",
+   "where": "bluesky",
+   "text": "Pooled trials show smaller gains, but real ones.",
+   "problem": "Overstates certainty: Cochrane says rehabilitation 'may be effective', effects 'quite small', 'may not be applicable to all residents', and possibly overestimated by bias.",
+   "source_says": "Crocker 2013 Cochrane abstract.",
+   "severity": "major",
+   "replacement": "Pooled care home trials show smaller gains, which may be overstated by weaknesses in the trials."
+  },
+  {
+   "tmp_id": "C02-P08",
+   "where": "threads",
+   "text": "residents who did 10 weeks of strength training more than doubled their strength on average, and walked about 12% faster.",
+   "problem": "No comparator: presents within-arm change without the control arm.",
+   "source_says": "Fiatarone 1994: strength +113% vs +3%; gait velocity +11.8% vs -1.0%.",
+   "severity": "minor",
+   "replacement": "residents who did 10 weeks of strength training more than doubled their strength on average (up 113%, against 3% without training), and walked about 12% faster while the others slowed slightly."
+  },
+  {
+   "tmp_id": "C02-P10",
+   "where": "linkedin",
+   "text": "My reading: structured exercise is safe for relatively able very old inpatients, and bed rest is not the safer default. How much it helps depends on dose and delivery.",
+   "problem": "Dose-dependence is the authors' untested interpretation, stated here as fact; contradicts the post's own earlier caveat.",
+   "source_says": "Martinez-Velilla 2022: reduced days and sicker patients 'could have reduced the efficacy'; C02-16-g: interpretation, not tested.",
+   "severity": "major",
+   "replacement": "My reading: structured exercise appears safe for relatively able very old inpatients, and bed rest is not the safer default. How much it helps may depend on dose and delivery, though this has not been tested directly."
+  },
+  {
+   "tmp_id": "C02-P10",
+   "where": "bluesky",
+   "text": "A shorter repeat trial and pooled trials showed less benefit, but no rise in falls.",
+   "problem": "The falls finding comes from the Cochrane pooled analysis; the sentence attributes it to both.",
+   "source_says": "Hartley 2022 Cochrane: falls 34 vs 34 per 1000 (moderate certainty).",
+   "severity": "minor",
+   "replacement": "A shorter repeat trial showed less benefit. Pooled trials showed no clear gain in independence, and no rise in falls."
+  }
+ ],
+ "posts_to_drop": []
+}
