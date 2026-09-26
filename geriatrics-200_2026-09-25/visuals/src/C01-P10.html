@@ -1,0 +1,161 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P10</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.s { margin-top: 20px; }
+ .scene.v { flex: 1 1 auto; margin-top: 24px; }
+ .txt { font-size: 32px; line-height: 1.38; margin-top: 22px; }
+ .statbox { margin-top: 18px; background: var(--mint); border-radius: 18px; padding: 18px 26px; font-size: 28px; line-height: 1.36; }
+ .statbox b { font-weight: 700; color: var(--teal); }
+ .inset { position: absolute; right: 22px; top: 22px; width: 250px; height: 250px; background: var(--white); border: 3px solid var(--teal); border-radius: 16px; overflow: hidden; }
+ .inset svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+ /* card 4 */
+ .card.dark h1.gold { color: var(--gold); }
+ .three { list-style: none; display: flex; flex-direction: column; gap: 30px; margin-top: 56px; }
+ .three li { display: grid; grid-template-columns: 150px 1fr; gap: 34px; align-items: center; font-family: "Montserrat"; font-weight: 800; font-size: 64px; line-height: 1.08; color: var(--white); }
+ .three .ic { width: 150px; height: 150px; border-radius: 26px; background: rgba(255,255,255,0.08); border: 3px solid rgba(217,164,65,0.55); display: flex; align-items: center; justify-content: center; }
+ .three .ic svg { width: 118px; height: 118px; }
+ .closing { font-size: 44px; line-height: 1.3; font-weight: 600; color: var(--white); margin-top: 60px; }
+</style></head><body><div class="sheet">
+
+<!-- 1: PSP -->
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">1/4</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Repeated falls in the first 3 years: <em>think PSP</em></h1>
+  <div class="scene v" id="sc1"></div>
+  <p class="txt">Falls without a clear cause early in a Parkinson-like illness. Check up-and-down eye movements. Question a Parkinson's diagnosis.</p>
+  <p class="statbox">Early falls recorded in past case notes of people whose diagnosis was confirmed at autopsy: <b>about 4 in 100</b> of 124 with Parkinson's disease, <b>about 1 in 3</b> of 28 with PSP</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Höglinger et al., Mov Disord 2017; Fox et al., NPJ Parkinsons Dis 2025</span></div>
+</div>
+
+<!-- 2: NPH -->
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">2/4</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Short, wide steps, feet barely lifted: <em>think NPH</em></h1>
+  <div class="scene v" id="sc2"><div class="inset" id="feet"></div></div>
+  <p class="txt">More unsteady on turning. Bladder urgency and slowed thinking are common, but many people don't have all three. Selected people often improve after a shunt.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Nakajima et al., Neurol Med Chir 2021</span></div>
+</div>
+
+<!-- 3: eyes closed -->
+<div class="card" id="s3">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">3/4</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Much worse with eyes closed: <em>think position sense or inner ear</em></h1>
+  <div class="scene v" id="sc3"></div>
+  <p class="txt">Think loss of position sense (for example neuropathy; check B12) or inner-ear balance loss. Read the test with the rest of the examination.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Anagnostou et al. 2024 and 2025; Shipton and Thachil, Clin Med 2015</span></div>
+</div>
+
+<!-- 4: closing -->
+<div class="card dark" id="s4">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">4/4</span></div>
+ <div class="content center">
+  <h1 class="gold">Watch every person who falls</h1>
+  <ul class="three">
+   <li><span class="ic" id="ic1"></span><span>Walk</span></li>
+   <li><span class="ic" id="ic2"></span><span>Turn</span></li>
+   <li><span class="ic" id="ic3"></span><span>Stand with eyes closed</span></li>
+  </ul>
+  <p class="closing">'Old age' is not a diagnosis.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Snijders et al., Lancet Neurol 2007</span></div>
+</div>
+
+</div>
+<script>
+const K = Kit, OL = '#1F2A30';
+
+/* ---------- 1. clinic: checking up-and-down eye movements ---------- */
+(function () {
+  const W = 1000, H = 520, S = 1.12, g = 500;
+  const pen = K.pen(K.LW);
+  const man = { pose: 'seated_side', seat: 'chair', x: 330, y: g, scale: S, age: 'older', sex: 'm', skin: 'fair', hair: 'grey', hairStyle: 'short',
+    top: 'slate', bottom: 'stone', extras: ['cardigan'], cardigan: 'oat', tilt: -6, hands: 'lap' };
+  const head = K.joint(man, 'head');
+  const target = { x: head.x + 118, y: head.y - 8 };
+  const doc = { pose: 'standing', x: 610, y: g, scale: S, facing: 'left', sex: 'f', age: 'adult', skin: 'dark', hair: 'black', hairStyle: 'coily',
+    top: 'paleblue', topStyle: 'shirt', bottom: 'navy', extras: ['lanyard'], lean: 6, tilt: 10, hands: { near: target } };
+  // up-and-down movement marks beside the raised hand (no text)
+  const ax = target.x + 2, ay = target.y;
+  const arrow = pen.l([{ x: ax, y: ay - 62 }, { x: ax, y: ay - 30 }], 6, '#C24E12') + pen.l([{ x: ax, y: ay + 30 }, { x: ax, y: ay + 62 }], 6, '#C24E12')
+    + pen.p(`M${ax - 13},${ay - 58}L${ax},${ay - 80}L${ax + 13},${ay - 58}Z`, '#C24E12') + pen.p(`M${ax - 13},${ay + 58}L${ax},${ay + 80}L${ax + 13},${ay + 58}Z`, '#C24E12');
+  K.draw('#sc1', W, H, [
+    K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
+    K.desk({ x: 880, y: g, scale: S, w: 260 }),
+    K.stick({ x: 190, y: g, angle: 8, scale: S, type: 'crook', colour: '#6B4A30' }),
+    K.person(man),
+    K.person(doc),
+    arrow,
+  ], { cls: 'art' });
+})();
+
+/* ---------- 2. corridor: short, wide-based steps, physiotherapist a pace behind ---------- */
+(function () {
+  const W = 1000, H = 560, S = 1.1, g = 540;
+  const pen = K.pen(K.LW);
+  const woman = { pose: 'walking', x: 560, y: g, scale: S, age: 'older', sex: 'f', skin: 'brown', hair: 'cream', hairStyle: 'headscarf',
+    top: 'plum', bottom: 'plum', bottomStyle: 'skirt', skirtLength: 'midi', legs: 'oat', extras: ['cardigan'], cardigan: 'mustard',
+    stride: 0.18, shoeStyle: 'slipper', shoes: '#5B4A40', tilt: 8 };
+  const back = K.joint(woman, 'hip');
+  const physio = { pose: 'walking', role: 'physio', x: 360, y: g, scale: S, sex: 'm', skin: 'light', hair: 'sandy', hairStyle: 'short', stride: 0.3,
+    hands: { near: { x: back.x - 52, y: back.y - 34 } } };
+  // corridor: long wall handrail, a door at the far end
+  const rail = pen.l([{ x: -60, y: g - 70 * S - 230 }, { x: 1060, y: g - 70 * S - 230 }], 10, '#B98B5E');
+  let brackets = ''; for (let x = 40; x < 1000; x += 220) brackets += pen.l([{ x, y: g - 70 * S - 226 }, { x, y: g - 70 * S - 212 }], 6, '#8C979B');
+  K.draw('#sc2', W, H, [
+    K.room('hospital_bay', { w: W, h: H, ground: g, scale: S }),
+    K.door({ x: 110, y: g - 70 * S, scale: 1.0, w: 170, h: 380, colour: '#DCE7EF' }),
+    rail, brackets,
+    K.person(physio),
+    K.person(woman),
+  ], { cls: 'art' });
+  // inset: footprints seen from above, short steps set wide apart, turning at the end
+  const fp = (x, y, a, left) => {
+    const f = left ? -1 : 1;
+    return `<g transform="translate(${x},${y}) rotate(${a}) scale(${f},1)"><path d="M0,-30C9,-30 13,-20 12,-8C11,4 9,12 8,20C7,27 3,31 -2,31C-8,31 -10,26 -10,19C-10,10 -12,2 -12,-8C-12,-21 -8,-30 0,-30Z" fill="#15535B"/></g>`;
+  };
+  let prints = '';
+  const steps = [[-26, 196, -10, 1], [26, 170, 10, 0], [-26, 144, -10, 1], [26, 118, 10, 0], [-24, 92, -14, 1], [30, 70, 22, 0], [-12, 52, -40, 1], [40, 42, 60, 0]];
+  steps.forEach(([dx, y, a, l]) => { prints += fp(125 + dx, y, a, l); });
+  K.draw('#feet', 250, 250, [`<rect x="0" y="0" width="250" height="250" fill="#FFFFFF"/>`, prints], { fit: 'xMidYMid meet' });
+})();
+
+/* ---------- 3. eyes closed: feet together, clinician guarding without touching ---------- */
+(function () {
+  const W = 1000, H = 560, S = 1.12, g = 540;
+  const man = { pose: 'standing', x: 520, y: g, scale: S, age: 'older', sex: 'm', skin: 'light', hair: 'white', hairStyle: 'short', build: 'slim',
+    top: 'denim', bottom: 'charcoal', shoes: '#A6ADB1', shoeStyle: 'slipper', tilt: 3 };
+  const sh = K.joint(man, 'shoulder');
+  const doc = { pose: 'standing', x: 432, y: g - 4, scale: S, sex: 'f', age: 'adult', skin: 'fair', hair: 'silver', hairStyle: 'bob',
+    top: 'sage', topStyle: 'shirt', bottom: 'navy', extras: ['lanyard'], lean: 8, tilt: 6,
+    hands: { near: { x: sh.x + 70, y: sh.y + 52 }, far: { x: sh.x - 62, y: sh.y + 44 } } };
+  K.draw('#sc3', W, H, [
+    K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
+    K.bed({ x: 150, y: g, type: 'hospital', height: 150, scale: 0.9, colour: 'pale' }),
+    K.shoes({ x: 700, y: g, scale: S, colour: '#3A2E28' }),
+    K.person(doc),
+    K.person(man),
+  ], { cls: 'art' });
+})();
+
+/* ---------- 4. icons: footsteps, a turning arrow, a closed eye ---------- */
+(function () {
+  const gold = '#D9A441', wht = '#FFFFFF';
+  const foot = (x, y, a, f) => `<g transform="translate(${x},${y}) rotate(${a}) scale(${f},1)"><path d="M0,-26C8,-26 11,-17 10,-7C9,3 8,10 7,17C6,23 3,27 -2,27C-7,27 -9,23 -9,16C-9,8 -10,2 -10,-7C-10,-18 -7,-26 0,-26Z" fill="${gold}"/></g>`;
+  document.getElementById('ic1').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true">${foot(44, 78, -8, -1)}${foot(76, 42, 8, 1)}</svg>`;
+  document.getElementById('ic2').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true"><path d="M34,100V52C34,30 50,20 64,20C80,20 94,32 94,52V70" fill="none" stroke="${gold}" stroke-width="11" stroke-linecap="round"/><path d="M76,66L94,92L112,66Z" fill="${gold}" stroke="${gold}" stroke-width="4" stroke-linejoin="round"/></svg>`;
+  document.getElementById('ic3').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true"><path d="M14,52C34,82 86,82 106,52" fill="none" stroke="${gold}" stroke-width="9" stroke-linecap="round"/><path d="M30,70L22,84M50,78L47,94M70,78L73,94M90,70L98,84" stroke="${gold}" stroke-width="7" stroke-linecap="round"/></svg>`;
+})();
+window.__ready = true;
+</script></body></html>

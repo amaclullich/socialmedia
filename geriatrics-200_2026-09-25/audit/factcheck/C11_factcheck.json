@@ -1,0 +1,344 @@
+{
+ "category": "C11",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C11-P01",
+  "C11-P02",
+  "C11-P03",
+  "C11-P04",
+  "C11-P05",
+  "C11-P06",
+  "C11-P07",
+  "C11-P08",
+  "C11-P09",
+  "C11-P10",
+  "C11-P11",
+  "C11-P12"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:16284208",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30789229",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:24733354",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:19125029",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37573859",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34817561",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:33616613",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30014139",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23691095",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37097362",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "research letter; no abstract in PubMed; 22 of 25 not re-confirmed, relied on record passage"
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C11-P01",
+   "where": "x",
+   "text": "In those trials, for every 13 people who took a tablet, about 1 more slept better than with a dummy pill. For every 6, about 1 more had a side effect.",
+   "problem": "Required qualification missing: the NNT and NNH come from different sets of trials (4 vs 16), the NNT is imprecise and the authors call it a rough guide. Compression makes it read as one head-to-head comparison.",
+   "source_says": "NNT 13 (95% CI 6.7 to 62.9) from 4 studies; NNH 6 from 16 studies; 'rough guide'.",
+   "severity": "major",
+   "replacement": "As a rough guide from different sets of trials: for every 13 people who took a tablet, about 1 more slept better than with a dummy pill (an imprecise figure); for every 6, about 1 more had a side effect."
+  },
+  {
+   "tmp_id": "C11-P01",
+   "where": "source_reply",
+   "text": "Sources: https://doi.org/10.1136/bmj.38623.768588.47 (Glass 2005) and https://doi.org/10.1111/jgs.18372 (Beers 2023) and https://doi.org/10.1111/jsr.14035 (European Insomnia Guideline)",
+   "problem": "Visual cites 'ACP 2016' and captions cite US guidelines, but ACP is not in the source reply.",
+   "source_says": "C11-16-g relies on ACP 2016 (10.7326/M15-2175).",
+   "severity": "minor",
+   "replacement": "Sources: https://doi.org/10.1136/bmj.38623.768588.47 (Glass 2005), https://doi.org/10.1111/jgs.18372 (Beers 2023), https://doi.org/10.1111/jsr.14035 (European Insomnia Guideline) and https://doi.org/10.7326/M15-2175 (ACP 2016)"
+  },
+  {
+   "tmp_id": "C11-P01",
+   "where": "linkedin",
+   "text": "Sleeping tablets in people aged 60 and over add about 25 minutes of sleep a night, on average.",
+   "problem": "Present-tense general claim drops 'in short trials' and 'self-reported' from the opening line (they follow later, so minor).",
+   "source_says": "Mean 25.2 min, self-reported, trials of at least 5 nights.",
+   "severity": "minor",
+   "replacement": "In short trials, sleeping tablets in people aged 60 and over added about 25 minutes of self-reported sleep a night, on average."
+  },
+  {
+   "tmp_id": "C11-P02",
+   "where": "bluesky",
+   "text": "In confirmed cases, about 6 in 100 a year went on to Parkinson's or Lewy body dementia.",
+   "problem": "Drops the specialist-centre population (and MSA); a short version reads as a general prognosis for people with RBD.",
+   "source_says": "1,280 patients with polysomnography-confirmed iRBD at 24 specialist centres; conversion to PD, DLB or MSA 6.3%/year.",
+   "severity": "major",
+   "replacement": "In people with sleep-study-confirmed disease seen at specialist centres, about 6 in 100 a year went on to Parkinson's, Lewy body dementia or a related condition."
+  },
+  {
+   "tmp_id": "C11-P02",
+   "where": "threads",
+   "text": "In 1,280 people with sleep-study-confirmed disease, about 6 in 100 a year developed Parkinson's disease or dementia with Lewy bodies.",
+   "problem": "Omits specialist-centre setting and multiple system atrophy.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "In 1,280 people with sleep-study-confirmed disease at specialist centres, about 6 in 100 a year developed Parkinson's disease, dementia with Lewy bodies or a related condition."
+  },
+  {
+   "tmp_id": "C11-P02",
+   "where": "x",
+   "text": "about 3 in 4 by 12 years.",
+   "problem": "12-year figure is a Kaplan-Meier estimate with mean follow-up 4.6 years; stated as observed.",
+   "source_says": "73.5% converting after 12 years (Kaplan-Meier); average follow-up 4.6 years.",
+   "severity": "minor",
+   "replacement": "an estimated 3 in 4 by 12 years."
+  },
+  {
+   "tmp_id": "C11-P02",
+   "where": "visual_text",
+   "text": "About 6 in 100 a year with confirmed disease developed Parkinson's or Lewy body dementia (specialist centres).",
+   "problem": "Omits MSA/related conditions.",
+   "source_says": "PD, DLB and MSA.",
+   "severity": "minor",
+   "replacement": "About 6 in 100 a year with confirmed disease developed Parkinson's, Lewy body dementia or a related condition (specialist centres)."
+  },
+  {
+   "tmp_id": "C11-P03",
+   "where": "x",
+   "text": "Older people who had taken benzodiazepines for years were handed a booklet, and many stopped.",
+   "problem": "'Handed' asserts in-person delivery (record: say 'given'); 'many' without the number in a headline, and 'for years' is not the trial's definition (long-term users).",
+   "source_says": "303 long-term users; 27% vs 5% discontinued at 6 months by pharmacy renewal records.",
+   "severity": "minor",
+   "replacement": "Older people on long-term benzodiazepines were given a booklet on the risks with a plan for cutting down, and more stopped: 27 in 100, against 5 in 100 with usual care."
+  },
+  {
+   "tmp_id": "C11-P03",
+   "where": "linkedin",
+   "text": "Older people who had taken benzodiazepines for years were handed a booklet, and many stopped.",
+   "problem": "Same as X headline.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Older people on long-term benzodiazepines were given a booklet on the risks with a plan for cutting down, and more stopped: 27 in 100, against 5 in 100 with usual care."
+  },
+  {
+   "tmp_id": "C11-P03",
+   "where": "x",
+   "text": "Posting information alone did not reduce use in a large US trial.",
+   "problem": "Population swap by omission: Singh 2024 mailed materials to people with dementia and their prescribers, across three drug classes.",
+   "source_says": "12,787 US health plan members with dementia; mailing to patient and prescriber; dispensing 76.7% vs 77.5% usual care.",
+   "severity": "major",
+   "replacement": "In a large US trial in people with dementia, mailing information to them and their prescribers did not reduce use."
+  },
+  {
+   "tmp_id": "C11-P03",
+   "where": "threads",
+   "text": "Pharmacies ran it, and withdrawal symptoms were common in people who tapered.",
+   "problem": "Withdrawal figure comes from the second trial (D-PRESCRIBE, 29 of 77 sedative-hypnotic tapers), not the trial described.",
+   "source_says": "D-PRESCRIBE: 29 of 77 who attempted to taper reported withdrawal symptoms; none hospitalised.",
+   "severity": "minor",
+   "replacement": "Pharmacies ran it. In a second trial, about 4 in 10 people who tapered sleeping tablets reported withdrawal symptoms, though none needed hospital care."
+  },
+  {
+   "tmp_id": "C11-P04",
+   "where": "bluesky",
+   "text": "A vibrating pad woke about 80 in 100; a flashing light, 27 in 100.",
+   "problem": "Range truncated; also drops 'small' study.",
+   "source_says": "Bed and pillow shakers woke 80 to 84%.",
+   "severity": "minor",
+   "replacement": "In a small lab study... A vibrating pad woke about 80 to 84 in 100; a flashing light, 27 in 100."
+  },
+  {
+   "tmp_id": "C11-P05",
+   "where": "bluesky",
+   "text": "In an English GP trial, a sleep hygiene booklet was the comparison. Adding four nurse sessions of sleep restriction therapy gave less severe insomnia at 6 months.",
+   "problem": "Missing required qualification that this was not an older-adult trial (mean age 55); older-adult audience.",
+   "source_says": "Mean age 55.4 years (range 19 to 88).",
+   "severity": "major",
+   "replacement": "In an English GP trial (mean age 55), a sleep hygiene booklet was the comparison. Adding four nurse sessions of sleep restriction therapy gave less severe insomnia at 6 months."
+  },
+  {
+   "tmp_id": "C11-P05",
+   "where": "x",
+   "text": "The AASM advises against sleep hygiene alone for long-term insomnia.",
+   "problem": "Recommendation strength omitted; it is conditional.",
+   "source_says": "'We suggest ... not' (CONDITIONAL).",
+   "severity": "minor",
+   "replacement": "The AASM suggests not using sleep hygiene alone for long-term insomnia (a conditional recommendation)."
+  },
+  {
+   "tmp_id": "C11-P06",
+   "where": "linkedin",
+   "text": "In older people, gabapentinoids commonly cause sleepiness and dizziness.",
+   "problem": "Attributes an older-adult-specific frequency claim that neither source makes; AASM reports somnolence and dizziness in trial adults, not older people specifically.",
+   "source_says": "AASM: 'Adverse effects included somnolence and dizziness.' Guideline does not mention older adults.",
+   "severity": "major",
+   "replacement": "Gabapentinoids commonly cause sleepiness and dizziness."
+  },
+  {
+   "tmp_id": "C11-P06",
+   "where": "linkedin",
+   "text": "The 2025 US guideline from the American Academy of Sleep Medicine made four changes worth knowing.",
+   "problem": "Item 3 (aggravators) is a long-standing first step, not a change.",
+   "source_says": "Good practice statement.",
+   "severity": "minor",
+   "replacement": "The 2025 US guideline from the American Academy of Sleep Medicine has four points worth knowing."
+  },
+  {
+   "tmp_id": "C11-P06",
+   "where": "x",
+   "text": "The guideline now advises against pramipexole, ropinirole or rotigotine as standard, because of augmentation.",
+   "problem": "Conditional recommendation not stated in X.",
+   "source_says": "'suggests against the standard use' (conditional).",
+   "severity": "minor",
+   "replacement": "The guideline now suggests not using pramipexole, ropinirole or rotigotine as standard (a conditional recommendation), because of augmentation."
+  },
+  {
+   "tmp_id": "C11-P06",
+   "where": "bluesky",
+   "text": "advises checking ferritin and transferrin saturation in everyone",
+   "problem": "Guideline applies to clinically significant RLS.",
+   "source_says": "'In all patients with clinically significant RLS'.",
+   "severity": "minor",
+   "replacement": "advises checking ferritin and transferrin saturation in everyone with troublesome restless legs"
+  },
+  {
+   "tmp_id": "C11-P07",
+   "where": "x",
+   "text": "The risk over time was about half.",
+   "problem": "Hazard ratio with wide CI presented as a firm halving in the short version; LinkedIn carries the uncertainty, X does not.",
+   "source_says": "HR 0.51 (95% CI 0.29 to 0.88).",
+   "severity": "major",
+   "replacement": "The risk over time was about half as high with CBT, though the true reduction could be smaller or larger."
+  },
+  {
+   "tmp_id": "C11-P10",
+   "where": "linkedin",
+   "text": "Broken nights are part of that.",
+   "problem": "Unsupported causal inference; the source reports a screening count, not that night waking explains daytime sleeping.",
+   "source_says": "339 had excessive daytime sleeping; of these, 133 had nighttime sleep disruption and consented.",
+   "severity": "major",
+   "replacement": "Of those, 133 also had broken sleep at night on a wrist monitor and joined the study."
+  },
+  {
+   "tmp_id": "C11-P10",
+   "where": "x",
+   "text": "Setting checks by each person's skin risk cut waking with no harm to skin.",
+   "problem": "Overstates: the reduction was in care-related (light/noise) waking, with care by research staff.",
+   "source_says": "'Awakenings due to light and sound associated with incontinence care were significantly reduced'.",
+   "severity": "minor",
+   "replacement": "Setting checks by each person's skin risk cut care-related waking, with no harm to skin."
+  },
+  {
+   "tmp_id": "C11-P10",
+   "where": "threads",
+   "text": "Checks set by each person's skin risk cut waking without harming skin.",
+   "problem": "As X.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Checks set by each person's skin risk cut care-related waking without harming skin."
+  },
+  {
+   "tmp_id": "C11-P10",
+   "where": "bluesky",
+   "text": "Checks set by each person's skin risk cut waking without harming skin.",
+   "problem": "As X; also omits small/old US studies.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "In small, older US studies... Checks set by each person's skin risk cut care-related waking without harming skin."
+  },
+  {
+   "tmp_id": "C11-P11",
+   "where": "bluesky",
+   "text": "In a US trial, phone CBT for insomnia left 56 in 100 older adults free of significant insomnia a year later, against 26 in 100 given information.",
+   "problem": "Population swap: all participants had osteoarthritis pain; reads as older adults in general.",
+   "source_says": "327 adults 60+ with insomnia and OA pain; 67/119 vs 33/128 in remission at 12 months.",
+   "severity": "major",
+   "replacement": "In a US trial of older adults with insomnia and arthritis pain, phone CBT for insomnia left 56 in 100 free of significant insomnia a year later, against 26 in 100 given information."
+  },
+  {
+   "tmp_id": "C11-P11",
+   "where": "bluesky",
+   "text": "About 1 in 5 people over 60 in England did not use the internet in 2020.",
+   "problem": "Drops 'living in their own homes' (care home residents excluded).",
+   "source_says": "ELSA, private households.",
+   "severity": "minor",
+   "replacement": "About 1 in 5 people over 60 living at home in England did not use the internet in 2020."
+  },
+  {
+   "tmp_id": "C11-P11",
+   "where": "visual_text",
+   "text": "CBT for insomnia works by phone",
+   "problem": "Headline generalises beyond population; fine as RCT but should carry the population on the same card (it does in the kicker). Acceptable; tighten.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Phone CBT for insomnia helped older adults with arthritis pain"
+  },
+  {
+   "tmp_id": "C11-P12",
+   "where": "x",
+   "text": "In people over 60, sleeping tablets added only about 25 minutes, with more confusion and daytime tiredness.",
+   "problem": "Missing required qualification that the trials tested nightly use over at least 5 nights, not a single ward dose; also drops 'self-reported' and 'memory problems'.",
+   "source_says": "C11-02-b qualification: trials were of nightly use over at least 5 nights.",
+   "severity": "major",
+   "replacement": "In trials of nightly use in people over 60, sleeping tablets added only about 25 minutes of reported sleep, with more memory problems, confusion and daytime tiredness."
+  },
+  {
+   "tmp_id": "C11-P12",
+   "where": "threads",
+   "text": "In people over 60, sleeping tablets added only about 25 minutes of sleep, with more confusion and daytime tiredness.",
+   "problem": "As X.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "In trials of nightly use in people over 60, sleeping tablets added only about 25 minutes of sleep, with more confusion and daytime tiredness."
+  },
+  {
+   "tmp_id": "C11-P12",
+   "where": "x",
+   "text": "and they slept 83 minutes less than at home.",
+   "problem": "Self-report of one night; phrased as measured.",
+   "source_says": "Subjective total sleep time 83 min shorter than habitual sleep at home.",
+   "severity": "minor",
+   "replacement": "and they reported sleeping 83 minutes less than at home."
+  },
+  {
+   "tmp_id": "C11-P12",
+   "where": "all",
+   "text": "Is a diuretic given in the evening? / diuretic in the evening?",
+   "problem": "Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication.",
+   "source_says": "Oelke 2017: diuretics 'should be taken mid-late afternoon'; Reynard: dose 6 h before bed reduced nocturia.",
+   "severity": "major",
+   "replacement": "Is a diuretic given late in the evening or at bedtime?"
+  }
+ ],
+ "posts_to_drop": []
+}
