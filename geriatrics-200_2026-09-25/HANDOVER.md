@@ -27,3 +27,6 @@ Status on 26 Sep 2026: in progress, running with minimal token use.
 - C01 lost three selected ideas (hip protectors, getting up off the floor, falls-rate metric) to fully verified reserves; consider restoring the hip-protector post.
 - Drive folder created: `@ SOCIAL MEDIA HUB/Geriatrics 200 posts (non-delirium) 25 Sep 2026` (empty until assembly). Images can go into Google Docs via raw GitHub links (tested).
 - Nothing has been published or scheduled.
+
+## Paused by owner, 26 Sep 2026
+All workflows stopped. To resume text for a group, re-run `_system/workflows/produce_text.js` with `resumeFromRunId` and the same args (run ids: wf_1c9b4850-2b4 C02/C08/C14; wf_3badd782-3d8 C03/C09/C15/C20; wf_ceb7ae9a-087 C04/C10/C16; wf_ed81a491-33b C05/C11/C17; wf_d1fe3167-856 C06/C12/C18; wf_d758e1eb-69b C07/C13/C19). Completed agents replay from cache. Posts files exist for 18 categories (not C15, C19); only C01 is text_final. C01 visual pilot stopped part way (run wf_787635de-e98).
