@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P11</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.s { margin-top: 16px; }
+ .strip.p4 { margin-top: 22px; gap: 18px; }
+ .panelbox .cap { font-size: 27px; padding: 12px 18px; }
+ .bubble { font-size: 26px; }
+ .datap { background: var(--mint); padding: 20px 22px; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+ .datap p { font-size: 26px; line-height: 1.28; }
+ .datap .yr { font-weight: 700; color: var(--teal); }
+ .datap .later { font-weight: 700; }
+ .sq { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; max-width: 290px; }
+ .sq i { width: 20px; height: 20px; border-radius: 4px; background: #D5DEDD; display: block; }
+ .sq i.f { background: var(--orange); }
+ .rule2 { font-size: 31px; line-height: 1.34; font-weight: 600; margin-top: 20px; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Stops walking when talking</h1>
+  <div class="strip p4">
+   <div class="panelbox"><div class="art" id="p1"><div class="bubble" style="left:14px;top:12px;max-width:74%">How did you sleep last night?</div></div><div class="cap">A question while walking.</div></div>
+   <div class="panelbox"><div class="art" id="p2"><div class="bubble" style="right:14px;top:12px">Not bad, thanks.</div></div><div class="cap">He stops to answer.</div></div>
+   <div class="panelbox"><div class="art" id="p3"></div><div class="cap">A prompt for a full falls assessment.</div></div>
+   <div class="panelbox datap">
+    <p class="yr">1997, Sweden, 58 people in sheltered housing</p>
+    <div><p>Stopped walking: 10 of 12 fell within 6 months</p><div class="sq" id="q1"></div></div>
+    <div><p>Kept walking: 11 of 46 fell</p><div class="sq" id="q2"></div></div>
+    <p class="later">Later studies: weaker</p>
+   </div>
+  </div>
+  <p class="rule2">Present: look harder with a full falls assessment. Absent: no reassurance.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Lundin-Olsson et al., Lancet 1997; Hyndman and Ashburn 2004; Zhou et al. 2026</span></div>
+</div>
+</div>
+<script>
+const K = Kit;
+const sq = (id, f, n) => { document.getElementById(id).innerHTML = Array.from({ length: n }, (_, i) => `<i class="${i < f ? 'f' : ''}"></i>`).join(''); };
+sq('q1', 10, 12); sq('q2', 11, 46);
+const W = 500, H = 400, S = 0.95, g = 420;
+const man = { age: 'older', sex: 'm', skin: 'dark', hair: 'white', hairStyle: 'cropped', top: 'navy', bottom: 'stone', extras: ['cardigan'], cardigan: 'mustard', shoes: '#3E3129' };
+const ph = { role: 'physio', sex: 'f', skin: 'light', hair: 'auburn', hairStyle: 'ponytail' };
+const room = () => K.room('care_home_lounge', { w: W, h: H, ground: g, scale: S });
+K.draw('#p1', W, H, [room(),
+  K.person(Object.assign({ pose: 'walking', x: 300, y: g, scale: S, stride: 0.4, tilt: -6 }, ph)),
+  K.person(Object.assign({ pose: 'stick', x: 190, y: g, scale: S }, man))]);
+K.draw('#p2', W, H, [room(),
+  K.person(Object.assign({ pose: 'standing', x: 330, y: g, scale: S, facing: 'left', tilt: 4 }, ph)),
+  K.person(Object.assign({ pose: 'standing', x: 190, y: g, scale: S, tilt: -4, hands: { near: { x: 222, y: g - 180 } } }, man)),
+  K.stick({ x: 238, y: g, angle: -4, scale: S, type: 'crook', colour: '#7B5335' })]);
+K.draw('#p3', W, H, [room(),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'armchair', seatColour: 'sage', x: 150, y: g, scale: S }, man)),
+  K.stick({ x: 60, y: g, angle: 10, scale: S, type: 'crook', colour: '#7B5335' }),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 370, y: g, scale: S, facing: 'left', tilt: 8, hold: 'notepad' }, ph))]);
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,142 @@
+[
+ {
+  "tmp_id": "C04-P04",
+  "where": "captions.x",
+  "old": "Two very large trials found vitamin D tablets did not prevent broken bones. The people in them were mostly healthy, and most were not short of vitamin D.",
+  "new": "Two very large trials found vitamin D tablets did not prevent broken bones. The people in them were mostly healthy, and in VITAL most were not short of vitamin D.",
+  "reason": "Fact-check major: Attributes 'mostly not short of vitamin D' to both trials; baseline vitamin D status for D-Health was not verified (claim C04-20-c qualification forbids it). Only VITAL is supported."
+ },
+ {
+  "tmp_id": "C04-P04",
+  "where": "captions.linkedin",
+  "old": "Two very large trials found vitamin D tablets did not prevent broken bones. The people in them were mostly healthy, and most were not short of vitamin D.",
+  "new": "Two very large trials found vitamin D tablets did not prevent broken bones. The people in them were mostly healthy, and in VITAL most were not short of vitamin D.",
+  "reason": "Fact-check major: Attributes 'mostly not short of vitamin D' to both trials; baseline vitamin D status for D-Health was not verified (claim C04-20-c qualification forbids it). Only VITAL is supported."
+ },
+ {
+  "tmp_id": "C04-P04",
+  "where": "captions.bluesky",
+  "old": "Most were healthy and not short of vitamin D.",
+  "new": "Most were healthy, and in VITAL most were not short of vitamin D.",
+  "reason": "Fact-check major: Same overstatement applied to all 45,000 across both trials."
+ },
+ {
+  "tmp_id": "C04-P04",
+  "where": "captions.threads",
+  "old": "Most people in them were healthy and not short of vitamin D.",
+  "new": "Most people in them were healthy, and in VITAL most were not short of vitamin D.",
+  "reason": "Fact-check major: Same overstatement for D-Health."
+ },
+ {
+  "tmp_id": "C04-P04",
+  "where": "captions.threads",
+  "old": "Vitamin D with calcium slightly cut hip fractures in pooled trials, more so in care homes.",
+  "new": "Vitamin D with calcium slightly cut hip fractures in pooled trials; because hip fractures are more common in care homes, more are estimated to be prevented there.",
+  "reason": "Fact-check minor: 'More so' implies a larger effect in care homes; the per-1000 figures apply one pooled relative risk to a higher assumed baseline risk."
+ },
+ {
+  "tmp_id": "C04-P05",
+  "where": "captions.x",
+  "old": "For approved drugs, density gains do track fracture reduction across whole trials. In one person, much less so: with alendronate, the spine density gain accounted for about 16% of the fall in spinal fractures.",
+  "new": "For approved drugs, density gains do track fracture reduction across whole trials. But density explains only part of the benefit: with alendronate, the spine density gain accounted for about 16% of the fall in spinal fractures. And a repeat scan in one person varies more than the real differences between people.",
+  "reason": "Fact-check major: The 16% is a trial-level proportion of the alendronate benefit explained by spine density, not a measure of how well density predicts benefit in one person. Presents a trial-level statistic as individual-level evidence."
+ },
+ {
+  "tmp_id": "C04-P05",
+  "where": "captions.threads",
+  "old": "In one person it explains little: with alendronate, about 16% of the fall in spinal fractures.",
+  "new": "But density explains only part of the benefit: with alendronate, about 16% of the fall in spinal fractures. One person's repeat scan varies more than the real differences between people.",
+  "reason": "Fact-check major: Same conflation of a trial-level proportion with an individual prediction."
+ },
+ {
+  "tmp_id": "C04-P05",
+  "where": "captions.linkedin",
+  "old": "In one person it is a weaker guide. With alendronate, the spine density gain accounted for about 16% of the fall in spinal fractures.",
+  "new": "It also explains only part of the benefit: with alendronate, the spine density gain accounted for about 16% of the fall in spinal fractures. In one person it is a weaker guide still.",
+  "reason": "Fact-check minor: Presents the 16% as evidence about individuals."
+ },
+ {
+  "tmp_id": "C04-P05",
+  "where": "captions.bluesky",
+  "old": "In 1990, fluoride raised spine density by 35% but did not cut spinal fractures; other fractures rose (72 v 24).",
+  "new": "In a 1990 trial, fluoride raised spine density 35% more than placebo but did not cut spinal fractures; there were more other fractures (72 v 24 fractures).",
+  "reason": "Fact-check minor: 'Rose' implies a within-arm increase; 72 v 24 is a between-group count of fractures, not women. Missing 'more than placebo'."
+ },
+ {
+  "tmp_id": "C04-P10",
+  "where": "captions.threads",
+  "old": "In US records, 19 in 100 men treated had broken a bone after 5 years, against 13 in 100 untreated, a link rather than proof.",
+  "new": "In US records of men with prostate cancer who lived at least 5 years, 19 in 100 who had hormone treatment had broken a bone, against 13 in 100 who did not, a link rather than proof.",
+  "reason": "Fact-check major: Figures apply only to men with prostate cancer who survived at least 5 years after diagnosis (a subgroup), not a 5-year cumulative risk for all treated men."
+ },
+ {
+  "tmp_id": "C04-P10",
+  "where": "visual_brief.slides.0.text.labels.1",
+  "old": "Men, 5 years on: 19 in 100 treated v 13 in 100 untreated broke a bone (link, not proof)",
+  "new": "Men with prostate cancer who lived 5+ years: 19 in 100 with hormone treatment v 13 in 100 without had broken a bone (link, not proof)",
+  "reason": "Fact-check major: Same subgroup presented as a 5-year risk."
+ },
+ {
+  "tmp_id": "C04-P10",
+  "where": "visual_text.6",
+  "old": "Men, 5 years on: 19 in 100 treated v 13 in 100 untreated broke a bone (link, not proof)",
+  "new": "Men with prostate cancer who lived 5+ years: 19 in 100 with hormone treatment v 13 in 100 without had broken a bone (link, not proof)",
+  "reason": "Fact-check major: Same subgroup presented as a 5-year risk."
+ },
+ {
+  "tmp_id": "C04-P10",
+  "where": "alt_text.0",
+  "old": "Among men surviving 5 years, 19 in 100 treated v 13 in 100 untreated broke a bone (observational).",
+  "new": "Among men with prostate cancer who lived at least 5 years, 19 in 100 who had hormone treatment v 13 in 100 who did not had broken a bone (observational).",
+  "reason": "Fact-check minor: Should say 'at least 5 years' and 'with prostate cancer'."
+ },
+ {
+  "tmp_id": "C04-P03",
+  "where": "captions.bluesky",
+  "old": "In trials, a year of bisphosphonate treatment spared about 1 in 100 women a non-spinal fracture. For someone likely to live only months, the weekly tablet routine may not help in time. Stopping can be right.",
+  "new": "In trials of women aged 63 to 74 on average, a year of bisphosphonate treatment spared about 1 in 100 a non-spinal fracture. For someone likely to live only months, the weekly tablet routine may not help in time. Stopping can be right.",
+  "reason": "Fact-check minor: Omits the necessary qualification that trial women were 63 to 74 and not near the end of life; short version generalises."
+ },
+ {
+  "tmp_id": "C04-P07",
+  "where": "captions.x",
+  "old": "The balance stays favourable: an estimated 149 hip fractures prevented for 2 atypical fractures per 10,000 White women over 3 years.",
+  "new": "The balance stays favourable: modelled estimates give 149 hip fractures prevented for 2 atypical fractures per 10,000 White women with osteoporosis over 3 years (less favourable, but still positive, in Asian women).",
+  "reason": "Fact-check minor: Missing that these are modelled estimates for women with osteoporosis, and that the balance was less favourable in Asian women."
+ },
+ {
+  "tmp_id": "C04-P07",
+  "where": "captions.threads",
+  "old": "An estimated 149 hip fractures are prevented for 2 atypical fractures per 10,000 White women over 3 years.",
+  "new": "Modelled estimates: 149 hip fractures prevented for 2 atypical fractures per 10,000 White women with osteoporosis over 3 years.",
+  "reason": "Fact-check minor: Missing 'modelled' and population."
+ },
+ {
+  "tmp_id": "C04-P01",
+  "where": "captions.bluesky",
+  "old": "If it lapses, bone loss returns within months and spinal fractures rise.",
+  "new": "If it lapses, bone loss returns within months, and in a trial follow-up spinal fractures rose.",
+  "reason": "Fact-check minor: Fracture rise stated without noting it comes from a later analysis in women; slight compression."
+ },
+ {
+  "tmp_id": "C04-P06",
+  "where": "captions.linkedin",
+  "old": "That was the right point to make, and it needs a qualification.",
+  "new": "That is right, and it needs a qualification.",
+  "reason": "Fact-check minor: Refers to an unspecified earlier statement; reads as if responding to someone. Not a factual claim but confusing."
+ },
+ {
+  "tmp_id": "C04-P08",
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "Illustrative dialogue, panel 3: 'Coffee can wait till half past.'",
+  "new": "Panel 3 caption: Coffee waits until 30 minutes have passed.",
+  "reason": "Fact-check minor: Invented quotation in the visual; labelled illustrative, but style rules bar invented quotations."
+ },
+ {
+  "tmp_id": "C04-P08",
+  "where": "visual_text.6",
+  "old": "Illustrative dialogue, panel 3: 'Coffee can wait till half past.'",
+  "new": "Panel 3 caption: Coffee waits until 30 minutes have passed.",
+  "reason": "Fact-check minor: Invented quotation in the visual; labelled illustrative, but style rules bar invented quotations."
+ }
+]
