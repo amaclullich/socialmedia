@@ -93,7 +93,11 @@
           "C02-24"
         ]
       ],
-      "reasons": "10: about ten strong, distinct ideas remain once the hospital-mobility and post-discharge clusters are held to one each. Swapped C02-26 (Parkinson's timing, kept once as C06-20) and C02-22 (support rests on moving-and-handling web guidance) for C02-16 (in-hospital exercise trial) and C02-19 (care home strength training, a public Who gets left out post)."
+      "reasons": "10: about ten strong, distinct ideas remain once the hospital-mobility and post-discharge clusters are held to one each. Swapped C02-26 (Parkinson's timing, kept once as C06-20) and C02-22 (support rests on moving-and-handling web guidance) for C02-16 (in-hospital exercise trial) and C02-19 (care home strength training, a public Who gets left out post).",
+      "writer_guidance": {
+        "C02-10": "Keep to the concrete first-hour checklist (key, step, toilet, chair, kettle, bed) and the Loyd 2020 hospital-associated disability evidence; avoid earlier post E109's framing about readiness after hip fracture.",
+        "C02-24": "Say prehabilitation was 'compared with the same programme after surgery' (Carli 2020), not that it gave no fewer complications."
+      }
     },
     {
       "id": "C03",
@@ -135,7 +139,14 @@
           "C03-14"
         ]
       ],
-      "reasons": "9, deliberately below the judge's 13 because the earlier collection already has 20 hip fracture posts; the nine are the same as the mechanical pass. C03-12 also carries the 'do not decide the care home move at the lowest point' argument and C03-09 the 'next of kin cannot consent' argument for the whole collection, so C16-10, C17-02, C17-12 and C09-24 were moved out."
+      "reasons": "9, deliberately below the judge's 13 because the earlier collection already has 20 hip fracture posts; the nine are the same as the mechanical pass. C03-12 also carries the 'do not decide the care home move at the lowest point' argument and C03-09 the 'next of kin cannot consent' argument for the whole collection, so C16-10, C17-02, C17-12 and C09-24 were moved out. After the check: C03-18 (public) is the named fallback for C03-09 if its key claim cannot be sourced.",
+      "fallbacks": {
+        "C03-09": "C03-18"
+      },
+      "writer_guidance": {
+        "C03-09": "Add a PubMed-indexed source, e.g. Zalmay 2021 Cureus 13:e20322 (doi 10.7759/cureus.20322; next of kin in best-interests decisions for hip fracture surgery). Verify the Scottish wording (a welfare attorney or guardian with medical treatment powers can consent, not only be consulted); do not describe the Northern Ireland process. If the key claim cannot be sourced, replace with C03-18.",
+        "C03-12": "Owns the argument about when to decide a care home move; schedule well away from C12-08."
+      }
     },
     {
       "id": "C04",
@@ -179,7 +190,15 @@
           "C04-12"
         ]
       ],
-      "reasons": "10: many strong trial-based ideas, but the earlier set covered the treatment gap and several candidates cluster (tablet routine, denosumab, trial counts). Swapped C04-26 (hip protectors, duplicates fixed C01-14), C04-09 (tablet-routine cluster, the public C04-13 kept) and C04-30 (second trial-counting post beside C04-29) for C04-13, C04-14 (drug holidays) and C04-22 (cancer hormone treatment, which reaches men)."
+      "reasons": "10: many strong trial-based ideas, but the earlier set covered the treatment gap and several candidates cluster (tablet routine, denosumab, trial counts). Swapped C04-26 (hip protectors, duplicates fixed C01-14), C04-09 (tablet-routine cluster, the public C04-13 kept) and C04-30 (second trial-counting post beside C04-29) for C04-13, C04-14 (drug holidays) and C04-22 (cancer hormone treatment, which reaches men).",
+      "fallbacks": {
+        "C04-29": "C04-30"
+      },
+      "writer_guidance": {
+        "C04-07": "Owns the point that denosumab must not be paused without switching to another treatment.",
+        "C04-14": "Keep on bisphosphonate holidays (who can pause, who continues, when to reassess). Mention denosumab in one clause that refers to the C04-07 post; do not end on 'denosumab should never be paused'.",
+        "C04-04": "Keep the denosumab-stopping caveat to a single sentence."
+      }
     },
     {
       "id": "C05",
@@ -219,7 +238,13 @@
           "C05-10"
         ]
       ],
-      "reasons": "8: fewer strong, distinct candidates than most categories (7 score 45 or more and several rest on the same Collard review or the CFS paper), so it gives up two places. Dropped C05-04 and C05-15 from the mechanical pass, which keeps the CFS cluster to two (C05-16, C05-24) and three public posts; C05-08 takes the hospital CGA review from C15-17."
+      "reasons": "8: fewer strong, distinct candidates than most categories (7 score 45 or more and several rest on the same Collard review or the CFS paper), so it gives up two places. Dropped C05-04 and C05-15 from the mechanical pass, which keeps the CFS cluster to two (C05-16, C05-24) and three public posts; C05-08 takes the hospital CGA review from C15-17.",
+      "fallbacks": {
+        "C05-14": "C05-04"
+      },
+      "writer_guidance": {
+        "C05-24": "Say 'levels 5 to 8' describe increasing need for help; level 4 (very mild frailty) needs no daily help."
+      }
     },
     {
       "id": "C06",
@@ -267,7 +292,11 @@
           "C06-20"
         ]
       ],
-      "reasons": "12: the deepest category (20 candidates at 45 or more), even after ceding EMPOWER to C11 and ASPREE to C07. Swapped C06-22 (same trial and argument as C11-03) and C06-17 (support only in NICE pages) for C06-20 (the collection's single Parkinson's timing post), C06-32 and C06-31; C06-18 carries the prescribing-cascade argument, so C10-06 was moved out."
+      "reasons": "12: the deepest category (20 candidates at 45 or more), even after ceding EMPOWER to C11 and ASPREE to C07. Swapped C06-22 (same trial and argument as C11-03) and C06-17 (support only in NICE pages) for C06-20 (the collection's single Parkinson's timing post), C06-32 and C06-31; C06-18 carries the prescribing-cascade argument, so C10-06 was moved out.",
+      "writer_guidance": {
+        "C06-15": "Leave the timolol and slow-heart point to C14-19: list eye drops only as an item on the checklist, and use the six-monthly denosumab injection, medicines supplied by a hospital clinic and remedies bought over the counter as the worked examples. Schedule at least two weeks from C14-19.",
+        "C06-20": "Keep to giving doses at the person's own times and letting them use their own supply in hospital. Cut the nil-by-mouth ask to 'ask for a plan', without naming patches or conversions, and give no list of drugs to avoid (C19-22 owns the non-oral route and the drugs to avoid)."
+      }
     },
     {
       "id": "C07",
@@ -315,7 +344,14 @@
           "C07-18"
         ]
       ],
-      "reasons": "12: 19 candidates at 45 or more, and proportional care is new to the collection. Swapped C07-29 (same HbA1c argument as C06-25), C07-02 (time-to-benefit argument carried with numbers by C04-04) and C07-17 (screening ages rest on NHS web pages) for C07-03, C07-24, C07-01, C07-18 and C07-26; C07-27 takes the DNACPR-is-one-treatment argument from C16-23."
+      "reasons": "12: 19 candidates at 45 or more, and proportional care is new to the collection. Swapped C07-29 (same HbA1c argument as C06-25), C07-02 (time-to-benefit argument carried with numbers by C04-04) and C07-17 (screening ages rest on NHS web pages) for C07-03, C07-24, C07-01, C07-18 and C07-26; C07-27 takes the DNACPR-is-one-treatment argument from C16-23.",
+      "fallbacks": {
+        "C07-03": "C07-22"
+      },
+      "writer_guidance": {
+        "C07-03": "Lead with the blood pressure decision (standing pressure, falls, goals, and the benefit shown in fit over-75s). Call SPRINT 'the trial behind US and European targets' (NICE NG136 did not adopt it). Schedule apart from C08-29 and C20-03.",
+        "C07-07": "Keep to the cancer contact-day evidence (Gupta 2022; CO.17 secondary analysis) and leave dialysis time to C07-24."
+      }
     },
     {
       "id": "C08",
@@ -361,7 +397,11 @@
           "C08-27"
         ]
       ],
-      "reasons": "11: 19 candidates at 45 or more, with medicines capped at four posts. Swapped C08-22 (same study and argument as C19-24) and C08-21 (the police guidance cannot be opened) for C08-25 (music), C08-26 (WHELD, Care that works) and C08-18 (cognitive stimulation, public); C08-10 takes GP continuity from C16-16."
+      "reasons": "11: 19 candidates at 45 or more, with medicines capped at four posts. Swapped C08-22 (same study and argument as C19-24) and C08-21 (the police guidance cannot be opened) for C08-25 (music), C08-26 (WHELD, Care that works) and C08-18 (cognitive stimulation, public); C08-10 takes GP continuity from C16-16.",
+      "writer_guidance": {
+        "C08-29": "Lead with access: why typical patients do not qualify for lecanemab. Schedule apart from C07-03 and C20-03.",
+        "C08-17": "Stay on antipsychotic sensitivity in dementia, not delirium, and do not lead with the haloperidol caution already made in earlier post E140. Schedule apart from C11-21 (acting out dreams)."
+      }
     },
     {
       "id": "C09",
@@ -407,7 +447,12 @@
           "C09-25"
         ]
       ],
-      "reasons": "11: capacity and supported decision-making are absent from the earlier set, but legal posts that rest only on statute text were set aside. Swapped C09-28 (covert medicines, kept as C16-17), C09-11 and C09-01 (statute-only support), C09-12 (contested label, uncertain sources) and C09-32 (interpreter argument overlaps C09-27) for C09-22, C09-27, C09-21, C09-19, C09-02 and C09-25, raising public and Who gets left out coverage."
+      "reasons": "11: capacity and supported decision-making are absent from the earlier set, but legal posts that rest only on statute text were set aside. Swapped C09-28 (covert medicines, kept as C16-17), C09-11 and C09-01 (statute-only support), C09-12 (contested label, uncertain sources) and C09-32 (interpreter argument overlaps C09-27) for C09-22, C09-27, C09-21, C09-19, C09-02 and C09-25, raising public and Who gets left out coverage.",
+      "writer_guidance": {
+        "C09-02": "Say 'national guidance recommends' (Academy of Medical Royal Colleges), not 'entitled to ask'.",
+        "C09-19": "State what separates plain wording from elderspeak: no terms of endearment, no sing-song pitch, no 'shall we'. Schedule apart from C09-18.",
+        "C09-18": "Schedule apart from C09-19."
+      }
     },
     {
       "id": "C10",
@@ -497,7 +542,10 @@
           "C11-07"
         ]
       ],
-      "reasons": "12: one of the strongest categories (17 at 45 or more, almost all PubMed-backed). Dropped C11-23 so the sleeping-tablet cluster keeps two (C11-16, C11-03), and added C11-24, C11-27 (care home nights, public) and C11-09 (telephone CBT-I, Who gets left out); C11-09 uses the LIFT trial, so C10-27 was not used."
+      "reasons": "12: one of the strongest categories (17 at 45 or more, almost all PubMed-backed). Dropped C11-23 so the sleeping-tablet cluster keeps two (C11-16, C11-03), and added C11-24, C11-27 (care home nights, public) and C11-09 (telephone CBT-I, Who gets left out); C11-09 uses the LIFT trial, so C10-27 was not used.",
+      "writer_guidance": {
+        "C11-21": "Schedule apart from C08-17."
+      }
     },
     {
       "id": "C12",
@@ -541,7 +589,12 @@
           "C12-36"
         ]
       ],
-      "reasons": "10: continence is new to the collection and has about ten well-supported, distinct ideas once urine infection is held to two posts (C12-17, C12-23). Swapped C12-18 (the dipstick rule rests on UKHSA pages), C12-22 (third urine-infection post) and C12-03 (scheme websites) for C12-25 and C12-26 (bowel posts, which were thin) and C12-24 (a post for men)."
+      "reasons": "10: continence is new to the collection and has about ten well-supported, distinct ideas once urine infection is held to two posts (C12-17, C12-23). Swapped C12-18 (the dipstick rule rests on UKHSA pages), C12-22 (third urine-infection post) and C12-03 (scheme websites) for C12-25 and C12-26 (bowel posts, which were thin) and C12-24 (a post for men). After the check: C12-08 kept, written strictly on continence assessment and treatment options with no timing-of-decision language, and scheduled well away from C03-12 (which owns the timing argument).",
+      "writer_guidance": {
+        "C12-08": "Write strictly about continence assessment and treatment options (assessment, treatment, equipment, night-time help). No timing-of-decision language ('not yet', 'lowest point', 'too early'). The Thom 1997 link is an association. Schedule well away from C03-12.",
+        "C12-24": "Say the sheath was 'more comfortable, with a composite outcome driven by bacteriuria', not linked with fewer infections or deaths.",
+        "C12-36": "Say 'no clear difference in quality of life, fewer complications' (TOPSY was a superiority trial), not 'did as well as'."
+      }
     },
     {
       "id": "C13",
@@ -561,7 +614,7 @@
         "C13-32"
       ],
       "reserves": [
-        "C13-02",
+        "C13-24",
         "C13-30",
         "C13-28"
       ],
@@ -570,13 +623,13 @@
           "C13-14",
           "C13-27",
           "C13-26",
-          "C13-11"
+          "C13-11",
+          "C13-24"
         ],
         [
           "C13-33",
           "C13-09",
           "C13-36",
-          "C13-02",
           "C13-32"
         ],
         [
@@ -587,7 +640,15 @@
           "C13-28"
         ]
       ],
-      "reasons": "11: 17 candidates at 44.5 or more. Moved C13-08 out (the Parkinson's route point is kept as C19-22) and dropped C13-02 and C13-12 to reduce the sceptical-evidence lean, adding C13-23, C13-27, C13-26 and C13-32 for public and Care that works coverage; C13-11, C13-18 and C13-33 take their topics from C19-20, C08-23 and C08-32."
+      "reasons": "11: 17 candidates at 44.5 or more. Moved C13-08 out (the Parkinson's route point is kept as C19-22) and dropped C13-02 and C13-12 to reduce the sceptical-evidence lean, adding C13-23, C13-27, C13-26 and C13-32 for public and Care that works coverage; C13-11, C13-18 and C13-33 take their topics from C19-20, C08-23 and C08-32. After the check: C13-24 (public, medicines that dry the mouth; Tan 2018 systematic review) is the first reserve, so a failed public post need not take C13 below a quarter. C13-02 was removed as a reserve rather than C13-28: its conclusion (hands-on help at meals) is C13-36's argument and rests on the same evidence, so it could not stand beside C13-36 or rescue it.",
+      "fallbacks": {
+        "C13-23": "C13-24",
+        "C13-26": "C13-24",
+        "C13-27": "C13-24"
+      },
+      "writer_guidance": {
+        "C13-24": "If promoted: Tan 2018 reports associations; the saliva-protection and sugary-sweet decay claims need a dental source."
+      }
     },
     {
       "id": "C14",
@@ -633,7 +694,16 @@
           "C14-23"
         ]
       ],
-      "reasons": "11: 18 candidates at 45 or more covering hearing, vision, balance and hallucinations. Swapped C14-22 (glasses-and-falls argument overlaps fixed C01-23), C14-11 and C14-06 (face-the-speaker advice overlaps C14-16) for C14-09, C14-31, C14-18 (Who gets left out) and C14-25; C14-15 carries the end-of-life hearing study for the collection, so C19-06 and C09-10 were moved out."
+      "reasons": "11: 18 candidates at 45 or more covering hearing, vision, balance and hallucinations. Swapped C14-22 (glasses-and-falls argument overlaps fixed C01-23), C14-11 and C14-06 (face-the-speaker advice overlaps C14-16) for C14-09, C14-31, C14-18 (Who gets left out) and C14-25; C14-15 carries the end-of-life hearing study for the collection, so C19-06 and C09-10 were moved out. After the check: C14-23 (also Who gets left out) is the named fallback for C14-18 if its access claim cannot be supported.",
+      "fallbacks": {
+        "C14-18": "C14-23",
+        "C14-09": "C14-13"
+      },
+      "writer_guidance": {
+        "C14-19": "Owns the beta-blocker eye drop and slow-heart point. Schedule at least two weeks from C06-15.",
+        "C14-31": "Keep on test administration for practitioners: hearing aids in, amplifier, large print, and recording the adaptations with the score (Dupuis 2015). Do not restate 'check hearing before diagnosing dementia' (earlier post E006).",
+        "C14-18": "Reword to 'wax removal is not a core funded GP service in England, and access varies', citing Sharvill 2021 BMJ letter (doi 10.1136/bmj.n2077) and an RNID survey if one can be opened. If it cannot be supported, replace with C14-23."
+      }
     },
     {
       "id": "C15",
@@ -651,23 +721,23 @@
         "C15-07"
       ],
       "reserves": [
+        "C15-15",
         "C15-18",
-        "C15-22",
-        "C15-06"
+        "C15-22"
       ],
       "batches": [
         [
           "C15-16",
           "C15-01",
-          "C15-23",
           "C15-11",
-          "C15-14"
+          "C15-14",
+          "C15-15"
         ],
         [
           "C15-12",
+          "C15-23",
           "C15-18",
           "C15-22",
-          "C15-06",
           "C15-04"
         ],
         [
@@ -675,7 +745,18 @@
           "C15-07"
         ]
       ],
-      "reasons": "9: fewer distinct strong candidates than the judge's 14 once hospital CGA sits in C05; the two discharge-evidence posts become reserves. Swapped C15-22 and C15-18 for C15-07 to keep three public posts."
+      "reasons": "9: fewer distinct strong candidates than the judge's 14 once hospital CGA sits in C05; the two discharge-evidence posts become reserves. Swapped C15-22 and C15-18 for C15-07 to keep three public posts. After the check: C15-15 (public, basic care during a long trolley wait; Dugaret 2012 is PubMed-indexed) replaces reserve C15-06 and is the first fallback for C15-04 or C15-07, both on the verify-early list.",
+      "fallbacks": {
+        "C15-04": "C15-15",
+        "C15-07": "C15-15",
+        "C15-23": "C15-15"
+      },
+      "writer_guidance": {
+        "C15-04": "Source from PubMed papers on medication errors at transfer of care (Alqenae 2020) and on weekly-dosing errors; give prevalence as a range, not one number. If the central claim cannot be sourced, replace with C15-15.",
+        "C15-07": "NHS Continuing Healthcare Fast Track is England-only: write the same-day principle for all UK readers and name Fast Track as England-only or leave it out; the claim that some people die before rapid discharge happens needs a source or must go.",
+        "C15-15": "If promoted, schedule apart from C15-14 (emergency department waits).",
+        "C15-22": "If promoted, keep distinct from C16-18: this post is about case-review judgements of readmissions, not diagnosis-group admission measures; schedule apart."
+      }
     },
     {
       "id": "C16",
@@ -684,7 +765,7 @@
       "selected": [
         "C16-17",
         "C16-11",
-        "C16-03",
+        "C16-18",
         "C16-12",
         "C16-28",
         "C16-01",
@@ -692,30 +773,40 @@
         "C16-26"
       ],
       "reserves": [
-        "C16-27",
         "C16-25",
-        "C16-18"
+        "C16-06",
+        "C16-19"
       ],
       "batches": [
         [
           "C16-17",
           "C16-11",
           "C16-15",
+          "C16-01"
+        ],
+        [
           "C16-18",
-          "C16-12"
+          "C16-12",
+          "C16-06"
         ],
         [
           "C16-28",
-          "C16-27",
           "C16-26",
-          "C16-25"
-        ],
-        [
-          "C16-01",
-          "C16-03"
+          "C16-25",
+          "C16-19"
         ]
       ],
-      "reasons": "8: many ideas depend on NHS England or NICE pages that cannot be opened, and several repeat arguments placed elsewhere. Swapped C16-10 (C03-12), C16-20 (C06-20), C16-23 (C07-27), C16-07 (responder rules have no national source) and C16-21 (only NICE and RPS guidance) for C16-03, C16-12 and C16-26; C16-17 takes covert medicines from C09-28."
+      "reasons": "8: many ideas depend on NHS England or NICE pages that cannot be opened, and several repeat arguments placed elsewhere. Swapped C16-10 (C03-12), C16-20 (C06-20), C16-23 (C07-27), C16-07 (responder rules have no national source) and C16-21 (only NICE and RPS guidance) for C16-12 and C16-26; C16-17 takes covert medicines from C09-28. After the check, C16-03 (lowest score in the collection, sources marked unsure, and the same 'a plan fails unless it reaches whoever is there in a crisis' argument as C16-01) was replaced by C16-18. Reserves are C16-25 (public, fallback for C16-26), C16-06 (public, judge-suggested for public share) and C16-19 (eFI, Clegg 2016); C16-27 was removed as a reserve because it repeats the community half of C05-08.",
+      "fallbacks": {
+        "C16-26": "C16-25",
+        "C16-12": "C16-06"
+      },
+      "writer_guidance": {
+        "C16-01": "Add Finucane et al. 2019, Br J Gen Pract 70:e20-e28 (doi 10.3399/bjgp19X707117; Key Information Summary use for out-of-hours care) as a source.",
+        "C16-18": "Take the proportion from Wolters et al. 2019 (Health Foundation) with its data year only if an opened copy is available; the core point (diagnosis-group classification with no case review) can rest on PubMed-indexed papers on ambulatory care sensitive conditions. Keep distinct from C15-22 if that reserve is promoted.",
+        "C16-26": "Use Winn 2023 BJGP Open (doi 10.3399/BJGPO.2023.0114; older housebound people neglected in clinical care) or published CHiP results for the UK gap; Ornstein 2015 is US data. If no UK source is found, replace with C16-25.",
+        "C16-28": "Cite a PubMed-indexed reablement evaluation that states the six-week rule, or say 'free for a limited period in England'."
+      }
     },
     {
       "id": "C17",
@@ -751,7 +842,10 @@
           "C17-05"
         ]
       ],
-      "reasons": "7: only 7 candidates score 45 or more, the public money posts rest on gov.uk rules that cannot be opened, and several strong items make arguments placed elsewhere (C17-02 as C03-12, C17-12 as C03-09, C17-10 as C02-23). Added C17-24 (heat) and C17-17 (welfare advice, poverty) and dropped C17-21, C17-27 and C17-04 from the mechanical pass."
+      "reasons": "7: only 7 candidates score 45 or more, the public money posts rest on gov.uk rules that cannot be opened, and several strong items make arguments placed elsewhere (C17-02 as C03-12, C17-12 as C03-09, C17-10 as C02-23). Added C17-24 (heat) and C17-17 (welfare advice, poverty) and dropped C17-21, C17-27 and C17-04 from the mechanical pass. After the check: no public-primary reserve is available (the other public C17 candidates rest on gov.uk benefit pages or repeat C03-12 or C03-09), so C17-07 is to be written on Schulz 2004 with the money rules optional, so that it cannot fail as a whole.",
+      "writer_guidance": {
+        "C17-07": "Build the post on Schulz 2004 (JAMA) as the core claim. Treat pension and home disregard details as optional, England-only and used only if verified from an opened source; state Scottish rules separately or omit them."
+      }
     },
     {
       "id": "C18",
@@ -768,9 +862,9 @@
         "C18-15"
       ],
       "reserves": [
+        "C18-22",
         "C18-24",
-        "C18-19",
-        "C18-12"
+        "C18-19"
       ],
       "batches": [
         [
@@ -783,15 +877,23 @@
           "C18-04",
           "C18-01",
           "C18-14",
-          "C18-15"
+          "C18-15",
+          "C18-22"
         ],
         [
           "C18-03",
-          "C18-24",
-          "C18-12"
+          "C18-24"
         ]
       ],
-      "reasons": "8: the carer ideas are distinct and valuable, but most public-facing posts rest on legislation or official pages that cannot be opened. Dropped C18-22 and C18-02 for that reason; C18-15 stays as the one legislation-based public post and should be verified first."
+      "reasons": "8: the carer ideas are distinct and valuable, but most public-facing posts rest on legislation or official pages that cannot be opened. Dropped C18-22 and C18-02 for that reason; C18-15 stays as the one legislation-based public post and should be verified first. After the check: C18-22 (public, the carer's one-page emergency plan, written as practical advice without the Carers (Scotland) Act clause unless verified) replaces reserve C18-12 and is the first reserve, so a failed C18-15 need not take C18 below a quarter public.",
+      "fallbacks": {
+        "C18-15": "C18-22",
+        "C18-17": "C18-22"
+      },
+      "writer_guidance": {
+        "C18-15": "Verify first, from an opened copy of Care Act 2014 s10(5) or a published paper that quotes it; drop the Scottish clause unless verified. If it fails, replace with C18-22.",
+        "C18-22": "Write as practical advice (a one-page emergency plan written in advance and shared). Drop the Carers (Scotland) Act clause unless verified and name no emergency card scheme unless verified."
+      }
     },
     {
       "id": "C19",
@@ -839,7 +941,10 @@
           "C19-29"
         ]
       ],
-      "reasons": "12: 17 candidates at 45 or more, with the prognosis and dying-at-home clusters held to two each. Swapped C19-06 (hearing study kept as C14-15) and C19-08 (third dying-at-home post) for C19-29, C19-28 (Who gets left out), C19-36 and C19-26; C19-24 takes the advanced-dementia course study from C08-22."
+      "reasons": "12: 17 candidates at 45 or more, with the prognosis and dying-at-home clusters held to two each. Swapped C19-06 (hearing study kept as C14-15) and C19-08 (third dying-at-home post) for C19-29, C19-28 (Who gets left out), C19-36 and C19-26; C19-24 takes the advanced-dementia course study from C08-22.",
+      "writer_guidance": {
+        "C19-22": "Owns the non-oral (rotigotine) route and the list of drugs to avoid in the last days of life."
+      }
     },
     {
       "id": "C20",
@@ -881,7 +986,10 @@
           "C20-20"
         ]
       ],
-      "reasons": "9: strong but practitioner-heavy, with overlapping clusters (trial exclusion, self-rated health, uncertainty). Swapped C20-11 and C20-26 (both statistical teaching points, kept as reserves) for C20-10 (public); C20-24 was set aside because C08-06 already makes the own-goals argument."
+      "reasons": "9: strong but practitioner-heavy, with overlapping clusters (trial exclusion, self-rated health, uncertainty). Swapped C20-11 and C20-26 (both statistical teaching points, kept as reserves) for C20-10 (public); C20-24 was set aside because C08-06 already makes the own-goals argument.",
+      "writer_guidance": {
+        "C20-03": "Stay on the default exclusion of people who cannot consent (research ethics); do not repeat C07-03's or C08-29's trial-population points."
+      }
     }
   ],
   "audience_counts": {
@@ -899,18 +1007,18 @@
     }
   },
   "series_counts": {
-    "Reading the evidence": 38,
+    "Reading the evidence": 39,
     "Teaching round": 37,
     "Ask this": 27,
     "Care that works": 25,
     "Small detail, real effect": 23,
     "Weighing it up": 17,
     "What gets counted": 17,
-    "Who gets left out": 16
+    "Who gets left out": 15
   },
   "post_type_counts": {
-    "teaching": 50,
-    "evidence_interpretation": 46,
+    "teaching": 49,
+    "evidence_interpretation": 47,
     "public_explanation": 39,
     "decision_support": 29,
     "good_care": 25,
@@ -951,7 +1059,102 @@
     "C16-04 and C18-05 (count the different care workers) not used: same idea, resting on unopenable Swedish and NICE sources.",
     "C03-10 and C18-09 (does anyone depend on you) not used: same argument, resting on census pages.",
     "C05-21 and C17-21 ('acopia' and 'social admission' labels) make the same argument; neither selected, to limit criticism and keep public shares.",
-    "C10-31 not used as a reserve: overlaps C20-30 (psychological therapy works in later life). C02-15 not used as a reserve: shares the Fiatarone trial with C02-19."
+    "C10-31 not used as a reserve: overlaps C20-30 (psychological therapy works in later life). C02-15 not used as a reserve: shares the Fiatarone trial with C02-19.",
+    "C16-27 (proactive care and the admissions promise) removed from C16 reserves after the check: it repeats the community half of C05-08."
   ],
-  "notes": "Counts computed by script from _working/candidates/*.json; origin was not used. Total 200; allocations range 7 to 12 (C01 fixed at 11). Audience: practitioners 38.5%, public 34.0%, both 27.5%. Every category has at least a quarter public-primary posts (C16 and C18 exactly 25%), so none is claimed as inherently professional. Every series has at least 14 posts (lowest: Who gets left out 16 after deliberate additions; Weighing it up and What gets counted 17). Only 11 posts (5.5%) are criticism; 143 (71.5%) teach, explain, support a decision or show good care. Within-category clusters are held to two or fewer (e.g. CFS C05-16/24; prognosis C19-17/18; dying at home C19-04/10; knee and hip arthritis C10-30/16; urine infection C12-17/23; sleeping tablets C11-16/03). Reserves follow max(3, ceil(allocation/4)) except C01 (4, fixed). A reserve that shares a cluster with a selected post is meant as a replacement, not an addition: C10-13/19/24 opioids, C04-30 with C04-29, C13-02 with C13-36, C14-13 with C14-09, C07-22 with C07-03. Verify early (support may rest partly on unopenable official text): C18-15 (Care Act s10 wording; the only public reserve options in C18 are also legislation-based), C18-14 (GMC confidentiality text), C03-09 and C09-08 (capacity law and case law), C16-01 and C16-03 (anticipatory care and home care sources), C06-08 (patch residue), C15-07 (Fast Track and rapid discharge), C19-22 (rotigotine conversion), C07-12 (QRISK3 outputs at 78), C02-05 (1.2 m/s assumption), C17-07 (money rules; the core is Schulz 2004). Coherence for writers: word C19-04 and C19-28 consistently on home death; present C13-14 and C13-27 as associations with pneumonia, not proof; keep C04-14 off the denosumab-stopping point that C04-07 owns; keep C14-09 on glasses between operations, not falls (C01-23 owns glasses and falls); C06-31 (a programme) and C06-32 (advice to patients) both involve NSAID combinations and should be scheduled apart; C08-03, C08-08 and C11-02 all mention donepezil in different roles; C16-12 must not read as fatalistic."
+  "notes": "Counts computed by script from _working/candidates/*.json after the independent check was applied (see check_applied); origin was not used. Total 200; allocations range 7 to 12 (C01 fixed at 11 and unchanged). Audience: practitioners 77 (38.5%), public 68 (34.0%), both 55 (27.5%). Every category has at least a quarter public-primary posts (C16 and C18 exactly 25%), so none is claimed as inherently professional. Every series has at least 14 posts (lowest: Who gets left out 15 after C16-03 was replaced by C16-18; Weighing it up 17, What gets counted 17). Only 11 posts (5.5%) are criticism; 142 (71.0%) teach, explain, support a decision or show good care. Within-category clusters are held to two or fewer (e.g. CFS C05-16/24; prognosis C19-17/18; dying at home C19-04/10; knee and hip arthritis C10-30/16; urine infection C12-17/23; sleeping tablets C11-16/03). Reserves follow max(3, ceil(allocation/4)) except C01 (4, fixed). Every category where losing one public post would take it below a quarter now has a public-primary reserve, except C17: C17 has no suitable public reserve (the other public candidates rest on gov.uk benefit pages or repeat C03-12 or C03-09), so C17-07 is written on Schulz 2004 with the money rules optional; if a C17 public post still fails, record C17 as below a quarter public rather than inherently professional. The same applies to C18 if both C18-15 and C18-22 fail. HOW TO USE RESERVES: write the selected posts; promote a reserve only when research marks a selected post 'drop', using the category's 'fallbacks' map where it names one, otherwise the first reserve of the same audience. Do not let a reserve displace a selected post because it has a higher judge score: several reserves outrank selected posts (e.g. C04-30, C15-22, C13-30), and choosing by rank alone could drop public posts or pair a reserve with its neighbour. Reserves beside a topical neighbour (C04-30 with C04-29, C05-04 with C05-14, C07-22 with C07-03, C14-13 with C14-09) make different arguments from different key sources, so they can replace their neighbour or, within the two-per-cluster limit and with distinct wording, another post. C13-02 and C16-27 were removed as reserves because they repeat a selected argument. Verify early (support may rest partly on unopenable official text): C18-15 (Care Act s10(5) from an opened copy or a published paper), C18-22 (practical advice only), C18-14 (GMC confidentiality text), C03-09 (add Zalmay 2021; Scottish welfare attorney wording), C09-08 (capacity law and case law), C16-01 (add Finucane 2019), C16-26 (Winn 2023 or CHiP), C16-28 (six-week rule), C14-18 (wax removal access wording), C15-04 (Alqenae 2020), C15-07 (Fast Track is England-only), C06-08 (patch residue), C19-22 (rotigotine conversion), C07-12 (QRISK3 outputs at 78), C02-05 (1.2 m/s assumption), C17-07 (Schulz 2004 core; money rules optional). Delirium: twelve selected posts rest on studies that also report delirium outcomes (C01-28, C02-16, C03-06, C03-07, C03-17, C03-19, C06-08, C08-10, C08-17, C14-20, C15-12, C16-15); leave those findings out. Coherence for writers: each category's writer_guidance carries the check's wording and scheduling instructions. Also: word C19-04 and C19-28 consistently on home death; present C13-14 and C13-27 as associations with pneumonia, not proof; keep C14-09 on glasses between operations, not falls (C01-23 owns glasses and falls); C06-31 (a programme) and C06-32 (advice to patients) both involve NSAID combinations and should be scheduled apart; C08-03, C08-08 and C11-02 all mention donepezil in different roles; C16-12 must not read as fatalistic; C01-25 (fixed, unchanged) should not repeat the 'about a quarter' falls figure from earlier post E065 and should focus on telling classes apart.",
+  "check_applied": [
+    {
+      "issue": "Rule 8 and rule 9: C18-15 rests only on legislation and statutory guidance, C18 is 2/8 public and had no public reserve.",
+      "action": "Applied. C18-15 stays selected with a verify-first instruction (opened copy of Care Act s10(5) or a published paper; Scottish clause dropped unless verified). Reserve C18-12 replaced by C18-22 (47.5, public), now the first reserve and the named fallback for C18-15, to be written as practical advice without the Carers (Scotland) Act clause unless verified. Notes record that C18 would be below a quarter public, not inherently professional, if both fail."
+    },
+    {
+      "issue": "C06-15 and C14-19 both carry the timolol eye-drop slow-heart point.",
+      "action": "Applied as writer guidance: C14-19 owns the point; C06-15 lists eye drops only as a checklist item and uses denosumab, hospital-clinic medicines and over-the-counter remedies as worked examples; the two are scheduled at least two weeks apart."
+    },
+    {
+      "issue": "C06-20 repeats C19-22's non-oral route and dopamine-blocker argument.",
+      "action": "Applied as writer guidance: C06-20 keeps to own-time dosing and own supply in hospital, with the nil-by-mouth ask cut to 'ask for a plan' and no drug list; C19-22 owns the rotigotine route and the drugs to avoid."
+    },
+    {
+      "issue": "C07-03, C08-29 and C20-03 share the 'does the person resemble the trial population' lesson.",
+      "action": "Applied as writer guidance: C07-03 leads with the blood pressure decision, C08-29 with access, C20-03 with default exclusion of people who cannot consent; all three scheduled apart. C07-22 stays as C07-03's named fallback."
+    },
+    {
+      "issue": "C04-14 and C04-04 repeat C04-07's denosumab-stopping point.",
+      "action": "Applied as writer guidance: C04-07 owns the point; C04-14 stays on bisphosphonate holidays with one referring clause on denosumab; C04-04's caveat is one sentence."
+    },
+    {
+      "issue": "C16-01 and C16-03 make the same 'the plan must reach whoever is there in a crisis' argument; C16-03 is the lowest-scoring selected post with unsure sources; C16-01 has no PubMed lead.",
+      "action": "Applied. C16-03 replaced by C16-18 (43.0, practitioner, low risk); C16 stays 2/8 public; Who gets left out falls to 15 (still at least 14); Reading the evidence rises to 39. Finucane 2019 BJGP added to C16-01's guidance. C16-27 not used as the replacement and also removed as a reserve (it repeats C05-08). New C16 reserves: C16-25 (public, fallback for C16-26), C16-06 (public, 43.5, low risk, judge-suggested for public share), C16-19 (practitioner, eFI, Clegg 2016). Note added that C16-18 and reserve C15-22 must stay distinct if C15-22 is promoted."
+    },
+    {
+      "issue": "C12-08 and C03-12 both argue a permanent care home move should not be driven by something that may still improve.",
+      "action": "Applied using the checker's first option: C12-08 kept, written strictly about continence assessment and treatment with no timing-of-decision language and scheduled well away from C03-12. The swap to C12-16 was not taken because C12-08 is a stronger public post (47.5 against 44.0) whose distinct content (incontinence is common, often assessable and treatable) survives once the timing language is removed, and keeping it holds C12 at 4/10 public with a margin, whereas the swap would leave C12 at 3/10 with no public reserve. C12-16 stays as the first reserve."
+    },
+    {
+      "issue": "C07-07 uses dialysis time cost, which is part of C07-24's argument.",
+      "action": "Applied as writer guidance: C07-07 keeps to the cancer contact-day evidence (Gupta 2022; CO.17); dialysis time is left to C07-24."
+    },
+    {
+      "issue": "C14-31 echoes earlier post E006 (check hearing and eyes before concluding dementia).",
+      "action": "Applied as writer guidance: C14-31 stays on test administration for practitioners (hearing aids in, amplifier, large print, adaptations recorded with the score; Dupuis 2015)."
+    },
+    {
+      "issue": "C02-10 partly echoes earlier post E109.",
+      "action": "Applied as writer guidance: C02-10 keeps its first-hour checklist and Loyd 2020, avoiding E109's readiness-after-hip-fracture framing."
+    },
+    {
+      "issue": "C01-25 echoes E065; C08-17 echoes E140 and mentions acting out dreams (C11-21).",
+      "action": "Applied without changing C01: the C01-25 instruction (no 'about a quarter' figure; focus on telling classes apart) is in the top-level notes only, so C01's object is untouched. C08-17 guidance: antipsychotic sensitivity in dementia, not delirium, not led by the haloperidol caution; C08-17 and C11-21 scheduled apart."
+    },
+    {
+      "issue": "C15 is 3/9 public with no public reserve; C15-04's central claim is unsourced; C15-07 depends partly on England-only Fast Track guidance.",
+      "action": "Applied. Reserve C15-06 replaced by C15-15 (44.5, public; Dugaret 2012 PubMed-indexed), now first reserve and named fallback for C15-04, C15-07 and C15-23; to be scheduled apart from C15-14 if promoted. C15-04 guidance: source from Alqenae 2020 and weekly-dosing error papers, else swap for C15-15. C15-07 guidance: Fast Track named as England-only or omitted."
+    },
+    {
+      "issue": "C13 is 3/11 public with no public reserve; C13-02 near-duplicates C13-36.",
+      "action": "Partly applied. C13-24 (public; Tan 2018) added as the first reserve and fallback for C13-23, C13-26 and C13-27. Rejected the instruction to keep C13-02 as a like-for-like reserve: rule 9 excludes reserves that are near duplicates of a selected post, C13-02's conclusion (hands-on help at meals) is C13-36's argument, and the judge notes its hands-on-help claim needs the same Simmons 2001 evidence, so it would likely fail with C13-36 rather than rescue it. C13-02 was removed instead of C13-28, which is distinct (weight loss with exercise, Villareal 2017) and a 'both' post. C13 reserves: C13-24, C13-30, C13-28."
+    },
+    {
+      "issue": "C17 is 2/7 public with no public reserve; C17-07's money rules cannot be opened.",
+      "action": "Applied. C17-07 guidance: Schulz 2004 is the core claim and the pension and home disregard details are optional and England-only. Confirmed no suitable public reserve exists; the gap is recorded in the C17 reasons and the notes."
+    },
+    {
+      "issue": "C03-09's key claim (next of kin cannot consent) rests only on statute and GMC text.",
+      "action": "Applied as research guidance: add Zalmay 2021 Cureus and verify the Scottish welfare attorney wording; if the claim cannot be sourced, replace with C03-18 (named fallback; C03 stays 4/9 public)."
+    },
+    {
+      "issue": "C14-18's claim that GP practices no longer provide wax removal has no dated source.",
+      "action": "Applied as writer guidance: reword to 'not a core funded GP service in England, and access varies', citing Sharvill 2021 BMJ and an RNID survey if one can be opened; if unsupported, replace with C14-23 (named fallback)."
+    },
+    {
+      "issue": "C16-26's UK housebound care gap and C16-28's six-week free reablement rule are unverified.",
+      "action": "Applied as research guidance: C16-26 uses Winn 2023 BJGP Open or CHiP results, else is replaced by C16-25 (named fallback, first reserve); C16-28 cites a PubMed-indexed reablement evaluation stating the rule or says 'free for a limited period in England'."
+    },
+    {
+      "issue": "Key claims worded beyond the evidence in C05-24, C12-24, C07-03, C02-24, C12-36 and C09-02.",
+      "action": "Applied: each rewording is in that category's writer_guidance (levels 5 to 8; composite driven by bacteriuria; trial behind US and European targets; compared with the same programme after surgery; no clear difference in quality of life, fewer complications; national guidance recommends)."
+    },
+    {
+      "issue": "C09-19 (short simple sentences) could seem to contradict C09-18 (elderspeak linked with resistance to care).",
+      "action": "Applied as writer guidance: C09-19 states what separates plain wording from elderspeak; the two are scheduled apart."
+    },
+    {
+      "issue": "Rule 9 (constraint result): reserves that are near duplicates of a selected post (C04-30/C04-29, C13-02/C13-36, C05-04/C05-14, C14-13/C14-09, C07-22/C07-03, and C16-27 repeating C05-08).",
+      "action": "Applied where the reserve repeats a selected argument: C13-02 and C16-27 removed as reserves. Kept C04-30, C05-04, C14-13 and C07-22 because each makes a different argument from a different key source than its neighbour (C04-30 FREEDOM morphometric fractures against C04-29's surrogate-marker point; C05-04 Aguayo 2017 tool disagreement against C05-14's Collard prevalence; C14-13 referral without an acuity threshold against C14-09's glasses between operations; C07-22 OPTIMISE deprescribing, which the checker itself calls a different argument) and their judge clusters allow two, so each can replace its neighbour or, with distinct wording, another post. Each is recorded as its neighbour's named fallback."
+    },
+    {
+      "issue": "Rule 9 (constraint result): C13, C15, C17 and C18 had no public-primary reserve although one failure would take them below a quarter public.",
+      "action": "Applied: public reserves added in C13 (C13-24), C15 (C15-15), C18 (C18-22) and also C16 (C16-06 beside C16-25). A script check confirms every at-risk category now has a public reserve except C17, where none is suitable; the gap is recorded."
+    },
+    {
+      "issue": "Rule 5 (constraint result): twelve selected posts rest on studies that also report delirium outcomes.",
+      "action": "Recorded in the notes so writers leave those findings out; no selection change needed."
+    },
+    {
+      "issue": "Batches and counts after the changes.",
+      "action": "Batches rebuilt for C13, C15, C16 and C18, keeping shared-source candidates together (C13-24 with the mouth-care and dry-mouth batch; C15-15 with C15-14 on emergency department waits; C18-22 with C18-15 on carer legislation; C16-26, C16-25 and C16-19 on primary care access and records). All counts recomputed by script; total 200, each category 6 to 14, C01 unchanged."
+    }
+  ]
 }

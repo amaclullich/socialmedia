@@ -22,12 +22,18 @@ const FSUM = { type: 'object', properties: { category: { type: 'string' }, n_pos
 const RDSUM = { type: 'object', properties: { category: { type: 'string' }, file: { type: 'string' }, n_variants: { type: 'integer' }, n_fail: { type: 'integer' }, n_fix: { type: 'integer' }, controls_failed: { type: 'boolean' } }, required: ['category', 'file', 'n_variants', 'n_fail', 'n_fix', 'controls_failed'] }
 
 const READ_FIRST = `${ROOT}/_system/STYLE.md, ${ROOT}/_system/PLATFORMS.md and ${ROOT}/_system/CATEGORIES.md`
+function selNotes(c) {
+  const g = c.writer_guidance ? JSON.stringify(c.writer_guidance) : 'none'
+  const f = c.fallbacks ? JSON.stringify(c.fallbacks) : 'none'
+  return `Selection for this category: selected ${JSON.stringify(c.selected || [])}; reserves ${JSON.stringify(c.reserves || [])}; fallbacks (reserve to use if a selected candidate fails) ${f}. Editor's guidance, which you must follow: ${g}. Editor's reasons: ${c.reasons || 'none'}`
+}
 
 function researchPrompt(c, batch, bi) {
   const bid = `${c.id}-B${bi + 1}`
   return `You are the evidence researcher for a collection of social media posts on geriatric medicine for Professor Alasdair MacLullich. You find and verify facts. You do NOT write posts. Batch ${bid}, category ${c.id} ${c.name}. Today is ${TODAY}.
 
 Read first: ${READ_FIRST} (section 9 of STYLE.md is the evidence standard you must apply). Then read the candidate concepts ${batch.join(', ')} in ${ROOT}/_working/candidates/${c.id}.json, and the judge's notes on them in ${ROOT}/_working/selection/${c.id}_scores.json (accuracy_concern and sharpen fields).
+${selNotes(c)}
 Before searching, look in ${ROOT}/evidence/batches/ for evidence files other batches have already written; reuse any source there that fits (re-open it yourself to confirm the passage you need).
 
 For each candidate:
@@ -57,7 +63,8 @@ function writePrompt(c) {
 
 Read first, in full: ${READ_FIRST}; ${ROOT}/_working/earlier_collection/DIGEST.md (do not repeat its arguments or openings); ${ROOT}/_working/candidates/${c.id}.json; ${ROOT}/_working/selection/${c.id}_scores.json; every file ${ROOT}/evidence/batches/${c.id}-B*.json.
 
-Choose posts in this order: candidates with status "ready" in the order of the judge's rank; then "revise" candidates using the revised angle; never a "drop" candidate. If fewer than ${c.allocation} candidates are usable, write as many as you can and report the shortfall; do not pad with weak or unsupported posts.
+${selNotes(c)}
+Write a post for each selected candidate whose research status is "ready" or "revise" (use the revised angle for "revise"). If a selected candidate is "drop", replace it with its fallback reserve (or the best "ready" reserve that is not a near duplicate of a selected post). Never use a "drop" candidate. If fewer than ${c.allocation} candidates are usable, write as many as you can and report the shortfall; do not pad with weak or unsupported posts. Follow the editor's guidance for each candidate.
 
 For each post:
 - Every factual statement (captions, visual text, alt text) must come from a claim with verdict supported or supported_with_qualification, using its safe_wording and qualifications. Record the claim ids you used. Opinion and ethical judgement are allowed when the wording marks them as judgement ("We should...", "It is wrong to...") and they follow the values in STYLE.md section 3; never dress a judgement as a finding. No invented patients, numbers, quotations or anecdotes; no first-person clinical experience.
@@ -167,6 +174,6 @@ const results = await pipeline(cats,
   (prev, c) => agent(checkPrompt(c), { label: `factcheck:${c.id}`, phase: 'Fact-check', schema: CSUM }).then(fc => ({ ...prev, factcheck: fc })),
   (prev, c) => agent(fixPrompt(c), { label: `fix:${c.id}`, phase: 'Fix', schema: FSUM }).then(f => ({ ...prev, fix1: f })),
   (prev, c) => agent(coldReadPrompt(c), { label: `coldread:${c.id}`, phase: 'Cold read', schema: RDSUM, model: 'sonnet' }).then(r => ({ ...prev, coldread: r })),
-  (prev, c) => agent(fix2Prompt(c), { label: `fix2:${c.id}`, phase: 'Fix 2', schema: FSUM }).then(f => ({ category: c.id, ...prev, fix2: f })),
+  (prev, c) => agent(fix2Prompt(c), { label: `fix2:${c.id}`, phase: 'Fix 2', schema: FSUM, model: 'sonnet' }).then(f => ({ category: c.id, ...prev, fix2: f })),
 )
 return results

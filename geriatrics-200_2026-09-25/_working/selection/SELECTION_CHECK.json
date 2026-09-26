@@ -1,0 +1,242 @@
+{
+ "constraint_results": [
+  {
+   "rule": 1,
+   "ok": true,
+   "detail": "Script count: 200 selected (C01 11 + 189 across C02-C20); allocations sum to 200 and equal each selected list's length; C01 allocation 11 and its selected and reserve lists match the fixed shortlist exactly and in order; no candidate appears twice, in the wrong category or missing from the candidate files."
+  },
+  {
+   "rule": 2,
+   "ok": true,
+   "detail": "All 20 allocations lie within 6-14 (range 7-12: C17 7; C05, C16, C18 8; C03, C10, C15, C20 9; C06, C07, C11, C19 12). Allocations follow the number of non-excluded candidates scoring 45 or more (Spearman 0.89), so they are not even. The larger gaps have documented reasons: C03 gets 9 with 12 at 45+ because the earlier set already has 20 hip fracture posts; C18 gets 8 with 11 because its public ideas rest on legislation; C14 gets 11 with 18."
+  },
+  {
+   "rule": 3,
+   "ok": true,
+   "detail": "Clusters were transcribed from each *_scores.json balance_note and allocation_reason and counted by script. No judge cluster has more than two selected: two each from C05 CFS (16, 24), C10 knee/hip (16, 30), C11 sleeping tablets (16, 03), C12 urine infection (17, 23), C15 treatment outside hospital (12, 23; the judge called these complementary), C19 prognosis (17, 18) and C19 dying at home (04, 10). No 'avoid pairing' pair is selected together (C01 03/21, 13/09, 06/07; C02 Fiatarone 15/19/29, where only 19 is used; C09 14/26, 13/31, 03/30; C11 11/18, 15/29; C10 04/14). C08 has four medicine posts (03, 15, 17, 08). The judge flagged this as a topic imbalance, not an overlap, and the four make different arguments. Two within-category part-overlaps are logged as advisory: C04-07/C04-14 and C16-01/C16-03."
+  },
+  {
+   "rule": 4,
+   "ok": true,
+   "detail": "I read the title, core insight and position of all 200 selected posts. No two make the same core argument outright, and none of the 44 candidates listed in cross_category_moves is on the shortlist. There are seven part-overlaps, where one post carries another's point as an example or sub-point. Each can be fixed by wording, scheduling or an optional swap (advisory issues): C06-15/C14-19, C06-20/C19-22, C07-03/C08-29, C04-07/C04-14, C16-01/C16-03, C03-12/C12-08 and C07-07/C07-24."
+  },
+  {
+   "rule": 5,
+   "ok": true,
+   "detail": "No selected or reserve candidate is flagged delirium_topic, earlier_duplicate or duplicate_of. All 7 excluded candidates (C01-16 as a duplicate of E083; C03-16, C06-09, C11-18, C12-10, C12-29 and C14-04 as within-set duplicates) are absent, and 'delirium' does not appear in any selected title, core insight or position. Twelve selected posts rest on studies that also report delirium outcomes (C01-28, C02-16, C03-06, C03-07, C03-17, C03-19, C06-08, C08-10, C08-17, C14-20, C15-12, C16-15). Their delirium_check says to leave those findings out, so writers must do that. My own reading found no near-repeat of an earlier post that needs a swap; four wording-level echoes are advisory."
+  },
+  {
+   "rule": 6,
+   "ok": true,
+   "detail": "Script count: practitioners 77 (38.5%), public 68 (34.0%), both 55 (27.5%), all inside the target bands, and SELECTION_FINAL's declared counts match. Every category is at least 25% public-primary, so none needs the 'inherently professional' exemption. C16 and C18 are at exactly 25% (2/8); C01, C08, C09 and C13 are at 27% (3/11); C17 is at 29% (2/7). In these categories one failed public post takes the share below a quarter unless a public reserve exists (see rule 9)."
+  },
+  {
+   "rule": 7,
+   "ok": true,
+   "detail": "Script count by series: Reading the evidence 38, Teaching round 37, Ask this 27, Care that works 25, Small detail real effect 23, Weighing it up 17, What gets counted 17, Who gets left out 16, so every series has at least 14. By post type: teaching 50, public_explanation 39, decision_support 29 and good_care 25, which is 143 (71.5%) that teach, explain, support a decision or show good care; evidence_interpretation 46; criticism 11 (5.5%). Criticism stays under a fifth even if every What gets counted and Who gets left out post is counted as critical (33, 16.5%)."
+  },
+  {
+   "rule": 8,
+   "ok": false,
+   "detail": "Most selected posts have a PubMed-indexed trial, cohort, review or guideline paper behind the key claim. The exception is C18-15: it depends only on Care Act 2014 s10 and Carers (Scotland) Act text and DHSC statutory guidance, none of which can be opened, and a PubMed search found no paper stating the willingness requirement. The editor kept it knowingly because every other public C18 candidate is also legislation-based. Other posts rest partly on material that cannot be opened and need a published source added or the wording narrowed: C03-09 (statute and GMC only, which is the same reason the editor gave for dropping C09-11 and C09-01), C14-18 (the claim that GP wax removal has been withdrawn), C16-26 (UK housebound gap), C16-28 (the six-week free reablement rule), C15-04 (central practical claim unsourced), C15-07 (England-only Fast Track) and C17-07 (money rules). PubMed searches did find usable sources for C16-01 (Finucane 2019 BJGP, Key Information Summary for out-of-hours care) and C03-09 (Zalmay 2021 Cureus, next of kin in best-interests decisions after hip fracture)."
+  },
+  {
+   "rule": 9,
+   "ok": false,
+   "detail": "Reserve counts equal max(3, ceil(allocation/4)) in every category. C01 has 4 because its shortlist is fixed. The rule is not fully met on two points. (1) Several reserves are near-duplicates of a selected post and can only replace that post: C04-30 for C04-29, C13-02 for C13-36, C05-04 for C05-14, C14-13 for C14-09 and C07-22 for C07-03. C16-27 repeats C05-08's community CGA result. (2) C13, C15, C17 and C18 have no public-primary reserve, yet losing one public post would take them below a quarter: C13 would fall from 3/11 to 2/11, C15 from 3/9 to 2/9, C17 from 2/7 to 1/7 and C18 from 2/8 to 1/8. In C15 and C18 the posts at risk (C15-04, C15-07, C18-15) are on the editor's own verify-early list."
+  },
+  {
+   "rule": 10,
+   "ok": true,
+   "detail": "Script check: every batch has at most 5 candidates; the batches cover exactly the selected posts plus reserves with no repeats or omissions; batch counts are the minimum or one above it. Candidates that share sources sit together, as checked by script: C05-16/24 (CFS), C05-14/04 (Collard), C04-07/24/04 (denosumab), C06-04/13 (Parekh), C11-16/02/03 (Glass, sedatives), C11-11/09 (Edinger), C13-14/27/26 (mouth care), C19-17/18 (prognosis), C12-05/24/09 (Gould), C16-17/11 (NICE SC1), C08-03/08 (Gill 2009), C02-10/12 (post-discharge), C07-03/22 (blood pressure), C04-29/30 and C13-36/02 (like-for-like reserves)."
+  }
+ ],
+ "issues": [
+  {
+   "severity": "advisory",
+   "cands": [
+    "C18-15",
+    "C18-22",
+    "C18-12"
+   ],
+   "problem": "C18-15 rests only on legislation and DHSC statutory guidance, which cannot be opened, and it is one of only two public-primary posts in C18 (2/8). All three C18 reserves (C18-24 both, C18-19 and C18-12 practitioners) are non-public, so if C18-15 fails verification, C18 falls to 1/8 public and breaks rule 6.",
+   "fix": "Verify C18-15 first, from a copy of Care Act s10(5) that can be opened or a published paper that quotes it. Replace reserve C18-12 with C18-22 (47.5, public, Ask this: the carer's one-page emergency plan) and make C18-22 the first reserve. Write it as practical advice and drop the Carers (Scotland) Act clause unless it is verified. If both fail, record C18 as below a quarter public rather than treating it as inherently professional."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C06-15",
+    "C14-19"
+   ],
+   "problem": "C06-15's angle and claims lead with 'beta-blocker eye drops can slow the heart' (timolol, systemic absorption). That point is the whole core of C14-19, so the same medicines point would appear in both C06 and C14.",
+   "fix": "Keep both, but let C14-19 own the timolol and slow-heart point. C06-15 should list eye drops only as an item on the checklist. Its worked examples should be the six-monthly denosumab injection, medicines supplied by a hospital clinic and remedies bought over the counter. Schedule the two posts at least two weeks apart."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C06-20",
+    "C19-22"
+   ],
+   "problem": "Two of C06-20's four asks are 'plan ahead if unable to swallow or nil by mouth' and 'avoid anti-sickness drugs that block dopamine'. These repeat C19-22's non-oral route and dopamine-blocker argument. The editor removed C13-08 for making exactly this alternative-route argument.",
+   "fix": "Keep C06-20 on giving doses at the person's own times and letting them use their own supply in hospital. Cut its nil-by-mouth ask to 'ask for a plan', without naming patches or conversions. C19-22 owns the rotigotine route and the list of drugs to avoid in the last days of life."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C07-03",
+    "C08-29",
+    "C20-03"
+   ],
+   "problem": "C07-03 (SPRINT excluded care home residents and people with dementia) and C08-29 (only about 8 in 100 older people with early Alzheimer's would have met the lecanemab trial rules) both teach the same lesson: check whether the person resembles the trial population before applying the result. C20-03 approaches the same theme from research ethics.",
+   "fix": "Keep all three but give each a distinct point. C07-03 should lead with the blood pressure decision (standing pressure, falls, goals, and the benefit shown in fit over-75s). C08-29 should lead with access (why typical patients do not qualify). C20-03 should stay on exclusion by default of people who cannot consent. Schedule them apart. If one must go, replace C07-03 with its like-for-like reserve C07-22 (stopping one blood pressure tablet after 80), which makes a different argument."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C04-07",
+    "C04-14",
+    "C04-04"
+   ],
+   "problem": "C04-14's recorded position ends with 'denosumab should never be paused without switching', which is the core argument of C04-07. C04-04 also carries a denosumab-stopping caveat, so three posts in C04 make the same denosumab point.",
+   "fix": "Let C04-07 own the point. Keep C04-14 on bisphosphonate holidays: who can pause, who continues and when to reassess. It can mention denosumab in one clause that refers to the C04-07 post. Keep C04-04's caveat to a single sentence."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C16-01",
+    "C16-03",
+    "C16-18",
+    "C16-27"
+   ],
+   "problem": "C16-01 (write the anticipatory care plan for the 3am out-of-hours reader) and C16-03 (tell home care workers the end-of-life plan) both argue that a plan fails unless it reaches whoever is present in a crisis. C16-03 is also the lowest-scoring selected post in the collection (41.0), and its sources are marked unsure. C16-01 has no PubMed lead.",
+   "fix": "Add Finucane et al. 2019, Br J Gen Pract 70:e20-e28 (doi 10.3399/bjgp19X707117; Key Information Summary use for out-of-hours care) as C16-01's source. Replace C16-03 with reserve C16-18 (43.0, practitioner, low risk: what 'potentially avoidable' admissions from care homes means). Who gets left out drops to 15, still at least 14. Do not use C16-27 as the replacement, because it repeats the community half of C05-08."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C03-12",
+    "C12-08",
+    "C12-16"
+   ],
+   "problem": "C12-08 (assess incontinence before it decides a care home move) and C03-12 (do not decide the care home move in week two after a hip fracture) both argue that a permanent move should not be driven by something that may still improve. The editor removed C16-10 and C17-02 as duplicates of C03-12 on this reasoning.",
+   "fix": "Keep C12-08 only if it is written strictly about continence assessment and treatment options, without timing-of-decision language, and scheduled well away from C03-12. The cleaner alternative is to swap C12-08 for reserve C12-16 (three-day prompted toileting trial). C12 stays at 3/10 public, which is still at least a quarter."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C07-07",
+    "C07-24"
+   ],
+   "problem": "C07-07's claims and leads use dialysis sessions (three a week of about four hours) to show time cost, and time cost is also part of C07-24's core argument about dialysis versus conservative care.",
+   "fix": "Keep C07-07 to the cancer contact-day evidence (Gupta 2022; CO.17 secondary analysis) and leave dialysis time to C07-24."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C14-31"
+   ],
+   "problem": "This echoes earlier post E006, which asks when the hearing aids were last worn and the eyes last tested before anyone concludes it is dementia.",
+   "fix": "Keep C14-31 on test administration for practitioners: hearing aids in, amplifier, large print, and recording the adaptations with the score (Dupuis 2015). Do not restate 'check hearing before diagnosing dementia'."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C02-10"
+   ],
+   "problem": "This partly echoes earlier post E109: getting home depends on whether the person can think, stand, eat and toilet.",
+   "fix": "Keep C02-10 on its concrete first-hour checklist (key, step, toilet, chair, kettle, bed) and the Loyd 2020 hospital-associated disability evidence. Avoid E109's framing about readiness after hip fracture."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C01-25",
+    "C08-17"
+   ],
+   "problem": "There are minor echoes of earlier posts. C01-25 (fixed) is close to E065 on balance exercise cutting falls by about a quarter, and C08-17 is close to E140's Lewy body caution before haloperidol. C08-17 also lists 'acting out dreams', which is the topic of C11-21.",
+   "fix": "No swap is needed. C01-25 should not repeat the quarter figure and should focus on telling classes apart. C08-17 should stay on antipsychotic sensitivity in dementia, not delirium. Schedule C08-17 and C11-21 apart."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C15-04",
+    "C15-07",
+    "C15-15",
+    "C15-06"
+   ],
+   "problem": "C15 has 3 of 9 posts public (C15-23, C15-04, C15-07). C15-04's central claim, that the ward may already have given the day's doses, has no named source, and C15-07 depends partly on England-only Fast Track guidance. All three reserves are practitioner posts.",
+   "fix": "Replace reserve C15-06 with C15-15 (44.5, public: basic care during a long trolley wait; Dugaret 2012 is PubMed-indexed) and schedule it apart from C15-14. Source C15-04 from PubMed papers on medication errors at transfer of care (Alqenae 2020) and weekly-dosing errors. If that fails, swap C15-04 for C15-15."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C13-23",
+    "C13-27",
+    "C13-26",
+    "C13-28",
+    "C13-24",
+    "C13-02"
+   ],
+   "problem": "C13 has 3 of 11 posts public and its reserves are practitioner, practitioner and both. C13-02 near-duplicates C13-36 (hands-on help at meals), so it can only replace that one post.",
+   "fix": "Replace reserve C13-28 with C13-24 (public, Ask this: medicines that dry the mouth; Tan 2018 systematic review, PubMed). Keep C13-02 as the like-for-like reserve for C13-36."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C17-07",
+    "C17-24"
+   ],
+   "problem": "C17 has 2 of 7 posts public and no public reserve. The other public C17 candidates rest on gov.uk benefit pages (C17-18, C17-14, C17-11, C17-09) or were moved out as duplicates (C17-02, C17-12). C17-07's money rules cannot be opened.",
+   "fix": "Write C17-07 with Schulz 2004 (JAMA, PubMed) as the core claim and treat pension and home disregard details as optional, so the post cannot fail as a whole. No suitable public reserve exists, so record that gap in SELECTION_FINAL notes."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C03-09",
+    "C03-18"
+   ],
+   "problem": "The key claim, that next of kin cannot consent for an adult, rests only on statute and GMC text. The editor dropped C09-11 and C09-01 for exactly this reason.",
+   "fix": "Add a PubMed-indexed source, for example Zalmay 2021 Cureus 13:e20322 (doi 10.7759/cureus.20322; next of kin consulted in best-interests decisions for hip fracture surgery), and verify the Scottish welfare attorney wording. If the claim cannot be sourced, replace C03-09 with public reserve C03-18. C03 stays at 4/9 public."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C14-18",
+    "C14-23"
+   ],
+   "problem": "The Who gets left out claim that 'in many areas GP practices no longer provide [wax removal]' has no dated source. The only PubMed item found is a 2021 BMJ letter (Sharvill, doi 10.1136/bmj.n2077).",
+   "fix": "Reword to 'wax removal is not a core funded GP service in England, and access varies', citing that letter and an RNID survey if one can be opened. If it cannot be supported, replace C14-18 with reserve C14-23 (dual sensory loss, also Who gets left out)."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C16-26",
+    "C16-28",
+    "C16-25"
+   ],
+   "problem": "C16-26's UK gap in preventive care for housebound people is unverified: its evidence is US data (Ornstein 2015) and NHS web pages. C16-28's 'free for up to six weeks' rests on the Care and Support Regulations 2014.",
+   "fix": "For C16-26, use Winn 2023 BJGP Open (doi 10.3399/BJGPO.2023.0114, which describes older housebound people as neglected in clinical care) or its CHiP results if published. If no UK source is found, replace it with public reserve C16-25. For C16-28, cite a PubMed-indexed reablement evaluation that states the six-week rule, or say 'free for a limited period in England'."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C05-24",
+    "C12-24",
+    "C07-03",
+    "C02-24",
+    "C12-36",
+    "C09-02"
+   ],
+   "problem": "Some key claims cannot be supported as currently worded. C05-24 says CFS levels 4 to 8 describe increasing need for help, but level 4 needs no daily help. C12-24 says a sheath was linked with fewer infections or deaths, but the composite was mainly bacteriuria and was not significant unadjusted. C07-03 calls SPRINT 'the trial behind lower targets', but NICE NG136 did not adopt SPRINT. C02-24 says prehabilitation gave no fewer complications, but Carli 2020 compared it with the same programme started after surgery. C12-36 says 'did as well as', but TOPSY was a superiority trial with no clear difference. C09-02 says 'entitled to ask', but it is a recommendation from the Academy of Medical Royal Colleges, not a right.",
+   "fix": "Reword each before research. C05-24: 'levels 5 to 8'. C12-24: 'more comfortable, with a composite outcome driven by bacteriuria'. C07-03: 'the trial behind US and European targets'. C02-24: 'compared with the same programme after surgery'. C12-36: 'no clear difference in quality of life, fewer complications'. C09-02: 'national guidance recommends'."
+  },
+  {
+   "severity": "advisory",
+   "cands": [
+    "C09-18",
+    "C09-19"
+   ],
+   "problem": "C09-19 recommends short, simple sentences, while C09-18 links simplified, sing-song 'elderspeak' with resistance to care. Read side by side, the two posts could seem to contradict each other.",
+   "fix": "C09-19 should state what separates plain wording from elderspeak: no terms of endearment, no sing-song pitch, no 'shall we'. Schedule the two posts apart."
+  }
+ ]
+}
