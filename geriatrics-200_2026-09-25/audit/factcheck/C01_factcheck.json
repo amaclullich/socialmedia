@@ -1,0 +1,623 @@
+{
+ "category": "C01",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C01-P01",
+  "C01-P02",
+  "C01-P03",
+  "C01-P04",
+  "C01-P05",
+  "C01-P06",
+  "C01-P07",
+  "C01-P08",
+  "C01-P09",
+  "C01-P10",
+  "C01-P11"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:37780710",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "8.2 and 64.2 per 100,000 (surgically treated, 2013), gait disturbance 58.6%, headache 46.4%, focal deficits 40.7% confirmed in abstract."
+  },
+  {
+   "key": "PMID:28306417",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Cohort, age predicting unfavourable outcome and 9% recurrence confirmed; 62% head injury and 43% on blood thinners are full-text figures (no PMC copy), not re-read. PubMed itself carries the odd DOI 10.3171/2016.8.JNS16134.test; the post links the PubMed page, which is correct."
+  },
+  {
+   "key": "PMID:27213133",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "DOI 10.1007/s13670-016-0166-9 and citation confirmed."
+  },
+  {
+   "key": "PMID:38167695",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "DOI 10.1093/ageing/afad240 and blood-thinner and burr-hole statements confirmed."
+  },
+  {
+   "key": "PMID:39565988",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "EMBOLISE 4.1% v 11.3% recurrence or progression leading to repeat surgery, 90 days."
+  },
+  {
+   "key": "PMID:39565980",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "STEM 16% v 36%, but the primary outcome is a composite treatment failure, and 121 of 310 had non-surgical standard treatment; NEJM 2025;392(9), online 20 Nov 2024."
+  },
+  {
+   "key": "PMID:39565989",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "MAGIC-MT 6.7% v 9.9%, CI -7.4 to 0.8, not significant."
+  },
+  {
+   "key": "PMID:20501583",
+   "tool": "mcp__PubMed__get_article_metadata + mcp__PubMed__get_full_text_article (PMC2876235)",
+   "matches_record": true,
+   "note": "Table 2 confirms 1.54 v 1.66, 1.26 v 2.16 (high outdoor activity), outside falls 0.92 v 0.59 (low outdoor activity), 54% adherence, non-fall injuries 26% v 17%."
+  },
+  {
+   "key": "PMID:27235404",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Published erratum, no abstract; the PMC text shows registration NCT00350855 against NCT00350389 in the PubMed abstract, consistent with the record's view; trial figures unaffected."
+  },
+  {
+   "key": "PMID:12410892",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Lower-segment depth and edge-contrast findings confirmed."
+  },
+  {
+   "key": "PMID:30703272",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "RaR 0.77 (59 studies), RR 0.85 (63 studies), 850/195 and 480/72 per 1000 people followed over one year; balance and functional RaR 0.76; resistance, dance and walking uncertain."
+  },
+  {
+   "key": "PMID:42764178",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "RaR 0.76, RR 0.95, low certainty confirmed; comparator is 'usual care or attention control'; published 21 Sep 2026, DOI CD012221.pub3 correct."
+  },
+  {
+   "key": "PMID:38833257",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Multifactorial IRR 0.84, RR 0.96 (not significant); JAMA 2024 DOI correct."
+  },
+  {
+   "key": "PMID:20817938",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "7 trials, 1503 people, IRR 0.68; 274 of 747 still in the studies at 12 months exercising 3+ times a week."
+  },
+  {
+   "key": "PMID:33669357",
+   "tool": "mcp__PubMed__get_article_metadata + mcp__PubMed__get_full_text_article (PMC7920319)",
+   "matches_record": false,
+   "note": "25 studies, 1388 people, strength gains and no clear balance or gait effect confirmed. The review does not state that none of its studies measured falls; it did not extract or report falls (post wording corrected)."
+  },
+  {
+   "key": "PMID:24089670",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "6 low-quality studies; outcomes mobility and function, fitness, mental health; falls not reported."
+  },
+  {
+   "key": "PMID:20724399",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Group sizes 144 (29%), 202 (40%), 54 (11%), 100 (20%) confirmed; stoic group 'protective for falling'. PubMed DOI field truncated to 10.1136/bmj.; the post's 10.1136/bmj.c4165 is correct."
+  },
+  {
+   "key": "PMID:18312314",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "673 people with fear of falling; 25.5% no restriction, 59.6% moderate, 14.9% severe (restriction or avoidance of 3 or more activities); adjusted associations over 3 years."
+  },
+  {
+   "key": "PMID:6779979",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "125 fallers aged 65+, six practices; 20 lay over an hour; half of those died within six months; a quarter of all fallers died within a year, five times a matched control group; authors' 'severe ill health' conclusion."
+  },
+  {
+   "key": "PMID:8416408",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "1103 aged 72+; 148 of 313 non-injured fallers could not get up; lasting ADL decline 35% v 26%; death difference not significant."
+  },
+  {
+   "key": "PMID:19015185",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "20 of 66 fallers lay an hour or more; associations with serious injury and admission; own homes or care homes."
+  },
+  {
+   "key": "PMID:3385114",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "304 people over 60; 179 with confirmed falls; 13% to 32% did not recall falling 'during the specific period of time'; recall better for 12 months. The posts drop the period qualifier."
+  },
+  {
+   "key": "PMID:22142666",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "110 people with dementia; GPs knew of 14% of falls; 49% did not recall a documented fall after 12 months; DOI correct."
+  },
+  {
+   "key": "PMID:16398908",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "6 studies; 12-month recall sensitivity 80-89%; injurious falls recalled better."
+  },
+  {
+   "key": "PMID:23083889",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "227 falls, 130 residents, causes 41/21/11/11/11/3%, walking 54, standing 29, sitting down 28 confirmed in abstract; transfers 21% and 'chairs' wording taken from the record's Discussion passage (PMC full text empty per record)."
+  },
+  {
+   "key": "PMID:41390531",
+   "tool": "mcp__PubMed__get_article_metadata + mcp__PubMed__get_full_text_article (PMC12748991)",
+   "matches_record": true,
+   "note": "3.8% of 124 PD and 33.6% of 28 PSP confirmed; figures are mean percentages across retrospective series with a stated selective-documentation bias; advice to ensure adequate dopamine replacement confirmed."
+  },
+  {
+   "key": "PMID:28467028",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "MDS PSP criteria, Mov Disord 2017;32(6):853-64, DOI correct (criterion detail from record's full-text passage)."
+  },
+  {
+   "key": "PMID:33455998",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Japanese iNPH guideline, Neurol Med Chir 2021;61(2):63-97, DOI correct (percentages from record's full-text passage)."
+  },
+  {
+   "key": "PMID:9057736",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Lancet 1997 letter, no abstract in PubMed; citation and DOI confirmed; counts not re-verifiable in PubMed but consistent with Hyndman's percentages (83%, 76%, 95%, 48%)."
+  },
+  {
+   "key": "PMID:15201358",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "63 people with stroke; 16 of 26 who stopped fell; specificity 70%, sensitivity 53%; authors: specificity lower but sensitivity higher than previously reported."
+  },
+  {
+   "key": "PMID:42350948",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "4443 healthy older adults; SWWT 2.8%; not associated with (past) falls; DOI correct."
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C01-P01",
+   "where": "linkedin",
+   "text": "Weakness on one side and slower or muddled thinking each affected about 4 in 10.",
+   "problem": "The 40.7% figure is 'focal neurological deficits', a wider category than one-sided weakness (it includes other one-sided signs such as speech or sensory disturbance). The claim record's safe wording is 'weakness or other one-sided signs'.",
+   "source_says": "El Rahal 2023: 'focal neurological deficits in 252 (40.7%) patients, and cognitive deterioration in 246 (39.8%) patients'.",
+   "severity": "minor",
+   "replacement": "Weakness or other one-sided signs, and slower or muddled thinking, each affected about 4 in 10."
+  },
+  {
+   "tmp_id": "C01-P01",
+   "where": "linkedin",
+   "text": "In Switzerland, people in their 80s were treated for it about 8 times as often as the population overall.",
+   "problem": "Relative figure given without the absolute rates it comes from (STYLE 9: absolute values first, relative second).",
+   "source_says": "El Rahal 2023 abstract: 'the overall incidence rate was 8.2/100,000. With age, the incidence rate increased to 64.2/100,000 in patients aged 80-89 years' (surgically treated cases, 2013).",
+   "severity": "minor",
+   "replacement": "In Switzerland in 2013, about 64 in every 100,000 people in their 80s were treated for it, against about 8 in 100,000 across all ages: about 8 times the rate."
+  },
+  {
+   "tmp_id": "C01-P01",
+   "where": "linkedin",
+   "text": "It is being used alongside drainage, and in two of three large 2024 trials the bleed came back less often.",
+   "problem": "Slightly overstated and missing a qualification. STEM's primary outcome was a composite 'treatment failure' (recurrent or residual haematoma over 10 mm, reoperation, disabling stroke, heart attack or neurological death), not recurrence alone, and 121 of its 310 patients had non-surgical standard treatment. The claim record requires the qualification that longer-term safety is still being studied; no version carries it.",
+   "source_says": "STEM (Fiorella, NEJM, online 20 Nov 2024): 'The primary efficacy outcome was a composite of ... recurrent or residual chronic subdural hematoma (measuring >10 mm) at 180 days; reoperation or surgical rescue ...; or major disabling stroke, myocardial infarction, or death from neurologic causes' ... 'Further study of longer-term safety outcomes is warranted.' EMBOLISE: 'Further study is needed to evaluate the safety'. MAGIC-MT: 6.7% v 9.9%, 95% CI -7.4 to 0.8, P=0.10.",
+   "severity": "minor",
+   "replacement": "It is usually added to drainage. In two of three large trials published in 2024, adding it meant fewer recurrences or other treatment failures; the third did not show a clear difference. Longer-term safety is still being studied."
+  },
+  {
+   "tmp_id": "C01-P01",
+   "where": "source_reply",
+   "text": "Sources: https://doi.org/10.1007/s13670-016-0166-9 (review) https://doi.org/10.3389/fneur.2023.1206996 (Swiss cohort) https://pubmed.ncbi.nlm.nih.gov/28306417/ (UK cohort) https://doi.org/10.1093/ageing/afad240 (Age and Ageing review)",
+   "problem": "The LinkedIn version reports the result of three 2024 embolisation trials, but the source reply gives no link for them.",
+   "source_says": "Trial DOIs confirmed in PubMed: EMBOLISE 10.1056/NEJMoa2313472; STEM 10.1056/NEJMoa2409845; MAGIC-MT 10.1056/NEJMoa2401201.",
+   "severity": "minor",
+   "replacement": "Sources: https://doi.org/10.1007/s13670-016-0166-9 (review) https://doi.org/10.3389/fneur.2023.1206996 (Swiss cohort) https://pubmed.ncbi.nlm.nih.gov/28306417/ (UK cohort) https://doi.org/10.1093/ageing/afad240 (Age and Ageing review) https://doi.org/10.1056/NEJMoa2313472 https://doi.org/10.1056/NEJMoa2409845 https://doi.org/10.1056/NEJMoa2401201 (2024 embolisation trials)"
+  },
+  {
+   "tmp_id": "C01-P02",
+   "where": "x",
+   "text": "The VISIBLE trial in Australia randomly gave 606 people, average age 80, either separate distance glasses for walking outside or usual care.",
+   "problem": "Trial population not stated: all 606 were regular multifocal wearers who used them outdoors at least three times a week and were at raised risk of falling (required qualification in C01-23-c). Read alone, '606 people' suggests older people in general.",
+   "source_says": "Haran 2010 abstract: '606 regular wearers of multifocal glasses (mean age 80 (SD 7) years). Inclusion criteria included increased risk of falls ... and outdoor use of multifocal glasses at least three times a week.'",
+   "severity": "minor",
+   "replacement": "The VISIBLE trial in Australia randomly gave 606 people who wore bifocals or varifocals outdoors and were at raised risk of falling (average age 80) either separate distance glasses for walking outside or usual care."
+  },
+  {
+   "tmp_id": "C01-P02",
+   "where": "bluesky",
+   "text": "In planned subgroups, people often out fell less; people rarely out had more outdoor falls.",
+   "problem": "The 'subgroups of one trial' caveat is missing, although the verification notes say it is carried in every version.",
+   "source_says": "Claim C01-23-d qualification: 'Single trial, not replicated.' Subgroups defined by a median split of a self-reported activity score.",
+   "severity": "minor",
+   "replacement": "In planned subgroups of this one trial, people often out fell less; people rarely out had more outdoor falls."
+  },
+  {
+   "tmp_id": "C01-P02",
+   "where": "threads",
+   "text": "In planned subgroups, people often out fell less, and people rarely out had more outdoor falls.",
+   "problem": "The 'subgroups of one trial' caveat is missing (see Bluesky).",
+   "source_says": "Claim C01-23-d qualification: 'Single trial, not replicated.'",
+   "severity": "minor",
+   "replacement": "In planned subgroups of this one trial, people often out fell less, and people rarely out had more outdoor falls."
+  },
+  {
+   "tmp_id": "C01-P02",
+   "where": "alt_text",
+   "text": "606 people aged about 80",
+   "problem": "Mean age was 80 (SD 7); 'aged about 80' implies a narrow age band.",
+   "source_says": "Haran 2010: 'mean age 80 (SD 7) years'.",
+   "severity": "minor",
+   "replacement": "606 people, average age 80"
+  },
+  {
+   "tmp_id": "C01-P03",
+   "where": "visual_text",
+   "text": "Same trials, two counts",
+   "problem": "Headline says the two results come from the same trials. They come from overlapping but different sets of trials in the same review (59 studies for the falls rate, 63 for people who fell), a qualification the claim record requires and the LinkedIn caption itself states.",
+   "source_says": "Sherrington 2019 abstract: rate of falls 'RaR 0.77 ... 12,981 participants, 59 studies'; people with one or more falls 'RR 0.85 ... 13,518 participants, 63 studies'.",
+   "severity": "major",
+   "replacement": "Same review, two counts"
+  },
+  {
+   "tmp_id": "C01-P03",
+   "where": "x",
+   "text": "In the 2026 Cochrane review of multifactorial programmes, the falls rate may be about a quarter lower, with little or no difference in how many people fall (low-certainty evidence).",
+   "problem": "The comparator (usual care or attention control) is missing, and the hedge 'may' is dropped from the second finding, so 'little or no difference' reads as a firm result.",
+   "source_says": "Swarnalatha 2026 abstract: 'Multifactorial interventions versus usual care or attention control ... may reduce falls rate (RaR 0.76, 95% CI 0.67 to 0.87 ...) ... They may have little or no effect on the risk of falling (RR 0.95, 95% CI 0.90 to 1.01 ...; low-certainty evidence).'",
+   "severity": "minor",
+   "replacement": "In the 2026 Cochrane review, programmes of individual falls assessment and matched treatment, compared with usual care, may lower the falls rate by about a quarter but may make little or no difference to how many people fall (low-certainty evidence)."
+  },
+  {
+   "tmp_id": "C01-P03",
+   "where": "visual_text",
+   "text": "Multifactorial programmes against usual care, Cochrane 2026 (low-certainty evidence)",
+   "problem": "The review's comparator is 'usual care or attention control', not usual care alone.",
+   "source_says": "Swarnalatha 2026 abstract: 'Multifactorial interventions versus usual care or attention control'.",
+   "severity": "minor",
+   "replacement": "Multifactorial programmes against usual care or attention control, Cochrane 2026 (low-certainty evidence)"
+  },
+  {
+   "tmp_id": "C01-P03",
+   "where": "linkedin",
+   "text": "compared them with usual care.",
+   "problem": "The comparator is 'usual care or attention control'.",
+   "source_says": "Swarnalatha 2026 abstract: 'Multifactorial interventions versus usual care or attention control'.",
+   "severity": "minor",
+   "replacement": "compared them with usual care or attention control."
+  },
+  {
+   "tmp_id": "C01-P03",
+   "where": "x",
+   "text": "23% fewer falls. 15% fewer people who fell at least once.",
+   "problem": "The X version opens with relative effects; STYLE 9 asks for absolute values first. The absolute figures only come in the second paragraph.",
+   "source_says": "Sherrington 2019 abstract: 850 falls per 1000 people followed over one year, 195 (144 to 246) fewer with exercise; 480 fallers per 1000, 72 (52 to 91) fewer.",
+   "severity": "minor",
+   "replacement": "About 195 fewer falls, and about 72 fewer people falling at least once, for every 1000 older people followed for a year: 23% fewer falls, 15% fewer fallers."
+  },
+  {
+   "tmp_id": "C01-P03",
+   "where": "bluesky",
+   "text": "Per 1000 people over a year: 195 fewer falls, 72 fewer fallers.",
+   "problem": "Absolute differences given without their baselines, so readers cannot see why 195 and 72 differ.",
+   "source_says": "Sherrington 2019 abstract: 'illustrative risk of 850 falls in 1000 people ... 195 fewer falls'; 'illustrative risk of 480 fallers in 1000 people ... 72 fewer fallers'.",
+   "severity": "minor",
+   "replacement": "Per 1000 people over a year: 195 fewer falls (from 850), 72 fewer fallers (from 480)."
+  },
+  {
+   "tmp_id": "C01-P04",
+   "where": "linkedin",
+   "text": "They did not clearly improve balance or walking, and none of those studies measured falls.",
+   "problem": "Unsupported as worded. The Klempel 2021 full text (re-opened) does not say that none of the 25 studies measured falls; it says the review selected studies for physical function outcomes and pooled balance, strength, mobility, activities of daily living and falls efficacy. It reports nothing on falls.",
+   "source_says": "Klempel 2021: 'Studies measuring physical function, using subjective or objective tools were included' ... 'Analyses were conducted on measures of balance, handgrip strength, timed up and go test, gait speed, 30-s arm curl test, 30-s chair stand, measures of activities of daily living and falls efficacy.' 'No significant differences between groups were observed in the Berg balance scale, timed up and go test or gait speed'.",
+   "severity": "major",
+   "replacement": "They did not clearly improve balance or walking, and the review did not report on falls."
+  },
+  {
+   "tmp_id": "C01-P04",
+   "where": "all",
+   "text": "They have not been tested as a way to prevent falls.",
+   "problem": "An absolute claim that seated exercise has never been tested for falls. The opened sources show only that the two reviews of chair-based exercise (Klempel 2021; Anthony 2013) did not assess falls and that the evidence is low quality. Say the gap without claiming no study exists. Same wording in Bluesky ('have not been tested for preventing falls'), Threads ('they have not been tested for preventing falls'), visual ('They have not been tested for preventing falls.') and alt text ('untested for preventing falls').",
+   "source_says": "Klempel 2021 outcomes were physical function measures only; Anthony 2013: 'The quality of the evidence base for CBEs is low with inconclusive findings'; outcomes 'mobility and function, cardiorespiratory fitness, mental health'.",
+   "severity": "minor",
+   "replacement": "X: 'They have not been shown to prevent falls.' Bluesky: 'Seated classes build strength but have not been shown to prevent falls.' Threads: 'Seated classes build strength and can be a start, but they have not been shown to prevent falls.' Visual: 'Seated classes build strength and can be a start. They have not been shown to prevent falls. If there is no suitable class, ask about a home programme.' Alt text: 'Seated classes build strength but have not been shown to prevent falls.'"
+  },
+  {
+   "tmp_id": "C01-P04",
+   "where": "linkedin",
+   "text": "After a year, only about 37 in 100 were still exercising three times a week.",
+   "problem": "Wrong denominator implied: 36.7% is of the 747 people still in the studies at 12 months, not of all 1503 participants.",
+   "source_says": "Thomas 2010 abstract: 'Of the 747 participants who remained in the studies at 12 months, 274 (36.7%) were still exercising three or more times per week.'",
+   "severity": "minor",
+   "replacement": "Of those still in the studies after a year, only about 37 in 100 were still exercising three times a week."
+  },
+  {
+   "tmp_id": "C01-P05",
+   "where": "visual_text",
+   "text": "Suggestions are the researchers' proposals, not tested. Groups are approximate. People with dementia or Parkinson's disease were not included.",
+   "problem": "The low-risk, low-worry cell carries 'General advice: stay safely active', which is not from the study (the paper gave no advice for that group). The footnote attributes all suggestions to the researchers.",
+   "source_says": "Claim C01-19-e qualification: 'The paper gives no specific advice for the \"vigorous\" group; ... label it as general advice.'",
+   "severity": "minor",
+   "replacement": "'Suggested' help is the researchers' untested proposal; 'general advice' is not from the study. Groups are approximate. People with dementia or Parkinson's disease were not included."
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "x",
+   "text": "A quarter of all the fallers died within a year, five times the rate in people of the same age and sex.",
+   "problem": "The comparison was with a matched control group in the study, not with the general rate for people of that age and sex.",
+   "source_says": "Wild 1981 abstract: 'One-quarter of these patients died within one year of the fall, five times as many as in an age- and sex-matched control group'.",
+   "severity": "minor",
+   "replacement": "A quarter of all the fallers died within a year, five times as many as in a comparison group of the same age and sex."
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "visual_text",
+   "text": "All fallers: a quarter died within a year, 5 times the rate of people the same age and sex",
+   "problem": "As in X: the comparison was a matched control group.",
+   "source_says": "Wild 1981 abstract: 'five times as many as in an age- and sex-matched control group'.",
+   "severity": "minor",
+   "replacement": "All fallers: a quarter died within a year, 5 times as many as a matched comparison group"
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "x",
+   "text": "In a larger 1993 US cohort, uninjured fallers who couldn't get up were more likely to lose everyday abilities for good.",
+   "problem": "Tinetti's group was fallers whose falls did not cause serious injury, not 'uninjured' fallers, and the exposure was being unable to get up without help.",
+   "source_says": "Tinetti 1993 abstract: 'Self-reported inability to get up without help after falls not resulting in serious injury' ... 'more likely to suffer lasting decline in activities of daily living (35% vs 26%)'.",
+   "severity": "minor",
+   "replacement": "In a larger 1993 US cohort, fallers without serious injury who couldn't get up without help were more likely to lose everyday abilities for good."
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "visual_text",
+   "text": "1993, US, 1103 people aged 72 and over: fallers who couldn't get up lost everyday abilities more often (35 against 26 in 100). The difference in deaths could have been chance.",
+   "problem": "Omits 'without serious injury' and that the 35 against 26 is lasting decline.",
+   "source_says": "Tinetti 1993 abstract: 'lasting decline in activities of daily living (35% vs 26%)'; population 'non-injured fallers' (falls not resulting in serious injury).",
+   "severity": "minor",
+   "replacement": "1993, US, 1103 people aged 72 and over: fallers without serious injury who couldn't get up had a lasting loss of everyday abilities more often (35 against 26 in 100). The difference in deaths could have been chance."
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "bluesky",
+   "text": "Fallers there were often very ill.",
+   "problem": "Presents the authors' general conclusion as a measured finding about the study's fallers.",
+   "source_says": "Wild 1981 abstract: 'Falls at home in old age are often indicative of the presence of severe ill health.'",
+   "severity": "minor",
+   "replacement": "Its authors said falls at home often signal severe ill health."
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "threads",
+   "text": "In that study, fallers as a whole were often very ill, so the deaths can't all be put down to the lie. In a larger 1993 cohort, the difference in deaths could have been chance.",
+   "problem": "First sentence presents the authors' conclusion as a measured finding. Second sentence does not say which groups were compared; the 1993 exposure was being unable to get up without help, not a timed long lie.",
+   "source_says": "Wild 1981: 'Falls at home in old age are often indicative of the presence of severe ill health.' Tinetti 1993: 'Fallers who were unable to get up were more likely to die ... but these trends were not statistically significant.'",
+   "severity": "minor",
+   "replacement": "Its authors concluded that falls at home often signal severe ill health, so the deaths can't all be put down to the lie. In a larger 1993 cohort, more fallers who couldn't get up died, but that could have been chance."
+  },
+  {
+   "tmp_id": "C01-P06",
+   "where": "linkedin",
+   "text": "studies have used anything from 5 minutes to over an hour",
+   "problem": "The upper threshold used in studies was 'one hour or more', not 'over an hour'.",
+   "source_says": "Kubitza 2023: 'ranging from five minutes ... to one hour or more'.",
+   "severity": "minor",
+   "replacement": "studies have used anything from 5 minutes to an hour or more"
+  },
+  {
+   "tmp_id": "C01-P07",
+   "where": "linkedin",
+   "text": "In a Sydney study, 1 in 5 people with a high physical risk of falling were not worried at all.",
+   "problem": "Denominator error. The 1 in 5 (100 of 500) is a share of the whole study sample. Among people with a high physical risk (202 aware + 100 stoic = 302), about 1 in 3 had low worry, so the sentence as read gives the wrong figure. 'Not worried at all' also overstates 'low perceived risk', which was a score below a cut-point on the worry questionnaire.",
+   "source_says": "Delbaere 2010 abstract: 'aware (202 (40%))' high physiological and perceived risk; 'The stoic group (100 (20%)) had a high physiological risk but low perceived fall risk'.",
+   "severity": "blocker",
+   "replacement": "In a Sydney study of 500 people aged 70 to 90, 1 in 5 had a high physical risk of falling but little worry about it."
+  },
+  {
+   "tmp_id": "C01-P07",
+   "where": "x",
+   "text": "Those who had given up three or more lost everyday abilities faster over the next 3 years.",
+   "problem": "The exposure was restricting or avoiding three or more activities, not giving them up.",
+   "source_says": "Deshpande 2008 abstract: 'severe activity restriction (restriction or avoidance of >= 3 activities)'.",
+   "severity": "minor",
+   "replacement": "Those who had cut back or avoided three or more activities lost everyday abilities faster over the next 3 years."
+  },
+  {
+   "tmp_id": "C01-P07",
+   "where": "linkedin",
+   "text": "Those who had given up three or more activities lost everyday abilities and leg function faster over the next 3 years.",
+   "problem": "As in X: restriction or avoidance, not giving up.",
+   "source_says": "Deshpande 2008 abstract: 'restriction or avoidance of >= 3 activities'.",
+   "severity": "minor",
+   "replacement": "Those who had cut back or avoided three or more activities lost everyday abilities and leg function faster over the next 3 years."
+  },
+  {
+   "tmp_id": "C01-P07",
+   "where": "linkedin",
+   "text": "Exercise reduces worry a little.",
+   "problem": "The Cochrane review found a small effect immediately after the programme only; whether it lasts is unknown.",
+   "source_says": "Kendrick 2014: 'probably reduce fear of falling to a limited extent immediately after the intervention ... insufficient evidence to determine whether exercise interventions reduce fear of falling beyond the end of the intervention'.",
+   "severity": "minor",
+   "replacement": "Exercise reduces worry a little, at least by the end of the programme."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "visual_text",
+   "text": "In a US study, 13 to 32 in 100 people who had a confirmed fall did not remember it at the end of the year.",
+   "problem": "Cummings measured whether people recalled a fall in the specific 3, 6 or 12 months they were asked about. Recall of the whole year was better than of the last 3 or 6 months, so part of the error is placing falls in the wrong period. Saying they 'did not remember' the fall presents up to 1 in 3 as having forgotten it entirely. The claim record's safe wording keeps 'in the period they were asked about'.",
+   "source_says": "Cummings 1988 abstract: 'Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.'",
+   "severity": "major",
+   "replacement": "In a US study, 13 to 32 in 100 people with a confirmed fall did not recall falling in the months they were asked about."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "x",
+   "text": "Depending on the period, between 13 and 32 in 100 of those who had fallen did not remember falling.",
+   "problem": "Cummings measured whether people recalled a fall in the specific 3, 6 or 12 months they were asked about. Recall of the whole year was better than of the last 3 or 6 months, so part of the error is placing falls in the wrong period. Saying they 'did not remember' the fall presents up to 1 in 3 as having forgotten it entirely. The claim record's safe wording keeps 'in the period they were asked about'.",
+   "source_says": "Cummings 1988 abstract: 'Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.'",
+   "severity": "major",
+   "replacement": "Depending on the period, between 13 and 32 in 100 of those who had fallen did not recall falling in that period."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "linkedin",
+   "text": "Depending on the period, between 13 and 32 in 100 of those with a confirmed fall did not remember falling.",
+   "problem": "Cummings measured whether people recalled a fall in the specific 3, 6 or 12 months they were asked about. Recall of the whole year was better than of the last 3 or 6 months, so part of the error is placing falls in the wrong period. Saying they 'did not remember' the fall presents up to 1 in 3 as having forgotten it entirely. The claim record's safe wording keeps 'in the period they were asked about'.",
+   "source_says": "Cummings 1988 abstract: 'Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.'",
+   "severity": "major",
+   "replacement": "Depending on the period, between 13 and 32 in 100 of those with a confirmed fall did not recall falling in that period."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "bluesky",
+   "text": "In a US study, 13 to 32 in 100 people with a confirmed fall did not recall it at the year's end.",
+   "problem": "Cummings measured whether people recalled a fall in the specific 3, 6 or 12 months they were asked about. Recall of the whole year was better than of the last 3 or 6 months, so part of the error is placing falls in the wrong period. Saying they 'did not remember' the fall presents up to 1 in 3 as having forgotten it entirely. The claim record's safe wording keeps 'in the period they were asked about'.",
+   "source_says": "Cummings 1988 abstract: 'Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.'",
+   "severity": "major",
+   "replacement": "In a US study, 13 to 32 in 100 people with a confirmed fall did not recall falling in the months asked about."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "threads",
+   "text": "In a US study, 13 to 32 in 100 people with a confirmed fall did not recall it when asked at the year's end.",
+   "problem": "Cummings measured whether people recalled a fall in the specific 3, 6 or 12 months they were asked about. Recall of the whole year was better than of the last 3 or 6 months, so part of the error is placing falls in the wrong period. Saying they 'did not remember' the fall presents up to 1 in 3 as having forgotten it entirely. The claim record's safe wording keeps 'in the period they were asked about'.",
+   "source_says": "Cummings 1988 abstract: 'Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.'",
+   "severity": "major",
+   "replacement": "In a US study, 13 to 32 in 100 people with a confirmed fall did not recall falling in the months they were asked about."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "alt_text",
+   "text": "in a US study, 13 to 32 in 100 people with a confirmed fall did not remember it at the end of the year.",
+   "problem": "Cummings measured whether people recalled a fall in the specific 3, 6 or 12 months they were asked about. Recall of the whole year was better than of the last 3 or 6 months, so part of the error is placing falls in the wrong period. Saying they 'did not remember' the fall presents up to 1 in 3 as having forgotten it entirely. The claim record's safe wording keeps 'in the period they were asked about'.",
+   "source_says": "Cummings 1988 abstract: 'Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.'",
+   "severity": "major",
+   "replacement": "in a US study, 13 to 32 in 100 people with a confirmed fall did not recall falling in the months asked about."
+  },
+  {
+   "tmp_id": "C01-P08",
+   "where": "x",
+   "text": "about half who had recorded a fall did not remember it a year later.",
+   "problem": "The question was asked at the end of the 12-month study, not a year after each fall.",
+   "source_says": "Zieschang 2012 abstract: '49% of subjects who documented a fall prospectively did not recall a fall after 12 months.'",
+   "severity": "minor",
+   "replacement": "about half who had recorded a fall did not recall falling when asked at the end of the year."
+  },
+  {
+   "tmp_id": "C01-P09",
+   "where": "all",
+   "text": "About 1 in 5 happened while moving to or from a chair or bed.",
+   "problem": "'Or bed' is not supported: the paper describes transfers as moving to and from chairs, and cameras were not in bedrooms. Same wording in LinkedIn ('About 1 in 5 falls happened while moving to or from a chair or bed.'), the visual ('4. Moving to or from a chair or bed: about 1 in 5 falls') and alt text ('moving to or from a chair or bed about 1 in 5 falls').",
+   "source_says": "Robinovitch 2013 (claim C01-18-c passage): '21% of falls occurred during transferring, suggesting the need for ... adequate body support (eg, locking of wheels) when moving to and from chairs.' 'No cameras were located in bedrooms or bathrooms.'",
+   "severity": "minor",
+   "replacement": "X: 'About 1 in 5 happened while moving to or from a chair.' LinkedIn: 'About 1 in 5 falls happened while moving to or from a chair.' Visual: '4. Moving to or from a chair: about 1 in 5 falls'. Alt text: 'moving to or from a chair about 1 in 5 falls'."
+  },
+  {
+   "tmp_id": "C01-P10",
+   "where": "visual_text",
+   "text": "Early falls recorded after the diagnosis was confirmed at autopsy: about 4 in 100 with Parkinson's disease, about 1 in 3 with PSP",
+   "problem": "Missing denominators and the source's main caveat. The figures are mean percentages of what was written in retrospective case notes across autopsy series, and the PSP figure rests on 28 cases. The authors warn that documentation is selective. Practitioners could read '1 in 3' as the true frequency of early falls in PSP. The claim record's qualification ('Autopsy numbers are small for PSP (28 cases) and come from retrospective notes') is not carried on the visual or in X.",
+   "source_says": "Fox 2025 (full text): ''Recurrent falling because of impaired balance within 3 y' was reported in 3.8% of 124 PD cases ... in 33.6% of 28 PSP cases'; 'An overall limitation related to missing information from retrospective charts is bias from selective documentation'.",
+   "severity": "major",
+   "replacement": "Early falls recorded in past case notes of people whose diagnosis was confirmed at autopsy: about 4 in 100 of 124 with Parkinson's disease, about 1 in 3 of 28 with PSP"
+  },
+  {
+   "tmp_id": "C01-P10",
+   "where": "x",
+   "text": "In people whose diagnosis was confirmed after death, such falls were recorded in about 4 in 100 with Parkinson's disease and about 1 in 3 with progressive supranuclear palsy (PSP).",
+   "problem": "Missing denominators and the source's main caveat. The figures are mean percentages of what was written in retrospective case notes across autopsy series, and the PSP figure rests on 28 cases. The authors warn that documentation is selective. Practitioners could read '1 in 3' as the true frequency of early falls in PSP. The claim record's qualification ('Autopsy numbers are small for PSP (28 cases) and come from retrospective notes') is not carried on the visual or in X.",
+   "source_says": "Fox 2025 (full text): ''Recurrent falling because of impaired balance within 3 y' was reported in 3.8% of 124 PD cases ... in 33.6% of 28 PSP cases'; 'An overall limitation related to missing information from retrospective charts is bias from selective documentation'.",
+   "severity": "major",
+   "replacement": "In small autopsy-confirmed series, past case notes recorded such falls in about 4 in 100 people with Parkinson's disease and about 1 in 3 with progressive supranuclear palsy (PSP)."
+  },
+  {
+   "tmp_id": "C01-P10",
+   "where": "alt_text",
+   "text": "Early falls were recorded in about 4 in 100 autopsy-confirmed Parkinson's cases and about 1 in 3 PSP cases.",
+   "problem": "Missing denominators and the source's main caveat. The figures are mean percentages of what was written in retrospective case notes across autopsy series, and the PSP figure rests on 28 cases. The authors warn that documentation is selective. Practitioners could read '1 in 3' as the true frequency of early falls in PSP. The claim record's qualification ('Autopsy numbers are small for PSP (28 cases) and come from retrospective notes') is not carried on the visual or in X.",
+   "source_says": "Fox 2025 (full text): ''Recurrent falling because of impaired balance within 3 y' was reported in 3.8% of 124 PD cases ... in 33.6% of 28 PSP cases'; 'An overall limitation related to missing information from retrospective charts is bias from selective documentation'.",
+   "severity": "major",
+   "replacement": "In past case notes, early falls were recorded in about 4 in 100 of 124 autopsy-confirmed Parkinson's cases and about 1 in 3 of 28 PSP cases."
+  },
+  {
+   "tmp_id": "C01-P10",
+   "where": "linkedin",
+   "text": "remember that about two thirds of the PSP cases had no early falls recorded.",
+   "problem": "Needs the size and nature of the dataset so it is not read as the true frequency in PSP.",
+   "source_says": "Fox 2025 (full text): ''Recurrent falling because of impaired balance within 3 y' was reported in 3.8% of 124 PD cases ... in 33.6% of 28 PSP cases'; 'An overall limitation related to missing information from retrospective charts is bias from selective documentation'.",
+   "severity": "minor",
+   "replacement": "remember that in this small series (28 PSP cases, from past notes), about two thirds had no early falls recorded."
+  },
+  {
+   "tmp_id": "C01-P10",
+   "where": "visual_text",
+   "text": "Much worse with eyes closed: think position sense",
+   "problem": "The headline drops inner-ear balance loss, which the claim record requires in the label because a positive Romberg test does not separate the two.",
+   "source_says": "Anagnostou 2025: 'While the Romberg test is standard, it fails to clearly differentiate vestibular from sensory ataxia.' Claim C01-27-f label: 'Much worse with eyes closed: think loss of position sense (for example neuropathy) or inner-ear balance loss'.",
+   "severity": "minor",
+   "replacement": "Much worse with eyes closed: think position sense or inner ear"
+  },
+  {
+   "tmp_id": "C01-P11",
+   "where": "x",
+   "text": "Later studies found it weaker. In people with stroke living at home, it missed about half of those who fell.",
+   "problem": "Misrepresents the replication. In the stroke study, sensitivity (53%) was slightly higher than in 1997 (48%). The original also missed about half of fallers (11 of 21). What weakened was specificity (70% against 95%): more false alarms. The X version gives the unchanged weakness as the new one and leaves out the actual difference.",
+   "source_says": "Hyndman 2004 abstract: 'Twenty six subjects stopped walking ... and 16 of them fell ... specificity 70% (23/33) and sensitivity 53% (16/30)' ... 'The specificity of the SWWT test was lower but sensitivity was higher than previously reported.'",
+   "severity": "major",
+   "replacement": "Later studies found it weaker. In people with stroke living at home, it gave more false alarms: 10 of the 26 who stopped did not fall, and it still missed about half of those who fell."
+  },
+  {
+   "tmp_id": "C01-P11",
+   "where": "linkedin",
+   "text": "In 63 people with stroke living at home, it missed about half of those who fell and gave more false alarms.",
+   "problem": "Puts the unchanged weakness (missing about half, as in 1997) first and the real change (more false alarms) second, so it reads as though sensitivity fell.",
+   "source_says": "Hyndman 2004 abstract: 'The specificity of the SWWT test was lower but sensitivity was higher than previously reported.' PPV 62% (16/26).",
+   "severity": "minor",
+   "replacement": "In 63 people with stroke living at home, it gave more false alarms (10 of the 26 who stopped did not fall) and, as in 1997, missed about half of those who fell."
+  },
+  {
+   "tmp_id": "C01-P11",
+   "where": "linkedin",
+   "text": "A 2000 report found it did not predict falls in Parkinson's disease.",
+   "problem": "Second-hand: the Parkinson's report (2000 letter) was not opened. The only opened source says the earlier findings 'could not be repeated' in Parkinson's disease.",
+   "source_says": "Hyndman 2004: 'although the SWWT test has shown promising results in predicting falls among frail elderly subjects, these findings could not be repeated among people with PD.'",
+   "severity": "minor",
+   "replacement": "A 2000 report, cited by the stroke study's authors, could not repeat the 1997 result in people with Parkinson's disease."
+  },
+  {
+   "tmp_id": "C01-P11",
+   "where": "linkedin",
+   "text": "It may work best in frail people living in residential care, the group in which it was first described.",
+   "problem": "Inconsistent with 'sheltered housing' earlier in the same caption for the same 1997 group (the letter says 'sheltered accommodation'). This is a setting swap within the post.",
+   "source_says": "Lundin-Olsson 1997 (claim C01-24-a passage): '58 residents in sheltered accommodation in Umea, Sweden ... The most common diagnoses ... were dementia (n=26), depression (25), and previous stroke (20).'",
+   "severity": "minor",
+   "replacement": "It may work best in frail older people like those in the original study, many of whom had dementia, depression or stroke."
+  }
+ ],
+ "posts_to_drop": [],
+ "notes": "No post needs dropping: every issue has a supported replacement. P01 open issue: 'a slow bleed between the brain and the skull' is acceptable as a plain definition of chronic subdural haematoma. P02 erratum: figures used match both the abstract and Table 2 of the PMC text. No invented patients presented as real, first-person anecdotes, claims about Alasdair's practice, religion or delirium framing were found; illustrative scenes and the P11 comic dialogue are labelled 'Illustrative example'. The P04 and P09 'all' issues list the exact replacement for each version in the replacement field."
+}
