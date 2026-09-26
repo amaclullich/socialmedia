@@ -1,0 +1,1196 @@
+{
+ "batch": "C07-B3",
+ "category": "C07",
+ "date_checked": "2026-09-25",
+ "notes": "Checked 25-26 Sep 2026. Reused no sources from earlier batches: none of them covered these topics (Orr and Baruah 2018 from C03-B1 was re-opened for Montgomery, but PMC returned an empty body, so Nicholls 2021 was used). Scite reached its monthly limit during this batch (1 call left), so correction checks were done in PubMed (retracted publication / expression of concern publication types for every PMID; title searches for published errata). Full texts opened: GAP70+, CO.17 time toxicity, Bhalla 2024 and Nicholls 2021 through PMC; Emberson 2014, ESO 2021, IST-3 and Schoenborn 2018 through Scite full-text excerpts. The UK National Clinical Guideline for Stroke 2023 was reachable only as a search extract.",
+ "sources": [
+  {
+   "key": "PMID:22632908",
+   "citation": "IST-3 collaborative group; Sandercock P, Wardlaw JM, Lindley RI, Dennis M, Cohen G, Murray G, et al. The benefits and harms of intravenous thrombolysis with recombinant tissue plasminogen activator within 6 h of acute ischaemic stroke (the third international stroke trial [IST-3]): a randomised controlled trial. Lancet. 2012;379(9834):2352-63.",
+   "pmid": "22632908",
+   "pmcid": "PMC3386495",
+   "doi": "10.1016/S0140-6736(12)60768-5",
+   "public_url": "https://doi.org/10.1016/S0140-6736(12)60768-5",
+   "design": "International, multicentre, randomised, open-treatment trial (alteplase 0.9 mg/kg vs control), with blinded outcome assessment",
+   "population_setting": "3035 people with acute ischaemic stroke who could be treated within 6 h of onset, enrolled by 156 hospitals in 12 countries; 1617 (53%) older than 80; primary outcome alive and independent (Oxford Handicap Score 0-2) at 6 months",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature (full-text excerpts and in-text citation snippets from Introduction, Methods, Results, Discussion)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found. Scite editorial notices: 'has erratum' (10.1016/s0140-6736(12)60822-8, June 2012) plus published comments; no retraction. The figures used here are those in the current PubMed abstract.",
+   "quality_note": "Large pragmatic trial; open treatment. Primary outcome (alive and independent at 6 months) did not reach significance (37% vs 35%); the prespecified ordinal analysis did. Authors caution that subgroup interactions (including greater benefit over 80) should be interpreted with caution."
+  },
+  {
+   "key": "PMID:25106063",
+   "citation": "Emberson J, Lees KR, Lyden P, Blackwell L, Albers G, Bluhmki E, et al. Effect of treatment delay, age, and stroke severity on the effects of intravenous thrombolysis with alteplase for acute ischaemic stroke: a meta-analysis of individual patient data from randomised trials. Lancet. 2014;384(9958):1929-35.",
+   "pmid": "25106063",
+   "pmcid": "PMC4441266",
+   "doi": "10.1016/S0140-6736(14)60584-5",
+   "public_url": "https://doi.org/10.1016/S0140-6736(14)60584-5",
+   "design": "Prespecified individual patient data meta-analysis of 9 randomised trials (alteplase vs placebo or open control)",
+   "population_setting": "6756 people with acute ischaemic stroke in 9 phase 3 trials, including 1729 aged over 80; good outcome defined as modified Rankin score 0-1 (no significant disability) at 3 to 6 months",
+   "year": 2014,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (open access, CC-BY; Results and Discussion)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found. Scite: no editorial notice returned for this DOI.",
+   "quality_note": "Highest-level evidence on alteplase by age. Age subgroup figures pool all time windows in the included trials (mean treatment delay 3.7 h in those over 80). Relative (odds ratio) effects were similar by age; absolute figures in the over-80 group are given as percentages without denominators in the excerpt."
+  },
+  {
+   "key": "PMID:26898852",
+   "citation": "Goyal M, Menon BK, van Zwam WH, Dippel DW, Mitchell PJ, Demchuk AM, et al. Endovascular thrombectomy after large-vessel ischaemic stroke: a meta-analysis of individual patient data from five randomised trials. Lancet. 2016;387(10029):1723-31.",
+   "pmid": "26898852",
+   "pmcid": null,
+   "doi": "10.1016/S0140-6736(16)00163-X",
+   "public_url": "https://doi.org/10.1016/S0140-6736(16)00163-X",
+   "design": "Individual patient data meta-analysis of 5 randomised trials (HERMES collaboration)",
+   "population_setting": "1287 people with acute ischaemic stroke from large-vessel occlusion of the proximal anterior circulation (MR CLEAN, ESCAPE, REVASCAT, SWIFT PRIME, EXTEND IA), thrombectomy within 12 h vs standard care; outcome disability (modified Rankin Scale) at 90 days",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Funded by Medtronic. The over-80 result is a subgroup (number in subgroup not given in abstract), reported as a common odds ratio for a shift in disability; no heterogeneity across prespecified subgroups."
+  },
+  {
+   "key": "PMID:33817340",
+   "citation": "Berge E, Whiteley W, Audebert H, De Marchis GM, Fonseca AC, Padiglioni C, et al. European Stroke Organisation (ESO) guidelines on intravenous thrombolysis for acute ischaemic stroke. Eur Stroke J. 2021;6(1):I-LXII.",
+   "pmid": "33817340",
+   "pmcid": "PMC7995316",
+   "doi": "10.1177/2396987321989865",
+   "public_url": "https://doi.org/10.1177/2396987321989865",
+   "design": "GRADE-based clinical practice guideline with systematic reviews and expert consensus statements",
+   "population_setting": "European Stroke Organisation guideline for adults with acute ischaemic stroke",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); PubMed get_full_text_article returned an empty body; recommendation and consensus text read as verbatim full-text excerpts via Scite search_literature",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found. Scite: no editorial notice returned.",
+   "quality_note": "Major European guideline (2021). Tenecteplase recommendations have evolved since; the age recommendation concerns alteplase within 4.5 h."
+  },
+  {
+   "key": "URL:https://reference.medscape.com/cc2/p10/national-clinical-guideline-stroke-2023a10008ip",
+   "citation": "Intercollegiate Stroke Working Party. National Clinical Guideline for Stroke for the UK and Ireland. London: Intercollegiate Stroke Working Party; 2023 (wording seen only in a search-engine summary of guideline summary pages, including Medscape 'Stroke: ISWP/SIGN 2023 Guideline Summary').",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/None/",
+   "design": "National clinical guideline (search-engine extract only; guideline not opened)",
+   "population_setting": "UK and Ireland, adults with stroke",
+   "year": 2023,
+   "access": "search_extract",
+   "tool_used": "WebSearch (official guideline site and summary pages could not be opened; not in Drive)",
+   "correction_check": "Not applicable (guideline); wording not verified against the guideline itself.",
+   "quality_note": "Search extract only: not sufficient on its own for an essential claim. Use the ESO guideline for the age recommendation."
+  },
+  {
+   "key": "PMID:38387534",
+   "citation": "Bhalla A, Clark L, Fisher R, James M. The new national clinical guideline for stroke: an opportunity to transform stroke care. Clin Med (Lond). 2024;24(2):100025.",
+   "pmid": "38387534",
+   "pmcid": "PMC11091392",
+   "doi": "10.1016/j.clinme.2024.100025",
+   "public_url": "https://doi.org/10.1016/j.clinme.2024.100025",
+   "design": "Summary article of the 2023 National Clinical Guideline for Stroke by members of the Intercollegiate Stroke Working Party",
+   "population_setting": "UK and Ireland stroke services",
+   "year": 2024,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Summary by guideline authors; does not reproduce the age wording of the thrombolysis recommendation."
+  },
+  {
+   "key": "PMID:34741815",
+   "citation": "Mohile SG, Mohamed MR, Xu H, Culakova E, Loh KP, Magnuson A, et al. Evaluation of geriatric assessment and management on the toxic effects of cancer treatment (GAP70+): a cluster-randomised study. Lancet. 2021;398(10314):1894-1904.",
+   "pmid": "34741815",
+   "pmcid": "PMC8647163",
+   "doi": "10.1016/S0140-6736(21)01789-X",
+   "public_url": "https://doi.org/10.1016/S0140-6736(21)01789-X",
+   "design": "Cluster-randomised trial (40 community oncology practice clusters)",
+   "population_setting": "718 people aged 70+ (mean 77.2) in the USA with incurable solid tumours or lymphoma, at least one impaired geriatric assessment domain, starting a new high-toxicity treatment regimen (chemotherapy in 88%); intervention = tailored geriatric assessment summary plus management recommendations given to oncologists; outcome grade 3-5 toxic effects over 3 months",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract) and get_full_text_article (PMC author manuscript)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found. Scite: no editorial notice returned for this DOI.",
+   "quality_note": "Large trial; practices not blinded; baseline imbalances between arms (race, prior chemotherapy, cancer type); survival a secondary outcome and the trial was not designed for non-inferiority on survival."
+  },
+  {
+   "key": "PMID:34591080",
+   "citation": "Li D, Sun CL, Kim H, Soto-Perez-de-Celis E, Chung V, Koczywas M, et al. Geriatric Assessment-Driven Intervention (GAIN) on chemotherapy-related toxic effects in older adults with cancer: a randomized clinical trial. JAMA Oncol. 2021;7(11):e214158.",
+   "pmid": "34591080",
+   "pmcid": "PMC8485211",
+   "doi": "10.1001/jamaoncol.2021.4158",
+   "public_url": "https://doi.org/10.1001/jamaoncol.2021.4158",
+   "design": "Randomised clinical trial (2:1), single US cancer centre",
+   "population_setting": "605 analysed patients aged 65+ (median 71) with solid tumours starting chemotherapy, 2015-2019; multidisciplinary geriatric assessment-driven interventions vs geriatric assessment results sent to oncologist",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Single academic centre; comparator also received the assessment results, so the trial tests acting on the assessment."
+  },
+  {
+   "key": "PMID:37459573",
+   "citation": "Dale W, Klepin HD, Williams GR, Alibhai SMH, Bergerot C, Brintzenhofeszoc K, et al. Practical assessment and management of vulnerabilities in older patients receiving systemic cancer therapy: ASCO guideline update. J Clin Oncol. 2023;41(26):4293-4312.",
+   "pmid": "37459573",
+   "pmcid": "PMC12803700",
+   "doi": "10.1200/JCO.23.00933",
+   "public_url": "https://doi.org/10.1200/JCO.23.00933",
+   "design": "Clinical practice guideline update based on systematic review",
+   "population_setting": "American Society of Clinical Oncology (US) guidance for people aged 65+ with cancer receiving systemic therapy",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found. A published erratum exists (PMID 41237358, J Clin Oncol 2025;43(36):3850); its content was not available in PubMed and was not reviewed. The recommendations quoted are from the guideline abstract.",
+   "quality_note": "US specialty society guideline; not UK policy."
+  },
+  {
+   "key": "PMID:39455366",
+   "citation": "Gomes F, Farrington N, Pearce J, Swinson D, Welford J, Greystoke A, et al. The care of older patients with cancer across the United Kingdom in 2024: a narrative review by the International Society of Geriatric Oncology UK Country Group. J Geriatr Oncol. 2025;16(1):102133.",
+   "pmid": "39455366",
+   "pmcid": null,
+   "doi": "10.1016/j.jgo.2024.102133",
+   "public_url": "https://doi.org/10.1016/j.jgo.2024.102133",
+   "design": "Narrative review by the SIOG UK Country Group",
+   "population_setting": "Services for older people with cancer across the four UK nations",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Expert narrative review, not an audit; gives no national percentage for access."
+  },
+  {
+   "key": "PMID:36881786",
+   "citation": "Gupta A, O'Callaghan CJ, Zhu L, Jonker DJ, Wong RPW, Colwell B, et al. Evaluating the time toxicity of cancer treatment in the CCTG CO.17 trial. JCO Oncol Pract. 2023;19(6):e859-e866.",
+   "pmid": "36881786",
+   "pmcid": "PMC10337749",
+   "doi": "10.1200/OP.22.00737",
+   "public_url": "https://doi.org/10.1200/OP.22.00737",
+   "design": "Secondary analysis of a randomised controlled trial",
+   "population_setting": "572 people with advanced, treatment-refractory colorectal cancer (median age 63; Canada, Australia, New Zealand; 2003-2005) randomised to weekly cetuximab infusions vs supportive care alone; contact days counted from trial forms",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract) and get_full_text_article (PMC). Note: the PMC text extraction drops 'vs' and 'P' symbols, so figures appear as '(28,10,< .001)'.",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Proof-of-concept; not an older population; trial protocol visits may inflate contact days relative to routine care (authors' caution); measure excludes care partners' time."
+  },
+  {
+   "key": "PMID:40080017",
+   "citation": "Gupta A, Till C, Vaidya R, Hershman DL, Unger JM. Health care contact days for older adults enrolled in cancer clinical trials. JAMA Netw Open. 2025;8(3):e250778.",
+   "pmid": "40080017",
+   "pmcid": "PMC11907310",
+   "doi": "10.1001/jamanetworkopen.2025.0778",
+   "public_url": "https://doi.org/10.1001/jamanetworkopen.2025.0778",
+   "design": "Cohort study of trial participants linked to Medicare claims",
+   "population_setting": "1429 people aged 65+ (median 71; 78.6% men) with advanced prostate, lung or pancreatic cancer in 6 SWOG phase 3 trials, USA, 1999-2014; contact days in the first 12 months after enrolment",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "US trial participants (mostly men, three cancer types); trial requirements may add visits."
+  },
+  {
+   "key": "PMID:39212749",
+   "citation": "Baltussen JC, Cárdenas-Reyes P, Chavarri-Guerra Y, Ramirez-Fontes A, Morales-Alfaro A, Portielje JEA, et al. Time toxicity among older patients with cancer treated with palliative systemic therapy. Support Care Cancer. 2024;32(9):621.",
+   "pmid": "39212749",
+   "pmcid": null,
+   "doi": "10.1007/s00520-024-08844-1",
+   "public_url": "https://doi.org/10.1007/s00520-024-08844-1",
+   "design": "Prospective cohort (single centre)",
+   "population_setting": "158 people aged 65+ (median 71) with metastatic cancer starting palliative systemic therapy at one centre in Mexico; contact days in the first 6 months",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Small single-centre study outside the UK; consistent with the US trial-cohort figure."
+  },
+  {
+   "key": "PMID:28604917",
+   "citation": "Schoenborn NL, Lee K, Pollack CE, Armacost K, Dy SM, Bridges JFP, et al. Older adults' views and communication preferences about cancer screening cessation. JAMA Intern Med. 2017;177(8):1121-8.",
+   "pmid": "28604917",
+   "pmcid": "PMC5564296",
+   "doi": "10.1001/jamainternmed.2017.1778",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2017.1778",
+   "design": "Qualitative semistructured interview study",
+   "population_setting": "40 community-dwelling adults aged 65+ (mean 75.7) recruited at 4 clinical programmes of one urban US academic medical centre (Baltimore)",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Small qualitative sample from one US centre; themes, not frequencies."
+  },
+  {
+   "key": "PMID:29955796",
+   "citation": "Schoenborn NL, Janssen EM, Boyd CM, Bridges JFP, Wolff AC, Pollack CE. Preferred clinician communication about stopping cancer screening among older US adults: results from a national survey. JAMA Oncol. 2018;4(8):1126-8.",
+   "pmid": "29955796",
+   "pmcid": "PMC6143045",
+   "doi": "10.1001/jamaoncol.2018.2100",
+   "public_url": "https://doi.org/10.1001/jamaoncol.2018.2100",
+   "design": "Cross-sectional national online survey (research letter) using best-worst scaling of 13 phrases",
+   "population_setting": "881 US adults aged 65+ (mean 73.4) from a national probability-based online panel, November 2016 (response 69.3%); hypothetical scenario about stopping breast/prostate or colorectal cancer screening",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (no abstract); PubMed get_full_text_article returned an empty body; Results and Discussion read as verbatim full-text excerpts via Scite search_literature",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found. Scite: no editorial notice returned.",
+   "quality_note": "Hypothetical scenario; US population; stated preferences. The full ranking figure was not seen, so only the most and least preferred phrases and the authors' summary of the ranking may be quoted."
+  },
+  {
+   "key": "PMID:31452029",
+   "citation": "Schoenborn NL, Crossnohere NL, Janssen EM, Pollack CE, Boyd CM, Wolff AC, et al. Examining generalizability of older adults' preferences for discussing cessation of screening colonoscopies in older adults with low health literacy. J Gen Intern Med. 2019;34(11):2512-9.",
+   "pmid": "31452029",
+   "pmcid": "PMC6848333",
+   "doi": "10.1007/s11606-019-05258-2",
+   "public_url": "https://doi.org/10.1007/s11606-019-05258-2",
+   "design": "Cross-sectional survey comparison (best-worst scaling, 13 explanations)",
+   "population_setting": "US adults 65+: 113 with low health literacy (Baltimore) and 441 from a national online panel, about stopping screening colonoscopy",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Supports consistency of the ranking across health literacy levels; colonoscopy only."
+  },
+  {
+   "key": "PMID:25133746",
+   "citation": "Royce TJ, Hendrix LH, Stokes WA, Allen IM, Chen RC. Cancer screening rates in individuals with different life expectancies. JAMA Intern Med. 2014;174(10):1558-65.",
+   "pmid": "25133746",
+   "pmcid": null,
+   "doi": "10.1001/jamainternmed.2014.3895",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2014.3895",
+   "design": "Cross-sectional analysis of a national population survey (NHIS 2000-2010)",
+   "population_setting": "27,404 US adults aged 65+ grouped by validated 9-year mortality index; self-reported recent prostate, breast, cervical and colorectal screening",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "US opportunistic screening context (differs from UK invitation-based programmes); self-report; data to 2010."
+  },
+  {
+   "key": "PMID:15501119",
+   "citation": "Lawrence VA, Hazuda HP, Cornell JE, Pederson T, Bradshaw PT, Mulrow CD, et al. Functional independence after major abdominal surgery in the elderly. J Am Coll Surg. 2004;199(5):762-72.",
+   "pmid": "15501119",
+   "pmcid": null,
+   "doi": "10.1016/j.jamcollsurg.2004.05.280",
+   "public_url": "https://doi.org/10.1016/j.jamcollsurg.2004.05.280",
+   "design": "Prospective cohort study",
+   "population_setting": "372 consecutive patients aged 60+ (mean 69) having elective major abdominal operations in private practice and two university-affiliated hospitals (San Antonio, Texas, USA); assessed before and 1, 3 and 6 weeks and 3 and 6 months after surgery",
+   "year": 2004,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Older study (before widespread enhanced-recovery pathways); elective abdominal surgery only; mean recovery times hide wide individual variation."
+  },
+  {
+   "key": "PMID:11932474",
+   "citation": "Fried TR, Bradley EH, Towle VR, Allore H. Understanding the treatment preferences of seriously ill patients. N Engl J Med. 2002;346(14):1061-6.",
+   "pmid": "11932474",
+   "pmcid": null,
+   "doi": "10.1056/NEJMsa012528",
+   "public_url": "https://doi.org/10.1056/NEJMsa012528",
+   "design": "Cross-sectional questionnaire (interview) study of treatment preferences using hypothetical scenarios",
+   "population_setting": "226 people aged 60+ in the USA with limited life expectancy from cancer, heart failure or COPD",
+   "year": 2002,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Hypothetical life-sustaining treatment scenarios where the alternative was death, not elective surgery; seriously ill US population."
+  },
+  {
+   "key": "PMID:33526016",
+   "citation": "Nicholls JA, David AL, Iskaros J, Siassakos D, Lanceley A. Consent in pregnancy - an observational study of ante-natal care in the context of Montgomery: all about risk? BMC Pregnancy Childbirth. 2021;21(1):102.",
+   "pmid": "33526016",
+   "pmcid": "PMC7851911",
+   "doi": "10.1186/s12884-021-03574-2",
+   "public_url": "https://doi.org/10.1186/s12884-021-03574-2",
+   "design": "Qualitative observational study; Background section quotes the Montgomery materiality test",
+   "population_setting": "16 antenatal consent consultations in a London teaching hospital (used here only for its statement of UK consent law)",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Secondary legal source quoting Montgomery v Lanarkshire Health Board [2015] UKSC 11, para 87; the judgment itself and GMC guidance were not opened. Its empirical findings are about pregnant women and are not used."
+  },
+  {
+   "key": "PMID:25749396",
+   "citation": "Kruser JM, Pecanac KE, Brasel KJ, Cooper Z, Steffens NM, McKneally MF, et al. \"And I think that we can fix it\": mental models used in high-risk surgical decision making. Ann Surg. 2015;261(4):678-84.",
+   "pmid": "25749396",
+   "pmcid": "PMC4356019",
+   "doi": "10.1097/SLA.0000000000000714",
+   "public_url": "https://doi.org/10.1097/SLA.0000000000000714",
+   "design": "Qualitative content analysis of audio-recorded preoperative conversations",
+   "population_setting": "48 preoperative conversations between US surgeons who routinely perform high-risk surgery and their patients",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract)",
+   "correction_check": "PubMed: PMID searched with (retracted publication[pt] OR expression of concern[pt]) on 26 Sep 2026 (batch searches of all PMIDs in this file): none found. Title search with published erratum[pt]: none found.",
+   "quality_note": "Qualitative; does not measure whether recovery of daily function was discussed."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C07-30-a",
+   "cand_id": "C07-30",
+   "claim": "IST-3 enrolled 3035 people with acute ischaemic stroke, of whom 1617 (53%) were older than 80.",
+   "source_keys": [
+    "PMID:22632908"
+   ],
+   "supporting_passage": "Abstract: \"3035 patients were enrolled by 156 hospitals in 12 countries. All of these patients were included in the analyses (1515 in the rt-PA group vs 1520 in the control group), of whom 1617 (53%) were older than 80 years of age.\" Full text (Discussion, Scite excerpt): \"For the types of patient recruited in IST-3 (about three quarters of whom were randomised after 3 h, and half of all patients were older than 80 years of age), by 6 months there was evidence that rt-PA improved functional outcome.\" Discussion (Scite citation snippet): \"Nonetheless, the trial was the largest-ever trial of thrombolysis therapy for stroke (over three times larger than any previous trial)\" ",
+   "location": "Abstract (Findings); Discussion (Scite full-text excerpts; citation numerals omitted)",
+   "pico_timeframe": "Adults with acute ischaemic stroke treatable within 6 h / IV alteplase 0.9 mg/kg / open control / alive and independent at 6 months / enrolled 2000-2011 in 12 countries",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "IST-3, an international trial of the clot-busting drug alteplase for stroke, enrolled 3035 people. Just over half of them (1617, or 53 in 100) were over 80. About half of all participants received the drug and half did not.",
+   "qualifications": "Say 'enrolled' or 'took part', not 'treated': the 53% covers both the alteplase and the control groups. 'Largest-ever trial of thrombolysis for stroke' was the authors' description in 2012; later trials (for example of tenecteplase or of alteplase doses) were not checked, so do not call IST-3 'the largest' in 2026 without that qualification ('at the time, the largest').",
+   "conflicting_or_uncertain": "None on the enrolment figures.",
+   "numbers": [
+    {
+     "value": "3035",
+     "meaning": "people enrolled in IST-3 (1515 alteplase, 1520 control)"
+    },
+    {
+     "value": "1617 (53%)",
+     "meaning": "participants older than 80, across both groups"
+    },
+    {
+     "value": "12",
+     "meaning": "countries (156 hospitals)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-30-b",
+   "cand_id": "C07-30",
+   "claim": "Before IST-3, people over 80 had largely been excluded from trials of clot-busting treatment for stroke.",
+   "source_keys": [
+    "PMID:22632908",
+    "PMID:33817340"
+   ],
+   "supporting_passage": "IST-3 Introduction (Scite citation snippets): \"Older people have been under-represented in stroke trials in general, and in stroke thrombolysis trials in particular (only 79 people aged older than 80 years had been included in trials of rt-PA).\" ... \"Thrombolytic therapy with intravenous recombinant tissue plasminogen activator (rt-PA), when approved in Europe, was restricted to the treatment of patients younger than 80 years of age with acute ischaemic stroke who could be treated within 3 h.\" ESO guideline (full-text excerpt): \"Most trials of IVT for ischaemic stroke have excluded patients who were over 80 years old or who had multimorbidity/frailty or pre-stroke disability.\" ",
+   "location": "IST-3 Introduction; ESO guideline text (Scite full-text excerpts; citation numerals omitted)",
+   "pico_timeframe": "Trials of IV thrombolysis for acute ischaemic stroke up to 2012 / participants over 80",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Before IST-3, trials of this clot-busting drug had included only 79 people over 80, according to the IST-3 authors. When the drug was first approved in Europe, it was licensed only for people under 80. European stroke guideline authors note that most thrombolysis trials excluded people over 80, or with frailty or disability before the stroke.",
+   "qualifications": "The 79 figure is background in the IST-3 introduction (citing a Cochrane review), so attribute it ('the IST-3 authors reported'). The under-80 restriction describes the original European approval, not current licensing, which was not checked.",
+   "conflicting_or_uncertain": "Current licensing status of alteplase by age in the UK was not verified; do not state it.",
+   "numbers": [
+    {
+     "value": "79",
+     "meaning": "people older than 80 included in all alteplase stroke trials before IST-3 (background figure from IST-3 introduction)"
+    },
+    {
+     "value": "80",
+     "meaning": "age cut-off in the original European approval"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-30-c",
+   "cand_id": "C07-30",
+   "claim": "Clot-busting treatment (alteplase) within the licensed time window helps people over 80 about as much, in relative terms, as younger people.",
+   "source_keys": [
+    "PMID:25106063",
+    "PMID:22632908"
+   ],
+   "supporting_passage": "Emberson abstract: \"We did a pre-specified meta-analysis of individual patient data from 6756 patients in nine randomised trials comparing alteplase with placebo or open control.\" ... \"We defined a good stroke outcome as no significant disability at 3-6 months, defined by a modified Rankin Score of 0 or 1.\" ... \"Proportional treatment benefits were similar irrespective of age or stroke severity.\" Emberson full text (Results, Scite excerpt): \"The effect of alteplase treatment was similar for patients aged 80 years or younger (mean treatment delay 4·1 h; 990 [39%] vs 853 [34%]; OR 1·25, 95% CI 1·10–1·42, p<0·0001) and for those older than 80 years (mean treatment delay 3·7 h; 155 [18%] vs 112 [13%]; OR 1·56, 95% CI 1·17–2·08, p=0·0023; figure 2 ).\" Discussion: \"we found no evidence that age modified either the proportional benefits or the proportional hazards of alteplase, with clear evidence of overall benefit for mRS 0–1 among the 1729 patients aged older than 80 years at randomisation.\" IST-3 abstract: \"Benefit did not seem to be diminished in elderly patients.\" IST-3 abstract (primary outcome): \"At 6 months, 554 (37%) patients in the rt-PA group versus 534 (35%) in the control group were alive and independent (OHS 0-2; adjusted odds ratio [OR] 1·13, 95% CI 0·95-1·35, p=0·181; a non-significant absolute increase of 14/1000, 95% CI -20 to 48). An ordinal analysis showed a significant shift in OHS scores\" ",
+   "location": "Emberson 2014 abstract and Results/Discussion (full-text excerpts); IST-3 abstract",
+   "pico_timeframe": "People with acute ischaemic stroke in 9 randomised trials (1729 aged over 80) / IV alteplase / placebo or open control / no significant disability (mRS 0-1) at 3 to 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a combined analysis of 9 trials, 1729 people were over 80. Among them, about 18 in 100 given the clot-busting drug were left with no significant disability 3 to 6 months later, compared with about 13 in 100 who did not get it. The relative benefit was similar to that in younger people.",
+   "qualifications": "The over-80 figures pool all treatment delays in the trials (average 3.7 hours); benefit is larger the earlier treatment is given. In IST-3 alone, the main outcome (alive and independent at 6 months: 37 in 100 vs 35 in 100) did not show a clear difference; a secondary ordinal analysis did. Base the benefit statement on the meta-analysis, not on IST-3 alone.",
+   "conflicting_or_uncertain": "IST-3 authors warn that subgroup interactions, including apparently greater benefit over 80, should be interpreted with caution. People with severe pre-stroke disability or frailty were mostly excluded from trials (ESO).",
+   "numbers": [
+    {
+     "value": "1729",
+     "meaning": "people over 80 in the 9-trial individual patient data meta-analysis (of 6756)"
+    },
+    {
+     "value": "18% vs 13%",
+     "meaning": "over 80s with no significant disability (mRS 0-1) at 3-6 months, alteplase vs control (absolute; denominators not in excerpt)"
+    },
+    {
+     "value": "39% vs 34%",
+     "meaning": "same outcome in people aged 80 or under"
+    },
+    {
+     "value": "3.7 h",
+     "meaning": "mean treatment delay in the over-80 group"
+    },
+    {
+     "value": "37% vs 35%",
+     "meaning": "IST-3 primary outcome, alive and independent at 6 months (not statistically significant)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-30-d",
+   "cand_id": "C07-30",
+   "claim": "Clot-busting treatment raises the early risk of bleeding into the brain, including fatal bleeding; overall this risk is outweighed by more people surviving without disability when given within 4.5 h.",
+   "source_keys": [
+    "PMID:25106063",
+    "PMID:22632908"
+   ],
+   "supporting_passage": "Emberson abstract: \"Alteplase significantly increased the odds of symptomatic intracranial haemorrhage (type 2 parenchymal haemorrhage definition 231 [6·8%] of 3391 vs 44 [1·3%] of 3365 ...) and of fatal intracranial haemorrhage within 7 days (91 [2·7%] vs 13 [0·4%]; OR 7·14, 95% CI 3·98-12·79, p<0·0001). The relative increase in fatal intracranial haemorrhage from alteplase was similar irrespective of treatment delay, age, or stroke severity, but the absolute excess risk attributable to alteplase was bigger among patients who had more severe strokes.\" ... \"Taken together, therefore, despite an average absolute increased risk of early death from intracranial haemorrhage of about 2%, by 3-6 months this risk was offset by an average absolute increase in disability-free survival of about 10% for patients treated within 3·0 h and about 5% for patients treated after 3·0 h, up to 4·5 h.\" IST-3 abstract: \"More deaths occurred within 7 days in the rt-PA group (163 [11%]) than in the control group (107 [7%] ...), but between 7 days and 6 months there were fewer deaths in the rt-PA group than in the control group, so that by 6 months, similar numbers, in total, had died (408 [27%] in the rt-PA group vs 407 [27%] in the control group).\" ",
+   "location": "Emberson 2014 abstract (Findings); IST-3 abstract (Findings)",
+   "pico_timeframe": "People with acute ischaemic stroke / IV alteplase / control / symptomatic and fatal intracranial haemorrhage within 7 days; death and disability at 3-6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The drug has a real risk: across the trials, about 3 in 100 people given it had a fatal bleed in the brain within a week, compared with fewer than 1 in 100 without it. Over the following months, more treated people survived without disability, when it was given within 4.5 hours of the stroke starting.",
+   "qualifications": "Give the harm as plainly as the benefit. The relative increase in fatal bleeding was similar at all ages. The net figures (about 10 more in 100 without disability if treated within 3 h, about 5 more in 100 at 3 to 4.5 h, against about 2 in 100 extra early deaths) are for all ages, not specifically over 80.",
+   "conflicting_or_uncertain": "In IST-3, early deaths were higher with alteplase (11% vs 7% at 7 days) but total deaths at 6 months were the same (27% vs 27%).",
+   "numbers": [
+    {
+     "value": "2.7% vs 0.4%",
+     "meaning": "fatal brain haemorrhage within 7 days, alteplase vs control, all 9 trials (91/3391 vs 13/3365)"
+    },
+    {
+     "value": "6.8% vs 1.3%",
+     "meaning": "symptomatic brain haemorrhage (type 2 parenchymal definition), all ages"
+    },
+    {
+     "value": "about 2%",
+     "meaning": "average absolute increase in early death from brain haemorrhage"
+    },
+    {
+     "value": "about 10% / about 5%",
+     "meaning": "absolute increase in disability-free survival when treated within 3 h / 3 to 4.5 h"
+    },
+    {
+     "value": "27% vs 27%",
+     "meaning": "IST-3 deaths by 6 months, alteplase vs control"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-30-e",
+   "cand_id": "C07-30",
+   "claim": "A pooled analysis of thrombectomy (clot-retrieval) trials found benefit in people aged 80 and over.",
+   "source_keys": [
+    "PMID:26898852"
+   ],
+   "supporting_passage": "Abstract: \"We analysed individual data for 1287 patients (634 assigned to endovascular thrombectomy, 653 assigned to control). Endovascular thrombectomy led to significantly reduced disability at 90 days compared with control (adjusted cOR 2.49, 95% CI 1.76-3.53; p<0.0001).\" ... \"Subgroup analysis of the primary endpoint showed no heterogeneity of treatment effect across prespecified subgroups for reduced disability (pinteraction=0.43). Effect sizes favouring endovascular thrombectomy over control were present in several strata of special interest, including in patients aged 80 years or older (cOR 3.68, 95% CI 1.95-6.92)\" ",
+   "location": "Abstract (Findings)",
+   "pico_timeframe": "People with ischaemic stroke from proximal anterior large-vessel occlusion in 5 trials / thrombectomy within 12 h (most with alteplase too) / standard care / disability (mRS shift) at 90 days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A combined analysis of five trials of clot retrieval (thrombectomy) for strokes caused by a blocked large artery found less disability at 3 months with the procedure, and the benefit was also seen in people aged 80 and over.",
+   "qualifications": "Applies only to strokes from a blocked large artery in the front of the brain, which a scan must show. The over-80 result is a subgroup; the number of people in it is not given in the abstract. Do not turn the odds ratio into 'x times more likely'.",
+   "conflicting_or_uncertain": "Funded by Medtronic. Frail people and those with pre-stroke disability were largely excluded from these trials.",
+   "numbers": [
+    {
+     "value": "1287",
+     "meaning": "people in the pooled thrombectomy trials"
+    },
+    {
+     "value": "5",
+     "meaning": "trials pooled"
+    },
+    {
+     "value": "90 days",
+     "meaning": "time of outcome assessment"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-30-f",
+   "cand_id": "C07-30",
+   "claim": "European stroke guidelines recommend clot-busting treatment for people over 80 within 4.5 h, and state that age alone should not limit it.",
+   "source_keys": [
+    "PMID:33817340"
+   ],
+   "supporting_passage": "ESO guideline (full-text excerpts via Scite): \"The recommendation for patients who are over 80 years of age is based on an individual patient data meta-analysis of high quality. Recommendation For patients with acute ischaemic stroke of <4.5 h duration, who are over 80 years of age, we recommend intravenous thrombolysis with alteplase. Quality of evidence: High ⊕⊕⊕⊕ Strength of recommendation: Strong ↑↑ Expert consensus statement Nine of nine group members believe that age alone should not be a limiting factor for IVT, even in other situations covered in the present guidelines (e.g. wake-up stroke; ischaemic stroke of 4.5–9 h duration (known onset time) with CT or MRI core/perfusion mismatch; minor stroke with disabling symptoms).\" ... \"There was also no evidence in the pooled analysis that patients aged >80 years were at any greater risk of ICH than younger patients.\" ",
+   "location": "ESO 2021 guideline, recommendation on age (full-text excerpts; citation numerals omitted)",
+   "pico_timeframe": "Adults over 80 with acute ischaemic stroke under 4.5 h / IV alteplase / guideline recommendation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "European stroke guidelines strongly recommend clot-busting treatment for people over 80 whose stroke started less than 4.5 hours ago. All nine members of the guideline group agreed that age alone should not be a reason to withhold it.",
+   "qualifications": "This is the European Stroke Organisation guideline (2021). It recommends treatment when other criteria (timing, brain scan, no contraindication) are met; it does not mean everyone over 80 is eligible.",
+   "conflicting_or_uncertain": "UK wording (National Clinical Guideline for Stroke 2023, 'regardless of age') seen only as a search extract (claim C07-30-g).",
+   "numbers": [
+    {
+     "value": "4.5 h",
+     "meaning": "time from stroke onset within which the recommendation applies"
+    },
+    {
+     "value": "9 of 9",
+     "meaning": "guideline group members agreeing age alone should not limit thrombolysis (expert consensus)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-30-g",
+   "cand_id": "C07-30",
+   "claim": "The 2023 National Clinical Guideline for Stroke for the UK and Ireland recommends that thrombolysis be considered regardless of age.",
+   "source_keys": [
+    "URL:https://reference.medscape.com/cc2/p10/national-clinical-guideline-stroke-2023a10008ip"
+   ],
+   "supporting_passage": "Search-engine extract (not the guideline itself): \"Patients with acute ischaemic stroke, regardless of age or stroke severity, in whom treatment can be started within 4.5 hours of known onset, should be considered for thrombolysis with alteplase or tenecteplase.\" ",
+   "location": "Search-engine summary of guideline summary pages (Medscape, Medical Independent)",
+   "pico_timeframe": "UK and Ireland adults with acute ischaemic stroke within 4.5 h",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not quote the UK guideline's wording. If a UK reference is needed, say 'European stroke guidelines' (C07-30-f) instead.",
+   "qualifications": "Access was search_extract only; the guideline and its summary pages could not be opened, and it is not in Drive. The Clinical Medicine 2024 summary by the guideline authors (PMID 38387534, full text) does not reproduce the age wording.",
+   "conflicting_or_uncertain": "Not verified.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-30-h",
+   "cand_id": "C07-30",
+   "claim": "Whether someone can have emergency stroke treatment depends on time since onset and a brain scan, not age; earlier treatment gives more benefit, so call 999 at once.",
+   "source_keys": [
+    "PMID:25106063",
+    "PMID:22632908",
+    "PMID:33817340",
+    "PMID:38387534"
+   ],
+   "supporting_passage": "Emberson abstract: \"Alteplase increased the odds of a good stroke outcome, with earlier treatment associated with bigger proportional benefit. Treatment within 3·0 h resulted in a good outcome for 259 (32·9%) of 787 patients who received alteplase versus 176 (23·1%) of 762 who received control (OR 1·75, 95% CI 1·35-2·27); delay of greater than 3·0 h, up to 4·5 h, resulted in good outcome for 485 (35·3%) of 1375 versus 432 (30·1%) of 1437 (OR 1·26, 95% CI 1·05-1·51); and delay of more than 4·5 h resulted in good outcome for 401 (32·6%) of 1229 versus 357 (30·6%) of 1166 (OR 1·15, 95% CI 0·95-1·40).\" Emberson full text: \"We found no evidence that old age shortened the period during which alteplase could effectively be given\". IST-3 Methods (Scite citation snippet): \"patients were eligible according to the following criteria: they had symp-toms and signs of clinically definite acute stroke; the time of stroke onset was known; treatment could be started within 6 h of onset; and CT or MRI had reliably excluded both intracranial haemorrhage and structural brain lesions, which could mimic stroke (eg, cerebral tumour).\" ESO abstract: \"Appropriate patient selection and timely treatment are crucial.\" Bhalla 2024 (full text): \"clinicians in high-risk clinical areas ... should have a high level of awareness of acute stroke and time-critical nature of interventions.\" ... \"To maximise the population benefit from thrombolysis, a renewed focus needs to be directed towards improving thrombolysis rates (currently between 10–11%) as well as door to needle times.\" ",
+   "location": "Emberson abstract and Results excerpt; IST-3 Methods; ESO abstract; Bhalla 2024 full text",
+   "pico_timeframe": "People with acute ischaemic stroke / alteplase by time to treatment / control / mRS 0-1 at 3-6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Whether clot-busting treatment is possible depends on how long ago the stroke started, and on a brain scan to rule out bleeding. The sooner it is given, the more it helps: within 3 hours, 33 in 100 treated people had no significant disability afterwards, against 23 in 100 untreated. So call 999 straight away for stroke symptoms, whatever the person's age.",
+   "qualifications": "The 999 instruction is standard UK practice and follows from the time dependence; it is advice, not a trial finding. Eligibility also depends on other factors (bleeding risk, some medicines, pre-stroke function) that the post should not list as if complete. Thrombolysis rates in the UK were 10 to 11% of strokes (guideline authors, 2024); this is not an age-specific figure.",
+   "conflicting_or_uncertain": "Beyond 4.5 h without advanced imaging, the pooled trials did not show a clear benefit (32.6% vs 30.6%).",
+   "numbers": [
+    {
+     "value": "33% vs 23%",
+     "meaning": "no significant disability at 3-6 months when treated within 3 h, alteplase vs control (259/787 vs 176/762)"
+    },
+    {
+     "value": "35% vs 30%",
+     "meaning": "same outcome when treated after 3 h up to 4.5 h"
+    },
+    {
+     "value": "10 to 11%",
+     "meaning": "UK thrombolysis rate cited by guideline authors in 2024 (all ages)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-a",
+   "cand_id": "C07-23",
+   "claim": "GAP70+ was a cluster-randomised trial in 718 people aged 70 and over with incurable cancer and at least one ageing-related problem, starting a high-risk treatment; oncologists in the intervention practices received a geriatric assessment summary with management recommendations.",
+   "source_keys": [
+    "PMID:34741815"
+   ],
+   "supporting_passage": "Abstract: \"In this cluster-randomised trial, we enrolled patients aged 70 years and older with incurable solid tumours or lymphoma and at least one impaired geriatric assessment domain who were starting a new treatment regimen. 40 community oncology practice clusters across the USA were randomly assigned (1:1) to the intervention (oncologists received a tailored geriatric assessment summary and management recommendations) or usual care (no geriatric assessment summary or management recommendations were provided to oncologists)\" ... \"we enrolled 718 patients. Patients had a mean age of 77·2 years (SD 5·4)\" ... \"The mean number of geriatric assessment domain impairments was 4·5 (SD 1·6)\". Full text (Methods): \"Patients in both arms underwent a GA that evaluated eight domains using patient-reported and objective measures prior to starting the new treatment regimen.\" ",
+   "location": "Abstract (Methods, Findings); full text Methods",
+   "pico_timeframe": "Adults 70+ with incurable solid tumour or lymphoma and >=1 impaired GA domain starting high-toxicity treatment, US community oncology / GA summary + management recommendations to oncologist / usual care / grade 3-5 toxicity over 3 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a US trial of 718 people aged 70 and over (average age 77) starting treatment for cancer that could not be cured, some cancer teams were given a geriatric assessment of each person: a check of daily function, falls, memory, mood, nutrition, medicines and support at home, with advice on what to do about each problem.",
+   "qualifications": "The effect belongs to the whole package (assessment plus recommendations to the oncologist), in people with advanced cancer starting a high-risk regimen. Community oncology practices in the USA, not the NHS.",
+   "conflicting_or_uncertain": "Cluster randomisation produced some imbalances between arms (race, prior chemotherapy, cancer type).",
+   "numbers": [
+    {
+     "value": "718",
+     "meaning": "patients enrolled"
+    },
+    {
+     "value": "77.2",
+     "meaning": "mean age in years"
+    },
+    {
+     "value": "40",
+     "meaning": "practice clusters randomised"
+    },
+    {
+     "value": "4.5",
+     "meaning": "mean number of impaired assessment domains"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-b",
+   "cand_id": "C07-23",
+   "claim": "In GAP70+, serious side effects (grade 3 to 5) over 3 months occurred in about 51 in 100 people in the intervention group vs 71 in 100 with usual care.",
+   "source_keys": [
+    "PMID:34741815"
+   ],
+   "supporting_passage": "Abstract: \"A lower proportion of patients in the intervention group had grade 3-5 toxic effects (177 [51%] of 349 patients) compared with the usual care group (263 [71%] of 369 patients; relative risk [RR] 0·74 (95% CI 0·64-0·86; p=0·0001).\" Full text: \"In 718 evaluable patients, the prevalence of patients experiencing any grade 3–5 toxicity was 61·3% (440/718) within three months of starting a new treatment regimen\" ",
+   "location": "Abstract (Findings); full text Results",
+   "pico_timeframe": "As C07-23-a / grade 3-5 toxic effects (CTCAE v4) / 3 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Over the next 3 months, serious side effects happened to about 51 in 100 people whose cancer team had the assessment, compared with 71 in 100 whose team did not.",
+   "qualifications": "Absolute figures first: 177 of 349 vs 263 of 369. The relative figure (26% lower risk) should come second if used. 'Serious' here means grade 3 to 5 on the standard cancer side-effect scale, which includes hospital-level problems and death (5 deaths from toxicity in total).",
+   "conflicting_or_uncertain": "Blood-count toxicity alone did not differ clearly (37% vs 44%, not significant); the reduction was mainly in non-blood side effects (32% vs 52%).",
+   "numbers": [
+    {
+     "value": "177/349 (51%)",
+     "meaning": "intervention group with grade 3-5 toxicity over 3 months"
+    },
+    {
+     "value": "263/369 (71%)",
+     "meaning": "usual care group with grade 3-5 toxicity over 3 months"
+    },
+    {
+     "value": "RR 0.74",
+     "meaning": "relative risk (relative, second)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-c",
+   "cand_id": "C07-23",
+   "claim": "In GAP70+, survival was similar in the two groups at 6 months and 1 year.",
+   "source_keys": [
+    "PMID:34741815"
+   ],
+   "supporting_passage": "Full text (Results): \"The proportion of patients alive at six months was similar for the intervention arm compared to usual care (250/349, 71·6% vs 275/369, 74·5%; p=0·38). There were no survival differences between arms at six months (adjusted hazard ratio [aHR] 1·13; 95% CI: 0·85–1·50; p=0·39; CE p=0·04) or one year (aHR 1·05; 95% CI 0·85–1·29; p=0·68; CE p=0·05)\". Discussion: \"Because survival was a secondary aim and only captured for one year, the study was not designed to examine non-inferiority between the arms; further research is required to evaluate the effects of GA interventions on survival as a primary aim and for tumor control.\" ",
+   "location": "Full text Results (Overall Survival) and Discussion (limitations)",
+   "pico_timeframe": "As C07-23-a / overall survival / 6 months and 1 year",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "About 72 in 100 people in the assessment group and 75 in 100 in the usual care group were alive at 6 months, a difference that could be chance. Survival at 1 year was also similar. The trial was not designed to prove that survival was unaffected.",
+   "qualifications": "Do not say the assessment 'did not shorten survival' as a proven fact; say survival was similar and the trial was not built to test it.",
+   "conflicting_or_uncertain": "Confidence interval for the 6-month hazard ratio (0.85 to 1.50) is compatible with modest harm or benefit.",
+   "numbers": [
+    {
+     "value": "71.6% vs 74.5%",
+     "meaning": "alive at 6 months, intervention vs usual care (250/349 vs 275/369)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-d",
+   "cand_id": "C07-23",
+   "claim": "The assessment changed care: more people started on a reduced dose, fewer fell, and more medicines were stopped; a geriatric assessment covers function, memory, mood, other illnesses, medicines, nutrition and social support.",
+   "source_keys": [
+    "PMID:34741815",
+    "PMID:37459573"
+   ],
+   "supporting_passage": "GAP70+ full text: \"A higher proportion of patients in intervention received treatment at a reduced dose intensity than standard at cycle one (170/349; 48·7%) compared to usual care (129/369; 35·0%).\" Abstract: \"Patients in the intervention group had fewer falls over 3 months (35 [12%] of 298 patients vs 68 [21%] of 329 patients; adjusted RR 0·58, 95% CI 0·40-0·84; p=0·0035) and had more medications discontinued (mean adjusted difference 0·14, 95% CI 0·03-0·25; p=0·015).\" Full text: \"Frequent toxicity checks, adjusting cancer treatment schedule or dosing, reviewing medications for duplications or interactions, providing education materials on aging-related conditions, and referrals to relevant disciplines (i.e., social worker, nutritionist) were among the most common recommendations selected by oncologists.\" ASCO 2023 abstract: \"A GA should include high priority aging-related domains known to be associated with outcomes in older adults with cancer: physical and cognitive function, emotional health, comorbid conditions, polypharmacy, nutrition, and social support.\" ",
+   "location": "GAP70+ abstract and full text Results; ASCO 2023 guideline abstract",
+   "pico_timeframe": "As C07-23-a / dose intensity at cycle 1, falls and medicines stopped over 3 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "With the assessment, cancer teams more often started with a lower dose (about 49 in 100 vs 35 in 100). Fewer people fell over 3 months (about 12 in 100 vs 21 in 100), and more medicines were stopped. The assessment looks at daily function, memory, mood, other illnesses, medicines, nutrition and support at home.",
+   "qualifications": "The medicines difference was small (on average 0.14 more medicines stopped per person). Falls figures have their own denominators (298 and 329 with data).",
+   "conflicting_or_uncertain": "Some between-arm differences in patient-reported outcomes could reflect different response rates (authors' limitation).",
+   "numbers": [
+    {
+     "value": "170/349 (48.7%) vs 129/369 (35.0%)",
+     "meaning": "reduced-intensity treatment at first cycle, intervention vs usual care"
+    },
+    {
+     "value": "35/298 (12%) vs 68/329 (21%)",
+     "meaning": "new falls over 3 months"
+    },
+    {
+     "value": "0.14",
+     "meaning": "mean adjusted extra medicines discontinued per person"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-e",
+   "cand_id": "C07-23",
+   "claim": "A second randomised trial (GAIN) also found fewer serious chemotherapy side effects with geriatric assessment-driven interventions.",
+   "source_keys": [
+    "PMID:34591080"
+   ],
+   "supporting_passage": "Abstract: \"Among the 605 eligible participants for analysis, median (range) age was 71 (65-91) years\" ... \"Incidence of grade 3 or higher chemotherapy-related toxic effects was 50.5% (95% CI, 45.6% to 55.4%) in the GAIN arm and 60.6% (95% CI, 53.9% to 67.3%) in the SOC arm, resulting in a significant 10.1% reduction (95% CI, -1.5 to -18.2%; P = .02). A significant absolute increase in advance directive completion of 28.4% with GAIN vs 13.3% with SOC (P < .001) was observed. No significant differences were observed in emergency department visits, unplanned hospitalizations, average length of stay, unplanned readmissions, chemotherapy dose modifications or discontinuations, or overall survival.\" ",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "Adults 65+ with solid tumours starting chemotherapy at one US cancer centre / multidisciplinary GA-driven interventions / GA results sent to oncologist / grade >=3 toxicity until chemotherapy completion or 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A second US trial, in 605 people aged 65 and over starting chemotherapy, found serious side effects in about 51 in 100 with a specialist team acting on the assessment, compared with 61 in 100 without. It did not show clear differences in hospital admissions or survival.",
+   "qualifications": "Single academic centre; the difference is 10 percentage points. Name the null results alongside the headline.",
+   "conflicting_or_uncertain": "None beyond the listed non-significant secondary outcomes.",
+   "numbers": [
+    {
+     "value": "605",
+     "meaning": "participants analysed"
+    },
+    {
+     "value": "50.5% vs 60.6%",
+     "meaning": "grade 3+ toxicity, GAIN vs standard care (10.1 percentage points)"
+    },
+    {
+     "value": "28.4% vs 13.3%",
+     "meaning": "advance directive completion"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-f",
+   "cand_id": "C07-23",
+   "claim": "ASCO (US) guidance recommends geriatric assessment for people aged 65 and over with cancer, and assessment-guided management for those receiving systemic therapy who have problems identified.",
+   "source_keys": [
+    "PMID:37459573"
+   ],
+   "supporting_passage": "Abstract: \"The Expert Panel reiterates its overarching recommendation from the prior guideline that geriatric assessment (GA), including all essential domains, should be used to identify vulnerabilities or impairments that are not routinely captured in oncology assessments for all patients over 65 years old with cancer. Based on recently published RCTs demonstrating significantly improved clinical outcomes, all older adults with cancer (65+ years old) receiving systemic therapy with GA-identified deficits should have GA-guided management (GAM) included in their care plan.\" ",
+   "location": "Guideline abstract (Recommendations)",
+   "pico_timeframe": "Adults 65+ with cancer receiving systemic therapy / geriatric assessment and GA-guided management / guideline recommendation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The American Society of Clinical Oncology recommends a geriatric assessment for everyone over 65 with cancer, and care planned around its findings for those having chemotherapy or similar treatment.",
+   "qualifications": "US professional guidance, not NHS policy. A 2025 erratum exists (not reviewed); quote only the abstract wording.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "65",
+     "meaning": "age from which ASCO recommends geriatric assessment"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-23-g",
+   "cand_id": "C07-23",
+   "claim": "In the UK, only a small proportion of older people with cancer can get a comprehensive geriatric assessment from a specialist team.",
+   "source_keys": [
+    "PMID:39455366"
+   ],
+   "supporting_passage": "Abstract: \"Whilst it is widely accepted that comprehensive geriatric assessments are of benefit to patients, only a small proportion of patients can access these through specialised teams during their cancer care. In the past few years there has been significant progress in this field throughout the United Kingdom (UK).\" ",
+   "location": "Abstract",
+   "pico_timeframe": "UK cancer services for older people, 2024 / access to specialist comprehensive geriatric assessment",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "UK specialists in the care of older people with cancer reported in 2024 that only a small proportion of patients can get this kind of assessment from a specialist team. It is reasonable to ask the cancer team whether an assessment of function, memory, medicines and support, or a referral to an older people's specialist, is possible.",
+   "qualifications": "Expert narrative review, no national percentage; services are expanding. The suggestion to ask is advice, not a finding.",
+   "conflicting_or_uncertain": "No UK audit figure found.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-07-a",
+   "cand_id": "C07-07",
+   "claim": "Cancer researchers have proposed counting 'contact days' (days with any in-person health-care contact) as a measure of the time a treatment takes, which they call time toxicity.",
+   "source_keys": [
+    "PMID:36881786"
+   ],
+   "supporting_passage": "Abstract: \"We have previously proposed a pragmatic and patient-centered metric of these time costs—which we term time toxicity—as any day with physical health care system contact. This includes outpatient visits (eg, bloodwork, scans, etc), emergency department visits, and overnight stays in a health care facility.\" Full text (Methods): \"In this pragmatic approach, a 1-hour visit for bloodwork, a 3-hour visit for chemotherapy, a 6-hour urgent care visit for dehydration, an emergency department visit, a day admitted in the hospital, or a day in a rehabilitation facility are all coded as a time toxic day.\" Introduction: \"Increasingly, oncology as a discipline is recognizing the need to describe where and how patients spend their time, not just how much added time (survival) is associated with pursuing a treatment.\" ",
+   "location": "Abstract (Purpose); full text Introduction and Methods",
+   "pico_timeframe": "Definition",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Some cancer researchers now count 'contact days': any day a person has to go somewhere for health care, whether for a blood test, a scan, a drip, an emergency visit or a night in hospital. A one-hour blood test counts as a whole day.",
+   "qualifications": "The concept was first set out in Gupta, Eisenhauer and Booth, J Clin Oncol 2022 (PMID 35235366); that commentary has no abstract and is closed access, so it was not opened. Cite the CO.17 analysis for the definition.",
+   "conflicting_or_uncertain": "The measure treats every contact day as equally burdensome and every home day as equally good (authors' limitation).",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-07-b",
+   "cand_id": "C07-07",
+   "claim": "In a secondary analysis of the CO.17 trial, weekly cetuximab infusions for advanced bowel cancer took a median of 28 contact days vs 10 with supportive care alone, about 18% vs 6% of days alive; days at home did not differ clearly.",
+   "source_keys": [
+    "PMID:36881786"
+   ],
+   "supporting_passage": "Full text (Results; the PMC extraction drops 'vs' and 'P'): \"For the overall study population, median time toxic days were higher in the cetuximab arm (28,10,< .001) and median home days were not statistically different between arms (140,121,= .09; Table). The proportion of time toxic days (time toxic days/OS) was significantly more in the cetuximab arm (median 18%,6%,< .001). For patients receiving cetuximab, of the 28 time toxic days, 14 (50%) were planned\" ... \"The median age was 63 years, 64% of participants were men\". Discussion: \"patients receiving cetuximab spent three times as many days alive with health care contact compared with patients treated with supportive care alone.\" Methods: \"Initial results published in 2007 reported a 6-week improvement in median OS with cetuximab\" ",
+   "location": "Full text Methods, Results and Discussion",
+   "pico_timeframe": "572 people with advanced chemotherapy-refractory colorectal cancer (median age 63), 2003-2005 / weekly cetuximab / supportive care alone / contact days and home days over survival",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a cancer trial where people chose between weekly drip treatment and supportive care alone, the treated group spent a median of 28 days in contact with health services, against 10 days without treatment. That was about 1 day in 5 of the time they lived, compared with about 1 in 17.",
+   "qualifications": "Participants' median age was 63, so this is not an older population. Trial visits can inflate contact days compared with routine care (authors' caution). Medians, not means. Do not transfer the proportion to other treatments.",
+   "conflicting_or_uncertain": "Median days at home were 140 with cetuximab vs 121 without, not a statistically clear difference (see C07-07-c for the subgroup that did gain home days).",
+   "numbers": [
+    {
+     "value": "572",
+     "meaning": "people randomised in CO.17"
+    },
+    {
+     "value": "63",
+     "meaning": "median age"
+    },
+    {
+     "value": "28 vs 10",
+     "meaning": "median contact days, cetuximab vs supportive care"
+    },
+    {
+     "value": "18% vs 6%",
+     "meaning": "median share of days alive with health-care contact"
+    },
+    {
+     "value": "140 vs 121",
+     "meaning": "median home days (not statistically different, P = .09)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-07-c",
+   "cand_id": "C07-07",
+   "claim": "In the group whose tumours respond to cetuximab (KRAS wild-type), treatment gave more days at home despite more contact days.",
+   "source_keys": [
+    "PMID:36881786"
+   ],
+   "supporting_passage": "Full text (Results): \"For patients withwild-type tumors, median home days were significantly higher in the cetuximab arm (186,132,< .001), and so were time toxic days (41,10,< .001).\" Discussion: \"In thewild-type group, which we now know derives the greatest benefit from cetuximab, cetuximab led to a significant increase in home days.\" ... \"Patients value different things, and even after informed discussions, patients may elect to proceed with time toxic treatments, which is perfectly acceptable.\" ",
+   "location": "Full text Results and Discussion",
+   "pico_timeframe": "CO.17 participants with KRAS wild-type tumours / cetuximab / supportive care / home days and contact days",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "For people whose cancer responded to the treatment, it took more days (median 41 vs 10) but also gave more days at home (median 186 vs 132). The number of days a treatment takes is one side of the decision; the days it gives back are the other.",
+   "qualifications": "Subgroup defined by tumour genetics (KRAS was 'wild-type'), identified after the trial. Include this result so the post does not imply that time-consuming treatment is never worth it.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "41 vs 10",
+     "meaning": "median contact days in KRAS wild-type, cetuximab vs supportive care"
+    },
+    {
+     "value": "186 vs 132",
+     "meaning": "median home days in KRAS wild-type"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-07-d",
+   "cand_id": "C07-07",
+   "claim": "Older adults with advanced cancer in trials spent nearly 1 in 5 days with health-care contact in the first year.",
+   "source_keys": [
+    "PMID:40080017",
+    "PMID:39212749"
+   ],
+   "supporting_passage": "Gupta 2025 abstract: \"The study included 1429 patients (median age, 71 years [range, 65-91 years]; 1123 men [78.6%]; and 332 patients [23.5%] with rural residence). The median number of contact days was 48 (IQR, 26-71), of a median of 350 days (IQR, 178-365 days) of observation; the median percentage of contact days was 19% (IQR, 13%-29%).\" ... \"In this cohort study of older adults with advanced stage cancer participating in phase 3 randomized clinical trials, patients spent nearly 1 in 5 days with health care contact.\" Baltussen 2024 abstract: \"We identified 158 older patients (median age 71 years)\" ... \"Within the first 6 months, patients spent a mean of 21% (95% confidence interval (CI) 19-23%) of days with healthcare contact.\" ... \"These findings underscore the importance of informing patients about their expected healthcare contact days within the context of a limited life expectancy.\" ",
+   "location": "Abstracts (Results, Conclusions)",
+   "pico_timeframe": "US adults 65+ with advanced prostate, lung or pancreatic cancer in SWOG phase 3 trials 1999-2014 / contact days in first 12 months; Mexican single-centre cohort 65+ on palliative systemic therapy / first 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In US cancer trials, people aged 65 and over with advanced cancer spent a median of 48 days in contact with health services in their first year, nearly 1 day in every 5. A study of older people having palliative cancer treatment in Mexico found a similar share, about 1 day in 5.",
+   "qualifications": "US trial participants, mostly men, three cancer types; trial requirements may add visits. Do not convert to 'days per month' unless marked as an approximation. These figures are for cancer; do not apply them to other treatments.",
+   "conflicting_or_uncertain": "The Mexican cohort was small (158) and single-centre.",
+   "numbers": [
+    {
+     "value": "1429",
+     "meaning": "older adults in 6 SWOG trials"
+    },
+    {
+     "value": "71",
+     "meaning": "median age"
+    },
+    {
+     "value": "48",
+     "meaning": "median contact days in about the first 12 months (median 350 days observed)"
+    },
+    {
+     "value": "19%",
+     "meaning": "median share of days with health-care contact (nearly 1 in 5)"
+    },
+    {
+     "value": "21%",
+     "meaning": "mean share of days with contact in first 6 months, Mexican cohort of 158"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-07-e",
+   "cand_id": "C07-07",
+   "claim": "Families and friends also spend time accompanying people to treatment, and contact-day counts do not measure it.",
+   "source_keys": [
+    "PMID:36881786"
+   ],
+   "supporting_passage": "Introduction: \"Patients spend time in frequent outpatient visits to meet with a clinician, for bloodwork, imaging, infusions and procedures, seeking acute care and follow-up, and rehabilitation care. They also spend time in travel, in waiting rooms, and on logistics such as coordinating care (eg, on the phone with insurance companies, etc) and filling prescriptions. Patients' loved ones—friends, family, and community members—spend additional time in accompanying and supporting patients.\" Limitations: \"It does not capture time toxicity when the patient is home (eg, telemedicine and home-based infusions), associated with care logistics (eg, time spent on the phone with insurance company), and for care partners.\" ",
+   "location": "Full text Introduction and Discussion (limitations)",
+   "pico_timeframe": "Authors' description of the measure",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Contact-day counts leave out the time family members spend driving, waiting and sitting with the person, and the travel and waiting time itself. The real cost of a treatment day is often shared.",
+   "qualifications": "This is the authors' statement about what the measure omits, not a measured amount of carer time.",
+   "conflicting_or_uncertain": "No carer-time figure was verified.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-07-f",
+   "cand_id": "C07-07",
+   "claim": "In-centre haemodialysis usually involves three sessions a week of about four hours, plus travel.",
+   "source_keys": [],
+   "supporting_passage": "Not researched in this batch: the editor's guidance assigns dialysis time to C07-24.",
+   "location": "n/a",
+   "pico_timeframe": "n/a",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Do not include dialysis in C07-07.",
+   "qualifications": "Editor's guidance: keep C07-07 to the cancer contact-day evidence.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-18-a",
+   "cand_id": "C07-18",
+   "claim": "In interviews with 40 US older adults, most were open to stopping cancer screening, especially with a trusted clinician; many felt 'you may not live long enough to benefit from this test' was unnecessarily harsh compared with 'this test would not help you live longer'.",
+   "source_keys": [
+    "PMID:28604917"
+   ],
+   "supporting_passage": "Abstract: \"In this semistructured interview study, we interviewed 40 community-dwelling older adults (≥ 65 years) recruited at 4 clinical programs affiliated with an urban academic medical center.\" ... \"The participants' average age was 75.7 years.\" ... \"First, participants were amenable to stopping cancer screening, especially in the context of a trusting relationship with their clinician. Second, although many participants supported using age and health status to individualize the screening decision, they did not often understand the role of life expectancy.\" ... \"Third, participants preferred that clinicians explain a recommendation to stop screening by incorporating individual health status but were divided on whether life expectancy should be mentioned. Specific wording of life expectancy was important; many felt the language of \"you may not live long enough to benefit from this test\" was unnecessarily harsh compared with the more positive messaging of \"this test would not help you live longer.\"\" ",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "40 community-dwelling US adults 65+ (mean 75.7), one academic centre / views on stopping cancer screening and on clinician wording / qualitative",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In interviews with 40 older adults in the US, most were willing to stop cancer screening, especially if they trusted their clinician. Many found 'you may not live long enough to benefit from this test' unnecessarily harsh. They preferred 'this test would not help you live longer'.",
+   "qualifications": "Qualitative, one US centre, 40 people: report as themes ('many'), not percentages. The two phrasings may be shown on a card as wordings tested in research, not attributed to any person.",
+   "conflicting_or_uncertain": "Participants were divided on whether life expectancy should be mentioned at all (see C07-18-d).",
+   "numbers": [
+    {
+     "value": "40",
+     "meaning": "older adults interviewed"
+    },
+    {
+     "value": "75.7",
+     "meaning": "mean age in years"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-18-b",
+   "cand_id": "C07-18",
+   "claim": "In a US national survey of 881 adults aged 65 and over, the most preferred explanation for stopping screening was 'your other health issues should take priority'; the least preferred was the doctor giving no explanation; explanations mentioning life expectancy ranked low.",
+   "source_keys": [
+    "PMID:29955796",
+    "PMID:31452029"
+   ],
+   "supporting_passage": "Schoenborn 2018 (full-text excerpts via Scite): \"Among 1272 eligible panel members (aged ≥65 years, English-speaking) invited to participate, 881 (69.3%) completed the survey in November 2016. We used the best-worst scaling method to test the participants' preferences for 13 different phrases that a clinician may use to explain why a patient should not undergo a routine cancer screening test.\" ... \"The mean (SD) age of the 881 participants was 73.4 (6.1) years\" ... \"The most preferred phrase to explain stopping cancer screening was \"your other health issues should take priority\" (mean score, 0.41; 95% CI, 0.39-0.43), and the least preferred option was \"the doctor does not give an explanation\" (score, −0.42; 95% CI, −0.44 to −0.40) (Figure). Other more preferred phrases included references to guidelines, older age, the lack of benefit, and the high risk for harm from the screening test.\" Discussion: \"Although the study relied on a hypothetical scenario, this approach allowed us to elicit perspectives from a large national sample. Consistent with results from an earlier qualitative study, we found that the most preferred explanation centered on a priority shift to focus on other health issues. Explanations that mentioned guidelines and that mentioned older age were also highly rated, whereas mentioning life expectancy ranked low.\" ... \"In particular, framing the discussion around lack of benefit, without necessarily mentioning life expectancy, may be a more appealing communication strategy.\" Schoenborn 2019 abstract: \"The most preferred phrase to explain stopping screening colonoscopy was \"Your other health issues should take priority\" in both groups. The three least preferred options were also the same for both groups, with the least preferred being \"The doctor does not give an explanation.\"\" ",
+   "location": "Schoenborn 2018 Methods, Results, Discussion (Scite full-text excerpts); Schoenborn 2019 abstract",
+   "pico_timeframe": "881 US adults 65+ (national online panel, Nov 2016) / 13 clinician phrases for stopping breast, prostate or colorectal screening / best-worst scaling / hypothetical scenario",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US national survey of 881 people aged 65 and over, the explanation people liked most for stopping screening was 'your other health issues should take priority'. The one they liked least was the doctor giving no explanation at all. Explanations that mentioned life expectancy were ranked low.",
+   "qualifications": "Quote exactly: most preferred 'your other health issues should take priority'; least preferred 'the doctor does not give an explanation'. Do NOT label 'you may not live long enough to benefit' as the survey's least preferred phrase; say only that life-expectancy explanations ranked low. The exact wording of the life-expectancy phrase in the survey was not seen. Hypothetical scenario; US adults; stated preferences, not behaviour. A second survey found the same top and bottom choices in older adults with low health literacy (colonoscopy).",
+   "conflicting_or_uncertain": "Preferences may differ in the UK, where screening is organised by invitation with age limits; not studied here.",
+   "numbers": [
+    {
+     "value": "881",
+     "meaning": "survey respondents aged 65+ (69.3% of 1272 invited)"
+    },
+    {
+     "value": "73.4",
+     "meaning": "mean age in years"
+    },
+    {
+     "value": "13",
+     "meaning": "phrases compared"
+    },
+    {
+     "value": "0.41 / -0.42",
+     "meaning": "preference scores (range -1 to 1) of the most and least preferred phrases; do not use in public posts"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-18-c",
+   "cand_id": "C07-18",
+   "claim": "Many US older adults with limited life expectancy still receive cancer screening.",
+   "source_keys": [
+    "PMID:25133746"
+   ],
+   "supporting_passage": "Abstract: \"Data from the population-based National Health Interview Survey (NHIS) from 2000 through 2010 were used and included 27 404 participants aged 65 years or older. Using a validated mortality index specific for NHIS, participants were grouped into those with low (<25%), intermediate (25%-49%), high (50%-74%), and very high (≥75%) risks of 9-year mortality.\" ... \"In participants with very high mortality risk, 31% to 55% received recent cancer screening, with prostate cancer screening being most common (55%).\" ... \"Our sensitivity analysis showed that screening was also common in individuals with less than 5-year life expectancy.\" ",
+   "location": "Abstract (Design, Results)",
+   "pico_timeframe": "US adults 65+ in NHIS 2000-2010 / 9-year mortality risk groups / self-reported recent screening",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In US survey data from 2000 to 2010, among people aged 65 and over with at least a 75% chance of dying within 9 years, between about 1 in 3 and 1 in 2 had recently been screened for cancer, depending on the test.",
+   "qualifications": "US data to 2010, self-reported; the US screens opportunistically, unlike UK invitation programmes. Do not state UK screening ages (not verified from a document).",
+   "conflicting_or_uncertain": "Rates may have changed since 2010.",
+   "numbers": [
+    {
+     "value": "27,404",
+     "meaning": "survey participants aged 65+"
+    },
+    {
+     "value": "31% to 55%",
+     "meaning": "recent screening among those with very high (>=75%) 9-year mortality risk, by cancer type"
+    },
+    {
+     "value": "55%",
+     "meaning": "prostate screening in that group"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-18-d",
+   "cand_id": "C07-18",
+   "claim": "Older adults were divided on whether life expectancy should be mentioned, so clinicians should still offer prognosis to people who want it.",
+   "source_keys": [
+    "PMID:28604917"
+   ],
+   "supporting_passage": "Abstract: \"Third, participants preferred that clinicians explain a recommendation to stop screening by incorporating individual health status but were divided on whether life expectancy should be mentioned.\" Conclusions: \"older adults may not consider life expectancy important in screening and may not prefer to hear about life expectancy when discussing screening.\" ",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "As C07-18-a",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "People were divided on whether life expectancy should come up at all. Leading with health priorities and benefit does not mean hiding prognosis: offer it, and give it to people who want it.",
+   "qualifications": "The 'offer prognosis' instruction is a clinical and ethical judgement, supported only indirectly by the finding that people were divided; mark it as advice.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-01-a",
+   "cand_id": "C07-01",
+   "claim": "After elective major abdominal surgery in people aged 60 and over, recovery of basic daily activities took on average about 3 months and of household and community activities about 6 months; some had not recovered by 6 months.",
+   "source_keys": [
+    "PMID:15501119"
+   ],
+   "supporting_passage": "Abstract: \"This was a prospective cohort of 372 consecutive patients, 60 years old or more, enrolled from surgeons in private practice and two university-affiliated hospitals, assessed preoperatively and postoperatively at 1, 3, and 6 weeks, 3 and 6 months\" ... \"Mean age was 69 +/- 6 years\" ... \"Maximum functional declines (95% CI) occurred 1 week postoperatively\" ... \"Mean recovery times were: Mini-Mental State Exam, 3 weeks; timed walk, 6 weeks; ADL, SF-36 PCS, and functional reach, 3 months; and IADL, 6 months. Mean grip strength did not return to preoperative status by 6 months. The incidence of persistent disability at 6 months, compared with preoperative status, was: ADL, 9%; IADL, 19%\" ... \"Potentially modifiable independent predictors of ADL and IADL recovery were preoperative physical conditioning and depression plus serious postoperative complications.\" ",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "372 consecutive US patients aged 60+ (mean 69) having elective major abdominal surgery / before vs after surgery / ADL, IADL and performance measures / up to 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of 372 people aged 60 and over having planned major abdominal operations, it took on average about 3 months to get back to their usual level of basic daily activities such as washing and dressing, and about 6 months for household tasks and getting out. At 6 months, about 1 in 10 had not recovered their basic daily activities and about 1 in 5 their household activities.",
+   "qualifications": "Elective abdominal surgery only, average age 69, 2004 (before widespread enhanced-recovery pathways); averages hide wide variation. Anchor 'three months' to this study and population; do not say it applies to all operations. ADL = basic daily activities (washing, dressing); IADL = household and community activities (shopping, cooking, managing money, transport).",
+   "conflicting_or_uncertain": "Recovery may be faster with modern surgical care; no newer comparable study was checked in this batch.",
+   "numbers": [
+    {
+     "value": "372",
+     "meaning": "patients aged 60+ in the cohort"
+    },
+    {
+     "value": "69",
+     "meaning": "mean age"
+    },
+    {
+     "value": "3 months",
+     "meaning": "mean time to recover basic daily activities (ADL)"
+    },
+    {
+     "value": "6 months",
+     "meaning": "mean time to recover household and community activities (IADL)"
+    },
+    {
+     "value": "9%",
+     "meaning": "persistent ADL disability at 6 months"
+    },
+    {
+     "value": "19%",
+     "meaning": "persistent IADL disability at 6 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-01-b",
+   "cand_id": "C07-01",
+   "claim": "Most seriously ill older people who would accept a treatment that restored their current health said they would not choose it if the outcome was survival with severe functional or cognitive impairment.",
+   "source_keys": [
+    "PMID:11932474"
+   ],
+   "supporting_passage": "Abstract: \"We administered a questionnaire about treatment preferences to 226 persons who were 60 years of age or older and who had a limited life expectancy due to cancer, congestive heart failure, or chronic obstructive pulmonary disease.\" ... \"For a low-burden treatment with the restoration of current health, 98.7 percent of participants said they would choose to receive the treatment (rather than not receive it and die), but 11.2 percent of these participants would not choose the treatment if it had a high burden. If the outcome was survival but with severe functional impairment or cognitive impairment, 74.4 percent and 88.8 percent of these participants, respectively, would not choose treatment.\" ... \"The likelihood of adverse functional and cognitive outcomes of treatment requires explicit consideration.\" ",
+   "location": "Abstract (Methods, Results, Conclusions)",
+   "pico_timeframe": "226 US adults 60+ with limited life expectancy (cancer, heart failure, COPD) / hypothetical life-sustaining treatments with specified outcomes vs death / stated choice",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of 226 seriously ill people aged 60 and over, almost all would accept a simple treatment that kept them as they were. But about 3 in 4 said they would not choose it if it left them alive with severe physical disability, and about 9 in 10 if it left them with severe problems with thinking and memory.",
+   "qualifications": "Hypothetical scenarios where the alternative was death from their illness, not elective surgery; seriously ill US population in 2002. The 74.4% and 88.8% are among those who would accept the low-burden treatment (98.7%).",
+   "conflicting_or_uncertain": "Stated preferences in scenarios may differ from real decisions.",
+   "numbers": [
+    {
+     "value": "226",
+     "meaning": "seriously ill people aged 60+"
+    },
+    {
+     "value": "98.7%",
+     "meaning": "would accept a low-burden treatment restoring current health"
+    },
+    {
+     "value": "74.4%",
+     "meaning": "of these would not choose treatment if outcome was survival with severe functional impairment"
+    },
+    {
+     "value": "88.8%",
+     "meaning": "of these would not choose treatment if outcome was survival with severe cognitive impairment"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-01-c",
+   "cand_id": "C07-01",
+   "claim": "UK law (Montgomery v Lanarkshire Health Board, 2015) requires doctors to tell patients about material risks, judged by what a reasonable person in the patient's position, or this particular patient, would consider significant, and about reasonable alternatives.",
+   "source_keys": [
+    "PMID:33526016"
+   ],
+   "supporting_passage": "Background: \"In the UK these rights are affirmed by professional guidance [] and, since 2015, by the UK Supreme Court following the landmark decision of Montgomery v Lanarkshire Health Board [] clarifying the nature of the relationship between healthcare professional (HCP) and patient on information disclosure.\" ... \"By requiring a HCP to advise patients about alternatives and risks which may beto theirindividual circumstances it endorsed a patient's central role in decision-making.\" ... \"The test of materiality is 'whether, in the circumstances of the particular case, a reasonable person in the patient's position would be likely to attach significance to the risk, or the doctor is or should reasonably be aware that the particular patient would be likely to attach significance to it [] (para 87). Whether a risk is regarded as material depends on the patient's perspective rather than the HCPs.\" Discussion: \"Many legal cases have endorsed the duty to advise of 'reasonable' alternative care options\". ",
+   "location": "Background and Discussion (full text)",
+   "pico_timeframe": "UK law on consent to treatment since 2015",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Since a 2015 UK Supreme Court ruling (Montgomery), doctors must tell you about any risk that a reasonable person in your position would think significant, or that they know or should know matters to you, and about reasonable alternatives. For many older people, not getting back to washing, dressing or living at home is exactly such a risk, so it is fair to ask about it.",
+   "qualifications": "Verified from a peer-reviewed secondary source quoting the judgment (para 87); the judgment and GMC guidance were not opened. Do not state that the law requires discussion of 'no treatment' specifically, or cite GMC wording. The sentence linking the test to recovery of daily function is an argument, not a legal ruling; mark it as such.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "2015",
+     "meaning": "year of the Montgomery Supreme Court judgment"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-01-d",
+   "cand_id": "C07-01",
+   "claim": "Surgeons' descriptions of high-risk operations to older patients often focus on fixing the problem and on operative risks rather than on recovery.",
+   "source_keys": [
+    "PMID:25749396"
+   ],
+   "supporting_passage": "Abstract: \"We observed surgeons who routinely perform high-risk surgery during preoperative discussions with patients. We used qualitative content analysis to explore the use of \"fix-it\" in 48 audio-recorded conversations.\" ... \"Surgeons used the \"fix-it\" model for 2 separate purposes during preoperative conversations: (1) as an explanatory tool to facilitate patient understanding of disease and surgery, and (2) as a deliberation framework to assist in decision making. Although surgeons commonly used \"fix-it\" as an explanatory model, surgeons explicitly discussed limitations of the \"fix-it\" model as an independent rationale for operating as they deliberated about the value of surgery.\" ",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "48 audio-recorded preoperative conversations, US surgeons doing high-risk surgery / qualitative",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "In recorded US consultations before high-risk operations, surgeons commonly explained the operation as fixing the problem. The study did not measure whether recovery of daily life was discussed.",
+   "qualifications": "The abstract does not show that recovery was left out. Do not claim that consent discussions 'usually leave out' recovery of daily function; no source in this batch supports that for older surgical patients.",
+   "conflicting_or_uncertain": "Surgeons also explicitly discussed the limits of the fix-it framing when weighing whether to operate.",
+   "numbers": [
+    {
+     "value": "48",
+     "meaning": "audio-recorded preoperative conversations"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C07-30",
+   "status": "ready",
+   "reason": "All essential claims are supported: IST-3 enrolment (3035; 1617, 53%, over 80, across both arms), historical exclusion of over-80s (IST-3 introduction, attributed; ESO), benefit in over-80s from the 9-trial individual patient data meta-analysis (18 vs 13 in 100 with no significant disability; similar relative benefit), the bleeding harm (fatal brain bleeding 2.7 vs 0.4 in 100 across ages), the ESO recommendation for over-80s with the consensus that age alone should not limit treatment, and time dependence (33 vs 23 in 100 within 3 h). Required wording: 'enrolled', not 'treated'; do not call IST-3 'the largest trial' without 'at the time (2012)'; base the benefit claim on the meta-analysis, because IST-3's own primary outcome (37 vs 35 in 100) was not significant; state the bleeding risk as plainly as the benefit; eligibility depends on time since onset and a brain scan (plus other criteria), not age; close on calling 999. The UK guideline's 'regardless of age' wording was seen only as a search extract (C07-30-g): cite European guidelines instead. Thrombectomy in over-80s (HERMES subgroup) is optional.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-30-a",
+    "C07-30-c",
+    "C07-30-d",
+    "C07-30-f",
+    "C07-30-h"
+   ]
+  },
+  {
+   "cand_id": "C07-23",
+   "status": "ready",
+   "reason": "GAP70+ verified in full text: 718 people aged 70+ (mean 77) with incurable cancer and at least one impairment on geriatric assessment, starting a high-risk regimen in US community practices; grade 3 to 5 toxicity 177/349 (51%) vs 263/369 (71%); more reduced-dose starts, fewer falls (12 vs 21 in 100), more medicines stopped; survival similar at 6 months (72 vs 75 in 100) and 1 year, but the trial was not designed to show survival was unaffected, so avoid 'without shortening survival' as a proven claim. GAIN (605 aged 65+, 51 vs 61 in 100; no clear difference in admissions or survival) supports the finding. ASCO 2023 (US) recommends geriatric assessment for everyone over 65 with cancer. The UK line is supported by the SIOG UK group's 2024 review (only a small proportion can access specialist assessment); frame 'ask the cancer team' as advice. Note the ASCO erratum (2025, not reviewed).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-23-a",
+    "C07-23-b",
+    "C07-23-c",
+    "C07-23-d",
+    "C07-23-f",
+    "C07-23-g"
+   ]
+  },
+  {
+   "cand_id": "C07-07",
+   "status": "ready",
+   "reason": "Following the editor's guidance, the post keeps to cancer contact-day evidence and drops dialysis (C07-07-f, left to C07-24). Supported: the definition of contact days / time toxicity (CO.17 analysis; the 2022 JCO commentary was not opened, being closed access with no abstract); CO.17 medians of 28 vs 10 contact days (about 18% vs 6% of days alive) with no clear difference in home days (140 vs 121); the balancing result that in the KRAS wild-type group treatment gave more home days (186 vs 132) despite more contact days (41 vs 10); older adults with advanced cancer in US trials spent nearly 1 in 5 days in contact with health care (median 48 days in the first year; Mexican cohort 21%); and the omission of carers' time (authors' statement). Required: say CO.17's median age was 63; anchor the older-adult figure to Gupta 2025; include the home-days result so the post does not imply time-consuming treatment is never worth it; the claim that the same question applies to any treatment is the author's judgement and must not carry cancer percentages.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-07-a",
+    "C07-07-b",
+    "C07-07-c",
+    "C07-07-d",
+    "C07-07-e"
+   ]
+  },
+  {
+   "cand_id": "C07-18",
+   "status": "ready",
+   "reason": "Supported with exact wording: the qualitative study (40 US adults aged 65+) found people open to stopping screening, and many found 'you may not live long enough to benefit from this test' unnecessarily harsh compared with 'this test would not help you live longer'. In the national survey (881 US adults aged 65+, hypothetical scenario), the most preferred explanation was 'your other health issues should take priority', the least preferred was 'the doctor does not give an explanation', and explanations mentioning life expectancy ranked low. The visual must NOT label the life-expectancy phrase as 'least preferred in the survey'. Use the interview pair for the harsh-versus-preferred contrast and the survey's most and least preferred phrases, which also shows that giving no explanation was liked least. Royce 2014 (US, to 2010) supports continued screening in people with limited life expectancy, if used. The line about offering prognosis is advice, supported by the finding that people were divided. US populations throughout; do not state UK screening ages.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-18-a",
+    "C07-18-b",
+    "C07-18-d"
+   ]
+  },
+  {
+   "cand_id": "C07-01",
+   "status": "revise",
+   "reason": "Essential claims are supported only with qualifications, and one part of the angle is unsupported. Lawrence 2004 supports 'about 3 months' for basic daily activities and about 6 months for household and community activities, but only after elective major abdominal surgery in people aged 60 and over (mean 69, US, 2004); 1 in 10 still had lost basic activities and 1 in 5 household activities at 6 months. Fried 2002 supports that about 3 in 4 seriously ill older people would refuse treatment leading to severe functional impairment (hypothetical, US, n=226). The Montgomery materiality test and duty to discuss reasonable alternatives are verified from a secondary source quoting para 87; GMC guidance and a legal duty to discuss 'no treatment' were not verified. The core-insight claim that consent discussions 'usually leave out' recovery of daily life is not supported (Kruser 2015 shows only that surgeons commonly used a 'fix-it' explanation).",
+   "revised_angle": "Present it as a question worth asking rather than a gap in practice: before a major operation, ask 'What is a normal day likely to look like at three months?' The reason is that recovery of daily activities often takes months: in a US study of planned major abdominal surgery in people over 60, basic self-care took about 3 months on average and household tasks about 6, and some never fully recovered. Add that many seriously ill older people weigh the chance of losing independence heavily (Fried, with its population), and that UK consent law asks doctors to discuss the risks this person would consider significant (Montgomery). Drop 'which consent usually leaves out' and GMC wording; the best case, worst case and most likely questions may stay as suggested questions.",
+   "essential_claim_ids": [
+    "C07-01-a",
+    "C07-01-b",
+    "C07-01-c"
+   ]
+  }
+ ]
+}
