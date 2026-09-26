@@ -58,12 +58,5 @@ For every item with verdict "fix": edit ${ROOT}/visuals/src/<tmp_id>.html, re-re
 Remove stale PNGs if a carousel lost cards (for example <tmp_id>_4.png when only 3 cards remain). Record changes in ${ROOT}/audit/changes/${c.id}_visualfix.json. Use a python3 script to edit the posts JSON safely. Your final answer is the summary object only.`
 }
 
-const results = await pipeline(cats,
-  async (c) => {
-    const parts = await parallel(c.halves.map((ids, i) => () => agent(makePrompt(c, ids, `${i + 1}/${c.halves.length}`), { label: `make:${c.id}-${i + 1}`, phase: 'Make', schema: MSUM })))
-    return parts.filter(Boolean)
-  },
-  (made, c) => agent(qaPrompt(c), { label: `vqa:${c.id}`, phase: 'Visual QA', schema: QSUM }).then(q => ({ made, qa: q })),
-  (prev, c) => agent(vfixPrompt(c), { label: `vfix:${c.id}`, phase: 'Visual fix', schema: VFSUM }).then(f => ({ category: c.id, ...prev, fix: f })),
-)
+const results = await parallel(cats.map(c => () => agent(makePrompt(c, c.halves.flat(), '1/1') + `\n\nSimplified run: you are the only visual pass. Keep designs simple (cards, charts, diagrams; drawings only where essential). After rendering and one read-back check, merge your update files into ${ROOT}/posts/${c.id}_posts.json yourself and set visual_status "final".`, { label: `make:${c.id}`, phase: 'Make', schema: MSUM, effort: 'low' })))
 return results
