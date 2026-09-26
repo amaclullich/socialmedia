@@ -9,9 +9,9 @@
  .limit { margin-top: 10px; border-left: 8px solid var(--teal); background: var(--mint); border-radius: 0 16px 16px 0; padding: 18px 24px; font-size: 28px; line-height: 1.36; }
  .illus { margin-top: 18px; border: 3px dashed var(--ink-2); border-radius: 16px; padding: 12px 20px; font-size: 27px; line-height: 1.32; color: var(--ink); background: var(--white); }
  .illus b { font-weight: 700; }
- #lounge { flex: 0 0 540px; margin-top: 20px; }
+ #lounge { flex: 0 0 496px; margin-top: 20px; }
  .key { list-style: none; margin-top: 22px; display: flex; flex-direction: column; gap: 10px; }
- .key li { font-size: 29px; line-height: 1.3; }
+ .key li { font-size: 30px; line-height: 1.3; }
  .key li b { font-family: "Montserrat"; font-weight: 800; color: var(--orange); }
  .caveat { margin-top: 18px; font-size: 30px; line-height: 1.3; font-weight: 700; color: var(--teal); }
 </style></head><body><div class="sheet">
@@ -59,39 +59,37 @@ barChart('#bars', [
 
 /* ---------- card 2: a care home lounge with five numbered moments ---------- */
 (function () {
-  const K = Kit, W = 1400, H = 822, S = 1.0, g = 790;
-  const pen = K.pen(K.LW);
-  const wc = { x: 1150, y: g, scale: S };
+  const K = Kit, W = 1300, H = 700, S = 1.0, g = 672;
+  const wc = { x: 1075, y: g, scale: S };
   const art = [
     K.room('care_home_lounge', { w: W, h: H, ground: g, scale: S }),
-    K.window({ x: 150, y: g - 70 * S - 250, scale: 1.0, w: 230, curtains: 'sage' }),
-    K.radiator({ x: 150, y: g - 70 * S + 2, scale: 0.9 }),
+    K.window({ x: 120, y: g - 70 * S - 250, scale: 1.0, w: 220, curtains: 'sage' }),
     // (2) standing still by the window
-    K.person({ pose: 'standing', x: 175, y: g, scale: S, facing: 'left', age: 'older', sex: 'm', skin: 'light', hair: 'darkgrey', hairStyle: 'short',
+    K.person({ pose: 'standing', x: 140, y: g, scale: S, facing: 'left', age: 'older', sex: 'm', skin: 'light', hair: 'darkgrey', hairStyle: 'short',
       top: 'navy', bottom: 'stone', extras: ['glasses'], tilt: -3 }),
     // (5) dining table and a chair pulled out into the walkway
-    K.table({ x: 760, y: g, scale: S, w: 210 }),
-    K.chair({ x: 628, y: g, scale: S, facing: 'right', colour: '#B98B5E' }),
+    K.table({ x: 700, y: g, scale: S, w: 190 }),
+    K.chair({ x: 552, y: g, scale: S, facing: 'right', colour: '#B98B5E' }),
     // (1) walking forward with a wheeled walking frame
-    K.person({ pose: 'walking_frame', frame: 'wheeled', x: 360, y: g, scale: S, age: 'older', sex: 'f', skin: 'fair', hair: 'white', hairStyle: 'curly',
+    K.person({ pose: 'walking_frame', frame: 'wheeled', x: 300, y: g, scale: S, age: 'older', sex: 'f', skin: 'fair', hair: 'white', hairStyle: 'curly',
       top: 'plum', bottom: 'oat', extras: ['cardigan'], cardigan: 'cream', shoes: '#6B5647' }),
     // (3) lowering herself into an armchair, hands on the arms
-    K.person({ pose: 'rising', seat: 'armchair', seatColour: 'teal', x: 935, y: g, scale: S, age: 'older', sex: 'f', skin: 'dark', hair: 'black', hairStyle: 'bun',
+    K.person({ pose: 'rising', seat: 'armchair', seatColour: 'teal', x: 878, y: g, scale: S, age: 'older', sex: 'f', skin: 'dark', hair: 'black', hairStyle: 'bun',
       top: 'mustard', bottom: 'charcoal' }),
     // (4) care worker beside a man moving from his wheelchair
     K.wheelchair(wc),
     K.person({ pose: 'rising', seat: 'none', seatHeight: 114, x: wc.x - 12, y: g, scale: S, age: 'older', sex: 'm', skin: 'fair', hair: 'white', hairStyle: 'balding',
       top: 'sage', bottom: 'slate', lean: -6, hands: { near: { x: wc.x + 40, y: g - 176 }, far: { x: wc.x + 46, y: g - 180 } } }),
-    K.person({ pose: 'standing', role: 'care_worker', x: 1335, y: g, scale: S, facing: 'left', sex: 'm', skin: 'tan', hair: 'black', hairStyle: 'cropped', lean: 6, tilt: 12,
-      hands: { near: { x: 1262, y: g - 238 }, far: { x: 1268, y: g - 200 } } }),
+    K.person({ pose: 'standing', role: 'care_worker', x: wc.x + 185, y: g, scale: S, facing: 'left', sex: 'm', skin: 'tan', hair: 'black', hairStyle: 'cropped', lean: 6, tilt: 12,
+      hands: { near: { x: wc.x + 112, y: g - 238 }, far: { x: wc.x + 118, y: g - 200 } } }),
   ];
   K.draw('#lounge', W, H, art, { cls: 'art' });
   K.pins('#lounge', [
-    { n: 1, x: 360, y: g - 450 },
-    { n: 2, x: 175, y: g - 450 },
-    { n: 3, x: 960, y: g - 400 },
-    { n: 4, x: 1250, y: g - 480 },
-    { n: 5, x: 610, y: g - 60 },
+    { n: 1, x: 300, y: g - 452 },
+    { n: 2, x: 140, y: g - 452 },
+    { n: 3, x: 905, y: g - 400 },
+    { n: 4, x: 1165, y: g - 470 },
+    { n: 5, x: 534, y: g - 62 },
   ]);
 })();
 window.__ready = true;
