@@ -1,0 +1,110 @@
+{
+ "category": "C18",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C18-P01",
+  "C18-P02",
+  "C18-P03",
+  "C18-P04",
+  "C18-P05",
+  "C18-P06",
+  "C18-P07",
+  "C18-P08"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:10605972",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:26035608",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:24435941",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28659025",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31298169",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:17101889",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:14614169",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28369687",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25018144",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30264669",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30430628",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C18-P07",
+   "where": "all",
+   "text": "The commonest reason they were given was that the patient had not consented. / most often told the patient had not consented / commonest reason given was no patient consent",
+   "problem": "Lack of consent was tied with staff unavailability (both 46.2%); 'commonest' / 'most often' implies it was the single leading reason.",
+   "source_says": "The main reasons given ... include: lack of patient consent (46.2%) and unavailability of a team member (46.2%).",
+   "severity": "major",
+   "replacement": "x: 'One of the two commonest reasons they were given was that the patient had not consented.' linkedin: 'One of the two commonest reasons they were given (alongside no team member being available) was lack of the patient's consent.' bluesky/threads: 'often told the patient had not consented'. visual_text and alt_text: 'one of the two commonest reasons given was no patient consent'."
+  },
+  {
+   "tmp_id": "C18-P01",
+   "where": "visual_text",
+   "text": "Column 2 and 3 in teal with label 'No clear difference' (third column: 'Non-carers (comparison)')",
+   "problem": "Non-carers are the reference group; labelling them 'No clear difference' is meaningless and could be read as a finding.",
+   "source_says": "RRs are relative to noncaregiving controls.",
+   "severity": "minor",
+   "replacement": "Label column 3 'Comparison group' only; keep 'No clear difference' on column 2."
+  },
+  {
+   "tmp_id": "C18-P02",
+   "where": "bluesky",
+   "text": "Only 4 trials have tested respite breaks for carers of people with dementia",
+   "problem": "Present tense implies current count; the review dates from 2014 with no update found.",
+   "source_says": "Four trials are now included in the review (2014).",
+   "severity": "minor",
+   "replacement": "A 2014 Cochrane review found only 4 trials of respite breaks for carers of people with dementia, and the evidence was very low quality."
+  },
+  {
+   "tmp_id": "C18-P03",
+   "where": "visual_text",
+   "text": "Our view: judge carer support first by the carer's health.",
+   "problem": "Posts are in Alasdair's first person; 'Our' implies an organisational position.",
+   "source_says": "n/a (judgement)",
+   "severity": "minor",
+   "replacement": "My view: judge carer support first by the carer's health."
+  }
+ ],
+ "posts_to_drop": []
+}

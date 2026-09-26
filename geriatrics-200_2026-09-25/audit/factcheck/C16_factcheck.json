@@ -1,0 +1,114 @@
+{
+ "category": "C16",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C16-P01",
+  "C16-P02",
+  "C16-P03",
+  "C16-P04",
+  "C16-P05",
+  "C16-P06",
+  "C16-P07",
+  "C16-P08"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:15561732",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31848198",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23305759",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:27726122",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:42380867",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:42730948",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37916580",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:32125666",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28672291",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:26537789",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C16-P04",
+   "where": "all",
+   "text": "Death rates were higher in nursing homes than in residential homes. That reflects how ill people already are when they move in.",
+   "problem": "Causal explanation stated as fact; Shah 2013 reports standardised mortality ratios only and does not test why. LinkedIn adds 'rather than any effect of the home', which the study did not examine.",
+   "source_says": "The age and sex standardised mortality ratio for nursing homes was 419 (95% CI: 396-442) and for residential homes was 284 (266-302).",
+   "severity": "major",
+   "replacement": "Death rates were higher in nursing homes than in residential homes. This most likely reflects how ill people already are when they move in; the study did not test the reason. (LinkedIn: replace 'The higher figures reflect how ill people already are when they move in, rather than any effect of the home.' with 'The higher figures most likely reflect how ill people already are when they move in; the study did not test the reason.' Apply same hedge in bluesky and threads.)"
+  },
+  {
+   "tmp_id": "C16-P01",
+   "where": "x",
+   "text": "about 1 in 9 nursing home residents, and 1 in 6 in dementia units",
+   "problem": "11% applies to regular (ordinary) units only, not to all nursing home residents; LinkedIn states this correctly.",
+   "source_says": "11% of the patients in regular nursing home units and 17% of the patients in special care units for people with dementia",
+   "severity": "minor",
+   "replacement": "about 1 in 9 residents in ordinary nursing home units, and 1 in 6 in dementia units, (same fix in threads; bluesky: 'about 1 in 9 residents in ordinary units'; visual line: 'In one Norwegian study, 1 in 9 residents in ordinary units had medicines hidden in one week; 4 in 10 cases were recorded.')"
+  },
+  {
+   "tmp_id": "C16-P06",
+   "where": "source_reply",
+   "text": "Finucane et al., Br J Gen Pract 2019;70:e20-e28",
+   "problem": "Volume 70 is the 2020 print issue (epub Dec 2019); year and volume mismatch.",
+   "source_says": "Br J Gen Pract, vol 70, issue 690, e20-e28; epub 2019-12-26",
+   "severity": "minor",
+   "replacement": "Source: Finucane et al., Br J Gen Pract 2020;70:e20-e28 https://doi.org/10.3399/bjgp19X707117"
+  },
+  {
+   "tmp_id": "C16-P05",
+   "where": "threads",
+   "text": "one small positive Norwegian trial",
+   "problem": "Compression drops that the trial showed no clear difference in physical capacity or quality of life; reads stronger than other versions.",
+   "source_says": "No significant group differences were found concerning COPM satisfaction at 3 months, physical capacity or health-related quality of life.",
+   "severity": "minor",
+   "replacement": "one small Norwegian trial where people rated chosen activities somewhat better, but not physical capacity or quality of life"
+  },
+  {
+   "tmp_id": "C16-P07",
+   "where": "threads",
+   "text": "training in similar tools did not show a clear drop in admissions",
+   "problem": "Calls INTERACT 'similar' to RESTORE2 without a source for equivalence.",
+   "source_says": "Training and support for INTERACT implementation ... had no effect on hospitalization or ED visit rates in the overall population",
+   "severity": "minor",
+   "replacement": "training staff in the INTERACT tools did not show a clear drop in admissions"
+  }
+ ],
+ "posts_to_drop": []
+}

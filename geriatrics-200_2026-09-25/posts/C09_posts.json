@@ -1,0 +1,929 @@
+{
+ "category": "C09",
+ "category_name": "Communication, capacity and supported decision-making",
+ "posts": [
+  {
+   "tmp_id": "C09-P01",
+   "cand_id": "C09-26",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "title": "The MMSE middle band says nothing about capacity",
+   "insight": "In a JAMA review of treatment-decision capacity, MMSE scores of 20 to 24 did not change the likelihood of incapacity; only scores below 20 or above 24 shifted it, and even a high score does not rule incapacity out.",
+   "angle": "Practitioners still write a score beside a capacity judgement. The pooled evidence shows the middle band is uninformative, so a decision-specific assessment is always needed.",
+   "position_basis": "mixed: the score bands are an empirical finding (Sessums 2011); 'use the score to prompt, never to replace, an assessment' is clinical interpretation consistent with decision-specific capacity.",
+   "captions": {
+    "x": "An MMSE score of 20 to 24 gives no information about whether a patient can make a treatment decision.\n\nA JAMA review of 43 studies of treatment-decision capacity in adult medical patients (Sessums 2011) found scores below 20 made incapacity more likely (likelihood ratio 6.3). Scores of 20 to 24 did not change the likelihood (0.87). Scores above 24 made it less likely (0.14).\n\nThe MMSE was not designed to assess capacity. A high score lowers the chance that someone lacks capacity; it does not rule it out.\n\nCapacity is judged one decision at a time. Use the score to prompt an assessment, never to replace it.",
+    "linkedin": "An MMSE score of 20 to 24 gives no information about whether a patient can make a treatment decision.\n\nA JAMA Rational Clinical Examination review pooled 43 high-quality prospective studies of capacity for treatment decisions in adult medical patients (Sessums, Zembrzuska and Jackson, 2011).\n\nThe MMSE result came in three bands:\n\n1. Below 20: incapacity more likely (likelihood ratio 6.3).\n2. 20 to 24: no change in likelihood (likelihood ratio 0.87).\n3. Above 24: incapacity less likely (likelihood ratio 0.14).\n\nThe authors concluded the MMSE is useful only at extreme scores. It was not designed to assess capacity.\n\nAn earlier study of 37 people with Alzheimer's disease found a similar pattern: scores of 21 to 25 did not reliably separate people who could consent from those who could not. That study was small and looked at consent to research, so treat it as support rather than the main evidence.\n\nThe same review found about 1 in 4 medical inpatients lacked capacity for a treatment decision, and clinicians recognised it in about 4 in 10 of those patients.\n\nThree practical points follow.\n\nA high score lowers the chance of incapacity but does not rule it out. A person can still lack capacity for a complex decision.\n\nThese cut-offs belong to the MMSE. Do not carry them over to the MoCA or ACE-III.\n\nCapacity is judged one decision at a time. A score can prompt an assessment of the decision in front of you; it can't replace one. The Aid to Capacity Evaluation had useful accuracy in the review and is free to use.",
+    "bluesky": "An MMSE of 20 to 24 did not change the likelihood that a patient lacked capacity for a treatment decision (JAMA review, 43 studies). Below 20 made it more likely; above 24 less likely, but not ruled out.\n\nThe MMSE was not built for capacity. Assess the decision itself.",
+    "threads": "An MMSE score of 20 to 24 gives no information about whether a patient can make a treatment decision.\n\nIn a JAMA review of 43 studies, scores below 20 made incapacity more likely, and scores above 24 made it less likely. The middle band changed nothing.\n\nThe MMSE was not designed for capacity, and a high score does not rule incapacity out. Use the score to prompt a decision-specific assessment, never to replace it."
+   },
+   "source_reply": "Sources: Sessums et al, JAMA 2011 https://doi.org/10.1001/jama.2011.1023 | Kim and Caine 2002 https://doi.org/10.1176/appi.ps.53.10.1322",
+   "claims_used": [
+    "C09-26-a",
+    "C09-26-b",
+    "C09-26-c",
+    "C09-26-d"
+   ],
+   "sources_used": [
+    "PMID:21791691",
+    "PMID:12364686",
+    "PMID:33456823",
+    "PMID:24758694"
+   ],
+   "visual_brief": {
+    "format": "diagram",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the three MMSE bands and what each does to the likelihood of incapacity",
+      "text": {
+       "headline": "An MMSE of 20 to 24 says nothing about capacity",
+       "kicker": "Treatment decisions, adult medical patients",
+       "body": "The MMSE was not designed to assess capacity. A high score does not rule incapacity out.",
+       "items": [],
+       "labels": [
+        "Below 20: incapacity more likely (LR 6.3)",
+        "20 to 24: no change (LR 0.87)",
+        "Above 24: incapacity less likely (LR 0.14)",
+        "Then assess the decision itself"
+       ],
+       "source_line": "Sessums et al, JAMA 2011: review of 43 studies"
+      },
+      "art": "A horizontal scale bar from 0 to 30 across the card, divided into three zones. 0 to 19 shaded deep teal with diagonal hatching, labelled above. 20 to 24 left as off-white with a dotted outline, labelled above. 25 to 30 shaded pale teal with dots, labelled above. Tick marks at 0, 20, 24, 30. Beneath the whole bar a burnt orange bracket spanning all three zones, with the line 'Then assess the decision itself' under it. Zones are told apart by label and pattern, not colour alone.",
+      "data": [
+       {
+        "label": "MMSE below 20",
+        "value": 6.3,
+        "display": "LR 6.3",
+        "claim_id": "C09-26-a"
+       },
+       {
+        "label": "MMSE 20 to 24",
+        "value": 0.87,
+        "display": "LR 0.87",
+        "claim_id": "C09-26-a"
+       },
+       {
+        "label": "MMSE above 24",
+        "value": 0.14,
+        "display": "LR 0.14",
+        "claim_id": "C09-26-a"
+       }
+      ]
+     }
+    ],
+    "design_notes": "Practitioner card; likelihood ratios shown because the audience is practitioners. No probabilities computed. Footer: Alasdair MacLullich | Teaching round."
+   },
+   "alt_text": [
+    "Diagram of an MMSE scale from 0 to 30 in three bands, from a JAMA review of 43 studies of treatment-decision capacity. Below 20, incapacity more likely (likelihood ratio 6.3). 20 to 24, no change (0.87). Above 24, incapacity less likely (0.14). The MMSE was not designed for capacity and a high score does not rule incapacity out. Then assess the decision itself."
+   ],
+   "attention_note": "Many notes still pair a middle-band MMSE with a capacity conclusion; the reader sees that band carries no information.",
+   "gain_note": "A clear rule: the score can prompt, never replace, a decision-specific assessment; and the cut-offs don't transfer to other tests.",
+   "follow_note": "Short, exact teaching points on everyday shortcuts in older people's care.",
+   "verification_notes": "Bands and LRs from Sessums 2011 abstract (abstract access), stated for treatment decisions and with 'not designed for capacity'. Kim and Caine 2002 abstract used as corroboration, flagged as research consent and small. 1 in 4 and 4 in 10 from Sessums abstract (C09-26-d), recognition among those lacking capacity. 'Does not rule out' and decision-specific principle from C09-26-b (Orr 2018, Poole 2014 full text). No probabilities computed; MoCA/ACE-III caveat per research condition.",
+   "visual_text": [
+    "Treatment decisions, adult medical patients",
+    "An MMSE of 20 to 24 says nothing about capacity",
+    "The MMSE was not designed to assess capacity. A high score does not rule incapacity out.",
+    "Below 20: incapacity more likely (LR 6.3)",
+    "20 to 24: no change (LR 0.87)",
+    "Above 24: incapacity less likely (LR 0.14)",
+    "Then assess the decision itself",
+    "Sessums et al, JAMA 2011: review of 43 studies",
+    "Alasdair MacLullich | Teaching round"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P02",
+   "cand_id": "C09-18",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "title": "Elderspeak and resistance to care",
+   "insight": "Elderspeak is usually meant kindly, yet in filmed dementia care it was followed by resistance far more often than adult talk, and three one-hour staff sessions reduced it in a small trial.",
+   "angle": "Recognise the phrases without blame, then treat elderspeak as a care-quality problem that a short training course changed.",
+   "position_basis": "mixed: the observational link and trial results are empirical (Williams 2009, 2017; Shaw 2022); 'treat it as a care-quality problem' is a clinical and ethical judgement.",
+   "captions": {
+    "x": "'Sweetheart', 'good girl', 'are we ready for our bath?' Staff usually say these things to be kind. The name for it is elderspeak: talking to an older adult the way people talk to a small child, often in a high, sing-song voice.\n\nIn a US study that filmed 80 care episodes with 20 nursing home residents with dementia, resistance to care followed elderspeak about 55 times in 100, against about 26 in 100 after ordinary adult talk. That is a link, not proof of cause.\n\nA small trial in 13 US nursing homes then gave staff three one-hour sessions. Elderspeak fell from about 35% of care time by about 14 percentage points, and resistance fell by about 15 points. At three months the drop in elderspeak held; the drop in resistance was no longer statistically clear.\n\nWe should treat elderspeak as a care-quality problem with a tested remedy.",
+    "linkedin": "'Sweetheart', 'good girl', 'are we ready for our bath?', 'you want to get up now, don't you?'\n\nMost staff who talk like this mean it kindly, or are trying to get care done. The name for it is elderspeak: talking to an older adult the way people talk to a small child, with pet names, 'we' instead of 'you', questions that answer themselves, and a high, sing-song voice. Older people who are asked mostly find it patronising.\n\nThe evidence links it with resistance to care in people with dementia.\n\nIn a US study that filmed 80 care episodes with 20 nursing home residents, resistance followed elderspeak about 55 times in 100, compared with about 26 in 100 after ordinary adult talk. This is a link in the moment, not proof of cause, and ordinary adult talk was uncommon in the recordings.\n\nIn a US hospital study of 88 care encounters with 16 people with dementia, 85 included some elderspeak. Encounters with less elderspeak were less likely to include refusal. Pain was linked with refusal too.\n\nThen a test of change. In a cluster randomised trial in 13 US nursing homes (27 residents), staff had three one-hour sessions. Elderspeak fell from about 35% of recorded care time by about 14 percentage points. Resistance fell from about 36% of care time by about 15 points, in step with the fall in elderspeak. At three months, the drop in elderspeak held at 12 points; the 13-point drop in resistance was no longer statistically clear. Without training, neither changed.\n\nThe trial was small, lost many participants, and only half of staff attended all three sessions.\n\nMy reading: elderspeak is ordinary kindness that misfires. We should treat it as a care-quality problem with a tested remedy, and teach the adult alternative: the person's name, a real choice, and saying what you are about to do.",
+    "bluesky": "Pet names and 'shall we' talk (elderspeak) were followed by resistance to care about 55 times in 100 in filmed dementia care, against 26 after adult talk: a link, not proof.\n\nIn a small nursing home trial, three one-hour staff sessions cut elderspeak.",
+    "threads": "Elderspeak means talking to an older adult as to a small child: pet names, 'we' for 'you', a sing-song voice. It is usually meant kindly.\n\nIn filmed dementia care, resistance followed it about 55 times in 100, against 26 after adult talk. That is a link, not proof.\n\nIn a small trial in 13 US nursing homes, three one-hour staff sessions cut elderspeak by about 14 percentage points of care time. A matching fall in resistance was no longer clear at three months."
+   },
+   "source_reply": "Sources: Williams et al 2009 https://doi.org/10.1177/1533317508318472 | CHAT trial, Gerontologist 2017 https://doi.org/10.1093/geront/gnw047 | Shaw et al, JAGS 2022 https://doi.org/10.1111/jgs.17910",
+   "claims_used": [
+    "C09-18-a",
+    "C09-18-b",
+    "C09-18-c",
+    "C09-18-d",
+    "C09-18-e"
+   ],
+   "sources_used": [
+    "PMID:18591210",
+    "PMID:27048705",
+    "PMID:35642656",
+    "PMID:34476301",
+    "PMID:42383511",
+    "PMID:42465585"
+   ],
+   "visual_brief": {
+    "format": "comparison",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Let staff recognise elderspeak beside adult alternatives, with the filmed finding",
+      "text": {
+       "headline": "Same kindness, different words",
+       "kicker": "Illustrative phrases",
+       "body": null,
+       "items": [
+        "Elderspeak: 'Are we ready for our wash, sweetheart?'",
+        "Adult talk: 'Mrs Okafor, would you like a wash now or after breakfast?'",
+        "Elderspeak: 'Good girl.'",
+        "Adult talk: 'Thank you.'",
+        "Elderspeak: 'We'll just pop this on, shall we?'",
+        "Adult talk: 'I'm going to put your cardigan on now. Is that all right?'"
+       ],
+       "labels": [
+        "Resistance followed elderspeak: about 55 in 100",
+        "Resistance followed adult talk: about 26 in 100",
+        "80 filmed care episodes, 20 residents with dementia. A link, not proof of cause."
+       ],
+       "source_line": "Williams et al 2009; CHAT trial, Gerontologist 2017"
+      },
+      "art": "Two-column comparison card on off-white. Left column headed 'Elderspeak' on a pale teal panel with a small speech-bubble outline icon; right column headed 'Adult talk' on a mint panel with a plain speech-bubble icon. Three rows each, aligned so each elderspeak phrase sits opposite its adult equivalent. A strip across the bottom with the two filmed figures as two labelled horizontal bars (55 in 100 and 26 in 100). The small tag 'Illustrative phrases' sits above both columns. Columns distinguished by heading and position, not colour alone.",
+      "data": [
+       {
+        "label": "Resistance after elderspeak",
+        "value": 55,
+        "display": "about 55 in 100",
+        "claim_id": "C09-18-a"
+       },
+       {
+        "label": "Resistance after adult talk",
+        "value": 26,
+        "display": "about 26 in 100",
+        "claim_id": "C09-18-a"
+       }
+      ]
+     }
+    ],
+    "design_notes": "No people drawn; phrases are illustrative. Tone must not shame staff. Schedule apart from C09-19 (P08). Footer: Alasdair MacLullich | Teaching round."
+   },
+   "alt_text": [
+    "Comparison card of illustrative phrases. Elderspeak such as 'Are we ready for our wash, sweetheart?' beside adult talk such as 'Would you like a wash now or after breakfast?'. In 80 filmed care episodes with 20 nursing home residents with dementia, resistance followed elderspeak about 55 times in 100 and adult talk about 26 in 100; a link, not proof of cause."
+   ],
+   "attention_note": "Staff recognise their own well-meant phrases, and see a measured link with resistance.",
+   "gain_note": "Concrete adult alternatives and the knowledge that a three-session course changed staff talk in a trial.",
+   "follow_note": "Evidence-based teaching on everyday communication in dementia care, written without blaming staff.",
+   "verification_notes": "Williams 2009 full text (55 vs 26 in 100, association). CHAT trial full text (35% baseline, 14 and 12 points, resistance 36% by 15 points, 13 points not clear at 3 months, 27 residents, attrition, half attended all sessions). Shaw 2022 abstract (85 of 88, pain linked; no odds ratio conversion). Definition and kindness framing from Shaw and Gordon 2021 full text, Lillekroken 2026 and Garcia 2026 abstracts. Changes stated as percentage points of care time.",
+   "visual_text": [
+    "Illustrative phrases",
+    "Same kindness, different words",
+    "Elderspeak: 'Are we ready for our wash, sweetheart?'",
+    "Adult talk: 'Mrs Okafor, would you like a wash now or after breakfast?'",
+    "Elderspeak: 'Good girl.'",
+    "Adult talk: 'Thank you.'",
+    "Elderspeak: 'We'll just pop this on, shall we?'",
+    "Adult talk: 'I'm going to put your cardigan on now. Is that all right?'",
+    "Resistance followed elderspeak: about 55 in 100",
+    "Resistance followed adult talk: about 26 in 100",
+    "80 filmed care episodes, 20 residents with dementia. A link, not proof of cause.",
+    "Williams et al 2009; CHAT trial, Gerontologist 2017",
+    "Alasdair MacLullich | Teaching round"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P03",
+   "cand_id": "C09-09",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "title": "Going with a parent to the doctor without taking over",
+   "insight": "When a companion asks the older person questions, prompts them to speak and asks their view, the older person is more likely to take an active part in decisions.",
+   "angle": "Families can help most by helping the person speak for themselves, and can agree roles before the appointment.",
+   "position_basis": "mixed: the link between companion behaviour and patient involvement is empirical (Clayman 2005, association); agreeing roles beforehand is practical advice consistent with a review, not a tested intervention.",
+   "captions": {
+    "x": "At your parent's appointment, one of the most useful things you can do is ask them a question: what do you think?\n\nNearly 4 in 10 adults at routine medical appointments bring someone, most often a husband, wife or grown-up child.\n\nIn a US study that filmed 93 GP visits by people aged 65 to 95 who came with a relative or friend, patients took a more active part in decisions when the companion asked them questions, prompted them to speak and asked their view. It looked at one visit each, so it shows a link, not proof of cause.\n\nBefore you go in, agree what your parent wants to say themselves and what they want you to add. Then let them answer first.",
+    "linkedin": "At your parent's appointment, one of the most useful things you can do is ask them a question: what do you think?\n\nNearly 4 in 10 adults at routine medical appointments bring someone with them, according to a review of 13 studies. Most often it is a husband, wife or grown-up child. The people who bring someone are, on average, older and in poorer health.\n\nCompanions help in real ways. Appointments were longer, and doctors gave more medical information, when someone came along.\n\nBut the older person can drift out of the conversation. In a small US study of 30 first appointments, older patients who came with someone raised fewer topics themselves and were often left out of the talk.\n\nWhat the companion does seems to count. In a US study that filmed 93 GP visits by people aged 65 to 95 who came with a relative or friend, patients were more likely to take an active part in decisions when the companion asked them questions, prompted them to speak and asked what they thought. The study looked at one visit each, so it shows a link, not proof that the companion's behaviour caused the difference.\n\nA review of 52 studies found companions were often seen as helpful, while taking over or making demands was seen as less helpful. People differed widely in how much they wanted a companion to do.\n\nSo, before the appointment:\n\n1. Ask your parent what they want to say themselves, and what they want you to add.\n2. Sit where they can see both you and the doctor.\n3. When a question comes, let them answer first.\n4. Write down what was decided.\n\nIf you are the one being accompanied, you can tell your companion which job you want them to do.",
+    "bluesky": "Going to the doctor with a parent? Ask them: what do you think?\n\nIn a US study of 93 GP visits, older patients took a more active part in decisions when their companion prompted them to speak and asked their view (a link, not proof).\n\nAgree beforehand who says what.",
+    "threads": "At your parent's appointment, one of the most useful things you can do is ask them what they think.\n\nIn a US study that filmed 93 GP visits by people aged 65 to 95, patients took a more active part in decisions when the relative or friend with them asked them questions and prompted them to speak. It shows a link, not proof.\n\nBefore you go in, agree what your parent wants to say and what they want you to add. Then let them answer first."
+   },
+   "source_reply": "Sources: Clayman et al 2005 https://doi.org/10.1016/j.socscimed.2004.08.004 | Wolff and Roter 2011 https://doi.org/10.1016/j.socscimed.2011.01.015 | Laidsaar-Powell et al 2013 https://doi.org/10.1016/j.pec.2012.11.007",
+   "claims_used": [
+    "C09-09-a",
+    "C09-09-b",
+    "C09-09-c",
+    "C09-09-d",
+    "C09-09-f"
+   ],
+   "sources_used": [
+    "PMID:21353358",
+    "PMID:15652689",
+    "PMID:8144827",
+    "PMID:23332193"
+   ],
+   "visual_brief": {
+    "format": "comic strip",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show a companion helping the older person speak, as a three-panel illustrative strip",
+      "text": {
+       "headline": "Help them say it themselves",
+       "kicker": "Illustrative example",
+       "body": null,
+       "items": [
+        "Panel 1 caption: The talk drifts to the relative.",
+        "Panel 2 speech: 'Mum, what do you think? Tell her about the mornings.'",
+        "Panel 2 caption: Prompt, then wait.",
+        "Panel 3 speech: 'The mornings are the worst. I feel dizzy when I stand.'",
+        "Panel 3 caption: They answer first. You write it down."
+       ],
+       "labels": [
+        "Agree beforehand who says what."
+       ],
+       "source_line": "Clayman et al, Soc Sci Med 2005"
+      },
+      "art": "Three-panel clear-line comic on warm sand. Setting: a GP consulting room with a desk, a computer screen seen from behind, two chairs for visitors. Panel 1: a woman GP in her forties, South Asian, faces a daughter in her fifties who is answering; the mother, a Black woman in her early eighties with a walking stick resting on her chair, sits slightly back, looking on. Panel 2: the daughter has moved her chair beside her mother and turns towards her, open hand gesturing to her. Panel 3: the mother leans forward talking to the GP, who is facing her; the daughter writes in a small notebook (no writing visible on it). Speech bubbles only in panel 2 and 3; captions sit under each panel, outside the art.",
+      "data": []
+     }
+    ],
+    "design_notes": "Label 'Illustrative example' at top left. Dialogue is illustrative, not attributed. Respectful depiction: mother alert and engaged, not frail or confused. Footer: Alasdair MacLullich | Care that works."
+   },
+   "alt_text": [
+    "Three-panel illustrative comic in a GP's room. First, the doctor talks with the daughter while her older mother looks on. Second, the daughter moves beside her mother and asks, 'Mum, what do you think?' Third, the mother talks to the doctor while the daughter takes notes. Caption: agree beforehand who says what. Based on a US study linking companions' prompting with more patient involvement."
+   ],
+   "attention_note": "Adult children recognise the moment when the doctor starts talking to them instead of their parent.",
+   "gain_note": "A simple plan: agree roles, prompt, let the parent answer first, write it down.",
+   "follow_note": "Practical, evidence-based advice for families going to appointments with an older relative.",
+   "verification_notes": "Wolff and Roter 2011 abstract (nearly 4 in 10, 13 studies, spouses and adult children, longer visits, more information). Greene 1994 abstract (15 vs 15; fewer topics, left out; not 'doctors turn to the companion'). Clayman 2005 abstract (93 visits, 65 to 95, association only, no multiplier). Laidsaar-Powell 2013 abstract (52 studies; 'agree beforehand' framed as advice). The seating tip in the LinkedIn list is practical advice, not a finding.",
+   "visual_text": [
+    "Illustrative example",
+    "Help them say it themselves",
+    "Panel 1 caption: The talk drifts to the relative.",
+    "Panel 2 speech: 'Mum, what do you think? Tell her about the mornings.'",
+    "Panel 2 caption: Prompt, then wait.",
+    "Panel 3 speech: 'The mornings are the worst. I feel dizzy when I stand.'",
+    "Panel 3 caption: They answer first. You write it down.",
+    "Agree beforehand who says what.",
+    "Clayman et al, Soc Sci Med 2005",
+    "Alasdair MacLullich | Care that works"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P04",
+   "cand_id": "C09-23",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "title": "Teach-back: what 18 trials found",
+   "insight": "A 2026 review of 18 randomised trials found no clear effect of teach-back on patients' knowledge, with low or very low certainty evidence of better confidence and self-reported short-term adherence.",
+   "angle": "Teach-back is often taught as a method that works; the randomised evidence is much less sure. Its best use may be as a check on the clinician's explanation.",
+   "position_basis": "mixed: the trial findings are empirical (Vick 2026); using teach-back as a check on your own explanation is professional judgement.",
+   "captions": {
+    "x": "Eighteen randomised trials of teach-back, with about 2,000 people, found no clear effect on what patients knew afterwards.\n\nTeach-back means asking patients to explain in their own words what they have been told. It is often taught as a method that works: an earlier review reported benefit in 19 of 20 studies of mixed design.\n\nThe 2026 review included only randomised trials and graded certainty. The knowledge evidence was very low certainty and too varied to pool. Confidence and self-reported short-term adherence improved, at low or very low certainty.\n\nNo clear effect differs from no effect: the question is open. My view: keep using teach-back to check your own explanation, and stop describing it as shown to improve knowledge.",
+    "linkedin": "Eighteen randomised trials of teach-back, with about 2,000 people, found no clear effect on what patients knew afterwards.\n\nTeach-back means asking patients to explain in their own words what they have been told. It is often taught as a method that works. An earlier review (Talevski 2020) reported benefit in 19 of 20 studies, of mixed design.\n\nThe 2026 systematic review and meta-analysis by Vick and colleagues in the Journal of General Internal Medicine included only randomised trials and graded the certainty of each result.\n\nKnowledge: 9 trials measured it. They were too different to combine, there was no clear pattern, and certainty was very low.\n\nConfidence in managing health: improved, very low certainty.\n\nSelf-reported adherence in the short term: improved, low certainty. The size of both effects was very uncertain.\n\nTwo limits on the scope. The review covered teach-back in a single encounter, not longer education programmes that include it. The trials were in adults generally, not older people specifically.\n\nNo clear effect differs from no effect. This is an evidence gap, and it should be described as one.\n\nOlder patients have a particular stake. In a study of 260 people with cancer, older patients recalled less than younger ones when a lot of information was given; how much was said, and how serious the news was, were stronger guides than age alone.\n\nMy view: keep using teach-back, as a test of your own explanation. When the patient's account comes back with gaps, the gaps show what you need to say again, more simply or with less at once. Stop describing it as shown to improve knowledge.",
+    "bluesky": "A 2026 review of 18 randomised trials found no clear effect of teach-back on what patients knew afterwards (very low certainty). Confidence and short-term adherence improved, at low certainty.\n\nUse teach-back to check your explanation; don't sell it as shown to work.",
+    "threads": "Teach-back, asking patients to explain back what they were told, is often taught as a method that works.\n\nA 2026 review of 18 randomised trials found no clear effect on what patients knew afterwards, at very low certainty. Confidence and self-reported short-term adherence improved, at low or very low certainty.\n\nThat is an open question, not a failure. Keep using teach-back to find what your explanation missed."
+   },
+   "source_reply": "Sources: Vick et al, J Gen Intern Med 2026 https://doi.org/10.1007/s11606-026-10678-y | Talevski et al 2020 https://doi.org/10.1371/journal.pone.0231350 | Jansen et al 2008 https://doi.org/10.1200/JCO.2007.15.2322",
+   "claims_used": [
+    "C09-23-a",
+    "C09-23-b",
+    "C09-23-c",
+    "C09-23-d"
+   ],
+   "sources_used": [
+    "PMID:42693371",
+    "PMID:32287296",
+    "PMID:18936478"
+   ],
+   "visual_brief": {
+    "format": "comparison",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the three outcomes with their certainty ratings in one table",
+      "text": {
+       "headline": "Teach-back: what 18 randomised trials found",
+       "kicker": "Vick et al, 2026: 18 trials, about 2,000 adults",
+       "body": null,
+       "items": [
+        "Knowledge: no clear effect. Certainty very low",
+        "Confidence: increased. Certainty very low",
+        "Adherence, self-reported, short term: increased. Certainty low"
+       ],
+       "labels": [
+        "No clear effect differs from no effect",
+        "Use it to test your own explanation"
+       ],
+       "source_line": "Vick et al, J Gen Intern Med 2026"
+      },
+      "art": "A three-row table card on off-white. Column 1: outcome name. Column 2: result in words. Column 3: certainty, shown as a word and a row of four small squares, filled solid for each level of certainty (very low: 1 filled; low: 2 filled), with the empty squares outlined. No colour-only coding. Beneath the table, a single burnt orange line with the practical use.",
+      "data": []
+     }
+    ],
+    "design_notes": "Certainty conveyed by word label and filled-square count. No effect sizes on the card. Footer: Alasdair MacLullich | Reading the evidence."
+   },
+   "alt_text": [
+    "Table of results from a 2026 review of 18 randomised trials of teach-back in about 2,000 adults. Knowledge: no clear effect, very low certainty. Confidence: increased, very low certainty. Self-reported short-term adherence: increased, low certainty. Notes that no clear effect differs from no effect, and suggests using teach-back to test your own explanation."
+   ],
+   "attention_note": "Clinicians who teach teach-back as proven meet a trial-only review that could not show an effect on knowledge.",
+   "gain_note": "An accurate way to describe the evidence and a sound reason to keep using the technique.",
+   "follow_note": "Careful readings of widely taught practices, saying what the trials do and do not show.",
+   "verification_notes": "Vick 2026 abstract: 18 RCTs, 1,985 participants, knowledge not pooled and very low certainty, self-efficacy and short-term self-reported adherence low or very low certainty. Talevski 2020 abstract: 19 of 20 studies. Jansen 2008 abstract: 260 patients, recall and amount of information. No NHS body named. 'Use it to test your explanation' marked as my view.",
+   "visual_text": [
+    "Vick et al, 2026: 18 trials, about 2,000 adults",
+    "Teach-back: what 18 randomised trials found",
+    "Knowledge: no clear effect. Certainty very low",
+    "Confidence: increased. Certainty very low",
+    "Adherence, self-reported, short term: increased. Certainty low",
+    "No clear effect differs from no effect",
+    "Use it to test your own explanation",
+    "Vick et al, J Gen Intern Med 2026",
+    "Alasdair MacLullich | Reading the evidence"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P05",
+   "cand_id": "C09-22",
+   "audience": "both",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "title": "Talking Mats: two studies, two answers",
+   "insight": "In one small study couples felt more involved with Talking Mats, but a 2026 randomised trial found no clear difference from ordinary care-planning talks, with high involvement in both groups.",
+   "angle": "A picture-based tool can structure a conversation, but the evidence does not show it beats a careful ordinary conversation. Whatever method is used, ask the person with dementia directly.",
+   "position_basis": "mixed: study results are empirical (Murphy and Oliver 2013; Bangsbo 2026; Collins 2023); 'ask the person with dementia directly' is an ethical judgement.",
+   "captions": {
+    "x": "Talking Mats is a tool that uses picture cards on a mat to help people with dementia talk about daily life. Two studies give different answers about what it adds.\n\nIn one small study, 18 couples living with dementia talked twice, once with the mats and once as usual. Both partners said they felt more involved with the mats. The study was not randomised and was led by the tool's developers.\n\nIn a 2026 Swedish trial, 101 older people with dementia in home care were randomly assigned to care-planning talks with or without the mats. Both groups rated their involvement high, and the trial did not show a clear difference.\n\nWhatever method is used, we should ask the person with dementia directly, and not only the family.",
+    "linkedin": "Talking Mats is a tool that uses picture cards on a mat to help people with dementia talk about daily life. Two studies give different answers about what it adds.\n\nThe first was small. 18 couples living with dementia talked about daily life twice, once with the mats and once as usual. Both partners said they felt more involved when they used the mats. The study was not randomised, involved one visit, and was led by the tool's developers.\n\nThe second was a randomised trial. In Swedish home care, 101 older people with dementia were randomly assigned to care-planning talks with or without Talking Mats. Both groups rated their involvement high, and the trial did not show a clear difference between them.\n\nThat null result needs careful reading. High scores in both groups left little room to show a difference. The same staff ran both kinds of talk. Staff had a two-day course, and some used the mats only once. So the trial did not show a benefit; it did not show the mats are useless either.\n\nA review of ways to hear the views of people with more advanced dementia found that each tool had some use, and none had clear evidence over the others.\n\nMy reading: a structured, visual way of asking can help some conversations. The evidence does not show it beats a careful ordinary conversation.\n\nWhat the studies share is the aim. We should ask the person with dementia about their own daily life, directly, whatever method is used, and not rely only on the family's account.",
+    "bluesky": "Talking Mats uses picture cards to help people with dementia talk about daily life. In a small study, couples felt more involved with it. A 2026 trial of 101 people found no clear difference from usual talks.\n\nWhatever the method, ask the person with dementia directly.",
+    "threads": "Talking Mats uses picture cards on a mat to help people with dementia talk about daily life.\n\nIn a small study, 18 couples felt more involved with the mats. In a 2026 Swedish trial, 101 people with dementia rated involvement high with or without them, and the trial showed no clear difference.\n\nSo the tool may help some conversations, but it has not been shown to beat a careful ordinary one. Whatever the method, ask the person with dementia directly."
+   },
+   "source_reply": "Sources: Murphy and Oliver 2013 https://doi.org/10.1111/hsc.12005 | Bångsbo et al, BMC Geriatrics 2026 https://doi.org/10.1186/s12877-026-07518-3 | Collins et al 2023 https://doi.org/10.1111/opn.12594",
+   "claims_used": [
+    "C09-22-a",
+    "C09-22-b",
+    "C09-22-d"
+   ],
+   "sources_used": [
+    "PMID:23095078",
+    "PMID:42050462",
+    "PMID:38084053"
+   ],
+   "visual_brief": {
+    "format": "drawn illustration",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the tool in use and the two study results side by side",
+      "text": {
+       "headline": "Talking Mats: two studies, two answers",
+       "kicker": null,
+       "body": null,
+       "items": [
+        "Small study, 18 couples: both partners felt more involved with the mats",
+        "Randomised trial, 101 people in home care: no clear difference; involvement high in both groups"
+       ],
+       "labels": [
+        "Whatever the method, ask the person directly"
+       ],
+       "source_line": "Murphy and Oliver 2013; Bångsbo et al 2026"
+      },
+      "art": "Drawn illustration on warm sand, upper two thirds: a kitchen table seen at a slight angle. An older white woman in her late seventies with dementia, cardigan, reading glasses on a cord, places a picture card (a simple drawing of a teacup) on a fabric mat. Across the top of the mat three plain symbols: a sun, a question mark, a cloud, with no words. Beside her, a home care worker in her thirties, East Asian, in a tunic, sits at the corner, leaning in and listening; her husband, a white man in his eighties, sits across the table, hands folded, watching. No logos or product branding. Lower third: two text boxes side by side with the study results.",
+      "data": []
+     }
+    ],
+    "design_notes": "Neutral about the product: no logo, no price, no endorsement. The person with dementia is the active figure. Footer: Alasdair MacLullich | Reading the evidence."
+   },
+   "alt_text": [
+    "Drawing of an older woman with dementia placing a picture card on a mat at a kitchen table while a care worker and her husband listen. Below: in a small study of 18 couples, both partners felt more involved with Talking Mats; in a 2026 randomised trial of 101 people in home care, there was no clear difference, with high involvement in both groups. Whatever the method, ask the person directly."
+   ],
+   "attention_note": "Readers who have heard Talking Mats praised see both studies together.",
+   "gain_note": "An honest reading of a null trial and a clear principle for any method.",
+   "follow_note": "Balanced readings of popular tools in dementia care.",
+   "verification_notes": "Murphy and Oliver 2013 abstract (18 couples, non-randomised, developer-led). Bangsbo 2026 full text (101 randomised, no clear difference, ceiling, same staff, two-day course, some used once). Collins 2023 abstract (no tool with clear evidence over others). 'Picture cards on a mat' from the research revised angle; C09-22-c (partly supported) not used. Stirling origin not stated.",
+   "visual_text": [
+    "Talking Mats: two studies, two answers",
+    "Small study, 18 couples: both partners felt more involved with the mats",
+    "Randomised trial, 101 people in home care: no clear difference; involvement high in both groups",
+    "Whatever the method, ask the person directly",
+    "Murphy and Oliver 2013; Bångsbo et al 2026",
+    "Alasdair MacLullich | Reading the evidence"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P06",
+   "cand_id": "C09-27",
+   "audience": "both",
+   "series": "Who gets left out",
+   "post_type": "public_explanation",
+   "title": "For many Deaf signers, pen and paper is a second language",
+   "insight": "Many Deaf people who sign grew up with BSL as their first language, so written notes are an unreliable substitute for a qualified BSL interpreter in health conversations.",
+   "angle": "Deaf BSL users face poorer communication and signs of worse care; booking a qualified interpreter for important conversations is the service's job.",
+   "position_basis": "mixed: communication barriers and blood pressure findings are empirical (Rogers 2025; Emond 2015; Terry 2024; Lesch 2019); 'booking is the service's job' and 'ask for an interpreter' are ethical and practical judgements supported by secondary legal sources.",
+   "captions": {
+    "x": "Many Deaf people who sign grew up with British Sign Language as their first language. For some, written English is a second language.\n\nBSL has its own grammar. Notes full of medical words can be hard to follow, and research with Deaf patients finds that handing over pen and paper often does not fix the problem.\n\nDeaf patients describe interpreters not being booked, being asked to bring a relative, and relatives leaving things out. For older Deaf people, patchy access to interpreters risks treatment without proper consent.\n\nIn a UK health check of 298 Deaf BSL users, 37 in 100 had a high blood pressure reading, against 21 in 100 in an English population survey.\n\nFor any talk about diagnosis, treatment, consent or discharge, ask for a qualified BSL interpreter. Booking one is the service's job.",
+    "linkedin": "Many Deaf people who sign grew up with British Sign Language as their first language. For some, written English is a second language.\n\nBSL is a language in its own right, with its own grammar. Notes full of medical words can be hard to follow. A scoping review of 51 studies of Deaf sign language users' experience as patients, and UK research with Deaf patients, find that handing over pen and paper often does not fix the problem.\n\nDeaf patients describe interpreters not being booked, being asked to bring a relative instead, and relatives leaving things out. A review of research on older Deaf people who sign found that patchy access to interpreters puts them at risk of treatment without proper consent.\n\nThere are signs of the cost. In a UK health check of 298 Deaf BSL users aged 20 to 82, 37 in 100 had a high blood pressure reading, against 21 in 100 in an English population survey. The researchers linked this to poor communication with health services. That is their interpretation of an association, not a measured cause.\n\nWhat services should do follows from this.\n\nIn England, NHS and social care services must record a person's communication needs and meet them, and any BSL interpreter they use must be qualified. Across the UK, the Equality Act expects services to make reasonable adjustments for disabled people, including in how they communicate.\n\nIf you are Deaf and use BSL, or you support someone who does: for any conversation about diagnosis, treatment, consent or discharge, ask the service to book a qualified BSL interpreter. Booking one is the service's job, not yours. Some people prefer a family member for a particular appointment, and that choice should be respected.",
+    "bluesky": "Many Deaf people who sign grew up with BSL as their first language; for some, written English is a second one. Pen and paper often doesn't work.\n\nFor talks about diagnosis, treatment, consent or discharge, ask for a qualified BSL interpreter. Booking one is the service's job.",
+    "threads": "Many Deaf people who sign grew up with British Sign Language as their first language. For some, written English is a second language, and notes full of medical words are hard to follow.\n\nDeaf patients describe interpreters not booked and relatives asked to interpret, who leave things out.\n\nFor any talk about diagnosis, treatment, consent or discharge, ask for a qualified BSL interpreter. Booking one is the service's job."
+   },
+   "source_reply": "Sources: Rogers et al 2025 https://doi.org/10.1371/journal.pgph.0003535 | Emond et al 2015 https://doi.org/10.1136/bmjopen-2014-006668 | Terry et al 2024 https://doi.org/10.1093/pubmed/fdae112 | Lesch et al 2019 https://doi.org/10.1037/rep0000252",
+   "claims_used": [
+    "C09-27-a",
+    "C09-27-b",
+    "C09-27-c",
+    "C09-27-d",
+    "C09-27-e",
+    "C09-27-f"
+   ],
+   "sources_used": [
+    "PMID:40009582",
+    "PMID:25619200",
+    "PMID:38936826",
+    "PMID:41444583",
+    "PMID:36307700",
+    "PMID:30489125",
+    "PMID:28240072"
+   ],
+   "visual_brief": {
+    "format": "comparison",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Contrast a notepad exchange with an interpreted consultation, positioned accurately",
+      "text": {
+       "headline": "For many Deaf signers, written English is a second language",
+       "kicker": null,
+       "body": null,
+       "items": [
+        "Pen and paper: often does not fix the problem",
+        "Qualified BSL interpreter: the person can follow and reply in their own language"
+       ],
+       "labels": [
+        "Diagnosis, treatment, consent, discharge: ask for a qualified BSL interpreter",
+        "Booking is the service's job"
+       ],
+       "source_line": "Rogers et al 2025; Emond et al 2015"
+      },
+      "art": "Two drawn panels side by side on warm sand, same hospital side room. Left panel: a doctor, a Black man in his thirties, holds out a notepad to a Deaf white man in his seventies sitting in a chair by the bed; the older man looks at the pad with a frown of effort. No writing visible on the pad. Right panel: the same scene, but a qualified BSL interpreter, a woman in her forties with a lanyard, stands beside and slightly behind the doctor, facing the patient and signing, so the patient can see the interpreter and the doctor in one line of sight; the patient signs back, engaged. Panel labels sit above each panel outside the art.",
+      "data": []
+     }
+    ],
+    "design_notes": "Accurate interpreter positioning: beside the clinician, facing the patient. Drawn, respectful; the Deaf man is competent, not confused. Footer: Alasdair MacLullich | Who gets left out."
+   },
+   "alt_text": [
+    "Two drawings of a hospital room. Left: a doctor hands a notepad to a Deaf older man, who struggles to follow; research finds pen and paper often does not fix the problem. Right: a qualified BSL interpreter stands beside the doctor, facing the man, who signs back. Text: for diagnosis, treatment, consent or discharge, ask for a qualified BSL interpreter; booking is the service's job."
+   ],
+   "attention_note": "Many staff assume a notepad is a reasonable fallback for a Deaf patient.",
+   "gain_note": "A clear request Deaf people and families can make, and why written notes often fail.",
+   "follow_note": "Posts on older people who are poorly served by standard care, with specific remedies.",
+   "verification_notes": "Rogers 2025, Emond 2015, Terry 2024, Selby 2025 full text for first-language and pen-and-paper claims ('many', 'some'). Emond 2015 figures whole sample 20 to 82, association, authors' interpretation. Lesch 2019 abstract for consent risk (US-focused). Legal lines from secondary sources (Ahmed 2022, Nursing Management 2017, Selby 2025); Accessible Information Standard stated as England only; BSL Acts omitted as unverified. Family preference respected per Rogers.",
+   "visual_text": [
+    "For many Deaf signers, written English is a second language",
+    "Pen and paper: often does not fix the problem",
+    "Qualified BSL interpreter: the person can follow and reply in their own language",
+    "Diagnosis, treatment, consent, discharge: ask for a qualified BSL interpreter",
+    "Booking is the service's job",
+    "Rogers et al 2025; Emond et al 2015",
+    "Alasdair MacLullich | Who gets left out"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P07",
+   "cand_id": "C09-21",
+   "audience": "practitioners",
+   "series": "Who gets left out",
+   "post_type": "teaching",
+   "title": "Aphasia and capacity: give a way to answer",
+   "insight": "People with aphasia after a stroke may keep their judgement while losing words; word-heavy decision tasks disadvantage them, so involve a speech and language therapist before the capacity conversation.",
+   "angle": "Capacity assessments rely on talk, which puts people with aphasia at risk of being judged unable when the problem is language. Speech and language therapists can help but report not being asked.",
+   "position_basis": "mixed: aphasia frequency, word-task disadvantage and the survey barrier are empirical; 'ask the speech and language therapist before the capacity conversation' is clinical judgement consistent with the legal duty to take practicable steps.",
+   "captions": {
+    "x": "After a stroke, some people lose words but may keep their judgement.\n\nAbout 1 in 3 people in hospital after a stroke have aphasia, a difficulty understanding or using language. In a study of 16 people with aphasia, they struggled most when a decision task relied on words, especially explaining their reasons aloud.\n\nSome people with aphasia also have problems with memory or reasoning. The answer comes from a supported assessment, not from the diagnosis.\n\nSupports that can help include key words written down, pictures of the options and more time. In a 2026 survey of 195 speech and language therapists, one barrier they reported was that other professionals did not ask for their help.\n\nBefore the capacity conversation, ask the speech and language therapist.",
+    "linkedin": "After a stroke, some people lose words but may keep their judgement.\n\nAbout 1 in 3 people in hospital after a stroke have aphasia, a difficulty understanding or using language. The figure varies by stroke type and timing.\n\nA capacity assessment asks a person to understand information, weigh it and communicate a choice, and most assessments do this through talk. That puts people with aphasia at a disadvantage. In a study of 16 people with aphasia, they struggled most when a decision task relied on words, especially explaining their reasons aloud. On decision tasks without words, they did not score clearly differently from people without aphasia. The study was small and used laboratory tasks, not real assessments.\n\nAphasia can hide a person's ability to decide. Some people with aphasia also have problems with memory or reasoning, so the answer comes from a supported assessment, not from the diagnosis.\n\nResearch on people with aphasia after stroke describes supports that can help:\n\n1. Key words written down.\n2. Pictures of the options.\n3. Trained conversation partners.\n4. More time.\n\nTheir effects have not been tested one by one.\n\nIn England and Wales the law says a person can't be treated as unable to decide until all practicable steps to help them have failed. In Scotland, a communication difficulty that can be overcome with help or aids does not count as incapacity.\n\nSpeech and language therapists can help set this up. In a 2026 survey of 195 speech and language therapists in 32 countries, one barrier they reported was that other professionals did not ask for their help with decisions.\n\nBefore the capacity conversation, ask the speech and language therapist.",
+    "bluesky": "About 1 in 3 people in hospital after a stroke have aphasia. Some lose words but may keep their judgement; others also have problems with reasoning.\n\nWord-heavy capacity questions disadvantage them. Before the capacity conversation, ask the speech and language therapist.",
+    "threads": "After a stroke, some people lose words but may keep their judgement. About 1 in 3 people in hospital after a stroke have aphasia.\n\nIn a small study, people with aphasia struggled most when decision tasks relied on words. Some also have problems with memory or reasoning, so a supported assessment gives the answer, not the diagnosis.\n\nKey words written down, pictures of the options and more time can help. Before the capacity conversation, ask the speech and language therapist."
+   },
+   "source_reply": "Sources: Flowers et al 2016 https://doi.org/10.1016/j.apmr.2016.03.006 | Kim et al 2020 https://doi.org/10.1044/2020_JSLHR-19-00182 | Stipinovich et al 2023 https://doi.org/10.1111/1460-6984.12925 | Jayes et al 2026 https://doi.org/10.1080/09638288.2026.2662096",
+   "claims_used": [
+    "C09-21-a",
+    "C09-21-b",
+    "C09-21-c",
+    "C09-21-d",
+    "C09-21-e",
+    "C09-21-g"
+   ],
+   "sources_used": [
+    "PMID:27063364",
+    "PMID:37408384",
+    "PMID:32464071",
+    "PMID:42108587",
+    "DOI:10.1192/apt.bp.114.013110",
+    "PMID:33456823",
+    "PMID:33456830"
+   ],
+   "visual_brief": {
+    "format": "annotated scene",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show a capacity conversation set up to give a person with aphasia a way to answer",
+      "text": {
+       "headline": "Before concluding: have we given him a way to answer?",
+       "kicker": "Aphasia after stroke: about 1 in 3 people in hospital",
+       "body": null,
+       "items": [
+        "1. Speech and language therapist present",
+        "2. Key words written down",
+        "3. Pictures of the options",
+        "4. More time"
+       ],
+       "labels": [
+        "Some also have memory or reasoning problems: assess with support"
+       ],
+       "source_line": "Flowers et al 2016; Stipinovich et al 2023"
+      },
+      "art": "Drawn bedside scene on warm sand in a stroke unit bay. A man in his late sixties, Black British, sitting up in a hospital chair beside his bed, right arm resting on a pillow (right-sided weakness), alert and attentive. Opposite him a doctor in her fifties, white, sits at his eye level. Beside the doctor a speech and language therapist, a South Asian man in his thirties, holds up three large picture cards showing options (a house, a building with a care sign shown only as a shape, a hospital bed) with no words on them. On the over-bed table: a large pad (no visible writing), and a card with a tick symbol and a cross symbol. A wall clock. Numbered callouts 1 to 4 in burnt orange circles point to the therapist, the pad, the picture cards and the clock; callout text sits outside the drawing.",
+      "data": []
+     }
+    ],
+    "design_notes": "Callout text outside the art; no writing inside the drawing. Depict the man as a capable adult. Footer: Alasdair MacLullich | Who gets left out."
+   },
+   "alt_text": [
+    "Drawing of a capacity conversation at a stroke unit bedside. A man with right-sided weakness and aphasia sits facing a doctor and a speech and language therapist. Numbered callouts: therapist present, key words written down, pictures of the options, more time. About 1 in 3 people in hospital after stroke have aphasia; some also have memory or reasoning problems, so assess with support."
+   ],
+   "attention_note": "Practitioners who have judged someone unable to decide on the basis of a halting conversation.",
+   "gain_note": "Four concrete supports and one action: ask the speech and language therapist first.",
+   "follow_note": "Teaching on people who are easily excluded from decisions about their own care.",
+   "verification_notes": "Flowers 2016 abstract (median 30% acute, 34% rehab: 'about 1 in 3'). Kim 2020 abstract (16 people, word tasks; small, laboratory). Stipinovich 2023 abstract (supports 'can help', not proven). Jayes 2026 abstract (195 SLTs, 32 countries; no proportion given). Legal line from secondary sources (Hughes 2015, Orr 2018, Edwardson 2018), kept as one supporting line. 'May keep their judgement' paired with wider cognitive problems in every caption.",
+   "visual_text": [
+    "Aphasia after stroke: about 1 in 3 people in hospital",
+    "Before concluding: have we given him a way to answer?",
+    "1. Speech and language therapist present",
+    "2. Key words written down",
+    "3. Pictures of the options",
+    "4. More time",
+    "Some also have memory or reasoning problems: assess with support",
+    "Flowers et al 2016; Stipinovich et al 2023",
+    "Alasdair MacLullich | Who gets left out"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P08",
+   "cand_id": "C09-19",
+   "audience": "public",
+   "series": "Small detail, real effect",
+   "post_type": "public_explanation",
+   "title": "Say it again, one idea at a time",
+   "insight": "For people with Alzheimer's disease, simple sentences and saying things again helped understanding in small studies, while slowing down on its own did not; plain wording differs from elderspeak.",
+   "angle": "Carers can use simple, repeated sentences without sliding into child-like talk; the line between them is pet names, sing-song voice and 'shall we'.",
+   "position_basis": "empirical finding (Small 1997, Small 2003, Kemper and Harden 1999) with a definition from a concept analysis (Shaw and Gordon 2021); no position beyond practical advice.",
+   "captions": {
+    "x": "In a small experiment with 15 people with mild to moderate Alzheimer's disease, saying a sentence again, in the same or different words, helped them understand it. Saying it more slowly did not.\n\nA study that recorded 18 couples at home found something similar: simple sentences worked, and slowing down did not. Simple means one idea per sentence.\n\nIf you care for someone with Alzheimer's, plain wording is ordinary adult speech. Elderspeak is different: pet names such as 'love' or 'sweetheart', a high sing-song voice, and 'shall we' that makes the choice for the person.\n\nThese were small, older studies. A calm pace is fine; it just did not help on its own. If the person is hard of hearing, face them and speak clearly.",
+    "linkedin": "In a small experiment with 15 people with mild to moderate Alzheimer's disease, saying a sentence again, in the same or different words, helped them understand it. Saying it more slowly did not.\n\nA second study recorded 18 couples at home, one partner with Alzheimer's disease, while they did everyday tasks. Simple sentences worked, and slowing down did not. Simple means grammatically simple, with one idea per sentence, rather than just fewer words.\n\nExperiments with older adults without dementia point the same way. Keeping each sentence to one idea, and adding a word of explanation, helped. A high, sing-song voice did not help, and made people report more trouble following.\n\nIf you care for someone with Alzheimer's, it helps to know where plain wording ends and elderspeak begins.\n\nPlain wording is ordinary adult speech: one idea per sentence, saying it again, and checking you were understood.\n\nElderspeak is talking to an older adult as if to a small child. It adds pet names such as 'love' or 'sweetheart', a high sing-song voice, and 'we' or 'shall we' that makes the choice for the person.\n\nSo: 'Your daughter is coming at two. She is coming at two o'clock.' Illustrative example. Not: 'Shall we get ready for our visitor, sweetheart?'\n\nThese were small studies (15 people; 18 couples) from the 1990s and 2000s. Slowing down on its own did not help in them; that does not make a calm pace wrong.\n\nIf the person is also hard of hearing, face them and speak clearly. Clear is different from high-pitched or sing-song.",
+    "bluesky": "In small studies of people with Alzheimer's disease, simple sentences and saying things again helped understanding. Slowing down on its own did not.\n\nPlain wording is ordinary adult speech. Leave out pet names, a sing-song voice and 'shall we'.",
+    "threads": "If you care for someone with Alzheimer's disease: in small studies (15 people; 18 couples), simple sentences and saying things again, in the same or other words, helped understanding. Slowing down on its own did not.\n\nPlain wording is ordinary adult speech. Elderspeak adds pet names like 'sweetheart', a sing-song voice and 'shall we'.\n\nIf they are hard of hearing too, face them and speak clearly. Clear is different from high-pitched."
+   },
+   "source_reply": "Sources: Small et al 1997 https://doi.org/10.1037//0882-7974.12.1.3 | Small et al 2003 https://doi.org/10.1044/1092-4388(2003/028) | Shaw and Gordon 2021 https://doi.org/10.1093/geroni/igab023",
+   "claims_used": [
+    "C09-19-a",
+    "C09-19-b",
+    "C09-19-c",
+    "C09-19-d",
+    "C09-19-e",
+    "C09-19-f"
+   ],
+   "sources_used": [
+    "PMID:9100263",
+    "PMID:14700377",
+    "PMID:10632152",
+    "PMID:34476301",
+    "PMID:18591210",
+    "PMID:3982003"
+   ],
+   "visual_brief": {
+    "format": "checklist",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Give carers a short list of what helped and where elderspeak begins",
+      "text": {
+       "headline": "Say it again, one idea at a time",
+       "kicker": "Small studies of people with mild to moderate Alzheimer's disease",
+       "body": null,
+       "items": [
+        "Helped: one idea per sentence",
+        "Helped: say it again, in the same or different words",
+        "Did not help on its own: speaking more slowly",
+        "Leave out: pet names like 'sweetheart'",
+        "Leave out: a high, sing-song voice",
+        "Leave out: 'shall we' that makes the choice"
+       ],
+       "labels": [
+        "15 people; 18 couples. A calm pace is fine."
+       ],
+       "source_line": "Small et al 1997 and 2003; Shaw and Gordon 2021"
+      },
+      "art": "Checklist card on off-white. Top block headed 'Helped in small studies' with two rows, each marked by a tick in a circle. Middle block headed 'Did not help on its own' with one row, marked by an open circle with a dash. Bottom block on a mint panel headed 'Leave out' with three rows, each marked by a cross in a square. Marks differ in shape as well as colour. A small line drawing at top right: two older adults at a kitchen table, one talking, the other listening, both at eye level.",
+      "data": []
+     }
+    ],
+    "design_notes": "Schedule apart from C09-18 (P02). No numbers beyond sample sizes. Footer: Alasdair MacLullich | Small detail, real effect."
+   },
+   "alt_text": [
+    "Checklist for talking with someone with Alzheimer's disease, from small studies of 15 people and 18 couples. Helped: one idea per sentence; saying it again in the same or different words. Did not help on its own: speaking more slowly. Leave out: pet names like sweetheart, a high sing-song voice, and 'shall we' that makes the choice. A calm pace is fine."
+   ],
+   "attention_note": "Carers who have been told to speak slowly learn what helped more in studies.",
+   "gain_note": "Two simple habits and a clear line between plain wording and elderspeak.",
+   "follow_note": "Small, practical changes that help families and carers in everyday life.",
+   "verification_notes": "Small 1997 abstract (15 people, repetition helped, slow rate did not). Small 2003 abstract (18 couples, simple sentences, not slow). Kemper and Harden 1999 abstract (older adults without dementia, labelled so). Shaw and Gordon 2021 full text for plain wording vs elderspeak. Picheny 1985 abstract for clear speech, no number. Sample sizes stated per the judge. Example sentence in LinkedIn labelled illustrative.",
+   "visual_text": [
+    "Small studies of people with mild to moderate Alzheimer's disease",
+    "Say it again, one idea at a time",
+    "Helped: one idea per sentence",
+    "Helped: say it again, in the same or different words",
+    "Did not help on its own: speaking more slowly",
+    "Leave out: pet names like 'sweetheart'",
+    "Leave out: a high, sing-song voice",
+    "Leave out: 'shall we' that makes the choice",
+    "15 people; 18 couples. A calm pace is fine.",
+    "Small et al 1997 and 2003; Shaw and Gordon 2021",
+    "Alasdair MacLullich | Small detail, real effect"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P09",
+   "cand_id": "C09-02",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "decision_support",
+   "title": "Ask for the clinic letter to be written to you",
+   "insight": "National guidance from the Academy of Medical Royal Colleges recommends that hospital doctors write clinic letters to the patient, yet at one large eye hospital about 2 in 100 were.",
+   "angle": "The letter is usually written about you to your GP; you can ask for it to be written to you, and national guidance supports that.",
+   "position_basis": "mixed: the guidance and letter audit figures are empirical or documentary; 'you can ask' is practical advice.",
+   "captions": {
+    "x": "'Could you write the letter to me, please?' You can ask this at the end of a hospital clinic appointment.\n\nMany people already get a copy of their clinic letter, but it is usually written to the GP and about them. National guidance from the Academy of Medical Royal Colleges (2018) recommends that hospital doctors write outpatient clinic letters to the patient.\n\nAt one large London eye hospital, researchers analysed 4.6 million clinic letters from 2013 to 2025. About 2 in 100 were written to the patient. About 95 in 100 were harder to read than recommended for patients.\n\nThis is professional guidance, not law. If your letters go to your GP, ask whether the next one could be written to you.",
+    "linkedin": "'Could you write the letter to me, please?' You can ask this at the end of a hospital clinic appointment.\n\nAfter most clinic visits a letter is written. Many people already get a copy, but it is usually written to the GP and about them.\n\nNational guidance from the Academy of Medical Royal Colleges (2018) recommends that hospital doctors write outpatient clinic letters to the patient, rather than about the patient to the GP.\n\nPractice has been slow to follow. At one large London eye hospital, researchers analysed 4.6 million clinic letters written between 2013 and 2025. About 2 in 100 were written to the patient. About 95 in 100 were harder to read than the level recommended for patients.\n\nTwo cautions about that study. It is one eye hospital, with patients of all ages, so it does not describe every clinic. And 'written to the patient' was judged by a computer rule that counts uses of 'you' and 'your', which the authors call imperfect.\n\nPatients seem to want the change. In a survey at one English hospital clinic, 42 of 80 patients wanted letters written to them, 4 wanted them written to their GP, and the rest had no preference.\n\nThis is professional guidance, not law, and the doctor can decide how to write. But you can ask.\n\nIf you have a clinic appointment coming up, ask at the end: 'Could you write the letter to me, please?' If a relative comes with you, they can ask too.",
+    "bluesky": "National guidance recommends that hospital doctors write clinic letters to the patient, not only about them to the GP. At one London eye hospital, about 2 in 100 of 4.6 million letters were.\n\nAt your next clinic, ask: 'Could you write the letter to me, please?'",
+    "threads": "'Could you write the letter to me, please?' You can ask this at a hospital clinic.\n\nNational guidance from the Academy of Medical Royal Colleges recommends that doctors write clinic letters to the patient. Many letters are still written to the GP about you. At one London eye hospital, about 2 in 100 of 4.6 million letters were written to the patient.\n\nIt is guidance, not law. At your next appointment, ask."
+   },
+   "source_reply": "Sources: Academy of Medical Royal Colleges, Please write to me (2018) https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients-guidance/ | Ong et al, BMJ Health Care Inform 2026 https://doi.org/10.1136/bmjhci-2026-102086 | Gupta et al 2021 https://doi.org/10.1111/ijcp.13907",
+   "claims_used": [
+    "C09-02-a",
+    "C09-02-b",
+    "C09-02-c",
+    "C09-02-e"
+   ],
+   "sources_used": [
+    "PMID:42481174",
+    "PMID:31637326",
+    "PMID:33280216",
+    "URL:https://www.aomrc.org.uk/reports-guidance/please-write-to-me-writing-outpatient-clinic-letters-to-patients-guidance/"
+   ],
+   "visual_brief": {
+    "format": "comparison",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the same letter written about the patient and to the patient",
+      "text": {
+       "headline": "Could you write the letter to me, please?",
+       "kicker": "Illustrative example",
+       "body": null,
+       "items": [
+        "About you, to your GP: 'Dear Dr Patel, I reviewed this 81-year-old woman in clinic today.'",
+        "To you: 'Dear Mrs Grant, Today we talked about your dizziness. What we found. What happens next. Who to call.'"
+       ],
+       "labels": [
+        "National guidance recommends letters written to the patient",
+        "One London eye hospital, 4.6 million letters: about 2 in 100 were"
+       ],
+       "source_line": "Academy of Medical Royal Colleges 2018; Ong et al 2026"
+      },
+      "art": "Two stylised letter sheets side by side on off-white, drawn as simple outlined pages with the text typeset as separate layers (not handwriting). Left sheet labelled 'About you, to your GP', right sheet labelled 'To you'. Each sheet shows two or three short lines. A small burnt orange label 'Illustrative example' above both sheets. Below, a strip with the audit figure.",
+      "data": [
+       {
+        "label": "Letters written to the patient, one London eye hospital, 2013 to 2025",
+        "value": 2.25,
+        "display": "about 2 in 100",
+        "claim_id": "C09-02-b"
+       }
+      ]
+     }
+    ],
+    "design_notes": "Names on the illustrative letters are invented and the card is clearly labelled Illustrative example. Footer: Alasdair MacLullich | Ask this."
+   },
+   "alt_text": [
+    "Two illustrative clinic letters. One is written about an 81-year-old woman to her GP; the other is written to her, covering what was found, what happens next and who to call. National guidance recommends writing to the patient. At one London eye hospital, about 2 in 100 of 4.6 million letters were written to the patient. Question to ask: could you write the letter to me, please?"
+   ],
+   "attention_note": "Older people who have received letters about themselves addressed to someone else.",
+   "gain_note": "One sentence to ask, backed by national guidance.",
+   "follow_note": "Specific questions older people and families can ask in appointments.",
+   "verification_notes": "AoMRC recommendation described in Ong 2026 (full text), Lonergan 2019 and Gupta 2021 abstracts; guidance itself not opened (search extract), so worded 'national guidance recommends', not 'entitled'. Ong 2026 full text for 4.6 million, 2 in 100, 95 in 100, one eye hospital, computer rule, all ages. Gupta 2021 abstract for 42 of 80. 'Copy to GP' detail left out. 'Many people already get a copy' is background from Ong's introduction, used without a figure. Illustrative letter lines in LinkedIn and visual are labelled.",
+   "visual_text": [
+    "Illustrative example",
+    "Could you write the letter to me, please?",
+    "About you, to your GP: 'Dear Dr Patel, I reviewed this 81-year-old woman in clinic today.'",
+    "To you: 'Dear Mrs Grant, Today we talked about your dizziness. What we found. What happens next. Who to call.'",
+    "National guidance recommends letters written to the patient",
+    "One London eye hospital, 4.6 million letters: about 2 in 100 were",
+    "Academy of Medical Royal Colleges 2018; Ong et al 2026",
+    "Alasdair MacLullich | Ask this"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P10",
+   "cand_id": "C09-08",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "title": "Put the real options to the person",
+   "insight": "A person can only weigh the options they have been told about; a capacity assessment about going home must set out the realistic options and the help attached to each.",
+   "angle": "A bare 'Can you manage at home?' tests the person against options nobody has described. A Court of Protection judge and residence-capacity specialists say to present detailed options.",
+   "position_basis": "mixed: the CC v KK ruling and specialist recommendation are documentary; the study of ward practice is empirical (Emmett 2013); calling a bare question an unfair test is ethical and clinical judgement.",
+   "captions": {
+    "x": "Before you assess whether someone can decide to go home, tell them what going home would involve.\n\nIn a 2012 Court of Protection case in England (CC v KK), an 82-year-old woman with dementia wanted to go home from a nursing home. Professionals had repeatedly judged that she lacked capacity to decide where to live. The judge found that she had it.\n\nThe judge said: \"The person under evaluation must be presented with detailed options so that their capacity to weigh up those options can be fairly assessed.\"\n\nSpecialists recommend setting out each option and what it could mean: home with carers several times a day, with no guarantee, or a care home that may become permanent.\n\nA bare 'Can you manage at home?' asks the person to weigh options nobody has described. We should not call that a fair test.",
+    "linkedin": "Before you assess whether someone can decide to go home, tell them what going home would involve.\n\nIn a 2012 Court of Protection case in England (CC v KK), an 82-year-old woman with dementia wanted to go home from a nursing home. Professionals had repeatedly judged that she lacked capacity to decide where to live. The judge found that she had it.\n\nThe judge said: \"The person under evaluation must be presented with detailed options so that their capacity to weigh up those options can be fairly assessed.\" (para 68)\n\nThe same judge warned that professionals can slip from asking whether she could decide into asking what was best for her.\n\nThis is one first-instance ruling in England and Wales. It binds no other court, and Scotland has different legislation. But its reasoning applies to any capacity assessment.\n\nSpecialists in residence capacity recommend telling the person:\n\n1. Why a move is suggested.\n2. What the other options are, such as going home with carers several times a day.\n3. What each choice could mean, including that a care home may become permanent and that going home with help carries no guarantee.\n\nPractice has varied. A study on English hospital wards found staff varied widely in what information they gave or tested when judging whether a person with dementia could decide where to live. When researchers filmed four capacity assessments in hospital, in people with acquired brain injury, options were not always put to the patient.\n\nA bare 'Can you manage at home?' asks the person to weigh options nobody has described. In my view that is an unfair test of their ability. Describe the options, with the help attached to each, and then see whether the person can weigh them.",
+    "bluesky": "\"Can you manage at home?\" is a poor capacity question if nobody has said what help would be there.\n\nIn CC v KK (2012) a judge said the person \"must be presented with detailed options\". Set out each option and its support, then assess.",
+    "threads": "Before you assess whether someone can decide to go home, tell them what going home would involve.\n\nIn CC v KK (2012), a judge found that an 82-year-old woman with dementia had capacity to decide where to live, after professionals had repeatedly judged she did not. The judge said the person \"must be presented with detailed options\".\n\nSet out home with carers, and a care home, with what each could mean. Then assess."
+   },
+   "source_reply": "Sources: Ruck Keene et al 2019 https://doi.org/10.1016/j.ijlp.2018.11.005 | Hughes et al, BJPsych Advances 2015 https://doi.org/10.1192/apt.bp.114.013110 | Emmett et al 2013 https://doi.org/10.1016/j.ijlp.2012.11.009",
+   "claims_used": [
+    "C09-08-a",
+    "C09-08-b",
+    "C09-08-c",
+    "C09-08-d",
+    "C09-08-e",
+    "C09-08-g"
+   ],
+   "sources_used": [
+    "DOI:10.1192/apt.bp.114.013110",
+    "PMID:30616855",
+    "PMID:23187119",
+    "PMID:38377142"
+   ],
+   "visual_brief": {
+    "format": "comparison",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Contrast the bare question with the same decision set out as options",
+      "text": {
+       "headline": "The person can only weigh what they have been told",
+       "kicker": "Illustrative example",
+       "body": null,
+       "items": [
+        "Bare question: 'Can you manage at home?'",
+        "Home, carers four times a day, key safe, pendant alarm. No guarantee.",
+        "Home, daughter staying for two weeks, then review.",
+        "Care home near your sister. It may become permanent."
+       ],
+       "labels": [
+        "\"The person under evaluation must be presented with detailed options.\" CC v KK, 2012, para 68"
+       ],
+       "source_line": "CC v KK [2012], quoted in Ruck Keene et al 2019; Hughes et al 2015"
+      },
+      "art": "Two-panel comparison card on off-white. Left panel, mostly empty pale teal space, holds a single speech bubble with the bare question. Right panel on mint lists three option boxes stacked vertically, each with a small line icon (a house with a key, a house with a calendar, a building with a garden), and one line on what it involves. A narrow strip at the bottom carries the judge's quotation. Panels distinguished by heading and layout.",
+      "data": []
+     }
+    ],
+    "design_notes": "Options are illustrative, not from the case. Footer: Alasdair MacLullich | Teaching round."
+   },
+   "alt_text": [
+    "Comparison card, illustrative example. Left: the bare question 'Can you manage at home?'. Right: the same decision set out as options: home with carers four times a day and a pendant alarm, with no guarantee; home with a daughter staying two weeks then review; a care home near a sister that may become permanent. Quote from CC v KK 2012: the person must be presented with detailed options."
+   ],
+   "attention_note": "Clinicians who have asked the bare question will recognise it.",
+   "gain_note": "A three-part way to present options before assessing residence capacity.",
+   "follow_note": "Teaching that joins law, evidence and bedside practice.",
+   "verification_notes": "CC v KK facts from Hughes 2015 full text; para 68 quotation verbatim from Ruck Keene 2019 full text; para 65 point paraphrased, not quoted. Specialist recommendation attributed (Hughes 2015 Box 4). Emmett 2013 full text (qualitative, no percentages). Foulkes 2024 abstract (4 recordings, acquired brain injury, illustration). Named as first-instance England and Wales; Scotland differs.",
+   "visual_text": [
+    "Illustrative example",
+    "The person can only weigh what they have been told",
+    "Bare question: 'Can you manage at home?'",
+    "Home, carers four times a day, key safe, pendant alarm. No guarantee.",
+    "Home, daughter staying for two weeks, then review.",
+    "Care home near your sister. It may become permanent.",
+    "\"The person under evaluation must be presented with detailed options.\" CC v KK, 2012, para 68",
+    "CC v KK [2012], quoted in Ruck Keene et al 2019; Hughes et al 2015",
+    "Alasdair MacLullich | Teaching round"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  },
+  {
+   "tmp_id": "C09-P11",
+   "cand_id": "C09-25",
+   "audience": "both",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "title": "How often relatives predict your wishes",
+   "insight": "Relatives predicting a person's answers to imagined end-of-life treatment questions matched about 2 times in 3; informal talks did not improve this, but a structured, recorded planning conversation did.",
+   "angle": "Relatives are useful but fallible guides; write down your views and reasons and go through them in a structured way.",
+   "position_basis": "mixed: accuracy figures and the trial are empirical (Shalowitz 2006; Kirchhoff 2010); 'write down your views and go through them' and 'ask relatives what the person valued' are clinical and ethical judgements.",
+   "captions": {
+    "x": "Would the person who would speak for you give the answer you would give?\n\nA 2006 review of 16 studies asked people and their relatives the same questions about imagined treatment near the end of life. Relatives gave the same answer as the person about 2 times in 3, and a different answer about 1 time in 3.\n\nRelatives the person had chosen were no more accurate than next of kin. Families who said they had talked about it were no more accurate either, in those studies of ordinary conversations.\n\nA structured conversation did help. In a US trial with 313 people with heart or kidney disease, a planning talk led by a trained professional, ending in a written record of the person's goals, left relatives understanding those goals much better than usual care.\n\nWrite down your views and your reasons while you can, and go through them with the person who would speak for you.",
+    "linkedin": "Would the person who would speak for you give the answer you would give?\n\nA 2006 systematic review pooled 16 studies in which people, and the relative who would speak for them, answered the same questions about treatment near the end of life. The relatives gave the same answer as the person about 2 times in 3, and a different answer about 1 time in 3.\n\nThese were imagined situations, not real decisions, and the figure is across answers rather than a score for each relative.\n\nTwo findings may surprise families. Relatives the person had chosen were no more accurate than next of kin. And families who said they had talked about it beforehand were no more accurate than those who had not. That applies to ordinary, unstructured conversations.\n\nA structured conversation is a different thing. In a US trial with 313 people with heart failure or kidney disease and the relatives who would speak for them, a planning conversation led by a trained professional, ending in a written record of the person's goals, left relatives with a much better understanding of those goals than usual care.\n\nFor you, if you are thinking ahead: write down your views and your reasons while you can. Then go through them with the person who would speak for you, with a professional's help if you can get it.\n\nFor clinicians: when a person can't decide, ask relatives what the person valued and what they said, not only what they think the person would choose.\n\nMore posts in the Reading the evidence series take one study at a time and say what it shows and what it leaves open.",
+    "bluesky": "Asked to predict a person's answers to imagined end-of-life treatment questions, relatives matched about 2 times in 3. Casual talks beforehand didn't help.\n\nA structured planning talk with a written record did. Write down your views and reasons, and go through them.",
+    "threads": "In a review of 16 studies, relatives predicting a person's answers to imagined end-of-life treatment questions matched about 2 times in 3.\n\nBeing chosen, or having chatted about it, did not make them more accurate. In a US trial, a structured planning talk with a trained professional and a written record helped relatives understand the person's goals much better.\n\nWrite down your views and reasons, and go through them with the person who would speak for you."
+   },
+   "source_reply": "Sources: Shalowitz et al, Arch Intern Med 2006 https://doi.org/10.1001/archinte.166.5.493 | Kirchhoff et al, JAGS 2010 https://doi.org/10.1111/j.1532-5415.2010.02760.x",
+   "claims_used": [
+    "C09-25-a",
+    "C09-25-b",
+    "C09-25-d"
+   ],
+   "sources_used": [
+    "PMID:16534034",
+    "PMID:20649686",
+    "PMID:38272378"
+   ],
+   "visual_brief": {
+    "format": "chart",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the match rate as a 10 by 10 icon array, with the structured-talk finding",
+      "text": {
+       "headline": "Relatives matched the person's answer about 68 times in 100",
+       "kicker": "Imagined end-of-life treatment questions, 16 studies",
+       "body": "Chosen relatives and families who had chatted about it were no more accurate. A structured planning talk with a written record helped relatives understand goals much better in a US trial.",
+       "items": [],
+       "labels": [
+        "Same answer as the person: about 68 in 100 answers",
+        "Different answer: about 32 in 100 answers",
+        "Write down your views and reasons"
+       ],
+       "source_line": "Shalowitz et al, Arch Intern Med 2006; Kirchhoff et al 2010"
+      },
+      "art": "10 by 10 icon array of small paired-card icons. 68 icons drawn as two matching cards (solid teal), 32 drawn as two mismatched cards (outlined, one card tilted). Legend below the grid with a sample of each icon. Right of or below the grid, two short text lines. Icons differ by shape and fill, not colour alone.",
+      "data": [
+       {
+        "label": "Relatives' answers matching the person's",
+        "value": 68,
+        "display": "about 68 in 100 answers",
+        "claim_id": "C09-25-a"
+       },
+       {
+        "label": "Relatives' answers differing",
+        "value": 32,
+        "display": "about 32 in 100 answers",
+        "claim_id": "C09-25-a"
+       }
+      ]
+     }
+    ],
+    "design_notes": "Denominator is answers, not people; imagined scenarios. Footer: Alasdair MacLullich | Reading the evidence."
+   },
+   "alt_text": [
+    "Icon array of 100 answer pairs from a 2006 review of 16 studies of imagined end-of-life treatment questions: in about 68 of 100 answers relatives matched the person, in about 32 they did not. Chosen relatives and families who had chatted were no more accurate. In a US trial, a structured planning talk with a written record improved relatives' understanding. Write down your views and reasons."
+   ],
+   "attention_note": "Most people assume the person closest to them knows what they would want.",
+   "gain_note": "A concrete step: write down views and reasons and go through them in a structured way.",
+   "follow_note": "Includes the one follow invitation in this set: the Reading the evidence series.",
+   "verification_notes": "Shalowitz 2006 abstract: 68% of 19,526 paired answers, 16 studies, hypothetical scenarios, designation and prior discussion no better; 'mostly US' omitted. Kirchhoff 2010 abstract: 313 pairs, facilitated, written record, much better understanding (no kappa). Liu 2024 listed as supporting source for structured planning, not quoted. 'Ordinary conversations' qualification carried.",
+   "visual_text": [
+    "Imagined end-of-life treatment questions, 16 studies",
+    "Relatives matched the person's answer about 68 times in 100",
+    "Chosen relatives and families who had chatted about it were no more accurate. A structured planning talk with a written record helped relatives understand goals much better in a US trial.",
+    "Same answer as the person: about 68 in 100 answers",
+    "Different answer: about 32 in 100 answers",
+    "Write down your views and reasons",
+    "Shalowitz et al, Arch Intern Med 2006; Kirchhoff et al 2010",
+    "Alasdair MacLullich | Reading the evidence"
+   ],
+   "status": "draft",
+   "open_issues": [],
+   "category": "C09"
+  }
+ ]
+}

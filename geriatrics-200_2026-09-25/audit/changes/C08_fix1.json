@@ -1,0 +1,184 @@
+[
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.x, captions.linkedin",
+  "old": "People with dementia in a large trial in England got fitter from 4 months of gym exercise.",
+  "new": "People with dementia in a large trial in England got fitter while taking part in 4 months of gym exercise (measured only in the exercise group).",
+  "reason": "major: Causal claim on fitness; fitness was measured only in the exercise arm, only during the classes (6-minute walk at 6 weeks); authors say they cannot conclude definitively the programme improved fitness."
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.threads",
+  "old": "Four months of fairly hard gym exercise made people with mild to moderate dementia fitter in the DAPA trial in England (494 people).",
+  "new": "In the DAPA trial in England, 494 people with mild to moderate dementia did 4 months of fairly hard gym exercise or usual care. Those exercising got fitter during the classes (measured only in their group).",
+  "reason": "major: 'made ... fitter' is causal; no control comparison for fitness."
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.x",
+  "old": "Walking distance and lifting improved during the classes.",
+  "new": "Walking distance and lifting improved during the classes (measured only in the exercise group).",
+  "reason": "minor: Omits that this was measured only in the exercise group."
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.x",
+  "old": "Daily activities, quality of life and falls did not differ.",
+  "new": "The trial did not show a clear difference in daily activities, quality of life or falls.",
+  "reason": "minor: Non-significant results stated as no difference."
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.linkedin",
+  "old": "walked about 18 metres further in six minutes",
+  "new": "after six weeks walked about 18 metres further in six minutes",
+  "reason": "minor: Timeframe missing: the 18.1 m gain was over the first six weeks."
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.threads",
+  "old": "A later trial of 1,021 care home residents in six countries found no effect on low mood at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia and low mood, in six countries, did not show that music therapy groups or choir singing eased low mood more than usual care at 6 months.",
+  "reason": "major: Non-significant result stated as 'no effect'; also omits comparator and that residents had dementia and low mood."
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky, visual_brief.slides.0.text.body, visual_text.1, alt_text.0",
+  "old": "A later trial of 1,021 care home residents found no effect on low mood at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care at 6 months.",
+  "reason": "major: 'No effect' overstates a non-significant result."
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "Low mood may ease slightly while sessions last.",
+  "new": "Low mood probably eases slightly by the end of a course.",
+  "reason": "minor: Certainty word changed: Cochrane says 'probably' (moderate certainty), and the effect is at the end of treatment."
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.x",
+  "old": "Since then, a trial of 1,021 care home residents in six countries, including the UK, found that neither music therapy groups nor choir singing eased depressive symptoms at 6 months.",
+  "new": "Since then, a trial of 1,021 care home residents with dementia and low mood in six countries, including the UK, found that neither music therapy groups nor choir singing eased depressive symptoms more than usual care at 6 months.",
+  "reason": "minor: Comparator and population missing; should be 'more than usual care' and residents with dementia and low mood."
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.x",
+  "old": "No benefit was shown a month after they stopped.",
+  "new": "No benefit was shown a month after they stopped, though that evidence is weak.",
+  "reason": "minor: Omits that this long-term evidence is low or very low certainty."
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.x",
+  "old": "On a 0 to 10 scale, ratings of their own goals rose about 2.6 points with therapy, against about 0.9 with usual care. The gain held at 9 months, and family ratings agreed.",
+  "new": "On a 0 to 10 scale, ratings of their own goals rose about 2.6 points after 3 months with therapy, against about 0.9 with usual care. The gain held at 9 months, and family ratings agreed.",
+  "reason": "minor: Timepoint of 2.6 vs 0.9 (3 months) not stated."
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.x",
+  "old": "Therapy used prompts, memory aids and practising the skill, over 10 weekly visits then 4 more.",
+  "new": "Therapy could use prompts, memory aids and practising the skill, over 10 weekly visits then 4 more.",
+  "reason": "minor: Methods list is the paper's general description of cognitive rehabilitation, not a record of what was used."
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.threads",
+  "old": "Still, services should count the person's own goals too.",
+  "new": "In our view, services should count the person's own goals too.",
+  "reason": "minor: Judgement not marked as judgement."
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.bluesky",
+  "old": "and more moved to a care home in year one (about 37 vs 20 in 100), not over the next 3 years.",
+  "new": "and in an analysis done after the trial, more moved to a care home in year one (about 37 vs 20 in 100), but not over the next 3 years.",
+  "reason": "minor: Omits that the first-year comparison was a post-hoc analysis."
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.x",
+  "old": "The DOMINO-AD trial gives the reason.",
+  "new": "The DOMINO-AD trial is the main evidence.",
+  "reason": "minor: Attributes NICE's rationale to DOMINO-AD; NICE's reasoning is not in the opened source."
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.threads",
+  "old": "By 16 weeks, 7 of 102 people on mirtazapine had died, against 1 of 102.",
+  "new": "By 16 weeks, 7 of 102 people on mirtazapine had died, against 1 of 102 on the dummy tablet.",
+  "reason": "minor: Comparator not named; post hoc status missing in threads."
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.x",
+  "old": "The numbers are too small to be sure the drug caused this.",
+  "new": "This came from an analysis after the trial, and the numbers are too small to be sure the drug caused it.",
+  "reason": "minor: Should also say this came from a post-hoc analysis."
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.linkedin",
+  "old": "Access is narrower than much coverage suggests.",
+  "new": "(deleted)",
+  "reason": "minor: Claim about media coverage has no claim record."
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.x, captions.linkedin",
+  "old": "About 1 in 7 people who saw a Swedish GP with memory symptoms met the criteria for lecanemab after full tests.",
+  "new": "About 1 in 7 people who saw a Swedish GP with memory symptoms, from any cause, met the criteria for lecanemab after full tests.",
+  "reason": "minor: Denominator includes people whose problems were not due to Alzheimer's disease; X lacks this qualification (LinkedIn carries it)."
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "visual_brief.slides.0.text.labels.0, visual_text.2",
+  "old": "Panel 1 caption: 'Mum started donepezil in spring. She felt dizzy twice last week.'",
+  "new": "Has she felt dizzy or fainted since starting donepezil?",
+  "reason": "minor: Invented patient dialogue; it is labelled illustrative, but the rule set bars invented patients. Confirm with editor or replace with a non-narrative prompt card."
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "These medicines help some people with Alzheimer's disease.",
+  "new": "(deleted)",
+  "reason": "minor: No claim record cited for benefit; vague but uncontentious."
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.linkedin",
+  "old": "One thing that did not help: from 2014, people over 75 in England were given a named GP.",
+  "new": "One thing that did not seem to help: from 2014, people over 75 in England were given a named GP.",
+  "reason": "minor: Observational policy evaluation; 'did not help' is broader than 'not associated with improved continuity'."
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "captions.threads",
+  "old": "The activity hour is a reasonable place for a home to start.",
+  "new": "In our view, the activity hour is a reasonable place for a home to start, though it was not tested on its own.",
+  "reason": "minor: Editorial judgement, and the activity component was not tested alone; not marked as judgement."
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "captions.x",
+  "old": "A home could start with the tailored activity hour.",
+  "new": "In our view, a home could start with the tailored activity hour, though it was not tested on its own.",
+  "reason": "minor: Same; unmarked judgement."
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.x",
+  "old": "A 2023 review of 37 trials found a small boost to memory and thinking by the end of the course",
+  "new": "A 2023 review of 37 trials found the groups probably give a small boost to memory and thinking by the end of the course",
+  "reason": "minor: Certainty word dropped ('probably', moderate quality)."
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.linkedin",
+  "old": "with good evidence behind it",
+  "new": "with moderate-quality evidence behind it",
+  "reason": "minor: Overstates: cognition evidence is moderate quality and results varied."
+ }
+]
