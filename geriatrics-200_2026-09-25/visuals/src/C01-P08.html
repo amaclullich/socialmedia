@@ -16,7 +16,7 @@
  .tpl .c.last { border-bottom: none; }
  .after { display: grid; grid-template-columns: 1fr 230px; gap: 24px; align-items: center; margin-top: 26px; }
  .after .body { margin-top: 0; }
- #tools { height: 150px; position: relative; }
+ #tools { height: 160px; position: relative; }
  #tools svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 </style></head><body><div class="sheet">
 
@@ -31,7 +31,7 @@
    <div class="h">Where</div>
    <div class="h">What you were doing</div>
    <div class="h">How you felt just before</div>
-   <div class="h">Could you get up? How long on the floor?</div>
+   <div class="h">Could you get up?<br>How long on the floor?</div>
   </div>
   <div class="after">
    <p class="body">Take this to every appointment. An hour or more on the floor is a sign of high risk: tell the doctor.</p>
@@ -60,10 +60,11 @@ const pencil = (() => {
   s += pen.t(`M50,-3H${L - 46}`, '#B8862F', 2.5);
   s += pen.p(`M${L - 44},${-w / 2}L${L},0L${L - 44},${w / 2}Z`, '#E8CFAE'); // sharpened wood
   s += pen.p(`M${L - 14},-4L${L},0L${L - 14},4Z`, '#3B4A52');     // lead
-  return `<g transform="translate(30,118) rotate(-14)">${s}</g>`;
+  return `<g transform="translate(40,150) rotate(-7) scale(1.0)">${s}</g>`;
 })();
-K.draw('#tools', 330, 150, [
-  K.glasses({ x: 205, y: 70, scale: 1.7 }),
+K.draw('#tools', 330, 170, [
+  K.shadow(195, 100, 70),
+  K.glasses({ x: 195, y: 113, scale: 2.5, folded: true }),
   pencil
 ], { fit: 'xMidYMid meet' });
 window.__ready = true;
