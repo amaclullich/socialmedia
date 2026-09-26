@@ -1,0 +1,1193 @@
+{
+ "batch": "C01-B3",
+ "category": "C01",
+ "date_checked": "2026-09-25",
+ "notes": "Scite monthly usage limit was reached, so Scite editorial-notice checks were not possible; retraction checks used PubMed UID searches with retracted publication[pt], and correction checks used PubMed erratum/correction title searches. Google Drive full-text searches for ISTUMBLE and post-fall terms returned only unrelated files and confidential case documents (witness statements, care records, a provider falls policy in a case bundle); these were not opened or used. WebFetch is blocked, so NHS inform, NHS website, St John Ambulance, HSE and ambulance-service pages could not be opened. The WFG full text was re-opened in this batch via PubMed and all quoted passages were string-matched against it.",
+ "sources": [
+  {
+   "key": "PMID:20724399",
+   "citation": "Delbaere K, Close JC, Brodaty H, Sachdev P, Lord SR. Determinants of disparities between perceived and physiological risk of falling among elderly people: cohort study. BMJ. 2010;341:c4165.",
+   "pmid": "20724399",
+   "pmcid": "PMC2930273",
+   "doi": "10.1136/bmj.c4165",
+   "public_url": "https://doi.org/10.1136/bmj.c4165",
+   "design": "Prospective cohort study, one-year follow-up with monthly falls diaries; classification tree analysis",
+   "population_setting": "500 community-dwelling men and women aged 70 to 90, randomly recruited via the electoral roll from the Sydney Memory and Ageing Study, eastern Sydney, Australia (2006 to 2007); people with dementia, Parkinson's disease and some other neurological conditions excluded",
+   "year": 2010,
+   "access": "full_text",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; get_full_text_article (PMC2930273)",
+   "correction_check": "PubMed: PMID search with retracted publication[pt] returned no record (25 Sep 2026); published-erratum/correction title search found no notice for this article. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Well-designed single cohort with objective physiological measure (PPA) and validated concern measure (FES-I). Cut-points were derived in the same sample and the authors say they did not identify four distinct groups and need external confirmation; no replication was found in PubMed searches. Outcome was 'injurious or multiple falls', not any fall."
+  },
+  {
+   "key": "PMID:36178003",
+   "citation": "Montero-Odasso M, van der Velde N, Martin FC, Petrovic M, Tan MP, Ryg J, et al; Task Force on Global Guidelines for Falls in Older Adults. World guidelines for falls prevention and management for older adults: a global initiative. Age Ageing. 2022;51(9):afac205.",
+   "pmid": "36178003",
+   "pmcid": "PMC9523684",
+   "doi": "10.1093/ageing/afac205",
+   "public_url": "https://doi.org/10.1093/ageing/afac205",
+   "design": "International evidence- and consensus-based clinical practice guideline (GRADE-style ratings)",
+   "population_setting": "Older adults in community, hospital and care-home settings worldwide",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "Reused from C01-B2; re-opened with PubMed get_full_text_article (PMC9523684) in this batch, full text saved and every quoted passage string-matched",
+   "correction_check": "Correction notice PMID 37862147 (PMC10588741) opened in this batch: it corrects only a typographical error in a collaborating author's name (Frances Batchelor). PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Major current international guideline. Some statements (for example 'one in 8' long lies) are background citations of other studies."
+  },
+  {
+   "key": "PMID:37097766",
+   "citation": "Ellmers TJ, Freiberger E, Hauer K, Hogan DB, McGarrigle L, Lim ML, et al. Why should clinical practitioners ask about their patients' concerns about falling? Age Ageing. 2023;52(4):afad057.",
+   "pmid": "37097766",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afad057",
+   "public_url": "https://doi.org/10.1093/ageing/afad057",
+   "design": "Expert commentary from the World Falls Guidelines working group on concerns about falling",
+   "population_setting": "Older adults seen in falls prevention services",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata (no PMC full text; Undermind had no PDF)",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Expert opinion, not new data; authored by guideline working-group members."
+  },
+  {
+   "key": "PMID:6779979",
+   "citation": "Wild D, Nayak US, Isaacs B. How dangerous are falls in old people at home? Br Med J (Clin Res Ed). 1981;282(6260):266-8.",
+   "pmid": "6779979",
+   "pmcid": "PMC1504022",
+   "doi": "10.1136/bmj.282.6260.266",
+   "public_url": "https://doi.org/10.1136/bmj.282.6260.266",
+   "design": "Survey of fallers identified through general practices, with age- and sex-matched controls and follow-up (PubMed indexes it as a retrospective study)",
+   "population_setting": "125 people aged 65 and over who fell in their own homes, from six general practices in England",
+   "year": 1981,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; get_full_text_article (PMC1504022 returned abstract only, the PMC copy is a page scan); Undermind had no PDF",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Small, old study; only 20 people had a long lie. Full text (methods, exact follow-up, number of deaths among the 20) not read. Fleming 2008 cites it as 'a UK survey in general practice' in which 16% of fallers lay more than an hour (20/125 = 16%), consistent with the abstract."
+  },
+  {
+   "key": "PMID:8416408",
+   "citation": "Tinetti ME, Liu WL, Claus EB. Predictors and prognosis of inability to get up after falls among elderly persons. JAMA. 1993;269(1):65-70.",
+   "pmid": "8416408",
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/8416408/",
+   "design": "Prospective community cohort, mean 21-month follow-up",
+   "population_setting": "1103 residents of New Haven, Connecticut, USA, aged 72 and over, able to walk unassisted",
+   "year": 1993,
+   "access": "abstract",
+   "tool_used": "Reused from C01-B2; re-opened with PubMed get_article_metadata in this batch",
+   "correction_check": "PubMed retracted publication[pt] search: none (checked again 25 Sep 2026). Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Landmark but old US cohort; inability to get up was self-reported; several outcome differences not statistically significant."
+  },
+  {
+   "key": "PMID:19015185",
+   "citation": "Fleming J, Brayne C. Inability to get up after falling, subsequent time on floor, and summoning help: prospective cohort study in people over 90. BMJ. 2008;337:a2227.",
+   "pmid": "19015185",
+   "pmcid": "PMC2590903",
+   "doi": "10.1136/bmj.a2227",
+   "public_url": "https://doi.org/10.1136/bmj.a2227",
+   "design": "Prospective population-based cohort, one-year intensive falls follow-up (calendars, phone calls, visits)",
+   "population_setting": "110 people aged over 90 (90 women, 20 men) from the Cambridge City over-75s Cohort, own homes, sheltered housing and care homes, Cambridge, UK; 66 fell",
+   "year": 2008,
+   "access": "full_text",
+   "tool_used": "Reused from C01-B2; re-opened with PubMed get_full_text_article (PMC2590903) in this batch",
+   "correction_check": "PubMed retracted publication[pt] search: none (checked again 25 Sep 2026). Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Small (66 fallers, 20 with long lies); wide confidence intervals; care-home link not significant after adjustment; death after a long lie was not reported as an outcome."
+  },
+  {
+   "key": "PMID:37644386",
+   "citation": "Kubitza J, Schneider IT, Reuschenbach B. Concept of the term long lie: a scoping review. Eur Rev Aging Phys Act. 2023;20(1):16.",
+   "pmid": "37644386",
+   "pmcid": "PMC10463813",
+   "doi": "10.1186/s11556-023-00326-3",
+   "public_url": "https://doi.org/10.1186/s11556-023-00326-3",
+   "design": "Scoping review (Arksey and O'Malley framework), 22 primary studies 1981 to 2022",
+   "population_setting": "Studies of people who experienced or treated a long lie, mostly older adults, in Europe, USA and Australia",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "Undermind search_papers (discovery); PubMed convert_article_ids; get_full_text_article (PMC10463813)",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Scoping review of definitions; no pooled estimates; citation numbers missing from the extracted text, so the specific studies behind statements on mortality could not be identified. Citation details (20(1):16) confirmed from PubMed metadata."
+  },
+  {
+   "key": "PMID:18194967",
+   "citation": "Scheffer AC, Schuurmans MJ, van Dijk N, van der Hooft T, de Rooij SE. Fear of falling: measurement strategy, prevalence, risk factors and consequences among older persons. Age Ageing. 2008;37(1):19-24.",
+   "pmid": "18194967",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afm169",
+   "public_url": "https://doi.org/10.1093/ageing/afm169",
+   "design": "Systematic review of 28 studies",
+   "population_setting": "Community-dwelling older people",
+   "year": 2008,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Older review; prevalence estimates vary widely because of measurement differences."
+  },
+  {
+   "key": "PMID:38580924",
+   "citation": "Xiong W, Wang D, Ren W, Liu X, Wen R, Luo Y. The global prevalence of and risk factors for fear of falling among older adults: a systematic review and meta-analysis. BMC Geriatr. 2024;24(1):321.",
+   "pmid": "38580924",
+   "pmcid": "PMC10998426",
+   "doi": "10.1186/s12877-024-04882-w",
+   "public_url": "https://doi.org/10.1186/s12877-024-04882-w",
+   "design": "Systematic review and meta-analysis of 153 observational studies",
+   "population_setting": "200,033 older adults in 38 countries, community and patient samples",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Very heterogeneous measures of fear of falling (pooled figure spans 7% to 90% across studies); pooled prevalence is a rough indication only."
+  },
+  {
+   "key": "PMID:18312314",
+   "citation": "Deshpande N, Metter EJ, Lauretani F, Bandinelli S, Guralnik J, Ferrucci L. Activity restriction induced by fear of falling and objective and subjective measures of physical function: a prospective cohort study. J Am Geriatr Soc. 2008;56(4):615-20.",
+   "pmid": "18312314",
+   "pmcid": "PMC2645621",
+   "doi": "10.1111/j.1532-5415.2007.01639.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.2007.01639.x",
+   "design": "Prospective population-based cohort, 3-year follow-up",
+   "population_setting": "673 community-living people aged 65 and over who reported fear of falling, InCHIANTI study, Tuscany, Italy",
+   "year": 2008,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; get_full_text_article (PMC2645621 returned abstract only)",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Observational; adjusted for confounders but association only. Population is people who already reported fear of falling."
+  },
+  {
+   "key": "PMID:16267188",
+   "citation": "Yardley L, Beyer N, Hauer K, Kempen G, Piot-Ziegler C, Todd C. Development and initial validation of the Falls Efficacy Scale-International (FES-I). Age Ageing. 2005;34(6):614-9.",
+   "pmid": "16267188",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afi196",
+   "public_url": "https://doi.org/10.1093/ageing/afi196",
+   "design": "Cross-sectional validation survey",
+   "population_setting": "704 community-dwelling people aged 60 to 95, UK",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Instrument development paper; the WFG recommends FES-I (grade 1A in community)."
+  },
+  {
+   "key": "PMID:18032400",
+   "citation": "Kempen GI, Yardley L, van Haastregt JC, Zijlstra GA, Beyer N, Hauer K, Todd C. The Short FES-I: a shortened version of the falls efficacy scale-international to assess fear of falling. Age Ageing. 2008;37(1):45-50.",
+   "pmid": "18032400",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afm157",
+   "public_url": "https://doi.org/10.1093/ageing/afm157",
+   "design": "Instrument development and validation (UK and Dutch community surveys)",
+   "population_setting": "704 UK and 300 Dutch community-dwelling older people",
+   "year": 2008,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Validation study; Short FES-I has 7 items (item count confirmed in WFG full text)."
+  },
+  {
+   "key": "PMID:25432016",
+   "citation": "Kendrick D, Kumar A, Carpenter H, Zijlstra GA, Skelton DA, Cook JR, et al. Exercise for reducing fear of falling in older people living in the community. Cochrane Database Syst Rev. 2014;(11):CD009848.",
+   "pmid": "25432016",
+   "pmcid": "PMC7388865",
+   "doi": "10.1002/14651858.CD009848.pub2",
+   "public_url": "https://doi.org/10.1002/14651858.CD009848.pub2",
+   "design": "Cochrane systematic review and meta-analysis of 30 randomised and quasi-randomised trials",
+   "population_setting": "2878 community-dwelling older people",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Low to very low certainty evidence; outcomes self-reported and unblinded."
+  },
+  {
+   "key": "PMID:29471428",
+   "citation": "Liu TW, Ng GY, Chung RC, Ng SS. Cognitive behavioural therapy for fear of falling and balance among older people: a systematic review and meta-analysis. Age Ageing. 2018;47(4):520-527.",
+   "pmid": "29471428",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afy010",
+   "public_url": "https://doi.org/10.1093/ageing/afy010",
+   "design": "Systematic review and meta-analysis of 6 randomised trials",
+   "population_setting": "1626 community-dwelling older people",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Small number of trials; effect sizes not given in abstract."
+  },
+  {
+   "key": "PMID:3385114",
+   "citation": "Cummings SR, Nevitt MC, Kidd S. Forgetting falls. The limited accuracy of recall of falls in the elderly. J Am Geriatr Soc. 1988;36(7):613-6.",
+   "pmid": "3385114",
+   "pmcid": null,
+   "doi": "10.1111/j.1532-5415.1988.tb06155.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.1988.tb06155.x",
+   "design": "Validation substudy within a 12-month prospective cohort (weekly follow-up and home visits to confirm falls, then telephone recall)",
+   "population_setting": "304 ambulatory men and women over 60, USA (University of California, San Francisco)",
+   "year": 1988,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata (no PMC; Undermind had no PDF)",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Classic small study; abstract gives the 13% to 32% range but does not say which figure applies to which recall period."
+  },
+  {
+   "key": "PMID:16398908",
+   "citation": "Ganz DA, Higashi T, Rubenstein LZ. Monitoring falls in cohort studies of community-dwelling older people: effect of the recall interval. J Am Geriatr Soc. 2005;53(12):2190-4.",
+   "pmid": "16398908",
+   "pmcid": null,
+   "doi": "10.1111/j.1532-5415.2005.00509.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.2005.00509.x",
+   "design": "Systematic review of 6 studies",
+   "population_setting": "Community-dwelling older people in prospective falls studies",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "Consensus search (discovery); PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Small systematic review; research-setting accuracy, not clinical practice."
+  },
+  {
+   "key": "PMID:20360242",
+   "citation": "Hannan MT, Gagnon MM, Aneja J, Jones RN, Cupples LA, Lipsitz LA, et al. Optimizing the tracking of falls in studies of older participants: comparison of quarterly telephone recall with monthly falls calendars in the MOBILIZE Boston Study. Am J Epidemiol. 2010;171(9):1031-6.",
+   "pmid": "20360242",
+   "pmcid": "PMC2877474",
+   "doi": "10.1093/aje/kwq024",
+   "public_url": "https://doi.org/10.1093/aje/kwq024",
+   "design": "Reliability study within a population-based cohort",
+   "population_setting": "218 randomly selected participants of the MOBILIZE Boston Study (765 older people), Boston, USA, 2007 to 2008",
+   "year": 2010,
+   "access": "abstract",
+   "tool_used": "Consensus search (discovery); PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Small number of fallers (36) in the 3-month window."
+  },
+  {
+   "key": "PMID:22142666",
+   "citation": "Zieschang T, Schwenk M, Becker C, Oster P, Hauer K. Feasibility and accuracy of fall reports in persons with dementia: a prospective observational study. Int Psychogeriatr. 2012;24(4):587-98.",
+   "pmid": "22142666",
+   "pmcid": null,
+   "doi": "10.1017/S1041610211002122",
+   "public_url": "https://doi.org/10.1017/S1041610211002122",
+   "design": "Prospective observational study nested in a randomised trial; seven fall-recording methods compared",
+   "population_setting": "110 people with mild to moderate dementia, Heidelberg, Germany, 12 months",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "Consensus search (discovery); PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none; no correction found in title search. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Single-centre, dementia-specific; published online 2011, print 2012."
+  },
+  {
+   "key": "PMID:33023509",
+   "citation": "Swancutt DR, Hope SV, Kent BP, Robinson M, Goodwin VA. Knowledge, skills and attitudes of older people and staff about getting up from the floor following a fall: a qualitative investigation. BMC Geriatr. 2020;20(1):385.",
+   "pmid": "33023509",
+   "pmcid": "PMC7542342",
+   "doi": "10.1186/s12877-020-01790-7",
+   "public_url": "https://doi.org/10.1186/s12877-020-01790-7",
+   "design": "Qualitative study (interviews and focus group, Framework analysis)",
+   "population_setting": "28 participants in Devon, England: older people who had fallen, spouses, therapists, paramedics and first responders",
+   "year": 2020,
+   "access": "full_text",
+   "tool_used": "Reused from C01-B2; re-opened with PubMed get_full_text_article (PMC7542342) in this batch",
+   "correction_check": "PubMed retracted publication[pt] search: none (checked again 25 Sep 2026). Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Qualitative, one region; the carers-injury statement is a background citation in its introduction, not a finding."
+  },
+  {
+   "key": "PMID:40819292",
+   "citation": "Gunson IM, Barley C, Rosser A, Bullock L, Gordon AL, Kingstone T, et al. Ambulance responses to older adults who have fallen: a systematic review. Age Ageing. 2025;54(8):afaf228.",
+   "pmid": "40819292",
+   "pmcid": "PMC12358043",
+   "doi": "10.1093/ageing/afaf228",
+   "public_url": "https://doi.org/10.1093/ageing/afaf228",
+   "design": "Systematic review (9 studies, narrative synthesis)",
+   "population_setting": "Older adults (65+) who fell and received an ambulance response",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "Undermind search_papers and read_pdfs (PDF read for any mention of ISTUMBLE or post-fall checklists); PubMed convert_article_ids and get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] search: none. Scite unavailable (monthly usage limit reached), so no Scite editorial-notice check.",
+   "quality_note": "Used only to record that a 2025 systematic review of ambulance falls responses (authors include West Midlands Ambulance Service staff) does not describe ISTUMBLE or any care-home lifting checklist."
+  },
+  {
+   "key": "URL:https://www.winncare.uk/experts-in-falls-management-launch-new-generation-post-falls-assessment-app-istumble/",
+   "citation": "Winncare. Experts in falls management launch new generation post falls assessment app, ISTUMBLE [press release; web page not opened]. Search-engine extract accessed 25 Sep 2026.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.winncare.uk/experts-in-falls-management-launch-new-generation-post-falls-assessment-app-istumble/",
+   "design": "Manufacturer press release (lifting-equipment company), known only through a search-engine summary",
+   "population_setting": "Care homes and carers, UK",
+   "year": null,
+   "access": "search_extract",
+   "tool_used": "WebSearch (result list and generated summary only; WebFetch blocked)",
+   "correction_check": "Not applicable (not a journal article).",
+   "quality_note": "Commercial source with a conflict of interest; the tool's items, current version and wording could not be seen. Not sufficient for any claim."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C01-19-a",
+   "cand_id": "C01-19",
+   "claim": "In a Sydney cohort of 500 older people living at home, combining concern about falling with measured physical risk gave four groups, and about a third had a mismatch between the two.",
+   "source_keys": [
+    "PMID:20724399"
+   ],
+   "supporting_passage": "Methods: \"A total of 500 people aged 70–90 years participated in the prospective cohort study with a one year follow-up for falls. They were randomly recruited from a cohort of 1037 men and women living in the community in eastern Sydney and participating in the first stage of the Sydney Memory and Ageing Study (January 2006 to October 2007).\" ... \"Falls frequency during the one year follow-up was monitored with monthly falls diaries.\" Results: \"Most people had an accurate perception of their fall risk: 144 (29%) comprised a “vigorous” group who had both low physiological and perceived fall risks, and 202 (40%) comprised an “aware” group who had both high physiological and perceived fall risks. About a third of our population, however, had disparities between their perceived and physiological fall risk: 54 (11%) had low physiological fall risk but a high perceived risk and were classified as “anxious,” and 100 (20%) had a high physiological risk but low perceived risk and were classified as “stoic.”\"",
+   "location": "Full text, Methods (Participants; Falls follow-up); Results (Classification tree); Abstract",
+   "pico_timeframe": "500 community-dwelling people aged 70 to 90, eastern Sydney; perceived risk = FES-I concern score; physiological risk = Physiological Profile Assessment (vision contrast, position sense, quadriceps strength, reaction time, sway); one-year prospective falls follow-up; cross-classification at baseline.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Sydney study of 500 people aged 70 to 90 living at home measured two things: how worried each person was about falling, and their physical risk (vision, sensation in the legs, leg strength, reaction time and balance). Most people's worry matched their risk. But about 1 in 3 did not: 11 in 100 were very worried despite a low physical risk, and 20 in 100 were unworried despite a high one.",
+   "qualifications": "One Australian cohort, published 2010, of fairly healthy volunteers recruited from the electoral roll; people with dementia or Parkinson's disease were excluded. 'Physical risk' is the Physiological Profile Assessment score, not a clinical judgement. Group labels are the authors' (vigorous, aware, anxious, stoic).",
+   "conflicting_or_uncertain": "The authors state the cut-points are estimates and 'did not identify four distinct groups'; no external replication was found (see C01-19-g).",
+   "numbers": [
+    {
+     "value": "500",
+     "meaning": "participants aged 70 to 90, community-dwelling, eastern Sydney"
+    },
+    {
+     "value": "144 (29%)",
+     "meaning": "'vigorous': low physical risk, low concern"
+    },
+    {
+     "value": "202 (40%)",
+     "meaning": "'aware': high physical risk, high concern"
+    },
+    {
+     "value": "54 (11%)",
+     "meaning": "'anxious': low physical risk, high concern"
+    },
+    {
+     "value": "100 (20%)",
+     "meaning": "'stoic': high physical risk, low concern"
+    },
+    {
+     "value": "about a third (154 of 500)",
+     "meaning": "people whose concern did not match their physical risk (54 + 100)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-19-b",
+   "cand_id": "C01-19",
+   "claim": "Both concern about falling and physical risk predicted injurious or repeated falls over the next year, each independently of the other.",
+   "source_keys": [
+    "PMID:20724399",
+    "PMID:36178003"
+   ],
+   "supporting_passage": "Delbaere 2010: \"Fallers were defined as people who had at least one injurious fall or at least two non-injurious falls during the 12 month follow-up period.\" ... \"Multivariate logistic regression analysis identified both risk factors as independent of each other and of similar importance (χ=13.32, df=2, P=0.001) (table 2).\" Abstract: \"Multivariate logistic regression analyses showed that perceived and physiological fall risk were both independent predictors of future falls.\" Results: \"In all, 149 (30%) of participants reported one or more falls in the previous year, and 214 (43%) reported one or more falls during the one year follow-up (six participants were lost during follow-up for falls).\" WFG 2022: \"Concerns about falling—or the closely related notion of fear of falling—shows heterogeneous results in predicting future falls in the community.\"",
+   "location": "Delbaere: Methods (Statistical analyses), Results (Predicting injurious or multiple falls, Table 2), Abstract. WFG: Concerns about falling and falls, Recommendation details and justification",
+   "pico_timeframe": "494 participants completing follow-up; outcome = at least one injurious fall or two or more non-injurious falls in 12 months; multivariable logistic regression with both measures.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In that study, both worry about falling and physical risk were linked with having an injurious fall or repeated falls over the next year, and each still counted after allowing for the other.",
+   "qualifications": "Association in one cohort; the outcome is 'injurious or multiple falls', not any fall. Do not convert the odds ratios (1.29 and 1.23 in Table 2; the scaling unit is not stated in the extracted text) into 'times more likely'. Across other studies, concern predicts falls inconsistently (WFG).",
+   "conflicting_or_uncertain": "WFG: concern about falling 'shows heterogeneous results in predicting future falls in the community'. Say 'in this study'.",
+   "numbers": [
+    {
+     "value": "494",
+     "meaning": "participants with complete one-year falls follow-up"
+    },
+    {
+     "value": "214 (43%)",
+     "meaning": "reported one or more falls of any kind during the follow-up year (Results text)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-19-c",
+   "cand_id": "C01-19",
+   "claim": "The 'anxious' group (low physical risk, high concern) had more depressive symptoms, more neurotic personality traits and poorer executive function; almost 40% of them had injurious or repeated falls, and they were not less active.",
+   "source_keys": [
+    "PMID:20724399"
+   ],
+   "supporting_passage": "Abstract: \"The anxious group (54 (11%)) had a low physiological risk but high perceived fall risk, which was related to depressive symptoms (P=0.029), neurotic personality traits (P=0.026), and decreased executive functioning (P=0.010).\" Discussion: \"About 10% of the study population showed excessive levels of perceived fall risk and were classified as anxious. Despite their low physiological fall risk, almost 40% of the anxious group experienced multiple or injurious falls during the one year follow-up. In keeping with previous studies, we anticipated that self imposed restriction on levels of physical activity would contribute to overall risk in this group.However, there was no indication of lower levels of activity, so other reasons need to be explored as to why “anxious” participants fell more than “vigorous” participants during follow-up.\" Results: \"the people who rated their fall risk inappropriately high (“anxious”) were more likely to be female, showed higher levels of self rated disability, had a lower quality of life, had more symptoms of depression, showed higher levels of neuroticism, scored poorly on executive functioning, and performed badly on the coordinated stability test compared with the group with an accurate perception of their low fall risk (“vigorous”).\"",
+   "location": "Abstract; Results (Differences between groups, Table 1); Discussion (Comparison with other studies)",
+   "pico_timeframe": "54 'anxious' vs 144 'vigorous' participants; baseline comparisons; falls over one year.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The very worried people with a low physical risk were more likely to have low mood, a more anxious temperament and slower thinking on a planning test. Almost 4 in 10 of them had an injurious fall or repeated falls during the year. They were no less active than people with a matching low risk and low worry.",
+   "qualifications": "Group differences are associations measured at baseline. The authors suggest poorer dynamic balance (coordinated stability test) and fear-induced stiffening as possible reasons; these are hypotheses.",
+   "conflicting_or_uncertain": "The expected activity restriction was not found in this group, so do not say their worry made them stop activities.",
+   "numbers": [
+    {
+     "value": "almost 40%",
+     "meaning": "of the anxious group had multiple or injurious falls in the one-year follow-up"
+    },
+    {
+     "value": "54",
+     "meaning": "people in the anxious group"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-19-d",
+   "cand_id": "C01-19",
+   "claim": "The 'stoic' group (high physical risk, low concern) were younger, stronger, more active and more positive; about 1 in 3 had injurious or repeated falls, fewer than the 'aware' group, and most who fell stayed unconcerned.",
+   "source_keys": [
+    "PMID:20724399"
+   ],
+   "supporting_passage": "Results: \"People who rated their fall risk inappropriately low (“stoic”) were younger, took fewer medications in total and fewer psychotropic medications, had lower levels of self rated disability, had a better reported quality of life, did more planned exercise, had fewer symptoms of depression, showed lower levels of neuroticism, were stronger, and performed better on the coordinated stability test compared with the group with an accurate perception of their high fall risk (“aware”).\" ... \"Only six of the 34 stoics who fell during the follow-up year increased their concern about fall risk after an injurious or multiple fall, while the remainder stayed unconcerned about falls.\" Discussion: \"About one in three stoics fell in the follow-up year—a rate intermediate between those of the vigorous group and the aware group.\" ... \"However, the psychological profile of stoics did not indicate excessive risk taking behaviour but rather a positive attitude to life, emotional stability, and low reactivity to stress.\"",
+   "location": "Results (Differences between groups); Discussion (Comparison with other studies)",
+   "pico_timeframe": "100 'stoic' vs 202 'aware' participants; baseline comparisons; falls over one year.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The unworried people with a high physical risk tended to be younger, stronger, more active and more positive. About 1 in 3 of them had an injurious fall or repeated falls during the year: fewer than the worried high-risk group, more than the unworried low-risk group. Of the 34 who fell, only 6 became more concerned afterwards.",
+   "qualifications": "Being unworried went with fewer falls than in the 'aware' group, probably through staying active; the authors found no sign of risk-taking. So do not present stoics as reckless or as the most endangered group; the point is that a worry-only check would call them low risk when 1 in 3 had serious or repeated falls.",
+   "conflicting_or_uncertain": "The 'fell' figure is for injurious or multiple falls as defined in Methods.",
+   "numbers": [
+    {
+     "value": "about 1 in 3 (34 of 100)",
+     "meaning": "stoics with injurious or multiple falls in the follow-up year"
+    },
+    {
+     "value": "6 of 34",
+     "meaning": "stoics who fell and then became more concerned"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-19-e",
+   "cand_id": "C01-19",
+   "claim": "The authors suggested matching help to the group: psychological therapy (CBT) for the anxious, balance-challenging exercise for the stoic, both for the aware; guideline and trial evidence support exercise and CBT for reducing concerns.",
+   "source_keys": [
+    "PMID:20724399",
+    "PMID:36178003",
+    "PMID:29471428",
+    "PMID:25432016"
+   ],
+   "supporting_passage": "Delbaere 2010: \"People equivalent to our anxious group should be guided towards cognitive behavioural therapy with the aim of improving self efficacy and sense of control over falling,reducing symptoms of depression,and promoting an active and healthy lifestyle.Stoics should be motivated to participate in exercise programmes specifically designed to reduce fall risk, comprising high intensity balance training,in addition to their own exercise regimen. For the aware, a combination of both exercise and cognitive behavioural therapy is likely to be most effective.\" WFG 2022: \"We recommend exercise, cognitive behavioural therapy and/or occupational therapy (as part of a multidisciplinary approach) to reduce concerns about falling in community-dwelling older adults\" Liu 2018: \"Our analysis suggests that CBT interventions have significant immediate and retention effects up to 12 months on reducing fear of falling, and 6 months post-intervention effect on enhancing balance.\" Kendrick 2014: \"Exercise interventions in community-dwelling older people probably reduce fear of falling to a limited extent immediately after the intervention, without increasing the risk or frequency of falls.\"",
+   "location": "Delbaere: Discussion (Clinical and future research implications). WFG: Concerns about falling and falls interventions. Liu 2018 and Kendrick 2014: Abstracts",
+   "pico_timeframe": "Delbaere suggestions are not tested in that study. WFG: community-dwelling older adults. Liu: 6 RCTs, 1626 community-dwelling older people. Kendrick: 30 trials, 2878 people, low-certainty evidence.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The researchers suggested different help for each mismatch: for people who are very worried but physically at low risk, a talking therapy (cognitive behavioural therapy) to rebuild confidence; for people at high physical risk who are not worried, challenging balance exercise; for people who are both, both. International guidelines recommend exercise, cognitive behavioural therapy or occupational therapy to reduce concerns about falling.",
+   "qualifications": "The per-group matching is the authors' proposal, not a tested strategy; say 'the researchers suggested'. The paper gives no specific advice for the 'vigorous' group; if the grid needs a line there, use the WFG advice for low-risk people (advice on staying safely active) and label it as general advice. Exercise evidence for reducing fear is low certainty and effects fade after programmes end.",
+   "conflicting_or_uncertain": "Kendrick 2014: insufficient evidence that exercise reduces fear of falling beyond the end of the programme.",
+   "numbers": [
+    {
+     "value": "6 trials, 1626 people",
+     "meaning": "Liu 2018 CBT meta-analysis"
+    },
+    {
+     "value": "up to 12 months",
+     "meaning": "duration of CBT effect on fear of falling in Liu 2018"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-19-f",
+   "cand_id": "C01-19",
+   "claim": "Guidelines recommend assessing concern about falling together with balance or gait, to put the concern in context.",
+   "source_keys": [
+    "PMID:36178003",
+    "PMID:20724399"
+   ],
+   "supporting_passage": "WFG 2022: \"We recommend clinicians adopt a holistic approach, combining concern about falling with balance and/or gait assessment as this will help to put the degree of concern in context, when assessing older adults in the community.\" ... \"an older adult inappropriately very fearful of falling may be reluctant to increase their physical activity and follow an exercise programme if this is not dealt with\" Delbaere 2010 Conclusion: \"Measures of both physiological and perceived fall risk should be included in fall risk assessments and the proposed disparity categorisation may assist in designing tailored interventions for preventing falls in elderly people.\"",
+   "location": "WFG: Concerns about falling and falls, Recommendation details and justification. Delbaere: Conclusion",
+   "pico_timeframe": "Guideline for community-dwelling older adults.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The World Falls Guidelines advise checking worry about falling alongside a test of balance or walking, so the worry can be read in context. The Sydney researchers reached the same conclusion: measure both.",
+   "qualifications": "None beyond attributing it to the guideline.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-19-g",
+   "cand_id": "C01-19",
+   "claim": "The four groups are approximate: the cut-points were derived in this sample, did not separate four distinct groups, and have not been confirmed elsewhere.",
+   "source_keys": [
+    "PMID:20724399"
+   ],
+   "supporting_passage": "\"Although dichotomising the physiological profile assessment and the falls efficacy scale international provided a parsimonious way of assessing disparities between perceived and physiological fall risk, the cut-points we derived for these measures should be considered estimates only, as it can be seen from fig 2that the cut-points did not identify four distinct groups. Further studies are therefore necessary to confirm the cut-points in external samples, and to investigate whether the same disparity categorisation can also be found in elderly people at increased risk of falls, including those with cognitive impairment and Parkinson’s disease.\" Also: \"Our sample largely consists of healthy, community dwelling, elderly adults\"",
+   "location": "Discussion, Limitations of study",
+   "pico_timeframe": "As C01-19-a.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The four groups are a way of thinking, not a validated test: the researchers said their dividing lines were estimates and needed checking in other groups of people, including people with dementia or Parkinson's disease.",
+   "qualifications": "PubMed and Consensus searches (25 Sep 2026) found no replication of the four-group classification; that is an absence of evidence, not a failed replication.",
+   "conflicting_or_uncertain": "WFG notes concern predicts falls inconsistently across studies.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-08-a",
+   "cand_id": "C01-08",
+   "claim": "Wild, Nayak and Isaacs (BMJ 1981) studied 125 people aged 65 and over who fell at home, found through six general practices; 20 lay on the floor for more than an hour, and half of those 20 died within six months of the fall.",
+   "source_keys": [
+    "PMID:6779979",
+    "PMID:19015185"
+   ],
+   "supporting_passage": "Wild 1981 abstract: \"From a survey in six general practices information was obtained on 125 people aged 65 and over who fell in their own homes. Three fractured their femurs and 15 had other fractures; most of the rest suffered only trivial injuries. Twenty lay on the floor for more than one hour; none were known to have suffered hypothermia. One-quarter of these patients died within one year of the fall, five times as many as in an age- and sex-matched control group; while of those who lay on the floor for more than one hour, half died within six months of the fall.\" Fleming 2008 (Discussion): \"In a UK survey in general practice 16% of those aged over 65 who fell in their own homes lay on the floor for more than an hour.\"",
+   "location": "Wild 1981 Abstract (full text not available as text); Fleming 2008 Discussion (Key findings in context)",
+   "pico_timeframe": "125 fallers aged 65+ at home, six English general practices, published 1981; exposure = more than one hour on the floor; outcome = death within six months; comparison within the same small series.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The line 'half of people who lie on the floor for more than an hour die within six months' comes from a 1981 BMJ study. Researchers followed 125 people aged 65 and over who had fallen at home, found through six general practices. Twenty of them lay on the floor for more than an hour, and half of those 20 died within six months.",
+   "qualifications": "The finding rests on 20 people; say 'half of 20 people', not a percentage of a large group. Do not say how many practices' patients were screened or give an exact number of deaths beyond 'half of the 20'; the full text was not read. Do not claim the figure is 'often quoted' (not verified; see C01-08-h). Do not imply the figure is wrong: it is small, old and describes an association.",
+   "conflicting_or_uncertain": "Tinetti 1993 (larger US cohort) did not find a statistically clear difference in death between fallers who could and could not get up (C01-08-d).",
+   "numbers": [
+    {
+     "value": "125",
+     "meaning": "people aged 65+ who fell in their own homes, from six general practices, 1981"
+    },
+    {
+     "value": "20 (16%)",
+     "meaning": "lay on the floor for more than one hour (16% is Fleming's restatement; 20/125)"
+    },
+    {
+     "value": "half of 20",
+     "meaning": "of those who lay more than an hour, died within six months of the fall"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-b",
+   "cand_id": "C01-08",
+   "claim": "In the same 1981 study, fallers as a whole had high mortality, and the authors themselves concluded that falls at home often signal severe ill health.",
+   "source_keys": [
+    "PMID:6779979"
+   ],
+   "supporting_passage": "\"One-quarter of these patients died within one year of the fall, five times as many as in an age- and sex-matched control group\" ... \"Factors associated with mortality from falls were impaired mobility, abnormal balance, and a disturbed pattern of gait. Falls at home in old age are often indicative of the presence of severe ill health.\"",
+   "location": "Abstract",
+   "pico_timeframe": "125 fallers vs age- and sex-matched controls; death within one year.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The same study found that a quarter of all the people who fell died within a year, five times as many as in a comparison group of the same age and sex. The authors' own conclusion was that falls at home often point to severe ill health. So the deaths after long lies cannot all be put down to the time on the floor.",
+   "qualifications": "The last sentence is an inference that follows from the design (no adjustment for illness in a series of 20); present it as a reading of the study, not a finding.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "one-quarter",
+     "meaning": "of the 125 fallers died within one year of the fall"
+    },
+    {
+     "value": "five times",
+     "meaning": "the one-year death rate in age- and sex-matched controls (relative)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-c",
+   "cand_id": "C01-08",
+   "claim": "People who cannot get up after a fall differ from those who can: they are older, have poorer balance, gait and mobility, and more depression or cognitive impairment.",
+   "source_keys": [
+    "PMID:8416408",
+    "PMID:19015185",
+    "PMID:37644386"
+   ],
+   "supporting_passage": "Tinetti 1993: \"Compared with non-fallers, the risk factors independently associated with inability to get up included the following: an age of at least 80 years (adjusted relative risk [RR], 1.6; 95% confidence interval [CI], 1.2 to 2.1); depression (RR, 1.5; CI, 1.1 to 2.0); and poor balance and gait (RR, 2.0; CI, 1.5 to 2.7).\" Fleming 2008 abstract: \"Difficulty in getting up was consistently associated with age, reported mobility, and severe cognitive impairment. Cognition was the only characteristic that predicted lying on the floor for a long time.\" Kubitza 2023: \"Older adults suffered falls [–,–,,–], but it has been the frailty of the individuals that affected their inability to get up after the fall [–,,–,].\"",
+   "location": "Tinetti Abstract (Results); Fleming Abstract; Kubitza Findings (Causes and associated factors)",
+   "pico_timeframe": "Tinetti: 1103 people 72+, New Haven, mean 21 months. Fleming: 110 people over 90, Cambridge, one year. Kubitza: 22 studies.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "People who can't get up after a fall are, on average, older, with weaker balance and walking, and more often have low mood or memory problems. Those same things are linked with dying sooner.",
+   "qualifications": "The second sentence is general background; if used, keep it as a reason the link is hard to interpret, not as a new statistic.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "1103",
+     "meaning": "Tinetti cohort, aged 72+"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-d",
+   "cand_id": "C01-08",
+   "claim": "In a larger 1993 US cohort, fallers who could not get up were more likely to have a lasting decline in daily activities; differences in death and hospital admission pointed the same way but were not statistically significant.",
+   "source_keys": [
+    "PMID:8416408"
+   ],
+   "supporting_passage": "\"Inability to get up without help was reported after 220 of 596 non-injurious falls. Of 313 non-injured fallers, 148 (47%) reported inability to get up after at least one fall.\" ... \"Compared with fallers who were able to get up, fallers who were unable to get up were more likely to suffer lasting decline in activities of daily living (35% vs 26%). Fallers who were unable to get up were more likely to die, to be hospitalized, and to suffer a decline in activities of daily living for at least 3 days, and were less likely to be placed in a nursing home than were fallers who were able to get up, but these trends were not statistically significant.\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "1103 community residents aged 72+ in New Haven, USA; non-injured fallers unable vs able to get up; outcomes over mean 21 months; inability self-reported.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A larger US study published in 1993 followed 1103 people aged 72 and over. Among those who fell without serious injury, almost half (148 of 313) could not get up at least once. They were more likely to lose everyday abilities for good (35 in 100, against 26 in 100 of those who could get up). They were also more likely to die, but that difference could have been chance.",
+   "qualifications": "Exposure is 'unable to get up without help', not a timed long lie. Self-reported. Old US cohort.",
+   "conflicting_or_uncertain": "This is the main counterweight to the 1981 'half die' figure: in a larger cohort the death difference was not statistically clear. That is uncertainty, not proof of no effect.",
+   "numbers": [
+    {
+     "value": "148 of 313 (47%)",
+     "meaning": "non-injured fallers who could not get up without help after at least one fall"
+    },
+    {
+     "value": "35% vs 26%",
+     "meaning": "lasting decline in daily activities, unable vs able to get up"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-e",
+   "cand_id": "C01-08",
+   "claim": "A 2008 UK cohort of people over 90 linked lying on the floor for an hour or more with serious injury and fall-related hospital admission; the link with moving into a care home was uncertain after adjustment, and death was not reported.",
+   "source_keys": [
+    "PMID:19015185"
+   ],
+   "supporting_passage": "Abstract: \"Of the 60% who fell, 80% (53/66) were unable to get up after at least one fall and 30% (20/66) had lain on the floor for an hour or more.\" Results: \"Serious injury, however, was consistently associated with lying on the floor for a long time, regardless of adjustment. Of the 20 people who were reported to be on the floor over an hour after falling, 60% (12) had a fall related hospital admission during the follow-up year (4.0, 1.3 to 12.3).\" ... \"giving a threefold increased odds of admission to a care home, though the risk estimate did not reach significance in this smaller sample (n=51 not living in care who fell) until the censoring, conducted when everyone had completed their year since interview (crude hazard ratio 3.4 (1.2 to 9.5), adjusted 2.3 (0.8 to 7.0)).\" Limitations: \"Some caution is warranted in interpreting the analyses of association between risk factors and these consequences of falling; lack of association might indicate only the limited power of the small sample size.\"",
+   "location": "Abstract; Results (Factors associated with inability to get up and lying on the floor for a long time; Table 4); Discussion (Limitations)",
+   "pico_timeframe": "110 people over 90 in Cambridge (own homes, sheltered housing, care homes), 66 fallers, one-year follow-up; exposure = one hour or more on the floor at least once; outcomes serious injury, fall-related admission, move to long-term care.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A 2008 Cambridge study of people over 90 found that 20 of the 66 who fell lay on the floor for an hour or more at least once in a year. Twelve of those 20 had a hospital admission for a fall. Long lies were linked with serious injury. A link with moving into a care home was uncertain once other factors were allowed for.",
+   "qualifications": "Small, very old population; associations; injuries can be a cause as well as a result of a long lie (the authors say so). The abstract's 'strongly associated' with long-term care is not borne out after adjustment. The study did not report deaths by long-lie status, so it does not update the 1981 six-month death figure.",
+   "conflicting_or_uncertain": "No newer cohort reporting death after a timed long lie was found in PubMed, Consensus or Undermind searches (25 Sep 2026). Kubitza 2023 states mortality increases after a long lie but its cited studies could not be identified in the extracted text.",
+   "numbers": [
+    {
+     "value": "20 of 66 (30%)",
+     "meaning": "fallers aged over 90 who lay one hour or more at least once in a year"
+    },
+    {
+     "value": "12 of 20 (60%)",
+     "meaning": "of those with a long lie, had a fall-related hospital admission during the year (adjusted OR 4.0, 1.3 to 12.3)"
+    },
+    {
+     "value": "adjusted OR 4.2 (1.2 to 14.8)",
+     "meaning": "serious injury and long lie (Table 4), practitioner use only"
+    },
+    {
+     "value": "adjusted HR 2.3 (0.8 to 7.0)",
+     "meaning": "move into care home by study end; not statistically significant"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-f",
+   "cand_id": "C01-08",
+   "claim": "Current guidelines treat an hour or more on the floor as a sign of high falls risk that should lead to a full falls assessment, and list harms linked with long lies.",
+   "source_keys": [
+    "PMID:36178003"
+   ],
+   "supporting_passage": "\"An adult who sustains an injury requiring medical (including surgical) treatment, reports recurrent falls (≥2) in the previous 12 months, was laying on the floor unable to rise independently for at least one hour, is considered frail or is suspected to have experienced a transient loss of consciousness should be regarded as at high risk of future falls\" ... \"These high-risk older adults should be offered a multifactorial falls risk assessment.\" ... \"Lying on the floor for more than an hour is associated with dehydration, electrolyte disturbance, renal failure, hypothermia, pneumonia and urinary tract infections, skin damage and pain [,], and declines in mobility and restrictions in activity, probably due to fear of a repeat fall. ‘Lift and assist’ call outs should trigger falls prevention interventions [].\"",
+   "location": "Full text: Older adults presenting with falls or related injuries; Assessment and algorithm flow; Exercise and physical activity interventions (Recommendation details and justification)",
+   "pico_timeframe": "Guideline for older adults who have fallen.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The 2022 World Falls Guidelines count being unable to get up for an hour or more as a sign of high risk of further falls, and say it should lead to a full falls assessment. They link long lies with dehydration, kidney problems, low body temperature, pneumonia, skin damage and pain. They also say that a call-out just to help someone up should trigger falls prevention.",
+   "qualifications": "Harms are listed as associations. The guideline does not cite or repeat the 'half die within six months' figure.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "1 hour",
+     "meaning": "time on the floor unable to get up that marks high risk in the guideline"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-g",
+   "cand_id": "C01-08",
+   "claim": "There is no agreed definition of a 'long lie'; studies have used thresholds from five minutes to an hour or more.",
+   "source_keys": [
+    "PMID:37644386"
+   ],
+   "supporting_passage": "Abstract: \"The results show that a standard concept of a long lie is lacking. The duration of lying and the location alone are not relevant criteria.\" Findings: \"In eight studies, a specific time was also used to determine long lie, ranging from five minutes [], ten minutes [], and fifteen minutes [] to one hour or more [,,,,]. While seven studies were more unspecific in this aspect and used the terms longer time [,,–,] or several hours to days [], five studies did not use time restrictions at all [,,,,].\" Discussion: \"The consequences significantly improve with increasing lying time, but they can already occur in less than one hour\"",
+   "location": "Abstract; Findings (Indicators and definition); Discussion",
+   "pico_timeframe": "22 studies, 1981 to 2022.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "There is no agreed definition of a 'long lie'. Studies have used anything from 5 minutes to an hour or more, so figures from different studies are not directly comparable.",
+   "qualifications": "The review's sentence about consequences 'improving' with lying time is ambiguous wording in the source (it appears to mean worsening); do not quote it.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "22",
+     "meaning": "studies in the scoping review"
+    },
+    {
+     "value": "5 minutes to 1 hour or more",
+     "meaning": "range of time thresholds used to define a long lie"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-08-h",
+   "cand_id": "C01-08",
+   "claim": "The 1981 figure is often quoted in falls teaching.",
+   "source_keys": [],
+   "supporting_passage": "No opened source measures or states how often the figure is quoted. The WFG 2022 long-lie section does not quote it; Swancutt 2020 and Fleming 2008 mention death as a possible consequence of long lies without giving the figure.",
+   "location": "Not found",
+   "pico_timeframe": "n/a",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Do not say the figure is 'often quoted'. Open with the quoted line itself and its source, for example: 'Half of people who lie on the floor for more than an hour die within six months.' That line comes from a 1981 study of 20 people.",
+   "qualifications": "Frequency of use in teaching is an unverified assumption.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-13-a",
+   "cand_id": "C01-13",
+   "claim": "The World Falls Guidelines 2022 advise asking older people whether concerns about falling limit their usual activities, both in routine contacts and after a fall.",
+   "source_keys": [
+    "PMID:36178003"
+   ],
+   "supporting_passage": "\"Clinicians should routinely ask about falls in their interactions with older adults, as they often will not be spontaneously reported.\" ... \"If resources and time are available, we conditionally recommend to additionally ask (iii) if they have experienced dizziness, loss of consciousness or any disturbance of gait or balance and (iv) if they experience any concerns about falling causing limitation of usual activities\" ... \"Older adults presenting with a fall or related injury should be asked about the details of the event and its consequences, previous falls, transient loss of consciousness or dizziness and any pre-existing impairment of mobility or concerns about falling causing limitation of usual activities.\"",
+   "location": "Full text: Opportunistic case-finding; Older adults presenting with falls or related injuries",
+   "pico_timeframe": "Older adults in contact with healthcare (conditional recommendation for routine contacts); older adults presenting with a fall (recommendation).",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "International falls guidelines advise asking older people whether worry about falling is limiting what they usually do. After a fall, this question is part of the recommended history; in routine contacts it is a conditional recommendation where time allows.",
+   "qualifications": "The candidate's 'in every conversation about falls' is stronger than the guideline; say 'whenever falls come up' or 'after any fall' and mark it as advice.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-13-b",
+   "cand_id": "C01-13",
+   "claim": "The guidelines recommend including concern about falling in a full falls assessment, using the FES-I or Short FES-I, and using the word 'concern' rather than 'fear'.",
+   "source_keys": [
+    "PMID:36178003"
+   ],
+   "supporting_passage": "\"We recommend including an evaluation of concern about falling in a multifactorial falls risk assessment of older adults\" (1B) ... \"We recommend using a standardized instrument to evaluate concerns about falling such as the Falls Efficacy Scale International (FES-I) or Short FES-I in community-dwelling older adults.\" (1A) ... \"The older adult panel we consulted about the recommendations preferred the term concern over fear. Based on this, we recommend that clinicians use the term concerns about falling when making enquiries.\"",
+   "location": "Full text: Table of recommendations (WG 12 Concerns about Falling and Falls); Concerns about falling and falls (Recommendation details and justification)",
+   "pico_timeframe": "Community-dwelling older adults; FES-I/Short FES-I also recommended in hospitals and care homes.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The guidelines recommend that a full falls assessment includes a check on worry about falling, ideally with a short standard questionnaire (the Falls Efficacy Scale International, or its 7-question short form). The older people who advised the guideline panel preferred the word 'concern' to 'fear'.",
+   "qualifications": "Grades: 1B for including concern; 1A for using FES-I/Short FES-I in the community.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "7",
+     "meaning": "items in the Short FES-I (WFG: 'The 7-item Short FES-I can be useful for clinicians for a rapid assessment.')"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-13-c",
+   "cand_id": "C01-13",
+   "claim": "Worry about falling is common in older people, including people who have never fallen, although estimates vary widely with how it is measured.",
+   "source_keys": [
+    "PMID:18194967",
+    "PMID:38580924"
+   ],
+   "supporting_passage": "Scheffer 2008: \"fear of falling (FOF) is a major health problem among the elderly living in communities, present in older people who have fallen but also in older people who have never experienced a fall.\" ... \"Due to the many different kinds of measurements used, the reported prevalence of FOF varied between 3 and 85%.\" ... \"The main consequences were identified as a decline in physical and mental performance, an increased risk of falling and progressive loss of health-related quality of life.\" Xiong 2024: \"A total of the 153 studies with 200,033 participants from 38 countries worldwide were identified. The global prevalence of fear of falling was 49.60%, ranging from 6.96-90.34%.\"",
+   "location": "Scheffer Abstract; Xiong Abstract (Results)",
+   "pico_timeframe": "Scheffer: 28 studies, community-dwelling older people. Xiong: 153 studies, 200,033 older adults, community and patient samples.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Worry about falling is common in later life, and it affects people who have never fallen as well as those who have. How common depends on how it is measured: studies range from fewer than 1 in 10 to 9 in 10 older people.",
+   "qualifications": "Avoid a single headline figure; if the pooled 49.6% is used, say 'about half, in a review whose studies ranged from 7 to 90 in 100'. Consequences in Scheffer are associations.",
+   "conflicting_or_uncertain": "Measurement heterogeneity is large.",
+   "numbers": [
+    {
+     "value": "3% to 85%",
+     "meaning": "range of reported prevalence across 28 studies (Scheffer 2008)"
+    },
+    {
+     "value": "49.6% (range 6.96% to 90.34%)",
+     "meaning": "pooled global prevalence across 153 studies (Xiong 2024)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-13-d",
+   "cand_id": "C01-13",
+   "claim": "Among older people who report fear of falling, most have cut back at least one activity, and cutting back three or more activities is linked with faster loss of physical function over three years.",
+   "source_keys": [
+    "PMID:18312314"
+   ],
+   "supporting_passage": "\"Six hundred seventy-three community-living elderly (≥65) participants in the Invecchiare in Chianti Study who reported FF.\" ... \"One-quarter (25.5%) of participants did not report any activity restriction, 59.6% reported moderate activity restriction (restriction or avoidance of <3 activities), and 14.9% reported severe activity restriction (restriction or avoidance of ≥3 activities).\" ... \"Severe activity restriction was a significant independent predictor of worsening ADL disability and accelerated decline in lower extremity performance on SPPB over the 3-year follow-up. Severe and moderate activity restriction were independent predictors of worsening IADL disability. Results were consistent even after adjusting for multiple potential confounders.\"",
+   "location": "Abstract (Participants; Results)",
+   "pico_timeframe": "673 people aged 65+ reporting fear of falling, Tuscany, Italy; exposure = number of activities restricted or avoided because of fear; outcomes ADL/IADL disability and SPPB over 3 years; adjusted associations.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In an Italian study of 673 people aged 65 and over who said they were afraid of falling, 3 in 4 had cut back or avoided at least one activity because of it. People who had given up three or more activities lost everyday abilities and leg function faster over the next 3 years, even after allowing for other health differences.",
+   "qualifications": "Association, not proof that restriction caused the decline. '3 in 4' = 59.6% + 14.9% = 74.5%. Population is people who already reported fear of falling, not all older people.",
+   "conflicting_or_uncertain": "Delbaere 2010 found no lower activity levels in its 'anxious' group, so restriction does not always accompany worry.",
+   "numbers": [
+    {
+     "value": "673",
+     "meaning": "people aged 65+ reporting fear of falling, InCHIANTI"
+    },
+    {
+     "value": "74.5% (about 3 in 4)",
+     "meaning": "restricted or avoided at least one activity (59.6% moderate + 14.9% severe)"
+    },
+    {
+     "value": "14.9%",
+     "meaning": "restricted or avoided 3 or more activities"
+    },
+    {
+     "value": "3 years",
+     "meaning": "follow-up period"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-13-e",
+   "cand_id": "C01-13",
+   "claim": "The standard questionnaires ask about concern during specific everyday activities, inside and outside the home, physical and social.",
+   "source_keys": [
+    "PMID:16267188",
+    "PMID:18032400",
+    "PMID:20724399"
+   ],
+   "supporting_passage": "Yardley 2005: \"Factor analysis suggested a unitary underlying factor, with two dimensions assessing concern about less demanding physical activities mainly in the home, and concern about more demanding physical activities mainly outside the home.\" ... \"The FES-I has close continuity with the best existing measure of fear of falling, excellent psychometric properties, and assesses concerns relating to basic and more demanding activities, both physical and social.\" Kempen 2008: \"the Short FES-I is a good and feasible measure to assess fear of falling in older persons.\" Delbaere 2010: \"Using the falls efficacy scale international (FES-I), we assessed participants’ perceived fall risk by asking about concern about falling across a wide range of activities of daily living (such as cleaning the house, shopping, walking on uneven surfaces).\"",
+   "location": "Yardley Abstract; Kempen Abstract; Delbaere Methods (Neuropsychological assessment)",
+   "pico_timeframe": "Community samples, UK, Netherlands, Australia.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The standard questionnaire (FES-I) asks how concerned a person is about falling during specific everyday activities, such as cleaning the house, shopping or walking on uneven ground, covering things done at home, outside and socially.",
+   "qualifications": "Individual item wording was not read; use only the example activities quoted (cleaning the house, shopping, walking on uneven surfaces). The drawn icons (walk, bus, bath, visiting friends) must be labelled as examples, not as FES-I items.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "16",
+     "meaning": "items in the full FES-I (Kempen 2008)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-13-f",
+   "cand_id": "C01-13",
+   "claim": "What to do with the answer: exercise, cognitive behavioural therapy and occupational therapy are recommended to reduce concerns about falling, though the evidence on restoring the activities people have given up is thin.",
+   "source_keys": [
+    "PMID:36178003",
+    "PMID:25432016",
+    "PMID:29471428"
+   ],
+   "supporting_passage": "WFG 2022: \"We recommend exercise, cognitive behavioural therapy and/or occupational therapy (as part of a multidisciplinary approach) to reduce concerns about falling in community-dwelling older adults\" ... \"Existing fall prevention strategies, i.e. exercise interventions, can reduce concerns about falling in older adults.\" Kendrick 2014: \"Exercise interventions in community-dwelling older people probably reduce fear of falling to a limited extent immediately after the intervention, without increasing the risk or frequency of falls. There is insufficient evidence to determine whether exercise interventions reduce fear of falling beyond the end of the intervention or their effect on other outcomes.\" ... \"No studies reported the effects of exercise interventions on activity avoidance or costs.\" Liu 2018: \"Our analysis suggests that CBT interventions have significant immediate and retention effects up to 12 months on reducing fear of falling, and 6 months post-intervention effect on enhancing balance.\"",
+   "location": "WFG: Concerns about falling and falls interventions; Kendrick Abstract (Results, Authors' conclusions); Liu Abstract",
+   "pico_timeframe": "Community-dwelling older people; exercise trials (30, low certainty); CBT trials (6).",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If the answer is yes, tell the GP or physiotherapist what has stopped. Guidelines recommend strength and balance exercise, a talking therapy called cognitive behavioural therapy, or help from an occupational therapist with the activity itself. Exercise reduces worry a little; the talking therapy has shown benefit lasting up to a year.",
+   "qualifications": "The instruction 'tell the GP or physiotherapist' is practical advice, not a tested intervention. No exercise trial in the Cochrane review measured activity avoidance, so do not promise that the lost activities will come back.",
+   "conflicting_or_uncertain": "Exercise effect on fear is small and low-certainty; effects after programmes end are uncertain.",
+   "numbers": [
+    {
+     "value": "30 studies, 2878 people",
+     "meaning": "Kendrick 2014 Cochrane review of exercise for fear of falling"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-13-g",
+   "cand_id": "C01-13",
+   "claim": "Concern about falling can be sensible caution or excessive; either way, high concern is a signal for clinical attention, and a 'no' does not prove low risk.",
+   "source_keys": [
+    "PMID:37097766",
+    "PMID:20724399"
+   ],
+   "supporting_passage": "Ellmers 2023: \"On the one hand, high CaF can lead to overly cautious or hypervigilant behaviours that increase the risk of falling, and may also cause undue activity restriction ('maladaptive CaF'). But concerns can also encourage individuals to make appropriate modifications to their behaviour to maximise safety ('adaptive CaF'). We discuss this paradox and argue that high CaF-irrespective of whether 'adaptive' or 'maladaptive'-should be considered an indication that 'something is not right', and that is represents an opportunity for clinical engagement. We also highlight how CaF can be maladaptive in terms of inappropriately high confidence about one's balance.\" Delbaere 2010: \"100 (20%) had a high physiological risk but low perceived risk and were classified as “stoic.”\"",
+   "location": "Ellmers Abstract; Delbaere Results",
+   "pico_timeframe": "Expert commentary; Sydney cohort.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Some caution after a fall is sensible, and some is more than the risk warrants. Either way, falls specialists treat high concern as a sign that something needs looking at. A 'no' is not an all-clear: in one study, 1 in 5 people with a high physical risk were not worried at all.",
+   "qualifications": "Ellmers is expert opinion. '1 in 5' is from the Sydney cohort (100 of 500).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "100 of 500 (20%)",
+     "meaning": "high physical risk but low concern ('stoic'), Sydney cohort"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-31-a",
+   "cand_id": "C01-31",
+   "claim": "In a 1988 US study, between 13% and 32% of people who had a confirmed fall did not remember falling when asked at the end of the year, depending on the period asked about.",
+   "source_keys": [
+    "PMID:3385114"
+   ],
+   "supporting_passage": "\"we studied 304 ambulatory men and women over the age of 60 years who completed a 12-month prospective study of risk factors for falling. We developed a system of weekly follow-up and home visits to record and confirm all falls. During the study, 179 participants suffered at least one fall that was confirmed by home visit. At the end of the study, all subjects were interviewed by telephone about whether they had suffered a fall during the preceding 3, 6, or 12 months. Depending on the time period of recall, 13% to 32% of those with confirmed falls did not recall falling during the specific period of time. Recall was better for the preceding 12 months than for 3 or 6 months.\" ... \"Those with lower scores on the Mini-Mental State Examination were more likely to forget falls.\"",
+   "location": "Abstract",
+   "pico_timeframe": "304 ambulatory people over 60, USA; 179 with at least one confirmed fall; telephone recall at 12 months about the previous 3, 6 or 12 months; outcome = person did not recall falling in the period.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a US study, researchers checked on 304 people over 60 every week for a year and visited to confirm each fall. At the end of the year, between 13 and 32 in 100 of the people who had a confirmed fall did not remember falling in the period they were asked about. People with poorer memory test scores forgot more often.",
+   "qualifications": "The figures are for people, not falls (judge's correction). The abstract does not say which figure applies to 12 months, so do not write 'a third forgot a year later'; use the range, or 'up to 1 in 3'. Recall of the whole 12 months was better than of the last 3 or 6 months, so the problem is partly misplacing falls in time.",
+   "conflicting_or_uncertain": "Consistent with Ganz 2005, Hannan 2010 and Zieschang 2011 (C01-31-b to d).",
+   "numbers": [
+    {
+     "value": "304",
+     "meaning": "participants over 60, 12-month study"
+    },
+    {
+     "value": "179",
+     "meaning": "participants with at least one confirmed fall"
+    },
+    {
+     "value": "13% to 32%",
+     "meaning": "of people with confirmed falls who did not recall falling in the period asked about (3, 6 or 12 months)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-31-b",
+   "cand_id": "C01-31",
+   "claim": "A systematic review found that asking people about falls over the past year misses about 1 or 2 in 10 people who fell; injurious falls are remembered better.",
+   "source_keys": [
+    "PMID:16398908"
+   ],
+   "supporting_passage": "\"Six studies met the inclusion criteria. Recall of falls in the previous year was specific (specificity 91-95%) but less sensitive (sensitivity 80-89%) than the criterion standard of ongoing prospective collection of fall data using fall calendars or postcards. Patients with injurious falls were more likely to recall their falls. Lower Mini-Mental State Examination score was associated with poorer recall of falls in the one study addressing this issue.\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "6 prospective community studies; 12-month recall vs ongoing calendars or postcards.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A review of six studies found that when people were asked about the past year, 80 to 89 in 100 of those who had fallen remembered it. Falls that caused an injury were remembered better.",
+   "qualifications": "'Misses 1 or 2 in 10' is 100 minus sensitivity (11 to 20 in 100), a simple restatement.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "80% to 89%",
+     "meaning": "sensitivity of 12-month recall for identifying people who fell"
+    },
+    {
+     "value": "6",
+     "meaning": "studies in the review"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-31-c",
+   "cand_id": "C01-31",
+   "claim": "Even over three months, telephone recall missed a quarter of people whose daily falls calendar showed a fall.",
+   "source_keys": [
+    "PMID:20360242"
+   ],
+   "supporting_passage": "\"Falls were tracked prospectively on daily calendars (mailed back monthly).\" ... \"However, while the 3-month recall correctly classified persons who did not fall (164 persons by both methods), it missed 25% of participants who fell (of 36 participants with a calendar-reported fall, 9 did not report a fall by telephone recall).\" ... \"Calendars should be considered the preferred method of ascertaining falls in longitudinal studies.\"",
+   "location": "Abstract",
+   "pico_timeframe": "218 randomly selected MOBILIZE Boston participants; 3-month telephone recall vs daily calendars returned monthly; 2007 to 2008.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a Boston study, 9 of 36 people whose daily calendar recorded a fall did not mention it when phoned three months later.",
+   "qualifications": "Small number of fallers.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "9 of 36 (25%)",
+     "meaning": "people with a calendar-recorded fall who did not report it on 3-month telephone recall"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-31-d",
+   "cand_id": "C01-31",
+   "claim": "In people with dementia, about half of those who recorded a fall did not recall it a year later, GPs knew of few falls, and information from carers improved accuracy.",
+   "source_keys": [
+    "PMID:22142666"
+   ],
+   "supporting_passage": "\"GPs knew of only 14% of falls and 19% of fallers. In addition, 49% of subjects who documented a fall prospectively did not recall a fall after 12 months.\" ... \"If feasible, recall periods should be as short as one week; additional information by care-givers increases accuracy of reports. Retrospective recall of falling with long recall periods is not recommended.\"",
+   "location": "Abstract (Results; Conclusion)",
+   "pico_timeframe": "110 people with mild to moderate dementia, Germany, 12 months; seven fall-recording methods compared against a combined criterion standard.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a German study of 110 people with dementia, about half of those who had recorded a fall did not remember falling when asked a year later. Their GPs knew about only 14 in 100 of the falls. Information from carers made the record more accurate.",
+   "qualifications": "Dementia-specific and research setting; GP awareness figure is for this study only.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "49%",
+     "meaning": "people with dementia who documented a fall but did not recall one after 12 months"
+    },
+    {
+     "value": "14% of falls, 19% of fallers",
+     "meaning": "known to the GP"
+    },
+    {
+     "value": "110",
+     "meaning": "participants with mild to moderate dementia"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-31-e",
+   "cand_id": "C01-31",
+   "claim": "Falls research records falls as they happen, on daily calendars or diaries returned weekly or monthly, because recall over months is unreliable.",
+   "source_keys": [
+    "PMID:16398908",
+    "PMID:20360242",
+    "PMID:20724399",
+    "PMID:19015185"
+   ],
+   "supporting_passage": "Ganz 2005: \"Whenever accurate data on all falls are critical, such as with interventions to decrease the rate of falls, researchers should gather information on falls every week or every month from study participants. The optimal method of fall monitoring--postcard, calendar, diary, telephone, or some combination of these--remains unknown.\" Hannan 2010: \"Calendars should be considered the preferred method of ascertaining falls in longitudinal studies.\" Delbaere 2010: \"Falls frequency during the one year follow-up was monitored with monthly falls diaries.\" Fleming 2008 abstract: \"1 year follow-up of participants in a prospective cohort study of ageing, using fall calendars, phone calls, and visits.\"",
+   "location": "Ganz Abstract (Conclusion); Hannan Abstract; Delbaere Methods; Fleming Abstract",
+   "pico_timeframe": "Research methods in community cohorts.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Falls researchers don't rely on memory: they ask people to mark each fall on a calendar or diary as it happens and send it in every week or month.",
+   "qualifications": "Lamb 2005 (ProFaNE consensus, PMID 16137297) was checked but its abstract does not state the calendar recommendation, and the full text was not available, so it is not cited for this claim. Ganz notes the best method is unknown.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-31-f",
+   "cand_id": "C01-31",
+   "claim": "Guidelines ask clinicians to take a detailed history of each fall: how often, the circumstances, dizziness or blackout, consequences, and whether the person could get up; recollection of falls is unreliable, and many people do not mention falls unless asked.",
+   "source_keys": [
+    "PMID:36178003"
+   ],
+   "supporting_passage": "\"Older adults in contact with healthcare for any reason should be asked, at least once yearly, if they have (i) experienced one or more falls in the last 12 months, and (ii) about the frequency, characteristics, context, severity and consequences of any fall/s.\" ... \"Older adults presenting with a fall or related injury should be asked about the details of the event and its consequences, previous falls, transient loss of consciousness or dizziness and any pre-existing impairment of mobility or concerns about falling causing limitation of usual activities.\" ... \"Furthermore, recollection of the occurrence or date (e.g., how many months ago) of previous falls is unreliable []\" ... \"Studies indicate that older adults, particularly men, are reluctant to report falls with less than a third mentioning them to their clinician if not directly asked [].\" ... \"was laying on the floor unable to rise independently for at least one hour\"",
+   "location": "Full text: Opportunistic case-finding; Older adults presenting with falls or related injuries; Assessment and algorithm flow; Multifactorial falls risk assessment (Recommendation details)",
+   "pico_timeframe": "Guideline for older adults.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Falls guidelines ask doctors to find out, for each fall, what the person was doing, where, whether they felt dizzy or blacked out, what happened afterwards and whether they could get up. The guidelines also say people's memory of when falls happened is unreliable, and that fewer than 1 in 3 older men mention a fall unless asked.",
+   "qualifications": "The 'fewer than a third' statement is the guideline's summary of other studies and refers to older adults, 'particularly men'; keep that wording. The diary columns in the visual (date and time, where, what you were doing, how you felt just before, could you get up and how long on the floor) map onto these items; 'how long on the floor' matters because an hour or more marks high risk.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "less than a third",
+     "meaning": "older adults, particularly men, who mention falls to their clinician if not directly asked (guideline citing other studies)"
+    },
+    {
+     "value": "1 hour",
+     "meaning": "time on the floor that marks high risk"
+    }
+   ]
+  },
+  {
+   "claim_id": "C01-31-g",
+   "cand_id": "C01-31",
+   "claim": "Keeping a written note of each fall at home, and taking it to appointments, helps the clinician.",
+   "source_keys": [
+    "PMID:3385114",
+    "PMID:22142666",
+    "PMID:36178003"
+   ],
+   "supporting_passage": "No study was found that tested patient- or family-held falls diaries in clinical care. Indirect support: Cummings 1988 \"Researchers and clinicians should consider using methods besides long-term recall for ascertaining and counting falls over specific periods of time.\" Zieschang 2011 \"additional information by care-givers increases accuracy of reports.\"",
+   "location": "Cummings Abstract (Conclusion); Zieschang Abstract (Conclusion)",
+   "pico_timeframe": "Inference from research-setting accuracy studies to clinical practice.",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "Present it as practical advice: 'Write each fall down on the day, and take the note to appointments. Memory of falls fades, and the details are what the doctor needs.' Do not claim that keeping a diary has been shown to reduce falls or improve care.",
+   "qualifications": "Evidence gap, not evidence of no benefit. Cummings's recommendation to consider methods other than recall is addressed to researchers and clinicians.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-06-a",
+   "cand_id": "C01-06",
+   "claim": "A structured check (new head, neck or back pain; can't move a limb; unconscious at any point; chest pain or breathing difficulty; head knock while on a blood thinner) decides whether to call an ambulance or help the person up, taken word for word from one current opened source (ISTUMBLE, NHS inform, NHS website or St John Ambulance).",
+   "source_keys": [
+    "URL:https://www.winncare.uk/experts-in-falls-management-launch-new-generation-post-falls-assessment-app-istumble/",
+    "PMID:40819292"
+   ],
+   "supporting_passage": "No opened source gives the checklist. Search-engine summary only (not verbatim from an opened page): \"ISTUMBLE is a free interactive post-falls assessment tool devised by the West Midlands Ambulance Service to help carers and care assistants assess fallen residents and make informed decisions whether they can lift the fallen person themselves safely and with the appropriate lifting equipment.\" ... \"The free ISTUMBLE App takes carers through a series of questions, such as 'Does the person who has fallen have new neck or back pain?,' to help distinguish whether the carer can safely lift the resident themselves with lifting equipment or if they need to call an ambulance immediately.\" Gunson 2025 systematic review of ambulance responses to older fallers (PDF read via Undermind): no mention of ISTUMBLE or of a care-home lifting checklist.",
+   "location": "WebSearch result summary (winncare.uk, thiis.co.uk, attoday.co.uk, mangarhealth.com, apps.apple.com pages listed; none opened); Gunson 2025 full text",
+   "pico_timeframe": "n/a",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Not verified. Do not publish a checklist. The only information on ISTUMBLE came from search-engine summaries of manufacturer and app-store pages, which also show the tool is promoted by a lifting-equipment company.",
+   "qualifications": "Safety-critical advice (when not to move someone) must come verbatim from an opened, current official source. NHS inform, NHS website, St John Ambulance and West Midlands Ambulance Service pages could not be opened (WebFetch blocked); PubMed, Consensus and Undermind searches found no published description of ISTUMBLE's items; Google Drive holds no copy.",
+   "conflicting_or_uncertain": "A 2019 practice article (Hayes et al., found via Undermind as an anonymised manuscript without journal details) and a 2022 EMJ conference abstract (Miller et al., found via Consensus, not indexed in PubMed) describe care homes with 'no-lift' policies and long waits for ambulances; neither gives a checklist and neither was usable as a citable source.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-06-b",
+   "cand_id": "C01-06",
+   "claim": "Moving and handling guidance advises against manually lifting a fallen person from the floor because of the risk of injury to carers.",
+   "source_keys": [
+    "PMID:33023509"
+   ],
+   "supporting_passage": "Swancutt 2020 (Introduction, background citing other work): \"It is not only the person who has fallen who suffers; carers suffer distress due to the person fallen not being able to get up, or not being able to help them. They may be unsure how best to assist, which may result in their own injury or the need for additional assistance [,].\"",
+   "location": "Swancutt 2020 Introduction (Background)",
+   "pico_timeframe": "Background statement in a qualitative study; not guidance.",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Not verified as guidance. At most: 'Helping someone up can injure the helper as well' (background statement in a 2020 study), which is too thin for a safety instruction.",
+   "qualifications": "HSE moving and handling pages could not be opened. The Swancutt sentence is an introduction citation, not a finding or a recommendation.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-06-c",
+   "cand_id": "C01-06",
+   "claim": "An uninjured person can often get up with coaching, using a sturdy chair, following a published physiotherapy method.",
+   "source_keys": [],
+   "supporting_passage": "No opened source gives a step-by-step method (the same gap was recorded in C01-B2, claim C01-03-l). NHS inform, Chartered Society of Physiotherapy and Age UK pages could not be opened.",
+   "location": "Not found",
+   "pico_timeframe": "n/a",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Not verified. Do not give getting-up steps.",
+   "qualifications": "See C01-B2 C01-03-f to C01-03-l for what is verified about floor-rise training.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C01-06-d",
+   "cand_id": "C01-06",
+   "claim": "Guidelines recommend a post-fall assessment for care home residents, partly to avoid unnecessary transfer to hospital.",
+   "source_keys": [
+    "PMID:36178003"
+   ],
+   "supporting_passage": "\"We recommend conducting a post-fall assessment in care home residents following a fall in order to reassess fall risk factors, adjust the intervention strategy for the resident and avoid unnecessary transfer to acute care.\" and \"We recommend conducting a post-fall assessment in care home residents following a fall in order to identify the mechanism of the fall, any resulting injuries, to reassess the resident's fall risk factors, adjust the intervention strategy for the resident and avoid unnecessary transfer to hospital.\"",
+   "location": "Full text: Table of recommendations (Care homes assessment, grade E); Care homes section",
+   "pico_timeframe": "Care home residents after a fall.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "International falls guidelines recommend that care home residents are assessed after every fall, to find any injury, work out why it happened, and avoid sending people to hospital when they don't need to go.",
+   "qualifications": "Grade E (expert opinion). The guideline does not specify what the on-the-floor assessment should contain, so it cannot supply the candidate's checklist.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C01-19",
+   "status": "ready",
+   "reason": "All essential claims are supported from the full text of Delbaere 2010 and the World Falls Guidelines: the four group names and sizes (vigorous 144/29%, aware 202/40%, anxious 54/11%, stoic 100/20%), about a third mismatched, both measures independently predicting injurious or multiple falls, the anxious group's links with low mood, neuroticism and executive function, and the stoics' profile and fall rate. The 'help that fits' per cell is the authors' suggestion and must be labelled as such; the paper gives no specific advice for the vigorous group. The cut-points are approximate and unreplicated. Stoics fell less than the aware group, so they must not be framed as the most endangered group.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C01-19-a",
+    "C01-19-b",
+    "C01-19-c",
+    "C01-19-d",
+    "C01-19-e",
+    "C01-19-f",
+    "C01-19-g"
+   ]
+  },
+  {
+   "cand_id": "C01-08",
+   "status": "ready",
+   "reason": "Wild 1981 (abstract) confirms 125 fallers aged 65+ from six general practices, 20 with more than an hour on the floor, half of whom died within six months, and the authors' own conclusion that falls often signal severe ill health. Tinetti 1993 shows the death difference for people who could not get up was not statistically clear in a larger cohort. Fleming 2008 links long lies with serious injury and hospital admission, but not clearly with care-home moves after adjustment, and reports no deaths. WFG treats an hour on the floor as a high-risk marker. The claim that the figure is 'often quoted' is unverified and must be dropped from the opening; state the check's result in the first two lines.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C01-08-a",
+    "C01-08-b",
+    "C01-08-c",
+    "C01-08-d",
+    "C01-08-e",
+    "C01-08-f"
+   ]
+  },
+  {
+   "cand_id": "C01-13",
+   "status": "ready",
+   "reason": "The World Falls Guidelines recommend asking whether concerns about falling limit usual activities (after a fall; conditionally in routine contacts), recommend FES-I/Short FES-I and the word 'concern', and recommend exercise, CBT or occupational therapy. InCHIANTI shows 3 in 4 people with fear of falling restrict at least one activity and severe restriction is linked with faster decline (association). What to do with the answer is supported, with the caveat that no trial has measured whether lost activities come back. 'Every conversation' must be softened to 'whenever falls come up'.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C01-13-a",
+    "C01-13-b",
+    "C01-13-d",
+    "C01-13-f"
+   ]
+  },
+  {
+   "cand_id": "C01-31",
+   "status": "ready",
+   "reason": "Cummings 1988 supports the forgetting finding for people (13% to 32% of people with confirmed falls did not recall falling in the period asked about), not for falls; the opening line must be corrected accordingly and must not give a single 12-month figure. Ganz 2005, Hannan 2010 and Zieschang 2011 (dementia; GPs knew of 14% of falls) confirm recall is unreliable and research uses calendars. The WFG supports the diary columns as the details clinicians should ask about. That a home note improves care is untested and must be framed as practical advice.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C01-31-a",
+    "C01-31-b",
+    "C01-31-d",
+    "C01-31-e",
+    "C01-31-f",
+    "C01-31-g"
+   ]
+  },
+  {
+   "cand_id": "C01-06",
+   "status": "drop",
+   "reason": "Every essential safety claim is unsupported by an opened source: the on-the-floor checklist (C01-06-a; ISTUMBLE known only from search-engine summaries of manufacturer and app-store pages, items and current version unseen), the advice against manual lifting (C01-06-b; HSE pages unopenable) and the chair-assisted getting-up method (C01-06-c). The WFG supports only a general post-fall assessment in care homes. Safety-critical advice on when not to move someone cannot rest on search extracts. Could be reinstated if Alasdair saves the current ISTUMBLE document or NHS inform page to Drive for verbatim checking.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C01-06-a",
+    "C01-06-b",
+    "C01-06-c"
+   ]
+  }
+ ]
+}

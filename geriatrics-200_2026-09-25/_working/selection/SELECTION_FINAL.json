@@ -1,0 +1,957 @@
+{
+  "total": 200,
+  "categories": [
+    {
+      "id": "C01",
+      "name": "Falls and fear of falling",
+      "allocation": 11,
+      "selected": [
+        "C01-18",
+        "C01-27",
+        "C01-24",
+        "C01-14",
+        "C01-28",
+        "C01-23",
+        "C01-02",
+        "C01-03",
+        "C01-25",
+        "C01-05",
+        "C01-19"
+      ],
+      "reserves": [
+        "C01-08",
+        "C01-13",
+        "C01-31",
+        "C01-06"
+      ],
+      "batches": [
+        [
+          "C01-18",
+          "C01-27",
+          "C01-24",
+          "C01-05",
+          "C01-31"
+        ],
+        [
+          "C01-14",
+          "C01-02",
+          "C01-25",
+          "C01-23"
+        ],
+        [
+          "C01-03",
+          "C01-08",
+          "C01-06",
+          "C01-28"
+        ],
+        [
+          "C01-19",
+          "C01-13"
+        ]
+      ],
+      "reasons": "Fixed in production: allocation 11 with the given 11 selected and 4 reserves (one reserve more than the max(3, ceil(11/4)) rule, kept because the shortlist is fixed). Its hip protector, varifocal and exercise-class points were locked in first, and the overlapping candidates in C04 (C04-26) and C14 (C14-22) were moved out."
+    },
+    {
+      "id": "C02",
+      "name": "Mobility, deconditioning and rehabilitation",
+      "allocation": 10,
+      "selected": [
+        "C02-18",
+        "C02-21",
+        "C02-01",
+        "C02-14",
+        "C02-24",
+        "C02-05",
+        "C02-10",
+        "C02-19",
+        "C02-23",
+        "C02-16"
+      ],
+      "reserves": [
+        "C02-06",
+        "C02-17",
+        "C02-12"
+      ],
+      "batches": [
+        [
+          "C02-18",
+          "C02-19",
+          "C02-16",
+          "C02-06",
+          "C02-05"
+        ],
+        [
+          "C02-10",
+          "C02-12",
+          "C02-17",
+          "C02-23"
+        ],
+        [
+          "C02-21",
+          "C02-14",
+          "C02-01",
+          "C02-24"
+        ]
+      ],
+      "reasons": "10: about ten strong, distinct ideas remain once the hospital-mobility and post-discharge clusters are held to one each. Swapped C02-26 (Parkinson's timing, kept once as C06-20) and C02-22 (support rests on moving-and-handling web guidance) for C02-16 (in-hospital exercise trial) and C02-19 (care home strength training, a public Who gets left out post)."
+    },
+    {
+      "id": "C03",
+      "name": "Hip fracture",
+      "allocation": 9,
+      "selected": [
+        "C03-12",
+        "C03-06",
+        "C03-17",
+        "C03-22",
+        "C03-19",
+        "C03-21",
+        "C03-02",
+        "C03-09",
+        "C03-07"
+      ],
+      "reserves": [
+        "C03-14",
+        "C03-18",
+        "C03-04"
+      ],
+      "batches": [
+        [
+          "C03-17",
+          "C03-21",
+          "C03-09",
+          "C03-06",
+          "C03-18"
+        ],
+        [
+          "C03-12",
+          "C03-22",
+          "C03-19",
+          "C03-04",
+          "C03-07"
+        ],
+        [
+          "C03-02",
+          "C03-14"
+        ]
+      ],
+      "reasons": "9, deliberately below the judge's 13 because the earlier collection already has 20 hip fracture posts; the nine are the same as the mechanical pass. C03-12 also carries the 'do not decide the care home move at the lowest point' argument and C03-09 the 'next of kin cannot consent' argument for the whole collection, so C16-10, C17-02, C17-12 and C09-24 were moved out."
+    },
+    {
+      "id": "C04",
+      "name": "Osteoporosis and bone health",
+      "allocation": 10,
+      "selected": [
+        "C04-07",
+        "C04-17",
+        "C04-04",
+        "C04-20",
+        "C04-29",
+        "C04-24",
+        "C04-16",
+        "C04-13",
+        "C04-14",
+        "C04-22"
+      ],
+      "reserves": [
+        "C04-12",
+        "C04-30",
+        "C04-25"
+      ],
+      "batches": [
+        [
+          "C04-07",
+          "C04-24",
+          "C04-04",
+          "C04-14",
+          "C04-16"
+        ],
+        [
+          "C04-29",
+          "C04-30",
+          "C04-25",
+          "C04-17",
+          "C04-20"
+        ],
+        [
+          "C04-13",
+          "C04-22",
+          "C04-12"
+        ]
+      ],
+      "reasons": "10: many strong trial-based ideas, but the earlier set covered the treatment gap and several candidates cluster (tablet routine, denosumab, trial counts). Swapped C04-26 (hip protectors, duplicates fixed C01-14), C04-09 (tablet-routine cluster, the public C04-13 kept) and C04-30 (second trial-counting post beside C04-29) for C04-13, C04-14 (drug holidays) and C04-22 (cancer hormone treatment, which reaches men)."
+    },
+    {
+      "id": "C05",
+      "name": "Frailty, function and recovery",
+      "allocation": 8,
+      "selected": [
+        "C05-02",
+        "C05-01",
+        "C05-07",
+        "C05-16",
+        "C05-24",
+        "C05-19",
+        "C05-08",
+        "C05-14"
+      ],
+      "reserves": [
+        "C05-04",
+        "C05-13",
+        "C05-10"
+      ],
+      "batches": [
+        [
+          "C05-16",
+          "C05-24",
+          "C05-07",
+          "C05-14",
+          "C05-04"
+        ],
+        [
+          "C05-02",
+          "C05-01",
+          "C05-08",
+          "C05-19"
+        ],
+        [
+          "C05-13",
+          "C05-10"
+        ]
+      ],
+      "reasons": "8: fewer strong, distinct candidates than most categories (7 score 45 or more and several rest on the same Collard review or the CFS paper), so it gives up two places. Dropped C05-04 and C05-15 from the mechanical pass, which keeps the CFS cluster to two (C05-16, C05-24) and three public posts; C05-08 takes the hospital CGA review from C15-17."
+    },
+    {
+      "id": "C06",
+      "name": "Medicines and prescribing burden",
+      "allocation": 12,
+      "selected": [
+        "C06-18",
+        "C06-11",
+        "C06-29",
+        "C06-08",
+        "C06-04",
+        "C06-13",
+        "C06-15",
+        "C06-25",
+        "C06-20",
+        "C06-32",
+        "C06-31",
+        "C06-01"
+      ],
+      "reserves": [
+        "C06-19",
+        "C06-06",
+        "C06-30"
+      ],
+      "batches": [
+        [
+          "C06-04",
+          "C06-13",
+          "C06-29",
+          "C06-06",
+          "C06-30"
+        ],
+        [
+          "C06-18",
+          "C06-32",
+          "C06-31",
+          "C06-25",
+          "C06-19"
+        ],
+        [
+          "C06-11",
+          "C06-15",
+          "C06-08",
+          "C06-01",
+          "C06-20"
+        ]
+      ],
+      "reasons": "12: the deepest category (20 candidates at 45 or more), even after ceding EMPOWER to C11 and ASPREE to C07. Swapped C06-22 (same trial and argument as C11-03) and C06-17 (support only in NICE pages) for C06-20 (the collection's single Parkinson's timing post), C06-32 and C06-31; C06-18 carries the prescribing-cascade argument, so C10-06 was moved out."
+    },
+    {
+      "id": "C07",
+      "name": "Treatment decisions and proportional care",
+      "allocation": 12,
+      "selected": [
+        "C07-32",
+        "C07-27",
+        "C07-05",
+        "C07-30",
+        "C07-23",
+        "C07-07",
+        "C07-12",
+        "C07-03",
+        "C07-24",
+        "C07-01",
+        "C07-18",
+        "C07-26"
+      ],
+      "reserves": [
+        "C07-22",
+        "C07-28",
+        "C07-09"
+      ],
+      "batches": [
+        [
+          "C07-05",
+          "C07-12",
+          "C07-03",
+          "C07-22",
+          "C07-28"
+        ],
+        [
+          "C07-32",
+          "C07-27",
+          "C07-26",
+          "C07-09",
+          "C07-24"
+        ],
+        [
+          "C07-30",
+          "C07-23",
+          "C07-07",
+          "C07-01",
+          "C07-18"
+        ]
+      ],
+      "reasons": "12: 19 candidates at 45 or more, and proportional care is new to the collection. Swapped C07-29 (same HbA1c argument as C06-25), C07-02 (time-to-benefit argument carried with numbers by C04-04) and C07-17 (screening ages rest on NHS web pages) for C07-03, C07-24, C07-01, C07-18 and C07-26; C07-27 takes the DNACPR-is-one-treatment argument from C16-23."
+    },
+    {
+      "id": "C08",
+      "name": "Dementia: living with it and caring well",
+      "allocation": 11,
+      "selected": [
+        "C08-03",
+        "C08-15",
+        "C08-06",
+        "C08-24",
+        "C08-29",
+        "C08-17",
+        "C08-08",
+        "C08-10",
+        "C08-25",
+        "C08-26",
+        "C08-18"
+      ],
+      "reserves": [
+        "C08-28",
+        "C08-07",
+        "C08-27"
+      ],
+      "batches": [
+        [
+          "C08-03",
+          "C08-08",
+          "C08-17",
+          "C08-15",
+          "C08-07"
+        ],
+        [
+          "C08-06",
+          "C08-24",
+          "C08-25",
+          "C08-18",
+          "C08-26"
+        ],
+        [
+          "C08-29",
+          "C08-10",
+          "C08-28",
+          "C08-27"
+        ]
+      ],
+      "reasons": "11: 19 candidates at 45 or more, with medicines capped at four posts. Swapped C08-22 (same study and argument as C19-24) and C08-21 (the police guidance cannot be opened) for C08-25 (music), C08-26 (WHELD, Care that works) and C08-18 (cognitive stimulation, public); C08-10 takes GP continuity from C16-16."
+    },
+    {
+      "id": "C09",
+      "name": "Communication, capacity and supported decision-making",
+      "allocation": 11,
+      "selected": [
+        "C09-26",
+        "C09-18",
+        "C09-09",
+        "C09-23",
+        "C09-22",
+        "C09-27",
+        "C09-21",
+        "C09-19",
+        "C09-02",
+        "C09-08",
+        "C09-25"
+      ],
+      "reserves": [
+        "C09-15",
+        "C09-12",
+        "C09-20"
+      ],
+      "batches": [
+        [
+          "C09-26",
+          "C09-08",
+          "C09-21",
+          "C09-12",
+          "C09-15"
+        ],
+        [
+          "C09-18",
+          "C09-19",
+          "C09-22",
+          "C09-27",
+          "C09-20"
+        ],
+        [
+          "C09-09",
+          "C09-23",
+          "C09-02",
+          "C09-25"
+        ]
+      ],
+      "reasons": "11: capacity and supported decision-making are absent from the earlier set, but legal posts that rest only on statute text were set aside. Swapped C09-28 (covert medicines, kept as C16-17), C09-11 and C09-01 (statute-only support), C09-12 (contested label, uncertain sources) and C09-32 (interpreter argument overlaps C09-27) for C09-22, C09-27, C09-21, C09-19, C09-02 and C09-25, raising public and Who gets left out coverage."
+    },
+    {
+      "id": "C10",
+      "name": "Pain",
+      "allocation": 9,
+      "selected": [
+        "C10-22",
+        "C10-30",
+        "C10-09",
+        "C10-25",
+        "C10-26",
+        "C10-16",
+        "C10-18",
+        "C10-03",
+        "C10-21"
+      ],
+      "reserves": [
+        "C10-13",
+        "C10-19",
+        "C10-24"
+      ],
+      "batches": [
+        [
+          "C10-25",
+          "C10-18",
+          "C10-19",
+          "C10-13",
+          "C10-24"
+        ],
+        [
+          "C10-22",
+          "C10-26",
+          "C10-30",
+          "C10-16",
+          "C10-21"
+        ],
+        [
+          "C10-09",
+          "C10-03"
+        ]
+      ],
+      "reasons": "9: 14 candidates reach 44, but the knee and hip arthritis cluster is held to two (C10-30, C10-16) and several strong posts rest only on regulations or BNF and NPSA pages. Swapped C10-12 (emergency supply law), C10-10 (NPSA and BNF only), C10-06 (same cascade argument as C06-18) and C10-15 (third arthritis post) for C10-16, C10-18 and C10-21 (pain on movement, non-drug); C10-25 takes the morphine-fear argument from C19-19."
+    },
+    {
+      "id": "C11",
+      "name": "Sleep",
+      "allocation": 12,
+      "selected": [
+        "C11-16",
+        "C11-21",
+        "C11-03",
+        "C11-13",
+        "C11-11",
+        "C11-22",
+        "C11-28",
+        "C11-10",
+        "C11-24",
+        "C11-27",
+        "C11-09",
+        "C11-02"
+      ],
+      "reserves": [
+        "C11-07",
+        "C11-29",
+        "C11-14"
+      ],
+      "batches": [
+        [
+          "C11-16",
+          "C11-02",
+          "C11-03",
+          "C11-24",
+          "C11-29"
+        ],
+        [
+          "C11-11",
+          "C11-28",
+          "C11-09",
+          "C11-14",
+          "C11-21"
+        ],
+        [
+          "C11-13",
+          "C11-22",
+          "C11-10",
+          "C11-27",
+          "C11-07"
+        ]
+      ],
+      "reasons": "12: one of the strongest categories (17 at 45 or more, almost all PubMed-backed). Dropped C11-23 so the sleeping-tablet cluster keeps two (C11-16, C11-03), and added C11-24, C11-27 (care home nights, public) and C11-09 (telephone CBT-I, Who gets left out); C11-09 uses the LIFT trial, so C10-27 was not used."
+    },
+    {
+      "id": "C12",
+      "name": "Continence, bladder and bowels",
+      "allocation": 10,
+      "selected": [
+        "C12-09",
+        "C12-23",
+        "C12-17",
+        "C12-25",
+        "C12-08",
+        "C12-36",
+        "C12-05",
+        "C12-11",
+        "C12-26",
+        "C12-24"
+      ],
+      "reserves": [
+        "C12-16",
+        "C12-20",
+        "C12-32"
+      ],
+      "batches": [
+        [
+          "C12-17",
+          "C12-23",
+          "C12-05",
+          "C12-24",
+          "C12-09"
+        ],
+        [
+          "C12-08",
+          "C12-11",
+          "C12-16",
+          "C12-20",
+          "C12-32"
+        ],
+        [
+          "C12-25",
+          "C12-26",
+          "C12-36"
+        ]
+      ],
+      "reasons": "10: continence is new to the collection and has about ten well-supported, distinct ideas once urine infection is held to two posts (C12-17, C12-23). Swapped C12-18 (the dipstick rule rests on UKHSA pages), C12-22 (third urine-infection post) and C12-03 (scheme websites) for C12-25 and C12-26 (bowel posts, which were thin) and C12-24 (a post for men)."
+    },
+    {
+      "id": "C13",
+      "name": "Nutrition, swallowing, hydration and mouth care",
+      "allocation": 11,
+      "selected": [
+        "C13-33",
+        "C13-14",
+        "C13-09",
+        "C13-36",
+        "C13-11",
+        "C13-18",
+        "C13-20",
+        "C13-23",
+        "C13-27",
+        "C13-26",
+        "C13-32"
+      ],
+      "reserves": [
+        "C13-02",
+        "C13-30",
+        "C13-28"
+      ],
+      "batches": [
+        [
+          "C13-14",
+          "C13-27",
+          "C13-26",
+          "C13-11"
+        ],
+        [
+          "C13-33",
+          "C13-09",
+          "C13-36",
+          "C13-02",
+          "C13-32"
+        ],
+        [
+          "C13-18",
+          "C13-20",
+          "C13-23",
+          "C13-30",
+          "C13-28"
+        ]
+      ],
+      "reasons": "11: 17 candidates at 44.5 or more. Moved C13-08 out (the Parkinson's route point is kept as C19-22) and dropped C13-02 and C13-12 to reduce the sceptical-evidence lean, adding C13-23, C13-27, C13-26 and C13-32 for public and Care that works coverage; C13-11, C13-18 and C13-33 take their topics from C19-20, C08-23 and C08-32."
+    },
+    {
+      "id": "C14",
+      "name": "Hearing, vision and the senses",
+      "allocation": 11,
+      "selected": [
+        "C14-26",
+        "C14-10",
+        "C14-20",
+        "C14-15",
+        "C14-16",
+        "C14-19",
+        "C14-27",
+        "C14-09",
+        "C14-31",
+        "C14-18",
+        "C14-25"
+      ],
+      "reserves": [
+        "C14-13",
+        "C14-05",
+        "C14-23"
+      ],
+      "batches": [
+        [
+          "C14-16",
+          "C14-10",
+          "C14-18",
+          "C14-05",
+          "C14-31"
+        ],
+        [
+          "C14-27",
+          "C14-09",
+          "C14-13",
+          "C14-20",
+          "C14-19"
+        ],
+        [
+          "C14-26",
+          "C14-25",
+          "C14-15",
+          "C14-23"
+        ]
+      ],
+      "reasons": "11: 18 candidates at 45 or more covering hearing, vision, balance and hallucinations. Swapped C14-22 (glasses-and-falls argument overlaps fixed C01-23), C14-11 and C14-06 (face-the-speaker advice overlaps C14-16) for C14-09, C14-31, C14-18 (Who gets left out) and C14-25; C14-15 carries the end-of-life hearing study for the collection, so C19-06 and C09-10 were moved out."
+    },
+    {
+      "id": "C15",
+      "name": "Hospital care, emergency care and discharge",
+      "allocation": 9,
+      "selected": [
+        "C15-16",
+        "C15-01",
+        "C15-11",
+        "C15-12",
+        "C15-14",
+        "C15-23",
+        "C15-25",
+        "C15-04",
+        "C15-07"
+      ],
+      "reserves": [
+        "C15-18",
+        "C15-22",
+        "C15-06"
+      ],
+      "batches": [
+        [
+          "C15-16",
+          "C15-01",
+          "C15-23",
+          "C15-11",
+          "C15-14"
+        ],
+        [
+          "C15-12",
+          "C15-18",
+          "C15-22",
+          "C15-06",
+          "C15-04"
+        ],
+        [
+          "C15-25",
+          "C15-07"
+        ]
+      ],
+      "reasons": "9: fewer distinct strong candidates than the judge's 14 once hospital CGA sits in C05; the two discharge-evidence posts become reserves. Swapped C15-22 and C15-18 for C15-07 to keep three public posts."
+    },
+    {
+      "id": "C16",
+      "name": "Primary care, home care and care homes",
+      "allocation": 8,
+      "selected": [
+        "C16-17",
+        "C16-11",
+        "C16-03",
+        "C16-12",
+        "C16-28",
+        "C16-01",
+        "C16-15",
+        "C16-26"
+      ],
+      "reserves": [
+        "C16-27",
+        "C16-25",
+        "C16-18"
+      ],
+      "batches": [
+        [
+          "C16-17",
+          "C16-11",
+          "C16-15",
+          "C16-18",
+          "C16-12"
+        ],
+        [
+          "C16-28",
+          "C16-27",
+          "C16-26",
+          "C16-25"
+        ],
+        [
+          "C16-01",
+          "C16-03"
+        ]
+      ],
+      "reasons": "8: many ideas depend on NHS England or NICE pages that cannot be opened, and several repeat arguments placed elsewhere. Swapped C16-10 (C03-12), C16-20 (C06-20), C16-23 (C07-27), C16-07 (responder rules have no national source) and C16-21 (only NICE and RPS guidance) for C16-03, C16-12 and C16-26; C16-17 takes covert medicines from C09-28."
+    },
+    {
+      "id": "C17",
+      "name": "Loneliness, relationships, housing and poverty",
+      "allocation": 7,
+      "selected": [
+        "C17-15",
+        "C17-22",
+        "C17-16",
+        "C17-07",
+        "C17-24",
+        "C17-17",
+        "C17-19"
+      ],
+      "reserves": [
+        "C17-04",
+        "C17-05",
+        "C17-20"
+      ],
+      "batches": [
+        [
+          "C17-15",
+          "C17-16",
+          "C17-04",
+          "C17-07",
+          "C17-19"
+        ],
+        [
+          "C17-22",
+          "C17-17",
+          "C17-24",
+          "C17-20",
+          "C17-05"
+        ]
+      ],
+      "reasons": "7: only 7 candidates score 45 or more, the public money posts rest on gov.uk rules that cannot be opened, and several strong items make arguments placed elsewhere (C17-02 as C03-12, C17-12 as C03-09, C17-10 as C02-23). Added C17-24 (heat) and C17-17 (welfare advice, poverty) and dropped C17-21, C17-27 and C17-04 from the mechanical pass."
+    },
+    {
+      "id": "C18",
+      "name": "Unpaid carers and the care workforce",
+      "allocation": 8,
+      "selected": [
+        "C18-11",
+        "C18-13",
+        "C18-04",
+        "C18-17",
+        "C18-01",
+        "C18-03",
+        "C18-14",
+        "C18-15"
+      ],
+      "reserves": [
+        "C18-24",
+        "C18-19",
+        "C18-12"
+      ],
+      "batches": [
+        [
+          "C18-11",
+          "C18-17",
+          "C18-19",
+          "C18-13"
+        ],
+        [
+          "C18-04",
+          "C18-01",
+          "C18-14",
+          "C18-15"
+        ],
+        [
+          "C18-03",
+          "C18-24",
+          "C18-12"
+        ]
+      ],
+      "reasons": "8: the carer ideas are distinct and valuable, but most public-facing posts rest on legislation or official pages that cannot be opened. Dropped C18-22 and C18-02 for that reason; C18-15 stays as the one legislation-based public post and should be verified first."
+    },
+    {
+      "id": "C19",
+      "name": "Palliative care and care near the end of life",
+      "allocation": 12,
+      "selected": [
+        "C19-18",
+        "C19-21",
+        "C19-24",
+        "C19-04",
+        "C19-05",
+        "C19-10",
+        "C19-22",
+        "C19-17",
+        "C19-29",
+        "C19-28",
+        "C19-36",
+        "C19-26"
+      ],
+      "reserves": [
+        "C19-35",
+        "C19-11",
+        "C19-01"
+      ],
+      "batches": [
+        [
+          "C19-18",
+          "C19-17",
+          "C19-35",
+          "C19-24",
+          "C19-36"
+        ],
+        [
+          "C19-04",
+          "C19-28",
+          "C19-10",
+          "C19-11",
+          "C19-26"
+        ],
+        [
+          "C19-21",
+          "C19-05",
+          "C19-22",
+          "C19-01",
+          "C19-29"
+        ]
+      ],
+      "reasons": "12: 17 candidates at 45 or more, with the prognosis and dying-at-home clusters held to two each. Swapped C19-06 (hearing study kept as C14-15) and C19-08 (third dying-at-home post) for C19-29, C19-28 (Who gets left out), C19-36 and C19-26; C19-24 takes the advanced-dementia course study from C08-22."
+    },
+    {
+      "id": "C20",
+      "name": "Ageism, research exclusion, uncertainty and measurement",
+      "allocation": 9,
+      "selected": [
+        "C20-22",
+        "C20-19",
+        "C20-17",
+        "C20-02",
+        "C20-06",
+        "C20-30",
+        "C20-03",
+        "C20-14",
+        "C20-10"
+      ],
+      "reserves": [
+        "C20-26",
+        "C20-20",
+        "C20-11"
+      ],
+      "batches": [
+        [
+          "C20-22",
+          "C20-17",
+          "C20-10",
+          "C20-30",
+          "C20-06"
+        ],
+        [
+          "C20-02",
+          "C20-14",
+          "C20-03",
+          "C20-26",
+          "C20-11"
+        ],
+        [
+          "C20-19",
+          "C20-20"
+        ]
+      ],
+      "reasons": "9: strong but practitioner-heavy, with overlapping clusters (trial exclusion, self-rated health, uncertainty). Swapped C20-11 and C20-26 (both statistical teaching points, kept as reserves) for C20-10 (public); C20-24 was set aside because C08-06 already makes the own-goals argument."
+    }
+  ],
+  "audience_counts": {
+    "both": {
+      "n": 55,
+      "percent": 27.5
+    },
+    "practitioners": {
+      "n": 77,
+      "percent": 38.5
+    },
+    "public": {
+      "n": 68,
+      "percent": 34.0
+    }
+  },
+  "series_counts": {
+    "Reading the evidence": 38,
+    "Teaching round": 37,
+    "Ask this": 27,
+    "Care that works": 25,
+    "Small detail, real effect": 23,
+    "Weighing it up": 17,
+    "What gets counted": 17,
+    "Who gets left out": 16
+  },
+  "post_type_counts": {
+    "teaching": 50,
+    "evidence_interpretation": 46,
+    "public_explanation": 39,
+    "decision_support": 29,
+    "good_care": 25,
+    "criticism": 11
+  },
+  "cross_category_moves": [
+    "C04-26 (hip protectors in care homes) out: same argument as fixed C01-14.",
+    "C14-22 (new glasses, more falls) out: glasses-and-falls argument overlaps fixed C01-23.",
+    "C06-22 (EMPOWER booklet) out in favour of C11-03: same trial and argument; placed in sleep.",
+    "C06-24 (daily aspirin after 70) out in favour of C07-05: same ASPREE trial and result.",
+    "C07-29 (low HbA1c signals overtreatment) out in favour of C06-25: same argument; kept the decision-support version for both audiences.",
+    "C10-06 (ankle swelling after gabapentinoids) out in favour of C06-18: same prescribing-cascade argument.",
+    "C02-26 and C16-20 (Parkinson's medicines on time) out in favour of C06-20: one timing post for the collection.",
+    "C13-08 (nil by mouth and Parkinson's medicines) out in favour of C19-22: same alternative-route argument.",
+    "C07-02 (every preventive treatment has a waiting time) out in favour of C04-04: the time-to-benefit argument, made with numbers.",
+    "C16-23 (DNACPR is about one treatment) and C19-27 not used in favour of C07-27: same argument.",
+    "C07-11 (will the doctor at 3am know your wishes) out in favour of C16-01: same out-of-hours care plan argument.",
+    "C08-22 (what families should expect in advanced dementia) out in favour of C19-24: same study (Mitchell 2009) and argument.",
+    "C08-23 (feeding tubes in advanced dementia) out in favour of C13-18.",
+    "C08-32 (coloured plates) out in favour of C13-33: same nine-man study.",
+    "C09-28 (covert medicines) out in favour of C16-17.",
+    "C09-10 and C19-06 (hearing near death) out in favour of C14-15: same EEG study.",
+    "C14-30 (Deaf BSL users) out in favour of C09-27.",
+    "C10-27 (CBT-I for pain and insomnia) not used because C11-09 uses the same LIFT trial.",
+    "C19-19 (morphine and the fear it means the end) out in favour of C10-25.",
+    "C19-20 (mouth care in the last days) out in favour of C13-11.",
+    "C15-17 (CGA in hospital) out in favour of C05-08: same Cochrane review.",
+    "C16-10 (care home decision at the lowest point) and C17-02 (what would have to change for home to work) out in favour of C03-12.",
+    "C17-12 (next of kin box) and C09-24 (asked what she would want) out in favour of C03-09: same point that relatives do not decide by default.",
+    "C17-10 (life-space in the last four weeks) out in favour of C02-23.",
+    "C16-16 (seeing the same GP) out in favour of C08-10.",
+    "C18-18 (WHELD) out in favour of C08-26: same trial.",
+    "C03-26 (hip fracture rehabilitation with dementia) out: same argument as C02-21 (do not exclude people with dementia from rehabilitation).",
+    "C14-29 (fading smell as a safety issue) out: smell-decline point already made in C13-23; replaced by C14-09.",
+    "C20-24 and C05-06 (goal attainment scaling) not used because C08-06 makes the own-goals argument.",
+    "C18-06 (hours on duty) not used: overlaps C19-10 (count the carer's hours).",
+    "C13-13 (swallowing plan forgets the tablets) not used: same source and argument as C06-01.",
+    "C16-04 and C18-05 (count the different care workers) not used: same idea, resting on unopenable Swedish and NICE sources.",
+    "C03-10 and C18-09 (does anyone depend on you) not used: same argument, resting on census pages.",
+    "C05-21 and C17-21 ('acopia' and 'social admission' labels) make the same argument; neither selected, to limit criticism and keep public shares.",
+    "C10-31 not used as a reserve: overlaps C20-30 (psychological therapy works in later life). C02-15 not used as a reserve: shares the Fiatarone trial with C02-19."
+  ],
+  "notes": "Counts computed by script from _working/candidates/*.json; origin was not used. Total 200; allocations range 7 to 12 (C01 fixed at 11). Audience: practitioners 38.5%, public 34.0%, both 27.5%. Every category has at least a quarter public-primary posts (C16 and C18 exactly 25%), so none is claimed as inherently professional. Every series has at least 14 posts (lowest: Who gets left out 16 after deliberate additions; Weighing it up and What gets counted 17). Only 11 posts (5.5%) are criticism; 143 (71.5%) teach, explain, support a decision or show good care. Within-category clusters are held to two or fewer (e.g. CFS C05-16/24; prognosis C19-17/18; dying at home C19-04/10; knee and hip arthritis C10-30/16; urine infection C12-17/23; sleeping tablets C11-16/03). Reserves follow max(3, ceil(allocation/4)) except C01 (4, fixed). A reserve that shares a cluster with a selected post is meant as a replacement, not an addition: C10-13/19/24 opioids, C04-30 with C04-29, C13-02 with C13-36, C14-13 with C14-09, C07-22 with C07-03. Verify early (support may rest partly on unopenable official text): C18-15 (Care Act s10 wording; the only public reserve options in C18 are also legislation-based), C18-14 (GMC confidentiality text), C03-09 and C09-08 (capacity law and case law), C16-01 and C16-03 (anticipatory care and home care sources), C06-08 (patch residue), C15-07 (Fast Track and rapid discharge), C19-22 (rotigotine conversion), C07-12 (QRISK3 outputs at 78), C02-05 (1.2 m/s assumption), C17-07 (money rules; the core is Schulz 2004). Coherence for writers: word C19-04 and C19-28 consistently on home death; present C13-14 and C13-27 as associations with pneumonia, not proof; keep C04-14 off the denosumab-stopping point that C04-07 owns; keep C14-09 on glasses between operations, not falls (C01-23 owns glasses and falls); C06-31 (a programme) and C06-32 (advice to patients) both involve NSAID combinations and should be scheduled apart; C08-03, C08-08 and C11-02 all mention donepezil in different roles; C16-12 must not read as fatalistic."
+}

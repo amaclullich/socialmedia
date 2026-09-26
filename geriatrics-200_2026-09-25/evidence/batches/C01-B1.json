@@ -1,0 +1,1387 @@
+{
+  "batch": "C01-B1",
+  "category": "C01",
+  "date_checked": "2026-09-25",
+  "notes": "No other batch evidence files existed in evidence/batches/ when this batch started, so nothing was reused. Scite was unavailable for the whole batch (monthly MCP usage limit reached; resets 2026-09-26), so correction and retraction checks used PubMed only: each PubMed record was read, and PubMed searches for Retracted Publication [pt] across all batch PMIDs and for Published Erratum [pt] notices by title returned nothing linked to these sources. Undermind read_pdfs was used to read full-text PDFs; its quoted passages are recorded as verbatim. Consensus was used for discovery; its reproduction of the Lundin-Olsson 1997 letter text is the only opened copy of that letter (PubMed has no abstract for it).",
+  "sources": [
+    {
+      "key": "PMID:23083889",
+      "citation": "Robinovitch SN, Feldman F, Yang Y, Schonnop R, Leung PM, Sarraf T, et al. Video capture of the circumstances of falls in elderly people residing in long-term care: an observational study. Lancet. 2013;381(9860):47-54.",
+      "pmid": "23083889",
+      "pmcid": "PMC3540102",
+      "doi": "10.1016/S0140-6736(12)61263-X",
+      "public_url": "https://doi.org/10.1016/S0140-6736(12)61263-X",
+      "design": "Observational study of video-captured falls",
+      "population_setting": "130 residents (mean age 78) of two long-term care facilities in British Columbia, Canada, 2007 to 2010; cameras in common areas only",
+      "year": 2013,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata (abstract); PMC full text returned empty, so the PDF was read with Undermind read_pdfs (Methods, Results, Discussion, Table 4)",
+      "correction_check": "PubMed record read: no retraction or erratum linked; PubMed Retracted Publication and Published Erratum searches negative. Scite unavailable (usage limit).",
+      "quality_note": "Unique objective data on how falls happen in care homes. Two facilities in one Canadian province; only falls in common areas (no cameras in bedrooms or bathrooms); proportions of falls by activity, not risk per unit of time spent in each activity."
+    },
+    {
+      "key": "PMID:24687239",
+      "citation": "Santesso N, Carrasco-Labra A, Brignardello-Petersen R. Hip protectors for preventing hip fractures in older people. Cochrane Database Syst Rev. 2014;(3):CD001255.",
+      "pmid": "24687239",
+      "pmcid": "PMC10754476",
+      "doi": "10.1002/14651858.CD001255.pub5",
+      "public_url": "https://doi.org/10.1002/14651858.CD001255.pub5",
+      "design": "Cochrane systematic review and meta-analysis of randomised and quasi-randomised trials (19 studies, about 17,000 people)",
+      "population_setting": "Older people in nursing or residential care (14 studies, 11,808 participants) and in the community (5 trials, 5614 participants); mean age range 78 to 86",
+      "year": 2014,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs (Summary of findings table, plain language summary, Results on adherence and pelvic fractures, Discussion)",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. This is the current Cochrane version found on PubMed (pub5, 2014; no later Cochrane update found in PubMed). Scite unavailable.",
+      "quality_note": "Highest-level evidence; GRADE moderate for hip fracture in both settings, low for pelvic fracture. Searches end 2012. Adherence poor across trials and no pooled analysis by adherence was done."
+    },
+    {
+      "key": "PMID:17652295",
+      "citation": "Kiel DP, Magaziner J, Zimmerman S, Ball L, Barton BA, Brown KM, et al. Efficacy of a hip protector to prevent hip fracture in nursing home residents: the HIP PRO randomized controlled trial. JAMA. 2007;298(4):413-22.",
+      "pmid": "17652295",
+      "pmcid": null,
+      "doi": "10.1001/jama.298.4.413",
+      "public_url": "https://doi.org/10.1001/jama.298.4.413",
+      "design": "Multicentre randomised trial (one-sided hip protector, protected versus unprotected hip within each resident)",
+      "population_setting": "1042 residents of 37 US nursing homes, mean age 85, 2002 to 2004",
+      "year": 2007,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Large trial with good adherence that found no protective effect; tested one specific protector design. Included in the Cochrane review."
+    },
+    {
+      "key": "PMID:11087879",
+      "citation": "Kannus P, Parkkari J, Niemi S, Pasanen M, Palvanen M, Jarvinen M, et al. Prevention of hip fracture in elderly people with use of a hip protector. N Engl J Med. 2000;343(21):1506-13.",
+      "pmid": "11087879",
+      "pmcid": null,
+      "doi": "10.1056/NEJM200011233432101",
+      "public_url": "https://doi.org/10.1056/NEJM200011233432101",
+      "design": "Randomised controlled trial (1:2 allocation)",
+      "population_setting": "1801 ambulatory but frail older adults in Finland, mean age 82",
+      "year": 2000,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Positive trial; the comparison of falls while wearing versus not wearing the protector is a within-group observational comparison, not a randomised one."
+    },
+    {
+      "key": "PMID:25704127",
+      "citation": "Korall AM, Feldman F, Scott VJ, Wasdell M, Gillan R, Ross D, et al. Facilitators of and barriers to hip protector acceptance and adherence in long-term care facilities: a systematic review. J Am Med Dir Assoc. 2015;16(3):185-93.",
+      "pmid": "25704127",
+      "pmcid": null,
+      "doi": "10.1016/j.jamda.2014.12.004",
+      "public_url": "https://doi.org/10.1016/j.jamda.2014.12.004",
+      "design": "Systematic review of quantitative, qualitative and mixed-methods studies (28 articles)",
+      "population_setting": "Older adults in long-term care facilities, studies 2000 to 2013",
+      "year": 2015,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Descriptive synthesis of barriers; abstract gives examples only."
+    },
+    {
+      "key": "PMID:38867191",
+      "citation": "Da Q, Xiao Y, Wu F, Chen Y, Li L. Does hip protector prevent falls and hip fractures? An umbrella review of meta-analyses. BMC Geriatr. 2024;24(1):514.",
+      "pmid": "38867191",
+      "pmcid": "PMC11170778",
+      "doi": "10.1186/s12877-024-05122-x",
+      "public_url": "https://doi.org/10.1186/s12877-024-05122-x",
+      "design": "Umbrella review of 6 meta-analyses (search to June 2022)",
+      "population_setting": "Older people in institutions and in the community",
+      "year": 2024,
+      "access": "abstract",
+      "tool_used": "PubMed search_articles and get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Confirms the direction of the Cochrane findings; pools overlapping meta-analyses, so its relative risk (0.70) should not be used alongside the Cochrane figure in a post."
+    },
+    {
+      "key": "PMID:9057736",
+      "citation": "Lundin-Olsson L, Nyberg L, Gustafson Y. \"Stops walking when talking\" as a predictor of falls in elderly people. Lancet. 1997;349(9052):617.",
+      "pmid": "9057736",
+      "pmcid": null,
+      "doi": "10.1016/S0140-6736(97)24009-2",
+      "public_url": "https://doi.org/10.1016/S0140-6736(97)24009-2",
+      "design": "Research letter: small prospective cohort with 6-month falls follow-up",
+      "population_setting": "58 residents of sheltered accommodation in Umea, Sweden; mean age 80.1; many with dementia, depression or previous stroke",
+      "year": 1997,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata (record has no abstract; letter type); letter text read in the Consensus search record; percentages cross-checked in Hyndman 2004 full text (PMID 15201358)",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Very small single-site study (12 people stopped walking). The counts were read only in the Consensus reproduction of the letter; the percentages (83%, 76%, 95%, 48%) are independently confirmed in the Hyndman 2004 full text. Recheck the counts against the Lancet PDF before publication if possible."
+    },
+    {
+      "key": "PMID:15201358",
+      "citation": "Hyndman D, Ashburn A. \"Stops walking when talking\" as a predictor of falls in people with stroke living in the community. J Neurol Neurosurg Psychiatry. 2004;75(7):994-7.",
+      "pmid": "15201358",
+      "pmcid": "PMC1739145",
+      "doi": "10.1136/jnnp.2003.016014",
+      "public_url": "https://doi.org/10.1136/jnnp.2003.016014",
+      "design": "Prospective cohort with 6-month falls follow-up",
+      "population_setting": "63 community-dwelling people with stroke in the UK, mean age 68.4",
+      "year": 2004,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata (abstract); PMC full text empty, so PDF read with Undermind read_pdfs (Introduction and Discussion)",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Small replication in a different population; its introduction is also a secondary report of the 1997 study's accuracy figures."
+    },
+    {
+      "key": "PMID:19473368",
+      "citation": "Beauchet O, Annweiler C, Dubost V, Allali G, Kressig RW, Bridenbaugh S, et al. Stops walking when talking: a predictor of falls in older adults? Eur J Neurol. 2009;16(7):786-95.",
+      "pmid": "19473368",
+      "pmcid": null,
+      "doi": "10.1111/j.1468-1331.2009.02612.x",
+      "public_url": "https://doi.org/10.1111/j.1468-1331.2009.02612.x",
+      "design": "Systematic review with pooled odds ratio (15 studies, 1997 to 2008)",
+      "population_setting": "Older adults; retrospective and prospective studies of dual-task gait and falls",
+      "year": 2009,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Reviews dual-task testing in general, not the stops-walking sign alone; the abstract does not report sensitivity or specificity for the sign."
+    },
+    {
+      "key": "PMID:42350948",
+      "citation": "Zhou T, Straub E, Kiesel A, Gehring D, Granacher U, Haslbauer A, et al. Functional reserve mitigates cognitive-motor dual-task costs in older adults: insights from age, cohort, and behavioural strategies. Eur Rev Aging Phys Act. 2026;23(1).",
+      "pmid": "42350948",
+      "pmcid": "PMC13326005",
+      "doi": "10.1186/s11556-026-00423-z",
+      "public_url": "https://doi.org/10.1186/s11556-026-00423-z",
+      "design": "Cross-sectional analysis with retrospective fall history",
+      "population_setting": "4443 healthy older adults (mean age 74.8) assessed in the Basel dual-task gait paradigm",
+      "year": 2026,
+      "access": "full_text",
+      "tool_used": "PubMed search_articles and get_article_metadata; Undermind read_pdfs (Table 1, Results, Figure 4, Limitations)",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Large but cross-sectional; falls were past falls, so it does not test prediction. Healthy volunteers, not frail residents."
+    },
+    {
+      "key": "PMID:26390824",
+      "citation": "Muir-Hunter SW, Wittwer JE. Dual-task testing to predict falls in community-dwelling older adults: a systematic review. Physiotherapy. 2016;102(1):29-40.",
+      "pmid": "26390824",
+      "pmcid": null,
+      "doi": "10.1016/j.physio.2015.04.011",
+      "public_url": "https://doi.org/10.1016/j.physio.2015.04.011",
+      "design": "Systematic review of prospective cohort studies (at least 1 year follow-up)",
+      "population_setting": "Community-dwelling people aged 60 or over",
+      "year": 2016,
+      "access": "abstract",
+      "tool_used": "PubMed search_articles and get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Concludes dual-task gait change is associated with falls but that the literature does not support detailed clinical protocols."
+    },
+    {
+      "key": "PMID:24915643",
+      "citation": "Menant JC, Schoene D, Sarofim M, Lord SR. Single and dual task tests of gait speed are equivalent in the prediction of falls in older people: a systematic review and meta-analysis. Ageing Res Rev. 2014;16:83-104.",
+      "pmid": "24915643",
+      "pmcid": null,
+      "doi": "10.1016/j.arr.2014.06.001",
+      "public_url": "https://doi.org/10.1016/j.arr.2014.06.001",
+      "design": "Systematic review and meta-analysis",
+      "population_setting": "Older people; studies of single-task and dual-task gait speed for fall prediction",
+      "year": 2014,
+      "access": "abstract",
+      "tool_used": "PubMed search_articles and get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Conflicts with Muir-Hunter 2016 on whether dual-task testing adds to single-task gait speed."
+    },
+    {
+      "key": "PMID:28467028",
+      "citation": "Hoglinger GU, Respondek G, Stamelou M, Kurz C, Josephs KA, Lang AE, et al. Clinical diagnosis of progressive supranuclear palsy: the Movement Disorder Society criteria. Mov Disord. 2017;32(6):853-64.",
+      "pmid": "28467028",
+      "pmcid": "PMC5516529",
+      "doi": "10.1002/mds.26987",
+      "public_url": "https://doi.org/10.1002/mds.26987",
+      "design": "Evidence- and consensus-based diagnostic criteria (systematic review, autopsy-confirmed case series, Delphi)",
+      "population_setting": "Criteria for clinical diagnosis of PSP; derived with 206 autopsy-confirmed PSP cases and disease controls",
+      "year": 2017,
+      "access": "full_text",
+      "tool_used": "PubMed get_full_text_article (PMC text without tables); Undermind read_pdfs for Tables 2, 4 and 5",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Official MDS criteria for PSP; intended for research and clinical practice."
+    },
+    {
+      "key": "PMID:41390531",
+      "citation": "Fox SH, et al. Revisiting the 2015 MDS diagnostic criteria for Parkinson disease: insights from autopsy-confirmed cases. NPJ Parkinsons Dis. 2025.",
+      "pmid": "41390531",
+      "pmcid": "PMC12748991",
+      "doi": "10.1038/s41531-025-01206-6",
+      "public_url": "https://doi.org/10.1038/s41531-025-01206-6",
+      "design": "Scoping review of 28 clinicopathological studies (1988 to 2024)",
+      "population_setting": "Autopsy-confirmed PD (accumulated 1512) and atypical parkinsonism (DLB, MSA, PSP, CBD; accumulated 1177)",
+      "year": 2025,
+      "access": "full_text",
+      "tool_used": "PubMed get_full_text_article (PMC); Undermind read_pdfs for Table 1 wording",
+      "correction_check": "PubMed record read via full-text tool: no retraction or erratum noted; searches negative. Scite unavailable.",
+      "quality_note": "Used in place of Postuma 2015 (not openable here). Retrospective chart data with small numbers for some disorders; documentation bias acknowledged by the authors. Author list beyond first author not returned by the tools."
+    },
+    {
+      "key": "PMID:33455998",
+      "citation": "Nakajima M, Yamada S, Miyajima M, Ishii K, Kuriyama N, Kazui H, et al. Guidelines for management of idiopathic normal pressure hydrocephalus (third edition): endorsed by the Japanese Society of Normal Pressure Hydrocephalus. Neurol Med Chir (Tokyo). 2021;61(2):63-97.",
+      "pmid": "33455998",
+      "pmcid": "PMC7905302",
+      "doi": "10.2176/nmc.st.2020-0292",
+      "public_url": "https://doi.org/10.2176/nmc.st.2020-0292",
+      "design": "Clinical practice guideline (graded recommendations)",
+      "population_setting": "Older adults with suspected or diagnosed idiopathic NPH; Japanese multidisciplinary guideline",
+      "year": 2021,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata; Undermind read_pdfs (Chapters 1, 4 and 5)",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Most recent comprehensive guideline found; outcome figures come largely from Japanese series including the SINPHONI trials."
+    },
+    {
+      "key": "PMID:40647620",
+      "citation": "Anagnostou E, Gamvroula A, Kouvli M, Karagianni E, Stranjalis G, Skoularidou M, et al. A refined vestibular Romberg test to differentiate somatosensory from vestibular-induced disequilibrium. Diagnostics (Basel). 2025;15(13):1621.",
+      "pmid": "40647620",
+      "pmcid": "PMC12248627",
+      "doi": "10.3390/diagnostics15131621",
+      "public_url": "https://doi.org/10.3390/diagnostics15131621",
+      "design": "Posturography study with a narrative introduction on the Romberg test",
+      "population_setting": "Patients with peripheral vestibulopathy, patients with pure sensory neuropathy and age-matched controls (Greece)",
+      "year": 2025,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata; Undermind read_pdfs (Abstract and Introduction)",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Used only for the textbook physiology stated in its introduction, not for its own results."
+    },
+    {
+      "key": "PMID:39042993",
+      "citation": "Anagnostou E, Kouvli M, Karagianni E, Gamvroula A, Kalamatianos T, Stranjalis G, et al. Romberg's test revisited: changes in classical and advanced sway metrics in patients with pure sensory neuropathy. Neurophysiol Clin. 2024;54(5):102999.",
+      "pmid": "39042993",
+      "pmcid": null,
+      "doi": "10.1016/j.neucli.2024.102999",
+      "public_url": "https://doi.org/10.1016/j.neucli.2024.102999",
+      "design": "Posturography case-control study",
+      "population_setting": "Patients with pure sensory neuropathy and controls",
+      "year": 2024,
+      "access": "abstract",
+      "tool_used": "PubMed search_articles and get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Small study; shows the Romberg test alone classifies poorly."
+    },
+    {
+      "key": "PMID:25824066",
+      "citation": "Shipton MJ, Thachil J. Vitamin B12 deficiency: a 21st century perspective. Clin Med (Lond). 2015;15(2):145-50.",
+      "pmid": "25824066",
+      "pmcid": "PMC4953733",
+      "doi": "10.7861/clinmedicine.15-2-145",
+      "public_url": "https://doi.org/10.7861/clinmedicine.15-2-145",
+      "design": "Narrative review",
+      "population_setting": "Adults with vitamin B12 deficiency; UK clinical perspective",
+      "year": 2015,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata; PMC full text empty, so PDF read with Undermind read_pdfs",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Does not mention the Romberg sign or position sense directly; supports neuropathy and spinal cord degeneration only."
+    },
+    {
+      "key": "PMID:17166803",
+      "citation": "Snijders AH, van de Warrenburg BP, Giladi N, Bloem BR. Neurological gait disorders in elderly people: clinical approach and classification. Lancet Neurol. 2007;6(1):63-74.",
+      "pmid": "17166803",
+      "pmcid": null,
+      "doi": "10.1016/S1474-4422(06)70678-0",
+      "public_url": "https://doi.org/10.1016/S1474-4422(06)70678-0",
+      "design": "Narrative review",
+      "population_setting": "Older people with gait disorders",
+      "year": 2007,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Expert review; full text not openable here."
+    },
+    {
+      "key": "PMID:27213133",
+      "citation": "Shapey J, Glancz LJ, Brennan PM. Chronic subdural haematoma in the elderly: is it time for a new paradigm in management? Curr Geriatr Rep. 2016;5:71-7.",
+      "pmid": "27213133",
+      "pmcid": "PMC4851686",
+      "doi": "10.1007/s13670-016-0166-9",
+      "public_url": "https://doi.org/10.1007/s13670-016-0166-9",
+      "design": "Narrative review",
+      "population_setting": "Older people with chronic subdural haematoma",
+      "year": 2016,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata; Undermind read_pdfs",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Review; the 61.7% head-injury figure and symptom frequencies are cited from a 1000-patient series (Gelabert-Gonzalez 2005), not new data."
+    },
+    {
+      "key": "PMID:28306417",
+      "citation": "Brennan PM, Kolias AG, Joannides AJ, Shapey J, Marcus HJ, Gregson BA, et al. The management and outcome for patients with chronic subdural hematoma: a prospective, multicenter, observational cohort study in the United Kingdom. J Neurosurg. 2017:1-8.",
+      "pmid": "28306417",
+      "pmcid": null,
+      "doi": "10.3171/2016.8.JNS16134.test",
+      "public_url": "https://pubmed.ncbi.nlm.nih.gov/28306417/",
+      "design": "Prospective multicentre observational cohort (national audit by trainee collaborative)",
+      "population_setting": "1205 patients with chronic subdural haematoma referred to 26 UK and Ireland neurosurgical units, 2013 to 2014; 823 transferred; median age 77",
+      "year": 2017,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs of the accepted manuscript (tables not included in that PDF)",
+      "correction_check": "PubMed record read: no retraction or erratum linked. The DOI in PubMed ends in '.test', which looks like an indexing error, so the public link is the PubMed page. Scite unavailable.",
+      "quality_note": "Neurosurgical-unit population (people well enough and ill enough to be transferred); symptom percentages are for transferred patients."
+    },
+    {
+      "key": "PMID:37780710",
+      "citation": "El Rahal A, et al. Incidence, therapy, and outcome in the management of chronic subdural hematoma in Switzerland: a population-based multicenter cohort study. Front Neurol. 2023;14:1206996.",
+      "pmid": "37780710",
+      "pmcid": "PMC10540067",
+      "doi": "10.3389/fneur.2023.1206996",
+      "public_url": "https://doi.org/10.3389/fneur.2023.1206996",
+      "design": "Retrospective national multicentre cohort",
+      "population_setting": "663 patients treated surgically for chronic subdural haematoma in 14 Swiss neurosurgical centres in 2013; median age 76",
+      "year": 2023,
+      "access": "full_text",
+      "tool_used": "PubMed get_full_text_article (PMC, including Table 1 and Table 2)",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Surgically treated patients only; retrospective. The table caption on anticoagulant versus antiplatelet percentages appears transposed relative to the table rows, so those medication percentages are not used. Author list beyond first author not returned by the tools."
+    },
+    {
+      "key": "PMID:26351527",
+      "citation": "Iliescu IA. Current diagnosis and treatment of chronic subdural haematomas. J Med Life. 2015;8(3):278-84.",
+      "pmid": "26351527",
+      "pmcid": "PMC4556906",
+      "doi": null,
+      "public_url": "https://pubmed.ncbi.nlm.nih.gov/26351527/",
+      "design": "Narrative review",
+      "population_setting": "Adults, mainly older people, with chronic subdural haematoma",
+      "year": 2015,
+      "access": "full_text",
+      "tool_used": "PubMed get_article_metadata; Undermind read_pdfs",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Single-author narrative review; used only for descriptive points (minor injury often ignored, CT or MRI diagnosis) that other sources agree with."
+    },
+    {
+      "key": "PMID:25224156",
+      "citation": "Kolias AG, Chari A, Santarius T, Hutchinson PJ. Chronic subdural haematoma: modern management and emerging therapies. Nat Rev Neurol. 2014;10(10):570-8.",
+      "pmid": "25224156",
+      "pmcid": null,
+      "doi": "10.1038/nrneurol.2014.163",
+      "public_url": "https://doi.org/10.1038/nrneurol.2014.163",
+      "design": "Narrative review",
+      "population_setting": "Chronic subdural haematoma, especially in older people",
+      "year": 2014,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Full text not openable; abstract supports only prevalence in older people and surgery as mainstay. Predates the dexamethasone and embolisation trials."
+    },
+    {
+      "key": "PMID:38167695",
+      "citation": "Rickard F, Gale J, Williams A, Shipway D. New horizons in subdural haematoma. Age Ageing. 2023;52(12).",
+      "pmid": "38167695",
+      "pmcid": null,
+      "doi": "10.1093/ageing/afad240",
+      "public_url": "https://doi.org/10.1093/ageing/afad240",
+      "design": "Narrative review (geriatric medicine and neurosurgery authors, UK)",
+      "population_setting": "Older people living with frailty and multimorbidity with subdural haematoma",
+      "year": 2023,
+      "access": "abstract",
+      "tool_used": "PubMed search_articles and get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked. Scite unavailable.",
+      "quality_note": "Geriatric perspective; written before the three 2024 embolisation trials were published."
+    },
+    {
+      "key": "PMID:33326713",
+      "citation": "Hutchinson PJ, Edlmann E, Bulters D, Zolnourian A, Holton P, Suttner N, et al. Trial of dexamethasone for chronic subdural hematoma. N Engl J Med. 2020;383(27):2616-27.",
+      "pmid": "33326713",
+      "pmcid": null,
+      "doi": "10.1056/NEJMoa2020473",
+      "public_url": "https://doi.org/10.1056/NEJMoa2020473",
+      "design": "Multicentre randomised placebo-controlled trial (Dex-CSDH)",
+      "population_setting": "748 adults with symptomatic chronic subdural haematoma in UK neurosurgical units; mean age 74; 94% had surgery",
+      "year": 2020,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; the only related erratum found corrects the trial protocol paper (PMID 30885268, a misspelled collaborator name), not this report. Scite unavailable.",
+      "quality_note": "Definitive trial; modified intention-to-treat analysis of 680 patients."
+    },
+    {
+      "key": "PMID:39565988",
+      "citation": "Davies JM, Knopman J, Mokin M, Hassan AE, et al. Adjunctive middle meningeal artery embolization for subdural hematoma. N Engl J Med. 2024;391(20):1890-900.",
+      "pmid": "39565988",
+      "pmcid": null,
+      "doi": "10.1056/NEJMoa2313472",
+      "public_url": "https://doi.org/10.1056/NEJMoa2313472",
+      "design": "Multicentre randomised adaptive-design trial (EMBOLISE), industry funded",
+      "population_setting": "400 patients with symptomatic subacute or chronic subdural haematoma needing surgical evacuation (USA)",
+      "year": 2024,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Adjunct to surgery; 90-day follow-up; embolisation-related disabling stroke in 2 patients."
+    },
+    {
+      "key": "PMID:39565980",
+      "citation": "Fiorella D, Monteith SJ, Hanel R, Atchie B, Boo S, McTaggart RA, et al. Embolization of the middle meningeal artery for chronic subdural hematoma. N Engl J Med. 392(9):855-64 (published online 2024 Nov 20).",
+      "pmid": "39565980",
+      "pmcid": null,
+      "doi": "10.1056/NEJMoa2409845",
+      "public_url": "https://doi.org/10.1056/NEJMoa2409845",
+      "design": "Randomised trial (STEM), industry funded",
+      "population_setting": "310 patients with symptomatic chronic subdural haematoma, surgical or non-surgical standard treatment; mean age 73",
+      "year": 2024,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Composite primary outcome including imaging recurrence; 180-day follow-up."
+    },
+    {
+      "key": "PMID:39565989",
+      "citation": "Liu J, Ni W, Zuo Q, Yang H, et al. Middle meningeal artery embolization for nonacute subdural hematoma. N Engl J Med. 2024;391(20):1901-12.",
+      "pmid": "39565989",
+      "pmcid": null,
+      "doi": "10.1056/NEJMoa2401201",
+      "public_url": "https://doi.org/10.1056/NEJMoa2401201",
+      "design": "Multicentre open-label randomised trial (MAGIC-MT)",
+      "population_setting": "722 patients with symptomatic non-acute subdural haematoma in China; 78% had burr-hole drainage",
+      "year": 2024,
+      "access": "abstract",
+      "tool_used": "PubMed get_article_metadata",
+      "correction_check": "PubMed record read: no retraction or erratum linked; searches negative. Scite unavailable.",
+      "quality_note": "Did not show a clear reduction in symptomatic recurrence; fewer serious adverse events with embolisation."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01-18-a",
+      "cand_id": "C01-18",
+      "claim": "Robinovitch and colleagues analysed 227 falls from 130 residents, captured on video between 2007 and 2010 in two long-term care facilities in British Columbia, Canada.",
+      "source_keys": [
+        "PMID:23083889"
+      ],
+      "supporting_passage": "We did this observational study between April 20, 2007, and June 23, 2010, in two long-term care facilities in British Columbia, Canada. Digital video cameras were installed in common areas (dining rooms, lounges, hallways). ... We captured 227 falls from 130 individuals (mean age 78 years, SD 10).",
+      "location": "Abstract, Methods and Findings",
+      "pico_timeframe": "Residents of two long-term care facilities / video-captured falls in common areas / no comparator / cause of imbalance and activity at time of fall / April 2007 to June 2010",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "Researchers filmed 227 falls by 130 residents of two care homes in British Columbia, Canada, between 2007 and 2010.",
+      "qualifications": "Say 'care homes' (long-term care facilities); say cameras were in shared areas only.",
+      "conflicting_or_uncertain": "None for the descriptive facts.",
+      "numbers": [
+        {
+          "value": "227 falls",
+          "meaning": "all video-captured falls analysed, 2007 to 2010"
+        },
+        {
+          "value": "130 residents",
+          "meaning": "people whose falls were captured; mean age 78"
+        },
+        {
+          "value": "2 facilities",
+          "meaning": "long-term care facilities in British Columbia, Canada"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-18-b",
+      "cand_id": "C01-18",
+      "claim": "The commonest cause of falling was incorrect shifting of body weight (41%); trips or stumbles caused 21% and slips only 3%.",
+      "source_keys": [
+        "PMID:23083889"
+      ],
+      "supporting_passage": "The most frequent cause of falling was incorrect weight shifting, which accounted for 41% (93 of 227) of falls, followed by trip or stumble (48, 21%), hit or bump (25, 11%), loss of support (25, 11%), and collapse (24, 11%). Slipping accounted for only 3% (six) of falls.",
+      "location": "Abstract, Findings",
+      "pico_timeframe": "227 video-captured falls / cause of imbalance rated by a team with a validated questionnaire",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "About 4 in 10 of the filmed falls (93 of 227) came from shifting body weight the wrong way during an ordinary movement. About 1 in 5 (48) came from a trip or stumble, and 6 from a slip.",
+      "qualifications": "These are shares of falls filmed in shared areas, not of all falls in the homes. Causes were judged by a research team watching the videos.",
+      "conflicting_or_uncertain": "The authors note self-report studies found different patterns; they attribute part of the difference to location (their data exclude bedrooms and bathrooms). Do not say 'most falls did not involve an obstacle': hit or bump (11%) and loss of support from an object (11%) also involve external objects. It is accurate that trips and slips together were about 1 in 4 (54 of 227).",
+      "numbers": [
+        {
+          "value": "41% (93 of 227)",
+          "meaning": "incorrect weight shifting, share of filmed falls"
+        },
+        {
+          "value": "21% (48 of 227)",
+          "meaning": "trip or stumble"
+        },
+        {
+          "value": "11% each (25, 25, 24 of 227)",
+          "meaning": "hit or bump; loss of support; collapse"
+        },
+        {
+          "value": "3% (6 of 227)",
+          "meaning": "slip"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-18-c",
+      "cand_id": "C01-18",
+      "claim": "Falls happened most often during forward walking, standing quietly and sitting down; about a fifth happened during transfers.",
+      "source_keys": [
+        "PMID:23083889"
+      ],
+      "supporting_passage": "The three activities associated with the highest proportion of falls were forward walking (54 of 227 falls, 24%), standing quietly (29 falls, 13%), and sitting down (28 falls, 12%). Compared with previous reports from the long-term care setting, we identified a higher occurrence of falls during standing and transferring, a lower occurrence during walking ... 21% of falls occurred during transferring, suggesting the need for exercises to enhance muscle strength, and improved assistive devices that provide adequate body support (eg, locking of wheels) when moving to and from chairs. ... The activities associated with fewest falls were standing and reaching, standing and turning, and seated or wheeling in a wheelchair (table 4).",
+      "location": "Abstract, Findings; Results; Discussion",
+      "pico_timeframe": "227 filmed falls / activity at time of fall",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "The commonest moments were walking forward (54 falls), standing still (29) and sitting down (28). About 1 in 5 falls happened while moving to or from a chair or bed.",
+      "qualifications": "Do not list turning as a common moment: standing and turning was among the activities with the fewest falls. These are counts of falls, not risk per minute spent on each activity (the study did not measure time spent in each activity).",
+      "conflicting_or_uncertain": "Proportions by activity partly reflect how often residents do each activity.",
+      "numbers": [
+        {
+          "value": "24% (54 of 227)",
+          "meaning": "falls during forward walking"
+        },
+        {
+          "value": "13% (29)",
+          "meaning": "falls while standing quietly"
+        },
+        {
+          "value": "12% (28)",
+          "meaning": "falls while sitting down"
+        },
+        {
+          "value": "21%",
+          "meaning": "falls during transferring (authors' Discussion)"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-18-d",
+      "cand_id": "C01-18",
+      "claim": "Cameras were only in common areas, not bedrooms or bathrooms, so the findings describe falls in shared spaces.",
+      "source_keys": [
+        "PMID:23083889"
+      ],
+      "supporting_passage": "Digital video cameras were installed in common areas (dining rooms, lounges, hallways); Delta View had a network of 216 cameras, and New Vista had 48. No cameras were located in bedrooms or bathrooms. ... In 2010, at Delta View, 45% of falls documented on incident report occurred in common areas, of which 65% were captured on video. At New Vista, 34% of documented falls occurred in common areas, of which 28% were captured on video. ... We did not measure (and were unable to incorporate in a risk analysis) the amount of time spent doing the various activities associated with falls. ... We stress that our results summarise the situational context of falls in common areas of the long-term care environment.",
+      "location": "Methods, Procedures; Results; Discussion (limitations)",
+      "pico_timeframe": "Two facilities; 2010 incident-report comparison",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "The cameras were in lounges, dining rooms and corridors only. Falls in bedrooms and bathrooms, where many care home falls happen, were not filmed.",
+      "qualifications": "Put this limitation on the chart itself. Do not state what share of all care home falls happen in bedrooms; the paper gives only that 45% and 34% of documented falls at the two sites were in common areas in 2010.",
+      "conflicting_or_uncertain": "The authors report that people with filmed falls had similar demographics to those whose falls were not filmed (January to June 2010).",
+      "numbers": [
+        {
+          "value": "45% and 34%",
+          "meaning": "share of incident-reported falls in 2010 that occurred in common areas, at the two facilities"
+        },
+        {
+          "value": "65% and 28%",
+          "meaning": "share of those common-area falls that were captured on video in 2010"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-18-e",
+      "cand_id": "C01-18",
+      "claim": "Falls prevention in care homes should give as much attention to transfers and sitting down as to trip hazards.",
+      "source_keys": [
+        "PMID:23083889"
+      ],
+      "supporting_passage": "Our findings emphasise the need to target each of these activities in fall risk assessment and prevention strategies. ... We showed that 25% of trips occurred due to the foot being caught on a chair or table leg, suggesting the need for improved staff awareness of this hazard, and improvements in environmental planning and furniture design. 21% of falls occurred during transferring, suggesting the need for exercises to enhance muscle strength, and improved assistive devices that provide adequate body support (eg, locking of wheels) when moving to and from chairs.",
+      "location": "Discussion",
+      "pico_timeframe": "Authors' interpretation; no intervention tested",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "The authors suggested strength exercise and better support when moving to and from chairs, and noted that a quarter of trips were over chair or table legs. We should give sitting down, standing up and transfers the same attention as clearing trip hazards.",
+      "qualifications": "Mark the position as judgement drawn from the finding ('We should...'), not a tested intervention. Keep the furniture-leg point so the post does not dismiss trip hazards.",
+      "conflicting_or_uncertain": "No trial in this study showed that focusing on transfers reduces falls.",
+      "numbers": [
+        {
+          "value": "25% of trips",
+          "meaning": "trips where the foot caught on a chair or table leg (share of the 48 trips)"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-27-a",
+      "cand_id": "C01-27",
+      "claim": "Repeated unprovoked falls within 3 years of onset are a core feature (P1, highest certainty level) in the MDS criteria for progressive supranuclear palsy; 'backward' falls are not part of the criterion wording.",
+      "source_keys": [
+        "PMID:28467028"
+      ],
+      "supporting_passage": "Table 2, Postural instability, Level 1: \"P1: Repeated unprovoked falls within 3 years\". Table 4 definition: \"Spontaneous loss of balance while standing, or history of more than one unprovoked fall, within 3 years after onset of PSP-related features.\" Discussion: \"We are also aware of several other clinical signs that have been proposed to indicate the diagnosis of PSP, for example, retropulsion with spontaneous backward falls ... Whereas these signs may indeed be helpful to raise suspicion about PSP, we found no clear evidence suggesting that they would indeed contribute reliable information to substantiate the diagnosis of PSP.\" Table 5: Probable PSP = \"(O1 or O2) + (P1 or P2)\", \"PSP with Richardson's syndrome\".",
+      "location": "Tables 2, 4 and 5; Discussion",
+      "pico_timeframe": "Diagnostic criteria; falls within 3 years after onset of PSP-related features",
+      "claim_type": "definition",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "In the Movement Disorder Society criteria for progressive supranuclear palsy (PSP), repeated unprovoked falls within 3 years of the first symptoms are a core feature. Combined with slowed or restricted up-and-down eye movements, they support a diagnosis of probable PSP.",
+      "qualifications": "Carousel label: 'Repeated falls without a clear cause in the first 3 years: think PSP'. Do not write 'early backward falls: think PSP' as if it were the criterion; backward falls are a traditional sign that the criteria authors found no clear evidence for.",
+      "conflicting_or_uncertain": "Falls alone do not make the diagnosis; the criteria combine falls with eye-movement signs.",
+      "numbers": [
+        {
+          "value": "3 years",
+          "meaning": "time window after onset of PSP-related features"
+        },
+        {
+          "value": "more than one",
+          "meaning": "unprovoked falls needed for P1 (or spontaneous loss of balance while standing)"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-27-b",
+      "cand_id": "C01-27",
+      "claim": "Recurrent falls due to impaired balance within 3 years of onset are a red flag against Parkinson's disease in the 2015 MDS criteria, and in autopsy-confirmed cases they were documented far less often in PD than in atypical parkinsonism.",
+      "source_keys": [
+        "PMID:41390531"
+      ],
+      "supporting_passage": "Red Flags were described as negative features which are potential signs of alternate pathology, but with lower or uncertain specificity. Red Flags rule out probable PD only when they cannot be counterbalanced by supportive criteria ... Table 1: \"Recurrent falls (>1 per year) within first 3 years\". Results: \"'Recurrent falling because of impaired balance within 3 y' was reported in 3.8% of 124 PD cases and 28% in 19 DLB cases. In 274 MSA cases, these early falls were reported in 28.8%, in 33.6% of 28 PSP cases and in 22% of 27 CBD cases.\" Discussion: \"Items with less clear discriminative value were 'rapid progression of gait impairment', 'recurrent falls', and 'bilateral symmetric Parkinsonism', as these features were reported in 3.8–17.6% of PD cases.\"",
+      "location": "Introduction; Table 1; Results, Red Flags; Discussion",
+      "pico_timeframe": "Autopsy-confirmed PD and atypical parkinsonism from 28 clinicopathological series, 1988 to 2024 / documented early recurrent falls",
+      "claim_type": "guideline recommendation",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "Repeated falls from poor balance in the first 3 years of a Parkinson-like illness are a warning sign in the Movement Disorder Society criteria that the illness may be something other than Parkinson's disease. In people whose diagnosis was confirmed after death, such early falls were recorded in about 4 in 100 with Parkinson's disease and about 1 in 3 with PSP.",
+      "qualifications": "A red flag, not an exclusion: it can be outweighed by features supporting PD. Autopsy numbers are small for PSP (28 cases) and come from retrospective notes. The same review advises making sure dopamine treatment is adequate before relying on early falls as a red flag.",
+      "conflicting_or_uncertain": "About two thirds of the PSP cases in this dataset had no early recurrent falls documented, so absence of early falls does not rule PSP out. Postuma 2015 (the original criteria) could not be opened; the wording comes from this 2025 review.",
+      "numbers": [
+        {
+          "value": "3.8% of 124",
+          "meaning": "autopsy-confirmed PD cases with documented recurrent falls within 3 years"
+        },
+        {
+          "value": "33.6% of 28",
+          "meaning": "autopsy-confirmed PSP cases with such falls"
+        },
+        {
+          "value": "28.8% of 274",
+          "meaning": "MSA cases"
+        },
+        {
+          "value": "28% of 19; 22% of 27",
+          "meaning": "DLB and CBD cases"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-27-c",
+      "cand_id": "C01-27",
+      "claim": "The gait of idiopathic normal pressure hydrocephalus (NPH) is small-stepped, magnetic (feet barely lifted) and broad-based, and becomes unstable on turning.",
+      "source_keys": [
+        "PMID:33455998"
+      ],
+      "supporting_passage": "Gait disturbance in iNPH has three characteristics: small-step gait, magnet gait, and broad-based gait. Walking becomes unstable and slow. ... When changing directions, steps are small and unstable. ... pathological gait features, such as small-step gait (short length of stride), broad-based gait (increasingly large step intervals), instability, difficulty in changing directions, frozen gait (no first step taken), and shuffle (dragging of feet and decreased elevation)",
+      "location": "Chapter 1, Characteristics and evaluation of gait disturbance; Chapter 3, CSF drainage test",
+      "pico_timeframe": "Guideline description of iNPH gait",
+      "claim_type": "definition",
+      "verdict": "supported",
+      "safe_wording": "Normal pressure hydrocephalus typically causes short, wide-based steps with the feet barely lifted, which become more unsteady on turning.",
+      "qualifications": "Carousel label: 'Short, wide-based steps, feet barely lifted, unsteady on turning: think NPH'.",
+      "conflicting_or_uncertain": "The guideline notes some features overlap with Parkinson's disease (freezing), but external cues help less in NPH.",
+      "numbers": []
+    },
+    {
+      "claim_id": "C01-27-d",
+      "cand_id": "C01-27",
+      "claim": "Gait disturbance is the commonest symptom of NPH; bladder symptoms and cognitive change are common but the full triad is often incomplete.",
+      "source_keys": [
+        "PMID:33455998"
+      ],
+      "supporting_passage": "The percentage of gait disturbance is 94–100%, which is consistent in almost all studies and is seen in almost all iNPH cases. The rates reported for cognitive impairment and urinary dysfunction vary, being 78–98% and 60–92%, respectively. Consistently, gait disturbance is the most common symptom of iNPH, followed by cognitive impairment and urinary incontinence. Many reports state that the triad is complete in approximately 60% of cases. Meanwhile, a large-scale questionnaire survey conducted in Japan in 2012 revealed that the full triad was present in only 12.1% of 1524 patients. ... Urge incontinence associated with an overactive bladder is characteristic of dysuria in patients with iNPH.",
+      "location": "Chapter 1, sections 4 and 5",
+      "pico_timeframe": "Mostly hospital-based series; one Japanese national survey (2012, 1524 patients)",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "Almost everyone with NPH has the walking problem. Bladder urgency and slowed thinking are common too, but many people do not have all three.",
+      "qualifications": "Do not imply urgency and slowed thinking must be present before NPH is considered.",
+      "conflicting_or_uncertain": "Triad completeness ranges from about 60% in hospital series to 12.1% in a national survey.",
+      "numbers": [
+        {
+          "value": "94 to 100%",
+          "meaning": "share of iNPH cases with gait disturbance (hospital-based studies)"
+        },
+        {
+          "value": "78 to 98%; 60 to 92%",
+          "meaning": "cognitive impairment; urinary dysfunction"
+        },
+        {
+          "value": "about 60%; 12.1% of 1524",
+          "meaning": "full triad in hospital reports; full triad in a Japanese national survey"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-27-e",
+      "cand_id": "C01-27",
+      "claim": "Shunt surgery is effective for NPH and many people improve, with walking improving most.",
+      "source_keys": [
+        "PMID:33455998"
+      ],
+      "supporting_passage": "CSF shunt intervention is effective for treating iNPH. Recommendation Grade 1, Level of Evidence B ... Symptoms usually improve after surgical intervention. ... The degree of improvement in gait disturbance is the highest, followed by cognitive impairment and urinary dysfunction. ... Based on evaluations such as mRS, improvement rate after shunt intervention is reported to be approximately 39–81% in 3–6 months, 63–84% in 1 year, 69% in 2 years, and approximately 60–74% in 3–6 years. ... gait disturbance showed the highest rate of improvement ... approximately 60–77%.",
+      "location": "Chapter 4, CQ-10; Chapter 5, CQ-14 and prognosis",
+      "pico_timeframe": "People with iNPH selected for shunt surgery / improvement on mRS and symptom scales / 3 months to 6 years",
+      "claim_type": "guideline recommendation",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "Shunt surgery helps many people with NPH who are selected for it; in reported series, roughly 6 to 8 in 10 were better a year later, and walking improved most.",
+      "qualifications": "Applies to selected patients (usually after a positive tap test and typical imaging); outcomes depend on comorbidity, disease duration and complications.",
+      "conflicting_or_uncertain": "Ranges come from varied series and measures; long-term benefit falls somewhat over years.",
+      "numbers": [
+        {
+          "value": "63 to 84%",
+          "meaning": "improvement rate on mRS-type measures at 1 year after shunt"
+        },
+        {
+          "value": "60 to 77%",
+          "meaning": "improvement rate for gait disturbance"
+        },
+        {
+          "value": "Grade 1, Level B",
+          "meaning": "guideline recommendation strength for shunt surgery"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-27-f",
+      "cand_id": "C01-27",
+      "claim": "Marked unsteadiness with eyes closed (a positive Romberg test) points to loss of position sense, for example from neuropathy, but also occurs with loss of inner-ear balance function; it is not a test of cerebellar function.",
+      "source_keys": [
+        "PMID:40647620",
+        "PMID:39042993"
+      ],
+      "supporting_passage": "In clinical neurology, the Romberg test is traditionally used to assess postural stability by altering visual input, thereby unmasking disequilibrium in patients with sensory ataxia caused by proprioceptive deficits. ... The classic Romberg test primarily evaluates proprioceptive function, particularly the integrity of the posterior columns of the spinal cord. ... It is not a test of cerebellar function, as cerebellar dysfunction typically leads to balance impairment regardless of visual input. ... While the Romberg test is standard, it fails to clearly differentiate vestibular from sensory ataxia. (Anagnostou 2025) / ... sensory ataxia, as both conditions typically present with a positive classical Romberg test. (Anagnostou 2025 abstract) / We conclude that the Romberg test ... had an unsatisfactory classification value in terms of distinguishing patients from healthy controls. Instead, it should be interpreted within the comprehensive context of the broader neurological examination and the electrodiagnosis of peripheral nerve function. (Anagnostou 2024 abstract)",
+      "location": "Anagnostou 2025 Abstract and Introduction; Anagnostou 2024 Abstract",
+      "pico_timeframe": "Bedside test physiology; small posturography studies",
+      "claim_type": "definition",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "If someone is much more unsteady standing with eyes closed than open, they are relying on vision to balance. Think of loss of position sense in the feet and legs (for example from neuropathy) or loss of inner-ear balance function.",
+      "qualifications": "Carousel label: 'Much worse with eyes closed: think loss of position sense (for example neuropathy) or inner-ear balance loss'. The test is a pointer, to be read with the rest of the examination.",
+      "conflicting_or_uncertain": "Quantified Romberg testing separated neuropathy patients from controls only modestly (Anagnostou 2024).",
+      "numbers": []
+    },
+    {
+      "claim_id": "C01-27-g",
+      "cand_id": "C01-27",
+      "claim": "Vitamin B12 deficiency can cause peripheral neuropathy and spinal cord degeneration, sometimes without anaemia, and damage can become permanent if untreated.",
+      "source_keys": [
+        "PMID:25824066"
+      ],
+      "supporting_passage": "Table 2 Neurological: \"Peripheral neuropathy, subacute combined degeneration of the cord and autonomic eg bowel/urinary incontinence and erectile dysfunction\" ... \"No particular correlation between haematological and neurological features has been demonstrated, such that those with neurological symptoms may have no haematological abnormalities, and vice-versa.\" ... \"Sequelae of untreated vitamin B12 deficiency includes not only permanent neurological symptoms, but also osteoporosis and cardiovascular disease.\"",
+      "location": "Table 2; When should vitamin B12 deficiency be suspected?; Learning points",
+      "pico_timeframe": "Narrative review",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "One treatable cause of neuropathy to check is vitamin B12 deficiency, which can damage nerves and the spinal cord even when the blood count is normal.",
+      "qualifications": "The source does not mention the Romberg sign; link B12 to neuropathy and spinal cord damage, not to the sign directly.",
+      "conflicting_or_uncertain": "None material.",
+      "numbers": []
+    },
+    {
+      "claim_id": "C01-27-h",
+      "cand_id": "C01-27",
+      "claim": "Gait disorders in older people are not an unpreventable consequence of ageing but point to underlying diseases that need specific tests.",
+      "source_keys": [
+        "PMID:17166803"
+      ],
+      "supporting_passage": "Another relevant message is that gait disorders are not an unpreventable consequence of ageing, but implicate the presence of underlying diseases that warrant specific diagnostic tests.",
+      "location": "Abstract",
+      "pico_timeframe": "Expert review",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "A walking problem in later life usually has a cause that can be named. 'Old age' is not a diagnosis.",
+      "qualifications": "Expert review statement; frame the clinical instruction (watch every person who falls walk, turn and stand with eyes closed) as the post's recommendation.",
+      "conflicting_or_uncertain": "Gait disorders in older people are often multifactorial (same review), so one named cause may not explain everything.",
+      "numbers": []
+    },
+    {
+      "claim_id": "C01-24-a",
+      "cand_id": "C01-24",
+      "claim": "In a 1997 study of 58 residents of sheltered accommodation in Umea, Sweden, 10 of the 12 who stopped walking when a conversation started fell within 6 months, compared with 11 of the 46 who kept walking.",
+      "source_keys": [
+        "PMID:9057736",
+        "PMID:15201358"
+      ],
+      "supporting_passage": "58 residents in sheltered accommodation in Umea, Sweden, were included. All were able to walk with or without aids and able to follow simple instructions (mean age [SD] 80·1 [6·1] years; 72% women). The most common diagnoses (some had more than one) were dementia (n=26), depression (25), and previous stroke (20). ... The staff registered falls indoors during a followup of 6 months. ... 12 people stopped walking when a conversation started and ten of them fell during the 6-month follow-up. 21 people fell at least once. ... The positive predictive value of “stops walking when talking” was 83% (10/12) and the negative predictive value was 76% (35/46). (Lundin-Olsson 1997, letter text) / Lundin-Olsson and colleagues12 13 reported that this test demonstrated good specificity (95%) as well as acceptable positive predictive values (PPV, 83%) and negative predictive values (NPV, 76%) with moderate sensitivity (48%) in predicting falls. (Hyndman 2004, Introduction)",
+      "location": "Lundin-Olsson 1997 letter (text via Consensus record); Hyndman 2004 Introduction",
+      "pico_timeframe": "58 residents of sheltered accommodation, many with dementia / stopped walking when a conversation started / those who kept walking / indoor falls registered by staff / 6 months",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "In a small 1997 study of 58 older people in sheltered housing in Sweden, 12 stopped walking when someone started talking to them. Ten of those 12 fell in the next 6 months, compared with 11 of the 46 who kept walking.",
+      "qualifications": "Tiny study (12 people with the sign), one setting, many participants with dementia, depression or stroke. The '11 of 46' is 46 minus the 35 true negatives in the letter. The counts were read in the Consensus reproduction of the letter; the percentages are also in the Hyndman full text.",
+      "conflicting_or_uncertain": "Later studies in other groups found weaker performance (see C01-24-c).",
+      "numbers": [
+        {
+          "value": "58",
+          "meaning": "residents studied"
+        },
+        {
+          "value": "10 of 12",
+          "meaning": "people who stopped walking and then fell within 6 months (positive predictive value 83%)"
+        },
+        {
+          "value": "11 of 46",
+          "meaning": "people who kept walking and fell within 6 months (negative predictive value 76%, 35 of 46 did not fall)"
+        },
+        {
+          "value": "21",
+          "meaning": "people who fell at least once in 6 months"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-24-b",
+      "cand_id": "C01-24",
+      "claim": "Stopping walking when talking was highly specific but insensitive for later falls: most people who fell had kept walking.",
+      "source_keys": [
+        "PMID:9057736",
+        "PMID:15201358",
+        "PMID:19473368"
+      ],
+      "supporting_passage": "The specificity was high (95%; 35/37) but the sensitivity was low (48%; 10/21). (Lundin-Olsson 1997 letter text) / Lundin-Olsson and colleagues12 13 reported that this test demonstrated good specificity (95%) ... with moderate sensitivity (48%) in predicting falls. (Hyndman 2004) / The pooled odds ratio for falling was 5.3 (95% CI, 3.1-9.1) when subjects had changes in gait or attention-demanding task performance whilst dual tasking. ... The predictive value for falling was particularly efficient amongst frail older adults compared with healthy subjects. Two prospective studies challenged the usefulness of the dual-task paradigm as a significant predictor compared to single task performance and three studies even reported that gait changes whilst dual tasking did not predict falls. (Beauchet 2009 abstract)",
+      "location": "Lundin-Olsson 1997; Hyndman 2004 Introduction; Beauchet 2009 Abstract",
+      "pico_timeframe": "As C01-24-a; Beauchet: 15 studies of dual-task testing, 1997 to 2008",
+      "claim_type": "empirical",
+      "verdict": "partly_supported",
+      "safe_wording": "In that study, only 2 of the 37 people who did not fall had stopped walking, so the sign was rarely a false alarm. But 11 of the 21 people who fell had kept walking, so its absence was weak reassurance.",
+      "qualifications": "The specific-but-insensitive finding comes from the original 1997 study itself. Do not attribute 'high specificity, low sensitivity' to the Beauchet 2009 review: its abstract reports that dual-task changes in general were linked with falls (pooled odds ratio 5.3), especially in frail people, and does not give sensitivity or specificity for the sign.",
+      "conflicting_or_uncertain": "Beauchet found conflicting studies (3 found no prediction). Do not convert the pooled odds ratio into 'five times more likely'.",
+      "numbers": [
+        {
+          "value": "95% (35 of 37)",
+          "meaning": "specificity: non-fallers who kept walking"
+        },
+        {
+          "value": "48% (10 of 21)",
+          "meaning": "sensitivity: fallers who had stopped walking"
+        },
+        {
+          "value": "2 of 37",
+          "meaning": "non-fallers who stopped walking (derived: 37 minus 35)"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-24-c",
+      "cand_id": "C01-24",
+      "claim": "Later studies in other populations found the sign less accurate or not linked with falls.",
+      "source_keys": [
+        "PMID:15201358",
+        "PMID:42350948"
+      ],
+      "supporting_passage": "Twenty six subjects stopped walking when a conversation was started and 16 of them fell during the six month follow up period ... For all fallers (>=1) the positive predictive value of SWWT was 62% (16/26), the negative predictive value 62% (23/37), specificity 70% (23/33) and sensitivity 53% (16/30). ... Although the SWWT test was easy to use, its clinical usefulness as a single indicator of fall risk in identifying those community dwelling people with stroke most at risk of falls and in need of therapeutic intervention is questionable. ... In summary, although the SWWT test has shown promising results in predicting falls among frail elderly subjects, these findings could not be repeated among people with PD. (Hyndman 2004) / SWWT was rare (2.8%), yet associated with higher motor DTCs but not falls, suggesting compensatory strategy. ... SWWT (β=0.01, p = .951) ... were nonsignificant. ... First, the cross-sectional design inherently limits causal inferences. (Zhou 2026)",
+      "location": "Hyndman 2004 Abstract and Introduction; Zhou 2026 Abstract, Results, Limitations",
+      "pico_timeframe": "Hyndman: 63 community-dwelling people with stroke, 6-month prospective falls. Zhou: 4443 healthy older adults, cross-sectional, past falls",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "The sign has not held up equally everywhere. In 63 people with stroke living at home, it missed about half of those who fell and gave more false alarms. In over 4000 healthy older volunteers, fewer than 3 in 100 stopped walking, and stopping was not linked with past falls. A 2000 report found it did not predict falls in Parkinson's disease.",
+      "qualifications": "The Parkinson's point is reported second-hand in Hyndman 2004 (the Bloem 2000 letter has no abstract). Zhou 2026 looked at past falls, not future falls.",
+      "conflicting_or_uncertain": "The sign may work best in frail people living in residential care, the group in which it was first described.",
+      "numbers": [
+        {
+          "value": "16 of 26",
+          "meaning": "stroke survivors who stopped walking and then fell in 6 months (PPV 62%)"
+        },
+        {
+          "value": "70%; 53%",
+          "meaning": "specificity; sensitivity in the stroke study"
+        },
+        {
+          "value": "2.8% (123 of 4443)",
+          "meaning": "healthy older volunteers who stopped walking when talking"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-24-d",
+      "cand_id": "C01-24",
+      "claim": "Gait that deteriorates when a second task is added is linked with future falls, though it may add little to ordinary walking speed.",
+      "source_keys": [
+        "PMID:26390824",
+        "PMID:24915643"
+      ],
+      "supporting_passage": "Changes in gait under dual-task testing are associated with future fall risk, and this association is stronger than that for single-task conditions. Limitations in the available literature preclude development of detailed recommendations for dual-task gait testing procedures in clinical practice to identify and stratify fall risk in older adults. (Muir-Hunter 2016) / The meta-analytic findings indicate single and dual task tests of gait speed are equivalent in the prediction of falls in older people (Menant 2014)",
+      "location": "Abstracts",
+      "pico_timeframe": "Muir-Hunter: prospective cohorts of community-dwelling people aged 60 or over, at least 1 year follow-up. Menant: meta-analysis of gait speed studies",
+      "claim_type": "empirical",
+      "verdict": "partly_supported",
+      "safe_wording": "Walking that gets worse when a person has to think at the same time is linked with later falls, but reviews disagree on whether it tells you more than ordinary walking speed.",
+      "qualifications": "Optional background only; not essential to the post.",
+      "conflicting_or_uncertain": "The two reviews disagree on added value over single-task gait speed.",
+      "numbers": []
+    },
+    {
+      "claim_id": "C01-14-a",
+      "cand_id": "C01-14",
+      "claim": "In nursing and residential care, providing hip protectors probably reduces hip fractures slightly: about 11 fewer people per 1000 (from about 60 to about 49 per 1000 over about a year).",
+      "source_keys": [
+        "PMID:24687239",
+        "PMID:17652295",
+        "PMID:11087879",
+        "PMID:38867191"
+      ],
+      "supporting_passage": "Pooling of data from 14 studies (11,808 participants) conducted in nursing or residential care settings found moderate quality evidence for a small reduction in hip fracture risk (risk ratio (RR) 0.82, 95% confidence interval (CI) 0.67 to 1.00); the absolute effect is 11 fewer people (95% CI, from 20 fewer to 0) per 1000 having a hip fracture when provided with hip protectors. / Summary of findings: Hip fractures at 1 year older people living in institutions, Follow-up: 6-24 months; No hip protectors provided: Moderate risk 60 per 1000; Hip protectors provided: 49 per 1000 (40 to 60); RR 0.82 (0.67 to 1.00); 11808 (14 studies); moderate. / Plain language summary: In older people living in nursing care facilities, providing a hip protector - probably decreases the chance of a hip fracture slightly",
+      "location": "Abstract, Main results; Summary of findings table 1; Plain language summary",
+      "pico_timeframe": "Residents of nursing or residential care / provided with hip protectors / not provided / hip fracture / about 1 year (trials 6 to 24 months)",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "In care homes, offering hip protectors probably prevents a small number of hip fractures. Over about a year, roughly 60 in every 1000 residents without them would break a hip, compared with about 49 in 1000 offered them: about 11 fewer.",
+      "qualifications": "The effect is of offering protectors (intention to treat), not of wearing them. The 60 per 1000 is the review's assumed baseline risk. The range runs from about 20 fewer to no difference, so the benefit could be very small. Moderate certainty.",
+      "conflicting_or_uncertain": "Kiel 2007, a large US nursing home trial with good adherence, found no protective effect (hip fracture 3.1% on protected hips versus 2.5% on unprotected hips). Kannus 2000 found a large effect (21.3 versus 46.0 hip fractures per 1000 person-years). A 2024 umbrella review (Da 2024) agrees in direction; do not quote its relative risk alongside the Cochrane figure.",
+      "numbers": [
+        {
+          "value": "60 per 1000",
+          "meaning": "assumed hip fractures at 1 year without protectors, care homes"
+        },
+        {
+          "value": "49 per 1000 (40 to 60)",
+          "meaning": "hip fractures at 1 year when protectors provided"
+        },
+        {
+          "value": "11 fewer per 1000 (20 fewer to 0)",
+          "meaning": "absolute difference, care homes"
+        },
+        {
+          "value": "RR 0.82 (0.67 to 1.00)",
+          "meaning": "relative risk; about an 18% relative reduction; use only after the absolute figure"
+        },
+        {
+          "value": "14 studies, 11,808 participants",
+          "meaning": "trials pooled for care homes"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-14-b",
+      "cand_id": "C01-14",
+      "claim": "For older people living at home, hip protectors probably have little or no effect on hip fracture.",
+      "source_keys": [
+        "PMID:24687239"
+      ],
+      "supporting_passage": "There is moderate quality evidence when pooling data from five trials in the community (5614 participants) that shows little or no effect in hip fracture risk (RR 1.15, 95% CI 0.84 to 1.58); the absolute effect is two more people (95% CI 2 fewer to 6 more) per 1000 people having a hip fracture when provided with hip protectors. / In older people living at home, providing a hip protector - probably has little or no effect on hip fractures",
+      "location": "Abstract, Main results; Plain language summary; Summary of findings (10 versus 12 per 1000)",
+      "pico_timeframe": "Community-dwelling older people / protectors provided / not provided / hip fracture / about 1 year (trials 6 to 28 months)",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "For people living in their own homes, trials found little or no difference in hip fractures when hip protectors were offered.",
+      "qualifications": "Moderate certainty; hip fracture was less common in these trials (about 10 per 1000 a year), so any benefit would be small.",
+      "conflicting_or_uncertain": "None major.",
+      "numbers": [
+        {
+          "value": "10 versus 12 per 1000",
+          "meaning": "hip fractures at 1 year without and with protectors, community"
+        },
+        {
+          "value": "RR 1.15 (0.84 to 1.58)",
+          "meaning": "relative risk, community"
+        },
+        {
+          "value": "5 trials, 5614 participants",
+          "meaning": "community trials pooled"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-14-c",
+      "cand_id": "C01-14",
+      "claim": "Poor acceptance and adherence limit hip protectors; whether the benefit is concentrated in people who wear them consistently has not been shown by randomised comparisons.",
+      "source_keys": [
+        "PMID:24687239",
+        "PMID:17652295",
+        "PMID:11087879"
+      ],
+      "supporting_passage": "Adherence, particularly in the long term, was poor. ... Poor acceptance and adherence by older people offered hip protectors is a barrier to their use. (Cochrane abstract) / The proportion of people who adhered to the hip protector intervention ranged from 24% to 80% ... In view of the different ways in which estimates of acceptance and adherence were presented, we did not attempt any summary estimate of frequency of use. (Cochrane SoF and Results) / For the 334 nursing home residents with greater than 80% adherence to hip protector use, the incidence rate of hip fracture on protected vs unprotected hips did not differ (5.3%; 95% CI, 2.6%-8.8% vs 3.5%; 95% CI, 1.3%-5.7%; P = .42). Overall adherence was 73.8%. (Kiel 2007) / In the hip-protector group, four subjects had a hip fracture (among 1034 falls) while wearing the protector, and nine subjects had a hip fracture (among 370 falls) while not wearing the protector (Kannus 2000)",
+      "location": "Cochrane Abstract, Summary of findings, Results (Acceptance and adherence); Kiel 2007 Abstract; Kannus 2000 Abstract",
+      "pico_timeframe": "Trial participants offered protectors / adherence measured variously / 6 to 28 months",
+      "claim_type": "empirical",
+      "verdict": "partly_supported",
+      "safe_wording": "Many people stop wearing hip protectors: in the trials, the share who kept to them ranged from about 1 in 4 to 8 in 10. It makes sense that protectors can only help when worn, but trials have not shown that consistent wearers get most of the benefit; one large trial found no benefit even among residents who wore them over 80% of the time.",
+      "qualifications": "Do not state that the benefit is 'mostly among people who wear them consistently'. The Kannus within-group comparison (fractures when worn versus not worn) is observational.",
+      "conflicting_or_uncertain": "Kiel 2007 (no effect despite good adherence, one-sided device) versus Kannus 2000 (large effect). Protector design may matter.",
+      "numbers": [
+        {
+          "value": "24% to 80%",
+          "meaning": "range of adherence across included trials"
+        },
+        {
+          "value": "73.8%",
+          "meaning": "overall adherence in Kiel 2007"
+        },
+        {
+          "value": "334 residents, 5.3% versus 3.5%",
+          "meaning": "Kiel 2007 residents with over 80% adherence: hip fracture on protected versus unprotected hips (no significant difference)"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-14-d",
+      "cand_id": "C01-14",
+      "claim": "Hip protectors may slightly increase pelvic fractures (low-certainty evidence).",
+      "source_keys": [
+        "PMID:24687239"
+      ],
+      "supporting_passage": "However, the risk ratio for pelvic fractures is RR 1.27 (95% CI 0.78 to 2.08); this is an absolute effect of one more person (95% CI 1 fewer to 5 more) per 1000 having a pelvic fracture when provided with hip protectors. ... However, hip protectors may slightly increase the small risk of pelvic fractures. / Summary of findings: Pelvic fractures at 1 year: 5 per 1000 versus 6 per 1000 (4 to 10); RR 1.27 (0.78 to 2.08); 12,408 (9 studies); low.",
+      "location": "Abstract; Summary of findings; Results",
+      "pico_timeframe": "9 studies, 12,408 participants / pelvic fracture / about 1 year",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "The review found a possible small rise in pelvic fractures (about 1 more per 1000), but this is uncertain.",
+      "qualifications": "Either omit or state as uncertain; low certainty; the confidence interval includes no effect.",
+      "conflicting_or_uncertain": "Kannus 2000 found slightly fewer pelvic fractures with protectors (2 versus 12 people; not significant). Unexplained heterogeneity.",
+      "numbers": [
+        {
+          "value": "5 versus 6 per 1000",
+          "meaning": "pelvic fractures at 1 year without and with protectors"
+        },
+        {
+          "value": "1 more per 1000 (1 fewer to 5 more)",
+          "meaning": "absolute difference, low certainty"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-14-e",
+      "cand_id": "C01-14",
+      "claim": "Hip protectors do not reduce falls or other fractures, so they do not replace falls prevention or bone treatment; side effects such as skin irritation are uncommon.",
+      "source_keys": [
+        "PMID:24687239"
+      ],
+      "supporting_passage": "There is probably little to no effect on falls (rate ratio 1.02, 95% CI 0.9 to 1.16) or fractures other than of the hip or pelvis (rate ratio 0.87, 95% CI 0.71 to 1.07). ... The incidence of adverse events while wearing hip protectors, including skin irritation, ranged from 0% to 5%.",
+      "location": "Abstract, Main results",
+      "pico_timeframe": "Included trials / falls, other fractures, adverse events",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "Hip protectors do not stop falls and showed no clear effect on other fractures. They are an extra, not a replacement for exercise, medicines review or bone treatment.",
+      "qualifications": "'Not a replacement' is a judgement that follows from the evidence; the review did not test protectors against falls prevention or bone drugs.",
+      "conflicting_or_uncertain": "None major.",
+      "numbers": [
+        {
+          "value": "rate ratio 1.02 (0.9 to 1.16)",
+          "meaning": "falls, little to no effect"
+        },
+        {
+          "value": "0% to 5%",
+          "meaning": "range of adverse events such as skin irritation while wearing"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-14-f",
+      "cand_id": "C01-14",
+      "claim": "Barriers to wearing hip protectors in care homes include discomfort, acute illness, staff shortages and staff beliefs.",
+      "source_keys": [
+        "PMID:25704127",
+        "PMID:24687239"
+      ],
+      "supporting_passage": "Twenty-eight articles met our inclusion criteria, and facilitators and barriers were clustered into 4 socio-ecological levels: system (eg, facility commitment, staff shortages), caregiver (eg, belief in the efficacy of protectors, negative perceptions), resident (eg, clinical risk factors for falls and related fractures, acute illness), and product (eg, soft shell, discomfort). (Korall 2015) / Chan 2000 ... reported a compliance of 50%, with dementia given as a reason for non-compliance. (Cochrane Results)",
+      "location": "Korall 2015 Abstract; Cochrane Results (Acceptance and adherence)",
+      "pico_timeframe": "Long-term care residents; studies 2000 to 2013",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "Whether protectors get worn depends on comfort, the person's health, and whether the home has the staff and commitment to help.",
+      "qualifications": "Continence and dressing are not named in the abstracts opened; do not list them as evidenced barriers unless another source is opened.",
+      "conflicting_or_uncertain": "None.",
+      "numbers": []
+    },
+    {
+      "claim_id": "C01-28-a",
+      "cand_id": "C01-28",
+      "claim": "Chronic subdural haematoma is especially common in older people, and its incidence rises steeply with age.",
+      "source_keys": [
+        "PMID:37780710",
+        "PMID:25224156",
+        "PMID:28306417"
+      ],
+      "supporting_passage": "The overall incidence rate was 8.2/100,000 persons ... Overall, the highest incidence rate was 64.2/100,000 persons in patients 80–89 years old. (El Rahal 2023) / Chronic subdural haematoma (CSDH) is one of the most common neurological disorders, and is especially prevalent among elderly individuals. (Kolias 2014) / The median age of patients admitted was 77 years (range 20-99). (Brennan 2017)",
+      "location": "El Rahal Results, Incidence of cSDH; Kolias Abstract; Brennan Results",
+      "pico_timeframe": "Swiss national surgical cohort 2013; UK and Ireland neurosurgical cohort 2013 to 2014",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "This kind of bleed is much more common in later life. In Switzerland, people in their 80s were treated for it about 8 times as often as the population overall.",
+      "qualifications": "Swiss figures count surgically treated cases only.",
+      "conflicting_or_uncertain": "None.",
+      "numbers": [
+        {
+          "value": "64.2 per 100,000 per year",
+          "meaning": "surgically treated cSDH, people aged 80 to 89, Switzerland 2013"
+        },
+        {
+          "value": "8.2 per 100,000 per year",
+          "meaning": "overall rate, all ages"
+        },
+        {
+          "value": "77 years",
+          "meaning": "median age of UK and Ireland patients admitted to neurosurgery"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-b",
+      "cand_id": "C01-28",
+      "claim": "It often follows a head injury, which may be minor and may not be remembered or mentioned; about 4 in 10 people have no recalled or recorded recent head injury.",
+      "source_keys": [
+        "PMID:27213133",
+        "PMID:28306417",
+        "PMID:26351527"
+      ],
+      "supporting_passage": "Head injury is a common risk factor and in a study of 1000 patients, 61.7 % recalled a recent one. (Shapey 2016) / 62% (514/823) had a documented history of head injury in the preceding 3 months. (Brennan 2017) / Moreover, in the context of a usual brain injury, which can pass unobserved and may frequently be ignored, the chronic subdural haematoma has a latent period until the appearance of the clinical symptoms ... Therefore, the main element that can lead to the diagnosis of chronic subdural haematoma is the minor brain injury; however, it should not be forgotten that it is seriously taken into account only by some of the patients or their families. (Iliescu 2015)",
+      "location": "Shapey Pathophysiology; Brennan Results; Iliescu Clinical diagnosis",
+      "pico_timeframe": "Case series of 1000 patients (cited by Shapey); UK and Ireland cohort, 823 transferred patients, head injury in preceding 3 months",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "About 6 in 10 people with this bleed have a recent knock to the head on record. The rest have none recorded, often because the knock seemed too small to mention or was forgotten.",
+      "qualifications": "The 'often forgotten or dismissed' explanation is from a narrative review; the 6 in 10 figure is measured.",
+      "conflicting_or_uncertain": "Some cases arise without trauma, particularly with blood-thinning medicines (Iliescu).",
+      "numbers": [
+        {
+          "value": "61.7%",
+          "meaning": "patients recalling a recent head injury, 1000-patient series"
+        },
+        {
+          "value": "62% (514 of 823)",
+          "meaning": "documented head injury in the previous 3 months, UK and Ireland neurosurgical patients"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-c",
+      "cand_id": "C01-28",
+      "claim": "Symptoms usually develop over days to weeks, and the haematoma often shows itself weeks or months after the original bleed.",
+      "source_keys": [
+        "PMID:27213133",
+        "PMID:26351527"
+      ],
+      "supporting_passage": "CSDHs often present several weeks or months after the index bleed, because as the initial acute haematoma liquefies it enlarges. ... Patients with chronic subdural haematomas can present in a variety of ways, and symptom onset and progression may range from days to weeks. (Shapey 2016) / Chronic subdural hematoma – the clinical manifestations appear after 21 days (Iliescu 2015, Definition)",
+      "location": "Shapey Pathophysiology and Clinical Presentation; Iliescu Definition",
+      "pico_timeframe": "Narrative reviews",
+      "claim_type": "definition",
+      "verdict": "supported",
+      "safe_wording": "The bleed can grow slowly, so problems often appear weeks after the fall, and can creep on over days to weeks.",
+      "qualifications": "None beyond variability.",
+      "conflicting_or_uncertain": "None.",
+      "numbers": [
+        {
+          "value": "more than 21 days",
+          "meaning": "traditional time from injury that defines a chronic (rather than subacute) subdural haematoma"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-d",
+      "cand_id": "C01-28",
+      "claim": "Common presenting problems include unsteadiness or falls, headache, weakness on one side, slower or muddled thinking and drowsiness; in older people it can look like a stroke or rapidly worsening dementia.",
+      "source_keys": [
+        "PMID:37780710",
+        "PMID:28306417",
+        "PMID:27213133"
+      ],
+      "supporting_passage": "Gait disturbance was the most common clinical presentation in 362 (58.6%) patients, followed by headache in 286 (46.4%) patients, focal neurological deficits in 252 (40.7%) patients, and cognitive deterioration in 246 (39.8%) patients. ... Table 1: Drowsiness/coma 109 (618) 17.6 (El Rahal 2023) / Cognitive impairment was the most frequent presenting symptom of transferred patients (58%), followed by hemiparesis (41%) and headache (41%) (Brennan 2017) / Elderly patients frequently present with multiple symptoms that may mimic a stroke or rapidly progressive dementia. (Shapey 2016)",
+      "location": "El Rahal Results and Table 1; Brennan Results; Shapey Clinical Presentation",
+      "pico_timeframe": "Swiss surgical cohort (663 patients, median age 76); UK and Ireland neurosurgical cohort (823 transferred patients)",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "In a Swiss study, the commonest problem was unsteadiness or falls (about 6 in 10 people), then headache (about 5 in 10), weakness or other one-sided signs (about 4 in 10) and worse thinking (about 4 in 10). Some people became drowsy. In older people it can look like a stroke or dementia getting quickly worse.",
+      "qualifications": "Both cohorts are people treated in neurosurgical units, so milder cases are under-represented. Describe the thinking change as 'slower or muddled thinking'; do not frame it as delirium.",
+      "conflicting_or_uncertain": "Symptom shares differ between cohorts (UK: cognitive impairment 58%, headache 41%); give one cohort's figures, not both.",
+      "numbers": [
+        {
+          "value": "58.6% (362 of 618)",
+          "meaning": "gait disturbance or fall at presentation, Swiss surgical cohort"
+        },
+        {
+          "value": "46.4%; 40.7%; 39.8%",
+          "meaning": "headache; focal neurological deficit; cognitive deterioration, same cohort"
+        },
+        {
+          "value": "17.6% (109 of 618)",
+          "meaning": "drowsiness or coma, same cohort"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-e",
+      "cand_id": "C01-28",
+      "claim": "Anticoagulant and antiplatelet medicines are risk factors, and many people with the condition take them.",
+      "source_keys": [
+        "PMID:27213133",
+        "PMID:28306417",
+        "PMID:38167695"
+      ],
+      "supporting_passage": "Other risk factors include coagulopathy, use of antiplatelet or anticoagulant medication ... Anticoagulant and antiplatelet use are both implicated in CSDH development and recurrence. (Shapey 2016) / Of the patients transferred, 356/823 (43%) were prescribed anticoagulant or antiplatelet medication at the time of referral: 171 aspirin (21%), 160 warfarin (19%), 36 clopidogrel (4%) (Brennan 2017) / Anticoagulant and antiplatelet use are commonly indicated in older people with SDH, but few data inform decision-making surrounding these agents in the context of intracranial bleeding. (Rickard 2023)",
+      "location": "Shapey Pathophysiology and Anticoagulation section; Brennan Results, Perioperative clotting; Rickard Abstract",
+      "pico_timeframe": "Reviews; UK and Ireland cohort 2013 to 2014",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "Blood thinners, such as anticoagulants and aspirin-type medicines, make this bleed more likely. In a UK study, over 4 in 10 people treated for it were taking one.",
+      "qualifications": "Do not advise stopping blood thinners; decisions balance bleeding against clot risk (Rickard 2023). The 43% is prevalence among patients, not a risk estimate.",
+      "conflicting_or_uncertain": "Shapey cites a figure of up to 42.5 times the risk with warfarin from a single older study; do not use it.",
+      "numbers": [
+        {
+          "value": "43% (356 of 823)",
+          "meaning": "UK and Ireland neurosurgical patients prescribed an anticoagulant or antiplatelet medicine at referral"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-f",
+      "cand_id": "C01-28",
+      "claim": "It is diagnosed with a brain scan (CT or MRI), and symptomatic cases are often treatable, mainly by surgical drainage through burr holes.",
+      "source_keys": [
+        "PMID:26351527",
+        "PMID:25224156",
+        "PMID:38167695",
+        "PMID:28306417",
+        "PMID:37780710"
+      ],
+      "supporting_passage": "The suspicion of expansive intracranial injury makes us perform a paraclinical investigation (CT or MRI), which makes the diagnosis clearer by evidencing the iso- or hypodense subdural collection. (Iliescu 2015) / Surgical evacuation is the mainstay of management for symptomatic patients or haematomas exerting significant mass effect. (Kolias 2014) / However, burr hole drainage can be safe and effective in older adults with symptomatic chronic SDH (cSDH). Such patients need careful assessment to ensure symptoms arise from cSDH and not from coexisting medical pathology. (Rickard 2023) / Criteria on mortality (2%), rate of recurrence (9%), and unfavorable functional outcome (22%) were met ... Increasing patient age (p < 0.00001) ... independently predicted unfavorable functional outcomes (Brennan 2017) / A good outcome was seen in 81% of patients (El Rahal 2023)",
+      "location": "Iliescu Clinical diagnosis; Kolias Abstract; Rickard Abstract; Brennan Abstract; El Rahal Abstract",
+      "pico_timeframe": "Reviews; UK cohort outcome at neurosurgical discharge; Swiss cohort outcome at median 2 months",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "A brain scan shows it. When it causes symptoms, it is often treatable, usually by draining it through small holes in the skull. In a UK study, about 1 in 10 needed a second operation, and outcomes were worse in the oldest patients.",
+      "qualifications": "Say 'often treatable', not 'treatable'. Not everyone needs surgery; some small collections are watched. Outcomes are poorer with older age and frailty.",
+      "conflicting_or_uncertain": "Recurrence rates vary (9% UK; 20.1% Swiss).",
+      "numbers": [
+        {
+          "value": "9%",
+          "meaning": "symptomatic recurrence needing repeat surgery within 60 days, UK and Ireland cohort"
+        },
+        {
+          "value": "22%",
+          "meaning": "unfavourable function (mRS 4 to 6) at neurosurgical discharge, same cohort"
+        },
+        {
+          "value": "about 81%",
+          "meaning": "good outcome (mRS 0 to 3) after surgery, Swiss cohort"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-g",
+      "cand_id": "C01-28",
+      "claim": "A large UK trial found dexamethasone led to fewer good outcomes and more adverse events than placebo.",
+      "source_keys": [
+        "PMID:33326713"
+      ],
+      "supporting_passage": "a favorable outcome was reported in 286 of 341 patients (83.9%) in the dexamethasone group and in 306 of 339 patients (90.3%) in the placebo group (difference, -6.4 percentage points [95% confidence interval, -11.4 to -1.4] in favor of the placebo group; P = 0.01). Among the patients with available data, repeat surgery for recurrence of the hematoma was performed in 6 of 349 patients (1.7%) in the dexamethasone group and in 25 of 350 patients (7.1%) in the placebo group. More adverse events occurred in the dexamethasone group than in the placebo group.",
+      "location": "Abstract, Results",
+      "pico_timeframe": "748 adults with symptomatic cSDH (mean age 74; 94% had surgery) / 2-week tapering dexamethasone / placebo / mRS 0 to 3 / 6 months",
+      "claim_type": "empirical",
+      "verdict": "supported",
+      "safe_wording": "Steroid tablets (dexamethasone) were tested in a large UK trial and led to worse recovery overall, so they are not a routine treatment.",
+      "qualifications": "Dexamethasone did reduce repeat operations; the overall balance was unfavourable. Most trial patients also had surgery.",
+      "conflicting_or_uncertain": "None for this trial result.",
+      "numbers": [
+        {
+          "value": "83.9% versus 90.3%",
+          "meaning": "favourable outcome at 6 months, dexamethasone versus placebo (6.4 percentage points fewer with dexamethasone)"
+        },
+        {
+          "value": "1.7% versus 7.1%",
+          "meaning": "repeat surgery for recurrence, dexamethasone versus placebo"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-h",
+      "cand_id": "C01-28",
+      "claim": "Blocking the middle meningeal artery (embolisation), added to standard treatment, reduced recurrence in two 2024 trials; a third did not show a clear difference.",
+      "source_keys": [
+        "PMID:39565988",
+        "PMID:39565980",
+        "PMID:39565989",
+        "PMID:38167695"
+      ],
+      "supporting_passage": "Hematoma recurrence or progression leading to repeat surgery occurred in 8 patients (4.1%) in the treatment group, as compared with 23 patients (11.3%) in the control group (relative risk, 0.36 ...). ... Further study is needed to evaluate the safety of middle meningeal artery embolization (EMBOLISE) / a primary-outcome event occurred in 19 of 120 patients (16%) in the embolization group, as compared with 47 of 129 patients (36%) in the control group ... Further study of longer-term safety outcomes is warranted. (STEM) / Symptomatic recurrence or progression of subdural hematoma within 90 days occurred in 24 patients (6.7%) in the embolization group and in 36 (9.9%) in the usual-care group (between-group difference, -3.3 percentage points; 95% confidence interval, -7.4 to 0.8; P = 0.10). The incidence of serious adverse events was lower in the embolization group (MAGIC-MT) / the emerging treatment of middle meningeal artery embolisation offers a well-tolerated, minimally invasive intervention which may reduce the risks of rebleeding in older adults (Rickard 2023)",
+      "location": "Abstracts",
+      "pico_timeframe": "EMBOLISE: 400 patients needing surgery, 90 days. STEM: 310 patients, 180 days, composite outcome. MAGIC-MT: 722 patients in China, 90 days",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "A newer procedure that blocks the artery feeding the membrane around the bleed is being used alongside drainage to lower the chance of it coming back. Two of three large 2024 trials found fewer recurrences.",
+      "qualifications": "Adjunct, not a replacement for drainage in most people. Longer-term safety still being studied; two trials were industry funded.",
+      "conflicting_or_uncertain": "MAGIC-MT did not show a clear difference in recurrence. Availability varies.",
+      "numbers": [
+        {
+          "value": "4.1% versus 11.3%",
+          "meaning": "EMBOLISE: recurrence or progression needing repeat surgery within 90 days, embolisation plus surgery versus surgery alone"
+        },
+        {
+          "value": "16% versus 36%",
+          "meaning": "STEM: composite treatment failure within 180 days"
+        },
+        {
+          "value": "6.7% versus 9.9%",
+          "meaning": "MAGIC-MT: symptomatic recurrence or progression within 90 days (difference not significant)"
+        }
+      ]
+    },
+    {
+      "claim_id": "C01-28-i",
+      "cand_id": "C01-28",
+      "claim": "Families should mention a recent fall or knock to the head, even a minor one, if new unsteadiness, headache, drowsiness, weakness or slower thinking appears in the following weeks, and ask whether a scan is needed.",
+      "source_keys": [
+        "PMID:26351527",
+        "PMID:27213133"
+      ],
+      "supporting_passage": "Therefore, the main element that can lead to the diagnosis of chronic subdural haematoma is the minor brain injury; however, it should not be forgotten that it is seriously taken into account only by some of the patients or their families. ... If the CT examination is currently very easily accessible, the diagnosis of chronic subdural haematoma has become quite simple, the main condition being that you only have to think about such a diagnosis. (Iliescu 2015) / Elderly patients frequently present with multiple symptoms that may mimic a stroke or rapidly progressive dementia. (Shapey 2016)",
+      "location": "Iliescu Clinical diagnosis; Shapey Clinical Presentation",
+      "pico_timeframe": "Narrative reviews",
+      "claim_type": "empirical",
+      "verdict": "supported_with_qualification",
+      "safe_wording": "If new problems appear in the weeks after a fall, tell the doctor about the fall, even if it seemed too minor to mention, and ask whether a brain scan is needed.",
+      "qualifications": "Practical advice drawn from the evidence, not a guideline quotation. Sudden severe symptoms need emergency care, not a routine GP appointment. NICE head injury guidance could not be opened; do not cite it.",
+      "conflicting_or_uncertain": "None.",
+      "numbers": []
+    }
+  ],
+  "candidates": [
+    {
+      "cand_id": "C01-18",
+      "status": "revise",
+      "reason": "All the study facts and numbers are verified in the full text (227 falls, 130 residents, 41% weight shifting, 21% trips, 3% slips, walking 24%, standing 13%, sitting down 12%, cameras only in common areas). Two parts of the core insight and angle go beyond the paper. Turning was among the activities with the fewest falls, so it can't be called a risky moment. 'Most filmed falls did not involve the floor or an obstacle' is too loose, because hit or bump and loss of support also involve objects. The transfers position is the authors' suggestion plus judgement, not a tested intervention.",
+      "revised_angle": "Filmed falls in two Canadian care homes: about 4 in 10 came from shifting weight the wrong way during ordinary movement, and trips and slips together caused about 1 in 4. The commonest moments were walking, standing still and sitting down, and about 1 in 5 happened during transfers. We should give sitting down, standing up and transfers as much attention as trip hazards (judgement). State on the chart that cameras were in shared areas only and that the counts are not risk per activity.",
+      "essential_claim_ids": [
+        "C01-18-a",
+        "C01-18-b",
+        "C01-18-c",
+        "C01-18-d",
+        "C01-18-e"
+      ]
+    },
+    {
+      "cand_id": "C01-27",
+      "status": "revise",
+      "reason": "Every vignette can be supported, but the draft labels need changing. The PSP criterion is 'repeated unprovoked falls within 3 years', not 'early backward falls'; backward falls are a traditional sign the criteria authors found no clear evidence for. The PD red flag (Postuma 2015) could not be opened; its wording and autopsy frequencies come from Fox 2025, which also shows early falls in 3.8% of PD and a third of PSP. For NPH, the post must not imply that urgency and slowed thinking are required. A positive Romberg also occurs with inner-ear balance loss. B12 is supported for neuropathy and cord damage, not for the Romberg sign directly. The fourth vignette (Parkinson's gait) was not separately verified, so cut to three vignettes as the judge suggested.",
+      "revised_angle": "Falls as a symptom: three walking patterns that point to a named, sometimes treatable condition. (1) Repeated falls without a clear cause in the first 3 years of a Parkinson-like illness: think PSP, and question a Parkinson's diagnosis. (2) Short, wide-based steps, feet barely lifted, unsteady on turning, often with bladder urgency or slower thinking: think NPH, where selected people often improve after a shunt. (3) Much worse with eyes closed: think loss of position sense (for example neuropathy, including from B12 deficiency) or inner-ear balance loss. Close: watch every person who falls walk, turn and stand with eyes closed before blaming age.",
+      "essential_claim_ids": [
+        "C01-27-a",
+        "C01-27-b",
+        "C01-27-c",
+        "C01-27-d",
+        "C01-27-e",
+        "C01-27-f",
+        "C01-27-h"
+      ]
+    },
+    {
+      "cand_id": "C01-24",
+      "status": "revise",
+      "reason": "The 1997 figures are supported (58 residents; 10 of 12 who stopped walking fell within 6 months versus 11 of 46 who kept walking; specificity 95%, sensitivity 48%). The counts come from the Consensus reproduction of the letter and the percentages are also in the Hyndman 2004 full text. But the candidate credits 'high specificity, low sensitivity' to Beauchet 2009, and that abstract does not say this; the finding is the original study's own. Replication is mixed (stroke: specificity 70%, sensitivity 53%; Parkinson's: did not predict; healthy volunteers: rare and not linked with past falls). The post must say the sign has been tested mainly in small studies. Candidate claim c (dual-task gait) is contested between reviews and should be left out or given as background only.",
+      "revised_angle": "Stopping walking to answer a question is a famous bedside sign that rests on a very small 1997 study: 10 of the 12 who stopped fell within 6 months. In that study it was rarely a false alarm, but most people who fell had kept walking. Later studies in people with stroke, Parkinson's disease and healthy volunteers found it weaker. Plain rule: a positive sign means look harder with a full falls assessment; a negative sign does not reassure.",
+      "essential_claim_ids": [
+        "C01-24-a",
+        "C01-24-b",
+        "C01-24-c"
+      ]
+    },
+    {
+      "cand_id": "C01-14",
+      "status": "revise",
+      "reason": "The Cochrane figures are verified: care homes 60 versus 49 hip fractures per 1000 at about 1 year (11 fewer, range 20 fewer to 0, RR 0.82, moderate certainty); community little or no effect (10 versus 12 per 1000). But the core insight's claim that the benefit is 'mostly among people who wear them consistently' is not established. The review did no pooled analysis by adherence, and the large HIP PRO trial found no benefit even with over 80% adherence. The pelvic fracture signal is low certainty and must be omitted or stated as uncertain. The evidenced barriers are discomfort, acute illness, staff shortages and staff beliefs; continence and dressing were not named in the sources opened.",
+      "revised_angle": "Open with the absolute number: in care homes, offering hip protectors to 1000 residents for about a year probably means about 49 hip fractures instead of about 60. The benefit is small and uncertain in size, many residents stop wearing them, and one large trial found no benefit even among regular wearers. For people living at home, trials found little or no effect. Hip protectors are a reasonable offer for high-risk care home residents who find them comfortable, alongside falls prevention and bone treatment, not instead of them.",
+      "essential_claim_ids": [
+        "C01-14-a",
+        "C01-14-b",
+        "C01-14-c",
+        "C01-14-e"
+      ]
+    },
+    {
+      "cand_id": "C01-28",
+      "status": "ready",
+      "reason": "All essential claims are supported by opened sources. It is commoner with age; about 6 in 10 have a recent head injury recorded, so the knock is often minor or missing from the history. Symptoms appear over days to weeks, and it can present weeks or months after the bleed. Unsteadiness or falls (58.6%), headache, one-sided weakness, worse thinking and drowsiness are common. Blood thinners are a risk factor (43% of UK patients took one). It is diagnosed on CT or MRI, drainage is the mainstay, and dexamethasone was harmful overall. Required wording: 'often treatable', not 'treatable'; mention embolisation as an add-on to drainage from 2024 trials (2 of 3 positive); keep the thinking change described as slower thinking and not as delirium.",
+      "revised_angle": null,
+      "essential_claim_ids": [
+        "C01-28-a",
+        "C01-28-b",
+        "C01-28-c",
+        "C01-28-d",
+        "C01-28-e",
+        "C01-28-f",
+        "C01-28-i"
+      ]
+    }
+  ]
+}
