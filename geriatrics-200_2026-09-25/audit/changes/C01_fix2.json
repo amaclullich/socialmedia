@@ -1,0 +1,149 @@
+[
+ {
+  "tmp_id": "C01-P01",
+  "where": "captions.linkedin",
+  "old": "adding it meant fewer recurrences or other treatment failures.",
+  "new": "adding it meant the bleed was less likely to come back, or to need more treatment.",
+  "reason": "Cold read item 2 (linkedin, 1): 'recurrences or other treatment failures' is jargon. Cold-read wording used; within C01-28-h safe wording ('fewer recurrences'): EMBOLISE counted recurrence or progression needing repeat surgery, STEM a composite treatment failure. 'The third did not show a clear difference' kept."
+ },
+ {
+  "tmp_id": "C01-P02",
+  "where": "captions.linkedin",
+  "old": "The 2022 World Falls Guidelines list active older people avoiding multifocals when outside as a falls prevention strategy.",
+  "new": "For active older people, the 2022 World Falls Guidelines list avoiding multifocals outdoors as one way to help prevent falls.",
+  "reason": "Cold read item 6 (linkedin, 1): sentence hard to parse. Cold-read wording used; checked against C01-23-g safe wording (active older people avoiding multifocal glasses when outside listed as a falls prevention strategy). The 'active' qualification is kept at the front."
+ },
+ {
+  "tmp_id": "C01-P02",
+  "where": "captions.bluesky",
+  "old": "Varifocals blur the kerb at your feet. In a trial of 606 people, distance glasses for walking outside did not clearly cut falls overall.\n\nIn planned subgroups of this one trial, people often out fell less; people rarely out had more outdoor falls. If you go out a lot, ask your optometrist.",
+  "new": "Varifocals blur the kerb at your feet. In a trial of 606 people, distance glasses for walking outside did not clearly cut falls overall.\n\nIn that one trial, people who went out a lot fell less with them. People who rarely went out fell more often outdoors. If you go out a lot, ask your optometrist.",
+  "reason": "Cold read verdict fix, items 2 and 6 (bluesky, 1 and 1): 'planned subgroups' is jargon and 'people often out' is telegraphic. Rewritten from the finding in full sentences (C01-23-d, C01-23-e: high-outdoor group fewer falls; low-outdoor group more falls outside the home). The one-trial caveat is kept ('In that one trial'); 'planned' dropped here only to stay within 300 characters and is carried in X, LinkedIn and Threads. Overall no clear difference stated first, as before. 299 characters."
+ },
+ {
+  "tmp_id": "C01-P02",
+  "where": "captions.threads",
+  "old": "In planned subgroups of this one trial, people often out fell less, and people rarely out had more outdoor falls.",
+  "new": "\n\nIn a planned comparison within this one trial, people who went out a lot fell less with them. People who rarely went out fell more often outdoors.",
+  "reason": "Cold read verdict fix, items 2 and 6 (threads, 1 and 1): 'planned subgroups' is jargon and 'people often out' is telegraphic. Replaced with the cold read's plain wording (planned comparison, full sentences) and kept the one-trial caveat (C01-23-d, C01-23-e). Moved into its own paragraph."
+ },
+ {
+  "tmp_id": "C01-P02",
+  "where": "captions.threads",
+  "old": "In the VISIBLE trial (606 wearers at raised risk of falling, average age 80), distance glasses",
+  "new": "In a trial of 606 people at raised risk of falling, distance glasses",
+  "reason": "Length: made room within 500 characters for the plain subgroup wording. Trial name and average age dropped from Threads (kept in X and LinkedIn); 606 people at raised risk of falling kept (C01-23-c)."
+ },
+ {
+  "tmp_id": "C01-P03",
+  "where": "captions.threads",
+  "old": "Per 1000 older people followed for a year, exercise meant about 195 fewer falls (from 850) but about 72 fewer people falling (from 480): 23% fewer falls, 15% fewer people who fell at all.",
+  "new": "Per 1000 older people followed for a year, exercise meant about 195 fewer falls (from 850): 23% fewer. It also meant about 72 fewer people falling at all (from 480): 15% fewer.",
+  "reason": "Cold read item 6 (threads, 1): one long sentence carried four numbers. Split as the cold read suggested, so each absolute figure sits next to its percentage. Figures unchanged (C01-02-a, C01-02-b)."
+ },
+ {
+  "tmp_id": "C01-P04",
+  "where": "captions.x",
+  "old": "The 2019 Cochrane review pooled exercise trials in older people living at home.",
+  "new": "The 2019 Cochrane review combined results from many exercise trials in older people living at home.",
+  "reason": "Cold read item 2 (x, 1): 'pooled' is jargon for the public. Cold-read wording used; no change of fact (C01-25-a)."
+ },
+ {
+  "tmp_id": "C01-P04",
+  "where": "captions.linkedin",
+  "old": "The 2019 Cochrane review pooled exercise trials in older people living at home.",
+  "new": "The 2019 Cochrane review combined results from many exercise trials in older people living at home.",
+  "reason": "Cold read item 2 (linkedin, 1): 'pooled' is jargon for the public. Cold-read wording used; no change of fact (C01-25-a)."
+ },
+ {
+  "tmp_id": "C01-P04",
+  "where": "captions.linkedin",
+  "old": "That is a gap in the evidence, not proof that they don't help.",
+  "new": "That gap in the evidence does not mean these classes fail to help.",
+  "reason": "Cold read item 6 (linkedin, 1): negation-then-correction shape. Cold-read wording used; keeps the C01-25-a qualification that 'uncertain' is an evidence gap, not evidence of no effect."
+ },
+ {
+  "tmp_id": "C01-P04",
+  "where": "captions.linkedin",
+  "old": "Of those still in the studies after a year, only about 37 in 100 were still exercising three times a week.",
+  "new": "Of those still in the studies after a year, only about 37 in 100 were still exercising three times a week, so ask what support is offered to help you keep going.",
+  "reason": "Cold read item 5 (linkedin, 1): the post ended on a statistic with no action. Cold-read wording used. The added instruction is practical advice consistent with C01-25-d (benefits are lost when people stop; chances to continue are important); the 37 in 100 figure is unchanged (C01-25-h)."
+ },
+ {
+  "tmp_id": "C01-P05",
+  "where": "captions.linkedin",
+  "old": "This was one Australian cohort, published in 2010, of fairly healthy volunteers.",
+  "new": "This was one study, published in 2010, of a fairly healthy group of Australian volunteers.",
+  "reason": "Cold read item 2 (linkedin, 1): 'cohort' is jargon. Cold-read wording used; qualification from C01-19-a unchanged."
+ },
+ {
+  "tmp_id": "C01-P05",
+  "where": "captions.linkedin",
+  "old": "That was fewer than in people who were worried and at high risk, and more than in unworried people at low risk.",
+  "new": "That share was lower than in people who were both worried and at high risk. It was higher than in people who were unworried and at low risk.",
+  "reason": "Cold read item 6 (linkedin, 1): long comparative sentence split in two. The cold read's 'fewer falls' was not used because C01-19-d compares the share of people with injurious or repeated falls (about 1 in 3, between the other two groups), not numbers of falls; 'share' keeps people and falls distinct."
+ },
+ {
+  "tmp_id": "C01-P06",
+  "where": "captions.x",
+  "old": "Teach the figure with its size and design. More posts in the Reading the evidence series trace familiar figures back to their sources.",
+  "new": "Teach the figure with its size and design: half of 20 people, describing a link, not a cause.",
+  "reason": "Cold read item 5 (x, 0): empty close; the final sentence was a series plug. Cold-read wording used, so the post ends on the instruction. Figures match C01-08-a (half of 20 people) and the association wording already in the opening."
+ },
+ {
+  "tmp_id": "C01-P06",
+  "where": "captions.linkedin",
+  "old": "\n\nMore posts in the Reading the evidence series trace familiar figures back to their sources.",
+  "new": "",
+  "reason": "Cold read item 5 (linkedin, 0): empty close; the final sentence was a series plug. Removed, so the post ends on the cold read's suggested close, which was already the preceding paragraph ('When we teach the six-month line, we should give its source, its size and its design: half of 20 people, in an observational series from 1981.')."
+ },
+ {
+  "tmp_id": "C01-P06",
+  "where": "follow_note",
+  "old": "The account traces well-known numbers back to their sources; this post carries the one invitation to follow in the C01 set.",
+  "new": "The account traces well-known numbers back to their sources. The explicit series invitation was removed after the C01 cold read (it made an empty close), so the C01 set now carries no invitation to follow.",
+  "reason": "Keeps the note accurate after the series plug was removed from X and LinkedIn."
+ },
+ {
+  "tmp_id": "C01-P07",
+  "where": "captions.linkedin",
+  "old": "Either way, falls specialists treat high concern as a sign that something needs looking at.",
+  "new": "Either way, if worry about falling is high, tell the GP: falls specialists treat it as a sign that something needs looking at.",
+  "reason": "Cold read item 5 (linkedin, 1): close had no action. Added 'tell the GP'. The cold read's 'a high level of concern about falling is itself a reason for a falls assessment' was not used: C01-13-g safe wording supports only 'falls specialists treat high concern as a sign that something needs looking at' (Ellmers 2023, expert opinion), and C01-13-b places concern inside a falls assessment rather than as a trigger for one."
+ },
+ {
+  "tmp_id": "C01-P09",
+  "where": "captions.bluesky",
+  "old": "about 4 in 10 came from shifting body weight the wrong way; trips and slips about 1 in 4.",
+  "new": "about 4 in 10 came from shifting body weight the wrong way. Trips and slips together caused about 1 in 4.",
+  "reason": "Cold read item 6 (bluesky, 1): semicolon clause with a missing verb. Split as the cold read suggested; matches the X wording and C01-18-b ('trips and slips together were about 1 in 4, 54 of 227')."
+ },
+ {
+  "tmp_id": "C01-P10",
+  "where": "captions.bluesky",
+  "old": "Before putting falls down to age, watch the walk. Repeated early falls in a Parkinson-like illness: think PSP.",
+  "new": "Before blaming falls on age, watch the walk. Repeated early falls in a Parkinson-like illness: think progressive supranuclear palsy.",
+  "reason": "Cold read item 2 (bluesky, 1): 'PSP' unexplained. Spelled out in full. The bracketed abbreviation was left out because Bluesky does not use it again and it would take the post over 300 characters; 'putting falls down to age' shortened to 'blaming falls on age' for the same reason. Claim unchanged (C01-27-a, C01-27-b)."
+ },
+ {
+  "tmp_id": "C01-P10",
+  "where": "captions.threads",
+  "old": "think PSP, and question the diagnosis",
+  "new": "think progressive supranuclear palsy (PSP), and question the diagnosis",
+  "reason": "Cold read item 2 (threads, 1): 'PSP' unexplained. Cold-read wording used."
+ },
+ {
+  "tmp_id": "C01-P11",
+  "where": "captions.bluesky",
+  "old": "Later studies found the sign weaker.",
+  "new": "In a stroke study, this sign missed about half of those who later fell.",
+  "reason": "Cold read item 4 (bluesky, 1): 'weaker' is vague. Cold-read wording used; C01-24-c: in 63 people with stroke followed for 6 months, sensitivity 53% (16 of 30 fallers), so it missed about half."
+ },
+ {
+  "tmp_id": "C01-P11",
+  "where": "captions.threads",
+  "old": "Later studies, in stroke and in healthy volunteers, found the sign weaker.",
+  "new": "In a stroke study, this sign missed about half of those who later fell. Among healthy older volunteers, few people showed it at all.",
+  "reason": "Cold read item 4 (threads, 1): 'weaker' is vague. Cold-read wording used, split into two sentences. C01-24-c: stroke study sensitivity 53%; fewer than 3 in 100 of over 4000 healthy older volunteers stopped walking."
+ }
+]
