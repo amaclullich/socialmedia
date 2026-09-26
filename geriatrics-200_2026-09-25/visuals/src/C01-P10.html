@@ -84,7 +84,7 @@ const K = Kit, OL = '#1F2A30';
     top: 'slate', bottom: 'stone', extras: ['cardigan'], cardigan: 'oat', tilt: -6, hands: 'lap' };
   const head = K.joint(man, 'head');
   const target = { x: head.x + 118, y: head.y - 8 };
-  const doc = { pose: 'standing', x: 610, y: g, scale: S, facing: 'left', sex: 'f', age: 'adult', skin: 'dark', hair: 'black', hairStyle: 'coily',
+  const doc = { pose: 'standing', x: 588, y: g, scale: S, facing: 'left', sex: 'f', age: 'adult', skin: 'dark', hair: 'black', hairStyle: 'coily',
     top: 'paleblue', topStyle: 'shirt', bottom: 'navy', extras: ['lanyard'], lean: 6, tilt: 10, hands: { near: target } };
   // up-and-down movement marks beside the raised hand (no text)
   const ax = target.x + 2, ay = target.y;
@@ -92,8 +92,8 @@ const K = Kit, OL = '#1F2A30';
     + pen.p(`M${ax - 13},${ay - 58}L${ax},${ay - 80}L${ax + 13},${ay - 58}Z`, '#C24E12') + pen.p(`M${ax - 13},${ay + 58}L${ax},${ay + 80}L${ax + 13},${ay + 58}Z`, '#C24E12');
   K.draw('#sc1', W, H, [
     K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
-    K.desk({ x: 880, y: g, scale: S, w: 260 }),
-    K.stick({ x: 190, y: g, angle: 8, scale: S, type: 'crook', colour: '#6B4A30' }),
+    K.desk({ x: 850, y: g, scale: S, w: 200 }),
+    K.stick({ x: 236, y: g, angle: 9, scale: S, type: 'crook', colour: '#6B4A30' }),
     K.person(man),
     K.person(doc),
     arrow,
@@ -106,10 +106,10 @@ const K = Kit, OL = '#1F2A30';
   const pen = K.pen(K.LW);
   const woman = { pose: 'walking', x: 560, y: g, scale: S, age: 'older', sex: 'f', skin: 'brown', hair: 'cream', hairStyle: 'headscarf',
     top: 'plum', bottom: 'plum', bottomStyle: 'skirt', skirtLength: 'midi', legs: 'oat', extras: ['cardigan'], cardigan: 'mustard',
-    stride: 0.18, shoeStyle: 'slipper', shoes: '#5B4A40', tilt: 8 };
+    stride: 0.18, shoeStyle: 'slipper', shoes: '#5B4A40', tilt: 2 };
   const back = K.joint(woman, 'hip');
-  const physio = { pose: 'walking', role: 'physio', x: 360, y: g, scale: S, sex: 'm', skin: 'light', hair: 'sandy', hairStyle: 'short', stride: 0.3,
-    hands: { near: { x: back.x - 52, y: back.y - 34 } } };
+  const physio = { pose: 'walking', role: 'physio', x: 438, y: g, scale: S, sex: 'm', skin: 'light', hair: 'sandy', hairStyle: 'short', stride: 0.3,
+    hands: { near: { x: back.x - 50, y: back.y - 40 } } };
   // corridor: long wall handrail, a door at the far end
   const rail = pen.l([{ x: -60, y: g - 70 * S - 230 }, { x: 1060, y: g - 70 * S - 230 }], 10, '#B98B5E');
   let brackets = ''; for (let x = 40; x < 1000; x += 220) brackets += pen.l([{ x, y: g - 70 * S - 226 }, { x, y: g - 70 * S - 212 }], 6, '#8C979B');
@@ -120,30 +120,29 @@ const K = Kit, OL = '#1F2A30';
     K.person(physio),
     K.person(woman),
   ], { cls: 'art' });
-  // inset: footprints seen from above, short steps set wide apart, turning at the end
-  const fp = (x, y, a, left) => {
-    const f = left ? -1 : 1;
-    return `<g transform="translate(${x},${y}) rotate(${a}) scale(${f},1)"><path d="M0,-30C9,-30 13,-20 12,-8C11,4 9,12 8,20C7,27 3,31 -2,31C-8,31 -10,26 -10,19C-10,10 -12,2 -12,-8C-12,-21 -8,-30 0,-30Z" fill="#15535B"/></g>`;
-  };
+  // inset: footprints seen from above, short steps set wide apart, toes turned out
+  const fp = (x, y, a, left) => `<g transform="translate(${x},${y}) rotate(${left ? -a : a}) scale(${left ? -1 : 1},1)">`
+    + `<path d="M1,-21C8,-21 11,-14 10,-6C9,1 5,5 0,5C-6,5 -9,0 -9,-6C-9,-15 -6,-21 1,-21Z" fill="#15535B"/>`
+    + `<ellipse cx="-1" cy="15" rx="7" ry="8" fill="#15535B"/></g>`;
   let prints = '';
-  const steps = [[-26, 196, -10, 1], [26, 170, 10, 0], [-26, 144, -10, 1], [26, 118, 10, 0], [-24, 92, -14, 1], [30, 70, 22, 0], [-12, 52, -40, 1], [40, 42, 60, 0]];
-  steps.forEach(([dx, y, a, l]) => { prints += fp(125 + dx, y, a, l); });
-  K.draw('#feet', 250, 250, [`<rect x="0" y="0" width="250" height="250" fill="#FFFFFF"/>`, prints], { fit: 'xMidYMid meet' });
+  for (let i = 0; i < 7; i++) { const left = i % 2 === 0; prints += fp(125 + (left ? -34 : 34), 214 - i * 29, 14, left); }
+  const dir = `<path d="M125,52V30" stroke="#B9CDCC" stroke-width="6" stroke-linecap="round"/><path d="M113,34L125,14L137,34Z" fill="#B9CDCC"/>`;
+  K.draw('#feet', 250, 250, [`<rect x="0" y="0" width="250" height="250" fill="#FFFFFF"/>`, dir, prints], { fit: 'xMidYMid meet' });
 })();
 
 /* ---------- 3. eyes closed: feet together, clinician guarding without touching ---------- */
 (function () {
   const W = 1000, H = 560, S = 1.12, g = 540;
-  const man = { pose: 'standing', x: 520, y: g, scale: S, age: 'older', sex: 'm', skin: 'light', hair: 'white', hairStyle: 'short', build: 'slim',
+  const man = { pose: 'standing', x: 560, y: g, scale: S, age: 'older', sex: 'm', skin: 'light', hair: 'white', hairStyle: 'short', build: 'slim',
     top: 'denim', bottom: 'charcoal', shoes: '#A6ADB1', shoeStyle: 'slipper', tilt: 3 };
   const sh = K.joint(man, 'shoulder');
-  const doc = { pose: 'standing', x: 432, y: g - 4, scale: S, sex: 'f', age: 'adult', skin: 'fair', hair: 'silver', hairStyle: 'bob',
-    top: 'sage', topStyle: 'shirt', bottom: 'navy', extras: ['lanyard'], lean: 8, tilt: 6,
-    hands: { near: { x: sh.x + 70, y: sh.y + 52 }, far: { x: sh.x - 62, y: sh.y + 44 } } };
+  const doc = { pose: 'standing', x: 372, y: g - 4, scale: S, sex: 'f', age: 'adult', skin: 'fair', hair: 'silver', hairStyle: 'bob',
+    top: 'sage', topStyle: 'shirt', bottom: 'navy', extras: ['lanyard'], lean: 6, tilt: 8,
+    hands: { near: { x: sh.x - 52, y: sh.y + 62 }, far: { x: sh.x - 46, y: sh.y + 14 } } };
   K.draw('#sc3', W, H, [
     K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
-    K.bed({ x: 150, y: g, type: 'hospital', height: 150, scale: 0.9, colour: 'pale' }),
-    K.shoes({ x: 700, y: g, scale: S, colour: '#3A2E28' }),
+    K.bed({ x: 60, y: g, type: 'hospital', height: 150, scale: 0.9, colour: 'pale' }),
+    K.shoes({ x: 730, y: g, scale: S, colour: '#3A2E28' }),
     K.person(doc),
     K.person(man),
   ], { cls: 'art' });
@@ -153,7 +152,7 @@ const K = Kit, OL = '#1F2A30';
 (function () {
   const gold = '#D9A441', wht = '#FFFFFF';
   const foot = (x, y, a, f) => `<g transform="translate(${x},${y}) rotate(${a}) scale(${f},1)"><path d="M0,-26C8,-26 11,-17 10,-7C9,3 8,10 7,17C6,23 3,27 -2,27C-7,27 -9,23 -9,16C-9,8 -10,2 -10,-7C-10,-18 -7,-26 0,-26Z" fill="${gold}"/></g>`;
-  document.getElementById('ic1').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true">${foot(44, 78, -8, -1)}${foot(76, 42, 8, 1)}</svg>`;
+  document.getElementById('ic1').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true"><g transform="translate(60,60) scale(1.35) translate(-60,-60)">${foot(44, 80, -8, -1)}${foot(76, 40, 8, 1)}</g></svg>`;
   document.getElementById('ic2').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true"><path d="M34,100V52C34,30 50,20 64,20C80,20 94,32 94,52V70" fill="none" stroke="${gold}" stroke-width="11" stroke-linecap="round"/><path d="M76,66L94,92L112,66Z" fill="${gold}" stroke="${gold}" stroke-width="4" stroke-linejoin="round"/></svg>`;
   document.getElementById('ic3').innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true"><path d="M14,52C34,82 86,82 106,52" fill="none" stroke="${gold}" stroke-width="9" stroke-linecap="round"/><path d="M30,70L22,84M50,78L47,94M70,78L73,94M90,70L98,84" stroke="${gold}" stroke-width="7" stroke-linecap="round"/></svg>`;
 })();

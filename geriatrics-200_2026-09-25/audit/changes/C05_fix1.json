@@ -222,5 +222,54 @@
   "old": "almost 9 in 10 pairs showed only weak to moderate agreement",
   "new": "almost 9 in 10 pairs showed moderate agreement at best",
   "reason": "consistency with P08 minor fix: some pairs below weak"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.threads",
+  "old": "In a US study of 2,293 people aged 70+ on medical wards, 35 in 100 went home less able to wash, dress, eat or use the toilet",
+  "new": "In a US study of 2,293 people aged 70+ on medical wards, 35 in 100 went home less able to wash, dress or use the toilet",
+  "reason": "trim threads to 500 after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.x",
+  "old": "The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute hospital stay.",
+  "new": "The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute stay.",
+  "reason": "trim threads to 500 after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.threads",
+  "old": "The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute hospital stay.",
+  "new": "The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute stay.",
+  "reason": "trim threads to 500 after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.bluesky",
+  "old": "\"Any difficulty with stairs?\" misses people who have changed how they climb them.",
+  "new": "\"Any difficulty with stairs?\" misses people who now climb them differently.",
+  "reason": "trim Bluesky to 300 after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.threads",
+  "old": "The data are over 20 years old, but a 2019",
+  "new": "The data are 20+ years old, but a 2019",
+  "reason": "trim to platform limit after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.threads",
+  "old": "We should record the level two weeks before illness and state the gap at discharge.",
+  "new": "Record the level two weeks before illness; state the gap at discharge.",
+  "reason": "trim to platform limit after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.bluesky",
+  "old": "Also ask: \"Have you",
+  "new": "Ask: \"Have you",
+  "reason": "trim to platform limit after fact-check additions"
  }
 ]
