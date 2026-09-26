@@ -42,6 +42,8 @@ For each candidate:
 4. Write the safe wording: the most accurate plain-English statement the post may make, with the qualifications it must carry. If the candidate's intended claim is stronger than the evidence, say so and give the wording the evidence does support. Never invent numbers, quotations or references. PMIDs, DOIs and URLs come only from tool output.
 5. Set the candidate status: "ready" (all essential claims supported), "revise" (supportable with a changed angle or wording; give the revised angle), or "drop" (an essential claim is unsupported; say which).
 
+Work economically; usage is limited. Aim for 2 to 4 sources per candidate. Read the abstract first and open full text only when a figure or passage you need is not in the abstract (no more than about 5 full texts in the whole batch unless essential). Stop searching once a strong source supports the claim as worded. Scite may be at its monthly usage limit: if so, check for corrections and retractions in PubMed (search the PMID with retracted publication[pt] and look for a linked erratum) and record that. Never open confidential documents found in Drive (case files, witness statements, care records); use only published guidelines, reports and papers.
+
 Write JSON to ${ROOT}/evidence/batches/${bid}.json:
 {"batch": "${bid}", "category": "${c.id}", "date_checked": "${TODAY}",
  "sources": [{"key": "PMID:12345678" or "DOI:10..." or "DRIVE:<file id>" or "URL:<url>", "citation": "Vancouver-style citation", "pmid": "...", "pmcid": "... or null", "doi": "... or null", "public_url": "https://doi.org/... or https://pubmed.ncbi.nlm.nih.gov/<pmid>/", "design": "...", "population_setting": "...", "year": 2024, "access": "full_text|abstract|official_document|search_extract", "tool_used": "...", "correction_check": "...", "quality_note": "..."}],
@@ -94,7 +96,7 @@ Read ${ROOT}/_system/STYLE.md section 9, the posts ${ROOT}/posts/${c.id}_posts.j
 
 For every post, check every factual statement in all four captions, the visual text, the alt text and the source_reply:
 1. Does it map to a claim record with verdict supported or supported_with_qualification? Does the wording stay within the safe_wording and carry the qualifications?
-2. Re-open the source yourself (PubMed MCP get_article_metadata for the abstract, get_full_text_article for PMC full text; load with ToolSearch) and confirm the supporting passage says what the record says, and that the post's wording (numbers, population, setting, comparator, outcome, timeframe, direction of effect) matches the source. Do this for every number and every study-specific statement. For DRIVE: sources, open them with mcp__Google_Drive__read_file_content.
+2. Compare every statement with the claim record's verbatim supporting_passage, pico_timeframe and qualifications. Then re-open the source yourself for every number and every study-specific statement that appears in a headline, on the visual, or as the main finding of a post (PubMed MCP get_article_metadata for the abstract; load with ToolSearch). Open full text (get_full_text_article) only when the number is not in the abstract. Confirm the numbers, population, setting, comparator, outcome, timeframe and direction of effect match the source. For DRIVE: sources, open them with mcp__Google_Drive__read_file_content only if the passage is disputed. Be economical: do not re-open a source twice.
 3. Check explicitly for the errors that actually occur: a subgroup result written as the whole study; odds or hazard ratios written as plain risk multiples; a confidence interval crossing the null reported as a finding or as equivalence; background statements from a paper's introduction attributed to the study; population swaps (community vs hospital vs care home; dementia vs cognitive impairment; predicted vs observed); causal verbs on observational data; within-arm change reported as an excess over control; relative effect presented without the absolute; screening confused with diagnosis; an evidence gap presented as evidence of no benefit; journal name or year errors; a PMID or DOI that does not match the citation.
 4. Check that the four platform versions carry the same central claim and qualifications (a short version must not become stronger or wrong through compression).
 5. Check headlines and visual text as strictly as captions, and that any chart data matches the source with denominator and timeframe.
@@ -164,7 +166,7 @@ const results = await pipeline(cats,
   (research, c) => agent(writePrompt(c), { label: `write:${c.id}`, phase: 'Write', schema: WSUM }).then(w => ({ research, write: w })),
   (prev, c) => agent(checkPrompt(c), { label: `factcheck:${c.id}`, phase: 'Fact-check', schema: CSUM }).then(fc => ({ ...prev, factcheck: fc })),
   (prev, c) => agent(fixPrompt(c), { label: `fix:${c.id}`, phase: 'Fix', schema: FSUM }).then(f => ({ ...prev, fix1: f })),
-  (prev, c) => agent(coldReadPrompt(c), { label: `coldread:${c.id}`, phase: 'Cold read', schema: RDSUM }).then(r => ({ ...prev, coldread: r })),
+  (prev, c) => agent(coldReadPrompt(c), { label: `coldread:${c.id}`, phase: 'Cold read', schema: RDSUM, model: 'sonnet' }).then(r => ({ ...prev, coldread: r })),
   (prev, c) => agent(fix2Prompt(c), { label: `fix2:${c.id}`, phase: 'Fix 2', schema: FSUM }).then(f => ({ category: c.id, ...prev, fix2: f })),
 )
 return results
