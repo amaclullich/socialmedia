@@ -1,0 +1,1453 @@
+{
+ "batch": "C07-B2",
+ "category": "C07",
+ "date_checked": "2026-09-25",
+ "notes": "No earlier evidence batch (C01-B1 to B3) had sources that fitted these candidates. Scite was available (not at its usage limit): records retrieved through Scite showed no editorial notices. All cited PMIDs were also checked in PubMed for retracted publication, retraction of publication, expression of concern and published erratum publication types (none found). Full texts opened: 5 via PMC (Al Jaff 2026, Wan & Chakrabarti 2021, ATS 2024, Bergen 2026, Montez-Rath 2024). Verbatim body-text excerpts were also read through Scite for Pitcher 2016, Perkins 2016, McEvedy 2018, Bloom 2022, Paladino 2019 and Kharbanda 2021. Drive searches for DNACPR, ReSPECT, ICD and renal guidance found no published guideline PDFs, only confidential case records, which were not opened. Official web pages (NICE, CQC, BMA, Resuscitation Council UK, NHS) could not be opened.",
+ "sources": [
+  {
+   "key": "PMID:39537430",
+   "citation": "Thomas H, Dutton A, Johnson MJ, Herbert H, Wallace J, Foley P. The discontinuation of implantable cardioverter defibrillator shock therapies towards the end of life: consensus guideline from the British Heart Rhythm Society. Age Ageing. 2024;53(11):afae246.",
+   "pmid": "39537430",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afae246",
+   "public_url": "https://doi.org/10.1093/ageing/afae246",
+   "design": "Consensus practice guideline (British Heart Rhythm Society)",
+   "population_setting": "UK; all healthcare professionals caring for people with an ICD approaching the end of life, including non-cardiac teams",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata; Scite search_literature and read_fulltext (returned abstract only)",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Current UK guidance on ICD shock deactivation. It supersedes the 2013 British Heart Foundation document the candidate named (the judge asked for a check). Only the abstract was readable; the practical detail in the full guideline was not opened."
+  },
+  {
+   "key": "PMID:27277710",
+   "citation": "Pitcher D, Soar J, Hogg K, Linker N, Chapman S, Beattie JM, et al. Cardiovascular implanted electronic devices in people towards the end of life, during cardiopulmonary resuscitation and after death: guidance from the Resuscitation Council (UK), British Cardiovascular Society and National Council for Palliative Care. Heart. 2016;102 Suppl 7:A1-17.",
+   "pmid": "27277710",
+   "pmcid": null,
+   "doi": "10.1136/heartjnl-2016-309721",
+   "public_url": "https://doi.org/10.1136/heartjnl-2016-309721",
+   "design": "Joint UK professional guidance",
+   "population_setting": "UK; health professionals caring for people with implanted cardiac devices towards the end of life, during CPR and after death",
+   "year": 2016,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles + get_article_metadata; Scite search_literature (verbatim body-text sentences returned as Smart Citation statements; read_fulltext returned abstract only)",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Joint UK guidance. Only individual body-text sentences were readable (via Scite citation statements), not the whole document, so use it only for the two sentences quoted."
+  },
+  {
+   "key": "PMID:24243857",
+   "citation": "Kinch Westerdahl A, Sjöblom J, Mattiasson AC, Rosenqvist M, Frykman V. Implantable cardioverter-defibrillator therapy before death: high risk for painful shocks at end of life. Circulation. 2014;129(4):422-9.",
+   "pmid": "24243857",
+   "pmcid": null,
+   "doi": "10.1161/CIRCULATIONAHA.113.002648",
+   "public_url": "https://doi.org/10.1161/CIRCULATIONAHA.113.002648",
+   "design": "Prospective analysis of intracardiac electrograms from explanted ICDs of people who had died",
+   "population_setting": "125 deceased ICD recipients, one centre in Stockholm, Sweden (Danderyd Hospital); most had devices for secondary prevention (82% according to Al Jaff 2026)",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Only study to read devices systematically after death, so it gives objective shock data. Single centre, small, mostly secondary-prevention devices, so the shock rate may be higher than in people with primary-prevention devices (Al Jaff 2026 makes this point)."
+  },
+  {
+   "key": "PMID:15583224",
+   "citation": "Goldstein NE, Lampert R, Bradley E, Lynn J, Krumholz HM. Management of implantable cardioverter defibrillators in end-of-life care. Ann Intern Med. 2004;141(11):835-8.",
+   "pmid": "15583224",
+   "pmcid": null,
+   "doi": "10.7326/0003-4819-141-11-200412070-00006",
+   "public_url": "https://doi.org/10.7326/0003-4819-141-11-200412070-00006",
+   "design": "Retrospective cohort; telephone survey of next of kin",
+   "population_setting": "Next of kin of 100 people with ICDs who died of any cause (100 of 136 contacted, 74%), USA",
+   "year": 2004,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Older US study, and it relies on relatives' recall. It is useful for how often deactivation was discussed, but the shock figure (8 of 100) is a reported rather than a measured one."
+  },
+  {
+   "key": "PMID:41782279",
+   "citation": "Al Jaff AAM, Egorova AD, Yilmaz D, Schalij MJ, van Erven L. Shifting paradigms in ICD tachytherapy deactivation in the final phase of life: eighteen years of perspective. Eur Heart J Qual Care Clin Outcomes. 2026;12(5):706-14.",
+   "pmid": "41782279",
+   "pmcid": "PMC13458154",
+   "doi": "10.1093/ehjqcco/qcag038",
+   "public_url": "https://doi.org/10.1093/ehjqcco/qcag038",
+   "design": "Retrospective cohort from a prospective single-centre ICD registry",
+   "population_setting": "1606 people with an ICD or CRT-D implanted at Leiden University Medical Center, Netherlands, who died 2006 to 2022; 79% male; mean age at death 73",
+   "year": 2026,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles + get_article_metadata + get_full_text_article",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Large and recent, with detailed timing and location of deactivation. Single Dutch centre; deactivations recorded elsewhere may be missed; shocks in the last days were not measured."
+  },
+  {
+   "key": "PMID:34099469",
+   "citation": "Wan D, Chakrabarti S. Deactivation of implantable cardioverter-defibrillators. CMAJ. 2021;193(23):E852.",
+   "pmid": "34099469",
+   "pmcid": "PMC8203263",
+   "doi": "10.1503/cmaj.210327",
+   "public_url": "https://doi.org/10.1503/cmaj.210327",
+   "design": "Peer-reviewed clinical practice summary ('Five things to know about')",
+   "population_setting": "Canada; clinicians caring for people with ICDs whose goals of care change",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "Scite search_literature (discovery); PubMed search_articles + convert_article_ids + get_full_text_article",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "A short expert summary, not primary research. The facts it gives about how deactivation works match the consensus statements. Canadian practice (a 'pacemaker or arrhythmia team')."
+  },
+  {
+   "key": "PMID:28678000",
+   "citation": "McEvedy SM, Cameron J, Lugg E, Miller J, Haedtke C, Hammash M, et al. Implantable cardioverter defibrillator knowledge and end-of-life device deactivation: a cross-sectional survey. Palliat Med. 2018;32(1):156-63.",
+   "pmid": "28678000",
+   "pmcid": "PMC5899887",
+   "doi": "10.1177/0269216317718438",
+   "public_url": "https://doi.org/10.1177/0269216317718438",
+   "design": "Cross-sectional survey",
+   "population_setting": "270 ICD recipients (mean age 61; 73% male) from cardiology and ICD clinics at two tertiary hospitals in Melbourne, Australia and two in Kentucky, USA",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (verbatim full-text excerpt from the Introduction)",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Survey findings come from the abstract. The sentence on how deactivation works is from the Introduction and is background citing the UK 2016 guidance (Pitcher), so it is not a finding of this study. Use it only to confirm the CMAJ description."
+  },
+  {
+   "key": "PMID:41589554",
+   "citation": "van Lier R, Stuyck N, Poels P, Vandenberk B, Willems R. Attitudes of patients, relatives and professionals regarding deactivation of implantable cardioverter-defibrillators: a scoping review. Acta Cardiol. 2026;81(2):211-33.",
+   "pmid": "41589554",
+   "pmcid": null,
+   "doi": "10.1080/00015385.2026.2620233",
+   "public_url": "https://doi.org/10.1080/00015385.2026.2620233",
+   "design": "Scoping review (32 studies)",
+   "population_setting": "Studies of patients with ICDs, relatives and health professionals; PubMed and Embase searched to June 2024",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "A scoping review: it maps the studies without pooling them or grading their quality. It is enough to support a qualitative statement about awareness, but not a number."
+  },
+  {
+   "key": "PMID:27077163",
+   "citation": "Perkins GD, Griffiths F, Slowther AM, et al. Do-not-attempt-cardiopulmonary-resuscitation decisions: an evidence synthesis. Health Serv Deliv Res. 2016;4(11):1-154.",
+   "pmid": "27077163",
+   "pmcid": null,
+   "doi": "10.3310/hsdr04110",
+   "public_url": "https://doi.org/10.3310/hsdr04110",
+   "design": "NIHR-funded evidence synthesis: systematic review, analysis of NHS incident, complaint, ombudsman and coroner reports and trust policies, and focus groups",
+   "population_setting": "NHS England; DNACPR decision-making and implementation across health-care settings (PROSPERO CRD42012002669)",
+   "year": 2016,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles (PMID only; NCBI Bookshelf record); Scite search_literature (abstract plus verbatim body-text sentences)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt]/expression of concern[pt]: no record. Scite record returned with no editorialNotices.",
+   "quality_note": "National evidence synthesis. The authors say the variable quality of data sources may overstate or understate findings. Full author list not retrieved (the first three are given). The joint BMA/RCUK/RCN guidance itself was not opened; its content is taken from how this synthesis reports it."
+  },
+  {
+   "key": "PMID:25393809",
+   "citation": "Fritz Z, Fuld JP. Development of the Universal Form Of Treatment Options (UFTO) as an alternative to Do Not Attempt Cardiopulmonary Resuscitation (DNACPR) orders: a cross-disciplinary approach. J Eval Clin Pract. 2015;21(1):109-17.",
+   "pmid": "25393809",
+   "pmcid": null,
+   "doi": "10.1111/jep.12256",
+   "public_url": "https://doi.org/10.1111/jep.12256",
+   "design": "Development study (adapted Delphi, interviews, focus groups)",
+   "population_setting": "Cambridge University Hospitals, UK; doctors, nurses and patients",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "The statement that DNACPR orders are often misread is the authors' framing of the problem, not a measured result. Use it as background only."
+  },
+  {
+   "key": "PMID:12473020",
+   "citation": "Beach MC, Morrison RS. The effect of do-not-resuscitate orders on physician decision-making. J Am Geriatr Soc. 2002;50(12):2057-61.",
+   "pmid": "12473020",
+   "pmcid": null,
+   "doi": "10.1046/j.1532-5415.2002.50620.x",
+   "public_url": "https://doi.org/10.1046/j.1532-5415.2002.50620.x",
+   "design": "Cross-sectional mailed survey with randomised case scenarios (vignettes with vs without a DNR order)",
+   "population_setting": "241 of 463 US resident and attending physicians (52% response)",
+   "year": 2002,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Randomised vignette design, so it gives causal evidence about stated intentions, but not observed orders (the judge flagged this). US, 2002, 52% response rate."
+  },
+  {
+   "key": "PMID:27237130",
+   "citation": "Moffat S, Skinner J, Fritz Z. Does resuscitation status affect decision making in a deteriorating patient? Results from a randomised vignette study. J Eval Clin Pract. 2016;22(6):917-23.",
+   "pmid": "27237130",
+   "pmcid": "PMC5111586",
+   "doi": "10.1111/jep.12559",
+   "public_url": "https://doi.org/10.1111/jep.12559",
+   "design": "Randomised online vignette study",
+   "population_setting": "231 nurses from 10 NHS trusts, UK, randomised to a DNACPR form, a UFTO form or no form",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "UK and randomised, but it measures stated intentions in a scenario, not real care. One of the authors developed the UFTO."
+  },
+  {
+   "key": "PMID:24023718",
+   "citation": "Fritz Z, Malyon A, Frankau JM, Parker RA, Cohn S, Laroche CM, et al. The Universal Form of Treatment Options (UFTO) as an alternative to Do Not Attempt Cardiopulmonary Resuscitation (DNACPR) orders: a mixed methods evaluation of the effects on clinical practice and patient care. PLoS One. 2013;8(9):e70977.",
+   "pmid": "24023718",
+   "pmcid": "PMC3762818",
+   "doi": "10.1371/journal.pone.0070977",
+   "public_url": "https://doi.org/10.1371/journal.pone.0070977",
+   "design": "Mixed-methods before-and-after study with contemporaneous control wards",
+   "population_setting": "One acute hospital (Cambridge, UK); 103 patients with DNACPR orders in 530 admissions vs 118 not-for-CPR decisions in 560 admissions",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Before-and-after in one hospital, and the developers ran the evaluation. Harms were adjusted for known confounders and control wards showed no change. The finding is an association, not trial evidence."
+  },
+  {
+   "key": "PMID:31945422",
+   "citation": "Hawkes CA, Fritz Z, Deas G, Ahmedzai SH, Richardson A, Pitcher D, et al. Development of the Recommended Summary Plan for Emergency Care and Treatment (ReSPECT). Resuscitation. 2020;148:98-107.",
+   "pmid": "31945422",
+   "pmcid": null,
+   "doi": "10.1016/j.resuscitation.2020.01.003",
+   "public_url": "https://doi.org/10.1016/j.resuscitation.2020.01.003",
+   "design": "Development study (literature synthesis, national consultation, cognitive interviews, PPI workshop, usability pilot)",
+   "population_setting": "UK; Resuscitation Council UK-led development of ReSPECT",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Describes what ReSPECT is meant to do, not its effects. The authors say further research is needed on outcomes."
+  },
+  {
+   "key": "PMID:35779800",
+   "citation": "Hawkes CA, Griffin J, Eli K, Griffiths F, Slowther AM, Fritz Z, et al. Implementation of ReSPECT in acute hospitals: a retrospective observational study. Resuscitation. 2022;178:26-35.",
+   "pmid": "35779800",
+   "pmcid": null,
+   "doi": "10.1016/j.resuscitation.2022.06.020",
+   "public_url": "https://doi.org/10.1016/j.resuscitation.2022.06.020",
+   "design": "Retrospective observational study (national hospital survey 2015 to 2019 plus case-note review)",
+   "population_setting": "186 UK acute hospitals; 3000 case notes from six English trusts; 706 ReSPECT forms",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Shows what forms actually record. Early implementation period."
+  },
+  {
+   "key": "PMID:39487818",
+   "citation": "Slowther AM, Harlock J, Bernstein CJ, Bruce K, Eli K, Huxley CJ, et al. Using the Recommended Summary Plan for Emergency Care and Treatment in Primary Care: a mixed methods study. Health Soc Care Deliv Res. 2024;12(42):1-155.",
+   "pmid": "39487818",
+   "pmcid": null,
+   "doi": "10.3310/NVTF7521",
+   "public_url": "https://doi.org/10.3310/NVTF7521",
+   "design": "Mixed-methods study (interviews, focus groups, national surveys, form evaluation)",
+   "population_setting": "13 general practices and 13 care homes in 3 areas of England; national GP and public surveys; 141 ReSPECT forms evaluated",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "NIHR report. Patient and relative interviews recruited fewer people than planned, and minority ethnic groups were under-represented."
+  },
+  {
+   "key": "PMID:38063572",
+   "citation": "Kruser JM, Ashana DC, Courtright KR, Kross EK, Neville TH, Rubin E, et al. Defining the time-limited trial for patients with critical illness: an official American Thoracic Society workshop report. Ann Am Thorac Soc. 2024;21(2):187-99.",
+   "pmid": "38063572",
+   "pmcid": "PMC10848901",
+   "doi": "10.1513/AnnalsATS.202310-925ST",
+   "public_url": "https://doi.org/10.1513/AnnalsATS.202310-925ST",
+   "design": "Official professional society workshop report: structured literature search, modified Delphi (100 stakeholders, two rounds), committee consensus",
+   "population_setting": "Critical care; committee and Delphi panel mainly from US academic centres (87% North America)",
+   "year": 2024,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles + get_article_metadata + get_full_text_article",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "The most authoritative current definition. It is set in critical care and life-sustaining therapy, although it notes use in nephrology, neurology and surgery. The 16 elements appear only in a figure that was not in the text returned. The report is open about how little evidence there is for efficacy."
+  },
+  {
+   "key": "PMID:30136140",
+   "citation": "Vink EE, Azoulay E, Caplan A, Kompanje EJO, Bakker J. Time-limited trial of intensive care treatment: an overview of current literature. Intensive Care Med. 2018;44(9):1369-77.",
+   "pmid": "30136140",
+   "pmcid": null,
+   "doi": "10.1007/s00134-018-5339-x",
+   "public_url": "https://doi.org/10.1007/s00134-018-5339-x",
+   "design": "Narrative review",
+   "population_setting": "Intensive care",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Narrative review; supports the definition only."
+  },
+  {
+   "key": "PMID:33843946",
+   "citation": "Chang DW, Neville TH, Parrish J, Ewing L, Rico C, Jara L, et al. Evaluation of time-limited trials among critically ill patients with advanced medical illnesses and reduction of nonbeneficial ICU treatments. JAMA Intern Med. 2021;181(6):786-94.",
+   "pmid": "33843946",
+   "pmcid": "PMC8042568",
+   "doi": "10.1001/jamainternmed.2021.1000",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2021.1000",
+   "design": "Prospective quality-improvement before-and-after study (not randomised)",
+   "population_setting": "Medical ICUs of 3 academic public hospitals in California, 2017 to 2019; 209 critically ill patients with advanced medical illnesses (mean age 63.6; 48% Hispanic)",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "The only interventional study (ATS 2024 says so). Before-and-after design, not specific to older people. According to ATS 2024, surrogate satisfaction and decisional conflict did not change."
+  },
+  {
+   "key": "PMID:38101511",
+   "citation": "Kruser JM, Nadig NR, Viglianti EM, Clapp JT, Secunda KE, Halpern SD. Time-limited trials for patients with critical illness: a review of the literature. Chest. 2024;165(4):881-91.",
+   "pmid": "38101511",
+   "pmcid": "PMC11243441",
+   "doi": "10.1016/j.chest.2023.12.014",
+   "public_url": "https://doi.org/10.1016/j.chest.2023.12.014",
+   "design": "Literature review (18 empirical studies, 15 ethical analyses)",
+   "population_setting": "Critical care, mainly US",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Recent synthesis. It supports the statements that trials are often carried out incompletely and that some older adults favour them."
+  },
+  {
+   "key": "PMID:40252856",
+   "citation": "Piscitello GM, Arnold RM, Schell JO, Kruser JM. Characterizing the documentation of time-limited trials in goals of care notes. J Pain Symptom Manage. 2025;70(2):e129-36.",
+   "pmid": "40252856",
+   "pmcid": "PMC12363427",
+   "doi": "10.1016/j.jpainsymman.2025.04.007",
+   "public_url": "https://doi.org/10.1016/j.jpainsymman.2025.04.007",
+   "design": "Retrospective cross-sectional study of standardised goals-of-care notes",
+   "population_setting": "5475 goals-of-care template notes for seriously ill hospitalised adults across 21 US hospitals, 2021 to 2023",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Measures how often trials were documented, which may be less often than they were used."
+  },
+  {
+   "key": "PMID:30870563",
+   "citation": "Bernacki R, Paladino J, Neville BA, Hutchings M, Kavanagh J, Geerse OP, et al. Effect of the Serious Illness Care Program in outpatient oncology: a cluster randomized clinical trial. JAMA Intern Med. 2019;179(6):751-9.",
+   "pmid": "30870563",
+   "pmcid": "PMC6547155",
+   "doi": "10.1001/jamainternmed.2019.0077",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2019.0077",
+   "design": "Cluster randomised clinical trial",
+   "population_setting": "Outpatient oncology, Dana-Farber Cancer Institute, Boston, USA, 2012 to 2016; 91 clinicians in 41 clusters; 278 patients with advanced cancer",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Randomised, but the co-primary outcomes were assessed in only 64 patients. The authors cite problems with measure selection and sample size. Anxiety and depression were secondary outcomes. The patients were not an older-age population."
+  },
+  {
+   "key": "PMID:30870556",
+   "citation": "Paladino J, Bernacki R, Neville BA, Kavanagh J, Miranda SP, Palmor M, et al. Evaluating an intervention to improve communication between oncology clinicians and patients with life-limiting cancer: a cluster randomized clinical trial of the Serious Illness Care Program. JAMA Oncol. 2019;5(6):801-9.",
+   "pmid": "30870556",
+   "pmcid": "PMC12634133",
+   "doi": "10.1001/jamaoncol.2019.0292",
+   "public_url": "https://doi.org/10.1001/jamaoncol.2019.0292",
+   "design": "Secondary outcomes of the same cluster randomised trial (medical record review after death)",
+   "population_setting": "161 patients who died during the trial (mean age 62.3) and 76 clinicians, Dana-Farber Cancer Institute, USA",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata; Scite search_literature (full-text excerpts)",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Documentation outcomes, which show what was written down rather than how patients experienced the conversations."
+  },
+  {
+   "key": "PMID:35144938",
+   "citation": "Bloom JR, Marshall DC, Rodriguez-Russo C, Martin E, Jones JA, Dharmarajan KV. Prognostic disclosure in oncology - current communication models: a scoping review. BMJ Support Palliat Care. 2022;12(2):167-77.",
+   "pmid": "35144938",
+   "pmcid": "PMC9119949",
+   "doi": "10.1136/bmjspcare-2021-003313",
+   "public_url": "https://doi.org/10.1136/bmjspcare-2021-003313",
+   "design": "Scoping review (78 articles, 5 communication models)",
+   "population_setting": "Oncology communication literature 1971 to 2020",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles + get_article_metadata; Scite search_literature (verbatim full-text excerpts including Table 1 content)",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Gives a published description of the order of the Serious Illness Conversation Guide without reproducing its wording. Scoping review with no quality grading."
+  },
+  {
+   "key": "PMID:35802350",
+   "citation": "Ryan RE, Connolly M, Bradford NK, Henderson S, Herbert A, Schonfeld L, et al. Interventions for interpersonal communication about end of life care between health practitioners and affected people. Cochrane Database Syst Rev. 2022;7(7):CD013116.",
+   "pmid": "35802350",
+   "pmcid": "PMC9266997",
+   "doi": "10.1002/14651858.CD013116.pub2",
+   "public_url": "https://doi.org/10.1002/14651858.CD013116.pub2",
+   "design": "Cochrane systematic review (8 trials)",
+   "population_setting": "People expected to die within 12 months, their families and practitioners; any setting",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Low or very low certainty evidence overall; the findings are inconclusive for practice."
+  },
+  {
+   "key": "PMID:41690715",
+   "citation": "Paladino J, Schofield C, Angove R, Murphy A, Sanders JJ, Hasan M, et al. Redesigning a Serious Illness Conversation Guide: a mixed-methods community-engaged revision process. J Pain Symptom Manage. 2026;71(3):e245-60.",
+   "pmid": "41690715",
+   "pmcid": null,
+   "doi": "10.1016/j.jpainsymman.2025.09.004",
+   "public_url": "https://doi.org/10.1016/j.jpainsymman.2025.09.004",
+   "design": "Mixed-methods community-engaged revision study",
+   "population_setting": "US; 59 clinicians and experts plus 11 patient and caregiver advisors",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Shows that the guide has been revised recently, including its section on illness understanding. Posts should describe the approach, not quote the wording of any version."
+  },
+  {
+   "key": "PMID:26443662",
+   "citation": "Bernacki R, Hutchings M, Vick J, Smith G, Paladino J, Lipsitz S, et al. Development of the Serious Illness Care Program: a randomised controlled trial of a palliative care communication intervention. BMJ Open. 2015;5(10):e009032.",
+   "pmid": "26443662",
+   "pmcid": "PMC4606432",
+   "doi": "10.1136/bmjopen-2015-009032",
+   "public_url": "https://doi.org/10.1136/bmjopen-2015-009032",
+   "design": "Trial protocol",
+   "population_setting": "Patients with advanced incurable cancer (life expectancy under 12 months) and clinicians, Dana-Farber Cancer Institute",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Describes the programme's components. The guide's text is in a figure that was not opened."
+  },
+  {
+   "key": "PMID:34416872",
+   "citation": "Kharbanda K, Iyasere O, Caskey F, Marlais M, Mitra S. Commentary on the NICE guideline on renal replacement therapy and conservative management. BMC Nephrol. 2021;22(1):282.",
+   "pmid": "34416872",
+   "pmcid": "PMC8379858",
+   "doi": "10.1186/s12882-021-02461-4",
+   "public_url": "https://doi.org/10.1186/s12882-021-02461-4",
+   "design": "Professional society commentary (Renal Association) reproducing NICE NG107 recommendations verbatim",
+   "population_setting": "UK (England) kidney care; adults and children with CKD stages 4 to 5",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "WebSearch (found PMC link); PubMed convert_article_ids + get_article_metadata; Scite search_literature (verbatim full-text excerpts)",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "Quotes NG107 recommendation text word for word; the NICE page itself could not be opened. It also notes the lack of randomised comparisons and the variation in uptake of conservative management across the UK."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ng107",
+   "citation": "National Institute for Health and Care Excellence. Renal replacement therapy and conservative management. NICE guideline NG107. London: NICE; 2018 (updated 2021) [web page not opened; search-engine extract only].",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ng107",
+   "design": "National clinical guideline",
+   "population_setting": "England; people with CKD stages 4 and 5",
+   "year": 2018,
+   "access": "search_extract",
+   "tool_used": "WebSearch (nice.org.uk)",
+   "correction_check": "Not applicable (guideline web page; not opened).",
+   "quality_note": "Search extract only; it confirms publication 3 October 2018 and the 2021 update that linked to shared decision-making guidance. Recommendation wording comes from Kharbanda 2021."
+  },
+  {
+   "key": "PMID:42459744",
+   "citation": "Bergen K, Bouwmans P, van Oevelen M, Avesani CM, Jacobson SH, Wallin JM, et al. Deciding between conservative kidney management and dialysis in older people with kidney failure: a narrative review. Clin Kidney J. 2026;19(7):sfag183.",
+   "pmid": "42459744",
+   "pmcid": "PMC13370835",
+   "doi": "10.1093/ckj/sfag183",
+   "public_url": "https://doi.org/10.1093/ckj/sfag183",
+   "design": "Narrative review",
+   "population_setting": "Older and frail people with kidney failure; international literature",
+   "year": 2026,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles + get_article_metadata + get_full_text_article",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Recent, balanced synthesis that defines conservative kidney management and summarises survival and hospitalisation. The authors say their table of survival studies is a non-systematic selection."
+  },
+  {
+   "key": "PMID:19828531",
+   "citation": "Kurella Tamura M, Covinsky KE, Chertow GM, Yaffe K, Landefeld CS, McCulloch CE. Functional status of elderly adults before and after initiation of dialysis. N Engl J Med. 2009;361(16):1539-47.",
+   "pmid": "19828531",
+   "pmcid": "PMC2789552",
+   "doi": "10.1056/NEJMoa0904655",
+   "public_url": "https://doi.org/10.1056/NEJMoa0904655",
+   "design": "National registry cohort (US Renal Data System linked to Minimum Data Set)",
+   "population_setting": "All 3702 US nursing home residents starting dialysis, June 1998 to October 2000",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Large and complete for its population, but it has no group who did not have dialysis, so it describes what happened after starting and does not show that dialysis caused the decline. The population is nursing home residents, and the data are from 1998 to 2000."
+  },
+  {
+   "key": "PMID:26988748",
+   "citation": "Verberne WR, Geers AB, Jellema WT, Vincent HH, van Delden JJ, Bos WJ. Comparative survival among older adults with advanced kidney disease managed conservatively versus with dialysis. Clin J Am Soc Nephrol. 2016;11(4):633-40.",
+   "pmid": "26988748",
+   "pmcid": "PMC4822664",
+   "doi": "10.2215/CJN.07510715",
+   "public_url": "https://doi.org/10.2215/CJN.07510715",
+   "design": "Retrospective single-centre cohort",
+   "population_setting": "311 patients aged 70 or over with kidney failure (107 chose conservative management, 204 renal replacement therapy), non-academic teaching hospital, Netherlands, 2004 to 2014",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Small, observational and confounded (the conservative group was 7 years older on average). A non-significant result in people aged 80 or over does not mean there was no difference."
+  },
+  {
+   "key": "PMID:39159459",
+   "citation": "Montez-Rath ME, Thomas IC, Charu V, Odden MC, Seib CD, Arya S, et al. Effect of starting dialysis versus continuing medical management on survival and home time in older adults with kidney failure: a target trial emulation study. Ann Intern Med. 2024;177(9):1233-43.",
+   "pmid": "39159459",
+   "pmcid": "PMC11995948",
+   "doi": "10.7326/M23-3028",
+   "public_url": "https://doi.org/10.7326/M23-3028",
+   "design": "Observational cohort using target trial emulation (99 monthly emulated trials; inverse probability weighting)",
+   "population_setting": "20,440 US veterans aged 65 or over (mean 77.9) with eGFR below 12 not referred for transplant, 2010 to 2018; 2% or fewer women",
+   "year": 2024,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles + get_article_metadata + get_full_text_article",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "The strongest available comparative design, since no trial exists. Unmeasured confounding is possible (symptoms were not captured). Almost all participants were men, and all were veterans. The medical-management arm was not a structured conservative care programme."
+  },
+  {
+   "key": "PMID:41363177",
+   "citation": "Yang JW, Natale P, Kim S, Kim M, Jeon MS, Yi D, et al. Conservative kidney management versus dialysis for stage 5 chronic kidney disease in older people. Cochrane Database Syst Rev. 2025;12(12):CD015151.",
+   "pmid": "41363177",
+   "pmcid": "PMC12687411",
+   "doi": "10.1002/14651858.CD015151.pub2",
+   "public_url": "https://doi.org/10.1002/14651858.CD015151.pub2",
+   "design": "Cochrane systematic review and meta-analysis (24 non-randomised studies; no RCTs)",
+   "population_setting": "26,127 people aged 65 or over with kidney failure; searches to September 2025",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Most recent systematic review. Very low certainty for every outcome because of large imbalances in prognostic factors. The crude pooled death figures must not be read as the effect of dialysis."
+  },
+  {
+   "key": "PMID:26265214",
+   "citation": "Foote C, Kotwal S, Gallagher M, Cass A, Brown M, Jardine M. Survival outcomes of supportive care versus dialysis therapies for elderly patients with end-stage kidney disease: a systematic review and meta-analysis. Nephrology (Carlton). 2016;21(3):241-53.",
+   "pmid": "26265214",
+   "pmcid": null,
+   "doi": "10.1111/nep.12586",
+   "public_url": "https://doi.org/10.1111/nep.12586",
+   "design": "Systematic review and meta-analysis of cohort studies and RCTs (89 studies)",
+   "population_setting": "294,921 elderly people with kidney failure; only 724 received supportive care",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Very few people received supportive care, and there is a risk of lead-time bias. The authors say the data do not allow a confident estimate of relative survival. Superseded by Cochrane 2025."
+  },
+  {
+   "key": "PMID:40487369",
+   "citation": "Sowden R, Shaw C, Robb J, Winterbottom A, Bristowe K, Bekker HL, et al. How do patient information documents present dialysis and conservative kidney management? A document analysis. Clin Kidney J. 2025;18(6):sfaf136.",
+   "pmid": "40487369",
+   "pmcid": "PMC12142001",
+   "doi": "10.1093/ckj/sfaf136",
+   "public_url": "https://doi.org/10.1093/ckj/sfaf136",
+   "design": "Qualitative document analysis (critical discourse analysis)",
+   "population_setting": "Patient information documents from four UK renal outpatient departments with varying rates of conservative kidney management for people aged 75 or over",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Scite search_literature record returned with no editorialNotices.",
+   "quality_note": "UK and directly relevant to the 'dialysis as default' angle. It is qualitative and covers four units, so it shows how the documents frame the choice, not how often each option is offered."
+  },
+  {
+   "key": "PMID:33664903",
+   "citation": "Nakazawa M, Suzuki T, Shiga T, Suzuki A, Hagiwara N. Deactivation of implantable cardioverter defibrillator in Japanese patients with end-stage heart failure. J Arrhythm. 2021;37(1):196-202.",
+   "pmid": "33664903",
+   "pmcid": "PMC7896444",
+   "doi": "10.1002/joa3.12465",
+   "public_url": "https://doi.org/10.1002/joa3.12465",
+   "design": "Retrospective single-centre cohort (medical record review)",
+   "population_setting": "51 people with an ICD who died of worsening heart failure, Tokyo Women's Medical University Hospital, Japan, 2010 to 2019",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "Small single-centre study; it supports the DNAR finding in Kinch Westerdahl 2014 but adds no UK data."
+  },
+  {
+   "key": "PMID:37263357",
+   "citation": "Höijer CJ, Johnson MJ. Deactivation of implantable defibrillators at the end of life - a register-based study of ICD-deactivation at home and the impact of palliative care. Int J Cardiol. 2023;386:91-4.",
+   "pmid": "37263357",
+   "pmcid": null,
+   "doi": "10.1016/j.ijcard.2023.05.046",
+   "public_url": "https://doi.org/10.1016/j.ijcard.2023.05.046",
+   "design": "National register study with clinical record review",
+   "population_setting": "All 406 people with heart failure and an ICD who died in Sweden in 2018; deactivation assessed in 164 who died outside hospital",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles + get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): PMID searched with retracted publication[pt], retraction of publication[pt] and expression of concern[pt]: no record; published erratum[pt] title search: no notice found. Not checked in Scite.",
+   "quality_note": "National but limited to heart failure and to one year. Descriptive; the link between specialist palliative care and deactivation is an association."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C07-32-a",
+   "cand_id": "C07-32",
+   "claim": "If an ICD's shock function is left on, shocks in the last hours or days of life are common. In one study that read the devices after death, about 3 in 10 people had been shocked in their last 24 hours.",
+   "source_keys": [
+    "PMID:24243857",
+    "PMID:39537430",
+    "PMID:27277710",
+    "PMID:15583224"
+   ],
+   "supporting_passage": "Kinch Westerdahl 2014, Abstract: \"We prospectively analyzed intracardiac electrograms in 125 explanted ICDs.\" ... \"Ventricular tachyarrhythmia occurred in 35% of the patients in the last hour of their lives; 24% had an arrhythmic storm, and 31% received shock treatment during the last 24 hours.\" | BHRS 2024, Abstract: \"If the ICD shock therapy is not discontinued, there is an increased risk that, as a person reaches the last days of life, the ICD may deliver multiple, painful shocks that are distressing.\" | Pitcher 2016, body text (Scite citation statement): \"One important reason (but not the only reason) for considering deactivation of ICDs and CRT-D devices is to try to spare these people from receiving multiple shocks from their device as they are dying. Such shocks are relatively common during the last few hours or days of life 9.\" | Goldstein 2004, Abstract: \"Family members reported that 8 patients received a shock from their ICD in the minutes before death.\"",
+   "location": "Kinch Westerdahl: Abstract, Methods and Results. BHRS: Abstract. Pitcher: section 'consideration of deactivation of devices during life'. Goldstein: Abstract, Results.",
+   "pico_timeframe": "Kinch Westerdahl: 125 people with an ICD who died, one Stockholm centre; device memory read after explant; outcome shocks in last 24 h and arrhythmia in last hour; no comparator. Goldstein: next of kin of 100 US ICD recipients who died; relative-reported shocks in the minutes before death.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "When someone with an implanted defibrillator (ICD) is dying, the device can keep giving shocks. A Swedish hospital read the devices of 125 people after they had died: 31 in 100 had received a shock in their last 24 hours of life. UK guidance says leaving the shocks on risks several painful shocks in the last days.",
+   "qualifications": "One Swedish centre; most devices were fitted after a previous dangerous heart rhythm (secondary prevention), a group more likely to be shocked. The US relative-report study found a lower figure (8 of 100 shocked in the minutes before death). Do not generalise 31% to everyone with an ICD. State the study and population in the same sentence as the figure.",
+   "conflicting_or_uncertain": "Figures vary by study, population and method: 31% (device read-out, Sweden) against 8% (relatives' report, US). Al Jaff 2026 notes that post-mortem device read-outs are not routine, so contemporary data are scarce.",
+   "numbers": [
+    {
+     "value": "125",
+     "meaning": "explanted ICDs from people who died, one Stockholm centre"
+    },
+    {
+     "value": "31%",
+     "meaning": "of those 125 received a shock in the last 24 hours of life"
+    },
+    {
+     "value": "35%",
+     "meaning": "had a dangerous fast heart rhythm (ventricular tachyarrhythmia) in the last hour of life"
+    },
+    {
+     "value": "8 of 100",
+     "meaning": "US next-of-kin reports of a shock in the minutes before death (Goldstein 2004)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-32-b",
+   "cand_id": "C07-32",
+   "claim": "A do-not-resuscitate decision does not switch off an ICD's shocks; in practice many people with such a decision still have the shocks active near death.",
+   "source_keys": [
+    "PMID:24243857",
+    "PMID:34099469",
+    "PMID:33664903"
+   ],
+   "supporting_passage": "Kinch Westerdahl 2014, Abstract: \"More than half of the patients (52%) had a do-not-resuscitate order, and 65% of them still had the ICD shock therapies activated 24 hours before death.\" ... \"Devices remained active in more than half of the patients with a do-not-resuscitate order; almost one fourth of these patients received at least 1 shock in the last 24 hours of life.\" | Wan & Chakrabarti 2021, full text: \"Deactivation is performed at the bedside by a qualified member of the pacemaker or arrhythmia team after discussion with the treating health care providers, and with the consent of the patient or designated decision maker.\" | Nakazawa 2020, Abstract: \"Of 39 patients with DNAR orders, 27 (69%) did not undergo deactivation.\"",
+   "location": "Kinch Westerdahl: Abstract, Results and Conclusions. Nakazawa: Abstract, Results. CMAJ: section 'Deactivation of an implantable cardioverter-defibrillator is painless, noninvasive and reversible'.",
+   "pico_timeframe": "125 deceased ICD recipients, Stockholm; 52% had a DNR order; device status 24 h before death.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A do-not-resuscitate decision does not switch the shocks off. That needs a separate conversation and a reprogramming of the device by the heart rhythm team. In the Swedish study, about 2 in 3 people who had a do-not-resuscitate order still had their shocks switched on the day before they died.",
+   "qualifications": "The mechanism (a separate reprogramming step is needed) comes from the CMAJ practice summary; the frequency comes from one Swedish centre. 'About 2 in 3' = 65% of the 52% with a DNR order. The UK DNACPR form wording itself was not opened.",
+   "conflicting_or_uncertain": "Consistent with a Japanese single-centre study of 51 people who died of heart failure with an ICD (Nakazawa 2020): 27 of 39 (69%) with a do-not-attempt-resuscitation order had not had the device deactivated. No conflicting evidence found.",
+   "numbers": [
+    {
+     "value": "52%",
+     "meaning": "of 125 deceased ICD recipients had a do-not-resuscitate order"
+    },
+    {
+     "value": "65%",
+     "meaning": "of those with a DNR order still had shock therapy active 24 hours before death"
+    },
+    {
+     "value": "almost one fourth",
+     "meaning": "of those with a DNR order and active device received at least one shock in the last 24 hours"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-32-c",
+   "cand_id": "C07-32",
+   "claim": "Conversations about switching off the shocks often happen late (in the last days) or not at all.",
+   "source_keys": [
+    "PMID:41782279",
+    "PMID:15583224",
+    "PMID:41589554",
+    "PMID:37263357"
+   ],
+   "supporting_passage": "Al Jaff 2026, Abstract: \"Records of 1606 ICD or cardiac resynchronization therapy-defibrillator (CRT-D) patients (79% male; mean age 67 ± 10 years at implantation, 73 ± 10 at death) who died between 2006 and 2022 were reviewed.\" ... \"Anticipatory tachytherapy deactivation occurred in 42% of patients. Deactivation rates increased 5.2% annually from 2006 to 2014 (P < 0.001), but plateaued from 2015 to 2022 (P = 0.403). Among deactivations, 33% occurred on the final day of life, mainly during hospitalization.\" Full text, Results: \"Of the 671 patients with anticipatory tachytherapy deactivation, 176 (26%) were deactivated more than one month before death, primarily at an outpatient clinic (= 74, 11%). In 274 patients (41%), deactivation occurred within the last month of life\" ... \"In the year 2006, the deactivation rates were 7%, while in 2022, this was 59%.\" | Goldstein 2004, Abstract: \"Next of kin reported that clinicians discussed deactivating the ICD in only 27 of the 100 cases. Most discussions occurred in the last few days of life.\" | van Lier 2026, Abstract: \"While guidelines recommend initiating discussions on ICD deactivation early, in practice these conversations often take place too late or not at all.\" | Höijer 2023, Abstract: \"86/164 (52%) ICDs were deactivated prior to death in people dying outside of hospital; higher in those accessing SPC (36/46, (78%) SPC access versus 151/360, (42%) no SPC access; p < 0.05).\"",
+   "location": "Al Jaff: Abstract; Results (Timing and location; Temporal changes). Goldstein: Abstract. van Lier: Abstract, Background.",
+   "pico_timeframe": "Al Jaff: 1606 people with ICD/CRT-D who died 2006 to 2022, Leiden, Netherlands; outcome: deactivation before death and its timing. Goldstein: next of kin of 100 US decedents with ICDs.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Dutch hospital's records of 1,606 people with an ICD who died between 2006 and 2022, the shocks had been switched off beforehand for 42 in 100. A third of those switch-offs happened on the last day of life. Doing it earlier gives time to think and talk it through.",
+   "qualifications": "Single Dutch centre; the rate rose over time (7% in 2006, 59% in 2022) and has plateaued since 2015, so the 42% is an average over 17 years. The '33%' is a share of deactivations, not of all patients (221 of 671). Goldstein (US, 2004) is older and relative-reported. 'Gives time to think' is a judgement, not a finding.",
+   "conflicting_or_uncertain": "Swedish national register data (Höijer 2023) found 52% (86 of 164) of ICDs deactivated before death among people with heart failure dying outside hospital; rates vary by country and service.",
+   "numbers": [
+    {
+     "value": "1606",
+     "meaning": "people with ICD or CRT-D who died 2006 to 2022, Leiden"
+    },
+    {
+     "value": "42%",
+     "meaning": "had shocks switched off before death (whole period)"
+    },
+    {
+     "value": "33% (221 of 671)",
+     "meaning": "of deactivations happened on the last day of life"
+    },
+    {
+     "value": "26% (176 of 671)",
+     "meaning": "of deactivations happened more than a month before death"
+    },
+    {
+     "value": "7% to 59%",
+     "meaning": "deactivation rate in 2006 vs 2022"
+    },
+    {
+     "value": "27 of 100",
+     "meaning": "US deaths where relatives reported a deactivation discussion (Goldstein 2004)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-32-d",
+   "cand_id": "C07-32",
+   "claim": "Many people with an ICD and their relatives do not know the shocks can be switched off.",
+   "source_keys": [
+    "PMID:41589554",
+    "PMID:28678000"
+   ],
+   "supporting_passage": "van Lier 2026, Abstract: \"Findings revealed significant knowledge gaps. Many patients and relatives were unaware that ICD deactivation was an option.\" | McEvedy 2018, Abstract: \"Implantable cardioverter defibrillator recipients, especially those who are older or have mild cognitive impairment, often have limited knowledge about implantable cardioverter defibrillator deactivation.\"",
+   "location": "van Lier: Abstract, Results. McEvedy: Abstract, Conclusion.",
+   "pico_timeframe": "Scoping review of 32 studies (patients, relatives, professionals); survey of 270 ICD recipients in Australia and the US.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Studies keep finding that many people with an ICD, and their families, do not know the shocks can be switched off.",
+   "qualifications": "Qualitative statement only; no pooled percentage. McEvedy: 29% had insufficient knowledge, and they were older.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "29% (77 of 270)",
+     "meaning": "ICD recipients classed as having insufficient knowledge about deactivation (McEvedy)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-32-e",
+   "cand_id": "C07-32",
+   "claim": "Switching off the shocks needs no operation, is painless and reversible, leaves pacing working, and does not in itself cause death.",
+   "source_keys": [
+    "PMID:34099469",
+    "PMID:28678000"
+   ],
+   "supporting_passage": "Wan & Chakrabarti 2021, full text: \"Deactivation of an implantable cardioverter-defibrillator is painless, noninvasive and reversible\" ... \"Deactivation does not interfere with ongoing pacing function or cause immediate death, does not immediately affect symptoms, and can be reversed if goals of care change.\" | McEvedy 2018, Introduction (Scite full-text excerpt): \"Deactivation of an ICD does not lead to immediate death but does prevent the delivery of defibrillation shocks which have the potential to resuscitate the patient if they experience a fatal heart rhythm at end of life.5,6 Planned deactivation of an ICD is a simple, non-invasive procedure that can be carried out by a technician.7 In an emergency situation, placing a strong magnet on the skin will suspend shock delivery without interfering with the device’s ability to function as a pacemaker.7\"",
+   "location": "CMAJ: headings and paragraph 3 to 4. McEvedy: Introduction (background citing UK 2016 guidance).",
+   "pico_timeframe": "Technical and practice facts about ICD deactivation (Canada; UK guidance cited by an Australian and US survey).",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Switching off the shocks needs no operation. A member of the heart rhythm or pacemaker team reprograms the device from outside the body. It is painless and can be reversed. The device's pacing (the part that stops the heart going too slowly) keeps working. It does not cause death by itself. It means that a dangerous heart rhythm near the end of life will not be shocked.",
+   "qualifications": "Say 'shock function', not 'the device'. Pacing continues. Deactivation removes a possible life-saving shock, so avoid implying it has no effect on how death happens. The magnet method is an emergency, temporary measure.",
+   "conflicting_or_uncertain": "None found. The UK guidance (Pitcher 2016; BHRS 2024) says the same, but its practical sections were not readable here.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-32-f",
+   "cand_id": "C07-32",
+   "claim": "UK guidance says people with an ICD should have the chance to discuss switching off the shocks, and the possibility should usually be explained before the device is fitted.",
+   "source_keys": [
+    "PMID:39537430",
+    "PMID:27277710"
+   ],
+   "supporting_passage": "BHRS 2024, Abstract: \"Therefore, to ensure the person receives high-quality end-of-life care, they should have the opportunity to consider and discuss the option to deactivate the shock function of their ICD.\" ... \"There is also a risk that the device may delay the person's natural death, which the person would not have chosen if they had been given the opportunity to discuss discontinuation.\" | Pitcher 2016, body text (Scite citation statement): \"The possibility of a later need to deactivate an ICD and the reasons for doing so should usually be explained as part of informed consent prior to implantation in anyone considering an ICD or CRT-D device 29 30.\"",
+   "location": "BHRS: Abstract. Pitcher: section 'legal and ethical considerations regarding device deactivation'.",
+   "pico_timeframe": "UK professional guidance for all clinicians caring for people with ICDs.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK heart rhythm guidance (2024) says people with an ICD should have the chance to talk about switching off the shock function towards the end of life. Earlier UK guidance (2016) says this should usually be explained before the device is fitted.",
+   "qualifications": "The candidate's 2013 BHF document has been superseded by the British Heart Rhythm Society consensus guideline (Age and Ageing, 2024); cite that. Keep the tone to planning ('when the time is right'), not expectation of death.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-32-g",
+   "cand_id": "C07-32",
+   "claim": "The people to ask are the team who look after the device (cardiology, heart failure or device/pacemaker clinic).",
+   "source_keys": [
+    "PMID:34099469",
+    "PMID:39537430"
+   ],
+   "supporting_passage": "Wan & Chakrabarti 2021, full text: \"Deactivation is performed at the bedside by a qualified member of the pacemaker or arrhythmia team after discussion with the treating health care providers, and with the consent of the patient or designated decision maker.\" | BHRS 2024, Abstract: \"Frequently, they will be cared for by non-cardiac teams who may be less familiar with ICDs.\"",
+   "location": "CMAJ: paragraph under 'painless, noninvasive and reversible'. BHRS: Abstract.",
+   "pico_timeframe": "Practice description (Canada); UK guidance audience.",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "You can raise this yourself with the cardiology, heart failure or device clinic team. GPs and hospital teams who are not heart specialists can also start the conversation and involve the device team.",
+   "qualifications": "The CMAJ describes Canadian practice. UK service arrangements (who physically reprograms, and home visits) were not verified in an opened UK document. Keep this generic.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-27-a",
+   "cand_id": "C07-27",
+   "claim": "UK guidance is clear that a DNACPR decision applies only to CPR, not to other treatment or care.",
+   "source_keys": [
+    "PMID:27077163"
+   ],
+   "supporting_passage": "Perkins 2016, body text (Scite citation statement), section 'treatment and care': \"An English study 40 found that doctors believed that a DNACPR order referred to reduced care (e.g. reduced out-of-hours medical escalation, contacting the outreach team, frequency of nursing observations, reduced pain relief and altered fluid intake), despite clear guidelines that DNACPR orders applied only to CPR.\"",
+   "location": "NIHR evidence synthesis, Results of literature review, 'Treatment and care'.",
+   "pico_timeframe": "UK national guidance as reported by an NIHR-funded evidence synthesis of NHS DNACPR practice.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In UK guidance, a DNACPR decision is about CPR only. Every other treatment and all care should still be offered on its merits.",
+   "qualifications": "The joint BMA, Resuscitation Council UK and RCN guidance was not opened in this project (web pages blocked; not in Drive). This wording rests on the NIHR synthesis's description ('clear guidelines that DNACPR orders applied only to CPR'). In the source_reply, cite the NIHR report (doi.org/10.3310/hsdr04110), not the BMA guidance. 'Offered on its merits' is the post's phrasing of the principle, not a quotation.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-27-b",
+   "cand_id": "C07-27",
+   "claim": "In practice, DNACPR decisions are often read as a signal to do less of everything else.",
+   "source_keys": [
+    "PMID:27077163",
+    "PMID:25393809"
+   ],
+   "supporting_passage": "Perkins 2016, Abstract: \"A key theme across all focus groups, and reinforced by the literature review, was the negative impact on overall patient care of having a DNACPR decision and the conflation of ‘do not resuscitate’ with ‘do not provide active treatment’.\" | Body text: \"Other examples of the misinterpretation of care for patients with DNACPR orders included where some doctors and nurses believed that nursing observations would be reduced 63,97 or remain unchanged, 100 that contact with outreach teams and other medical staff and out-of-hours medical escalation would be less frequent\" ... \"It was also suggested that pain relief and amounts of fluids would be altered 97 and one Finnish study 63 noted that basic care was reduced for patients with a DNACPR order.\" | Fritz & Fuld 2015, Abstract: \"Problems exist with Do Not Attempt Cardiopulmonary Resuscitation (DNACPR) orders: they are often misinterpreted by clinicians to mean that other treatments should be withheld\"",
+   "location": "Perkins: Abstract (Results) and body section 'treatment and care'. Fritz & Fuld: Abstract, Rationale.",
+   "pico_timeframe": "NHS clinicians and patients; systematic review plus focus groups, England; 2016.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A national review of NHS practice found that a DNACPR decision was often treated as if it meant 'do not provide active treatment'. Staff in some studies expected fewer checks, fewer calls for senior help, and changes to pain relief and fluids.",
+   "qualifications": "Synthesis of mixed-quality studies and focus-group views; the findings do not give a single rate. Do not state how often this happens as a number.",
+   "conflicting_or_uncertain": "None found; the UK scenario study (Moffat 2016) and UFTO evaluation (Fritz 2013) point the same way.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-27-c",
+   "cand_id": "C07-27",
+   "claim": "In a US scenario survey, doctors given the same patient with a do-not-resuscitate order were less willing to offer other treatments.",
+   "source_keys": [
+    "PMID:12473020"
+   ],
+   "supporting_passage": "Beach & Morrison 2002, Abstract: \"The effect of do-not-resuscitate (DNR) orders on physicians' decisions to provide life-prolonging treatments other than cardiopulmonary resuscitation (CPR) for patients near the end of life was explored using a cross-sectional mailed survey. Each survey presented three patient scenarios followed by 10 treatment decisions. Participants were residents and attending physicians who were randomly assigned surveys in which all patient scenarios included or did not include a DNR order.\" ... \"In some scenarios, the presence of a DNR order was associated with a decreased willingness to draw blood cultures (91% vs 98%, P =.038), central line placement (68% vs 80%, P =.030), or blood transfusion (75% vs 87%, P =.015).\"",
+   "location": "Abstract, Methods and Results.",
+   "pico_timeframe": "241 US physicians; randomised written scenarios with vs without a DNR order; outcome: stated willingness to order 10 treatments; 2002.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US survey, 241 doctors were randomly given the same written patient scenarios, with or without a do-not-resuscitate order. With the order, fewer said they would give a blood transfusion (75 in 100 versus 87 in 100 in one scenario) or send blood tests for infection (91 versus 98 in 100).",
+   "qualifications": "Scenario survey of what doctors said they would do, not observed orders (the judge's point). US, 2002, 52% response. Some differences appeared only in some scenarios.",
+   "conflicting_or_uncertain": "Consistent with the UK nurse scenario study (Moffat 2016).",
+   "numbers": [
+    {
+     "value": "241 of 463",
+     "meaning": "physicians who responded (52%)"
+    },
+    {
+     "value": "75% vs 87%",
+     "meaning": "willing to give blood transfusion, with vs without DNR order, in some scenarios"
+    },
+    {
+     "value": "91% vs 98%",
+     "meaning": "willing to draw blood cultures, with vs without DNR order, in some scenarios"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-27-d",
+   "cand_id": "C07-27",
+   "claim": "In a UK scenario study, nurses given a DNACPR form planned less monitoring and escalation for a deteriorating patient; a form that placed the CPR decision inside a wider treatment plan removed the difference; comfort care was unchanged.",
+   "source_keys": [
+    "PMID:27237130"
+   ],
+   "supporting_passage": "Moffat 2016, Abstract: \"An online survey with a developing case scenario across three timeframes was used on 231 nurses from 10 National Health Service Trusts. Nurses were randomised into three groups: DNACPR, the UFTO and no-form.\" ... \"Nurses in the DNACPR group agreed or strongly agreed to initiate fewer intense nursing interventions than the UFTO and no-form groups (P < 0.001) overall and across subcategories of Increase Monitoring, Escalate Concern and Initiate Treatments (all P < 0.001). There was no difference between the UFTO and no-form groups overall (P = 0.795) or in the subcategories. No difference in Comfort Measures were observed (P = 0.201) between the three groups.\"",
+   "location": "Abstract, Methods and Results.",
+   "pico_timeframe": "231 nurses, 10 NHS trusts; randomised to DNACPR form, UFTO (whole-treatment-plan form) or no form; stated intentions in a deteriorating-patient scenario.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a UK study, 231 nurses were randomly given the same deteriorating patient with a DNACPR form, with a form that set the CPR decision inside a wider treatment plan, or with no form. The DNACPR group planned fewer checks, fewer calls for help and fewer treatments. The wider-plan group planned the same care as the no-form group.",
+   "qualifications": "Scenario study of intentions, not real care; the UFTO was developed by one of the authors.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "231",
+     "meaning": "nurses from 10 NHS trusts, randomised to three groups"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-27-e",
+   "cand_id": "C07-27",
+   "claim": "Writing the CPR decision within a whole treatment plan was followed by fewer harms in one English hospital.",
+   "source_keys": [
+    "PMID:24023718",
+    "PMID:27077163"
+   ],
+   "supporting_passage": "Fritz 2013, Abstract: \"A mixed-methods before-and-after study with contemporaneous case controls was conducted in an acute hospital.\" ... \"Rate difference per 1000 patient-days was 12.9 (95% CI: 2.6-23.2, p-value=0.01). There was a difference in the proportion of harms contributing to patient death in the two periods (23/71 in the DNACPR period to 4/44 in the UFTO period (95% CI 7.8-36.1, p-value=0.006). Significant differences were maintained after adjustment for known confounders. No significant change was seen on contemporaneous case control wards.\" | Perkins 2016, Abstract: \"Linking DNACPR to overall treatment plans improved clarity about goals of care, aided communication and reduced harms.\"",
+   "location": "Fritz: Abstract. Perkins: Abstract, Results.",
+   "pico_timeframe": "One acute hospital, Cambridge; patients with a decision not to attempt CPR; stand-alone DNACPR form (103 patients) vs one-page whole-treatment-plan form (118 decisions); harms by Global Trigger Tool.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one English hospital, replacing the stand-alone DNACPR form with a one-page plan that recorded the whole treatment plan was followed by fewer harmful events in patients not for CPR. A national review concluded that linking DNACPR to the overall treatment plan improved clarity and reduced harms.",
+   "qualifications": "Before-and-after study in one hospital, run by the form's developers: an association, not trial proof. Do not convert the rate difference into 'X times fewer'.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "12.9 per 1000 patient-days",
+     "meaning": "reduction in harm rate after the whole-plan form (95% CI 2.6 to 23.2)"
+    },
+    {
+     "value": "23 of 71 vs 4 of 44",
+     "meaning": "harms judged to contribute to death, DNACPR period vs UFTO period"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-27-f",
+   "cand_id": "C07-27",
+   "claim": "ReSPECT records the CPR recommendation within a broader emergency care and treatment plan, and most forms include other treatment recommendations.",
+   "source_keys": [
+    "PMID:31945422",
+    "PMID:35779800",
+    "PMID:39487818"
+   ],
+   "supporting_passage": "Hawkes 2020, Abstract: \"ReSPECT is a process which encourages shared understanding of a patient's condition and what outcomes they value and fear, before recording clinical recommendations about cardiopulmonary-resuscitation (CPR) within a broader plan for emergency care and treatment.\" | Hawkes 2022, Abstract: \"Most (653/706 (92%)) included a 'not for attempted resuscitation' recommendation 551/706 (78%) had at least one other treatment recommendation.\" ... \"Whilst recommendations include other emergencies most still tend to focus on recommendations relating to CPR.\" | Slowther 2024, Abstract: \"The ReSPECT form evaluation showed 87% (122/141) recorded free-text treatment recommendations other than cardiopulmonary resuscitation.\"",
+   "location": "Abstracts.",
+   "pico_timeframe": "ReSPECT (UK); forms from six English hospital trusts (706) and English primary care and care homes (141).",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "The ReSPECT form used across much of the UK records the CPR recommendation inside a wider plan for emergency care and treatment. In English hospitals, about 8 in 10 forms also recorded another treatment recommendation, but most still focused on CPR.",
+   "qualifications": "The form structure is from the developers' description, and the percentages come from early implementation studies. Scotland and other areas may use different forms; say 'much of the UK' or 'ReSPECT, used in many areas'.",
+   "conflicting_or_uncertain": "Hawkes 2022 notes that the forms still focus mainly on CPR, which fits the post's point that the 'what continues' part is often thin.",
+   "numbers": [
+    {
+     "value": "551 of 706 (78%)",
+     "meaning": "hospital ReSPECT forms with at least one non-CPR treatment recommendation"
+    },
+    {
+     "value": "122 of 141 (87%)",
+     "meaning": "primary care/care home ReSPECT forms with free-text treatment recommendations other than CPR"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-27-g",
+   "cand_id": "C07-27",
+   "claim": "CQC found in 2021 that some DNACPR decisions during the pandemic were made or applied inappropriately.",
+   "source_keys": [],
+   "supporting_passage": "Not found: the CQC 2021 report 'Protect, respect, connect' was not in Drive, is not indexed in PubMed, and gov.uk/cqc.org.uk pages could not be opened.",
+   "location": "n/a",
+   "pico_timeframe": "n/a",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Leave out.",
+   "qualifications": "Not needed for the argument; claims a to f carry it.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-26-a",
+   "cand_id": "C07-26",
+   "claim": "A time-limited trial is an agreed plan to use a treatment for a defined period, after which the person's response decides whether to continue, stop and focus on comfort, or extend.",
+   "source_keys": [
+    "PMID:38063572",
+    "PMID:30136140"
+   ],
+   "supporting_passage": "ATS 2024, Key Conclusions: \"The time-limited trial in critical care is operationally defined as a collaborative plan among clinicians and a patient and/or their surrogate decision maker(s) to use life-sustaining therapy for a defined duration, after which the patient’s response to therapy informs the decision to continue care directed toward recovery, transition to care focused exclusively on comfort, or extend the trial’s duration.\" | Vink 2018, Abstract: \"A TLT is an agreement to initiate all necessary treatments or treatments with clearly delineated limitations for a certain period of time to gain a more realistic understanding of the patient's chances of a meaningful recovery or to ascertain the patient's wishes and values.\"",
+   "location": "ATS: Overview, Key Conclusions; Section 1. Vink: Abstract.",
+   "pico_timeframe": "Critical care; consensus definition (Delphi with 100 stakeholders).",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "A time-limited trial is an agreed plan to give a treatment for a set time. At the end, how the person has responded guides the next step: carry on, stop and focus on comfort, or extend the trial.",
+   "qualifications": "The consensus definition is written for life-sustaining treatment in critical care. Applying it to other decisions in older people is reasonable but is extrapolation; the report notes the approach is also promoted in nephrology, neurology and surgery. Quill & Holloway 2011 (JAMA) has no abstract and was not opened; cite ATS 2024 instead.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-26-b",
+   "cand_id": "C07-26",
+   "claim": "The plan should state the treatment, how long it will run, the clinical signs that will show improvement or deterioration, and what will happen at review; it is proposed to and agreed with the person or family.",
+   "source_keys": [
+    "PMID:38063572"
+   ],
+   "supporting_passage": "ATS 2024, Introduction: \"This approach has been described as an attempt or “trial” of life-sustaining therapy, with specific, agreed-on guidelines designed to help clinicians, patients, and surrogates evaluate whether the therapy is providing benefit to the patient. These guidelines typically include a boundary on how long the trial lasts and clinical criteria that help determine the patient’s response to the therapy. After the trial is over, patients (if able), surrogates, and clinicians use these criteria to consider whether to continue life-sustaining therapies or, instead, focus exclusively on comfort ().\" | Section 1: \"Our committee concluded that the time-limited trial approach is distinct from current “usual care” for patients with critical illness, largely because of strong consensus that the trial is explicitly proposed to the patient and/or surrogate(s) who can then endorse the structured plan.\" | Section 2: \"we measured participants’ views on these respective roles for three major elements of a time-limited trial:) the clinical criteria of improvement and deterioration,) the duration, and) the acceptable degree of recovery or the clinical outcome after the time-limited trial.\" | Key Conclusions: \"A time-limited trial is composed of 16 essential elements that follow four sequential phases: consider, plan, support, and reassess.\"",
+   "location": "ATS 2024 full text: Introduction; Section 1; Section 2; Key Conclusions.",
+   "pico_timeframe": "Critical care consensus, US-led, 2024.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Expert consensus describes what separates a time-limited trial from 'let's see how it goes'. The plan is offered to the person or family, who can agree to it. It names the treatment, how long it will run, the signs that would show it is working or not, and what happens at the review.",
+   "qualifications": "The four-item list simplifies the ATS consensus, which has 16 elements in four phases (consider, plan, support, reassess). Present the four as core items, not the full standard. The consensus is flexible: trials can be extended and should not be binding.",
+   "conflicting_or_uncertain": "The ATS report says there is little evidence on how best to conduct trials. Kruser 2024 found them often carried out incompletely in practice.",
+   "numbers": [
+    {
+     "value": "16",
+     "meaning": "essential elements in the ATS consensus, across 4 phases"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-26-c",
+   "cand_id": "C07-26",
+   "claim": "In a US ICU quality-improvement study, training clinicians to use time-limited trials was associated with better family meetings, shorter ICU stays and fewer invasive procedures, without a change in hospital mortality.",
+   "source_keys": [
+    "PMID:33843946",
+    "PMID:38063572"
+   ],
+   "supporting_passage": "Chang 2021, Abstract: \"This prospective quality improvement study was conducted from June 1, 2017, to December 31, 2019, at the medical ICUs of 3 academic public hospitals in California.\" ... \"A total of 209 patients were included (mean [SD] age, 63.6 [16.3] years\" ... \"identifying clinical markers of improvement (9 [20.9%] vs 52 [88.1%]; P < .01), were discussed more frequently after intervention. Median ICU length of stay was significantly reduced between preintervention and postintervention periods (8.7 [interquartile range (IQR), 5.7-18.3] days vs 7.4 [IQR, 5.2-11.5] days; P = .02). Hospital mortality was similar between the preintervention and postintervention periods (66 of 113 [58.4%] vs 56 of 96 [58.3%], respectively; P = .99). Invasive ICU procedures were used less frequently in the postintervention period (eg, mechanical ventilation preintervention, 97 [85.8%] vs postintervention, 70 [72.9%]; P = .02).\" | ATS 2024, Section 4: \"To our knowledge, the time-limited trial approach has been tested in only one pre-post study of a quality improvement program focused on implementation. In that study, surrogates experienced earlier and more frequent family meetings, though there was no change in their satisfaction with medical care or amount of decision making conflict ().\"",
+   "location": "Chang: Abstract. ATS: Section 4 (Potential challenges).",
+   "pico_timeframe": "209 critically ill adults with advanced medical illness (mean age 63.6), 3 California public-hospital ICUs; before (113) vs after (96) clinician training; ICU length of stay, procedures, hospital mortality; 2017 to 2019.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one US study in three intensive care units, before-and-after training doctors to use time-limited trials: family meetings named the signs of improvement far more often (about 1 in 5 meetings before, almost 9 in 10 after). Median intensive care stay fell from 8.7 to 7.4 days, and fewer people were put on a ventilator (86 in 100 before, 73 in 100 after). Hospital deaths did not change (58 in 100 in both periods).",
+   "qualifications": "Before-and-after quality-improvement study, not randomised; not specific to older people (mean age 64). Label it as 'a US intensive care before-and-after study' in the caption. According to ATS 2024, family satisfaction and decisional conflict did not change. The claim that trials protect against both premature withdrawal and open-ended treatment is the rationale (C07-26-e), not a measured result.",
+   "conflicting_or_uncertain": "Only one interventional study exists (ATS 2024), so the effect may not hold elsewhere.",
+   "numbers": [
+    {
+     "value": "209",
+     "meaning": "patients (113 before, 96 after)"
+    },
+    {
+     "value": "20.9% vs 88.1%",
+     "meaning": "family meetings that identified clinical markers of improvement, before vs after"
+    },
+    {
+     "value": "8.7 vs 7.4 days",
+     "meaning": "median ICU length of stay, before vs after"
+    },
+    {
+     "value": "85.8% vs 72.9%",
+     "meaning": "mechanical ventilation, before vs after"
+    },
+    {
+     "value": "58.4% vs 58.3%",
+     "meaning": "hospital mortality, before vs after"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-26-d",
+   "cand_id": "C07-26",
+   "claim": "Time-limited trials are often carried out incompletely and are rarely documented.",
+   "source_keys": [
+    "PMID:38101511",
+    "PMID:40252856"
+   ],
+   "supporting_passage": "Kruser 2024 (Chest), Abstract: \"When time-limited trials are used, they are often implemented incompletely and challenged by systematic barriers (eg, continually rotating ICU staff).\" ... \"some older adults appear to favor time-limited trial strategies over indefinite life-sustaining therapy or care immediately focused on comfort.\" | Piscitello 2025, Abstract: \"Of 5475 GOC-template notes, we found reference to a TLT in 1% (n = 69/5475).\"",
+   "location": "Abstracts.",
+   "pico_timeframe": "Kruser: review of 18 empirical studies (ICU). Piscitello: goals-of-care notes for seriously ill adults, 21 US hospitals, 2021 to 2023.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Reviews find that when time-limited trials are used, parts of the plan are often missing. In one US health system, only about 1 in 100 goals-of-care notes recorded a time-limited trial. Some older adults say they would prefer this approach to open-ended treatment or an immediate switch to comfort care.",
+   "qualifications": "US data. Low documentation may partly reflect under-recording rather than non-use. Kruser's finding on older adults' preferences is phrased 'appear to'; keep that tentativeness.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "69 of 5475 (1%)",
+     "meaning": "goals-of-care notes that referred to a time-limited trial, 21 US hospitals"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-26-e",
+   "cand_id": "C07-26",
+   "claim": "The purpose of a time-limited trial is to avoid both open-ended treatment without benefit and giving up too early.",
+   "source_keys": [
+    "PMID:38063572"
+   ],
+   "supporting_passage": "ATS 2024, Key Conclusions: \"This specific approach to patient care aims to uphold a set of goals held by many patients: to extend life when possible and to avoid prolonged life-sustaining therapy if the chance of survival is low or the impact on quality of life is unacceptable.\" | Introduction: \"In critical care, the time-limited trial approach aims to provide greater nuance to a clinical decision that is often oversimplified as a dichotomous choice between either open-ended life-sustaining therapy or an immediate transition to comfort-focused, end-of-life care.\" | Table 3: \"Trials of high-quality, standard-of-care therapies\" (should be) vs \"Lower quality care\" (should not be).",
+   "location": "ATS 2024: Key Conclusions; Introduction; Table 3.",
+   "pico_timeframe": "Consensus rationale; not an outcome measure.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The aim is a middle path between open-ended treatment and stopping at once: give the treatment a fair chance, with full-quality care, and agree in advance how you will judge it.",
+   "qualifications": "This is the stated aim of the approach, from expert consensus, not a measured effect; mark it as the rationale. The ATS report also warns that poorly carried out trials may cause harm or conflict.",
+   "conflicting_or_uncertain": "ATS 2024: 'there is a small evidence base for efficacy'.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-09-a",
+   "cand_id": "C07-09",
+   "claim": "The Serious Illness Conversation Guide begins by asking what the person understands about their illness and how they want information and decisions handled, before sharing prognosis and then exploring goals, fears, trade-offs and family involvement.",
+   "source_keys": [
+    "PMID:35144938",
+    "PMID:26443662",
+    "PMID:41690715"
+   ],
+   "supporting_passage": "Bloom 2022, Results (Scite full-text excerpt): \"The guide recommends to: elicit illness understanding, elicit decision-making preferences, share prognostic information according to preference, understand goals and fears, explore views on trade-offs and impaired function, and understand desire for family involvement (table 1).33\" | Bloom 2022: \"There are three core components that each framework includes: assessing patients’ illness understanding and preferences, communicating prognosis and responding to emotion.\" | Bernacki 2015, Abstract: \"The Serious Illness Care Program is a multicomponent, structured communication intervention designed to identify patients, train clinicians to use a structured guide for advanced care planning discussion with patients, 'trigger' clinicians to have conversations, prepare patients and families for the conversation, and document outcomes of the discussion in a structured format in the electronic medical record.\" | Paladino 2026, Abstract: \"Major revisions were made to specific Guide sections, including the introduction, prognosis, illness understanding, and critical abilities. Other additions included a question to align around patient hopes and a prompt for clinicians to respond to emotion.\"",
+   "location": "Bloom: Results (description of SICG, citing Bernacki 2015). Bernacki 2015: Abstract. Paladino 2026: Abstract, Results.",
+   "pico_timeframe": "Published descriptions of the Ariadne Labs Serious Illness Conversation Guide (oncology origin); 2026 revision.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "One widely used, tested conversation guide takes a set order. First, ask what the person understands about their illness, and how much they want to know and to be involved. Then share what is likely to happen, at the level they asked for. Only then explore their goals, worries, what they would and would not trade for more time, and who they want involved.",
+   "qualifications": "Paraphrase; do not reproduce the guide's copyrighted wording. The guide was revised in 2025 to 2026 (a question on hopes added and the understanding section reworded), so describe the sequence, not the exact questions. The claim that asking first 'shows where to begin' and 'brings misunderstandings out early' is the design rationale and teaching judgement, not a tested finding.",
+   "conflicting_or_uncertain": "None on the sequence itself.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-09-b",
+   "cand_id": "C07-09",
+   "claim": "In a cluster randomised trial in US outpatient oncology, the Serious Illness Care Program did not improve its main outcomes (goal-concordant care, peacefulness at the end of life); it reduced moderate to severe anxiety and depression symptoms (secondary outcomes).",
+   "source_keys": [
+    "PMID:30870563"
+   ],
+   "supporting_passage": "Bernacki 2019, Abstract: \"A cluster randomized clinical trial of the Serious Illness Care Program in an outpatient oncology setting was conducted. Patients with advanced cancer (n = 278) and oncology clinicians (n = 91) participated between September 1, 2012, and June 30, 2016.\" ... \"The coprimary outcomes were evaluated in 64 patients; no significant differences were found between the intervention and control groups. However, the trial demonstrated significant reductions in the proportion of patients with moderate to severe anxiety (10.2% vs 5.0%; P = .05) and depression symptoms (20.8% vs 10.6%; P = .04) in the intervention group at 14 weeks after baseline. Anxiety reduction was sustained at 24 weeks (10.4% vs 4.2%; P = .02), but depression reduction was not sustained (17.8% vs 12.5%; P = .31). Survival and therapeutic alliance did not differ between groups.\" ... \"The results of this cluster randomized clinical trial were null with respect to the coprimary outcomes of goal-concordant care and peacefulness at the end of life. Methodologic challenges for the primary outcomes, including measure selection and sample size, limit the conclusions that can be drawn from the study.\" ... \"of 39 who received a reminder, 34 (87.2%) completed at least 1 conversation (median duration, 19 minutes; range, 5-70).\"",
+   "location": "Abstract (Design, Results, Conclusions).",
+   "pico_timeframe": "278 adults with advanced cancer and 91 clinicians, Dana-Farber outpatient oncology, Boston; programme (training, guide, reminders) vs usual care; co-primary: goal-concordant care, peacefulness (64 evaluable); secondary: anxiety, depression at 14 and 24 weeks; 2012 to 2016.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a US trial in cancer clinics (278 patients), the programme built around this guide did not show a clear difference in its two main aims: care matching people's goals, and peace at the end of life. It did lower the share of people with moderate to severe anxiety (10 in 100 to 5 in 100 at 14 weeks) and depression symptoms (21 to 11 in 100); these were secondary measures. A typical conversation took about 19 minutes.",
+   "qualifications": "Main outcomes were measured in only 64 people. The anxiety and depression results are secondary outcomes, and the depression effect was not sustained at 24 weeks. The population was cancer outpatients, not specifically older people. Say 'did not show a clear difference', not 'no effect'.",
+   "conflicting_or_uncertain": "Cochrane 2022 rates the evidence on end-of-life communication interventions as low certainty and inconclusive for practice.",
+   "numbers": [
+    {
+     "value": "278",
+     "meaning": "patients with advanced cancer (134 intervention, 144 control)"
+    },
+    {
+     "value": "64",
+     "meaning": "patients evaluable for the co-primary outcomes"
+    },
+    {
+     "value": "10.2% vs 5.0%",
+     "meaning": "moderate to severe anxiety, control vs intervention, 14 weeks"
+    },
+    {
+     "value": "20.8% vs 10.6%",
+     "meaning": "moderate to severe depression symptoms, control vs intervention, 14 weeks"
+    },
+    {
+     "value": "17.8% vs 12.5% (P = .31)",
+     "meaning": "depression at 24 weeks: difference not sustained"
+    },
+    {
+     "value": "19 minutes",
+     "meaning": "median conversation duration (range 5 to 70)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-09-c",
+   "cand_id": "C07-09",
+   "claim": "The same trial led to more, earlier and better-documented serious illness conversations.",
+   "source_keys": [
+    "PMID:30870556"
+   ],
+   "supporting_passage": "Paladino 2019, Abstract: \"Medical record review after patients' death demonstrated that a significantly higher proportion of intervention patients had a documented discussion compared with controls (96% vs 79%, P = .005) and intervention conversations occurred a median of 2.4 months earlier (median, 143 days vs 71 days, P < .001). Conversation documentation for intervention patients was significantly more comprehensive and patient centered, with a greater focus on values or goals (89% vs 44%, P < .001), prognosis or illness understanding (91% vs 48%, P < .001), and life-sustaining treatment preferences (63% vs 32%, P = .004).\"",
+   "location": "Abstract, Results.",
+   "pico_timeframe": "161 patients who died during the trial (mean age 62.3); medical record review of documented conversations.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the same trial, among people who died, those in the programme were more likely to have a recorded conversation (96 in 100 v 79 in 100), and it came about 2.4 months earlier before death. The notes more often recorded the person's understanding of their illness and prognosis (91 v 48 in 100).",
+   "qualifications": "The outcomes are what was documented, not what patients experienced. The data come from people who died during the study.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "96% vs 79%",
+     "meaning": "decedents with a documented serious illness conversation, intervention vs control"
+    },
+    {
+     "value": "143 vs 71 days",
+     "meaning": "median time before death of first conversation, intervention vs control"
+    },
+    {
+     "value": "91% vs 48%",
+     "meaning": "documentation covering prognosis or illness understanding"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-09-d",
+   "cand_id": "C07-09",
+   "claim": "Across end-of-life communication interventions, the evidence is low certainty; a structured serious illness conversation guide may lead to earlier discussions.",
+   "source_keys": [
+    "PMID:35802350"
+   ],
+   "supporting_passage": "Ryan 2022 (Cochrane), Abstract: \"use of a structured serious illness conversation guide may lead to earlier discussions of EoL and EoL care (each assessed by one study).\" ... \"Findings of this review are inconclusive for practice.\"",
+   "location": "Abstract, Main results and Authors' conclusions.",
+   "pico_timeframe": "8 randomised trials of interpersonal communication interventions near the end of life; any setting.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Cochrane review found the evidence for end-of-life communication methods weak overall. A structured guide may bring these conversations earlier.",
+   "qualifications": "Low-certainty evidence; one study behind the 'earlier' finding.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-09-e",
+   "cand_id": "C07-09",
+   "claim": "Asking about understanding first makes the rest of the conversation shorter.",
+   "source_keys": [],
+   "supporting_passage": "Not found: no opened source measured conversation length by opening order. Bernacki 2019 reports only the median duration of guided conversations (19 minutes).",
+   "location": "n/a",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Leave out 'shorter'. The post may say, as teaching judgement, that the answer shows where to start and what to correct.",
+   "qualifications": "Mark any benefit of the order as the guide's design and the author's clinical judgement.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-24-a",
+   "cand_id": "C07-24",
+   "claim": "NICE NG107 says people likely to need kidney replacement therapy should be offered a choice of dialysis/transplant or conservative management, decided jointly with them.",
+   "source_keys": [
+    "PMID:34416872",
+    "URL:https://www.nice.org.uk/guidance/ng107"
+   ],
+   "supporting_passage": "Kharbanda 2021 (reproducing NG107 recommendations; Scite full-text excerpts): \"1.3 (A) Choosing modalities of renal replacement therapy or conservative management 1.3.1 Offer a choice of RRT or conservative management to people who are likely to need RRT 1.3.2 Ensure that decisions about RRT modalities or conservative management are made jointly with the person (or with their family members or carers for children or adults\" | \"Preparing for renal replacement therapy or conservative management 1.2.1 Start assessment for renal replacement therapy (RRT) or conservative management 1 year before therapy is likely to be needed, including for those with a failing transplant 1.2.2 Involve the person and their family members or carers (as appropriate) in shared decision-making over the course of assessment\"",
+   "location": "Kharbanda 2021, main text (NG107 recommendations 1.2.1, 1.2.2, 1.3.1, 1.3.2 quoted).",
+   "pico_timeframe": "NICE NG107 (2018, updated 2021), England; adults and children with CKD stages 4 to 5.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE guidance for England says that people whose kidneys are likely to fail should be offered a choice: dialysis (or a transplant), or conservative kidney care without dialysis. The decision should be made with them, and planning should start about a year ahead.",
+   "qualifications": "NG107 is an England guideline (NICE). The NICE page was not opened; the wording comes from the Renal Association commentary, which quotes it word for word. Do not attribute it to Scottish guidance.",
+   "conflicting_or_uncertain": "The Renal Association commentary notes wide UK variation in how often conservative management is taken up, and the absence of randomised comparisons.",
+   "numbers": [
+    {
+     "value": "1 year",
+     "meaning": "NG107: start assessment for RRT or conservative management 1 year before therapy likely to be needed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-24-b",
+   "cand_id": "C07-24",
+   "claim": "Conservative kidney management is active care: it manages symptoms, protects remaining kidney function, and includes planning ahead, without dialysis.",
+   "source_keys": [
+    "PMID:42459744",
+    "PMID:34416872"
+   ],
+   "supporting_passage": "Bergen 2026, full text: \"(CKM) is defined as care for people with kidney failure that focuses primarily on trying to optimize quality of life by proactively managing symptoms and preserving residual kidney function, without incorporating kidney failure replacement therapy [].\" ... [Kidney supportive care] \"is a holistic and palliative care approach that includes symptom management, spiritual care, and advance care planning to optimize the HR-QoL of people living with kidney failure, irrespective of the treatment pathway chosen [].\" | Kharbanda 2021 (NG107 quoted): \"1.7.1 Offer a full dietary assessment by a specialist renal dietitian to people starting dialysis or conservative management.\"",
+   "location": "Bergen: section 'Conservative Kidney Management within Kidney Supportive Care'. Kharbanda: NG107 1.7.1.",
+   "pico_timeframe": "Definition from a 2026 narrative review; NICE recommendation on dietetic assessment.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Conservative kidney care is planned, active care without dialysis. The kidney team treats symptoms, tries to protect the kidney function that is left, and helps with planning ahead. NICE says people choosing it should be offered a full assessment by a kidney dietitian, the same as people starting dialysis.",
+   "qualifications": "Services vary between units. Do not list specific medicines or visit frequencies.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-24-c",
+   "cand_id": "C07-24",
+   "claim": "Among US nursing home residents who started dialysis, 58% had died and only 13% had kept their previous level of function at 12 months.",
+   "source_keys": [
+    "PMID:19828531"
+   ],
+   "supporting_passage": "Kurella Tamura 2009, Abstract: \"we identified all 3702 nursing home residents in the United States who were starting treatment with dialysis between June 1998 and October 2000\" ... \"Three months after the initiation of dialysis, functional status had been maintained in 39% of nursing home residents, but by 12 months after the initiation of dialysis, 58% had died and predialysis functional status had been maintained in only 13%.\" ... \"Among nursing home residents with ESRD, the initiation of dialysis is associated with a substantial and sustained decline in functional status.\"",
+   "location": "Abstract, Methods, Results and Conclusions.",
+   "pico_timeframe": "All 3702 US nursing home residents starting dialysis, 1998 to 2000; function measured on the MDS-ADL scale before and after; no non-dialysis comparison group; 12 months.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of all 3,702 nursing home residents who started dialysis between 1998 and 2000, a year later 58 in 100 had died. Only 13 in 100 were alive and as able to look after themselves as before dialysis.",
+   "qualifications": "State the population (US nursing home residents) in the same sentence as the numbers (the judge's point). There was no group without dialysis, so this does not show dialysis caused the decline or that conservative care would have done better. Data are over 25 years old. Use 'is linked with', never 'causes'.",
+   "conflicting_or_uncertain": "No comparator. Later work (Montez-Rath 2024) gives a comparative estimate.",
+   "numbers": [
+    {
+     "value": "3702",
+     "meaning": "US nursing home residents starting dialysis, 1998 to 2000"
+    },
+    {
+     "value": "58%",
+     "meaning": "had died by 12 months after starting dialysis"
+    },
+    {
+     "value": "13%",
+     "meaning": "had kept their pre-dialysis function at 12 months (alive and not declined)"
+    },
+    {
+     "value": "39%",
+     "meaning": "had kept their function at 3 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-24-d",
+   "cand_id": "C07-24",
+   "claim": "Observational studies generally link dialysis with longer survival than conservative care, but the evidence is very low certainty and the gap appears smaller in the very old and in people with several serious illnesses.",
+   "source_keys": [
+    "PMID:41363177",
+    "PMID:42459744",
+    "PMID:26988748",
+    "PMID:26265214"
+   ],
+   "supporting_passage": "Yang 2025 (Cochrane), Abstract: \"We included 24 non-randomised studies that involved 26,127 people with kidney failure.\" ... \"Compared to dialysis, CKM had uncertain effects on death (any cause) (23 studies, 24,628 participants: 813 per 1000 with CKM versus 630 per 1000 with dialysis) (RR 1.28, 95% CI 1.17 to 1.41; I² = 89%; very low-certainty evidence)\" ... \"We found no randomised controlled trials. The certainty of evidence from non-randomised studies was very low due to a high risk of bias, because of significant imbalances in prognostic factors that could not be fully addressed.\" | Bergen 2026, full text: \"Taken together, the available observational evidence suggests that dialysis is generally associated with longer survival compared with CKM, but this advantage appears to diminish substantially with increasing age, frailty, and comorbidity.\" | Verberne 2016, Abstract: \"Patients choosing CM were older (mean±SD: 83±4.5 versus 76±4.4 years; P<0.001).\" ... \"However, the survival advantage of patients choosing RRT was no longer observed in patients ages ≥80 years old (median; 75th to 25th percentiles: 2.1, 1.5-3.4 versus 1.4, 0.7-3.0 years; log-rank test: P=0.08).\" | Foote 2016, Abstract: \"While the available literature demonstrates a broadly similar 1-year survival in elderly ESKD patients, it does not allow a confident estimate of the relative survival benefits of dialysis or supportive care.\"",
+   "location": "Cochrane: Abstract. Bergen: 'Survival and hospitalisation'. Verberne: Abstract. Foote: Abstract.",
+   "pico_timeframe": "People aged 65+ (Cochrane) or 70+ (Verberne) with kidney failure choosing CKM vs dialysis; observational; death over variable follow-up.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "No randomised trial has compared dialysis with conservative care. In observational studies, people who have dialysis usually live longer, but they are also usually younger and fitter, so part of the gap is not caused by dialysis. The gap looks smaller in the very old and in people with several other serious illnesses. In one Dutch hospital, among people aged 80 or over, those choosing dialysis lived a median of 2.1 years and those choosing conservative care 1.4 years; the study did not show a clear difference.",
+   "qualifications": "Use 'observational studies suggest' and name the group (the judge's point). Do not quote the Cochrane crude figures (813 vs 630 deaths per 1000) without saying they are very low certainty and confounded, and not the effect of dialysis. Verberne is small (311 people) and single-centre, and P=0.08 is not evidence of no difference. Replace 'adds little time' with these findings.",
+   "conflicting_or_uncertain": "Montez-Rath 2024 found that the survival gain from starting dialysis was larger (not smaller) in people aged 80 or over (60 days over 3 years), which conflicts with Verberne. Present the uncertainty in both directions.",
+   "numbers": [
+    {
+     "value": "24 studies; 26,127 people",
+     "meaning": "Cochrane 2025, all non-randomised, age 65+"
+    },
+    {
+     "value": "813 vs 630 per 1000",
+     "meaning": "crude pooled deaths with CKM vs dialysis; very low certainty, confounded"
+    },
+    {
+     "value": "2.1 vs 1.4 years",
+     "meaning": "median survival, dialysis vs conservative, age 80+, one Dutch centre (P=0.08)"
+    },
+    {
+     "value": "83 vs 76 years",
+     "meaning": "mean age, conservative vs dialysis choosers (Verberne)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-24-e",
+   "cand_id": "C07-24",
+   "claim": "In older US veterans, starting dialysis when kidney function fell very low made little clear difference to survival over 3 years compared with continuing medical care, and meant about 2 weeks fewer days at home; compared with never having dialysis, it added about 11 weeks of life and still meant fewer days at home.",
+   "source_keys": [
+    "PMID:39159459"
+   ],
+   "supporting_passage": "Montez-Rath 2024, Abstract: \"Among 20 440 adults (mean age, 77.9 years [SD, 8.8]), the median time to dialysis start was 8.0 days in the group starting dialysis and 3.0 years in the group continuing medical management. Over a 3-year horizon, the group starting dialysis survived 770 days and the group continuing medical management survived 761 days (difference, 9.3 days [95% CI, -17.4 to 30.1 days]). Compared with the group continuing medical management, the group starting dialysis had 13.6 fewer days at home (CI, 7.7 to 20.5 fewer days at home). Compared with the group continuing medical management and forgoing dialysis completely, the group starting dialysis had longer survival by 77.6 days (CI, 62.8 to 91.1 days) and 14.7 fewer days at home (CI, 11.2 to 16.5 fewer days at home).\" | Full text, Methods: \"We defined home time as the number of days the patient was alive and not receiving inpatient care in a hospital, skilled nursing facility, nursing home, or rehabilitation facility.\" | Results: \"In age-stratified analyses, compared to continuing medical management, starting dialysis was associated with longer survival by 60.0 days among adults ≥80 years (95% CI 3.5, 108.8) but 12.9 fewer days at home (95% CI −28.7, −0.2).\" | Discussion: \"we did not impose requirements on the frequency of medical visits or type of care provided in the medical management arm; therefore this treatment arm should not be considered equivalent to structured clinical programs for patients who proactively choose to forgo dialysis.\" ... \"Finally, the results may not be generalizable to women, non-Veterans, or patients who start peritoneal dialysis.\"",
+   "location": "Abstract; full text Methods (Outcomes), Results, Discussion (Limitations).",
+   "pico_timeframe": "20,440 US veterans aged 65+ (mean 77.9), eGFR below 12, not referred for transplant; start dialysis within 30 days vs continue medical management (49% later started dialysis) or forgo dialysis entirely (per-protocol); survival and home time over 3 years; 2010 to 2018.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a large US study of about 20,000 veterans aged 65 or over (average age 78) who were not having a transplant, the researchers compared starting dialysis as soon as kidney function fell very low with carrying on with medical care. Over 3 years, starting at once made little clear difference to survival (about 9 days longer on average, anywhere from 17 days shorter to 30 days longer). It meant about 2 weeks fewer days at home rather than in hospital or a care home. Compared with never having dialysis, it added about 11 weeks of life but still meant about 2 weeks fewer at home.",
+   "qualifications": "An observational study designed to imitate a trial, so unmeasured differences may remain; nearly all participants were men. 'Days at home' means days alive and not in hospital, a nursing or care home, or rehabilitation. Outpatient dialysis sessions count as days at home, so the time spent at dialysis is not included in the loss. The comparison group got usual medical care, not a structured conservative care programme. In people aged 80 or over, starting dialysis was linked with about 2 months longer survival, so do not say dialysis helps the oldest least.",
+   "conflicting_or_uncertain": "Direction of benefit varied by subgroup (in people aged 65 to 79 with eGFR 9 to 12, survival favoured continuing medical management). Verberne 2016 found no clear survival gain in people aged 80 or over. The uncertainty runs both ways.",
+   "numbers": [
+    {
+     "value": "20,440",
+     "meaning": "US veterans aged 65+, mean age 77.9"
+    },
+    {
+     "value": "770 vs 761 days",
+     "meaning": "mean survival over 3 years, start dialysis vs continue medical management"
+    },
+    {
+     "value": "9.3 days (95% CI -17.4 to 30.1)",
+     "meaning": "survival difference over 3 years: no clear difference"
+    },
+    {
+     "value": "13.6 fewer days",
+     "meaning": "at home over 3 years with starting dialysis (95% CI 7.7 to 20.5 fewer)"
+    },
+    {
+     "value": "77.6 days (about 11 weeks)",
+     "meaning": "longer survival with dialysis vs never having dialysis (95% CI 62.8 to 91.1)"
+    },
+    {
+     "value": "14.7 fewer days",
+     "meaning": "at home with dialysis vs never having dialysis (95% CI 11.2 to 16.5 fewer)"
+    },
+    {
+     "value": "60.0 days",
+     "meaning": "longer survival with starting dialysis in those aged 80+ (95% CI 3.5 to 108.8), with 12.9 fewer days at home"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-24-f",
+   "cand_id": "C07-24",
+   "claim": "People having dialysis spend more time in hospital and are more likely to die in hospital than people on conservative care (observational).",
+   "source_keys": [
+    "PMID:42459744"
+   ],
+   "supporting_passage": "Bergen 2026, full text: \"Studies examining hospitalization rates consistently report longer and up to twice as frequent hospital admissions among people receiving dialysis compared with those managed conservatively [,,,]. Furthermore, two studies indicate that patients treated with dialysis are more likely to die in-hospital rather than at home and are less likely to receive palliative care compared with patients receiving CKM [,].\"",
+   "location": "Section 'Survival and hospitalisation'.",
+   "pico_timeframe": "Narrative synthesis of observational studies in older people with kidney failure.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Observational studies find that people on dialysis are admitted to hospital more often and for longer, and more often die in hospital, than people on conservative care.",
+   "qualifications": "Observational and confounded; the narrative review does not give pooled figures, so give no number. Use 'are linked with'.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "up to twice",
+     "meaning": "as frequent hospital admissions with dialysis vs CKM (range across studies; narrative review)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-24-g",
+   "cand_id": "C07-24",
+   "claim": "In the UK, patient information often presents dialysis as the default and leaves out or plays down conservative care.",
+   "source_keys": [
+    "PMID:40487369"
+   ],
+   "supporting_passage": "Sowden 2025, Abstract: \"We conducted a qualitative document analysis of patient information documents collected from four UK renal outpatient departments with variation in rates of CKM for people ≥75 years of age.\" ... \"1) Treatment options are not presented equally: Dialysis was constructed as the assumed patient choice. CKM was often omitted as an option; when included, it was always mentioned last and was typically constructed negatively.\" ... \"Inaccurate framing of both CKM and dialysis may mean patients exclude treatment options that may be more concordant with their goals, values and preferences.\"",
+   "location": "Abstract, Methods, Results and Conclusions.",
+   "pico_timeframe": "Patient information documents from four UK renal outpatient departments.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A study of patient leaflets from four UK kidney units found that dialysis was presented as the expected choice. Conservative care was often left out; when it was mentioned, it came last and was described negatively.",
+   "qualifications": "Four units; this is a qualitative analysis of documents, not of conversations with clinicians.",
+   "conflicting_or_uncertain": "Wide UK variation in conservative care uptake (Kharbanda 2021) suggests practice differs between units.",
+   "numbers": [
+    {
+     "value": "4",
+     "meaning": "UK renal outpatient departments whose documents were analysed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-24-h",
+   "cand_id": "C07-24",
+   "claim": "In-centre haemodialysis usually involves three sessions a week.",
+   "source_keys": [
+    "PMID:39159459"
+   ],
+   "supporting_passage": "Montez-Rath 2024, Methods: \"To illustrate the incremental differences between starting dialysis versus continuing medical management, we partitioned the restricted mean survival into dialysis-free days at home, outpatient hemodialysis days, and hospital or nursing facility days, assuming patients starting dialysis received hemodialysis three days per week.\"",
+   "location": "Full text, Methods (Statistical Analysis).",
+   "pico_timeframe": "Analytic assumption in a US study.",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "Leave the weekly schedule out, or phrase it as a question to ask the kidney team: 'How many sessions a week, how long each, and how far would I travel?'",
+   "qualifications": "The only opened source uses three days a week as a modelling assumption, not as a statement of UK practice. NHS information pages could not be opened.",
+   "conflicting_or_uncertain": "Schedules vary (home haemodialysis, peritoneal dialysis, incremental dialysis).",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C07-32",
+   "status": "ready",
+   "reason": "All essential claims are supported. Shocks near death: Kinch Westerdahl 2014, 31% of 125 Swedish decedents shocked in the last 24 hours; the BHRS 2024 guideline and 2016 UK guidance agree. A do-not-resuscitate decision does not switch shocks off: 65% of those with a DNR order still had shocks active 24 hours before death. Discussions come late: Al Jaff 2026 (1,606 Dutch decedents) found 42% deactivated, and 33% of deactivations happened on the final day; Goldstein 2004 found 27 of 100. Deactivation is painless, non-surgical and reversible, leaves pacing working and does not itself cause death (CMAJ 2021). UK guidance says people should have the opportunity to discuss it (BHRS 2024), which updates the 2013 BHF document. Use one shock figure, with its population and method in the same sentence, and do not generalise it to all ICD recipients.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-32-a",
+    "C07-32-b",
+    "C07-32-c",
+    "C07-32-e",
+    "C07-32-f"
+   ]
+  },
+  {
+   "cand_id": "C07-27",
+   "status": "revise",
+   "reason": "The argument is supported for DNACPR, not for intensive care. UK guidance is that a DNACPR decision applies only to CPR, but it is known here only through how the NIHR 2016 synthesis reports it; the BMA/RCUK/RCN text itself was not opened. The same synthesis found DNACPR widely conflated with 'do not provide active treatment'. Beach & Morrison 2002 is a US scenario survey of stated intentions. The UK nurse scenario RCT (Moffat 2016) showed less monitoring and escalation with a DNACPR form, no difference with a whole-plan form, and no change in comfort care. The one-hospital before-and-after UFTO study (Fritz 2013) found fewer harms. ReSPECT places the CPR recommendation in a broader plan, with 78% of hospital forms and 87% of primary care forms recording other treatment recommendations. The opening line about intensive care has no source. The CQC 2021 claim was not found and must be dropped.",
+   "revised_angle": "Open with a DNACPR (or ReSPECT) decision, not intensive care: 'A DNACPR decision is about CPR. It is not a decision about anything else.' Explain that UK guidance limits it to CPR, and that studies show forms are still read as 'do less' (UK nurses in a randomised scenario study planned fewer checks and escalations, with comfort care unchanged). Describe Beach & Morrison only as a US scenario survey of what doctors said they would do. Show the fix: record the CPR decision inside a whole plan (ReSPECT) that lists what continues; one English hospital saw fewer harms after doing this, which is an association. Close with the ask for families: 'What will still be done?' Keep the two-column 'not recommended / continues' visual.",
+   "essential_claim_ids": [
+    "C07-27-a",
+    "C07-27-b",
+    "C07-27-d",
+    "C07-27-f"
+   ]
+  },
+  {
+   "cand_id": "C07-26",
+   "status": "ready",
+   "reason": "Supported, with Quill & Holloway 2011 (no abstract, not opened) replaced by the ATS 2024 consensus definition, opened in full text. The ATS text supports a plan explicitly proposed to and agreed by the person or family, with a set duration, clinical criteria for response, and a decision at review (continue, move to comfort, or extend). The four-item checklist simplifies 16 consensus elements and should be presented as core items. Chang 2021 must be labelled as a US before-and-after quality-improvement study in 3 ICUs, not specific to older people (mean age 64). Its results: markers of improvement were named in 21% of family meetings before training and 88% after, median ICU stay fell from 8.7 to 7.4 days, ventilation from 86% to 73%, and hospital mortality was unchanged at 58%. Surrogate satisfaction and conflict did not change. Avoiding both premature withdrawal and open-ended treatment is the consensus rationale, not a measured result. Kruser 2024 found trials often implemented incompletely, and Piscitello 2025 found them documented in 1% of goals-of-care notes.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-26-a",
+    "C07-26-b",
+    "C07-26-c",
+    "C07-26-e"
+   ]
+  },
+  {
+   "cand_id": "C07-09",
+   "status": "revise",
+   "reason": "The guide's order is supported by published descriptions: understanding and information or decision preferences first, then prognosis at the level asked for, then goals, fears, trade-offs and family. The trial results are supported: no clear effect on the co-primary outcomes (evaluated in 64 patients), fewer patients with moderate to severe anxiety and depression as secondary outcomes (the depression effect was not sustained), and more, earlier and better-documented conversations. The trial was in US cancer outpatients, not older people. The angle's claim that asking first makes the discussion 'shorter' was not found, and 'brings misunderstandings out early' is design rationale. The guide was revised in 2025 to 2026, so paraphrase it; do not quote it.",
+   "revised_angle": "Teach the sequence as a tested structure, not a proven outcome: start with what the person understands and how much they want to know, share prognosis at that level, then explore goals, worries and trade-offs. State plainly that in the US cancer-clinic trial the programme did not show a clear difference in its main aims. It did produce earlier and fuller recorded conversations, and lower anxiety, which was a secondary outcome. Drop 'shorter'. Present 'it shows where to begin' as teaching judgement. Open with a concrete clinical moment (the judge's advice) rather than a principle.",
+   "essential_claim_ids": [
+    "C07-09-a",
+    "C07-09-b",
+    "C07-09-c"
+   ]
+  },
+  {
+   "cand_id": "C07-24",
+   "status": "revise",
+   "reason": "The core decision-support message is supported. NICE NG107 (via the Renal Association commentary's verbatim quotation) says to offer a choice of dialysis or conservative management, decided jointly. Conservative kidney management is active care (Bergen 2026). UK leaflets frame dialysis as the default (Sowden 2025). The essential numbers need reframing. Kurella Tamura's 58% dead and 13% with function maintained at 12 months apply to US nursing home residents in 1998 to 2000, with no non-dialysis comparator. 'Adds little time' is not supportable as a general statement. Cochrane 2025 rates all comparative evidence very low certainty. Verberne (one Dutch centre) found no clear survival gain at age 80 or over, but Montez-Rath 2024 (20,440 US veterans) found a larger gain in that group. Montez-Rath's time trade-off (13.6 to 14.7 fewer days at home over 3 years) is the best 'time' evidence. The claim of three in-centre sessions a week is only a modelling assumption (partly supported) and should be left out.",
+   "revised_angle": "Frame it as a real choice with trade-offs in both directions. NICE says kidney teams should offer both dialysis and conservative kidney care (active symptom care and planning without dialysis) and decide with the person. Yet UK leaflets often present dialysis as the default. Give the evidence with named populations: in older US veterans, starting dialysis early made little clear difference to survival over 3 years and meant about 2 weeks fewer days at home, while compared with never having dialysis it added about 11 weeks of life. For US nursing home residents starting dialysis, 58 in 100 had died and only 13 in 100 kept their previous abilities a year later. There are no randomised trials, and the evidence on who gains most is conflicting. Close with questions to take to the kidney team: what would each option mean for time at home, travel, hospital visits and symptoms, and what would conservative care involve here?",
+   "essential_claim_ids": [
+    "C07-24-a",
+    "C07-24-b",
+    "C07-24-c",
+    "C07-24-d",
+    "C07-24-e",
+    "C07-24-g"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1405 @@
+{
+ "batch": "C04-B2",
+ "category": "C04",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:2407957",
+   "citation": "Riggs BL, Hodgson SF, O'Fallon WM, Chao EY, Wahner HW, Muhs JM, et al. Effect of fluoride treatment on the fracture rate in postmenopausal women with osteoporosis. N Engl J Med. 1990;322(12):802-9.",
+   "pmid": "2407957",
+   "pmcid": null,
+   "doi": "10.1056/NEJM199003223221203",
+   "public_url": "https://doi.org/10.1056/NEJM199003223221203",
+   "design": "Randomised placebo-controlled trial, 4 years",
+   "population_setting": "202 postmenopausal women with osteoporosis and vertebral fractures, Mayo Clinic, USA; sodium fluoride 75 mg/day versus placebo, all given calcium 1500 mg/day; 66 (fluoride) and 69 (placebo) completed",
+   "year": 1990,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (metadata and editorial notices; no full-text excerpt returned)",
+   "correction_check": "Scite (25 Sep 2026): no editorial notices listed. PubMed: PMID search with retracted publication[pt] returned no record.",
+   "quality_note": "Classic, well-cited RCT. Abstract reports fracture COUNTS (163 v 136 vertebral; 72 v 24 non-vertebral), not numbers of women, and does not give the size of each randomised group; completion was low (135 of 202). High-dose, plain (not slow-release) fluoride; a meta-analysis (Haguenauer 2000) links the excess non-vertebral fractures to high doses and non-slow-release forms."
+  },
+  {
+   "key": "PMID:11148800",
+   "citation": "Haguenauer D, Welch V, Shea B, Tugwell P, Adachi JD, Wells G. Fluoride for the treatment of postmenopausal osteoporotic fractures: a meta-analysis. Osteoporos Int. 2000;11(9):727-38.",
+   "pmid": "11148800",
+   "pmcid": null,
+   "doi": "10.1007/s001980070051",
+   "public_url": "https://doi.org/10.1007/s001980070051",
+   "design": "Systematic review and meta-analysis of 11 RCTs (1429 participants)",
+   "population_setting": "Postmenopausal women in randomised trials of fluoride",
+   "year": 2000,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices listed. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Older meta-analysis but the question (fluoride) is settled and not re-studied; confirms the Riggs finding is not a one-off. Abstract contains an apparent typographical error in one CI (GI side effects at 2 years); not used."
+  },
+  {
+   "key": "PMID:32707115",
+   "citation": "Black DM, Bauer DC, Vittinghoff E, Lui LY, Grauer A, Marin F, et al. Treatment-related changes in bone mineral density as a surrogate biomarker for fracture risk reduction: meta-regression analyses of individual patient data from multiple randomised controlled trials. Lancet Diabetes Endocrinol. 2020;8(8):672-82.",
+   "pmid": "32707115",
+   "pmcid": null,
+   "doi": "10.1016/S2213-8587(20)30159-5",
+   "public_url": "https://doi.org/10.1016/S2213-8587(20)30159-5",
+   "design": "Individual patient data meta-regression of 23 placebo-controlled RCTs (FNIH-ASBMR SABRE project)",
+   "population_setting": "91,779 participants in 23 randomised placebo-controlled trials of osteoporosis drugs (bisphosphonates, denosumab, PTH receptor agonists, SERMs, hormone therapy, odanacatib); 1 to 9 years follow-up",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: 'has erratum' notice (10.1016/s2213-8587(20)30318-1, Oct 2020) plus published comments; erratum text not opened, so its content is unknown. PubMed abstract (current record) used. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Large IPD analysis; trial-level association supports BMD as a surrogate for future drug-registration trials. It does not validate a single person's repeat scan as a monitor. Several authors are industry employees."
+  },
+  {
+   "key": "PMID:11893367",
+   "citation": "Cummings SR, Karpf DB, Harris F, Genant HK, Ensrud K, LaCroix AZ, et al. Improvement in spine bone density and reduction in risk of vertebral fractures during treatment with antiresorptive drugs. Am J Med. 2002;112(4):281-9.",
+   "pmid": "11893367",
+   "pmcid": null,
+   "doi": "10.1016/s0002-9343(01)01124-x",
+   "public_url": "https://doi.org/10.1016/s0002-9343(01)01124-x",
+   "design": "Meta-analysis of 12 trials plus logistic modelling within the Fracture Intervention Trial",
+   "population_setting": "Postmenopausal women in 12 randomised trials of antiresorptive drugs; FIT alendronate data",
+   "year": 2002,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Older analysis limited to spine BMD and vertebral fractures with antiresorptives; the later Black 2020 IPD analysis found hip BMD explained a larger share (44-67%), so the 'small part' finding is site- and method-specific."
+  },
+  {
+   "key": "PMID:19549996",
+   "citation": "Bell KJ, Hayen A, Macaskill P, Irwig L, Craig JC, Ensrud K, et al. Value of routine monitoring of bone mineral density after starting bisphosphonate treatment: secondary analysis of trial data. BMJ. 2009;338:b2266.",
+   "pmid": "19549996",
+   "pmcid": "PMC3272655",
+   "doi": "10.1136/bmj.b2266",
+   "public_url": "https://doi.org/10.1136/bmj.b2266",
+   "design": "Secondary analysis of RCT data (Fracture Intervention Trial) using mixed models",
+   "population_setting": "6459 postmenopausal women with low bone mineral density in FIT (alendronate v placebo), BMD at baseline and 1, 2 and 3 years",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Directly addresses individual monitoring; applies to the first 3 years of a potent bisphosphonate (alendronate) in postmenopausal women; does not address later reassessment or other drugs."
+  },
+  {
+   "key": "PMID:35378630",
+   "citation": "Gregson CL, Armstrong DJ, Bowden J, Cooper C, Edwards J, Gittoes NJL, et al. UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos. 2022;17(1):58.",
+   "pmid": "35378630",
+   "pmcid": "PMC8979902",
+   "doi": "10.1007/s11657-022-01061-5",
+   "public_url": "https://doi.org/10.1007/s11657-022-01061-5",
+   "design": "National clinical guideline (National Osteoporosis Guideline Group, NOGG), NICE-accredited, graded evidence",
+   "population_setting": "UK; postmenopausal women and men aged 50 and over",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC8979902), text searched for passages",
+   "correction_check": "Scite lists a correction/erratum (10.1007/s11657-022-01115-8, May 2022); opened in PMC (PMC9117369): it only adds a missing author affiliation. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Current UK guideline, NICE-accredited. Written before NICE's final romosozumab appraisal (text says NICE decision pending/initially negative), so UK access details for romosozumab are out of date in this document."
+  },
+  {
+   "key": "PMID:30399208",
+   "citation": "Buchbinder R, Johnston RV, Rischin KJ, Homik J, Jones CA, Golmohammadi K, et al. Percutaneous vertebroplasty for osteoporotic vertebral compression fracture. Cochrane Database Syst Rev. 2018;11(11):CD006349.",
+   "pmid": "30399208",
+   "pmcid": "PMC6517304",
+   "doi": "10.1002/14651858.CD006349.pub4",
+   "public_url": "https://doi.org/10.1002/14651858.CD006349.pub4",
+   "design": "Cochrane systematic review and meta-analysis of 21 RCTs (5 sham-controlled, 541 participants)",
+   "population_setting": "Adults with painful osteoporotic vertebral fractures; most female, mean age 62.6 to 81; symptom duration from a week to over 6 months; trials in hospitals in 15 countries",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC returned abstract and plain-language summary only); Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none. Clark 2019 (PMID 30852489) states the April 2018 version was replaced in November 2018 'to address complaints of errors in analysis'; the version used here is the November 2018 replacement (pub4, 6 Nov 2018).",
+   "quality_note": "High- to moderate-certainty evidence for vertebroplasty v sham at one month. Search to November 2017. The VAPOUR authors dispute pooling VAPOUR with other sham trials (PMID 30852489)."
+  },
+  {
+   "key": "PMID:27544377",
+   "citation": "Clark W, Bird P, Gonski P, Diamond TH, Smerdely P, McNeil HP, et al. Safety and efficacy of vertebroplasty for acute painful osteoporotic fractures (VAPOUR): a multicentre, randomised, double-blind, placebo-controlled trial. Lancet. 2016;388(10052):1408-16.",
+   "pmid": "27544377",
+   "pmcid": null,
+   "doi": "10.1016/S0140-6736(16)31341-1",
+   "public_url": "https://doi.org/10.1016/S0140-6736(16)31341-1",
+   "design": "Multicentre double-blind sham-controlled RCT, 6-month follow-up",
+   "population_setting": "120 patients with one or two osteoporotic vertebral fractures under 6 weeks old and pain 7/10 or more, four hospitals in Sydney, Australia (2011 to 2014)",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: 'has erratum' (10.1016/s0140-6736(16)31468-4, Feb 2017) and three comments; erratum text not opened. PubMed abstract (current record) used. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Only sham trial restricted to very recent fractures with severe pain; single positive trial; primary outcome at 14 days; education grant from a device manufacturer (CareFusion). The abstract does not state the proportion who were inpatients, so 'inpatients' is not verified."
+  },
+  {
+   "key": "PMID:19657121",
+   "citation": "Buchbinder R, Osborne RH, Ebeling PR, Wark JD, Mitchell P, Wriedt C, et al. A randomized trial of vertebroplasty for painful osteoporotic vertebral fractures. N Engl J Med. 2009;361(6):557-68.",
+   "pmid": "19657121",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa0900429",
+   "public_url": "https://doi.org/10.1056/NEJMoa0900429",
+   "design": "Multicentre double-blind sham-controlled RCT, 6 months",
+   "population_setting": "78 participants with one or two painful, unhealed osteoporotic vertebral fractures under 12 months old (MRI-confirmed), Australia",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] check: none. Scite not queried for this record.",
+   "quality_note": "Small but rigorous sham trial; used here for the observation that pain fell in both groups."
+  },
+  {
+   "key": "PMID:19657122",
+   "citation": "Kallmes DF, Comstock BA, Heagerty PJ, Turner JA, Wilson DJ, Diamond TH, et al. A randomized trial of vertebroplasty for osteoporotic spinal fractures. N Engl J Med. 2009;361(6):569-79.",
+   "pmid": "19657122",
+   "pmcid": "PMC2930487",
+   "doi": "10.1056/NEJMoa0900563",
+   "public_url": "https://doi.org/10.1056/NEJMoa0900563",
+   "design": "Multicentre sham-controlled RCT (INVEST), primary outcome at 1 month, crossover allowed after 1 month",
+   "population_setting": "131 patients with one to three painful osteoporotic vertebral compression fractures",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed abstract carries a '[corrected]' marker on the crossover-rate sentence (corrected text used). PubMed retracted publication[pt] check: none.",
+   "quality_note": "Trend toward more clinically meaningful pain improvement with vertebroplasty (64% v 48%, P=0.06); high crossover from control arm at 3 months."
+  },
+  {
+   "key": "PMID:30677181",
+   "citation": "Ebeling PR, Akesson K, Bauer DC, Buchbinder R, Eastell R, Fink HA, et al. The efficacy and safety of vertebral augmentation: a second ASBMR task force report. J Bone Miner Res. 2019;34(1):3-21.",
+   "pmid": "30677181",
+   "pmcid": null,
+   "doi": "10.1002/jbmr.3653",
+   "public_url": "https://doi.org/10.1002/jbmr.3653",
+   "design": "Specialist society task force report (systematic evidence review with recommendations)",
+   "population_setting": "Patients with painful osteoporotic vertebral fractures; international",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "American Society for Bone and Mineral Research task force; covers kyphoplasty separately from vertebroplasty."
+  },
+  {
+   "key": "PMID:40950842",
+   "citation": "[No authors listed]. Percutaneous vertebroplasty and balloon kyphoplasty for painful osteoporotic vertebral compression fractures: a health technology assessment. Ont Health Technol Assess Ser. 2025;25(4):1-253.",
+   "pmid": "40950842",
+   "pmcid": "PMC12425451",
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/40950842/",
+   "design": "Health technology assessment (systematic review, GRADE, economic evaluation)",
+   "population_setting": "People with painful osteoporotic vertebral fractures refractory to non-surgical treatment; Ontario, Canada",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed record: no linked correction seen; not in retracted publication[pt]. Scite not queried.",
+   "quality_note": "Recorded as conflicting/contextual evidence: found benefit against conservative care (low to very low certainty), i.e. open comparisons of the kind the Cochrane review judged likely to overestimate benefit."
+  },
+  {
+   "key": "PMID:30852489",
+   "citation": "Clark W, Bird P, Diamond T, Gonski P, Gebski V. Cochrane vertebroplasty review misrepresented evidence for vertebroplasty with early intervention in severely affected patients. BMJ Evid Based Med. 25(3):85-9 (PubMed publication date 2019 Mar 9).",
+   "pmid": "30852489",
+   "pmcid": "PMC7286037",
+   "doi": "10.1136/bmjebm-2019-111171",
+   "public_url": "https://doi.org/10.1136/bmjebm-2019-111171",
+   "design": "Critique (analysis/commentary) by the VAPOUR investigators",
+   "population_setting": "Not applicable",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed retracted publication[pt] check: none.",
+   "quality_note": "Recorded as dissent; authors are the VAPOUR trialists. Confirms VAPOUR was pooled in the November 2018 Cochrane update."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ta279",
+   "citation": "National Institute for Health and Care Excellence. Percutaneous vertebroplasty and percutaneous balloon kyphoplasty for treating osteoporotic vertebral compression fractures. Technology appraisal guidance TA279. London: NICE; 2013.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ta279",
+   "design": "National technology appraisal guidance",
+   "population_setting": "England and Wales",
+   "year": 2013,
+   "access": "search_extract",
+   "tool_used": "WebSearch (nice.org.uk); page could not be opened (WebFetch blocked); not found in Drive",
+   "correction_check": "Not applicable; current status of TA279 not verified from the page.",
+   "quality_note": "Search-engine extract only. Not sufficient for an essential claim; use only as an optional, attributed clause, or replace with NOGG 2022 wording."
+  },
+  {
+   "key": "PMID:35939577",
+   "citation": "LeBoff MS, Chou SH, Ratliff KA, Cook NR, Khurana B, Kim E, et al. Supplemental vitamin D and incident fractures in midlife and older adults. N Engl J Med. 2022;387(4):299-309.",
+   "pmid": "35939577",
+   "pmcid": "PMC9716639",
+   "doi": "10.1056/NEJMoa2202106",
+   "public_url": "https://doi.org/10.1056/NEJMoa2202106",
+   "design": "Ancillary study of a 2x2 factorial double-blind placebo-controlled RCT (VITAL)",
+   "population_setting": "25,871 US men aged 50+ and women aged 55+, not selected for vitamin D deficiency, low bone mass or osteoporosis; vitamin D3 2000 IU/day v placebo; median 5.3 years",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC9716639); Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Large, well-conducted trial with adjudicated fractures; generally healthy, mostly vitamin D replete population (mean 25(OH)D 30.7 ng/mL); authors say it was not designed to test deficient people and may not generalise to people with osteoporosis or osteomalacia or older institutionalised people. Fractures were self-reported then confirmed; vertebral fractures not systematically imaged."
+  },
+  {
+   "key": "PMID:37011645",
+   "citation": "Waterhouse M, Ebeling PR, McLeod DSA, English D, Romero BD, Baxter C, et al. The effect of monthly vitamin D supplementation on fractures: a tertiary outcome from the population-based, double-blind, randomised, placebo-controlled D-Health trial. Lancet Diabetes Endocrinol. 2023;11(5):324-32.",
+   "pmid": "37011645",
+   "pmcid": null,
+   "doi": "10.1016/S2213-8587(23)00063-3",
+   "public_url": "https://doi.org/10.1016/S2213-8587(23)00063-3",
+   "design": "Population-based double-blind placebo-controlled RCT; fractures a tertiary outcome ascertained by record linkage",
+   "population_setting": "21,315 adults aged 60 to 84 living in Australia; 60,000 IU vitamin D3 monthly for up to 5 years; 20,326 analysed",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Large trial but fractures were a tertiary outcome; monthly bolus dosing; baseline vitamin D status not given in the abstract."
+  },
+  {
+   "key": "PMID:1331788",
+   "citation": "Chapuy MC, Arlot ME, Duboeuf F, Brun J, Crouzet B, Arnaud S, et al. Vitamin D3 and calcium to prevent hip fractures in elderly women. N Engl J Med. 1992;327(23):1637-42.",
+   "pmid": "1331788",
+   "pmcid": null,
+   "doi": "10.1056/NEJM199212033272305",
+   "public_url": "https://doi.org/10.1056/NEJM199212033272305",
+   "design": "Placebo-controlled trial, 18 months",
+   "population_setting": "3270 healthy ambulatory women, mean age 84, France (Lyon); vitamin D3 800 IU plus 1.2 g calcium daily v double placebo",
+   "year": 1992,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite (metadata, editorial notices; no full-text excerpt returned); the 1994 BMJ follow-up (PMID 8173430) was tried but PMC returned no text",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Tested vitamin D and calcium together, so it cannot separate their effects. The residential setting (commonly described as nursing homes or apartment houses for older people) is NOT stated in the abstract and was not verified. Headline hip-fracture result is a relative reduction among completers."
+  },
+  {
+   "key": "PMID:24729336",
+   "citation": "Avenell A, Mak JC, O'Connell D. Vitamin D and vitamin D analogues for preventing fractures in post-menopausal women and older men. Cochrane Database Syst Rev. 2014;2014(4):CD000227.",
+   "pmid": "24729336",
+   "pmcid": "PMC7032685",
+   "doi": "10.1002/14651858.CD000227.pub4",
+   "public_url": "https://doi.org/10.1002/14651858.CD000227.pub4",
+   "design": "Cochrane systematic review and meta-analysis (53 trials, 91,791 participants)",
+   "population_setting": "Post-menopausal women and older men in community, nursing home and hospital settings",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; get_full_text_article (PMC returned abstract and plain-language summary only); Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none. No later version of CD000227 found in PubMed.",
+   "quality_note": "Search to December 2012, so it predates VITAL and D-Health. The per-1000 estimates for community and institutional residents are the pooled relative risk applied to assumed baseline risks, not separate results measured in each setting."
+  },
+  {
+   "key": "PMID:30293909",
+   "citation": "Bolland MJ, Grey A, Avenell A. Effects of vitamin D supplementation on musculoskeletal health: a systematic review, meta-analysis, and trial sequential analysis. Lancet Diabetes Endocrinol. 2018;6(11):847-58.",
+   "pmid": "30293909",
+   "pmcid": null,
+   "doi": "10.1016/S2213-8587(18)30265-1",
+   "public_url": "https://doi.org/10.1016/S2213-8587(18)30265-1",
+   "design": "Systematic review, meta-analysis and trial sequential analysis of 81 RCTs",
+   "population_setting": "Adults in RCTs comparing vitamin D with placebo, no treatment or lower dose (trials of co-administered calcium eligible only if arms differed by vitamin D alone)",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Tests vitamin D alone; abstract does not report results by baseline vitamin D status."
+  },
+  {
+   "key": "PMID:31860103",
+   "citation": "Yao P, Bennett D, Mafham M, Lin X, Chen Z, Armitage J, et al. Vitamin D and calcium for the prevention of fracture: a systematic review and meta-analysis. JAMA Netw Open. 2019;2(12):e1917789.",
+   "pmid": "31860103",
+   "pmcid": "PMC6991219",
+   "doi": "10.1001/jamanetworkopen.2019.17789",
+   "public_url": "https://doi.org/10.1001/jamanetworkopen.2019.17789",
+   "design": "Systematic review and meta-analysis of observational studies and RCTs (RCTs of 500+ participants and 10+ fractures)",
+   "population_setting": "11 RCTs of vitamin D alone (34,243 participants); 6 RCTs of vitamin D with calcium (49,282 participants)",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Predates VITAL fracture results and D-Health. Combined vitamin D plus calcium effect is modest and CIs close to no effect."
+  },
+  {
+   "key": "PMID:29129436",
+   "citation": "Kendler DL, Marin F, Zerbini CAF, Russo LA, Greenspan SL, Zikan V, et al. Effects of teriparatide and risedronate on new fractures in post-menopausal women with severe osteoporosis (VERO): a multicentre, double-blind, double-dummy, randomised controlled trial. Lancet. 2018;391(10117):230-40.",
+   "pmid": "29129436",
+   "pmcid": null,
+   "doi": "10.1016/S0140-6736(17)32137-2",
+   "public_url": "https://doi.org/10.1016/S0140-6736(17)32137-2",
+   "design": "Double-blind double-dummy head-to-head RCT, 24 months",
+   "population_setting": "1360 postmenopausal women with at least two moderate or one severe vertebral fracture and BMD T-score of -1.5 or lower; teriparatide 20 micrograms daily v risedronate 35 mg weekly",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite (editorial notices; no full-text excerpt returned)",
+   "correction_check": "Scite: two 'has erratum' notices (10.1016/s0140-6736(17)33099-4, Jan 2018; 10.1016/s0140-6736(18)32944-1, Dec 2018) and comments; erratum texts not opened. PubMed abstract (current record) used. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Industry-funded (Lilly). Compared two drugs over 24 months; it did not test a sequence. Reported percentages (5.4%, 12.0%) do not equal 28/680 and 64/680, so the denominators appear to be women with evaluable follow-up X-rays; quote the percentages, do not recompute from 680."
+  },
+  {
+   "key": "PMID:28892457",
+   "citation": "Saag KG, Petersen J, Brandi ML, Karaplis AC, Lorentzon M, Thomas T, et al. Romosozumab or alendronate for fracture prevention in women with osteoporosis. N Engl J Med. 2017;377(15):1417-27.",
+   "pmid": "28892457",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa1708322",
+   "public_url": "https://doi.org/10.1056/NEJMoa1708322",
+   "design": "Double-blind head-to-head RCT (ARCH), 12 months blinded then open-label alendronate in both arms",
+   "population_setting": "4093 postmenopausal women with osteoporosis and a fragility fracture; romosozumab 210 mg monthly v alendronate 70 mg weekly for 12 months, then alendronate",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite (editorial notices and citation statements)",
+   "correction_check": "Scite: no editorial notices listed. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Industry-funded (Amgen and others). Serious cardiovascular adverse events more frequent with romosozumab in year 1; the paper says the imbalance was not seen in the larger placebo-controlled FRAME trial."
+  },
+  {
+   "key": "PMID:26144908",
+   "citation": "Leder BZ, Tsai JN, Uihlein AV, Wallace PM, Lee H, Neer RM, et al. Denosumab and teriparatide transitions in postmenopausal osteoporosis (the DATA-Switch study): extension of a randomised controlled trial. Lancet. 2015;386(9999):1147-55.",
+   "pmid": "26144908",
+   "pmcid": "PMC4620731",
+   "doi": "10.1016/S0140-6736(15)61120-5",
+   "public_url": "https://doi.org/10.1016/S0140-6736(15)61120-5",
+   "design": "Pre-planned extension of a small RCT; BMD outcomes",
+   "population_setting": "77 postmenopausal women with osteoporosis (from 94 in DATA), Boston, USA",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Small; bone density only, no fracture outcomes. Scite's older abstract version gives 2.7% for denosumab-to-teriparatide hip BMD; the PubMed abstract gives 2.8% (1.3-4.2); use PubMed."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ta791",
+   "citation": "National Institute for Health and Care Excellence. Romosozumab for treating severe osteoporosis. Technology appraisal guidance TA791. London: NICE; 2022.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ta791",
+   "design": "National technology appraisal guidance",
+   "population_setting": "England and Wales",
+   "year": 2022,
+   "access": "search_extract",
+   "tool_used": "WebSearch (nice.org.uk); page could not be opened",
+   "correction_check": "Not applicable.",
+   "quality_note": "Search-engine extract only; not sufficient for an essential claim."
+  },
+  {
+   "key": "PMID:8950879",
+   "citation": "Black DM, Cummings SR, Karpf DB, Cauley JA, Thompson DE, Nevitt MC, et al. Randomised trial of effect of alendronate on risk of fracture in women with existing vertebral fractures. Lancet. 1996;348(9041):1535-41.",
+   "pmid": "8950879",
+   "pmcid": null,
+   "doi": "10.1016/s0140-6736(96)07088-2",
+   "public_url": "https://doi.org/10.1016/s0140-6736(96)07088-2",
+   "design": "Randomised placebo-controlled trial (Fracture Intervention Trial, vertebral fracture arm), 36 months",
+   "population_setting": "2027 women aged 55 to 81 with low femoral-neck BMD and at least one existing vertebral fracture",
+   "year": 1996,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Landmark trial. Abstract gives absolute rates for morphometric, clinical vertebral and any clinical fractures, but only a relative hazard for hip fracture."
+  },
+  {
+   "key": "PMID:19671655",
+   "citation": "Cummings SR, San Martin J, McClung MR, Siris ES, Eastell R, Reid IR, et al. Denosumab for prevention of fractures in postmenopausal women with osteoporosis. N Engl J Med. 2009;361(8):756-65.",
+   "pmid": "19671655",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa0809493",
+   "public_url": "https://doi.org/10.1056/NEJMoa0809493",
+   "design": "Randomised placebo-controlled trial (FREEDOM), 36 months",
+   "population_setting": "7868 women aged 60 to 90 with BMD T-score below -2.5 but not below -4.0 at spine or hip",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite lists 10.1056/nejme0905480 as both 'has erratum' and 'comment' (Aug 2009, same-issue editorial); not opened. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Industry-funded (Amgen). Radiographic vertebral fractures were the primary end point."
+  },
+  {
+   "key": "PMID:15940375",
+   "citation": "Fink HA, Milavetz DL, Palermo L, Nevitt MC, Cauley JA, Genant HK, et al. What proportion of incident radiographic vertebral deformities is clinically diagnosed and vice versa? J Bone Miner Res. 2005;20(7):1216-22.",
+   "pmid": "15940375",
+   "pmcid": null,
+   "doi": "10.1359/JBMR.050314",
+   "public_url": "https://doi.org/10.1359/JBMR.050314",
+   "design": "Secondary analysis of the Fracture Intervention Trial cohort",
+   "population_setting": "6084 FIT participants with baseline and follow-up lateral spine X-rays",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Same trial population as FIT, so directly relevant to C04-30."
+  },
+  {
+   "key": "PMID:9599190",
+   "citation": "Nevitt MC, Ettinger B, Black DM, Stone K, Jamal SA, Ensrud K, et al. The association of radiographically detected vertebral fractures with back pain and function: a prospective study. Ann Intern Med. 1998;128(10):793-800.",
+   "pmid": "9599190",
+   "pmcid": null,
+   "doi": "10.7326/0003-4819-128-10-199805150-00001",
+   "public_url": "https://doi.org/10.7326/0003-4819-128-10-199805150-00001",
+   "design": "Prospective observational cohort (Study of Osteoporotic Fractures)",
+   "population_setting": "7223 white women aged 65 and over, USA; spine X-rays about 3.7 years apart; annual questionnaires",
+   "year": 1998,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Observational association (odds ratios); white women only."
+  },
+  {
+   "key": "PMID:11176842",
+   "citation": "Lindsay R, Silverman SL, Cooper C, Hanley DA, Barton I, Broy SB, et al. Risk of new vertebral fracture in the year following a fracture. JAMA. 2001;285(3):320-3.",
+   "pmid": "11176842",
+   "pmcid": null,
+   "doi": "10.1001/jama.285.3.320",
+   "public_url": "https://doi.org/10.1001/jama.285.3.320",
+   "design": "Analysis of placebo groups from 4 three-year osteoporosis treatment trials",
+   "population_setting": "2725 postmenopausal women (mean age 74) in placebo groups of risedronate trials, 373 centres",
+   "year": 2001,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices. PubMed retracted publication[pt] check: none.",
+   "quality_note": "Trial participants on calcium; radiographically identified fractures."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C04-29-a",
+   "cand_id": "C04-29",
+   "claim": "In a 4-year trial in 202 postmenopausal women with osteoporosis and spinal fractures, sodium fluoride raised spine bone density by about a third compared with placebo, but spinal fractures were not reduced and fractures away from the spine were about three times as common.",
+   "source_keys": [
+    "PMID:2407957"
+   ],
+   "supporting_passage": "\"we conducted a four-year prospective clinical trial in 202 postmenopausal women with osteoporosis and vertebral fractures who were randomly assigned to receive sodium fluoride (75 mg per day) or placebo. All received a calcium supplement (1500 mg per day). Sixty-six women in the fluoride group and 69 women in the placebo group completed the trial. As compared with the placebo group, the treatment group had increases in median bone mineral density of 35 percent (P less than 0.0001) in the lumbar spine ... The number of new vertebral fractures was similar in the treatment and placebo groups (163 and 136, respectively; P not significant), but the number of nonvertebral fractures was higher in the treatment group (72 vs. 24; P less than 0.01).\"",
+   "location": "Abstract",
+   "pico_timeframe": "202 postmenopausal women with osteoporosis and vertebral fractures (USA) / sodium fluoride 75 mg daily plus calcium 1500 mg / placebo plus calcium / lumbar spine BMD, new vertebral and non-vertebral fractures / 4 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a trial published in 1990, 202 women with osteoporosis and spinal fractures took sodium fluoride or a dummy tablet for four years. Spine bone density rose by about a third (35%) more with fluoride. Spinal fractures were not reduced (163 new spinal fractures with fluoride, 136 with placebo, not a clear difference). There were 72 fractures away from the spine with fluoride against 24 with placebo, about three times as many.",
+   "qualifications": "The fracture figures are counts of fractures, not numbers of women. Only 66 and 69 women completed the trial. It tested a high dose of plain (fast-release) fluoride; fluoride is not a current treatment. Do not say 'spinal fractures went up' (163 v 136 was not significant).",
+   "conflicting_or_uncertain": "Later work suggested lower-dose slow-release fluoride behaved differently; the meta-analysis (C04-29-b) links the excess non-spinal fractures to high doses and non-slow-release forms.",
+   "numbers": [
+    {
+     "value": "202",
+     "meaning": "women randomised (two groups)"
+    },
+    {
+     "value": "4 years",
+     "meaning": "trial duration"
+    },
+    {
+     "value": "35%",
+     "meaning": "median increase in lumbar spine BMD, fluoride compared with placebo, over 4 years (relative)"
+    },
+    {
+     "value": "163 v 136",
+     "meaning": "counts of new vertebral fractures, fluoride v placebo, not significant"
+    },
+    {
+     "value": "72 v 24",
+     "meaning": "counts of non-vertebral fractures, fluoride v placebo, P<0.01"
+    },
+    {
+     "value": "75 mg",
+     "meaning": "daily sodium fluoride dose"
+    },
+    {
+     "value": "66 and 69",
+     "meaning": "women completing the trial in fluoride and placebo groups"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-29-b",
+   "cand_id": "C04-29",
+   "claim": "Across 11 fluoride trials, fluoride raised spine bone density but did not reduce spinal fractures, and non-spinal fractures increased at 4 years, especially with high doses of non-slow-release fluoride.",
+   "source_keys": [
+    "PMID:11148800"
+   ],
+   "supporting_passage": "\"Eleven studies (1429 subjects) met the inclusion criteria. The increase in lumbar spine bone mineral density (BMD) was found to be higher in the treatment group than in the control group with a WMD 8.1% (95% CI: 7.15, 9.09) after 2 years of treatment and 16.1% (95% CI: 14.65, 17.5) after 4 years. The RR for new vertebral fractures was not significant at 2 years [0.87 (95% CI: 0.51, 1.46)] or at 4 years [0.9 (95% CI: 0.71, 1.14)]. The RR for new nonvertebral fractures was not significant at 2 years [1.2 (95% CI: 0.68, 2.10)] but was increased at 4 years in the treated group [1.85 (95% CI: 1.36, 2.50)], especially if used at high doses and in a non-slow-release form.\" ... \"Thus, although fluoride has an ability to increase bone mineral density at the lumbar spine, it does not result in a reduction in vertebral fractures.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Postmenopausal women in 11 RCTs (1429) / fluoride / control / lumbar spine BMD, vertebral and non-vertebral fractures / 2 and 4 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A review of 11 fluoride trials found the same pattern: spine density went up, spinal fractures did not go down, and fractures elsewhere became more common after 4 years at high doses.",
+   "qualifications": "Older review (2000). The non-spinal increase was at 4 years, not 2, and mainly with high-dose, non-slow-release forms.",
+   "conflicting_or_uncertain": "None that changes the reading.",
+   "numbers": [
+    {
+     "value": "11 trials, 1429 participants",
+     "meaning": "size of the meta-analysis"
+    },
+    {
+     "value": "16.1%",
+     "meaning": "extra lumbar spine BMD gain with fluoride v control at 4 years"
+    },
+    {
+     "value": "RR 1.85",
+     "meaning": "relative risk of non-vertebral fracture at 4 years with fluoride (not for public posts)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-29-c",
+   "cand_id": "C04-29",
+   "claim": "For the osteoporosis drugs tested in placebo-controlled trials, larger average bone density gains go with larger fracture reductions across trials.",
+   "source_keys": [
+    "PMID:32707115"
+   ],
+   "supporting_passage": "\"Individual patient data from 91 779 participants of 23 randomised, placebo-controlled trials were included. ... The meta-regression revealed significant associations between treatment-related changes in hip, femoral neck, and spine BMD and reductions in vertebral (r0·73, p<0·0001; 0·59, p=0·0005; 0·61, p=0·0003), hip (0·41, p=0·014; 0·41, p=0·0074; 0·34, p=0·023) and non-vertebral fractures (0·53, p=0·0021; 0·65, p<0·0001; 0·51, p=0·0019). ... Hip BMD changes explained substantial proportions (44-67%) of treatment-related fracture risk reduction.\" Interpretation: \"Treatment-related BMD changes are strongly associated with fracture reductions across randomised trials of osteoporosis therapies with differing mechanisms of action. These analyses support BMD as a surrogate outcome for fracture outcomes in future randomised trials of new osteoporosis therapies\"",
+   "location": "Abstract (Findings; Interpretation)",
+   "pico_timeframe": "91,779 participants in 23 placebo-controlled RCTs (bisphosphonates, denosumab, PTH analogues, SERMs, hormone therapy, odanacatib) / active drug / placebo / 24-month BMD change v fracture reduction (trial-level meta-regression) / 1-9 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "For the drugs in current use, density is a reasonable guide at the level of whole trials: across 23 trials with over 90,000 people, drugs that raised hip density more cut fractures more. That is why density is used to judge new drugs.",
+   "qualifications": "Trial-level association, used to validate BMD for future drug trials; it does not show that one person's repeat scan tells you whether their treatment is working. Includes odanacatib, which was never approved. Scite lists an erratum (content not checked).",
+   "conflicting_or_uncertain": "Cummings 2002 (C04-29-d) found spine BMD explained only 16% of alendronate's vertebral fracture reduction; the difference reflects site, drug set and method.",
+   "numbers": [
+    {
+     "value": "23 trials, 91,779 participants",
+     "meaning": "size of IPD analysis"
+    },
+    {
+     "value": "44-67%",
+     "meaning": "proportion of treatment-related fracture reduction explained by hip BMD change (trial-level)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-29-d",
+   "cand_id": "C04-29",
+   "claim": "With antiresorptive drugs, the rise in spine density explains only part of the fall in spinal fractures; fracture reductions were larger than density changes predicted.",
+   "source_keys": [
+    "PMID:11893367"
+   ],
+   "supporting_passage": "\"The reductions in risk were greater than predicted from improvement in bone mineral density; for example, the model estimated that treatments predicted to reduce fracture risk by 20% (RR = 0.80), based on improvement in bone mineral density, actually reduce the risk of fracture by about 45% (RR = 0.55). In the Fracture Intervention Trial, improvement in spine bone mineral density explained 16% (95% CI: 11% to 27%) of the reduction in the risk of vertebral fracture with alendronate.\" Conclusion: \"Improvement in spine bone mineral density during treatment with antiresorptive drugs accounts for a predictable but small part of the observed reduction in the risk of vertebral fracture.\"",
+   "location": "Abstract (Results; Conclusion)",
+   "pico_timeframe": "Postmenopausal women in 12 antiresorptive trials and FIT / antiresorptive drugs / placebo / spine BMD change v vertebral fracture risk / trial durations",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "With bisphosphonate-type drugs, the density rise explains only part of the benefit: in one large alendronate trial, the spine density gain accounted for about 16% of the drop in spinal fractures. A small density change does not mean the drug is failing.",
+   "qualifications": "Spine BMD and vertebral fractures only; 2002 analysis.",
+   "conflicting_or_uncertain": "Black 2020 found hip BMD explained 44-67% across trials; present both as 'part of the benefit', not 'none'.",
+   "numbers": [
+    {
+     "value": "16% (11% to 27%)",
+     "meaning": "share of alendronate's vertebral fracture reduction explained by spine BMD gain in FIT"
+    },
+    {
+     "value": "12 trials",
+     "meaning": "meta-analysis size"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-29-e",
+   "cand_id": "C04-29",
+   "claim": "Routine repeat bone density scans in the first three years after starting a potent bisphosphonate are unnecessary and may mislead, because measurement variation is larger than the differences between people in treatment response.",
+   "source_keys": [
+    "PMID:19549996"
+   ],
+   "supporting_passage": "\"The mean effect of three years' treatment with alendronate was to increase hip bone mineral density by 0.030 g/cm(2). There was some between-person variation in the effects of alendronate, but this was small in size compared with within-person variation. Alendronate treatment is estimated to result in increases in hip bone density >or=0.019 g/cm(2) in 97.5% of patients.\" Conclusion: \"Monitoring bone mineral density in postmenopausal women in the first three years after starting treatment with a potent bisphosphonate is unnecessary and may be misleading. Routine monitoring should be avoided in this early period after bisphosphonate treatment is commenced.\"",
+   "location": "Abstract (Results; Conclusions)",
+   "pico_timeframe": "6459 postmenopausal women with low BMD in FIT / alendronate / placebo / between-person v within-person variation in hip and spine BMD / 3 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In the alendronate trial data, nearly everyone who took the drug gained hip density, but the scan's own variation from one measurement to the next was larger than the differences between people. The authors concluded that routine repeat scans in the first three years are unnecessary and can mislead.",
+   "qualifications": "Postmenopausal women, alendronate, first 3 years, trial adherence. Does not address later reassessment (NOGG uses BMD with FRAX at 3 to 5 years to decide on continuing) or other drugs.",
+   "conflicting_or_uncertain": "Some guidelines support selective repeat DXA; the ISCD 'least significant change' claim in the candidate was not verified and should be dropped.",
+   "numbers": [
+    {
+     "value": "6459",
+     "meaning": "women in the FIT analysis"
+    },
+    {
+     "value": "3 years",
+     "meaning": "period in which routine monitoring was judged unnecessary"
+    },
+    {
+     "value": "97.5%",
+     "meaning": "estimated proportion of treated women with hip BMD gain of at least 0.019 g/cm2"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-29-f",
+   "cand_id": "C04-29",
+   "claim": "UK guidance says that if someone has a fragility fracture while on treatment, check whether the treatment has been taken correctly and look for secondary causes; fracture risk is reassessed after about 5 years of oral or 3 years of intravenous bisphosphonate.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Review treatment adherence in men and women who sustain a fragility fracture whilst on drug treatment, (poor adherence is when less than 80% of treatment has been taken correctly) and investigate for secondary causes of osteoporosis\" ... \"Plan to prescribe oral bisphosphonates (alendronate, ibandronate and risedronate) for at least 5 years and then re-assess fracture risk.\" ... \"Plan to prescribe intravenous bisphosphonate (zoledronate) for at least 3 years and then re-assess fracture risk.\" ... \"Fracture risk assessment in patients receiving drug treatment should be performed using FRAX with BMD\"",
+   "location": "Full text, 'Duration and monitoring of bisphosphonate treatment' and 'Reassessment of fracture risk in individuals on osteoporosis drug treatment', recommendations 5 and 6",
+   "pico_timeframe": "UK postmenopausal women and men 50+ on osteoporosis drugs / guideline recommendation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance: if someone breaks a bone while on a bone medicine, first check whether it has been taken correctly (less than 80% of doses taken correctly counts as poor adherence) and look for other causes of bone loss. Density is used, with a risk calculator, when deciding after 3 to 5 years whether to continue.",
+   "qualifications": "Guideline recommendation (NOGG 2022, NICE-accredited).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "80%",
+     "meaning": "adherence threshold below which adherence is poor"
+    },
+    {
+     "value": "5 years / 3 years",
+     "meaning": "planned minimum duration of oral / intravenous bisphosphonate before reassessment"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-17-a",
+   "cand_id": "C04-17",
+   "claim": "A Cochrane review found high- to moderate-certainty evidence from five sham-controlled trials that vertebroplasty gives no clinically important benefit for pain, disability, quality of life or treatment success at one month, whatever the duration of pain.",
+   "source_keys": [
+    "PMID:30399208"
+   ],
+   "supporting_passage": "\"Twenty-one trials were included: five compared vertebroplasty with placebo (541 randomised participants), eight with usual care (1136 randomised participants), seven with kyphoplasty (968 randomised participants)...\" ... \"Compared with placebo, high- to moderate-quality evidence from five trials indicates that vertebroplasty provides no clinically important benefits with respect to pain, disability, disease-specific or overall quality of life or treatment success at one month.\" ... \"Mean pain (on a scale zero to 10, higher scores indicate more pain) was five points with placebo and 0.7 points better (0.3 better to 1.2 better) with vertebroplasty, an absolute pain reduction of 7% (3% better to 12% better, minimal clinical important difference is 15%)\" ... \"Our subgroup analyses indicate that the effects did not differ according to duration of pain (acute versus subacute).\" Plain language summary: \"People who had vertebroplasty rated their pain as 4.3 points.\" \"People who had placebo rated their pain as 5 points.\"",
+   "location": "Abstract (Main results; Authors' conclusions) and plain language summary",
+   "pico_timeframe": "Adults with painful osteoporotic vertebral fractures, mostly women, mean age 62.6-81 / vertebroplasty / sham procedure / pain (0-10), disability, QoL, treatment success / 1 month",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "When vertebroplasty (injecting cement into a broken spinal bone) was compared with a sham procedure in five trials, pain at one month averaged 4.3 out of 10 after cement and 5 out of 10 after the sham. That gap is smaller than the difference patients notice. Disability and quality of life were also much the same.",
+   "qualifications": "One-month outcome; five trials, 541 people; review search to November 2017.",
+   "conflicting_or_uncertain": "The VAPOUR investigators argue their trial of very recent fractures should not have been pooled with the others (PMID 30852489).",
+   "numbers": [
+    {
+     "value": "21 trials; 5 sham-controlled (541 people)",
+     "meaning": "review scope"
+    },
+    {
+     "value": "4.3 v 5 out of 10",
+     "meaning": "mean pain at one month, vertebroplasty v sham"
+    },
+    {
+     "value": "0.7 points (0.3 to 1.2)",
+     "meaning": "mean pain difference on 0-10 scale"
+    },
+    {
+     "value": "7% v 15%",
+     "meaning": "absolute pain reduction observed v minimal clinically important difference"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-17-b",
+   "cand_id": "C04-17",
+   "claim": "Open trials comparing vertebroplasty with usual care probably overestimated its benefit.",
+   "source_keys": [
+    "PMID:30399208",
+    "PMID:40950842"
+   ],
+   "supporting_passage": "\"Sensitivity analyses confirmed that open trials comparing vertebroplasty with usual care are likely to have overestimated any benefit of vertebroplasty. Correcting for these biases would likely drive any benefits observed with vertebroplasty towards the null, in keeping with findings from the placebo-controlled trials.\"",
+   "location": "Abstract (Authors' conclusions)",
+   "pico_timeframe": "8 open trials v usual care (1136 participants) compared with 5 sham trials",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In trials where people knew they had had the procedure and were compared with usual care, it looked better. The review judged those open trials likely to have overestimated the benefit.",
+   "qualifications": "Judgement of the review authors based on sensitivity analyses.",
+   "conflicting_or_uncertain": "Ontario HTA 2025 (PMID 40950842) found short-term pain benefit against conservative care (low to very low certainty), from the kind of open comparison the Cochrane review considers biased.",
+   "numbers": [
+    {
+     "value": "8 trials, 1136 people",
+     "meaning": "open trials v usual care"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-17-c",
+   "cand_id": "C04-17",
+   "claim": "Serious adverse events reported after vertebroplasty include bone infection, spinal cord compression, damage to the spinal cord covering and respiratory failure; whether overall risk is increased is uncertain.",
+   "source_keys": [
+    "PMID:30399208"
+   ],
+   "supporting_passage": "\"Notably, serious adverse events reported with vertebroplasty included osteomyelitis, cord compression, thecal sac injury and respiratory failure.\" ... \"Numerous serious adverse events have been observed following vertebroplasty. However due to the small number of events, we cannot be certain about whether or not vertebroplasty results in a clinically important increased risk of new symptomatic vertebral fractures and/or other serious adverse events.\"",
+   "location": "Abstract (Main results; Authors' conclusions)",
+   "pico_timeframe": "Trials of vertebroplasty v control; harms",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Serious complications have been reported, including bone infection and pressure on the spinal cord, but they are uncommon and the trials were too small to say whether the overall risk is higher than without the procedure.",
+   "qualifications": "Low-certainty harm estimates; do not imply the procedure is known to be more dangerous overall.",
+   "conflicting_or_uncertain": "Other serious adverse events: 16/408 v 23/413 (RR 0.61, 0.33 to 1.10), so no clear excess in pooled trials.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-17-d",
+   "cand_id": "C04-17",
+   "claim": "One sham-controlled trial (VAPOUR) in people with severe pain from fractures under 6 weeks old found more people reached low pain at 14 days with vertebroplasty.",
+   "source_keys": [
+    "PMID:27544377",
+    "PMID:30852489"
+   ],
+   "supporting_passage": "\"This was a multicentre, randomised, double-blind, placebo-controlled trial of vertebroplasty in four hospitals in Sydney, Australia. We recruited patients with one or two osteoporotic vertebral fractures of less than 6 weeks' duration and Numeric Rated Scale (NRS) back pain greater than or equal to 7 out of 10.\" ... \"120 patients were enrolled. 61 patients were randomly assigned to vertebroplasty and 59 to placebo. 24 (44%) patients in the vertebroplasty group and 12 (21%) in the control group had an NRS pain score below 4 out of 10 at 14 days (between-group difference 23 percentage points, 95% CI 6-39; p=0·011).\"",
+   "location": "Abstract (Methods; Findings)",
+   "pico_timeframe": "120 patients, fractures under 6 weeks, pain 7/10 or more, four Sydney hospitals / vertebroplasty / sham / pain below 4/10 / 14 days (follow-up 6 months)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "One sham-controlled trial went the other way. In 120 people with severe pain (7 out of 10 or more) from spinal fractures less than 6 weeks old, treated in four Sydney hospitals, 44 in 100 had low pain at two weeks after cement against 21 in 100 after the sham.",
+   "qualifications": "Single trial; 14-day primary outcome; industry education grant; erratum listed (content not checked). Do not call the participants 'inpatients' (not verified).",
+   "conflicting_or_uncertain": "When pooled with the other sham trials in the Cochrane review, results did not differ by pain duration; the VAPOUR authors dispute the pooling.",
+   "numbers": [
+    {
+     "value": "120",
+     "meaning": "patients randomised (61 v 59)"
+    },
+    {
+     "value": "44% v 21%",
+     "meaning": "proportion with pain below 4/10 at 14 days, vertebroplasty v sham"
+    },
+    {
+     "value": "23 percentage points (6 to 39)",
+     "meaning": "absolute difference"
+    },
+    {
+     "value": "under 6 weeks; 7/10",
+     "meaning": "fracture age and minimum pain score for entry"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-17-e",
+   "cand_id": "C04-17",
+   "claim": "In sham-controlled trials, pain improved substantially in both groups, including those who had the sham procedure.",
+   "source_keys": [
+    "PMID:19657121",
+    "PMID:19657122"
+   ],
+   "supporting_passage": "Buchbinder 2009: \"Vertebroplasty did not result in a significant advantage in any measured outcome at any time point. There were significant reductions in overall pain in both study groups at each follow-up assessment. At 3 months, the mean (+/-SD) reductions in the score for pain in the vertebroplasty and control groups were 2.6+/-2.9 and 1.9+/-3.3, respectively\". Kallmes 2009: \"Both groups had immediate improvement in disability and pain scores after the intervention.\"",
+   "location": "Abstracts (Results)",
+   "pico_timeframe": "78 and 131 patients with painful osteoporotic vertebral fractures / vertebroplasty / sham / pain / 1 week to 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In the sham trials, people's pain eased in both groups, including those who had no cement. Improvement after a procedure does not by itself show the procedure caused it.",
+   "qualifications": "Improvement in the sham arm reflects natural recovery, expectation and regression to the mean together; the trials do not separate these.",
+   "conflicting_or_uncertain": "Kallmes: trend toward more clinically meaningful pain improvement with vertebroplasty (64% v 48%, P=0.06).",
+   "numbers": [
+    {
+     "value": "2.6 v 1.9 points",
+     "meaning": "mean pain reduction at 3 months (0-10), vertebroplasty v sham, Buchbinder 2009"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-17-f",
+   "cand_id": "C04-17",
+   "claim": "The sham-controlled evidence is for vertebroplasty; for balloon kyphoplasty there is insufficient evidence of benefit over non-surgical care, and routine use of either is not supported by current specialist and UK guidance.",
+   "source_keys": [
+    "PMID:30677181",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "ASBMR: \"For patients with acutely painful VF, percutaneous vertebroplasty provides no demonstrable clinically significant benefit over placebo. Results did not differ according to duration of pain. There is also insufficient evidence to support kyphoplasty over nonsurgical management, percutaneous vertebroplasty, vertebral body stenting, or KIVA®.\" ... \"Routine use of vertebral augmentation is not supported by current evidence. When it is offered, patients should be fully informed about the evidence.\" NOGG: \"The current evidence does not support the routine use of percutaneous vertebroplasty or balloon kyphoplasty for the treatment of painful osteoporotic vertebral fractures, as these procedures do not show consistent patient benefit\"",
+   "location": "ASBMR abstract; NOGG full text, 'Management of symptomatic osteoporotic vertebral fractures'",
+   "pico_timeframe": "People with painful osteoporotic vertebral fractures / vertebroplasty or kyphoplasty / guideline position",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The sham comparisons were of vertebroplasty. Balloon kyphoplasty (a balloon is inflated before the cement goes in) has not been tested against a sham, and there is not enough evidence that it beats non-surgical care. The UK osteoporosis guideline and a US specialist task force both say the evidence does not support routine use of either procedure; if it is offered, people should be told what the evidence shows.",
+   "qualifications": "Say 'not routine', not 'never': NICE TA279 (search extract only) still lists both as options for a narrow group with severe ongoing pain after a recent unhealed fracture despite optimal pain relief.",
+   "conflicting_or_uncertain": "NICE TA279 narrow indication (see C04-17-h); Ontario HTA 2025.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-17-g",
+   "cand_id": "C04-17",
+   "claim": "Recommended care after a painful spinal fracture includes safe pain relief to restore mobility, physiotherapist-supervised exercise, and prompt treatment to prevent further fractures.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:30677181"
+   ],
+   "supporting_passage": "NOGG: \"Analgesia for acute pain is important to allow restoration of function and mobility but must be used safely\" ... \"Physiotherapist supervised exercise following vertebral fracture improves pain and physical performance\" ... \"Ensure prompt secondary fracture prevention is started following a fracture, with follow-up through fracture liaison services for all postmenopausal women, and men aged 50 years and older, with a newly diagnosed vertebral fracture\" ... \"Patients with a recent vertebral fracture have a high imminent risk of further fragility fracture\". ASBMR: \"Anti-osteoporotic medications reduce the risk of subsequent vertebral fractures by 40-70%.\"",
+   "location": "NOGG full text, 'Management of symptomatic osteoporotic vertebral fractures'; ASBMR abstract",
+   "pico_timeframe": "People with painful osteoporotic vertebral fractures / guideline recommendations",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "What helps meanwhile: pain relief used safely so you can keep moving, physiotherapy-guided exercise, and starting bone treatment, because a recent spinal fracture raises the risk of another one soon.",
+   "qualifications": "Exercise evidence is modest; NOGG notes urgent spinal surgical referral if there are neurological signs.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "40-70%",
+     "meaning": "relative reduction in subsequent vertebral fractures with osteoporosis drugs (ASBMR)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-17-h",
+   "cand_id": "C04-17",
+   "claim": "NICE TA279 recommends vertebroplasty and balloon kyphoplasty (without stenting) only for people with severe ongoing pain after a recent, unhealed vertebral fracture despite optimal pain management.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ta279"
+   ],
+   "supporting_passage": "Search-engine extract (nice.org.uk, not opened): \"Percutaneous vertebroplasty and percutaneous balloon kyphoplasty without stenting are recommended as options for treating osteoporotic vertebral compression fractures only in people who have severe ongoing pain after a recent, unhealed vertebral fracture despite optimal pain management\"",
+   "location": "NICE TA279 recommendations page (search extract only)",
+   "pico_timeframe": "England and Wales; 2013 appraisal",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Optional, non-essential clause only: 'NICE guidance from 2013 reserves these procedures for a narrow group with severe ongoing pain from a recent fracture despite good pain relief.' Better: rely on NOGG 2022 (C04-17-f).",
+   "qualifications": "Search extract only; the page could not be opened and current status was not verified. The candidate's wording about confirmation by examination and imaging was not found in the extract.",
+   "conflicting_or_uncertain": "NOGG 2022 (opened) does not support routine use.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-20-a",
+   "cand_id": "C04-20",
+   "claim": "VITAL: in 25,871 US adults not selected for vitamin D deficiency, low bone mass or osteoporosis, 2000 IU vitamin D a day for a median 5.3 years did not reduce total, non-spinal or hip fractures.",
+   "source_keys": [
+    "PMID:35939577"
+   ],
+   "supporting_passage": "\"Participants were not recruited on the basis of vitamin D deficiency, low bone mass, or osteoporosis.\" ... \"Among 25,871 participants ... we confirmed 1991 incident fractures in 1551 participants over a median follow-up of 5.3 years. Supplemental vitamin D, as compared with placebo, did not have a significant effect on total fractures (which occurred in 769 of 12,927 participants in the vitamin D group and in 782 of 12,944 participants in the placebo group; hazard ratio, 0.98; 95% confidence interval [CI], 0.89 to 1.08; P = 0.70), nonvertebral fractures (hazard ratio, 0.97; 95% CI, 0.87 to 1.07; P = 0.50), or hip fractures (hazard ratio, 1.01; 95% CI, 0.70 to 1.47; P = 0.96).\"",
+   "location": "Abstract; full text Results",
+   "pico_timeframe": "US men 50+ and women 55+, generally healthy / vitamin D3 2000 IU daily / placebo / adjudicated total, non-vertebral, hip fractures / median 5.3 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In VITAL, nearly 26,000 generally healthy Americans aged 50 and over took 2000 units of vitamin D a day or a dummy pill for about 5 years. About 6 in 100 in each group broke a bone (769 of 12,927 v 782 of 12,944). Hip fractures were no different either.",
+   "qualifications": "Generally healthy, mostly replete population; vitamin D without calcium.",
+   "conflicting_or_uncertain": "None within the trial; see C04-20-b for subgroups.",
+   "numbers": [
+    {
+     "value": "25,871",
+     "meaning": "participants"
+    },
+    {
+     "value": "2000 IU/day",
+     "meaning": "vitamin D3 dose"
+    },
+    {
+     "value": "5.3 years",
+     "meaning": "median follow-up"
+    },
+    {
+     "value": "769/12,927 v 782/12,944",
+     "meaning": "people with at least one fracture, vitamin D v placebo (about 5.9% v 6.0%)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-20-b",
+   "cand_id": "C04-20",
+   "claim": "Few VITAL participants were deficient; the trial was not designed to test deficient people, and the small group with very low levels showed no benefit either; results may not apply to people with osteoporosis or osteomalacia or to older people in institutions.",
+   "source_keys": [
+    "PMID:35939577"
+   ],
+   "supporting_passage": "\"The mean baseline 25-hydroxyvitamin D level (16,757 participants) was 30.7±10.0 ng per milliliter. At baseline, 401 (2.4%) had 25-hydroxyvitamin D levels of less than 12 ng per milliliter and 2161 (12.9%) had levels of less than 20 ng per milliliter.\" ... \"In post hoc analyses, we found no benefit for supplementation in the relatively small number of participants with baseline 25-hydroxyvitamin D levels of less than 12 ng per milliliter (401 participants).\" ... \"We evaluated only one vitamin D dose, and the trial was not designed to test the effects of vitamin D supplementation in those who are vitamin D deficient. Only a small percentage of participants (2.4%) had vitamin D levels of less than 12 ng per milliliter.\" ... \"In addition, results may not be generalizable to adults with osteoporosis or osteomalacia or older institutionalized persons.\"",
+   "location": "Full text: Results (Trial participants; Fracture incidence); Discussion (limitations)",
+   "pico_timeframe": "VITAL participants with baseline blood samples (16,757) / subgroups by 25(OH)D / fractures / median 5.3 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Most VITAL volunteers already had normal vitamin D levels; only about 2 in 100 were very low. The trial was not designed to test people who are deficient, and in that small very-low group there was no sign of benefit either. The authors say the results may not apply to people with osteoporosis or to older people living in care homes. So the evidence for deficient people is thin, not absent.",
+   "qualifications": "The very-low subgroup (401) is post hoc and small; 'no benefit found' in it is weak evidence, but it must be stated. Do not say deficient people were 'untested'.",
+   "conflicting_or_uncertain": "No large trial has tested vitamin D alone in people selected for deficiency; the authors say such a placebo trial would not be feasible or ethical.",
+   "numbers": [
+    {
+     "value": "30.7 ng/mL",
+     "meaning": "mean baseline 25(OH)D (about 77 nmol/L)"
+    },
+    {
+     "value": "2.4% (401)",
+     "meaning": "participants below 12 ng/mL (about 30 nmol/L)"
+    },
+    {
+     "value": "12.9% (2161)",
+     "meaning": "participants below 20 ng/mL (about 50 nmol/L)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-20-c",
+   "cand_id": "C04-20",
+   "claim": "D-Health: in 21,315 Australians aged 60 to 84, 60,000 IU vitamin D monthly for up to 5 years did not reduce fractures.",
+   "source_keys": [
+    "PMID:37011645"
+   ],
+   "supporting_passage": "\"We did a population-based, double-blind, randomised, placebo-controlled trial of oral vitamin D supplementation (60 000 IU per month) for up to 5 years in adults aged 60-84 years living in Australia.\" ... \"Over a median follow-up of 5·1 years (IQR 5·1-5·1), 568 (5·6%) participants in the vitamin D group and 603 (5·9%) in the placebo group had one or more fractures. There was no effect on fracture risk overall (HR 0·94 [95% CI 0·84-1·06]), and the interaction between randomisation group and time was not significant (p=0·14). However, the HR for total fractures appeared to decrease with increasing follow-up time.\"",
+   "location": "Abstract (Methods; Findings)",
+   "pico_timeframe": "20,326 analysed adults aged 60-84, Australia / vitamin D3 60,000 IU monthly / placebo / any fracture (linked records) / median 5.1 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In D-Health, over 20,000 Australians aged 60 to 84 took a monthly dose of vitamin D or a dummy for about 5 years. 5.6 in 100 broke a bone with vitamin D and 5.9 in 100 with the dummy, not a clear difference.",
+   "qualifications": "Fractures were a tertiary outcome; monthly bolus dosing; baseline vitamin D status not in abstract, so do not describe D-Health participants as 'having enough' without qualification.",
+   "conflicting_or_uncertain": "Authors note the effect estimate appeared to strengthen with longer follow-up (interaction not significant).",
+   "numbers": [
+    {
+     "value": "21,315 (20,326 analysed)",
+     "meaning": "participants"
+    },
+    {
+     "value": "60,000 IU monthly",
+     "meaning": "dose"
+    },
+    {
+     "value": "5.6% v 5.9%",
+     "meaning": "people with one or more fractures, vitamin D v placebo, median 5.1 years"
+    },
+    {
+     "value": "HR 0.94 (0.84 to 1.06)",
+     "meaning": "hazard ratio; practitioner posts only"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-20-d",
+   "cand_id": "C04-20",
+   "claim": "An older French trial in 3,270 ambulatory women with an average age of 84 found that vitamin D3 plus calcium reduced hip and other non-spinal fractures over 18 months.",
+   "source_keys": [
+    "PMID:1331788"
+   ],
+   "supporting_passage": "\"We studied the effects of supplementation with vitamin D3 (cholecalciferol) and calcium on the frequency of hip fractures and other nonvertebral fractures, identified radiologically, in 3270 healthy ambulatory women (mean [+/- SD] age, 84 +/- 6 years). Each day for 18 months, 1634 women received tricalcium phosphate (containing 1.2 g of elemental calcium) and 20 micrograms (800 IU) of vitamin D3, and 1636 women received a double placebo.\" ... \"Among the women who completed the 18-month study, the number of hip fractures was 43 percent lower (P = 0.043) and the total number of nonvertebral fractures was 32 percent lower (P = 0.015) among the women treated with vitamin D3 and calcium than among those who received placebo. The results of analyses according to active treatment and according to intention to treat were similar.\"",
+   "location": "Abstract (Methods; Results)",
+   "pico_timeframe": "3270 ambulatory women, mean age 84, France / vitamin D3 800 IU + calcium 1.2 g daily / double placebo / hip and non-vertebral fractures / 18 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "An older French trial in women with an average age of 84 found fewer hip fractures (43% fewer) with daily vitamin D and calcium together over 18 months. It tested the two together, so it cannot show vitamin D alone works.",
+   "qualifications": "Care home or sheltered-housing setting NOT verified from the opened abstract: do not describe the participants as care home residents on the strength of this source. Relative reduction only (absolute numbers not in abstract); completers analysis headline; published 1992.",
+   "conflicting_or_uncertain": "Later large trials of calcium plus vitamin D in community-dwelling people found smaller effects (Cochrane pooled RR 0.84 for hip fracture).",
+   "numbers": [
+    {
+     "value": "3270",
+     "meaning": "women randomised"
+    },
+    {
+     "value": "84",
+     "meaning": "mean age in years"
+    },
+    {
+     "value": "800 IU + 1.2 g",
+     "meaning": "daily vitamin D3 and elemental calcium"
+    },
+    {
+     "value": "43% / 32%",
+     "meaning": "relative reduction in hip / non-vertebral fractures among completers, 18 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-20-e",
+   "cand_id": "C04-20",
+   "claim": "Meta-analyses find vitamin D alone does not prevent fractures, while vitamin D with calcium gives a small reduction in hip fractures, larger in absolute terms for people living in institutions.",
+   "source_keys": [
+    "PMID:30293909",
+    "PMID:24729336",
+    "PMID:31860103"
+   ],
+   "supporting_passage": "Bolland 2018: \"In pooled analyses, vitamin D had no effect on total fracture (36 trials; n=44 790, relative risk 1·00, 95% CI 0·93-1·07), hip fracture (20 trials; n=36 655, 1·11, 0·97-1·26), or falls\". Avenell 2014: \"There is high quality evidence that vitamin D alone, in the formats and doses tested, is unlikely to be effective in preventing hip fracture\" ... \"There is high quality evidence that vitamin D plus calcium results in a small reduction in hip fracture risk (nine trials, 49,853 participants; RR 0.84, 95% confidence interval (CI) 0.74 to 0.96; P value 0.01). In low-risk populations (residents in the community: with an estimated eight hip fractures per 1000 per year), this equates to one fewer hip fracture per 1000 older adults per year (95% CI 0 to 2). In high risk populations (residents in institutions: with an estimated 54 hip fractures per 1000 per year), this equates to nine fewer hip fractures per 1000 older adults per year (95% CI 2 to 14).\" Yao 2019: \"a meta-analysis of 6 RCTs (49 282 participants, 5449 fractures, 730 hip fractures) of combined supplementation with vitamin D ... and calcium ... found a 6% reduced risk of any fracture (RR, 0.94; 95% CI, 0.89-0.99) and a 16% reduced risk of hip fracture (RR, 0.84; 95% CI, 0.72-0.97).\"",
+   "location": "Abstracts (Findings / Main results)",
+   "pico_timeframe": "Older adults in RCTs / vitamin D alone or with calcium / placebo or control / fractures / trial durations",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Reviews of many trials agree that vitamin D on its own does not prevent fractures. Vitamin D with calcium cut hip fractures slightly: about 1 fewer per 1000 older people a year living at home, and about 9 fewer per 1000 a year in care homes, where hip fractures are far more common.",
+   "qualifications": "The per-1000 figures apply the pooled relative risk to assumed baseline risks (8 and 54 per 1000 per year); they are estimates, not separate results in each setting. Reviews predate VITAL and D-Health.",
+   "conflicting_or_uncertain": "Calcium supplements have their own harms (the Cochrane review notes more gastrointestinal symptoms and renal disease with vitamin D plus calcium).",
+   "numbers": [
+    {
+     "value": "RR 1.00",
+     "meaning": "vitamin D alone, total fracture, 36 trials (Bolland)"
+    },
+    {
+     "value": "RR 0.84",
+     "meaning": "vitamin D plus calcium, hip fracture (Avenell; Yao)"
+    },
+    {
+     "value": "1 fewer per 1000 per year",
+     "meaning": "estimated hip fractures prevented, community residents"
+    },
+    {
+     "value": "9 fewer per 1000 per year",
+     "meaning": "estimated hip fractures prevented, institution residents"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-20-f",
+   "cand_id": "C04-20",
+   "claim": "UK guidance says people taking osteoporosis drugs should be vitamin D replete, and that calcium with vitamin D supplements should be targeted to those at risk who do not get enough calcium in their diet.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Overall, there is little evidence that vitamin D supplementation alone reduces fracture incidence, although it may reduce falls risk [,]; (). However, it is important for patients taking antiresorptive and anabolic osteoporosis drug therapies to be vitamin D replete. In clinical practice, dietary sources of calcium are the preferred option and calcium (combined with vitamin D) supplementation should be targeted to those who do not get sufficient calcium from their diet and who are at risk of osteoporosis and/\"",
+   "location": "NOGG full text, calcium and vitamin D section",
+   "pico_timeframe": "UK adults at risk of osteoporosis or on osteoporosis drugs / guideline",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance still says people on bone medicines should have enough vitamin D, and that calcium with vitamin D should go to those at risk whose diet is short of calcium.",
+   "qualifications": "Guideline statement, not a trial result. The passage is truncated in the extracted text after 'and/'.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-25-a",
+   "cand_id": "C04-25",
+   "claim": "VERO: in women with severe osteoporosis and existing spinal fractures, 24 months of daily teriparatide injections led to fewer new spinal fractures than weekly risedronate tablets (5.4% v 12.0%).",
+   "source_keys": [
+    "PMID:29129436"
+   ],
+   "supporting_passage": "\"we enrolled post-menopausal women with at least two moderate or one severe vertebral fracture and a bone mineral density T score of less than or equal to -1·50. Participants were randomly assigned to receive 20 μg of teriparatide once daily plus oral weekly placebo or 35 mg of oral risedronate once weekly plus daily injections of placebo for 24 months.\" ... \"At 24 months, new vertebral fractures occurred in 28 (5·4%) of 680 patients in the teriparatide group and 64 (12·0%) of 680 patients in the risedronate group (risk ratio 0·44, 95% CI 0·29-0·68; p<0·0001). Clinical fractures occurred in 30 (4·8%) of 680 patients in the teriparatide group compared with 61 (9·8%) of 680 in the risedronate group (hazard ratio 0·48, 95% CI 0·32-0·74; p=0·0009). Non-vertebral fragility fractures occurred in 25 (4·0%) patients in the teriparatide group and 38 (6·1%) in the risedronate group (hazard ratio 0·66; 95% CI 0·39-1·10; p=0·10).\"",
+   "location": "Abstract (Methods; Findings)",
+   "pico_timeframe": "1360 postmenopausal women with at least 2 moderate or 1 severe vertebral fracture, T-score -1.5 or lower / teriparatide 20 micrograms daily injection / risedronate 35 mg weekly / new radiographic vertebral fractures, clinical fractures / 24 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In VERO, 1,360 women with severe osteoporosis and spinal fractures took daily teriparatide injections (a bone-building drug) or weekly risedronate tablets for two years. New spinal fractures on X-ray: about 5 in 100 with teriparatide, 12 in 100 with risedronate. Fractures that caused symptoms: about 5 in 100 against 10 in 100. Fractures away from the spine did not clearly differ.",
+   "qualifications": "Two drugs compared over 24 months, not a sequence. Women only. Lilly-funded. Percentages do not match 28/680 and 64/680 (denominators appear to be women with follow-up X-rays), so quote the percentages only. Errata listed (content not checked).",
+   "conflicting_or_uncertain": "Non-vertebral fractures not significantly different (4.0% v 6.1%, HR 0.66, 0.39 to 1.10).",
+   "numbers": [
+    {
+     "value": "1360 (680 per arm)",
+     "meaning": "women randomised"
+    },
+    {
+     "value": "5.4% v 12.0%",
+     "meaning": "new radiographic vertebral fractures at 24 months, teriparatide v risedronate"
+    },
+    {
+     "value": "4.8% v 9.8%",
+     "meaning": "clinical fractures, teriparatide v risedronate"
+    },
+    {
+     "value": "4.0% v 6.1%",
+     "meaning": "non-vertebral fragility fractures, not significant"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-25-b",
+   "cand_id": "C04-25",
+   "claim": "ARCH: 12 months of romosozumab followed by alendronate prevented more fractures over 24 months than alendronate throughout, with more serious cardiovascular events on romosozumab in year one.",
+   "source_keys": [
+    "PMID:28892457"
+   ],
+   "supporting_passage": "\"We enrolled 4093 postmenopausal women with osteoporosis and a fragility fracture and randomly assigned them in a 1:1 ratio to receive monthly subcutaneous romosozumab (210 mg) or weekly oral alendronate (70 mg) in a blinded fashion for 12 months, followed by open-label alendronate in both groups.\" ... \"Over a period of 24 months, a 48% lower risk of new vertebral fractures was observed in the romosozumab-to-alendronate group (6.2% [127 of 2046 patients]) than in the alendronate-to-alendronate group (11.9% [243 of 2047 patients]) (P<0.001). Clinical fractures occurred in 198 of 2046 patients (9.7%) in the romosozumab-to-alendronate group versus 266 of 2047 patients (13.0%)\" ... \"the risk of hip fracture was lower by 38% (41 of 2046 patients [2.0%] vs. 66 of 2047 patients [3.2%]; P=0.02).\" ... \"During year 1, positively adjudicated serious cardiovascular adverse events were observed more often with romosozumab than with alendronate (50 of 2040 patients [2.5%] vs. 38 of 2014 patients [1.9%]).\"",
+   "location": "Abstract (Methods; Results)",
+   "pico_timeframe": "4093 postmenopausal women with osteoporosis and a fragility fracture / romosozumab 12 months then alendronate / alendronate throughout / new vertebral, clinical, non-vertebral, hip fractures / 24 months (clinical fractures at primary analysis)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In ARCH, about 4,100 women who had already broken a bone took romosozumab (a bone-building injection) for a year and then alendronate, or alendronate throughout. Over two years, new spinal fractures on X-ray: 6 in 100 against 12 in 100. Hip fractures: 2.0 in 100 against 3.2 in 100. Serious heart and circulation events in the first year: 2.5 in 100 with romosozumab against 1.9 in 100 with alendronate.",
+   "qualifications": "Women only; industry-funded; clinical and hip fracture figures are at the primary analysis rather than exactly 24 months.",
+   "conflicting_or_uncertain": "Cardiovascular imbalance not seen in the placebo-controlled FRAME trial (per the ARCH discussion quoted by Scite); it remains the basis of the contraindication.",
+   "numbers": [
+    {
+     "value": "4093",
+     "meaning": "women randomised"
+    },
+    {
+     "value": "6.2% v 11.9%",
+     "meaning": "new vertebral fractures over 24 months"
+    },
+    {
+     "value": "9.7% v 13.0%",
+     "meaning": "clinical fractures"
+    },
+    {
+     "value": "2.0% v 3.2%",
+     "meaning": "hip fractures"
+    },
+    {
+     "value": "2.5% v 1.9%",
+     "meaning": "serious cardiovascular adverse events in year 1"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-25-c",
+   "cand_id": "C04-25",
+   "claim": "Some sequences work less well: switching from denosumab to teriparatide led to progressive or transient bone loss, with smaller hip density gains than switching the other way.",
+   "source_keys": [
+    "PMID:26144908",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "DATA-Switch: \"total hip bone mineral density increased more in the teriparatide to denosumab group (6·6% [95% CI 5·3-7·9]) than in the denosumab to teriparatide group (2·8% [1·3-4·2], p=0·0002)\" ... \"In postmenopausal osteoporotic women switching from teriparatide to denosumab, bone mineral density continued to increase, whereas switching from denosumab to teriparatide results in progressive or transient bone loss.\" NOGG: \"In women previously treated with denosumab, switching to teriparatide is associated with transient bone loss in the spine and greater and longer-lasting bone loss in the hip [] ... The impact of these effects, if any, on fracture risk is unknown.\"",
+   "location": "DATA-Switch abstract (Findings; Interpretation); NOGG full text, 'Treatment sequence'",
+   "pico_timeframe": "77 postmenopausal women with osteoporosis / switch denosumab to teriparatide v teriparatide to denosumab / BMD / 48 months total",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Order also affects bone density: in a small trial, women who went from teriparatide to denosumab kept gaining hip density (6.6% over four years), while those who went from denosumab to teriparatide gained much less (2.8%) and lost bone for a time.",
+   "qualifications": "Small (77 women); density only; NOGG says the effect on fractures is unknown.",
+   "conflicting_or_uncertain": "No fracture data.",
+   "numbers": [
+    {
+     "value": "77",
+     "meaning": "women in DATA-Switch"
+    },
+    {
+     "value": "6.6% v 2.8%",
+     "meaning": "total hip BMD increase over 48 months, teriparatide-to-denosumab v denosumab-to-teriparatide"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-25-d",
+   "cand_id": "C04-25",
+   "claim": "UK guidance defines very high fracture risk (for example a spinal fracture in the last 2 years, two or more spinal fractures, T-score -3.5 or lower, or high-dose steroids) and advises considering specialist referral and a bone-building drug first, particularly with spinal fractures.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Consider referral of very high-risk patients to an osteoporosis specialist in secondary care, for assessment and consideration of parenteral treatment (some may need first-line anabolic drug treatment, especially those with multiple vertebral fractures).\" ... \"Indications for referral to an osteoporosis specialist may arise through several routes, for example in the presence of single but important clinical risk factors, such as a recent vertebral fracture (within the last 2 years), ≥ 2 vertebral fractures (whenever they have occurred), a BMD T-score ≤  − 3.5, high-dose glucocorticoids use (≥ 7.5 mg/day of prednisolone or equivalent over 3 months)\" ... \"Consider teriparatide or romosozumab as first-line treatment options in postmenopausal women at very high fracture risk, particularly in those with vertebral fractures\" ... \"Consider teriparatide as a first-line treatment option in men age 50 years and older who are at very high fracture risk, particularly in those with vertebral fractures\" ... \"Comparator studies of anti-resorptive and anabolic agents have not been reported in men.\" ... \"very high risk is identified as a FRAX-based fracture probability that exceeds the intervention threshold by 60%\"",
+   "location": "NOGG full text: 'Indications for specialist referral in those at very high-fracture risk'; 'Anabolic drug treatment' recommendations 9 and 10; 'Treatment sequence'",
+   "pico_timeframe": "UK postmenopausal women and men 50+ at very high fracture risk / guideline",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance counts as very high risk, for example: a spinal fracture in the last 2 years, two or more spinal fractures at any time, very low bone density (T-score -3.5 or lower), or steroid tablets at 7.5 mg prednisolone a day or more for 3 months. For these people it says consider referral to a specialist and consider a bone-building drug first, especially after spinal fractures.",
+   "qualifications": "'Consider', not 'must'. Head-to-head trials were in women only; for men, NOGG suggests teriparatide but no comparator trials exist.",
+   "conflicting_or_uncertain": "NICE TA791 access criteria for romosozumab (search extract only) are narrower than the licence: a major osteoporotic fracture within 24 months.",
+   "numbers": [
+    {
+     "value": "2 years",
+     "meaning": "recent vertebral fracture window"
+    },
+    {
+     "value": "2 or more",
+     "meaning": "vertebral fractures at any time"
+    },
+    {
+     "value": "-3.5",
+     "meaning": "T-score threshold"
+    },
+    {
+     "value": "7.5 mg/day for 3 months",
+     "meaning": "prednisolone-equivalent threshold"
+    },
+    {
+     "value": "60%",
+     "meaning": "FRAX probability above intervention threshold defining very high risk"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-25-e",
+   "cand_id": "C04-25",
+   "claim": "Romosozumab must not be used after a heart attack or stroke, is licensed only for postmenopausal women, and is given for 12 months.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Romosozumab is contraindicated in patients with hypocalcaemia, hypersensitivity to any of the constituents of the formulation, or a history of myocardial infarction or stroke. When determining whether to use romosozumab for an individual patient, both fracture and cardiovascular risk (based on risk factors) over the next year need to be considered.\" ... \"is approved for the treatment of severe osteoporosis in postmenopausal women at very high risk of fracture. It is currently not approved for use in men.\" ... \"The duration of treatment is limited to 12 months.\"",
+   "location": "NOGG full text, 'Anabolic drugs: romosozumab'",
+   "pico_timeframe": "UK / licensing and contraindications as summarised by NOGG 2022",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Romosozumab is not an option for anyone who has had a heart attack or stroke, which rules it out for many older people; it is licensed only for women after the menopause and given for 12 months. Teriparatide is the other bone-building option.",
+   "qualifications": "Licensing summarised by a guideline, not the SmPC itself; check current licence before stating specifics beyond these.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "12 months",
+     "meaning": "maximum romosozumab course"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-25-f",
+   "cand_id": "C04-25",
+   "claim": "Bone-building drugs are once-only courses and must be followed without delay by an antiresorptive, so the sequence needs planning from the start.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"the sequence in which they are used is important; for example, the two available anabolic agents (teriparatide and romosozumab) are licensed for once only treatment courses.\" ... \"Following the approved duration of treatment with teriparatide or romosozumab (24 or 12 months respectively), initiate treatment with alendronate, zoledronate or denosumab without delay\" ... \"Any patient stopping denosumab, romosozumab or teriparatide requires a sequential therapy strategy usually involving an anti-resorptive drug, which should be planned at the time the initial therapy is instigated to avoid a gap in treatment.\"",
+   "location": "NOGG full text, specialist referral section; recommendation 12; 'Treatment sequence'",
+   "pico_timeframe": "UK / guideline",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Teriparatide (24 months) and romosozumab (12 months) are each given once. Afterwards a drug such as alendronate, zoledronate or denosumab should start straight away, and that plan should be made at the outset.",
+   "qualifications": "Guideline recommendation.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "24 / 12 months",
+     "meaning": "course length of teriparatide / romosozumab"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-25-g",
+   "cand_id": "C04-25",
+   "claim": "NICE TA791 recommends romosozumab for severe osteoporosis after menopause only after a major osteoporotic fracture within 24 months.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ta791"
+   ],
+   "supporting_passage": "Search-engine extract (not opened): \"Romosozumab is recommended as an option for treating severe osteoporosis in people after menopause who are at high risk of fracture, only if they have had a major osteoporotic fracture (spine, hip, forearm or humerus fracture) within 24 months (so are at imminent risk of another fracture) and the company provides romosozumab according to the commercial arrangement.\"",
+   "location": "NICE TA791 recommendations (search extract only)",
+   "pico_timeframe": "England and Wales",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "Not for use as an essential claim. If mentioned at all: 'In England, NICE restricts romosozumab to women after the menopause with a major fracture in the past two years' (search extract; confirm on the live page first).",
+   "qualifications": "Search extract only; NOGG 2022 predates the final NICE decision.",
+   "conflicting_or_uncertain": "Scottish access (SMC) not checked.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-30-a",
+   "cand_id": "C04-30",
+   "claim": "In FIT (2,027 women with existing spinal fractures, 36 months), alendronate cut spinal fractures found on scheduled X-rays from 15.0% to 8.0%, spinal fractures that came to clinical attention from 5.0% to 2.3%, and any clinical fracture from 18.2% to 13.6%.",
+   "source_keys": [
+    "PMID:8950879"
+   ],
+   "supporting_passage": "\"2027 women were randomly assigned placebo (1005) or alendronate (1022) and followed up for 36 months.\" ... \"New vertebral fractures, the primary endpoint, were defined by morphometry as a decrease of 20% (and at least 4 mm) in at least one vertebral height between the baseline and latest follow-up radiograph.\" ... \"New symptomatic vertebral fractures were based on self-report and confirmed by radiography.\" ... \"78 (8.0%) of women in the alendronate group had one or more new morphometric vertebral fractures compared with 145 (15.0%) in the placebo group (relative risk 0.53 [95% Cl 0.41-0.68]). For clinically apparent vertebral fractures, the corresponding numbers were 23 (2.3%) alendronate and 50 (5.0%) placebo (relative hazard 0.45 [0.27-0.72]). The risk of any clinical fracture, the main secondary endpoint, was lower in the alendronate than in the placebo group (139 [13.6%] vs 183 [18.2%]; relative hazard 0.72 [0.58-0.90]). The relative hazards for hip fracture and wrist fracture for alendronate versus placebo were 0.49 (0.23-0.99) and 0.52 (0.31-0.87).\"",
+   "location": "Abstract (Methods; Findings)",
+   "pico_timeframe": "2027 women aged 55-81 with low femoral-neck BMD and at least one vertebral fracture / alendronate / placebo / morphometric and clinical vertebral fractures, any clinical fracture / 36 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Per 100 women over 3 years in the alendronate trial: spinal fractures seen on scheduled X-rays, 15 with placebo and 8 with alendronate; spinal fractures diagnosed because of symptoms, 5 and 2.3; any fracture that came to medical attention, 18 and 14.",
+   "qualifications": "Women with existing spinal fractures and low hip density; absolute hip-fracture numbers are not in the abstract (only relative hazard 0.49), so do not chart hip bars from this source.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "15.0% v 8.0%",
+     "meaning": "morphometric vertebral fractures, placebo v alendronate, 36 months"
+    },
+    {
+     "value": "5.0% v 2.3%",
+     "meaning": "clinically apparent vertebral fractures"
+    },
+    {
+     "value": "18.2% v 13.6%",
+     "meaning": "any clinical fracture"
+    },
+    {
+     "value": "0.49",
+     "meaning": "relative hazard for hip fracture (no absolute figures in abstract)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-30-b",
+   "cand_id": "C04-30",
+   "claim": "In FREEDOM, denosumab reduced new X-ray spinal fractures from 7.2% to 2.3% and hip fractures from 1.2% to 0.7% over 3 years.",
+   "source_keys": [
+    "PMID:19671655"
+   ],
+   "supporting_passage": "\"We enrolled 7868 women between the ages of 60 and 90 years who had a bone mineral density T score of less than -2.5 but not less than -4.0 at the lumbar spine or total hip.\" ... \"As compared with placebo, denosumab reduced the risk of new radiographic vertebral fracture, with a cumulative incidence of 2.3% in the denosumab group, versus 7.2% in the placebo group (risk ratio, 0.32 ...)--a relative decrease of 68%. Denosumab reduced the risk of hip fracture, with a cumulative incidence of 0.7% in the denosumab group, versus 1.2% in the placebo group (hazard ratio, 0.60 ...)--a relative decrease of 40%. Denosumab also reduced the risk of nonvertebral fracture, with a cumulative incidence of 6.5% in the denosumab group, versus 8.0% in the placebo group\"",
+   "location": "Abstract (Methods; Results)",
+   "pico_timeframe": "7868 women aged 60-90, T-score below -2.5 / denosumab 60 mg every 6 months / placebo / radiographic vertebral, hip, non-vertebral fractures / 36 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In the denosumab trial, a 68% cut in X-ray spinal fractures meant 7 in 100 falling to 2 in 100 over 3 years; the 40% cut in hip fractures meant about 12 in 1000 falling to 7 in 1000.",
+   "qualifications": "Different drug and population from FIT; do not mix into one chart without labelling.",
+   "conflicting_or_uncertain": "Denosumab must not be stopped without follow-on treatment (owned by C04-07).",
+   "numbers": [
+    {
+     "value": "7.2% v 2.3%",
+     "meaning": "new radiographic vertebral fractures, placebo v denosumab, 3 years"
+    },
+    {
+     "value": "1.2% v 0.7%",
+     "meaning": "hip fractures, 3 years"
+    },
+    {
+     "value": "8.0% v 6.5%",
+     "meaning": "non-vertebral fractures"
+    },
+    {
+     "value": "68% / 40%",
+     "meaning": "relative reductions (vertebral / hip)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-30-c",
+   "cand_id": "C04-30",
+   "claim": "Only about a quarter of new spinal fractures found on scheduled X-rays in FIT were diagnosed clinically at the time.",
+   "source_keys": [
+    "PMID:15940375"
+   ],
+   "supporting_passage": "\"Of incident radiograpic vertebral deformities, 22.6% were also clinically diagnosed as incident vertebral fractures, with clinical diagnoses made for 28.4% of the deformities that exceeded 30% and 4 mm height loss (severe deformity) compared with 14.3% for deformities that involved > or = 20% and 4 mm but < 30% height loss (milder deformity).\" ... \"Approximately one-fourth of incident radiographic vertebral deformities were clinically diagnosed as new vertebral fractures\"",
+   "location": "Abstract (Results; Conclusions)",
+   "pico_timeframe": "6084 FIT participants with baseline and follow-up spine X-rays / incident radiographic deformities v community-diagnosed clinical vertebral fractures",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In the same trial, only about 1 in 4 of the new spinal fractures seen on the scheduled X-rays had been diagnosed at the time (about 1 in 7 of the milder ones, closer to 3 in 10 of the severe ones).",
+   "qualifications": "'Not diagnosed' is not the same as 'not felt' (see C04-30-d).",
+   "conflicting_or_uncertain": "About a quarter of clinically diagnosed fractures did not meet the morphometric definition, so the two measures overlap only partly.",
+   "numbers": [
+    {
+     "value": "22.6%",
+     "meaning": "incident radiographic deformities also clinically diagnosed"
+    },
+    {
+     "value": "14.3% / 28.4%",
+     "meaning": "milder / severe deformities clinically diagnosed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-30-d",
+   "cand_id": "C04-30",
+   "claim": "New spinal fractures that were not recognised clinically were still linked with more back pain and limitation of activity.",
+   "source_keys": [
+    "PMID:9599190"
+   ],
+   "supporting_passage": "\"New vertebral fractures that did not come to medical attention were associated with increased back pain and functional limitation.\" Conclusion: \"New vertebral fractures, even those not recognized clinically, are associated with substantial increases in back pain and functional limitation due to back pain in older white women.\"",
+   "location": "Abstract (Results; Conclusions)",
+   "pico_timeframe": "7223 white women aged 65+, Study of Osteoporotic Fractures / incident radiographic vertebral fracture / none / back pain, disability, bed rest / about 3.7 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Spinal fractures found only on X-ray are not harmless: in a large study of older women, new fractures that never reached a doctor were still linked with more back pain and more days of limited activity.",
+   "qualifications": "Observational association; white women only. Use 'not diagnosed at the time', never 'never felt'.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "7223",
+     "meaning": "women studied"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-30-e",
+   "cand_id": "C04-30",
+   "claim": "Women who had a new spinal fracture on X-ray had about a 1 in 5 chance of another within the next year.",
+   "source_keys": [
+    "PMID:11176842"
+   ],
+   "supporting_passage": "\"Among the 381 participants who developed an incident vertebral fracture, the incidence of a new vertebral fracture in the subsequent year was 19.2% (95% CI, 13.6%-24.8%).\" ... \"Our data indicate that women who develop a vertebral fracture are at substantial risk for additional fracture within the next year.\"",
+   "location": "Abstract (Results; Conclusions)",
+   "pico_timeframe": "2725 postmenopausal women in placebo groups of 4 trials / incident radiographic vertebral fracture / subsequent vertebral fracture / 1 year",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "X-ray-detected spinal fractures also signal risk: in trial placebo groups, about 1 in 5 women with a new one had another within a year.",
+   "qualifications": "Placebo arms of risedronate trials (women on calcium); radiographically identified fractures.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "19.2% (13.6% to 24.8%)",
+     "meaning": "new vertebral fracture within 1 year after an incident vertebral fracture (381 women)"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C04-29",
+   "status": "ready",
+   "reason": "All essential claims are supported. Riggs 1990 confirms the fluoride figures (spine BMD +35% median v placebo; vertebral fractures 163 v 136, not significant; non-vertebral 72 v 24, P<0.01); Haguenauer 2000 shows the pattern held across 11 trials. Black 2020 supports the line that approved drugs' density gains track fracture reduction across trials, and Cummings 2002 and Bell 2009 support the individual-monitoring point (density explains only part of the benefit; routine repeat DXA in the first 3 years of a potent bisphosphonate is unnecessary and may mislead). NOGG supports 'check adherence and look for new fractures'. The ISCD least-significant-change claim was not verified: drop it and use Bell 2009 instead. Fracture figures are counts, not women, and must not be recomputed as percentages. The mirrored caption flagged by the judge is a style issue for the writer.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-29-a",
+    "C04-29-c",
+    "C04-29-d",
+    "C04-29-e",
+    "C04-29-f"
+   ]
+  },
+  {
+   "cand_id": "C04-17",
+   "status": "ready",
+   "reason": "Essential claims supported: Cochrane 2018 (5 sham trials, no clinically important benefit at one month; pain 4.3 v 5 out of 10; open trials likely overestimated benefit; serious adverse events reported but risk uncertain); VAPOUR positive result for fractures under 6 weeks with pain 7/10 or more (44% v 21% low pain at 14 days) stated plainly; pain fell in sham arms (Buchbinder 2009, Kallmes 2009); ASBMR and NOGG 2022 say routine use of vertebroplasty or balloon kyphoplasty is not supported, and kyphoplasty lacks sham-controlled evidence. NICE TA279's narrow indication is search-extract only, so it cannot be an essential claim; the UK position should be carried by NOGG 2022 ('not routine'), with NICE at most an optional attributed clause. Do not call VAPOUR participants 'inpatients' (not verified).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-17-a",
+    "C04-17-b",
+    "C04-17-d",
+    "C04-17-e",
+    "C04-17-f",
+    "C04-17-g"
+   ]
+  },
+  {
+   "cand_id": "C04-20",
+   "status": "revise",
+   "reason": "The trial facts are supported (VITAL full text; D-Health HR 0.94 confirmed; Chapuy tested vitamin D with calcium). But the core insight overstates the gap: VITAL did analyse people with low levels, including a post hoc group of 401 with very low levels, and found no benefit there either, so the argument must be 'thin evidence in deficiency', not 'says little/untested'. Chapuy's care-home or sheltered-housing setting is not stated in the opened abstract and was not verified, so the post must not present Chapuy as a care-home trial; the care-home point should come from VITAL's stated limits and the Cochrane per-1000 estimate for institutional residents (vitamin D plus calcium). D-Health baseline vitamin D status is not in the abstract, so 'people who had enough' should be anchored to VITAL.",
+   "revised_angle": "The big recent trials tested vitamin D on its own in mostly healthy people who were mostly not short of it (VITAL: mean level normal, only about 2 in 100 very low), and found no fewer fractures; D-Health found the same. Read them as: extra vitamin D alone does not prevent fractures in people like those studied. The evidence for people who are deficient is thin: VITAL was not designed to test them, and its small very-low group showed no benefit either. Vitamin D given with calcium cut hip fractures slightly in pooled trials, about 1 fewer per 1000 a year at home and about 9 fewer per 1000 a year in care homes (estimates), and UK guidance still says people on bone medicines should be vitamin D replete. Visual: left 'Who was in the big trials' (healthy, at home, not selected for low vitamin D, vitamin D alone); right 'What they do not settle' (people who are deficient, people in care homes, vitamin D with calcium, people starting bone medicines), with no claim that the right-hand groups benefit.",
+   "essential_claim_ids": [
+    "C04-20-a",
+    "C04-20-b",
+    "C04-20-c",
+    "C04-20-e",
+    "C04-20-f"
+   ]
+  },
+  {
+   "cand_id": "C04-25",
+   "status": "ready",
+   "reason": "Supported with wording fixes recorded in safe_wording. VERO (5.4% v 12.0% new vertebral fractures) and ARCH (6.2% v 11.9%; serious cardiovascular events 2.5% v 1.9% in year 1) confirmed from abstracts; DATA-Switch confirms hip bone loss when switching denosumab to teriparatide (density only); NOGG 2022 full text supplies the plain definition of very high risk, 'consider referral and first-line anabolic', the romosozumab contraindication after heart attack or stroke, women-only licence, and once-only courses followed by an antiresorptive. Required wording: VERO compared two drugs for 24 months (not a sequence); both trials were in postmenopausal women; quote VERO percentages, not recomputed from 680; say 'consider'. NICE TA791 criteria are search-extract only and must not be essential.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-25-a",
+    "C04-25-b",
+    "C04-25-d",
+    "C04-25-e",
+    "C04-25-f"
+   ]
+  },
+  {
+   "cand_id": "C04-30",
+   "status": "revise",
+   "reason": "Reserve (fallback for C04-29). Trial figures are supported (FIT abstract; FREEDOM abstract), and Fink 2005 supplies the proportion diagnosed clinically (about 1 in 4 in FIT). But 'never felt by the person' is contradicted by Nevitt 1998 (undiagnosed fractures linked with more back pain and limitation), and the planned FIT hip-fracture bars cannot be drawn because the FIT abstract gives only a relative hazard (0.49) for hip fracture.",
+   "revised_angle": "Trial headline cuts in spinal fractures mostly count fractures found on scheduled X-rays, only about 1 in 4 of which were diagnosed at the time; they are not harmless (linked with more back pain, and about 1 in 5 women with one had another within a year). A person deciding on treatment should hear both numbers. Chart from FIT, per 100 women over 3 years, placebo v alendronate: X-ray spinal fractures 15 v 8; spinal fractures diagnosed because of symptoms 5 v 2.3; any clinical fracture 18.2 v 13.6. If hip is wanted, use FREEDOM separately and label it (1.2 v 0.7 per 100 over 3 years). Replace 'never felt' with 'not diagnosed at the time'.",
+   "essential_claim_ids": [
+    "C04-30-a",
+    "C04-30-c",
+    "C04-30-d"
+   ]
+  }
+ ]
+}

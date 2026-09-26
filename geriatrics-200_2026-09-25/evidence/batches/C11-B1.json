@@ -1,0 +1,1336 @@
+{
+ "batch": "C11-B1",
+ "category": "C11",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:16284208",
+   "citation": "Glass J, Lanctôt KL, Herrmann N, Sproule BA, Busto UE. Sedative hypnotics in older people with insomnia: meta-analysis of risks and benefits. BMJ. 2005;331(7526):1169.",
+   "pmid": "16284208",
+   "pmcid": "PMC1285093",
+   "doi": "10.1136/bmj.38623.768588.47",
+   "public_url": "https://doi.org/10.1136/bmj.38623.768588.47",
+   "design": "Systematic review and meta-analysis of 24 randomised placebo-controlled trials (2,417 participants); searches 1966 to 2003",
+   "population_setting": "People aged 60 or over with insomnia, otherwise free of psychiatric disorders; community and geriatric inpatient settings; treatment for at least five consecutive nights (Table 1: 5 nights to 9 weeks)",
+   "year": 2005,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); PMC full text returned empty body; Undermind read_pdfs on the published BMJ PDF (NNT/NNH, methods, limitations, publication bias); Scite search_literature full-text snippets (NNT and NNH sentences match)",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Still the standard pooled estimate for sedative hypnotics in people over 60, but trials are old (to 2003), short, mostly benzodiazepines and Z-drugs, and sleep outcomes are self-reported. Funnel plot suggested publication bias favouring positive results; trim-and-fill gave a 15-minute total sleep time gain. The abstract reports psychomotor events as OR 2.61 (1.12 to 6.09) with P>0.05, an internal inconsistency: treat falls-type events from this paper as uncertain. Do not convert odds ratios into 'times more likely' in posts. No industry funding (PhD thesis)."
+  },
+  {
+   "key": "PMID:23460413",
+   "citation": "Berry SD, Lee Y, Cai S, Dore DD. Nonbenzodiazepine sleep medication use and hip fractures in nursing home residents. JAMA Intern Med. 2013;173(9):754-61.",
+   "pmid": "23460413",
+   "pmcid": "PMC3676706",
+   "doi": "10.1001/jamainternmed.2013.3795",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2013.3795",
+   "design": "Case-crossover study using Medicare claims",
+   "population_setting": "15,528 long-stay US nursing home residents aged 50 or older with hip fracture, 2007 to 2008; mean age 81; Z-drugs zolpidem, eszopiclone, zaleplon",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Observational: association only. The within-person design removes fixed personal confounders but not time-varying ones (for example a new illness that prompts both a sleeping tablet and a fall). US Z-drugs; zopiclone (common in the UK) not studied."
+  },
+  {
+   "key": "PMID:37139824",
+   "citation": "2023 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023;71(7):2052-81.",
+   "pmid": "37139824",
+   "pmcid": "PMC12478568",
+   "doi": "10.1111/jgs.18372",
+   "public_url": "https://doi.org/10.1111/jgs.18372",
+   "design": "Expert consensus guideline (explicit criteria) based on structured evidence review, GRADE-adapted",
+   "population_setting": "Adults aged 65 and over in ambulatory, acute and institutional care, excluding hospice and end-of-life care; designed for the United States",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC body text; tables stripped); Undermind read_pdfs on the published PDF for verbatim Table 2 and Table 3 rows (pages 22, 24 and 27)",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Major guideline, but US-specific: its Z-drug list (eszopiclone, zaleplon, zolpidem) omits zopiclone because of US availability. 'Avoid' means avoid except under unusual circumstances, not an absolute contraindication, and the panel stresses shared decision-making."
+  },
+  {
+   "key": "PMID:27136449",
+   "citation": "Qaseem A, Kansagara D, Forciea MA, Cooke M, Denberg TD; Clinical Guidelines Committee of the American College of Physicians. Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians. Ann Intern Med. 2016;165(2):125-33.",
+   "pmid": "27136449",
+   "pmcid": null,
+   "doi": "10.7326/M15-2175",
+   "public_url": "https://doi.org/10.7326/M15-2175",
+   "design": "Clinical practice guideline based on a systematic review of RCTs 2004 to September 2015 (GRADE-based ACP system)",
+   "population_setting": "Adults with chronic insomnia disorder (not specific to older adults)",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "US guideline; strong recommendation, moderate-quality evidence for CBT-I first. Adult population, not older-specific."
+  },
+  {
+   "key": "PMID:38016484",
+   "citation": "Riemann D, Espie CA, Altena E, Arnardottir ES, Baglioni C, Bassetti CLA, et al. The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023. J Sleep Res. 2023;32(6):e14035.",
+   "pmid": "38016484",
+   "pmcid": null,
+   "doi": "10.1111/jsr.14035",
+   "public_url": "https://doi.org/10.1111/jsr.14035",
+   "design": "European clinical practice guideline (graded recommendations A to C)",
+   "population_setting": "Adults with insomnia, 'adults of any age (including patients with comorbidities)'",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Current European guideline with UK authors. Gives the first-line CBT-I recommendation for all ages and the prolonged-release melatonin recommendation (up to 3 months, 55 and over, grade B); also says fast-release melatonin is not recommended (grade A)."
+  },
+  {
+   "key": "PMID:24733354",
+   "citation": "Tannenbaum C, Martin P, Tamblyn R, Benedetti A, Ahmed S. Reduction of inappropriate benzodiazepine prescriptions among older adults through direct patient education: the EMPOWER cluster randomized trial. JAMA Intern Med. 2014;174(6):890-8.",
+   "pmid": "24733354",
+   "pmcid": null,
+   "doi": "10.1001/jamainternmed.2014.949",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2014.949",
+   "design": "Cluster randomised trial (30 community pharmacies), 6-month follow-up",
+   "population_setting": "303 long-term benzodiazepine users aged 65 to 95 in Quebec, Canada, screened and enrolled through community pharmacies before randomisation, 2010 to 2012",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (full text not accessible: closed access; Undermind could not retrieve PDF)",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Well-designed cluster RCT with blinded outcome assessment; outcome was stopping refills in pharmacy renewal records, not confirmed abstinence. How the booklet was delivered (post or in person) is not stated in the abstract; say 'given' rather than 'posted'. 14% lost to 6-month follow-up."
+  },
+  {
+   "key": "PMID:30422193",
+   "citation": "Martin P, Tamblyn R, Benedetti A, Ahmed S, Tannenbaum C. Effect of a pharmacist-led educational intervention on inappropriate medication prescriptions in older adults: the D-PRESCRIBE randomized clinical trial. JAMA. 2018;320(18):1889-98.",
+   "pmid": "30422193",
+   "pmcid": "PMC6248132",
+   "doi": "10.1001/jama.2018.16131",
+   "public_url": "https://doi.org/10.1001/jama.2018.16131",
+   "design": "Cluster randomised trial (69 community pharmacies), 6-month follow-up",
+   "population_setting": "489 community-dwelling adults aged 65 and over in Quebec (mean age 75) taking one of 4 Beers Criteria medicines; sedative-hypnotic subgroup 301",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Two-part intervention: brochure to the patient plus an evidence-based pharmaceutical opinion from the pharmacist to the doctor, so it is not a leaflet-only test. Outcome by pharmacy renewal records. Authors state generalisability outside Quebec needs further research."
+  },
+  {
+   "key": "PMID:39432286",
+   "citation": "Singh S, Li X, Cocoros NM, Antonelli MT, Avula R, Crawford SL, et al. High-risk medications in persons living with dementia: a randomized clinical trial. JAMA Intern Med. 2024;184(12):1426-33.",
+   "pmid": "39432286",
+   "pmcid": "PMC11581620",
+   "doi": "10.1001/jamainternmed.2024.5632",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2024.5632",
+   "design": "Pragmatic randomised trial embedded in 2 US national health plans, 3 arms",
+   "population_setting": "12,787 people with Alzheimer disease or related dementias taking antipsychotics, sedative-hypnotics or strong anticholinergics; mean age 77; 2022 to 2023",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Large, recent trial of mailed education to patients or carers and prescribers, with no pharmacist contact: no reduction in dispensing. Different population (people with dementia) and delivery (mail only) from the Quebec trials."
+  },
+  {
+   "key": "PMID:36200403",
+   "citation": "Mak SS, Alessi CA, Kaufmann CN, Martin JL, Mitchell MN, Ulmer C, et al. Pilot RCT testing a mailing about sleeping pills and cognitive behavioral therapy for insomnia: impact on benzodiazepines and Z-drugs. Clin Gerontol. 2024;47(3):452-63 (epub 6 Oct 2022).",
+   "pmid": "36200403",
+   "pmcid": "PMC10076445",
+   "doi": "10.1080/07317115.2022.2130849",
+   "public_url": "https://doi.org/10.1080/07317115.2022.2130849",
+   "design": "Pilot randomised controlled trial, 3 arms, 6 and 12 months",
+   "population_setting": "2,009 US veterans aged 65 and over with benzodiazepine or Z-drug prescriptions (Colorado and Montana VA pharmacies)",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Pilot; the control arm also received a mailed risk brochure (without insomnia-treatment information), so this tests adding CBT-I information and a phone call, not brochure versus nothing. No difference in prescriptions."
+  },
+  {
+   "key": "PMID:30014139",
+   "citation": "Wesselius HM, van den Ende ES, Alsma J, Ter Maaten JC, Schuit SCE, Stassen PM, et al. Quality and quantity of sleep and factors associated with sleep disturbance in hospitalized patients. JAMA Intern Med. 2018;178(9):1201-8.",
+   "pmid": "30014139",
+   "pmcid": "PMC6142965",
+   "doi": "10.1001/jamainternmed.2018.2669",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2018.2669",
+   "design": "Nationwide single-day multicentre cross-sectional survey (39 hospitals)",
+   "population_setting": "2,005 adult inpatients on regular wards in the Netherlands, median age 68 (IQR 57 to 77), 22 February 2017",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Self-reported sleep compared with recalled habitual sleep at home; adults of all ages (median 68), not only older people; excludes people unable to consent (so people with dementia or severe illness are under-represented)."
+  },
+  {
+   "key": "PMID:15496217",
+   "citation": "Jackson S, Ham RJ, Wilkinson D. The safety and tolerability of donepezil in patients with Alzheimer's disease. Br J Clin Pharmacol. 2004;58 Suppl 1:1-8.",
+   "pmid": "15496217",
+   "pmcid": "PMC1884556",
+   "doi": "10.1111/j.1365-2125.2004.01848.x",
+   "public_url": "https://doi.org/10.1111/j.1365-2125.2004.01848.x",
+   "design": "Narrative review in a journal supplement",
+   "population_setting": "People with Alzheimer disease taking donepezil (trial and routine-practice data)",
+   "year": 2004,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Narrative review in a supplement (likely manufacturer-supported; not verified). Supports the statement that insomnia and sleep disorders occur with donepezil and that morning dosing or slower titration can reduce them; not a trial of dose timing."
+  },
+  {
+   "key": "PMID:34916075",
+   "citation": "Moderie C, Carrier J, Dang-Vu TT. [Sleep disorders in patients with a neurocognitive disorder]. Encephale. 2022;48(3):325-34 (epub 14 Dec 2021).",
+   "pmid": "34916075",
+   "pmcid": null,
+   "doi": "10.1016/j.encep.2021.08.014",
+   "public_url": "https://doi.org/10.1016/j.encep.2021.08.014",
+   "design": "Narrative review (French-language article; English abstract read)",
+   "population_setting": "People with neurocognitive disorders (dementia)",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Expert narrative review; recommendations on dose timing are expert advice, not trial findings."
+  },
+  {
+   "key": "PMID:15630600",
+   "citation": "Singer M, Romero B, Koenig E, Förstl H, Brunner H. [Nightmares in patients with Alzheimer's disease caused by donepezil. Therapeutic effect depends on the time of intake]. Nervenarzt. 2005;76(9):1127-9.",
+   "pmid": "15630600",
+   "pmcid": null,
+   "doi": "10.1007/s00115-004-1856-7",
+   "public_url": "https://doi.org/10.1007/s00115-004-1856-7",
+   "design": "Case series (8 patients), German-language, English abstract read",
+   "population_setting": "8 people with Alzheimer-type dementia taking donepezil, Germany",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata; Scite metadata",
+   "correction_check": "PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026. Scite metadata record shows no editorial notice.",
+   "quality_note": "Very low-level evidence (8 patients, uncontrolled). Use only as an example, never as proof."
+  },
+  {
+   "key": "PMID:23947590",
+   "citation": "Liu D, Ahmet A, Ward L, Krishnamoorthy P, Mandelcorn ED, Leigh R, et al. A practical guide to the monitoring and management of the complications of systemic corticosteroid therapy. Allergy Asthma Clin Immunol. 2013;9(1):30.",
+   "pmid": "23947590",
+   "pmcid": "PMC3765115",
+   "doi": "10.1186/1710-1492-9-30",
+   "public_url": "https://doi.org/10.1186/1710-1492-9-30",
+   "design": "Practical review with expert recommendations (Canadian authors)",
+   "population_setting": "Adults and children on systemic corticosteroids",
+   "year": 2013,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles and get_article_metadata; Undermind read_pdfs on the open-access PDF (page 7 and pages 13 to 14)",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Expert guidance based on literature and clinical experience; the morning-dose advice for sleep is phrased as 'can potentially be decreased', citing a 1993 BMJ letter. Not an older-people study."
+  },
+  {
+   "key": "PMID:28984060",
+   "citation": "Oelke M, De Wachter S, Drake MJ, Giannantoni A, Kirby M, Orme S, et al. A practical approach to the management of nocturia. Int J Clin Pract. 2017;71(11):e13027.",
+   "pmid": "28984060",
+   "pmcid": "PMC5698733",
+   "doi": "10.1111/ijcp.13027",
+   "public_url": "https://doi.org/10.1111/ijcp.13027",
+   "design": "Expert consensus practical review (multidisciplinary European group including a UK geriatrician)",
+   "population_setting": "Adults with nocturia",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Expert opinion; manufacturer involvement not checked (the review favours low-dose desmopressin). Used here only for diuretic timing advice."
+  },
+  {
+   "key": "PMID:9488061",
+   "citation": "Reynard JM, Cannon A, Yang Q, Abrams P. A novel therapy for nocturnal polyuria: a double-blind randomized trial of frusemide against placebo. Br J Urol. 1998;81(2):215-8.",
+   "pmid": "9488061",
+   "pmcid": null,
+   "doi": "10.1046/j.1464-410x.1998.00511.x",
+   "public_url": "https://doi.org/10.1046/j.1464-410x.1998.00511.x",
+   "design": "Double-blind randomised placebo-controlled trial",
+   "population_setting": "49 men aged over 50 with lower urinary tract symptoms and nocturia (43 completed), UK",
+   "year": 1998,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026. Scite DOI-filtered notice queries returned no match.",
+   "quality_note": "Small, old trial in men only. Shows that furosemide 40 mg taken about 6 hours before bed reduced night-time voiding: an afternoon or teatime loop diuretic is therefore not a cause of nocturia in the way a late-evening dose would be."
+  },
+  {
+   "key": "PMID:40531150",
+   "citation": "Getaneh FW, Sussman RD, Iglesia CB. Nocturia: evaluation and management. Am Fam Physician. 2025;111(6):515-523B.",
+   "pmid": "40531150",
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/40531150/",
+   "design": "Clinical review",
+   "population_setting": "Adults with nocturia (primary care)",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026. Not checked in Scite (no DOI or not in DOI list).",
+   "quality_note": "Recent primary-care review; supports 'address timing of diuretic intake' as first-line lifestyle advice, without specifying times."
+  },
+  {
+   "key": "PMID:33189083",
+   "citation": "McCleery J, Sharpley AL. Pharmacotherapies for sleep disturbances in dementia. Cochrane Database Syst Rev. 2020;11(11):CD009178.",
+   "pmid": "33189083",
+   "pmcid": "PMC8094738",
+   "doi": "10.1002/14651858.CD009178.pub4",
+   "public_url": "https://doi.org/10.1002/14651858.CD009178.pub4",
+   "design": "Cochrane systematic review and meta-analysis of RCTs (9 trials); search to February 2020",
+   "population_setting": "People with dementia (mostly Alzheimer disease) and an identified sleep disturbance; melatonin trials 5 (n = 222), mostly moderate-to-severe AD",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "High-quality review; melatonin evidence low certainty, small numbers (primary sleep outcomes from 2 studies, n = 184), 8 to 10 weeks. Same review found some benefit for trazodone (low certainty) and orexin antagonists (moderate certainty), and no RCTs of benzodiazepines or Z-drugs in dementia."
+  },
+  {
+   "key": "PMID:27855744",
+   "citation": "Erland LA, Saxena PK. Melatonin natural health products and supplements: presence of serotonin and significant variability of melatonin content. J Clin Sleep Med. 2017;13(2):275-81.",
+   "pmid": "27855744",
+   "pmcid": "PMC5263083",
+   "doi": "10.5664/jcsm.6462",
+   "public_url": "https://doi.org/10.5664/jcsm.6462",
+   "design": "Laboratory product analysis (UPLC)",
+   "population_setting": "31 commercial melatonin supplements (Canadian natural health products)",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Canadian products bought in 2016 or earlier; not UK licensed medicines. Abstract says both 30 and 31 supplements; quote the percentages, not the count."
+  },
+  {
+   "key": "PMID:37097362",
+   "citation": "Cohen PA, Avula B, Wang YH, Katragunta K, Khan I. Quantity of melatonin and CBD in melatonin gummies sold in the US. JAMA. 2023;329(16):1401-2.",
+   "pmid": "37097362",
+   "pmcid": "PMC10130950",
+   "doi": "10.1001/jama.2023.2296",
+   "public_url": "https://doi.org/10.1001/jama.2023.2296",
+   "design": "Research letter: laboratory analysis of products bought online",
+   "population_setting": "25 melatonin gummy products sold in the US, bought online in 2022",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (no abstract; PMC body empty); Scite search_literature fulltextExcerpts (verbatim Methods, Results, Discussion); Undermind could not retrieve PDF",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Small sample of US gummies, framed around children's use; supports 'unpredictable amounts' for unregulated supplements bought online, not UK prescribed melatonin."
+  },
+  {
+   "key": "PMID:23691095",
+   "citation": "Ferracioli-Oda E, Qawasmi A, Bloch MH. Meta-analysis: melatonin for the treatment of primary sleep disorders. PLoS One. 2013;8(5):e63773.",
+   "pmid": "23691095",
+   "pmcid": "PMC3656905",
+   "doi": "10.1371/journal.pone.0063773",
+   "public_url": "https://doi.org/10.1371/journal.pone.0063773",
+   "design": "Meta-analysis of 19 placebo-controlled RCTs (1,683 participants)",
+   "population_setting": "Adults and children with primary sleep disorders (not older-specific)",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Mixed ages and products; gives the size of the average effect (minutes). PubMed-only search."
+  },
+  {
+   "key": "PMID:25054634",
+   "citation": "Hajak G, Lemme K, Zisapel N. Lasting treatment effects in a postmarketing surveillance study of prolonged-release melatonin. Int Clin Psychopharmacol. 2015;30(1):36-42.",
+   "pmid": "25054634",
+   "pmcid": null,
+   "doi": "10.1097/YIC.0000000000000046",
+   "public_url": "https://doi.org/10.1097/YIC.0000000000000046",
+   "design": "Post-marketing surveillance study (uncontrolled)",
+   "population_setting": "597 evaluable patients with insomnia at 204 German sites, mean age 62.7",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "Scite search_literature (abstract); PMID from PubMed search_articles",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Manufacturer-linked (Zisapel is from the licence holder); used only for the statement that prolonged-release melatonin (Circadin) was approved in Europe for primary insomnia in people aged 55 or older. Its efficacy data are uncontrolled and should not be used."
+  },
+  {
+   "key": "URL:https://www.medicines.org.uk/emc/product/2809/smpc",
+   "citation": "Circadin 2 mg prolonged-release tablets: Summary of Product Characteristics. electronic medicines compendium (emc). [search-engine extract only; page not opened].",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/None/",
+   "design": "Official summary of product characteristics (UK)",
+   "population_setting": "UK licensed product",
+   "year": 2026,
+   "access": "search_extract",
+   "tool_used": "WebSearch (extract of emc SmPC and PIL results); page not openable (WebFetch blocked)",
+   "correction_check": "Not applicable (regulatory document).",
+   "quality_note": "Search-engine extract only: 'short-term treatment of primary insomnia characterised by poor quality of sleep in patients who are aged 55 or over', 2 mg 1 to 2 hours before bedtime, up to thirteen weeks; UK prescription-only status appears only in the search summary. Not sufficient for an essential claim."
+  },
+  {
+   "key": "PMID:31634354",
+   "citation": "Fralick M, Schneeweiss S, Wallis CJD, Jung EH, Kesselheim AS. Desmopressin and the risk of hyponatremia: a population-based cohort study. PLoS Med. 2019;16(10):e1002930.",
+   "pmid": "31634354",
+   "pmcid": "PMC6802819",
+   "doi": "10.1371/journal.pmed.1002930",
+   "public_url": "https://doi.org/10.1371/journal.pmed.1002930",
+   "design": "New-user cohort study, 1:1 propensity-score matched, US commercial health plan claims 2006 to 2017",
+   "population_setting": "Adults over 50 newly prescribed the older desmopressin formulation (n = 3,137) versus oxybutynin (n = 3,137); mean age 70, 55% male",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs on the open-access PDF (methods, outcome definition, discussion)",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Good design for a drug-safety signal, but observational; outcome is a coded primary-position diagnosis (inpatient or outpatient); baseline sodium available for only about 20%; unmeasured confounding; older formulation only (not the newer low-dose products). No age-stratified results."
+  },
+  {
+   "key": "PMID:33230803",
+   "citation": "Wolff DT, Adler KA, Weinstein CS, Weiss JP. Managing nocturia in frail older adults. Drugs Aging. 2021;38(2):95-109.",
+   "pmid": "33230803",
+   "pmcid": null,
+   "doi": "10.1007/s40266-020-00815-5",
+   "public_url": "https://doi.org/10.1007/s40266-020-00815-5",
+   "design": "Narrative review",
+   "population_setting": "Frail older adults with nocturia",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Narrative review; notes that no studies specific to frail older adults support drug treatment for nocturia."
+  },
+  {
+   "key": "PMID:24704009",
+   "citation": "Ebell MH, Radke T, Gardner J. A systematic review of the efficacy and safety of desmopressin for nocturia in adults. J Urol. 2014;192(3):829-35.",
+   "pmid": "24704009",
+   "pmcid": null,
+   "doi": "10.1016/j.juro.2014.03.095",
+   "public_url": "https://doi.org/10.1016/j.juro.2014.03.095",
+   "design": "Systematic review and random-effects meta-analysis of 10 parallel-group RCTs (2,191 patients)",
+   "population_setting": "Generally healthy adults with nocturia",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Independent academic review. Trials in generally healthy adults, 4 with active run-in excluding non-responders and people with side effects (inflates benefit, lowers harm). Gives the size of benefit and hyponatraemia RR 5.1."
+  },
+  {
+   "key": "PMID:27862898",
+   "citation": "Juul KV, Malmberg A, van der Meulen E, Walle JV, Nørgaard JP. Low-dose desmopressin combined with serum sodium monitoring can prevent clinically significant hyponatraemia in patients treated for nocturia. BJU Int. 2017;119(5):776-84.",
+   "pmid": "27862898",
+   "pmcid": null,
+   "doi": "10.1111/bju.13718",
+   "public_url": "https://doi.org/10.1111/bju.13718",
+   "design": "Pooled analysis of 3 RCTs of desmopressin orally disintegrating tablet (10 to 100 micrograms)",
+   "population_setting": "Adults with nocturia in manufacturer trials",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Manufacturer-authored (Ferring). Source of a published sodium-monitoring scheme: baseline at least 135 mmol/L, extra checks at week 1 and month 1 for people aged 65 or over or on medicines linked to low sodium. Retrospective application only; not tested prospectively."
+  },
+  {
+   "key": "PMID:16304673",
+   "citation": "Rembratt A, Riis A, Norgaard JP. Desmopressin treatment in nocturia; an analysis of risk factors for hyponatremia. Neurourol Urodyn. 2006;25(2):105-9.",
+   "pmid": "16304673",
+   "pmcid": null,
+   "doi": "10.1002/nau.20168",
+   "public_url": "https://doi.org/10.1002/nau.20168",
+   "design": "Pooled analysis of 3 phase III trials",
+   "population_setting": "632 adults with nocturia (344 men, 288 women) during dose titration",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Manufacturer-authored (Ferring). Age was the best single predictor of hyponatraemia; recommends careful sodium monitoring in older people and not treating people with low baseline sodium."
+  },
+  {
+   "key": "PMID:41844238",
+   "citation": "Ogawa Y, Kuramoto K, Nakano A. Long-term safety of desmopressin orally disintegrating tablets in men with nocturia due to nocturnal polyuria: final results of a specified drug use-results survey in Japan. Low Urin Tract Symptoms. 2026;18(2):e70052.",
+   "pmid": "41844238",
+   "pmcid": "PMC12995508",
+   "doi": "10.1111/luts.70052",
+   "public_url": "https://doi.org/10.1111/luts.70052",
+   "design": "Post-marketing surveillance (single-arm registry), up to 52 weeks",
+   "population_setting": "1,049 Japanese men starting desmopressin orally disintegrating tablets for nocturnal polyuria; mean age 75",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Manufacturer-run (Ferring, Kissei), no comparator. Gives real-world hyponatraemia frequency with a newer low-dose product in older men; abstract once says 'hypernatremia' where it means hyponatraemia (typo)."
+  },
+  {
+   "key": "PMID:40312904",
+   "citation": "Jeon BJ, Tae BS, Park JY, Bae JH. Relationship between use of desmopressin in male patients with lower urinary tract symptoms and occurrence of hyponatremia: a nationwide population-based study using the National Health Insurance Service database. Investig Clin Urol. 2025;66(3):245-50.",
+   "pmid": "40312904",
+   "pmcid": "PMC12058531",
+   "doi": "10.4111/icu.20240433",
+   "public_url": "https://doi.org/10.4111/icu.20240433",
+   "design": "Nationwide cohort, propensity-score matched Cox models",
+   "population_setting": "33,533 Korean men with benign prostatic hyperplasia, 2011 to 2012, followed to 2020",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: DOI-filtered queries with has_retraction, has_correction, has_erratum and has_concern set to true returned no matching record (same DOI list returns indexed records when the filter is false), 26 Sep 2026. PubMed: PMID AND retracted publication[pt] returned 0 records, 26 Sep 2026.",
+   "quality_note": "Conflicting evidence: no significant association after matching (upper confidence limit 1.64). Men with BPH only; hyponatraemia ascertainment and formulation not given in the abstract; authors still advise routine sodium checks in high-risk people."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C11-16-a",
+   "cand_id": "C11-16",
+   "claim": "In randomised trials in people aged 60 and over with insomnia, sleeping tablets increased self-reported total sleep time by an average of about 25 minutes a night and reduced night-time awakenings by 0.63 compared with placebo.",
+   "source_keys": [
+    "PMID:16284208"
+   ],
+   "supporting_passage": "\"24 studies (involving 2417 participants) with extractable data met inclusion and exclusion criteria. Sleep quality improved (effect size 0.14, P < 0.05), total sleep time increased (mean 25.2 minutes, P < 0.001), and the number of night time awakenings decreased (0.63, P < 0.001) with sedative use compared with placebo.\" Methods: \"total sleep time (total amount of time participants perceive that they have slept, measured in minutes)... Ratings were made by patients and not an observer.\" Inclusion: \"Interventions were pharmacological treatments for insomnia for at least five consecutive nights.\"",
+   "location": "Abstract (Results); Methods, Outcome measures and Inclusion criteria (pages 1 to 2 of PDF)",
+   "pico_timeframe": "People aged 60+ with insomnia, free of psychiatric disorders / any sedative hypnotic (mostly benzodiazepines and Z-drugs) / placebo / self-reported total sleep time and awakenings / trials of at least 5 nights (Table 1: 5 nights to 9 weeks); trials published 1966 to 2003",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In short trials in people aged 60 and over, sleeping tablets added about 25 minutes of sleep a night on average, as reported by the people taking them, and about one fewer waking every two nights (0.63 fewer wakings a night).",
+   "qualifications": "Average, self-reported, short-term (trials lasted from 5 nights to 9 weeks); older drugs (trials to 2003); 'wakings' figure is per night. Say 'in short trials', not 'long term'.",
+   "conflicting_or_uncertain": "Possible publication bias: after trim-and-fill correction the estimated gain was 15 minutes (see C11-16-b). Earlier meta-analyses in mixed-age adults found larger gains (40 to 48 minutes), cited in Glass's discussion.",
+   "numbers": [
+    {
+     "value": "25.2 minutes",
+     "meaning": "mean increase in self-reported total sleep time per night, sedative versus placebo, pooled across trials of at least 5 nights"
+    },
+    {
+     "value": "0.63",
+     "meaning": "mean reduction in number of night-time awakenings per night versus placebo"
+    },
+    {
+     "value": "24 trials, 2,417 participants",
+     "meaning": "trials with extractable data"
+    },
+    {
+     "value": "60",
+     "meaning": "minimum age for inclusion"
+    },
+    {
+     "value": "5 nights to 9 weeks",
+     "meaning": "range of treatment duration in included trials (Table 1)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-16-b",
+   "cand_id": "C11-16",
+   "claim": "After correcting for possible publication bias, the estimated gain in total sleep time was smaller, about 15 minutes.",
+   "source_keys": [
+    "PMID:16284208"
+   ],
+   "supporting_passage": "\"Funnel plot analyses indicated a possible publication bias on outcomes of sleep quality and total sleep time favouring positive results (rs = 0.78, P ≤ 0.05). The mean effect size did not change after “trim and fill” to correct estimates of effect size, and the result was still significant in favour of sedatives (d = 0.14, P ≤ 0.05 for sleep quality; mean increase in total sleep time = 15 minutes, P ≤ 0.05).\"",
+   "location": "Results, Publication bias (page 4 of PDF)",
+   "pico_timeframe": "As C11-16-a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The true average gain may be smaller still: allowing for unpublished negative trials, the authors' corrected estimate was about 15 minutes.",
+   "qualifications": "Practitioner detail; optional for public posts. If used, say it is an adjusted estimate.",
+   "conflicting_or_uncertain": "The authors' wording that the 'mean effect size did not change' refers to sleep quality; the total sleep time estimate fell to 15 minutes.",
+   "numbers": [
+    {
+     "value": "15 minutes",
+     "meaning": "publication-bias-adjusted (trim and fill) mean increase in total sleep time"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-16-c",
+   "cand_id": "C11-16",
+   "claim": "About 13 people needed to take a sleeping tablet for one extra person to report better sleep quality, while about 6 needed to take one for one extra person to have an adverse event.",
+   "source_keys": [
+    "PMID:16284208"
+   ],
+   "supporting_passage": "\"On the basis of four studies (1072 participants), the number of patients who would need to be treated with a sedative (zaleplon, brotizolam or nitrazepam, or loprazolam) for one to have an improvement in sleep quality is 13 (95% confidence interval 6.7 to 62.9).\" \"On the basis of all adverse events reported in 16 studies (2220 participants), the number needed to harm for sedative hypnotics compared with placebo is 6 (4.7 to 7.1).\" Discussion: \"The number needed to treat for improved sleep quality was 13 and the number needed to harm for any adverse event was 6. This ratio indicates that an adverse event is more than twice as likely as enhanced quality of sleep. This ratio can be used as a rough indicator only, as more than double the number of participants contributed to the “harm” data than to the “effectiveness” data (2220 v 1072). The effectiveness estimate is less precise (the confidence interval is wider).\"",
+   "location": "Results, Quality of sleep (page 2) and Adverse events (page 3); Discussion, Numbers needed to treat versus numbers needed to harm (page 4) of the PDF; confirmed by Scite full-text snippets",
+   "pico_timeframe": "NNT: 4 trials, 1,072 participants, zaleplon, brotizolam or nitrazepam, or loprazolam, any improvement in self-rated sleep quality. NNH: 16 trials, 2,220 participants, any adverse event. Short-term trials.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In these trials, for every 13 people who took a sleeping tablet, about 1 more reported better sleep than with a dummy pill. For every 6 who took one, about 1 more had a side effect, most often drowsiness or tiredness, headache, nightmares or stomach upset. The authors describe this comparison as a rough guide.",
+   "qualifications": "The two figures come from different sets of trials and outcomes; the NNT is imprecise (could be anywhere from about 7 to 63). Icon arrays must be labelled 'about 1 in 13' and 'about 1 in 6', 'extra compared with a dummy pill', 'short trials', and must not imply the same people.",
+   "conflicting_or_uncertain": "Wide confidence interval for NNT. NNH counts any adverse event, including minor ones.",
+   "numbers": [
+    {
+     "value": "13 (95% CI 6.7 to 62.9)",
+     "meaning": "number needed to treat for one extra person to report improved sleep quality versus placebo; 4 trials, 1,072 participants"
+    },
+    {
+     "value": "6 (4.7 to 7.1)",
+     "meaning": "number needed to harm for one extra person with any adverse event versus placebo; 16 trials, 2,220 participants"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-16-d",
+   "cand_id": "C11-16",
+   "claim": "Memory and thinking problems (memory loss, confusion, disorientation) and daytime tiredness were reported more often with sleeping tablets than with placebo; falls-type events were not clearly shown in this analysis.",
+   "source_keys": [
+    "PMID:16284208"
+   ],
+   "supporting_passage": "\"Adverse events were more common with sedatives than with placebo: adverse cognitive events were 4.78 times more common (95% confidence interval 1.47 to 15.47, P < 0.01); adverse psychomotor events were 2.61 times more common (1.12 to 6.09, P > 0.05), and reports of daytime fatigue were 3.82 times more common (1.88 to 7.80, P < 0.001) in people using any sedative compared with placebo.\" Methods: \"cognitive adverse events (memory loss, confusion, disorientation); psychomotor-type adverse events (reports of dizziness, loss of balance, or falls)\". Results: \"The most common adverse events were drowsiness or fatigue, headache, nightmares, and nausea or gastrointestinal disturbances.\"",
+   "location": "Abstract; Methods, Outcome measures (page 2); Results, Adverse events (page 3)",
+   "pico_timeframe": "As C11-16-a; odds ratios, sedative versus placebo",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Memory problems, confusion and daytime tiredness were more common with the tablets than with a dummy pill.",
+   "qualifications": "Do not turn the odds ratios (4.78, 3.82) into 'times more likely' or absolute risks. Do not list 'unsteadiness' or falls as a finding of this paper: psychomotor events were reported as P>0.05 (with an inconsistent confidence interval). For falls and fractures use Beers (C11-16-f) and Berry (C11-16-e).",
+   "conflicting_or_uncertain": "Wide confidence interval for cognitive events (1.47 to 15.47). Dependence and withdrawal were not assessed in the included trials.",
+   "numbers": [
+    {
+     "value": "OR 4.78 (1.47 to 15.47)",
+     "meaning": "odds of cognitive adverse events, sedative versus placebo (do not use in public posts)"
+    },
+    {
+     "value": "OR 3.82 (1.88 to 7.80)",
+     "meaning": "odds of daytime fatigue reports, sedative versus placebo"
+    },
+    {
+     "value": "OR 2.61 (1.12 to 6.09), P>0.05 as reported",
+     "meaning": "psychomotor events; uncertain, do not use"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-16-e",
+   "cand_id": "C11-16",
+   "claim": "In US nursing home residents, use of Z-drug sleeping tablets was linked with hip fracture, more strongly in new users.",
+   "source_keys": [
+    "PMID:23460413"
+   ],
+   "supporting_passage": "\"The risk for hip fracture was elevated among users of a nonbenzodiazepine hypnotic drug (OR, 1.66; 95% CI, 1.45-1.90). The association between nonbenzodiazepine hypnotic drug use and hip fracture was somes greater in new users (OR, 2.20; 95% CI, 1.76-2.74)\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "15,528 long-stay US nursing home residents aged 50+ with hip fracture (mean age 81) / zolpidem, eszopiclone or zaleplon dispensed in the 0 to 29 days before fracture / same person's earlier control periods / hip fracture / 2007 to 2008",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In US care homes, hip fractures were more likely to happen in periods when residents had been taking a Z-drug sleeping tablet, especially when the tablet was newly started. This links the tablets with fractures; it does not prove they caused them.",
+   "qualifications": "Association, not causation; US Z-drugs (not zopiclone); care home residents only. Do not state 'X times more likely'.",
+   "conflicting_or_uncertain": "Time-varying confounding possible (illness prompting both prescription and fall).",
+   "numbers": [
+    {
+     "value": "OR 1.66 (1.45 to 1.90)",
+     "meaning": "odds of hip fracture with Z-drug exposure in the 30 days before, versus earlier control periods, same residents"
+    },
+    {
+     "value": "OR 2.20 (1.76 to 2.74)",
+     "meaning": "same, new users"
+    },
+    {
+     "value": "15,528",
+     "meaning": "residents with hip fracture analysed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-16-f",
+   "cand_id": "C11-16",
+   "claim": "The 2023 AGS Beers Criteria advise avoiding benzodiazepines and Z-drugs in older adults.",
+   "source_keys": [
+    "PMID:37139824"
+   ],
+   "supporting_passage": "Table 2 (page 22): Benzodiazepines, rationale \"In general, all benzodiazepines increase the risk of cognitive impairment, delirium, falls, fractures, and motor vehicle crashes in older adults.\" Recommendation \"Avoid\"; Quality of evidence \"Moderate\"; Strength \"Strong\". Nonbenzodiazepine benzodiazepine receptor agonist hypnotics (“Z-drugs”) Eszopiclone, Zaleplon, Zolpidem: \"have adverse events similar to those of benzodiazepines in older adults (e.g., delirium, falls, fractures, increased emergency room visits/hospitalizations, motor vehicle crashes); minimal improvement in sleep latency and duration.\" Recommendation \"Avoid\"; Quality of evidence \"Moderate\"; Strength \"Strong\". Discussion: \"“Avoid” is not defined as an absolute contraindication unless specified in the medication’s label.\"",
+   "location": "Table 2, page 22 of the published PDF (via Undermind read_pdfs); Discussion, Interpreting recommendations (PMC full text)",
+   "pico_timeframe": "Adults 65 and over, all care settings except hospice and end of life; US",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The American Geriatrics Society's Beers Criteria advise avoiding benzodiazepines and Z-drug sleeping tablets in people aged 65 and over, noting falls, fractures and confusion, and only small gains in sleep.",
+   "qualifications": "US guideline; 'avoid' means avoid except in unusual circumstances, with shared decision-making; list excludes zopiclone only because it is not marketed in the US. Do not mention delirium as a topic in the post (collection excludes delirium).",
+   "conflicting_or_uncertain": "The European Insomnia Guideline 2023 allows benzodiazepines and benzodiazepine receptor agonists for short-term use (4 weeks or less) when CBT-I is not sufficiently effective (C11-16-g).",
+   "numbers": [
+    {
+     "value": "65",
+     "meaning": "age from which Beers Criteria apply"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-16-g",
+   "cand_id": "C11-16",
+   "claim": "Major guidelines recommend CBT for insomnia as the first treatment for chronic insomnia at any adult age, with sleeping tablets reserved for short-term use if CBT-I is not enough.",
+   "source_keys": [
+    "PMID:38016484",
+    "PMID:27136449"
+   ],
+   "supporting_passage": "European guideline: \"Cognitive-behavioural therapy for insomnia is recommended as the first-line treatment for chronic insomnia in adults of any age (including patients with comorbidities), either applied in-person or digitally (A). When cognitive-behavioural therapy for insomnia is not sufficiently effective, a pharmacological intervention can be offered (A). Benzodiazepines (A), benzodiazepine receptor agonists (A), daridorexant (A) and low-dose sedating antidepressants (B) can be used for the short-term treatment of insomnia (≤ 4 weeks).\" ACP: \"ACP recommends that all adult patients receive cognitive behavioral therapy for insomnia (CBT-I) as the initial treatment for chronic insomnia disorder. (Grade: strong recommendation, moderate-quality evidence).\"",
+   "location": "Abstracts of both guidelines",
+   "pico_timeframe": "Adults with chronic insomnia disorder, any age",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "European and American guidelines recommend CBT for insomnia (a structured talking and sleep-scheduling treatment) as the first treatment for long-term insomnia at any adult age. If it is not enough, a sleeping tablet can be discussed for short-term use.",
+   "qualifications": "Say 'long-term insomnia' (chronic insomnia disorder). The position that a short course may be reasonable after discussion is consistent with both guidelines. Do not claim NICE wording (not opened).",
+   "conflicting_or_uncertain": "None on the first-line recommendation. Access to CBT-I in practice is limited (not sourced here).",
+   "numbers": [
+    {
+     "value": "4 weeks or less",
+     "meaning": "European guideline's short-term window for benzodiazepines and benzodiazepine receptor agonists"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-02-a",
+   "cand_id": "C11-02",
+   "claim": "In hospital, patients sleep less than at home, and the most reported sleep disturbers are noise from other patients, medical devices, pain and toilet visits.",
+   "source_keys": [
+    "PMID:30014139"
+   ],
+   "supporting_passage": "\"Compared with habitual sleep at home, the total sleep time in the hospital was 83 minutes (95% CI, 75-92 minutes; P < .001) shorter.\" \"A total of 1344 patients (70.4%) reported having been awakened by external causes, which in 718 (35.8%) concerned hospital staff.\" \"The most reported sleep-disturbing factors were noise of other patients, medical devices, pain, and toilet visits.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "2,005 adult inpatients (median age 68) in 39 Dutch hospitals / one night on a regular ward / own habitual sleep at home in the previous month / self-reported sleep and disturbing factors / single day, February 2017",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a survey of 2,005 adults in 39 Dutch hospitals (median age 68), patients reported sleeping 83 minutes less than at home. Noise from other patients, medical equipment, pain and needing the toilet were the disturbances they reported most.",
+   "qualifications": "Adults of all ages, self-report, one night; people unable to consent excluded. It lists reported disturbers, not proven causes of any one patient's wakefulness.",
+   "conflicting_or_uncertain": "None major.",
+   "numbers": [
+    {
+     "value": "83 minutes",
+     "meaning": "mean shorter total sleep time in hospital than habitual sleep at home (self-reported)"
+    },
+    {
+     "value": "70.4% (1,344 patients)",
+     "meaning": "woken by external causes; 35.8% (718) by hospital staff"
+    },
+    {
+     "value": "2,005",
+     "meaning": "patients surveyed, median age 68"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-02-b",
+   "cand_id": "C11-02",
+   "claim": "In people over 60, sedative hypnotics give small sleep gains with more memory and thinking side effects and daytime tiredness than placebo.",
+   "source_keys": [
+    "PMID:16284208"
+   ],
+   "supporting_passage": "\"Improvements in sleep with sedative use are statistically significant, but the magnitude of effect is small. The increased risk of adverse events is statistically significant and potentially clinically relevant in older people at risk of falls and cognitive impairment. In people over 60, the benefits of these drugs may not justify the increased risk, particularly if the patient has additional risk factors for cognitive or psychomotor adverse events.\"",
+   "location": "Abstract, Conclusions (numbers in C11-16-a to d)",
+   "pico_timeframe": "As C11-16-a (trials mostly in community and some geriatric inpatients; not specifically single-night inpatient prescribing)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In trials in people over 60, sleeping tablets added only about 25 minutes of sleep, and memory problems, confusion and daytime tiredness were more common than with a dummy pill.",
+   "qualifications": "Trials were of nightly use over at least 5 nights, not a single 'as required' dose on a ward.",
+   "conflicting_or_uncertain": "See C11-16-b and C11-16-d.",
+   "numbers": [
+    {
+     "value": "25.2 minutes",
+     "meaning": "as C11-16-a"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-02-c",
+   "cand_id": "C11-02",
+   "claim": "Corticosteroids can disturb sleep, and giving them as a single morning dose may reduce this.",
+   "source_keys": [
+    "PMID:23947590"
+   ],
+   "supporting_passage": "\"GC use can lead to a wide range of psychiatric and cognitive disturbances, including memory impairment, agitation, anxiety, fear, hypomania, insomnia, irritability, lethargy, mood lability, and even psychosis.\" \"GC therapy may also be associated with sleep disturbances and unpleasant dreams [72]; the risk of these events can potentially be decreased by modifying the timing of GC administration (e.g., a single morning dose) and/or night-time administration of drugs with sedative effects.\" Table 10: \"Administer as single daily dose (given in the morning), if possible\"",
+   "location": "Adverse events, Adults, Psychiatric and cognitive disturbances (page 7); Table 10 (page 14) of the PDF, via Undermind read_pdfs",
+   "pico_timeframe": "Adults on systemic glucocorticoids; expert recommendation, no trial of timing cited beyond a 1993 BMJ letter",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Steroid tablets such as prednisolone can disturb sleep. Expert guidance advises a single morning dose where possible, which may reduce this.",
+   "qualifications": "Expert advice, not trial evidence; do not claim frequency. Split or evening dosing is sometimes clinically intended; the post should say 'check whether the evening dose is needed', not 'always move it'.",
+   "conflicting_or_uncertain": "No numerical frequency of steroid-related insomnia given in this source.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C11-02-d",
+   "cand_id": "C11-02",
+   "claim": "Donepezil can cause insomnia and vivid dreams or nightmares, and moving the dose to the morning may help.",
+   "source_keys": [
+    "PMID:15496217",
+    "PMID:34916075",
+    "PMID:15630600"
+   ],
+   "supporting_passage": "Jackson 2004: \"Although insomnia and other sleep disorders have been reported following administration of donepezil, lengthening the time period before increasing the dose of donepezil from 5 to 10 mg day(-1) or switching to morning dosing can reduce these events to the levels of placebo-treated patients.\" Moderie 2021: \"Medications should also be reviewed, and time of administration should be optimized (diuretics and stimulating medications in the morning, sedating medications in the evening). Importantly, cholinesterase inhibitors (especially donepezil) may trigger insomnia. Switching to morning dosing or to an alternative drug may help.\" Singer 2005: \"We observed a clear-cut relationship between the occurrence of nightmares and an evening dose of donepezil in eight patients with DAT. None of these patients reported nightmares when donepezil was taken in the morning.\"",
+   "location": "Abstracts (Jackson: review; Moderie: English abstract of French review; Singer: English abstract of German case series)",
+   "pico_timeframe": "People with Alzheimer disease or other dementias taking donepezil; review-level and case-series evidence",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Donepezil can cause sleeplessness and vivid dreams. Reviews suggest that taking it in the morning instead may help; this is worth raising with the prescriber the next day.",
+   "qualifications": "Evidence is from reviews and a case series of 8, not a randomised trial of timing. Frame as a question for the day team, not an overnight change.",
+   "conflicting_or_uncertain": "The UK product information is understood to advise evening dosing (judge's note; SPC not openable here), so morning dosing is a clinical adjustment rather than the default instruction. Do not state what the SPC says.",
+   "numbers": [
+    {
+     "value": "8",
+     "meaning": "patients in the case series (nightmares with evening but not morning dosing)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-02-e",
+   "cand_id": "C11-02",
+   "claim": "A loop diuretic given at teatime or in the evening increases urine output during the night (candidate wording).",
+   "source_keys": [
+    "PMID:28984060",
+    "PMID:9488061",
+    "PMID:40531150",
+    "PMID:34916075"
+   ],
+   "supporting_passage": "Oelke 2017: \"The timing of diuretics is an important consideration, and they should be taken mid-late afternoon, dependent on the specific serum half-life.\" Reynard 1998: \"a randomized, double-blind, placebo-controlled trial of an afternoon dose of the diuretic frusemide, used to establish an early evening diuresis and so diminish nocturnal voiding frequency and voided volume in elderly men\" ... \"40 mg of frusemide or placebo, taken 6 h before their usual bedtime\" ... \"there was a significant reduction in night-time frequency (-0.5 and 0) and percentage night-time voided volume (-18% and 0%) in those taking frusemide compared with placebo.\" Getaneh 2025: \"Limitation of fluid intake, especially in the evening; addressing timing of diuretic intake; and sleep hygiene are recommended.\" Moderie 2021: \"time of administration should be optimized (diuretics and stimulating medications in the morning, sedating medications in the evening)\".",
+   "location": "Abstracts",
+   "pico_timeframe": "Adults with nocturia (reviews); Reynard: 49 men over 50 with LUTS and nocturnal polyuria, furosemide 40 mg 6 hours before bed versus placebo",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Check when any diuretic ('water tablet') is given. Guidance on night-time urination advises taking it earlier in the day, no later than mid to late afternoon, rather than in the evening.",
+   "qualifications": "The candidate's example of a teatime loop diuretic as a culprit is not supported: in a small trial, furosemide taken about 6 hours before bed (roughly teatime) reduced night-time urination in men with nocturnal polyuria. Only a late-evening or bedtime dose should be named as a possible cause, and even that is expert advice rather than a measured finding.",
+   "conflicting_or_uncertain": "Reviews differ on the best time (morning versus mid to late afternoon). No source found that measures night-time urine after an evening loop diuretic in older inpatients.",
+   "numbers": [
+    {
+     "value": "about 6 hours before bed",
+     "meaning": "timing of furosemide 40 mg in Reynard trial (reduced nocturia)"
+    },
+    {
+     "value": "-0.5 versus 0",
+     "meaning": "change in night-time voids, furosemide versus placebo (Reynard; practitioner detail only)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-02-f",
+   "cand_id": "C11-02",
+   "claim": "In Parkinson's disease, symptoms can return overnight when levodopa wears off, and night-time dosing needs review (NICE NG71).",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Not searched to a usable source: NICE NG71 is not openable from this environment and no published source was opened.",
+   "pico_timeframe": "Not applicable",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Leave out of the post.",
+   "qualifications": "Drop this element, as the judge advised keeping only the timing fixes with citable sources.",
+   "conflicting_or_uncertain": "Not assessed.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C11-03-a",
+   "cand_id": "C11-03",
+   "claim": "In the EMPOWER trial, older long-term benzodiazepine users given written information on the risks and a step-by-step tapering plan were far more likely to have stopped at 6 months than those with usual care (27% versus 5%).",
+   "source_keys": [
+    "PMID:24733354"
+   ],
+   "supporting_passage": "\"Participants (303 long-term users of benzodiazepine medication aged 65-95 years, recruited from 30 community pharmacies)\" ... \"The active arm received a deprescribing patient empowerment intervention describing the risks of benzodiazepine use and a stepwise tapering protocol. The control arm received usual care.\" ... \"Benzodiazepine therapy discontinuation at 6 months after randomization, ascertained by pharmacy medication renewal profiles.\" ... \"At 6 months, 27% of the intervention group had discontinued benzodiazepine use compared with 5% of the control group (risk difference, 23% [95% CI, 14%-32%]; intracluster correlation, 0.008; number needed to treat, 4). Dose reduction occurred in an additional 11% (95% CI, 6%-16%).\"",
+   "location": "Abstract",
+   "pico_timeframe": "303 long-term benzodiazepine users aged 65 to 95, Quebec community pharmacies (148 intervention, 155 control) / written empowerment intervention on risks plus stepwise tapering protocol / usual care (wait list) / stopped refilling at pharmacy / 6 months, 2010 to 2012",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Quebec trial of 303 people aged 65 to 95 who had taken benzodiazepines for a long time, those given a booklet on the risks and a step-by-step plan for cutting down were far more likely to have stopped 6 months later: about 27 in 100, against about 5 in 100 with usual care. A further 11 in 100 had cut their dose.",
+   "qualifications": "'Stopped' means no further pharmacy refills, not confirmed abstinence. Say 'given', not 'sent' or 'posted' (delivery method not in the abstract). Denominators for the percentages are the randomised groups analysed; 86% completed follow-up. Benzodiazepines for any indication, not only sleep.",
+   "conflicting_or_uncertain": "Later US trials of mailed education without pharmacist involvement did not reduce use (C11-03-f).",
+   "numbers": [
+    {
+     "value": "27 in 100 versus 5 in 100",
+     "meaning": "stopped benzodiazepine at 6 months, intervention versus usual care"
+    },
+    {
+     "value": "23 percentage points (14 to 32)",
+     "meaning": "risk difference"
+    },
+    {
+     "value": "4",
+     "meaning": "number needed to treat (booklets given for one extra person to stop)"
+    },
+    {
+     "value": "11 in 100",
+     "meaning": "additional dose reduction in intervention group"
+    },
+    {
+     "value": "303, aged 65 to 95",
+     "meaning": "participants"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-03-b",
+   "cand_id": "C11-03",
+   "claim": "Most people who received the EMPOWER booklet started a conversation about stopping with their doctor or pharmacist themselves.",
+   "source_keys": [
+    "PMID:24733354"
+   ],
+   "supporting_passage": "\"Of the recipients in the intervention group, 62% initiated conversation about benzodiazepine therapy cessation with a physician and/or pharmacist.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "EMPOWER intervention group, 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 62 in 100 people who got the booklet raised stopping with their doctor or pharmacist themselves.",
+   "qualifications": "Self-reported by participants.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "62 in 100",
+     "meaning": "intervention recipients who initiated a conversation about stopping with a physician and/or pharmacist"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-03-c",
+   "cand_id": "C11-03",
+   "claim": "In the D-PRESCRIBE trial, 43% of sedative-hypnotic users stopped at 6 months with a pharmacist-led educational approach versus 9% with usual care.",
+   "source_keys": [
+    "PMID:30422193"
+   ],
+   "supporting_passage": "\"Pharmacists in the intervention group were encouraged to send patients an educational deprescribing brochure in parallel to sending their physicians an evidence-based pharmaceutical opinion to recommend deprescribing.\" ... \"discontinuation of inappropriate medication occurred among 63 of 146 sedative-hypnotic drug users (43.2%) vs 14 of 155 (9.0%), respectively (risk difference, 34% [95% CI, 25% to 43%])\"",
+   "location": "Abstract",
+   "pico_timeframe": "Sedative-hypnotic subgroup (n = 301) of 489 adults aged 65+ (mean 75) in 69 Quebec community pharmacies / brochure to patient plus pharmacist opinion to physician / usual care / stopped filling prescriptions / 6 months, 2014 to 2018",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a second Quebec trial, pharmacists sent people a brochure and sent their doctors a recommendation to stop. Among people taking sleeping tablets or similar sedatives, 43 in 100 had stopped at 6 months, against 9 in 100 with usual care.",
+   "qualifications": "Subgroup result; the intervention included a message to the doctor, so it is not a leaflet alone. Outcome by pharmacy renewal records.",
+   "conflicting_or_uncertain": "See C11-03-f.",
+   "numbers": [
+    {
+     "value": "63 of 146 (43.2%) versus 14 of 155 (9.0%)",
+     "meaning": "sedative-hypnotic users who stopped at 6 months, intervention versus usual care"
+    },
+    {
+     "value": "34 percentage points (25 to 43)",
+     "meaning": "risk difference, sedative-hypnotic subgroup"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-03-d",
+   "cand_id": "C11-03",
+   "claim": "About 4 in 10 people who tapered sedative-hypnotics reported withdrawal symptoms, but no adverse events needing hospital care were reported.",
+   "source_keys": [
+    "PMID:30422193"
+   ],
+   "supporting_passage": "\"No adverse events requiring hospitalization were reported, although 29 of 77 patients (38%) who attempted to taper sedative-hypnotics reported withdrawal symptoms.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "D-PRESCRIBE participants who attempted to taper sedative-hypnotics, 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Cutting down can be uncomfortable: 29 of 77 people who tried to taper reported withdrawal symptoms, though none needed hospital care. Tapering slowly, with a plan agreed with a doctor or pharmacist, is the approach tested in these trials.",
+   "qualifications": "Small denominator; self-reported symptoms.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "29 of 77 (38%)",
+     "meaning": "people attempting to taper sedative-hypnotics who reported withdrawal symptoms"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-03-e",
+   "cand_id": "C11-03",
+   "claim": "Both trials were in Quebec, and the authors say results may differ elsewhere.",
+   "source_keys": [
+    "PMID:30422193",
+    "PMID:24733354"
+   ],
+   "supporting_passage": "D-PRESCRIBE: \"Among older adults in Quebec, a pharmacist-led educational intervention compared with usual care resulted in greater discontinuation of prescriptions for inappropriate medication after 6 months. The generalizability of these findings to other settings requires further research.\" EMPOWER: \"recruited from 30 community pharmacies\" (Montreal, Quebec author affiliations; trial in Quebec).",
+   "location": "Abstract conclusions (D-PRESCRIBE); Abstract methods (EMPOWER)",
+   "pico_timeframe": "Quebec community pharmacies",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Both trials were run through community pharmacies in Quebec, and the researchers say the results need testing elsewhere.",
+   "qualifications": "EMPOWER abstract does not itself state 'Quebec'; D-PRESCRIBE does. Safer to attribute the generalisability statement to D-PRESCRIBE.",
+   "conflicting_or_uncertain": "See C11-03-f.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C11-03-f",
+   "cand_id": "C11-03",
+   "claim": "Mailed education alone, without pharmacist involvement, did not reduce use of sedatives in later US trials.",
+   "source_keys": [
+    "PMID:39432286",
+    "PMID:36200403"
+   ],
+   "supporting_passage": "Singh 2024: \"Patients were randomized to 1 of 3 arms: (1) a mailing of educational materials specific to the medication targeted for deprescribing to both the patient and their prescribing clinician; (2) a mailing to the prescribing clinician only; or (3) a usual care arm.\" ... \"The cumulative incidence of being dispensed a medication targeted for deprescribing was 76.7% (95% CI, 75.4-78.0) in the patient and prescriber mailing group, 77.9% (95% CI, 76.5-79.1) in the prescriber mailing only group, and 77.5% (95% CI, 76.2-78.8) in the usual care group.\" ... \"These findings suggest medication-specific educational mailings targeting patients with AD or ADRD and their clinicians are not effective in reducing the use of high-risk medications.\" Mak 2022: \"Arm 1 was a mailed brochure about BZRA risks that also included information about a free, online cognitive behavioral therapy for the insomnia (CBTI) program. Arm 2 was a mailed brochure (same as arm 1) and telephone reinforcement call. Control: Arm 3 was a mailed brochure without insomnia treatment information.\" ... \"Mailing information about BZRA risks and CBTI did not affect BZRA prescriptions.\"",
+   "location": "Abstracts",
+   "pico_timeframe": "Singh: 12,787 US health plan members with dementia on antipsychotics, sedative-hypnotics or strong anticholinergics, mean age 77, 6 months, 2022 to 2023. Mak: 2,009 US veterans 65+ with BZRA prescriptions, 6 and 12 months.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The same idea by post alone has not always worked. In a US trial of 12,787 people with dementia, mailing information to them and their prescribers did not reduce use of the targeted medicines, including sedatives.",
+   "qualifications": "Singh combined three drug classes and people with dementia; Mak's control arm also got a risk brochure, so it tested extra CBT-I information, not brochure versus nothing. Present as 'the setting and follow-through seem to count', not as disproof of the Quebec trials.",
+   "conflicting_or_uncertain": "Differences in population (dementia, veterans), delivery (mail only, no pharmacist enrolment) and health system may explain the difference; not tested directly.",
+   "numbers": [
+    {
+     "value": "76.7% versus 77.5%",
+     "meaning": "still dispensed the targeted medicine at 6 months, patient-and-prescriber mailing versus usual care (Singh)"
+    },
+    {
+     "value": "12,787",
+     "meaning": "people with dementia in Singh trial"
+    },
+    {
+     "value": "2,009",
+     "meaning": "veterans in Mak pilot"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-24-a",
+   "cand_id": "C11-24",
+   "claim": "Prolonged-release melatonin can be used for short-term treatment of insomnia in people aged 55 and over (up to 3 months in the European guideline); fast-release melatonin is not recommended.",
+   "source_keys": [
+    "PMID:38016484",
+    "PMID:25054634"
+   ],
+   "supporting_passage": "European guideline: \"Prolonged-release melatonin can be used for up to 3 months in patients ≥ 55 years (B). Antihistaminergic drugs, antipsychotics, fast-release melatonin, ramelteon and phytotherapeutics are not recommended for insomnia treatment (A).\" Hajak 2015: \"Prolonged-release melatonin (PRM; Circadin) was approved in Europe for the management of primary insomnia patients age 55 years or older suffering from poor quality of sleep.\"",
+   "location": "Abstracts",
+   "pico_timeframe": "Adults aged 55+ with insomnia; European guidance",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The European insomnia guideline says prescribed slow-release melatonin can be used for up to 3 months in people aged 55 and over with insomnia. It does not recommend ordinary fast-release melatonin for insomnia.",
+   "qualifications": "Use this in place of the candidate's UK licence wording. Grade B for prolonged-release melatonin (moderate strength).",
+   "conflicting_or_uncertain": "Benefit is modest (C11-24-e).",
+   "numbers": [
+    {
+     "value": "55",
+     "meaning": "minimum age for prolonged-release melatonin use in the guideline and European approval"
+    },
+    {
+     "value": "3 months",
+     "meaning": "maximum usual duration in the European guideline"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-24-b",
+   "cand_id": "C11-24",
+   "claim": "In the UK, prolonged-release melatonin 2 mg (Circadin) is licensed for short-term treatment of primary insomnia in people aged 55 and over for up to 13 weeks, and melatonin is prescription-only.",
+   "source_keys": [
+    "URL:https://www.medicines.org.uk/emc/product/2809/smpc"
+   ],
+   "supporting_passage": "Search-engine extract only (emc SmPC and PIL results): \"Circadin is indicated as monotherapy for the short-term treatment of primary insomnia characterised by poor quality of sleep in patients who are aged 55 or over.\" \"The recommended dose is 2 mg once daily, 1-2 hours before bedtime and after food, and this dosage may be continued for up to thirteen weeks.\" Search summary also stated the medicine can only be obtained with a prescription in the UK.",
+   "location": "Search-engine extract; official page not opened",
+   "pico_timeframe": "UK licensed product",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not use as an essential claim. If a UK licence detail is wanted, recheck the emc SmPC directly first; otherwise use C11-24-a.",
+   "qualifications": "Access is search_extract only, which the evidence standard does not accept for an essential claim. The judge's suggested line 'melatonin is prescription-only in the UK' is not verified from an opened source.",
+   "conflicting_or_uncertain": "None known, but unverified.",
+   "numbers": [
+    {
+     "value": "13 weeks",
+     "meaning": "maximum duration in the SmPC (search extract only)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-24-c",
+   "cand_id": "C11-24",
+   "claim": "In people with Alzheimer's disease and sleep problems, melatonin up to 10 mg may make little or no difference to sleep over 8 to 10 weeks.",
+   "source_keys": [
+    "PMID:33189083"
+   ],
+   "supporting_passage": "\"We found low-certainty evidence that melatonin doses up to 10 mg may have little or no effect on any major sleep outcome over eight to 10 weeks in people with AD and sleep disturbances. We could synthesise data for two of our primary sleep outcomes: total nocturnal sleep time (TNST) (MD 10.68 minutes, 95% CI -16.22 to 37.59; 2 studies, n = 184)\" ... \"There were no serious adverse effects of melatonin reported.\" Conclusions: \"We found no evidence for beneficial effects of melatonin (up to 10 mg) or a melatonin receptor agonist. There was evidence of some beneficial effects on sleep outcomes from trazodone and orexin antagonists and no evidence of harmful effects in these small trials\"",
+   "location": "Abstract, Main results and Authors' conclusions",
+   "pico_timeframe": "People with Alzheimer disease (mostly moderate to severe) and sleep disturbance / melatonin up to 10 mg / placebo / actigraphy-measured sleep / 8 to 10 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In trials in people with Alzheimer's disease and poor sleep, melatonin (up to 10 mg) may make little or no difference to sleep over 8 to 10 weeks. The evidence is limited, and no serious side effects were reported.",
+   "qualifications": "Low-certainty evidence, small trials. Say 'may make little or no difference', not 'does not work'. Do not imply nothing helps: the same review found some benefit for trazodone (low certainty) and orexin antagonists (moderate certainty).",
+   "conflicting_or_uncertain": "The confidence interval for total night sleep runs from 16 minutes less to 38 minutes more.",
+   "numbers": [
+    {
+     "value": "10.68 minutes (-16.22 to 37.59)",
+     "meaning": "difference in total night-time sleep, melatonin versus placebo, 2 studies, 184 people; not clearly different from zero"
+    },
+    {
+     "value": "8 to 10 weeks",
+     "meaning": "trial duration"
+    },
+    {
+     "value": "up to 10 mg",
+     "meaning": "melatonin doses tested"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-24-d",
+   "cand_id": "C11-24",
+   "claim": "Melatonin supplements bought without prescription have been found to contain amounts very different from the label.",
+   "source_keys": [
+    "PMID:37097362",
+    "PMID:27855744"
+   ],
+   "supporting_passage": "Cohen 2023: \"The 30 unique brands entered into the database in 2021 were purchased online.\" ... \"25 products were analyzed. One product did not contain detectable levels of melatonin but did contain 31.3 mg of CBD.\" ... \"In products that contained melatonin, the actual quantity of melatonin ranged from 74% to 347% of the labeled quantity. Twenty-two of 25 products (88%) were inaccurately labeled, and only 3 products (12%) contained a quantity of melatonin that was within ±10% of the declared quantity.\" Erland 2017: \"Melatonin content was found to range from -83% to +478% of the labelled content. Additionally, lot-to-lot variable within a particular product varied by as much as 465%.\" ... \"Melatonin content did not meet label within a 10% margin of the label claim in more than 71% of supplements and an additional 26% were found to contain serotonin.\"",
+   "location": "Cohen: Methods and Results (Scite full-text excerpts); Erland: Abstract",
+   "pico_timeframe": "US melatonin gummies bought online (2022) and Canadian melatonin supplements (natural health products)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "When melatonin supplements sold in the US and Canada were tested, most did not contain what the label said. In one US study, 22 of 25 gummy products were wrongly labelled, with actual amounts from about three quarters to more than three times the stated dose; one contained none.",
+   "qualifications": "North American supplements, not UK prescribed products. Do not claim this about products sold in UK shops (not tested). 'Bought online' is accurate for the US study.",
+   "conflicting_or_uncertain": "Small samples; products change over time.",
+   "numbers": [
+    {
+     "value": "22 of 25 (88%)",
+     "meaning": "US gummy products inaccurately labelled (outside plus or minus 10%)"
+    },
+    {
+     "value": "74% to 347%",
+     "meaning": "range of actual melatonin as a percentage of label, US gummies containing melatonin"
+    },
+    {
+     "value": "-83% to +478%",
+     "meaning": "range of melatonin content relative to label, Canadian supplements"
+    },
+    {
+     "value": "more than 71%",
+     "meaning": "Canadian supplements not within 10% of label"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-24-e",
+   "cand_id": "C11-24",
+   "claim": "In people with primary sleep disorders, melatonin modestly shortened the time to fall asleep and slightly increased total sleep.",
+   "source_keys": [
+    "PMID:23691095"
+   ],
+   "supporting_passage": "\"Nineteen studies involving 1683 subjects were included in this meta-analysis. Melatonin demonstrated significant efficacy in reducing sleep latency (weighted mean difference (WMD) = 7.06 minutes [95% CI 4.37 to 9.75], Z = 5.15, p<0.001) and increasing total sleep time (WMD = 8.25 minutes [95% CI 1.74 to 14.75], Z = 2.48, p = 0.013).\" ... \"The effects of melatonin on sleep are modest but do not appear to dissipate with continued melatonin use.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Adults and children with primary sleep disorders / melatonin (various doses and products) / placebo / sleep latency, total sleep time / various durations",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In people with insomnia and other primary sleep problems, melatonin helped people fall asleep about 7 minutes sooner and sleep about 8 minutes longer than a dummy pill, on average.",
+   "qualifications": "Mixed ages including children; not older-specific; average effects.",
+   "conflicting_or_uncertain": "None major.",
+   "numbers": [
+    {
+     "value": "7.06 minutes (4.37 to 9.75)",
+     "meaning": "average reduction in time to fall asleep versus placebo"
+    },
+    {
+     "value": "8.25 minutes (1.74 to 14.75)",
+     "meaning": "average increase in total sleep time versus placebo"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-29-a",
+   "cand_id": "C11-29",
+   "claim": "In a US cohort of new users (mean age 70), low sodium was diagnosed at 146 per 1,000 person-years with desmopressin versus 11 per 1,000 with oxybutynin.",
+   "source_keys": [
+    "PMID:31634354"
+   ],
+   "supporting_passage": "\"We identified 3,137 adults who were newly prescribed desmopressin and matched them to 3,137 adults who were newly prescribed oxybutynin. Mean age was 70, 55% were male, 13% filled a prescription for a diuretic during the baseline time period, and the mean baseline sodium prior to receiving either study drug was 140 mmol/L (normal: 135-145). The rate of hyponatremia was 146 per 1,000 person-years for adults prescribed desmopressin compared to 11 per 1,000 person-years for adults prescribed oxybutynin, corresponding to a 13-fold higher rate (HR 13.19; 95% CI 6.69, 26.01; p < 0.01).\" ... \"Important limitations of our study include unmeasured confounding (for example, over-the-counter medication use, dietary intake), missing data (i.e., only 20% of patients had a baseline serum sodium), and a lack of data on the newer formulation of desmopressin.\" Methods: \"we assessed hyponatremia as the primary position diagnosis ICD9 or ICD10 code (inpatient or outpatient) following prescription of desmopressin or oxybutynin.\"",
+   "location": "Abstract; Methods, Study outcomes (page 4 of PDF, via Undermind read_pdfs)",
+   "pico_timeframe": "US adults over 50 (mean age 70) newly prescribed the older desmopressin formulation, propensity-matched / versus new oxybutynin users / coded hyponatraemia diagnosis / 2006 to 2017",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of about 3,100 people newly prescribed desmopressin (average age 70), low sodium was diagnosed at a rate of about 146 per 1,000 people per year, against about 11 per 1,000 per year in similar people starting oxybutynin, another bladder medicine.",
+   "qualifications": "Older formulation of desmopressin, not the newer low-dose products; association in observational data; outcome is a coded diagnosis; only about 20% had a baseline sodium. 'Per 1,000 person-years' can be glossed as 'per 1,000 people treated for a year'. The 13-fold figure is a hazard ratio: prefer the two rates.",
+   "conflicting_or_uncertain": "A Korean cohort of men with BPH found no significant difference after matching (C11-29-g). Clinical-trial rates are lower, which the authors attribute partly to close sodium monitoring in trials.",
+   "numbers": [
+    {
+     "value": "146 per 1,000 person-years",
+     "meaning": "rate of coded hyponatraemia diagnosis, new desmopressin users"
+    },
+    {
+     "value": "11 per 1,000 person-years",
+     "meaning": "same, new oxybutynin users"
+    },
+    {
+     "value": "HR 13.19 (6.69 to 26.01)",
+     "meaning": "relative rate (practitioner detail only)"
+    },
+    {
+     "value": "3,137 per group",
+     "meaning": "matched new users"
+    },
+    {
+     "value": "70",
+     "meaning": "mean age"
+    },
+    {
+     "value": "20%",
+     "meaning": "proportion with a baseline sodium result"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-29-b",
+   "cand_id": "C11-29",
+   "claim": "The 2023 Beers Criteria advise avoiding desmopressin for nocturia or nocturnal polyuria.",
+   "source_keys": [
+    "PMID:37139824"
+   ],
+   "supporting_passage": "Table 2 (page 24), Genitourinary, Desmopressin: Rationale \"High risk of hyponatremia; safer alternative treatments for nocturia (including non- pharmacologic).\" Recommendation \"Avoid for treatment of nocturia or nocturnal polyuria.\" Quality of evidence \"Moderate\". Strength of recommendation \"Strong\".",
+   "location": "Table 2, page 24 of the published PDF (via Undermind read_pdfs)",
+   "pico_timeframe": "Adults 65 and over; US",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The American Geriatrics Society's Beers Criteria advise avoiding desmopressin for night-time urination in people aged 65 and over, because of the high risk of low sodium and the availability of safer options, including non-drug ones.",
+   "qualifications": "US guideline; 'avoid' is not an absolute contraindication.",
+   "conflicting_or_uncertain": "Urology reviews (Oelke 2017, Ebell 2014) regard low-dose desmopressin with monitoring as an option in selected patients.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C11-29-c",
+   "cand_id": "C11-29",
+   "claim": "A review of nocturia in frail older adults concluded that desmopressin is not recommended in frail people because of the risk of low sodium.",
+   "source_keys": [
+    "PMID:33230803"
+   ],
+   "supporting_passage": "\"No studies specific to the frail older adult support the use of pharmacotherapy.\" ... \"Desmopressin may be effective in the older adult, but a high risk of hyponatremia raises concerns for its safety, and therefore it is not recommended in the frail.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Frail older adults with nocturia; narrative review",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A review of night-time urination in frail older people concluded desmopressin is not recommended for them because of the risk of low sodium, and noted that no drug studies have been done specifically in frail people.",
+   "qualifications": "Narrative review, expert conclusion.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C11-29-d",
+   "cand_id": "C11-29",
+   "claim": "If desmopressin is used, sodium should be checked before starting and early after starting, especially from age 65.",
+   "source_keys": [
+    "PMID:27862898",
+    "PMID:16304673",
+    "PMID:24704009"
+   ],
+   "supporting_passage": "Juul 2017: \"A sodium monitoring plan is proposed whereby baseline sodium must be ≥135 mmol/L (especially important in the elderly), with additional monitoring at week 1 and month 1 for those at elevated risk because they are aged ≥65 years or receiving concomitant medication associated with hyponatraemia.\" Rembratt 2006: \"Age was the best single predictor. Elderly patients (>or=65 years of age) with a baseline serum sodium concentration below normal range were at high risk (75%).\" ... \"Treatment of nocturia in elderly patients with desmopressin should only be undertaken together with careful monitoring of the serum sodium concentration. Patients with a baseline serum sodium concentration below normal range should not be treated.\" Ebell 2014: \"a lower initial dose of 25 to 50 mcg is appropriate in elderly patients. All patients should be monitored for hyponatremia.\"",
+   "location": "Abstracts",
+   "pico_timeframe": "Adults in desmopressin trials for nocturia (pooled analyses; systematic review)",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If desmopressin is used, published schemes advise checking sodium before starting (and not starting if it is low), then again at about 1 week and 1 month in people aged 65 or over or taking other medicines that lower sodium, using the lowest dose.",
+   "qualifications": "Monitoring schemes come from manufacturer-authored analyses and a systematic review, not from the UK product information (not opened). Say 'published schemes advise', not 'the licence requires'.",
+   "conflicting_or_uncertain": "The Juul scheme was tested only by retrospective application.",
+   "numbers": [
+    {
+     "value": "135 mmol/L",
+     "meaning": "minimum baseline sodium in the Juul scheme"
+    },
+    {
+     "value": "week 1 and month 1",
+     "meaning": "additional sodium checks for people aged 65+ or on sodium-lowering medicines"
+    },
+    {
+     "value": "75%",
+     "meaning": "risk of hyponatraemia in people 65+ with low baseline sodium (Rembratt pooled trials)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-29-e",
+   "cand_id": "C11-29",
+   "claim": "Desmopressin gives a modest benefit for nocturia.",
+   "source_keys": [
+    "PMID:24704009"
+   ],
+   "supporting_passage": "\"A dose of 100 mcg provided just more than an hour of additional sleep before the first void compared with placebo as well as 0.72 fewer voids per night. Higher doses provided no significant increase in benefit. Hyponatremia (RR 5.1) and headache (RR 4.3) were the most common adverse effects.\" ... \"Desmopressin appears to offer a modest benefit for treating nocturia in generally healthy adults with adequate safety.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Generally healthy adults with nocturia / desmopressin / placebo / nocturnal voids, time to first void / 10 RCTs, 2,191 patients",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In trials in generally healthy adults, desmopressin reduced night-time trips to the toilet by less than one a night on average (0.72 fewer at 100 micrograms) and gave just over an hour more sleep before the first trip.",
+   "qualifications": "Generally healthy adults, several trials excluded non-responders in a run-in; benefit in frail older people untested.",
+   "conflicting_or_uncertain": "None on direction.",
+   "numbers": [
+    {
+     "value": "0.72",
+     "meaning": "fewer nocturnal voids per night versus placebo at 100 micrograms"
+    },
+    {
+     "value": "just more than an hour",
+     "meaning": "extra time asleep before first void versus placebo at 100 micrograms"
+    },
+    {
+     "value": "RR 5.1",
+     "meaning": "relative risk of hyponatraemia versus placebo (practitioner detail)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-29-f",
+   "cand_id": "C11-29",
+   "claim": "Low sodium is also common with the newer low-dose tablet: in Japanese men (mean age 75) it occurred in 13% over up to a year.",
+   "source_keys": [
+    "PMID:41844238"
+   ],
+   "supporting_passage": "\"The mean age of the total population was 75.0 ± 9.6 years. A total of 351 adverse drug reactions (ADRs) were reported in 259 patients, including 11 serious ADRs in 7 patients (0.7%). The most common ADR was hyponatremia, which occurred in 140 patients (13.3%).\" ... \"Patients aged ≥ 75 years, those with underlying medical conditions, and those with abnormal clinical laboratory values, such as reduced renal function or a baseline serum sodium level of < 140 mmol/L, should be closely monitored for the development of hyponatremia during desmopressin treatment for nocturia due to NP.\"",
+   "location": "Abstract",
+   "pico_timeframe": "1,049 Japanese men starting desmopressin orally disintegrating tablets for nocturnal polyuria / no comparator / up to 52 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Newer low-dose tablets still carry the risk: in a Japanese survey of 1,049 men with an average age of 75, about 13 in 100 developed low sodium within a year.",
+   "qualifications": "Manufacturer-run survey without a comparison group; men only; Japan. Most cases were without reported severe symptoms (no confusion, seizures, stupor or coma recorded among the 19 with symptoms).",
+   "conflicting_or_uncertain": "Definition of hyponatraemia not given in the abstract.",
+   "numbers": [
+    {
+     "value": "140 of 1,049 (13.3%)",
+     "meaning": "men with hyponatraemia as an adverse drug reaction over up to 52 weeks"
+    },
+    {
+     "value": "75",
+     "meaning": "mean age"
+    }
+   ]
+  },
+  {
+   "claim_id": "C11-29-g",
+   "cand_id": "C11-29",
+   "claim": "Not every study finds a higher risk: a Korean cohort of men with enlarged prostate found no significant increase after matching.",
+   "source_keys": [
+    "PMID:40312904"
+   ],
+   "supporting_passage": "\"After propensity score matching, desmopressin use was not significantly associated with an increased risk of hyponatremia (hazard ratio 1.273, 95% confidence interval 0.988-1.640; p=0.062). Significant predictors of hyponatremia included advanced age, chronic heart failure, peripheral vascular disease, and renal disease.\" ... \"clinicians should implement routine monitoring protocols, including serum sodium checks, particularly in high-risk populations\"",
+   "location": "Abstract",
+   "pico_timeframe": "33,533 Korean men with BPH, desmopressin versus alpha-blocker or combination, 2011 to 2020",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Practitioner posts may add that a large Korean study in men with enlarged prostate did not find a clear increase after matching, while still advising sodium checks in high-risk people.",
+   "qualifications": "Men only; comparator alpha-blockers; formulation not stated in abstract; upper confidence limit allows a 64% increase.",
+   "conflicting_or_uncertain": "Conflicts in size with Fralick 2019; different populations and outcome definitions.",
+   "numbers": [
+    {
+     "value": "HR 1.273 (0.988 to 1.640)",
+     "meaning": "hyponatraemia, desmopressin versus comparison after matching; not statistically significant"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C11-16",
+   "status": "ready",
+   "reason": "All essential claims verified in the Glass 2005 full text: 25.2 minutes self-reported total sleep time and 0.63 fewer awakenings (trials of at least 5 nights, up to 9 weeks, published 1966 to 2003); NNT 13 (sleep quality; 4 trials, 1,072 people, specific drugs; CI 6.7 to 62.9) and NNH 6 (any adverse event; 16 trials, 2,220 people), with the authors' own caveat that the ratio is a rough indicator; cognitive events and daytime fatigue more common. Beers 2023 Table 2 text verified (avoid benzodiazepines and Z-drugs, 'minimal improvement in sleep latency and duration'). CBT-I first line verified in ACP 2016 and European 2023 guidelines; the European guideline allows short-term tablets (4 weeks or less), consistent with the candidate's position. Required changes to wording: say 'self-reported' and 'in short trials'; do not show 'unsteadiness' or falls as a Glass finding (P>0.05); do not convert odds ratios; label the NNT and NNH icon arrays as coming from different trials and outcomes; optionally note the publication-bias-adjusted estimate of 15 minutes. Berry 2013 (Z-drugs and hip fracture in US care homes) is optional and must be worded as an association.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C11-16-a",
+    "C11-16-c",
+    "C11-16-d",
+    "C11-16-f",
+    "C11-16-g"
+   ]
+  },
+  {
+   "cand_id": "C11-02",
+   "status": "revise",
+   "reason": "The teatime loop diuretic example is contradicted by evidence: nocturia guidance advises taking diuretics no later than mid to late afternoon, and a randomised trial found furosemide taken about 6 hours before bed reduced night-time urination. The Parkinson's element has no openable source (NICE NG71 not accessible) and is dropped. Donepezil morning dosing rests on reviews and an 8-patient case series (supported with qualification); the steroid single-morning-dose advice rests on expert guidance (supported with qualification). Hospital sleep disturbers (noise, devices, pain, toilet visits) and the sedative trade-off in people over 60 are well supported.",
+   "revised_angle": "Two lists for the 2am call. Tonight: ask about pain, a full bladder, noise and equipment, the disturbances inpatients report most (Wesselius 2018), before reaching for a sedative, which in people over 60 adds only about 25 minutes of self-reported sleep with more confusion and daytime tiredness (Glass 2005). Tomorrow, for the day team: review dose times. Is a steroid given later than the morning (expert advice favours a single morning dose)? Is donepezil given at night in someone with sleeplessness or vivid dreams (reviews suggest morning dosing may help)? Is a diuretic given in the evening (guidance: no later than mid to late afternoon)? Do not name a teatime loop diuretic as a culprit, and leave out Parkinson's medicines.",
+   "essential_claim_ids": [
+    "C11-02-a",
+    "C11-02-b",
+    "C11-02-c",
+    "C11-02-d",
+    "C11-02-e"
+   ]
+  },
+  {
+   "cand_id": "C11-03",
+   "status": "revise",
+   "reason": "Both Quebec trials verified from PubMed abstracts: EMPOWER 27% versus 5% stopped at 6 months (risk difference 23 points, NNT 4; further 11% reduced dose; 62% of recipients raised it themselves); D-PRESCRIBE sedative-hypnotic subgroup 63/146 (43.2%) versus 14/155 (9.0%), with 29 of 77 tapering reporting withdrawal symptoms and no adverse events needing hospital care. But two points change the framing: D-PRESCRIBE combined the brochure with a pharmacist's recommendation to the doctor (not a leaflet alone), and later US trials of mailed education without pharmacist involvement showed no effect (Singh 2024, 12,787 people with dementia; Mak 2022 pilot in 2,009 veterans). The EMPOWER abstract does not say the booklet was posted, so say 'given'. Outcomes were pharmacy refill records, not confirmed abstinence.",
+   "revised_angle": "Keep the 27 versus 5 in 100 icon arrays and the 62 in 100 who raised it themselves, and treat the older person as the decision-maker. Add one plain sentence that the booklets worked inside a system where the local pharmacist enrolled people (and, in D-PRESCRIBE, also wrote to the doctor); mailing information alone in large US trials did not reduce use. Close with what a reader can ask their pharmacist for: written information on the risks and a slow, agreed plan for cutting down, with a warning that about 4 in 10 who tapered had withdrawal symptoms, so tapering should be gradual and supported.",
+   "essential_claim_ids": [
+    "C11-03-a",
+    "C11-03-b",
+    "C11-03-c",
+    "C11-03-d",
+    "C11-03-e",
+    "C11-03-f"
+   ]
+  },
+  {
+   "cand_id": "C11-24",
+   "status": "revise",
+   "reason": "The Cochrane dementia finding (melatonin up to 10 mg may make little or no difference over 8 to 10 weeks; low certainty; some benefit for trazodone and orexin antagonists) and the product-content findings (US gummies 74% to 347% of label, 22 of 25 mislabelled; Canadian supplements -83% to +478%) are verified. The modest average effect in primary sleep disorders (about 7 minutes quicker to sleep, 8 minutes more sleep) is verified. The UK licence details (Circadin, 55 and over, 13 weeks) and the judge's suggested 'prescription-only in the UK' line are available only as a search-engine extract and cannot be essential. The European Insomnia Guideline 2023 (opened abstract) supports prolonged-release melatonin for up to 3 months at 55 and over and says fast-release melatonin is not recommended.",
+   "revised_angle": "Keep the realistic-expectations frame, but source the 'what prescribed melatonin is for' column to the European insomnia guideline (slow-release melatonin, 55 and over, up to 3 months; ordinary fast-release melatonin not recommended) rather than the UK licence. Say the product-content tests were of supplements sold in the US and Canada, bought online, not UK prescribed tablets, and do not state UK legal status unless the emc SmPC is opened. Keep the Alzheimer's line as 'may make little or no difference' and avoid implying nothing helps. Close with the review question: what would count as success, and when will we stop if it has not helped?",
+   "essential_claim_ids": [
+    "C11-24-a",
+    "C11-24-c",
+    "C11-24-d",
+    "C11-24-e"
+   ]
+  },
+  {
+   "cand_id": "C11-29",
+   "status": "ready",
+   "reason": "Fralick 2019 figures verified (146 versus 11 per 1,000 person-years; mean age 70; 3,137 matched pairs; older formulation; coded diagnosis; only 20% had baseline sodium). Beers 2023 Table 2 wording verified ('Avoid for treatment of nocturia or nocturnal polyuria'; 'High risk of hyponatremia; safer alternative treatments for nocturia (including non- pharmacologic)'; moderate evidence, strong recommendation). Frail-older-adult review conclusion verified. The SPC monitoring claim is replaced by openable sources: baseline sodium of at least 135 mmol/L and checks at week 1 and month 1 for people aged 65 or over (Juul 2017; manufacturer-authored), age as the strongest predictor (Rembratt 2006), and 'all patients should be monitored' with lower starting doses in older people (Ebell 2014 systematic review, which also quantifies the modest benefit: 0.72 fewer voids a night). Newer low-dose product still associated with 13.3% hyponatraemia in Japanese men aged on average 75 (post-marketing). Wording must say the Fralick data are for the older formulation and are observational; mention that a Korean cohort did not find a clear increase after matching if the post is for practitioners.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C11-29-a",
+    "C11-29-b",
+    "C11-29-d",
+    "C11-29-e"
+   ]
+  }
+ ]
+}

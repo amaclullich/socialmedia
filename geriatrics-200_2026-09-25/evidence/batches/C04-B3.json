@@ -1,0 +1,765 @@
+{
+ "batch": "C04-B3",
+ "category": "C04",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:35378630",
+   "citation": "Gregson CL, Armstrong DJ, Bowden J, Cooper C, Edwards J, Gittoes NJL, et al. UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos. 2022;17(1):58.",
+   "pmid": "35378630",
+   "pmcid": "PMC8979902",
+   "doi": "10.1007/s11657-022-01061-5",
+   "public_url": "https://doi.org/10.1007/s11657-022-01061-5",
+   "design": "National clinical guideline (National Osteoporosis Guideline Group, NOGG), NICE-accredited, graded evidence",
+   "population_setting": "UK; postmenopausal women and men aged 50 and over, including sections on glucocorticoids, androgen deprivation therapy and aromatase inhibitors",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC8979902), re-opened in this batch; text searched for passages. Reused from C04-B2.",
+   "correction_check": "C04-B2 recorded a Scite-listed correction (10.1007/s11657-022-01115-8) that only adds a missing author affiliation. PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026).",
+   "quality_note": "Current UK guideline. PMC text extraction drops some italic phrases and bullet lists (for example the list of people who should start bone protection at the same time as steroid tablets, and the risk category in the 'can be reassured' recommendation), so only sentences present in the extracted text are quoted. Some statements (NICE breast cancer guidance) are second-hand reports."
+  },
+  {
+   "key": "PMID:7554702",
+   "citation": "Gertz BJ, Holland SD, Kline WF, Matuszewski BK, Freeman A, Quan H, et al. Studies of the oral bioavailability of alendronate. Clin Pharmacol Ther. 1995;58(3):288-98.",
+   "pmid": "7554702",
+   "pmcid": null,
+   "doi": "10.1016/0009-9236(95)90245-7",
+   "public_url": "https://doi.org/10.1016/0009-9236(95)90245-7",
+   "design": "Series of randomised crossover pharmacokinetic studies (urinary recovery of alendronate)",
+   "population_setting": "Volunteers: mainly postmenopausal women, one study in men; USA/UK research units (Merck)",
+   "year": 1995,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (abstract identical)",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Manufacturer-run absorption studies; measure how much drug is absorbed, not fracture outcomes. Full text not open access; figures taken from the abstract."
+  },
+  {
+   "key": "PMID:8793925",
+   "citation": "de Groen PC, Lubbe DF, Hirsch LJ, Daifotis A, Stephenson W, Freedholm D, et al. Esophagitis associated with the use of alendronate. N Engl J Med. 1996;335(14):1016-21.",
+   "pmid": "8793925",
+   "pmcid": null,
+   "doi": "10.1056/NEJM199610033351403",
+   "public_url": "https://doi.org/10.1056/NEJM199610033351403",
+   "design": "Three case reports plus analysis of manufacturer postmarketing adverse event reports",
+   "population_setting": "Worldwide alendronate users to March 1996 (about 475,000 estimated patients)",
+   "year": 1996,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Spontaneous reports; cannot give an incidence rate. Supports the link between poor dosing technique and gullet injury, not its frequency."
+  },
+  {
+   "key": "PMID:15268886",
+   "citation": "Kanis JA, Johnell O, De Laet C, Johansson H, Oden A, Delmas P, et al. A meta-analysis of previous fracture and subsequent fracture risk. Bone. 2004;35(2):375-82.",
+   "pmid": "15268886",
+   "pmcid": null,
+   "doi": "10.1016/j.bone.2004.03.024",
+   "public_url": "https://doi.org/10.1016/j.bone.2004.03.024",
+   "design": "Meta-analysis of 11 prospective population cohorts (individual-level data, Poisson models)",
+   "population_setting": "15,259 men and 44,902 women in Europe, North America, Australia and Japan; 250,000 person-years",
+   "year": 2004,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Foundational FRAX cohort work; relative risk only; older but still the standard source for prior fracture as a risk factor."
+  },
+  {
+   "key": "PMID:15647578",
+   "citation": "Shahinian VB, Kuo YF, Freeman JL, Goodwin JS. Risk of fracture after androgen deprivation for prostate cancer. N Engl J Med. 2005;352(2):154-64.",
+   "pmid": "15647578",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa041943",
+   "public_url": "https://doi.org/10.1056/NEJMoa041943",
+   "design": "Retrospective cohort (SEER cancer registry linked to Medicare claims), Cox models",
+   "population_setting": "50,613 US men with prostate cancer diagnosed 1992 to 1997, Medicare records",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Observational: the paper's conclusion says 'increases', but the house rule requires 'linked with'. The 19.4% vs 12.6% figures are crude and apply to men surviving at least 5 years; a dose-response with GnRH agonist doses supports but does not prove cause."
+  },
+  {
+   "key": "PMID:34421586",
+   "citation": "Wu CC, Chen PY, Wang SW, Tsai MH, Wang YCL, Tai CL, et al. Risk of fracture during androgen deprivation therapy among patients with prostate cancer: a systematic review and meta-analysis of cohort studies. Front Pharmacol. 2021;12:652979.",
+   "pmid": "34421586",
+   "pmcid": "PMC8378175",
+   "doi": "10.3389/fphar.2021.652979",
+   "public_url": "https://doi.org/10.3389/fphar.2021.652979",
+   "design": "Systematic review and meta-analysis of 16 cohort studies, GRADE assessed",
+   "population_setting": "519,168 men with prostate cancer in Europe, North America and Asia",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (full-text snippets confirm OR 1.39 main analysis)",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Observational data with high heterogeneity (I2 83%); odds ratio only, so no absolute difference should be derived from it."
+  },
+  {
+   "key": "PMID:32995252",
+   "citation": "Brown JE, Handforth C, Compston JE, Cross W, Parr N, Selby P, et al. Guidance for the assessment and management of prostate cancer treatment-induced bone loss. A consensus position statement from an expert group. J Bone Oncol. 2020;25:100311.",
+   "pmid": "32995252",
+   "pmcid": "PMC7516275",
+   "doi": "10.1016/j.jbo.2020.100311",
+   "public_url": "https://doi.org/10.1016/j.jbo.2020.100311",
+   "design": "UK expert consensus position statement with systematic literature review; endorsed by NOGG 2022",
+   "population_setting": "UK; men with prostate cancer starting or continuing long-term androgen deprivation therapy",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (highlights)",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Consensus guidance, not trial evidence. NOGG 2022 states it supports this guideline, which gives it UK standing."
+  },
+  {
+   "key": "PMID:28413771",
+   "citation": "Hadji P, Aapro MS, Body JJ, Gnant M, Brandi ML, Reginster JY, et al. Management of aromatase inhibitor-associated bone loss (AIBL) in postmenopausal women with hormone sensitive breast cancer: joint position statement of the IOF, CABS, ECTS, IEG, ESCEO, IMS, and SIOG. J Bone Oncol. 2017;7:1-12.",
+   "pmid": "28413771",
+   "pmcid": "PMC5384888",
+   "doi": "10.1016/j.jbo.2017.03.001",
+   "public_url": "https://doi.org/10.1016/j.jbo.2017.03.001",
+   "design": "International joint position statement based on systematic literature review",
+   "population_setting": "Postmenopausal women with hormone-sensitive early breast cancer on aromatase inhibitors",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Superseded in detail by the 2025 update (PMID 40726588), which confirms the algorithm."
+  },
+  {
+   "key": "PMID:40726588",
+   "citation": "Hadji P, Aapro M, Al-Dagri N, Alokail M, Biver E, Body JJ, et al. Management of aromatase inhibitor-associated bone loss (AIBL) in women with hormone-sensitive breast cancer: an updated joint position statement of the IOF, CABS, ECTS, IEG, ESCEO, IMS, and SIOG. J Bone Oncol. 2025;53:100694.",
+   "pmid": "40726588",
+   "pmcid": "PMC12301826",
+   "doi": "10.1016/j.jbo.2025.100694",
+   "public_url": "https://doi.org/10.1016/j.jbo.2025.100694",
+   "design": "Updated international joint position statement based on systematic literature review (2016 to 2024)",
+   "population_setting": "Women with hormone-sensitive breast cancer receiving aromatase inhibitors",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC12301826)",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Most recent international position statement. The fracture relative risks it quotes come from a cited 30-trial meta-analysis that was not opened here, so treat them as second-hand."
+  },
+  {
+   "key": "PMID:29619093",
+   "citation": "Tseng OL, Spinelli JJ, Gotay CC, Ho WY, McBride ML, Dawes MG. Aromatase inhibitors are associated with a higher fracture risk than tamoxifen: a systematic review and meta-analysis. Ther Adv Musculoskelet Dis. 2018;10(4):71-90.",
+   "pmid": "29619093",
+   "pmcid": "PMC5871065",
+   "doi": "10.1177/1759720X18759291",
+   "public_url": "https://doi.org/10.1177/1759720X18759291",
+   "design": "Systematic review and meta-analysis of 21 randomised trials and cohort studies",
+   "population_setting": "Women aged 65 and under with non-metastatic breast cancer",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (full-text snippets)",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026); Scite search_literature (25 Sep 2026): no editorialNotices listed.",
+   "quality_note": "Population restricted to women aged 65 and under, so it does not describe older women directly; used only for the pattern that the excess risk is seen during treatment."
+  },
+  {
+   "key": "PMID:42263846",
+   "citation": "Bassatne A, El Meski N, Horanieh R, Andary F, Rhayem C, Mukherji D, et al. Benefits and harms of antiresorptive therapy in men with non-metastatic prostate cancer on androgen deprivation therapy: a systematic review and meta-analysis of randomized controlled trials. Metabolism. 2026;182:156668.",
+   "pmid": "42263846",
+   "pmcid": null,
+   "doi": "10.1016/j.metabol.2026.156668",
+   "public_url": "https://doi.org/10.1016/j.metabol.2026.156668",
+   "design": "Systematic review and meta-analysis of 26 randomised controlled trials",
+   "population_setting": "Men with non-metastatic prostate cancer on androgen deprivation therapy",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: record not tagged retracted publication or expression of concern (PMID search with retracted publication[pt], 25 Sep 2026). Scite not checked for this record.",
+   "quality_note": "Recent and relevant; fracture evidence is very low certainty for bisphosphonates and rests on one trial for denosumab."
+  },
+  {
+   "key": "URL:https://www.medicines.org.uk/emc/product/5206/pil",
+   "citation": "Electronic medicines compendium. Alendronic acid 70 mg tablets: patient information leaflet (product 5206). Accessed via search extract 25 Sep 2026.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.medicines.org.uk/emc/product/5206/pil",
+   "design": "Official product patient information leaflet",
+   "population_setting": "UK users of alendronic acid 70 mg weekly tablets",
+   "year": 2026,
+   "access": "search_extract",
+   "tool_used": "WebSearch (medicines.org.uk, nhs.uk); page not opened because WebFetch is blocked",
+   "correction_check": "Not applicable (product information).",
+   "quality_note": "Search-engine summary only; not sufficient for an essential claim."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C04-13-a",
+   "cand_id": "C04-13",
+   "claim": "UK guidance says to take alendronic acid after an overnight fast, swallowed whole with a glass of plain water (about 200 mL) while sitting or standing, at least 30 minutes before the first food or drink (other than water), other medicines or supplements including calcium, and not to lie down for 30 minutes afterwards.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Alendronate should be taken after an overnight fast and at least 30 min before the first food or drink (other than water) of the day or any other oral medicinal products or supplementation (including calcium). Tablets should be swallowed whole with a glass of plain water (~ 200 ml) whilst the patient is sitting or standing in an upright position. Patients should not lie down for 30 min after taking the tablet.\"",
+   "location": "NOGG full text, 'Specific drug options: Anti-resorptive drugs: bisphosphonates' (alendronate)",
+   "pico_timeframe": "Adults prescribed alendronate for osteoporosis / administration instructions / not applicable / correct dosing / each dose",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Take the weekly tablet first thing, before breakfast, with a full glass of plain water (about 200 mL), sitting or standing. Then wait at least 30 minutes before any food, any drink other than water, or any other tablets, including calcium. Do not lie down for those 30 minutes.",
+   "qualifications": "Instructions are the same for the daily and weekly forms; effervescent or soluble forms are dissolved in at least 120 mL of plain water. Say 'plain water' (not tea, coffee, juice); 'tap water', 'mineral water' and 'not at bedtime' were not verified from an opened source.",
+   "conflicting_or_uncertain": "None on the instructions themselves. Other oral bisphosphonates (risedronate, ibandronate) have similar but not identical rules; keep the post to alendronic acid.",
+   "numbers": [
+    {
+     "value": "about 200 mL",
+     "meaning": "volume of plain water with each tablet (NOGG; de Groen gives 180 to 240 mL)"
+    },
+    {
+     "value": "30 minutes",
+     "meaning": "minimum wait before food, other drinks or medicines, and minimum time upright after the dose"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-13-b",
+   "cand_id": "C04-13",
+   "claim": "Even when taken correctly, less than 1 in 100 of the alendronate dose is absorbed (0.76% in women, 0.59% in men, fasting with water and food 2 hours later).",
+   "source_keys": [
+    "PMID:7554702"
+   ],
+   "supporting_passage": "\"In women, oral bioavailability of alendronate was independent of dose (5 to 80 mg) and averaged (90% confidence interval) 0.76% (0.58, 0.98) when taken with water in the fasting state, followed by a meal 2 hours later. Bioavailability was similar in men [0.59%, (0.43, 0.81)].\"",
+   "location": "Abstract",
+   "pico_timeframe": "Volunteer postmenopausal women and men / oral alendronate with water after overnight fast / intravenous reference dose / fraction absorbed (urinary recovery) / single-dose studies",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Only a tiny fraction of each tablet is absorbed, less than 1 part in 100, even when it is taken with water on an empty stomach. That figure comes from absorption studies in volunteers.",
+   "qualifications": "Measured with a 2-hour wait before breakfast, longer than the usual 30 minutes. It is an absorption measure, not a fracture outcome.",
+   "conflicting_or_uncertain": "None found; this is the standard reference for alendronate absorption.",
+   "numbers": [
+    {
+     "value": "0.76%",
+     "meaning": "average fraction absorbed in postmenopausal women, fasting with water, meal 2 hours later"
+    },
+    {
+     "value": "0.59%",
+     "meaning": "same measure in men"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-13-c",
+   "cand_id": "C04-13",
+   "claim": "In volunteer absorption studies, black coffee or orange juice taken with the tablet cut absorption by about 60%, and taking it with or up to 2 hours after breakfast cut absorption by more than 85%.",
+   "source_keys": [
+    "PMID:7554702"
+   ],
+   "supporting_passage": "\"Taking alendronate either concurrently with or 2 hours after breakfast drastically (> 85%) impaired availability. Black coffee or orange juice alone, when taken with the drug, also reduced bioavailability (approximately 60%).\"",
+   "location": "Abstract",
+   "pico_timeframe": "Volunteers (mainly postmenopausal women) / alendronate taken with coffee, orange juice, or with or after breakfast / alendronate with water fasting / fraction absorbed / single doses",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In absorption studies in volunteers, taking the tablet with black coffee or orange juice instead of water cut the amount absorbed by about 60 per cent. Taking it with breakfast, or within 2 hours after breakfast, cut it by more than 85 per cent.",
+   "qualifications": "Relative reductions of an already tiny absorbed amount; measured in volunteers, not in fracture trials. Say it is an absorption finding. Do not claim a specific loss of fracture protection.",
+   "conflicting_or_uncertain": "No opened source links these absorption reductions to fracture outcomes; the effect on fracture protection is unmeasured (an evidence gap, not evidence of no effect).",
+   "numbers": [
+    {
+     "value": "about 60%",
+     "meaning": "relative reduction in absorption with black coffee or orange juice versus water"
+    },
+    {
+     "value": "more than 85%",
+     "meaning": "relative reduction when taken with breakfast or 2 hours after breakfast"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-13-d",
+   "cand_id": "C04-13",
+   "claim": "Waiting 30 or 60 minutes before breakfast gave about 40% less absorption than waiting 2 hours; the authors set at least 30 minutes as a practical minimum for long-term use.",
+   "source_keys": [
+    "PMID:7554702"
+   ],
+   "supporting_passage": "\"Taking alendronate either 60 or 30 minutes before a standardized breakfast reduced bioavailability by 40% relative to the 2-hour wait.\" ... \"A practical dosing recommendation, derived from these findings and reflective of the long-term nature of therapy for a disease such as osteoporosis, is that patients take the drug with water after an overnight fast and at least 30 minutes before any other food or beverage.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Volunteers / alendronate 30 or 60 min before breakfast / 2-hour wait / fraction absorbed / single doses",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Thirty minutes is the minimum wait, set as a practical compromise; in the absorption studies, waiting 2 hours let more of the tablet be absorbed than waiting 30 minutes.",
+   "qualifications": "Optional nuance; do not advise a 2-hour wait, since guidance says at least 30 minutes.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "40%",
+     "meaning": "lower absorption with a 30 or 60 minute wait than with a 2-hour wait (relative)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-13-e",
+   "cand_id": "C04-13",
+   "claim": "Alendronate can irritate the gullet (oesophagus); reported cases were linked with taking it with little or no water, lying down during or after the dose, or carrying on after symptoms began.",
+   "source_keys": [
+    "PMID:8793925",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "de Groen: \"In patients for whom adequate information was available, esophagitis seemed to be associated with swallowing alendronate with little or no water, lying down during or after ingestion of the tablet, ... continuing to take alendronate after the onset of symptoms, and having preexisting esophageal disorders.\" ... \"Recommendations to reduce the risk of esophagitis include swallowing alendronate with 180 to 240 ml (6 to 8 oz) of water on arising in the morning, remaining upright for at least 30 minutes after swallowing the tablet and until the first food of the day has been ingested, and discontinuing the drug promptly if esophageal symptoms develop.\" NOGG: \"Oral bisphosphonates are contraindicated in people with abnormalities of the oesophagus that delay oesophageal emptying such as stricture or achalasia, and inability to stand or sit upright for at least 30–60 min.\"",
+   "location": "de Groen abstract (Results; Conclusions); NOGG full text, bisphosphonate contraindications",
+   "pico_timeframe": "Alendronate users reported to the manufacturer to March 1996 / dosing technique / not applicable / oesophageal adverse events / postmarketing period",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The full glass of water and staying upright help the tablet pass quickly into the stomach. Reports of gullet irritation from alendronic acid were mostly linked with taking it with little water or lying down afterwards. If swallowing becomes painful or you get new heartburn, stop taking it and ask your doctor or pharmacist.",
+   "qualifications": "Case reports and spontaneous reports only; gives no rate. Do not state how common oesophagitis is. The 'stop if symptoms' advice comes from de Groen's recommendations ('discontinuing the drug promptly if esophageal symptoms develop'); 'painful swallowing' and 'new heartburn' are a plain-English gloss of 'esophageal symptoms', not quoted examples.",
+   "conflicting_or_uncertain": "Frequency is uncertain; the 199 oesophageal reports among about 475,000 estimated users are voluntary reports and must not be used as a risk figure.",
+   "numbers": [
+    {
+     "value": "180 to 240 mL",
+     "meaning": "water volume recommended by de Groen"
+    },
+    {
+     "value": "30 minutes",
+     "meaning": "minimum time upright after the tablet and until first food"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-13-f",
+   "cand_id": "C04-13",
+   "claim": "If a weekly dose is missed, take one tablet on the morning after remembering, do not take two on the same day, then return to the usual day.",
+   "source_keys": [
+    "URL:https://www.medicines.org.uk/emc/product/5206/pil"
+   ],
+   "supporting_passage": "Search-engine summary of the emc leaflet: \"If you miss a dose, just take one tablet on the morning after you remember. Do not take two tablets on the same day. Return to taking one tablet once a week, as originally scheduled on your chosen day.\"",
+   "location": "Search extract of patient information leaflet (page not opened)",
+   "pico_timeframe": "Users of alendronic acid 70 mg weekly / missed dose instruction / not applicable / not applicable",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Leave out, or say: 'If you miss a week, the leaflet in the box says what to do.'",
+   "qualifications": "Search extract only; not enough for a stated instruction in the post.",
+   "conflicting_or_uncertain": "Not verified from an opened source.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-12-a",
+   "cand_id": "C04-12",
+   "claim": "UK guidance says a fracture risk assessment (FRAX) should be done for any postmenopausal woman or man aged 50 or over who has a clinical risk factor for fracture; people found to be at low risk without a previous fracture are reassured and given lifestyle advice rather than drug treatment.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"A FRAX assessment should be performed in any postmenopausal woman, or man age ≥ 50 years, with a clinical risk factor for fragility fracture, to guide BMD measurement and prompt timely referral and/or drug treatment, where indicated\" ... \"Men and women with, without a prior fragility fracture, can be reassured that their fracture risk is low and offered lifestyle advice as appropriate\" ... \"An initial FRAX assessment, which provides the ten-year probability of a major osteoporotic fracture (MOF; clinical spine, hip, forearm or humerus) and/or hip fracture, can be used to identify patients at low, intermediate, high or very high risk of fracture\"",
+   "location": "NOGG full text, 'Fracture risk assessment and case finding' and 'Intervention thresholds and strategy' recommendations (the risk category after 'Men and women with' is missing from the PMC text extraction)",
+   "pico_timeframe": "Postmenopausal women and men aged 50 and over in the UK / FRAX assessment when a clinical risk factor is present / not applicable / 10-year fracture probability / at assessment",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "A decision that you do not need bone medicine yet is based on your risk factors at the time, which a doctor turns into a 10-year fracture risk. UK guidance says a new risk factor is a reason for that risk to be worked out.",
+   "qualifications": "The 'decision for now' framing is a reasonable reading of the guideline, not a quotation. No opened source sets a routine recheck date for untreated people at low risk (searches of the NOGG text found set intervals only for people near the treatment threshold who are on steroids or cancer hormone treatment, and after pausing treatment). Do not claim anything about GP recall systems.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "10 years",
+     "meaning": "FRAX gives the probability of a major fracture or hip fracture over the next 10 years"
+    },
+    {
+     "value": "50",
+     "meaning": "age from which the recommendation applies to men"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-12-b",
+   "cand_id": "C04-12",
+   "claim": "A new broken bone after a minor fall or strain is a risk factor for further fractures: in pooled data from 11 cohorts, a previous fracture was linked with nearly twice the risk of another fracture, and UK guidance says the risk is highest just after the fracture, falls over the next 2 years, and stays above average after that.",
+   "source_keys": [
+    "PMID:15268886",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Kanis: \"A previous fracture history was associated with a significantly increased risk of any fracture compared with individuals without a prior fracture (RR = 1.86; 95% CI = 1.75-1.98). The risk ratio was similar for the outcome of osteoporotic fracture or for hip fracture. There was no significant difference in risk ratio between men and women.\" NOGG: \"Prior fragility fracture is a well-established risk factor for a future fracture. This risk of subsequent osteoporotic fracture is particularly acute immediately after an index fracture and wanes progressively over the next 2 years, but thereafter remains higher than that of the general population\"",
+   "location": "Kanis abstract; NOGG full text, 'Indications for specialist referral in those at very high-fracture risk'",
+   "pico_timeframe": "Men and women in 11 population cohorts / prior fracture / no prior fracture / any subsequent fracture / 250,000 person-years of follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A broken bone after a minor fall or bump is the clearest reason to have your fracture risk looked at again. People who have had one fracture have nearly twice the risk of another. The risk is highest soon after the fracture, eases over the next 2 years, and stays above average after that.",
+   "qualifications": "Relative risk from observational cohorts (association). 'Nearly twice' is the plain reading of RR 1.86; do not convert to an absolute number. 'Fragility fracture' means a fracture from a fall from standing height or less.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "1.86",
+     "meaning": "relative risk of any fracture after a previous fracture versus none, pooled across 11 cohorts; plain reading 'nearly twice the risk'"
+    },
+    {
+     "value": "2 years",
+     "meaning": "period after a fracture over which the raised risk of another fracture gradually eases (it stays above average afterwards)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-12-c",
+   "cand_id": "C04-12",
+   "claim": "Steroid tablets taken for 3 months or more (any dose) count as a fracture risk factor; bone loss starts early after they begin, and UK guidance says some people should start bone protection at the same time as the steroids.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"The input into FRAX includes, with age and sex, BMD independent clinical risk factors including the following: Body mass index (calculated from weight and height in kg/m), previous fragility fracture (including morphometric vertebral fracture), parental history of hip fracture, current glucocorticoid treatment (any dose, by mouth for 3 months or more), current smoking, alcohol intake 3 or more units daily, rheumatoid arthritis, secondary causes of osteoporosis\" ... \"Because bone loss and increased fracture risk occur early after initiation of oral glucocorticoids, bone-protective treatment should be started in the following people, at the same time as glucocorticoid therapy without waiting for bone density assessment, which should follow later\" ... \"Bone loss and increased fracture risk occur rapidly after initiation of oral glucocorticoid therapy and increase with the dose of glucocorticoids\"",
+   "location": "NOGG full text, 'Fracture risk assessment tools' (FRAX inputs) and 'Glucocorticoid-induced osteoporosis' recommendation 16 and text",
+   "pico_timeframe": "Adults taking oral glucocorticoids / 3 months or more / not applicable / bone loss and fracture risk / from the start of treatment",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Starting steroid tablets such as prednisolone that you are likely to take for 3 months or more. Bone loss begins soon after they start, so ask about your bones when they are started, not months later.",
+   "qualifications": "The list of people who should start bone protection with the steroids is missing from the extracted text, so do not state who they are. Oral (tablet) steroids only; inhalers and joint injections are not covered by this wording.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "3 months or more",
+     "meaning": "duration of oral steroid treatment that counts as a FRAX risk factor, at any dose"
+    },
+    {
+     "value": "7.5 mg a day",
+     "meaning": "prednisolone dose above which NOGG counts steroids as high dose (optional, practitioner version only)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-12-d",
+   "cand_id": "C04-12",
+   "claim": "Losing 4 cm or more in height, or a new stoop (kyphosis), is a reason for spine imaging to look for spinal fractures and for fracture risk assessment.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Vertebral fracture assessment (VFA) is indicated in postmenopausal women, and men age ≥ 50 years, if there is a history of ≥ 4 cm height loss, kyphosis, recent or current long-term oral glucocorticoid therapy, a BMD T-score ≤  − 2.5 at either the spine or hip, or in cases of acute onset back pain with risk factors for osteoporosis\" ... \"There are many clinical risk factors for fracture in addition to those included in FRAX which can be used to trigger fracture risk assessment (Table), including thoracic kyphosis and height loss (> 4 cm), either in comparison with recalled young adult height or a documented loss on serial measurements\"",
+   "location": "NOGG full text, 'Fracture risk assessment and case finding' recommendations; 'Screening and case finding'",
+   "pico_timeframe": "Postmenopausal women and men aged 50 and over / height loss of 4 cm or more or kyphosis / not applicable / indication for vertebral fracture assessment / at presentation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Losing 4 cm (about an inch and a half) or more in height compared with your height as a young adult, or developing a stoop. UK guidance says this should prompt a check of the spine for fractures.",
+   "qualifications": "The guideline uses '≥ 4 cm' in the recommendation and '> 4 cm' in the text; '4 cm or more' is safe. Height loss can be compared with remembered young adult height.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "4 cm",
+     "meaning": "height loss threshold, compared with recalled young adult height or measured over time"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-12-e",
+   "cand_id": "C04-12",
+   "claim": "Sudden new back pain, especially in the upper back, in someone with osteoporosis risk factors should raise the possibility of a spinal fracture.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Primary care clinicians should always have in mind the possibility of vertebral fracture in postmenopausal women and men age ≥ 50 years who present with acute onset back pain, especially thoracic pain if they have risk factors for osteoporosis\" ... \"Vertebral fracture assessment (VFA) is indicated ... in cases of acute onset back pain with risk factors for osteoporosis\"",
+   "location": "NOGG full text, primary care and case-finding sections",
+   "pico_timeframe": "Postmenopausal women and men aged 50 and over with osteoporosis risk factors / acute onset back pain / not applicable / suspicion of vertebral fracture / at presentation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Sudden new back pain, especially between the shoulder blades, if you have other risk factors for weak bones. It can be a broken bone in the spine.",
+   "qualifications": "The guideline says 'acute onset back pain', not 'after a minor strain'; do not require a strain. Applies to people with osteoporosis risk factors.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-12-f",
+   "cand_id": "C04-12",
+   "claim": "Repeated falls (two or more in the last year) raise fracture probability; UK guidance adjusts the FRAX result upward by 30% for recurrent falls, and most fractures other than spinal fractures follow a fall.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Arithmetic adjustments to FRAX probabilities of major osteoporotic fracture (MOF: clinical spine, hip, forearm or humerus) and hip fracture (Table) can be used in clinical practice, to take account of additional clinical risk factors, such as glucocorticoid use, discordantly low lumbar spine BMD, type II diabetes, and a history of falls\" ... Table 1: \"Falls history\" \"Increase MOF and hip fracture probability by 30% for a history of recurrent falls (≥ 2 falls in the last year)\" ... \"The majority of non-vertebral fractures are preceded by a fall.\"",
+   "location": "NOGG full text, 'Fracture risk assessment and case finding' recommendations; Table 1; 'Falls interventions'",
+   "pico_timeframe": "Postmenopausal women and men aged 50 and over / two or more falls in the past year / no recurrent falls / FRAX probability adjustment / 10-year probability",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Falling twice or more in a year. Falls raise the chance of a broken bone, and UK guidance adds them to the fracture risk calculation.",
+   "qualifications": "The trigger is recurrent falls (two or more in the last year), not a single fall. The 30% is a relative uplift of the calculated probability, not 30 extra fractures in 100; practitioner version only. A falls assessment is also appropriate, which is a separate point.",
+   "conflicting_or_uncertain": "NOGG notes there is no evidence on the accuracy of combining several adjustments.",
+   "numbers": [
+    {
+     "value": "2 or more falls in the last year",
+     "meaning": "definition of recurrent falls used for the FRAX adjustment"
+    },
+    {
+     "value": "30%",
+     "meaning": "relative upward adjustment of FRAX major and hip fracture probability for recurrent falls"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-a",
+   "cand_id": "C04-22",
+   "claim": "In US registry and Medicare records of 50,613 men with prostate cancer, among men who survived at least 5 years, 19.4% of those given androgen deprivation therapy had a fracture compared with 12.6% of those not given it; the study is observational.",
+   "source_keys": [
+    "PMID:15647578"
+   ],
+   "supporting_passage": "\"We studied the records of 50,613 men who were listed in the linked database of the Surveillance, Epidemiology, and End Results program and Medicare as having received a diagnosis of prostate cancer in the period from 1992 through 1997.\" ... \"Of men surviving at least five years after diagnosis, 19.4 percent of those who received androgen-deprivation therapy had a fracture, as compared with 12.6 percent of those not receiving androgen-deprivation therapy (P<0.001). In the Cox proportional-hazards analyses, adjusted for characteristics of the patient and the tumor, there was a statistically significant relation between the number of doses of gonadotropin-releasing hormone received during the 12 months after diagnosis and the subsequent risk of fracture.\"",
+   "location": "Abstract (Methods; Results)",
+   "pico_timeframe": "US men with prostate cancer diagnosed 1992 to 1997 (Medicare) / androgen deprivation therapy / no androgen deprivation therapy / any fracture / at least 5 years after diagnosis",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In US records of men with prostate cancer, among men who lived at least 5 years after diagnosis, about 19 in 100 who had hormone treatment had broken a bone, compared with about 13 in 100 who did not. The study was observational, so it shows a link; men who had more doses of treatment had more fractures.",
+   "qualifications": "Crude percentages in the subgroup who survived at least 5 years; difference is about 7 percentage points. Say 'linked with', not 'causes', despite the paper's own wording. Treatments and bone care have changed since the 1990s.",
+   "conflicting_or_uncertain": "Men given ADT may differ from others (age, cancer stage); adjusted models still showed a dose-response. Consistent with the 2021 meta-analysis (C04-22-b).",
+   "numbers": [
+    {
+     "value": "19.4%",
+     "meaning": "fracture within follow-up among men on ADT who survived at least 5 years (crude)"
+    },
+    {
+     "value": "12.6%",
+     "meaning": "same among men not on ADT (crude)"
+    },
+    {
+     "value": "50,613",
+     "meaning": "men in the study"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-b",
+   "cand_id": "C04-22",
+   "claim": "A 2021 meta-analysis of 16 cohort studies (519,168 men) found androgen deprivation therapy was linked with higher fracture risk (odds ratio 1.39), with moderate-certainty evidence.",
+   "source_keys": [
+    "PMID:34421586"
+   ],
+   "supporting_passage": "\"Sixteen eligible studies were included, and total population was 519,168 men. ADT use is associated with increasing fracture risk (OR, 1.39; 95% CI, 1.26-1.52) and fracture requiring hospitalization (OR, 1.55; 95% CI, 1.29-1.88).\" ... \"The GRADE level of evidence was moderate for any fracture and low for fracture requiring hospitalization.\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "Men with prostate cancer in 16 cohorts / ADT / no ADT / any fracture, fracture needing hospital / cohort follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Across 16 studies of more than half a million men, hormone treatment for prostate cancer was consistently linked with more broken bones.",
+   "qualifications": "Odds ratio from observational studies; do not turn it into 'X times more likely' or an absolute figure. Use for consistency, not for a number in public posts.",
+   "conflicting_or_uncertain": "High heterogeneity (I2 83%).",
+   "numbers": [
+    {
+     "value": "OR 1.39",
+     "meaning": "odds of any fracture with ADT versus none, pooled; practitioner version only"
+    },
+    {
+     "value": "519,168",
+     "meaning": "men across 16 cohort studies"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-c",
+   "cand_id": "C04-22",
+   "claim": "UK guidance says bone loss from androgen deprivation therapy is rapid in the first 6 to 12 months, fracture risk is raised in the 5 years after starting, and aromatase inhibitors and androgen deprivation are among medicines known to increase hip fracture risk.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Osteoporosis caused by ADT is associated with rapid loss of BMD within 6–12 months of initiation of ADT []; (). There is a significant increase in fracture risk in men with prostate cancer in the 5 years following the initiation of ADT when compared to those not receiving ADT\" ... \"In addition to glucocorticoids, several medications are known to increase hip fracture risk including thyroid hormone excess, aromatase inhibitors for the treatment of breast cancer and androgen deprivation for the treatment of prostate cancer\"",
+   "location": "NOGG full text, 'Men receiving androgen-deprivation therapy'; 'Glucocorticoid-induced osteoporosis' section",
+   "pico_timeframe": "Men with prostate cancer / starting ADT / men not on ADT / bone density and fracture / 6 to 12 months (bone loss), 5 years (fracture)",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Hormone treatment that lowers testosterone thins bone fastest in the first 6 to 12 months, which is why the start of treatment is the time to ask about bones.",
+   "qualifications": "Guideline summary statement citing observational studies.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "6 to 12 months",
+     "meaning": "period of rapid bone loss after starting ADT"
+    },
+    {
+     "value": "5 years",
+     "meaning": "period after starting ADT with raised fracture risk"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-d",
+   "cand_id": "C04-22",
+   "claim": "Aromatase inhibitors (anastrozole, letrozole, exemestane) speed up bone loss (on average 1 to 3% a year in postmenopausal women) and are linked with more fractures; the excess risk is seen mainly during treatment.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:40726588",
+    "PMID:29619093"
+   ],
+   "supporting_passage": "NOGG: \"The use of aromatase inhibitors (AI) in postmenopausal women induces bone loss at an average rate of 1–3% per year at sites rich in trabecular bone.\" Hadji 2025: \"AI, which are now more commonly prescribed due to improved anticancer efficacy, are associated with a higher fracture risk than tamoxifen due to their ability to almost completely suppress circulating and tissue estrogen levels, and are known to accelerate bone loss and increase fracture risk in this population beyond that seen with natural menopause\" ... \"A meta-analysis of 30 randomized controlled trials (RCTs) including 117,974 breast cancer patients found a significantly higher incidence of osteoporotic fractures, in AI users versus those not treated with AI (controls), particularly for vertebral fractures []. The relative risk (RR) for hip fractures and non-vertebral fractures was 1.18 (p < 0.001 in each case) versus controls, while the RR for vertebral fractures was 1.84 (p < 0.001).\" Tseng: \"Compared with the tamoxifen group, aromatase inhibitor-associated fracture risk increased by 33% (pooled RR 1.33; 95% CI 1.21-1.47) during the tamoxifen/aromatase inhibitor treatment period, but did not increase (pooled RR 0.99; 95% CI 0.72-1.37) during the post-tamoxifen/aromatase inhibitor treatment period.\"",
+   "location": "NOGG full text, 'Women receiving aromatase inhibitor therapy'; Hadji 2025 full text section 3.1; Tseng abstract",
+   "pico_timeframe": "Postmenopausal women with hormone-sensitive breast cancer / aromatase inhibitor / no AI or tamoxifen / bone density and fractures / during 5 to 10 years of treatment",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Aromatase inhibitors for breast cancer (anastrozole, letrozole, exemestane) work by removing almost all oestrogen, and they speed up bone loss. Women taking them lose on average 1 to 3 per cent of bone density a year and have more fractures than women not taking them.",
+   "qualifications": "Relative risks quoted by Hadji 2025 come from a meta-analysis not opened here; keep them out of public posts. Tseng is limited to women aged 65 and under. Longer (extended) AI treatment adds to the risk (Hadji 2025).",
+   "conflicting_or_uncertain": "Individual placebo-controlled trials have not all shown a clear fracture difference, but pooled evidence and position statements agree on raised risk.",
+   "numbers": [
+    {
+     "value": "1 to 3% per year",
+     "meaning": "average bone loss at trabecular sites in postmenopausal women on AIs (NOGG)"
+    },
+    {
+     "value": "RR 1.18 and 1.84",
+     "meaning": "relative risk of hip/non-vertebral and vertebral fractures with AI versus controls, second-hand from Hadji 2025; practitioner use only with attribution"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-e",
+   "cand_id": "C04-22",
+   "claim": "Tamoxifen, the other common hormone tablet for breast cancer, has not been found to harm bone or raise fracture risk in postmenopausal women.",
+   "source_keys": [
+    "PMID:40726588",
+    "PMID:29619093"
+   ],
+   "supporting_passage": "Hadji 2025: \"In contrast to the case in premenopausal women, tamoxifen has not been found to have a negative impact on BMD or fracture risk in postmenopausal women []. Indeed, results of a systematic review and meta-analysis suggest it may potentially preserve bone mass in postmenopausal women\" Tseng: \"Similar fracture risk was observed in women treated and not treated with tamoxifen [pooled risk ratio (RR) 0.95; 95% confidence interval (CI) 0.84-1.07].\"",
+   "location": "Hadji 2025 full text section 3.1; Tseng abstract",
+   "pico_timeframe": "Postmenopausal women with breast cancer / tamoxifen / no tamoxifen / bone density and fracture / treatment period",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The bone warning applies to aromatase inhibitors; tamoxifen has not been found to thin bone after the menopause.",
+   "qualifications": "Tamoxifen can reduce bone density in premenopausal women; keep the statement to women after the menopause.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-22-f",
+   "cand_id": "C04-22",
+   "claim": "UK guidance says all women starting an aromatase inhibitor should have their fracture risk assessed (FRAX, counting the AI as a cause of osteoporosis, with a bone density scan where practical), and international position statements say every woman starting or on an AI should be told of the risk and have it assessed.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:28413771",
+    "PMID:40726588"
+   ],
+   "supporting_passage": "NOGG recommendation 24: \"All women starting aromatase inhibitor (AI) therapy should have their fracture risk assessed using FRAX, considering AI use as a secondary cause of osteoporosis, including BMD measurement where practical\" Hadji 2017: \"In all patients initiating AI treatment, fracture risk should be assessed and recommendation with regard to exercise and calcium/vitamin D supplementation given.\" Hadji 2025: \"All women receiving AI treatment should be informed of this significantly increased risk and its consequences and have their individual fracture risk evaluated to determine an appropriate management strategy.\"",
+   "location": "NOGG full text, recommendation 24; Hadji 2017 abstract (Conclusions); Hadji 2025 full text, Conclusions",
+   "pico_timeframe": "Women starting aromatase inhibitors / fracture risk assessment at start / not applicable / fracture risk / start of treatment, reassess 12 to 24 months if near threshold",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance says every woman starting an aromatase inhibitor should have her fracture risk checked, with a bone density scan where practical. If you are starting one and nobody has mentioned your bones, ask.",
+   "qualifications": "NOGG also advises a repeat assessment after 12 to 24 months for women near the treatment threshold or starting other treatments such as steroids.",
+   "conflicting_or_uncertain": "Hadji 2025 notes FRAX without bone density can overestimate risk in women on AIs; a scan improves the estimate.",
+   "numbers": [
+    {
+     "value": "12 to 24 months",
+     "meaning": "reassessment interval after starting an AI for women near the treatment threshold (NOGG)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-g",
+   "cand_id": "C04-22",
+   "claim": "UK consensus guidance, supported by NOGG, says all men starting or continuing long-term androgen deprivation therapy should get bone health advice and have fracture risk calculated with FRAX (with a bone density scan where feasible), repeated after 12 to 18 months if near the treatment threshold.",
+   "source_keys": [
+    "PMID:32995252",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Brown 2020: \"All men starting or continuing long-term ADT should receive lifestyle advice regarding bone health. Calcium/vitamin D supplementation should be offered if required. Fracture risk should be calculated (using the FRAX® tool), with BMD assessment included where feasible.\" ... \"Those near to, but below an intervention threshold, and patients going on to additional systemic therapies (particularly those requiring glucocorticoids), should have FRAX® (including BMD) repeated after 12-18 months.\" NOGG: \"The NOGG supports the recent guideline published by Brown et al. 2020\" ... \"A recent UK consensus statement on prostate cancer treatment-induced bone loss concluded that fracture risk should be calculated using FRAX, considering ADT use as a secondary cause of osteoporosis, and including BMD where available and practical.\"",
+   "location": "Brown 2020 abstract (Results/recommendations); NOGG full text, 'Men receiving androgen-deprivation therapy'",
+   "pico_timeframe": "UK men with prostate cancer starting or continuing long-term ADT / fracture risk assessment / not applicable / fracture risk / at start, repeat at 12 to 18 months if near threshold",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK bone and cancer specialists advise that every man starting long-term hormone treatment for prostate cancer should have his fracture risk worked out, with a bone scan where possible. Ask for this when treatment starts.",
+   "qualifications": "Consensus guidance endorsed by the UK osteoporosis guideline; applies to long-term ADT.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "12 to 18 months",
+     "meaning": "repeat FRAX with bone density for men near the treatment threshold or starting other treatments such as steroids"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-h",
+   "cand_id": "C04-22",
+   "claim": "UK expert guidance in 2020 judged that fracture risk from prostate cancer treatment was not well managed and that prostate cancer guidelines lacked specific bone health recommendations.",
+   "source_keys": [
+    "PMID:32995252"
+   ],
+   "supporting_passage": "\"In this context, careful consideration of skeletal health is required to reduce the risk of treatment-related fragility fractures and their associated morbidity and mortality. This risk is currently not well-managed.\" ... \"Current PC guidelines lack specific recommendations for optimising bone health.\"",
+   "location": "Abstract (Background)",
+   "pico_timeframe": "UK men with prostate cancer on ADT / current practice / not applicable / bone health management / as of 2020",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "UK specialists writing in 2020 said bone health was often not well managed in men on hormone treatment for prostate cancer.",
+   "qualifications": "Expert judgement from 2020, not an audit figure; do not state how often assessment is missed today.",
+   "conflicting_or_uncertain": "No opened audit data on current UK assessment rates.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-22-i",
+   "cand_id": "C04-22",
+   "claim": "If fracture risk is high, treatment helps: bisphosphonates and denosumab prevent bone loss in men on androgen deprivation therapy (fracture reduction shown for denosumab in one trial, not clearly for bisphosphonates), and in women on aromatase inhibitors denosumab and risedronate have been shown to reduce fracture risk.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:42263846"
+   ],
+   "supporting_passage": "NOGG: \"Bisphosphonates and denosumab are effective drug treatments for preventing BMD loss in men with prostate cancer taking ADT, although effects on fracture risk have not been demonstrated.\" ... \"Denosumab and zoledronate both lead to significant gains in BMD at the spine and hip in postmenopausal women with breast cancer receiving AI, and both denosumab and risedronate have been shown to reduce fracture risk\" Bassatne 2026: \"Oral bisphosphonates had no effect on fracture incidence at 12-months (RR = 0.57; 95%CI[0.10, 3.23]; very low certainty). Intravenous bisphosphonates had no effect on the risk of morphometric vertebral fractures at 36-months (RR = 1.06; 95%CI[0.57,1.98]; very low certainty). One trial showed that denosumab probably results in a large reduction in new morphometric vertebral fracture risk at 12 (RR = 0.15), 24 (RR = 0.31) and 36-months (RR = 0.38; 95%CI[0.19-0.78]). Treatment with bisphosphonates or denosumab for 12-months increased BMD at the hip (+1.5 to +3.9%) and lumbar spine (+4.0 to +6.8%)\"",
+   "location": "NOGG full text, ADT and AI sections; Bassatne abstract (Results)",
+   "pico_timeframe": "Men on ADT; women on AIs / bisphosphonates or denosumab / placebo or no treatment / bone density and fractures / 12 to 36 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If the check shows a high risk, bone medicines can stop the thinning. In women on aromatase inhibitors, some have been shown to prevent fractures; in men on hormone treatment for prostate cancer, the fracture evidence is thinner but the bone loss can be prevented.",
+   "qualifications": "For ADT, bisphosphonate 'no effect' results are very low certainty (evidence gap, not proof of no benefit); denosumab fracture evidence rests on one trial of spinal fractures seen on X-ray.",
+   "conflicting_or_uncertain": "Fracture evidence in men on ADT is limited; bone density gains are consistent.",
+   "numbers": [
+    {
+     "value": "+1.5 to +3.9% hip; +4.0 to +6.8% spine",
+     "meaning": "bone density gain after 12 months of bisphosphonate or denosumab versus control in men on ADT (practitioner use)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-22-j",
+   "cand_id": "C04-22",
+   "claim": "NICE early breast cancer guidance recommends a baseline bone density (DXA) scan when aromatase inhibitor treatment starts (as reported by NOGG 2022).",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"NICE guidance on the management of early breast cancer, which recognises the excess risk of osteoporosis with the use of AIs, recommends a baseline DXA scan to assess BMD at the time of initiation of AI therapy\"",
+   "location": "NOGG full text, 'Women receiving aromatase inhibitor therapy'",
+   "pico_timeframe": "Women starting AIs for early breast cancer / baseline DXA / not applicable / not applicable / at start",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Optional: 'NICE breast cancer guidance also recommends a bone density scan when these tablets start.' Cite NOGG as the source, not the NICE page.",
+   "qualifications": "Second-hand report from 2022; the NICE NG101 page itself was not opened and may have been updated. Exact NICE wording (for example 'offer' and which women) not verified.",
+   "conflicting_or_uncertain": "Not checked against the current NICE page.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-22-k",
+   "cand_id": "C04-22",
+   "claim": "NICE prostate cancer guidance (NG131) includes a recommendation on fracture risk or bone density assessment for men on androgen deprivation therapy.",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Not found: the NICE NG131 page could not be opened and no opened source reports its wording.",
+   "pico_timeframe": "Not applicable",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Leave out. Use the UK consensus guidance supported by NOGG (C04-22-g) instead.",
+   "qualifications": "Do not cite NICE NG131 wording.",
+   "conflicting_or_uncertain": "Unverified.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C04-13",
+   "status": "ready",
+   "reason": "All essential claims are supported: the routine from NOGG 2022 (full text), the absorption figures from Gertz 1995 (under 1% absorbed; about 60% less with coffee or orange juice; more than 85% less with or up to 2 hours after breakfast, confirmed), and gullet irritation linked with poor technique from de Groen 1996. Follow the judge's sharpen: lead with the instruction, then give the absorption figure as a volunteer absorption finding, not a fracture outcome. Say 'plain water' (tap or mineral water, bedtime and missed-dose rules were not verified from opened sources; the missed-dose rule has only a search extract).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-13-a",
+    "C04-13-b",
+    "C04-13-c",
+    "C04-13-e"
+   ]
+  },
+  {
+   "cand_id": "C04-22",
+   "status": "ready",
+   "reason": "Essential claims supported: ADT linked with more fractures (Shahinian 2005, observational, 19.4% vs 12.6% among 5-year survivors; Wu 2021 meta-analysis), rapid early bone loss (NOGG), aromatase inhibitors speed bone loss and are linked with more fractures (NOGG, Hadji 2025), and fracture risk assessment at the start is recommended for both (NOGG recommendation 24; Brown 2020 consensus supported by NOGG; Hadji 2017/2025). Use 'linked with' for the ADT data. Drop the NICE NG131 claim (not found); NICE NG101 only as reported by NOGG. Keep tamoxifen out of the warning (it has not been found to thin bone after the menopause). Men-first prostate opening is supported.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-22-a",
+    "C04-22-c",
+    "C04-22-d",
+    "C04-22-f",
+    "C04-22-g"
+   ]
+  },
+  {
+   "cand_id": "C04-12",
+   "status": "revise",
+   "reason": "The angle is supported by NOGG 2022 (FRAX assessment whenever a clinical risk factor is present; low-risk people reassured and given lifestyle advice), but three triggers in the candidate do not match the guideline: 'falling' must be 'two or more falls in a year'; 'new back pain after a small strain' must be 'sudden new back pain, especially in the upper back'; 'steroid tablets for more than a few months' must be '3 months or more'. No opened source supports any claim about GP recall systems, and NOGG sets no routine recheck date for untreated low-risk people, so the post should not imply one.",
+   "revised_angle": "When told you do not need bone medicine yet, ask what would change that and write it down. UK guidance names these reasons to have fracture risk worked out again: a broken bone after a minor fall or bump; starting steroid tablets you are likely to take for 3 months or more; losing 4 cm (about an inch and a half) or more in height, or a new stoop; sudden new back pain, especially in the upper back; two or more falls in a year. If one happens, book an appointment and say which one.",
+   "essential_claim_ids": [
+    "C04-12-a",
+    "C04-12-b",
+    "C04-12-c",
+    "C04-12-d",
+    "C04-12-e",
+    "C04-12-f"
+   ]
+  }
+ ]
+}

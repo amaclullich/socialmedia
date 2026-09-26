@@ -1,0 +1,1481 @@
+{
+ "batch": "C06-B2",
+ "category": "C06",
+ "date_checked": "2026-09-25",
+ "notes": "No earlier evidence batch (C01-B1 to B3) covered these topics, so all sources were newly opened. Full texts opened: McCarthy 2022 (PMC, tables not rendered), Lapi 2013 (PMC); Savage 2020 and ADA 2026 PMC requests returned abstract or nothing; Dreischulte 2016 NEJM read through Scite full-text excerpts. Scite was available and its editorialNotices were checked where listed. PubMed publication-type checks for retraction, expression of concern and published erratum found none for any source used. NCBI E-utilities by curl were blocked by the proxy; MCP tools were used instead.",
+ "sources": [
+  {
+   "key": "PMID:32091538",
+   "citation": "Savage RD, Visentin JD, Bronskill SE, Wang X, Gruneir A, Giannakeas V, et al. Evaluation of a common prescribing cascade of calcium channel blockers and diuretics in older adults with hypertension. JAMA Intern Med. 2020;180(5):643-651.",
+   "pmid": "32091538",
+   "pmcid": "PMC7042805",
+   "doi": "10.1001/jamainternmed.2019.7087",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2019.7087",
+   "design": "Population-based cohort study using linked health administrative (dispensing) databases; Cox models",
+   "population_setting": "Community-dwelling adults aged 66 or over with hypertension and new prescription claims, Ontario, Canada, 2011 to 2016; 41,086 newly dispensed a CCB, 66,494 an ACE inhibitor or ARB, 231,439 an unrelated drug; mean age 74.5",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC7042805 returned abstract and Key Points only, no body text)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Large population cohort with active comparators. Outcome is dispensing of a loop diuretic, not confirmed oedema or a documented cascade, so not every excess diuretic is a cascade. Relative rates (HR 1.68 to 3.89) sit on small absolute risks (1.4% vs 0.7% vs 0.5% at 90 days)."
+  },
+  {
+   "key": "PMID:9366745",
+   "citation": "Rochon PA, Gurwitz JH. Optimising drug treatment for elderly people: the prescribing cascade. BMJ. 1997;315(7115):1096-9.",
+   "pmid": "9366745",
+   "pmcid": "PMC2127690",
+   "doi": "10.1136/bmj.315.7115.1096",
+   "public_url": "https://doi.org/10.1136/bmj.315.7115.1096",
+   "design": "Narrative review (education and debate)",
+   "population_setting": "Older people; general",
+   "year": 1997,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata (record has no abstract; title and bibliographic details only read)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "Classic source for the term. Only the title and bibliographic record were read in this project; the definition quoted in claims comes from McCarthy 2022 and Savage 2020."
+  },
+  {
+   "key": "PMID:36107399",
+   "citation": "McCarthy LM, Savage R, Dalton K, Mason R, Li J, Lawson A, et al. ThinkCascades: a tool for identifying clinically important prescribing cascades affecting older people. Drugs Aging. 2022;39(10):829-840.",
+   "pmid": "36107399",
+   "pmcid": "PMC9477172",
+   "doi": "10.1007/s40266-022-00964-9",
+   "public_url": "https://doi.org/10.1007/s40266-022-00964-9",
+   "design": "Modified Delphi consensus (three rounds) with international multidisciplinary panel",
+   "population_setting": "Panel of 38 to 40 clinicians (geriatricians, primary care physicians, pharmacists, nurses) from six countries; 139 candidate cascades",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC9477172; tables not rendered in the returned text)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Consensus tool, not outcome evidence. The final nine-item table did not render, so which cascades are on the list (including CCB to loop diuretic) was not confirmed in this project."
+  },
+  {
+   "key": "PMID:21558959",
+   "citation": "Makani H, Bangalore S, Romero J, Htyte N, Berrios RS, Makwana H, et al. Peripheral edema associated with calcium channel blockers: incidence and withdrawal rate--a meta-analysis of randomized trials. J Hypertens. 2011;29(7):1270-80.",
+   "pmid": "21558959",
+   "pmcid": null,
+   "doi": "10.1097/HJH.0b013e3283472643",
+   "public_url": "https://doi.org/10.1097/HJH.0b013e3283472643",
+   "design": "Systematic review and meta-analysis of randomised trials",
+   "population_setting": "106 trials, 99,469 people with hypertension, mean age 56; trials with at least 100 people on a CCB and at least 4 weeks long",
+   "year": 2011,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Large meta-analysis but trial populations were middle-aged (mean 56), so older people may have higher rates. Mechanism sentence in the abstract is background ('It has been thought to occur...'), not a finding."
+  },
+  {
+   "key": "PMID:21295192",
+   "citation": "Makani H, Bangalore S, Romero J, Wever-Pinzon O, Messerli FH. Effect of renin-angiotensin system blockade on calcium channel blocker-associated peripheral edema. Am J Med. 2011;124(2):128-35.",
+   "pmid": "21295192",
+   "pmcid": null,
+   "doi": "10.1016/j.amjmed.2010.08.007",
+   "public_url": "https://doi.org/10.1016/j.amjmed.2010.08.007",
+   "design": "Meta-analysis of randomised controlled trials",
+   "population_setting": "25 RCTs, 17,206 people with hypertension, mean age 56, mean duration 9.2 weeks; CCB monotherapy vs CCB plus ACE inhibitor or ARB",
+   "year": 2011,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Short trials in middle-aged people; ACE inhibitor vs ARB comparison is indirect (authors say head-to-head studies are needed)."
+  },
+  {
+   "key": "PMID:31797247",
+   "citation": "Woodford HJ. Calcium channel blockers co-prescribed with loop diuretics: a potential marker of poor prescribing? Drugs Aging. 2020;37(2):77-81.",
+   "pmid": "31797247",
+   "pmcid": null,
+   "doi": "10.1007/s40266-019-00730-4",
+   "public_url": "https://doi.org/10.1007/s40266-019-00730-4",
+   "design": "Narrative review (UK geriatrician author)",
+   "population_setting": "People taking CCBs, with or without heart failure",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Expert review; the management advice ('switch to an alternative medication') is the author's judgement based on reviewed evidence, not a trial result."
+  },
+  {
+   "key": "PMID:31880802",
+   "citation": "Vouri SM, Jiang X, Manini TM, Solberg LM, Pepine C, Malone DC, et al. Magnitude of and characteristics associated with the treatment of calcium channel blocker-induced lower-extremity edema with loop diuretics. JAMA Netw Open. 2019;2(12):e1918425.",
+   "pmid": "31880802",
+   "pmcid": "PMC6991233",
+   "doi": "10.1001/jamanetworkopen.2019.18425",
+   "public_url": "https://doi.org/10.1001/jamanetworkopen.2019.18425",
+   "design": "Cohort study using prescription sequence symmetry analysis of US private insurance claims, 2005 to 2017",
+   "population_setting": "1,206,093 adults aged 20 or over without heart failure starting a dihydropyridine CCB; most with a new loop diuretic were under 65",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Independent US replication of the CCB to loop diuretic signal; mostly younger insured adults, so not directly an older population."
+  },
+  {
+   "key": "PMID:41329486",
+   "citation": "Growdon ME, Tjota N, Campbell R, Gayda P, Jing B, Deardorff WJ, et al. Decision-making and downstream outcomes of the gabapentinoid-diuretic prescribing cascade. JAMA Netw Open. 2025;8(12):e2545274.",
+   "pmid": "41329486",
+   "pmcid": "PMC12673415",
+   "doi": "10.1001/jamanetworkopen.2025.45274",
+   "public_url": "https://doi.org/10.1001/jamanetworkopen.2025.45274",
+   "design": "Cohort study with structured medical record review",
+   "population_setting": "120 randomly selected US veterans aged 66 or over (mean 73.9, 96.7% men) who started a loop diuretic after a gabapentinoid, 2013 to 2019",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Small, mostly male sample; first drug is a gabapentinoid, not a CCB; events are 'potentially attributable' to the loop diuretic, with no comparison group. Useful for what happens after a loop diuretic is added, not for effect size."
+  },
+  {
+   "key": "PMID:26981935",
+   "citation": "Dreischulte T, Donnan P, Grant A, Hapca A, McCowan C, Guthrie B. Safer prescribing--a trial of education, informatics, and financial incentives. N Engl J Med. 2016;374(11):1053-64.",
+   "pmid": "26981935",
+   "pmcid": null,
+   "doi": "10.1056/NEJMsa1508955",
+   "public_url": "https://doi.org/10.1056/NEJMsa1508955",
+   "design": "Cluster-randomised stepped-wedge trial (DQIP), 48-week intervention; secondary admission outcomes compared intervention vs preintervention periods; post hoc post-incentive analysis",
+   "population_setting": "34 general practices in Tayside, Scotland (33 completed); about 33,000 patients at risk of adverse drug events from NSAIDs or antiplatelet drugs",
+   "year": 2016,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (open-access NEJM text) for methods, measures and post-incentive results",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Strong design for the primary prescribing outcome. Admission outcomes were prespecified secondary outcomes and compared periods before and during the intervention; the authors say the intervention 'may have improved clinical outcomes'. Post-incentive result is a post hoc analysis."
+  },
+  {
+   "key": "PMID:29306877",
+   "citation": "Dreischulte T, Grant A, Hapca A, Guthrie B. Process evaluation of the Data-driven Quality Improvement in Primary Care (DQIP) trial: quantitative examination of variation between practices in recruitment, implementation and effectiveness. BMJ Open. 2018;8(1):e017133.",
+   "pmid": "29306877",
+   "pmcid": "PMC5780698",
+   "doi": "10.1136/bmjopen-2017-017133",
+   "public_url": "https://doi.org/10.1136/bmjopen-2017-017133",
+   "design": "Quantitative process evaluation of a cluster randomised trial",
+   "population_setting": "33 recruited and 32 non-recruited invited practices in Scotland",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "Shows wide between-practice variation in effect; observational analysis within the trial."
+  },
+  {
+   "key": "PMID:28061794",
+   "citation": "Grant A, Dreischulte T, Guthrie B. Process evaluation of the data-driven quality improvement in primary care (DQIP) trial: active and less active ingredients of a multi-component complex intervention to reduce high-risk primary care prescribing. Implement Sci. 2017;12(1):4.",
+   "pmid": "28061794",
+   "pmcid": "PMC5219764",
+   "doi": "10.1186/s13012-016-0531-2",
+   "public_url": "https://doi.org/10.1186/s13012-016-0531-2",
+   "design": "Qualitative process evaluation (in-depth interviews, framework analysis)",
+   "population_setting": "Key staff in DQIP trial practices, Scotland",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "Participants' perceptions of which components worked; qualitative, not a test of components."
+  },
+  {
+   "key": "PMID:41110456",
+   "citation": "Payne RA, Blair PS, Caddick B, Chew-Graham CA, Dreischulte T, Duncan LJ, et al. Optimising polypharmacy management in primary care through general practitioner-pharmacist collaboration, informatics, and enhancing clinician engagement: the IMPPP cluster-randomised trial. Lancet Healthy Longev. 2025;6(10):100774.",
+   "pmid": "41110456",
+   "pmcid": null,
+   "doi": "10.1016/j.lanhl.2025.100774",
+   "public_url": "https://doi.org/10.1016/j.lanhl.2025.100774",
+   "design": "Pragmatic cluster-randomised trial",
+   "population_setting": "37 UK general practices; 1,727 adults (median age 73) on at least five regular medicines with at least one indicator of potentially inappropriate prescribing",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Well-conducted trial of a broad polypharmacy review model with informatics, training, feedback and incentives; null on its primary outcome. Different target (broad polypharmacy) from DQIP (nine named combinations), so it is a contrast, not a direct replication."
+  },
+  {
+   "key": "PMID:23299844",
+   "citation": "Lapi F, Azoulay L, Yin H, Nessim SJ, Suissa S. Concurrent use of diuretics, angiotensin converting enzyme inhibitors, and angiotensin receptor blockers with non-steroidal anti-inflammatory drugs and risk of acute kidney injury: nested case-control study. BMJ. 2013;346:e8525.",
+   "pmid": "23299844",
+   "pmcid": "PMC3541472",
+   "doi": "10.1136/bmj.e8525",
+   "public_url": "https://doi.org/10.1136/bmj.e8525",
+   "design": "Retrospective cohort with nested case-control analysis (UK CPRD linked to Hospital Episode Statistics)",
+   "population_setting": "487,372 UK users of antihypertensive drugs, 1997 to 2010; 2,215 hospital-coded acute kidney injury cases (mean age 76.9) and 21,993 matched controls; people with prior kidney disease excluded",
+   "year": 2013,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC3541472)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Large, carefully adjusted study with active comparators. Outcome is hospital admission with AKI as primary diagnosis, which the 2015 Tayside study argues underestimates risk. Exposure is prescribed NSAIDs; over-the-counter use not captured."
+  },
+  {
+   "key": "PMID:25874600",
+   "citation": "Dreischulte T, Morales DR, Bell S, Guthrie B. Combined use of nonsteroidal anti-inflammatory drugs with diuretics and/or renin-angiotensin system inhibitors in the community increases the risk of acute kidney injury. Kidney Int. 2015;88(2):396-403.",
+   "pmid": "25874600",
+   "pmcid": null,
+   "doi": "10.1038/ki.2015.101",
+   "public_url": "https://doi.org/10.1038/ki.2015.101",
+   "design": "Nested case-control study within a population cohort",
+   "population_setting": "78,379 users of RAS inhibitors and/or diuretics in the community, Tayside, Scotland; AKI defined biochemically as a rise in creatinine of 50% or more from baseline",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite search_literature (no full-text excerpt; abstract only)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Biochemical AKI definition catches milder, community events that hospital coding misses. Contradicts Lapi 2013 on double combinations. Observational."
+  },
+  {
+   "key": "PMID:25581565",
+   "citation": "Lipska KJ, Ross JS, Miao Y, Shah ND, Lee SJ, Steinman MA. Potential overtreatment of diabetes mellitus in older adults with tight glycemic control. JAMA Intern Med. 2015;175(3):356-62.",
+   "pmid": "25581565",
+   "pmcid": "PMC4426991",
+   "doi": "10.1001/jamainternmed.2014.7345",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2014.7345",
+   "design": "Cross-sectional analysis of a nationally representative survey (NHANES)",
+   "population_setting": "1,288 US adults aged 65 or over with diabetes and an HbA1c measurement, 2001 to 2010",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Nationally representative but US data from 2001 to 2010, before newer drug classes were common. Shows 'potential overtreatment' (low HbA1c on drugs that can cause hypoglycaemia); hypoglycaemia itself was not measured."
+  },
+  {
+   "key": "PMID:28498634",
+   "citation": "Hambling CE, Seidu SI, Davies MJ, Khunti K. Older people with type 2 diabetes, including those with chronic kidney disease or dementia, are commonly overtreated with sulfonylurea or insulin therapies. Diabet Med. 2017;34(9):1219-1227.",
+   "pmid": "28498634",
+   "pmcid": null,
+   "doi": "10.1111/dme.13380",
+   "public_url": "https://doi.org/10.1111/dme.13380",
+   "design": "Cross-sectional audit of general practice records (ECLIPSE Live search)",
+   "population_setting": "16 Norfolk (England) general practices; 1,379 people aged 70 or over with type 2 diabetes prescribed a sulfonylurea or insulin in the previous 90 days; median age 78",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "UK primary care data. 'Overtreatment' is defined by HbA1c below 53 mmol/mol on these drugs; hypoglycaemia was not measured. Percentages appear to use people with a recorded HbA1c as denominator (400 of 1,379 would be 29.0%, the abstract gives 29.9%)."
+  },
+  {
+   "key": "PMID:29633351",
+   "citation": "Strain WD, Hope SV, Green A, Kar P, Valabhji J, Sinclair AJ. Type 2 diabetes mellitus in older people: a brief statement of key principles of modern day management including the assessment of frailty. A national collaborative stakeholder initiative. Diabet Med. 2018;35(7):838-845.",
+   "pmid": "29633351",
+   "pmcid": null,
+   "doi": "10.1111/dme.13644",
+   "public_url": "https://doi.org/10.1111/dme.13644",
+   "design": "UK consensus statement (national collaborative stakeholder initiative)",
+   "population_setting": "Older adults with type 2 diabetes, UK; authors include BGS diabetes special interest group, NHS England and ABCD representatives",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite search_literature (full text denied)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Consensus, not trial evidence. The frailty-specific HbA1c ranges in the body were not read, so only the abstract statement can be used."
+  },
+  {
+   "key": "PMID:29138153",
+   "citation": "Farrell B, Black C, Thompson W, McCarthy L, Rojas-Fernandez C, Lochnan H, et al. Deprescribing antihyperglycemic agents in older persons: evidence-based clinical practice guideline. Can Fam Physician. 2017;63(11):832-843.",
+   "pmid": "29138153",
+   "pmcid": "PMC5685444",
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/29138153/",
+   "design": "Evidence-based clinical practice guideline (GRADE, systematic review)",
+   "population_setting": "Older adults taking glucose-lowering medicines; Canadian primary care",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "GRADE-based deprescribing guideline; Canadian. No DOI in the PubMed record."
+  },
+  {
+   "key": "PMID:21357814",
+   "citation": "Munshi MN, Segal AR, Suhl E, Staum E, Desrochers L, Sternthal A, et al. Frequent hypoglycemia among elderly patients with poor glycemic control. Arch Intern Med. 2011;171(4):362-4.",
+   "pmid": "21357814",
+   "pmcid": "PMC4123960",
+   "doi": "10.1001/archinternmed.2010.539",
+   "public_url": "https://doi.org/10.1001/archinternmed.2010.539",
+   "design": "Observational study with 3-day blinded continuous glucose monitoring",
+   "population_setting": "40 adults aged 69 or over (mean 75) with HbA1c 8% or higher (mean 9.3%), 93% using insulin, Boston, USA",
+   "year": 2011,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Very small single-centre study; shows hypoglycaemia is common and mostly unrecognised even when HbA1c is high."
+  },
+  {
+   "key": "PMID:33763024",
+   "citation": "Mattishent K, Loke YK. Meta-analysis: association between hypoglycemia and serious adverse events in older patients treated with glucose-lowering agents. Front Endocrinol (Lausanne). 2021;12:571568.",
+   "pmid": "33763024",
+   "pmcid": "PMC7982741",
+   "doi": "10.3389/fendo.2021.571568",
+   "public_url": "https://doi.org/10.3389/fendo.2021.571568",
+   "design": "Systematic review and meta-analysis of observational studies",
+   "population_setting": "44 studies, 2,507,434 older people treated with glucose-lowering drugs; falls and fractures each from six studies",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Association only (mostly severe hypoglycaemia recorded in healthcare databases); odds ratios cannot be turned into absolute risks without baseline rates."
+  },
+  {
+   "key": "PMID:35614863",
+   "citation": "Crabtree T, Ogendo JJ, Vinogradova Y, Gordon J, Idris I. Intensive glycemic control and macrovascular, microvascular, hypoglycemia complications and mortality in older (age >=60years) or frail adults with type 2 diabetes: a systematic review and meta-analysis from randomized controlled trial and observation studies. Expert Rev Endocrinol Metab. 2022;17(3):255-267.",
+   "pmid": "35614863",
+   "pmcid": null,
+   "doi": "10.1080/17446651.2022.2079495",
+   "public_url": "https://doi.org/10.1080/17446651.2022.2079495",
+   "design": "Systematic review and meta-analysis of RCTs and observational studies",
+   "population_setting": "15 studies of adults aged 60 or over or frail with type 2 diabetes; intensive control defined as HbA1c target of 58 mmol/mol or lower vs standard care",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "Mixed designs with significant heterogeneity (authors' words); population mostly 'older' (60 plus) rather than frail. Gives the benefit side as well as the harm side."
+  },
+  {
+   "key": "PMID:25994072",
+   "citation": "English E, Idris I, Smith G, Dhatariya K, Kilpatrick ES, John WG. The effect of anaemia and abnormalities of erythrocyte indices on HbA1c analysis: a systematic review. Diabetologia. 2015;58(7):1409-21.",
+   "pmid": "25994072",
+   "pmcid": null,
+   "doi": "10.1007/s00125-015-3599-3",
+   "public_url": "https://doi.org/10.1007/s00125-015-3599-3",
+   "design": "Systematic review",
+   "population_setting": "12 studies in non-pregnant adults not known to have diabetes",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice.",
+   "quality_note": "Limited evidence (authors call for more); studied people without known diabetes."
+  },
+  {
+   "key": "PMID:24078751",
+   "citation": "MacCallum PK, Mathur R, Hull SA, Saja K, Green L, Morris JK, et al. Patient safety and estimation of renal function in patients prescribed new oral anticoagulants for stroke prevention in atrial fibrillation: a cross-sectional study. BMJ Open. 2013;3(9):e003343.",
+   "pmid": "24078751",
+   "pmcid": "PMC3787476",
+   "doi": "10.1136/bmjopen-2013-003343",
+   "public_url": "https://doi.org/10.1136/bmjopen-2013-003343",
+   "design": "Cross-sectional study of general practice records",
+   "population_setting": "4,120 people with atrial fibrillation in east London general practices (1,414 aged 80 or over)",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Compares MDRD eGFR (not current CKD-EPI) with Cockcroft-Gault; modelled dosing categories, not outcomes. One abstract sentence ('For those <80 years') is ambiguous and should not be quoted without the full text."
+  },
+  {
+   "key": "PMID:36340259",
+   "citation": "Chan YH, Chao TF, Lee HF, Yeh YH, Chang SH, Kuo CT, et al. Different renal function equations and dosing of direct oral anticoagulants in atrial fibrillation. JACC Asia. 2022;2(1):46-58.",
+   "pmid": "36340259",
+   "pmcid": "PMC9627870",
+   "doi": "10.1016/j.jacasi.2021.11.006",
+   "public_url": "https://doi.org/10.1016/j.jacasi.2021.11.006",
+   "design": "Retrospective multicentre cohort",
+   "population_setting": "39,239 people with atrial fibrillation in a Taiwanese health system; 11,185 on DOACs and 2,323 on warfarin",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Large cohort with outcome data; East Asian population with lower body weights; observational comparison with warfarin."
+  },
+  {
+   "key": "PMID:38046038",
+   "citation": "Villain C, Ebert N, Bothe T, Barghouth M, Pohlmann A, Fietz AK, et al. Kidney function estimators for drug dose adjustment of direct oral anticoagulants in older adults with atrial fibrillation. Clin Kidney J. 2023;16(12):2661-2671.",
+   "pmid": "38046038",
+   "pmcid": "PMC10689126",
+   "doi": "10.1093/ckj/sfad218",
+   "public_url": "https://doi.org/10.1093/ckj/sfad218",
+   "design": "Prospective cohort (Berlin Initiative Study) with marginal structural Cox models",
+   "population_setting": "224 older adults (median age 87) with atrial fibrillation on DOACs, Berlin",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt], expression of concern[pt] and published erratum[pt] (26 Sep 2026): no record; title search for erratum/correction/corrigendum found no linked notice. Scite editorialNotices: none listed (26 Sep 2026).",
+   "quality_note": "Small but in the very old; conflicting evidence: dose-status associations with outcomes did not differ by equation."
+  },
+  {
+   "key": "URL:https://www.medicinesresources.nhs.uk/en/Medicines-Awareness/Safety-Alerts/Safety-alerts/Drug-Safety-Update---Prescribing-medicines-in-renal-impairment-using-the-appropriate-estimate-of-renal-function-to-avoid-the-risk-of-adver-6370726866/",
+   "citation": "Medicines and Healthcare products Regulatory Agency. Prescribing medicines in renal impairment: using the appropriate estimate of renal function to avoid the risk of adverse drug reactions. Drug Safety Update. October 2019 [page not opened; search-engine extract only].",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.medicinesresources.nhs.uk/en/Medicines-Awareness/Safety-Alerts/Safety-alerts/Drug-Safety-Update---Prescribing-medicines-in-renal-impairment-using-the-appropriate-estimate-of-renal-function-to-avoid-the-risk-of-adver-6370726866/",
+   "design": "Regulatory safety communication",
+   "population_setting": "UK prescribers",
+   "year": 2019,
+   "access": "search_extract",
+   "tool_used": "WebSearch (web pages cannot be opened here); Google Drive search found no copy",
+   "correction_check": "Not applicable (regulatory web page); not opened.",
+   "quality_note": "Search-engine summary only. Not enough on its own for an essential claim; the exact MHRA wording (which patients, which body weight) must be checked in an opened copy before use."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C06-18-a",
+   "cand_id": "C06-18",
+   "claim": "Among adults aged 66 or over with high blood pressure in Ontario, those newly given a calcium channel blocker were more often given a loop diuretic within 90 days than those newly given an ACE inhibitor or ARB or an unrelated drug (1.4% vs 0.7% and 0.5%).",
+   "source_keys": [
+    "PMID:32091538"
+   ],
+   "supporting_passage": "\"The cohort included 41 086 older adults (≥66 years) with hypertension who were newly dispensed a CCB, 66 494 individuals who were newly dispensed another antihypertensive medication, and 231 439 individuals who were newly dispensed an unrelated medication. At index (ie, the dispensing date), the mean (SD) age was 74.5 (6.9) years, and 191 685 (56.5%) were women. Individuals who were newly dispensed a CCB had a higher cumulative incidence at 90 days of being dispensed a loop diuretic than individuals in both control groups (1.4% vs 0.7% and 0.5%, P < .001).\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Community-dwelling adults 66+ with hypertension, Ontario 2011 to 2016 / newly dispensed CCB / newly dispensed ACE inhibitor or ARB, or unrelated drug / dispensing of a loop diuretic / 90 days (and up to 1 year)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In Ontario, among people aged 66 or over with high blood pressure, about 14 in every 1,000 people started on a calcium channel blocker such as amlodipine were given a loop diuretic (a strong water tablet such as furosemide) within 3 months. The figure was about 7 in 1,000 for people started on a different blood pressure tablet, and 5 in 1,000 for people started on an unrelated medicine.",
+   "qualifications": "Dispensing data: shows who was given a diuretic, not whether swelling was the reason. The gap (about 7 extra per 1,000 compared with other blood pressure tablets) is the best estimate of the cascade; it is small per person but large across a population. Association, not proof that each case was a cascade.",
+   "conflicting_or_uncertain": "A US claims study (Vouri 2019) found a similar signal (see C06-18-i). No study found that contradicts the direction.",
+   "numbers": [
+    {
+     "value": "41,086",
+     "meaning": "older adults newly dispensed a CCB (comparators 66,494 and 231,439)"
+    },
+    {
+     "value": "1.4% (about 14 in 1,000)",
+     "meaning": "cumulative incidence of loop diuretic dispensing at 90 days after starting a CCB"
+    },
+    {
+     "value": "0.7% (about 7 in 1,000)",
+     "meaning": "same, after starting an ACE inhibitor or ARB"
+    },
+    {
+     "value": "0.5% (about 5 in 1,000)",
+     "meaning": "same, after starting an unrelated medicine"
+    },
+    {
+     "value": "0.7 percentage points",
+     "meaning": "absolute difference CCB vs ACE inhibitor/ARB at 90 days (derived: 1.4 minus 0.7)"
+    },
+    {
+     "value": "74.5 years",
+     "meaning": "mean age at index"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-b",
+   "cand_id": "C06-18",
+   "claim": "The association persisted, slightly weaker, up to 1 year, and in people started on amlodipine alone; relative rates were 1.68 to 2.40 times higher than after an ACE inhibitor or ARB over the first 3 months.",
+   "source_keys": [
+    "PMID:32091538"
+   ],
+   "supporting_passage": "\"After adjustment, individuals who were newly dispensed a CCB had increased relative rates of being dispensed a loop diuretic compared with individuals who were newly dispensed an angiotensin-converting enzyme inhibitor or angiotensin II receptor blocker (HR, 1.68; 95% CI, 1.38-2.05 in the first 30 days after index [days 1-30]; 2.26; 95% CI, 1.76-2.92 in the subsequent 30 days [days 31-60]; and 2.40; 95% CI, 1.84-3.13 in the third month of follow-up [days 61-90]) ... This association persisted, although slightly attenuated, from 90 days to up to 1 year of follow-up and when restricted to a subgroup of individuals who were newly dispensed amlodipine.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "As C06-18-a; adjusted hazard ratios by 30-day window; sensitivity analyses to 1 year and amlodipine-only subgroup",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The pattern was still there a year after starting the drug, and it held when the analysis was limited to people started on amlodipine.",
+   "qualifications": "Hazard ratios are relative; give the absolute figures from C06-18-a first. The 1-year figures are not in the abstract, so give no number for them.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "HR 1.68, 2.26, 2.40",
+     "meaning": "adjusted relative rate of loop diuretic dispensing, CCB vs ACE inhibitor/ARB, days 1-30, 31-60, 61-90 (relative)"
+    },
+    {
+     "value": "up to 1 year",
+     "meaning": "association persisted, slightly attenuated"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-c",
+   "cand_id": "C06-18",
+   "claim": "A prescribing cascade is when a side effect of one drug is taken for a new condition and a second drug is prescribed to treat it; the term was described by Rochon and Gurwitz in the BMJ in 1997.",
+   "source_keys": [
+    "PMID:36107399",
+    "PMID:32091538",
+    "PMID:9366745"
+   ],
+   "supporting_passage": "McCarthy 2022: \"Prescribing cascades occur when a drug is prescribed to manage side effects of another drug, typically when a side effect is misinterpreted as a new condition.\" Savage 2020: \"A prescribing cascade occurs when the edema is misinterpreted as a new medical condition and a diuretic is subsequently prescribed to treat the edema.\" Rochon 1997 record title: \"Optimising drug treatment for elderly people: the prescribing cascade.\"",
+   "location": "McCarthy 2022 Abstract; Savage 2020 Abstract (Importance); Rochon 1997 PubMed record (title only)",
+   "pico_timeframe": "Definition",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "A prescribing cascade is when a side effect of one medicine is mistaken for a new illness, and a second medicine is started to treat it.",
+   "qualifications": "Attribute the term to Rochon and Gurwitz (BMJ 1997) only by citation; no text from that article was read.",
+   "conflicting_or_uncertain": "ThinkCascades authors note that some cascades are intentional and appropriate (e.g., NSAID plus stomach protection), so not every drug added for a side effect is an error.",
+   "numbers": [
+    {
+     "value": "1997",
+     "meaning": "year of Rochon and Gurwitz BMJ article"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-d",
+   "cand_id": "C06-18",
+   "claim": "Ankle swelling is a common, dose-related side effect of calcium channel blockers of the amlodipine type.",
+   "source_keys": [
+    "PMID:21558959",
+    "PMID:31797247"
+   ],
+   "supporting_passage": "Makani 2011: \"One hundred and six studies with 99 469 participants, mean age 56 ± 6 years, satisfied our inclusion criteria and were included in this analysis. The weighted incidence of peripheral edema was significantly higher in the CCBs group when compared with controls/placebo (10.7 vs. 3.2%, P < 0.0001). Similarly, the withdrawal rate due to edema was higher in patients on CCBs compared with control/placebo (2.1 vs. 0.5%, P < 0.0001). Both the incidence of edema and patient withdrawal rate due to edema increased with the duration of therapy with CCBs reaching 24 and 5%, respectively, after 6 months. ... Incidence of peripheral edema in patients on DHPs was 12.3% compared with 3.1% with non-DHPs (P < 0.0001). Edema with high-dose CCBs (defined as more than half the usual maximal dose) was 2.8 times higher than that with low-dose CCBs (16.1 vs. 5.7%, P < 0.0001).\" Woodford 2020: \"CCBs have no prognostic benefit in heart failure and have an absolute risk increase for oedema of around 8-18% (number needed to harm 6-13).\"",
+   "location": "Makani 2011 Abstract, Results; Woodford 2020 Abstract",
+   "pico_timeframe": "People with hypertension in RCTs (mean age 56) / CCB / placebo or control / peripheral oedema and withdrawal for oedema / trials at least 4 weeks, rising to 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In trials, ankle swelling affected about 11 in 100 people taking a calcium channel blocker, compared with about 3 in 100 on placebo or other treatment. It was about three times as common on higher doses (16 in 100) as on lower doses (6 in 100), and it became more common the longer people took the drug.",
+   "qualifications": "Trial participants averaged 56 years, so rates in older people may differ. The swelling mechanism in the abstract ('thought to occur secondary to arteriolar dilatation') is background, so say 'is thought to' if used.",
+   "conflicting_or_uncertain": "Rates vary by drug type (lower with non-dihydropyridine and newer lipophilic dihydropyridine CCBs).",
+   "numbers": [
+    {
+     "value": "10.7% vs 3.2%",
+     "meaning": "incidence of peripheral oedema, CCB vs control/placebo, pooled RCTs"
+    },
+    {
+     "value": "16.1% vs 5.7%",
+     "meaning": "oedema on high-dose vs low-dose CCB"
+    },
+    {
+     "value": "24% and 5%",
+     "meaning": "oedema incidence and withdrawal due to oedema after 6 months of CCB therapy"
+    },
+    {
+     "value": "12.3% vs 3.1%",
+     "meaning": "dihydropyridine vs non-dihydropyridine CCBs"
+    },
+    {
+     "value": "8-18% (NNH 6-13)",
+     "meaning": "absolute risk increase for oedema cited in Woodford review"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-e",
+   "cand_id": "C06-18",
+   "claim": "For calcium channel blocker ankle swelling the options are to lower the dose, switch to another drug, or reconsider the need for it; adding an ACE inhibitor or ARB also reduces the swelling; a loop diuretic is justified only where these fail.",
+   "source_keys": [
+    "PMID:31797247",
+    "PMID:21558959",
+    "PMID:21295192"
+   ],
+   "supporting_passage": "Woodford 2020: \"The best way to manage the oedema caused by CCBs is to switch to an alternative medication. Only where this is not possible or fails to achieve therapeutic goals would the CCB-loop diuretic combination appear to be justified. In many cases, therapeutic practice could be improved by targeting people on CCB-loop diuretic combinations for medication review.\" Makani (Am J Med) 2011: \"The incidence of peripheral edema with calcium channel blocker/renin-angiotensin system blocker combination was 38% lower than that with calcium channel blocker monotherapy (P<.00001) (relative risk [RR] 0.62; 95% confidence interval [CI], 0.53-0.74).\" Makani (J Hypertens) 2011: \"The risk of peripheral edema with lipophilic DHPs was 57% lower than with traditional DHPs (relative risk 0.43; 95% confidence interval 0.34-0.53; P < 0.0001).\"",
+   "location": "Woodford 2020 Abstract; Makani Am J Med 2011 Abstract, Results; Makani J Hypertens 2011 Abstract, Results",
+   "pico_timeframe": "People on CCBs with oedema / switch, dose reduction, or adding RAS blocker / continuing CCB or adding loop diuretic / oedema incidence / trials of weeks (mean 9.2 weeks for combination meta-analysis)",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If ankle swelling starts after a calcium channel blocker, the first question is whether the drug is the cause. The options include a lower dose, a different blood pressure medicine, or asking whether the drug is still needed. A UK geriatrician's review concluded that switching is the best way to manage it, and that adding a loop diuretic is justified only when other options fail. In trials, adding an ACE inhibitor or ARB cut the rate of swelling by about a third.",
+   "qualifications": "The switch advice is expert opinion in a narrative review, not a trial result. 'Reconsider the need for it' is a clinical judgement (no study opened tested stopping). Combination-trial participants were middle-aged and followed for about 9 weeks. Present the RAS-blocker option as one of several, since it adds a drug.",
+   "conflicting_or_uncertain": "No trial compared 'reduce or switch' with 'add a diuretic' directly in older people.",
+   "numbers": [
+    {
+     "value": "RR 0.62 (38% lower)",
+     "meaning": "oedema incidence with CCB plus ACE inhibitor/ARB vs CCB alone, 25 RCTs, 17,206 people, mean age 56 (relative)"
+    },
+    {
+     "value": "RR 0.43 (57% lower)",
+     "meaning": "oedema risk with lipophilic vs traditional dihydropyridine CCBs (relative)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-f",
+   "cand_id": "C06-18",
+   "claim": "Adding a loop diuretic brings its own harms, such as worse kidney function, dizziness or blood pressure drop on standing, abnormal salts in the blood and falls.",
+   "source_keys": [
+    "PMID:41329486"
+   ],
+   "supporting_passage": "\"In the 60 days following LD initiation, 28 patients (23.3%) experienced 37 events potentially attributable to LD initiation. The most common downstream events were worsening kidney function (n = 9 [7.5%]), orthostasis (n = 7 [5.8%]), electrolyte abnormalities (n = 6 [5.0%]), and falls (n = 5 [4.2%]). Six patients (5.0%) were evaluated in the emergency department and/or hospital for potential downstream events.\" Also: \"Gabapentinoids were rarely noted in the differential (n = 4 [3.3%]).\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "120 US veterans aged 66+ (mostly men) who started a loop diuretic after a gabapentinoid / no comparison group / events potentially attributable to the loop diuretic / 60 days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US record review of 120 older veterans who were started on a loop diuretic after a nerve-pain medicine caused swelling, about 1 in 4 had a problem within 2 months that may have come from the diuretic: worse kidney function, a drop in blood pressure on standing, abnormal salts in the blood, or a fall.",
+   "qualifications": "The first drug in this study was gabapentin or pregabalin, not a calcium channel blocker; state that if it is used in a CCB post. Small, mostly male sample; no comparison group; events 'potentially attributable'. The candidate's visual label 'passing urine often' was not checked against a source; the 'possible third drug' step must be labelled 'Illustrative example'.",
+   "conflicting_or_uncertain": "None found; the direction fits the ThinkCascades rationale but no CCB-specific harm study was opened.",
+   "numbers": [
+    {
+     "value": "28 of 120 (23.3%)",
+     "meaning": "patients with at least one event potentially attributable to the loop diuretic within 60 days"
+    },
+    {
+     "value": "7.5%, 5.8%, 5.0%, 4.2%",
+     "meaning": "worse kidney function, orthostasis, electrolyte abnormalities, falls"
+    },
+    {
+     "value": "4 of 120 (3.3%)",
+     "meaning": "records in which the first drug was considered as the cause of the swelling"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-g",
+   "cand_id": "C06-18",
+   "claim": "Calcium channel blocker ankle swelling responds poorly to diuretics.",
+   "source_keys": [
+    "PMID:21558959"
+   ],
+   "supporting_passage": "No supporting passage found. Makani 2011 gives the mechanism only as background: \"It has been thought to occur secondary to arteriolar dilatation causing intracapillary hypertension and fluid extravasation.\"",
+   "location": "Makani 2011 Abstract, Background",
+   "pico_timeframe": "Not studied in opened sources",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Do not say that water tablets do not work for this swelling. Say instead that the swelling is a side effect of the first drug, and the first step is to review that drug.",
+   "qualifications": "The Sica 2003 lead could not be found in PubMed.",
+   "conflicting_or_uncertain": "Unverified either way.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-18-h",
+   "cand_id": "C06-18",
+   "claim": "ThinkCascades lists the calcium channel blocker to loop diuretic cascade among nine clinically important cascades in older people.",
+   "source_keys": [
+    "PMID:36107399"
+   ],
+   "supporting_passage": "\"After these exclusions, the final short consensus-based ThinkCascades tool includes nine clinically important cascades that are examples of potentially inappropriate prescribing affecting older people (Table).\"",
+   "location": "Full text, Results (Phase III); the table itself did not render",
+   "pico_timeframe": "Delphi panel of clinicians; consensus",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "An international expert panel (ThinkCascades, 2022) agreed a list of nine prescribing cascades that are usually harmful in older people.",
+   "qualifications": "That the CCB to loop diuretic cascade is on the nine-item list was not confirmed (table not rendered). Do not name it as on the list unless the table is checked.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "9",
+     "meaning": "cascades in the final ThinkCascades tool"
+    },
+    {
+     "value": "139",
+     "meaning": "candidate cascades rated in round 1"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-18-i",
+   "cand_id": "C06-18",
+   "claim": "A separate US study also found excess loop diuretic starts after calcium channel blockers, more so at high doses.",
+   "source_keys": [
+    "PMID:31880802"
+   ],
+   "supporting_passage": "\"Among 1 206 093 DH CCB initiators, 55 818 patients (4.6%) (33 100 [59.3%] aged <65 years; 32 916 [59.0%] women) had a new loop diuretic prescription 360 days before or after DH CCB initiation, resulting in an aSR of 1.87 (95% CI, 1.84-1.90). An estimated 1.44% of DH CCB initiators experienced the prescribing cascade. The aSR was disproportionately higher among DH CCB initiators who were prescribed high doses (aSR, 2.20; 95% CI, 2.13-2.27)...\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "US insured adults 20+ without heart failure / starting a dihydropyridine CCB / loop diuretic before vs after / sequence symmetry / 360 days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A US insurance study of over a million people starting amlodipine-type drugs estimated that about 1 in 70 went on to a loop diuretic because of the cascade, and the pattern was stronger at higher doses.",
+   "qualifications": "Mostly people under 65; sequence symmetry design estimates excess, not individual cases.",
+   "conflicting_or_uncertain": "Negative-control analysis suggested hypertension progression may explain part of the signal.",
+   "numbers": [
+    {
+     "value": "1.44% (about 1 in 70)",
+     "meaning": "estimated share of DH CCB starters who experienced the cascade, 360 days"
+    },
+    {
+     "value": "aSR 1.87; 2.20 at high dose",
+     "meaning": "adjusted sequence ratio overall and with high-dose CCB (relative)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-32-a",
+   "cand_id": "C06-32",
+   "claim": "In a UK primary care study of 487,372 people on blood pressure drugs, taking an NSAID together with a diuretic and an ACE inhibitor or ARB was linked with a higher rate of acute kidney injury (rate ratio 1.31).",
+   "source_keys": [
+    "PMID:23299844"
+   ],
+   "supporting_passage": "\"A cohort of 487 372 patients using antihypertensive drugs met the study inclusion criteria (fig 1); they were followed for a mean of 5.9 (SD 3.4) years ... current use of a triple therapy combination was associated with a 31% higher rate of acute kidney injury (rate ratio 1.31, 95% confidence interval 1.12 to 1.53).\" Table 1: cases mean (SD) age \"76.9 (10.9)\"; controls \"76.9 (10.7)\".",
+   "location": "Full text, Results and Table 1; Table 2",
+   "pico_timeframe": "UK users of antihypertensives 1997 to 2010 / current NSAID + diuretic + ACE inhibitor or ARB / diuretic + ACE inhibitor or ARB without NSAID / hospital admission with acute kidney injury / current use within 90 days",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In UK GP records, people taking an anti-inflammatory painkiller on top of both a water tablet and an ACE inhibitor or ARB (such as ramipril or losartan) had about a third more hospital admissions with sudden kidney injury than people taking the two blood pressure medicines without the painkiller.",
+   "qualifications": "Observational (linked with, not proven to cause). Prescribed NSAIDs only; shop-bought ibuprofen was not captured. The people who developed kidney injury averaged 77 years old. Relative figure: pair it with the absolute context in C06-32-c and C06-32-e.",
+   "conflicting_or_uncertain": "Restricting to dialysis-requiring cases gave a non-significant result (rate ratio 1.13, 0.69 to 1.77; few cases).",
+   "numbers": [
+    {
+     "value": "487,372",
+     "meaning": "users of antihypertensive drugs in the cohort"
+    },
+    {
+     "value": "2,215",
+     "meaning": "hospital-coded acute kidney injury cases"
+    },
+    {
+     "value": "rate ratio 1.31 (1.12 to 1.53)",
+     "meaning": "triple combination with NSAID vs same two antihypertensives without NSAID (relative)"
+    },
+    {
+     "value": "76.9 years",
+     "meaning": "mean age of cases"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-32-b",
+   "cand_id": "C06-32",
+   "claim": "The risk with the triple combination was highest in the first 30 days of use.",
+   "source_keys": [
+    "PMID:23299844"
+   ],
+   "supporting_passage": "\"With respect to duration of use, an 82% (rate ratio 1.82, 1.35 to 2.46) increased risk of acute kidney injury was observed in the first 30 days of use, whereas the adjusted rate ratio progressively decreased with longer periods of use and was no longer significant after more than 90 days of use (1.01, 0.84 to 1.23; P for interaction<0.001).\"",
+   "location": "Full text, Results (secondary analyses); Table 3",
+   "pico_timeframe": "As C06-32-a, by duration of triple exposure",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The extra risk was greatest in the first month after the painkiller was added.",
+   "qualifications": "Secondary analysis. Relative figure only.",
+   "conflicting_or_uncertain": "After 90 days the association was no longer seen; do not imply long-term use is safe on this basis (Dreischulte 2015 used one year of NSAID use for its absolute estimate).",
+   "numbers": [
+    {
+     "value": "rate ratio 1.82 (1.35 to 2.46)",
+     "meaning": "first 30 days of triple use (relative)"
+    },
+    {
+     "value": "1.01 (0.84 to 1.23)",
+     "meaning": "after more than 90 days of triple use"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-32-c",
+   "cand_id": "C06-32",
+   "claim": "Hospital admission with acute kidney injury was uncommon overall (about 7 per 10,000 person-years among users of blood pressure drugs).",
+   "source_keys": [
+    "PMID:23299844"
+   ],
+   "supporting_passage": "\"We identified 2215 cases of acute kidney injury during follow-up, yielding an overall incidence rate of 7/10 000 (95% confidence interval 7/10 000 to 8/10 000) person years.\"",
+   "location": "Full text, Results",
+   "pico_timeframe": "All 487,372 antihypertensive users, whatever their combination / hospital-coded AKI / mean 5.9 years follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Hospital admission with sudden kidney injury was uncommon: about 7 per 10,000 people per year among everyone in the study taking blood pressure medicines.",
+   "qualifications": "This is the rate for the whole cohort, not for people on the triple combination, and it counts only hospital admissions coded as kidney injury. The Tayside study (C06-32-e), which counted blood-test rises, found about 68 per 10,000 per year.",
+   "conflicting_or_uncertain": "Two very different baseline rates depending on definition (7 vs 68 per 10,000 person-years); give one with its definition, or reconcile them in plain words.",
+   "numbers": [
+    {
+     "value": "7 per 10,000 person-years",
+     "meaning": "hospital-coded AKI, all antihypertensive users, UK CPRD"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-32-d",
+   "cand_id": "C06-32",
+   "claim": "An NSAID with only one of these drugs (a diuretic alone, or an ACE inhibitor or ARB alone) was not linked with extra kidney injury in the UK hospital-admission study, but a Scottish study counting blood-test rises found a similar relative increase with these double combinations.",
+   "source_keys": [
+    "PMID:23299844",
+    "PMID:25874600"
+   ],
+   "supporting_passage": "Lapi 2013: \"Overall, current use of a double therapy combination of a diuretic or an angiotensin converting enzyme inhibitor or angiotensin receptor blocker with NSAIDs was not associated with an increased rate of acute kidney injury.\" Dreischulte 2015: \"The relative increase in AKI risk was similar for NSAID use in both triple (adjusted rate ratio 1.64 (95% CI 1.25-2.14)) and dual combinations with either renin-angiotensin system inhibitors (1.60 (1.18-2.17)) or diuretics (1.64 (1.17-2.29)).\"",
+   "location": "Lapi 2013 Full text, Results; Dreischulte 2015 Abstract",
+   "pico_timeframe": "Lapi: hospital-coded AKI, UK CPRD. Dreischulte: community AKI defined as creatinine rise of 50% or more, 78,379 users of RAS inhibitors and/or diuretics, Tayside",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Do not say that ibuprofen with only one of these medicines is safe. A Scottish study found that taking an anti-inflammatory alongside either a water tablet or an ACE inhibitor or ARB was also linked with more kidney injury, though the extra risk in absolute terms was about half that seen with all three together.",
+   "qualifications": "The two studies used different definitions of kidney injury and reached different conclusions for double combinations; the Scottish study is the more sensitive.",
+   "conflicting_or_uncertain": "Direct conflict between Lapi 2013 (no increase with doubles) and Dreischulte 2015 (increase with doubles). This conflict must shape the post.",
+   "numbers": [
+    {
+     "value": "1.60 and 1.64",
+     "meaning": "adjusted rate ratios for NSAID with RAS inhibitor alone and with diuretic alone (relative), Tayside"
+    },
+    {
+     "value": "1.64",
+     "meaning": "adjusted rate ratio for NSAID with both (relative), Tayside"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-32-e",
+   "cand_id": "C06-32",
+   "claim": "In absolute terms, about 1 extra kidney injury occurs for every 158 people who take an NSAID for a year alongside both a diuretic and an ACE inhibitor or ARB, compared with 1 in over 300 for the double combinations; risk was highest in people over 75 and those with reduced kidney function.",
+   "source_keys": [
+    "PMID:25874600"
+   ],
+   "supporting_passage": "\"This nested case-control study characterized the risk of community-acquired AKI associated with NSAID use among 78,379 users of renin-angiotensin system inhibitors and/or diuretics, where AKI was defined as a 50% or greater increase in creatinine from baseline. The AKI incidence was 68/10,000 person-years. ... However, the absolute increase in AKI risk was higher for NSAIDs used in triple versus dual combinations with renin-angiotensin system inhibitors or diuretics alone (numbers needed to harm for 1 year treatment with NSAID of 158 vs. over 300). AKI risk was highest among users of loop diuretic/aldosterone antagonist combinations, in those over 75 years of age, and in those with renal impairment.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Tayside users of RAS inhibitors and/or diuretics / NSAID use / same drugs without NSAID / creatinine-defined AKI / NNH per 1 year of NSAID treatment",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Scottish study, for every 158 people who took an anti-inflammatory painkiller for a year on top of both a water tablet and an ACE inhibitor or ARB, about 1 extra person had a kidney injury picked up on blood tests (roughly 6 in 1,000). With only one of the two blood pressure medicines, the extra risk was lower (fewer than 1 in 300). People over 75 and people with weaker kidneys were at highest risk.",
+   "qualifications": "NNH is for a year of NSAID treatment, not a few days of ibuprofen; say so. Kidney injury here means a blood-test rise of creatinine by half or more, which includes milder events than hospital admissions. Observational.",
+   "conflicting_or_uncertain": "Lapi 2013 found no increase with double combinations (C06-32-d).",
+   "numbers": [
+    {
+     "value": "68 per 10,000 person-years",
+     "meaning": "creatinine-defined community AKI incidence, Tayside cohort"
+    },
+    {
+     "value": "NNH 158 (about 6 in 1,000 per year)",
+     "meaning": "one year of NSAID with both a diuretic and RAS inhibitor"
+    },
+    {
+     "value": "NNH over 300 (fewer than about 3 in 1,000 per year)",
+     "meaning": "one year of NSAID with only one of the two"
+    },
+    {
+     "value": "78,379",
+     "meaning": "users of RAS inhibitors and/or diuretics"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-32-f",
+   "cand_id": "C06-32",
+   "claim": "Each of the three drugs affects the kidney differently, so together they reduce the kidney's ability to keep filtering.",
+   "source_keys": [
+    "PMID:23299844"
+   ],
+   "supporting_passage": "\"Use of diuretics can lead to hypovolaemia, angiotensin converting enzyme inhibitors/angiotensin receptor blockers cause a haemodynamic reduction in glomerular filtration rate due to efferent arteriolar vasodilation, and NSAIDs cause inhibition of prostacyclin synthesis (leading to renal afferent arteriolar vasoconstriction).\" and \"among users of the triple therapy combination, the decreased inflow to the glomerulus resulting from the diuretic and NSAID cannot be compensated owing to blockade of the renin-angiotensin system\"",
+   "location": "Full text, Introduction and Discussion (Biological mechanisms)",
+   "pico_timeframe": "Pharmacological explanation offered by the authors",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The water tablet lowers the fluid reaching the kidneys, the anti-inflammatory narrows the blood vessel into the kidney's filters, and the ACE inhibitor or ARB stops the kidney from compensating.",
+   "qualifications": "Authors' explanation, not a finding of the study. Keep it short and literal.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-32-g",
+   "cand_id": "C06-32",
+   "claim": "UK prescribing guidance (BNF, NICE CKS) advises caution with NSAIDs in people taking these medicines, and paracetamol is the alternative for most people.",
+   "source_keys": [],
+   "supporting_passage": "No passage opened. BNF and NICE CKS pages cannot be opened from this environment, and no published paper opened in this batch recommends paracetamol as the alternative.",
+   "location": "Not found",
+   "pico_timeframe": "Not applicable",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Advise the reader to ask a pharmacist or GP which painkiller is suitable before buying an anti-inflammatory. Do not name paracetamol as the safe alternative, and do not cite the BNF or NICE, unless a source is opened.",
+   "qualifications": "The Lapi authors conclude only that 'vigilance may be warranted' and that 'a more appropriate use and choice among the available anti-inflammatory or analgesic drugs could therefore be applied'.",
+   "conflicting_or_uncertain": "Unverified.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-31-a",
+   "cand_id": "C06-31",
+   "claim": "DQIP was a cluster-randomised stepped-wedge trial in Tayside general practices (34 randomised, 33 completed) of a 48-week intervention combining professional education, informatics to find patients, and financial incentives for practices to review them.",
+   "source_keys": [
+    "PMID:26981935"
+   ],
+   "supporting_passage": "\"In this cluster-randomized, stepped-wedge trial conducted in Tayside, Scotland, we randomly assigned participating primary care practices to various start dates for a 48-week intervention comprising professional education, informatics to facilitate review, and financial incentives for practices to review patients' charts to assess appropriateness. ... A total of 34 practices underwent randomization, 33 of which completed the study.\"",
+   "location": "Abstract, Methods and Results",
+   "pico_timeframe": "Tayside general practices; patients at risk of adverse drug events from NSAIDs or antiplatelets / DQIP intervention / preintervention period (stepped wedge) / high-risk prescribing / 48 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In Tayside, 33 general practices took part in a trial of a programme with three parts: training for prescribers, a computer search that listed each practice's patients on specific risky prescriptions, and payment for the practice to review each of those patients.",
+   "qualifications": "Stepped-wedge design: every practice got the intervention, at randomly assigned start dates.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "34 / 33",
+     "meaning": "practices randomised / completed"
+    },
+    {
+     "value": "48 weeks",
+     "meaning": "intervention length"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-31-b",
+   "cand_id": "C06-31",
+   "claim": "The programme targeted nine named high-risk prescribing measures involving NSAIDs and antiplatelet drugs (six for stomach bleeding, two for kidney harm, one for heart failure), and flags could be cleared by recording that the prescription was appropriate, stopping it, or adding stomach protection.",
+   "source_keys": [
+    "PMID:26981935"
+   ],
+   "supporting_passage": "\"The individual measures were related to three types of adverse drug events: gastrointestinal events (six measures; e.g., aspirin or clopidogrel prescription for a patient taking an oral anticoagulant without coprescription of a gastroprotective drug), renal events (two measures; e.g., NSAID prescription for a patient with chronic kidney disease), and heart failure (NSAID prescription for a patient with heart failure).\" and \"Physicians could clear the flag by recording an explicit decision that the prescribing was appropriate, by stopping prescription of the offending drugs, or by adding a gastroprotective drug (proton-pump inhibitor or histamine 2 -receptor antagonist) for measures targeting the risk of gastrointestinal bleeding.\"",
+   "location": "Full text (via Scite excerpts), Methods",
+   "pico_timeframe": "As C06-31-a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "It focused on nine specific combinations, for example an anti-inflammatory painkiller in someone with kidney disease or heart failure, or aspirin with a blood thinner and no stomach protection. For each patient flagged, the doctor could stop the drug, add stomach protection, or record why the prescription was right for that person.",
+   "qualifications": "Review did not mean automatic stopping; the design allowed a documented decision to continue.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "9",
+     "meaning": "high-risk prescribing measures (6 gastrointestinal, 2 renal, 1 heart failure)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-31-c",
+   "cand_id": "C06-31",
+   "claim": "Targeted high-risk prescribing fell from 3.7% to 2.2% of patients at risk (adjusted odds ratio 0.63).",
+   "source_keys": [
+    "PMID:26981935",
+    "PMID:29306877"
+   ],
+   "supporting_passage": "Dreischulte 2016: \"Targeted high-risk prescribing was significantly reduced, from a rate of 3.7% (1102 of 29,537 patients at risk) immediately before the intervention to 2.2% (674 of 30,187) at the end of the intervention (adjusted odds ratio, 0.63; 95% confidence interval [CI], 0.57 to 0.68; P<0.001).\" Dreischulte 2018: \"...reduced the primary end point of high-risk prescribing by 37%, where both ongoing and new high-risk prescribing were significantly reduced.\"",
+   "location": "Dreischulte 2016 Abstract, Results; Dreischulte 2018 Abstract",
+   "pico_timeframe": "Patients at risk in 33 practices / DQIP / preintervention / proportion with any of nine high-risk prescriptions / end of 48 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Among patients at risk, the share on one of these risky prescriptions fell from about 37 in 1,000 to about 22 in 1,000 by the end of the programme.",
+   "qualifications": "Primary outcome. The 37% is a relative reduction in odds; lead with the absolute figures.",
+   "conflicting_or_uncertain": "Effect varied widely between practices (C06-31-f).",
+   "numbers": [
+    {
+     "value": "3.7% (1,102 of 29,537)",
+     "meaning": "high-risk prescribing immediately before the intervention"
+    },
+    {
+     "value": "2.2% (674 of 30,187)",
+     "meaning": "at the end of the intervention"
+    },
+    {
+     "value": "adjusted OR 0.63 (0.57 to 0.68)",
+     "meaning": "relative; described as a 37% reduction"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-31-d",
+   "cand_id": "C06-31",
+   "claim": "Admissions for stomach ulcer or bleeding fell from 55.7 to 37.0 and heart failure admissions from 707.7 to 513.5 per 10,000 person-years; admissions for acute kidney injury did not show a clear difference.",
+   "source_keys": [
+    "PMID:26981935"
+   ],
+   "supporting_passage": "\"The rate of hospital admissions for gastrointestinal ulcer or bleeding was significantly reduced from the preintervention period to the intervention period (from 55.7 to 37.0 admissions per 10,000 person-years; rate ratio, 0.66; 95% CI, 0.51 to 0.86; P=0.002), as was the rate of admissions for heart failure (from 707.7 to 513.5 admissions per 10,000 person-years; rate ratio, 0.73; 95% CI, 0.56 to 0.95; P=0.02), but admissions for acute kidney injury were not (101.9 and 86.0 admissions per 10,000 person-years, respectively; rate ratio, 0.84; 95% CI, 0.68 to 1.09; P=0.19).\" Methods excerpt: \"The incidence in the intervention period versus the preintervention period was compared with the use of the conditional maximum-likelihood estimate of the rate ratio.\"",
+   "location": "Abstract, Results; full text Methods (via Scite excerpt)",
+   "pico_timeframe": "Patients at risk / intervention period / preintervention period / related emergency admissions (prespecified secondary outcomes) / 48 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Hospital admissions for stomach ulcers or bleeding fell from about 56 to 37 per 10,000 patients per year, and admissions for heart failure also fell. Admissions for kidney injury did not show a clear difference (102 and 86 per 10,000 per year, a gap that could be chance).",
+   "qualifications": "Secondary outcomes, compared before and during the programme; the authors conclude it 'may have improved clinical outcomes'. Do not say the programme 'cut admissions' as a proven effect. Rates are among patients at risk, per 10,000 person-years.",
+   "conflicting_or_uncertain": "Kidney injury result was not significant; state it as plainly as the bleeding result.",
+   "numbers": [
+    {
+     "value": "55.7 to 37.0 per 10,000 person-years",
+     "meaning": "GI ulcer or bleeding admissions, preintervention vs intervention; RR 0.66 (0.51 to 0.86)"
+    },
+    {
+     "value": "707.7 to 513.5 per 10,000 person-years",
+     "meaning": "heart failure admissions; RR 0.73 (0.56 to 0.95)"
+    },
+    {
+     "value": "101.9 and 86.0 per 10,000 person-years",
+     "meaning": "acute kidney injury admissions; RR 0.84 (0.68 to 1.09), P=0.19"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-31-e",
+   "cand_id": "C06-31",
+   "claim": "The fall in high-risk prescribing was sustained in the year after the financial incentives ended.",
+   "source_keys": [
+    "PMID:26981935"
+   ],
+   "supporting_passage": "\"Reductions in the rates of high-risk prescribing were sustained after financial incentives ceased.\" and \"In an analysis of the primary outcome, 674 of 30,187 patients (2.2%) with risk factors for related adverse drug events had prescriptions for NSAIDs, antiplatelet agents, or both at the end of the intervention, and 560 of 28,616 (2.0%) had such prescriptions at 48 weeks after incentives ceased (adjusted odds ratio, 1.14; 95% CI, 0.85 to 1.53; P = 0.38).\" Methods: \"Finally, in a post hoc analysis, we examined whether the effect of the DQIP intervention was sustained after the end of the intervention.\"",
+   "location": "Full text (via Scite excerpts), Methods and Results",
+   "pico_timeframe": "Patients at risk / after payments stopped / end of intervention / high-risk prescribing / 48 weeks after incentives ceased",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A year after the payments stopped, high-risk prescribing had not gone back up: about 20 in 1,000 patients at risk, compared with 22 in 1,000 at the end of the programme.",
+   "qualifications": "Post hoc analysis. The informatics and newsletter may have continued; the paper excerpt does not say what support remained.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "2.2% (674 of 30,187)",
+     "meaning": "end of intervention"
+    },
+    {
+     "value": "2.0% (560 of 28,616)",
+     "meaning": "48 weeks after incentives ceased; adjusted OR 1.14 (0.85 to 1.53) vs end of intervention"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-31-f",
+   "cand_id": "C06-31",
+   "claim": "Effectiveness varied widely between practices, and practice staff saw each component as doing a different job: payments helped practices sign up, education started the work, and the informatics tool kept it going.",
+   "source_keys": [
+    "PMID:29306877",
+    "PMID:28061794"
+   ],
+   "supporting_passage": "Dreischulte 2018: \"(3) Effectiveness ranged from a relative increase in high-risk prescribing of 24.1% to a relative reduction of 77.2%.\" and \"(1) Recruited practices had lower performance in the quality and outcomes framework than those declining participation.\" Grant 2017: \"All the primary components of the intervention were perceived as active, but at different stages of implementation: financial incentives primarily supported recruitment; education motivated the GPs to initiate implementation; the informatics tool facilitated sustained implementation.\"",
+   "location": "Dreischulte 2018 Abstract, Results; Grant 2017 Abstract, Results",
+   "pico_timeframe": "DQIP trial practices; quantitative and qualitative process evaluation",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Results varied a great deal between practices. Staff interviewed said the payment mainly got practices to sign up, the training got the work started, and the patient lists kept it going.",
+   "qualifications": "Perceptions from interviews, not a test of which component caused the effect. The NEJM authors state they 'cannot identify which aspect of the intervention mattered most'.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "+24.1% to -77.2%",
+     "meaning": "range of relative change in high-risk prescribing across practices"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-31-g",
+   "cand_id": "C06-31",
+   "claim": "A later UK trial of a broader approach (structured polypharmacy review with informatics, training, feedback and financial incentives) did not reduce potentially inappropriate prescribing.",
+   "source_keys": [
+    "PMID:41110456"
+   ],
+   "supporting_passage": "\"There was no evidence of a difference in the primary outcome of number of potentially inappropriate prescribing indicators at the 26-week follow-up between the intervention and control groups after adjustment for pre-randomisation baseline (mean 2·3 in each group; difference in means -0·007 [95% CI -0·21 to 0·20]; p=0·95).\" and \"The complex intervention comprised a structured, collaborative, and patient-centred approach to medication review, supported by informatics, clinician training, performance feedback, and financial incentivisation.\"",
+   "location": "Abstract, Methods and Findings",
+   "pico_timeframe": "37 UK practices; 1,727 adults (median age 73) on 5+ medicines with 1+ PIP indicator / structured review model / usual care / count of PIP indicators / 26 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A 2025 UK trial of broad medication reviews for people on five or more medicines, also with computer support, training and payments, found no difference in potentially inappropriate prescribing after 6 months.",
+   "qualifications": "Different aim and targets from DQIP. Contrasting the two to argue for a narrow focus is a judgement, not a tested finding; mark it as judgement ('We think...').",
+   "conflicting_or_uncertain": "Supports caution about generalising DQIP; does not contradict DQIP's own result.",
+   "numbers": [
+    {
+     "value": "-0.007 (-0.21 to 0.20)",
+     "meaning": "difference in mean PIP indicator count at 26 weeks"
+    },
+    {
+     "value": "1,727",
+     "meaning": "participants"
+    },
+    {
+     "value": "37",
+     "meaning": "practices"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-a",
+   "cand_id": "C06-25",
+   "claim": "In US adults aged 65 or over with diabetes (NHANES 2001 to 2010), tight control (HbA1c below 7%) was as common in those in very complex or poor health (56.4%) as in the relatively healthy (62.8%).",
+   "source_keys": [
+    "PMID:25581565"
+   ],
+   "supporting_passage": "\"Overall, 61.5% (95% CI, 57.5%-65.3%), representing 3.8 million (95% CI, 3.4-4.2), had an HbA1c level of less than 7%; this proportion did not differ across health status categories (62.8% [95% CI, 56.9%-68.3%]) were relatively healthy, 63.0% (95% CI, 57.0%-68.6%) had complex/intermediate health, and 56.4% (95% CI, 49.7%-62.9%) had very complex/poor health (P = .26).\" Health status definition: \"very complex/poor, based on difficulty with 2 or more activities of daily living or dialysis dependence\".",
+   "location": "Abstract, Results and Exposures",
+   "pico_timeframe": "1,288 US adults 65+ with diabetes, NHANES 2001 to 2010 / health status category / cross-sectional / HbA1c below 7% (53 mmol/mol)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a US national survey (2001 to 2010), more than half of older people with diabetes who needed help with two or more everyday activities, or were on dialysis, had an HbA1c below 7% (53 mmol/mol). That was about as common as in healthy older people.",
+   "qualifications": "US data, now 15 to 25 years old. The survey did not measure low blood sugars; the authors call this 'potential overtreatment'.",
+   "conflicting_or_uncertain": "UK data (C06-25-c) show a similar pattern more recently.",
+   "numbers": [
+    {
+     "value": "1,288",
+     "meaning": "older adults with diabetes in the sample"
+    },
+    {
+     "value": "56.4%",
+     "meaning": "HbA1c below 7% in very complex/poor health"
+    },
+    {
+     "value": "62.8%",
+     "meaning": "HbA1c below 7% in relatively healthy"
+    },
+    {
+     "value": "63.0%",
+     "meaning": "HbA1c below 7% in complex/intermediate health"
+    },
+    {
+     "value": "7% = 53 mmol/mol",
+     "meaning": "HbA1c threshold"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-b",
+   "cand_id": "C06-25",
+   "claim": "Of older adults with HbA1c below 7%, 54.9% were treated with insulin or a sulfonylurea (60.0% of those in very complex or poor health).",
+   "source_keys": [
+    "PMID:25581565"
+   ],
+   "supporting_passage": "\"Of the older adults with an HbA1c level of less than 7%, 54.9% (95% CI, 50.4%-59.3%) were treated with either insulin or sulfonylureas; this proportion was similar across health status categories (50.8% [95% CI, 45.1%-56.5%] were relatively healthy, 58.7% [95% CI, 49.4%-67.5%] had complex/intermediate health, and 60.0% [95% CI, 51.4%-68.1%] had very complex/poor health; P = .14).\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "As C06-25-a, among those with HbA1c below 7%",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Of the older people with an HbA1c below 7%, just over half were on insulin or a sulfonylurea (such as gliclazide), the medicines most likely to cause low blood sugar.",
+   "qualifications": "'Most likely to cause low blood sugar' is the study's own framing ('diabetes medications likely to result in hypoglycemia (insulin or sulfonylureas)'). Gliclazide as an example is a UK illustration, not from the study.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "54.9%",
+     "meaning": "of those with HbA1c below 7% on insulin or sulfonylurea"
+    },
+    {
+     "value": "60.0%",
+     "meaning": "same, in very complex/poor health"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-c",
+   "cand_id": "C06-25",
+   "claim": "In 16 Norfolk general practices, about 3 in 10 people aged 70 or over with type 2 diabetes on a sulfonylurea or insulin had an HbA1c below 53 mmol/mol, and this was as common in those with kidney disease or dementia.",
+   "source_keys": [
+    "PMID:28498634"
+   ],
+   "supporting_passage": "\"Sixteen Norfolk general practices participated ... Of these, 1379 (35.7%) people were prescribed sulfonylurea or insulin therapies.\" \"The median age of the study cohort was 78 years.\" \"In total, 400 older people (29.9%) had an HbAconcentration < 53 mmol/mol (7%), of whom 162 (12.1%) had HbA< 48 mmol/mol (6.5%).\" \"Treatment to an HbAtarget of < 53 mmol/mol (7.0%) was as prevalent in those with chronic kidney disease or dementia as in those without.\" [The subscript '1c' is lost in the PubMed text rendering.]",
+   "location": "Abstract, Methods and Results",
+   "pico_timeframe": "People 70+ with type 2 diabetes on sulfonylurea or insulin in the previous 90 days, 16 Norfolk practices / cross-sectional / last recorded HbA1c",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In 16 GP practices in Norfolk, about 3 in 10 people aged 70 or over who were taking gliclazide-type tablets or insulin had an HbA1c below 53 mmol/mol, and about 1 in 8 were below 48. This was just as common in people with kidney disease or dementia, who are more prone to low blood sugars.",
+   "qualifications": "Last recorded HbA1c only; low blood sugars not measured. Percentages appear to use people with a recorded HbA1c as the denominator.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "1,379",
+     "meaning": "people aged 70+ on sulfonylurea or insulin"
+    },
+    {
+     "value": "400 (29.9%)",
+     "meaning": "HbA1c below 53 mmol/mol"
+    },
+    {
+     "value": "162 (12.1%)",
+     "meaning": "HbA1c below 48 mmol/mol"
+    },
+    {
+     "value": "78 years",
+     "meaning": "median age"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-d",
+   "cand_id": "C06-25",
+   "claim": "UK consensus says the usual HbA1c targets (53 to 59 mmol/mol, 7 to 7.5%) are too tight for frail older people.",
+   "source_keys": [
+    "PMID:29633351"
+   ],
+   "supporting_passage": "\"Guidelines from organizations such as the National Institute for Health and Care Excellence (NICE), the European Association for the Study of Diabetes, and the American Diabetes Association acknowledge the need for individualized care, but the glycaemic targets that are suggested to constitute good control [HbA 53-59 mmol/mol (7-7.5%)] are too tight for frail older individuals. We present a framework for the assessment of older adults and guidelines for the management of this population according to their frailty status...\"",
+   "location": "Abstract",
+   "pico_timeframe": "Older adults with type 2 diabetes, UK; consensus",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "A UK consensus statement (2018, with NHS England and geriatric and diabetes specialists) says the usual HbA1c targets of 53 to 59 mmol/mol are too tight for older people living with frailty, and that targets should be set according to frailty.",
+   "qualifications": "Specific frailty targets in the body of the paper were not read; do not quote target numbers for frailty from this source.",
+   "conflicting_or_uncertain": "ADA Standards of Care 2026 (Older Adults section, PMID 41358888) could not be opened in full, so ADA wording is not verified here.",
+   "numbers": [
+    {
+     "value": "53-59 mmol/mol (7-7.5%)",
+     "meaning": "usual targets the statement calls too tight for frail older people"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-e",
+   "cand_id": "C06-25",
+   "claim": "A deprescribing guideline recommends reducing or stopping glucose-lowering drugs that cause hypoglycaemia in older adults at risk, and individualising targets for people who are frail, have dementia or limited life expectancy.",
+   "source_keys": [
+    "PMID:29138153"
+   ],
+   "supporting_passage": "\"We recommend deprescribing antihyperglycemic medications known to contribute to hypoglycemia in older adults at risk or in situations where antihyperglycemic medications might be causing other adverse effects, and individualizing targets and deprescribing accordingly for those who are frail, have dementia, or have a limited life expectancy.\"",
+   "location": "Abstract, Recommendations",
+   "pico_timeframe": "Older adults on glucose-lowering drugs; GRADE guideline",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "An evidence-based guideline on stopping diabetes medicines recommends reducing or stopping those that can cause low blood sugar in older people at risk, and setting targets to suit people who are frail, have dementia or have limited life expectancy.",
+   "qualifications": "Canadian guideline (2017).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-25-f",
+   "cand_id": "C06-25",
+   "claim": "Low blood sugar episodes in older people treated for diabetes are linked with falls and fractures.",
+   "source_keys": [
+    "PMID:33763024"
+   ],
+   "supporting_passage": "\"Similarly, our meta-analysis of six studies demonstrated an association between hypoglycemia and falls and fractures, pooled OR 1.78 (95% CI 1.44-2.21) and 1.68 (95% CI 1.37-2.07) respectively.\" and \"Studies assessing mortality signal a time-response relationship with a higher risk of adverse events occurring within the first 90 days after hypoglycemia.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Older people on glucose-lowering drugs / hypoglycaemia (mostly severe, from healthcare databases) / no hypoglycaemia / falls, fractures / various",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In studies of older people treated for diabetes, those who had episodes of low blood sugar were more likely to have falls and fractures. This link does not prove the low sugars caused them.",
+   "qualifications": "Association from observational studies; odds ratios cannot be turned into 'X times more likely' in plain terms or into absolute risks. Mostly severe hypoglycaemia.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "OR 1.78 (1.44-2.21)",
+     "meaning": "falls, six studies (relative, association)"
+    },
+    {
+     "value": "OR 1.68 (1.37-2.07)",
+     "meaning": "fractures, six studies (relative, association)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-g",
+   "cand_id": "C06-25",
+   "claim": "HbA1c does not reveal low blood sugars: in older adults with high HbA1c (8% or more), most on insulin, two thirds had low glucose on 3 days of monitoring, and almost all episodes went unnoticed.",
+   "source_keys": [
+    "PMID:21357814"
+   ],
+   "supporting_passage": "\"Forty adults (mean [SD] age, 75 [5] years; HbA(1C) value, 9.3% [1.3%]; diabetes duration, 22 [14] years; 28 patients [70%] with type 2 diabetes mellitus; and 37 [93%] using insulin) were evaluated. Twenty-six patients (65%) experienced 1 or more episodes of hypoglycemia (glucose level <70 mg/dL). ... Of the total of 102 hypoglycemic episodes, 95 (93%) were unrecognized by finger-stick glucose measurements performed 4 times a day or by symptoms.\" Conclusion: \"Raising HbA(1C) goals may not be adequate to prevent hypoglycemia in this population.\"",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "40 adults 69+ with HbA1c 8%+, 93% on insulin / blinded CGM / none / glucose below 70 mg/dL (3.9 mmol/L) / 3 days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "An HbA1c result does not show whether someone is having low blood sugars. In a small US study of 40 older people on insulin whose HbA1c was high, 26 had low glucose readings over 3 days of continuous monitoring, and 93 in 100 episodes were not picked up by finger-prick tests or symptoms.",
+   "qualifications": "Very small; high-HbA1c group, mostly insulin users, some with type 1 diabetes. Use it to show HbA1c alone cannot rule low sugars in or out, not to say a low HbA1c causes them.",
+   "conflicting_or_uncertain": "This refines the candidate's core insight: the evidence opened shows potential overtreatment with low HbA1c, and frequent unrecognised hypoglycaemia even with high HbA1c; no opened source measured hypoglycaemia frequency in frail people with low HbA1c.",
+   "numbers": [
+    {
+     "value": "26 of 40 (65%)",
+     "meaning": "had at least one glucose below 70 mg/dL over 3 days"
+    },
+    {
+     "value": "95 of 102 (93%)",
+     "meaning": "episodes not recognised by finger-stick tests or symptoms"
+    },
+    {
+     "value": "9.3%",
+     "meaning": "mean HbA1c (about 78 mmol/mol, conversion not from source)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-h",
+   "cand_id": "C06-25",
+   "claim": "HbA1c can be misleading in anaemia: non-iron-deficiency anaemia may lower it and iron deficiency may raise it.",
+   "source_keys": [
+    "PMID:25994072"
+   ],
+   "supporting_passage": "\"HbA1c is likely to be affected by iron deficiency and IDA with a spurious increase in HbA1c values; conversely, non-IDA may lead to a decreased HbA1c value.\"",
+   "location": "Abstract, Conclusions",
+   "pico_timeframe": "Adults not known to have diabetes; 12 studies",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Some types of anaemia can make HbA1c read lower than the true blood sugar level, and iron deficiency can make it read higher.",
+   "qualifications": "Evidence is limited and in people without known diabetes; say 'can' not 'does'.",
+   "conflicting_or_uncertain": "Authors call for more evidence.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-25-i",
+   "cand_id": "C06-25",
+   "claim": "Tight glucose control in older adults reduces some complications but more than doubles severe hypoglycaemia, without a clear difference in deaths.",
+   "source_keys": [
+    "PMID:35614863"
+   ],
+   "supporting_passage": "\"No difference was noted in all-cause mortality with intensive control (pooled hazard ratio 0.96, 95% confidence interval 0.90-1.03), but risk of severe hypoglycemia increased (2.45, 2.22-2.72). Intensive control was associated reductions in microvascular (0.73, 0.68-0.79) and macrovascular complications (0.84, 0.79-0.89). Outcome data for risk of hospitalization, cognition, and falls/fractures were limited.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Adults 60+ or frail with type 2 diabetes / intensive control (HbA1c target 58 mmol/mol or lower) / standard care / mortality, severe hypoglycaemia, complications / study durations varied",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Across 15 studies in people aged 60 or over, aiming for tight control was linked with fewer blood vessel complications, but more than twice the rate of severe low blood sugars, and no clear difference in deaths.",
+   "qualifications": "Mixed RCT and observational data with significant heterogeneity; population mostly 60 plus rather than frail. Relative figures only.",
+   "conflicting_or_uncertain": "Gives the benefit side: the post must not imply tight control has no benefits.",
+   "numbers": [
+    {
+     "value": "HR 2.45 (2.22-2.72)",
+     "meaning": "severe hypoglycaemia, intensive vs standard (relative)"
+    },
+    {
+     "value": "HR 0.96 (0.90-1.03)",
+     "meaning": "all-cause mortality"
+    },
+    {
+     "value": "0.73 and 0.84",
+     "meaning": "microvascular and macrovascular complications (relative)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-25-j",
+   "cand_id": "C06-25",
+   "claim": "The American Diabetes Association recommends less stringent targets and deintensifying hypoglycaemia-causing drugs in older adults with complex or poor health.",
+   "source_keys": [],
+   "supporting_passage": "Not opened. ADA Standards of Care 2026 Older Adults section (PMID 41358888, PMC12690186): PMC full text returned empty, Scite returned abstract only; 2024 and 2025 editions also not readable.",
+   "location": "Not found",
+   "pico_timeframe": "Not applicable",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Do not cite ADA wording. Use the UK consensus (C06-25-d) and the deprescribing guideline (C06-25-e) instead.",
+   "qualifications": "",
+   "conflicting_or_uncertain": "Unverified in this project.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-19-a",
+   "cand_id": "C06-19",
+   "claim": "In the trials of direct oral anticoagulants for atrial fibrillation, eligibility and dosing were based on creatinine clearance from the Cockcroft-Gault equation.",
+   "source_keys": [
+    "PMID:24078751",
+    "PMID:36340259"
+   ],
+   "supporting_passage": "MacCallum 2013: \"In clinical trials of dabigatran and rivaroxaban for stroke prevention in atrial fibrillation (AF), drug eligibility and dosing were determined using the Cockcroft-Gault equation to estimate creatine clearance as a measure of renal function.\" Chan 2022: \"Randomized trials of direct oral anticoagulants (DOACs) adopted the Cockcroft-Gault (CG) formula to calculate estimated glomerular filtration rate (eGFR) to determine the dosages of DOACs.\"",
+   "location": "MacCallum 2013 Abstract, Objectives; Chan 2022 Abstract, Background",
+   "pico_timeframe": "DOAC trials in AF (background statements)",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The trials that tested the newer blood thinners (DOACs) worked out doses from creatinine clearance calculated with the Cockcroft-Gault formula, which uses age, weight and sex, not from the eGFR printed on lab reports.",
+   "qualifications": "Background statement in both abstracts; 'uses age, weight and sex' is general knowledge of the formula not quoted in an opened source (confirm or omit).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-19-b",
+   "cand_id": "C06-19",
+   "claim": "Using eGFR instead of Cockcroft-Gault overestimates kidney function mainly in people over 75 and under 50 kg, leading to overdosing of DOACs; only dosing that was correct by Cockcroft-Gault was linked with less major bleeding than warfarin.",
+   "source_keys": [
+    "PMID:36340259"
+   ],
+   "supporting_passage": "\"At the cutoff values of eGFR of <15, 15-50, and >50 mL/min, the agreements were 78% between MDRD and CG and 81% between CKD-EPI and CG. The disagreements among the different equations were largely due to overestimations, especially for patients aged >75 years and with a body weight of <50 kg (58.8% for MDRD and 50.9% for CKD-EPI). Among patients receiving DOACs whose dosages were defined as \"on label\" based on MDRD or CKD-EPI, only those whose dosages were \"truly on label\" based on CG were associated with a lower risk of major bleeding (adjusted HR: 0.34; 95% CI: 0.26-0.45) compared to warfarin.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "39,239 people with AF in Taiwan; 11,185 on DOACs / dosing by eGFR vs CG / warfarin / major bleeding / retrospective",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Taiwanese study of 39,239 people with atrial fibrillation, the lab eGFR and the Cockcroft-Gault calculation disagreed for about 1 in 5 people, mostly because eGFR made kidney function look better. The disagreement was most common in people over 75 who weighed under 50 kg.",
+   "qualifications": "East Asian population with lower body weight; observational. The 58.8% and 50.9% figures are ambiguous in the abstract (proportion overestimated in that subgroup); do not quote them without the full text.",
+   "conflicting_or_uncertain": "Villain 2023 (C06-19-e) found no difference in outcomes by equation in very old Germans.",
+   "numbers": [
+    {
+     "value": "78% and 81%",
+     "meaning": "agreement of MDRD and CKD-EPI with CG at dosing cut-offs"
+    },
+    {
+     "value": "aHR 0.34 (0.26-0.45)",
+     "meaning": "major bleeding vs warfarin for doses on label by CG (relative)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-19-c",
+   "cand_id": "C06-19",
+   "claim": "In east London, using MDRD eGFR instead of Cockcroft-Gault would have made about 15% of people aged 80 or over with AF eligible for dabigatran who were ineligible, and led to too-high rivaroxaban doses in 13.5%.",
+   "source_keys": [
+    "PMID:24078751"
+   ],
+   "supporting_passage": "\"Of 4120 patients, 2706 were <80 years and 1414 were ≥80 years of age. Among those ≥80 years, 14.9% were ineligible for dabigatran according to Cockcroft-Gault equation but would have been judged eligible applying MDRD method. For those <80 years, 0.8% would have been incorrectly judged eligible for dabigatran and 5.3% would have received too high a dose. For rivaroxaban, 0.3% would have been incorrectly judged eligible for treatment and 13.5% would have received too high a dose.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "4,120 people with AF in east London general practices / MDRD eGFR / Cockcroft-Gault / modelled eligibility and dose category / cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In east London GP records, among people aged 80 or over with atrial fibrillation, about 15 in 100 who were too frail in kidney terms for dabigatran by the Cockcroft-Gault calculation would have looked eligible using the lab eGFR.",
+   "qualifications": "Uses the older MDRD equation, not CKD-EPI; modelled dosing, not outcomes. The rivaroxaban 13.5% and dabigatran '<80 years' figures are ambiguous in the abstract; use only the 14.9% figure for people aged 80 or over.",
+   "conflicting_or_uncertain": "Villain 2023 (C06-19-e).",
+   "numbers": [
+    {
+     "value": "14.9%",
+     "meaning": "people 80+ ineligible for dabigatran by CG but eligible by MDRD"
+    },
+    {
+     "value": "1,414",
+     "meaning": "people 80+ in the sample"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-19-d",
+   "cand_id": "C06-19",
+   "claim": "MHRA advised in 2019 that creatinine clearance by Cockcroft-Gault should be used to dose DOACs and some other drugs.",
+   "source_keys": [
+    "URL:https://www.medicinesresources.nhs.uk/en/Medicines-Awareness/Safety-Alerts/Safety-alerts/Drug-Safety-Update---Prescribing-medicines-in-renal-impairment-using-the-appropriate-estimate-of-renal-function-to-avoid-the-risk-of-adver-6370726866/"
+   ],
+   "supporting_passage": "Search-engine summary only (not verbatim from the MHRA page): 'Creatinine clearance should be calculated using the Cockcroft-Gault formula to determine dosage adjustments for patients taking direct-acting oral anticoagulants, patients taking nephrotoxic drugs (such as vancomycin and amphotericin B), and patients taking medicines that are largely renally excreted and have a narrow therapeutic index (such as digoxin and sotalol).'",
+   "location": "WebSearch result summary (page not opened)",
+   "pico_timeframe": "UK regulatory advice, October 2019",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not state MHRA wording until it is checked in an opened copy. If it cannot be opened, rely on the published studies (C06-19-a to c).",
+   "qualifications": "Search extract; which body weight and patient groups the MHRA specifies is unverified.",
+   "conflicting_or_uncertain": "The judge noted some product information may now allow eGFR for some drugs; unverified.",
+   "numbers": [
+    {
+     "value": "2019 (October)",
+     "meaning": "date of the MHRA Drug Safety Update, from search extract"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-19-e",
+   "cand_id": "C06-19",
+   "claim": "In very old people with AF on DOACs, whether the dose was judged appropriate by Cockcroft-Gault or by eGFR made no difference to the link with deaths, clots or bleeding.",
+   "source_keys": [
+    "PMID:38046038"
+   ],
+   "supporting_passage": "\"A total of 224 patients were included in the analysis (median age 87 years). Using CrCl, 154 (69%) had an appropriate dose of DOACs, 52 (23%) were underdosed and 18 (8%) were overdosed. ... In participants with discrepancies in dose status using CrCland eGFR equations, the occurrence of endpoints did not differ between participants having an appropriate dose using CrClor eGFR.\" Conclusions: \"In older adults with AF, the association of DOAC dose status with adverse events did not differ when using CrClor eGFR. Our results suggest that eGFR equations are not inferior to CrClwithin this context.\"",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "224 people with AF on DOACs, median age 87, Berlin / dose status by CrCl vs eGFR / mortality, thromboembolism, bleeding / median 39 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Berlin study of 224 people with a median age of 87 found that outcomes did not differ according to which kidney formula was used to judge the dose.",
+   "qualifications": "Small study; wide uncertainty. Conflicts with Chan 2022.",
+   "conflicting_or_uncertain": "Direct conflict with C06-19-b; the post must say the evidence on outcomes is mixed.",
+   "numbers": [
+    {
+     "value": "224",
+     "meaning": "participants"
+    },
+    {
+     "value": "87 years",
+     "meaning": "median age"
+    },
+    {
+     "value": "69% / 23% / 8%",
+     "meaning": "appropriate / underdosed / overdosed by CrCl"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-19-f",
+   "cand_id": "C06-19",
+   "claim": "eGFR is adjusted to a standard body size (1.73 m2) and creatinine depends on muscle mass, so eGFR can overestimate kidney function in small people with low muscle mass.",
+   "source_keys": [],
+   "supporting_passage": "Not found in opened sources (the 1.73 m2 unit appears in Hambling 2017 but without explanation).",
+   "location": "Not found",
+   "pico_timeframe": "Not applicable",
+   "claim_type": "definition",
+   "verdict": "not_found",
+   "safe_wording": "Say only what Chan 2022 supports: eGFR tended to overestimate kidney function compared with Cockcroft-Gault, especially in people over 75 and under 50 kg.",
+   "qualifications": "",
+   "conflicting_or_uncertain": "Unverified.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C06-18",
+   "status": "ready",
+   "reason": "All essential claims supported: Savage 2020 absolute and relative figures (1.4% vs 0.7% vs 0.5% at 90 days; persisted to 1 year and in amlodipine-only subgroup), the definition of a prescribing cascade (McCarthy 2022, Savage 2020), CCB oedema being common and dose-related (Makani 2011), alternatives (lower dose, switch, add ACE inhibitor/ARB; Woodford 2020 says switching is best and the diuretic is justified only when that fails), and downstream harms after a loop diuretic is added (Growdon 2025, qualified: gabapentinoid cascade). Two lead claims are not supported and must not be used: that CCB oedema 'responds poorly to diuretics' (not found), and that ThinkCascades lists this cascade (table not rendered). The draft opening line ('a water tablet is a poor treatment for it') must be reworded to 'is a side effect of the first drug, and the first step is to review that drug'. Label the 'possible third drug' step 'Illustrative example'. Give absolute figures first, as the judge asked.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C06-18-a",
+    "C06-18-b",
+    "C06-18-c",
+    "C06-18-d",
+    "C06-18-e",
+    "C06-18-f"
+   ]
+  },
+  {
+   "cand_id": "C06-32",
+   "status": "revise",
+   "reason": "The triple-combination finding, the first-30-days peak and the absolute context are supported (Lapi 2013 full text; Dreischulte 2015). But the candidate's claim that double combinations were 'not associated' is contradicted by a Scottish study with a more sensitive definition (Dreischulte 2015: similar relative rise with a diuretic alone or an ACE inhibitor/ARB alone). The UK guidance claim (BNF/NICE CKS) and 'paracetamol for most people' could not be sourced. Both Lapi and Dreischulte measured prescribed NSAIDs, not shop-bought ibuprofen.",
+   "revised_angle": "If you take a water tablet or a blood pressure tablet such as ramipril or losartan, and especially if you take both, ask a pharmacist before buying ibuprofen or naproxen. Two UK studies link anti-inflammatories taken with these medicines to sudden kidney injury; risk is highest with all three, in the first month, in people over 75 and in people with weaker kidneys. Give the absolute context (for example, about 1 extra kidney injury per 158 people taking an anti-inflammatory for a year alongside both medicines; hospital admission for kidney injury is uncommon). Do not imply one of the medicines alone makes ibuprofen safe, and do not name paracetamol or cite BNF/NICE unless sourced.",
+   "essential_claim_ids": [
+    "C06-32-a",
+    "C06-32-b",
+    "C06-32-d",
+    "C06-32-e"
+   ]
+  },
+  {
+   "cand_id": "C06-31",
+   "status": "ready",
+   "reason": "All essential claims supported from the NEJM abstract and full-text excerpts: design (33 of 34 Tayside practices, education plus informatics plus payment to review), nine named measures and the option to record that a prescription is appropriate, primary outcome 3.7% to 2.2% (adjusted OR 0.63), secondary admission outcomes (GI bleeding 55.7 to 37.0, heart failure 707.7 to 513.5 per 10,000 person-years; AKI 101.9 and 86.0, not significant), and the post hoc finding that the reduction was sustained 48 weeks after incentives ceased (2.0%, 560 of 28,616). Admission results are secondary, before-and-during comparisons, and the authors say the intervention 'may have improved clinical outcomes'. Effects varied widely between practices. A 2025 UK trial of a broad polypharmacy review with similar supports (IMPPP) was null; contrasting the two to argue for focus is judgement and must be marked as such.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C06-31-a",
+    "C06-31-b",
+    "C06-31-c",
+    "C06-31-d",
+    "C06-31-e"
+   ]
+  },
+  {
+   "cand_id": "C06-25",
+   "status": "revise",
+   "reason": "Lipska 2015 figures are supported but show potential overtreatment, not measured low blood sugars, in US data from 2001 to 2010. No opened source measured hypoglycaemia frequency in frail people with a low HbA1c, so 'a good HbA1c comes with frequent low blood sugars' is stronger than the evidence. Munshi 2011 shows low sugars are common and mostly unnoticed even when HbA1c is high, so HbA1c does not reveal them either way. UK support found: Hambling 2017 (Norfolk: about 3 in 10 people 70+ on sulfonylurea or insulin had HbA1c below 53 mmol/mol, as common in CKD and dementia) and Strain 2018 (usual targets too tight in frailty). Deprescribing recommendation supported by Farrell 2017. Hypoglycaemia linked with falls and fractures (association; Mattishent 2021). ADA Standards could not be opened. Tight control has benefits (Crabtree 2022), which the post should acknowledge.",
+   "revised_angle": "For a frail older person taking insulin or a gliclazide-type tablet, a low HbA1c can be a sign of more treatment than they need: in UK and US studies, low HbA1c on these drugs was as common in people in poor health, with kidney disease or with dementia as in healthier people. HbA1c does not show whether low blood sugars are happening, and low sugars are linked with falls and fractures. UK consensus says usual targets are too tight in frailty, and a deprescribing guideline recommends reducing drugs that cause low sugars in people at risk. Question for families: 'Has she had any low sugars, and does she still need this dose?'",
+   "essential_claim_ids": [
+    "C06-25-a",
+    "C06-25-b",
+    "C06-25-c",
+    "C06-25-d",
+    "C06-25-e",
+    "C06-25-f",
+    "C06-25-g"
+   ]
+  },
+  {
+   "cand_id": "C06-19",
+   "status": "revise",
+   "reason": "Reserve. The MHRA 2019 advice could only be found as a search-engine extract (not enough for an essential claim), and the mechanism claim (1.73 m2 normalisation, muscle mass) was not found in an opened source. Published studies support that DOAC trials dosed by Cockcroft-Gault (MacCallum 2013, Chan 2022) and that eGFR tends to overestimate kidney function versus Cockcroft-Gault, especially over 75 and under 50 kg (Chan 2022), with 14.9% of people 80+ in east London misclassified as eligible for dabigatran (MacCallum 2013). But a Berlin cohort (median age 87) found outcomes did not differ by equation (Villain 2023), so claims of harm must be hedged.",
+   "revised_angle": "Teaching round: DOAC doses were tested using Cockcroft-Gault creatinine clearance, and in people over 75 with low body weight the lab eGFR often reads higher, which can put them in a higher dose band. Calculate creatinine clearance with the person's weight when dosing a DOAC in a small, very old person. Name the conflicting Berlin result and say outcome evidence is mixed. Use the MHRA advice only if an opened copy is found.",
+   "essential_claim_ids": [
+    "C06-19-a",
+    "C06-19-b",
+    "C06-19-c",
+    "C06-19-e"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "batch": "C03-B3",
+ "category": "C03",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb",
+   "citation": "National Clinical Guideline Centre. The management of hip fracture in adults (NICE clinical guideline CG124, full guideline). London: National Clinical Guideline Centre; 2011 (with May 2017 update note).",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/cg124",
+   "design": "National clinical guideline (full version with evidence reviews and guideline development group discussion)",
+   "population_setting": "Adults with hip fracture, NHS England and Wales",
+   "year": 2011,
+   "access": "official_document",
+   "tool_used": "Google Drive read_file_content (PDF saved in Alasdair's Drive; source already listed in C03-B2, re-opened in this batch and the imaging chapter read)",
+   "correction_check": "Document's own update note says the 2017 update replaced recommendations on pages 34, 37 and 107 to 109 (hip replacement and cemented implants); the imaging recommendation (4.2.1, and 5.6.2 on pages 50 to 51) is not among them. A search extract of the NICE site (URL:https://www.nice.org.uk/guidance/cg124/chapter/recommendations, not opened) says the imaging recommendation's wording was amended in March 2014 'to clarify how an occult fracture is identified and when an MRI scan should be done'. The current web wording could not be opened, so posts should not quote the exact X-ray views.",
+   "quality_note": "Official guideline. The MRI/CT recommendation is a numbered recommendation based on diagnostic accuracy studies plus unanimous guideline group consensus for CT as the alternative. The weight-bearing and X-ray sensitivity statements are from the guideline chapter introduction (narrative), not numbered recommendations. Applies formally to England and Wales."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/cg124/chapter/recommendations",
+   "citation": "National Institute for Health and Care Excellence. Hip fracture: management. Clinical guideline CG124. Recommendations (web page). London: NICE; 2011, last updated 2023.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/cg124/chapter/recommendations",
+   "design": "National clinical guideline (current web version)",
+   "population_setting": "Adults with hip fracture, NHS England and Wales",
+   "year": 2023,
+   "access": "search_extract",
+   "tool_used": "WebSearch (nice.org.uk results; page not opened because WebFetch is blocked)",
+   "correction_check": "Not applicable; search extract only.",
+   "quality_note": "Used only to note that the imaging recommendation wording was amended in 2014 and that the recommendation still stands (MRI; CT if MRI not available within 24 hours or contraindicated). Not relied on for any essential claim; the opened full guideline (DRIVE source) carries the claim."
+  },
+  {
+   "key": "PMID:32633673",
+   "citation": "Haj-Mirzaian A, Eng J, Khorasani R, Raja AS, Levin AS, Smith SE, et al. Use of advanced imaging for radiographically occult hip fracture in elderly patients: a systematic review and meta-analysis. Radiology. 2020;296(3):521-531.",
+   "pmid": "32633673",
+   "pmcid": null,
+   "doi": "10.1148/radiol.2020192167",
+   "public_url": "https://doi.org/10.1148/radiol.2020192167",
+   "design": "Systematic review and meta-analysis of 35 observational studies (2992 patients), MRI as reference standard",
+   "population_setting": "Older patients (mean age 76.8) clinically suspected of hip fracture with no definite fracture, or only an isolated greater trochanter fracture, on radiographs; studies published to September 2018",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; full text not in PMC and not retrievable via Scite (closed access) or Undermind (no PDF)",
+   "correction_check": "PubMed: no retracted publication or published erratum linked (searched PMID with retracted publication[pt] and published erratum[pt], and title with erratum/correction: none). Scite record shows no editorial notices.",
+   "quality_note": "Moderate strength of evidence per the authors for the pooled frequency. Patients are a selected group (doctors still suspected a fracture and MRI was done), so the 39% is not the chance for every older person with hip pain after a fall. Full-text definition of 'surgical hip fracture' not read; the abstract defines it as hip fractures not seen on radiographs 'but that require surgery'."
+  },
+  {
+   "key": "PMID:37118993",
+   "citation": "Sing CW, Lin TC, Bartholomew S, Bell JS, Bennett C, Beyene K, et al. Global epidemiology of hip fractures: secular trends in incidence rate, post-fracture treatment, and all-cause mortality. J Bone Miner Res. 2023;38(8):1064-1075.",
+   "pmid": "37118993",
+   "pmcid": null,
+   "doi": "10.1002/jbmr.4821",
+   "public_url": "https://doi.org/10.1002/jbmr.4821",
+   "design": "Multinational cohort study using 20 healthcare databases with a common data model; projection of numbers to 2050",
+   "population_setting": "People aged 50 and over hospitalised with hip fracture in 19 countries and regions, 2005 to 2018 (4,115,046 hip fractures); UK included",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature and read_fulltext (full text denied, abstract only); Undermind read_pdfs (no PDF); publisher site blocked by proxy",
+   "correction_check": "PubMed: no retracted publication or published erratum linked (PMID and title searches). Scite record shows no editorial notices; 262 Smart Citations, 0 contrasting.",
+   "quality_note": "Large standardised multinational study. Only the abstract was read: the per-country trends (including the UK series), which countries did not decrease, and the projection method details were not verified. Several authors are Amgen employees (affiliations in PubMed record)."
+  },
+  {
+   "key": "PMID:40837274",
+   "citation": "Webster J, Oguzman E, Morris EJA, Shepperd S, Griffin XL, Johansen A, et al. Trends and variation in the incidence of hip fracture in England before, during, and after the COVID-19 pandemic (2014-2024): a population-based observational study. Lancet Reg Health Eur. 2025;57:101427.",
+   "pmid": "40837274",
+   "pmcid": "PMC12362259",
+   "doi": "10.1016/j.lanepe.2025.101427",
+   "public_url": "https://doi.org/10.1016/j.lanepe.2025.101427",
+   "design": "Population-based observational study of national hospital data (HES-APC) with ONS population denominators; Poisson regression for pandemic effects",
+   "population_setting": "Adults aged 50 and over presenting to NHS hospitals in England with fragility hip fracture, January 2014 to October 2024 (704,762 hip fractures in 669,101 patients)",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles, get_article_metadata, get_full_text_article (PMC12362259)",
+   "correction_check": "PubMed: no retracted publication or published erratum linked (PMID and title searches, 26 September 2026).",
+   "quality_note": "Near-complete national coverage for England; rates age-standardised to the 2013 European Standard Population. Counts by year are shown only in a supplementary figure (not read), so no count numbers are available. Internal inconsistency: the abstract gives 5595 excess hip fractures from August 2021 to October 2024, while one Discussion sentence gives 5955 from March 2021; use the abstract figure if any."
+  },
+  {
+   "key": "DOI:10.1007/978-3-030-48126-1_2",
+   "citation": "Veronese N, Kolk H, Maggi S. Epidemiology of fragility fractures and social impact. In: Falaschi P, Marsh D, editors. Orthogeriatrics: the management of older patients with fragility fractures. 2nd ed. Cham: Springer; 2021. p. 19-34.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": "10.1007/978-3-030-48126-1_2",
+   "public_url": "https://doi.org/10.1007/978-3-030-48126-1_2",
+   "design": "Open-access textbook chapter (narrative review)",
+   "population_setting": "Worldwide epidemiology of fragility and hip fractures",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "Google Drive read_file_content (open-access book PDF '2021_Book_Orthogeriatrics.pdf' saved in Alasdair's Drive); DOI taken from the book text",
+   "correction_check": "Book chapter; no retraction or correction mechanism found. Not PubMed-indexed as a journal article.",
+   "quality_note": "Expert narrative review, not primary data; used only for the explanation that population ageing drives the rising number of hip fractures. Chapter 1 of the same book (Marsh D et al.) makes the same point. Its 1.66 million (1990) to 6.26 million (2050) projection is an older estimate cited from another source and should not be used."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C03-02-a",
+   "cand_id": "C03-02",
+   "claim": "If a hip fracture is still suspected after normal hip X-rays, NICE guidance recommends offering MRI; if MRI is not available within 24 hours or is contraindicated, CT should be considered.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb",
+    "URL:https://www.nice.org.uk/guidance/cg124/chapter/recommendations"
+   ],
+   "supporting_passage": "4.2.1 Imaging options in occult hip fracture ➢ Offer magnetic resonance imaging (MRI) if hip fracture is suspected despite negative X-rays of the hip of an adequate standard. If MRI is not available within 24 hours or is contraindicated, consider computed tomography (CT).",
+   "location": "NICE CG124 full guideline 2011, Guideline summary section 4.2.1; repeated in section 5.6.2 Recommendations and link to evidence (pages 50 to 51)",
+   "pico_timeframe": "Adults with suspected hip fracture and negative X-rays of adequate standard / MRI (CT if MRI unavailable within 24 hours or contraindicated) / other imaging (repeat X-ray after 48 hours, bone scan, ultrasound) / diagnostic accuracy / at presentation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "If a broken hip is still suspected after normal hip X-rays, NICE guidance says to offer an MRI scan. If MRI is not available within 24 hours, or can't be done, it says to consider a CT scan.",
+   "qualifications": "The trigger is that a fracture is still suspected after X-rays, not inability to bear weight as such. NICE says 'offer' MRI but only 'consider' CT. NICE guidance applies formally to England and Wales. The 2014 amendment specifies the X-ray views; the current web wording was not opened, so do not quote the exact views or the recommendation number.",
+   "conflicting_or_uncertain": "The guideline group noted: 'Optimal strategy for patient selection and timing of secondary imaging strategies ... is yet to be determined' and 'It is at least theoretically possible that a proportion of occult fractures might not require surgery.' The CT alternative rests on guideline group consensus.",
+   "numbers": [
+    {
+     "value": "24 hours",
+     "meaning": "If MRI is not available within 24 hours (or is contraindicated), consider CT"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-02-b",
+   "cand_id": "C03-02",
+   "claim": "Inability to bear weight is a typical feature of hip fracture, and inability to weight bear the day after the injury despite adequate pain relief should prompt reassessment and a high suspicion of hip fracture; its absence does not exclude a fracture.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb"
+   ],
+   "supporting_passage": "Importantly, no clinical decision rule has yet become available that would allow clinicians to exclude a hip fracture without imaging. To avoid misdiagnosis with hip pain being attributed erroneously to soft tissue injury and the patient being discharged, a high index of clinical suspicion of hip fracture is required. This applies in all patients presenting with a typical history - usually hip pain following trauma, e.g. a fall – as certain typical features, such as the inability to bear weight or a shortened, abducted and externally rotated leg, may be absent. ... Optimal strategy for patient selection and timing of secondary imaging strategies to ensure early diagnosis of occult hip fractures, while avoiding over investigation of patients with soft tissue injury only, is yet to be determined. However, the inability to weight bear on the day following the injury, in spite of adequate analgesia, should prompt clinicians to re- evaluate the patient and have a high index of suspicion of hip fracture.",
+   "location": "NICE CG124 full guideline 2011, Chapter 5 Imaging options in occult hip fracture, 5.1 Introduction (pages 45 to 46)",
+   "pico_timeframe": "Older people with hip pain after trauma such as a fall and negative initial X-rays / inability to bear weight the day after injury despite adequate analgesia / not applicable / clinical suspicion of hip fracture / day after injury",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Not being able to take weight on the leg is a typical sign of a broken hip. The NICE guideline says that if someone still can't take weight on the leg the day after the injury, despite good pain relief, doctors should look again and strongly suspect a hip fracture. Being able to stand does not rule one out.",
+   "qualifications": "This is the guideline group's narrative text in the chapter introduction, not a numbered recommendation: say 'the NICE guideline says' rather than 'NICE recommends'. It is framed as the day after the injury and despite adequate pain relief. Inability to bear weight can have other causes (for example bruising or other fractures), so it raises suspicion; it does not diagnose a hip fracture.",
+   "conflicting_or_uncertain": "The same passage says the best way to choose who needs further imaging is not settled, and warns against over-investigating soft tissue injury.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-02-c",
+   "cand_id": "C03-02",
+   "claim": "Among older people whose doctors still suspected a hip fracture after X-rays showed no definite fracture, MRI found a hip fracture needing surgery in about 4 in 10.",
+   "source_keys": [
+    "PMID:32633673"
+   ],
+   "supporting_passage": "Background The overall rate of hip fractures not identified on radiographs but that require surgery (ie, surgical hip fractures) remains unclear in elderly patients who are suspected to have such fractures based on clinical findings. ... Studies were included if patients were clinically suspected to have hip fracture but there was no radiographic evidence of surgical hip fracture (including absence of any definite fracture or only presence of isolated greater trochanter [GT] fracture). The rate of surgical hip fracture was reported in each study in which MRI was used as the reference standard. ... Results Thirty-five studies were identified (2992 patients; mean age, 76.8 years ± 6.0 [standard deviation]; 66% female). The frequency of radiographically occult surgical hip fracture was 39% (1110 of 2835 patients; 95% confidence interval [CI]: 35%, 43%) in studies of patients with no definite radiographic fracture and 92% (134 of 157 patients; 95% CI: 83%, 98%) in studies of patients with radiographic evidence of isolated GT fracture (moderate SOE). The frequency of occult fracture was higher in patients aged at least 80 years (44%, 529 of 1184), those with an equivocal radiographic report (58%, 71 of 126), and those with a history of trauma (41%, 977 of 2370) (moderate SOE).",
+   "location": "Abstract (Background, Materials and Methods, Results)",
+   "pico_timeframe": "Older patients (mean age 76.8) clinically suspected of hip fracture with no definite fracture on radiographs, in studies using MRI as reference / advanced imaging (MRI) / none / frequency of radiographically occult hip fracture of a type requiring surgery / at presentation; studies to September 2018",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a review of 35 studies of older people (average age 77) whose X-rays showed no clear fracture but whose doctors still suspected one, MRI found a hip fracture needing surgery in about 4 in 10 (39%).",
+   "qualifications": "The figure applies only to people who were still suspected of a fracture and were selected for MRI, not to every older person with hip pain after a fall. 'Needing surgery' is the review's definition of the fracture type ('require surgery'), not a count of operations performed. The 44% figure for people aged 80 and over is described in the abstract as the frequency of 'occult fracture'; if used, say 'a hidden fracture', or give only the 39% (one figure is clearer). Pooled from observational studies with moderate strength of evidence.",
+   "conflicting_or_uncertain": "The NICE guideline estimates that X-rays detect most hip fractures (claim C03-02-d), so hidden fractures are a small share of all broken hips even though they are common in the selected group who still can't bear weight. Full text not read, so heterogeneity between studies is not known.",
+   "numbers": [
+    {
+     "value": "39%",
+     "meaning": "1110 of 2835 patients in studies of people with no definite fracture on X-ray had a hip fracture needing surgery on MRI; pooled; 95% CI 35% to 43%; selected patients with continuing clinical suspicion"
+    },
+    {
+     "value": "35 studies, 2992 patients",
+     "meaning": "Size of the review"
+    },
+    {
+     "value": "76.8 years",
+     "meaning": "Mean age of included patients"
+    },
+    {
+     "value": "44%",
+     "meaning": "529 of 1184 patients aged 80 and over had an occult fracture (subgroup)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-02-d",
+   "cand_id": "C03-02",
+   "claim": "X-rays detect most hip fractures; the NICE guideline estimates their sensitivity at 90% to 98%.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb"
+   ],
+   "supporting_passage": "Hip radiographs have an estimated sensitivity of between 90% and 98%, and the initial films will therefore miss only a small proportion of hip fractures. It is, however, essential to ensure that the radiographs are of satisfactory quality.",
+   "location": "NICE CG124 full guideline 2011, Chapter 5, 5.1 Introduction (page 45)",
+   "pico_timeframe": "People with hip fracture / initial hip radiographs / MRI or later diagnosis / sensitivity / at presentation",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "X-rays find most broken hips: the NICE guideline estimates they pick up 90 to 98 in every 100. A normal X-ray is usually right, which is why a person who still can't take weight on the leg needs a second look.",
+   "qualifications": "An estimate stated in the guideline's narrative introduction, without a cited pooled analysis in the passage. The same section gives a 3% to 4% (up to 9%) 'prevalence of occult hip fractures' with an unclear denominator; do not use that figure.",
+   "conflicting_or_uncertain": "Sensitivity depends on X-ray quality and the views taken, as the guideline notes.",
+   "numbers": [
+    {
+     "value": "90% to 98%",
+     "meaning": "Estimated sensitivity of hip X-rays: 90 to 98 in 100 hip fractures are visible on the first X-rays"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-14-a",
+   "cand_id": "C03-14",
+   "claim": "Across 19 countries and regions, the age- and sex-standardised rate of hip fracture in people aged 50 and over decreased between 2005 and 2018 in most countries.",
+   "source_keys": [
+    "PMID:37118993"
+   ],
+   "supporting_passage": "We used patient-level healthcare data from 19 countries and regions to identify patients aged 50 years and older hospitalized with a hip fracture from 2005 to 2018. The age- and sex-standardized incidence rates of hip fractures ... were estimated using a standardized protocol and common data model. ... In total, 4,115,046 hip fractures were identified from 20 databases. The reported age- and sex-standardized incidence rates of hip fractures ranged from 95.1 (95% confidence interval [CI] 94.8-95.4) in Brazil to 315.9 (95% CI 314.0-317.7) in Denmark per 100,000 population. Incidence rates decreased over the study period in most countries; however, the estimated total annual number of hip fractures nearly doubled from 2018 to 2050.",
+   "location": "Abstract",
+   "pico_timeframe": "People aged 50 and over hospitalised with hip fracture in 19 countries and regions / calendar time / not applicable / age- and sex-standardised incidence rate / 2005 to 2018",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In hospital data from 19 countries and regions, the rate of hip fracture in people aged 50 and over, adjusted for age and sex, fell between 2005 and 2018 in most of them.",
+   "qualifications": "'Most countries' is the authors' wording; which countries did not fall, and the UK series, were not verified because only the abstract could be opened. Hospitalised hip fractures only. Rates are adjusted for age and sex, so they describe the risk at a given age, not the number of cases.",
+   "conflicting_or_uncertain": "The Orthogeriatrics chapter (DOI:10.1007/978-3-030-48126-1_2) notes that 'in the developing world, age- and sex-specific rates are still rising in many areas'. In England, rates rose above the expected level after the COVID-19 pandemic (claim C03-14-d).",
+   "numbers": [
+    {
+     "value": "19 countries and regions",
+     "meaning": "Number of countries and regions studied (20 databases)"
+    },
+    {
+     "value": "2005 to 2018",
+     "meaning": "Study period"
+    },
+    {
+     "value": "4,115,046",
+     "meaning": "Hip fractures identified in people aged 50 and over"
+    },
+    {
+     "value": "95.1 to 315.9 per 100,000",
+     "meaning": "Range of age- and sex-standardised incidence rates, Brazil (lowest) to Denmark (highest); per 100,000 population; time unit not stated in abstract, do not add 'per year'"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-14-b",
+   "cand_id": "C03-14",
+   "claim": "Despite falling rates, the estimated total annual number of hip fractures across these countries is projected to nearly double from 2018 to 2050.",
+   "source_keys": [
+    "PMID:37118993"
+   ],
+   "supporting_passage": "The number of hip fractures in 2050 was projected based on trends in the incidence and estimated future population demographics. ... Incidence rates decreased over the study period in most countries; however, the estimated total annual number of hip fractures nearly doubled from 2018 to 2050. ... Males had lower use of anti-osteoporosis medication than females, higher rates of all-cause mortality, and a larger increase in the projected number of hip fractures by 2050.",
+   "location": "Abstract",
+   "pico_timeframe": "Populations of the 19 countries and regions studied / projection from incidence trends and population forecasts / 2018 baseline / annual number of hip fractures / 2018 to 2050",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The same study projected that the number of hip fractures each year across those countries would nearly double between 2018 and 2050. This is a forecast built from recent rate trends and population forecasts, not a count.",
+   "qualifications": "A projection, not an observation; it covers the countries and regions studied, not the whole world. It is built from trends in incidence plus population forecasts (the abstract's wording), not from 'current rates held constant'. No projected numbers are available (full text not opened), so a chart must not show values; say 'nearly double'. The projected increase was larger in men.",
+   "conflicting_or_uncertain": "Projections depend on population forecasts and on rate trends continuing; the England data show rates can move above trend (claim C03-14-d).",
+   "numbers": [
+    {
+     "value": "nearly doubled",
+     "meaning": "Projected change in the estimated total annual number of hip fractures across the 19 countries and regions, 2018 to 2050"
+    },
+    {
+     "value": "2018 to 2050",
+     "meaning": "Projection period"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-14-c",
+   "cand_id": "C03-14",
+   "claim": "In England, the age-standardised hip fracture rate in adults aged 50 and over fell slightly from 2014 to 2019 while the number of hip fractures rose, because the older population grew.",
+   "source_keys": [
+    "PMID:40837274"
+   ],
+   "supporting_passage": "There was a slightly downward trend in incidence rates during the pre-pandemic period (IRR 0.999, 95% CI 0.999–0.999), with mean monthly rates declining from 28.0 to 26.4 cases per 100,000 population from 2014 to 2019. ... Data from the NHFD indicate that monthly hip fracture counts in adults aged 60+ years (including multiple admissions per person) have increased over the past decade in England. A similar trend in monthly counts was observed in this study. However, age-standardised rates decreased over the pre-pandemic period due to an increase in the ‘at-risk’ population size (i.e., the number of older adults residing in England). These data suggest that while the overall burden of hip fracture is increasing, hip fracture prevention might have been effective in reducing risk.",
+   "location": "Results, Incidence; Discussion, Interpretation (full text, PMC12362259)",
+   "pico_timeframe": "Adults aged 50 and over in England presenting to NHS hospitals with fragility hip fracture / calendar time / not applicable / monthly age-standardised rate (2013 European Standard Population) and monthly counts / 2014 to 2019 (pre-pandemic period January 2014 to February 2020)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In England, the age-adjusted rate of hip fracture in people aged 50 and over fell slightly between 2014 and 2019, from 28.0 to 26.4 per 100,000 people each month. Over the same decade the number of hip fractures went up, because there were more older people.",
+   "qualifications": "The fall in the rate is small. Rates are monthly, per 100,000 people aged 50 and over, age-standardised to the 2013 European Standard Population; do not convert to yearly rates. The rising counts are described in words only (counts by year are in a supplementary figure not read), so no count numbers may be given. 'Prevention might have been effective' is the authors' tentative interpretation, not a finding. England only, not the whole UK.",
+   "conflicting_or_uncertain": "After the pandemic, rates were above the level expected from the pre-pandemic trend (claim C03-14-d). Webster et al report that the UK series in Sing 2023 (CPRD, about a quarter of the UK population) gave rates less than half as high as theirs, which they attribute to different case-finding and age-standardisation methods, so the two studies' UK and England numbers must not be combined.",
+   "numbers": [
+    {
+     "value": "28.0 per 100,000",
+     "meaning": "Mean monthly age-standardised hip fracture rate, adults 50 and over, England, 2014"
+    },
+    {
+     "value": "26.4 per 100,000",
+     "meaning": "Mean monthly age-standardised hip fracture rate, adults 50 and over, England, 2019"
+    },
+    {
+     "value": "704,762",
+     "meaning": "Hip fracture presentations in 669,101 patients, England, January 2014 to October 2024"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-14-d",
+   "cand_id": "C03-14",
+   "claim": "Since the COVID-19 pandemic, hip fracture rates in England have been above the level expected from the pre-pandemic trend.",
+   "source_keys": [
+    "PMID:40837274"
+   ],
+   "supporting_passage": "In the post-pandemic period, incidence rates were above expected levels (IRR for post vs. pre-pandemic 1.03, 95% CI 1.01–1.04), with a mean monthly rate of 25.8 per 100,000 population, resulting in an excess of 5595 (95% CI 1614–9503) hip fractures from August 2021 to October 2024.",
+   "location": "Results, Incidence (full text); same figures in Abstract",
+   "pico_timeframe": "Adults aged 50 and over in England / post-pandemic period (August 2021 to October 2024) / expected rate from the January 2014 to February 2020 trend / hip fracture presentations / 39 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Since the pandemic, the rate in England has been a little higher than the earlier trend predicted: about 5,600 more hip fractures than expected between August 2021 and October 2024.",
+   "qualifications": "'Expected' means the number if the 2014 to 2020 downward trend had continued. The post-pandemic mean monthly rate (25.8 per 100,000) was still lower than in 2014 (28.0). The Discussion gives a different figure (5955 from March 2021); use the abstract and Results figure (5595, August 2021 to October 2024).",
+   "conflicting_or_uncertain": "Reasons are uncertain; the authors suggest service disruption, deconditioning and other factors without testing them.",
+   "numbers": [
+    {
+     "value": "5595",
+     "meaning": "Excess hip fractures above the expected number, England, August 2021 to October 2024; 95% CI 1614 to 9503"
+    },
+    {
+     "value": "25.8 per 100,000",
+     "meaning": "Mean monthly age-standardised rate in the post-pandemic period, adults 50 and over"
+    },
+    {
+     "value": "IRR 1.03",
+     "meaning": "Post-pandemic rate relative to the pre-pandemic trend (3% above expected); relative"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-14-e",
+   "cand_id": "C03-14",
+   "claim": "The number of hip fractures rises mainly because of population ageing, even where the rate at a given age is static or falling.",
+   "source_keys": [
+    "DOI:10.1007/978-3-030-48126-1_2",
+    "PMID:40837274"
+   ],
+   "supporting_passage": "Veronese et al 2021: 'The total number of persons affected by hip fractures may be increasing over time in the following years, mainly due to the progressive ageing of the population. ... Hip fracture rates appeared to have plateaued or decreased during the last one to two decades in many developed countries, following a rise in preceding years; however, in the developing world, age- and sex-specific rates are still rising in many areas.' and '2.12 Conclusions Hip fracture is a common and debilitating condition, particularly in older persons. Although the age- and gender-specific incidence is decreasing in some countries, the global incidence of hip fracture is rising worldwide, due to population ageing.' Webster 2025: 'However, age-standardised rates decreased over the pre-pandemic period due to an increase in the ‘at-risk’ population size (i.e., the number of older adults residing in England).'",
+   "location": "Orthogeriatrics (2nd ed) chapter 2, page 26 and section 2.12 Conclusions; Webster 2025 Discussion, Interpretation",
+   "pico_timeframe": "General populations, worldwide and England / population ageing / not applicable / number of hip fractures / recent decades and projections",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The number of hip fractures goes up mainly because more people are living to the ages when hip fracture is most common, even where each person's risk at a given age is falling.",
+   "qualifications": "The textbook statement is expert narrative, not new data. In the textbook, 'global incidence' means the number of cases in the population; in a post say 'number', not 'incidence'. Do not use the chapter's 1.66 million (1990) to 6.26 million (2050) figures, which come from an older cited estimate.",
+   "conflicting_or_uncertain": "Rates at a given age are still rising in parts of the developing world (same chapter), so the pattern of falling rates with rising numbers is not universal.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-14-f",
+   "cand_id": "C03-14",
+   "claim": "The UK series in Sing 2023 shows the standardised hip fracture rate falling.",
+   "source_keys": [
+    "PMID:40837274",
+    "PMID:37118993"
+   ],
+   "supporting_passage": "Webster 2025 (citing Sing et al): 'In the UK, using the Clinical Practice Research Datalink (CPRD) resource which covers 24% of the UK population, the annual hip fracture incidence rate reportedly decreased from 130.5 to 123.5 per 100,000 adults aged 50+ years from 2014 to 2018. In the current study, with close to complete coverage of the English population using national HES data, incidence rates in adults aged 50+ years also decreased, but were more than double that reported from the analysis of CPRD data.'",
+   "location": "Webster 2025, Discussion, Interpretation (secondary report of Sing 2023; Sing full text not opened)",
+   "pico_timeframe": "UK adults aged 50 and over in CPRD / calendar time / not applicable / annual standardised hip fracture rate / 2014 to 2018",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not use the Sing 2023 UK line. Use the England figures from Webster 2025 (claim C03-14-c), which come from an opened full text with near-complete national coverage.",
+   "qualifications": "Available only as a secondary report ('reportedly') in another paper; the Sing 2023 full text, and so its UK series, could not be opened. The CPRD rates differ from the England national rates by more than twofold because of method, which would confuse readers.",
+   "conflicting_or_uncertain": "Different data sources and standard populations give very different absolute rates for the same country.",
+   "numbers": [
+    {
+     "value": "130.5 to 123.5 per 100,000",
+     "meaning": "Annual rate, UK CPRD, adults 50 and over, 2014 to 2018, as reported secondhand by Webster 2025; not for use"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C03-02",
+   "status": "ready",
+   "reason": "All essential claims are supported from an opened official guideline and a PubMed abstract. Wording constraints: name the NICE trigger as 'a fracture is still suspected after normal X-rays'; present inability to take weight on the leg (the day after the injury, despite pain relief) as the reason for strong suspicion, citing the guideline's narrative text, not as a NICE recommendation in itself; 'offer' MRI, 'consider' CT if MRI is not available within 24 hours or can't be done. The 39% is the frequency of hidden fractures needing surgery among people still suspected and sent for MRI, not among all older people with hip pain; give that figure alone, not with the 44%. Add the balancing fact that X-rays find most broken hips (90 to 98 in 100). Words a relative or care worker could use: 'She still can't take weight on that leg. Could there be a hip fracture the X-ray didn't show? Does she need an MRI?' Visual flow should read: 'Still can't take weight on the leg, despite pain relief?' then 'A hip fracture can still be present: ask about an MRI scan (or CT if MRI isn't available within 24 hours)'. Source line: NICE CG124; Haj-Mirzaian et al, Radiology 2020.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C03-02-a",
+    "C03-02-b",
+    "C03-02-c"
+   ]
+  },
+  {
+   "cand_id": "C03-14",
+   "status": "revise",
+   "reason": "The rate-versus-count argument is supported: Sing 2023 (abstract) says standardised rates decreased in most of 19 countries and regions (2005 to 2018) while the annual number is projected to nearly double from 2018 to 2050, and Webster 2025 (full text) shows the same pattern in England with the authors' explanation (more older people). The candidate's UK line from Sing 2023 could not be verified (full text inaccessible) and its visual needs projected numbers that are not available, so the visual and the UK example must change. The judge's concern about 'assumes current rates' is resolved: the projection used incidence trends plus population forecasts.",
+   "revised_angle": "Same argument (a falling rate at a given age and a rising number of hip fractures are both true; ask whether a figure is a rate or a count), with England as the worked example from Webster 2025: age-adjusted rate in people aged 50 and over fell slightly from 28.0 to 26.4 per 100,000 people each month (2014 to 2019) while the number of hip fractures rose, because there were more older people. Add the multinational picture from Sing 2023 in words: rates fell in most of 19 countries and regions, and the yearly number across them is projected to nearly double by 2050 (a forecast). State the result that went the other way: since the pandemic England's rate has been above the earlier trend (about 5,600 more hip fractures than expected, August 2021 to October 2024). Visual: a two-column labelled comparison, not a chart with invented values. Left 'Rate, adjusted for age (England, 50 and over): 28.0 to 26.4 per 100,000 a month, 2014 to 2019'. Right 'Number of hip fractures: rising (England); projected to nearly double by 2050 (19 countries and regions)'. No count values, no UK time series, no global totals. Keep the position ('a falling rate is no reason to plan for fewer hip fractures') marked as judgement.",
+   "essential_claim_ids": [
+    "C03-14-a",
+    "C03-14-b",
+    "C03-14-c",
+    "C03-14-d",
+    "C03-14-e"
+   ]
+  }
+ ]
+}

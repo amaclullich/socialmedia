@@ -1,0 +1,1075 @@
+{
+ "batch": "C03-B1",
+ "category": "C03",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:32050090",
+   "citation": "HIP ATTACK Investigators (Borges FK, Bhandari M, Guerra-Farfan E, et al.). Accelerated surgery versus standard care in hip fracture (HIP ATTACK): an international, randomised, controlled trial. Lancet. 2020;395(10225):698-708.",
+   "pmid": "32050090",
+   "pmcid": null,
+   "doi": "10.1016/S0140-6736(20)30058-1",
+   "public_url": "https://doi.org/10.1016/S0140-6736(20)30058-1",
+   "design": "International multicentre randomised controlled trial (open label, masked outcome adjudication), intention to treat",
+   "population_setting": "2970 patients aged 45 or older with hip fracture needing surgery, 69 hospitals in 17 countries, enrolled March 2014 to May 2019; accelerated surgery (goal within 6 h of diagnosis) vs standard care",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite search_literature (editorial notices); Scite read_fulltext (erratum notice)",
+   "correction_check": "Scite lists two Lancet 'Department of Error' notices. The 2021 notice (doi 10.1016/S0140-6736(21)02430-2, opened) states that 'numbers of patients in the subgroup analysis have been corrected, including in the Results and Discussion text and in the appendix'; primary results in the abstract are unaffected. The 2023 notice (doi 10.1016/S0140-6736(23)00629-3) could not be opened (no readable text). No retraction. PubMed: PMID search with retracted publication[pt], retraction of publication[pt] or expression of concern[pt] returned no record (26 Sep 2026); published-erratum title search found no notice for this article.",
+   "quality_note": "Large, well-conducted trial; the abstract (read) gives the co-primary results. Full text was not accessible (not in PMC, publisher paywall); secondary outcomes (delirium, length of stay, mobilisation) were verified only through the Association of Anaesthetists 2020 guideline's summary (PMID:33289066). Median time to surgery in the standard-care group was already 24 h (IQR 10 to 42)."
+  },
+  {
+   "key": "PMID:29183076",
+   "citation": "Pincus D, Ravi B, Wasserstein D, Huang A, Paterson JM, Nathens AB, et al. Association between wait time and 30-day mortality in adults undergoing hip fracture surgery. JAMA. 2017;318(20):1994-2003.",
+   "pmid": "29183076",
+   "pmcid": "PMC5820694",
+   "doi": "10.1001/jama.2017.17606",
+   "public_url": "https://doi.org/10.1001/jama.2017.17606",
+   "design": "Population-based retrospective cohort with risk-adjusted restricted cubic splines and propensity-score matching",
+   "population_setting": "42,230 adults having hip fracture surgery at 72 hospitals in Ontario, Canada, April 2009 to March 2014; mean age 80",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: PMID search with retracted publication[pt], retraction of publication[pt] or expression of concern[pt] returned no record (26 Sep 2026); published-erratum title search found no notice for this article.",
+   "quality_note": "Large, well-adjusted observational study; shows association, not cause (residual confounding possible, e.g. sicker patients waiting longer). Absolute difference small (0.79 percentage points in 30-day mortality)."
+  },
+  {
+   "key": "PMID:33289066",
+   "citation": "Griffiths R, Babu S, Dixon P, Freeman N, Hurford D, Kelleher E, et al. Guideline for the management of hip fractures 2020: guideline by the Association of Anaesthetists. Anaesthesia. 2021;76(2):225-37.",
+   "pmid": "33289066",
+   "pmcid": null,
+   "doi": "10.1111/anae.15291",
+   "public_url": "https://doi.org/10.1111/anae.15291",
+   "design": "National professional guideline (multidisciplinary working party; consensus plus evidence review)",
+   "population_setting": "Peri-operative (anaesthetic) management of people with hip fracture in the UK",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature and read_fulltext (open-access full text, characters 8,000 to 40,000 of 43,092 read: analgesia, medicolegal, risk, controversies sections)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction or erratum found for PMID 33289066 (26 Sep 2026).",
+   "quality_note": "Current UK anaesthetic guideline (published online Dec 2020). Its detailed antiplatelet and anticoagulant recommendations are in online Supporting Information Appendix S1, which was NOT opened; the main text restates the 2011 guidance on aspirin and clopidogrel rather than issuing a new main-text recommendation. It summarises HIP ATTACK secondary outcomes (secondary source)."
+  },
+  {
+   "key": "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb",
+   "citation": "National Clinical Guideline Centre. The management of hip fracture in adults (NICE clinical guideline 124). Full guideline: methods, evidence and guidance. London: NCGC/Royal College of Physicians; 2011 (with May 2017 update note).",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/cg124",
+   "design": "National clinical guideline (NICE), full version with evidence reviews",
+   "population_setting": "Adults with hip fracture, England and Wales NHS",
+   "year": 2011,
+   "access": "official_document",
+   "tool_used": "Google Drive search_files; read_file_content (PDF 'NICE - management of hip fractures in adults 2011 updated 2017.pdf'; text searched for recommendations 4.2.2 to 4.2.4 and the timing-of-surgery evidence-to-recommendation tables)",
+   "correction_check": "Not applicable (guideline). The Drive copy is the 2011 full guideline with the 2017 update note. NICE updated CG124 again in January 2023; the Age and Ageing commentary (PMID:37389557, abstract read) says that update focused on surgical implants and that recommendations on early surgery remain. The live NICE web page could not be opened from this environment, so current online wording was not checked directly.",
+   "quality_note": "Timing, correctable-comorbidity, analgesia and anaesthesia recommendations quoted from the 2011 text; these sections were not among those replaced in 2017 (hip replacement and cement recommendations) or, per the 2023 commentary, in 2023."
+  },
+  {
+   "key": "PMID:37389557",
+   "citation": "Ong T, Vindlacheruvu M. A commentary update on NICE CG124. Hip fracture: management (2023). Age Ageing. 2023;52(6):afad110.",
+   "pmid": "37389557",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afad110",
+   "public_url": "https://doi.org/10.1093/ageing/afad110",
+   "design": "Commentary on a national guideline update",
+   "population_setting": "NICE CG124 hip fracture guideline, 2023 update",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "WebSearch (located); PubMed get_article_metadata",
+   "correction_check": "PubMed: PMID search with retracted publication[pt], retraction of publication[pt] or expression of concern[pt] returned no record (26 Sep 2026); published-erratum title search found no notice for this article.",
+   "quality_note": "Used only to confirm the scope of the 2023 NICE update (implants) and that early-surgery recommendations remain."
+  },
+  {
+   "key": "DRIVE:1ksnCY1mkzqvVIcfSEW9PB5y-XIPe7WDu",
+   "citation": "Public Health Scotland. Scottish standards of care for hip fracture patients. Version 1.2. Edinburgh: Public Health Scotland; May 2024, updated 15 September 2025.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://publichealthscotland.scot/resources-and-tools/health-strategy-and-outcomes/scottish-national-audit-programme-snap/scottish-hip-fracture-audit-shfa/overview-of-shfa/",
+   "design": "National clinical standards (official publication, Open Government Licence)",
+   "population_setting": "Hip fracture care in NHS Scotland",
+   "year": 2025,
+   "access": "official_document",
+   "tool_used": "Google Drive search_files; read_file_content (published accessible PDF, full text searched and relevant standards read)",
+   "correction_check": "Not applicable (official standards document); version history in the document read (v1.2, 15 Sep 2025).",
+   "quality_note": "Published standards only; no audit results are used. Alasdair chairs the Scottish Hip Fracture Audit, so posts must cite the standard as a published document and must not state or imply audit findings or his views. The public_url is the SHFA overview page named in the document; the PDF's own URL was not in tool output."
+  },
+  {
+   "key": "PMID:33238043",
+   "citation": "Guay J, Kopp S. Peripheral nerve blocks for hip fractures in adults. Cochrane Database Syst Rev. 2020;11(11):CD001159.",
+   "pmid": "33238043",
+   "pmcid": "PMC8130997",
+   "doi": "10.1002/14651858.CD001159.pub3",
+   "public_url": "https://doi.org/10.1002/14651858.CD001159.pub3",
+   "design": "Cochrane systematic review and meta-analysis of RCTs, GRADE",
+   "population_setting": "49 RCTs, 3061 adults with hip fracture; PNB vs no block or sham; average age 59 to 89; people with dementia often excluded",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite search_literature",
+   "correction_check": "Scite: no editorial notices listed. PubMed: PMID search with retracted publication[pt], retraction of publication[pt] or expression of concern[pt] returned no record (26 Sep 2026); published-erratum title search found no notice for this article.",
+   "quality_note": "Highest-level evidence for this question. Pain-on-movement result is high certainty but covers only 30 minutes after placement (11 trials, 503 people). Chest infection (3 trials, 131 people) and mobilisation (3 trials, 208 people) results rest on small numbers. Mortality effect uncertain."
+  },
+  {
+   "key": "PMID:34879482",
+   "citation": "Makkar JK, Singh NP, Bhatia N, Samra T, Singh PM. Fascia iliaca block for hip fractures in the emergency department: meta-analysis with trial sequential analysis. Am J Emerg Med. 2021;50:654-60.",
+   "pmid": "34879482",
+   "pmcid": null,
+   "doi": "10.1016/j.ajem.2021.09.038",
+   "public_url": "https://doi.org/10.1016/j.ajem.2021.09.038",
+   "design": "Systematic review and meta-analysis of randomised and quasi-randomised trials with trial sequential analysis",
+   "population_setting": "11 trials, 895 patients with hip fracture; fascia iliaca block by non-anaesthetists in the emergency department vs standard care",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "Consensus search (discovery); PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction or erratum found (26 Sep 2026).",
+   "quality_note": "Low-certainty evidence, very high heterogeneity (I2 = 96%); outcomes measured to 4 h only."
+  },
+  {
+   "key": "PMID:33694008",
+   "citation": "Verbeek T, Adhikary S, Urman R, Liu H. The application of fascia iliaca compartment block for acute pain control of hip fracture and surgery. Curr Pain Headache Rep. 2021;25(4):22.",
+   "pmid": "33694008",
+   "pmcid": null,
+   "doi": "10.1007/s11916-021-00940-9",
+   "public_url": "https://doi.org/10.1007/s11916-021-00940-9",
+   "design": "Narrative review",
+   "population_setting": "Fascia iliaca compartment block for hip fracture and hip surgery",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "Consensus search (discovery); PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction or erratum found (26 Sep 2026).",
+   "quality_note": "Narrative review, not systematic; used only for the approximate duration of a single-shot block (about 8 h with bupivacaine). Duration varies with drug, dose and technique."
+  },
+  {
+   "key": "PMID:25818054",
+   "citation": "Doleman B, Moppett IK. Is early hip fracture surgery safe for patients on clopidogrel? Systematic review, meta-analysis and meta-regression. Injury. 2015;46(6):954-62.",
+   "pmid": "25818054",
+   "pmcid": null,
+   "doi": "10.1016/j.injury.2015.03.024",
+   "public_url": "https://doi.org/10.1016/j.injury.2015.03.024",
+   "design": "Systematic review and meta-analysis of observational studies with meta-regression",
+   "population_setting": "Hip fracture patients taking clopidogrel having early surgery vs patients not on clopidogrel, and early vs delayed surgery in clopidogrel users",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction or erratum found (26 Sep 2026).",
+   "quality_note": "Observational data only; authors call for larger prospective trials. Consistent with Yang 2020 (PMID 32164755) and Soo 2016 (PMID 27005816) meta-analyses (abstracts seen, not used)."
+  },
+  {
+   "key": "PMID:35028219",
+   "citation": "Zalmay P, Collis J, Wilson H. Patients lacking the capacity to consent to hip fracture surgery may be undergoing major operations without their next of kin being involved in best-interests decisions: a quality improvement report. Cureus. 2021;13(12):e20322.",
+   "pmid": "35028219",
+   "pmcid": "PMC8742997",
+   "doi": "10.7759/cureus.20322",
+   "public_url": "https://doi.org/10.7759/cureus.20322",
+   "design": "Single-centre quality improvement project (two PDSA cycles, retrospective notes review) with registrar survey",
+   "population_setting": "Patients with hip fracture and AMTS below 8 judged to lack capacity to consent, 520-bed district general hospital, England; June to October 2019 (n=30) and May to September 2020 (n=28)",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles; get_article_metadata; get_full_text_article (PMC8742997)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction, erratum or expression of concern found (26 Sep 2026).",
+   "quality_note": "Small single-hospital QI report; measures documentation, not actual conversations (authors' stated limitation). Useful as the PubMed-indexed hip-fracture source that Consent Form Four is used when a patient lacks capacity and that clinicians must seek the views of those close to the patient as part of a best-interests decision under the MCA 2005."
+  },
+  {
+   "key": "PMID:31169031",
+   "citation": "Wade DT, Kitzinger C. Making healthcare decisions in a person's best interests when they lack capacity: clinical guidance based on a review of evidence. Clin Rehabil. 2019;33(10):1571-85.",
+   "pmid": "31169031",
+   "pmcid": "PMC6745603",
+   "doi": "10.1177/0269215519852987",
+   "public_url": "https://doi.org/10.1177/0269215519852987",
+   "design": "Evidence-based clinical guidance / review",
+   "population_setting": "Healthcare decisions for adults who lack capacity, England and Wales (Mental Capacity Act 2005)",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "Consensus search (discovery); PubMed search_articles and get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction, erratum or expression of concern found (26 Sep 2026).",
+   "quality_note": "Authoritative review by a rehabilitation physician and a medical law scholar; states who the legal decision-maker is under the MCA 2005."
+  },
+  {
+   "key": "PMID:33456823",
+   "citation": "Orr T, Baruah R. Consent in anaesthesia, critical care and pain medicine. BJA Educ. 2018;18(5):135-9.",
+   "pmid": "33456823",
+   "pmcid": "PMC7807919",
+   "doi": "10.1016/j.bjae.2018.01.006",
+   "public_url": "https://doi.org/10.1016/j.bjae.2018.01.006",
+   "design": "Educational review (UK law and professional guidance)",
+   "population_setting": "Consent and capacity for adults in UK anaesthesia and critical care",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "Scite search_literature and read_fulltext (characters 5,000 to 13,000 of 20,669); PubMed convert_article_ids",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction, erratum or expression of concern found (26 Sep 2026).",
+   "quality_note": "Peer-reviewed educational article; describes the MCA 2005 best-interests process and consultation with family."
+  },
+  {
+   "key": "PMID:33456830",
+   "citation": "Edwardson S, Baruah R. Scots law and its relevance to anaesthesia, critical care, and pain medicine. BJA Educ. 2018;18(6):178-84.",
+   "pmid": "33456830",
+   "pmcid": "PMC7808099",
+   "doi": "10.1016/j.bjae.2018.04.001",
+   "public_url": "https://doi.org/10.1016/j.bjae.2018.04.001",
+   "design": "Educational review (Scots law)",
+   "population_setting": "Adults with Incapacity (Scotland) Act 2000 as applied to anaesthesia and critical care",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "Scite search_literature and read_fulltext (characters 3,000 to 11,000 of 18,465); PubMed search_articles and convert_article_ids (PMC copy returned no text)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction, erratum or expression of concern found (26 Sep 2026).",
+   "quality_note": "Peer-reviewed educational article by a critical care consultant with a master's in medical law. States the welfare-attorney consent requirement explicitly; it does NOT state in the opened text that a guardian with medical treatment powers must consent (it lists guardians among the persons to be consulted). The Act and its Part 5 code of practice were not opened."
+  },
+  {
+   "key": "PMID:34623788",
+   "citation": "Neuman MD, Feng R, Carson JL, Gaskins LJ, Dillane D, Sessler DI, et al. Spinal anesthesia or general anesthesia for hip surgery in older adults. N Engl J Med. 2021;385(22):2025-35.",
+   "pmid": "34623788",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa2113514",
+   "public_url": "https://doi.org/10.1056/NEJMoa2113514",
+   "design": "Pragmatic randomised superiority trial (REGAIN)",
+   "population_setting": "1600 previously ambulatory patients aged 50 or older having hip fracture surgery, 46 US and Canadian hospitals; mean age 78, 67% women",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite (editorial notices; full-text excerpts not returned)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: PMID search with retracted publication[pt], retraction of publication[pt] or expression of concern[pt] returned no record (26 Sep 2026); published-erratum title search found no notice for this article.",
+   "quality_note": "Large pragmatic RCT. Primary outcome is a composite (death or inability to walk about 3 m at 60 days); 16% of the spinal group did not receive spinal as assigned. Full-text exclusion criteria were not accessible."
+  },
+  {
+   "key": "PMID:37831596",
+   "citation": "Vail EA, Feng R, Sieber F, Carson JL, Ellenberg SS, Magaziner J, et al. Long-term outcomes with spinal versus general anesthesia for hip fracture surgery: a randomized trial. Anesthesiology. 2024;140(3):375-86.",
+   "pmid": "37831596",
+   "pmcid": "PMC11186520",
+   "doi": "10.1097/ALN.0000000000004807",
+   "public_url": "https://doi.org/10.1097/ALN.0000000000004807",
+   "design": "Prespecified long-term analysis of the REGAIN randomised trial",
+   "population_setting": "Same 1600 REGAIN participants; outcomes to 365 days",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata; Scite search_literature (citation snippets quoting its full text)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction or erratum found (26 Sep 2026).",
+   "quality_note": "Vital status available for 89.2%; authors note one-year mortality lower than in unselected hip fracture populations and that subtle effects cannot be excluded."
+  },
+  {
+   "key": "PMID:35696684",
+   "citation": "Neuman MD, Feng R, Ellenberg SS, Sieber F, Sessler DI, Magaziner J, et al. Pain, analgesic use, and patient satisfaction with spinal versus general anesthesia for hip fracture surgery: a randomized clinical trial. Ann Intern Med. 2022;175(7):952-60.",
+   "pmid": "35696684",
+   "pmcid": null,
+   "doi": "10.7326/M22-0320",
+   "public_url": "https://doi.org/10.7326/M22-0320",
+   "design": "Preplanned secondary analysis of the REGAIN randomised trial",
+   "population_setting": "REGAIN participants (1600), 46 US and Canadian hospitals",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata; Scite (editorial notices)",
+   "correction_check": "Scite: no editorial notices listed. PubMed: no retraction or erratum found (26 Sep 2026).",
+   "quality_note": "Secondary outcomes with missing data and multiple comparisons (authors' limitation); gives the result that went the other way for spinal anaesthesia."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C03-17-a",
+   "cand_id": "C03-17",
+   "claim": "In the HIP ATTACK trial (2970 people with hip fracture, 69 hospitals, 17 countries), surgery at a median of 6 hours after diagnosis did not reduce deaths or major complications at 90 days compared with standard care at a median of 24 hours.",
+   "source_keys": [
+    "PMID:32050090"
+   ],
+   "supporting_passage": "\"HIP ATTACK was an international, randomised, controlled trial done at 69 hospitals in 17 countries. Patients with a hip fracture that required surgery and were aged 45 years or older were eligible.\" ... \"2970 of these were enrolled and randomly assigned to receive accelerated surgery (n=1487) or standard care (n=1483). The median time from hip fracture diagnosis to surgery was 6 h (IQR 4-9) in the accelerated-surgery group and 24 h (10-42) in the standard-care group (p<0·0001). 140 (9%) patients assigned to accelerated surgery and 154 (10%) assigned to standard care died, with a hazard ratio (HR) of 0·91 (95% CI 0·72 to 1·14) and absolute risk reduction (ARR) of 1% (-1 to 3; p=0·40). Major complications occurred in 321 (22%) patients assigned to accelerated surgery and 331 (22%) assigned to standard care, with an HR of 0·97 (0·83 to 1·13) and an ARR of 1% (-2 to 4; p=0·71).\" Interpretation: \"Among patients with a hip fracture, accelerated surgery did not significantly lower the risk of mortality or a composite of major complications compared with standard care.\"",
+   "location": "Abstract (Methods, Findings, Interpretation)",
+   "pico_timeframe": "Adults 45+ with hip fracture needing surgery (69 hospitals, 17 countries) / accelerated surgery, goal within 6 h of diagnosis / standard care / co-primary: death; composite of death, MI, stroke, VTE, sepsis, pneumonia, life-threatening or major bleeding / 90 days after randomisation",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a trial of about 3,000 people with a broken hip in 17 countries, operating within about 6 hours of diagnosis did not clearly reduce deaths or serious complications compared with usual care, where half had surgery within about 24 hours. At 90 days, about 9 in 100 had died in the fast group and 10 in 100 in the usual-care group; serious complications affected about 22 in 100 in both.",
+   "qualifications": "Did not show a clear difference; the uncertainty range runs from about 1 fewer to 3 more deaths per 100 prevented, so a small benefit or none is possible. Times are from diagnosis, not from admission. Say 'did not clearly reduce', not 'no benefit'.",
+   "conflicting_or_uncertain": "Secondary outcomes favoured accelerated surgery (see C03-17-b). Observational data link longer waits with more deaths (C03-17-c). Trial participants were those eligible and consenting (7780 eligible of 27,701 screened; 2970 enrolled).",
+   "numbers": [
+    {
+     "value": "2970",
+     "meaning": "people randomised (1487 accelerated, 1483 standard)"
+    },
+    {
+     "value": "69 hospitals, 17 countries",
+     "meaning": "trial setting"
+    },
+    {
+     "value": "6 h (IQR 4 to 9)",
+     "meaning": "median time from diagnosis to surgery, accelerated group"
+    },
+    {
+     "value": "24 h (IQR 10 to 42)",
+     "meaning": "median time from diagnosis to surgery, standard care"
+    },
+    {
+     "value": "9% vs 10% (140 vs 154)",
+     "meaning": "deaths at 90 days, accelerated vs standard; absolute difference 1 percentage point, 95% CI -1 to 3, not significant"
+    },
+    {
+     "value": "22% vs 22% (321 vs 331)",
+     "meaning": "major complications at 90 days"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-17-b",
+   "cand_id": "C03-17",
+   "claim": "In HIP ATTACK, accelerated surgery did not harm patients, and it was linked with faster mobilisation after surgery, a shorter hospital stay and less postoperative confusion (secondary outcomes).",
+   "source_keys": [
+    "PMID:33289066"
+   ],
+   "supporting_passage": "\"This study found that accelerated surgery (within a goal of 6 h after diagnosis) did not improve either mortality or non-fatal major complications (myocardial infarction, stroke, venous thromboembolism, sepsis, pneumonia, life-threatening bleeding and major bleeding) 90 days later among 1487 people with hip fracture, compared with a similar number (n = 1483) who received standard care (median time from diagnosis to surgery of 24 h (IQR 10–42). Accelerated surgery did not harm patients, even for those with acute medical conditions. Interestingly, accelerated surgery significantly reduced both the prevalence of postoperative delirium (9% vs. 12%, HR 0.72 (95%CI 0.58–0.92), p = 0.0089) and length of inpatient stay, and improved the speed of postoperative mobilisation. The Working Party considers these data re-assuring and clinically important for patients but acknowledge that the resource implications of accelerated surgery need to be calculated before recommending its adoption into current UK practice.\"",
+   "location": "Griffiths 2021 guideline, full text, Controversies section (surgical delay); passage spanned two retrieved text chunks at '0.58–0' / '.92'",
+   "pico_timeframe": "As HIP ATTACK; secondary outcomes as summarised by the Association of Anaesthetists working party",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The fast-surgery group did get up and about sooner after the operation and left hospital sooner, and the trial found no sign that operating that fast caused harm.",
+   "qualifications": "Verified through the Association of Anaesthetists guideline's summary, not the trial paper itself (Lancet full text not accessible). Secondary outcomes, so treat as supportive rather than definitive. Less pain was claimed by the judge but was NOT verified; do not state it. Delirium is excluded as a topic: the post can say 'less confusion after surgery' at most, and need not mention it.",
+   "conflicting_or_uncertain": "The guideline says the resource implications of accelerated surgery need to be calculated before recommending it for UK practice, and continues to recommend a 36-hour limit.",
+   "numbers": [
+    {
+     "value": "9% vs 12%",
+     "meaning": "postoperative delirium, accelerated vs standard (secondary outcome; HR 0.72); optional, topic excluded"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-17-c",
+   "cand_id": "C03-17",
+   "claim": "In a large Ontario cohort, waiting more than 24 hours for hip fracture surgery was linked with a small increase in 30-day deaths (association, not proof of cause).",
+   "source_keys": [
+    "PMID:29183076"
+   ],
+   "supporting_passage": "\"Among 42 230 patients with hip fracture (mean [SD] age, 80.1 years [10.7], 70.5% women) who met study entry criteria, overall mortality at 30 days was 7.0%. The risk of complications increased when wait times were greater than 24 hours, irrespective of the complication considered. Compared with 13 731 propensity-score matched patients who received surgery earlier, 13 731 patients who received surgery after 24 hours had a significantly higher risk of 30-day mortality (898 [6.5%] vs 790 [5.8%]; % absolute RD, 0.79; 95% CI, 0.23-1.35) and the composite outcome (1680 [12.2%]) vs 1383 [10.1%]; % absolute RD, 2.16; 95% CI, 1.43-2.89).\" Conclusion: \"Among adults undergoing hip fracture surgery, increased wait time was associated with a greater risk of 30-day mortality and other complications. A wait time of 24 hours may represent a threshold defining higher risk.\"",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "42,230 adults having hip fracture surgery, 72 Ontario hospitals, 2009 to 2014 / surgery more than 24 h after hospital arrival / surgery within 24 h (propensity matched) / 30-day mortality; composite of death, MI, DVT, PE, pneumonia / 30 days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a study of over 40,000 people in Ontario, those who waited more than 24 hours for surgery were slightly more likely to die within 30 days: about 6.5 in 100 compared with 5.8 in 100 among similar people operated on sooner. This is a link, and it does not prove that the wait caused the deaths.",
+   "qualifications": "Observational; adjusted and propensity matched but residual confounding possible (people who wait may be sicker). Absolute difference under 1 percentage point. Timing from hospital arrival (HIP ATTACK timed from diagnosis). Use 'linked with', not 'causes' or 'leads to'.",
+   "conflicting_or_uncertain": "HIP ATTACK found no clear mortality benefit from going much faster than about 24 h; the two findings answer different questions (avoidable delay beyond a day vs racing within hours).",
+   "numbers": [
+    {
+     "value": "42,230",
+     "meaning": "patients in the cohort, Ontario 2009 to 2014"
+    },
+    {
+     "value": "24 hours",
+     "meaning": "wait time above which complication risk rose (spline inflection point)"
+    },
+    {
+     "value": "6.5% vs 5.8% (898 vs 790 of 13,731 each)",
+     "meaning": "30-day mortality, surgery after vs within 24 h, matched groups; absolute difference 0.79 percentage points (95% CI 0.23 to 1.35)"
+    },
+    {
+     "value": "12.2% vs 10.1%",
+     "meaning": "30-day composite of death or complications; absolute difference 2.16 percentage points"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-17-d",
+   "cand_id": "C03-17",
+   "claim": "UK guidance sets the target: NICE recommends surgery on the day of, or the day after, admission; the Association of Anaesthetists recommends a 36-hour limit from fracture to surgery; the Scottish standard is surgery within 36 hours of admission.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb",
+    "PMID:37389557",
+    "PMID:33289066",
+    "DRIVE:1ksnCY1mkzqvVIcfSEW9PB5y-XIPe7WDu"
+   ],
+   "supporting_passage": "NICE full guideline 4.2.2 Timing of surgery: \"➢ Perform surgery on the day of, or the day after, admission.\" Ong 2023 abstract: \"The scope of this recent update focussed on surgical implants for hip fracture. ... Other recommendations such as the importance of multidisciplinary orthogeriatric care, early surgery and prompt mobilisation remain.\" Griffiths 2021: \"The Working Party continues to recommend a 36-h limit from fracture to surgery in the UK.\" Scottish standards: \"Standard 6: Surgical repair of the hip fracture is performed within 36 hours of admission\".",
+   "location": "NICE full guideline section 4.2.2; Ong 2023 abstract; Griffiths 2021 Controversies; Scottish standards, Standard 6",
+   "pico_timeframe": "Adults with hip fracture, UK guidance",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance asks for surgery on the day of admission or the day after (NICE), and within 36 hours (Association of Anaesthetists; Scottish standard).",
+   "qualifications": "NICE wording taken from the 2011 full guideline in Drive; the 2023 update kept early-surgery recommendations per the Age and Ageing commentary, but the live NICE page was not opened. Cite the Scottish standard as a published standard, never with audit results.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "day of, or day after, admission",
+     "meaning": "NICE timing target"
+    },
+    {
+     "value": "36 hours",
+     "meaning": "Association of Anaesthetists limit from fracture to surgery; Scottish standard from admission"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-17-e",
+   "cand_id": "C03-17",
+   "claim": "HIP ATTACK compared very fast surgery with surgery that was already fairly fast: half the standard-care group had surgery within 24 hours of diagnosis (the candidate's wording 'faster than many hospitals achieve' is not supported).",
+   "source_keys": [
+    "PMID:32050090",
+    "PMID:33289066"
+   ],
+   "supporting_passage": "HIP ATTACK abstract: \"The median time from hip fracture diagnosis to surgery was 6 h (IQR 4-9) in the accelerated-surgery group and 24 h (10-42) in the standard-care group (p<0·0001).\" Griffiths 2021: \"...compared with a similar number (n = 1483) who received standard care (median time from diagnosis to surgery of 24 h (IQR 10–42).\"",
+   "location": "HIP ATTACK abstract, Findings; Griffiths 2021 Controversies",
+   "pico_timeframe": "As HIP ATTACK",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "The comparison group was not left waiting days: half of them had their operation within about 24 hours of diagnosis, and three quarters within about 42 hours. So the trial tested very fast against fairly fast, not fast against slow.",
+   "qualifications": "No source opened compares the 24 h median with what hospitals typically achieve; do not say 'faster than many hospitals achieve'. The interquartile range (10 to 42 h) means a quarter of the standard group waited longer than 42 h.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "24 h median; IQR 10 to 42 h",
+     "meaning": "standard-care time from diagnosis to surgery"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-21-a",
+   "cand_id": "C03-21",
+   "claim": "NICE lists correctable problems to identify and treat immediately so that they do not delay surgery: anaemia, anticoagulation, volume depletion, electrolyte imbalance, uncontrolled diabetes, uncontrolled heart failure, correctable cardiac arrhythmia or ischaemia, acute chest infection, and exacerbation of chronic chest conditions.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb"
+   ],
+   "supporting_passage": "\"4.2.2 Timing of surgery ➢ Perform surgery on the day of, or the day after, admission. ➢ Identify and treat correctable comorbidities immediately so that surgery is not delayed by: • anaemia • anticoagulation • volume depletion • electrolyte imbalance • uncontrolled diabetes • uncontrolled heart failure • correctable cardiac arrhythmia or ischaemia • acute chest infection • exacerbation of chronic chest conditions.\"",
+   "location": "NICE full guideline (2011, 2017 update), section 4.2.2; repeated in the timing-of-surgery chapter recommendation table",
+   "pico_timeframe": "Adults with hip fracture awaiting surgery, NHS",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE lists nine problems to find and treat straight away so that they do not delay surgery: anaemia, blood thinners (anticoagulation), dehydration, salt and potassium problems, uncontrolled diabetes, uncontrolled heart failure, a correctable heart rhythm problem or ischaemia, a chest infection, and a flare of a long-term chest condition.",
+   "qualifications": "Keep NICE's framing: treat immediately so surgery is not delayed. Do NOT present the list as 'reasons that justify delay'. NICE wording from the Drive copy of the 2011 full guideline; the 2023 update did not cover this section per the Age and Ageing commentary, but the live page was not opened.",
+   "conflicting_or_uncertain": "The Association of Anaesthetists' 2011 guidance gave seven 'acceptable' reasons for delay with numeric thresholds (see C03-21-g); its 2020 update says 36 h or less is enough to correct these proactively rather than cancelling on the day.",
+   "numbers": [
+    {
+     "value": "9",
+     "meaning": "number of listed comorbidity groups in the NICE recommendation"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-21-b",
+   "cand_id": "C03-21",
+   "claim": "NICE's evidence review states that patients should not be delayed for routine tests that will not affect the surgical or anaesthetic procedure.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb"
+   ],
+   "supporting_passage": "\"Trade off between clinical benefits and harms: Patients should not be delayed for routine tests which will not affect the surgical or anaesthetic procedure. It has been shown in the majority of patients that longer delay leads to an increase in complications and length of stay in those medically fit.\"",
+   "location": "NICE full guideline, chapter on timing of surgery, evidence-to-recommendations table for the correctable comorbidities recommendation",
+   "pico_timeframe": "As above",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE's guideline developers wrote that people should not be kept waiting for routine tests that will not change the operation or the anaesthetic.",
+   "qualifications": "This sentence is in the guideline's evidence-to-recommendations text, not a numbered recommendation; attribute it as 'the NICE guideline says' or 'NICE's guideline developers', not as a formal recommendation.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-21-c",
+   "cand_id": "C03-21",
+   "claim": "The Association of Anaesthetists does not recommend delaying hip fracture surgery to wait for an echocardiogram.",
+   "source_keys": [
+    "PMID:33289066"
+   ],
+   "supporting_passage": "\"Valvular heart disease occurs in approximately 10% hip fracture patients in the UK [19]. However, delay to hip fracture surgery for diagnostic echocardiography also increases postoperative mortality.\" ... \"However, the treatment of any valvular disease is very unlikely to precede surgery in the surgical population with hip fracture, and it remains unlikely that the results of echocardiography will inform a change in the anaesthetic management of patients with suspected valvular heart disease. The Working Party does not recommend delaying surgery pending echocardiography. Instead, management should continue to involve carefully administered, (invasively) monitored general or spinal anaesthesia, which aims to maintain coronary and cerebral perfusion pressures, with possible short-term admission to a higher-level care unit postoperatively.\"",
+   "location": "Griffiths 2021, full text, Controversies (echocardiography)",
+   "pico_timeframe": "People with hip fracture and suspected valvular heart disease, UK",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK anaesthetic guidance says not to delay surgery while waiting for a heart scan (echocardiogram); the result rarely changes how the anaesthetic is given, and the heart valve problem is very unlikely to be treated before the hip.",
+   "qualifications": "The guideline acknowledges echocardiography can quantify disease, and notes conflicting studies and a possible future RCT. The guidance still expects careful, monitored anaesthesia and possible higher-level care after surgery.",
+   "conflicting_or_uncertain": "Studies since 2011 gave conflicting results on pre-operative focused echocardiography (guideline refs 54 to 58).",
+   "numbers": [
+    {
+     "value": "about 10%",
+     "meaning": "UK hip fracture patients with valvular heart disease (per guideline)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-21-d",
+   "cand_id": "C03-21",
+   "claim": "Antiplatelet drugs such as aspirin and clopidogrel are not, on their own, a reason to delay hip fracture surgery.",
+   "source_keys": [
+    "PMID:33289066",
+    "PMID:25818054"
+   ],
+   "supporting_passage": "Griffiths 2021: \"Approximately 30–40% of people with hip fracture in the UK are taking anticoagulant/antiplatelet medications pre-operatively.\" ... \"The 2011 guidance advised that surgery should not be delayed in patients taking aspirin, clopidogrel or warfarin, provided vitamin K-assisted reversal of the latter reduced the international normalised ratio below 2 for surgery and 1.5 for spinal anaesthesia.\" ... \"Data suggest that the use of anticoagulants/antiplatelet therapies is associated with a slightly increased risk of peri-operative transfusion in hip fracture patients but no increase in mortality [60–62].\" ... \"Abrupt cessation of such medication and failure to restart it postoperatively can expose the person to increased risks of cardiac ischaemia and stent occlusion, cerebrovascular accident [65] and limb ischaemia.\" Doleman 2015 abstract: \"For patients taking clopidogrel undergoing early surgery, there was no associated increase in overall mortality (OR 0.89; 95% CI: 0.58-1.38) or 30-day mortality (OR 1.10 95% CI: 0.48-2.54). However, there was an associated increase in blood transfusion (OR 1.41 95% CI: 1.00-1.99).\" ... \"Early surgery appears safe for patients with hip fracture though there may be a small increase in the rate of blood transfusion. However, larger prospective trials are required to confirm these findings.\"",
+   "location": "Griffiths 2021 full text, Controversies (anticoagulant and antiplatelet management); Doleman 2015 abstract",
+   "pico_timeframe": "Hip fracture patients taking aspirin or clopidogrel / early surgery / patients not on antiplatelets or delayed surgery / transfusion, mortality / peri-operative",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Association of Anaesthetists guidance has advised since 2011 that surgery should not be delayed because someone takes aspirin or clopidogrel. Studies of people on clopidogrel who had early surgery found slightly more blood transfusions but no rise in deaths.",
+   "qualifications": "The 2020 guideline's main text restates the 2011 advice and moves detailed antiplatelet/anticoagulant recommendations to Appendix S1, which was not opened; attribute to 'Association of Anaesthetists guidance (2011, restated in the 2020 update)'. Meta-analysis evidence is observational. Stopping antiplatelets abruptly carries its own risks (stents, stroke). Warfarin is an anticoagulant and needs reversal; do not group it with antiplatelets. Spinal anaesthesia decisions in people on antiplatelets are the anaesthetist's call.",
+   "conflicting_or_uncertain": "Doleman found a borderline increase in transfusion (OR 1.41, CI 1.00 to 1.99); other meta-analyses (Yang 2020, Soo 2016; abstracts seen) reach the same overall conclusion.",
+   "numbers": [
+    {
+     "value": "30 to 40%",
+     "meaning": "UK hip fracture patients taking anticoagulant or antiplatelet drugs before surgery (per guideline)"
+    },
+    {
+     "value": "OR 0.89 (0.58 to 1.38)",
+     "meaning": "overall mortality, clopidogrel users with early surgery vs non-users (observational; not significant); do not convert to 'times more likely'"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-21-e",
+   "cand_id": "C03-21",
+   "claim": "People on direct oral anticoagulants (DOACs) are a separate case with specific guidance; in England and Wales in 2018 about 3% of hip fracture patients were delayed more than 36 hours by DOAC therapy or warfarin reversal, and almost all DOAC users were delayed beyond 36 hours.",
+   "source_keys": [
+    "PMID:33289066"
+   ],
+   "supporting_passage": "\"Direct oral anticoagulants (DOAC), such as rivaroxaban, apixaban and dabigatran, were introduced into the UK in 2008, but their prescription increased more markedly after 2012 and so were not considered in the 2011 guidance. Approximately 2% of UK hip fracture patients currently take DOACs.\" ... \"There are significant and progressive mortality and morbidity risks associated with delay to surgery beyond 24(–48) h in hip fracture patients [68, 69]. In 2018, approximately 3% of hip fracture patients in England and Wales were delayed > 36 h before surgery as a result of their DOAC therapy or for warfarin reversal; virtually all patients taking DOACs were delayed > 36 h before surgery [6]. Mindful of these risks and in recognition of other Association of Anaesthetists' guidance, the Working Party has developed comprehensive recommendations for the management of patients with hip fracture who are taking antiplatelet/anticoagulant medication pre-operatively. These can be found in online Supporting Information, Appendix S1, together with a one-page summary...\"",
+   "location": "Griffiths 2021 full text, Controversies (anticoagulant and antiplatelet management)",
+   "pico_timeframe": "UK hip fracture patients on DOACs or warfarin; national data for 2018 (England and Wales) as cited by the guideline",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "Blood thinners of the DOAC type (such as apixaban or rivaroxaban) are handled differently: the Association of Anaesthetists publishes specific advice on timing. In 2018, almost everyone in England and Wales taking a DOAC waited more than 36 hours for hip fracture surgery. Ask the anaesthetist or orthogeriatrician what the plan is and when surgery can go ahead.",
+   "qualifications": "The candidate's claim that DOAC timing 'depends on the drug, dose and kidney function' was NOT verified (Appendix S1 not opened); do not state it. The 3% figure is a national figure cited by the guideline (ref 6), not a trial result; it is 2018 data. The 2020 text says DOAC users were about 2% of UK hip fracture patients.",
+   "conflicting_or_uncertain": "Practice may have changed since 2018; no newer figure was checked.",
+   "numbers": [
+    {
+     "value": "about 2%",
+     "meaning": "UK hip fracture patients taking DOACs (per 2020 guideline)"
+    },
+    {
+     "value": "about 3%",
+     "meaning": "hip fracture patients in England and Wales delayed >36 h by DOAC therapy or warfarin reversal, 2018"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-21-f",
+   "cand_id": "C03-21",
+   "claim": "Guidance expects medical problems to be corrected proactively within the 36-hour window, with the team told what needs to happen and decisions documented, rather than surgery cancelled on the day for a single abnormal value.",
+   "source_keys": [
+    "PMID:33289066",
+    "DRIVE:1ksnCY1mkzqvVIcfSEW9PB5y-XIPe7WDu"
+   ],
+   "supporting_passage": "Griffiths 2021: \"In many cases, the risks of delay associated with pain and immobility contribute to poor outcomes to a far greater extent than correction of an abnormality to a particular numerical value. Rather than cancelling surgery on the day of operation in reaction to one of the seven abnormalities listed, the Working Party considers that 36 h (or less) provides sufficient time for the proactive involvement of anaesthetists in correcting medical obstacles to surgery. In the (rare) event of cancellation for medical reasons, patients should be kept under 12-hourly assessment by anaesthetic teams. Anaesthetists should work with orthogeriatricians to optimise the person for surgery as soon as possible, communicate with the hip fracture care team what needs to happen to avoid repeated cancellation and delay, and document any decisions clearly in the person's medical notes.\" Scottish standards, Standard 6: \"Hip fracture patients are likely to have multiple co-morbidities, however in general surgery should not be delayed unless 'the benefits of additional medical treatment outweigh the risks of delaying surgery'. [23] Thirty-six hours (or less) is a sufficient period to allow for correction or reduction of medical obstacles to surgery, provided this is instigated immediately at presentation. [24]\"",
+   "location": "Griffiths 2021 Controversies (surgical delay); Scottish standards Standard 6 rationale",
+   "pico_timeframe": "UK hip fracture pathway, pre-operative period",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance says surgery should be delayed only if the benefit of more medical treatment outweighs the risk of waiting, that 36 hours is enough time to correct most problems if work starts at once, and that the team should say what needs to happen and write the decision down.",
+   "qualifications": "The candidate's position that 'any delay should name the specific correctable problem and when it will be corrected' is a reasonable reading of this guidance ('communicate ... what needs to happen', 'document any decisions') but the time-by-when element is an editorial judgement; mark it as 'we should' rather than as a guideline quotation. The angle's claim that delays 'often turn out' to be waits for tests or drugs to wear off is NOT supported by any opened source; drop it or replace with the DOAC figure (C03-21-e).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "36 hours",
+     "meaning": "window guidance considers sufficient to correct medical obstacles"
+    },
+    {
+     "value": "12-hourly",
+     "meaning": "anaesthetic reassessment if surgery is cancelled for medical reasons"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-21-g",
+   "cand_id": "C03-21",
+   "claim": "The Association of Anaesthetists' 2011 guidance listed seven 'acceptable' reasons for delaying surgery, each with a threshold (for example haemoglobin below 80 g/L, heart rate above 120 with a correctable arrhythmia).",
+   "source_keys": [
+    "PMID:33289066"
+   ],
+   "supporting_passage": "\"The 2011 guidelines list seven 'acceptable' reasons for delaying surgery: 1Haemoglobin < 80 g.l−1 2Plasma sodium concentration < 120 or > 150 mmol.l−1 and potassium concentration < 2.8 or > 6.0 mmol−1 3Uncontrolled diabetes 4Uncontrolled or acute onset left ventricular failure. 5Correctable cardiac arrhythmia with a ventricular rate > 120.min−1 6Chest infection with sepsis 7Reversible coagulopathy The Fragility Fracture Network guidance states “surgery should be delayed only if the benefits of additional medical treatment outweigh the risks of delaying surgery”.\"",
+   "location": "Griffiths 2021 full text, Controversies (surgical delay)",
+   "pico_timeframe": "UK anaesthetic guidance 2011 as restated in 2020",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The 2011 anaesthetic guidance gave seven reasons that could justify a delay, each with a cut-off, such as haemoglobin below 80 g/L or a correctable fast heart rhythm above 120 beats a minute. The 2020 update says these should be corrected within the 36 hours rather than used to cancel on the day.",
+   "qualifications": "Optional detail for a practitioner post; if used, pair it with the 2020 update's reframing (C03-21-f).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "7",
+     "meaning": "'acceptable' reasons for delay in 2011 guidance"
+    },
+    {
+     "value": "Hb < 80 g/L; Na < 120 or > 150 mmol/L; K < 2.8 or > 6.0 mmol/L; ventricular rate > 120/min",
+     "meaning": "2011 thresholds"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-09-a",
+   "cand_id": "C03-09",
+   "claim": "In England and Wales, being next of kin does not by itself give legal power to consent to an operation for an adult who lacks capacity: the decision-maker is someone the person appointed through a lasting power of attorney (health and welfare), or a court-appointed deputy; otherwise it is usually the responsible clinician, who decides in the person's best interests.",
+   "source_keys": [
+    "PMID:31169031",
+    "PMID:33456823",
+    "PMID:35028219"
+   ],
+   "supporting_passage": "Wade and Kitzinger 2019 abstract: \"Context: The legal framework is the Mental Capacity Act (MCA) 2005, which applies to England and Wales. Theory: Unless there is a valid and applicable Advance Decision, an appointed decision-maker needs to decide for those without capacity. This may be someone appointed by the patient through a Lasting Power of Attorney, or a Deputy appointed by the court. Otherwise the decision-maker is usually the responsible clinician.\" Orr and Baruah 2018: \"If a patient is unable to consent, treatment is carried out in their best interests.\" ... \"A patient may have an advanced decision, lasting power of attorney for health and welfare (LPA) or a court-appointed deputy.\" Zalmay 2021: \"The Consent Form Four (CF) is filled out when treatment is offered to a patient who is deemed to lack the capacity to be involved in this decision-making. Within it, a section entitled 'Involvement of those close to the patient' outlines that the clinician taking consent should seek the views of those close to the patient, and requires them to document this discussion (Appendix 1]. This is part of the best-interests decision-making process as outlined by the Mental Capacity Act 2005 [].\"",
+   "location": "Wade 2019 abstract (Context, Theory); Orr 2018 full text, 'The Mental Capacity Act 2005'; Zalmay 2021 full text, Introduction",
+   "pico_timeframe": "Adults (16+) lacking capacity for a treatment decision, England and Wales, MCA 2005",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "In England and Wales, being next of kin does not give you the legal right to consent to an operation for your mother. If she can't decide for herself, the decision is made by someone she appointed under a lasting power of attorney for health and welfare, or a court-appointed deputy. If there is no one like that, the doctor responsible makes the decision in her best interests.",
+   "qualifications": "Say 'usually the responsible clinician' or 'the doctor responsible'. An LPA must be registered to be used (Orr 2018). None of these can compel treatment that is not in the person's best interests. Do not describe the Northern Ireland process (editor's instruction). Do not claim how often relatives are wrongly asked to sign: no opened source measures it.",
+   "conflicting_or_uncertain": "Wade and Kitzinger note that 'The MCA is often not followed in healthcare settings, despite widespread mandatory training' and that there is often 'lack of clarity about who is the responsible decision-maker'.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-09-b",
+   "cand_id": "C03-09",
+   "claim": "Under the Mental Capacity Act, family and close friends must be consulted (if time permits) and the person's own wishes and values inform the best-interests decision.",
+   "source_keys": [
+    "PMID:33456823",
+    "PMID:31169031",
+    "PMID:35028219"
+   ],
+   "supporting_passage": "Orr and Baruah 2018: \"If a patient is unable to consent, treatment is carried out in their best interests. Assessment of best interests must include social, psychological, and medical factors and should be informed by the patient's attitudes and opinions. If time permits, family or close friends must be consulted. If this is not possible, and the course of action proposed may have serious consequences or the risks and benefits are finely balanced, an Independent Mental Capacity Advocate should be consulted.\" Wade and Kitzinger 2019: \"Once persistent lack of capacity is confirmed, an early meeting should be arranged with family and friends, to start a process of sharing information about the patient's medical condition and their values, wishes, feelings and beliefs with a view to making timely treatment decisions in the patient's best interests.\" Zalmay 2021: \"When a patient is judged to lack the capacity to consent to a procedure, the Mental Capacity Act outlines that where appropriate, the clinician should seek the views of those interested in their welfare, usually referring to their NoK or lasting power of attorney [].\"",
+   "location": "Orr 2018 full text ('The Mental Capacity Act 2005'); Wade 2019 abstract (Solution); Zalmay 2021 full text (Intervention design)",
+   "pico_timeframe": "As above",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "The team must still ask you about her. The law expects the decision to take account of what she would want, her values and her beliefs, and family or close friends should be consulted if there is time.",
+   "qualifications": "'If time permits': in an emergency the consultation may be brief or not possible. The Wade 2019 'early meeting' is a recommendation from that review, not a legal requirement.",
+   "conflicting_or_uncertain": "Zalmay 2021 found gaps in practice at one hospital (C03-09-e).",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-09-c",
+   "cand_id": "C03-09",
+   "claim": "In Scotland, the Adults with Incapacity (Scotland) Act 2000 gives doctors general authority to treat an adult who can't consent once a certificate of incapacity is completed; but if the person has a welfare attorney with power over medical decisions, the doctor must seek that attorney's consent where reasonable and practicable.",
+   "source_keys": [
+    "PMID:33456830"
+   ],
+   "supporting_passage": "\"The Act gives a 'general authority' to healthcare practitioners to treat a patient who is incapable of consenting to treatment provided that a certificate of incapacity has been completed (Fig. 1), and provided that the treatment falls within the general principles of the Act. Medical treatment is defined as 'any procedure or treatment designed to safeguard or promote physical or mental health'. If the patient is known to have appointed a proxy decision maker who has been granted power of attorney to make decisions regarding welfare, this general authority does not apply and the practitioner issuing the certificate must seek the consent of the welfare power of attorney before commencing treatment, where it is reasonable and practicable to do so. In an emergency, common law authority to provide treatment for the emergency preservation of life remains in place and completion of a certificate is not required to render this emergency treatment lawful.\"",
+   "location": "Edwardson and Baruah 2018, full text, 'Mental capacity in Scots law'",
+   "pico_timeframe": "Adults (16+) lacking capacity, Scotland, AWI (Scotland) Act 2000 Part 5",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In Scotland the law is different. If she can't decide, a doctor completes a certificate of incapacity, which allows treatment. But if she has appointed a welfare attorney with power over medical decisions, the doctor must ask for that attorney's consent where it is reasonable and practicable.",
+   "qualifications": "Welfare attorney consent is verified. The editor's wording that a court-appointed guardian with medical treatment powers can also consent was NOT verified in an opened source (the opened text lists guardians only among people to be consulted); either omit guardians or phrase as 'a welfare attorney (or a guardian with powers over medical treatment)' only after the editor accepts that it rests on the statute, which was not opened. Emergency life-saving treatment does not need a certificate. Do not describe Northern Ireland.",
+   "conflicting_or_uncertain": "The AWI Act and its Part 5 code of practice were not opened; wording relies on a peer-reviewed BJA Education summary.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-09-d",
+   "cand_id": "C03-09",
+   "claim": "In Scotland, any treatment under the Act must take account of the person's past and present wishes and feelings, and involve consultation with specified people, including any guardian or welfare attorney; there is a presumption of capacity.",
+   "source_keys": [
+    "PMID:33456830"
+   ],
+   "supporting_passage": "\"In Scots law, there is a presumption that adults are legally capable of making decisions for themselves [presumption of capacity also applies to the Mental Capacity Act (2005) in England and Wales].\" ... \"The general principles of the Act are laid out in Section 1. This states that an intervention carried out under the Act: (i) should achieve a benefit not otherwise achievable; (ii) is the least restrictive option (i.e. the action made or decision taken should be the minimum necessary to achieve the intended purpose); (iii) account is taken of past and present expressed wishes and feelings as far as this is practicable; (iv) there is consultation with another specified person as far as is reasonable and practicable. Specified persons include a guardian or welfare attorney.\"",
+   "location": "Edwardson and Baruah 2018, full text, 'Mental capacity in Scots law'",
+   "pico_timeframe": "As above",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "In Scotland too, the law says her past and present wishes and feelings must be taken into account, and certain people must be consulted.",
+   "qualifications": "The opened text says specified persons 'include' a guardian or welfare attorney; it does not list the nearest relative or carer explicitly, so the post should not say the law names relatives in Scotland.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-09-e",
+   "cand_id": "C03-09",
+   "claim": "Capacity is decision-specific and can fluctuate; a person who can communicate with help is not incapable for that reason alone, so it is fair to ask whether she could decide with help and time.",
+   "source_keys": [
+    "PMID:33456823",
+    "PMID:33456830"
+   ],
+   "supporting_passage": "Orr and Baruah 2018: \"A patient may lack capacity to make decisions about some aspects of their care but retain the capacity to make decisions about more straightforward aspects.\" ... \"This decision confirms that capacity is time-and decision-specific and can fluctuate.\" Edwardson and Baruah 2018: \"If this inability to communicate can be overcome with human or mechanical aids, it does not constitute incapacity for the purposes of the Act.\"",
+   "location": "Orr 2018 full text ('Consent: ethical principles'; 'Capacity: evolution of case law'); Edwardson 2018 full text",
+   "pico_timeframe": "Adults, UK law",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Capacity is about one decision at one time. A person may be able to make some decisions but not others, and it can change from hour to hour. You can ask whether she could decide for herself with help, or later in the day.",
+   "qualifications": "Hip fracture surgery is time-critical; waiting for capacity to return has to be weighed against the harm of delay. Do not imply surgery should wait indefinitely.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-09-f",
+   "cand_id": "C03-09",
+   "claim": "At one English hospital, before a feedback intervention, only 80% of people with hip fracture who lacked capacity had a documented attempt to contact their next of kin before surgery, and the next-of-kin section of Consent Form Four was completed in 30%.",
+   "source_keys": [
+    "PMID:35028219"
+   ],
+   "supporting_passage": "\"Pre-intervention, 80% (24/30) were noted to have had documented attempts at contacting their NoK prior to surgery. The section of Consent Form Four regarding the NoK discussion was completed in 30% (10/30). Following the intervention, all 28 patients had documented attempts at contacting their NoK prior to going for hip surgery, a significant improvement (p <0.05). The Consent Form Four NoK section was appropriately completed in 64.3% (18/28) (p <0.05).\" Limitations: \"A major limitation of this project was that we measured the documentation of attempts to contact next of kin; the actual rates of clinicians contacting next of kin may have been higher.\"",
+   "location": "Zalmay 2021, full text, Results and Limitations",
+   "pico_timeframe": "Hip fracture patients with AMTS < 8 lacking capacity, one 520-bed district general hospital in England; June to October 2019 (n=30) vs May to September 2020 (n=28)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "At one English hospital, notes showed an attempt to contact the family before surgery for 24 of 30 people who couldn't consent, and the family section of the consent form was filled in for 10 of 30. After the team was given feedback, contact attempts were recorded for all 28 people in the next group.",
+   "qualifications": "One hospital, small numbers, documentation rather than actual conversations; not generalisable. Optional detail; the post does not depend on it.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "24/30 (80%)",
+     "meaning": "documented attempt to contact next of kin before surgery, pre-intervention, one hospital"
+    },
+    {
+     "value": "10/30 (30%) to 18/28 (64.3%)",
+     "meaning": "next-of-kin section of Consent Form Four completed, before and after intervention"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-06-a",
+   "cand_id": "C03-06",
+   "claim": "In a Cochrane review, peripheral nerve blocks reduced pain on movement within 30 minutes of being placed, by the equivalent of about 2.5 points on a 0 to 10 scale (high-certainty evidence).",
+   "source_keys": [
+    "PMID:33238043"
+   ],
+   "supporting_passage": "\"We included 49 trials (3061 participants; 1553 randomized to PNBs and 1508 to no nerve block (or sham block)).\" ... \"Results of 11 trials with 503 participants show that PNBs reduced pain on movement within 30 minutes of block placement (standardized mean difference (SMD) -1.05, 95% confidence interval (CI) -1.25 to -0.86; equivalent to -2.5 on a scale from 0 to 10; high-certainty evidence).\" Authors' conclusions: \"PNBs reduce pain on movement within 30 minutes after block placement...\"",
+   "location": "Abstract (Main results; Authors' conclusions)",
+   "pico_timeframe": "Adults with hip fracture (RCTs, 1981 to 2020) / peripheral nerve block / no block or sham, additional analgesia available to all / pain on movement / within 30 minutes of placement",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Cochrane review of the trials found that a nerve block (an injection of local anaesthetic near the nerves to the hip) reduced pain on movement within half an hour by about 2.5 points on a 0 to 10 scale, compared with no block.",
+   "qualifications": "The 30-minute result comes from 11 of the 49 trials (503 people). Everyone could have other pain relief as well.",
+   "conflicting_or_uncertain": "Effect size depended on local anaesthetic concentration.",
+   "numbers": [
+    {
+     "value": "49 trials, 3061 people",
+     "meaning": "whole review"
+    },
+    {
+     "value": "11 trials, 503 people",
+     "meaning": "pain-on-movement analysis"
+    },
+    {
+     "value": "2.5 points on 0 to 10",
+     "meaning": "reduction in pain on movement within 30 minutes of placement (SMD -1.05)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-06-b",
+   "cand_id": "C03-06",
+   "claim": "Nerve blocks probably reduce chest infection and shorten the time to first getting out of bed by about 11 hours (moderate certainty, small numbers of trials); effects on death are uncertain.",
+   "source_keys": [
+    "PMID:33238043"
+   ],
+   "supporting_passage": "\"From three trials with 131 participants, PNBs probably reduce the risk for chest infection (RR 0.41, 95% CI 0.19 to 0.89; NNTB 7, 95% CI 5 to 72; moderate-certainty evidence). Based on 11 trials with 617 participants, the effects of PNBs on mortality within six months are uncertain due to very serious imprecision (RR 0.87, 95% CI 0.47 to 1.60; low-certainty evidence). From three trials with 208 participants, PNBs likely reduce time to first mobilization (mean difference (MD) -10.80 hours, 95% CI -12.83 to -8.77 hours; moderate-certainty evidence).\"",
+   "location": "Abstract (Main results)",
+   "pico_timeframe": "As C03-06-a; chest infection, first mobilisation, 6-month mortality",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The same review found that blocks probably mean fewer chest infections and getting out of bed about 11 hours sooner, though these results come from only a few small trials. Whether blocks affect survival is uncertain.",
+   "qualifications": "Chest infection: 3 trials, 131 people; mobilisation: 3 trials, 208 people. Do not give the relative risk as 'times less likely'; if a number is needed use the NNT with its wide range (about 1 fewer infection for every 7 people treated, range 5 to 72) or avoid it. The review also reports fewer cases of acute confusion; delirium is an excluded topic, so leave it out.",
+   "conflicting_or_uncertain": "Mortality effect uncertain (RR 0.87, 0.47 to 1.60).",
+   "numbers": [
+    {
+     "value": "about 11 hours (10.8, 95% CI 8.8 to 12.8)",
+     "meaning": "earlier first mobilisation with a block; 3 trials, 208 people"
+    },
+    {
+     "value": "RR 0.41 (0.19 to 0.89); NNT 7 (5 to 72)",
+     "meaning": "chest infection; 3 trials, 131 people"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-06-c",
+   "cand_id": "C03-06",
+   "claim": "People with dementia were often excluded from the nerve block trials.",
+   "source_keys": [
+    "PMID:33238043"
+   ],
+   "supporting_passage": "\"The average age of participants ranged from 59 to 89 years. People with dementia were often excluded from the included trials. Additional analgesia was available for all participants.\"",
+   "location": "Abstract (Main results)",
+   "pico_timeframe": "As above",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "People with dementia were often left out of these trials, so the evidence is thinner for the people who may find it hardest to say they are in pain.",
+   "qualifications": "The second half of the safe wording is a reasonable inference; keep it modest or omit.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-06-d",
+   "cand_id": "C03-06",
+   "claim": "UK anaesthetic guidance recommends single-shot nerve blocks in the emergency department and again at the time of surgery, and notes that blocks reduce pain at rest and on movement, reduce time to getting moving and are not contraindicated in people on anticoagulants.",
+   "source_keys": [
+    "PMID:33289066"
+   ],
+   "supporting_passage": "\"Randomised controlled trials [25, 26], observational studies [19], consensus opinion [2], national audit initiatives [8] and systematic review [27] all support the widespread use of peripheral nerve blocks for analgesia on admission to hospital and in the early postoperative period. These are effective at reducing pain and quadriceps spasm at rest and on movement; reduce time to remobilisation; reduce opioid administration (to a patient population 40% of who have renal dysfunction and are at greater risk of postoperative delirium); and are not contra-indicated in anticoagulated patients [28]. The Working Party recommends that: 1Single shot nerve blocks should be provided in the Emergency Department and at the time of surgery (provided 6 h has passed between blocks) [27]. There is some evidence for their efficacy in providing pre-hospital analgesia [29]; 2Femoral or fascia iliaca blocks should be used, the latter possibly providing better incisional analgesia after surgery.\"",
+   "location": "Griffiths 2021 full text, 'Specific changes to the 2011 guidance' (analgesia)",
+   "pico_timeframe": "UK hip fracture patients, admission to early postoperative period",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The Association of Anaesthetists recommends a single-injection nerve block in the emergency department and another at the time of surgery.",
+   "qualifications": "The guideline says 'in the Emergency Department', not 'before X-ray'; the drawn sequence must not show the block before imaging unless labelled as one possible order. A second block needs at least 6 hours after the first.",
+   "conflicting_or_uncertain": "NICE's wording is weaker (C03-06-e).",
+   "numbers": [
+    {
+     "value": "6 h",
+     "meaning": "minimum gap between ED block and block at surgery"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-06-e",
+   "cand_id": "C03-06",
+   "claim": "NICE recommends considering nerve blocks if paracetamol and opioids are not enough before surgery, or to limit opioid dose, and asks that pain relief be enough to allow the movements needed for investigations, nursing care and rehabilitation.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb",
+    "PMID:37389557"
+   ],
+   "supporting_passage": "\"4.2.3 Analgesia ➢ Assess the patient's pain: • immediately upon presentation at hospital and • within 30 minutes of administering initial analgesia and • hourly until settled on the ward and • regularly as part of routine nursing observations throughout admission. ➢ Offer immediate analgesia to patients presenting at hospital with suspected hip fracture, including people with cognitive impairment. ➢ Ensure analgesia is sufficient to allow movements necessary for investigations (as indicated by the ability to tolerate passive external rotation of the leg), and for nursing care and rehabilitation.\" ... \"➢ Consider adding nerve blocks if paracetamol and opioids do not provide sufficient preoperative pain relief, or to limit opioid dosage. Nerve blocks should be administered by trained personnel. Do not use nerve blocks as a substitute for early surgery.\"",
+   "location": "NICE full guideline section 4.2.3",
+   "pico_timeframe": "Adults with suspected or confirmed hip fracture, preoperative",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "NICE asks that pain relief be good enough for the person to be moved for X-rays, nursing care and rehabilitation, and says a nerve block should be considered when paracetamol and morphine-type drugs are not enough, or to reduce how much of them is needed.",
+   "qualifications": "NICE's nerve block recommendation is conditional ('consider'), not 'offer'. It was not changed in the 2023 update per the Age and Ageing commentary (live page not opened). NICE also says blocks are not a substitute for early surgery.",
+   "conflicting_or_uncertain": "The Association of Anaesthetists (2020) and Scottish standards are stronger (block as routine/first-line in ED).",
+   "numbers": [
+    {
+     "value": "within 30 minutes",
+     "meaning": "NICE: reassess pain within 30 minutes of initial analgesia"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-06-f",
+   "cand_id": "C03-06",
+   "claim": "The Scottish standards note that people with hip fracture often have little pain at rest but severe pain on movement, and make a fascia iliaca block the first-line choice in the emergency department.",
+   "source_keys": [
+    "DRIVE:1ksnCY1mkzqvVIcfSEW9PB5y-XIPe7WDu"
+   ],
+   "supporting_passage": "\"Standard 2: The 'big six' bundle is carried out in the emergency department (ED)\" ... \"4. Provide pain relief: all patients who sustain this painful injury must be offered analgesia. It is important to recognise that patients often have little pain on rest but severe pain on movement and for this reason a fascia iliaca block is the first-line choice.\"",
+   "location": "Scottish standards of care for hip fracture patients (v1.2, Sep 2025), Standard 2 rationale",
+   "pico_timeframe": "People with hip fracture in NHS Scotland emergency departments",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Scotland's national hip fracture standards point out that people often have little pain lying still but severe pain when moved, and name a nerve block (fascia iliaca block) as the first choice for pain relief in the emergency department.",
+   "qualifications": "Cite as a published standard; do not mention or imply audit results (Alasdair chairs the audit).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-06-g",
+   "cand_id": "C03-06",
+   "claim": "A single-injection block lasts hours, not the whole wait for surgery: a review puts a single-shot fascia iliaca block with bupivacaine at about 8 hours of pain relief, and trial evidence in the emergency department measured benefit up to 4 hours.",
+   "source_keys": [
+    "PMID:33694008",
+    "PMID:34879482",
+    "PMID:33289066"
+   ],
+   "supporting_passage": "Verbeek 2021 abstract: \"Single-shot FICB is faster to place, yet providing about 8 h of analgesia when bupivacaine is used. Continuous FICB provides prolonged titratable analgesia...\" Makkar 2021 abstract: \"A significant difference in pain relief at rest and on movement started within 30 min and lasted till 4 h of the block.\" ... \"However, the quality of evidence is low and additional trials are necessary.\" Griffiths 2021: \"Single shot nerve blocks should be provided in the Emergency Department and at the time of surgery (provided 6 h has passed between blocks)\".",
+   "location": "Verbeek 2021 abstract; Makkar 2021 abstract (Results, Conclusions); Griffiths 2021 analgesia section",
+   "pico_timeframe": "Hip fracture, single-shot fascia iliaca block, emergency department; pain relief duration",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A single injection does not last until the operation. It usually gives several hours of relief (one review suggests about 8 hours with a long-acting local anaesthetic), which is why UK guidance also advises another block at the time of surgery. Giving it early in the emergency department covers the X-ray, the move to the ward and the first hours of nursing care.",
+   "qualifications": "The 8-hour figure comes from a narrative review and depends on drug and dose; trial evidence (low certainty) measured benefit only to 4 hours. Do not say it 'spares pain at every later move' (judge's concern). The link between the ED block and the second block at surgery is guideline structure, not a stated rationale; phrase as 'UK guidance also advises', not 'because'.",
+   "conflicting_or_uncertain": "Pasquier 2019 (small RCT, seen in Consensus, not used) found no added benefit when pain was already low after prehospital morphine.",
+   "numbers": [
+    {
+     "value": "about 8 hours",
+     "meaning": "approximate duration of single-shot FICB with bupivacaine (narrative review)"
+    },
+    {
+     "value": "up to 4 hours",
+     "meaning": "duration over which trials measured benefit (meta-analysis of 11 trials, 895 patients, low certainty)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-06-h",
+   "cand_id": "C03-06",
+   "claim": "A person with a hip fracture typically goes through several transfers (floor, ambulance trolley, emergency department trolley, X-ray table, ward bed), each of which moves the fracture.",
+   "source_keys": [],
+   "supporting_passage": "No source found or opened that describes or counts the transfers. NICE (DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb) supports the related point that analgesia must allow 'movements necessary for investigations ... and for nursing care'.",
+   "location": "n/a",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "On the way from home to a ward bed, a person with a broken hip is usually lifted or slid several times: onto an ambulance trolley, onto a hospital trolley, for the X-ray and into bed.",
+   "qualifications": "Present as a generic, typical description, not a measured count; no numbers. The visual must not place the ED block before the X-ray as fact (in UK practice the block is given in the ED, often after the fracture is confirmed); show it as 'in the emergency department'. Prehospital blocks exist in some services ('some evidence for their efficacy', Griffiths 2021) but are not routine; do not imply they are.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C03-18-a",
+   "cand_id": "C03-18",
+   "claim": "In the REGAIN trial (1600 previously walking adults aged 50 and over, 46 US and Canadian hospitals), death or inability to walk about 3 metres at 60 days occurred in 18.5% with spinal and 18.0% with general anaesthesia.",
+   "source_keys": [
+    "PMID:34623788"
+   ],
+   "supporting_passage": "\"We conducted a pragmatic, randomized superiority trial to evaluate spinal anesthesia as compared with general anesthesia in previously ambulatory patients 50 years of age or older who were undergoing surgery for hip fracture at 46 U.S. and Canadian hospitals. Patients were randomly assigned in a 1:1 ratio to receive spinal or general anesthesia. The primary outcome was a composite of death or an inability to walk approximately 10 ft (3 m) independently or with a walker or cane at 60 days after randomization.\" ... \"Among patients in the modified intention-to-treat population for whom data were available, the composite primary outcome occurred in 132 of 712 patients (18.5%) in the spinal anesthesia group and 132 of 733 (18.0%) in the general anesthesia group (relative risk, 1.03; 95% confidence interval [CI], 0.84 to 1.27; P = 0.83).\"",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "Previously ambulatory adults 50+ having hip fracture surgery, 46 US/Canadian hospitals / spinal anaesthesia / general anaesthesia / death or inability to walk ~3 m independently or with a walker or cane / 60 days",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a trial of 1,600 people who could walk before their hip fracture, about 18 in 100 had died or could not walk across a small room (about 3 metres) two months later, whether they had a spinal or a general anaesthetic.",
+   "qualifications": "Composite outcome; say what it combines. US and Canadian hospitals; only people who could walk before the fracture. Did not show a clear difference (not 'proved equal').",
+   "conflicting_or_uncertain": "See C03-18-d for the result that went the other way.",
+   "numbers": [
+    {
+     "value": "1600",
+     "meaning": "patients randomised (795 spinal, 805 general)"
+    },
+    {
+     "value": "18.5% vs 18.0% (132/712 vs 132/733)",
+     "meaning": "death or inability to walk ~3 m at 60 days, spinal vs general"
+    },
+    {
+     "value": "mean age 78; 67% women",
+     "meaning": "trial population"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-18-b",
+   "cand_id": "C03-18",
+   "claim": "Deaths within 60 days (3.9% vs 4.1%) and inability to walk independently at 60 days (15.2% vs 14.4%) were similar; about 1 in 6 people assigned to spinal did not receive spinal only.",
+   "source_keys": [
+    "PMID:34623788",
+    "PMID:37831596"
+   ],
+   "supporting_passage": "REGAIN abstract: \"A total of 666 patients (83.8%) assigned to spinal anesthesia and 769 patients (95.5%) assigned to general anesthesia received their assigned anesthesia.\" ... \"An inability to walk independently at 60 days was reported in 104 of 684 patients (15.2%) and 101 of 702 patients (14.4%), respectively (relative risk, 1.06; 95% CI, 0.82 to 1.36), and death within 60 days occurred in 30 of 768 (3.9%) and 32 of 784 (4.1%), respectively (relative risk, 0.97; 95% CI, 0.59 to 1.57).\" Vail 2024 (full-text passage quoted in Scite): \"As reported previously, 12 666 of 795 patients assigned to spinal anesthesia (84%) received spinal anesthesia only. Of the remaining patients in the spinal anesthesia arm, 119 (15%) received general anesthesia, with or without an initial attempt to place a spinal block.\"",
+   "location": "REGAIN abstract (Results); Vail 2024 Results (via Scite citation snippet)",
+   "pico_timeframe": "As C03-18-a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 4 in 100 had died within two months in each group. About 1 in 6 people meant to have a spinal ended up with a general anaesthetic or something other than a spinal alone, which blurs the comparison a little.",
+   "qualifications": "Crossover: 16% of the spinal arm did not receive spinal only (15% received general). Deaths were few, so the death comparison alone is imprecise.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "3.9% vs 4.1% (30/768 vs 32/784)",
+     "meaning": "death within 60 days, spinal vs general"
+    },
+    {
+     "value": "15.2% vs 14.4%",
+     "meaning": "unable to walk independently at 60 days"
+    },
+    {
+     "value": "83.8% vs 95.5%",
+     "meaning": "received assigned anaesthetic, spinal vs general arm"
+    },
+    {
+     "value": "119/795 (15%)",
+     "meaning": "spinal-arm patients who received general anaesthesia"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-18-c",
+   "cand_id": "C03-18",
+   "claim": "At one year, survival and recovery of walking were also similar between spinal and general anaesthesia in REGAIN.",
+   "source_keys": [
+    "PMID:37831596"
+   ],
+   "supporting_passage": "\"Survival did not differ by treatment arm; at 365 days after randomization, there were 98 deaths in patients assigned to spinal anesthesia versus 92 deaths in patients assigned to general anesthesia (hazard ratio, 1.08; 95% CI, 0.81 to 1.44, P = 0.59). Recovery of ambulation among patients who survived a year did not differ by type of anesthesia (adjusted odds ratio for spinal vs. general, 0.87; 95% CI, 0.67 to 1.14; P = 0.31). Other outcomes did not differ by treatment arm.\" Conclusions: \"Long-term outcomes were similar with spinal versus general anesthesia.\" Discussion (Scite snippet): \"While the CI reported here argue against large effects of anesthesia type on long-term outcomes, the available sample does not permit us to fully exclude the potential for more subtle effects.\"",
+   "location": "Vail 2024 abstract (Results, Conclusions); Discussion via Scite snippet",
+   "pico_timeframe": "REGAIN participants / spinal vs general / survival, recovery of walking, death or new nursing home residence / 365 days",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A year later, survival and getting back to walking were still similar with either anaesthetic.",
+   "qualifications": "Vital status known for 89.2%; one-year mortality lower than in unselected hip fracture populations (authors' note), so the trial may under-represent the frailest. Subtle differences cannot be excluded. This replaces the judge's 'longer-term outcomes not settled' point: one-year outcomes are now reported.",
+   "conflicting_or_uncertain": "An earlier single-centre UK trial (Parker and Griffiths, cited by Vail) reported higher one-year mortality with spinal; REGAIN did not confirm this.",
+   "numbers": [
+    {
+     "value": "98 vs 92",
+     "meaning": "deaths by 365 days, spinal vs general arm (HR 1.08, 0.81 to 1.44)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-18-d",
+   "cand_id": "C03-18",
+   "claim": "In REGAIN, people given spinal anaesthesia reported slightly worse pain in the first 24 hours after surgery and were more likely to be using prescription pain medicines at 60 days.",
+   "source_keys": [
+    "PMID:35696684"
+   ],
+   "supporting_passage": "\"A total of 73.5% (1050 of 1428) of patients reported severe pain during the first 24 hours after surgery. Worst pain over the first 24 hours after surgery was greater with spinal anesthesia (rated from 0 [no pain] to 10 [worst pain imaginable]; mean difference, 0.40 [95% CI, 0.12 to 0.68]). Pain did not differ across groups at other time points. Prescription analgesic use at 60 days occurred in 25% (141 of 563) and 18.8% (108 of 574) of patients assigned to spinal and general anesthesia, respectively (relative risk, 1.33 [CI, 1.06 to 1.65]). Satisfaction was similar across groups.\" Limitations: \"Missing outcome data and multiple outcomes assessed.\"",
+   "location": "Neuman 2022 abstract (Results, Limitation)",
+   "pico_timeframe": "REGAIN participants / spinal vs general / pain days 1 to 3, analgesic use and pain at 60, 180, 365 days, satisfaction",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "One result went the other way: people who had a spinal reported slightly worse pain in the first day after surgery (less than half a point on a 0 to 10 scale), and at two months 25 in 100 were still taking prescription painkillers compared with 19 in 100 after a general anaesthetic. Most people in both groups had severe pain in the first 24 hours.",
+   "qualifications": "Secondary outcomes with missing data and multiple comparisons. The pain difference is small. Satisfaction was similar.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "0.40 points (0.12 to 0.68)",
+     "meaning": "worse worst pain in first 24 h with spinal, 0 to 10 scale"
+    },
+    {
+     "value": "25% vs 18.8% (141/563 vs 108/574)",
+     "meaning": "prescription analgesic use at 60 days, spinal vs general; 6 percentage points"
+    },
+    {
+     "value": "73.5% (1050/1428)",
+     "meaning": "patients reporting severe pain in first 24 h"
+    }
+   ]
+  },
+  {
+   "claim_id": "C03-18-e",
+   "cand_id": "C03-18",
+   "claim": "NICE recommends offering people a choice of spinal or general anaesthesia after discussing the risks and benefits.",
+   "source_keys": [
+    "DRIVE:1pftOMXMI_OAkTBofH11t6ayryZ2F-YXb"
+   ],
+   "supporting_passage": "\"4.2.4 Anaesthesia ➢ Offer patients a choice of spinal or general anaesthesia after discussing the risks and benefits. ➢ Consider intraoperative nerve blocks for all patients undergoing surgery.\"",
+   "location": "NICE full guideline section 4.2.4",
+   "pico_timeframe": "Adults having hip fracture surgery, NHS England and Wales",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE says people should be offered a choice of spinal or general anaesthetic after the risks and benefits have been discussed.",
+   "qualifications": "The person (or their legal decision-maker) chooses; families inform the discussion. The anaesthetist's assessment of individual risks still applies. Live NICE page not opened (see NICE source note).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C03-17",
+   "status": "ready",
+   "reason": "All essential claims supported: HIP ATTACK co-primary results (abstract), its secondary benefits (faster mobilisation, shorter stay, no harm) via the Association of Anaesthetists 2020 full text, the Ontario association (Pincus 2017) and the NICE/36-hour targets. Wording conditions: say accelerated surgery 'did not clearly reduce' deaths or major complications, not that speed has no benefit; include one line on the secondary benefits; treat Pincus as an association; replace 'faster than many hospitals achieve' with 'half the comparison group had surgery within about 24 hours' (C03-17-e). Pain benefit not verified; do not claim it. Delirium result optional at most (topic excluded).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C03-17-a",
+    "C03-17-b",
+    "C03-17-c",
+    "C03-17-d",
+    "C03-17-e"
+   ]
+  },
+  {
+   "cand_id": "C03-21",
+   "status": "revise",
+   "reason": "The NICE list, the echocardiography advice and the antiplatelet position are all sourced, but the framing and two claims must change. NICE frames the list as problems to treat immediately so that surgery is not delayed, not as reasons that justify delay. The angle's statement that 'medically unfit' delays 'often turn out' to be waits for tests or drugs is unsupported. The antiplatelet advice is the Association of Anaesthetists' 2011 guidance as restated in its 2020 update (Appendix S1 not opened), backed by observational meta-analysis. DOAC timing 'depends on drug, dose and kidney function' was not verified.",
+   "revised_angle": "Teaching round built on NICE's own framing: find and treat nine correctable problems straight away so they don't delay surgery; routine tests that won't change the operation or anaesthetic should not hold it up (NICE); UK anaesthetic guidance does not recommend waiting for an echocardiogram and has advised since 2011 not to delay for aspirin or clopidogrel; 36 hours is enough to correct most problems if work starts at once, and the team should say what needs to happen and document it (Association of Anaesthetists 2020; Scottish standard). DOACs are the exception with their own timing guidance: in 2018 almost all DOAC users in England and Wales waited over 36 hours, so ask the anaesthetist or orthogeriatrician for the plan. The 'name the problem and the time' close is marked as 'we should'.",
+   "essential_claim_ids": [
+    "C03-21-a",
+    "C03-21-b",
+    "C03-21-c",
+    "C03-21-d",
+    "C03-21-f"
+   ]
+  },
+  {
+   "cand_id": "C03-09",
+   "status": "ready",
+   "reason": "Key claim sourced: England and Wales (Wade and Kitzinger 2019; Orr and Baruah 2018; Zalmay 2021, PubMed-indexed hip fracture source as the editor asked): the decision-maker is an LPA for health and welfare or court deputy, otherwise usually the responsible clinician in the person's best interests, with family consulted. Scotland (Edwardson and Baruah 2018): a certificate of incapacity gives general authority, but a welfare attorney's consent must be sought where reasonable and practicable, and past and present wishes must be taken into account. Conditions: the guardian-can-consent wording was not verified in an opened source, so limit to welfare attorney unless the editor accepts the statute; do not describe Northern Ireland; GMC guidance not opened and dropped; do not claim how often relatives are asked to sign. C03-18 is therefore not needed as the fallback.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C03-09-a",
+    "C03-09-b",
+    "C03-09-c",
+    "C03-09-d"
+   ]
+  },
+  {
+   "cand_id": "C03-06",
+   "status": "revise",
+   "reason": "Evidence is strong (Cochrane pain-on-movement result, high certainty; Association of Anaesthetists recommends ED blocks; Scottish standard makes the fascia iliaca block first-line because pain is on movement; NICE asks for pain relief sufficient for movements needed for investigations and nursing care). The core insight overstates, though: a single-shot block lasts hours (about 8 h in one review; trials measured 4 h), so it cannot spare pain 'at every later move'. NICE's own block recommendation is 'consider', not 'offer'. The transfer sequence is unsourced and must stay generic, with the block shown in the ED rather than before the X-ray.",
+   "revised_angle": "Pain after a hip fracture is mostly on movement, and the first hours involve several lifts and slides. A nerve block given in the emergency department reduces pain on movement within 30 minutes (Cochrane) and lasts several hours, which covers the X-ray, the transfer to the ward and early nursing care; UK anaesthetic guidance also advises another block at the time of surgery. Families can ask: has a nerve block been offered? Staff can time it before the moves rather than after. Note that people with dementia were often excluded from the trials.",
+   "essential_claim_ids": [
+    "C03-06-a",
+    "C03-06-d",
+    "C03-06-e",
+    "C03-06-f",
+    "C03-06-g"
+   ]
+  },
+  {
+   "cand_id": "C03-18",
+   "status": "ready",
+   "reason": "Reserve and named fallback for C03-09; not needed because C03-09's key claim is sourced. All essential claims are supported if it is used later: REGAIN primary composite and components, crossover (about 1 in 6), one-year outcomes similar (Vail 2024, which answers the judge's 'longer-term outcomes' point), the result that went the other way (more early pain and 60-day analgesic use with spinal; Neuman 2022) and the NICE recommendation to offer a choice. Conditions: say what the composite combines; population is previously walking adults in the US and Canada; exclusions such as advanced dementia were not verified, so do not state them; RAGA not verified and dropped.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C03-18-a",
+    "C03-18-b",
+    "C03-18-c",
+    "C03-18-d",
+    "C03-18-e"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1590 @@
+{
+ "batch": "C07-B1",
+ "category": "C07",
+ "date_checked": "2026-09-25",
+ "notes": "Evidence batches C01-B1 to C01-B3 were checked for reusable sources; none fitted. Scite worked for full-text excerpts and editorial notices; Scite's retraction/correction filters returned an ambiguous 'not indexed' message, so retractions were checked in PubMed (retracted publication[pt] across all 25 PMIDs, 26 Sep 2026: none). Two recent publications change the candidates: STAREE (NEJM, 29 Aug 2026, PMID 42670961) for C07-12 and C07-05, and the OPTIMISE 4-year follow-up (PMID 39094592) for C07-22; ASPREE-XT (PMID 41043446) qualifies the ASPREE mortality result. NICE NG238 could only be seen as a search extract. Full texts opened: Livingstone 2021 (PMC), Williamson 2016 (PMC), Jones 2020 (Scite read_fulltext); partial full-text excerpts via Scite for ASPREE, Ueda 2017 and StatinWISE.",
+ "sources": [
+  {
+   "key": "PMID:30221596",
+   "citation": "McNeil JJ, Woods RL, Nelson MR, Reid CM, Kirpach B, Wolfe R, et al; ASPREE Investigator Group. Effect of aspirin on disability-free survival in the healthy elderly. N Engl J Med. 2018;379(16):1499-1508.",
+   "pmid": "30221596",
+   "pmcid": "PMC6426126",
+   "doi": "10.1056/NEJMoa1800722",
+   "public_url": "https://doi.org/10.1056/NEJMoa1800722",
+   "design": "Double-blind, placebo-controlled randomised trial (ASPREE), primary report",
+   "population_setting": "19,114 community-dwelling people aged 70 or over (65 or over for US Black and Hispanic participants) in Australia and the USA, without cardiovascular disease, dementia or physical disability; enrolled 2010 to 2014; aspirin 100 mg daily vs placebo; median follow-up 4.7 years",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (Methods, endpoint definitions, figure legend)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. Scite record shows no editorial notice for this DOI.",
+   "quality_note": "Large, well-conducted trial; stopped early for futility. Adherence in the final year was 62.1% (aspirin) and 64.1% (placebo), which dilutes any effect. Population was healthy and independent at entry."
+  },
+  {
+   "key": "PMID:30221595",
+   "citation": "McNeil JJ, Nelson MR, Woods RL, Lockery JE, Wolfe R, Reid CM, et al; ASPREE Investigator Group. Effect of aspirin on all-cause mortality in the healthy elderly. N Engl J Med. 2018;379(16):1519-1528.",
+   "pmid": "30221595",
+   "pmcid": "PMC6433466",
+   "doi": "10.1056/NEJMoa1803955",
+   "public_url": "https://doi.org/10.1056/NEJMoa1803955",
+   "design": "Secondary end point report from the ASPREE randomised trial; post hoc exploratory analysis of causes of death",
+   "population_setting": "Same ASPREE population (19,114; median follow-up 4.7 years; 1052 deaths)",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Death from any cause was a secondary end point; cause-of-death analyses were post hoc. Authors call the excess 'unexpected' and advise caution. Superseded in part by extended follow-up (PMID 41043446)."
+  },
+  {
+   "key": "PMID:30221597",
+   "citation": "McNeil JJ, Wolfe R, Woods RL, Tonkin AM, Donnan GA, Nelson MR, et al; ASPREE Investigator Group. Effect of aspirin on cardiovascular events and bleeding in the healthy elderly. N Engl J Med. 2018;379(16):1509-1518.",
+   "pmid": "30221597",
+   "pmcid": "PMC6289056",
+   "doi": "10.1056/NEJMoa1805819",
+   "public_url": "https://doi.org/10.1056/NEJMoa1805819",
+   "design": "Secondary end point report from the ASPREE randomised trial",
+   "population_setting": "Same ASPREE population (19,114; median follow-up 4.7 years)",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Secondary end points (cardiovascular disease, major haemorrhage). Background sentence on secondary prevention is introduction material, not a finding of this trial."
+  },
+  {
+   "key": "PMID:41043446",
+   "citation": "Shah RC, Ryan J, Webb KL, Wolfe R, Chan A, Chong TT, et al. Aspirin and healthy lifespan in older people: main outcome of the ASPREE-XT observational study. Lancet Healthy Longev. 2025;6(9):100764.",
+   "pmid": "41043446",
+   "pmcid": "PMC12551462",
+   "doi": "10.1016/j.lanhl.2025.100764",
+   "public_url": "https://doi.org/10.1016/j.lanhl.2025.100764",
+   "design": "Post-trial observational extension (ASPREE-XT) of a randomised trial; intention-to-treat by original allocation",
+   "population_setting": "15,633 of the 19,114 ASPREE participants consented to post-trial follow-up (median 4.3 years after the trial; almost a decade in total)",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Randomised comparison preserved by original allocation, but post-trial period is observational and aspirin was no longer allocated. Adjudicated outcomes."
+  },
+  {
+   "key": "PMID:41609798",
+   "citation": "Orchard SG, Polekhina G, Zalcberg J, Bernstein W, Macrae F, Tie J, et al. Cancer incidence and mortality with aspirin in older adults: follow-up of the ASPREE trial. JAMA Oncol. 2026;12(3):285-294.",
+   "pmid": "41609798",
+   "pmcid": "PMC12856742",
+   "doi": "10.1001/jamaoncol.2025.6196",
+   "public_url": "https://doi.org/10.1001/jamaoncol.2025.6196",
+   "design": "Long-term follow-up (trial plus observational extension) of a randomised trial",
+   "population_setting": "19,114 ASPREE participants; median 8.6 years of follow-up (2010 to 2022)",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Supporting source for the cancer-death nuance only. Extended period is partly observational."
+  },
+  {
+   "key": "PMID:42670961",
+   "citation": "Zoungas S, Wolfe R, Moran C, Nicholls SJ, Cloud GC, Reid CM, et al; STAREE Investigator Group. Atorvastatin, cardiovascular events, and disability-free survival in older adults. N Engl J Med. 2026 Aug 29. doi:10.1056/NEJMoa2607314.",
+   "pmid": "42670961",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa2607314",
+   "public_url": "https://doi.org/10.1056/NEJMoa2607314",
+   "design": "Double-blind, placebo-controlled randomised trial (STAREE) with two primary end points",
+   "population_setting": "9971 community-dwelling adults aged 70 or over at Australian general practices, without cardiovascular disease, diabetes or dementia; mean age 74.7; atorvastatin 40 mg vs placebo; median follow-up 5.9 years",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. Published online 29 Aug 2026; not yet indexed for editorial notices in Scite (not checked there).",
+   "quality_note": "Large, recent, directly relevant trial. Only the abstract was read; results for the 40% aged 75 or over, and absolute adverse event numbers by type, were not seen. Australian general-practice population without diabetes."
+  },
+  {
+   "key": "PMID:19482214",
+   "citation": "Antithrombotic Trialists' (ATT) Collaboration; Baigent C, Blackwell L, Collins R, Emberson J, Godwin J, Peto R, et al. Aspirin in the primary and secondary prevention of vascular disease: collaborative meta-analysis of individual participant data from randomised trials. Lancet. 2009;373(9678):1849-60.",
+   "pmid": "19482214",
+   "pmcid": "PMC2715005",
+   "doi": "10.1016/S0140-6736(09)60503-1",
+   "public_url": "https://doi.org/10.1016/S0140-6736(09)60503-1",
+   "design": "Individual participant data meta-analysis of randomised trials",
+   "population_setting": "6 primary prevention trials (95,000 people) and 16 secondary prevention trials (17,000 people at high risk)",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Older but still the reference source for aspirin after a heart attack or stroke; secondary prevention trials were not restricted to older people."
+  },
+  {
+   "key": "PMID:35471505",
+   "citation": "US Preventive Services Task Force; Davidson KW, Barry MJ, Mangione CM, Cabana M, Chelmow D, Coker TR, et al. Aspirin use to prevent cardiovascular disease: US Preventive Services Task Force recommendation statement. JAMA. 2022;327(16):1577-1584.",
+   "pmid": "35471505",
+   "pmcid": null,
+   "doi": "10.1001/jama.2022.4983",
+   "public_url": "https://doi.org/10.1001/jama.2022.4983",
+   "design": "Guideline recommendation based on systematic review and modelling",
+   "population_setting": "US adults aged 40 or over without known cardiovascular disease",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "US guideline; scope limited to primary prevention, which is the point it supports."
+  },
+  {
+   "key": "PMID:28536104",
+   "citation": "Hippisley-Cox J, Coupland C, Brindle P. Development and validation of QRISK3 risk prediction algorithms to estimate future risk of cardiovascular disease: prospective cohort study. BMJ. 2017;357:j2099.",
+   "pmid": "28536104",
+   "pmcid": "PMC5441081",
+   "doi": "10.1136/bmj.j2099",
+   "public_url": "https://doi.org/10.1136/bmj.j2099",
+   "design": "Prospective open cohort study (algorithm derivation and internal validation)",
+   "population_setting": "QResearch general practices in England; 7.89 million patients aged 25 to 84 in derivation and 2.67 million in validation; free of CVD and not on statins",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Developer-led derivation and internal validation; external validation in older people is weaker (see PMID 34100008)."
+  },
+  {
+   "key": "PMID:28760741",
+   "citation": "Ueda P, Lung TW, Clarke P, Danaei G. Application of the 2014 NICE cholesterol guidelines in the English population: a cross-sectional analysis. Br J Gen Pract. 2017;67(662):e598-e608.",
+   "pmid": "28760741",
+   "pmcid": "PMC5569739",
+   "doi": "10.3399/bjgp17X692141",
+   "public_url": "https://doi.org/10.3399/bjgp17X692141",
+   "design": "Cross-sectional modelling study using the QRISK2 algorithm and Health Survey for England 2011 data",
+   "population_setting": "Hypothetical risk profiles for men and women aged 30 to 84, plus 2972 Health Survey for England 2011 participants aged 30 to 84",
+   "year": 2017,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (Results, Figure 2 legend)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. No Scite editorial notice seen for this DOI.",
+   "quality_note": "Uses QRISK2 (2015 update), not QRISK3; the age effect is expected to be similar but QRISK3 outputs were not verified. 'Optimal' profile: BMI 22.5, total:HDL ratio 4.0, untreated systolic 110 mmHg, never smoker, no other risk factors."
+  },
+  {
+   "key": "PMID:34100008",
+   "citation": "Livingstone S, Morales DR, Donnan PT, Payne K, Thompson AJ, Youn JH, Guthrie B. Effect of competing mortality risks on predictive performance of the QRISK3 cardiovascular risk prediction tool in older people and those with comorbidity: external validation population cohort study. Lancet Healthy Longev. 2021;2(6):e352-e361.",
+   "pmid": "34100008",
+   "pmcid": "PMC8175241",
+   "doi": "10.1016/S2666-7568(21)00088-X",
+   "public_url": "https://doi.org/10.1016/S2666-7568(21)00088-X",
+   "design": "Retrospective population cohort study (external validation)",
+   "population_setting": "Clinical Practice Research Datalink (UK primary care): 1,484,597 women and 1,420,176 men aged 25 to 84 without CVD or statin use; median follow-up 5.0 years",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC8175241)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. Scite lists one correction (10.1016/s2666-7568(21)00185-9), which was read: it changes the licence to CC BY only; no change to content.",
+   "quality_note": "Large independent validation. The introduction sentence on age crossing thresholds is background, not this study's finding (and the PMC text has a garbled age range at that point)."
+  },
+  {
+   "key": "PMID:30712900",
+   "citation": "Cholesterol Treatment Trialists' Collaboration. Efficacy and safety of statin therapy in older people: a meta-analysis of individual participant data from 28 randomised controlled trials. Lancet. 2019;393(10170):407-415.",
+   "pmid": "30712900",
+   "pmcid": "PMC6429627",
+   "doi": "10.1016/S0140-6736(18)31942-1",
+   "public_url": "https://doi.org/10.1016/S0140-6736(18)31942-1",
+   "design": "Individual participant data meta-analysis of 28 randomised trials",
+   "population_setting": "186,854 trial participants; 14,483 (8%) older than 75 at randomisation; median follow-up 4.9 years",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "High quality; its stated evidence gap (over-75s without vascular disease) has been partly addressed by STAREE (PMID 42670961)."
+  },
+  {
+   "key": "PMID:33196766",
+   "citation": "Yourman LC, Cenzer IS, Boscardin WJ, Nguyen BT, Smith AK, Schonberg MA, et al. Evaluation of time to benefit of statins for the primary prevention of cardiovascular events in adults aged 50 to 75 years: a meta-analysis. JAMA Intern Med. 2021;181(2):179-185.",
+   "pmid": "33196766",
+   "pmcid": "PMC7670393",
+   "doi": "10.1001/jamainternmed.2020.6084",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2020.6084",
+   "design": "Survival meta-analysis of randomised trials",
+   "population_setting": "8 primary prevention statin trials, 65,383 adults; mean ages 55 to 69",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Trial mean ages 55 to 69, so it does not describe people over 75 directly; predates STAREE."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+   "citation": "National Institute for Health and Care Excellence. Cardiovascular disease: risk assessment and reduction, including lipid modification (NG238). London: NICE; 2023 [search-engine extract only; page not opened].",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+   "design": "National guideline",
+   "population_setting": "Adults in England; primary and secondary prevention of CVD",
+   "year": 2023,
+   "access": "search_extract",
+   "tool_used": "WebSearch (nice.org.uk); page could not be opened from this environment",
+   "correction_check": "Not applicable (guideline page not opened).",
+   "quality_note": "Search-engine summary only; not sufficient for an essential claim. Use only as background, or re-check against the live NICE page before any post quotes it."
+  },
+  {
+   "key": "PMID:27195814",
+   "citation": "Williamson JD, Supiano MA, Applegate WB, Berlowitz DR, Campbell RC, Chertow GM, et al; SPRINT Research Group. Intensive vs standard blood pressure control and cardiovascular disease outcomes in adults aged >=75 years: a randomized clinical trial. JAMA. 2016;315(24):2673-82.",
+   "pmid": "27195814",
+   "pmcid": "PMC4988796",
+   "doi": "10.1001/jama.2016.7050",
+   "public_url": "https://doi.org/10.1001/jama.2016.7050",
+   "design": "Prespecified age subgroup (75 and over) of a randomised trial (SPRINT); frailty and gait-speed analyses exploratory",
+   "population_setting": "2636 SPRINT participants aged 75 or over (mean 79.9; 37.9% women), US community-dwelling ambulatory adults with hypertension and without diabetes; median follow-up 3.14 years",
+   "year": 2016,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC4988796); Scite search_literature",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. No Scite editorial notice seen for this DOI.",
+   "quality_note": "Prespecified subgroup with its own power calculation; trial stopped early for benefit, which can overstate effects. Frailty and gait analyses were not prespecified."
+  },
+  {
+   "key": "PMID:26551272",
+   "citation": "SPRINT Research Group; Wright JT Jr, Williamson JD, Whelton PK, Snyder JK, Sink KM, Rocco MV, et al. A randomized trial of intensive versus standard blood-pressure control. N Engl J Med. 2015;373(22):2103-16.",
+   "pmid": "26551272",
+   "pmcid": "PMC4689591",
+   "doi": "10.1056/NEJMoa1511939",
+   "public_url": "https://doi.org/10.1056/NEJMoa1511939",
+   "design": "Randomised controlled trial (SPRINT), main report",
+   "population_setting": "9361 US adults with systolic 130 mmHg or higher and increased cardiovascular risk, without diabetes; median follow-up 3.26 years",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. Scite lists an erratum (10.1056/nejmx170008, 21 Dec 2017); the text Scite returned for that DOI was correspondence and did not show the correction's content. Numbers used in this batch come from Williamson 2016 and this abstract only.",
+   "quality_note": "Main trial report; stopped early for benefit."
+  },
+  {
+   "key": "PMID:33044494",
+   "citation": "Drawz PE, Agarwal A, Dwyer JP, Horwitz E, Lash J, Lenoir K, et al. Concordance between blood pressure in the Systolic Blood Pressure Intervention Trial and in routine clinical practice. JAMA Intern Med. 2020;180(12):1655-1663.",
+   "pmid": "33044494",
+   "pmcid": "PMC7551238",
+   "doi": "10.1001/jamainternmed.2020.5028",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2020.5028",
+   "design": "Observational study linking electronic health record blood pressures with trial blood pressures",
+   "population_setting": "3074 SPRINT participants at 49 of 102 sites (mean age 68.5)",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Direct comparison in the same people; large variation between sites."
+  },
+  {
+   "key": "PMID:32001477",
+   "citation": "Jones NR, McCormack T, Constanti M, McManus RJ. Diagnosis and management of hypertension in adults: NICE guideline update 2019. Br J Gen Pract. 2020;70(691):90-91.",
+   "pmid": "32001477",
+   "pmcid": "PMC7018407",
+   "doi": "10.3399/bjgp20X708053",
+   "public_url": "https://doi.org/10.3399/bjgp20X708053",
+   "design": "Summary of a national guideline (NICE NG136, 2019) written by guideline contributors",
+   "population_setting": "Adults with hypertension in England",
+   "year": 2020,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; Scite read_fulltext (whole article, 7307 characters) and search_literature",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. Scite lists an erratum (10.3399/bjgp20x708461), which was read: it corrects Table 1 (stage 3 threshold should be 180/120) and a Figure 1 label on family origin; neither affects the passages used here.",
+   "quality_note": "Secondary summary of NG136, not the guideline itself; carries a disclaimer that views are the authors'. NG136 has been updated since 2019 (not checked); the passages used describe the 2019 targets."
+  },
+  {
+   "key": "PMID:31002956",
+   "citation": "Fernandes M, Olde Rikkert MGM. The new US and European guidelines in hypertension: a multi-dimensional analysis. Contemp Clin Trials. 2019;81:44-54.",
+   "pmid": "31002956",
+   "pmcid": null,
+   "doi": "10.1016/j.cct.2019.04.008",
+   "public_url": "https://doi.org/10.1016/j.cct.2019.04.008",
+   "design": "Qualitative analysis (narrative review)",
+   "population_setting": "2017 ACC/AHA and 2018 ESC/ESH hypertension guidelines",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "Consensus search; PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Opinion-level source for a policy-history statement; the link between SPRINT and US and European targets is also stated in the NICE summary (PMID 32001477) indirectly. Adequate for 'the trial behind US and European targets'."
+  },
+  {
+   "key": "PMID:37847274",
+   "citation": "Juraschek SP, Hu JR, Cluett JL, Ishak AM, Mita C, Lipsitz LA, et al. Orthostatic hypotension, hypertension treatment, and cardiovascular disease: an individual participant meta-analysis. JAMA. 2023;330(15):1459-1471.",
+   "pmid": "37847274",
+   "pmcid": "PMC10582789",
+   "doi": "10.1001/jama.2023.18497",
+   "public_url": "https://doi.org/10.1001/jama.2023.18497",
+   "design": "Individual participant data meta-analysis of 9 randomised trials",
+   "population_setting": "29,235 trial participants (mean age 69.0); 9% had orthostatic hypotension and 5% standing hypotension at baseline; median follow-up 4 years",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Important counterweight: shows trial benefit did not differ by baseline orthostatic hypotension; but only trial participants, few with standing hypotension."
+  },
+  {
+   "key": "PMID:24567036",
+   "citation": "Tinetti ME, Han L, Lee DS, McAvay GJ, Peduzzi P, Gross CP, et al. Antihypertensive medications and serious fall injuries in a nationally representative sample of older adults. JAMA Intern Med. 2014;174(4):588-95.",
+   "pmid": "24567036",
+   "pmcid": "PMC4136657",
+   "doi": "10.1001/jamainternmed.2013.14764",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2013.14764",
+   "design": "Observational cohort with propensity score adjustment and competing risk analysis",
+   "population_setting": "4961 community-living US adults older than 70 with hypertension (Medicare Current Beneficiary Survey); 3-year follow-up to 2009",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Association only; confounding by indication possible. Trend across intensity groups not significant."
+  },
+  {
+   "key": "PMID:32453368",
+   "citation": "Sheppard JP, Burt J, Lown M, Temple E, Lowe R, Fraser R, et al; OPTIMISE Investigators. Effect of antihypertensive medication reduction vs usual care on short-term blood pressure control in patients with hypertension aged 80 years and older: the OPTIMISE randomized clinical trial. JAMA. 2020;323(20):2039-2051.",
+   "pmid": "32453368",
+   "pmcid": "PMC7251449",
+   "doi": "10.1001/jama.2020.4871",
+   "public_url": "https://doi.org/10.1001/jama.2020.4871",
+   "design": "Randomised, unblinded, non-inferiority trial",
+   "population_setting": "569 people aged 80 or over (mean 84.8) at 69 general practices in England, systolic below 150 mmHg on 2 or more antihypertensives, judged suitable for reduction by their GP; 12-week follow-up",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Pragmatic trial; GP-selected participants limit generalisation; unblinded; short primary follow-up (extended in PMID 39094592)."
+  },
+  {
+   "key": "PMID:39094592",
+   "citation": "Sheppard JP, Temple E, Wang A, Smith A, Pollock S, Ford GA, et al. Effect of antihypertensive deprescribing on hospitalisation and mortality: long-term follow-up of the OPTiMISE randomised controlled trial. Lancet Healthy Longev. 2024;5(8):e563-e573.",
+   "pmid": "39094592",
+   "pmcid": "PMC11327766",
+   "doi": "10.1016/S2666-7568(24)00131-4",
+   "public_url": "https://doi.org/10.1016/S2666-7568(24)00131-4",
+   "design": "Long-term follow-up of a randomised trial via primary and secondary care electronic records",
+   "population_setting": "564 of 569 OPTIMISE participants followed for a median of 4.0 years",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Intention-to-treat randomised comparison, but small; confidence interval includes modest harm and modest benefit; only about half sustained the reduction."
+  },
+  {
+   "key": "PMID:41689048",
+   "citation": "Carr M, Kenealy N, Yu LM, Moschandreas J, Hobbs FDR, de Lusignan S, et al. Optimising Prescription of Treatment In older patients with Mild hypertension at Increased risk of Serious adverse Events (OPTIMISE2): protocol for a primary care based, open-label, randomised controlled non-inferiority trial. Trials. 2026;27(1).",
+   "pmid": "41689048",
+   "pmcid": "PMC13011718",
+   "doi": "10.1186/s13063-026-09508-7",
+   "public_url": "https://doi.org/10.1186/s13063-026-09508-7",
+   "design": "Trial protocol",
+   "population_setting": "Planned 3014 people aged 75 or over on 2 or more antihypertensives with controlled blood pressure who are frail or at higher risk of hypotension, syncope or falls; UK primary care; 1-year follow-up",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found.",
+   "quality_note": "Protocol only; no results. Use only to say a larger trial is under way."
+  },
+  {
+   "key": "PMID:33627334",
+   "citation": "Herrett E, Williamson E, Brack K, Beaumont D, Perkins A, Thayne A, et al; StatinWISE Trial Group. Statin treatment and muscle symptoms: series of randomised, placebo controlled n-of-1 trials. BMJ. 2021;372:n135.",
+   "pmid": "33627334",
+   "pmcid": "PMC7903384",
+   "doi": "10.1136/bmj.n135",
+   "public_url": "https://doi.org/10.1136/bmj.n135",
+   "design": "Series of randomised, double-blind, placebo-controlled n-of-1 trials",
+   "population_setting": "200 people at 50 UK primary care sites (Dec 2016 to Apr 2018) who had recently stopped or were considering stopping statins because of muscle symptoms; mean age 69.1; 70% had a history of cardiovascular disease",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (Methods, Results, Discussion)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. No Scite editorial notice seen for this DOI.",
+   "quality_note": "Well-designed; 151 of 200 contributed to the primary analysis. Atorvastatin 20 mg only. Participants were volunteers willing to be rechallenged."
+  },
+  {
+   "key": "PMID:36049498",
+   "citation": "Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials. Lancet. 2022;400(10355):832-845.",
+   "pmid": "36049498",
+   "pmcid": "PMC7613583",
+   "doi": "10.1016/S0140-6736(22)01545-8",
+   "public_url": "https://doi.org/10.1016/S0140-6736(22)01545-8",
+   "design": "Individual participant data meta-analysis of randomised double-blind trials",
+   "population_setting": "19 statin vs placebo trials (123,940 participants; mean age 63) and 4 intensive vs less intensive trials (30,724)",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata; Scite search_literature (notices and discussion excerpts)",
+   "correction_check": "PubMed: PMID searched with retracted publication[pt] on 26 Sep 2026 (batch search of all 25 PMIDs in this file): no retraction found. Scite lists a Department of Error notice (10.1016/s0140-6736(22)01891-8, 8 Oct 2022); its text was not accessible from this environment, so the change could not be checked. The abstract figures used here are as currently indexed in PubMed.",
+   "quality_note": "High quality; trial participants were younger than most people in this collection's audience (mean age 63)."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C07-05-a",
+   "cand_id": "C07-05",
+   "claim": "ASPREE randomised 19,114 healthy community-dwelling people aged 70 and over (65 and over for US Black and Hispanic participants), without cardiovascular disease, dementia or physical disability, to aspirin 100 mg daily or placebo; its main outcome was disability-free survival (staying alive without dementia or persistent physical disability).",
+   "source_keys": [
+    "PMID:30221596"
+   ],
+   "supporting_passage": "Abstract: \"From 2010 through 2014, we enrolled community-dwelling persons in Australia and the United States who were 70 years of age or older (or ≥65 years of age among blacks and Hispanics in the United States) and did not have cardiovascular disease, dementia, or physical disability. Participants were randomly assigned to receive 100 mg per day of enteric-coated aspirin or placebo orally. The primary end point was a composite of death, dementia, or persistent physical disability.\" ... \"A total of 19,114 persons with a median age of 74 years were enrolled, of whom 9525 were randomly assigned to receive aspirin and 9589 to receive placebo.\" Full text (Methods): \"The primary end point was disability-free survival, which was defined as survival free from dementia or persistent physical disability.\" ... \"persistent physical disability was considered to have occurred when a participant reported having an inability to perform or severe difficulty in performing at least one of the six basic activities of daily living that had persisted for at least 6 months.\" ... \"the six basic activities of daily living (bathing, dressing, toileting, transferring, walking, and feeding)\"",
+   "location": "Abstract (Methods, Results); full text Methods (Scite excerpts)",
+   "pico_timeframe": "Community-dwelling, independent people aged 70+ (65+ US Black/Hispanic) in Australia and USA, no CVD, dementia or disability / aspirin 100 mg daily / placebo / death, dementia or persistent physical disability (composite) / median 4.7 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A trial of daily aspirin in 19,114 healthy people aged 70 and over had one main outcome: staying alive without dementia or lasting disability. 'Lasting disability' meant being unable, or finding it very hard, to do a basic daily task such as washing, dressing, using the toilet or walking, for at least 6 months.",
+   "qualifications": "Healthy, independent volunteers in Australia and the USA; results do not apply to people who have had a heart attack or stroke. Do not claim that 'most prevention trials' count only heart attacks and strokes: that comparison was not verified. Avoid the negation-then-correction shape when contrasting the outcome with heart attacks and strokes.",
+   "conflicting_or_uncertain": "None for the design facts.",
+   "numbers": [
+    {
+     "value": "19,114",
+     "meaning": "people randomised (9525 aspirin, 9589 placebo)"
+    },
+    {
+     "value": "70 (65)",
+     "meaning": "minimum age; 65 for US Black and Hispanic participants"
+    },
+    {
+     "value": "74",
+     "meaning": "median age at entry"
+    },
+    {
+     "value": "100 mg",
+     "meaning": "daily enteric-coated aspirin dose"
+    },
+    {
+     "value": "6 months",
+     "meaning": "minimum duration of ADL loss to count as persistent physical disability"
+    },
+    {
+     "value": "6",
+     "meaning": "basic activities of daily living assessed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-05-b",
+   "cand_id": "C07-05",
+   "claim": "Aspirin did not prolong disability-free survival: over a median 4.7 years the rates were almost identical, and extended follow-up to almost a decade showed no long-term effect.",
+   "source_keys": [
+    "PMID:30221596",
+    "PMID:41043446"
+   ],
+   "supporting_passage": "PMID 30221596 abstract: \"The trial was terminated at a median of 4.7 years of follow-up after a determination was made that there would be no benefit with continued aspirin use with regard to the primary end point. The rate of the composite of death, dementia, or persistent physical disability was 21.5 events per 1000 person-years in the aspirin group and 21.2 per 1000 person-years in the placebo group (hazard ratio, 1.01; 95% confidence interval [CI], 0.92 to 1.11; P=0.79).\" ... \"Aspirin use in healthy elderly persons did not prolong disability-free survival over a period of 5 years but led to a higher rate of major hemorrhage than placebo.\" PMID 41043446 abstract: \"Similarly, over the period of both ASPREE and ASPREE-XT, no long-term effect of aspirin versus placebo was observed on the composite outcome of death, dementia, or persistent physical disability over almost a decade of follow-up (HR 1·01; 95% CI 0·95-1·08; p=0·65)\"",
+   "location": "Abstracts (Results, Conclusions)",
+   "pico_timeframe": "As C07-05-a / aspirin vs placebo / disability-free survival / median 4.7 years in trial; almost a decade including observational extension (15,633 consented)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Aspirin did not help people stay alive and free of dementia and disability. Each year, about 21 in every 1000 people lost that status in both groups. Following people for almost 10 years showed the same.",
+   "qualifications": "Adherence in the final trial year was 62.1% (aspirin) vs 64.1% (placebo). The trial was stopped early because continuing was judged futile.",
+   "conflicting_or_uncertain": "None found that points the other way for this outcome.",
+   "numbers": [
+    {
+     "value": "21.5 vs 21.2",
+     "meaning": "events per 1000 person-years, aspirin vs placebo, composite of death, dementia or persistent disability"
+    },
+    {
+     "value": "4.7 years",
+     "meaning": "median trial follow-up"
+    },
+    {
+     "value": "HR 1.01 (0.92 to 1.11)",
+     "meaning": "relative effect, trial period"
+    },
+    {
+     "value": "HR 1.01 (0.95 to 1.08)",
+     "meaning": "relative effect over almost a decade including ASPREE-XT"
+    },
+    {
+     "value": "62.1% vs 64.1%",
+     "meaning": "adherence in final trial year"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-05-c",
+   "cand_id": "C07-05",
+   "claim": "Major haemorrhage was more common with aspirin (3.8% vs 2.8%), and aspirin did not significantly reduce cardiovascular disease.",
+   "source_keys": [
+    "PMID:30221596",
+    "PMID:30221597",
+    "PMID:41043446"
+   ],
+   "supporting_passage": "PMID 30221596 abstract: \"The rate of major hemorrhage was higher in the aspirin group than in the placebo group (3.8% vs. 2.8%; hazard ratio, 1.38; 95% CI, 1.18 to 1.62; P<0.001).\" PMID 30221597 abstract: \"After a median of 4.7 years of follow-up, the rate of cardiovascular disease was 10.7 events per 1000 person-years in the aspirin group and 11.3 events per 1000 person-years in the placebo group (hazard ratio, 0.95; 95% confidence interval [CI], 0.83 to 1.08). The rate of major hemorrhage was 8.6 events per 1000 person-years and 6.2 events per 1000 person-years, respectively (hazard ratio, 1.38; 95% CI, 1.18 to 1.62; P<0.001).\" PMID 41043446 abstract: \"aspirin was associated with an increased hazard for incident major haemorrhagic events across both ASPREE and ASPREE-XT (1·24; 1·10-1·39).\"",
+   "location": "Abstracts (Results)",
+   "pico_timeframe": "As C07-05-a / aspirin vs placebo / major haemorrhage; cardiovascular disease (fatal CHD, non-fatal MI, stroke, heart failure admission) / median 4.7 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Over about 5 years, serious bleeding happened to about 4 in 100 people taking aspirin and about 3 in 100 taking the dummy tablet. Heart attacks, strokes and heart failure admissions were not clearly reduced.",
+   "qualifications": "3.8% vs 2.8% are cumulative proportions over a median 4.7 years. Say 'did not clearly reduce', not 'no effect', for cardiovascular disease.",
+   "conflicting_or_uncertain": "None for bleeding. Extended follow-up (not used here) found no long-term cardiovascular benefit either.",
+   "numbers": [
+    {
+     "value": "3.8% vs 2.8%",
+     "meaning": "major haemorrhage, aspirin vs placebo, over median 4.7 years (about 4 vs 3 in 100)"
+    },
+    {
+     "value": "8.6 vs 6.2",
+     "meaning": "major haemorrhage per 1000 person-years"
+    },
+    {
+     "value": "10.7 vs 11.3",
+     "meaning": "cardiovascular disease events per 1000 person-years, aspirin vs placebo (HR 0.95, 0.83 to 1.08)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-05-d",
+   "cand_id": "C07-05",
+   "claim": "All-cause mortality was higher with aspirin during the trial, mainly from cancer, a result the authors called unexpected; over almost a decade the difference in deaths was no longer clear.",
+   "source_keys": [
+    "PMID:30221595",
+    "PMID:41043446",
+    "PMID:41609798"
+   ],
+   "supporting_passage": "PMID 30221595 abstract: \"The risk of death from any cause was 12.7 events per 1000 person-years in the aspirin group and 11.1 events per 1000 person-years in the placebo group (hazard ratio, 1.14; 95% confidence interval [CI], 1.01 to 1.29). Cancer was the major contributor to the higher mortality in the aspirin group, accounting for 1.6 excess deaths per 1000 person-years.\" ... \"In the context of previous studies, this result was unexpected and should be interpreted with caution.\" PMID 41043446 abstract: \"including no long-term effect on deaths (1·06; 0·99-1·14; p=0·10).\" PMID 41609798 abstract: \"However, LDA was associated with increased cancer-related mortality (HR = 1.15; 95% CI, 1.03-1.29).\"",
+   "location": "Abstracts (Results, Conclusions)",
+   "pico_timeframe": "ASPREE population / aspirin vs placebo / death from any cause (secondary end point) and cancer death / median 4.7 years (trial); almost a decade (extension); median 8.6 years for cancer follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "During the trial, slightly more people taking aspirin died (about 13 vs 11 in 1000 each year), mostly from cancer. The researchers called this unexpected and urged caution. Over almost 10 years of follow-up, the difference in deaths from all causes was no longer clear.",
+   "qualifications": "Secondary end point; cause-of-death analysis post hoc. The judge's figures of 5.9% vs 5.2% were not found in the abstracts read and must not be used. This claim is optional for the post; if used, the long-term result must sit beside the trial result.",
+   "conflicting_or_uncertain": "Cancer-related deaths remained higher with aspirin over about 8.6 years (HR 1.15), but there was no post-trial legacy effect; overall deaths were not clearly different over almost a decade.",
+   "numbers": [
+    {
+     "value": "12.7 vs 11.1",
+     "meaning": "deaths per 1000 person-years, aspirin vs placebo, trial period (HR 1.14, 1.01 to 1.29)"
+    },
+    {
+     "value": "1.6",
+     "meaning": "excess cancer deaths per 1000 person-years with aspirin, trial period"
+    },
+    {
+     "value": "HR 1.06 (0.99 to 1.14)",
+     "meaning": "all-cause death over almost a decade, not significant"
+    },
+    {
+     "value": "HR 1.15 (1.03 to 1.29)",
+     "meaning": "cancer-related death over median 8.6 years"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-05-e",
+   "cand_id": "C07-05",
+   "claim": "ASPREE's result applies to people without cardiovascular disease; in people who have already had a heart attack or stroke, aspirin reduces further serious vascular events, so they should not stop aspirin without medical advice.",
+   "source_keys": [
+    "PMID:30221596",
+    "PMID:19482214"
+   ],
+   "supporting_passage": "PMID 30221596 abstract: \"...and did not have cardiovascular disease, dementia, or physical disability.\" PMID 19482214 abstract: \"Low-dose aspirin is of definite and substantial net benefit for many people who already have occlusive vascular disease.\" ... \"In the secondary prevention trials, aspirin allocation yielded a greater absolute reduction in serious vascular events (6.7%vs 8.2% per year, p<0.0001), with a non-significant increase in haemorrhagic stroke but reductions of about a fifth in total stroke (2.08%vs 2.54% per year, p=0.002) and in coronary events (4.3%vs 5.3% per year, p<0.0001).\"",
+   "location": "Abstracts (Methods; Background and Findings)",
+   "pico_timeframe": "People with previous occlusive vascular disease (16 secondary prevention trials, 17,000 people) / aspirin vs control / serious vascular events (MI, stroke, vascular death) / per year of treatment",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "This result is about people who had never had a heart attack or stroke. For people who have, trials show aspirin prevents further heart attacks and strokes. If you take aspirin after a heart attack or stroke, keep taking it unless your doctor advises otherwise.",
+   "qualifications": "The 'do not stop without advice' line is practical advice derived from the secondary prevention evidence, not a finding of ASPREE. The secondary prevention trials were not restricted to older people. Keep this line prominent on the visual as well as the caption (judge's note).",
+   "conflicting_or_uncertain": "Bleeding risk with aspirin also applies in secondary prevention; the ATT authors found net benefit there.",
+   "numbers": [
+    {
+     "value": "6.7% vs 8.2%",
+     "meaning": "serious vascular events per year, aspirin vs control, secondary prevention trials"
+    },
+    {
+     "value": "16 trials, 17,000",
+     "meaning": "secondary prevention evidence base"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-05-f",
+   "cand_id": "C07-05",
+   "claim": "US guidance (USPSTF 2022) recommends against starting low-dose aspirin for primary prevention of cardiovascular disease in adults aged 60 or over.",
+   "source_keys": [
+    "PMID:35471505"
+   ],
+   "supporting_passage": "Abstract: \"The USPSTF concludes with moderate certainty that initiating aspirin use for the primary prevention of CVD events in adults 60 years or older has no net benefit.\" ... \"The USPSTF recommends against initiating low-dose aspirin use for the primary prevention of CVD in adults 60 years or older. (D recommendation).\"",
+   "location": "Abstract (Conclusions and Recommendation)",
+   "pico_timeframe": "US adults 40+ without known CVD / initiating low-dose aspirin / net benefit / guideline 2022",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "US guidance advises against starting aspirin at 60 or over to prevent a first heart attack or stroke.",
+   "qualifications": "US guideline; UK guidance was not checked in this batch. It concerns starting aspirin, not stopping it in people already taking it.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "60",
+     "meaning": "age from which USPSTF recommends against initiating aspirin for primary prevention"
+    },
+    {
+     "value": "D",
+     "meaning": "USPSTF recommendation grade"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-05-g",
+   "cand_id": "C07-05",
+   "claim": "Other trials in older people also use disability-free survival as a main outcome: STAREE (statins) did, and found fewer cardiovascular events but no clear gain in disability-free survival. PREVENTABLE could not be verified.",
+   "source_keys": [
+    "PMID:42670961"
+   ],
+   "supporting_passage": "Abstract: \"The two primary end points were a composite of death from cardiovascular causes, nonfatal myocardial infarction or stroke, or coronary revascularization (to assess effects on major cardiovascular events) and a composite of death from any cause, dementia, or persistent physical disability (to assess effects on disability-free survival).\" ... \"Death from any cause, dementia, or persistent physical disability occurred in 637 participants (21.6 events per 1000 person-years) in the atorvastatin group and in 676 participants (23.0 events per 1000 person-years) in the placebo group (hazard ratio, 0.94; 95% CI, 0.84 to 1.05; P = 0.25).\"",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "9971 Australians aged 70+ without CVD, diabetes or dementia / atorvastatin 40 mg / placebo / co-primary: major CV events; disability-free survival / median 5.9 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A second large trial in older people, STAREE (published August 2026), also counted staying alive without dementia or disability. A statin cut heart attacks and strokes but did not clearly lengthen life free of dementia or disability.",
+   "qualifications": "PREVENTABLE was searched for in PubMed and not found; do not name it. STAREE is also the central new evidence for C07-12; avoid presenting it at length in both posts.",
+   "conflicting_or_uncertain": "See C07-12-e for the full STAREE figures.",
+   "numbers": [
+    {
+     "value": "9971",
+     "meaning": "participants in STAREE"
+    },
+    {
+     "value": "21.6 vs 23.0",
+     "meaning": "disability-free survival events per 1000 person-years, atorvastatin vs placebo (HR 0.94, 0.84 to 1.05)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-a",
+   "cand_id": "C07-12",
+   "claim": "QRISK3 was derived and validated in people aged 25 to 84.",
+   "source_keys": [
+    "PMID:28536104"
+   ],
+   "supporting_passage": "Abstract: \"7.89 million patients aged 25-84 years were in the derivation cohort and 2.67 million patients in the validation cohort. Patients were free of cardiovascular disease and not prescribed statins at baseline.\"",
+   "location": "Abstract (Participants)",
+   "pico_timeframe": "QResearch general practices, England / derivation and validation cohorts aged 25 to 84",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The QRISK3 calculator was built from records of people aged 25 to 84.",
+   "qualifications": "None.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "25 to 84",
+     "meaning": "age range of derivation and validation cohorts"
+    },
+    {
+     "value": "7.89 million / 2.67 million",
+     "meaning": "derivation / validation cohort sizes"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-b",
+   "cand_id": "C07-12",
+   "claim": "At older ages, age alone puts people above the 10% threshold: with QRISK2, even people with optimal risk factors crossed 10% between 60 and 70 (men) and 65 and 75 (women), and every man and woman aged 75 to 84 without CVD in an English survey sample exceeded it.",
+   "source_keys": [
+    "PMID:28760741",
+    "PMID:34100008"
+   ],
+   "supporting_passage": "PMID 28760741 abstract: \"Even with optimal risk factor levels, males of different ethnicities would exceed the 10% risk threshold between the ages of 60 and 70 years, and females would exceed the threshold between 65 and 75 years.\" ... \"When analysed by age, 95% of males and 66% of females without CVD in ages 60-74 years, including all males and females in ages 75-84 years, would require statin therapy.\" Full text (Results, Scite excerpt): \"The QRISK2 algorithm gives a large weight to age as a predictor of CVD risk.\" Figure 2 legend: \"Optimal/high BMI = 22.5/30.1 kg/ m 2 . Optimal/high total-to-HDL cholesterol ratio = 4.0/5.2. Optimal systolic BP = 110 mmHg (untreated).\" ... \"Optimal smoking status = never smoker.\" PMID 34100008 full text (Introduction, background): \"However, age is the most important predictor of CVD risk, and thus most people will exceed current thresholds at some point in early older age w years) irrespective of other risk factors.\" [text garbled in PMC extraction at the age range]",
+   "location": "PMID 28760741 abstract and full-text Results/Figure 2 legend (Scite excerpts); PMID 34100008 full-text Introduction",
+   "pico_timeframe": "Hypothetical profiles entered into QRISK2 (2015 update) by age and sex; Health Survey for England 2011 sample aged 30 to 84 (n=2972) / 10-year CVD risk vs 10% NICE threshold / cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The calculator GPs use gives great weight to age. In a 2017 analysis using QRISK2, even a person who had never smoked, with a healthy weight, a blood pressure of 110 and a good cholesterol ratio went above the 10% line between 60 and 70 for men and between 65 and 75 for women. In a survey sample of English adults aged 75 to 84 without heart disease, every one was above it.",
+   "qualifications": "Verified for QRISK2 (the version in use when NICE set the 10% threshold), not for QRISK3; say 'the QRISK calculator (QRISK2)' or 'an earlier version'. 'Every one aged 75 to 84' comes from a survey sample, not a census. The candidate's 'almost every 78-year-old, whatever their cholesterol' should become 'by 75, even ideal numbers put you above 10% (QRISK2)'. A chart of QRISK3 outputs by age cannot be built from verified data; use the verified threshold-crossing age bands instead, labelled QRISK2.",
+   "conflicting_or_uncertain": "No published QRISK3 analysis of threshold-crossing ages was found. Judge's concern that some women with very favourable profiles sit near 10% in their mid-seventies is consistent with 'between 65 and 75'.",
+   "numbers": [
+    {
+     "value": "10%",
+     "meaning": "NICE 10-year CVD risk threshold for offering statins"
+    },
+    {
+     "value": "60 to 70",
+     "meaning": "age band at which men with optimal risk factors crossed 10% (QRISK2)"
+    },
+    {
+     "value": "65 to 75",
+     "meaning": "age band at which women with optimal risk factors crossed 10% (QRISK2)"
+    },
+    {
+     "value": "95% of men, 66% of women",
+     "meaning": "proportion aged 60 to 74 without CVD above threshold (HSE 2011 sample)"
+    },
+    {
+     "value": "all",
+     "meaning": "proportion aged 75 to 84 without CVD above threshold (HSE 2011 sample)"
+    },
+    {
+     "value": "2%",
+     "meaning": "proportion of English adults with optimal risk factors (full text)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-c",
+   "cand_id": "C07-12",
+   "claim": "QRISK3 separates higher-risk from lower-risk people poorly in older age groups and over-predicts risk in older people, especially once deaths from other causes are taken into account.",
+   "source_keys": [
+    "PMID:34100008"
+   ],
+   "supporting_passage": "Abstract: \"Non-CVD death rose markedly with age (0·4% of women and 0·5% of men aged 25-44 years had a non-CVD death20·1% of women and 19·6% of men aged 75-84 years). QRISK3 discrimination in the whole population was excellent (Harrell's C-statistic 0·865 in women and 0·834 in men) but was poor in older age groups (<0·65 in all subgroups aged 65 years or older). Ignoring competing risks, QRISK3 calibration in the whole population and in younger people was excellent, but there was significant over-prediction in older people. Accounting for competing risks, QRISK3 systematically over-predicted CVD risk, particularly in older people and in those with high multimorbidity.\" Full text (Discussion): \"Clinicians should consider broader effects on life expectancy when discussing statin initiation for primary prevention in older people and people with high multimorbidity, in whom CVD risk is likely to be over-predicted.\"",
+   "location": "Abstract (Findings); full text Discussion/Conclusion",
+   "pico_timeframe": "UK CPRD primary care, 2.9 million people aged 25 to 84 without CVD or statins / QRISK3 predicted vs observed 10-year CVD / subgroups by age and multimorbidity / median follow-up 5.0 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In UK GP records of 2.9 million people, QRISK3 worked well for younger adults. In people aged 65 and over it was poor at telling apart who would and would not have a heart attack or stroke, and it overestimated risk, more so once deaths from other causes were counted.",
+   "qualifications": "For the public, replace 'discrimination' and 'calibration' with plain meanings. Note one in five people aged 75 to 84 died of something other than heart disease or stroke during follow-up.",
+   "conflicting_or_uncertain": "UK Biobank validation (Parsons 2023, seen only in a Consensus summary, not opened) reported similar over-prediction in older participants; not used as a source.",
+   "numbers": [
+    {
+     "value": "<0.65",
+     "meaning": "C-statistic (ability to rank risk; 0.5 = chance) in every subgroup aged 65+"
+    },
+    {
+     "value": "0.865 / 0.834",
+     "meaning": "C-statistic in whole population, women / men"
+    },
+    {
+     "value": "20.1% / 19.6%",
+     "meaning": "women / men aged 75 to 84 who had a non-CVD death during follow-up"
+    },
+    {
+     "value": "2.9 million",
+     "meaning": "approximate study population (1,484,597 women + 1,420,176 men)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-d",
+   "cand_id": "C07-12",
+   "claim": "Before 2026, trial evidence for statins in people over 75 without vascular disease was limited: only 8% of participants in the large statin trials were over 75, and the proportional benefit in people without vascular disease appeared smaller at older ages.",
+   "source_keys": [
+    "PMID:30712900"
+   ],
+   "supporting_passage": "Abstract: \"14 483 (8%) of 186 854 participants in the 28 trials were older than 75 years at randomisation, and the median follow-up duration was 4·9 years.\" ... \"The proportional reduction in major vascular events was similar, irrespective of age, among patients with pre-existing vascular disease (p=0·2), but appeared smaller among older than among younger individuals not known to have vascular disease (p=0·05).\" ... \"Statin therapy produces significant reductions in major vascular events irrespective of age, but there is less direct evidence of benefit among patients older than 75 years who do not already have evidence of occlusive vascular disease. This limitation is now being addressed by further trials.\"",
+   "location": "Abstract (Findings, Interpretation)",
+   "pico_timeframe": "28 large statin trials (186,854 participants) / statin or more intensive vs control / major vascular events per 1 mmol/L LDL reduction / by age group / median 4.9 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Until recently, fewer than 1 in 10 people in the big statin trials were over 75, so the evidence for starting a statin after 75 in someone without heart disease or stroke rested mostly on younger people.",
+   "qualifications": "This is now partly outdated: STAREE (C07-12-e) is direct trial evidence in people aged 70 and over. Do not say evidence over 75 is 'thin' without mentioning STAREE.",
+   "conflicting_or_uncertain": "Superseded in part by STAREE (Aug 2026).",
+   "numbers": [
+    {
+     "value": "8% (14,483 of 186,854)",
+     "meaning": "trial participants older than 75 at randomisation"
+    },
+    {
+     "value": "4.9 years",
+     "meaning": "median follow-up"
+    },
+    {
+     "value": "p=0.05",
+     "meaning": "trend to smaller proportional benefit with age in people without known vascular disease"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-e",
+   "cand_id": "C07-12",
+   "claim": "STAREE (2026): in 9971 Australians aged 70 and over without CVD, diabetes or dementia, atorvastatin 40 mg reduced major cardiovascular events but did not clearly lengthen disability-free survival over a median 5.9 years; serious adverse events were similar.",
+   "source_keys": [
+    "PMID:42670961"
+   ],
+   "supporting_passage": "Abstract: \"Community-dwelling adults at least 70 years of age with no history of cardiovascular disease, diabetes, or dementia were randomly assigned in a 1:1 ratio to receive atorvastatin at a dose of 40 mg once daily or identical placebo.\" ... \"A total of 9971 participants were enrolled: 4984 were assigned to receive atorvastatin and 4987 to receive placebo. The mean (±SD) age of the participants was 74.7±4.5 years, and 51.9% were women. After a median of 5.9 years, a primary cardiovascular event had occurred in 297 participants (10.9 events per 1000 person-years) in the atorvastatin group and in 412 participants (15.5 events per 1000 person-years) in the placebo group (hazard ratio, 0.70; 95% confidence interval [CI], 0.61 to 0.82; P<0.001). Death from any cause, dementia, or persistent physical disability occurred in 637 participants (21.6 events per 1000 person-years) in the atorvastatin group and in 676 participants (23.0 events per 1000 person-years) in the placebo group (hazard ratio, 0.94; 95% CI, 0.84 to 1.05; P = 0.25). Serious adverse events occurred in 131 participants (2.7%) in the atorvastatin group and in 129 (2.7%) in the placebo group, with musculoskeletal, hepatobiliary, and diabetes-related adverse events occurring more commonly in the atorvastatin group.\"",
+   "location": "Abstract (Methods, Results, Conclusions)",
+   "pico_timeframe": "9971 community-dwelling Australians aged 70+ (mean 74.7) without CVD, diabetes or dementia / atorvastatin 40 mg / placebo / major CV events (CV death, non-fatal MI or stroke, coronary revascularisation); disability-free survival / median 5.9 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A trial published in August 2026 gave 9971 Australians aged 70 and over (average age 75), without heart disease, stroke, diabetes or dementia, a statin or a dummy tablet. Over about 6 years, about 6 in 100 on the statin and 8 in 100 on the dummy tablet had a heart attack, stroke, cardiovascular death or a procedure to open a heart artery. The statin did not clearly change the chance of staying alive without dementia or lasting disability (about 13 in 100 vs 14 in 100 lost it).",
+   "qualifications": "The '6 vs 8 in 100' and '13 vs 14 in 100' figures are crude proportions calculated here from the counts in the abstract (297/4984, 412/4987; 637/4984, 676/4987), not Kaplan-Meier estimates. Only the abstract was read: results for those aged 75 and over, and the size of the excess muscle, liver and diabetes-related events, were not seen. The cardiovascular composite includes coronary revascularisation. People with diabetes were excluded.",
+   "conflicting_or_uncertain": "Adds direct evidence of cardiovascular benefit in over-70s that earlier sources lacked (C07-12-d). No clear effect on disability-free survival; 'did not show a clear difference' is the correct phrasing, not 'no effect'.",
+   "numbers": [
+    {
+     "value": "9971",
+     "meaning": "participants (4984 atorvastatin, 4987 placebo)"
+    },
+    {
+     "value": "74.7",
+     "meaning": "mean age, years"
+    },
+    {
+     "value": "5.9 years",
+     "meaning": "median follow-up"
+    },
+    {
+     "value": "297 vs 412",
+     "meaning": "people with a primary cardiovascular event"
+    },
+    {
+     "value": "6.0 vs 8.3 in 100",
+     "meaning": "crude cumulative proportion with a cardiovascular event, calculated from counts"
+    },
+    {
+     "value": "10.9 vs 15.5",
+     "meaning": "cardiovascular events per 1000 person-years (HR 0.70, 0.61 to 0.82)"
+    },
+    {
+     "value": "637 vs 676",
+     "meaning": "people who died or developed dementia or persistent disability"
+    },
+    {
+     "value": "12.8 vs 13.6 in 100",
+     "meaning": "crude cumulative proportion losing disability-free survival, calculated from counts"
+    },
+    {
+     "value": "21.6 vs 23.0",
+     "meaning": "disability-free survival events per 1000 person-years (HR 0.94, 0.84 to 1.05)"
+    },
+    {
+     "value": "2.7% vs 2.7%",
+     "meaning": "serious adverse events"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-f",
+   "cand_id": "C07-12",
+   "claim": "Time to benefit: in primary prevention trials of adults aged 50 to 75, about 2.5 years of statin treatment in 100 people prevented one major cardiovascular event, with no evidence of a mortality benefit.",
+   "source_keys": [
+    "PMID:33196766"
+   ],
+   "supporting_passage": "Abstract: \"The meta-analysis results suggested that 2.5 (95% CI, 1.7-3.4) years were needed to avoid 1 MACE for 100 patients treated with a statin.\" ... \"These findings suggest that treating 100 adults (aged 50-75 years) without known cardiovascular disease with a statin for 2.5 years prevented 1 MACE in 1 adult. Statins may help to prevent a first MACE in adults aged 50 to 75 years old if they have a life expectancy of at least 2.5 years. There is no evidence of a mortality benefit.\"",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "8 primary prevention statin trials, 65,383 adults (mean ages 55 to 69) / statin vs control / first major adverse cardiovascular event / time to absolute risk reduction of 1 in 100",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In trials of people aged 50 to 75 without heart disease, it took about 2.5 years of treating 100 people with a statin to prevent one heart attack or stroke-type event.",
+   "qualifications": "Trial participants were younger (mean ages 55 to 69); the figure does not transfer directly to people over 75. Predates STAREE.",
+   "conflicting_or_uncertain": "STAREE's cardiovascular benefit in over-70s over 5.9 years is broadly consistent but time to benefit in that trial was not seen in the abstract.",
+   "numbers": [
+    {
+     "value": "2.5 years (1.7 to 3.4)",
+     "meaning": "time to prevent 1 major cardiovascular event per 100 treated"
+    },
+    {
+     "value": "8 trials, 65,383",
+     "meaning": "evidence base"
+    },
+    {
+     "value": "55 to 69",
+     "meaning": "range of trial mean ages"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-12-g",
+   "cand_id": "C07-12",
+   "claim": "NICE NG238 recommends QRISK3 and advises considering atorvastatin 20 mg for people aged 85 and over, taking account of comorbidity, polypharmacy, frailty, life expectancy and informed preference.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng238/chapter/Recommendations"
+   ],
+   "supporting_passage": "Search-engine summary (not NICE text): \"For people aged 85 and older, NICE recommends considering treatment with atorvastatin 20 mg, while being aware of factors that may make treatment inappropriate.\" ... \"The decision whether to start statin therapy should be made after an informed discussion between the clinician and the person about the risks and benefits of statin treatment, taking into account additional factors such as potential benefits from lifestyle modifications, informed patient preference, comorbidities, polypharmacy, general frailty and life expectancy.\"",
+   "location": "WebSearch extract from nice.org.uk results; page not opened",
+   "pico_timeframe": "Adults in England / statins for primary prevention / guideline 2023",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not quote NG238 specifics unless re-checked on the live NICE page. Safe general wording: 'UK guidance asks for an informed discussion that weighs other illnesses, frailty and the person's own preference.'",
+   "qualifications": "search_extract only; not sufficient for an essential claim. The judge's point that NG238 allows statins below 10% by informed preference was not verified.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "85",
+     "meaning": "age from which NG238 (per search extract) advises considering atorvastatin 20 mg"
+    },
+    {
+     "value": "20 mg",
+     "meaning": "atorvastatin dose (search extract)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-a",
+   "cand_id": "C07-03",
+   "claim": "SPRINT excluded people with type 2 diabetes, previous stroke, symptomatic heart failure, a diagnosis of or treatment for dementia, expected survival under 3 years, recent unintentional weight loss, standing systolic below 110 mmHg after 1 minute, or residence in a nursing home.",
+   "source_keys": [
+    "PMID:27195814"
+   ],
+   "supporting_passage": "Full text (Methods, Population): \"A person was excluded if he or she had type 2 diabetes, a history of stroke, symptomatic heart failure within the past 6 months or reduced left ventricular ejection fraction (<35%), a clinical diagnosis of or treatment for dementia, an expected survival of less than 3 years, unintentional weight loss (>10% of body weight) during the preceding 6 months, an SBP of less than 110 mm Hg following 1 minute of standing, or resided in a nursing home.\"",
+   "location": "Full text, Methods (Population)",
+   "pico_timeframe": "SPRINT eligibility (all ages); applies to the 75+ subgroup",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The trial behind US and European blood pressure targets did not enrol people living in care homes, people with a diagnosis of dementia, people with diabetes or a previous stroke, people expected to live less than 3 years, or people whose systolic pressure fell below 110 after a minute of standing.",
+   "qualifications": "Call SPRINT 'the trial behind US and European targets' (editor's guidance; see C07-03-g), never 'the trial behind lower targets' without qualification, because NICE did not adopt SPRINT targets. 'Care home' is a fair UK rendering of 'nursing home'.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "110 mmHg",
+     "meaning": "standing systolic threshold for exclusion, after 1 minute standing"
+    },
+    {
+     "value": "3 years",
+     "meaning": "expected survival below which people were excluded"
+    },
+    {
+     "value": ">10% in 6 months",
+     "meaning": "unintentional weight loss exclusion"
+    },
+    {
+     "value": "<35%",
+     "meaning": "ejection fraction exclusion"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-b",
+   "cand_id": "C07-03",
+   "claim": "The SPRINT investigators state that their over-75 results do not provide evidence on targets for nursing home residents or people with diabetes, stroke or symptomatic heart failure, groups at higher falls risk.",
+   "source_keys": [
+    "PMID:27195814"
+   ],
+   "supporting_passage": "Full text (Discussion): \"In addition, the trial did not enroll older adults residing in nursing homes, persons with type 2 diabetes or prevalent stroke (because of concurrent BP lowering trials),and individuals with symptomatic heart failure due to protocol differences required to maintain BP control in this condition. Therefore, the results reported in this study among persons aged 75 years or older do not provide evidence regarding treatment targets in these populations. Individuals with these conditions also represent a subset of older persons at increased risk for falls.\"",
+   "location": "Full text, Discussion (limitations)",
+   "pico_timeframe": "SPRINT 75+ subgroup / generalisability statement by the authors",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The trial's own authors wrote that its results do not tell us the right target for people in care homes or with diabetes, stroke or heart failure, and that these people are more likely to fall.",
+   "qualifications": "The authors' limitation list does not name dementia, although dementia was an exclusion (C07-03-a).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C07-03-c",
+   "cand_id": "C07-03",
+   "claim": "In SPRINT participants aged 75 and over, a systolic target below 120 (vs below 140) reduced major cardiovascular events and deaths: 2.59% vs 3.85% per year; NNT 27 for the primary outcome and 41 for death over 3.14 years.",
+   "source_keys": [
+    "PMID:27195814"
+   ],
+   "supporting_passage": "Full text (Results): \"A primary composite outcome event was observed for 102 participants (2.59% per year) in the intensive treatment group and for 148 participants (3.85% per year) in the standard treatment group (HR, 0.66 [95% CI, 0.51–0.85];). Results were similar for all-cause mortality (there were 73 deaths in the intensive treatment group and 107 deaths in the standard treatment group; HR, 0.67 [95% CI, 0.49–0.91]).\" ... \"At 3.14 years, the number needed to treat (NNT) estimate for the primary outcome was 27 (95% CI, 19–61) and for all-cause mortality it was 41 (95% CI, 27–145).\" ... \"Throughout follow-up, the mean SBP in the intensive treatment group was 123.4 mm Hg, and it was 134.8 mm Hg in the standard treatment group.\" Discussion: \"total mortality by 32%(from 2.63% to 1.78% per year).\"",
+   "location": "Full text, Results (Blood Pressure Levels; Clinical Outcomes) and Discussion",
+   "pico_timeframe": "2636 US ambulatory community-dwelling adults aged 75+ (mean 79.9) with hypertension, no diabetes / SBP target <120 / SBP target <140 / composite of MI, ACS, stroke, acute decompensated heart failure, CV death; all-cause death / median 3.14 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In the trial's 2636 people aged 75 and over (average age 80), aiming for a systolic pressure below 120 rather than below 140 meant fewer heart attacks, strokes, heart failure admissions and cardiovascular deaths: about 2.6 vs 3.9 in 100 each year. Over about 3 years, one such event was prevented for every 27 people treated this way, and one death for every 41.",
+   "qualifications": "Applies to people well enough to join the trial (C07-03-a). Achieved mean systolic was 123 vs 135, not 120 vs 140. The trial stopped early for benefit, which can overstate effects. Measurement differed from routine clinics (C07-03-f).",
+   "conflicting_or_uncertain": "HYVET (people aged 80+, target below 150) also showed benefit, per the Williamson discussion; not separately verified here.",
+   "numbers": [
+    {
+     "value": "2636",
+     "meaning": "participants aged 75+ (1317 intensive, 1319 standard)"
+    },
+    {
+     "value": "79.9",
+     "meaning": "mean age"
+    },
+    {
+     "value": "3.14 years",
+     "meaning": "median follow-up"
+    },
+    {
+     "value": "2.59% vs 3.85% per year",
+     "meaning": "primary outcome rate, intensive vs standard"
+    },
+    {
+     "value": "102 vs 148",
+     "meaning": "primary outcome events"
+    },
+    {
+     "value": "73 vs 107",
+     "meaning": "deaths"
+    },
+    {
+     "value": "1.78% vs 2.63% per year",
+     "meaning": "death rate, intensive vs standard"
+    },
+    {
+     "value": "27 (19 to 61)",
+     "meaning": "number needed to treat over 3.14 years to prevent one primary outcome event"
+    },
+    {
+     "value": "41 (27 to 145)",
+     "meaning": "number needed to treat over 3.14 years to prevent one death"
+    },
+    {
+     "value": "123.4 vs 134.8 mmHg",
+     "meaning": "mean achieved systolic during follow-up"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-d",
+   "cand_id": "C07-03",
+   "claim": "In SPRINT's over-75s, serious adverse events and injurious falls did not differ significantly between groups; hypotension, syncope, electrolyte problems and acute kidney injury were numerically more common with intensive treatment, and a decline in kidney function was significantly more common in those without baseline CKD.",
+   "source_keys": [
+    "PMID:27195814",
+    "PMID:26551272"
+   ],
+   "supporting_passage": "Full text (Results): \"In the intensive treatment group, SAEs occurred in 637 participants (48.4%) compared with 637 participants (48.3%) in the standard treatment group (HR, 0.99 [95% CI, 0.89–1.11];= .90). The absolute rate of SAEs was higher but was not statistically significantly different in the intensive treatment group for hypotension (2.4% vs 1.4% in the standard treatment group; HR, 1.71 [95% CI, 0.97–3.09]), syncope (3.0% vs 2.4%, respectively; HR, 1.23 [95% CI, 0.76–2.00]), electrolyte abnormalities (4.0% vs 2.7%; HR, 1.51 [95% CI, 0.99–2.33]), and acute kidney injury or renal failure (5.5% vs 4.0%; HR, 1.41 [95% CI, 0.98–2.04]). However, the absolute rate of injurious falls was lower but was not statistically significantly different in the intensive treatment group (4.9% vs 5.5% in the standard treatment group; HR, 0.91 [95% CI, 0.65–1.29]).\" ... \"(a 30% decrease in eGFR from baseline to an eGFR <60 mL/min/1.73 m[1.70% vs 0.58% per year, respectively]; HR, 3.14 [95% CI, 1.66–6.37]).\" PMID 26551272 abstract (whole trial, 9361 participants): \"Rates of serious adverse events of hypotension, syncope, electrolyte abnormalities, and acute kidney injury or failure, but not of injurious falls, were higher in the intensive-treatment group than in the standard-treatment group.\"",
+   "location": "Full text, Results (Serious Adverse Events; Clinical Outcomes); PMID 26551272 abstract (Results)",
+   "pico_timeframe": "SPRINT 75+ subgroup / intensive vs standard / SAEs, injurious falls, orthostatic hypotension, AKI, eGFR decline / median 3.14 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Serious side effects were equally common (about 48 in 100 in each group), and injurious falls did not differ clearly (about 5 in 100 in each group). Low blood pressure, fainting, salt imbalance and kidney injury were a little more common with the lower target, though not clearly so, and a fall in kidney function was clearly more common.",
+   "qualifications": "Falls and syncope counted only if evaluated in an emergency department. The trial population excluded people most likely to fall (C07-03-b).",
+   "conflicting_or_uncertain": "Observational data in less selected older people link antihypertensive use with serious fall injuries (C07-03-i).",
+   "numbers": [
+    {
+     "value": "48.4% vs 48.3%",
+     "meaning": "serious adverse events, intensive vs standard"
+    },
+    {
+     "value": "4.9% vs 5.5%",
+     "meaning": "injurious falls (HR 0.91, 0.65 to 1.29)"
+    },
+    {
+     "value": "2.4% vs 1.4%",
+     "meaning": "hypotension SAEs"
+    },
+    {
+     "value": "3.0% vs 2.4%",
+     "meaning": "syncope"
+    },
+    {
+     "value": "5.5% vs 4.0%",
+     "meaning": "acute kidney injury or renal failure"
+    },
+    {
+     "value": "21.0% vs 21.8%",
+     "meaning": "orthostatic hypotension at clinic visits"
+    },
+    {
+     "value": "1.70% vs 0.58% per year",
+     "meaning": "30% eGFR decline to <60 in those without CKD (HR 3.14)"
+    },
+    {
+     "value": "9361",
+     "meaning": "participants in the whole SPRINT trial (all ages)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-e",
+   "cand_id": "C07-03",
+   "claim": "About 31% of SPRINT's over-75s were classed as frail on a 37-item frailty index, and in exploratory analyses the benefit of intensive treatment was consistent across frailty and gait-speed groups.",
+   "source_keys": [
+    "PMID:27195814"
+   ],
+   "supporting_passage": "Full text: \"Frailty status at randomization was quantified using a previously reported 37-item frailty index.\" ... \"Overall, 815 participants (30.9%) were classified as frail and 1456 (55.2%) as less fit\" ... \"However, within each frailty stratum, absolute event rates were lower for the intensive treatment group (= .84 for interaction).\" ... \"However, these analyses should be interpreted cautiously. The analyses were not prespecified in the trial protocol and were possibly under powered\"",
+   "location": "Full text, Methods; Results (Exploratory Subgroup Analyses); Discussion",
+   "pico_timeframe": "SPRINT 75+ subgroup stratified by frailty index (fit <=0.10, less fit >0.10 to <=0.21, frail >0.21) and gait speed / primary outcome",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "About 3 in 10 of these older participants counted as frail on a frailty index, and the benefit looked similar in them. These were still people living at home, able to walk, without dementia, whose pressure held up on standing.",
+   "qualifications": "Exploratory, not prespecified, possibly underpowered. 'Frail' on a 37-item deficit index in ambulatory volunteers is not the same as frailty in a care home resident. Editor's phrase 'benefit shown in fit over-75s' should read 'in over-75s well enough to join the trial, including some classed as frail'.",
+   "conflicting_or_uncertain": "None beyond the stated caution.",
+   "numbers": [
+    {
+     "value": "815 (30.9%)",
+     "meaning": "participants classed as frail"
+    },
+    {
+     "value": "1456 (55.2%)",
+     "meaning": "classed as less fit"
+    },
+    {
+     "value": "37",
+     "meaning": "items in the frailty index"
+    },
+    {
+     "value": "p=0.84",
+     "meaning": "test for interaction by frailty"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-f",
+   "cand_id": "C07-03",
+   "claim": "SPRINT measured blood pressure with an automated, unattended protocol; in the same participants, routine clinic readings were on average higher than trial readings (7.3 mmHg in the intensive group, 4.6 mmHg in the standard group), with wide variation.",
+   "source_keys": [
+    "PMID:27195814",
+    "PMID:33044494"
+   ],
+   "supporting_passage": "PMID 27195814 full text (Methods): \"Blood pressure was determined using the mean of 3 properly sized automated cuff readings, taken 1 minute apart after 5 minutes of quiet rest without staff in the room.\" PMID 33044494 abstract: \"In the period from the 6-month study visit to the end of the study intervention, the mean systolic BP (SBP) in the intensive treatment group from outpatient BP recorded in the EHR was 7.3 mm Hg higher (95% CI, 7.0-7.6 mm Hg) than BP measured at trial visits; the mean difference between BP recorded in the outpatient EHR and trial SBP was smaller for participants in the standard treatment group (4.6 mm Hg [95% CI, 4.4-4.9 mm Hg]). Bland-Altman analyses demonstrated low agreement between outpatient BP recorded in the EHR and trial BP, with wide agreement intervals ranging from approximately -30 mm Hg to 45 mm Hg in both treatment groups.\" ... \"an inability to apply 1 common correction factor (ie, approximately 10 mm Hg) to approximate research-quality BP estimates when BP is not measured appropriately in routine clinical practice.\"",
+   "location": "PMID 27195814 full text Methods; PMID 33044494 abstract",
+   "pico_timeframe": "3074 SPRINT participants at 49 sites (mean age 68.5) / routine outpatient BP in electronic records vs trial protocol BP / mean difference / 2010 to 2015",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "SPRINT took the average of 3 automatic readings after 5 minutes' quiet rest, with no staff in the room. In the same people, everyday clinic readings averaged about 5 to 7 mmHg higher than the trial readings, and the gap varied widely. A routine clinic reading of 120 is not the same as SPRINT's 120.",
+   "qualifications": "The comparison is routine clinic vs trial protocol, not specifically attended vs unattended. No fixed correction factor applies.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "3",
+     "meaning": "automated readings averaged, 1 minute apart"
+    },
+    {
+     "value": "5 minutes",
+     "meaning": "rest before measurement, no staff in room"
+    },
+    {
+     "value": "7.3 mmHg (7.0 to 7.6)",
+     "meaning": "routine clinic minus trial systolic, intensive group"
+    },
+    {
+     "value": "4.6 mmHg (4.4 to 4.9)",
+     "meaning": "routine clinic minus trial systolic, standard group"
+    },
+    {
+     "value": "-30 to 45 mmHg",
+     "meaning": "approximate limits of agreement"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-g",
+   "cand_id": "C07-03",
+   "claim": "SPRINT is the trial behind the lower targets in US (2017 ACC/AHA) and European (2018 ESC/ESH) guidelines; NICE's 2019 guideline did not adopt lower targets, keeping clinic BP below 140/90 for under-80s and asking for judgement about frailty and comorbidity in over-80s.",
+   "source_keys": [
+    "PMID:31002956",
+    "PMID:32001477"
+   ],
+   "supporting_passage": "PMID 31002956 abstract: \"Both,the 2017 ACC/AHA and the 2018 ESC/ESH guidelines in hypertension are derived from the SPRINT trial and advise initiation and/or intensification of treatment at lower blood pressure thresholds.\" PMID 32001477 full text: \"For patients aged <80 years, treatment should aim to reduce clinic BP below 140/90 mmHg or 135/85 mmHg if using HBPM. Unlike recent US and European guidance, NICE does not suggest aiming for lower BP targets, because of a lack of evidence in primary prevention as well as the increased risk associated with this strategy, including falls and electrolyte imbalance.\" ... \"Other than the landmark HyVET trial, which used a treatment threshold of 150 mmHg systolic BP, there is a lack of evidence regarding treatment targets for patients aged >80 years and the potential risks of treatment are greater in this group. NICE therefore advocates clinicians judging whether to recommend treatment based on individual case merit but taking into account factors such as frailty and other comorbidities, particularly where treatment below 150 mmHg is being considered.\"",
+   "location": "PMID 31002956 abstract; PMID 32001477 full text (Diagnosing hypertension; treatment targets)",
+   "pico_timeframe": "Guideline positions: ACC/AHA 2017, ESC/ESH 2018, NICE NG136 2019",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "SPRINT was the trial behind the lower blood pressure targets in the 2017 US and 2018 European guidelines. NICE's 2019 guideline did not adopt them: it kept a clinic target below 140/90 for people under 80, citing a lack of evidence and risks including falls, and for people over 80 it asks clinicians to weigh frailty and other illnesses.",
+   "qualifications": "The NICE statement comes from a BJGP summary by guideline contributors, not the guideline text; NG136 has been updated since 2019 (not re-checked). 'Derived from SPRINT' is the Fernandes and Olde Rikkert characterisation; other trials and meta-analyses also informed US and European guidance. Do not state current (2024) European target numbers; not verified here.",
+   "conflicting_or_uncertain": "None found that contradicts the NICE position.",
+   "numbers": [
+    {
+     "value": "140/90",
+     "meaning": "NICE clinic BP target for people under 80 (135/85 home readings)"
+    },
+    {
+     "value": "150 mmHg",
+     "meaning": "HYVET treatment threshold, cited by NICE for over-80s"
+    },
+    {
+     "value": "2017 / 2018",
+     "meaning": "ACC/AHA and ESC/ESH guideline years"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-h",
+   "cand_id": "C07-03",
+   "claim": "NICE (2019) advises measuring standing blood pressure in people aged 80 or over, people with type 2 diabetes and people with symptoms of postural hypotension, and targeting treatment at the standing reading when the systolic drop exceeds 20 mmHg.",
+   "source_keys": [
+    "PMID:32001477"
+   ],
+   "supporting_passage": "Full text: \"Standing BP should be measured in those with type 2 diabetes, aged ≥80 years, and patients with symptoms of postural hypotension. The standing BP should be measured after the person has been standing for at least 1 minute. Where there is a significant postural drop in systolic BP (>20 mmHg), treatment should be targeted at the standing BP.\"",
+   "location": "Full text (Diagnosing hypertension)",
+   "pico_timeframe": "NICE NG136 2019 recommendation as summarised by guideline contributors",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance says to measure blood pressure standing, after at least a minute, in anyone aged 80 or over, anyone with type 2 diabetes and anyone with dizziness on standing. If the top number falls by more than 20, treatment should be judged on the standing reading.",
+   "qualifications": "Secondary summary of NG136; wording of the live guideline not re-checked.",
+   "conflicting_or_uncertain": "Trial data suggest the benefit of treatment is similar in people with a postural drop (C07-03-i), so a postural drop is a reason to adjust treatment to the standing reading, not by itself a reason to withhold treatment.",
+   "numbers": [
+    {
+     "value": "80",
+     "meaning": "age from which NICE advises standing BP measurement"
+    },
+    {
+     "value": "1 minute",
+     "meaning": "minimum standing time before measurement"
+    },
+    {
+     "value": ">20 mmHg",
+     "meaning": "systolic postural drop at which treatment targets standing BP"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-03-i",
+   "cand_id": "C07-03",
+   "claim": "Conflicting or qualifying evidence: in an individual participant meta-analysis of 9 trials, intensive treatment reduced CVD or death similarly with or without baseline orthostatic hypotension; in a US observational cohort of adults over 70, antihypertensive use was linked with serious fall injuries, especially after a previous fall injury.",
+   "source_keys": [
+    "PMID:37847274",
+    "PMID:24567036"
+   ],
+   "supporting_passage": "PMID 37847274 abstract: \"The 9 trials included 29 235 participants followed up for a median of 4 years (mean age, 69.0 [SD, 10.9] years; 48% women). There were 9% with orthostatic hypotension and 5% with standing hypotension at baseline. More intensive BP treatment or active therapy lowered risk of CVD or all-cause mortality among those without baseline orthostatic hypotension (hazard ratio [HR], 0.81; 95% CI, 0.76-0.86) similarly to those with baseline orthostatic hypotension (HR, 0.83; 95% CI, 0.70-1.00; P = .68 for interaction of treatment with baseline orthostatic hypotension).\" PMID 24567036 abstract: \"The adjusted hazard ratios for serious fall injury were 1.40 (95% CI, 1.03-1.90) in the moderate-intensity and 1.28 (95% CI, 0.91-1.80) in the high-intensity antihypertensive groups compared with nonusers.\" ... \"Among 503 participants with a previous fall injury, the adjusted hazard ratios were 2.17 (95% CI, 0.98-4.80) for the moderate-intensity and 2.31 (95% CI, 1.01-5.29) for the high-intensity antihypertensive groups.\"",
+   "location": "Abstracts (Results)",
+   "pico_timeframe": "Juraschek: 29,235 trial participants, mean age 69 / more intensive or active BP treatment / by baseline orthostatic or standing hypotension / CVD or death / median 4 years. Tinetti: 4961 US adults >70 with hypertension / antihypertensive intensity vs none / serious fall injury / 3 years, observational",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Two findings pull in different directions. Across 9 trials, lowering blood pressure helped people with a drop on standing as much as people without one. But in ordinary older people outside trials, taking blood pressure tablets was linked with more serious fall injuries, especially in people who had already been injured in a fall; that study does not show the tablets caused the falls.",
+   "qualifications": "Tinetti is observational: use 'linked with', not 'causes'; hazard ratios must not be turned into 'X times more likely'. Juraschek covers trial participants (mean age 69) with few people with standing hypotension (5%).",
+   "conflicting_or_uncertain": "This is the main uncertainty for the post's position: support 'use the standing reading and the person's falls and goals to set the target', not 'withhold treatment because of a postural drop'.",
+   "numbers": [
+    {
+     "value": "29,235",
+     "meaning": "trial participants in IPD meta-analysis"
+    },
+    {
+     "value": "HR 0.81 vs 0.83",
+     "meaning": "CVD or death with intensive treatment, without vs with baseline orthostatic hypotension"
+    },
+    {
+     "value": "9% / 5%",
+     "meaning": "baseline orthostatic / standing hypotension"
+    },
+    {
+     "value": "4961",
+     "meaning": "participants in Tinetti cohort"
+    },
+    {
+     "value": "aHR 1.40 (1.03 to 1.90)",
+     "meaning": "serious fall injury, moderate-intensity antihypertensive vs none"
+    },
+    {
+     "value": "aHR 2.31 (1.01 to 5.29)",
+     "meaning": "serious fall injury, high-intensity vs none, in those with previous fall injury"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-22-a",
+   "cand_id": "C07-22",
+   "claim": "OPTIMISE randomised 569 people aged 80 and over (mean 84.8) in 69 English general practices, with systolic below 150 mmHg on at least two antihypertensives and judged suitable by their GP, to removal of one drug or usual care; unblinded, 12-week primary follow-up.",
+   "source_keys": [
+    "PMID:32453368"
+   ],
+   "supporting_passage": "Abstract: \"The Optimising Treatment for Mild Systolic Hypertension in the Elderly (OPTIMISE) study was a randomized, unblinded, noninferiority trial conducted in 69 primary care sites in England. Participants, whose primary care physician considered them appropriate for medication reduction, were aged 80 years and older, had systolic blood pressure lower than 150 mm Hg, and were receiving at least 2 antihypertensive medications were included.\" ... \"Participants were randomized (1:1 ratio) to a strategy of antihypertensive medication reduction (removal of 1 drug [intervention], n = 282) or usual care (control, n = 287)\" ... \"Among 569 patients randomized (mean age, 84.8 years; 276 [48.5%] women; median of 2 antihypertensive medications prescribed at baseline), 534 (93.8%) completed the trial.\"",
+   "location": "Abstract (Design, Interventions, Results)",
+   "pico_timeframe": "569 people aged 80+ in English primary care, SBP <150 on 2+ drugs, GP-selected / removal of 1 antihypertensive / usual care / SBP <150 at 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A trial in 69 English GP practices took 569 people aged 80 and over (average age 85) whose blood pressure was under control on two or more tablets. Half had one tablet stopped; half carried on as usual.",
+   "qualifications": "GPs chose people they thought suitable, so results apply to people a GP would consider for a reduction. Unblinded.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "569",
+     "meaning": "randomised (282 reduction, 287 usual care)"
+    },
+    {
+     "value": "84.8",
+     "meaning": "mean age"
+    },
+    {
+     "value": "69",
+     "meaning": "general practices"
+    },
+    {
+     "value": "<150 mmHg",
+     "meaning": "systolic entry criterion"
+    },
+    {
+     "value": "534 (93.8%)",
+     "meaning": "completed 12 weeks"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-22-b",
+   "cand_id": "C07-22",
+   "claim": "At 12 weeks, systolic below 150 mmHg in 86.4% of the reduction group vs 87.7% of usual care (non-inferior); systolic rose 3.4 mmHg more with reduction; serious adverse events 4.3% vs 2.4% (not significant).",
+   "source_keys": [
+    "PMID:32453368"
+   ],
+   "supporting_passage": "Abstract: \"Overall, 229 (86.4%) patients in the intervention group and 236 (87.7%) patients in the control group had a systolic blood pressure lower than 150 mm Hg at 12 weeks (adjusted RR, 0.98 [97.5% 1-sided CI, 0.92 to ∞]).\" ... \"Mean change in systolic blood pressure was 3.4 mm Hg (95% CI, 1.1 to 5.8 mm Hg) higher in the intervention group compared with the control group. Twelve (4.3%) participants in the intervention group and 7 (2.4%) in the control group reported at least 1 serious adverse event (adjusted RR, 1.72 [95% CI, 0.7 to 4.3]).\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "As C07-22-a / 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "After 12 weeks, blood pressure was still under 150 in about 86 in 100 people who had a tablet stopped and 88 in 100 who carried on as usual. Systolic pressure was on average about 3 points higher after stopping a tablet.",
+   "qualifications": "Percentages are of people with 12-week data (about 265 and 269). Serious adverse events: 12 vs 7 people, too few to show a clear difference in either direction.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "229 (86.4%) vs 236 (87.7%)",
+     "meaning": "systolic <150 at 12 weeks, reduction vs usual care"
+    },
+    {
+     "value": "0.98",
+     "meaning": "adjusted relative risk; non-inferiority margin 0.90"
+    },
+    {
+     "value": "3.4 mmHg (1.1 to 5.8)",
+     "meaning": "greater rise in systolic with reduction"
+    },
+    {
+     "value": "12 (4.3%) vs 7 (2.4%)",
+     "meaning": "people with at least one serious adverse event"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-22-c",
+   "cand_id": "C07-22",
+   "claim": "About two thirds (66.3%) of the reduction group were still on the reduced regimen at 12 weeks.",
+   "source_keys": [
+    "PMID:32453368"
+   ],
+   "supporting_passage": "Abstract: \"Medication reduction was sustained in 187 (66.3%) participants at 12 weeks.\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "Reduction group (n=282) / 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 2 in 3 people who stopped a tablet were still managing without it at 12 weeks.",
+   "qualifications": "Denominator is the 282 randomised to reduction.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "187 (66.3%)",
+     "meaning": "of 282 in the reduction group still on reduced regimen at 12 weeks"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-22-d",
+   "cand_id": "C07-22",
+   "claim": "Long-term follow-up (median 4 years) found no clear difference in hospital admission or death (72% vs 77%), and about half of surviving intervention participants still had the reduction.",
+   "source_keys": [
+    "PMID:39094592"
+   ],
+   "supporting_passage": "Abstract: \"Of these, 564 (99%; intervention=280; control=284) were followed up for a median of 4·0 years (IQR 3·7-4·3).\" ... \"Medication reduction was sustained in 109 participants at follow-up (51% of the 213 participants alive in the intervention group).\" ... \"Overall, 202 (72%) participants in the intervention group and 218 (77%) participants in the control group experienced hospitalisation or mortality during follow-up (adjusted hazard ratio [aHR] 0·93 [95% CI 0·76 to 1·12]). There was some evidence that the proportion of participants experiencing the primary outcome in the per-protocol population was lower in the intervention group (aHR 0·80 [0·64 to 1·00]).\"",
+   "location": "Abstract (Findings)",
+   "pico_timeframe": "564 OPTIMISE participants / reduction vs usual care (original allocation) / all-cause hospitalisation or death / median 4.0 years via electronic records",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Four years later, the trial team checked health records. About 72 in 100 of the people who had a tablet stopped and 77 in 100 of those who carried on had been admitted to hospital or had died, which is not a clear difference. About half of those still alive in the first group were still on fewer tablets.",
+   "qualifications": "Small study; the uncertainty range runs from about 24% lower to 12% higher risk, so a modest benefit or harm is not excluded. Strokes and heart attacks were not reported separately in the abstract. The candidate's line 'the trial did not measure long-term outcomes' is now wrong and must be replaced.",
+   "conflicting_or_uncertain": "A larger trial (OPTIMISE2) is under way (C07-22-e).",
+   "numbers": [
+    {
+     "value": "564",
+     "meaning": "followed up (280 reduction, 284 usual care)"
+    },
+    {
+     "value": "4.0 years",
+     "meaning": "median follow-up"
+    },
+    {
+     "value": "202 (72%) vs 218 (77%)",
+     "meaning": "hospitalised or died"
+    },
+    {
+     "value": "aHR 0.93 (0.76 to 1.12)",
+     "meaning": "relative effect, intention to treat"
+    },
+    {
+     "value": "109 (51% of 213)",
+     "meaning": "survivors in reduction group still on reduced regimen"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-22-e",
+   "cand_id": "C07-22",
+   "claim": "A larger trial, OPTIMISE2, is enrolling about 3000 people aged 75 and over who are frail or at higher risk of side effects, with emergency hospitalisation or death at 1 year as the primary outcome.",
+   "source_keys": [
+    "PMID:41689048"
+   ],
+   "supporting_passage": "Abstract: \"The OPTIMISE2 trial aims to enrol 3014 participants into the trial and actively follow them up for 1 year. Participants are aged 75 years and above and taking two or more blood pressure lowering drugs, with controlled blood pressure readings (systolic blood pressure < 140 mmHg if aged 75-79 years or < 150 mmHg if aged 80+ years), frail and/or at a higher risk of serious drug-related side effects of hypotension, syncope and falls.\" ... \"The primary outcome is emergency hospitalisation or death within 1 year of randomisation.\"",
+   "location": "Abstract (Methods)",
+   "pico_timeframe": "Protocol: 3014 planned, aged 75+, frail or high risk / step-down reduction vs usual care / emergency hospitalisation or death / 1 year",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "A larger UK trial of about 3000 people aged 75 and over, who are frail or prone to falls or fainting, is now testing whether stopping blood pressure tablets is safe.",
+   "qualifications": "Protocol only; results not available. Do not imply results.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "3014",
+     "meaning": "planned participants"
+    },
+    {
+     "value": "75",
+     "meaning": "minimum age"
+    },
+    {
+     "value": "1 year",
+     "meaning": "follow-up for primary outcome"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-28-a",
+   "cand_id": "C07-28",
+   "claim": "StatinWISE enrolled 200 people at 50 UK primary care sites who had stopped or were considering stopping statins because of muscle symptoms (mean age 69.1; 70% with previous cardiovascular disease); each had six double-blind 2-month periods (three atorvastatin 20 mg, three placebo) in random order over a year.",
+   "source_keys": [
+    "PMID:33627334"
+   ],
+   "supporting_passage": "Abstract: \"Primary care across 50 sites in the United Kingdom, December 2016 to April 2018.\" ... \"200 participants who had recently stopped or were considering stopping treatment with statins because of muscle symptoms.\" ... \"Participants were randomised to a sequence of six double blinded treatment periods (two months each) of atorvastatin 20 mg daily or placebo.\" Full text (Scite excerpts): \"The overall length of the trial was one year for each participant and comprised six two month treatment periods (three of placebo, three of active treatment) in a randomly allocated order.\" ... \"Mean age was 69.1 (standard deviation 9.5), 115/200 (58%) participants were men, and 140/200 (70%) had a history of cardiovascular disease.\"",
+   "location": "Abstract (Setting, Participants, Interventions); full text Methods and Results (Scite excerpts)",
+   "pico_timeframe": "200 UK primary care patients with prior statin-attributed muscle symptoms / atorvastatin 20 mg / identical placebo / muscle symptom score 0 to 10 / six 2-month periods over 1 year",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a UK trial, 200 people who had blamed muscle aches on their statin (average age 69) spent a year switching between statin and identical dummy tablets, two months at a time, in a random order that neither they nor their doctors knew.",
+   "qualifications": "Not 'alternating months' (candidate's draft): six 2-month blocks in random order. 7 in 10 had heart disease or stroke, so most were taking statins for secondary prevention.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "200",
+     "meaning": "participants"
+    },
+    {
+     "value": "50",
+     "meaning": "UK primary care sites"
+    },
+    {
+     "value": "69.1",
+     "meaning": "mean age"
+    },
+    {
+     "value": "70% (140/200)",
+     "meaning": "history of cardiovascular disease"
+    },
+    {
+     "value": "6 x 2 months",
+     "meaning": "treatment periods (3 statin, 3 placebo) over 1 year"
+    },
+    {
+     "value": "20 mg",
+     "meaning": "atorvastatin dose"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-28-b",
+   "cand_id": "C07-28",
+   "claim": "Muscle symptom scores did not differ between statin and placebo periods; withdrawals for intolerable symptoms were similar (9% during statin, 7% during placebo periods).",
+   "source_keys": [
+    "PMID:33627334"
+   ],
+   "supporting_passage": "Abstract: \"151 participants provided symptoms scores for at least one statin period and one placebo period and were included in the primary analysis. Overall, no difference in muscle symptom scores was found between the statin and placebo periods (mean difference statin minus placebo -0.11, 95% confidence interval -0.36 to 0.14; P=0.40)). Withdrawals because of intolerable muscle symptoms were 18 participants (9%) during a statin period and 13 (7%) during a placebo period.\" Full text: \"The observed mean muscle symptom score on the visual analogue scale was lower during statin treatment periods (mean 1.68, standard deviation 2.57) than during placebo periods (1.85, 2.74).\"",
+   "location": "Abstract (Results); full text Results (Scite excerpt)",
+   "pico_timeframe": "As C07-28-a / 151 in primary analysis",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Their aches scored about the same on the statin and on the dummy tablets (around 2 out of 10 in both). About as many people dropped out because of aches while on the dummy tablets (13) as on the statin (18).",
+   "qualifications": "Group-level result; a few individuals may still have had statin-related symptoms. 151 of 200 contributed to the primary analysis.",
+   "conflicting_or_uncertain": "Large blinded trials show statins do cause a small excess of mostly mild muscle symptoms (C07-28-d).",
+   "numbers": [
+    {
+     "value": "151",
+     "meaning": "participants in primary analysis"
+    },
+    {
+     "value": "-0.11 (-0.36 to 0.14)",
+     "meaning": "mean difference in 0 to 10 symptom score, statin minus placebo"
+    },
+    {
+     "value": "1.68 vs 1.85",
+     "meaning": "mean symptom scores, statin vs placebo periods"
+    },
+    {
+     "value": "18 (9%) vs 13 (7%)",
+     "meaning": "withdrawals for intolerable muscle symptoms during statin vs placebo periods (of 200)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-28-c",
+   "cand_id": "C07-28",
+   "claim": "About two thirds of those completing the trial reported restarting long-term statins.",
+   "source_keys": [
+    "PMID:33627334"
+   ],
+   "supporting_passage": "Abstract: \"Two thirds of those completing the trial reported restarting long term treatment with statins.\" ... \"Most people completing the trial intended to restart treatment with statins.\"",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "Trial completers / self-reported intention to restart",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 2 in 3 people who finished the trial said they would go back on a statin.",
+   "qualifications": "Denominator is completers, not all 200. It is a reported intention, not measured long-term use.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "two thirds",
+     "meaning": "of completers reported restarting long-term statins"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-28-d",
+   "cand_id": "C07-28",
+   "claim": "In large blinded trials, statins caused a small excess of mostly mild muscle symptoms, mainly in the first year; more than 90% of muscle symptom reports by people on statins were not due to the statin.",
+   "source_keys": [
+    "PMID:36049498"
+   ],
+   "supporting_passage": "Abstract: \"Among 19 placebo-controlled trials (mean age 63 years [SD 8] ...), during a weighted average median follow-up of 4·3 years, 16 835 (27·1%) allocated statin versus 16 446 (26·6%) allocated placebo reported muscle pain or weakness (rate ratio [RR] 1·03; 95% CI 1·01-1·06). During year 1, statin therapy produced a 7% relative increase in muscle pain or weakness (1·07; 1·04-1·10), corresponding to an absolute excess rate of 11 (6-16) events per 1000 person-years, which indicates that only one in 15 ([1·07-1·00]/1·07) of these muscle-related reports by participants allocated to statin therapy were actually due to the statin. After year 1, there was no significant excess in first reports of muscle pain or weakness (0·99; 0·96-1·02).\" ... \"Statin therapy caused a small excess of mostly mild muscle pain. Most (>90%) of all reports of muscle symptoms by participants allocated statin therapy were not due to the statin.\"",
+   "location": "Abstract (Findings, Interpretation)",
+   "pico_timeframe": "19 double-blind statin vs placebo trials, 123,940 participants (mean age 63) / statin vs placebo / muscle pain or weakness / median 4.3 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In big trials where nobody knew who was on which tablet, about 27 in 100 people reported muscle pain or weakness, whether on a statin or a dummy tablet. Statins did cause a small extra amount, mostly mild and mostly in the first year. Of the aches reported by people on statins, more than 9 in 10 were not caused by the statin.",
+   "qualifications": "Trial participants were younger (mean 63). Higher-intensity statins gave a slightly larger excess. The '1 in 15' figure applies to first-year reports on moderate-intensity regimens.",
+   "conflicting_or_uncertain": "Consistent with StatinWISE.",
+   "numbers": [
+    {
+     "value": "27.1% vs 26.6%",
+     "meaning": "reported muscle pain or weakness, statin vs placebo, over median 4.3 years"
+    },
+    {
+     "value": "11 (6 to 16) per 1000 person-years",
+     "meaning": "absolute excess in year 1"
+    },
+    {
+     "value": "1 in 15",
+     "meaning": "first-year muscle reports on statin actually due to statin"
+    },
+    {
+     "value": ">90%",
+     "meaning": "muscle symptom reports on statin not due to statin"
+    },
+    {
+     "value": "123,940",
+     "meaning": "participants in 19 placebo-controlled trials"
+    }
+   ]
+  },
+  {
+   "claim_id": "C07-28-e",
+   "cand_id": "C07-28",
+   "claim": "A blinded test is needed to separate a drug's effect from expectation; an everyday stop-and-restart without dummy tablets is a weaker test.",
+   "source_keys": [
+    "PMID:33627334"
+   ],
+   "supporting_passage": "Full text (Discussion, Scite excerpt): \"Various explanations have been offered: the nocebo effect, in which expectations of adverse effects might lead patients to attribute muscle symptoms during treatment with statins to the statins themselves 27. Also, muscle aches and pains are common among the age group taking statins and might occur coincidentally with the use of statins, leading patients and clinicians to erroneously attribute pain to statins 28. Lack of randomisation and blinding in observational studies imply that for a subjective symptom, such as muscle pain, an association with the use of statins might not be causal.\" Abstract: \"N-of-1 trials can assess drug effects at the group level and guide individual treatment.\"",
+   "location": "Full text Discussion (Scite excerpt); abstract Conclusions",
+   "pico_timeframe": "Interpretive statement by trial authors",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Aches are common at this age, and expecting side effects can make people notice them more. That is why the trial used dummy tablets. Stopping and restarting a statin without dummy tablets is still worth discussing with your doctor, but it is a less reliable test, because you know when you are taking it.",
+   "qualifications": "The 'weaker test' point is an inference from the authors' nocebo and blinding discussion, not something the trial measured. Do not claim that blinded n-of-1 trials are or are not available on the NHS: not verified. Keep the candidate's point that declining statins for other reasons (time to benefit, priorities) is a legitimate choice, marked as judgement.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C07-05",
+   "status": "ready",
+   "reason": "All essential claims are supported from ASPREE abstracts and full-text excerpts: design and the disability-free survival outcome with its definition (19,114; aged 70+, 65+ for US Black and Hispanic participants; ADL loss for at least 6 months), no difference in disability-free survival over a median 4.7 years (21.5 vs 21.2 per 1000 person-years) and none over almost a decade (ASPREE-XT), major haemorrhage 3.8% vs 2.8%, and the secondary prevention caveat (ATT 2009; ASPREE excluded CVD). Changes needed: the judge's mortality figures 5.9% vs 5.2% were not found in the sources read and must not be used; if mortality is mentioned, give the trial-period excess (12.7 vs 11.1 per 1000 person-years, authors' caution) together with the extended follow-up showing no clear long-term difference in deaths. Replace PREVENTABLE (not verified) with STAREE (Aug 2026), which also used disability-free survival and found fewer cardiovascular events but no clear gain in disability-free survival. Do not claim 'most prevention trials count heart attacks and strokes' (unverified).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-05-a",
+    "C07-05-b",
+    "C07-05-c",
+    "C07-05-e"
+   ]
+  },
+  {
+   "cand_id": "C07-12",
+   "status": "revise",
+   "reason": "The core point holds but two parts of the evidence differ from the candidate. (1) The age effect is verified for QRISK2, not QRISK3: Ueda 2017 found that even with optimal risk factors men cross 10% between 60 and 70 and women between 65 and 75, and all people aged 75 to 84 without CVD in an English survey sample exceeded 10%. No verified QRISK3 outputs exist for the proposed line chart. Livingstone 2021 (QRISK3, 2.9 million UK records) shows poor discrimination (C <0.65) and over-prediction at 65+. (2) 'Evidence for statins over 75 is thinner' is now outdated: STAREE (NEJM, 29 Aug 2026; 9971 Australians aged 70+, mean 74.7) found atorvastatin 40 mg reduced major cardiovascular events (about 6 vs 8 in 100 over 5.9 years; HR 0.70) but did not clearly lengthen disability-free survival (HR 0.94, 0.84 to 1.05), with similar serious adverse events. NICE NG238 specifics (QRISK3 to 84; atorvastatin 20 mg considered at 85+; statins below 10% by preference) are search_extract only and must stay out unless re-checked.",
+   "revised_angle": "By about 75, the QRISK calculator puts almost everyone above the 10% statin line, even people with ideal blood pressure and cholesterol (shown with QRISK2), and in UK records QRISK3 is poor at telling older people's risks apart. So the score cannot settle the decision. The new STAREE trial (2026) answers the next question: in healthy over-70s a statin prevented some heart attacks and strokes (about 6 vs 8 in 100 over 6 years) but did not clearly help people stay alive without dementia or disability. The conversation after 75 is therefore about what the person wants to prevent, how long benefit takes (about 2.5 years per 1 in 100 in younger trials), other illnesses, frailty and preference. Visual: threshold-crossing age bands (QRISK2, labelled) plus STAREE's two outcomes side by side, not a QRISK3 line chart. Coordinate with C07-05 so STAREE is the lead in only one post.",
+   "essential_claim_ids": [
+    "C07-12-b",
+    "C07-12-c",
+    "C07-12-e"
+   ]
+  },
+  {
+   "cand_id": "C07-03",
+   "status": "ready",
+   "reason": "Ready on the editor's angle. SPRINT exclusions verified verbatim in Williamson 2016 full text (type 2 diabetes, stroke, symptomatic heart failure, dementia, expected survival <3 years, weight loss, standing systolic <110 after 1 minute, nursing home residence), plus the authors' own statement that the over-75 results give no evidence for nursing home residents and people with diabetes, stroke or heart failure. Benefit in over-75s well enough to join: 2.59% vs 3.85% per year, NNT 27 (events) and 41 (deaths) over 3.14 years; serious adverse events 48.4% vs 48.3%; injurious falls 4.9% vs 5.5% (not significant); benefit consistent across frailty strata (exploratory; 30.9% frail). Measurement point verified: unattended automated protocol; routine clinic readings 7.3 and 4.6 mmHg higher (Drawz 2020). 'Trial behind US and European targets' supported (Fernandes 2019) and NICE not adopting lower targets supported (Jones 2020 BJGP summary of NG136). NICE standing BP advice verified. Must carry: Juraschek 2023 (trial benefit similar with orthostatic hypotension) so the post adjusts treatment to standing BP rather than implying a postural drop alone means stopping; Tinetti 2014 is association only. HYVET exclusions not verified and should be left out.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-03-a",
+    "C07-03-c",
+    "C07-03-d",
+    "C07-03-e",
+    "C07-03-g",
+    "C07-03-h"
+   ]
+  },
+  {
+   "cand_id": "C07-22",
+   "status": "revise",
+   "reason": "Short-term figures verified (569 randomised, mean age 84.8, GP-selected; systolic <150 at 12 weeks in 86.4% vs 87.7%; 66.3% still reduced at 12 weeks; systolic 3.4 mmHg higher). But the candidate's limitation 'the trial did not measure long-term outcomes' is outdated: a 2024 follow-up (median 4.0 years) found hospitalisation or death in 72% vs 77% (aHR 0.93, 0.76 to 1.12), with about half of surviving intervention participants still on fewer tablets. OPTIMISE2 (about 3000 frail or high-risk people aged 75+) is under way. Not needed as fallback, since C07-03 is ready.",
+   "revised_angle": "Open with the question families ask: do all these blood pressure tablets still need taking? In OPTIMISE, GPs stopped one tablet in people aged 80 and over whose pressure was controlled on two or more: at 12 weeks pressure stayed under 150 in 86 in 100 vs 88 in 100 with usual care, and 2 in 3 managed without the tablet. Four years later, hospital admission or death was not clearly different (72 vs 77 in 100) and about half were still on fewer tablets; the result is uncertain enough that a modest harm or benefit cannot be excluded, and a larger trial of frailer people (OPTIMISE2) is under way. Close on a monitored reduction as an option to raise, especially with dizziness or falls.",
+   "essential_claim_ids": [
+    "C07-22-a",
+    "C07-22-b",
+    "C07-22-c",
+    "C07-22-d"
+   ]
+  },
+  {
+   "cand_id": "C07-28",
+   "status": "ready",
+   "reason": "All essential claims verified: StatinWISE design (200 people at 50 UK primary care sites; six double-blind 2-month periods, three atorvastatin 20 mg and three placebo, in random order; mean age 69.1; 70% with previous CVD), no difference in muscle symptom scores (mean difference -0.11, -0.36 to 0.14), withdrawals 9% on statin vs 7% on placebo periods, two thirds of completers intended to restart; CTT 2022 IPD meta-analysis (27.1% vs 26.6% reporting muscle pain or weakness; small excess mainly in year 1; >90% of reports not due to the statin). Design must be described as six 2-month blocks in random order, not alternating months. The practical point should say that stopping and restarting without dummy tablets is a less reliable test (inference from the authors' nocebo discussion); do not claim anything about NHS availability of blinded tests. Consider moving to C06 as the judge suggested.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C07-28-a",
+    "C07-28-b",
+    "C07-28-c",
+    "C07-28-d"
+   ]
+  }
+ ]
+}

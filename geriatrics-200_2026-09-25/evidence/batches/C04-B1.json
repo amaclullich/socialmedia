@@ -1,0 +1,1202 @@
+{
+ "batch": "C04-B1",
+ "category": "C04",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:34807231",
+   "citation": "Deardorff WJ, Cenzer I, Nguyen B, Lee SJ. Time to benefit of bisphosphonate therapy for the prevention of fractures among postmenopausal women with osteoporosis: a meta-analysis of randomized clinical trials. JAMA Intern Med. 2022;182(1):33-41.",
+   "pmid": "34807231",
+   "pmcid": "PMC8609461",
+   "doi": "10.1001/jamainternmed.2021.6745",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2021.6745",
+   "design": "Meta-analysis of 10 placebo-controlled RCTs (alendronate, risedronate, zoledronic acid); Weibull survival curves and random-effects pooling of time to benefit",
+   "population_setting": "23,384 postmenopausal women with osteoporosis (vertebral fracture or T-score -2.5 or lower); trial mean ages 63 to 74; follow-up 12 to 48 months",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "High-quality pooled trial data, but trial populations were younger and fitter than frail people near the end of life; time to benefit could be shorter in people at higher baseline fracture risk. Figures are for non-vertebral and hip fracture thresholds, not all fractures."
+  },
+  {
+   "key": "PMID:28119312",
+   "citation": "Lavan AH, Gallagher P, Parsons C, O'Mahony D. STOPPFrail (Screening Tool of Older Persons Prescriptions in Frail adults with limited life expectancy): consensus validation. Age Ageing. 2017;46(4):600-607.",
+   "pmid": "28119312",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afx005",
+   "public_url": "https://doi.org/10.1093/ageing/afx005",
+   "design": "Delphi consensus validation of explicit deprescribing criteria (17-member expert panel, 3 rounds)",
+   "population_setting": "Criteria for frail older adults (65 and over) with limited life expectancy; Ireland",
+   "year": 2017,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (verbatim criterion text G1 and G2); whole paper not read",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Expert consensus, not trial evidence. Version 1 criterion text verified; STOPPFrail version 2 (2021) replaced it and its criterion wording was not opened."
+  },
+  {
+   "key": "PMID:32997135",
+   "citation": "Curtin D, Gallagher P, O'Mahony D. Deprescribing in older people approaching end-of-life: development and validation of STOPPFrail version 2. Age Ageing. 2021;50(2):465-471.",
+   "pmid": "32997135",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afaa159",
+   "public_url": "https://doi.org/10.1093/ageing/afaa159",
+   "design": "Literature review plus Delphi consensus (8-member panel)",
+   "population_setting": "Older people approaching end of life",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite read_fulltext returned abstract only",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Current version of STOPPFrail. Abstract confirms 25 criteria and emphasis on shared decision-making; the text of the bone-medicine criteria in version 2 was not opened."
+  },
+  {
+   "key": "PMID:35378630",
+   "citation": "Gregson CL, Armstrong DJ, Bowden J, Cooper C, Edwards J, Gittoes NJL, et al. UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos. 2022;17(1):58.",
+   "pmid": "35378630",
+   "pmcid": "PMC8979902",
+   "doi": "10.1007/s11657-022-01061-5",
+   "public_url": "https://doi.org/10.1007/s11657-022-01061-5",
+   "design": "National clinical guideline (NOGG 2022), NICE-accredited, graded evidence review",
+   "population_setting": "Postmenopausal women and men aged 50 and over, UK",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC8979902), searched for the relevant sections (bisphosphonate administration, denosumab, duration and monitoring, rare adverse effects, summary recommendations); the whole 126,000-character text was not read end to end",
+   "correction_check": "Correction published (PMID 35585444, Arch Osteoporos 2022;17:80), opened in PMC9117369: it adds a missing author affiliation only. Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite lists the same correction.",
+   "quality_note": "Main UK guideline. In the PMC text the bulleted criteria lists and the flowcharts (Figs 4 and 5) did not extract; continuation criteria were taken from the summary recommendations and body text instead. Product-information (SPC) statements are NOGG's report of the SPC, not the SPC itself."
+  },
+  {
+   "key": "PMID:29105841",
+   "citation": "Cummings SR, Ferrari S, Eastell R, Gilchrist N, Jensen JB, McClung M, et al. Vertebral fractures after discontinuation of denosumab: a post hoc analysis of the randomized placebo-controlled FREEDOM trial and its extension. J Bone Miner Res. 2018;33(2):190-198.",
+   "pmid": "29105841",
+   "pmcid": null,
+   "doi": "10.1002/jbmr.3337",
+   "public_url": "https://doi.org/10.1002/jbmr.3337",
+   "design": "Post hoc analysis of a randomised placebo-controlled trial and its open-label extension",
+   "population_setting": "Postmenopausal women with osteoporosis who received 2 or more 6-monthly doses of denosumab (n=1001) or placebo (n=470), stopped, and stayed in the study 7 months or more after the last dose",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Post hoc, non-randomised comparison of people who stopped; industry co-author (Amgen). Off-treatment follow-up length varied and is not given in the abstract. Consistent with ECTS systematic reviews and NOGG."
+  },
+  {
+   "key": "PMID:25867538",
+   "citation": "Greenspan SL, Perera S, Ferchak MA, Nace DA, Resnick NM. Efficacy and safety of single-dose zoledronic acid for osteoporosis in frail elderly women: a randomized clinical trial. JAMA Intern Med. 2015;175(6):913-21.",
+   "pmid": "25867538",
+   "pmcid": "PMC4843134",
+   "doi": "10.1001/jamainternmed.2015.0747",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2015.0747",
+   "design": "2-year randomised double-blind placebo-controlled trial",
+   "population_setting": "181 women aged 65 and over (mean 85.4) with osteoporosis in nursing homes and assisted living, including cognitive impairment and immobility; USA, 2007 to 2012",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Small trial powered for bone density, not fractures; baseline imbalance (more frailty and falls history in the treatment group). Fracture and mortality results are non-significant and uncertain."
+  },
+  {
+   "key": "PMID:32716706",
+   "citation": "Lyu H, Yoshida K, Zhao SS, Wei J, Zeng C, Tedeschi SK, et al. Delayed denosumab injections and fracture risk among patients with osteoporosis: a population-based cohort study. Ann Intern Med. 2020;173(7):516-526.",
+   "pmid": "32716706",
+   "pmcid": null,
+   "doi": "10.7326/M20-0882",
+   "public_url": "https://doi.org/10.7326/M20-0882",
+   "design": "Population-based cohort study emulating a target trial of dosing intervals",
+   "population_setting": "2594 people aged 45 or older starting denosumab for osteoporosis; UK primary care (THIN database), 2010 to 2019",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Observational; dosing delay not randomised; wide confidence intervals; only the vertebral fracture association with delays over 16 weeks was statistically clear."
+  },
+  {
+   "key": "PMID:33103722",
+   "citation": "Tsourdi E, Zillikens MC, Meier C, Body JJ, Gonzalez Rodriguez E, Anastasilakis AD, et al. Fracture risk and management of discontinuation of denosumab therapy: a systematic review and position statement by ECTS. J Clin Endocrinol Metab. Published online 2020 Oct 26. doi:10.1210/clinem/dgaa756.",
+   "pmid": "33103722",
+   "pmcid": null,
+   "doi": "10.1210/clinem/dgaa756",
+   "public_url": "https://doi.org/10.1210/clinem/dgaa756",
+   "design": "Updated systematic review and expert position statement (European Calcified Tissue Society)",
+   "population_setting": "People treated with denosumab for osteoporosis",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Management advice is expert opinion based on limited evidence; efficacy of follow-on bisphosphonate is partial."
+  },
+  {
+   "key": "PMID:28789921",
+   "citation": "Tsourdi E, Langdahl B, Cohen-Solal M, Aubry-Rozier B, Eriksen EF, Guanabens N, et al. Discontinuation of denosumab therapy for osteoporosis: a systematic review and position statement by ECTS. Bone. 2017;105:11-17.",
+   "pmid": "28789921",
+   "pmcid": null,
+   "doi": "10.1016/j.bone.2017.08.003",
+   "public_url": "https://doi.org/10.1016/j.bone.2017.08.003",
+   "design": "Systematic review and position statement",
+   "population_setting": "People treated with denosumab for osteoporosis",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Earlier ECTS statement; superseded in detail by the 2020/2021 update but its central advice (do not stop without an alternative) is unchanged."
+  },
+  {
+   "key": "PMID:17190893",
+   "citation": "Black DM, Schwartz AV, Ensrud KE, Cauley JA, Levis S, Quandt SA, et al. Effects of continuing or stopping alendronate after 5 years of treatment: the Fracture Intervention Trial Long-term Extension (FLEX): a randomized trial. JAMA. 2006;296(24):2927-38.",
+   "pmid": "17190893",
+   "pmcid": null,
+   "doi": "10.1001/jama.296.24.2927",
+   "public_url": "https://doi.org/10.1001/jama.296.24.2927",
+   "design": "Randomised double-blind trial (extension of FIT)",
+   "population_setting": "1099 postmenopausal women with a mean of 5 years of prior alendronate; 10 US centres; 1998 to 2003",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Fractures were an exploratory outcome; primary outcome was hip bone density."
+  },
+  {
+   "key": "PMID:22161728",
+   "citation": "Black DM, Reid IR, Boonen S, Bucci-Rechtweg C, Cauley JA, Cosman F, et al. The effect of 3 versus 6 years of zoledronic acid treatment of osteoporosis: a randomized extension to the HORIZON-Pivotal Fracture Trial (PFT). J Bone Miner Res. 2012;27(2):243-54.",
+   "pmid": "22161728",
+   "pmcid": "PMC3427916",
+   "doi": "10.1002/jbmr.1494",
+   "public_url": "https://doi.org/10.1002/jbmr.1494",
+   "design": "Randomised double-blind placebo-controlled extension trial",
+   "population_setting": "1233 postmenopausal women who had 3 years of zoledronic acid in HORIZON-PFT; international multicentre",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (abstract and a full-text citation snippet from the Discussion)",
+   "correction_check": "Scite lists an erratum (notice DOI 10.1002/jbmr.1542, 23 Jan 2012); its content was not opened. Figures used here are from the PubMed abstract. Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026).",
+   "quality_note": "Primary outcome bone density; fracture results secondary; confidence intervals for clinical fractures were wide (authors: some benefit cannot be excluded)."
+  },
+  {
+   "key": "PMID:26350171",
+   "citation": "Adler RA, El-Hajj Fuleihan G, Bauer DC, Camacho PM, Clarke BL, Clines GA, et al. Managing osteoporosis in patients on long-term bisphosphonate treatment: report of a task force of the American Society for Bone and Mineral Research. J Bone Miner Res. 2016;31(1):16-35.",
+   "pmid": "26350171",
+   "pmcid": "PMC4906542",
+   "doi": "10.1002/jbmr.2708",
+   "public_url": "https://doi.org/10.1002/jbmr.2708",
+   "design": "Expert task force report with literature review",
+   "population_setting": "Mostly white postmenopausal women on long-term bisphosphonates",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature",
+   "correction_check": "Published erratum exists (PMID 27759931; J Bone Miner Res 2016;31(10):1910); PubMed has no abstract and its content was not opened. Passages used match both the PubMed and Scite versions of the abstract. Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026).",
+   "quality_note": "Authors state the approach rests on limited evidence, only for vertebral fracture reduction."
+  },
+  {
+   "key": "PMID:32813950",
+   "citation": "Black DM, Geiger EJ, Eastell R, Vittinghoff E, Li BH, Ryan DS, et al. Atypical femur fracture risk versus fragility fracture prevention with bisphosphonates. N Engl J Med. 2020;383(8):743-753.",
+   "pmid": "32813950",
+   "pmcid": "PMC9632334",
+   "doi": "10.1056/NEJMoa1916525",
+   "public_url": "https://doi.org/10.1056/NEJMoa1916525",
+   "design": "Cohort study with radiographic adjudication and multivariable Cox models, plus a modelled risk-benefit comparison in a hypothetical cohort of 10,000 women",
+   "population_setting": "196,129 women aged 50 or older who used bisphosphonates (mostly alendronate); Kaiser Permanente Southern California, 2007 to 2017",
+   "year": 2020,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC9632334, author manuscript)",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Observational association. Benefit side is modelled from an untreated historical cohort (women 65 and over with T-score below -2.5 or prior hip or vertebral fracture) and meta-analysis effects, so the 149 versus 2 comparison is an estimate, not an observed count. Results mainly for alendronate; not applicable to denosumab."
+  },
+  {
+   "key": "PMID:23712442",
+   "citation": "Shane E, Burr D, Abrahamsen B, Adler RA, Brown TD, Cheung AM, et al. Atypical subtrochanteric and diaphyseal femoral fractures: second report of a task force of the American Society for Bone and Mineral Research. J Bone Miner Res. 2014;29(1):1-23.",
+   "pmid": "23712442",
+   "pmcid": null,
+   "doi": "10.1002/jbmr.1998",
+   "public_url": "https://doi.org/10.1002/jbmr.1998",
+   "design": "Expert task force review of studies published since 2010, with revised case definition",
+   "population_setting": "People with atypical femoral fractures, mainly on bisphosphonates; some on denosumab or on neither",
+   "year": 2014,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts and full-text citation snippets (verbatim passages); whole paper not read",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Review of case series and cohorts of varying quality. Proportions with warning pain and bilateral fractures differ between series. Published online 2013 (PubMed date 2013-10); print issue 2014."
+  },
+  {
+   "key": "PMID:38241060",
+   "citation": "Bird ST, Smith ER, Gelperin K, Jung TH, Thompson A, Kambhampati R, et al. Severe hypocalcemia with denosumab among older female dialysis-dependent patients. JAMA. 2024;331(6):491-499.",
+   "pmid": "38241060",
+   "pmcid": "PMC10799290",
+   "doi": "10.1001/jama.2023.28239",
+   "public_url": "https://doi.org/10.1001/jama.2023.28239",
+   "design": "Retrospective cohort study with inverse probability of treatment weighting",
+   "population_setting": "Female dialysis-dependent Medicare patients aged 65 and over starting denosumab (n=1523) or oral bisphosphonates (n=1281), USA, 2013 to 2020, with monthly dialysis-unit calcium results",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC10799290 returned Key Points and abstract only, body empty)",
+   "correction_check": "Not retracted and no expression of concern (PubMed search of the PMID with retracted publication[pt] / retraction of publication[pt] / expression of concern[pt], 26 Sep 2026). Scite editorial-notice filters (has_retraction, has_correction, has_erratum) returned no notice for this DOI.",
+   "quality_note": "Observational (FDA investigators); outcome includes laboratory-defined hypocalcaemia measured monthly in dialysis units, so detection is high. Applies to dialysis-dependent older women only."
+  },
+  {
+   "key": "PMID:39556837",
+   "citation": "Bird ST, Gelperin K, Smith ER, Jung TH, Lyu H, Thompson A, et al. The effect of denosumab on risk for emergently treated hypocalcemia by stage of chronic kidney disease: a target trial emulation. Ann Intern Med. 178(1):29-38. Epub 2024 Nov 19.",
+   "pmid": "39556837",
+   "pmcid": null,
+   "doi": "10.7326/M24-0013",
+   "public_url": "https://doi.org/10.7326/M24-0013",
+   "design": "Target trial emulation using claims data",
+   "population_setting": "Female Medicare patients aged 65 and over starting denosumab (361,453), oral (829,044) or IV bisphosphonates (160,413), USA, 2012 to 2020",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not retracted (PubMed record shows no retraction or erratum link; Scite filters returned no notice).",
+   "quality_note": "Observational; outcome is only hospital or emergency care for hypocalcaemia (laboratory-only low calcium not counted), so absolute figures are much lower than Bird JAMA 2024 and must not be compared directly."
+  },
+  {
+   "key": "PMID:38500493",
+   "citation": "Lloret MJ, Jorgensen HS, Evenepoel P. Denosumab-induced hypocalcemia in patients treated with dialysis: an avoidable complication? Clin Kidney J. 2024;17(3):sfae048.",
+   "pmid": "38500493",
+   "pmcid": "PMC10946653",
+   "doi": "10.1093/ckj/sfae048",
+   "public_url": "https://doi.org/10.1093/ckj/sfae048",
+   "design": "Commentary (expert opinion) by nephrologists on Bird 2024",
+   "population_setting": "People on dialysis considered for denosumab",
+   "year": 2024,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC10946653)",
+   "correction_check": "Not retracted (PubMed record; Scite filters returned no notice).",
+   "quality_note": "Expert opinion, not a guideline; also reports secondary figures from the Bird JAMA full text (5.4% life-threatening symptoms, 1.3% died) that were not verified in the primary paper."
+  },
+  {
+   "key": "PMID:40509651",
+   "citation": "North K, Dahl B, Dowling-McClay K, Highsmith M. Denosumab-bbdz: a review of the interchangeable biosimilar for the treatment of osteoporosis. Ann Pharmacother. 60(1):76-82. Epub 2025 Jun 12.",
+   "pmid": "40509651",
+   "pmcid": null,
+   "doi": "10.1177/10600280251342581",
+   "public_url": "https://doi.org/10.1177/10600280251342581",
+   "design": "Narrative drug review",
+   "population_setting": "US product labelling for a denosumab biosimilar",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "Not retracted (PubMed record; Scite filters returned no notice).",
+   "quality_note": "Secondary source used only to confirm that US denosumab labelling carries a boxed warning for severe hypocalcaemia in advanced chronic kidney disease."
+  },
+  {
+   "key": "URL:https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease",
+   "citation": "US Food and Drug Administration. FDA adds Boxed Warning for increased risk of severe hypocalcemia in patients with advanced chronic kidney disease taking osteoporosis medicine Prolia (denosumab). Drug Safety Communication. 19 January 2024 (date from search-engine extract).",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease",
+   "design": "Regulatory drug safety communication",
+   "population_setting": "US patients with advanced CKD taking Prolia",
+   "year": 2024,
+   "access": "search_extract",
+   "tool_used": "WebSearch (fda.gov); page not opened (WebFetch blocked)",
+   "correction_check": "Not applicable (regulatory web page).",
+   "quality_note": "Search-engine extract only; not sufficient on its own. US regulatory action; UK product information wording differs and must not be merged with it."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C04-07-a",
+   "cand_id": "C04-07",
+   "claim": "Denosumab for osteoporosis is a 60 mg injection under the skin given every 6 months.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Denosumab is given as a subcutaneous injection of 60 mg once every 6 months.",
+   "location": "NOGG 2022 full text, section 'Anti-resorptive drugs: denosumab'",
+   "pico_timeframe": "UK guideline description of licensed dosing",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The bone injection denosumab (brand name Prolia) is given once every 6 months.",
+   "qualifications": "None needed.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "60 mg",
+     "meaning": "dose per injection"
+    },
+    {
+     "value": "6 months",
+     "meaning": "interval between injections"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-07-b",
+   "cand_id": "C04-07",
+   "claim": "When denosumab is stopped or a dose is missed, bone breakdown rises above pre-treatment levels and the bone density gained is lost within about a year.",
+   "source_keys": [
+    "PMID:29105841",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Cummings 2018 (Abstract): \"Denosumab discontinuation increases bone turnover markers 3 months after a scheduled dose is omitted, reaching above-baseline levels by 6 months, and decreases bone mineral density (BMD) to baseline levels by 12 months.\" NOGG 2022: \"Denosumab cessation leads to rapid reductions in BMD and elevations in bone turnover to levels above those seen before treatment initiation [...].\"",
+   "location": "Cummings 2018 Abstract (background sentence summarising earlier trials); NOGG 2022 denosumab section",
+   "pico_timeframe": "People stopping denosumab after treatment; turnover markers at 3 and 6 months after an omitted dose; BMD at 12 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "If denosumab stops, its effect wears off fast. Bone breakdown starts rising about 3 months after a missed dose, goes above the level before treatment by about 6 months, and the bone density gained is back to where it started by about a year.",
+   "qualifications": "The timeline sentence in Cummings is background from earlier studies, not that paper's own result; NOGG confirms it.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "3 months",
+     "meaning": "after the omitted dose, bone turnover markers rise"
+    },
+    {
+     "value": "6 months",
+     "meaning": "markers above baseline"
+    },
+    {
+     "value": "12 months",
+     "meaning": "bone density back to baseline"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-07-c",
+   "cand_id": "C04-07",
+   "claim": "After stopping denosumab, spinal fracture rates rose to those of untreated women, and a larger share of those who fractured had several spinal fractures.",
+   "source_keys": [
+    "PMID:29105841",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Cummings 2018 (Abstract): \"Of 1001 participants who discontinued denosumab during FREEDOM or Extension, the vertebral fracture rate increased from 1.2 per 100 participant-years during the on-treatment period to 7.1, similar to participants who received and then discontinued placebo (n = 470; 8.5 per 100 participant-years). Among participants with ≥1 off-treatment vertebral fracture, the proportion with multiple (>1) was larger among those who discontinued denosumab (60.7%) than placebo (38.7%; p = 0.049), corresponding to a 3.4% and 2.2% risk of multiple vertebral fractures, respectively. The odds (95% confidence interval) of developing multiple vertebral fractures after stopping denosumab were 3.9 (2.1-7. 2) times higher in those with prior vertebral fractures ... The rates (per 100 participant-years) of nonvertebral fractures during the off-treatment period were similar (2.8, denosumab; 3.8, placebo).\"",
+   "location": "Cummings 2018 Abstract, Results",
+   "pico_timeframe": "Postmenopausal women with osteoporosis in FREEDOM and its extension who had 2 or more doses of denosumab (n=1001) or placebo (n=470) and then stopped; followed 7 months or more after the last dose; post hoc analysis",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a follow-up of a large trial, women on denosumab had about 1 spinal fracture per 100 women per year. After stopping, this rose to about 7 per 100 per year, close to the rate in women who had only ever had a dummy injection (about 8 per 100). Among women who had a spinal fracture after stopping, 6 in 10 had more than one, compared with 4 in 10 after stopping the dummy injection. Overall, about 3 in 100 women who stopped denosumab had several spinal fractures.",
+   "qualifications": "Post hoc analysis, not a randomised comparison of stopping versus continuing. Postmenopausal women with osteoporosis only. The 60.7% applies only to those who had a spinal fracture, not to everyone who stopped. Rates are per 100 participant-years. Non-spinal fracture rates were not higher after stopping. Do not say 'several spinal fractures at once'; say 'more than one spinal fracture'.",
+   "conflicting_or_uncertain": "Rebound risk appears greatest in people with a previous spinal fracture. The size of the rebound relative to never treated is modest (7.1 vs 8.5 per 100 participant-years); the distinctive feature is multiple fractures.",
+   "numbers": [
+    {
+     "value": "1.2 per 100 participant-years",
+     "meaning": "spinal fracture rate while on denosumab"
+    },
+    {
+     "value": "7.1 per 100 participant-years",
+     "meaning": "spinal fracture rate after stopping denosumab (n=1001)"
+    },
+    {
+     "value": "8.5 per 100 participant-years",
+     "meaning": "after stopping placebo (n=470)"
+    },
+    {
+     "value": "60.7% vs 38.7%",
+     "meaning": "of people with at least one off-treatment spinal fracture, share with more than one: denosumab vs placebo stoppers"
+    },
+    {
+     "value": "3.4% vs 2.2%",
+     "meaning": "absolute risk of multiple spinal fractures after stopping denosumab vs placebo, over the off-treatment follow-up"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-07-d",
+   "cand_id": "C04-07",
+   "claim": "In UK primary care records, a denosumab dose delayed by more than 16 weeks was linked with a higher risk of spinal fracture than on-time dosing.",
+   "source_keys": [
+    "PMID:32716706"
+   ],
+   "supporting_passage": "\"Investigators identified 2594 patients initiating denosumab therapy. The risk for composite fracture over 6 months was 27.3 in 1000 for on-time dosing, 32.2 in 1000 for short delay, and 42.4 in 1000 for long delay. Compared with on-time injections, short delay had a hazard ratio (HR) for composite fracture of 1.03 (95% CI, 0.63 to 1.69) and long delay an HR of 1.44 (CI, 0.96 to 2.17) (for trend = 0.093). For vertebral fractures, short delay had an HR of 1.48 (CI, 0.58 to 3.79) and long delay an HR of 3.91 (CI, 1.62 to 9.45).\" Conclusion: \"Although delayed administration of subsequent denosumab doses by more than 16 weeks is associated with increased risk for vertebral fracture compared with on-time dosing, evidence is insufficient to conclude that fracture risk is increased at other anatomical sites with long delay.\"",
+   "location": "Lyu 2020 Abstract, Results and Conclusion",
+   "pico_timeframe": "People aged 45 or over starting denosumab, UK THIN primary care database 2010 to 2019; next dose on time (within 4 weeks), 4 to 16 weeks late, or more than 16 weeks late; fractures over 6 months after the recommended date",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In UK GP records, people whose next injection was more than 16 weeks late had more spinal fractures than people who had it on time. This was an observational study, so it shows a link rather than proof, and it did not show a clear rise in other fractures.",
+   "qualifications": "Observational; delay not randomised. Do not convert the hazard ratio of 3.91 into '4 times more likely' for the public. The 42.4 vs 27.3 per 1000 figure is for all fractures combined and was not statistically clear.",
+   "conflicting_or_uncertain": "Composite fracture difference not significant (HR 1.44, 0.96 to 2.17).",
+   "numbers": [
+    {
+     "value": "16 weeks",
+     "meaning": "delay beyond the due date defined as long delay"
+    },
+    {
+     "value": "2594",
+     "meaning": "people starting denosumab in the cohort"
+    },
+    {
+     "value": "27.3 vs 42.4 per 1000",
+     "meaning": "any fracture within 6 months, on-time vs more than 16 weeks late; difference not statistically clear"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-07-e",
+   "cand_id": "C04-07",
+   "claim": "Denosumab should not be stopped without a plan to switch to another bone treatment; the switch (for example a bisphosphonate) is started about 6 months after the last injection.",
+   "source_keys": [
+    "PMID:28789921",
+    "PMID:33103722",
+    "PMID:35378630",
+    "PMID:29105841"
+   ],
+   "supporting_passage": "ECTS 2017 (Abstract): \"Based on current data, denosumab should not be stopped without considering alternative treatment in order to prevent rapid BMD loss and a potential rebound in vertebral fracture risk.\" ECTS 2020/21 (Abstract): \"In case of denosumab discontinuation, alternative antiresorptive treatment should be initiated 6 months after the final denosumab injection.\" NOGG 2022: \"The increase in vertebral fracture risk following cessation of denosumab therapy emphasises the need to consider continued treatment with an alternative anti-resorptive drug following denosumab withdrawal. An intravenous infusion of 5 mg of zoledronate, 6 months after the last denosumab injection, reduces subsequent bone loss [...], although this effect is not seen in all patients and may not be maintained beyond one year, particularly in those who have had more than 3 years of denosumab treatment.\" Cummings 2018: \"Therefore, patients who discontinue denosumab should rapidly transition to an alternative antiresorptive treatment.\"",
+   "location": "ECTS 2017 and 2020 Abstracts; NOGG 2022 denosumab section; Cummings 2018 Abstract conclusion",
+   "pico_timeframe": "People stopping denosumab; guidance based on systematic reviews and expert consensus",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Denosumab should not simply stop. If it is going to stop, UK and European guidance is to plan a switch to another bone medicine, usually a bisphosphonate, given about 6 months after the last injection, when the next one would have been due.",
+   "qualifications": "How well the follow-on treatment prevents rebound is uncertain and seems to depend on how long denosumab was taken. The switch plan is a clinical decision; the post should not name a specific regimen for an individual.",
+   "conflicting_or_uncertain": "ECTS 2020: 'Current evidence indicates partial efficacy of subsequent antiresorptive treatment'. MHRA 2020 advice was not opened, so it is not cited.",
+   "numbers": [
+    {
+     "value": "6 months",
+     "meaning": "after the final denosumab injection, when the alternative is started"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-07-f",
+   "cand_id": "C04-07",
+   "claim": "If the injection is already overdue, contact the GP or clinic now and ask for the injection or a switch plan.",
+   "source_keys": [
+    "PMID:29105841",
+    "PMID:33103722",
+    "PMID:32716706"
+   ],
+   "supporting_passage": "Cummings 2018: \"... and 1.6 (1.3-1.9) times higher with each additional year of off-treatment follow-up\" (odds of multiple vertebral fractures). ECTS 2020: \"Patients having sustained VFx should be offered prompt treatment to reduce high bone turnover.\" Lyu 2020: \"delayed administration of subsequent denosumab doses by more than 16 weeks is associated with increased risk for vertebral fracture compared with on-time dosing\".",
+   "location": "Abstracts as named",
+   "pico_timeframe": "People on denosumab whose dose is late",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If the date has already passed, ring the GP surgery or clinic now. Ask whether the injection can be given, or what the plan is to switch to another medicine.",
+   "qualifications": "This is a practical recommendation (judgement) consistent with evidence that risk rises with time off treatment; no study tested 'contact now'. Avoid alarm: most people who are late do not fracture.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-04-a",
+   "cand_id": "C04-04",
+   "claim": "In trials, bisphosphonates took about a year (12.4 months) to prevent one non-spinal fracture per 100 women treated, and about 20 months to prevent one hip fracture per 200 women.",
+   "source_keys": [
+    "PMID:34807231"
+   ],
+   "supporting_passage": "\"Of 67 full-text articles identified, 10 RCTs comprising 23 384 postmenopausal women with osteoporosis were included ... mean (SD) age ranging from 63 (7) years to 74 (3) years and follow-up duration ranging from 12 to 48 months. The pooled meta-analysis found that 12.4 months (95% CI, 6.3-18.4 months) were needed to avoid 1 nonvertebral fracture per 100 postmenopausal women receiving bisphosphonate therapy at an ARR of 0.010. To prevent 1 hip fracture, 200 postmenopausal women with osteoporosis would need to receive bisphosphonate therapy for 20.3 months (95% CI, 11.0-29.7 months) at an ARR of 0.005.\" Conclusion: \"These results suggest that bisphosphonate therapy is most likely to benefit postmenopausal women with osteoporosis who have a life expectancy greater than 12.4 months.\"",
+   "location": "Deardorff 2022 Abstract, Results and Conclusions",
+   "pico_timeframe": "Postmenopausal women with osteoporosis in 10 placebo-controlled RCTs of alendronate, risedronate or zoledronic acid; mean ages 63 to 74; time until 1 fewer non-vertebral fracture per 100 treated (or 1 fewer hip fracture per 200 treated)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In trials of bisphosphonates, it took about a year of treatment before 1 in every 100 women treated was spared a fracture outside the spine, and about 20 months before 1 in every 200 was spared a hip fracture.",
+   "qualifications": "Trial women were aged on average 63 to 74 and were not frail or near the end of life. People with a very high fracture risk may benefit sooner, so the year is a guide, not a rule. Say 'in trials'.",
+   "conflicting_or_uncertain": "Greenspan 2015 (C04-04-e) found no demonstrated fracture reduction in frail women in care homes over 2 years (small, underpowered).",
+   "numbers": [
+    {
+     "value": "12.4 months (95% CI 6.3 to 18.4)",
+     "meaning": "time to prevent 1 non-vertebral fracture per 100 women treated"
+    },
+    {
+     "value": "20.3 months",
+     "meaning": "time to prevent 1 hip fracture per 200 women treated"
+    },
+    {
+     "value": "10 trials; 23,384 women",
+     "meaning": "evidence base"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-04-b",
+   "cand_id": "C04-04",
+   "claim": "STOPPFrail lists calcium supplements and bone-strengthening drugs for osteoporosis (including bisphosphonates and denosumab) among medicines to consider stopping in frail older people with limited life expectancy, because benefit is unlikely within a year.",
+   "source_keys": [
+    "PMID:28119312",
+    "PMID:32997135"
+   ],
+   "supporting_passage": "Lavan 2017 (full-text excerpts via Scite): \"Section G: Musculoskeletal System G1: Calcium supplementation Unlikely to be of any benefit in the short term G2: Anti-resorptive/bone anabolic drugs FOR OSTEOPOROSIS [bisphosphonates, strontium, teriparatide, denosumab] Unlikely to be of any benefit in the short term\"; \"Anti-resorptive/bone anabolic drugs for osteoporosis (bisphosphonates, strontium, teriparatide, denosumab) Benefits unlikely to be achieved within 1 year, increased short-intermediate term risk of associated adverse drug events.\"; \"Anti-resorptive medications are challenging to administer, have a less favourable side effect profile and in some cases have been shown to continue to have clinical benefits after cessation e.g. bisphosphonates.\" Lavan 2017 (Abstract): \"STOPPFrail comprises 27 criteria relating to medications that are potentially inappropriate in frail older patients with limited life expectancy.\" Curtin 2021 (Abstract): \"STOPPFrail version 2 emphasises the importance of shared decision-making in the deprescribing process. A new method for identifying older people who are likely to be approaching end-of-life is included along with 25 deprescribing criteria.\"",
+   "location": "Lavan 2017 criteria list (Section G) and Discussion, via Scite full-text excerpts; Curtin 2021 Abstract",
+   "pico_timeframe": "Expert consensus criteria for frail older adults with limited life expectancy",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "STOPPFrail, a list agreed by experts to help doctors review medicines in frail older people near the end of life, includes calcium tablets and osteoporosis medicines among those to consider stopping, because their benefit is unlikely to arrive within a year.",
+   "qualifications": "Verified wording is from STOPPFrail version 1 (2017); version 2 (2021) is current and its bone criteria text was not opened, so do not quote version 2 wording. STOPPFrail is expert consensus, 'consider stopping', with shared decision-making; not an instruction. STOPPFrail v1 lists denosumab in the same criterion without a specific switch caveat; the denosumab caveat comes from C04-04-d.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "1 year",
+     "meaning": "STOPPFrail v1 explanation: benefits unlikely within this time"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-04-c",
+   "cand_id": "C04-04",
+   "claim": "Alendronic acid has to be taken after an overnight fast with a full glass of plain water, at least 30 minutes before food, drink or other medicines, sitting or standing and not lying down for 30 minutes.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Alendronate should be taken after an overnight fast and at least 30 min before the first food or drink (other than water) of the day or any other oral medicinal products or supplementation (including calcium). Tablets should be swallowed whole with a glass of plain water (~ 200 ml) whilst the patient is sitting or standing in an upright position. Patients should not lie down for 30 min after taking the tablet.\" Also: \"Oral bisphosphonates are contraindicated in people with abnormalities of the oesophagus that delay oesophageal emptying such as stricture or achalasia, and inability to stand or sit upright for at least 30–60 min.\"",
+   "location": "NOGG 2022 full text, 'Anti-resorptive drugs: bisphosphonates' and 'Contraindications and special precautions'",
+   "pico_timeframe": "UK guideline statement of administration instructions",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "A weekly alendronic acid tablet means nothing to eat or drink first thing, the tablet swallowed with a glass of plain water, then sitting or standing for 30 minutes before breakfast, drinks or other medicines.",
+   "qualifications": "Instructions as reported in NOGG 2022 (SmPC not opened directly). Being unable to sit or stand upright for 30 to 60 minutes is a contraindication, which is relevant to people who are bed-bound.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "30 minutes",
+     "meaning": "upright and fasting after the tablet"
+    },
+    {
+     "value": "about 200 ml",
+     "meaning": "glass of plain water"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-04-d",
+   "cand_id": "C04-04",
+   "claim": "Denosumab is the exception: stopping it causes rapid bone loss and a rebound in spinal fractures, so it needs a planned decision if the person may live longer than several months.",
+   "source_keys": [
+    "PMID:29105841",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Cummings 2018: \"Denosumab discontinuation increases bone turnover markers 3 months after a scheduled dose is omitted, reaching above-baseline levels by 6 months ... Therefore, patients who discontinue denosumab should rapidly transition to an alternative antiresorptive treatment.\" NOGG 2022: \"Patients who discontinue denosumab have an increased risk of sustaining multiple vertebral fractures.\"",
+   "location": "Cummings 2018 Abstract; NOGG 2022 denosumab section",
+   "pico_timeframe": "People stopping denosumab; rebound develops over months after the missed dose",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "One exception: denosumab injections should not just lapse, because the bone loss after stopping starts within months; if the person may live longer than that, ask for a plan.",
+   "qualifications": "Editor: one sentence only. 'Several months' is an inference from the 3 to 6 month turnover rebound and the off-treatment fracture data; no study defines a life-expectancy threshold for stopping denosumab near the end of life.",
+   "conflicting_or_uncertain": "STOPPFrail v1 lists denosumab among drugs to consider stopping without a switch caveat.",
+   "numbers": [
+    {
+     "value": "3 to 6 months",
+     "meaning": "after a missed dose, bone breakdown rises then exceeds pre-treatment level"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-04-e",
+   "cand_id": "C04-04",
+   "claim": "In a trial of one zoledronic acid infusion in 181 frail women in care homes, bone density improved but fewer fractures were not shown over 2 years.",
+   "source_keys": [
+    "PMID:25867538"
+   ],
+   "supporting_passage": "\"Included were 181 women 65 or older with osteoporosis, including those with cognitive impairment, immobility, and multimorbidity, who were living in nursing homes and assisted-living facilities ... mean (SE) age (85.4 [0.6] years) ... The treatment and placebo groups' fracture rates were 20% and 16%, respectively (OR, 1.30; 95% CI, 0.61-2.78); mortality rates were 16% and 13% (OR, 1.24; 95% CI, 0.54-2.86).\" Conclusion: \"Since it is not known whether such therapy reduces the risk of fracture in this cohort, any change in nursing home practice must await results of larger trials powered to assess fracture rates.\"",
+   "location": "Greenspan 2015 Abstract",
+   "pico_timeframe": "181 women aged 65 and over (mean 85) with osteoporosis in US nursing homes and assisted living; one 5 mg zoledronic acid infusion vs placebo, all with calcium and vitamin D; 2 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a small 2-year trial in 181 frail women in care homes (average age 85), one yearly-type bone infusion improved bone density, but did not show fewer fractures: 20 in 100 had a fracture with treatment and 16 in 100 with a dummy infusion. The trial was too small to settle the question.",
+   "qualifications": "Non-significant difference; not evidence of harm or of no benefit. Different drug (IV) from the weekly tablet; single infusion.",
+   "conflicting_or_uncertain": "Underpowered for fractures; baseline imbalance in frailty and falls.",
+   "numbers": [
+    {
+     "value": "181",
+     "meaning": "women randomised"
+    },
+    {
+     "value": "85.4 years",
+     "meaning": "mean age"
+    },
+    {
+     "value": "20% vs 16%",
+     "meaning": "had a fracture over 2 years, zoledronic acid vs placebo; not statistically different"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-04-f",
+   "cand_id": "C04-04",
+   "claim": "Calcium tablets are often chalky and taken twice a day (visual: 'two large chewable tablets a day').",
+   "source_keys": [],
+   "supporting_passage": "Not found in the sources opened. NOGG 2022 text searched for calcium supplement dosing found none.",
+   "location": "n/a",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Say only 'calcium tablets, if prescribed' and cite STOPPFrail G1; do not describe dose, size or texture.",
+   "qualifications": "Non-essential detail; remove from caption and visual.",
+   "conflicting_or_uncertain": "n/a",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-14-a",
+   "cand_id": "C04-14",
+   "claim": "UK guidance plans oral bisphosphonates for at least 5 years and yearly zoledronate infusions for at least 3 years, then a reassessment of fracture risk.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Plan to prescribe oral bisphosphonates (alendronate, ibandronate and risedronate) for at least 5 years and then re-assess fracture risk. Longer durations of treatment, for at least 10 years, are recommended in the following men and women ... Plan to prescribe intravenous bisphosphonate (zoledronate) for at least 3 years and then re-assess fracture risk. Longer durations of treatment, for at least 6 years, are recommended in the following men and women\"",
+   "location": "NOGG 2022 full text, 'Duration and monitoring of bisphosphonate treatment', Recommendations",
+   "pico_timeframe": "Postmenopausal women and men aged 50 and over on bisphosphonates, UK",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance (NOGG 2022) plans at least 5 years of bisphosphonate tablets, or at least 3 years of yearly zoledronate infusions, and then a fresh look at fracture risk.",
+   "qualifications": "The bulleted criteria after 'in the following men and women' did not extract from the PMC text; see C04-14-b for the criteria taken from the summary recommendations.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "5 years",
+     "meaning": "minimum planned oral bisphosphonate before reassessment"
+    },
+    {
+     "value": "3 years",
+     "meaning": "minimum planned IV zoledronate before reassessment"
+    },
+    {
+     "value": "10 years / 6 years",
+     "meaning": "longer durations (oral / IV) for higher-risk people"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-b",
+   "cand_id": "C04-14",
+   "claim": "People who usually continue beyond 5 years (oral) or 3 years (IV): aged 70 or over, previous hip or spinal fracture, high-dose steroid tablets, a new fragility fracture during treatment, or fracture risk still above the treatment threshold on reassessment.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:26350171"
+   ],
+   "supporting_passage": "NOGG 2022 summary recommendation 17: \"Longer durations of treatment will be needed in those who are older (age ≥ 70 years), have had a hip or vertebral fracture, are on high-dose oral glucocorticoids (≥ 7.5 mg/day of prednisolone or equivalent over 3 months), or have a further fragility fracture during osteoporosis treatment.\" NOGG recommendation 6: \"Fracture risk assessment in patients receiving drug treatment should be performed using FRAX with BMD ... If the FRAX-derived fracture probability exceeds the intervention threshold drug treatment should be continued\". NOGG body text: \"Post-hoc analyses from the alendronate and zoledronate extension studies suggest that women most likely to benefit from long-term bisphosphonate therapy are those with low hip BMD (T-score < − 2.0 in FLEX and ≤ − 2.5 in HORIZON), those with a prevalent vertebral fracture and those who sustained one or more incident fractures during the initial 3 or 5 years of treatment\". Adler 2016 (Abstract): \"In women at high risk, for example, older women, those with a low hip T-score or high fracture risk score, those with previous major osteoporotic fracture, or who fracture on therapy, continuation of treatment for up to 10 years (oral) or 6 years (intravenous), with periodic evaluation, should be considered.\"",
+   "location": "NOGG 2022 summary recommendations (item 17), recommendation 6, and duration section body text; Adler 2016 Abstract",
+   "pico_timeframe": "People on long-term bisphosphonate at the 5-year (oral) or 3-year (IV) review",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Keep going, usually for up to 10 years of tablets or 6 years of infusions, if the person is 70 or over, has had a hip or spinal fracture, takes steroid tablets at 7.5 mg of prednisolone a day or more, has broken a bone during treatment, or still has a high fracture risk when it is recalculated.",
+   "qualifications": "The judge's point that NOGG lists a hip T-score of -2.5 or lower could not be confirmed from the extracted text: the NOGG flowcharts did not extract. The body text names low hip BMD (T-score below -2.0 in FLEX, -2.5 or lower in HORIZON) as predicting benefit from post hoc analyses. Use 'low hip bone density' or 'fracture risk still high' rather than quoting a flowchart threshold unless someone opens Figs 4 and 5.",
+   "conflicting_or_uncertain": "Evidence for continuation criteria comes from post hoc analyses of two extension trials in mostly white women (Adler 2016).",
+   "numbers": [
+    {
+     "value": "70 years or over",
+     "meaning": "age criterion for longer treatment"
+    },
+    {
+     "value": "7.5 mg/day prednisolone or equivalent over 3 months",
+     "meaning": "high-dose glucocorticoid criterion"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-c",
+   "cand_id": "C04-14",
+   "claim": "For lower-risk people, a pause of 18 to 36 months can be considered, with reassessment 18 months to 3 years later depending on the drug, and treatment restarted after any new fracture.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:26350171"
+   ],
+   "supporting_passage": "NOGG summary 17: \"In lower-risk patients, a temporary treatment pause of 18 to 36 months can be considered after 5 years’ oral bisphosphonate or 3 years’ intravenous bisphosphonate\"; summary 21: \"Reassess fracture risk 18 months to 3 years after pausing drug treatment.\" NOGG recommendations: \"If a new fracture occurs after bisphosphonate treatment is discontinued, reassess using FRAX and restart treatment\"; \"If bisphosphonate treatment is discontinued and no new fracture occurs, reassess using FRAX after 18 months for risedronate and ibandronate, 2 years for alendronate, and 3 years for zoledronate to inform whether treatment should be restarted\". Adler 2016: \"For women not at high fracture risk after 3 to 5 years of BP treatment, a drug holiday of 2 to 3 years can be considered.\"",
+   "location": "NOGG 2022 summary recommendations 17 and 21; duration recommendations; Adler 2016 Abstract",
+   "pico_timeframe": "Lower-risk people after 5 years oral or 3 years IV bisphosphonate",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "For people at lower risk, a planned break of 18 months to 3 years can be offered. Fracture risk is checked again after about 2 years for alendronate, 3 years for zoledronate and 18 months for risedronate or ibandronate, and treatment restarts at once if a new fracture happens.",
+   "qualifications": "'Can be considered': an option, not a default.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "18 to 36 months",
+     "meaning": "length of pause"
+    },
+    {
+     "value": "18 months / 2 years / 3 years",
+     "meaning": "reassessment after stopping risedronate or ibandronate / alendronate / zoledronate"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-d",
+   "cand_id": "C04-14",
+   "claim": "UK guidance does not support routine drug holidays; the decision is individual.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Stopping osteoporosis treatment, be it with bisphosphonate or denosumab, is associated with an increased risk of fragility fracture, such that routine cessation of anti-resorptive therapy (so-called drug holidays) is not supported by a review of the evidence\"; \"Treatment review in patients taking bisphosphonates is therefore critical [] and each patient must be assessed individually to assess relative risks and benefits; there is no standard policy for ‘all patients’\"",
+   "location": "NOGG 2022 'Reassessment of fracture risk' and duration sections",
+   "pico_timeframe": "UK guideline",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "UK guidance is clear that a drug holiday is not automatic at 5 years: each person's risk is reassessed and the decision is individual.",
+   "qualifications": "None.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-14-e",
+   "cand_id": "C04-14",
+   "claim": "In FLEX, women who continued alendronate beyond 5 years had fewer clinical spinal fractures than those who stopped, but no difference in non-spinal fractures.",
+   "source_keys": [
+    "PMID:17190893"
+   ],
+   "supporting_passage": "\"After 5 years, the cumulative risk of nonvertebral fractures (RR, 1.00; 95% CI, 0.76-1.32) was not significantly different between those continuing (19%) and discontinuing (18.9%) alendronate. Among those who continued, there was a significantly lower risk of clinically recognized vertebral fractures (5.3% for placebo and 2.4% for alendronate; RR, 0.45; 95% CI, 0.24-0.85) but no significant reduction in morphometric vertebral fractures (11.3% for placebo and 9.8% for alendronate; RR, 0.86; 95% CI, 0.60-1.22).\" Also: \"switching to placebo for 5 years resulted in declines in BMD ... but mean levels remained at or above pretreatment levels 10 years earlier.\"",
+   "location": "FLEX Abstract, Results",
+   "pico_timeframe": "1099 postmenopausal women after about 5 years of alendronate; continue alendronate vs placebo for 5 more years; fractures exploratory",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the FLEX trial, women who carried on alendronate for 5 more years had fewer spinal fractures that caused symptoms (about 2 in 100 vs 5 in 100 over 5 years), but the same rate of other fractures (19 in 100 in both groups).",
+   "qualifications": "Fractures were an exploratory outcome. X-ray-only (morphometric) spinal fractures were not significantly reduced.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "2.4% vs 5.3%",
+     "meaning": "clinical vertebral fractures over 5 years, continued alendronate vs placebo"
+    },
+    {
+     "value": "19% vs 18.9%",
+     "meaning": "non-vertebral fractures over 5 years, continued vs stopped"
+    },
+    {
+     "value": "1099",
+     "meaning": "women randomised"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-f",
+   "cand_id": "C04-14",
+   "claim": "In the HORIZON extension, 6 versus 3 years of zoledronic acid reduced spinal fractures seen on X-ray, with no difference in other fractures.",
+   "source_keys": [
+    "PMID:22161728"
+   ],
+   "supporting_passage": "\"1233 postmenopausal women who received ZOL for 3 years in the core study were randomized to 3 additional years of ZOL (Z6, n = 616) or placebo (Z3P3, n = 617) ... New morphometric vertebral fractures were lower in the Z6 (n = 14) versus Z3P3 (n = 30) group (odds ratio = 0.51; p = 0.035), whereas other fractures were not different.\" Conclusion: \"after 3 years of annual ZOL, many patients may discontinue therapy up to 3 years. However, vertebral fracture reductions suggest that those at high fracture risk, particularly vertebral fracture, may benefit by continued treatment.\"",
+   "location": "HORIZON-PFT extension Abstract",
+   "pico_timeframe": "Postmenopausal women after 3 years of yearly zoledronic acid; 3 more years vs placebo",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the zoledronate extension trial, 3 more yearly infusions meant fewer spinal fractures seen on X-ray (14 women vs 30 women, out of about 616 in each group), with no clear difference in other fractures.",
+   "qualifications": "Morphometric (X-ray) vertebral fractures only; secondary outcome. An erratum exists (content not opened).",
+   "conflicting_or_uncertain": "Authors note wide confidence intervals for clinical fractures, so some benefit cannot be excluded.",
+   "numbers": [
+    {
+     "value": "14 vs 30",
+     "meaning": "women with new X-ray spinal fractures, continued (n=616) vs stopped (n=617), over 3 years"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-g",
+   "cand_id": "C04-14",
+   "claim": "Bisphosphonates stay in bone, so some benefit persists after stopping.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:22161728"
+   ],
+   "supporting_passage": "NOGG: \"Bisphosphonates are retained the long term in bone allowing the beneficial effects to persist for some time after cessation of treatment administration.\" HORIZON extension: \"Small differences in bone density and markers in those who continued versus those who stopped treatment suggest residual effects\". NOGG: \"Withdrawal of bisphosphonate treatment is associated with decreases in BMD and increased bone turnover after 2–3 years for alendronate [...], and 1–2 years for ibandronate and risedronate [...]. In the case of zoledronate, withdrawal after 3 years’ treatment is associated with only a small decrease in BMD after a further 3 years without treatment [...]. Comparison between the offset of alendronate and zoledronate at 3 years showed alendronate-treated patients had greater reductions in total hip BMD and greater rises in PINP, despite a longer treatment exposure with alendronate, supporting a more rapid offset of drug effect than with zoledronate\".",
+   "location": "NOGG duration section; HORIZON extension Abstract",
+   "pico_timeframe": "Mechanism and trial observation",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Bisphosphonates stay in the bone, so their effect fades slowly after they stop, faster for alendronate than for zoledronate.",
+   "qualifications": "NOGG: offset faster for risedronate and ibandronate (1 to 2 years) than alendronate (2 to 3 years) or zoledronate.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "2 to 3 years",
+     "meaning": "after stopping alendronate, BMD falls and turnover rises"
+    },
+    {
+     "value": "1 to 2 years",
+     "meaning": "same for ibandronate and risedronate"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-h",
+   "cand_id": "C04-14",
+   "claim": "The risk of atypical thigh-bone fracture rises with years of bisphosphonate use and falls quickly after stopping.",
+   "source_keys": [
+    "PMID:32813950"
+   ],
+   "supporting_passage": "Abstract: \"The risk of atypical femur fracture increased with longer duration of bisphosphonate use and rapidly decreased after bisphosphonate discontinuation.\" Full text: \"Rates of atypical fractures decreased with time since bisphosphonate discontinuation (4.50 per 10,000 person-years among current users [including ≤3 months since discontinuation], 1.81 per 10,000 person-years at >3 months to 15 months since discontinuation, and approximately 0.50 per 10,000 person-years at >15 months after discontinuation).\"",
+   "location": "Black 2020 Abstract; Results (full text)",
+   "pico_timeframe": "196,129 women aged 50 or over on bisphosphonates (mostly alendronate), Kaiser Permanente Southern California, 2007 to 2017",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The rare thigh-bone fracture linked with bisphosphonates becomes more likely with more years of treatment and becomes less likely soon after stopping.",
+   "qualifications": "Observational; mostly alendronate.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "4.50, 1.81, about 0.50 per 10,000 person-years",
+     "meaning": "atypical fracture rate in current users, 3 to 15 months after stopping, and more than 15 months after stopping"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-14-i",
+   "cand_id": "C04-14",
+   "claim": "Denosumab has no drug holiday: stopping it without switching leads to rapid bone loss and more multiple spinal fractures (refer to the C04-07 post).",
+   "source_keys": [
+    "PMID:29105841",
+    "PMID:35378630",
+    "PMID:28789921"
+   ],
+   "supporting_passage": "NOGG: \"Denosumab cessation leads to rapid reductions in BMD and elevations in bone turnover to levels above those seen before treatment initiation\"; ECTS 2017: \"denosumab should not be stopped without considering alternative treatment in order to prevent rapid BMD loss and a potential rebound in vertebral fracture risk.\"",
+   "location": "NOGG denosumab section; ECTS 2017 Abstract",
+   "pico_timeframe": "As C04-07-b, C04-07-c, C04-07-e",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "None of this applies to denosumab, which needs a switch plan before it stops (see the earlier post).",
+   "qualifications": "Editor: one clause referring to the C04-07 post; do not end the post on it.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-16-a",
+   "cand_id": "C04-16",
+   "claim": "Atypical femoral fractures are rare stress fractures below the hip or along the thigh-bone shaft, reported with bisphosphonates and denosumab; absolute risk on bisphosphonates is about 3 to 50 per 100,000 person-years, perhaps about 100 per 100,000 with long-term use.",
+   "source_keys": [
+    "PMID:23712442",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Shane 2014 (Abstract): \"Atypical femur fractures (AFFs) located in the subtrochanteric region and diaphysis of the femur have been reported in patients taking BPs and in patients on denosumab, but they also occur in patients with no exposure to these drugs ... This newer evidence suggests that AFFs are stress or insufficiency fractures ... the absolute risk of AFFs in patients on BPs is low, ranging from 3.2 to 50 cases per 100,000 person-years. However, long-term use may be associated with higher risk (∼100 per 100,000 person-years).\" NOGG: \"the absolute risk was consistently low, ranging between 3.2 and 50 cases/100,000 person-years of exposure [...]. This estimate appeared to double with prolonged duration of BP use (> 3 years, median duration 7 years), and declined with discontinuation\".",
+   "location": "Shane 2014 Abstract; NOGG 2022 'Rare adverse effects' section",
+   "pico_timeframe": "People on bisphosphonates for osteoporosis; incidence per 100,000 person-years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Atypical thigh-bone fractures are rare stress fractures of the upper shaft of the thigh bone. On bisphosphonates they occur in about 3 to 50 people per 100,000 per year, perhaps nearer 100 per 100,000 after many years of use. They have also been reported with denosumab.",
+   "qualifications": "They also occur in people not taking these drugs.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "3.2 to 50 per 100,000 person-years",
+     "meaning": "absolute risk on bisphosphonates"
+    },
+    {
+     "value": "about 100 per 100,000 person-years",
+     "meaning": "possible risk with long-term use"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-16-b",
+   "cand_id": "C04-16",
+   "claim": "Many atypical femoral fractures are preceded by days to months of aching thigh, groin or hip pain, and they are often on both sides.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:23712442"
+   ],
+   "supporting_passage": "NOGG: \"[Atypical femoral fractures] are often bilateral, associated with prodromal pain and tend to heal poorly. Prodromal pain can be felt in the thigh, groin or hip for days, weeks, or months before fracture.\" Shane 2014 (full-text snippet, section 'AFFs: original case definition and clinical characteristics'): \"Approximately 70% of patients had a history of prodromal groin or thigh pain, 28% had bilateral fractures and bilateral radiographic abnormalities, and 26% had delayed healing.\" Shane 2014 (full-text excerpt, another study reviewed): \"A stress fracture of the contralateral femur was present in 40% of AFFs versus 2% of ordinary fractures, and an additional 21% of AFF cases had focal cortical hypertrophy of the contralateral femur. One‐third of women with AFFs had prodromal pain\".",
+   "location": "NOGG 2022 'Rare adverse effects' section; Shane 2014 full-text passages via Scite",
+   "pico_timeframe": "Case series and cohorts of people with atypical femoral fractures",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "These fractures often give warning: an ache in the thigh, groin or hip for days, weeks or months beforehand. In the early case reports reviewed by an expert task force, about 7 in 10 people had this warning pain and about 1 in 4 had fractures or X-ray changes in both thigh bones.",
+   "qualifications": "Proportions vary between studies (warning pain in about one-third in another study). The 70% and 28% come from the case series summarised in the original case definition, not a population sample. The subject word of the NOGG sentence was lost in PMC extraction (heading text); context shows it refers to atypical femoral fractures.",
+   "conflicting_or_uncertain": "Proportions differ by series.",
+   "numbers": [
+    {
+     "value": "about 70%",
+     "meaning": "had warning groin or thigh pain, in case series reviewed by the first ASBMR task force"
+    },
+    {
+     "value": "28%",
+     "meaning": "had fractures or X-ray changes on both sides, same case series"
+    },
+    {
+     "value": "one-third",
+     "meaning": "warning pain in another study reviewed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-16-c",
+   "cand_id": "C04-16",
+   "claim": "People on bisphosphonate or denosumab should be told to report unexplained thigh, groin or hip pain; if it occurs, the whole femur should be imaged, and if an atypical fracture is found, the other femur too.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"12. During bisphosphonate or denosumab therapy, advise patients to report any unexplained thigh, groin or hip pain and if such symptoms develop, the femur should be imaged (by full-length femur X-ray, isotope scanning or MRI) (). 13. If an AFF is identified, image the contralateral femur ().\"",
+   "location": "NOGG 2022 'Rare adverse effects of long-term bisphosphonate and denosumab treatment', Recommendations 12 and 13",
+   "pico_timeframe": "UK guideline",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "UK guidance: ask people on these medicines to report unexplained thigh, groin or hip pain. If it happens, image the whole length of the thigh bone (X-ray, isotope scan or MRI). If an atypical fracture is found, image the other thigh bone too.",
+   "qualifications": "The candidate's 'X-ray both femurs' for every new thigh ache goes slightly beyond the NOGG wording, which says image the femur and then the other femur if an atypical fracture is found. Imaging both at once is reasonable when pain is on both sides, but the sources opened do not state it as the first step.",
+   "conflicting_or_uncertain": "MHRA 2011 advice was not opened, so it is not cited.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-16-d",
+   "cand_id": "C04-16",
+   "claim": "MRI can show an early stress fracture; CT if MRI is not possible; an isotope bone scan is less specific.",
+   "source_keys": [
+    "PMID:23712442"
+   ],
+   "supporting_passage": "\"Options for imaging include magnetic resonance imaging (MRI), which could detect a cortical fracture line and associated bone and marrow edema or hyperemia, indicative of a stress fracture. If MRI cannot be performed, computed tomography (CT) could detect the cortical fracture or lucency and associated new‐bone formation. Radionuclide bone scan could detect focal bone and marrow hyperemia but with less specificity than MRI or CT.\"",
+   "location": "Shane 2014 full text (Scite excerpt), management section",
+   "pico_timeframe": "Imaging of suspected incomplete atypical femoral fracture",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If the X-ray does not explain the pain and it continues, MRI can show a stress fracture the X-ray misses; an isotope bone scan is an alternative but less specific.",
+   "qualifications": "The preceding sentence of the Shane passage was not seen, so the exact trigger (for example 'normal radiographs') is inferred; NOGG lists isotope scanning or MRI as imaging options.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-16-e",
+   "cand_id": "C04-16",
+   "claim": "Risk rises with duration, falls rapidly after stopping, is higher in Asian women, and remains small compared with fractures prevented: per 10,000 White women treated for 3 years, 149 hip fractures prevented vs 2 atypical fractures.",
+   "source_keys": [
+    "PMID:32813950"
+   ],
+   "supporting_passage": "Full text: \"The number of osteoporotic and hip fractures prevented, as compared with the number of bisphosphonate-associated atypical femur fractures that occurred, in 10,000 treated women with osteoporosis ... Among Whites ... after 3 years, there were 2 bisphosphonate-associated atypical fractures as compared with 149 hip fractures prevented and 541 clinical fractures prevented. After 5 years, the respective numbers were 8, 286, and 859 ... At 3 years [Asians], there were 8 bisphosphonate-associated atypical fractures as compared with 91 hip fractures prevented and 330 clinical fractures prevented.\" Abstract: \"Other risk factors included race (hazard ratio for Asians vs. Whites, 4.84 ...), height, weight, and glucocorticoid use. Bisphosphonate discontinuation was associated with a rapid decrease in the risk of atypical fracture.\" Full text: \"Among the 196,129 women, 277 atypical femur fractures occurred (1.74 fractures per 10,000 patient-years)\".",
+   "location": "Black 2020 Abstract and Results (risk-benefit analysis), full text",
+   "pico_timeframe": "Women aged 50 or over on bisphosphonates, Southern California, 2007 to 2017; benefit modelled for a hypothetical 10,000 women with osteoporosis (aged 65 and over, T-score below -2.5 or prior hip or vertebral fracture)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "For every 10,000 White women with osteoporosis treated for 3 years, researchers estimated about 149 hip fractures prevented and 2 atypical thigh fractures caused; after 5 years, 286 prevented and 8 caused. The balance was less favourable, though still positive at 3 and 5 years, for Asian women (91 prevented, 8 caused at 3 years).",
+   "qualifications": "These are modelled estimates combining a cohort with trial effects, not observed counts. Mainly alendronate. Do not turn the hazard ratios into 'X times more likely' for the public.",
+   "conflicting_or_uncertain": "By 10 years in Asian women, atypical fractures nearly matched hip fractures prevented.",
+   "numbers": [
+    {
+     "value": "149 vs 2",
+     "meaning": "hip fractures prevented vs atypical fractures, per 10,000 White women over 3 years (modelled)"
+    },
+    {
+     "value": "286 vs 8",
+     "meaning": "same at 5 years, White women"
+    },
+    {
+     "value": "91 vs 8",
+     "meaning": "same at 3 years, Asian women"
+    },
+    {
+     "value": "1.74 per 10,000 patient-years",
+     "meaning": "overall observed atypical fracture rate in the cohort"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-16-f",
+   "cand_id": "C04-16",
+   "claim": "Most thigh pain in people on bisphosphonates is not an atypical fracture, but some is.",
+   "source_keys": [
+    "PMID:23712442",
+    "PMID:35378630"
+   ],
+   "supporting_passage": "Shane 2014 (full-text excerpt describing Powell and colleagues): \"All completed a questionnaire that included questions on dental health, thigh pain ... One patient had ONJ and 27 (13.4%) reported thigh pain during the 3‐month audit. Bilateral femoral radiographs obtained for those with thigh pain, revealed four patients (2%) with six AFFs; all were on pamidronate (duration 8 to 22 years) and none were being treated for osteoporosis or Paget's disease.\"",
+   "location": "Shane 2014 'Update on epidemiology and risk factors' (Scite excerpt)",
+   "pico_timeframe": "201 patients on intravenous zoledronic acid or pamidronate for benign indications (median 7 years), 3-month audit",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Thigh pain is common and usually has other causes; the point of asking is to find the few with an early stress fracture.",
+   "qualifications": "The Powell audit is a small, unusual population (IV pamidronate, 8 to 22 years) and should not be quoted as a general rate. Use it only to support the plain statement that most thigh pain was not an atypical fracture.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "27 of 201; 4 of 201",
+     "meaning": "reported thigh pain; had atypical fractures on X-ray of both femurs (IV bisphosphonate audit)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-24-a",
+   "cand_id": "C04-24",
+   "claim": "In older women on dialysis, severe low calcium within 12 weeks of starting denosumab was far more common than with oral bisphosphonates (41.1% vs 2.0%).",
+   "source_keys": [
+    "PMID:38241060",
+    "PMID:38500493"
+   ],
+   "supporting_passage": "Bird JAMA 2024 (Abstract): \"Retrospective cohort study of female dialysis-dependent Medicare patients aged 65 years or older who initiated treatment with denosumab or oral bisphosphonates from 2013 to 2020 ... In the unweighted cohorts, 607 of 1523 denosumab-treated patients and 23 of 1281 oral bisphosphonate–treated patients developed severe hypocalcemia. The 12-week weighted cumulative incidence of severe hypocalcemia was 41.1% with denosumab vs 2.0% with oral bisphosphonates (weighted risk difference, 39.1% [95% CI, 36.3%-41.9%] ...). The 12-week weighted cumulative incidence of very severe hypocalcemia was also increased with denosumab (10.9%) vs oral bisphosphonates (0.4%)\". Conclusion: \"denosumab should be administered after careful patient selection and with plans for frequent monitoring.\" Lloret 2024: \"Life-threatening symptoms (seizures, arrhythmias) occurred in 5.4% of denosumab-treated patients and 1.3% died.\"",
+   "location": "Bird 2024 JAMA Abstract; Lloret 2024 commentary (secondary report of Bird full text)",
+   "pico_timeframe": "Female dialysis-dependent Medicare patients aged 65 and over, USA 2013 to 2020; denosumab 60 mg vs oral bisphosphonates; severe hypocalcaemia (albumin-corrected calcium below 1.88 mmol/L or emergency care) in first 12 weeks; weighted",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of women aged 65 and over on dialysis, about 41 in 100 who started denosumab had a severe drop in blood calcium within 12 weeks, compared with 2 in 100 who started a bisphosphonate tablet. About 11 in 100 on denosumab had a very severe drop.",
+   "qualifications": "Observational. Applies to dialysis-dependent older women only; do not apply the 41% to all kidney disease. Much of the severe hypocalcaemia was detected on routine monthly dialysis blood tests. The 5.4% and 1.3% figures are from a commentary quoting the full text and were not verified in the primary paper; do not use them without opening Bird's full text.",
+   "conflicting_or_uncertain": "Confounding by indication possible (people chosen for denosumab may differ).",
+   "numbers": [
+    {
+     "value": "41.1% vs 2.0%",
+     "meaning": "12-week weighted cumulative incidence of severe hypocalcaemia, denosumab vs oral bisphosphonate, women 65+ on dialysis"
+    },
+    {
+     "value": "10.9% vs 0.4%",
+     "meaning": "very severe hypocalcaemia, same comparison"
+    },
+    {
+     "value": "607/1523 vs 23/1281",
+     "meaning": "unweighted counts"
+    },
+    {
+     "value": "12 weeks",
+     "meaning": "follow-up window from first dose"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-24-b",
+   "cand_id": "C04-24",
+   "claim": "Across kidney function, the risk of needing emergency care for low calcium after denosumab rose with worsening chronic kidney disease stage and was higher with CKD mineral and bone disorder.",
+   "source_keys": [
+    "PMID:39556837"
+   ],
+   "supporting_passage": "\"Risk for emergently treated hypocalcemia with denosumab versus oral bisphosphonates increased with worsening CKD stage ( < 0.001), with greatest risk among dialysis-dependent (DD) patients (3.01% vs. 0.00%; RD, 3.01% [95% CI, 2.27% to 3.77%]) and non-dialysis-dependent (NDD) patients with CKD stages 4 and 5 (0.57% vs. 0.03%; RD, 0.54% [CI, 0.41% to 0.68%]). Among patients with stages 4 and 5 CKD (NDD + DD), denosumab had a greater risk for emergently treated hypocalcemia versus oral bisphosphonates in those with CKD-MBD (1.53% vs. 0.02%; RD, 1.51% [CI, 1.21% to 1.78%]) than in those without CKD-MBD (0.22% vs. 0.03%; RD, 0.19% [CI, 0.08% to 0.31%]).\"",
+   "location": "Bird 2024/25 Ann Intern Med Abstract, Results",
+   "pico_timeframe": "Female Medicare patients aged 65 and over starting denosumab vs oral or IV bisphosphonates, 2012 to 2020; hospital or emergency care for hypocalcaemia in first 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a larger US study, the chance of needing hospital or emergency care for low calcium after starting denosumab rose as kidney function fell: about 3 in 100 people on dialysis and about 6 in 1,000 with stage 4 or 5 kidney disease not on dialysis, against almost none on bisphosphonate tablets.",
+   "qualifications": "Outcome counts only emergency or hospital care, so figures are much lower than the 41% (which included laboratory-detected low calcium). Keep the two studies and their definitions separate.",
+   "conflicting_or_uncertain": "Generalisability to men and non-Medicare populations is uncertain (authors' limitation).",
+   "numbers": [
+    {
+     "value": "3.01% vs 0.00%",
+     "meaning": "emergency-treated hypocalcaemia in 12 weeks, denosumab vs oral bisphosphonate, dialysis"
+    },
+    {
+     "value": "0.57% vs 0.03%",
+     "meaning": "same, CKD stage 4 to 5 not on dialysis"
+    },
+    {
+     "value": "1.53% vs 0.22%",
+     "meaning": "denosumab, CKD 4 to 5 with vs without CKD-MBD"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-24-c",
+   "cand_id": "C04-24",
+   "claim": "UK product information (as reported in NOGG): check calcium before each denosumab dose; in people predisposed to low calcium (for example creatinine clearance below 35 ml/min) check again within 2 weeks of the first dose; correct low calcium and vitamin D deficiency before starting.",
+   "source_keys": [
+    "PMID:35378630"
+   ],
+   "supporting_passage": "\"Hypocalcaemia, as a side-effect of denosumab treatment, increases with the degree of renal impairment; patients should be advised to report symptoms of hypocalcaemia. Pre-existing hypocalcaemia must be investigated and, where due to vitamin D deficiency, treated with vitamin D (100,000 to 300,000 IU orally as a loading dose in divided doses) before denosumab treatment is initiated. Adequate intake of calcium and vitamin D is important in all patients, especially those with severe renal impairment. The SPC states all patients should have calcium checked prior to each dose. In patients predisposed to hypocalcaemia (e.g., patients with a creatinine clearance < 35 ml/min), serum calcium levels should also be checked within 2 weeks after the initial dose [].\"",
+   "location": "NOGG 2022 full text, 'Anti-resorptive drugs: denosumab'",
+   "pico_timeframe": "UK guideline reporting the denosumab SPC",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Before each injection, calcium should be checked. Low calcium, including from low vitamin D, should be found and corrected before the first dose. In people with poor kidney function (creatinine clearance below 35 ml/min), calcium should be checked again within 2 weeks of the first injection. Patients should know to report symptoms of low calcium.",
+   "qualifications": "This is NOGG's 2022 report of the SPC; the current SmPC was not opened and may have been updated since. Specific symptoms (tingling, cramps, spasm) were not verified in the opened sources; say 'symptoms of low calcium' or source them.",
+   "conflicting_or_uncertain": "Bird JAMA 2024 and Lloret 2024 suggest a single check at 2 weeks may be too little in dialysis patients ('frequent monitoring', 'close monitoring').",
+   "numbers": [
+    {
+     "value": "2 weeks",
+     "meaning": "calcium check after the first dose in people at risk"
+    },
+    {
+     "value": "35 ml/min",
+     "meaning": "creatinine clearance below which people are predisposed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-24-d",
+   "cand_id": "C04-24",
+   "claim": "In advanced CKD, especially on dialysis, bone fragility may be CKD mineral and bone disorder; high bone turnover raises hypocalcaemia risk; planning with the kidney team is advised.",
+   "source_keys": [
+    "PMID:38241060",
+    "PMID:38500493",
+    "PMID:39556837"
+   ],
+   "supporting_passage": "Bird JAMA 2024 (Abstract, Importance): \"Chronic kidney disease-mineral and bone disorder is nearly universal in dialysis-dependent patients, complicating diagnosis and treatment of skeletal fragility.\" Lloret 2024: \"Management of osteoporosis for patients on dialysis should be centred in the dialysis unit because it needs to be integrated in the overall treatment of CKD-MBD []. Knowledge of bone turnover determines therapy choices in this patient population []. A high bone turnover calls for parathyroid hormone (PTH) suppressive therapy, particularly if the plan is to initiate (potent) antiresorptive therapy. High turnover bone disease is a robust risk factor for iatrogenic hypocalcemia ... Coordination of care in the dialysis unit should also include a post-denosumab hypocalcemia prevention regimen, which may involve (transient) increase of the calcium supply via diet, supplements or dialysate, ensuring adequate intake of vitamin D and close monitoring of serum calcium levels.\"",
+   "location": "Bird 2024 JAMA Abstract (background); Lloret 2024 commentary full text",
+   "pico_timeframe": "People on dialysis",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In people on dialysis, weak bones are often part of a kidney-related bone disorder, and the kidney team should be part of the decision and the calcium plan.",
+   "qualifications": "The 'nearly universal' sentence is background in Bird, not its finding. The management advice is expert commentary, not a guideline. Checking phosphate specifically was not verified; PTH and bone turnover are named by Lloret. Applies to dialysis; for CKD stage 4 to 5 not on dialysis, rely on C04-24-b and C04-24-c.",
+   "conflicting_or_uncertain": "KDIGO 2017 was not opened.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C04-24-e",
+   "cand_id": "C04-24",
+   "claim": "In January 2024 the US FDA added a boxed warning for severe hypocalcaemia with Prolia in advanced chronic kidney disease.",
+   "source_keys": [
+    "URL:https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease",
+    "PMID:40509651"
+   ],
+   "supporting_passage": "Search-engine extract (fda.gov, page not opened): \"On January 19, 2024, FDA issued a Drug Safety Communication update to report that the agency added a boxed warning for increased risk of severe hypocalcemia (low blood calcium levels) in patients with advanced chronic kidney disease taking osteoporosis medicine Prolia (denosumab).\" North 2025 (Abstract): \"Denosumab-bbdz carries a boxed warning and Risk Evaluation and Mitigation Strategy for severe hypocalcemia in patients with advanced chronic kidney disease.\"",
+   "location": "FDA search extract; North 2025 Abstract",
+   "pico_timeframe": "US regulatory labelling",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "The US medicines regulator now puts its strongest warning on denosumab for people with advanced kidney disease.",
+   "qualifications": "The date (19 January 2024) rests on a search extract only. US regulation; do not merge with UK product wording. Non-essential; can be omitted.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "19 January 2024",
+     "meaning": "date of FDA communication (search extract only)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C04-24-f",
+   "cand_id": "C04-24",
+   "claim": "Denosumab is often considered when kidney function rules out a bisphosphonate: several bisphosphonates are contraindicated or cautioned in severe renal impairment, and denosumab is not cleared by the kidneys.",
+   "source_keys": [
+    "PMID:35378630",
+    "PMID:38500493"
+   ],
+   "supporting_passage": "NOGG: \"Zoledronate and risedronate are contraindicated in severe renal impairment (GFR ≤ 35 ml/min for zoledronate and ≤ 30 ml/min for risedronate), whilst alendronate and ibandronate are cautioned against (GFR ≤ 35 ml/min for alendronate and ≤ 30 ml/min for ibandronate).\" Lloret 2024: \"denosumab rapidly gaining interest in the nephrology community because of its potency and non-renal clearance.\"",
+   "location": "NOGG 2022 'Contraindications and special precautions'; Lloret 2024",
+   "pico_timeframe": "UK guideline; expert commentary",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "When kidney function is low, bisphosphonates are often unsuitable (zoledronate and risedronate should not be used, alendronate and ibandronate need caution), and denosumab, which the kidneys do not clear, is often the alternative.",
+   "qualifications": "Thresholds as given in NOGG 2022.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "GFR 35 or 30 ml/min or less",
+     "meaning": "thresholds for contraindication or caution by bisphosphonate"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C04-07",
+   "status": "ready",
+   "reason": "All essential claims verified: 6-monthly dosing (NOGG full text); rapid offset after a missed dose (Cummings abstract, NOGG); FREEDOM post hoc absolute rates 1.2 to 7.1 per 100 participant-years after stopping (vs 8.5 after stopping placebo) and multiple fractures in 60.7% vs 38.7% of those who fractured (3.4% vs 2.2% absolute); do-not-stop-without-switch guidance with switch about 6 months after the last injection (ECTS 2017 and 2020, NOGG, Cummings). Lyu 2020 (UK, observational) supports the delay point for spinal fractures only. Per the judge, replace 'several spinal fractures at once' with the absolute rates, add the 'already overdue: contact the surgery now' step (marked as practical advice), and label the timeline 'Illustrative example'. MHRA 2020 was not opened and is not cited. This post owns the 'do not pause denosumab without a switch' point.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-07-a",
+    "C04-07-b",
+    "C04-07-c",
+    "C04-07-e"
+   ]
+  },
+  {
+   "cand_id": "C04-04",
+   "status": "ready",
+   "reason": "Essential claims verified: time to benefit 12.4 months per 100 women for non-vertebral fracture and 20.3 months per 200 for hip (Deardorff abstract); STOPPFrail v1 lists calcium and anti-resorptive drugs (including bisphosphonates and denosumab) as potentially inappropriate near end of life because benefit is unlikely within 1 year (Lavan 2017 full-text excerpts); alendronate routine (NOGG full text); denosumab rebound (Cummings, NOGG). Required edits: say the time to benefit came from trials in women aged on average 63 to 74, not frail people near the end of life; quote STOPPFrail v1 wording, not v2 (v2 criterion text not opened); remove the unverified calcium details ('chalky', 'twice a day', 'two large chewable tablets'); keep the denosumab caveat to one sentence (editor); add the judge's sentence that reviewing the drug does not reduce pain relief, falls care or comfort, marked as judgement. Greenspan 2015 may be used as the result that went the other way, with 'too small to settle the question'.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-04-a",
+    "C04-04-b",
+    "C04-04-c",
+    "C04-04-d"
+   ]
+  },
+  {
+   "cand_id": "C04-14",
+   "status": "ready",
+   "reason": "NOGG 2022 full text supplies the placeholders: plan 5 years oral / 3 years IV then reassess; continue (to 10 / 6 years) if age 70 or over, previous hip or vertebral fracture, oral glucocorticoids at 7.5 mg/day prednisolone or more over 3 months, a further fragility fracture on treatment, or FRAX still above the intervention threshold; lower-risk people may pause for 18 to 36 months; reassess after 18 months (risedronate, ibandronate), 2 years (alendronate), 3 years (zoledronate), or at once after a new fracture; routine holidays not supported. FLEX (clinical vertebral fractures only; non-vertebral 19% vs 18.9%) and HORIZON extension (morphometric vertebral only, 14 vs 30) verified from abstracts; Black 2020 supports falling AFF risk after stopping. The hip T-score criterion from the NOGG flowcharts could not be read (figures did not extract): use 'low hip bone density' or 'fracture risk still high' unless someone opens Figs 4 and 5. Denosumab in one clause referring to the C04-07 post, not as the ending (editor).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-14-a",
+    "C04-14-b",
+    "C04-14-c",
+    "C04-14-d",
+    "C04-14-e",
+    "C04-14-f",
+    "C04-14-i"
+   ]
+  },
+  {
+   "cand_id": "C04-16",
+   "status": "revise",
+   "reason": "Rarity, warning pain, bilaterality, duration-related risk and the Black 2020 benefit-harm comparison (per 10,000 women over 3 years, modelled) are all verified, and the proportions (about 70% warning pain, 28% bilateral) come from Shane 2014 full-text passages, with the caveat that another series found warning pain in one-third. The central instruction 'X-ray both femurs' goes slightly beyond the UK guidance opened: NOGG says image the femur (full-length X-ray, isotope scan or MRI) and image the other femur if an atypical fracture is found. MHRA 2011 not opened; cite NOGG instead. Add that most thigh pain has other causes.",
+   "revised_angle": "New thigh, groin or hip ache in someone on long-term bisphosphonate or denosumab: ask about it at every review, image the full length of the thigh bone, and if an atypical fracture is found, image the other side as well, because these fractures are often bilateral. If the X-ray does not explain continuing pain, MRI (or an isotope scan) can show an early stress fracture. Keep the rarity figures and the 149 hip fractures prevented versus 2 atypical fractures per 10,000 White women over 3 years (modelled), with the less favourable balance in Asian women.",
+   "essential_claim_ids": [
+    "C04-16-a",
+    "C04-16-b",
+    "C04-16-c",
+    "C04-16-e"
+   ]
+  },
+  {
+   "cand_id": "C04-24",
+   "status": "ready",
+   "reason": "Verified: 41.1% vs 2.0% severe hypocalcaemia within 12 weeks in dialysis-dependent women aged 65 and over (Bird JAMA 2024 abstract, observational); risk of emergency-treated hypocalcaemia rises with CKD stage and with CKD-MBD (Bird Ann Intern Med abstract, which broadens the point to stage 4 to 5 without merging definitions); UK product-information monitoring as reported by NOGG 2022: calcium before each dose, and within 2 weeks of the first dose in people with creatinine clearance below 35 ml/min, with low calcium and vitamin D deficiency corrected first (this fills the placeholder); bisphosphonate renal restrictions (NOGG). Kidney-team involvement for people on dialysis rests on expert commentary (Lloret 2024). The FDA boxed warning date is a search extract only (partly supported, non-essential). Keep 41% tied to dialysis-dependent older women; keep US and UK wording separate; do not list phosphate testing or specific hypocalcaemia symptoms unless sourced.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C04-24-a",
+    "C04-24-c",
+    "C04-24-d",
+    "C04-24-f"
+   ]
+  }
+ ]
+}

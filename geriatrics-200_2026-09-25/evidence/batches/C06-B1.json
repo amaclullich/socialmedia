@@ -1,0 +1,1286 @@
+{
+ "batch": "C06-B1",
+ "category": "C06",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:34257088",
+   "citation": "Blum MR, Sallevelt BTGM, Spinewine A, O'Mahony D, Moutzouri E, Feller M, et al. Optimizing Therapy to Prevent Avoidable Hospital Admissions in Multimorbid Older Adults (OPERAM): cluster randomised controlled trial. BMJ. 2021;374:n1585.",
+   "pmid": "34257088",
+   "pmcid": "PMC8276068",
+   "doi": "10.1136/bmj.n1585",
+   "public_url": "https://doi.org/10.1136/bmj.n1585",
+   "design": "Multicentre cluster randomised controlled trial (110 clusters of attending hospital doctors), partially blinded, adjudicated outcomes, 12-month follow-up",
+   "population_setting": "2008 adults aged 70 or over with 3 or more chronic conditions and 5 or more long-term drugs, admitted to medical or surgical wards of university hospitals in Bern, Utrecht, Louvain and Cork; intervention by research doctor and pharmacist using STRIP software with STOPP/START version 2, vs usual care",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC8276068)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article. A separate erratum found in the search concerns a secondary OPERAM paper (trigger tool, PMID 35263429), not this trial report.",
+   "quality_note": "Large, well-designed trial with blinded adjudication. Key subtlety: the abstract conclusion says inappropriate prescribing 'was reduced', but Table 5 shows no clear between-group difference at 2 months in drug overuse, underuse or misuse, or in number of long-term drugs; the 'reduction' refers to recommendations implemented within the intervention arm. Only 62% of those with a recommendation had one implemented. High mortality (about 1 in 5 over a year)."
+  },
+  {
+   "key": "PMID:32484850",
+   "citation": "O'Mahony D, Gudmundsson A, Soiza RL, Petrovic M, Cruz-Jentoft AJ, Cherubini A, et al. Prevention of adverse drug reactions in hospitalized older patients with multi-morbidity and polypharmacy: the SENATOR* randomized controlled clinical trial. Age Ageing. 2020;49(4):605-614.",
+   "pmid": "32484850",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afaa072",
+   "public_url": "https://doi.org/10.1093/ageing/afaa072",
+   "design": "Pragmatic multinational randomised open-label blinded-endpoint (PROBE) trial",
+   "population_setting": "1537 older medical and surgical inpatients with multimorbidity and polypharmacy at six European centres; software-generated STOPP/START advice given once to attending clinicians vs standard care; primary outcome probable or certain ADRs within 14 days",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: no retraction. A corrigendum exists (Age Ageing 2021;50(6):e10-e11, PMID 34166483); its content was not opened, so only the abstract's headline results are used and only as context.",
+   "quality_note": "Used only as a second example of the implementation step failing (about 15% of advice implemented). Short outcome window (14 days, index admission)."
+  },
+  {
+   "key": "PMID:37818791",
+   "citation": "Cole JA, Goncalves-Bradley DC, Alqahtani M, Barry HE, Cadogan C, Rankin A, et al. Interventions to improve the appropriate use of polypharmacy for older people. Cochrane Database Syst Rev. 2023;10(10):CD008165.",
+   "pmid": "37818791",
+   "pmcid": "PMC10565901",
+   "doi": "10.1002/14651858.CD008165.pub5",
+   "public_url": "https://doi.org/10.1002/14651858.CD008165.pub5",
+   "design": "Cochrane systematic review and meta-analysis of randomised trials (third update; searches to January 2021)",
+   "population_setting": "38 randomised and cluster-randomised trials of interventions (mostly pharmaceutical care) to improve appropriate polypharmacy in people aged 65 or over, mostly high-income countries",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Best overview of the whole field. GRADE certainty low to very low for every pooled outcome; hospital admissions and quality of life not pooled."
+  },
+  {
+   "key": "PMID:31338909",
+   "citation": "Parekh N, Ali K, Davies JG, Rajkumar C. Do the 2015 Beers Criteria predict medication-related harm in older adults? Analysis from a multicentre prospective study in the United Kingdom. Pharmacoepidemiol Drug Saf. 2019;28(11):1464-1469.",
+   "pmid": "31338909",
+   "pmcid": null,
+   "doi": "10.1002/pds.4849",
+   "public_url": "https://doi.org/10.1002/pds.4849",
+   "design": "Secondary analysis of a multicentre prospective cohort (PRIME study)",
+   "population_setting": "1280 people aged 65 or over (median 82) discharged from five English teaching hospitals, followed for 8 weeks by pharmacists; Beers 2015 potentially inappropriate medicines at discharge",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Observational; association only. One list (Beers 2015) in one cohort."
+  },
+  {
+   "key": "PMID:29790202",
+   "citation": "Parekh N, Ali K, Stevenson JM, Davies JG, Schiff R, Van der Cammen T, et al. Incidence and cost of medication harm in older adults following hospital discharge: a multicentre prospective study in the UK. Br J Clin Pharmacol. 2018;84(8):1789-1797.",
+   "pmid": "29790202",
+   "pmcid": "PMC6046489",
+   "doi": "10.1111/bcp.13613",
+   "public_url": "https://doi.org/10.1111/bcp.13613",
+   "design": "Multicentre prospective observational cohort (PRIME study); 8-week follow-up by senior pharmacists using three data sources; end-point committee confirmation",
+   "population_setting": "1280 adults aged 65 or over (median 82; 58% women; median 9 discharge medicines) discharged from medical wards of five NHS teaching hospitals in Southern England, September 2013 to November 2015; 1116 completed follow-up",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; get_full_text_article (PMC6046489)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Careful prospective case finding; includes harm from non-adherence and 'possible' cases (40% of cases), so incidence is higher than record-only studies. Authors note participation may have heightened awareness and reporting. Data are 2013 to 2015."
+  },
+  {
+   "key": "PMID:29957885",
+   "citation": "Parekh N, Stevenson JM, Schiff R, Graham Davies J, Bremner S, Van der Cammen T, et al. Can doctors identify older patients at risk of medication harm following hospital discharge? A multicentre prospective study in the UK. Br J Clin Pharmacol. 2018;84(10):2344-2351.",
+   "pmid": "29957885",
+   "pmcid": "PMC6138491",
+   "doi": "10.1111/bcp.13690",
+   "public_url": "https://doi.org/10.1111/bcp.13690",
+   "design": "Multicentre prospective observational study nested in the PRIME cohort",
+   "population_setting": "Doctors discharging 1066 patients aged 65 or over (median 82) from medical wards of five English teaching hospitals (2013 to 2015) predicted the likelihood of medication-related harm requiring healthcare in the 8 weeks after discharge; outcome by senior pharmacist follow-up",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (PMC full text returned empty); Scite search_literature full-text excerpts (Methods, Results, Discussion) for the passages on doctor grade and accuracy",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article. Scite record returned no editorial notices.",
+   "quality_note": "Predictions mostly by junior doctors (85% under 5 years' experience; only 126 predictions, 11.8%, by registrars or consultants), so the finding about senior doctors rests on few predictions. Confidence-weighted accuracy was better, especially for readmissions."
+  },
+  {
+   "key": "PMID:35353136",
+   "citation": "Stevenson JM, Parekh N, Chua KC, Davies JG, Schiff R, Rajkumar C, Ali K. A multi-centre cohort study on healthcare use due to medication-related harm: the role of frailty and polypharmacy. Age Ageing. 2022;51(3):afac054.",
+   "pmid": "35353136",
+   "pmcid": "PMC8966695",
+   "doi": "10.1093/ageing/afac054",
+   "public_url": "https://doi.org/10.1093/ageing/afac054",
+   "design": "Prospective observational cohort (PRIME) with logistic regression",
+   "population_setting": "1280 adults aged 65 or over due for discharge from general medicine and older persons' wards, South East England, 2013 to 2015",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Association only; the odds ratio (10.06, 95% CI 2.06 to 49.26) is per unit of a 0 to 1 frailty index and very imprecise, so it should not be quoted in a post. Optional context only."
+  },
+  {
+   "key": "PMID:30745357",
+   "citation": "Duncan P, Cabral C, McCahon D, Guthrie B, Ridd MJ. Efficiency versus thoroughness in medication review: a qualitative interview study in UK primary care. Br J Gen Pract. 2019;69(680):e190-e198.",
+   "pmid": "30745357",
+   "pmcid": "PMC6400610",
+   "doi": "10.3399/bjgp19X701321",
+   "public_url": "https://doi.org/10.3399/bjgp19X701321",
+   "design": "Qualitative semi-structured interview study with thematic analysis",
+   "population_setting": "13 GPs and 10 pharmacists (community, practice-based and CCG) in South West England, Northern England and Scotland, recruited from practices taking part in the 3D trial; interviews January to October 2017",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC6400610)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Professionals' accounts, not measured frequency. Practices were in a trial and may not be representative; patients were not interviewed. Interviews predate England's structured medication reviews (introduced September 2020)."
+  },
+  {
+   "key": "PMID:41033757",
+   "citation": "Agwunobi AJ, Seeley AE, Tucker KL, Bateman PA, Clark CE, Clegg A, et al. Understanding structured medication reviews delivered by clinical pharmacists in primary care in England: a national cross-sectional survey. BMJ Open. 2025;15(9):e097012.",
+   "pmid": "41033757",
+   "pmcid": "PMC12496104",
+   "doi": "10.1136/bmjopen-2024-097012",
+   "public_url": "https://doi.org/10.1136/bmjopen-2024-097012",
+   "design": "Cross-sectional mixed-methods online survey",
+   "population_setting": "120 clinical pharmacists with experience of structured medication reviews (SMRs) in primary care in England, 15 regions",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite search_literature full-text excerpts (Introduction, Results table footnotes, Discussion)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article. Scite record returned no editorial notices.",
+   "quality_note": "Self-selected respondents; no response rate could be calculated. Describes what pharmacists report, not observed practice. The September 2020 start date for SMRs is background in the introduction (citing NHS England), not a finding."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ng5/chapter/Recommendations",
+   "citation": "National Institute for Health and Care Excellence. Medicines optimisation: the safe and effective use of medicines to enable the best possible outcomes. NICE guideline NG5. London: NICE; 2015. [Web page not opened; search-engine extract only]",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ng5/chapter/Recommendations",
+   "design": "National clinical guideline",
+   "population_setting": "England; adults taking medicines",
+   "year": 2015,
+   "access": "search_extract",
+   "tool_used": "WebSearch restricted to nice.org.uk (page itself could not be opened: WebFetch blocked); not found in Alasdair's Drive",
+   "correction_check": "Not applicable (guideline web page).",
+   "quality_note": "Search extract only; not sufficient alone for an essential claim. Used only alongside the peer-reviewed description of NICE guidance in Duncan 2019."
+  },
+  {
+   "key": "PMID:30326004",
+   "citation": "Reeve E, Wolff JL, Skehan M, Bayliss EA, Hilmer SN, Boyd CM. Assessment of attitudes toward deprescribing in older Medicare beneficiaries in the United States. JAMA Intern Med. 2018;178(12):1673-1680.",
+   "pmid": "30326004",
+   "pmcid": "PMC6583614",
+   "doi": "10.1001/jamainternmed.2018.4720",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2018.4720",
+   "design": "Population-based survey (Medication Attitudes module of the National Health and Aging Trends Study, round 6, in-person interviews), weighted analysis",
+   "population_setting": "1981 US Medicare beneficiaries aged 65 or over (random third of NHATS participants); questions drawn from the (revised) Patients' Attitudes Towards Deprescribing questionnaire",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Nationally representative, high response. Measures agreement with a hypothetical statement conditional on the doctor saying stopping is possible; not observed behaviour. Adjusted odds ratios must not be converted to 'times more likely'."
+  },
+  {
+   "key": "PMID:34173200",
+   "citation": "Chock YL, Wee YL, Gan SL, Teoh KW, Ng KY, Lee SWH. How willing are patients or their caregivers to deprescribe: a systematic review and meta-analysis. J Gen Intern Med. 2021;36(12):3830-3840.",
+   "pmid": "34173200",
+   "pmcid": "PMC8642501",
+   "doi": "10.1007/s11606-021-06965-5",
+   "public_url": "https://doi.org/10.1007/s11606-021-06965-5",
+   "design": "Systematic review and random-effects meta-analysis of proportions",
+   "population_setting": "29 studies, 11,049 participants (patients; 7 studies included caregivers), searched to April 2021, various countries",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Pooled stated willingness; high heterogeneity likely. Authors note the attitude tools have poor predictive ability for behaviour."
+  },
+  {
+   "key": "PMID:25488097",
+   "citation": "Anderson K, Stowasser D, Freeman C, Scott I. Prescriber barriers and enablers to minimising potentially inappropriate medications in adults: a systematic review and thematic synthesis. BMJ Open. 2014;4(12):e006544.",
+   "pmid": "25488097",
+   "pmcid": "PMC4265124",
+   "doi": "10.1136/bmjopen-2014-006544",
+   "public_url": "https://doi.org/10.1136/bmjopen-2014-006544",
+   "design": "Qualitative systematic review and thematic synthesis",
+   "population_setting": "21 qualitative studies of prescribers, mostly primary care physicians managing older community-dwelling adults",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite (full text denied)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article. Scite record returned no editorial notices.",
+   "quality_note": "Abstract names patient factors only as part of an 'extrinsic' theme; the specific patient-resistance findings were not opened. Supporting role only."
+  },
+  {
+   "key": "PMID:37256475",
+   "citation": "O'Mahony D, Cherubini A, Guiteras AR, Denkinger M, Beuscart JB, Onder G, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med. 2023;14(4):625-632.",
+   "pmid": "37256475",
+   "pmcid": "PMC10447584",
+   "doi": "10.1007/s41999-023-00777-y",
+   "public_url": "https://doi.org/10.1007/s41999-023-00777-y",
+   "design": "Expert consensus (Delphi) validation of explicit prescribing criteria after literature review",
+   "population_setting": "Panel of 11 academic geriatricians from 8 European countries; criteria for older people with multimorbidity and polypharmacy",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles; get_article_metadata; get_full_text_article (PMC10447584) - main text only; Appendix 1 (the criteria list) is a supplementary file not available through PMC text",
+   "correction_check": "PubMed: no retraction. Correction published (Eur Geriatr Med 2023;14(4):633, PMID 37326916, PMC10447589), opened: administrative only (missing supplementary file uploaded; appendix titles and reference to supplements amended). No change to the criteria or results.",
+   "quality_note": "Consensus criteria, not outcome evidence. The individual criterion wordings (for example the opioid-laxative item) could not be read because the appendix was not accessible."
+  },
+  {
+   "key": "PMID:39457992",
+   "citation": "Szoszkiewicz M, Deskur-Smielecka E, Styszynski A, Urbanska Z, Neumann-Podczaska A, Wieczorowska-Tobis K. Potentially inappropriate prescribing identified using STOPP/START version 3 in geriatric patients and comparison with version 2: a cross-sectional study. J Clin Med. 2024;13(20):6043.",
+   "pmid": "39457992",
+   "pmcid": "PMC11508511",
+   "doi": "10.3390/jcm13206043",
+   "public_url": "https://doi.org/10.3390/jcm13206043",
+   "design": "Retrospective cross-sectional study",
+   "population_setting": "100 partially dependent older people with polypharmacy at two day-care centres in Poland",
+   "year": 2024,
+   "access": "full_text",
+   "tool_used": "Scite search_literature full-text excerpts; confirmed on PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article. Scite record returned no editorial notices.",
+   "quality_note": "Small single-country sample. Used only to show how version 3 treats the opioid-without-laxative item and how common omissions were; the excerpt does not state the criterion code."
+  },
+  {
+   "key": "PMID:37487715",
+   "citation": "te Winkel MT, Damoiseaux-Volman BA, Abu-Hanna A, Lissenberg-Witte BI, van Marum RJ, Schers HJ, et al. Personal continuity and appropriate prescribing in primary care. Ann Fam Med. 2023;21(4):305-312.",
+   "pmid": "37487715",
+   "pmcid": "PMC10365882",
+   "doi": "10.1370/afm.2994",
+   "public_url": "https://doi.org/10.1370/afm.2994",
+   "design": "Observational cohort using routine primary care data",
+   "population_setting": "25,854 patients aged 65 or over with at least 5 contacts in 6 years, 48 Dutch family practices, 2013 to 2018; STOPP/START Netherlands version 2",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "Scite search_literature full-text excerpt (Results); confirmed on PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article. Scite record returned no editorial notices.",
+   "quality_note": "Large routine-data study; automated criteria (100 of 108 programmed). Prevalence counts any PIM or PPO over 6 years, which inflates it relative to a single point in time."
+  },
+  {
+   "key": "PMID:17578478",
+   "citation": "Kuijpers MA, van Marum RJ, Egberts AC, Jansen PA. Relationship between polypharmacy and underprescribing. Br J Clin Pharmacol. 2008;65(1):130-3.",
+   "pmid": "17578478",
+   "pmcid": "PMC2291281",
+   "doi": "10.1111/j.1365-2125.2007.02961.x",
+   "public_url": "https://doi.org/10.1111/j.1365-2125.2007.02961.x",
+   "design": "Cross-sectional study",
+   "population_setting": "150 geriatric patients in the Netherlands; treatment compared with GP and national guidelines",
+   "year": 2008,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] returned no record (checked in this session, 25-26 Sep 2026); search for published erratum[pt] records with matching title words found no notice for this article.",
+   "quality_note": "Small, single-centre, older study; association only. Consistent with later larger data (te Winkel 2023; Szoszkiewicz 2025 found number of drugs associated with omissions in a Scite snippet, not relied on)."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C06-04-a",
+   "cand_id": "C06-04",
+   "claim": "OPERAM enrolled 2,008 adults aged 70 or over with multimorbidity and polypharmacy admitted to university hospitals in four European countries; a doctor and pharmacist used STOPP/START software to review medicines; the main outcome was a first drug-related readmission within 12 months.",
+   "source_keys": [
+    "PMID:34257088"
+   ],
+   "supporting_passage": "\"110 clusters of inpatient wards within university based hospitals in four European countries (Switzerland, Netherlands, Belgium, and Republic of Ireland) defined by attending hospital doctors.\" \"2008 older adults (≥70 years) with multimorbidity (≥3 chronic conditions) and polypharmacy (≥5 drugs used long term).\" \"Clinical staff clusters were randomised to usual care or a structured pharmacotherapy optimisation intervention performed at the individual level jointly by a doctor and a pharmacist, with the support of a clinical decision software system deploying the screening tool of older person's prescriptions and screening tool to alert to the right treatment (STOPP/START) criteria to identify potentially inappropriate prescribing.\" \"Primary outcome was first drug related hospital admission within 12 months.\"",
+   "location": "Abstract (Setting, Participants, Interventions, Main outcome measures)",
+   "pico_timeframe": "Adults 70+, 3+ chronic conditions, 5+ long-term drugs, hospital inpatients (medical and surgical), Switzerland/Netherlands/Belgium/Ireland; single in-hospital structured review with STOPP/START software plus GP letter vs usual care; first adjudicated drug-related readmission; 12 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A European trial of 2,008 people aged 70 or over, each with at least 3 long-term conditions and at least 5 regular medicines, tested a structured medicines review in hospital, done by a doctor and a pharmacist with the help of checklist software (STOPP/START). The main question was whether it reduced readmissions caused by medicines over the next year.",
+   "qualifications": "Hospital inpatients in university hospitals; the review happened once, during the admission, with recommendations also sent to the GP.",
+   "conflicting_or_uncertain": "None for the design description.",
+   "numbers": [
+    {
+     "value": "2,008",
+     "meaning": "participants randomised (963 intervention, 1045 control)"
+    },
+    {
+     "value": "110",
+     "meaning": "clusters (attending hospital doctors' wards)"
+    },
+    {
+     "value": "70 or over",
+     "meaning": "age criterion"
+    },
+    {
+     "value": "4",
+     "meaning": "countries"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-b",
+   "cand_id": "C06-04",
+   "claim": "Step 1-2 of the chain: of 916 people who received the review, 789 (86.1%) had at least one STOPP/START recommendation, a mean of 2.75 each; 2,331 recommendations in all, two thirds to stop or change and one third to start a medicine.",
+   "source_keys": [
+    "PMID:34257088"
+   ],
+   "supporting_passage": "\"Of 916 patients who received the intervention (), 789 (86.1%) had at least one STOPP/START recommendation provided to their attending hospital doctor, with a mean of 2.75 (SD 2.24) recommendations for each participant ().\" \"In total, 2331 recommendations were made, of which 1524 (65.4%) were STOPP recommendations and 807 (34.6%) were START recommendations.\"",
+   "location": "Full text, Results (Intervention: recommendations)",
+   "pico_timeframe": "Intervention arm only; recommendations made to attending hospital doctors during the index admission",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The review found something to recommend for 86 in 100 people who received it, on average almost 3 recommendations each. About two thirds of the recommendations were to stop a medicine and one third to start one.",
+   "qualifications": "86 in 100 is the proportion with at least one flagged prescribing problem in the intervention arm, NOT a reduction and not a between-group result (judge's concern confirmed). The denominator is 916 who received the intervention, not all 963 randomised.",
+   "conflicting_or_uncertain": "The STOPP/START version 3 paper reports that a later analysis of OPERAM found over half of software-generated recommendations were not considered clinically relevant in individual cases (see C06-04-h), so 'problems found' overstates clinically important problems.",
+   "numbers": [
+    {
+     "value": "789 of 916 (86.1%)",
+     "meaning": "intervention patients with at least one STOPP/START recommendation, at the index admission"
+    },
+    {
+     "value": "2.75",
+     "meaning": "mean recommendations per participant"
+    },
+    {
+     "value": "2,331",
+     "meaning": "total recommendations"
+    },
+    {
+     "value": "65.4% / 34.6%",
+     "meaning": "share of recommendations that were STOPP (stop or change) / START (start)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-c",
+   "cand_id": "C06-04",
+   "claim": "Step 3: by 2 months, at least one recommendation had been carried out for 491 people, 62.2% of those with a recommendation, mostly stopping a medicine.",
+   "source_keys": [
+    "PMID:34257088"
+   ],
+   "supporting_passage": "\"After two months, at least one of these recommendations was successfully implemented in 491 participants (62.2% of all participants in the intervention group with ≥1 recommendation), with a mean of 1.16 (SD 1.48) implemented recommendations for each participant, primarily discontinuation of potentially inappropriate drugs ().\"",
+   "location": "Full text, Results; Abstract",
+   "pico_timeframe": "Intervention arm, people with at least one recommendation (n=789); implementation assessed at 2 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "By 2 months, at least one recommendation had been acted on for about 6 in 10 of the people who had one (491 of 789). On average, just over 1 recommendation per person was carried out out of almost 3 made.",
+   "qualifications": "The candidate wording '62.2% of intervention participants' is slightly wrong: the denominator is the 789 with at least one recommendation (the paper's Discussion loosely says 'of participants in the intervention group'). About 4 in 10 had none acted on.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "491 of 789 (62.2%)",
+     "meaning": "people with at least one recommendation who had at least one implemented, at 2 months"
+    },
+    {
+     "value": "1.16",
+     "meaning": "mean implemented recommendations per participant, vs 2.75 made"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-d",
+   "cand_id": "C06-04",
+   "claim": "Step 4: at 2 months, the proportion of people with an overused, underused or misused medicine, and the number of long-term medicines, were about the same in the intervention and control groups.",
+   "source_keys": [
+    "PMID:34257088"
+   ],
+   "supporting_passage": "Methods: \"Secondary outcomes within two months after enrolment included the presence of drug overuse and misuse (based on STOPP criteria), drug underuse (defined by START criteria), and clinically significant drug-drug interactions\". Table 5 (Control n, events (%); Intervention n, events (%); odds ratio (95% CI); P): \"Drug misuse§:  2  893  378 (42.3)  832  355 (42.7)  0.99 (0.81 to 1.20)  0.92  Drug overuse§:  2  893  376 (42.1)  832  348 (41.8)  0.99 (0.82 to 1.20)  0.91  Drug underuse§:  2  893  638 (71.4)  832  583 (70.1)  0.91 (0.70 to 1.17)  0.45  Mean (SD) No of long term drugs¶:  2  893  11.0 (4.27)  833  11.2 (4.54)  −0.13 (−0.49 to 0.22)  0.47\". Abstract conclusion (for contrast): \"Inappropriate prescribing was common in older adults with multimorbidity and polypharmacy admitted to hospital and was reduced through an intervention to optimise pharmacotherapy, but without effect on drug related hospital admissions.\"",
+   "location": "Full text, Methods (Outcomes) and Table 5; Abstract (Conclusions)",
+   "pico_timeframe": "Randomised comparison, intervention vs usual care; drug overuse (STOPP), underuse (START), misuse; assessed at 2 months in 832 to 893 participants per arm",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "At 2 months, about 42 in 100 people in each group were still on at least one medicine judged to be overused, and about 70 in 100 in each group were missing at least one medicine judged to be indicated. The trial did not show a clear difference between the groups on these measures, or in the number of long-term medicines (about 11 in both).",
+   "qualifications": "The authors' own conclusion says inappropriate prescribing 'was reduced'; that refers to recommendations implemented within the intervention arm, not to the randomised comparison at 2 months. The post must not say the trial 'cut' or 'reduced' inappropriate prescribing. 'Did not show a clear difference' is the right phrase (non-significant, not proof of no effect).",
+   "conflicting_or_uncertain": "Why implemented changes did not produce a between-group difference is not explained in the paper; possible reasons (usual-care changes, new prescriptions, measurement) are speculation and must not be stated as findings.",
+   "numbers": [
+    {
+     "value": "348 of 832 (41.8%) vs 376 of 893 (42.1%)",
+     "meaning": "drug overuse at 2 months, intervention vs control; odds ratio 0.99 (0.82 to 1.20)"
+    },
+    {
+     "value": "583 of 832 (70.1%) vs 638 of 893 (71.4%)",
+     "meaning": "drug underuse at 2 months, intervention vs control; odds ratio 0.91 (0.70 to 1.17)"
+    },
+    {
+     "value": "11.2 vs 11.0",
+     "meaning": "mean long-term drugs at 2 months, intervention vs control"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-e",
+   "cand_id": "C06-04",
+   "claim": "Step 5: within 12 months, 21.9% of the intervention group and 22.4% of the control group had a first drug-related readmission (hazard ratio 0.95, 95% CI 0.77 to 1.17); falls and deaths also did not clearly differ; quality of life at 12 months was slightly better with the intervention.",
+   "source_keys": [
+    "PMID:34257088"
+   ],
+   "supporting_passage": "Abstract: \"In the intervention group, 211 participants (21.9%) experienced a first drug related hospital admission compared with 234 (22.4%) in the control group. In the intention-to-treat analysis censored for death as competing event (n=375, 18.7%), the hazard ratio for first drug related hospital admission was 0.95 (95% confidence interval 0.77 to 1.17).\" Results: \"Drug related outcomes, pain, activities of daily living status, and drug adherence did not differ significantly between the groups, except for quality of life at 12 months, which was better in the intervention group (between group adjusted mean difference 2.29, 95% confidence interval 0.31 to 4.26,).\" Table 4: \"First drug related hospital admission in patients with ≥1 STOPP recommendation implemented after two months*  156/875 (17.8)  64/398 (16.1)  0.88 (0.65 to 1.19)  0.41\" (* Post hoc analysis).",
+   "location": "Abstract (Results); full text Results (Secondary outcomes) and Table 4",
+   "pico_timeframe": "Randomised comparison; first adjudicated drug-related readmission within 12 months; secondary outcomes falls, death, EQ-VAS quality of life (0 to 100)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Over the following year, about 22 in 100 people in each group were readmitted to hospital because of a medicine. The trial did not show a clear difference. Quality of life scores at 12 months were slightly higher with the review, by about 2 points on a 100-point scale.",
+   "qualifications": "Say 'did not show a clear difference', not 'no effect'; the confidence interval runs from a 23% relative reduction to a 17% relative increase. The quality-of-life difference is small and was one of many secondary outcomes. The post hoc per-protocol comparison (16.1% vs 17.8%) also did not show a clear difference and is exploratory.",
+   "conflicting_or_uncertain": "Cochrane 2023 (C06-04-g) finds medication-review interventions may make little or no difference to admissions (low certainty), consistent with OPERAM. A single-centre trial with face-to-face physician delivery (reported in STOPP/START v3 paper) had high implementation and fewer in-hospital ADRs; different outcome and setting.",
+   "numbers": [
+    {
+     "value": "211 of 963 (21.9%) vs 234 of 1045 (22.4%)",
+     "meaning": "first drug-related readmission within 12 months, intervention vs control"
+    },
+    {
+     "value": "0.95 (0.77 to 1.17)",
+     "meaning": "hazard ratio, intention to treat with death as competing event"
+    },
+    {
+     "value": "2.29 (0.31 to 4.26)",
+     "meaning": "adjusted difference in EQ-VAS quality of life at 12 months, 0 to 100 scale"
+    },
+    {
+     "value": "375 (18.7%)",
+     "meaning": "deaths during follow-up, both arms"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-f",
+   "cand_id": "C06-04",
+   "claim": "The OPERAM authors suggest the effect of a single review may not persist over a year of contacts with other doctors, and that high mortality may have diluted benefit.",
+   "source_keys": [
+    "PMID:34257088"
+   ],
+   "supporting_passage": "\"Firstly, the impact of a single time point pharmacotherapy optimisation might not persist over a one year follow-up, during which multiple contacts with doctors might occur. Although we provided evidence based recommendations on inappropriate prescribing to patients’ GPs, including reasons for stopping or starting drugs, the contacts with other doctors (eg, specialists) over one year might have resulted in new potentially inappropriate drugs or discontinuation of appropriate drugs, which could have negated an intervention effect.\" \"Secondly, the high mortality rate of the population, approaching 20% at 12 months,\"",
+   "location": "Full text, Discussion (Potential explanations for lack of effect)",
+   "pico_timeframe": "Authors' interpretation",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The trial team suggested that one review in hospital may not last through a year of appointments with other doctors, who may start or stop medicines again.",
+   "qualifications": "These are the authors' possible explanations, not findings. Label them as such.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "about 20%",
+     "meaning": "12-month mortality in the trial population"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-g",
+   "cand_id": "C06-04",
+   "claim": "Across 38 randomised trials, it is uncertain whether medication review and similar pharmaceutical care reduce inappropriate medicines, and they may make little or no difference to hospital admissions or quality of life.",
+   "source_keys": [
+    "PMID:37818791"
+   ],
+   "supporting_passage": "\"We identified 38 studies, which includes an additional 10 in this update.\" \"It is uncertain whether pharmaceutical care reduces the proportion of patients with one or more PIM (risk ratio (RR) 0.81, 95% CI 0.68 to 0.98; I= 84%; 13 studies, 4534 participants; very low-certainty evidence).\" \"Pharmaceutical care may make little or no difference to hospital admissions (data not pooled; 14 studies, 4797 participants; low-certainty evidence). Pharmaceutical care may make little or no difference to quality of life (data not pooled; 16 studies, 7458 participants; low-certainty evidence).\" \"It is unclear whether interventions to improve appropriate polypharmacy resulted in clinically significant improvement.\"",
+   "location": "Abstract (Main results; Authors' conclusions)",
+   "pico_timeframe": "People 65+ with 4+ medicines; pharmaceutical care interventions vs usual care; appropriateness measures, admissions, quality of life; trials to January 2021",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Cochrane review of 38 trials found it uncertain whether medicines reviews reduce inappropriate prescribing, and they may make little or no difference to hospital admissions or quality of life. The certainty of this evidence is low or very low.",
+   "qualifications": "Low and very low certainty: this is an evidence gap as much as evidence of no benefit. Do not say reviews 'do not work'.",
+   "conflicting_or_uncertain": "Individual trials vary; heterogeneity high (I-squared 84% for the proportion with a PIM).",
+   "numbers": [
+    {
+     "value": "38",
+     "meaning": "randomised trials in the review"
+    },
+    {
+     "value": "0.81 (0.68 to 0.98)",
+     "meaning": "risk ratio for proportion with 1 or more PIM, 13 studies, very low certainty"
+    },
+    {
+     "value": "14 studies, 4797 participants",
+     "meaning": "hospital admissions outcome, not pooled, low certainty"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-h",
+   "cand_id": "C06-04",
+   "claim": "In SENATOR, a software-guided STOPP/START review given once to hospital clinicians had about 15% of its advice implemented and did not reduce adverse drug reactions within 14 days; a later OPERAM analysis found over half of software recommendations were not clinically relevant in individual cases.",
+   "source_keys": [
+    "PMID:32484850",
+    "PMID:37256475"
+   ],
+   "supporting_passage": "SENATOR abstract: \"For the primary endpoint, there was no difference between the intervention and control groups (24.5 vs. 24.8%; OR 0.98; 95% CI 0.77-1.24; P = 0.88).\" \"Among attending clinicians in the intervention group, implementation of SENATOR software-generated medication advice points was poor (~15%).\" STOPP/START v3 Discussion: \"Recent analysis of the specific STOPP and START criteria elicited in the OPERAM trial shows that over half of all the STOPP and START recommendations generated by the software tool were not  considered clinically relevant in individual cases [].\"",
+   "location": "SENATOR Abstract (Results); STOPP/START v3 full text, Discussion",
+   "pico_timeframe": "SENATOR: 1537 older inpatients, six European centres, ADRs within 14 days of randomisation. OPERAM relevance analysis: reported second-hand in the v3 paper",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a second European trial (SENATOR), hospital doctors acted on only about 15 in 100 of the software's suggestions, and side effects in hospital were no less common (about 25 in 100 in both groups).",
+   "qualifications": "The OPERAM relevance finding is reported second-hand in the STOPP/START v3 paper; the original analysis was not opened, so quote it only as 'a later analysis reported'. SENATOR has a corrigendum whose content was not opened.",
+   "conflicting_or_uncertain": "The v3 paper also describes an earlier single-centre trial where a physician explained criteria face to face: implementation 81% (STOPP) and 87% (START), with fewer hospital-acquired ADRs. That trial was not opened; it suggests how the advice is delivered may matter.",
+   "numbers": [
+    {
+     "value": "24.5% vs 24.8%",
+     "meaning": "probable or certain ADRs within 14 days, SENATOR intervention vs control; OR 0.98 (0.77 to 1.24)"
+    },
+    {
+     "value": "about 15%",
+     "meaning": "SENATOR advice implemented by attending clinicians"
+    },
+    {
+     "value": "over half",
+     "meaning": "OPERAM software recommendations judged not clinically relevant (second-hand report)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-04-i",
+   "cand_id": "C06-04",
+   "claim": "In an English cohort, being prescribed a Beers-listed medicine at discharge was not significantly associated with overall medication-related harm, readmission or death at one year, though multiple listed medicines were associated with adverse drug reactions.",
+   "source_keys": [
+    "PMID:31338909"
+   ],
+   "supporting_passage": "\"Two hundred and seventy-six patients (22%) were prescribed one or more PIMs at hospital discharge.\" \"There was no significant relationship between patients prescribed PIMs and overall MRH, hospital readmission or all-cause one-year mortality. Multiple PIMs at discharge was independently associated with an increased risk of ADR (OR 2.32, 95% CI 1.03-5.23).\" \"The 2015 Beers criteria have a limited clinical value to predict adverse outcomes following hospital discharge in this setting.\"",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "1280 people 65+ discharged from English hospitals (2013 to 2015); exposure Beers 2015 PIM at discharge; outcome MRH over 8 weeks, readmission, 1-year mortality",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In an English study of older people leaving hospital, being on a medicine from one well-known 'avoid' list (Beers) was not clearly linked with later harm from medicines overall. People on several listed medicines did have more side effects.",
+   "qualifications": "Observational association; one list (Beers, a US list), not STOPP/START. Must state the multiple-PIM result that went the other way. Optional claim.",
+   "conflicting_or_uncertain": "Supports the general point that list-based counts are imperfect stand-ins for harm, but it is not evidence about STOPP/START or about OPERAM.",
+   "numbers": [
+    {
+     "value": "276 of 1280 (22%)",
+     "meaning": "prescribed 1 or more Beers PIM at discharge"
+    },
+    {
+     "value": "OR 2.32 (1.03 to 5.23)",
+     "meaning": "multiple PIMs vs fewer, adjusted odds of an ADR; do not convert to 'times more likely'"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-a",
+   "cand_id": "C06-13",
+   "claim": "In the PRIME cohort (five English teaching hospitals, 2013 to 2015), 413 of 1,116 people aged 65 or over followed for 8 weeks after discharge (37%) had medication-related harm.",
+   "source_keys": [
+    "PMID:29790202"
+   ],
+   "supporting_passage": "\"Between September 2013 and November 2015, research nurses invited patients to participate from medical wards in five NHS teaching hospitals in Southern England, near to the time of hospital discharge.\" \"Senior, trained research pharmacists followed discharged participants for 8 weeks to determine if they experienced MRH.\" \"Therefore, our final cohort included 1116 (87.2%) participants\" \"Overall, 413 participants [37.0% (95% CI 34.2–39.9%)] experienced MRH in the 8‐week follow‐up period, with 856 medicines implicated in 621 events.\"",
+   "location": "Full text, Methods (Design, setting and participants) and Results (Incidence of MRH)",
+   "pico_timeframe": "People 65+ (median 82) discharged from medical wards, five teaching hospitals, Southern England, 2013 to 2015; medication-related harm over 8 weeks after discharge; pharmacist follow-up via interview, GP records and readmission review",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a study of 1,116 people aged 65 or over leaving five hospitals in southern England, 37 in 100 had some harm from their medicines in the 8 weeks after going home.",
+   "qualifications": "Southern England teaching hospitals, 2013 to 2015. 'Harm' includes side effects, harm from not taking medicines, and a few medication errors; 40% of cases were rated only 'possible' (see C06-13-b).",
+   "conflicting_or_uncertain": "Record-only studies report lower rates; the authors attribute their higher figure to prospective interviews and inclusion of non-adherence.",
+   "numbers": [
+    {
+     "value": "413 of 1,116 (37.0%, 95% CI 34.2 to 39.9)",
+     "meaning": "people with medication-related harm within 8 weeks of discharge"
+    },
+    {
+     "value": "1,280",
+     "meaning": "recruited; 1,116 completed follow-up"
+    },
+    {
+     "value": "82",
+     "meaning": "median age"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-b",
+   "cand_id": "C06-13",
+   "claim": "What counted as harm: an adverse drug reaction, harm from not taking a medicine, or harm from a medication error; most cases were side effects alone; 40% of cases were rated only 'possible'.",
+   "source_keys": [
+    "PMID:29790202"
+   ],
+   "supporting_passage": "\"We defined MRH as an ADR or harm arising from a failure to receive medication owing to non‐adherence. Harm arising from medication error was included where reported. Intentional overdose was excluded.\" \"ADRs were solely responsible for MRH in 301 out of 413 cases (72.9%), non‐adherence in 45 cases (10.9%) and a medication error in 14 cases (3.4%). In five cases (1.2%), the patient experienced harm from both an ADR and a medication error.\" \"In 48 cases (11.6%), harm was due to both an ADR and non‐adherence.\" \"Of the 413 participants whom we classified as having MRH, 246 (60%) experienced at least one MRH event considered ‘probable’ (= 110) or ‘definite’ (= 136). The remaining cases were ‘possible’ (= 167).\" \"The most common events were diarrhoea (= 55; 8.9%), constipation (= 52; 8.4%), falls (= 35; 5.6%) and bleeding (= 31; 5.0%).\" \"However, MRH risk (incidence per 1000 prescriptions) was greatest for opiates (399), followed by antibiotics (189).\"",
+   "location": "Full text, Methods (MRH assessment); Results (Incidence; Types of MRH)",
+   "pico_timeframe": "As C06-13-a",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Harm here mostly meant side effects, such as diarrhoea, constipation, falls and bleeding. It also included harm from not taking a medicine as prescribed. For 4 in 10 people with harm, the link to the medicine was rated as possible rather than probable or definite.",
+   "qualifications": "Say what the 37 in 100 counts. Do not describe all of it as 'serious' without the definition in C06-13-c.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "301 of 413 (72.9%)",
+     "meaning": "cases due to side effects (ADRs) alone"
+    },
+    {
+     "value": "45 of 413 (10.9%)",
+     "meaning": "cases due to non-adherence alone"
+    },
+    {
+     "value": "14 of 413 (3.4%)",
+     "meaning": "cases due to medication error alone"
+    },
+    {
+     "value": "167 of 413 (40%)",
+     "meaning": "cases rated only 'possible'"
+    },
+    {
+     "value": "399 per 1000 prescriptions",
+     "meaning": "MRH risk for opiates, highest of any class"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-c",
+   "cand_id": "C06-13",
+   "claim": "Most harm led to healthcare use: 328 of the 413 people with harm (79%) used an NHS service because of it, and 87 were readmitted to hospital because of it; 81% of cases met the study's definition of serious (needing a change of treatment or treatment by a health professional) or worse.",
+   "source_keys": [
+    "PMID:29790202"
+   ],
+   "supporting_passage": "\"We graded severity of MRH using the approach of Morimoto.: fatal, life‐threatening, serious (requires therapy change and/or treatment by a health professional) and significant.\" \"Four participants (1.0%) experienced a fatal event associated with the MRH\" \"Nine participants (2.2%) had a life‐threatening event, and MRH was serious in a further 323 participants (78.2%).\" \"Out of the 413 MRH cases, 328 [95% CI (75.2–83.2%)] had at least one NHS service use associated with MRH, and 87 participants [95% CI (6.3–9.5%)] had an MRH‐associated hospital readmission.\" \"Of the 413 participants with MRH, 85 (20.6%), who experienced 105 MRH events, managed their adverse event(s) without seeking healthcare input.\" \"A total of 460 MRH events (74%) were attributable to medicines prescribed at hospital discharge\"",
+   "location": "Full text, Methods (severity); Results (Severity; Health service utilization)",
+   "pico_timeframe": "As C06-13-a; NHS use (mostly GP consultations) and readmissions over 8 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 29 in 100 of everyone followed up needed NHS care because of harm from a medicine within 8 weeks, mostly a GP visit. About 8 in 100 were readmitted to hospital because of it. Three quarters of the harm came from medicines prescribed at discharge.",
+   "qualifications": "29 in 100 (328 of 1116) and 8 in 100 (87 of 1116) are calculated here from the reported counts; the paper reports 328 as 79% of those with harm. 'Serious' is the study's own grade (needs a change of treatment or treatment by a health professional), not necessarily dangerous.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "328 of 413 (79%)",
+     "meaning": "people with harm who used an NHS service for it within 8 weeks; 328 of 1116 = about 29 in 100 of all followed up (calculated)"
+    },
+    {
+     "value": "87 of 1116 (about 8 in 100)",
+     "meaning": "harm-related hospital readmission within 8 weeks (calculated from reported count)"
+    },
+    {
+     "value": "336 of 413 (81%)",
+     "meaning": "cases graded serious, life-threatening or fatal"
+    },
+    {
+     "value": "4",
+     "meaning": "fatal cases"
+    },
+    {
+     "value": "460 of 621 events (74%)",
+     "meaning": "harm events due to medicines prescribed at discharge"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-d",
+   "cand_id": "C06-13",
+   "claim": "Discharging doctors' predictions of which patients would have medication-related harm needing healthcare in the next 8 weeks showed no relationship with who actually did.",
+   "source_keys": [
+    "PMID:29957885"
+   ],
+   "supporting_passage": "\"Doctors discharging patients (aged ≥65 years) from medical wards predicted the likelihood of their patient experiencing MRH requiring healthcare (hospital readmission or community healthcare) in the initial 8‐week period post‐discharge. Patients were followed up by senior pharmacists to determine MRH occurrence.\" \"Data of 1066 patients (83%) with completed predictions and follow‐up, out of 1280 recruited patients, were analysed.\" \"There was no relationship between doctors' predictions and patient MRH (OR 1.10, 95% CI 0.82–1.46,= 0.53), irrespective of years of clinical experience.\" \"Clinical judgement of doctors is not a reliable tool to predict MRH in older adults post‐discharge.\" Full-text excerpt: \"Doctors correctly predicted the outcome (MRH or no MRH) in 469 out of 1066 patients (44%).\"",
+   "location": "Abstract (Methods, Results, Conclusions); full-text Results excerpt via Scite",
+   "pico_timeframe": "1066 patients 65+ discharged from medical wards, five English teaching hospitals, 2013 to 2015; exposure = discharging doctor's predicted likelihood (doubtful/possible/probable/definite) of MRH requiring healthcare; outcome = pharmacist-determined MRH; 8 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "When doctors discharging older patients were asked who would be harmed by their medicines in the next 8 weeks, their predictions showed no link with who actually was.",
+   "qualifications": "An observational study of mostly junior doctors' single-question predictions; say 'showed no clear link', not 'worse than chance'. Do not use the 44% accuracy figure without explaining how predictions were dichotomised (not available here).",
+   "conflicting_or_uncertain": "Doctors' predictions were more accurate when they were confident (C06-13-f); state this.",
+   "numbers": [
+    {
+     "value": "1066",
+     "meaning": "patients with a prediction and complete follow-up"
+    },
+    {
+     "value": "OR 1.10 (0.82 to 1.46)",
+     "meaning": "association between doctors' prediction and actual harm; not significant (P=0.53)"
+    },
+    {
+     "value": "8 weeks",
+     "meaning": "prediction window after discharge"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-e",
+   "cand_id": "C06-13",
+   "claim": "Most predictions (85%) were made by doctors with less than 5 years' experience; predictive ability did not differ significantly by experience, but only 126 predictions (11.8%) were by registrars or consultants.",
+   "source_keys": [
+    "PMID:29957885"
+   ],
+   "supporting_passage": "Abstract: \"Most predictions (85%) were made by junior doctors with less than 5 years' clinical experience.\" Full-text excerpts: \"Over half of MRH predictions (n = 595, 55.8%) were by doctors with less than one full year of clinical experience post-medical qualification, i.e. foundation year one, 306 (28.7%) predictions by doctors with years clinical experience, i.e. senior house officer level, and 126 (11.8%) predictions by senior doctors of five or more year's clinical experience, i.e. registrar or consultant grade.\" \"We found no significant difference in predictive ability between doctors with varying years of clinical experience (<1 year, 1-4 year, >4 years) (Table 2).\"",
+   "location": "Abstract; full-text Results excerpts via Scite",
+   "pico_timeframe": "As C06-13-d; subgroup by doctor grade",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Most of the predictions were made by doctors in their first few years after qualifying, who usually write the discharge. The study found no clear difference by experience, but few predictions came from senior doctors.",
+   "qualifications": "The candidate's 'whatever their experience' is weakly supported (judge's concern confirmed): with 126 senior predictions the study could miss a difference. Prefer 'mostly junior doctors, who write most discharges'.",
+   "conflicting_or_uncertain": "None beyond the small senior subgroup.",
+   "numbers": [
+    {
+     "value": "85%",
+     "meaning": "predictions by doctors with under 5 years' experience"
+    },
+    {
+     "value": "595 (55.8%)",
+     "meaning": "predictions by foundation year one doctors"
+    },
+    {
+     "value": "126 (11.8%)",
+     "meaning": "predictions by registrars or consultants"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-f",
+   "cand_id": "C06-13",
+   "claim": "Doctors' predictions were more likely to be accurate when they reported higher confidence, especially for harm leading to readmission.",
+   "source_keys": [
+    "PMID:29957885"
+   ],
+   "supporting_passage": "\"Doctors' predictions were more likely to be accurate when they reported higher confidence in their prediction, especially in predicting MRH‐associated hospital readmissions (OR 1.58, 95% CI 1.42–1.76,< 0.001).\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "As C06-13-d; association of self-rated confidence with accuracy",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Doctors did better when they felt confident about a prediction, particularly for harm serious enough to bring someone back into hospital.",
+   "qualifications": "This is the result that goes the other way and must be stated if the post argues that judgement is unreliable. Do not turn the odds ratio into 'times more likely'.",
+   "conflicting_or_uncertain": "Suggests judgement carries some information for the most serious harm; the overall conclusion still holds for harm needing any healthcare.",
+   "numbers": [
+    {
+     "value": "OR 1.58 (1.42 to 1.76)",
+     "meaning": "association of higher confidence with accurate prediction, especially for readmissions"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-13-g",
+   "cand_id": "C06-13",
+   "claim": "It remains unclear from trials whether medication review alone reduces harm after discharge; multicomponent interventions with patient education have shown success at transitions of care (authors' summary).",
+   "source_keys": [
+    "PMID:29790202"
+   ],
+   "supporting_passage": "\"While it remains unclear from randomized trials if medication review on its own reduces MRH in older adults, multicomponent interventions incorporating patient education have demonstrated success during transitions of care,.\"",
+   "location": "Full text, Discussion (Implications for practitioners and policy makers)",
+   "pico_timeframe": "Authors' summary of other trials (not this study's finding)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Whether a medicines check after discharge prevents harm is not settled; approaches that include explaining medicines to patients have had better results.",
+   "qualifications": "Background statement in the Discussion, citing other studies not opened here. The post's call for routine follow-up (for example a community pharmacy check) is a judgement drawn from the prediction finding, not a tested intervention; mark it as 'we should'. No specific named NHS service is verified in this batch.",
+   "conflicting_or_uncertain": "Cochrane 2023 (C06-04-g) finds uncertain effects of medication review on admissions.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-29-a",
+   "cand_id": "C06-29",
+   "claim": "In 2017 interviews, 13 GPs and 10 pharmacists in England and Scotland said that, because of workload, most medication reviews were done remotely without involving the patient; several called them a 'tick box' exercise.",
+   "source_keys": [
+    "PMID:30745357"
+   ],
+   "supporting_passage": "\"In total, 13 GPs and 10 pharmacists were interviewed.\" \"Analysis of semi-structured interviews with GPs and pharmacists working in the South West of England, Northern England, and Scotland, sampled for heterogeneity. Interviews took place between January and October 2017.\" \"Due to high workload pressures and time constraints, interviewees reported that most medication reviews were conducted remotely, without involving the patient. Several GPs and pharmacists described the medication reviews as a ‘tick box’ exercise, which they did in the quickest way possible without involving the patient. Two GPs and most pharmacists argued that a ‘proper’ medication review required patient involvement and could not be done remotely\"",
+   "location": "Abstract (Design and setting; Results); full text Results (Patient-centredness: Involving patients versus being time efficient)",
+   "pico_timeframe": "13 GPs, 10 pharmacists; general practice in SW England, N England, Scotland; interviews Jan to Oct 2017; accounts of usual medication review practice",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "When researchers interviewed 23 GPs and pharmacists in England and Scotland in 2017, they said most medication reviews were done from the notes, without the patient, because of workload. Several called it a 'tick box' exercise.",
+   "qualifications": "Report as what these professionals said, not as how often it happens. Frame as workload and systems, not individual GPs (judge's note). Data are from 2017, before structured medication reviews began in England (C06-29-f).",
+   "conflicting_or_uncertain": "No quantitative source found in this batch measuring how often reviews exclude the patient.",
+   "numbers": [
+    {
+     "value": "13 GPs and 10 pharmacists",
+     "meaning": "interviewees"
+    },
+    {
+     "value": "2017",
+     "meaning": "interview period, January to October"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-29-b",
+   "cand_id": "C06-29",
+   "claim": "When a repeat prescription came up with a review overdue, GPs could sign it anyway, do a remote review from the notes, or book a review appointment.",
+   "source_keys": [
+    "PMID:30745357"
+   ],
+   "supporting_passage": "\"For requests where the medication review was out of date, GPs could then either ignore this and sign the prescription, carry out a remote medication review using the patient’s notes, or arrange a medication review appointment over the phone, face-to-face, or in the patient’s home\"",
+   "location": "Full text, Results (The role of others in medication reviews)",
+   "pico_timeframe": "As C06-29-a",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Interviewees described how a review can be done from the notes when a repeat prescription is due, without a conversation with the person.",
+   "qualifications": "Describes the options interviewees reported, not what the record shows. Do not claim the GP record displays 'Medication review: done'; the visual should be labelled illustrative.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-29-c",
+   "cand_id": "C06-29",
+   "claim": "Interviewees said it was easier to continue medicines than to stop them, because stopping required involving the patient and created extra work; the authors concluded medicines were rarely stopped or reduced.",
+   "source_keys": [
+    "PMID:30745357"
+   ],
+   "supporting_passage": "\"Interviewees argued that it was easier to continue medicines than it was to stop them, particularly because stopping medicines required involving the patient and this generated extra work.\" \"Practices tended to prioritise being efficient (getting the work done) rather than being thorough (doing it well), so that most medication reviews were carried out with little or no patient involvement, and medicines were rarely stopped or reduced.\"",
+   "location": "Abstract (Results; Conclusion)",
+   "pico_timeframe": "As C06-29-a",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The same professionals said it was easier to carry on a medicine than to stop it, because stopping needs a conversation with the person, and that takes time.",
+   "qualifications": "Interview accounts; 'rarely stopped' is the authors' conclusion from interviews, not a measured rate.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-29-d",
+   "cand_id": "C06-29",
+   "claim": "This is a qualitative study of professionals' views from practices in a trial; it did not interview patients or measure how often reviews exclude them.",
+   "source_keys": [
+    "PMID:30745357"
+   ],
+   "supporting_passage": "\"One limitation was that interviewees were recruited from practices involved in a trial; practices, the GPs, and pharmacists who take part in clinical trials may not be representative of all practices.\" \"It was outside the scope of this study to interview other health professionals involved in medication reviews, such as nurses, and to interview patients about their experiences of medication review.\"",
+   "location": "Full text, Discussion (Strengths and limitations)",
+   "pico_timeframe": "As C06-29-a",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "This was a small interview study of what GPs and pharmacists said. It did not count how often reviews leave the person out, and patients were not asked.",
+   "qualifications": "Must appear in the post (judge's concern).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "23",
+     "meaning": "professionals interviewed; no patients"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-29-e",
+   "cand_id": "C06-29",
+   "claim": "NICE guidance emphasises involving the person in medication review; NICE defines a medication review as a structured examination of a person's medicines aiming to reach agreement with the person about treatment.",
+   "source_keys": [
+    "PMID:30745357",
+    "URL:https://www.nice.org.uk/guidance/ng5/chapter/Recommendations"
+   ],
+   "supporting_passage": "Duncan 2019 (peer-reviewed description of NICE): \"The National Institute for Health and Care Excellence recommends that patients with frailty, multimorbidity, and polypharmacy should undergo regular medication review, and emphasises the importance of involving them in this process.\" \"This does not align with NICE guidance, which puts a strong emphasis on involving patients and their families in decisions about their medicines, and on reducing medicine waste.\" NICE NG5 (search-engine extract only, page not opened): Medication review is defined as \"a structured, critical examination of a person's medicines with the objective of reaching an agreement with the person about treatment, optimising the impact of medicines, minimising the number of medication‑related problems and reducing waste\". Search summary also states: \"During a structured medication review, healthcare professionals should take into account the person's, and their family members or carers where appropriate, views and understanding about their medicines, as well as their concerns, questions or problems with the medicines.\"",
+   "location": "Duncan 2019 full text (How this fits in; Discussion); NICE NG5 via search extract",
+   "pico_timeframe": "NICE guideline NG5 (2015), England",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "National guidance in England says a medication review should involve the person taking the medicines, with the aim of agreeing what to do.",
+   "qualifications": "NG5 itself could not be opened; rely on Duncan's peer-reviewed description and phrase generally ('national guidance in England says reviews should involve the person'). Do not quote NICE wording verbatim in the post or give a recommendation number.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "2015",
+     "meaning": "NICE NG5 publication year"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-29-f",
+   "cand_id": "C06-29",
+   "claim": "Since September 2020 England has had structured medication reviews (SMRs), distinct from re-authorising repeat prescriptions; in a survey of 120 clinical pharmacists doing them, most were by telephone, and only 26% said they gave patients information in advance.",
+   "source_keys": [
+    "PMID:41033757"
+   ],
+   "supporting_passage": "Introduction: \"SMRs were formally introduced via NHS England (NHSE) in September 2020,8 as distinct from the act of re-authorising repeat prescriptions or a review of specific medicines during a long-term condition review. However, full implementation was delayed due to the COVID-19 pandemic 9\". Abstract: \"Patient selection was largely driven by the primary care contract specification: care home residents, patients with polypharmacy, patients on medicines commonly associated with medication errors, patients with severe frailty and/or patients using potentially addictive pain management medication. Only 26% (n=36) of respondents reported providing patients with information in advance. The majority of SMRs were undertaken remotely by telephone and were 21–30 min in length.\" Introduction: \"A qualitative interview study with clinical pharmacists delivering SMRs remotely in primary care in England between 2020–2022 reported that early implementation, without the opportunity for adequate clinical knowledge development, consultation training provision and skills acquisition, fell short of policy aspirations for holistic, personalised reviews.\"",
+   "location": "Abstract (Results); full-text Introduction via Scite",
+   "pico_timeframe": "120 self-selected clinical pharmacists conducting SMRs in primary care, England, surveyed about 3 years after SMRs began",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Since 2020, practices in England have offered a longer 'structured medication review' for some people, such as care home residents and people on many medicines. In a survey of pharmacists who do them, most were by phone, and only about 1 in 4 pharmacists said they sent people information beforehand.",
+   "qualifications": "The 2020 start date is background from the paper's introduction (citing NHS England). Survey of pharmacists who chose to reply; no response rate. England only; Scotland's arrangements not checked. '26% (n=36)' as printed (denominator unclear).",
+   "conflicting_or_uncertain": "An earlier interview study (2020 to 2022, cited in the introduction, not opened) reported early SMRs fell short of holistic, personalised reviews.",
+   "numbers": [
+    {
+     "value": "September 2020",
+     "meaning": "SMRs formally introduced by NHS England (background)"
+    },
+    {
+     "value": "120",
+     "meaning": "clinical pharmacists surveyed"
+    },
+    {
+     "value": "26% (n=36)",
+     "meaning": "respondents who reported giving patients information in advance"
+    },
+    {
+     "value": "21 to 30 min",
+     "meaning": "typical SMR length, mostly by telephone"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-29-g",
+   "cand_id": "C06-29",
+   "claim": "Some structured medication reviews start from a request by patients, carers or family members, or from patients self-referring.",
+   "source_keys": [
+    "PMID:41033757"
+   ],
+   "supporting_passage": "Table footnotes: \"*120 respondents were asked to tick all that apply.†Ardens/EMIS searches, medicines manager, administrative team, care coordinator, patients self-referring.‡People with incentivised medicines-related indicators listed by NHS England,16 people with frequent hospital admissions, people with mental health problems, people who are housebound, people using medication compliance aids or with compliance issues, people with complex discharge needs, people on 4–9 medicines, people with a clinical need as requested by other health professionals, patients, carers or family members.\"",
+   "location": "Full text, Results (table footnotes on patient identification and selection) via Scite",
+   "pico_timeframe": "As C06-29-f",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "It is reasonable to ask your practice for a review of your medicines that includes a conversation with you; some pharmacists reported reviews started this way.",
+   "qualifications": "Shows only that some respondents listed patient or family requests among routes; it does not establish an entitlement. Phrase the close as a suggestion ('you can ask'), not a right.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-29-h",
+   "cand_id": "C06-29",
+   "claim": "GPs and pharmacists described the ideal review as finding out what the person actually takes, sharing concerns and discussing pros and cons of continuing or stopping; there is no clear evidence that reviews as practised improve clinical outcomes.",
+   "source_keys": [
+    "PMID:30745357"
+   ],
+   "supporting_passage": "\"Both the pharmacists and GPs described the ‘ideal’ scenario of a patient-centred medication review, whereby the clinician finds out what the patient is actually taking, shares concerns, and has an informative discussion about the pros and cons of continuing or stopping certain higher-risk medicines.\" \"Although a patient-centred model of medication review appears to be a reasonable approach to reducing harmful polypharmacy, there is a lack of evidence that medication review, as currently practised, or in the ‘ideal’ form described, actually improves clinical outcomes.\"",
+   "location": "Full text, Discussion (Implications for research and practice)",
+   "pico_timeframe": "As C06-29-a",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A good review starts with what you actually take, what worries you, and the pros and cons of carrying on or stopping each medicine.",
+   "qualifications": "Supports the three questions on the visual as a description of good practice. Do not claim that a patient-involving review improves outcomes; the argument for involvement is a matter of respect and agreement (mark as judgement).",
+   "conflicting_or_uncertain": "Cochrane 2023 (C06-04-g): uncertain effect of reviews on admissions.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-06-a",
+   "cand_id": "C06-06",
+   "claim": "Of 1,981 US Medicare beneficiaries aged 65 or over, 92.0% (weighted) agreed they would be willing to stop one or more regular medicines if their doctor said it was possible; 66.6% wanted to reduce the number of medicines they take.",
+   "source_keys": [
+    "PMID:30326004"
+   ],
+   "supporting_passage": "\"Responses to 2 statements (\"If my doctor said it was possible, I would be willing to stop one or more of my regular medicines\" and \"I would like to reduce the number of medicines I am taking\") were the main outcomes of interest.\" \"Of the 1981 Medicare beneficiaries included in the study, 1149 (55.2%, weighted) were women, and the majority (n = 715 [54.6%, weighted]) were 65 to 74 years old. A total of 1752 (92.0%, weighted) older adults reported being willing to stop taking 1 or more of their medicines if their physician said it was possible, and 1241 (66.6%, weighted) older adults wanted to reduce the number of medicines that they were taking.\"",
+   "location": "Abstract (Main outcomes; Results)",
+   "pico_timeframe": "US Medicare beneficiaries 65+, population-based in-person survey (NHATS round 6); agreement with two attitude statements; cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a national US survey of about 2,000 people aged 65 or over, 92 in 100 said they would be willing to stop one or more of their regular medicines if their doctor said it was possible. Two in three said they would like to take fewer medicines.",
+   "qualifications": "Stated, hypothetical willingness, conditional on the doctor saying it is possible (judge's note: make the conditional the point). US population; most respondents were 65 to 74. Not what people did later.",
+   "conflicting_or_uncertain": "Pooled data from 29 studies give a similar figure (C06-06-d). Stated attitudes predict behaviour poorly (C06-06-e).",
+   "numbers": [
+    {
+     "value": "1752 of 1981 (92.0%, weighted)",
+     "meaning": "willing to stop 1 or more regular medicines if the doctor said it was possible"
+    },
+    {
+     "value": "1241 (66.6%, weighted)",
+     "meaning": "wanted to reduce the number of medicines"
+    },
+    {
+     "value": "65 or over",
+     "meaning": "age of respondents; 54.6% were 65 to 74"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-06-b",
+   "cand_id": "C06-06",
+   "claim": "People taking 6 or more medicines had higher odds of being willing to stop one (adjusted odds ratio 2.90) and of wanting fewer medicines (adjusted odds ratio 2.31).",
+   "source_keys": [
+    "PMID:30326004"
+   ],
+   "supporting_passage": "\"Older adults taking 6 or more medications had greater odds than those taking fewer than 6 medications of being willing to stop taking 1 or more of their medicines (adjusted odds ratio, 2.90; 95% CI, 1.74-4.82) and wanting to reduce the number of medicines that they were taking (adjusted odds ratio, 2.31; 95% CI, 1.71-3.13).\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "As C06-06-a; comparison 6+ vs fewer than 6 medicines; adjusted",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "People on 6 or more medicines were more likely than people on fewer to say they would be willing to stop one.",
+   "qualifications": "Adjusted odds ratio; do not convert to 'times more likely' or to an absolute difference (no valid inputs). Optional claim.",
+   "conflicting_or_uncertain": "Chock 2021 meta-analysis found willingness was not influenced by the number of medicines taken (C06-06-d), so present this as one survey's finding.",
+   "numbers": [
+    {
+     "value": "aOR 2.90 (1.74 to 4.82)",
+     "meaning": "willing to stop, 6+ vs under 6 medicines"
+    },
+    {
+     "value": "aOR 2.31 (1.71 to 3.13)",
+     "meaning": "wanting fewer medicines, 6+ vs under 6"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-06-c",
+   "cand_id": "C06-06",
+   "claim": "Prescribers report that patients may be reluctant to stop medicines, and cite this among barriers to deprescribing.",
+   "source_keys": [
+    "PMID:30745357",
+    "PMID:25488097",
+    "PMID:30326004"
+   ],
+   "supporting_passage": "Duncan 2019 (UK interviews, Results): \"For many interviewees the key perceived barriers to stopping medicines included: fear of causing problems; not wanting to stop medicines that had been started by hospital specialists; and a lack of clear evidence and guidelines around stopping medicines. Interviewees felt that patients might be reluctant or have no incentive to stop medicines, particularly those that they had taken for a long time and medicines for long-term pain\". Anderson 2014 (abstract): \"The first three themes are intrinsic to the prescriber (eg, beliefs, attitudes, knowledge, skills, behaviour) and the fourth is extrinsic (eg, patient, work setting, health system and cultural factors).\" Reeve 2018 (background only): \"Primary care physicians report that patient resistance to discontinuing medication use is a significant barrier to deprescribing.\"",
+   "location": "Duncan full text Results (Reducing and stopping inappropriate medicines); Anderson abstract; Reeve abstract Importance (background)",
+   "pico_timeframe": "UK GPs and pharmacists (2017 interviews); prescribers in 21 qualitative studies (to 2014)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "GPs and pharmacists interviewed in the UK said patients might be reluctant to stop medicines, especially ones they had taken for a long time.",
+   "qualifications": "Primary support is Duncan 2019 (a UK primary source); Reeve's sentence is background and must not be cited as its finding; Anderson's abstract names patient factors only generally. Patient reluctance was one of several barriers, alongside fear of causing problems, specialists' prescriptions and unclear guidance.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-06-d",
+   "cand_id": "C06-06",
+   "claim": "Across 29 studies (11,049 participants), 87.6% of patients said they were willing to deprescribe based on their doctor's suggestion; caregivers were less willing (74.8%); willingness did not vary with location, population or number of medicines.",
+   "source_keys": [
+    "PMID:34173200"
+   ],
+   "supporting_passage": "\"Twenty-nine unique studies involving 11,049 participants were included.\" \"Overall, 87.6% (95% CI: 83.3 to 91.4%) patients were willing to deprescribe their medication, based upon the doctors' suggestions. This was lower among caregivers, with only 74.8% (49.8% to 93.8%) willing to deprescribe their care recipients' medications. Patients' or caregivers' willingness to deprescribe were not influenced by study location, study population, or the number of medications they took.\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "Patients and caregivers in 29 quantitative attitude studies, various countries, to April 2021; stated willingness",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Across 29 studies in different countries, about 88 in 100 patients said they would be willing to stop a medicine if their doctor suggested it. Family carers were somewhat less willing, about 75 in 100.",
+   "qualifications": "Stated willingness; pooled across heterogeneous surveys. Caregiver estimate is imprecise (50% to 94%).",
+   "conflicting_or_uncertain": "Conflicts with Reeve's finding that people on 6+ medicines were more willing.",
+   "numbers": [
+    {
+     "value": "87.6% (83.3 to 91.4)",
+     "meaning": "pooled proportion of patients willing to deprescribe on doctor's suggestion"
+    },
+    {
+     "value": "74.8% (49.8 to 93.8)",
+     "meaning": "pooled proportion of caregivers willing"
+    },
+    {
+     "value": "29 studies, 11,049",
+     "meaning": "studies and participants"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-06-e",
+   "cand_id": "C06-06",
+   "claim": "Attitude questionnaires predict actual deprescribing poorly, so stated willingness in a survey is different from agreement in a consultation.",
+   "source_keys": [
+    "PMID:34173200"
+   ],
+   "supporting_passage": "\"Most patients and their caregivers were willing to deprescribe their medications, whenever possible and thus should be offered a trial of deprescribing. Nevertheless, as these tools have a poor predictive ability, patients and their caregivers should be engaged during the deprescribing process to ensure that the values and opinions are heard, which would ultimately improve patient safety.\"",
+   "location": "Abstract (Discussion/Conclusion)",
+   "pico_timeframe": "Authors' conclusion about attitude tools",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "What people say in a survey does not reliably predict what they decide when a doctor actually suggests stopping a medicine. The survey answers are a reason to raise the question, not a prediction of the answer.",
+   "qualifications": "Authors' statement in the conclusion; the underlying evidence on predictive ability was not opened.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-30-a",
+   "cand_id": "C06-30",
+   "claim": "STOPP/START, the European checklist for prescribing in older people, covers both medicines that may be inappropriate (STOPP) and potential prescribing omissions, meaning indicated medicines that are missing (START); version 3 (2023) has 133 STOPP and 57 START criteria.",
+   "source_keys": [
+    "PMID:37256475"
+   ],
+   "supporting_passage": "\"STOPP/START criteria are designed to help identify and support deprescribing of adverse medication and introduction of beneficial medication (where inappropriately unprescribed) as part of routine medication review in multimorbid older people with polypharmacy.\" \"START criteria are designed to detect potential prescribing omissions (PPOs) which represent another critically important aspect of inappropriate prescribing, i.e., undertreatment or failure to prescribe appropriate medications despite clear and valid indications.\" \"Over the course of four rounds of Delphi validation, the panel achieved consensus on 133 STOPP criteria and 57 START criteria, i.e., 190 STOPP/START criteria in total\" \"These criteria cannot replace clinical judgment in individual cases\"",
+   "location": "Full text, Background; Abstract (Results); Discussion",
+   "pico_timeframe": "Explicit criteria for older people with multimorbidity and polypharmacy; European expert consensus (11 geriatricians, 8 countries)",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The main European checklist for medicines in older people has two halves: one lists medicines to consider stopping, the other lists medicines that may be missing. The 2023 version has 133 items of the first kind and 57 of the second.",
+   "qualifications": "Consensus criteria; the authors say they cannot replace clinical judgement.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "133 STOPP, 57 START",
+     "meaning": "criteria in version 3 (2023)"
+    },
+    {
+     "value": "11 experts, 8 countries",
+     "meaning": "Delphi panel"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-30-b",
+   "cand_id": "C06-30",
+   "claim": "An example of an omission: starting an anticoagulant for an older person with untreated persistent atrial fibrillation, while the same checklist also flags caution where bleeding risk is high.",
+   "source_keys": [
+    "PMID:37256475"
+   ],
+   "supporting_passage": "\"Similarly, avoidance of PPOs (START criteria) should reduce preventable morbidity such as major ischemic stroke through initiation of anticoagulants when untreated older patients have persistent atrial fibrillation.\" \"The updated criteria continue to focus on situations that require caution in multimorbid older people, such as the prescribing of anticoagulants in patients with chronic atrial fibrillation and concurrent increased risk of bleeding (c.f. STOPP criteria C10, C12, C14).\"",
+   "location": "Full text, Discussion",
+   "pico_timeframe": "Older people with persistent atrial fibrillation not on anticoagulation",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "One medicine that is often worth looking for is a blood thinner (anticoagulant) for someone with long-standing atrial fibrillation who is not on one, because it lowers the risk of stroke. The same checklist also asks for caution where the risk of bleeding is high.",
+   "qualifications": "Exact START v3 criterion wording not seen (Appendix 1 not accessible); paraphrase from the main text. Must carry 'when indicated and wanted' and the bleeding caution; the decision depends on the person's goals and risks.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-30-c",
+   "cand_id": "C06-30",
+   "claim": "STOPP/START flags a regular opioid prescribed without a laxative.",
+   "source_keys": [
+    "PMID:37487715",
+    "PMID:39457992"
+   ],
+   "supporting_passage": "te Winkel 2023 (STOPP/START Netherlands version 2; full-text excerpt): \"The most frequently observed PIM was \"stop benzodiazepines\" (15.7% of all PIMs) and the most frequently observed PPO was \"start laxatives in patients receiving opioids regularly\" (14.7% of all PPOs).\" Szoszkiewicz 2024 (STOPP/START version 3 study; full-text excerpt): \"The most frequent PIMs were the use of regular opioids without concomitant laxatives (7.8%), drugs causing constipation in patients with constipation (7.3%), long-term opioids for osteoarthritis (6.2%), aspirin for primary prevention of cardiovascular disease (6.2%), long-term aspirin at doses greater than 100 mg per day (5.6%), and the use of benzodiazepines for more than four weeks (5.6%).\"",
+   "location": "te Winkel full text Results (via Scite); Szoszkiewicz full text Results (via Scite)",
+   "pico_timeframe": "Dutch primary care (v2-NL); Polish day-care centres (v3)",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The checklist flags a regular opioid painkiller taken without a laxative.",
+   "qualifications": "The candidate's claim that START version 3 contains 'laxative with regular opioids' is NOT verified: the v3 criteria appendix could not be opened, and the v3 study lists 'regular opioids without concomitant laxatives' among potentially inappropriate medicines (the STOPP side), not omissions. In version 2 (Netherlands) it appears as a START item. Word it as 'the checklist flags', without naming the version or side.",
+   "conflicting_or_uncertain": "Szoszkiewicz excerpt does not state whether 7.8% is of patients or of all PIMs, so do not quote the figure.",
+   "numbers": [
+    {
+     "value": "14.7% of all PPOs",
+     "meaning": "share of all omissions that were 'start laxatives in patients receiving opioids regularly', Dutch primary care, 6 years"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-30-d",
+   "cand_id": "C06-30",
+   "claim": "Potential prescribing omissions are about as common as potentially inappropriate medicines: in 25,854 Dutch primary care patients aged 65 or over, 74.3% had at least one omission and 72.2% at least one potentially inappropriate medicine over 6 years; the most common omission was a laxative for someone on regular opioids.",
+   "source_keys": [
+    "PMID:37487715"
+   ],
+   "supporting_passage": "\"All 25,854 patients aged 65 years and older having at least 5 contacts with their practice in 6 years were included.\" \"In our population, 72.2% and 74.3% of patients had at least 1 PIM and PPO, respectively; 30.9% and 34.2% had at least 3 PIMs and PPOs, respectively.\" Full-text excerpt: \"the most frequently observed PPO was \"start laxatives in patients receiving opioids regularly\" (14.7% of all PPOs).\"",
+   "location": "Abstract (Methods, Results); full-text Results excerpt via Scite",
+   "pico_timeframe": "Patients 65+ in 48 Dutch family practices, 2013 to 2018; STOPP/START-NL v2 applied to routine data; any PIM or PPO over 6 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Dutch study of almost 26,000 people aged 65 or over, about 3 in 4 were missing at least one medicine the checklist says may be indicated at some point over 6 years; a similar share had at least one medicine it says may be inappropriate. The most common gap was a laxative for someone on a regular opioid.",
+   "qualifications": "Automated checklist applied to records over 6 years; 'potential' omissions, not confirmed after clinical review. Netherlands, not UK.",
+   "conflicting_or_uncertain": "Single-time-point prevalence would be lower. Consistent with a small Polish v3 study: START v3 found an omission in 74 of 100 people with polypharmacy.",
+   "numbers": [
+    {
+     "value": "25,854",
+     "meaning": "patients aged 65+ in 48 Dutch practices"
+    },
+    {
+     "value": "74.3%",
+     "meaning": "had at least 1 potential prescribing omission over 6 years"
+    },
+    {
+     "value": "72.2%",
+     "meaning": "had at least 1 potentially inappropriate medicine over 6 years"
+    },
+    {
+     "value": "34.2%",
+     "meaning": "had 3 or more omissions"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-30-e",
+   "cand_id": "C06-30",
+   "claim": "Underprescribing is linked with polypharmacy: in 150 geriatric patients, 42.9% of those on 5 or more drugs were undertreated vs 13.5% of those on 4 or fewer.",
+   "source_keys": [
+    "PMID:17578478"
+   ],
+   "supporting_passage": "\"Underprescription was defined as lack of an indicated drug, while no reason could be found for not prescribing it. Polypharmacy was defined as five or more drugs.\" \"Polypharmacy was present in 61% of 150 patients. Underprescription was found in 47 (31%). Of patients with polypharmacy 42.9% were undertreated, in contrast to 13.5% of patients using four medicines or less (OR 4.8, 95% CI 2.0, 11.2). The estimated probability of underprescription increased significantly with the number of drugs.\"",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "150 geriatric patients, Netherlands; underprescription vs GP and national guidelines; cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Dutch study of 150 older patients, people taking 5 or more medicines were more often missing an indicated medicine than people taking fewer: about 43 in 100 compared with about 14 in 100.",
+   "qualifications": "Small, older (2008), single-setting, cross-sectional association. Do not convert OR 4.8 to 'times more likely'; give the two percentages instead.",
+   "conflicting_or_uncertain": "One Serbian study (reported in a Scite result, not opened) found number of medications was not a significant predictor of omissions; treat the link as likely but not universal.",
+   "numbers": [
+    {
+     "value": "47 of 150 (31%)",
+     "meaning": "patients with underprescription"
+    },
+    {
+     "value": "42.9% vs 13.5%",
+     "meaning": "undertreated, polypharmacy (5+) vs 4 or fewer medicines"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-30-f",
+   "cand_id": "C06-30",
+   "claim": "Trials increasingly address prescribing omissions; pharmaceutical care may slightly reduce the number of omissions (low certainty) and it is uncertain whether it reduces the proportion of people with one.",
+   "source_keys": [
+    "PMID:37818791"
+   ],
+   "supporting_passage": "\"Pharmaceutical care may slightly reduce the number of potential prescribing omissions (PPOs) (SMD -0.48, 95% CI -1.05 to 0.09; I= 92%; 3 studies, 691 participants; low-certainty evidence), however it must be noted that this effect estimate is based on only three studies, which had serious limitations in terms of risk of bias. Likewise, it is uncertain whether pharmaceutical care reduces the proportion of patients with one or more PPO (RR 0.50, 95% CI 0.27 to 0.91; I= 95%; 7 studies, 2765 participants; very low-certainty evidence).\" \"Since the last update of this review in 2018, there appears to have been an increase in the number of studies seeking to address potential prescribing omissions and more interventions being delivered by multidisciplinary teams.\"",
+   "location": "Abstract (Main results; Authors' conclusions)",
+   "pico_timeframe": "As C06-04-g",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Research on medicines reviews has started to measure missing medicines as well as unnecessary ones, but the evidence on whether reviews close these gaps is weak.",
+   "qualifications": "Low and very low certainty; do not quote the SMD or RR in a post.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "3 studies, 691 participants",
+     "meaning": "number of omissions outcome, low certainty"
+    },
+    {
+     "value": "7 studies, 2765 participants",
+     "meaning": "proportion with an omission, very low certainty"
+    }
+   ]
+  },
+  {
+   "claim_id": "C06-30-g",
+   "cand_id": "C06-30",
+   "claim": "Polypharmacy can be appropriate (medicines that improve or prolong life with minimal harm) or problematic (where harm outweighs benefit), a distinction made by Duerden and colleagues (King's Fund).",
+   "source_keys": [
+    "PMID:30745357"
+   ],
+   "supporting_passage": "\"Polypharmacy is not always harmful, however, and Duerdenmake the distinction between appropriate polypharmacy, such as where multiple medicines improve quality of life, prolong life, and cause minimal harm, and problematic polypharmacy, where the balance tips and the potential harm of some medicines outweighs the potential benefit.\"",
+   "location": "Duncan 2019 full text, Introduction",
+   "pico_timeframe": "Conceptual distinction",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Taking many medicines is not always a problem. It depends on whether each one is doing more good than harm for that person.",
+   "qualifications": "Secondary citation of the King's Fund report (not opened). Attribute to 'experts' or to the concept, not a verbatim King's Fund quote.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C06-30-h",
+   "cand_id": "C06-30",
+   "claim": "A medication review judged by the number of medicines removed will miss omissions.",
+   "source_keys": [
+    "PMID:37487715",
+    "PMID:37256475"
+   ],
+   "supporting_passage": "No source states this directly. Supporting facts: omissions are as common as potentially inappropriate medicines (te Winkel: \"72.2% and 74.3% of patients had at least 1 PIM and PPO, respectively\"); STOPP/START is designed for \"deprescribing of adverse medication and introduction of beneficial medication (where inappropriately unprescribed)\".",
+   "location": "Inference from C06-30-a and C06-30-d",
+   "pico_timeframe": "Argument",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "We should judge a medicines review by how well the medicines fit the person, not by how many are stopped, because missing medicines are about as common as unnecessary ones.",
+   "qualifications": "This is a judgement; present it as the post's position ('we should'), not as a finding. No study found here measured whether reviews targeted at reducing counts miss omissions.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C06-04",
+   "status": "revise",
+   "reason": "The judge's concern is confirmed. OPERAM's randomised comparison did not show a clear between-group reduction in inappropriate prescribing: at 2 months drug overuse was 41.8% vs 42.1% (OR 0.99) and underuse 70.1% vs 71.4%, and number of long-term drugs was about 11 in both arms. The abstract's 'was reduced' refers to recommendations implemented within the intervention arm. So the opening 'cut inappropriate prescribing' is not supported. The 62.2% figure has a denominator of the 789 with a recommendation, not all intervention participants. The readmission result (21.9% vs 22.4%, HR 0.95, 0.77 to 1.17) and the rest of the chain are supported, and SENATOR (about 15% implemented) and Cochrane 2023 support the wider reading.",
+   "revised_angle": "Read a medicines-review trial step by step. In OPERAM (2,008 people aged 70 or over, four European countries), the review flagged something for 86 in 100 people who received it; for about 6 in 10 of those, at least one change was made by 2 months. But at 2 months about 42 in 100 people in both groups were still on a medicine judged overused, and over the next year about 22 in 100 in each group were readmitted because of a medicine. Each step can lose the effect. Test for the next trial: did it show a difference from the control group at each step, and did it measure an outcome patients value? Opening suggestion: 'A European trial found a problem with the medicines of 86 in 100 older people it reviewed. Two months later, the control group's medicines looked much the same as theirs.' Do not say the trial cut or reduced inappropriate prescribing.",
+   "essential_claim_ids": [
+    "C06-04-a",
+    "C06-04-b",
+    "C06-04-c",
+    "C06-04-d",
+    "C06-04-e",
+    "C06-04-g"
+   ]
+  },
+  {
+   "cand_id": "C06-13",
+   "status": "ready",
+   "reason": "All essential claims are supported from the full text of the PRIME incidence paper and the abstract plus full-text excerpts of the prediction paper: 413 of 1,116 (37%) had medication-related harm within 8 weeks (mostly side effects; 40% rated only 'possible'); 328 of 413 used NHS care for it (about 29 in 100 of all followed up) and 87 were readmitted (about 8 in 100); doctors' predictions showed no relationship with harm (OR 1.10, 0.82 to 1.46). The judge's concerns are handled by wording: explain what counted as harm, and do not say 'whatever their experience' because only 126 predictions came from senior doctors. The confidence result (OR 1.58) goes the other way and should be stated. The call for routine follow-up (for example a community pharmacy check) is a judgement: effectiveness of routine follow-up is not established and no specific NHS service was verified in this batch.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C06-13-a",
+    "C06-13-b",
+    "C06-13-c",
+    "C06-13-d",
+    "C06-13-e",
+    "C06-13-f"
+   ]
+  },
+  {
+   "cand_id": "C06-29",
+   "status": "ready",
+   "reason": "Duncan 2019 full text supports the core claims: in 2017 interviews, 13 GPs and 10 pharmacists said most reviews were done remotely without the patient because of workload, several called them a 'tick box' exercise, and stopping medicines was harder because it required involving the patient. The limitation (23 professionals from trial practices, no patients, no frequency data) is explicit in the paper and must be stated. NICE's emphasis on involving the person is supported by Duncan's peer-reviewed description plus a NICE search extract (page not opened), so phrase it generally. Because the interviews predate England's structured medication reviews (September 2020), the post must date the evidence; a 2025 survey of 120 SMR pharmacists found most reviews by phone and only 26% giving information in advance. 'You can ask' is a suggestion, not a verified entitlement. Do not claim the record literally shows 'review done'; label the visual illustrative.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C06-29-a",
+    "C06-29-c",
+    "C06-29-d",
+    "C06-29-e",
+    "C06-29-f"
+   ]
+  },
+  {
+   "cand_id": "C06-06",
+   "status": "ready",
+   "reason": "Reeve 2018 supports 92.0% (1752 of 1981, weighted) willing to stop one or more regular medicines if their doctor said it was possible, and 66.6% wanting fewer medicines. The prescriber-reluctance premise now has a primary UK source (Duncan 2019 interviews), not just Reeve's introduction. Chock 2021 (29 studies, 11,049 participants) gives a consistent pooled 87.6% and notes that attitude tools predict behaviour poorly. The conditional ('if my doctor said it was possible') should be the point, as the judge advised. The adjusted OR for 6+ medicines is optional, must not be converted, and conflicts with the meta-analysis. Reserve.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C06-06-a",
+    "C06-06-c",
+    "C06-06-d",
+    "C06-06-e"
+   ]
+  },
+  {
+   "cand_id": "C06-30",
+   "status": "revise",
+   "reason": "The core argument is supported: STOPP/START covers omissions as well as excess (v3 full text), omissions are about as common as inappropriate medicines (74.3% vs 72.2% over 6 years in 25,854 Dutch patients), the most common omission there was a laxative with regular opioids, and underprescribing is linked with polypharmacy (Kuijpers). But the intended claim that START version 3 includes 'laxative with regular opioids' is not verified: the v3 criteria appendix could not be opened, and a v3 study lists 'regular opioids without concomitant laxatives' among potentially inappropriate medicines (STOPP side). The AF anticoagulation example is supported from the v3 main text but must carry the bleeding-risk caution and 'when indicated and wanted'. The King's Fund distinction is supported only second-hand. 'A review judged by drugs removed will miss omissions' is a judgement. Reserve.",
+   "revised_angle": "Open with the laxative example worded as 'the European STOPP/START checklist flags a regular opioid painkiller taken without a laxative' (no version or START label). Then: in a Dutch study of almost 26,000 people aged 65 or over, about 3 in 4 had at least one possibly missing medicine over 6 years, as many as had a possibly unnecessary one, and the commonest gap was that laxative. Second example: an anticoagulant for untreated persistent atrial fibrillation, when the person wants it and bleeding risk allows (the same checklist flags bleeding caution). Close with the judgement, marked as such: a review should be judged by how well the medicines fit the person, not by how many are stopped. Avoid bone-protection examples (E095, E097).",
+   "essential_claim_ids": [
+    "C06-30-a",
+    "C06-30-b",
+    "C06-30-c",
+    "C06-30-d",
+    "C06-30-e"
+   ]
+  }
+ ]
+}

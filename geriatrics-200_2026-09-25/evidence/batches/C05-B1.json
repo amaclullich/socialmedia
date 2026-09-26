@@ -1,0 +1,919 @@
+{
+ "batch": "C05-B1",
+ "category": "C05",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:32904824",
+   "citation": "Rockwood K, Theou O. Using the Clinical Frailty Scale in allocating scarce health care resources. Can Geriatr J. 2020;23(3):210-5.",
+   "pmid": "32904824",
+   "pmcid": "PMC7458601",
+   "doi": "10.5770/cgj.23.463",
+   "public_url": "https://doi.org/10.5770/cgj.23.463",
+   "design": "Narrative guide by the scale's developers introducing Clinical Frailty Scale (CFS) version 2.0; includes the full scale as Figure 1",
+   "population_setting": "Clinicians new to the CFS; scale intended for older adults (not validated in younger people or those with stable single-system disabilities)",
+   "year": 2020,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC7458601, body text; level names in bold were stripped from the PMC text); Undermind read_pdfs on the published PDF for a verbatim transcription of Figure 1 (CFS version 2.0, page 2); Scite search_literature for editorial notices",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Primary source for the wording of CFS version 2.0 and its scoring guidance, written by the developers. Not an empirical study: statements about how to score are guidance, not findings. Figure 1 carries the notice 'Clinical Frailty Scale (c)2005-2020 Rockwood. Version 2.0 (EN). All rights reserved. For permission: www.geriatricmedicineresearch.ca', so visuals should paraphrase the levels in plain words and must not reproduce the pictograms or full level text without permission. Scite lists pages 254-259; PubMed gives 210-215 (PubMed used)."
+  },
+  {
+   "key": "PMID:35775090",
+   "citation": "Thorpe O, McCabe E, Herrero EM, Doyle WO, Dillon A, Edge L, et al. Scoring the Clinical Frailty Scale in the emergency department: the Home FIRsT experience. J Frailty Sarcopenia Falls. 2022;7(2):95-100.",
+   "pmid": "35775090",
+   "pmcid": "PMC9175280",
+   "doi": "10.22540/JFSF-07-095",
+   "public_url": "https://doi.org/10.22540/JFSF-07-095",
+   "design": "Retrospective observational service evaluation; linear regression and classification tree of predictors of CFS score",
+   "population_setting": "740 older patients (mean age 81, 61% women) seen by an interdisciplinary comprehensive geriatric assessment team in one Dublin emergency department, January to October 2020",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Single-centre service evaluation during the COVID-19 period; supporting evidence only (shows that dementia and mobility each independently relate to the CFS score in routine scoring). Does not compare outcomes by the route to a given score."
+  },
+  {
+   "key": "PMID:30659942",
+   "citation": "Kojima G, Taniguchi Y, Iliffe S, Jivraj S, Walters K. Transitions between frailty states among community-dwelling older people: a systematic review and meta-analysis. Ageing Res Rev. 2019;50:81-8.",
+   "pmid": "30659942",
+   "pmcid": null,
+   "doi": "10.1016/j.arr.2019.01.010",
+   "public_url": "https://doi.org/10.1016/j.arr.2019.01.010",
+   "design": "Systematic review and random-effects meta-analysis of prospective cohort studies",
+   "population_setting": "42,775 community-dwelling older people (mean age over 60) in 16 studies; frailty defined only by the 5-item frailty phenotype (robust, prefrail, frail); mean follow-up 3.9 years (range 1 to 10)",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Best available pooled estimate of frailty transitions. Limited to the phenotype definition and community samples; follow-up varied widely (1 to 10 years) and transition patterns varied with age, sex and follow-up length. The abstract does not say how deaths and losses to follow-up were handled, so percentages should be described as 'of people reassessed', not of everyone who started."
+  },
+  {
+   "key": "PMID:16505261",
+   "citation": "Gill TM, Gahbauer EA, Allore HG, Han L. Transitions between frailty states among community-living older persons. Arch Intern Med. 2006;166(4):418-23.",
+   "pmid": "16505261",
+   "pmcid": null,
+   "doi": "10.1001/archinte.166.4.418",
+   "public_url": "https://doi.org/10.1001/archinte.166.4.418",
+   "design": "Prospective cohort study; frailty (phenotype criteria) assessed every 18 months for 54 months",
+   "population_setting": "754 community-living people aged 70 or older in New Haven, Connecticut, USA, not disabled in 4 essential activities of daily living at baseline",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Older single US cohort, but a well-conducted one with repeated assessments; useful as a check on the pooled review."
+  },
+  {
+   "key": "PMID:31641726",
+   "citation": "Dent E, Morley JE, Cruz-Jentoft AJ, Woodhouse L, Rodriguez-Manas L, Fried LP, et al. Physical frailty: ICFSR international clinical practice guidelines for identification and management. J Nutr Health Aging. 2019;23(9):771-87.",
+   "pmid": "31641726",
+   "pmcid": "PMC6800406",
+   "doi": "10.1007/s12603-019-1273-z",
+   "public_url": "https://doi.org/10.1007/s12603-019-1273-z",
+   "design": "International clinical practice guideline using GRADE (International Conference on Frailty and Sarcopenia Research task force)",
+   "population_setting": "Older adults with physical frailty; recommendations for health practitioners",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Major international guideline with graded recommendations; the recommendation strengths quoted are from the abstract."
+  },
+  {
+   "key": "PMID:30510094",
+   "citation": "Travers J, Romero-Ortuno R, Bailey J, Cooney MT. Delaying and reversing frailty: a systematic review of primary care interventions. Br J Gen Pract. 2019;69(678):e61-9.",
+   "pmid": "30510094",
+   "pmcid": "PMC6301364",
+   "doi": "10.3399/bjgp18X700241",
+   "public_url": "https://doi.org/10.3399/bjgp18X700241",
+   "design": "Systematic review of randomised controlled trials and controlled cohort studies; interventions scored and mapped for relative effectiveness and ease of implementation (no meta-analysis)",
+   "population_setting": "46 studies, 15,690 participants, primary care frailty interventions; 17 different frailty screening methods",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature full-text excerpts (open access; read as targeted excerpts, not end to end); editorial notices via Scite",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Broad, heterogeneous review that ranks interventions on a scoring map rather than pooling effect sizes; only 14 of 46 studies reported change in frailty status. 'Most effective' is a relative ranking within this map, not a pooled effect estimate."
+  },
+  {
+   "key": "PMID:26159634",
+   "citation": "Ng TP, Feng L, Nyunt MSZ, Feng L, Niti M, Tan BY, et al. Nutritional, physical, cognitive, and combination interventions and frailty reversal among older adults: a randomized controlled trial. Am J Med. 2015;128(11):1225-36.e1.",
+   "pmid": "26159634",
+   "pmcid": null,
+   "doi": "10.1016/j.amjmed.2015.06.017",
+   "public_url": "https://doi.org/10.1016/j.amjmed.2015.06.017",
+   "design": "Parallel-group randomised controlled trial, five arms, 6-month interventions, outcomes at 3, 6 and 12 months",
+   "population_setting": "246 community-living prefrail and frail older adults in Singapore (mean age 70.0; 61.4% women); about 50 per arm",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Randomised but small arms (48 to 50) and a fairly young, mostly prefrail sample; improvement also occurred in 15% of controls."
+  },
+  {
+   "key": "PMID:28633404",
+   "citation": "Aguayo GA, Donneau AF, Vaillant MT, Schritz A, Franco OH, Stranges S, et al. Agreement between 35 published frailty scores in the general population. Am J Epidemiol. 2017;186(4):420-34.",
+   "pmid": "28633404",
+   "pmcid": "PMC5860330",
+   "doi": "10.1093/aje/kwx061",
+   "public_url": "https://doi.org/10.1093/aje/kwx061",
+   "design": "Cross-sectional analysis of a nationally representative cohort; 35 published frailty scores calculated in the same participants; agreement by modified Bland-Altman model and Cohen's kappa",
+   "population_setting": "5,377 participants aged 60 and over attending the wave 2 (2004 to 2005) clinical examination of the English Longitudinal Study of Ageing",
+   "year": 2017,
+   "access": "full_text",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; Undermind read_pdfs (Results, Discussion, Table 3); Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Strong design for the question (same people, many scores). Scores were operationalised from ELSA variables, so some are approximations of the original instruments; missing data were imputed. The PDF reader noted that the Discussion attributes 72.4% (women) to the Short Physical Performance Battery whereas Table 3 attributes 72.4% to the G-8 (SPPB women 71.0%), so only the range should be quoted, not the named extremes."
+  },
+  {
+   "key": "PMID:22881367",
+   "citation": "Collard RM, Boter H, Schoevers RA, Oude Voshaar RC. Prevalence of frailty in community-dwelling older persons: a systematic review. J Am Geriatr Soc. 2012;60(8):1487-92.",
+   "pmid": "22881367",
+   "pmcid": null,
+   "doi": "10.1111/j.1532-5415.2012.04054.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.2012.04054.x",
+   "design": "Systematic review with pooled (weighted) prevalence of cross-sectional data from community cohorts",
+   "population_setting": "Community-dwelling adults aged 65 and over; 21 studies, 61,500 participants",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata; full text sought via Undermind read_pdfs (PDF not available), Scite (closed access, excerpts denied) and Google Drive search (no copy found)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Widely cited but 2012 and closed access here: the age-band prevalence figures (table/figure) could NOT be opened, so no age-band number from this review may be used. Sex-specific pooled figures (9.6% women, 5.2% men) are both below the overall 10.7%, presumably because they come from a different subset of studies; do not present them alongside the overall figure without that caveat."
+  },
+  {
+   "key": "PMID:33068107",
+   "citation": "O'Caoimh R, Sezgin D, O'Donovan MR, Molloy DW, Clegg A, Rockwood K, et al. Prevalence of frailty in 62 countries across the world: a systematic review and meta-analysis of population-level studies. Age Ageing. 2021;50(1):96-104.",
+   "pmid": "33068107",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afaa219",
+   "public_url": "https://doi.org/10.1093/ageing/afaa219",
+   "design": "Systematic review and random-effects meta-analysis of population-level observational studies",
+   "population_setting": "240 studies, 1,755,497 participants aged 50 and over, 62 countries and territories, 1998 to 2020",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata; Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Largest and most recent pooled prevalence review; high heterogeneity; includes people aged 50 and over, so figures are not directly comparable with 65-and-over reviews."
+  },
+  {
+   "key": "PMID:25313241",
+   "citation": "Gale CR, Cooper C, Sayer AA. Prevalence of frailty and disability: findings from the English Longitudinal Study of Ageing. Age Ageing. 2015;44(1):162-5.",
+   "pmid": "25313241",
+   "pmcid": "PMC4311180",
+   "doi": "10.1093/ageing/afu148",
+   "public_url": "https://doi.org/10.1093/ageing/afu148",
+   "design": "Cross-sectional analysis of a population-based cohort; frailty by Fried criteria; prevalence weighted for sampling and non-response",
+   "population_setting": "5,450 people aged 60 and over in wave 4 (2008 to 2009) of the English Longitudinal Study of Ageing (sample drawn from Health Survey for England households); only 64 participants aged 90 or over",
+   "year": 2015,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles; get_article_metadata; get_full_text_article (PMC body text empty); Undermind read_pdfs (Methods, Results, Figure 1); Scite search_literature (editorial notices)",
+   "correction_check": "Scite editorialNotices: none recorded for this DOI (this session). PubMed: PMID combined with retracted publication[pt] OR published erratum[pt] returned no records (this session).",
+   "quality_note": "Nationally drawn English sample using one definition (Fried phenotype). The 90-and-over estimate rests on 64 people. The 80 to 89 figure (about 32%) was read from a bar chart by the PDF reader and is not stated in the text, so it must not be quoted as a number."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C05-16-a",
+   "cand_id": "C05-16",
+   "claim": "CFS version 2.0 defines level 7 (living with severe frailty) as completely dependent for personal care from whatever cause, physical or cognitive.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1 (CFS version 2.0): \"7 | LIVING WITH SEVERE FRAILTY Completely dependent for personal care, from whatever cause (physical or cognitive). Even so, they seem stable and not at high risk of dying (within ~6 months).\"",
+   "location": "Figure 1 (CFS version 2.0), page 2 of the PDF; transcribed via Undermind read_pdfs",
+   "pico_timeframe": "Definition in the scale; applies to the person's baseline state (usual state before an acute illness).",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "On the Clinical Frailty Scale, level 7 means a person is completely dependent on others for personal care, whether the cause is physical or cognitive.",
+   "qualifications": "Paraphrase the scale in plain words; the scale is copyright (all rights reserved), so do not reproduce the full level text or pictograms on a visual without permission.",
+   "conflicting_or_uncertain": "None for the wording.",
+   "numbers": [
+    {
+     "value": "7",
+     "meaning": "CFS level 'living with severe frailty' on a 1 to 9 scale"
+    },
+    {
+     "value": "about 6 months",
+     "meaning": "level 7 people are described as not at high risk of dying within about 6 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-16-b",
+   "cand_id": "C05-16",
+   "claim": "CFS scoring guidance says that in people with dementia the degree of frailty generally corresponds to the degree of dementia; in moderate dementia people can do personal care with prompting.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1: \"SCORING FRAILTY IN PEOPLE WITH DEMENTIA The degree of frailty generally corresponds to the degree of dementia. Common symptoms in mild dementia include forgetting the details of a recent event, though still remembering the event itself, repeating the same question/story and social withdrawal. In moderate dementia, recent memory is very impaired, even though they seemingly can remember their past life events well. They can do personal care with prompting. In severe dementia, they cannot do personal care without help. In very severe dementia they are often bedfast. Many are virtually mute.\" Body text: \"The degree of dementia generally corresponds to the degree of frailty.\"",
+   "location": "Figure 1 (dementia scoring box); body text section 'Scoring the Clinical Frailty Scale in People with Cognitive Impairment'",
+   "pico_timeframe": "Scoring guidance for people with dementia; baseline state.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The scale's own guidance says that for people with dementia the frailty level generally matches the stage of dementia: mild dementia goes with mild frailty (level 5), moderate dementia with moderate frailty (level 6), severe dementia with severe frailty (level 7).",
+   "qualifications": "The guidance says 'generally', so it is a scoring guide, not a fixed rule. The mild-to-5, moderate-to-6, severe-to-7 pairing is stated in the body text (mild dementia 'would go with mild frailty'; moderate dementia 'as with moderate frailty'; severe 'as in severe frailty').",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "5, 6, 7",
+     "meaning": "CFS levels corresponding to mild, moderate and severe dementia"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-16-c",
+   "cand_id": "C05-16",
+   "claim": "CFS 6 (living with moderate frailty) describes needing help with all outside activities and keeping house, often problems with stairs, help with bathing, and possibly minimal help (cuing, standby) with dressing.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1: \"6 | LIVING WITH MODERATE FRAILTY People who need help with all outside activities and with keeping house. Inside, they often have problems with stairs and need help with bathing and might need minimal assistance (cuing, standby) with dressing.\"",
+   "location": "Figure 1 (CFS version 2.0)",
+   "pico_timeframe": "Definition; baseline state.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Level 6 on the scale describes someone who needs help with all activities outside the home and with housework, often has trouble with stairs, needs help to bathe, and may need prompting or someone standing by while dressing.",
+   "qualifications": "Paraphrase; copyright applies to the scale text.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "6",
+     "meaning": "CFS level 'living with moderate frailty'"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-16-d",
+   "cand_id": "C05-16",
+   "claim": "The same CFS level can be reached by a cognitive route or a physical route: the developers state that the level-6 pattern applies both to moderate dementia and to cognitively intact people whose physical disability means they need someone nearby.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "\"With [Level 6 - Living with Moderate Frailty] (previously 'Moderately Frail'), dependence now extends past instrumental ADLs to intermediate ones, notably including dependence in bathing. Often at this level minimal assistance with personal care might be needed. Moderate dementia is the case when people who are dependent in their performance of instrumental ADLs can still do their basic or personal ADLs with prompting. This can also be the case in people who are cognitively intact, but whose disability obliges them to have someone nearby (so-called 'standby assistance' or 'set-up').\" Also for level 7: \"Still, people living with severe frailty can be mobile.\"",
+   "location": "Body text, section 'Using the Clinical Frailty Scale to Grade Clinically Meaningfully Increased Risk' (level name stripped from PMC text; restored in brackets from Figure 1)",
+   "pico_timeframe": "Scoring guidance; baseline state.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The scale's developers say the same level can describe two different people: someone with moderate dementia who can wash and dress only with prompting, and someone whose thinking is fine but whose physical disability means they need a person standing by. The number alone does not tell you which.",
+   "qualifications": "The two-person comparison in the post must be labelled 'Illustrative example'. 'Walks well' for the dementia example is consistent with the guidance (people with severe frailty 'can be mobile'), but the scale does not say mobility is normal in moderate dementia; keep it as an illustration.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "6",
+     "meaning": "CFS level used in the illustrative comparison"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-16-e",
+   "cand_id": "C05-16",
+   "claim": "The CFS is a judgement-based summary that requires clinical judgement; prognosis needs both baseline frailty and the severity of the acute illness; the score is no substitute for a patient-centred care plan.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "\"It is not a questionnaire. Grading the degree of frailty requires clinical judgement that is based in part on screening criteria...\" ... \"Still, as discussed below, their prognosis requires information about both their baseline degree of frailty, and the severity of their acute illness.\" ... \"In geriatric medicine, the goal of grading the degree of frailty is both to ease communication through a shared language, and also as the foundation for a care plan. The care plan needs to address the gap between the current level of function, cognition, mobility, and social relationships (especially with the primary carer) and how those have changed with the acute illness (when present).\" ... \"It should not be confused with the more instrumental purpose to which the Clinical Frailty Scale is now being put, which is no substitute for a patient-centred care plan.\"",
+   "location": "Body text: 'What is the Clinical Frailty Scale?'; 'Summary'",
+   "pico_timeframe": "Developers' guidance on use.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The developers describe the score as a clinical judgement that summarises function, cognition and mobility; they say predicting outcome also needs the severity of the current illness, and that the score is the start of a care plan, not a substitute for one.",
+   "qualifications": "This is developer guidance, not a trial result.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C05-16-f",
+   "cand_id": "C05-16",
+   "claim": "In routine practice, both dementia and mobility independently relate to the CFS score given.",
+   "source_keys": [
+    "PMID:35775090"
+   ],
+   "supporting_passage": "\"The CFS was scored on 658 (89%) (median 4, range 1-8; mean age 81 years, 61% women). Independent predictors of higher CFS were older age (p<0.001), history of dementia (p<0.001), mobility (p≤0.007), disability (p<0.001), and higher acuity of illness (p=0.009). Disability and mobility were the main classifiers in the CRT.\"",
+   "location": "Abstract",
+   "pico_timeframe": "740 patients seen by an ED geriatric assessment team, Dublin, January to October 2020; cross-sectional predictors of CFS.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one Dublin emergency department, higher CFS scores were linked with a history of dementia and, separately, with poorer mobility and more disability.",
+   "qualifications": "One service, association only; the study did not look at what happened afterwards to people who reached the same score by different routes. Optional supporting point, not needed for the post.",
+   "conflicting_or_uncertain": "Note that 'acuity of illness' also predicted a higher CFS, which suggests some scores were influenced by the acute illness rather than baseline.",
+   "numbers": [
+    {
+     "value": "658 of 740 (89%)",
+     "meaning": "patients with a CFS recorded"
+    },
+    {
+     "value": "median 4, range 1 to 8",
+     "meaning": "CFS scores in this ED sample"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-16-g",
+   "cand_id": "C05-16",
+   "claim": "Position: record what drove the CFS score (physical, cognitive or both) beside the number, and do not use the number alone to judge how someone will tolerate surgery, rehabilitation or exercise.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "See C05-16-d and C05-16-e: \"This can also be the case in people who are cognitively intact, but whose disability obliges them to have someone nearby\"; \"requires clinical judgement\"; \"no substitute for a patient-centred care plan\".",
+   "location": "Body text (as above)",
+   "pico_timeframe": "Inference from the scale's structure and developer guidance.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Mark this as a practice suggestion: 'Write the reason next to the number', for example 'CFS 6 (moderate dementia; walks independently)'. It follows from how the scale is built; it is not a published recommendation and no outcome study of this habit was found.",
+   "qualifications": "Present as clinical judgement ('We should write...'), not as evidence that outcomes differ by route. Do not claim that people with a cognitive route to CFS 6 do better or worse after surgery or rehabilitation: no study comparing outcomes by route was found in this batch's searches (searching was limited).",
+   "conflicting_or_uncertain": "Evidence gap: the searches did not find studies comparing outcomes for the same CFS level reached by cognitive versus physical routes.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C05-24-a",
+   "cand_id": "C05-24",
+   "claim": "CFS version 2.0 has 9 levels: very fit, fit, managing well, living with very mild frailty, living with mild frailty, living with moderate frailty, living with severe frailty, living with very severe frailty, terminally ill.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1: \"1 | VERY FIT ... 2 | FIT ... 3 | MANAGING WELL ... 4 | LIVING WITH VERY MILD FRAILTY ... 5 | LIVING WITH MILD FRAILTY ... 6 | LIVING WITH MODERATE FRAILTY ... 7 | LIVING WITH SEVERE FRAILTY ... 8 | LIVING WITH VERY SEVERE FRAILTY ... 9 | TERMINALLY ILL\". Abstract: \"It also introduces an updated version (CFS version 2.0), with revised level names (e.g., 'vulnerable' becomes 'living with very mild frailty') and minor edits to level descriptions.\"",
+   "location": "Figure 1; Abstract",
+   "pico_timeframe": "Definition (version 2.0, 2020).",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The Clinical Frailty Scale has 9 levels, from 1 (very fit) to 9 (terminally ill). Levels 4 to 8 are called living with very mild, mild, moderate, severe and very severe frailty.",
+   "qualifications": "Older letters may use the earlier names (for example 'vulnerable' for level 4, 'moderately frail' for level 6). Copyright applies to the scale; paraphrase on visuals.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "9",
+     "meaning": "number of levels in CFS version 2.0"
+    },
+    {
+     "value": "1 and 9",
+     "meaning": "1 = very fit; 9 = terminally ill"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-24-b",
+   "cand_id": "C05-24",
+   "claim": "Levels 5 to 8 describe increasing need for help from others; level 4 (living with very mild frailty) means symptoms limit activities but the person does not depend on others for daily help (editor's guidance).",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1: \"4 | LIVING WITH VERY MILD FRAILTY Previously 'vulnerable,' this category marks early transition from complete independence. While not dependent on others for daily help, often symptoms limit activities. A common complaint is being 'slowed up' and/or being tired during the day. 5 | LIVING WITH MILD FRAILTY People who often have more evident slowing, and need help with high order instrumental activities of daily living (finances, transportation, heavy housework)... 6 | ... People who need help with all outside activities and with keeping house... 7 | ... Completely dependent for personal care, from whatever cause (physical or cognitive)... 8 | LIVING WITH VERY SEVERE FRAILTY Completely dependent for personal care and approaching end of life. Typically, they could not recover even from a minor illness.\" Body text: \"Levels 5 to 7 relate to changes in function.\"",
+   "location": "Figure 1; body text",
+   "pico_timeframe": "Definition; baseline state.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Levels 5 to 8 describe increasing need for help: at 5, help with things like money, transport and heavy housework; at 6, help with everything outside the home, housework and bathing; at 7, complete dependence for personal care; at 8, complete dependence and approaching the end of life. Level 4 (very mild frailty) means symptoms slow a person down, but they do not need help from others day to day.",
+   "qualifications": "Levels 7 and 8 both mean complete dependence for personal care; 8 differs mainly in being near the end of life and unlikely to recover even from a minor illness. Do not say 'levels 4 to 8 describe increasing need for help' (level 4 needs no daily help).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "4",
+     "meaning": "very mild frailty: no daily help needed"
+    },
+    {
+     "value": "5 to 8",
+     "meaning": "levels describing increasing need for help"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-24-c",
+   "cand_id": "C05-24",
+   "claim": "The CFS is meant to describe the person's usual (baseline) state, for example how they were about two weeks before an acute illness, not how they seem while ill.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "\"The key to scoring the Clinical Frailty Scale is to determine the person's baseline health state. This is especially needed in clinical settings where health can change quickly. For example, many older patients in the Emergency Department who were fit two weeks ago (their baseline state), may appear to be frail while ill; a prospect that becomes more likely the longer they wait there.\" ... \"We then ask about four features: how the person moved, functioned, thought, and felt about their health over the last two weeks.\" Abstract: \"the Clinical Frailty Scale assays the baseline state\".",
+   "location": "Body text, 'What is the Clinical Frailty Scale?'; Abstract",
+   "pico_timeframe": "Scoring guidance.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The score is meant to describe how you usually are, not how you seem while ill. The scale's developers give the example of how someone was two weeks before coming into hospital.",
+   "qualifications": "In this paper 'two weeks' appears as an example of the baseline, not a strict rule; say 'about two weeks before the illness' or 'your usual self before this illness'.",
+   "conflicting_or_uncertain": "Level 9 is the exception (see C05-24-d).",
+   "numbers": [
+    {
+     "value": "two weeks",
+     "meaning": "example time point for the baseline state before an acute illness"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-24-d",
+   "cand_id": "C05-24",
+   "claim": "Level 9 (terminally ill) applies to people with a life expectancy under about 6 months who are not otherwise living with severe frailty, and is the one level scored on the current rather than baseline state.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1: \"9 | TERMINALLY ILL Approaching the end of life. This category applies to people with a life expectancy <6 months, who are not otherwise living with severe frailty. (Many terminally ill people can still exercise until very close to death.)\" Body text: \"[Level 9] is notable for being the only level in which the current state trumps the baseline state, in that the terminally ill person might have been operating at any frailty level at baseline.\" ... \"Even so, if a terminally ill person was completely dependent for personal care at baseline, they would be scored as Level 8.\"",
+   "location": "Figure 1; body text, 'Using the Clinical Frailty Scale in People Towards the End of Life'",
+   "pico_timeframe": "Definition.",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Level 9 is used for people expected to live less than about 6 months who are not otherwise severely frail; many are still active. It is the one level based on the current illness rather than the usual state.",
+   "qualifications": "None beyond paraphrase.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "under 6 months",
+     "meaning": "life expectancy defining level 9"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-24-e",
+   "cand_id": "C05-24",
+   "claim": "What the score is used for and its limits: prognosis and setting care goals (and, during COVID-19, triage for scarce resources); it requires clinical judgement; it is not widely validated in younger people or people with stable single-system disabilities.",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "\"In ordinary time (i.e., with no pandemic), the Clinical Frailty Scale is used both in prognosis and to set care goals.\" Abstract: \"The key points discussed are that the Clinical Frailty Scale assays the baseline state, it is not widely validated in younger people or those with stable single-system disabilities, and it requires clinical judgement. The Clinical Frailty Scale is now commonly used as a triage tool to make important clinical decisions such as allocating scarce health care resources for COVID-19 management\". Body text: \"In geriatric medicine, the goal of grading the degree of frailty is both to ease communication through a shared language, and also as the foundation for a care plan.\"",
+   "location": "Abstract; body text",
+   "pico_timeframe": "Developers' guidance (2020).",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "Doctors use the score to help judge how someone may cope with illness and treatment and to plan care. It depends on a clinician's judgement, so you can ask what it was based on. It was designed for older people and is not well tested in younger people or in people with a long-standing single disability.",
+   "qualifications": "Do not imply that the score alone decides treatment; describe it as one input.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C05-24-f",
+   "cand_id": "C05-24",
+   "claim": "The CFS is copyright (Rockwood, 2005 to 2020; all rights reserved; permission via geriatricmedicineresearch.ca).",
+   "source_keys": [
+    "PMID:32904824"
+   ],
+   "supporting_passage": "Figure 1: \"Clinical Frailty Scale ©2005–2020 Rockwood. Version 2.0 (EN). All rights reserved. For permission: www.geriatricmedicineresearch.ca\"",
+   "location": "Figure 1 footer",
+   "pico_timeframe": "Licence notice on the published figure.",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "(For the visual, not the caption.) Describe the 9 levels in your own plain words as a simple drawn ladder; do not copy the official pictograms or full level text.",
+   "qualifications": "Short level names in plain words are a description, not a reproduction; seek permission before reproducing the scale itself.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C05-07-a",
+   "cand_id": "C05-07",
+   "claim": "In pooled community studies (average follow-up about 4 years), about 14 in 100 older people became less frail, about 29 in 100 became more frail and about 57 in 100 stayed the same.",
+   "source_keys": [
+    "PMID:30659942"
+   ],
+   "supporting_passage": "\"Among 42,775 community-dwelling older people from 16 studies with a mean follow-up of 3.9 years (range: 1-10 years), 13.7% (95%CI = 11.7-15.8%) improved, 29.1% (95%CI = 25.9-32.5%) worsened and 56.5% (95%CI = 54.2-58.8%) maintained the same frailty status.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Community-dwelling older people (mean age over 60); frailty phenotype (robust/prefrail/frail); change between first and last assessment; mean 3.9 years (1 to 10).",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In 16 studies of 42,775 older people living at home, followed for about 4 years on average, about 14 in 100 became less frail. About twice as many, 29 in 100, became more frail, and 57 in 100 stayed the same.",
+   "qualifications": "Worsening must appear next to improvement, in the first two lines. Figures use one definition (the frailty phenotype) and people living at home; follow-up ranged from 1 to 10 years. Describe as 'of people reassessed' (handling of deaths not stated in the abstract).",
+   "conflicting_or_uncertain": "Transition rates varied with age, sex and follow-up length (stratified analyses).",
+   "numbers": [
+    {
+     "value": "13.7%",
+     "meaning": "improved, pooled, mean 3.9 years; about 14 in 100"
+    },
+    {
+     "value": "29.1%",
+     "meaning": "worsened; about 29 in 100"
+    },
+    {
+     "value": "56.5%",
+     "meaning": "no change; about 57 in 100"
+    },
+    {
+     "value": "42,775 / 16 studies",
+     "meaning": "participants and studies pooled"
+    },
+    {
+     "value": "3.9 years (1 to 10)",
+     "meaning": "mean follow-up and range"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-07-b",
+   "cand_id": "C05-07",
+   "claim": "Improvement to meeting no frailty criteria was much more common among prefrail people (about 23 in 100) than frail people (about 3 in 100); among frail people, about 40 in 100 moved to prefrail and about 55 in 100 stayed frail.",
+   "source_keys": [
+    "PMID:30659942"
+   ],
+   "supporting_passage": "\"Among those who were prefrail at baseline, corresponding rates to robust, prefrail and frail were 23.1% (95%CI = 18.8-27.6%), 58.2% (95%CI = 55.6-60.7%) and 18.2% (95%CI = 14.9-21.7%), respectively. Among those who were frail at baseline, pooled rates of transitioning to robust, prefrail and remaining frail were 3.3% (95%CI = 1.6-5.5%), 40.3% (95%CI = 34.6-46.1%) and 54.5% (95%CI = 47.6-61.3%), respectively.\" ... \"Given that while one quarter of prefrail older people improved to robust only 3% of frail older people did, early interventions should be considered.\"",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "As C05-07-a, stratified by baseline state.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Among people in the early stage (prefrail), about 23 in 100 later met none of the frailty criteria, while about 18 in 100 became frail. Among people who were frail, only about 3 in 100 later met none of the criteria, but about 40 in 100 moved to the milder, prefrail stage; about 55 in 100 stayed frail.",
+   "qualifications": "'Robust' is the paper's term for meeting none of the 5 phenotype criteria. Most improvement among frail people was to prefrail, not to 'not frail at all'. Pooled percentages within a group need not add to exactly 100 because each was pooled separately.",
+   "conflicting_or_uncertain": "The authors' recommendation of early intervention is their interpretation; the review itself is observational.",
+   "numbers": [
+    {
+     "value": "23.1%",
+     "meaning": "prefrail to robust (no criteria)"
+    },
+    {
+     "value": "18.2%",
+     "meaning": "prefrail to frail"
+    },
+    {
+     "value": "58.2%",
+     "meaning": "prefrail stayed prefrail"
+    },
+    {
+     "value": "3.3%",
+     "meaning": "frail to robust"
+    },
+    {
+     "value": "40.3%",
+     "meaning": "frail to prefrail"
+    },
+    {
+     "value": "54.5%",
+     "meaning": "frail stayed frail"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-07-c",
+   "cand_id": "C05-07",
+   "claim": "In a US cohort assessed every 18 months, moving from frail to not frail was very rare (0% to 0.9%), and moves to greater frailty were more common than moves to lesser frailty.",
+   "source_keys": [
+    "PMID:16505261"
+   ],
+   "supporting_passage": "\"Of the 754 participants, 434 (57.6%) had at least 1 transition between any 2 of the 3 frailty states during 54 months.\" ... \"During the 18-month intervals, transitions to states of greater frailty were more common (rates up to 43.3%) than transitions to states of lesser frailty (rates up to 23.0%), and the probability of transitioning from being frail to nonfrail was very low (rates, 0%-0.9%), even during an extended period.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "754 community-living people aged 70+ (New Haven, USA), non-disabled at baseline; frailty phenotype; 18-month intervals over 54 months.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A US study of 754 people aged 70 and over found that more than half moved between frailty stages over 4.5 years, but going straight from frail to not frail at all was very rare (under 1 in 100 per 18 months).",
+   "qualifications": "Single US cohort from the 1990s to 2000s. Consistent with the pooled review: improvement is real but mostly by one step.",
+   "conflicting_or_uncertain": "None; consistent with C05-07-b.",
+   "numbers": [
+    {
+     "value": "57.6% (434 of 754)",
+     "meaning": "had at least one transition in 54 months"
+    },
+    {
+     "value": "0% to 0.9%",
+     "meaning": "frail to non-frail, per 18-month interval"
+    },
+    {
+     "value": "up to 43.3% vs up to 23.0%",
+     "meaning": "transition rates to greater vs lesser frailty per 18 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-07-d",
+   "cand_id": "C05-07",
+   "claim": "International guidelines recommend a physical activity programme with a resistance (strength) training component as first-line management of frailty (strong recommendation), with protein or calorie supplements when weight loss or undernutrition is present (conditional recommendation).",
+   "source_keys": [
+    "PMID:31641726"
+   ],
+   "supporting_passage": "\"First-line therapy for the management of frailty should include a multi-component physical activity programme with a resistance-based training component (strong recommendation). Protein/caloric supplementation is recommended when weight loss or undernutrition are present (conditional recommendation).\" Also: \"For individuals screened as positive for frailty, a more comprehensive clinical assessment should be performed to identify signs and underlying mechanisms of frailty (strong recommendation).\"",
+   "location": "Abstract, Recommendations for Management; Recommendations for Screening and Assessment",
+   "pico_timeframe": "Older adults with physical frailty; ICFSR guideline 2019, GRADE.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "International frailty guidelines recommend, as the first step, an exercise programme that includes strength training. They recommend protein or calorie supplements when someone is losing weight or undernourished. They also recommend a fuller assessment for anyone found to be frail.",
+   "qualifications": "Replace the candidate's 'strength exercise combined with enough protein has the most consistent evidence' with this guideline wording. Protein supplements are recommended conditionally and for people losing weight or undernourished, not for everyone.",
+   "conflicting_or_uncertain": "No recommendation was made for vitamin D, hormones, or cognitive therapy; drug treatment is not recommended.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C05-07-e",
+   "cand_id": "C05-07",
+   "claim": "A systematic review of 46 primary care studies ranked strength training combined with protein supplementation highest for relative effectiveness and ease of implementation.",
+   "source_keys": [
+    "PMID:30510094"
+   ],
+   "supporting_passage": "Abstract: \"A total of 925 studies satisfied search criteria and 46 were included. There were 15 690 participants (median study size was 160 participants). Studies reflected a broad heterogeneity.\" ... \"Interventions with both muscle strength training and protein supplementation were consistently placed highest for effectiveness and ease of implementation.\" Full text (Scite excerpt): \"Of the 46 studies, 30% (n = 14) reported the outcome of an intervention on frailty status, 71% (n = 10) of which demonstrated significant improvement.\"",
+   "location": "Abstract; Results (full-text excerpt)",
+   "pico_timeframe": "Primary care interventions, RCTs and controlled cohorts, searched to May 2017; effectiveness scored as change in frailty status or indicators; relative ranking map, no pooled effect.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A review of 46 studies in general practice ranked strength training combined with protein supplements as the most effective of the approaches studied and among the easiest to deliver. The studies were varied and the ranking was a comparison, not a pooled measure of effect.",
+   "qualifications": "Only 14 of the 46 studies measured change in frailty status. Do not say 'most consistent evidence' or 'enough protein'; the studies tested protein supplements, and the ranking is relative.",
+   "conflicting_or_uncertain": "Heterogeneous studies; the ICFSR guideline (C05-07-d) is the firmer basis for advice.",
+   "numbers": [
+    {
+     "value": "46 studies, 15,690 participants",
+     "meaning": "included in the review"
+    },
+    {
+     "value": "14 of 46",
+     "meaning": "studies reporting change in frailty status"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-07-f",
+   "cand_id": "C05-07",
+   "claim": "In a Singapore RCT of prefrail and frail adults (mean age 70), 6-month physical, nutritional, cognitive and combined interventions each reduced frailty more than usual care, though frailty also fell in 15% of controls.",
+   "source_keys": [
+    "PMID:26159634"
+   ],
+   "supporting_passage": "\"The participants' mean age was 70.0 years, and 61.4% (n = 151) were female. Five different 6-month interventions included nutritional supplementation (n = 49), cognitive training (n = 50), physical training (n = 48), combination treatment (n = 49), and usual care control (n = 50).\" ... \"Frailty score and status over 12 months were reduced in all groups, including control (15%), but were significantly higher (35.6% to 47.8%) in the nutritional (odds ratio [OR] 2.98), cognition (OR 2.89), and physical (OR 4.05) and combination (OR 5.00) intervention groups.\"",
+   "location": "Abstract, Methods and Results",
+   "pico_timeframe": "246 community-living prefrail/frail adults, Singapore; 6-month interventions vs usual care; frailty reduction over 12 months.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Singapore trial of 246 people (average age 70) who were prefrail or frail, about 36 to 48 in 100 of those given 6 months of exercise, nutrition, memory training or all three became less frail over a year, compared with about 15 in 100 of those given usual care.",
+   "qualifications": "Small arms (about 50 each), mostly prefrail and relatively young; improvement happened in controls too. Optional supporting point; the guideline (C05-07-d) and Kojima are enough for the post.",
+   "conflicting_or_uncertain": "Do not convert the odds ratios into 'X times more likely'.",
+   "numbers": [
+    {
+     "value": "246",
+     "meaning": "participants randomised (49+50+48+49+50)"
+    },
+    {
+     "value": "15%",
+     "meaning": "control group with reduced frailty over 12 months"
+    },
+    {
+     "value": "35.6% to 47.8%",
+     "meaning": "intervention groups with reduced frailty over 12 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-14-a",
+   "cand_id": "C05-14",
+   "claim": "Pooled prevalence of frailty in community-dwelling people aged 65 and over was 10.7% (21 studies, 61,500 participants), 9.9% with physical definitions and 13.6% with broad definitions.",
+   "source_keys": [
+    "PMID:22881367"
+   ],
+   "supporting_passage": "\"Reported prevalence in the community varies enormously (range 4.0-59.1%). The overall weighted prevalence of frailty was 10.7% (95% confidence interval (CI) = 10.5-10.9; 21 studies; 61,500 participants). The weighted prevalence was 9.9% for physical frailty (95% CI = 9.6-10.2; 15 studies; 44,894 participants) and 13.6% for the broad phenotype of frailty (95% CI = 13.2-14.0; 8 studies; 24,072 participants)\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Community-dwelling adults 65+; cross-sectional; studies to about 2012.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Across 21 studies of 61,500 people aged 65 and over living at home, about 1 in 10 met criteria for frailty.",
+   "qualifications": "2012 review; figures depend on definition.",
+   "conflicting_or_uncertain": "A 2021 review of 240 studies (people aged 50+) gave 12% with physical measures and 24% with frailty indexes (PMID:33068107).",
+   "numbers": [
+    {
+     "value": "10.7%",
+     "meaning": "pooled prevalence, 65+, living at home"
+    },
+    {
+     "value": "9.9% / 13.6%",
+     "meaning": "physical vs broad definitions"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-14-b",
+   "cand_id": "C05-14",
+   "claim": "Prevalence rose with age to about a quarter of people aged 85 and over, so most people aged 85 and over living at home are not frail.",
+   "source_keys": [
+    "PMID:22881367",
+    "PMID:25313241"
+   ],
+   "supporting_passage": "Collard abstract only: \"Prevalence increased with age (χ(2) = 6067, df = 1, P < .001)\" (no age-band values in the abstract; full text not accessible). Gale 2015 Results: \"The overall weighted prevalence of frailty was 14% (12% in men, 16% in women). Prevalence rose exponentially with increasing age, increasing from 6.5% in those aged 60–69 years to 65% in those aged 90 or over (Figure 1).\"",
+   "location": "Collard: Abstract. Gale: Results and Figure 1 (via Undermind read_pdfs).",
+   "pico_timeframe": "Collard: community 65+, pooled. Gale: English national sample 60+, wave 4 2008-09, Fried criteria; n=64 aged 90+.",
+   "claim_type": "empirical",
+   "verdict": "not_supported",
+   "safe_wording": "None for the headline. The age-band figure (about 1 in 4 at 85+) could not be checked, and in England's national ageing study about 65 in 100 people aged 90 and over met frailty criteria, so 'most people over 85 living at home are not frail' is not safe.",
+   "qualifications": "If any age statement is used elsewhere, the only verified one is Gale 2015: 6.5% at 60 to 69 rising to 65% at 90+ (Fried criteria; only 64 people aged 90+).",
+   "conflicting_or_uncertain": "Directly conflicts at 90+ (Gale 2015). Broad and frailty-index definitions also give higher prevalence (Collard 13.6% vs 9.9%; O'Caoimh 24% vs 12%).",
+   "numbers": [
+    {
+     "value": "6.5%",
+     "meaning": "frail, aged 60 to 69, ELSA 2008-09, Fried criteria"
+    },
+    {
+     "value": "65%",
+     "meaning": "frail, aged 90+, ELSA 2008-09 (n=64)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-14-c",
+   "cand_id": "C05-14",
+   "claim": "Prevalence was higher in women than men (Collard: 9.6% vs 5.2%).",
+   "source_keys": [
+    "PMID:22881367",
+    "PMID:25313241"
+   ],
+   "supporting_passage": "Collard: \"Prevalence increased with age (χ(2) = 6067, df = 1, P < .001) and was higher in women (9.6%, 95% CI = 9.2-10.0%) than in men (5.2%, 95% CI = 4.9-5.5%; χ(2) = 298.9 df = 1, P < .001).\" Gale: \"Frailty occurred more frequently in women than in men (16 versus 12%).\"",
+   "location": "Abstracts",
+   "pico_timeframe": "As above.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Frailty was more common in women than in men.",
+   "qualifications": "Collard's sex-specific figures are both lower than its overall 10.7% (different subset of studies), so do not quote them next to the overall figure.",
+   "conflicting_or_uncertain": "None on direction.",
+   "numbers": [
+    {
+     "value": "9.6% vs 5.2%",
+     "meaning": "women vs men, Collard pooled subset"
+    },
+    {
+     "value": "16% vs 12%",
+     "meaning": "women vs men, ELSA 60+"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-14-d",
+   "cand_id": "C05-14",
+   "claim": "Reported community prevalence varied from 4.0% to 59.1% depending on definition.",
+   "source_keys": [
+    "PMID:22881367"
+   ],
+   "supporting_passage": "\"Reported prevalence in the community varies enormously (range 4.0-59.1%).\" ... \"Frailty is common in later life, but different operationalization of frailty status results in widely differing prevalence between studies.\"",
+   "location": "Abstract, Results and Conclusion",
+   "pico_timeframe": "Community 65+; across studies.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Studies of older people living at home have reported frailty in anywhere from 4 in 100 to 59 in 100, partly because they defined frailty differently and partly because they studied different people.",
+   "qualifications": "Do not attribute the range to definition alone (judge's note). Give the range in only one post (C05-04 carries it).",
+   "conflicting_or_uncertain": "See C05-04-b for a same-population comparison.",
+   "numbers": [
+    {
+     "value": "4.0% to 59.1%",
+     "meaning": "range of reported prevalence across community studies"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-04-a",
+   "cand_id": "C05-04",
+   "claim": "When 35 published frailty scores were applied to the same 5,377 people aged 60+ in the English Longitudinal Study of Ageing, they often disagreed about which individuals were frail (Cohen's kappa 0.10 to 0.83; only about 1 in 9 pairs reached kappa 0.6 or more).",
+   "source_keys": [
+    "PMID:28633404"
+   ],
+   "supporting_passage": "Abstract: \"Data from 5,377 participants (ages ≥60 years) were analyzed (44.7% men, 55.3% women). FS showed widely differing degrees of agreement with the mean of all scores and between each pair of scores. Frailty classification also showed a very wide range of agreement (Cohen's κ = 0.10-0.83).\" Results: \"κ values ranged from 0.10 to 0.83 and were ≥0.80 for 0.8% of pairs, ≥0.60 and <0.80 for 10.4% of pairs, ≥0.40 and <0.60 for 35.3% of pairs, ≥0.20 and <0.40 for 45.9% of pairs, and <0.20 for 7.6% of pairs\". Discussion: \"Out of 595 pairs of scores, almost 90% had a κ value under 0.6.\" ... \"We found that in some cases agreement was as low as 0.1 (10%), which, with a prevalence of 0.2, means that approximately 30% of individuals would be classified differently. The highest agreement (0.83 or 83%) translates to about 6% of individuals being classified differently, at the predefined prevalence of 0.2.\"",
+   "location": "Abstract; Results; Discussion (full text via Undermind read_pdfs)",
+   "pico_timeframe": "5,377 ELSA participants aged 60+, wave 2 (2004-2005), England; cross-sectional; 35 scores, 595 pairs.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Researchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England. The tools often disagreed about who was frail. For almost 9 in 10 pairs of tools, agreement was only weak to moderate; in the worst pairs, about 3 in 10 people would be labelled differently by the two tools.",
+   "qualifications": "The '3 in 10' and '6 in 100' translations are the authors' worked illustration at an assumed prevalence of 20%, not counts from the data. Scores were built from ELSA variables, so some approximate the original tools. For practitioners, 'kappa 0.10 to 0.83' may be given; for the public use the plain translation.",
+   "conflicting_or_uncertain": "Agreement was higher among deficit-accumulation (frailty index) type scores.",
+   "numbers": [
+    {
+     "value": "5,377",
+     "meaning": "participants aged 60+, ELSA wave 2, 2004-05"
+    },
+    {
+     "value": "35 scores, 595 pairs",
+     "meaning": "tools compared"
+    },
+    {
+     "value": "kappa 0.10 to 0.83",
+     "meaning": "range of agreement between pairs on who is frail"
+    },
+    {
+     "value": "11.3% (0.8% + 10.4%)",
+     "meaning": "pairs with kappa 0.6 or higher; 'almost 90%' below 0.6"
+    },
+    {
+     "value": "about 30% / about 6%",
+     "meaning": "authors' illustration of people classified differently at kappa 0.1 / 0.83, assuming 20% prevalence"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-04-b",
+   "cand_id": "C05-04",
+   "claim": "In the same ELSA sample, the proportion labelled frail ranged from about 1% to about 65% (men) and 72% (women) depending on the score used.",
+   "source_keys": [
+    "PMID:28633404"
+   ],
+   "supporting_passage": "Results: \"Prevalence as defined by the published cutoffs varied considerably. The mean prevalence of frailty was 23.1% (standard deviation, 19.7) for men (range, 0.8–65.0) and 28.9% (standard deviation, 21.9) for women (range, 1.0–72.4) (Table 3).\" Discussion: \"...indicates that published estimates of frailty prevalence, and consequently our insight into the magnitude of the frailty problem, is dependent to an overwhelming degree on the chosen instrument and cutoff level.\"",
+   "location": "Results; Table 3; Discussion (full text via Undermind read_pdfs)",
+   "pico_timeframe": "Same 5,377 ELSA participants; each score's published cut-off.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In the same group of people, the share called frail ranged from about 1 in 100 to about 2 in 3, depending only on which tool and cut-off was used.",
+   "qualifications": "Quote the range, not the named tools at each extreme (the paper's Discussion and Table 3 differ on which tool gave 72.4%). This same-population comparison answers the judge's concern that between-study ranges mix different populations.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "0.8% to 65.0%",
+     "meaning": "range of frailty prevalence across 35 scores, men"
+    },
+    {
+     "value": "1.0% to 72.4%",
+     "meaning": "range across 35 scores, women"
+    },
+    {
+     "value": "23.1% / 28.9%",
+     "meaning": "mean prevalence across scores, men / women"
+    }
+   ]
+  },
+  {
+   "claim_id": "C05-04-c",
+   "cand_id": "C05-04",
+   "claim": "The authors concluded that most pairs of frailty scores can't be assumed to be interchangeable and that results based on different scores can't be compared or pooled.",
+   "source_keys": [
+    "PMID:28633404"
+   ],
+   "supporting_passage": "\"There is marked heterogeneity in the degree to which various FS estimate frailty and in the identification of particular individuals as frail. Different FS are based on different concepts of frailty, and most pairs cannot be assumed to be interchangeable. Research results based on different FS cannot be compared or pooled.\" Discussion: \"Only 11.3% of pairs of scores had a κ value of 0.6 or higher, indicating that only a small minority of score pairs would identify the same individuals as being frail with an acceptable level of consistency.\"",
+   "location": "Abstract, Conclusions; Discussion",
+   "pico_timeframe": "Authors' interpretation of the ELSA analysis.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The researchers concluded that most frailty tools can't be swapped for one another. So when a study, guideline or service says 'frail', the first question is which tool and which cut-off decided it.",
+   "qualifications": "Attribute 'cannot be compared or pooled' to the authors; it is a strong conclusion that meta-analyses routinely do not follow. The practical question ('which tool?') is a judgement that follows from the finding.",
+   "conflicting_or_uncertain": "Some reviews do pool prevalence across tools but report results separately by type (for example C05-04-d).",
+   "numbers": []
+  },
+  {
+   "claim_id": "C05-04-d",
+   "cand_id": "C05-04",
+   "claim": "Across studies, reported community prevalence ranged from 4.0% to 59.1%; pooled prevalence was 9.9% with physical definitions and 13.6% with broader definitions (Collard 2012); a larger 2021 review found 12% with physical measures and 24% with frailty indexes.",
+   "source_keys": [
+    "PMID:22881367",
+    "PMID:33068107"
+   ],
+   "supporting_passage": "Collard: \"Reported prevalence in the community varies enormously (range 4.0-59.1%). ... The weighted prevalence was 9.9% for physical frailty (95% CI = 9.6-10.2; 15 studies; 44,894 participants) and 13.6% for the broad phenotype of frailty (95% CI = 13.2-14.0; 8 studies; 24,072 participants)\". O'Caoimh: \"In total, 240 studies reporting 265 prevalence proportions from 62 countries and territories, representing 1,755,497 participants, were included. Pooled prevalence in studies using physical frailty measures was 12% (95% CI = 11-13%; n = 178), compared with 24% (95% CI = 22-26%; n = 71) for the deficit accumulation model (those using a frailty index, FI).\"",
+   "location": "Abstracts",
+   "pico_timeframe": "Collard: community 65+, cross-sectional, to 2012. O'Caoimh: population-level studies, ages 50+, 1998-2020.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Between studies, the share of older people living at home called frail has ranged from 4 in 100 to 59 in 100, partly because of the definition and partly because of who was studied. Pooling many studies, tools based on physical measures label about 1 in 8 people frail, and tools that count many health problems label about 1 in 4.",
+   "qualifications": "Between-study ranges mix different populations; the same-sample result (C05-04-b) is the cleaner evidence and should lead. O'Caoimh includes people aged 50+. Give the prevalence range in only one post in the collection.",
+   "conflicting_or_uncertain": "High heterogeneity in both reviews.",
+   "numbers": [
+    {
+     "value": "4.0% to 59.1%",
+     "meaning": "range across community studies (Collard)"
+    },
+    {
+     "value": "9.9% vs 13.6%",
+     "meaning": "pooled, physical vs broad definitions (Collard, 65+)"
+    },
+    {
+     "value": "12% vs 24%",
+     "meaning": "pooled, physical measures vs frailty index (O'Caoimh, 50+, 240 studies)"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C05-16",
+   "status": "ready",
+   "reason": "All essential wording is verified verbatim from the CFS version 2.0 figure and the developers' guide (Rockwood and Theou 2020): level 7 'from whatever cause (physical or cognitive)'; level 6 including 'minimal assistance (cuing, standby) with dressing'; 'The degree of frailty generally corresponds to the degree of dementia' with moderate dementia doing personal care 'with prompting'; and, most usefully, the developers' own statement that the level-6 pattern applies both to moderate dementia and to cognitively intact people with a disability needing standby help. The closing habit ('write the reason next to the number', e.g. 'CFS 6 (moderate dementia; walks independently)') must be presented as a practice suggestion; no study comparing outcomes by the route to a score was found, so the post must not claim that surgical or rehabilitation outcomes differ by route. Label the two-person comparison 'Illustrative example'. Paraphrase the scale (copyright).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C05-16-a",
+    "C05-16-b",
+    "C05-16-c",
+    "C05-16-d",
+    "C05-16-e",
+    "C05-16-g"
+   ]
+  },
+  {
+   "cand_id": "C05-24",
+   "status": "ready",
+   "reason": "The 9 level names, the baseline ('usual self', e.g. two weeks before the illness) principle, the level 9 definition (life expectancy under about 6 months, not otherwise severely frail; the one level scored on the current state) and the uses and limits of the score are all verified verbatim from Rockwood and Theou 2020 and its Figure 1. Apply the editor's correction: 'levels 5 to 8 describe increasing need for help; level 4 (very mild frailty) needs no daily help' (figure: 'While not dependent on others for daily help, often symptoms limit activities'). Do not describe the whole scale as 'how much help someone needs day to day'. Add one line on use (prognosis and care planning; needs clinical judgement). Visual must paraphrase the levels in plain words, not reproduce the copyrighted scale.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C05-24-a",
+    "C05-24-b",
+    "C05-24-c",
+    "C05-24-d",
+    "C05-24-e"
+   ]
+  },
+  {
+   "cand_id": "C05-07",
+   "status": "ready",
+   "reason": "Kojima 2019 (abstract) verifies every transition figure; Gill 2006 confirms frail-to-not-frail is rare; the ICFSR 2019 guideline gives the graded recommendation for exercise with strength training (strong) and protein or calorie supplements when losing weight or undernourished (conditional). The angle stands, but the candidate's wording overclaims in two places and the post must use the safe wording: (1) put worsening (29 in 100) next to improvement (14 in 100) in the first two lines; most improvement among frail people was to prefrail (40 in 100), only 3 in 100 to no criteria; (2) replace 'strength exercise combined with enough protein has the most consistent evidence' with the ICFSR recommendation, and if Travers 2019 is cited say it ranked strength training plus protein supplements highest among 46 varied studies (a relative ranking, not a pooled effect). Figures are for people living at home, one definition (frailty phenotype), average follow-up about 4 years.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C05-07-a",
+    "C05-07-b",
+    "C05-07-d"
+   ]
+  },
+  {
+   "cand_id": "C05-14",
+   "status": "drop",
+   "reason": "Essential claim C05-14-b is not supported. The age-band figures in Collard 2012 (about 1 in 4 at 85+) could not be opened (closed access; not in Drive, Undermind or Scite), and the abstract gives no age-band values. The best opened evidence contradicts the headline at the oldest ages: in England's national ageing study (Gale 2015, Fried criteria) frailty rose from 6.5% at 60 to 69 to 65% at 90 and over (small group, n=64), and broader or frailty-index definitions give higher prevalence than the physical phenotype (Collard 13.6% vs 9.9%; O'Caoimh 24% vs 12%). 'Most people over 85 living at home are not frail' is therefore definition-dependent and unsafe. Use the editor's fallback C05-04, which now carries the prevalence-range point. (A possible future angle, not researched further: 'frailty rises steeply with age but is not universal, so assess rather than assume', using Gale 2015.)",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C05-14-a",
+    "C05-14-b"
+   ]
+  },
+  {
+   "cand_id": "C05-04",
+   "status": "ready",
+   "reason": "Fallback for C05-14; all essential claims verified. Aguayo 2017 full text confirms 5,377 ELSA participants aged 60+, 35 scores, kappa 0.10 to 0.83, almost 90% of 595 pairs below 0.6, the authors' illustration (about 30% vs about 6% classified differently), the same-sample prevalence range (0.8% to 65.0% men; 1.0% to 72.4% women) and the conclusion that most pairs are not interchangeable. Following the judge: lead with the same-people finding (which removes the population confound), and attribute the between-study range (Collard 4.0% to 59.1%) to definitions and populations together, not definition alone. O'Caoimh 2021 (12% physical vs 24% frailty index) is a more recent pooled comparison if needed. Quote the range, not the named tools at the extremes (a table/text discrepancy in the paper).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C05-04-a",
+    "C05-04-b",
+    "C05-04-c",
+    "C05-04-d"
+   ]
+  }
+ ]
+}

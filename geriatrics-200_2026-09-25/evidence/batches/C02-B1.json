@@ -1,0 +1,1489 @@
+{
+ "batch": "C02-B1",
+ "category": "C02",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:30312372",
+   "citation": "Cruz-Jentoft AJ, Bahat G, Bauer J, Boirie Y, Bruyère O, Cederholm T, et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16-31.",
+   "pmid": "30312372",
+   "pmcid": "PMC6322506",
+   "doi": "10.1093/ageing/afy169",
+   "public_url": "https://doi.org/10.1093/ageing/afy169",
+   "design": "Consensus statement (EWGSOP2), endorsed by EuGMS, ESCEO, ESPEN, IAGG-ER and IOF",
+   "population_setting": "Older adults in Europe; clinical practice and research",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC6322506); Scite read_fulltext (offsets 26000-43046) for the F-A-C-S box text",
+   "correction_check": "Scite editorial notices: one comment and one erratum. Erratum read in full (PMID 31081853, Age Ageing 2019;48(4):601, PMC6593317): it corrects only the Table 3 cut-off for ASM/height2 in women from <6.0 to <5.5 kg/m2. Strength and gait-speed cut-offs unaffected. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Main European operational definition. Table 3 numeric cells were not machine-readable in either full-text copy, so the grip cut-offs were confirmed from the Figure 2 caption and the chair-stand cut-off from secondary sources. The PMC text and the Scite copy differ on which muscle-mass method is advised in usual care (PMC: 'DXA and BIA'; Scite box: 'DXA ... in clinical practice'), so the post should not name a scan method."
+  },
+  {
+   "key": "PMID:31506707",
+   "citation": "Brennan-Olsen SL, Bowe SJ, Kowal P, Naidoo N, Quashie NT, Eick G, et al. Functional measures of sarcopenia: prevalence, and associations with functional disability in 10,892 adults aged 65 years and over from six lower- and middle-income countries. Calcif Tissue Int. 2019;105(6):609-18.",
+   "pmid": "31506707",
+   "pmcid": null,
+   "doi": "10.1007/s00223-019-00609-x",
+   "public_url": "https://doi.org/10.1007/s00223-019-00609-x",
+   "design": "Cross-sectional analysis (WHO SAGE wave 1)",
+   "population_setting": "10,892 adults aged 65+ in six lower- and middle-income countries",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "Scite search_literature (full-text excerpt from an open-access repository copy); PubMed get_article_metadata",
+   "correction_check": "No editorial notices in Scite record. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Used only as a secondary report of the EWGSOP2 algorithm-figure statement that low strength is enough to trigger assessment of causes and start intervention. One passage was read as a Scite full-text excerpt; the rest of the paper was not read."
+  },
+  {
+   "key": "PMID:42040919",
+   "citation": "Habboub B, Oludowole E, Speer R, Masuch J, Berger U, Gosch M, Singler K. Parker Mobility Score as a screening tool for sarcopenia in older German adults: a cross-sectional analysis of trial data. Health Sci Rep. 2026;9(4):e72341.",
+   "pmid": "42040919",
+   "pmcid": "PMC13103273",
+   "doi": "10.1002/hsr2.72341",
+   "public_url": "https://doi.org/10.1002/hsr2.72341",
+   "design": "Cross-sectional diagnostic accuracy analysis of trial data",
+   "population_setting": "255 community-dwelling older adults, Germany (median age 81)",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26). Recent record; no linked erratum.",
+   "quality_note": "Used only as a secondary statement of the EWGSOP2 probable-sarcopenia cut-offs (grip <27/<16 kg; chair stand >15 s). The primary Table 3 could not be read."
+  },
+  {
+   "key": "PMID:36702514",
+   "citation": "Huemer MT, Kluttig A, Fischer B, Ahrens W, Castell S, Ebert N, et al. Grip strength values and cut-off points based on over 200,000 adults of the German National Cohort - a comparison to the EWGSOP2 cut-off points. Age Ageing. 2023;52(1):afac324.",
+   "pmid": "36702514",
+   "pmcid": "PMC9879709",
+   "doi": "10.1093/ageing/afac324",
+   "public_url": "https://doi.org/10.1093/ageing/afac324",
+   "design": "Population cohort analysis",
+   "population_setting": "200,389 German adults aged 19-75 (NAKO); 1,012 aged 65-93 (KORA-Age)",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "Scite search_literature; confirmed with PubMed get_article_metadata",
+   "correction_check": "No editorial notices shown in Scite. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Shows that grip cut-offs depend on the reference population; German-derived cut-offs were 2 kg higher than EWGSOP2."
+  },
+  {
+   "key": "PMID:30498820",
+   "citation": "Dent E, Morley JE, Cruz-Jentoft AJ, Arai H, Kritchevsky SB, Guralnik J, et al. International Clinical Practice Guidelines for Sarcopenia (ICFSR): screening, diagnosis and management. J Nutr Health Aging. 2018;22(10):1148-61.",
+   "pmid": "30498820",
+   "pmcid": "PMC12280515",
+   "doi": "10.1007/s12603-018-1139-9",
+   "public_url": "https://doi.org/10.1007/s12603-018-1139-9",
+   "design": "International clinical practice guideline (GRADE, two systematic reviews, modified Delphi)",
+   "population_setting": "Older adults with sarcopenia; international",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite editorial-notice filter (has_correction, has_erratum) returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26). A PubMed search for a later ICFSR sarcopenia guideline (2023-2026) found none.",
+   "quality_note": "Guideline predates EWGSOP2 and GLIS; recommendations on treatment remain the most cited graded recommendations found."
+  },
+  {
+   "key": "PMID:36273495",
+   "citation": "Sayer AA, Cruz-Jentoft A. Sarcopenia definition, diagnosis and treatment: consensus is growing. Age Ageing. 2022;51(10):afac220.",
+   "pmid": "36273495",
+   "pmcid": "PMC9588427",
+   "doi": "10.1093/ageing/afac220",
+   "public_url": "https://doi.org/10.1093/ageing/afac220",
+   "design": "Narrative review / commentary by EWGSOP2 and GLIS leads",
+   "population_setting": "Clinical practice, international with UK survey data",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC9588427)",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Expert review, not a systematic review. Useful for the 'no licensed drugs' statement (as of 2022), a practical resistance-exercise dose, and the gap between consensus and provision."
+  },
+  {
+   "key": "PMID:38520141",
+   "citation": "Kirk B, Cawthon PM, Arai H, Ávila-Funes JA, Barazzoni R, Bhasin S, et al. The conceptual definition of sarcopenia: Delphi consensus from the Global Leadership Initiative in Sarcopenia (GLIS). Age Ageing. 2024;53(3):afae052.",
+   "pmid": "38520141",
+   "pmcid": "PMC10960072",
+   "doi": "10.1093/ageing/afae052",
+   "public_url": "https://doi.org/10.1093/ageing/afae052",
+   "design": "International Delphi consensus",
+   "population_setting": "107 experts from 29 countries",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Conceptual definition only; gives no operational cut-offs."
+  },
+  {
+   "key": "PMID:41618519",
+   "citation": "Yin L, Cao Y, Tang M, Shi H, Jiang H, Zhao J. Operationalizing the Global Leadership Initiative in Sarcopenia: muscle-specific strength, optimal criteria and clinical relevance. J Cachexia Sarcopenia Muscle. 2026;17(1):e70222.",
+   "pmid": "41618519",
+   "pmcid": "PMC12858665",
+   "doi": "10.1002/jcsm.70222",
+   "public_url": "https://doi.org/10.1002/jcsm.70222",
+   "design": "Multicentre observational study",
+   "population_setting": "National survey data, China",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles (GLIS operational definition, 2025-2026) and get_article_metadata",
+   "correction_check": "PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Used only for its statement that GLIS operational implementation 'remains largely undefined' (early 2026). No official GLIS operational definition was found in PubMed."
+  },
+  {
+   "key": "PMID:39300120",
+   "citation": "Sayer AA, Cooper R, Arai H, Cawthon PM, Ntsama Essomba MJ, Fielding RA, et al. Sarcopenia. Nat Rev Dis Primers. 2024;10(1):68.",
+   "pmid": "39300120",
+   "pmcid": null,
+   "doi": "10.1038/s41572-024-00550-w",
+   "public_url": "https://doi.org/10.1038/s41572-024-00550-w",
+   "design": "Narrative review (primer)",
+   "population_setting": "International",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Recent authoritative review; abstract only read."
+  },
+  {
+   "key": "PMID:8190152",
+   "citation": "Fiatarone MA, O'Neill EF, Ryan ND, Clements KM, Solares GR, Nelson ME, et al. Exercise training and nutritional supplementation for physical frailty in very elderly people. N Engl J Med. 1994;330(25):1769-75.",
+   "pmid": "8190152",
+   "pmcid": null,
+   "doi": "10.1056/NEJM199406233302501",
+   "public_url": "https://doi.org/10.1056/NEJM199406233302501",
+   "design": "Randomised placebo-controlled 2x2 factorial trial",
+   "population_setting": "100 frail nursing home residents, mean age 87.1 (range 72-98), Boston, USA",
+   "year": 1994,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (full text closed)",
+   "correction_check": "Scite record shows no editorial notices. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Landmark but small, 1994 trial in residents able to take part. Full text not accessible, so equipment and supervision details were not verified."
+  },
+  {
+   "key": "PMID:2342214",
+   "citation": "Fiatarone MA, Marks EC, Ryan ND, Meredith CN, Lipsitz LA, Evans WJ. High-intensity strength training in nonagenarians. Effects on skeletal muscle. JAMA. 1990;263(22):3029-34.",
+   "pmid": "2342214",
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/2342214/",
+   "design": "Uncontrolled pilot study",
+   "population_setting": "10 frail institutionalised volunteers aged 90 +/- 1 years",
+   "year": 1990,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Very small, uncontrolled; illustrative only."
+  },
+  {
+   "key": "PMID:23450551",
+   "citation": "Crocker T, Forster A, Young J, Brown L, Ozer S, Smith J, et al. Physical rehabilitation for older people in long-term care. Cochrane Database Syst Rev. 2013;(2):CD004294.",
+   "pmid": "23450551",
+   "pmcid": "PMC11930398",
+   "doi": "10.1002/14651858.CD004294.pub3",
+   "public_url": "https://doi.org/10.1002/14651858.CD004294.pub3",
+   "design": "Cochrane systematic review and meta-analysis",
+   "population_setting": "67 trials, 6,300 long-term care residents aged over 60",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26). PubMed search found no later update of this review.",
+   "quality_note": "Searches ran to 2009-2012; still the most recent Cochrane review of this question found."
+  },
+  {
+   "key": "PMID:35841975",
+   "citation": "Pinheiro ÉP, Cavalheiro do Espírito Santo R, Peterson dos Santos L, Gonçalves WV, Forgiarini Junior LA, Xavier RM, Filippin LI. Multicomponent or resistance training for nursing home residents: a systematic review with meta-analysis. J Am Med Dir Assoc. 2022;23(12):1926.e1-1926.e10.",
+   "pmid": "35841975",
+   "pmcid": null,
+   "doi": "10.1016/j.jamda.2022.06.009",
+   "public_url": "https://doi.org/10.1016/j.jamda.2022.06.009",
+   "design": "Systematic review and meta-analysis of RCTs",
+   "population_setting": "30 studies, 1,887 nursing home residents (mean age 82.7, 70% women)",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "More recent pooled evidence; authors call for better-quality studies."
+  },
+  {
+   "key": "PMID:30419096",
+   "citation": "Martínez-Velilla N, Casas-Herrero A, Zambom-Ferraresi F, Sáez de Asteasu ML, Lucia A, Galbete A, et al. Effect of exercise intervention on functional decline in very elderly patients during acute hospitalization: a randomized clinical trial. JAMA Intern Med. 2019;179(1):28-36.",
+   "pmid": "30419096",
+   "pmcid": "PMC6583412",
+   "doi": "10.1001/jamainternmed.2018.4869",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2018.4869",
+   "design": "Single-centre, single-blind randomised clinical trial",
+   "population_setting": "370 patients aged 75+ (mean 87.3) in an acute care of the elderly unit, Pamplona, Spain, 2015-2017",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; Scite read_fulltext (offsets 0-29000 of 32,392 characters)",
+   "correction_check": "Scite: comments and one erratum (PMID 30615075, 'Incorrect Author Surname, Affiliation, and Figure Key'); the correction does not change results. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Well-reported trial; participants had Barthel 60+ and could walk and cooperate; results at discharge only for function."
+  },
+  {
+   "key": "PMID:35040873",
+   "citation": "Martínez-Velilla N, Abizanda P, Gómez-Pavón J, Zambom-Ferraresi F, Sáez de Asteasu ML, Fiatarone Singh M, Izquierdo M. Effect of an exercise intervention on functional decline in very old patients during acute hospitalizations: results of a multicenter, randomized clinical trial. JAMA Intern Med. 2022;182(3):345-7.",
+   "pmid": "35040873",
+   "pmcid": "PMC8767490",
+   "doi": "10.1001/jamainternmed.2021.7654",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2021.7654",
+   "design": "Multicentre randomised clinical trial (research letter)",
+   "population_setting": "200 patients aged 75+ (mean 86.5), geriatric medicine departments of 3 Spanish hospitals",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; Scite read_fulltext (complete letter, 7,901 characters)",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Replication by the same group with 3 exercise days; research letter with limited detail."
+  },
+  {
+   "key": "PMID:36355032",
+   "citation": "Hartley P, Keating JL, Jeffs KJ, Raymond MJ, Smith TO. Exercise for acutely hospitalised older medical patients. Cochrane Database Syst Rev. 2022;11(11):CD005955.",
+   "pmid": "36355032",
+   "pmcid": "PMC9648425",
+   "doi": "10.1002/14651858.CD005955.pub3",
+   "public_url": "https://doi.org/10.1002/14651858.CD005955.pub3",
+   "design": "Cochrane systematic review and meta-analysis",
+   "population_setting": "24 trials, 7,511 medical inpatients aged 65+ (mean ages 73-88)",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Best summary of the wider evidence; certainty low to very low for function outcomes, moderate for falls."
+  },
+  {
+   "key": "PMID:21205966",
+   "citation": "Studenski S, Perera S, Patel K, Rosano C, Faulkner K, Inzitari M, et al. Gait speed and survival in older adults. JAMA. 2011;305(1):50-8.",
+   "pmid": "21205966",
+   "pmcid": "PMC3080184",
+   "doi": "10.1001/jama.2010.1923",
+   "public_url": "https://doi.org/10.1001/jama.2010.1923",
+   "design": "Pooled individual-participant analysis of 9 cohort studies",
+   "population_setting": "34,485 community-dwelling adults aged 65+, cohorts collected 1986-2000, mainly USA",
+   "year": 2011,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC3080184)",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Large, observational; only 1 of 9 cohorts from clinical practice; about 80% white. The abstract and results text give slightly different 10-year survival ranges (see claim C02-06-b)."
+  },
+  {
+   "key": "PMID:16696738",
+   "citation": "Perera S, Mody SH, Woodman RC, Studenski SA. Meaningful change and responsiveness in common physical performance measures in older adults. J Am Geriatr Soc. 2006;54(5):743-9.",
+   "pmid": "16696738",
+   "pmcid": null,
+   "doi": "10.1111/j.1532-5415.2006.00701.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.2006.00701.x",
+   "design": "Secondary analysis of cohort and trial data (distribution- and anchor-based methods)",
+   "population_setting": "Older adults with mobility disability, subacute stroke survivors and a community cohort (n=692), USA",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Standard source for meaningful change in gait speed."
+  },
+  {
+   "key": "PMID:17916121",
+   "citation": "Hardy SE, Perera S, Roumani YF, Chandler JM, Studenski SA. Improvement in usual gait speed predicts better survival in older adults. J Am Geriatr Soc. 2007;55(11):1727-34.",
+   "pmid": "17916121",
+   "pmcid": null,
+   "doi": "10.1111/j.1532-5415.2007.01413.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.2007.01413.x",
+   "design": "Prospective cohort study",
+   "population_setting": "439 adults aged 65+ in US primary care programmes; 8-year follow-up",
+   "year": 2007,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite editorial-notice filter returned no match for this DOI. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Observational; association only."
+  },
+  {
+   "key": "PMID:17166803",
+   "citation": "Snijders AH, van de Warrenburg BP, Giladi N, Bloem BR. Neurological gait disorders in elderly people: clinical approach and classification. Lancet Neurol. 2007;6(1):63-74.",
+   "pmid": "17166803",
+   "pmcid": null,
+   "doi": "10.1016/S1474-4422(06)70678-0",
+   "public_url": "https://doi.org/10.1016/S1474-4422(06)70678-0",
+   "design": "Narrative clinical review",
+   "population_setting": "Older people with gait disorders",
+   "year": 2007,
+   "access": "abstract",
+   "tool_used": "Reused from batch C01-B1; abstract re-opened with PubMed get_article_metadata in this batch",
+   "correction_check": "PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Expert review."
+  },
+  {
+   "key": "PMID:22695790",
+   "citation": "Asher L, Aresu M, Falaschetti E, Mindell J. Most older pedestrians are unable to cross the road in time: a cross-sectional study. Age Ageing. 2012;41(5):690-4.",
+   "pmid": "22695790",
+   "pmcid": null,
+   "doi": "10.1093/ageing/afs076",
+   "public_url": "https://doi.org/10.1093/ageing/afs076",
+   "design": "Cross-sectional analysis of a national survey (Health Survey for England 2005)",
+   "population_setting": "Random population sample of 3,145 adults aged 65+ in private households, England",
+   "year": 2012,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (methods, results, limitations, introduction)",
+   "correction_check": "No editorial notices in Scite record; Scite editorial-notice filter returned no match. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Data are from 2005; walking speed timed over 8 feet at normal pace. Relevant passages read as Scite full-text excerpts, not the whole paper."
+  },
+  {
+   "key": "PMID:28702358",
+   "citation": "Webb E, Bell S, Lacey RE, et al. Crossing the road in time: inequalities in older people's walking speeds. J Transp Health. 2017;5:77-83.",
+   "pmid": "28702358",
+   "pmcid": "PMC5485874",
+   "doi": "10.1016/j.jth.2017.02.009",
+   "public_url": "https://doi.org/10.1016/j.jth.2017.02.009",
+   "design": "Longitudinal cohort analysis (English Longitudinal Study of Ageing waves 1-7, 2002-2014)",
+   "population_setting": "10,249 adults aged 60+ in England; 31,015 walking-speed measurements",
+   "year": 2017,
+   "access": "full_text",
+   "tool_used": "Scite search_literature (abstract and full-text excerpts, CC-BY); PubMed convert_article_ids",
+   "correction_check": "No editorial notices in the Scite record. PubMed search of this PMID with retracted publication[pt] OR expression of concern[pt]: none found (2026-09-26).",
+   "quality_note": "Second, larger English dataset; relevant passages read as Scite full-text excerpts. The methods excerpt gives an eligible sample of 12,472 and 42,135 measurements, while the abstract reports the analysed 10,249 and 31,015."
+  },
+  {
+   "key": "DOI:10.7307/ptt.v29i5.2225",
+   "citation": "Hassan SA, Hounsell NB, Shrestha BP. Investigating the applicability of upstream detection strategy at pedestrian signalised crossings. Promet Traffic Transp. 2017;29(5):503-10.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": "10.7307/ptt.v29i5.2225",
+   "public_url": "https://doi.org/10.7307/ptt.v29i5.2225",
+   "design": "Traffic-engineering simulation study",
+   "population_setting": "UK Puffin crossings",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "Scite search_literature and read_fulltext (only an abstract fragment was available)",
+   "correction_check": "Not indexed in PubMed; no editorial notices shown in Scite.",
+   "quality_note": "Only the first sentence of the abstract could be read. Supports only the general point that Puffin crossings can extend crossing time."
+  },
+  {
+   "key": "URL:https://assets.publishing.service.gov.uk/media/5df0e29fed915d15f42c4820/dft-traffic-signs-manual-chapter-6.pdf",
+   "citation": "Department for Transport. Traffic Signs Manual, Chapter 6: Traffic Control. London: DfT; 2019.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://assets.publishing.service.gov.uk/media/5df0e29fed915d15f42c4820/dft-traffic-signs-manual-chapter-6.pdf",
+   "design": "Official design guidance",
+   "population_setting": "UK signal-controlled junctions and crossings",
+   "year": 2019,
+   "access": "search_extract",
+   "tool_used": "WebSearch (document located); direct download blocked by the environment's proxy",
+   "correction_check": "Not applicable (official guidance, not opened).",
+   "quality_note": "Not opened. No passage verified. Recorded only to document that current UK guidance on crossing walking speed could not be checked."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C02-18-a",
+   "cand_id": "C02-18",
+   "claim": "Under the 2019 European definition (EWGSOP2), low muscle strength is the primary parameter: low strength means probable sarcopenia, low muscle quantity or quality confirms it, and low physical performance marks it as severe.",
+   "source_keys": [
+    "PMID:30312372"
+   ],
+   "supporting_passage": "\"In its 2018 definition, EWGSOP2 uses low muscle strength as the primary parameter of sarcopenia; muscle strength is presently the most reliable measure of muscle function (Table). Specifically, sarcopenia is probable when low muscle strength is detected. A sarcopenia diagnosis is confirmed by the presence of low muscle quantity or quality. When low muscle strength, low muscle quantity/quality and low physical performance are all detected, sarcopenia is considered severe.\" Also: \"In these revised guidelines, muscle strength comes to the forefront, as it is recognised that strength is better than mass in predicting adverse outcomes\"",
+   "location": "Full text, section 'Sarcopenia: operational definition'",
+   "pico_timeframe": "Consensus definition for older adults, European focus; published 2019 (online 2018)",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Since 2019, the main European definition puts muscle strength first. Low strength (weak grip or slow chair rises) means sarcopenia is 'probable'. A measure of muscle quantity confirms it, and slow walking or other poor performance marks it as severe.",
+   "qualifications": "European consensus; other regions (for example Asia) use their own criteria. Published in Age Ageing 2019 (the group met in 2018).",
+   "conflicting_or_uncertain": "The 2024 global GLIS definition is conceptual only and has no operational cut-offs yet (see C02-18-f).",
+   "numbers": [
+    {
+     "value": "2019",
+     "meaning": "year the EWGSOP2 definition was published (Age Ageing 2019;48:16-31)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-18-b",
+   "cand_id": "C02-18",
+   "claim": "EWGSOP2 cut-offs: grip strength below 27 kg in men and 16 kg in women, or more than 15 seconds for five chair rises, indicate low strength; a usual gait speed of 0.8 m/s or less indicates severe sarcopenia.",
+   "source_keys": [
+    "PMID:30312372",
+    "PMID:42040919",
+    "PMID:31506707",
+    "PMID:36702514"
+   ],
+   "supporting_passage": "EWGSOP2 Figure 2 caption: \"Cut-off points based on T-score of ≤ -2.5 are shown for males and females (≤ 27 kg and 16 kg, respectively).\" EWGSOP2 text: \"The chair stand test measures the amount of time needed for a patient to rise five times from a seated position without using his or her arms\" and \"For simplicity, a single cut-off speed ≤0.8 m/s is advised by EWGSOP2 as an indicator of severe sarcopenia.\" Habboub 2026 abstract: \"Sarcopenia was defined using EWGSOP2 criteria: probable sarcopenia as handgrip strength < 27 kg (men) or < 16 kg (women) and/or chair stand test > 15 s.\" Brennan-Olsen 2019: \"the EWGSOP2 cut-points [11] of < 27 kg for men and < 16 kg for women as indicative of low grip strength\"",
+   "location": "EWGSOP2 full text (Figure 2 caption; 'Muscle strength' and 'Physical performance' sections); Habboub 2026 Abstract, Methods; Brennan-Olsen 2019 full-text excerpt",
+   "pico_timeframe": "Cut-offs derived from UK normative grip data (Dodds 2014) at -2.5 SD; European populations",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the European definition, grip strength below about 27 kg in men or 16 kg in women, or needing more than 15 seconds to stand up from a chair five times without using the arms, counts as low strength. A usual walking speed of 0.8 metres per second or slower marks severe sarcopenia.",
+   "qualifications": "The chair-stand cut-off (>15 s) was confirmed from secondary sources quoting EWGSOP2 because Table 3 of the consensus was not readable; the Figure 2 caption writes the grip cut-off as '<= 27 kg and 16 kg' whereas secondary sources quote '< 27 kg and < 16 kg'. Say 'below about 27 kg / 16 kg'. EWGSOP2 says its cut-offs focus on European populations and advises regional norms where available. Grip needs a calibrated dynamometer under standard conditions.",
+   "conflicting_or_uncertain": "Huemer 2023 (German National Cohort) derived cut-offs of 29 kg and 18 kg, 2 kg higher than EWGSOP2, which would label more people as weak: \"Cut-off points for low grip strength from German population-based data were 2 kg higher than the EWGSOP2 cut-off points.\" Asian criteria differ (numbers not checked here).",
+   "numbers": [
+    {
+     "value": "27 kg",
+     "meaning": "grip strength cut-off for men (below this = low strength), EWGSOP2"
+    },
+    {
+     "value": "16 kg",
+     "meaning": "grip strength cut-off for women, EWGSOP2"
+    },
+    {
+     "value": "15 seconds",
+     "meaning": "time for five chair rises without arms; more than this = low strength (EWGSOP2, via secondary sources)"
+    },
+    {
+     "value": "0.8 m/s",
+     "meaning": "usual gait speed at or below which sarcopenia is classed as severe (EWGSOP2)"
+    },
+    {
+     "value": "29 kg and 18 kg",
+     "meaning": "alternative German-derived grip cut-offs for men and women (Huemer 2023)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-18-c",
+   "cand_id": "C02-18",
+   "claim": "EWGSOP2 states that in clinical practice low muscle strength (probable sarcopenia) is enough to trigger assessment of causes and to start intervention, without waiting for a muscle-mass measurement.",
+   "source_keys": [
+    "PMID:31506707",
+    "PMID:30312372"
+   ],
+   "supporting_passage": "Brennan-Olsen 2019 (full-text excerpt): \"The revised EWGSOP2 consensus regarding sarcopenia identified that, in clinical practice, low grip strength is enough to trigger assessment of causes and start intervention for sarcopenia [11], which is indicative of an increasing focus on muscle strength rather than muscle mass as a key determinant of sarcopenia\". EWGSOP2 Figure 1 note (PMC text): \"Consider other reasons for low muscle strength (e.g. depression, sroke, balance disorders, peripheral vascular disorders).\"",
+   "location": "Brennan-Olsen 2019 Discussion (Scite full-text excerpt); EWGSOP2 Figure 1 legend",
+   "pico_timeframe": "EWGSOP2 algorithm (Find-Assess-Confirm-Severity) for clinical practice",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In everyday practice, the European group says weak grip or slow chair rises are enough to start looking for causes and to start treatment. A scan to measure muscle can come later, if it will change what you do.",
+   "qualifications": "The exact EWGSOP2 wording sits in its algorithm figure, which could not be read directly; it is verified through a peer-reviewed paper quoting it (and a second, conference abstract found in Scite with the same wording). Low strength has other causes (EWGSOP2 lists depression, stroke, balance disorders, peripheral vascular disorders), so 'look for causes' must stay in the wording. Do not say imaging is unnecessary: EWGSOP2 still confirms sarcopenia with a muscle-quantity measure.",
+   "conflicting_or_uncertain": "SARC-F and grip measurement are not routine in many services: Sayer 2022 reports that 'In most settings, dynamometers are not widely available to measure muscle strength'.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C02-18-d",
+   "cand_id": "C02-18",
+   "claim": "The 2018 international (ICFSR) guideline strongly recommends resistance-based physical activity to treat sarcopenia, conditionally recommends protein supplementation or a protein-rich diet, and gives no recommendation for vitamin D or anabolic hormones.",
+   "source_keys": [
+    "PMID:30498820",
+    "PMID:39300120"
+   ],
+   "supporting_passage": "Dent 2018: \"To treat sarcopenia, we strongly recommend the prescription of resistance-based physical activity, and conditionally recommend protein supplementation/a protein-rich diet. No recommendation is given for Vitamin D supplementation or for anabolic hormone prescription. There is a lack of robust evidence to assess the strength of other treatment options.\" Sayer 2024: \"Resistance exercise is currently the mainstay of treatment; however, it is not suitable for all.\"",
+   "location": "Dent 2018 Abstract (Results); Sayer 2024 Abstract",
+   "pico_timeframe": "Older adults with sarcopenia; GRADE-based guideline 2018; review 2024",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The international sarcopenia guideline strongly recommends strength (resistance) exercise as treatment and gives a weaker recommendation for more protein. It makes no recommendation for vitamin D or hormone treatment. A 2024 review calls resistance exercise the mainstay of treatment, while noting it does not suit everyone.",
+   "qualifications": "Guideline dated 2018; 'strong' and 'conditional' are GRADE strengths of recommendation, not effect sizes.",
+   "conflicting_or_uncertain": "Sayer 2022: evidence on resistance exercise 'is strong for functional outcomes and weaker for body composition outcomes'; evidence on nutrition interventions 'is still weak'.",
+   "numbers": [
+    {
+     "value": "2018",
+     "meaning": "year of the ICFSR guideline"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-18-e",
+   "cand_id": "C02-18",
+   "claim": "EWGSOP2 recommends the SARC-F questionnaire for case-finding, but SARC-F has low-to-moderate sensitivity and mainly detects severe cases.",
+   "source_keys": [
+    "PMID:30312372",
+    "PMID:30498820"
+   ],
+   "supporting_passage": "EWGSOP2: \"EWGSOP2 recommends use of the SARC-F questionnaire as a way to elicit self-reports from patients on signs that are characteristic of sarcopenia.\" and \"SARC-F has a low-to-moderate sensitivity and a very high specificity to predict low muscle strength []. As such, SARC-F will mostly detect severe cases.\" Also: \"case-finding may start when a patient reports symptoms or signs of sarcopenia (i.e. falling, feeling weak, slow walking speed, difficulty rising from a chair or weight loss/muscle wasting).\" Dent 2018: \"advocate for rapid screening using gait speed or the SARC-F.\"",
+   "location": "EWGSOP2 full text, 'Finding sarcopenia cases'; Dent 2018 Abstract",
+   "pico_timeframe": "Case-finding in community and clinical settings",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "A five-question checklist (SARC-F: strength, walking, rising from a chair, climbing stairs, falls) is recommended to pick out people to test. It misses milder cases, so falls, feeling weak, slow walking or trouble getting out of a chair are reasons to test strength anyway.",
+   "qualifications": "SARC-F is a screen, not a diagnosis.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "5",
+     "meaning": "number of SARC-F items"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-18-f",
+   "cand_id": "C02-18",
+   "claim": "The 2024 GLIS global definition is conceptual: muscle mass, muscle strength and muscle-specific strength are components and impaired physical performance is an outcome; an operational definition with cut-offs had not been published by early 2026.",
+   "source_keys": [
+    "PMID:38520141",
+    "PMID:41618519"
+   ],
+   "supporting_passage": "Kirk 2024: \"A key finding of the Delphi survey was that muscle mass, muscle strength and muscle-specific strength were all accepted as 'components of sarcopenia', whereas impaired physical performance was accepted as an 'outcome' rather than a 'component' of sarcopenia.\" and \"The GLIS has created the first global conceptual definition of sarcopenia, which will now serve to develop an operational definition for clinical and research settings.\" Yin 2026: \"While the Global Leadership Initiative on Sarcopenia (GLIS) is promising to standardize sarcopenia diagnosis, its operational implementation remains largely undefined.\"",
+   "location": "Kirk 2024 Abstract; Yin 2026 Abstract (Background)",
+   "pico_timeframe": "International Delphi 2022-2023 (107 experts, 29 countries)",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "A 2024 global consensus agreed what sarcopenia is in concept (muscle mass, strength and strength per unit of muscle), but has not yet set bedside tests or cut-offs. For now the European pathway is the practical one.",
+   "qualifications": "Keep GLIS out of the pathway diagram (judge's concern); mention in one line at most. The absence of an operational GLIS definition is based on a PubMed search to September 2026 and one 2026 paper's statement.",
+   "conflicting_or_uncertain": "An operational GLIS definition may appear soon; recheck before publication.",
+   "numbers": [
+    {
+     "value": "2024",
+     "meaning": "year of the GLIS conceptual definition"
+    },
+    {
+     "value": "107",
+     "meaning": "Delphi participants"
+    },
+    {
+     "value": "29",
+     "meaning": "countries"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-18-g",
+   "cand_id": "C02-18",
+   "claim": "No medicine is licensed for sarcopenia.",
+   "source_keys": [
+    "PMID:36273495"
+   ],
+   "supporting_passage": "\"Progress in developing effective drug treatments has been slow [,] and there are no licenced drugs for sarcopenia because initially promising avenues to date have not been supported by findings from well conducted randomised controlled trials [].\"",
+   "location": "Full text, 'Looking ahead'",
+   "pico_timeframe": "International expert review, 2022",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "There is no medicine licensed to treat sarcopenia; exercise, above all strength training, is the treatment.",
+   "qualifications": "Statement from a 2022 expert review, not a check of the BNF or MHRA (not accessible here). Say 'no licensed medicine' without adding 'in the UK' unless the BNF is checked.",
+   "conflicting_or_uncertain": "Drug development continues (Sayer 2024: 'adjunctive and alternative treatments to improve quality of life are needed').",
+   "numbers": [
+    {
+     "value": "2022",
+     "meaning": "date of the statement (Sayer and Cruz-Jentoft review)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-18-h",
+   "cand_id": "C02-18",
+   "claim": "A practical starting dose of resistance exercise for sarcopenia is two sessions a week of upper- and lower-body exercises, 1-3 sets of 6-12 repetitions, with a relatively high degree of effort.",
+   "source_keys": [
+    "PMID:36273495"
+   ],
+   "supporting_passage": "\"For example, a recent review on the prescription and delivery of resistance exercise for sarcopenia proposed a programme that consisted of two exercise sessions per week involving a combination of upper- and lower-body exercises performed with a relatively high degree of effort for 1–3 sets of 6–12 repetitions [].\" Also: \"The consensus on the benefit of resistance exercise for the treatment of sarcopenia within the research world has yet to translate into consistent provision of resistance exercise in clinical practice\"",
+   "location": "Full text, 'Looking ahead'",
+   "pico_timeframe": "Proposed prescription from a review, cited in a 2022 expert review",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "One proposed starting point: strength exercises for arms and legs twice a week, one to three sets of 6 to 12 repetitions, hard enough that the last few feel like real effort.",
+   "qualifications": "This is a proposal from a review, not a tested standard; frame as 'one proposed programme'. Adapt for pain, heart disease and frailty (judgement: suggest a physiotherapist for people with complex needs).",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "2",
+     "meaning": "sessions per week"
+    },
+    {
+     "value": "1-3",
+     "meaning": "sets"
+    },
+    {
+     "value": "6-12",
+     "meaning": "repetitions per set"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-19-a",
+   "cand_id": "C02-19",
+   "claim": "In a randomised trial, 100 frail nursing home residents (mean age 87.1, range 72 to 98) received progressive resistance training, a nutritional supplement, both or neither for 10 weeks.",
+   "source_keys": [
+    "PMID:8190152"
+   ],
+   "supporting_passage": "\"We conducted a randomized, placebo-controlled trial comparing progressive resistance exercise training, multinutrient supplementation, both interventions, and neither in 100 frail nursing home residents over a 10-week period.\" and \"The mean (+/- SE) age of the 63 women and 37 men enrolled in the study was 87.1 +/- 0.6 years (range, 72 to 98); 94 percent of the subjects completed the study.\"",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "100 frail nursing home residents, Boston USA; exercise vs no exercise (factorial with supplement); 10 weeks; published 1994",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a 1994 US trial, 100 frail care home residents with an average age of 87 (the oldest was 98) were randomly given strength training or not for 10 weeks.",
+   "qualifications": "Single trial, 1994, in residents well enough to consent and take part.",
+   "conflicting_or_uncertain": "None for the design facts.",
+   "numbers": [
+    {
+     "value": "100",
+     "meaning": "residents randomised"
+    },
+    {
+     "value": "87.1",
+     "meaning": "mean age in years"
+    },
+    {
+     "value": "72-98",
+     "meaning": "age range"
+    },
+    {
+     "value": "10 weeks",
+     "meaning": "intervention length"
+    },
+    {
+     "value": "94%",
+     "meaning": "completed the study"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-19-b",
+   "cand_id": "C02-19",
+   "claim": "Muscle strength increased by 113% with training versus 3% without; gait velocity rose 11.8% with training and fell 1.0% without; stair-climbing power improved 28.4% versus 3.6%. The supplement alone had no effect.",
+   "source_keys": [
+    "PMID:8190152"
+   ],
+   "supporting_passage": "\"Muscle strength increased by 113 +/- 8 percent in the subjects who underwent exercise training, as compared with 3 +/- 9 percent in the nonexercising subjects (P < 0.001). Gait velocity increased by 11.8 +/- 3.8 percent in the exercisers but declined by 1.0 +/- 3.8 percent in the nonexercisers (P = 0.02). Stair-climbing power also improved in the exercisers as compared with the nonexercisers (by 28.4 +/- 6.6 percent vs. 3.6 +/- 6.7 percent, P = 0.01), as did the level of spontaneous physical activity.\" and \"The nutritional supplement had no effect on any primary outcome measure.\"",
+   "location": "Abstract (Results)",
+   "pico_timeframe": "Exercisers vs non-exercisers (pooled across supplement arms); change from baseline over 10 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Residents who did the strength training more than doubled their muscle strength on average (up 113%, against 3% in those who did not). Their walking speed rose by about 12%, while it fell slightly in the others. The supplement drink on its own made no difference.",
+   "qualifications": "These are average percentage changes from each person's own starting level (relative, not absolute); starting strength was low. 'More than doubled' is accurate for a 113% increase. The training was high-intensity progressive resistance training (abstract conclusion); the full text was not accessible, so do not describe equipment or supervision as fact, and treat the proposed drawing of machines as unverified.",
+   "conflicting_or_uncertain": "Thigh muscle size did not change significantly (+2.7% vs -1.8%, P=0.11). The Cochrane review of rehabilitation in long-term care found smaller, less certain effects (C02-19-d).",
+   "numbers": [
+    {
+     "value": "113%",
+     "meaning": "mean increase in muscle strength from baseline, exercisers"
+    },
+    {
+     "value": "3%",
+     "meaning": "mean change in strength, non-exercisers"
+    },
+    {
+     "value": "11.8%",
+     "meaning": "mean increase in gait velocity, exercisers"
+    },
+    {
+     "value": "-1.0%",
+     "meaning": "mean change in gait velocity, non-exercisers"
+    },
+    {
+     "value": "28.4% vs 3.6%",
+     "meaning": "stair-climbing power change, exercisers vs non-exercisers"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-19-c",
+   "cand_id": "C02-19",
+   "claim": "An earlier small study found high-intensity strength training in frail care home residents aged about 90 increased strength by 174% over 8 weeks.",
+   "source_keys": [
+    "PMID:2342214"
+   ],
+   "supporting_passage": "\"Ten frail, institutionalized volunteers aged 90 +/- 1 years undertook 8 weeks of high-intensity resistance training.\" and \"Strength gains averaged 174% +/- 31% (mean +/- SEM) in the 9 subjects who completed training.\" and \"high-resistance weight training leads to significant gains in muscle strength, size, and functional mobility among frail residents of nursing homes up to 96 years of age.\"",
+   "location": "Abstract",
+   "pico_timeframe": "10 residents, no control group, 8 weeks, 1990",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Even earlier, in 1990, a small study of 10 care home residents aged around 90 found their strength rose substantially after 8 weeks of strength training.",
+   "qualifications": "Tiny, uncontrolled pilot; use only as background, not as the headline figure.",
+   "conflicting_or_uncertain": "None beyond size.",
+   "numbers": [
+    {
+     "value": "10",
+     "meaning": "participants (9 completed)"
+    },
+    {
+     "value": "90",
+     "meaning": "mean age"
+    },
+    {
+     "value": "8 weeks",
+     "meaning": "duration"
+    },
+    {
+     "value": "174%",
+     "meaning": "mean strength gain in completers"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-19-d",
+   "cand_id": "C02-19",
+   "claim": "A Cochrane review of physical rehabilitation for older people in long-term care found small improvements in daily activities, did not show a clear effect on walking speed, found no increase in deaths, and warned that bias may have overestimated benefits.",
+   "source_keys": [
+    "PMID:23450551"
+   ],
+   "supporting_passage": "\"We included 67 trials, involving 6300 participants.\" \"The estimated effects of physical rehabilitation at the end of the intervention were an improvement in Barthel Index (0 to 100) scores of six points (95% confidence interval (CI) 2 to 11, P = 0.008, seven studies) ... and walking speed of 0.03 m/s (95% CI -0.01 to 0.07, P = 0.1, nine studies).\" \"Synthesis of secondary outcomes suggested there is a beneficial effect on strength, flexibility, and balance\" \"rehabilitation does not increase risk of mortality in this population (risk ratio 0.95, 95% CI 0.80 to 1.13). However, it is possible bias has resulted in overestimation of the positive effects of physical rehabilitation.\" \"Physical rehabilitation for long-term care residents may be effective, reducing disability with few adverse events, but effects appear quite small and may not be applicable to all residents.\"",
+   "location": "Abstract (Main results, Authors' conclusions)",
+   "pico_timeframe": "Residents aged over 60 with permanent long-term care residency; any physical rehabilitation vs no intervention or alternative; end of intervention",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Cochrane review of 67 trials in care homes found that exercise and rehabilitation probably help a little with everyday activities and with strength and balance, without increasing deaths. The effects were small, may not apply to every resident, and may be overstated by weaknesses in the trials.",
+   "qualifications": "Covers all physical rehabilitation, not only strength training. Searches ran to about 2012.",
+   "conflicting_or_uncertain": "Pinheiro 2022 meta-analysis found clearer gains in physical performance tests with resistance training (C02-19-e).",
+   "numbers": [
+    {
+     "value": "67",
+     "meaning": "trials"
+    },
+    {
+     "value": "6,300",
+     "meaning": "participants"
+    },
+    {
+     "value": "6 points (95% CI 2 to 11)",
+     "meaning": "Barthel Index improvement, 0-100 scale, 7 studies"
+    },
+    {
+     "value": "0.03 m/s (95% CI -0.01 to 0.07)",
+     "meaning": "walking speed difference, not statistically clear, 9 studies"
+    },
+    {
+     "value": "RR 0.95 (0.80 to 1.13)",
+     "meaning": "mortality, 25 studies"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-19-e",
+   "cand_id": "C02-19",
+   "claim": "A 2022 meta-analysis found resistance training and multicomponent training improved physical performance tests in nursing home residents compared with usual care.",
+   "source_keys": [
+    "PMID:35841975"
+   ],
+   "supporting_passage": "\"A total of 30 studies were included in the qualitative review (n = 1887, mean age 82.68 years and 70% female).\" \"Multicomponent training and resistance training showed statistically significant difference (P <= .05) in the physical performance of institutionalized older adults compared with the control groups (usual care); this was evaluated with the Short Physical Performance Battery (+1.2 points; +2 points), 30-second chair-stand (approximately +3 repetitions; both), and Timed Up and Go (-4 seconds on mean; both) tests.\" \"Further studies with more representative sample numbers, an improvement in methodological quality, and a more specified prescription of the training used are necessary.\"",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "Nursing home residents aged over 60; resistance or multicomponent training vs usual care; 17 studies in meta-analysis",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "More recent pooled trials in care homes found that strength training improved simple tests such as standing up from a chair and getting up and walking, compared with usual care.",
+   "qualifications": "Physical-performance outcomes, not daily-living independence; study quality limited.",
+   "conflicting_or_uncertain": "Smaller effects on daily activities in the Cochrane review.",
+   "numbers": [
+    {
+     "value": "30",
+     "meaning": "studies reviewed (17 meta-analysed)"
+    },
+    {
+     "value": "1,887",
+     "meaning": "residents"
+    },
+    {
+     "value": "+2 points",
+     "meaning": "SPPB change with resistance training vs usual care"
+    },
+    {
+     "value": "about +3",
+     "meaning": "extra chair stands in 30 seconds"
+    },
+    {
+     "value": "-4 seconds",
+     "meaning": "Timed Up and Go"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-19-f",
+   "cand_id": "C02-19",
+   "claim": "Care home residents in the UK have limited access to physiotherapy and progressive strength exercise.",
+   "source_keys": [
+    "PMID:36273495"
+   ],
+   "supporting_passage": "No UK care-home-specific source found. Closest general statement (Sayer 2022): \"The consensus on the benefit of resistance exercise for the treatment of sarcopenia within the research world has yet to translate into consistent provision of resistance exercise in clinical practice\"",
+   "location": "Sayer 2022 full text, 'Looking ahead'",
+   "pico_timeframe": "General clinical practice, not care homes",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Do not state that UK care home residents lack access to physiotherapy. Supportable: 'Experts note that agreement on the value of strength exercise has not yet turned into consistent provision in practice.' Anything about care homes specifically should be phrased as judgement ('We should offer...').",
+   "qualifications": "PubMed searches and a Drive search found no UK survey or audit of physiotherapy or strength-exercise access in care homes.",
+   "conflicting_or_uncertain": "Unknown.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C02-16-a",
+   "cand_id": "C02-16",
+   "claim": "A single-centre, single-blind randomised trial in an acute care of the elderly unit in Navarra, Spain, randomised 370 patients (mean age 87.3) to exercise or usual care.",
+   "source_keys": [
+    "PMID:30419096"
+   ],
+   "supporting_passage": "\"A single-center, single-blind randomized clinical trial was conducted from February 1, 2015, to August 30, 2017, in an acute care unit in a tertiary public hospital in Navarra, Spain. A total of 370 very elderly patients undergoing acute-care hospitalization were randomly assigned to an exercise or control (usual-care) intervention.\" \"Of the 370 patients included in the analyses, 209 were women (56.5%); mean (SD) age was 87.3 (4.9) years.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Patients aged 75+ admitted to an acute geriatric unit (mainly heart failure and infections); exercise vs usual care (which included physiotherapy when needed); outcomes at discharge",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a Spanish hospital trial, 370 medical patients with an average age of 87 were randomly given an exercise programme or usual care.",
+   "qualifications": "Single centre; usual care included physiotherapy focused on walking when needed.",
+   "conflicting_or_uncertain": "None for the design facts.",
+   "numbers": [
+    {
+     "value": "370",
+     "meaning": "patients randomised"
+    },
+    {
+     "value": "87.3",
+     "meaning": "mean age, years"
+    },
+    {
+     "value": "56.5%",
+     "meaning": "women"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-b",
+   "cand_id": "C02-16",
+   "claim": "The programme was two 20-minute sessions a day (morning and evening) for 5 to 7 consecutive days including weekends: a supervised morning session of individualised progressive resistance (machines, 30-60% of one-repetition maximum), balance and walking exercise, and an unsupervised evening session with light ankle weights, a grip ball and corridor walking. Median intervention length was 5 days.",
+   "source_keys": [
+    "PMID:30419096"
+   ],
+   "supporting_passage": "\"The intervention was programmed in 2 daily sessions (morning and evening) of 20 minutes’ duration during 5 to 7 consecutive days (including weekends). An experienced fitness specialist with in-depth training on safe patient handling techniques (F.Z.-F.) supervised each patient’s session\" \"The morning sessions included individualized supervised progressive resistance, balance, and walking training exercises. The resistance exercises were tailored to the individual's functional capacity using variable resistance training machines ... aiming at 2 to 3 sets of 8 to 10 repetitions with a load equivalent to 30% to 60% of the 1-repetition maximum.\" \"The evening session consisted of functional unsupervised exercises using light loads (ie, 0.5- to 1-kg anklets and handgrip ball), such as knee extension and flexion, hip abduction, and daily walking in the corridor\" Abstract: \"Median duration of the intervention was 5 days (interquartile range, 0)\"",
+   "location": "Methods (full text); Abstract",
+   "pico_timeframe": "As delivered in the trial",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Each patient had two 20-minute sessions a day, including weekends. Mornings were supervised strength training (sit-to-stand, leg press, knee extension and chest press, at a moderate load), plus balance and walking practice. Evenings were simple exercises with light ankle weights and a walk along the ward corridor.",
+   "qualifications": "Abstract calls intensity 'moderate'; the discussion calls the resistance training 'low-intensity'. Use 'moderate'.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "2 x 20 minutes",
+     "meaning": "sessions per day"
+    },
+    {
+     "value": "5-7 days",
+     "meaning": "planned; median 5 days delivered"
+    },
+    {
+     "value": "30-60%",
+     "meaning": "of one-repetition maximum"
+    },
+    {
+     "value": "2-3 sets of 8-10",
+     "meaning": "repetitions"
+    },
+    {
+     "value": "95.8% and 83.4%",
+     "meaning": "adherence to morning and evening sessions"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-c",
+   "cand_id": "C02-16",
+   "claim": "Delivering the programme required one physiotherapist hired for the project plus an exercise-physiology researcher, seven days a week, and about 4,000 euros of equipment.",
+   "source_keys": [
+    "PMID:30419096"
+   ],
+   "supporting_passage": "\"The costs derived from the intervention were basically those generated by hiring 1 physiotherapist (M.L.S.deA.) ad hoc for the project and the collaboration of a researcher (with a PhD background in exercise physiology) (F.Z.-F.) who shared the work during 7 days a week for the duration of the study. An initial investment of €4000 (US $4645) was made to buy the weight-training equipment\"",
+   "location": "Methods (full text)",
+   "pico_timeframe": "Trial staffing, 2015-2017",
+   "claim_type": "service or policy fact",
+   "verdict": "supported",
+   "safe_wording": "It needed dedicated staff: a physiotherapist and an exercise specialist sharing the work seven days a week, and about 4,000 euros of equipment.",
+   "qualifications": "Trial-run staffing; real-world staffing may differ.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "4,000 euros",
+     "meaning": "initial equipment cost (US $4,645)"
+    },
+    {
+     "value": "7 days a week",
+     "meaning": "staff cover"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-d",
+   "cand_id": "C02-16",
+   "claim": "At discharge, function fell with usual care (Barthel -5.0 points from baseline) and rose slightly with exercise (+1.9); the between-group differences were 6.9 Barthel points and 2.2 SPPB points in favour of exercise.",
+   "source_keys": [
+    "PMID:30419096"
+   ],
+   "supporting_passage": "\"At discharge, the exercise group showed a mean increase of 2.2 points (95% CI, 1.7-2.6 points) on the SPPB scale and 6.9 points (95% CI, 4.4-9.5 points) on the Barthel Index over the usual-care group. Hospitalization led to an impairment in functional capacity (mean change from baseline to discharge in the Barthel Index of -5.0 points (95% CI, -6.8 to -3.2 points) in the usual-care group, whereas the exercise intervention reversed this trend (1.9 points; 95% CI, 0.2-3.7 points). The intervention also improved the SPPB score (2.4 points; 95% CI, 2.1-2.7 points) vs 0.2 points; 95% CI, -0.1 to 0.5 points in controls).\"",
+   "location": "Abstract; Results (full text)",
+   "pico_timeframe": "Change from baseline (Barthel referenced to 2 weeks before admission) to discharge; median stay 8 days",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "By the time they went home, people on usual care had lost ground in everyday activities (down 5 points on a 100-point scale), while those who exercised had gained a little (up 2 points). The difference between the groups was about 7 points on everyday activities and 2 points on a 12-point test of balance, walking and standing up.",
+   "qualifications": "Keep within-group changes (-5.0, +1.9) separate from between-group differences (6.9, 2.2). Outcomes at discharge only. The trial pre-set a meaningful change as 5 Barthel points and 1 SPPB point; the Cochrane review uses 11 Barthel points as the minimal important difference, so the 6.9-point gain is modest by that yardstick.",
+   "conflicting_or_uncertain": "Replication and pooled evidence show smaller effects (C02-16-g, C02-16-h).",
+   "numbers": [
+    {
+     "value": "-5.0 (95% CI -6.8 to -3.2)",
+     "meaning": "Barthel change from baseline to discharge, usual care (within group, 0-100 scale)"
+    },
+    {
+     "value": "+1.9 (95% CI 0.2 to 3.7)",
+     "meaning": "Barthel change, exercise group (within group)"
+    },
+    {
+     "value": "6.9 (95% CI 4.4 to 9.5)",
+     "meaning": "between-group Barthel difference at discharge"
+    },
+    {
+     "value": "2.2 (95% CI 1.7 to 2.6)",
+     "meaning": "between-group SPPB difference (0-12 scale)"
+    },
+    {
+     "value": "+2.4 vs +0.2",
+     "meaning": "within-group SPPB change, exercise vs usual care"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-e",
+   "cand_id": "C02-16",
+   "claim": "No adverse effects of the exercise were recorded, and there were no differences in length of stay, in-hospital falls, or 3-month readmission or mortality.",
+   "source_keys": [
+    "PMID:30419096"
+   ],
+   "supporting_passage": "\"No adverse effects associated with the prescribed exercises were recorded and no patient had to interrupt the intervention or had their hospital stay modified because of it.\" \"There were, however, no significant differences between groups in the remainder of secondary outcomes, including incident delirium (P > .10) (Table 2), length of hospitalization, proportion of patients having 1 or more falls during hospitalization, 3-month hospital readmission rate/mortality, or patient transfer (all P > .10)\"",
+   "location": "Results (full text)",
+   "pico_timeframe": "In-hospital and 3 months after discharge",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "No harms from the exercise were recorded. It did not change length of stay, falls in hospital, or readmissions and deaths over the next three months.",
+   "qualifications": "'Did not show a difference' rather than 'no effect' for secondary outcomes. The post will not discuss delirium (topic exclusion).",
+   "conflicting_or_uncertain": "Cochrane 2022: exercise probably does not increase falls (moderate certainty).",
+   "numbers": [
+    {
+     "value": "0",
+     "meaning": "recorded adverse effects of exercise"
+    },
+    {
+     "value": "3 months",
+     "meaning": "follow-up for readmission and mortality"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-f",
+   "cand_id": "C02-16",
+   "claim": "Participants had to be aged 75 or over, have a Barthel Index of 60 or more, be able to walk (with or without help) and be able to communicate and cooperate; people expected to stay under 6 days, with very severe dementia or terminal illness were excluded.",
+   "source_keys": [
+    "PMID:30419096"
+   ],
+   "supporting_passage": "\"inclusion criteria: age 75 years or older, Barthel Index score of 60 or more ..., being able to ambulate (with/without assistance), and being able to communicate and collaborate with the research team. Exclusion criteria included expected length of stay less than 6 days, very severe cognitive decline (ie, Global Deterioration Scale score, 7), terminal illness, uncontrolled arrhythmias, acute pulmonary embolism, recent myocardial infarction, recent major surgery, or extremity bone fracture in the past 3 months.\"",
+   "location": "Methods (full text)",
+   "pico_timeframe": "Eligibility",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The trial included people who could walk, with or without help, and who could take part; the most dependent patients and those expected to stay less than 6 days were not included.",
+   "qualifications": "Findings apply to relatively able very old medical patients, not to the most dependent.",
+   "conflicting_or_uncertain": "Authors note the most debilitated patients limit generalisability.",
+   "numbers": [
+    {
+     "value": "75",
+     "meaning": "minimum age"
+    },
+    {
+     "value": "60",
+     "meaning": "minimum Barthel Index at entry"
+    },
+    {
+     "value": "6 days",
+     "meaning": "minimum expected stay"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-g",
+   "cand_id": "C02-16",
+   "claim": "A three-hospital replication with 3 days of the same kind of exercise found a smaller SPPB benefit (0.93 points) and no clear Barthel benefit; the authors link the smaller effect to fewer training days and more illness.",
+   "source_keys": [
+    "PMID:35040873"
+   ],
+   "supporting_passage": "\"We performed a multicenter randomized clinical trial (RCT) within departments of geriatric medicine in 3 tertiary hospitals in Spain\" \"The intervention group received 2 daily 20-minute sessions of exercise over 3 consecutive days.\" \"200 patients were randomly assigned ... mean [SD] age, 86.5 [4.4] years\" \"At discharge, the exercise group had a mean increase of 0.93 points (95% CI, 0.39-1.48 points) on the SPPB scale over the usual care group (Table 2). There was a worsening over hospitalization in the Barthel Index over time of -11.0 points (95% CI, -14.6 to -7.44 points), with a trend for attenuated declines in the intervention group: -6.49 points; 95% CI, -10.20 to -2.73; P = .09.\" \"Factors that could have reduced the efficacy of the intervention include the reduction of the number of training days (from 5 days to 3), and a greater complexity and number of baseline diseases (11 vs 9) per person.\"",
+   "location": "Methods, Results, Discussion (full text of research letter)",
+   "pico_timeframe": "200 patients aged 75+ in 3 Spanish hospitals; 3 days of exercise vs usual care; discharge outcomes",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "When the same team repeated the programme in three hospitals with only three days of exercise, the benefit was smaller: under 1 point on the 12-point test, and no clear difference in everyday activities. The authors think the shorter programme and sicker patients explain this.",
+   "qualifications": "The authors' explanation (dose) is their interpretation, not tested.",
+   "conflicting_or_uncertain": "Supports a dose-response hypothesis but does not prove it.",
+   "numbers": [
+    {
+     "value": "200",
+     "meaning": "patients"
+    },
+    {
+     "value": "3",
+     "meaning": "hospitals"
+    },
+    {
+     "value": "3 days",
+     "meaning": "exercise days"
+    },
+    {
+     "value": "0.93 (95% CI 0.39 to 1.48)",
+     "meaning": "between-group SPPB difference"
+    },
+    {
+     "value": "P = .09",
+     "meaning": "Barthel between-group trend, not statistically clear"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-16-h",
+   "cand_id": "C02-16",
+   "claim": "Across 24 trials (Cochrane 2022), in-hospital exercise for older medical patients may make little difference to independence in daily activities at discharge, the effect on mobility is uncertain, and it probably does not increase falls.",
+   "source_keys": [
+    "PMID:36355032"
+   ],
+   "supporting_passage": "\"We included 24 studies ... with 7511 participants.\" \"Exercise may have no clinically important effect on independence in activities of daily living at discharge from hospital compared to controls (16 studies, 5174 participants; low-certainty evidence).\" \"independence in activities of daily living was 1.8 points better (0.43 worse to 4.12 better) with exercise compared to controls. The minimally clinical important difference (MCID) is estimated to be 11 points.\" \"We are uncertain regarding the effect of exercise on functional mobility at discharge\" \"Exercise interventions did not affect the risk of falls during hospitalisation (moderate-certainty evidence).\" \"Exercise may make little difference to independence in activities of daily living or QoL, but probably does not result in more falls in older medical inpatients.\"",
+   "location": "Abstract (Main results, Authors' conclusions)",
+   "pico_timeframe": "Adults 65+ admitted with a general medical condition; any in-hospital exercise vs usual care; outcomes at discharge; search to May 2021",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "When all 24 trials are pooled, in-hospital exercise did not show a clear, meaningful gain in everyday independence at discharge, and the effect on walking and moving is uncertain. It did not lead to more falls.",
+   "qualifications": "Low to very low certainty evidence for function; the review mixes very different programmes (walking promotion to progressive resistance), and subgroup analysis by type did not differ meaningfully.",
+   "conflicting_or_uncertain": "Conflicts with the size of benefit in the single-centre Navarra trial; the post must present both.",
+   "numbers": [
+    {
+     "value": "24",
+     "meaning": "trials"
+    },
+    {
+     "value": "7,511",
+     "meaning": "participants"
+    },
+    {
+     "value": "1.8 (-0.43 to 4.12)",
+     "meaning": "Barthel points better with exercise, pooled"
+    },
+    {
+     "value": "11",
+     "meaning": "Barthel minimal clinically important difference used by the review"
+    },
+    {
+     "value": "0.78 (-0.02 to 1.57)",
+     "meaning": "SPPB points better with exercise, very low certainty"
+    },
+    {
+     "value": "34 per 1000 vs 34 per 1000",
+     "meaning": "falls during hospitalisation, control vs exercise"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-06-a",
+   "cand_id": "C02-06",
+   "claim": "In a pooled analysis of 9 cohorts (34,485 community-dwelling adults aged 65+), faster usual gait speed was associated with longer survival: hazard ratio 0.88 per 0.1 m/s faster.",
+   "source_keys": [
+    "PMID:21205966"
+   ],
+   "supporting_passage": "\"Pooled analysis of 9 cohort studies (collected between 1986 and 2000), using individual data from 34 485 community-dwelling older adults aged 65 years or older with baseline gait speed data, followed up for 6 to 21 years.\" \"Gait speed was associated with survival in all studies (pooled hazard ratio per 0.1 m/s, 0.88; 95% CI, 0.87-0.90; P < .001).\"",
+   "location": "Abstract",
+   "pico_timeframe": "Community-dwelling adults 65+ (mean 73.5); baseline usual gait speed; all-cause death; 6-21 years follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Across 34,000 older people in nine studies, those who walked faster at their usual pace tended to live longer, at every speed measured.",
+   "qualifications": "Association, not cause. Do not convert the hazard ratio into 'X% less likely to die'.",
+   "conflicting_or_uncertain": "Further adjustment gave HR 0.90 (0.89-0.91).",
+   "numbers": [
+    {
+     "value": "9",
+     "meaning": "cohorts"
+    },
+    {
+     "value": "34,485",
+     "meaning": "participants"
+    },
+    {
+     "value": "0.88 (95% CI 0.87-0.90)",
+     "meaning": "hazard ratio for death per 0.1 m/s faster gait speed, age-adjusted, relative"
+    },
+    {
+     "value": "1986-2000",
+     "meaning": "years cohorts were collected"
+    },
+    {
+     "value": "6-21 years",
+     "meaning": "follow-up"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-06-b",
+   "cand_id": "C02-06",
+   "claim": "At age 75, predicted 10-year survival across the range of gait speeds ranged from 19% to 87% in men and from 35% to 91% in women.",
+   "source_keys": [
+    "PMID:21205966"
+   ],
+   "supporting_passage": "Abstract: \"At age 75, predicted 10-year survival across the range of gait speeds ranged from 19% to 87% in men and from 35% to 91% in women.\" Results text: \"the probability of 10-year survival at age 75 years ranged from 0.18 to 0.86 (eFigure 4A). In women ... 10-year survival at age 75 years ranged from 0.34 to 0.92\"",
+   "location": "Abstract; Results",
+   "pico_timeframe": "Model-predicted group survival across the full range of gait speeds (extremes about <0.4 to >1.4 m/s)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "At age 75, the predicted chance of being alive 10 years later ranged from about 1 in 5 for the slowest-walking men to nearly 9 in 10 for the fastest. For women the range was about 1 in 3 to 9 in 10.",
+   "qualifications": "Group predictions spanning the extremes of walking speed, not a forecast for one person. Abstract and results text differ by one point (19-87% vs 18-86% men; 35-91% vs 34-92% women); cite the abstract figures and label them 'predicted'.",
+   "conflicting_or_uncertain": "Cohorts collected 1986-2000; survival has changed since.",
+   "numbers": [
+    {
+     "value": "19% to 87%",
+     "meaning": "predicted 10-year survival at age 75, men, slowest to fastest gait speeds (abstract)"
+    },
+    {
+     "value": "35% to 91%",
+     "meaning": "same, women (abstract)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-06-c",
+   "cand_id": "C02-06",
+   "claim": "Prediction from age, sex and gait speed was about as accurate as models using chronic conditions, smoking, blood pressure, BMI and hospitalisation, with moderate discrimination (C statistics about 0.72-0.74).",
+   "source_keys": [
+    "PMID:21205966"
+   ],
+   "supporting_passage": "Abstract: \"Predicted survival based on age, sex, and gait speed was as accurate as predicted based on age, sex, use of mobility aids, and self-reported function or as age, sex, chronic conditions, smoking history, blood pressure, body mass index, and hospitalization.\" Comment: \"the reported values are in the range found in the present study (published area under the curve range, 0.66-0.82 vs this study, 0.717 and 0.737).\"",
+   "location": "Abstract; Comment",
+   "pico_timeframe": "5- and 10-year survival prediction",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A simple walking test predicted survival across groups about as well as a long list of medical facts. But no model like this can tell one person how long they will live.",
+   "qualifications": "The second sentence is judgement, supported by moderate discrimination (C statistics about 0.72-0.74). Note that the authors themselves suggest gait speed 'may offer the clinician tools for assessing expected survival'; present the caution as the post's view.",
+   "conflicting_or_uncertain": "Authors' limitations: observational, healthy volunteer bias, only 1 of 9 studies from clinical practice, advanced dementia rare, participants unaware of what their speed meant.",
+   "numbers": [
+    {
+     "value": "0.717 and 0.737",
+     "meaning": "C statistics (area under ROC curve) for 5- and 10-year survival prediction"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-06-d",
+   "cand_id": "C02-06",
+   "claim": "The cohorts were collected between 1986 and 2000 and were about 80% white; only one of nine was based in clinical practice.",
+   "source_keys": [
+    "PMID:21205966"
+   ],
+   "supporting_passage": "\"Participants were a mean (SD) age of 73.5 (5.9) years; 59.6%, women; and 79.8%, white\" \"This study has the limitations of observational research; it cannot establish causal relationships and is vulnerable to various forms of healthy volunteer bias.\" \"Only 1 of the 9 studies was based in clinical practice, and advanced dementia is rare in populations who are competent to consent for research.\"",
+   "location": "Abstract; Comment (limitations)",
+   "pico_timeframe": "Study population",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The data came from research volunteers in the 1980s and 1990s, mostly white and mostly not recruited from clinics.",
+   "qualifications": "None.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "79.8%",
+     "meaning": "white participants"
+    },
+    {
+     "value": "1 of 9",
+     "meaning": "cohorts based in clinical practice"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-06-e",
+   "cand_id": "C02-06",
+   "claim": "A usual gait speed of 0.8 m/s or less indicates severe sarcopenia in EWGSOP2, and 0.8 m/s was about the speed matching median life expectancy in Studenski's data.",
+   "source_keys": [
+    "PMID:30312372",
+    "PMID:21205966"
+   ],
+   "supporting_passage": "EWGSOP2: \"For simplicity, a single cut-off speed ≤0.8 m/s is advised by EWGSOP2 as an indicator of severe sarcopenia.\" Studenski: \"Predicted years of remaining life for each sex and age increased as gait speed increased, with a gait speed of about 0.8 m/s at the median life expectancy at most ages for both sexes\" \"Gait speeds of 1.0 m/s or higher consistently demonstrated survival that was longer than expected by age and sex alone.\"",
+   "location": "EWGSOP2 'Physical performance'; Studenski Results",
+   "pico_timeframe": "4-m usual pace test",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "A usual walking speed of 0.8 metres per second or slower is a common warning threshold; it is roughly the speed at which predicted survival matched the average for age and sex.",
+   "qualifications": "Thresholds are conventions; Studenski found the gait-survival relationship continuous.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "0.8 m/s",
+     "meaning": "EWGSOP2 severity threshold; approx. median life expectancy point"
+    },
+    {
+     "value": "1.0 m/s",
+     "meaning": "speed above which survival was longer than expected for age and sex"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-06-f",
+   "cand_id": "C02-06",
+   "claim": "Common causes of slow gait include joint pain, parkinsonism, neuropathy, heart and lung disease, low mood and medicines.",
+   "source_keys": [
+    "PMID:21205966",
+    "PMID:17166803",
+    "PMID:30312372"
+   ],
+   "supporting_passage": "Studenski: \"Walking requires energy, movement control, and support and places demands on multiple organ systems, including the heart, lungs, circulatory, nervous, and musculoskeletal systems. Slowing gait may reflect both damaged systems and a high-energy cost of walking.\" and \"A recommended evaluation and management of slow walking includes cardiopulmonary, neurological and musculoskeletal systems.\" Snijders: \"gait disorders are not an unpreventable consequence of ageing, but implicate the presence of underlying diseases that warrant specific diagnostic tests.\" EWGSOP2: \"Consider other reasons for low muscle strength (e.g. depression, sroke, balance disorders, peripheral vascular disorders).\"",
+   "location": "Studenski Comment; Snijders Abstract; EWGSOP2 Figure 1 legend",
+   "pico_timeframe": "Clinical reasoning statements",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "Walking depends on the heart, lungs, circulation, nerves, muscles and joints, so slow walking can come from a problem in any of them. A slow walk is a reason to look for a cause, not a diagnosis of 'old age'.",
+   "qualifications": "The specific list (joint pain, parkinsonism, neuropathy, low mood, medicines) was not verified in an opened source; use the organ-system wording above. Depression is listed by EWGSOP2 as a cause of low muscle strength, not specifically of slow gait.",
+   "conflicting_or_uncertain": "Gait disorders are often multifactorial (Snijders).",
+   "numbers": []
+  },
+  {
+   "claim_id": "C02-06-g",
+   "cand_id": "C02-06",
+   "claim": "Gait speed is most useful when repeated: a small meaningful change is about 0.05 m/s and a substantial change about 0.10 m/s; a decline suggests a new problem to evaluate, and improvement over a year was linked with better survival.",
+   "source_keys": [
+    "PMID:16696738",
+    "PMID:21205966",
+    "PMID:17916121"
+   ],
+   "supporting_passage": "Perera 2006: \"Best initial estimates of small meaningful change are near 0.05 m/s for gait speed ... and of substantial change are near 0.10 m/s for gait speed\" \"For clinical use, substantial change in these measures and small change in gait speed and 6MWD, but not SPPB, are detectable.\" Studenski: \"Fourth, gait speed might be monitored overtime, with a decline indicating a new health problem that requires evaluation.\" Hardy 2007: \"Mortality after 8 years was 31.6%, 41.2%, and 49.3% for those with improved, transiently improved, and never improved gait speed, respectively. The survival benefit for improvement at 1 year persisted after adjustment for covariates (hazard ratio=0.42, 95% confidence interval=0.29-0.61, P<.001)\" \"Further research is needed to determine whether interventions to improve gait speed affect survival.\"",
+   "location": "Perera Abstract; Studenski Comment; Hardy Abstract",
+   "pico_timeframe": "Perera: older adults in trials and a cohort; Hardy: 439 primary care patients 65+, change over 1 year, 8-year mortality",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Measure usual walking speed the same way each time and repeat it. A drop of about 0.1 metres per second is a substantial change and a reason to look for a new problem. In one study, people whose walking speed improved over a year were less likely to die over the next 8 years, though that does not prove that speeding up caused it.",
+   "qualifications": "Hardy is observational; say 'linked with', not 'improving speed extends life'. Change thresholds are estimates.",
+   "conflicting_or_uncertain": "Measurement error: staff in clinical settings may produce more variable results (Studenski).",
+   "numbers": [
+    {
+     "value": "0.05 m/s",
+     "meaning": "small meaningful change"
+    },
+    {
+     "value": "0.10 m/s",
+     "meaning": "substantial change"
+    },
+    {
+     "value": "31.6% vs 49.3%",
+     "meaning": "8-year mortality, improved vs never-improved gait speed (Hardy)"
+    },
+    {
+     "value": "HR 0.42 (0.29-0.61)",
+     "meaning": "adjusted hazard ratio for death with 1-year improvement, relative"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-05-a",
+   "cand_id": "C02-05",
+   "claim": "UK pedestrian crossing timings assume a walking speed of 1.2 m/s.",
+   "source_keys": [
+    "PMID:22695790",
+    "PMID:28702358",
+    "URL:https://assets.publishing.service.gov.uk/media/5df0e29fed915d15f42c4820/dft-traffic-signs-manual-chapter-6.pdf"
+   ],
+   "supporting_passage": "Asher 2012 abstract: \"to compare walking speed in the UK older population with the speed required to utilise pedestrian crossings (≥1.2 m/s)\" and \"An assumed normal walking speed for pedestrian crossings of 1.2 m/s is inappropriate for older adults and revision of these timings should be considered.\" Asher 2012 introduction (Scite excerpt): \"UK pedestrian crossing timings assume a minimum walking speed of 1.2m/s (2.7miles/hr).\" Webb 2017 introduction: \"Pedestrian crossings in the UK and US require people to walk at 1.2 m/s to cross in time ( Pedestrian Facilities at Signal-Controlled Junctions, 2005 ; Fitzpatrick et al., 2006 )\"",
+   "location": "Asher Abstract and Introduction; Webb Introduction",
+   "pico_timeframe": "UK signal-controlled crossings; guidance cited is DfT 2005",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "UK researchers reported in 2012 and 2017 that pedestrian crossing times in the UK are based on an assumed walking speed of 1.2 metres per second (about 2.7 miles per hour).",
+   "qualifications": "Attribute it to the researchers and their cited guidance (DfT 2005). Current DfT guidance (Traffic Signs Manual Chapter 6, 2019) could not be opened, so do not say 'crossings are timed for 1.2 m/s today' as a bare fact. This figure is background in both papers' introductions.",
+   "conflicting_or_uncertain": "Whether the 2019 guidance changed the assumption is unknown (C02-05-f). Some crossings can extend time (C02-05-g).",
+   "numbers": [
+    {
+     "value": "1.2 m/s",
+     "meaning": "assumed walking speed for UK crossing timings, as reported by researchers"
+    },
+    {
+     "value": "2.7 mph",
+     "meaning": "same speed in miles per hour"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-05-b",
+   "cand_id": "C02-05",
+   "claim": "In Health Survey for England 2005 data on 3,145 adults aged 65+, mean usual walking speed was 0.9 m/s in men and 0.8 m/s in women; 84% of men and 93% of women either walked slower than 1.2 m/s or could not do the test.",
+   "source_keys": [
+    "PMID:22695790"
+   ],
+   "supporting_passage": "\"random population sample of 3,145 adults (1,444 men) aged ≥65 years.\" \"walking speed was assessed by timing a walk of 8 feet at normal pace. Walking impairment was defined as walking speed <1.2 m/s or non-participation in the test due to being unsafe or unable.\" \"the mean walking speed was 0.9 m/s in men and 0.8 m/s in women; 84% of men and 93% of women ≥65 years had walking impairment.\" Full-text excerpt: \"76% men and 85% women had a walking speed <1.2m/s; 93% of woman and 84% of men had walking impairment\" and \"90% of men and 87% of women took the walking speed test; 5.7% of men and 7.2% of women were unable to walk short distances or felt unsafe\"",
+   "location": "Abstract; Results (Scite full-text excerpt)",
+   "pico_timeframe": "Adults 65+ in private households in England (not care homes); 2005; 8-foot walk at normal pace; cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a 2005 national survey in England, older people's average walking speed was 0.9 metres per second for men and 0.8 for women. More than 8 in 10 women (85%) and about 3 in 4 men (76%) walked slower than 1.2 metres per second; counting those who could not safely do the walk, it was over 9 in 10 women (93%) and more than 8 in 10 men (84%).",
+   "qualifications": "Survey from 2005, private households only. Speed was timed over a short 8-foot (2.4 m) walk at normal pace, which may not match speed on a real crossing. Put the test method and year on the chart. The 84%/93% figures include people who could not do the test; the 76%/85% figures are walking speed alone.",
+   "conflicting_or_uncertain": "Webb 2017 (ELSA 2002-2014) found an even lower share fast enough (10% of measurements). Asher notes non-response may have underestimated impairment; Webb notes participants carried nothing, whereas shopping would slow people further.",
+   "numbers": [
+    {
+     "value": "3,145",
+     "meaning": "adults aged 65+ (1,444 men)"
+    },
+    {
+     "value": "0.9 m/s",
+     "meaning": "mean usual walking speed, men"
+    },
+    {
+     "value": "0.8 m/s",
+     "meaning": "mean usual walking speed, women"
+    },
+    {
+     "value": "84% and 93%",
+     "meaning": "men and women with 'walking impairment' (speed <1.2 m/s or unable/unsafe to do the test)"
+    },
+    {
+     "value": "76% and 85%",
+     "meaning": "men and women with walking speed <1.2 m/s"
+    },
+    {
+     "value": "8 feet (2.44 m)",
+     "meaning": "test distance"
+    },
+    {
+     "value": "2005",
+     "meaning": "survey year"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-05-c",
+   "cand_id": "C02-05",
+   "claim": "Female sex, older age, lower socioeconomic status, poorer health and lower grip strength were associated with walking impairment.",
+   "source_keys": [
+    "PMID:22695790",
+    "PMID:28702358"
+   ],
+   "supporting_passage": "Asher: \"Female gender, increasing age, lower socio-economic status, poorer health and lower grip strength were predictors of walking impairment.\" Webb: \"Female, less wealthy and less healthy older people had slower walking speeds. For instance, predicted probability of crossing the road in time at age 60 was 14.8% (10.1, 18.5) and 2.7% (1.5, 3.8) for the richest and poorest men\"",
+   "location": "Asher Abstract; Webb Abstract",
+   "pico_timeframe": "Cross-sectional (Asher) and longitudinal (Webb) associations",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Women, the oldest, the poorest and people in worse health were the most likely to walk too slowly to cross in time.",
+   "qualifications": "Associations; do not say poverty 'causes' slow walking.",
+   "conflicting_or_uncertain": "Residual confounding by health (Asher discussion).",
+   "numbers": [
+    {
+     "value": "14.8% vs 2.7%",
+     "meaning": "predicted probability of crossing in time at age 60, richest vs poorest men (Webb)"
+    },
+    {
+     "value": "3.7% vs 0.5%",
+     "meaning": "same at age 80, richest vs poorest women (Webb)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-05-d",
+   "cand_id": "C02-05",
+   "claim": "The study authors recommended that crossing timings be reconsidered.",
+   "source_keys": [
+    "PMID:22695790",
+    "PMID:28702358"
+   ],
+   "supporting_passage": "Asher: \"An assumed normal walking speed for pedestrian crossings of 1.2 m/s is inappropriate for older adults and revision of these timings should be considered.\" Webb: \"Crossing times should be increased to allow for older peoples' slower walking speeds or other policies considered to improve walkability, and to help avoid injuries and social isolation.\"",
+   "location": "Asher Abstract (Conclusions); Webb Abstract (Conclusions)",
+   "pico_timeframe": "Authors' recommendations",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The researchers concluded that crossing times should be reconsidered to allow for older people's slower walking.",
+   "qualifications": "Report as the researchers' recommendation, not as Alasdair's policy position (values_concern).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C02-05-e",
+   "cand_id": "C02-05",
+   "claim": "In the English Longitudinal Study of Ageing (2002-2014), only 10% of measured walking speeds among people aged 60+ were fast enough to cross in the allotted time.",
+   "source_keys": [
+    "PMID:28702358"
+   ],
+   "supporting_passage": "\"31,015 walking speed measurements were taken from 10,249 men and women aged 60+ years in waves 1-7 of the English Longitudinal Study of Ageing (2002-2014).\" \"10% of measured walking speeds were fast enough to cross the road in time.\" Methods: \"Participants walked eight feet (2.44 m) and back at their usual walking pace, using walking aids if required.\" Limitations: \"our analyses only included the 74% of potential walking speeds which were measured\"",
+   "location": "Abstract; Methods and Discussion (Scite full-text excerpts)",
+   "pico_timeframe": "Adults 60+ in England, 2002-2014; 8-foot walk at usual pace",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A second, larger English study (2002 to 2014) found only 1 in 10 walking-speed measurements in people over 60 was fast enough.",
+   "qualifications": "Unit is measurements, not people. Same short-walk method.",
+   "conflicting_or_uncertain": "Excluded participants were likely slower, so the true share may be lower still.",
+   "numbers": [
+    {
+     "value": "10%",
+     "meaning": "of walking-speed measurements fast enough (>=1.2 m/s)"
+    },
+    {
+     "value": "31,015",
+     "meaning": "measurements"
+    },
+    {
+     "value": "10,249",
+     "meaning": "people aged 60+"
+    }
+   ]
+  },
+  {
+   "claim_id": "C02-05-f",
+   "cand_id": "C02-05",
+   "claim": "UK crossing guidance has or has not changed since 2012.",
+   "source_keys": [
+    "URL:https://assets.publishing.service.gov.uk/media/5df0e29fed915d15f42c4820/dft-traffic-signs-manual-chapter-6.pdf"
+   ],
+   "supporting_passage": "Not verified: the DfT Traffic Signs Manual Chapter 6 (2019) was located by web search but could not be opened; no passage was read.",
+   "location": "Not opened",
+   "pico_timeframe": "Current UK guidance",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Do not state whether current guidance still uses 1.2 m/s. If needed: 'Researchers in 2012 and 2017 reported...'.",
+   "qualifications": "Recheck against the DfT document before publication if the editor wants a present-tense claim.",
+   "conflicting_or_uncertain": "Unknown.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C02-05-g",
+   "cand_id": "C02-05",
+   "claim": "Some UK crossings (Puffin crossings) can extend the crossing time for people who take longer to cross.",
+   "source_keys": [
+    "DOI:10.7307/ptt.v29i5.2225"
+   ],
+   "supporting_passage": "\"In the UK, the Puffin crossing has provision to extend pedestrian green time for those who take longer to cross.\"",
+   "location": "Abstract (first sentence; rest of abstract not available)",
+   "pico_timeframe": "UK Puffin crossings",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Some newer UK crossings, called Puffin crossings, can hold the traffic for longer when someone is still crossing.",
+   "qualifications": "Only the first sentence of a traffic-engineering abstract was read. How many crossings have this, and whether the extra time is enough, are unknown. Keep to 'some crossings'.",
+   "conflicting_or_uncertain": "The same abstract begins 'However, even...' and is truncated, suggesting limitations that could not be read.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C02-18",
+   "status": "ready",
+   "reason": "All essential claims supported. Strength-first definition and the gait-speed threshold are verified in EWGSOP2 full text; grip cut-offs in its Figure 2 caption; chair-stand cut-off and the 'enough to trigger assessment and start intervention' statement through peer-reviewed secondary sources quoting EWGSOP2 (Table 3 and the algorithm figure were not machine-readable). ICFSR treatment recommendations and GLIS status verified. 'No licensed drugs' is supported as of a 2022 expert review, not a BNF/MHRA check. A practical exercise dose (twice weekly, 1-3 sets of 6-12 reps, high effort) is available for the judge's sharpen request.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C02-18-a",
+    "C02-18-b",
+    "C02-18-c",
+    "C02-18-d"
+   ]
+  },
+  {
+   "cand_id": "C02-19",
+   "status": "revise",
+   "reason": "The trial facts and numbers (Fiatarone 1994) and the more modest Cochrane picture are verified from abstracts. The UK access-to-physiotherapy claim has no source (not_found). Equipment and supervision details could not be verified because the NEJM full text was not accessible, so the proposed drawing of machines should not be presented as what the trial used.",
+   "revised_angle": "Very old muscles still respond to strength training: in a 1994 care home trial (average age 87, oldest 98), 10 weeks of high-intensity progressive strength training more than doubled strength (up 113% against 3%) and raised walking speed about 12%, while a supplement drink alone did nothing. Put the more modest picture in the caption: a Cochrane review of 67 care home trials found small gains in everyday activities and strength without extra deaths, and a 2022 meta-analysis found better chair-stand and walking test results with strength training. Replace the unsourced UK access claim with judgement ('Residents in care homes should be offered strength exercise suited to them') and, if wanted, the supported general point that expert agreement on strength exercise has not yet turned into consistent provision (Sayer 2022). Aim at low expectations, not at care home staff.",
+   "essential_claim_ids": [
+    "C02-19-a",
+    "C02-19-b",
+    "C02-19-d"
+   ]
+  },
+  {
+   "cand_id": "C02-16",
+   "status": "revise",
+   "reason": "All trial facts are verified in full text (370 patients, mean age 87.3; two 20-minute sessions a day for a median of 5 days; Barthel -5.0 vs +1.9 within groups; between-group 6.9 Barthel and 2.2 SPPB; no adverse effects; one physiotherapist plus exercise specialist 7 days a week). But the position that acute units should provide it goes beyond the wider evidence: a three-hospital replication with 3 exercise days found a smaller SPPB benefit and no clear Barthel benefit, and the 2022 Cochrane review (24 trials) found exercise may make little difference to daily-living independence at discharge (low certainty) while probably not increasing falls.",
+   "revised_angle": "What a well-run in-hospital exercise programme looked like, and what it did. In a Spanish trial of medical patients averaging 87, two 20-minute sessions a day (supervised strength, balance and walking in the morning; light exercises and a corridor walk in the evening) meant patients went home slightly more able (Barthel +1.9) instead of less able (usual care -5.0). Then the honest part: when repeated over only 3 days in three hospitals, the benefit shrank, and pooled trials show no clear average gain in independence, although exercise did not cause more falls. The authors think dose matters (their interpretation). Position: bed rest is not safer, and structured exercise is safe for relatively able very old inpatients; how much it helps depends on dose and delivery. Show diverging bars with the source, and state eligibility (able to walk and cooperate).",
+   "essential_claim_ids": [
+    "C02-16-a",
+    "C02-16-b",
+    "C02-16-d",
+    "C02-16-e",
+    "C02-16-g",
+    "C02-16-h"
+   ]
+  },
+  {
+   "cand_id": "C02-06",
+   "status": "revise",
+   "reason": "The population findings (HR 0.88 per 0.1 m/s; 10-year survival ranges at age 75; accuracy similar to complex models; cohort dates and ethnicity) are verified in full text, as are the 0.8 m/s threshold and serial-measurement evidence (meaningful change about 0.05 to 0.10 m/s; decline signals a new problem). The specific list of causes of slow gait (joint pain, parkinsonism, neuropathy, low mood, medicines) is not verified. The authors themselves propose gait speed for individual survival estimates, so the caution against using it as a personal prognosis must be framed as judgement.",
+   "revised_angle": "Keep the angle, but replace the causes list with the supported organ-system wording (walking depends on heart, lungs, circulation, nerves, muscles and joints; evaluate cardiopulmonary, neurological and musculoskeletal systems). Use Studenski's own suggestion that a decline over time signals a new problem, with Perera's change thresholds (about 0.1 m/s is substantial). Present 'do not read it as one person's life expectancy' as judgement, backed by moderate discrimination (C statistic about 0.72 to 0.74) and cohorts from 1986-2000 that were about 80% white. Label the survival figures as predicted group ranges spanning the slowest to fastest walkers.",
+   "essential_claim_ids": [
+    "C02-06-a",
+    "C02-06-b",
+    "C02-06-c",
+    "C02-06-g"
+   ]
+  },
+  {
+   "cand_id": "C02-05",
+   "status": "revise",
+   "reason": "The survey findings are verified (3,145 adults 65+; mean 0.9 and 0.8 m/s; 84% and 93% with walking impairment, 76% and 85% below 1.2 m/s), as are the associations and the authors' recommendation; a second English dataset (ELSA, 2002-2014) found only 10% of measurements fast enough. The 1.2 m/s crossing assumption is supported only as researchers' statements citing 2005 DfT guidance; current DfT guidance could not be opened. The Puffin-crossing caveat rests on one sentence of a traffic-engineering abstract.",
+   "revised_angle": "Attribute the 1.2 m/s figure: 'UK researchers reported that crossing times are based on an assumed walking speed of 1.2 metres per second.' Headline number: more than 8 in 10 women over 65 (85%) walked slower than that in a 2005 survey in England, and over 9 in 10 (93%) counting those who could not do the walk. Put '2005 survey, 8-foot walk at normal pace' on the chart; add the ELSA finding (only 1 in 10 measurements fast enough, 2002-2014); add one line that some newer crossings (Puffin) can hold traffic longer for slower walkers. Report the researchers' recommendation to reconsider timings as theirs; propose no policy. Do not state whether current guidance has changed.",
+   "essential_claim_ids": [
+    "C02-05-a",
+    "C02-05-b",
+    "C02-05-d"
+   ]
+  }
+ ]
+}

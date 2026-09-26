@@ -1,0 +1,996 @@
+{
+ "batch": "C08-B1",
+ "category": "C08",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ng97",
+   "citation": "National Institute for Health and Care Excellence. Dementia: assessment, management and support for people living with dementia and their carers. NICE guideline NG97. London: NICE; 2018.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ng97",
+   "design": "National clinical guideline",
+   "population_setting": "People living with dementia and their carers, England (health and social care)",
+   "year": 2018,
+   "access": "official_document",
+   "tool_used": "Scite search_literature full-text excerpts of the NICE NG97 PDF (nice.org.uk/guidance/ng97/resources/...-pdf-1837760199109), which Scite indexes under a mismatched record (DOI 10.1017/9781108594714.016, 'To Scan or Not to Scan'); recommendation 'Do not stop AChE inhibitors...' also confirmed by WebSearch extract from nice.org.uk/guidance/ng97/chapter/recommendations. The live NICE page could not be opened (WebFetch blocked); no copy found in Alasdair's Drive.",
+   "correction_check": "Not applicable (guideline). The indexed PDF text carries the 2018 recommendations; any later NICE update to the wording could not be checked because the live page could not be opened.",
+   "quality_note": "Primary UK guideline. Verbatim text read as full-text excerpts of the official PDF via Scite, not on the live page; the post should quote only the sentences recorded here. Recommendation numbers seen in the excerpts: 1.5.10 to 1.5.15 (AChE inhibitors by dementia type) and 1.7.4 (Lewy body caution); the numbers for the 'do not stop' and 'only offer antipsychotics' recommendations were not visible, so do not cite numbers for those."
+  },
+  {
+   "key": "PMID:22397651",
+   "citation": "Howard R, McShane R, Lindesay J, Ritchie C, Baldwin A, Barber R, et al. Donepezil and memantine for moderate-to-severe Alzheimer's disease. N Engl J Med. 2012;366(10):893-903.",
+   "pmid": "22397651",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa1106668",
+   "public_url": "https://doi.org/10.1056/NEJMoa1106668",
+   "design": "Multicentre double-blind randomised placebo-controlled 2x2 factorial trial (DOMINO-AD), 52 weeks",
+   "population_setting": "295 community-dwelling people with moderate or severe Alzheimer's disease (SMMSE 5 to 13) already taking donepezil for at least 3 months; 15 secondary care memory centres in England and Scotland",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "High-quality independent trial. The functional difference (3.0 BADLS points) was statistically significant but below the trial's own minimum clinically important difference (3.5 points); the cognitive difference (1.9 SMMSE points) exceeded its threshold (1.4)."
+  },
+  {
+   "key": "PMID:26515660",
+   "citation": "Howard R, McShane R, Lindesay J, Ritchie C, Baldwin A, Barber R, et al. Nursing home placement in the Donepezil and Memantine in Moderate to Severe Alzheimer's Disease (DOMINO-AD) trial: secondary and post-hoc analyses. Lancet Neurol. 2015;14(12):1171-81.",
+   "pmid": "26515660",
+   "pmcid": null,
+   "doi": "10.1016/S1474-4422(15)00258-6",
+   "public_url": "https://doi.org/10.1016/S1474-4422(15)00258-6",
+   "design": "Secondary and post hoc analyses of the DOMINO-AD randomised trial, with 4-year follow-up of residence",
+   "population_setting": "Same 295 community-living participants as DOMINO-AD; place of residence recorded during 52 weeks and then every 26 weeks for 3 more years",
+   "year": 2015,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (published abstract); Scite search_literature full-text excerpts of the author accepted manuscript (LSE Research Online) for Kaplan-Meier probabilities and Table 3",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article. Scite record retrieved in this session showed no editorial notices.",
+   "quality_note": "Nursing home placement was a secondary endpoint; the first-year analysis (piecewise model) was post hoc and not pre-specified. The authors note withdrawal from study drug was more common in the discontinuation groups, and that the later hazard ratio is subject to selection bias. Absolute first-year figures come from the accepted manuscript ('There may be differences between this version and the published version'); the hazard ratios match the published abstract. In this trial 'nursing home placement' was an irreversible move from independent accommodation to a residential caring facility (the CSRI coding also counted a few ward settings)."
+  },
+  {
+   "key": "PMID:35608903",
+   "citation": "Parsons C, Lim WY, Loy C, McGuinness B, Passmore P, Ward SA, et al. Withdrawal or continuation of cholinesterase inhibitors or memantine or both, in people with dementia. Cochrane Database Syst Rev. 2021;2(2):CD009081.",
+   "pmid": "35608903",
+   "pmcid": "PMC8094886",
+   "doi": "10.1002/14651858.CD009081.pub2",
+   "public_url": "https://doi.org/10.1002/14651858.CD009081.pub2",
+   "design": "Cochrane systematic review and meta-analysis of randomised withdrawal trials (7 trials, 759 participants)",
+   "population_setting": "People with Alzheimer's disease dementia of mild to very severe stage taking cholinesterase inhibitors without known adverse effects",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Best summary of the uncertainty. Evidence mostly low or very low certainty; the 12-month estimates come from one trial (DOMINO-AD); could not determine whether effects differ by severity; participants were people without known adverse effects, so it does not address stopping because of side effects."
+  },
+  {
+   "key": "PMID:29923184",
+   "citation": "Birks JS, Harvey RJ. Donepezil for dementia due to Alzheimer's disease. Cochrane Database Syst Rev. 2018;6(6):CD001190.",
+   "pmid": "29923184",
+   "pmcid": "PMC6513124",
+   "doi": "10.1002/14651858.CD001190.pub3",
+   "public_url": "https://doi.org/10.1002/14651858.CD001190.pub3",
+   "design": "Cochrane systematic review and meta-analysis of 30 double-blind RCTs (8257 participants)",
+   "population_setting": "People with mild, moderate or severe Alzheimer's disease; most trials 6 months or less",
+   "year": 2018,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Scite search_literature full-text excerpts (plain language summary and adverse events results)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article. Scite record retrieved in this session showed no editorial notices.",
+   "quality_note": "Moderate-quality evidence of small benefits; adverse events 72% vs 65% (OR 1.59) and withdrawals 24% vs 20% with donepezil vs placebo. Nausea, vomiting and diarrhoea were the commonest side effects."
+  },
+  {
+   "key": "PMID:19433698",
+   "citation": "Gill SS, Anderson GM, Fischer HD, Bell CM, Li P, Normand SL, et al. Syncope and its consequences in patients with dementia receiving cholinesterase inhibitors: a population-based cohort study. Arch Intern Med. 2009;169(9):867-73.",
+   "pmid": "19433698",
+   "pmcid": null,
+   "doi": "10.1001/archinternmed.2009.43",
+   "public_url": "https://doi.org/10.1001/archinternmed.2009.43",
+   "design": "Population-based retrospective cohort study using health administrative databases",
+   "population_setting": "19,803 community-dwelling older adults with dementia prescribed cholinesterase inhibitors and 61,499 who were not; Ontario, Canada; accrual April 2002 to March 2004",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (full text not accessible: closed access)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article. Scite record retrieved in this session showed no editorial notices.",
+   "quality_note": "Large observational study with adjusted and propensity-matched analyses, but confounding by indication cannot be excluded. The exact age range could not be confirmed from the abstract (full text closed); describe only as 'older adults'. Rates are per 1000 person-years."
+  },
+  {
+   "key": "PMID:19787032",
+   "citation": "Park-Wyllie LY, Mamdani MM, Li P, Gill SS, Laupacis A, Juurlink DN. Cholinesterase inhibitors and hospitalization for bradycardia: a population-based study. PLoS Med. 2009;6(9):e1000157.",
+   "pmid": "19787032",
+   "pmcid": "PMC2742897",
+   "doi": "10.1371/journal.pmed.1000157",
+   "public_url": "https://doi.org/10.1371/journal.pmed.1000157",
+   "design": "Population-based case-time-control study (each person serves as own control)",
+   "population_setting": "Ontario residents aged 67 or older who had used a cholinesterase inhibitor in the 9 months before hospitalisation for bradycardia, 2003 to 2008; 1,009 cases, 161 informing the discordant-pair analysis",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Self-controlled design reduces confounding by fixed patient characteristics; a negative-control exposure (proton pump inhibitors) showed no association. Still observational; small number of informative cases."
+  },
+  {
+   "key": "PMID:21649634",
+   "citation": "Kim DH, Brown RT, Ding EL, Kiel DP, Berry SD. Dementia medications and risk of falls, syncope, and related adverse events: meta-analysis of randomized controlled trials. J Am Geriatr Soc. 2011;59(6):1019-31.",
+   "pmid": "21649634",
+   "pmcid": "PMC3260523",
+   "doi": "10.1111/j.1532-5415.2011.03450.x",
+   "public_url": "https://doi.org/10.1111/j.1532-5415.2011.03450.x",
+   "design": "Meta-analysis of 54 placebo-controlled randomised trials and extension studies",
+   "population_setting": "Cognitively impaired older adults in community and nursing home settings taking cholinesterase inhibitors or memantine",
+   "year": 2011,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (record shows it cited by later work)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Randomised evidence, so less open to confounding than cohorts, but the authors note under-reporting and small numbers of events; trial participants are healthier than typical users."
+  },
+  {
+   "key": "PMID:25927641",
+   "citation": "Huang A, Redpath CJ, van Walraven C. The influence of cholinesterase inhibitor therapy for dementia on risk of cardiac pacemaker insertion: a retrospective, population-based, health administrative databases study in Ontario, Canada. BMC Neurol. 2015;15(1).",
+   "pmid": "25927641",
+   "pmcid": "PMC4419497",
+   "doi": "10.1186/s12883-015-0325-1",
+   "public_url": "https://doi.org/10.1186/s12883-015-0325-1",
+   "design": "Retrospective population-based cohort and case-control study using administrative data",
+   "population_setting": "2,353,909 community-dwelling people aged over 65 in Ontario with a dementia code or exposure to study drugs, 1993 to 2012",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "Scite search_literature (abstract and citation statements); PMID and PMCID confirmed with PubMed convert_article_ids",
+   "correction_check": "PubMed: no retraction or expression of concern found by title search (26 Sep 2026); Scite record showed no editorial notices.",
+   "quality_note": "Conflicting observational result (lower pacemaker insertion with cholinesterase inhibitors), most plausibly because people with dementia are less often offered pacemakers; used only as a note of uncertainty about the pacemaker figure."
+  },
+  {
+   "key": "DOI:10.1111/jgs.16710",
+   "citation": "Watt JA, Campitelli MA, Maxwell CJ, et al. Fall-related hospitalizations in nursing home residents co-prescribed a cholinesterase inhibitor and beta-blocker. J Am Geriatr Soc. 2020;68(11):2516-24.",
+   "pmid": "33460072",
+   "pmcid": null,
+   "doi": "10.1111/jgs.16710",
+   "public_url": "https://doi.org/10.1111/jgs.16710",
+   "design": "Nested case-control study using population-based administrative databases",
+   "population_setting": "19,060 nursing home residents with dementia aged 66 and older receiving a beta-blocker, Ontario, 2013 to 2018",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "Scite search_literature (abstract); PMID found by PubMed title search",
+   "correction_check": "PubMed title search found no retraction or erratum notice (26 Sep 2026); Scite record showed no editorial notices.",
+   "quality_note": "Conflicting observational finding for falls: no association between cholinesterase inhibitor use and fall-related hospitalisation in this care home population. Did not assess falls not leading to hospital."
+  },
+  {
+   "key": "PMID:34688369",
+   "citation": "Banerjee S, High J, Stirling S, Shepstone L, Swart AM, Telling T, et al. Study of mirtazapine for agitated behaviours in dementia (SYMBAD): a randomised, double-blind, placebo-controlled trial. Lancet. 2021;398(10310):1487-97.",
+   "pmid": "34688369",
+   "pmcid": "PMC8546216",
+   "doi": "10.1016/S0140-6736(21)01210-1",
+   "public_url": "https://doi.org/10.1016/S0140-6736(21)01210-1",
+   "design": "Multicentre parallel-group double-blind placebo-controlled randomised trial; 12-week primary outcome, deaths to 16 weeks",
+   "population_setting": "204 people with probable or possible Alzheimer's disease and agitation (CMAI 45 or more) not responding to non-drug management; 26 UK NHS centres; most recruited from old-age psychiatry services and care homes; randomisation stratified by care home vs own household; people already taking antidepressants or antipsychotics excluded",
+   "year": 2021,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC8546216)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Well-conducted, independently funded trial; recruited 204 of a planned 222; primary analysis on 166 with 12-week data. Mortality comparison post hoc, not powered, marginal p value; the same group's earlier trial (HTA-SADD) found no excess deaths with mirtazapine."
+  },
+  {
+   "key": "PMID:29550856",
+   "citation": "Maust DT, Kim HM, Chiang C, Kales HC. Association of the Centers for Medicare & Medicaid Services' National Partnership to Improve Dementia Care with the use of antipsychotics and other psychotropics in long-term care in the United States from 2009 to 2014. JAMA Intern Med. 2018;178(5):640-7.",
+   "pmid": "29550856",
+   "pmcid": "PMC5885206",
+   "doi": "10.1001/jamainternmed.2018.0379",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2018.0379",
+   "design": "Interrupted time-series analysis of a 20% Medicare sample",
+   "population_setting": "637,426 fee-for-service Medicare beneficiaries in US long-term care with Part D coverage, 2009 to 2014",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Shows antipsychotic use falling while mood stabiliser use rose and accelerated; the authors say 'possibly as a substitute'. US care homes, mood stabilisers (not mirtazapine); antidepressant use fell over the same period."
+  },
+  {
+   "key": "PMID:28592453",
+   "citation": "McKeith IG, Boeve BF, Dickson DW, Halliday G, Taylor JP, Weintraub D, et al. Diagnosis and management of dementia with Lewy bodies: fourth consensus report of the DLB Consortium. Neurology. 2017;89(1):88-100.",
+   "pmid": "28592453",
+   "pmcid": "PMC5496518",
+   "doi": "10.1212/WNL.0000000000004058",
+   "public_url": "https://doi.org/10.1212/WNL.0000000000004058",
+   "design": "International consensus report (diagnostic criteria and management recommendations)",
+   "population_setting": "People with dementia with Lewy bodies; clinical and research use",
+   "year": 2017,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC5496518); Scite search_literature excerpts",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article. Scite record retrieved in this session showed no editorial notices.",
+   "quality_note": "Standard diagnostic criteria. Management advice is 'largely based upon expert opinion since randomized controlled trials in DLB are few'. Table 1 itself was not rendered in the PMC text; the four core features are taken from the section headings and text under 'Core clinical features'."
+  },
+  {
+   "key": "PMID:1356550",
+   "citation": "McKeith I, Fairbairn A, Perry R, Thompson P, Perry E. Neuroleptic sensitivity in patients with senile dementia of Lewy body type. BMJ. 1992;305(6855):673-8.",
+   "pmid": "1356550",
+   "pmcid": "PMC1882909",
+   "doi": "10.1136/bmj.305.6855.673",
+   "public_url": "https://doi.org/10.1136/bmj.305.6855.673",
+   "design": "Retrospective case-note review, blind to neuropathological diagnosis",
+   "population_setting": "41 older patients from specialist psychogeriatric units with autopsy-confirmed Alzheimer type (21) or Lewy body type (20) dementia, Newcastle, UK",
+   "year": 1992,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Small, old, retrospective study of mainly older (typical) neuroleptics in autopsy-confirmed cases; foundational but not a modern frequency estimate. The mortality hazard ratio has an unusual confidence interval (2.50 to 8.99 around 2.70) and borderline p; do not quote it."
+  },
+  {
+   "key": "PMID:16234500",
+   "citation": "Schneider LS, Dagerman KS, Insel P. Risk of death with atypical antipsychotic drug treatment for dementia: meta-analysis of randomized placebo-controlled trials. JAMA. 2005;294(15):1934-43.",
+   "pmid": "16234500",
+   "pmcid": null,
+   "doi": "10.1001/jama.294.15.1934",
+   "public_url": "https://doi.org/10.1001/jama.294.15.1934",
+   "design": "Meta-analysis of 15 randomised placebo-controlled trials (9 unpublished), mostly 10 to 12 weeks",
+   "population_setting": "People with Alzheimer's disease or dementia given aripiprazole, olanzapine, quetiapine or risperidone vs placebo (3353 drug, 1757 placebo)",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Randomised data, so the death difference is a drug effect estimate rather than an association; short trials; trial participants may differ from people treated in practice. Older atypical antipsychotics only."
+  },
+  {
+   "key": "PMID:16505124",
+   "citation": "Schneider LS, Dagerman K, Insel PS. Efficacy and adverse effects of atypical antipsychotics for dementia: meta-analysis of randomized, placebo-controlled trials. Am J Geriatr Psychiatry. 2006;14(3):191-210.",
+   "pmid": "16505124",
+   "pmcid": null,
+   "doi": "10.1097/01.JGP.0000200589.01396.6d",
+   "public_url": "https://doi.org/10.1097/01.JGP.0000200589.01396.6d",
+   "design": "Meta-analysis of the same 15 randomised placebo-controlled trials (efficacy and adverse events)",
+   "population_setting": "People with Alzheimer's disease or dementia with delusions, aggression or agitation",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Scite search_literature (full text closed)",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article. Scite record retrieved in this session showed no editorial notices.",
+   "quality_note": "Gives benefit only as small standardised effect sizes; response rates often not reported, so no verified absolute benefit figure is available."
+  },
+  {
+   "key": "PMID:16437455",
+   "citation": "Ballard C, Waite J. The effectiveness of atypical antipsychotics for the treatment of aggression and psychosis in Alzheimer's disease. Cochrane Database Syst Rev. 2006;(1):CD003476.",
+   "pmid": "16437455",
+   "pmcid": "PMC11365591",
+   "doi": "10.1002/14651858.CD003476.pub2",
+   "public_url": "https://doi.org/10.1002/14651858.CD003476.pub2",
+   "design": "Cochrane systematic review and meta-analysis of randomised placebo-controlled trials",
+   "population_setting": "People with Alzheimer's disease with aggression, agitation or psychosis",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Older Cochrane review (search to December 2004) but remains the standard source for cerebrovascular harm and modest benefit of risperidone and olanzapine."
+  },
+  {
+   "key": "PMID:23075176",
+   "citation": "Devanand DP, Mintzer J, Schultz SK, Andrews HF, Sultzer DL, de la Pena D, et al. Relapse risk after discontinuation of risperidone in Alzheimer's disease. N Engl J Med. 2012;367(16):1497-507.",
+   "pmid": "23075176",
+   "pmcid": "PMC3490406",
+   "doi": "10.1056/NEJMoa1114058",
+   "public_url": "https://doi.org/10.1056/NEJMoa1114058",
+   "design": "Randomised double-blind discontinuation trial after 16 weeks of open-label risperidone",
+   "population_setting": "180 people with Alzheimer's disease and psychosis or agitation-aggression given open-label risperidone; 110 responders randomised; US",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: search of this PMID with retracted publication[pt] OR expression of concern[pt] returned no record (checked 26 Sep 2026); search of published erratum[pt] records with matching topic terms found no notice for this article.",
+   "quality_note": "Applies only to people who had clearly responded to risperidone; small numbers, especially in the final 16 weeks."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C08-03-a",
+   "cand_id": "C08-03",
+   "claim": "NICE advises not stopping acetylcholinesterase inhibitors (donepezil, galantamine, rivastigmine) in people with Alzheimer's disease because of disease severity alone.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng97"
+   ],
+   "supporting_passage": "• Do not stop AChE inhibitors in people with Alzheimer's disease because of disease severity alone.",
+   "location": "NICE NG97 PDF, recommendations on pharmacological management (Scite full-text excerpt); same sentence in WebSearch extract of nice.org.uk/guidance/ng97/chapter/recommendations",
+   "pico_timeframe": "People with Alzheimer's disease taking AChE inhibitors; recommendation about stopping; no timeframe",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE's dementia guideline says: do not stop donepezil and similar medicines (acetylcholinesterase inhibitors) in people with Alzheimer's disease because of disease severity alone.",
+   "qualifications": "Applies to Alzheimer's disease. It says severity alone is not a reason; it does not say never stop. Quote the NICE sentence rather than paraphrasing it more strongly.",
+   "conflicting_or_uncertain": "Cochrane 2021 rates the evidence on stopping as mostly low certainty and could not tell whether effects differ by severity (see C08-03-d).",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-03-b",
+   "cand_id": "C08-03",
+   "claim": "In DOMINO-AD, people with moderate to severe Alzheimer's disease who continued donepezil had small benefits in cognition and daily function over 12 months compared with those who stopped.",
+   "source_keys": [
+    "PMID:22397651"
+   ],
+   "supporting_passage": "We assigned 295 community-dwelling patients who had been treated with donepezil for at least 3 months and who had moderate or severe Alzheimer's disease (a score of 5 to 13 on the Standardized Mini-Mental State Examination [SMMSE, on which scores range from 0 to 30, with higher scores indicating better cognitive function]) ... The minimum clinically important differences were 1.4 points on the SMMSE and 3.5 points on the BADLS. Patients assigned to continue donepezil, as compared with those assigned to discontinue donepezil, had a score on the SMMSE that was higher by an average of 1.9 points (95% confidence interval [CI], 1.3 to 2.5) and a score on the BADLS that was lower (indicating less impairment) by 3.0 points (95% CI, 1.8 to 4.3) (P<0.001 for both comparisons).",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "295 community-dwelling people with moderate/severe Alzheimer's disease (SMMSE 5 to 13) on donepezil 3+ months; continue vs stop donepezil (with or without memantine); SMMSE and BADLS; 52 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a UK trial of 295 people living at home with moderate to severe Alzheimer's disease, those who kept taking donepezil for a year scored slightly better on memory and thinking tests and on everyday activities than those who stopped. The difference in everyday activities was smaller than the size the researchers had set as clinically important.",
+   "qualifications": "Community-living people only (not care home residents); SMMSE 5 to 13, so not the most advanced dementia; the 3.0-point BADLS difference was below the 3.5-point minimum clinically important difference; 12 months only.",
+   "conflicting_or_uncertain": "The earlier AD2000 trial (starting donepezil in milder disease) found no effect on institutionalisation; noted by Howard 2015 but not opened here.",
+   "numbers": [
+    {
+     "value": "295",
+     "meaning": "participants randomised"
+    },
+    {
+     "value": "5 to 13",
+     "meaning": "SMMSE entry range (0 to 30 scale), moderate to severe"
+    },
+    {
+     "value": "1.9 points",
+     "meaning": "SMMSE advantage of continuing vs stopping at 12 months (MCID 1.4)"
+    },
+    {
+     "value": "3.0 points",
+     "meaning": "BADLS advantage of continuing vs stopping at 12 months (MCID 3.5)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-03-c",
+   "cand_id": "C08-03",
+   "claim": "In DOMINO-AD, about 37 in 100 people who stopped donepezil moved permanently into a care home within the first year, compared with about 20 in 100 who continued; there was no difference over the following 3 years.",
+   "source_keys": [
+    "PMID:26515660"
+   ],
+   "supporting_passage": "Discontinuing donepezil treatment increased the probability of NHP over the first 6 months from 0.06 to 0.19 (difference 0.13, 95% CI, 0.04 to 0.21) and over the first 12 months from 0.20 to 0.37 (difference 0.17, 95% CI, 0.06 to 0.28), see Table 3. [Published abstract:] 162 (55%) patients underwent nursing home placement within 4 years of randomisation, with similar numbers for all groups ... We noted significant (p=0·010) heterogeneity of treatment effect over time, with significantly more nursing home placements in the combined donepezil discontinuation groups during the first year (hazard ratio 2·09 [95% CI 1·29-3·39]) than in the combined donepezil continuation groups, and no difference during the next 3 years (0·89 [0·58-1·35]). ... Analyses restricted to risk of placement in the first year of follow-up after the patients had completed the double-blind phase of the trial were post-hoc.",
+   "location": "Results, piecewise modelling and Table 3 (accepted manuscript via Scite); Abstract (PubMed)",
+   "pico_timeframe": "Same DOMINO-AD participants; combined stop-donepezil arms vs combined continue-donepezil arms; irreversible move to a residential caring facility; first 12 months (post hoc) and 12 to 48 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the same trial, about 37 in 100 people who stopped donepezil had moved permanently into a care home within a year, compared with about 20 in 100 who kept taking it. Over the next 3 years the two groups ended up with similar numbers of moves. This first-year comparison was an extra analysis done after the trial, not its main question.",
+   "qualifications": "Kaplan-Meier estimated probabilities; post hoc, secondary outcome; community-living participants; after 52 weeks treatment was left to patients and doctors; do not express the hazard ratio 2.09 as 'doubled the risk' or 'twice as likely'. The trial's term is nursing home placement (move from independent accommodation to a residential caring facility).",
+   "conflicting_or_uncertain": "Over 4 years, placements were similar in all arms (36, 42, 41, 43 of about 73 to 76 each); the authors say the later hazard ratio is affected by selection bias and that drug withdrawal was more common in the stop groups. Cochrane 2021 could not extract institutionalisation data.",
+   "numbers": [
+    {
+     "value": "20 in 100",
+     "meaning": "estimated probability of care home placement within 12 months, continued donepezil (combined arms)"
+    },
+    {
+     "value": "37 in 100",
+     "meaning": "same, stopped donepezil (combined arms); difference 17 percentage points (95% CI 6 to 28)"
+    },
+    {
+     "value": "6 vs 19 in 100",
+     "meaning": "same at 6 months"
+    },
+    {
+     "value": "162 of 295 (55%)",
+     "meaning": "placed in a care home within 4 years, all arms"
+    },
+    {
+     "value": "HR 2.09",
+     "meaning": "relative, first year; do not use in posts"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-03-d",
+   "cand_id": "C08-03",
+   "claim": "Pooled trials suggest stopping cholinesterase inhibitors may worsen cognition, function and behaviour, but the evidence is mostly low certainty and it is unknown whether this differs with dementia severity.",
+   "source_keys": [
+    "PMID:35608903"
+   ],
+   "supporting_passage": "This review suggests that discontinuing cholinesterase inhibitors may result in worse cognitive, neuropsychiatric and functional status than continuing treatment, although this is supported by limited evidence, almost all of low or very low certainty. As all participants had dementia due to Alzheimer's disease, our findings are not transferable to other dementia types. We were unable to determine whether the effects of discontinuing cholinesterase inhibitors differed with baseline dementia severity. ... We found no clear evidence of an effect of discontinuation on ... number of adverse events (OR 0.85, 95% CI 0.57 to 1.27; 4 studies; low certainty) or serious adverse events (OR 0.80, 95% CI 0.46 to 1.39; 4 studies; low certainty), and on mortality (OR 0.75, 95% CI 0.36 to 1.55; 5 studies; low certainty).",
+   "location": "Abstract (Main results, Authors' conclusions)",
+   "pico_timeframe": "7 RCTs, 759 people with Alzheimer's disease; withdraw vs continue ChEI; cognition, function, neuropsychiatric symptoms, adverse events, mortality; 6 weeks to 12 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A Cochrane review found that stopping these medicines may lead to worse thinking, daily function and behaviour, but most of the evidence is of low certainty and it could not tell whether the effect differs between moderate and severe dementia.",
+   "qualifications": "Alzheimer's disease only; participants had no known side effects at baseline.",
+   "conflicting_or_uncertain": "Stopping did not clearly reduce adverse events in these trials, which argues against stopping routinely 'to reduce side effects' in people who are tolerating the drug.",
+   "numbers": [
+    {
+     "value": "7 trials, 759 participants",
+     "meaning": "size of the review"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-03-e",
+   "cand_id": "C08-03",
+   "claim": "Side effects that can justify stopping include nausea, vomiting and diarrhoea, and fainting linked with a slow heart rate.",
+   "source_keys": [
+    "PMID:29923184",
+    "PMID:21649634",
+    "PMID:19787032"
+   ],
+   "supporting_passage": "Birks 2018: \"People taking donepezil were more likely than those taking placebo to report side effects and to drop out of the studies. Most side effects were described as mild. Nausea, vomiting and diarrhoea were most common.\" Kim 2011: \"ChEI use was associated with greater risk of syncope (odds ratio (OR)=1.53, 95% confidence interval (CI)=1.02-2.30) than placebo\". Park-Wyllie 2009: \"Among older patients, initiation of cholinesterase inhibitor therapy was associated with a more than doubling of the risk of hospitalization for bradycardia.\"",
+   "location": "Birks 2018 plain language summary (Scite full-text excerpt); Kim 2011 abstract Results; Park-Wyllie 2009 abstract Conclusions",
+   "pico_timeframe": "RCT participants with Alzheimer's disease or cognitive impairment (Birks, Kim); older Ontario adults starting ChEI (Park-Wyllie)",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Good reasons to review or stop include side effects such as sickness and diarrhoea, and fainting or a slow pulse, which are more common in people taking these medicines.",
+   "qualifications": "Most gastrointestinal side effects in trials were mild and transient. Weight loss is not directly supported by the sources opened (anorexia, meaning loss of appetite, is listed in Birks full text as more frequent at 10 mg than 5 mg); do not claim weight loss.",
+   "conflicting_or_uncertain": "See C08-08 for the strength of the heart-rhythm evidence.",
+   "numbers": [
+    {
+     "value": "72% vs 65%",
+     "meaning": "any adverse event, donepezil vs placebo, Birks 2018 (not needed for post)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-03-f",
+   "cand_id": "C08-03",
+   "claim": "Moving into a care home is not in itself a reason to stop, and near the end of life stopping is often reasonable.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng97",
+    "PMID:22397651"
+   ],
+   "supporting_passage": "No passage found in the sources opened that addresses stopping at care home admission or in the last weeks of life. NICE: \"Do not stop AChE inhibitors in people with Alzheimer's disease because of disease severity alone.\"",
+   "location": "Not found",
+   "pico_timeframe": "Not studied in the opened sources (DOMINO-AD participants were community-living)",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "State as judgement: 'In our view, a move into a care home is not a reason to stop on its own; in the last weeks of life, stopping is often sensible.' Do not attribute these points to NICE or to DOMINO-AD.",
+   "qualifications": "Ethical and clinical judgement, not a finding.",
+   "conflicting_or_uncertain": "No trial of stopping at care home admission was opened.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-08-a",
+   "cand_id": "C08-08",
+   "claim": "In an Ontario cohort, older people with dementia taking cholinesterase inhibitors had more hospital visits for fainting (31.5 vs 18.6 per 1000 person-years), slow heart rate, pacemaker insertion and hip fracture than those not taking them.",
+   "source_keys": [
+    "PMID:19433698"
+   ],
+   "supporting_passage": "We identified 19 803 community-dwelling older adults with dementia who were prescribed cholinesterase inhibitors and 61 499 controls who were not. Hospital visits for syncope were more frequent in people receiving cholinesterase inhibitors than in controls (31.5 vs 18.6 events per 1000 person-years; adjusted hazard ratio [HR], 1.76; 95% confidence interval [CI], 1.57-1.98). Other syncope-related events were also more common among people receiving cholinesterase inhibitors compared with controls: hospital visits for bradycardia (6.9 vs 4.4 events per 1000 person-years; HR, 1.69; 95% CI, 1.32-2.15), permanent pacemaker insertion (4.7 vs 3.3 events per 1000 person-years; HR, 1.49; 95% CI, 1.12-2.00), and hip fracture (22.4 vs 19.8 events per 1000 person-years; HR, 1.18; 95% CI, 1.04-1.34).",
+   "location": "Abstract (Methods, Results)",
+   "pico_timeframe": "Community-dwelling older adults with dementia, Ontario; ChEI users vs non-users; hospital visits for syncope, bradycardia, pacemaker, hip fracture; accrual 2002 to 2004, rates per 1000 person-years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Canadian study of about 81,000 older people with dementia living at home, those taking these medicines went to hospital with fainting about 32 times per 1000 people each year, compared with about 19 per 1000 among those not taking them. This shows a link; it does not prove the medicine caused every faint.",
+   "qualifications": "Observational; these are hospital visits (events), not people; 'per 1000 person-years' may be written as 'per 1000 people per year' only as an approximation; age range not confirmed; do not say the drug caused hip fractures.",
+   "conflicting_or_uncertain": "Huang 2015 (Ontario, 2.35 million people) found lower pacemaker insertion with cholinesterase inhibitors; Watt 2020 found no association with fall-related hospitalisation in care home residents on beta-blockers. RCT meta-analysis (Kim 2011) found more fainting but not more falls or fractures.",
+   "numbers": [
+    {
+     "value": "19,803 and 61,499",
+     "meaning": "users and non-users in the cohort (about 81,000 in all)"
+    },
+    {
+     "value": "31.5 vs 18.6",
+     "meaning": "hospital visits for fainting per 1000 person-years, users vs non-users (absolute rates)"
+    },
+    {
+     "value": "6.9 vs 4.4",
+     "meaning": "hospital visits for slow heart rate per 1000 person-years"
+    },
+    {
+     "value": "4.7 vs 3.3",
+     "meaning": "pacemaker insertions per 1000 person-years"
+    },
+    {
+     "value": "22.4 vs 19.8",
+     "meaning": "hip fractures per 1000 person-years (association only)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-08-b",
+   "cand_id": "C08-08",
+   "claim": "In randomised trials, people taking cholinesterase inhibitors fainted more often than people on placebo, but did not have clearly more falls, fractures or injuries.",
+   "source_keys": [
+    "PMID:21649634"
+   ],
+   "supporting_passage": "ChEI use was associated with greater risk of syncope (odds ratio (OR)=1.53, 95% confidence interval (CI)=1.02-2.30) than placebo but not with other events (falls: OR=0.88, 95% CI=0.74-1.04; fracture: OR=1.39, 95% CI=0.75-2.56; accidental injury: OR=1.13, 95% CI=0.87-1.45). ... ChEIs may increase the risk of syncope, with no effects on falls, fracture, or accidental injury in cognitively impaired older adults.",
+   "location": "Abstract (Results, Conclusion)",
+   "pico_timeframe": "54 placebo-controlled RCTs and extensions in cognitively impaired older adults (community and nursing homes); ChEI vs placebo; syncope, falls, fracture, injury; trial durations",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "When the randomised trials are pooled, people taking these medicines fainted more often than people taking a dummy tablet. The trials did not show more falls or broken bones overall.",
+   "qualifications": "Authors note under-reporting and small numbers of events, so a risk cannot be excluded; odds ratio not to be turned into 'x times more likely'.",
+   "conflicting_or_uncertain": "Observational data (Gill 2009) show a small hip fracture association; Watt 2020 shows no fall-related hospitalisation association in care homes.",
+   "numbers": [
+    {
+     "value": "54 trials",
+     "meaning": "placebo-controlled trials and extensions pooled"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-08-c",
+   "cand_id": "C08-08",
+   "claim": "Starting a cholinesterase inhibitor is linked with more hospital admissions for slow heart rate, and more than half of people admitted went back on the drug afterwards.",
+   "source_keys": [
+    "PMID:19787032"
+   ],
+   "supporting_passage": "After adjusting for temporal changes in drug utilization, hospitalization for bradycardia was associated with recent initiation of a cholinesterase inhibitor (adjusted odds ratio [OR] 2.13, 95% confidence interval [CI] 1.29-3.51). ... Of these, 17 (11%) required a pacemaker during hospitalization, and six (4%) died prior to discharge. ... Despite hospitalization for bradycardia, more than half of the patients (78 of 138 cases [57%]) who survived to discharge subsequently resumed cholinesterase inhibitor therapy.",
+   "location": "Abstract (Methods and Findings, Conclusions)",
+   "pico_timeframe": "Ontario adults 67+ hospitalised for bradycardia after ChEI use, 2003 to 2008; recent initiation vs earlier period (case-time-control); hospitalisation for bradycardia",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In another Canadian study, admissions to hospital with a very slow pulse were linked with recently starting one of these medicines. After leaving hospital, 78 of 138 people went back on the same medicine.",
+   "qualifications": "Observational (self-controlled); OR not to be written as 'twice as likely'.",
+   "conflicting_or_uncertain": "None found that contradicts the bradycardia link.",
+   "numbers": [
+    {
+     "value": "78 of 138 (57%)",
+     "meaning": "survivors of a bradycardia admission who restarted a ChEI"
+    },
+    {
+     "value": "17 of 161 (11%)",
+     "meaning": "discordant-pair cases needing a pacemaker during admission"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-08-d",
+   "cand_id": "C08-08",
+   "claim": "The commonest side effects of donepezil are nausea, vomiting and diarrhoea.",
+   "source_keys": [
+    "PMID:29923184"
+   ],
+   "supporting_passage": "People taking donepezil were more likely than those taking placebo to report side effects and to drop out of the studies. Most side effects were described as mild. Nausea, vomiting and diarrhoea were most common.",
+   "location": "Plain language summary (Scite full-text excerpt)",
+   "pico_timeframe": "30 RCTs of donepezil vs placebo in Alzheimer's disease, mostly up to 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The side effects people usually hear about, and the commonest in trials, are feeling sick, vomiting and diarrhoea.",
+   "qualifications": "Donepezil trials; similar for the class is plausible but not shown here. 'Vivid dreams' and 'insomnia' were not verified in opened sources: leave them out.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-08-e",
+   "cand_id": "C08-08",
+   "claim": "People starting a cholinesterase inhibitor should be told to report dizziness or fainting, and the pulse should be checked at review.",
+   "source_keys": [
+    "PMID:19787032",
+    "PMID:21649634"
+   ],
+   "supporting_passage": "No guideline or SmPC passage recommending a pulse check was opened (SmPC and BNF pages could not be opened). Park-Wyllie 2009: \"Resumption of therapy following discharge was common, suggesting that the cardiovascular toxicity of cholinesterase inhibitors is underappreciated by clinicians.\"",
+   "location": "Park-Wyllie abstract Conclusions",
+   "pico_timeframe": "Not a tested intervention",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Present as advice, not as a guideline: 'Ask at the review: has anyone checked the pulse since the tablet started?' and 'Report dizziness or fainting.'",
+   "qualifications": "Practical advice consistent with the evidence, not a sourced recommendation.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-17-a",
+   "cand_id": "C08-17",
+   "claim": "The core clinical features of dementia with Lewy bodies are fluctuating cognition and alertness, recurrent visual hallucinations, REM sleep behaviour disorder (acting out dreams) and parkinsonism.",
+   "source_keys": [
+    "PMID:28592453"
+   ],
+   "supporting_passage": "Core clinical features. Fluctuation. DLB fluctuations ... occurring as spontaneous alterations in cognition, attention, and arousal. ... Visual hallucinations. Recurrent, complex visual hallucinations occur in up to 80% of patients with DLB and are a frequent clinical signpost to diagnosis. They are typically well-formed, featuring people, children, or animals ... Parkinsonism. Spontaneous parkinsonian features, not due to antidopaminergic medications or stroke, are common in DLB, eventually occurring in over 85%. ... documentation of only one of these cardinal features is required. ... REM sleep behavior disorder. RBD is a parasomnia manifested by recurrent dream enactment behavior that includes movements mimicking dream content ... RBD is now included as a core clinical feature because it occurs frequently in autopsy-confirmed cases compared with non-DLB (76% vs 4%).",
+   "location": "Full text, section 'Core clinical features'",
+   "pico_timeframe": "Consensus diagnostic criteria for DLB",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The four main clinical features of dementia with Lewy bodies are: alertness and thinking that vary a lot, seeing things that are not there (often people or animals), acting out dreams in sleep, and slowness, stiffness or tremor.",
+   "qualifications": "These are diagnostic features, not a screening test; one question answered yes does not make the diagnosis.",
+   "conflicting_or_uncertain": "See C08-17-b on overlap with other dementias. Fluctuations are described as 'typically delirium-like'; the post must not discuss delirium (category rule).",
+   "numbers": [
+    {
+     "value": "up to 80%",
+     "meaning": "people with DLB who have recurrent visual hallucinations"
+    },
+    {
+     "value": "over 85%",
+     "meaning": "people with DLB who eventually develop parkinsonism"
+    },
+    {
+     "value": "76% vs 4%",
+     "meaning": "dream enactment (RBD) in autopsy-confirmed DLB vs non-DLB"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-17-b",
+   "cand_id": "C08-17",
+   "claim": "These features are not specific: fluctuations occur in advanced other dementias and conditions that mimic dream enactment are common in dementia.",
+   "source_keys": [
+    "PMID:28592453"
+   ],
+   "supporting_passage": "Fluctuations may also occur in advanced stages of other dementias, so they best predict DLB when they are present early. ... Conditions mimicking RBD are common in people with dementia, e.g., confusional awakenings, severe obstructive sleep apnea, and periodic limb movements, all of which must be excluded by careful supplementary questioning to avoid a false-positive diagnosis.",
+   "location": "Full text, 'Core clinical features' (Fluctuation; REM sleep behavior disorder)",
+   "pico_timeframe": "Consensus report",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "None of these questions proves Lewy body disease. Changing alertness can happen late in other dementias, and other sleep problems can look like acting out dreams. A yes is a reason to think again and ask for advice, not a diagnosis.",
+   "qualifications": "The four-question checklist is a teaching prompt, not a validated screening tool.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-17-c",
+   "cand_id": "C08-17",
+   "claim": "In dementia with Lewy bodies, antipsychotics should be avoided whenever possible because of the risk of a serious sensitivity reaction.",
+   "source_keys": [
+    "PMID:28592453"
+   ],
+   "supporting_passage": "The use of antipsychotics for the acute management of substantial behavioral disturbance, delusions, or visual hallucinations comes with attendant mortality risks in patients with dementia, and particularly in the case of DLB they should be avoided whenever possible, given the increased risk of a serious sensitivity reaction. Low-dose quetiapine may be relatively safer than other antipsychotics and is widely used, but a small placebo-controlled clinical trial in DLB was negative. ... Severe antipsychotic sensitivity is now listed as supportive, because reduced prescribing of D2 receptor blocking antipsychotics in DLB limits its diagnostic usefulness. Caution about their use remains unchanged.",
+   "location": "Full text, 'Neuropsychiatric symptoms' and 'Supportive clinical features'",
+   "pico_timeframe": "Expert consensus management recommendation for DLB",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "The international consensus on dementia with Lewy bodies advises avoiding antipsychotics whenever possible, because of the risk of a serious sensitivity reaction.",
+   "qualifications": "Consensus based partly on expert opinion; it does not forbid all use (low-dose quetiapine 'may be relatively safer' but a small trial was negative).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-17-d",
+   "cand_id": "C08-17",
+   "claim": "In a small autopsy-confirmed series, most people with Lewy body dementia given neuroleptics reacted badly, many severely, compared with few people with Alzheimer's disease.",
+   "source_keys": [
+    "PMID:1356550"
+   ],
+   "supporting_passage": "16 (80%) patients with Lewy body type dementia received neuroleptics, 13 (81%) of whom reacted adversely; in seven (54%) the reactions were severe. ... By contrast, only one (7%) of 14 patients with Alzheimer type dementia given neuroleptics showed severe neuroleptic sensitivity. ... Severe, and often fatal, neuroleptic sensitivity may occur in elderly patients with confusion, dementia, or behavioural disturbance.",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "41 autopsy-confirmed cases (20 Lewy body, 21 Alzheimer type) from psychogeriatric units; neuroleptic (mainly typical) exposure; adverse reactions; retrospective",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In an early UK study of people whose Lewy body dementia was confirmed after death, 7 of the 16 who had been given an antipsychotic had a severe reaction, compared with 1 of 14 people with Alzheimer's disease.",
+   "qualifications": "Small, retrospective, 1992, mainly older antipsychotics; 54% is 7 of the 13 who reacted, not of all 16 treated. Do not quote the mortality hazard ratio.",
+   "conflicting_or_uncertain": "Modern frequency with atypical antipsychotics is uncertain; McKeith 2017 notes reduced prescribing now limits its usefulness as a diagnostic sign.",
+   "numbers": [
+    {
+     "value": "7 of 16",
+     "meaning": "severe reactions among people with Lewy body dementia given neuroleptics"
+    },
+    {
+     "value": "13 of 16",
+     "meaning": "any adverse reaction in the same group"
+    },
+    {
+     "value": "1 of 14",
+     "meaning": "severe reactions among people with Alzheimer type dementia given neuroleptics"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-17-e",
+   "cand_id": "C08-17",
+   "claim": "NICE advises that in dementia with Lewy bodies or Parkinson's disease dementia, antipsychotics can worsen motor features and in some cases cause severe antipsychotic sensitivity reactions.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng97"
+   ],
+   "supporting_passage": "1.7.4 Be aware that for people with dementia with Lewy bodies or Parkinson's disease dementia, antipsychotics can worsen the motor features of the condition, and in some cases cause severe antipsychotic sensitivity reactions.",
+   "location": "NICE NG97 recommendation 1.7.4 (Scite full-text excerpt of NICE PDF)",
+   "pico_timeframe": "People with DLB or Parkinson's disease dementia; antipsychotic prescribing",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE says: be aware that for people with dementia with Lewy bodies or Parkinson's disease dementia, antipsychotics can worsen the motor features of the condition, and in some cases cause severe antipsychotic sensitivity reactions.",
+   "qualifications": "Quote exactly. NICE does not, in the passage seen, say 'seek specialist advice'; the footer 'any yes: consider Lewy body disease and seek specialist advice before an antipsychotic' is house advice, not a NICE quotation.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-17-f",
+   "cand_id": "C08-17",
+   "claim": "Dementia with Lewy bodies is often missed or misdiagnosed, usually as Alzheimer's disease.",
+   "source_keys": [
+    "PMID:28592453"
+   ],
+   "supporting_passage": "Changes made to the diagnostic criteria at that time increased diagnostic sensitivity for DLB, but detection rates in clinical practice remain suboptimal, with many cases missed or misdiagnosed, usually as Alzheimer disease (AD). ... up to half of carefully research-diagnosed patients with AD may have unsuspected Lewy-related pathology at autopsy.",
+   "location": "Full text, introduction and 'Summary of changes'",
+   "pico_timeframe": "Consensus report statement",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Lewy body dementia is often missed or labelled as Alzheimer's disease, so the absence of the diagnosis in the notes does not rule it out.",
+   "qualifications": "Statement from a consensus report, not a measured rate. The earlier collection (E004) already made the underdiagnosis point: use only as context.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-15-a",
+   "cand_id": "C08-15",
+   "claim": "SYMBAD randomised 204 people with probable or possible Alzheimer's disease and agitation not helped by non-drug care to mirtazapine (target 45 mg) or placebo in 26 UK centres; most came from old-age psychiatry services and care homes.",
+   "source_keys": [
+    "PMID:34688369"
+   ],
+   "supporting_passage": "This parallel-group, double-blind, placebo-controlled trial-the Study of Mirtazapine for Agitated Behaviours in Dementia trial (SYMBAD)-was done in 26 UK centres. Participants had probable or possible Alzheimer's disease, agitation unresponsive to non-drug treatment, and a Cohen-Mansfield Agitation Inventory (CMAI) score of 45 or more. They were randomly assigned (1:1) to receive either mirtazapine (titrated to 45 mg) or placebo. ... 204 participants were recruited and randomised. [Full text:] Finally, there are potential limitations in generalisability because we recruited most participants from old-age psychiatry services and care homes",
+   "location": "Abstract (Methods, Findings); Discussion (limitations)",
+   "pico_timeframe": "204 people with probable/possible Alzheimer's disease and agitation (CMAI 45+) unresponsive to non-drug management; mirtazapine up to 45 mg vs placebo with usual care; CMAI at 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A UK trial gave 204 people with Alzheimer's disease and agitation that had not settled with non-drug care either mirtazapine or a dummy tablet for 12 weeks. Most were recruited through old-age psychiatry services and care homes.",
+   "qualifications": "People already taking antidepressants or antipsychotics were excluded; findings apply to Alzheimer's and mixed dementia, not other types. Mean dose achieved 30.5 mg.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "204",
+     "meaning": "randomised (102 per group)"
+    },
+    {
+     "value": "26",
+     "meaning": "UK centres"
+    },
+    {
+     "value": "45 mg",
+     "meaning": "target daily dose; mean achieved 30.5 mg"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-15-b",
+   "cand_id": "C08-15",
+   "claim": "Agitation at 12 weeks did not differ between mirtazapine and placebo; agitation fell by about 10 points in both groups.",
+   "source_keys": [
+    "PMID:34688369"
+   ],
+   "supporting_passage": "Mean CMAI scores at 12 weeks were not significantly different between participants receiving mirtazapine and participants receiving placebo (adjusted mean difference –1·74, 95% CI –7·17 to 3·69; p=0·53). [Full text:] Severity of agitation decreased in both groups at 6 weeks by around 10 CMAI points and continued to be lower than baseline scores at 12 weeks ... the closeness of the findings in both groups makes it highly unlikely that the results we found would have been different had there been another 18 participants",
+   "location": "Abstract (Findings); Results; Discussion",
+   "pico_timeframe": "As above; CMAI change; 6 and 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "After 12 weeks, agitation was no better with mirtazapine than with the dummy tablet. Agitation eased in both groups, by a similar amount, in the first 6 weeks.",
+   "qualifications": "The confidence interval (from about 7 points better to about 4 points worse with mirtazapine) does not rule out the 6-point benefit the trial was designed to detect, although the authors judged the groups very close; say 'no clear benefit shown' rather than 'proved useless'.",
+   "conflicting_or_uncertain": "The improvement in both groups could reflect usual care, natural course, regression to the mean or placebo effects (authors).",
+   "numbers": [
+    {
+     "value": "about 10 points",
+     "meaning": "fall in CMAI agitation score in both groups by 6 weeks"
+    },
+    {
+     "value": "-1.74 (-7.17 to 3.69)",
+     "meaning": "adjusted difference in CMAI at 12 weeks; not for lay posts"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-15-c",
+   "cand_id": "C08-15",
+   "claim": "There were 7 deaths with mirtazapine and 1 with placebo by week 16; a post hoc test gave p = 0.065, and the trial was not powered for deaths.",
+   "source_keys": [
+    "PMID:34688369"
+   ],
+   "supporting_passage": "Mortality differed between groups with a potentially higher rate in the mirtazapine group (seven deaths in the mirtazapine and one in the placebo group by 16-week safety follow-up). Post-hoc statistical analyses suggested weak evidence of a mortality difference between groups (Fisher's exact test p=0·065). ... Second, the difference in mortality observed might have been by chance. This study was not powered to investigate a mortality difference between the groups. The analysis was post-hoc and its statistical significance marginal; in our previous study of depression in dementia, there were no more deaths in 108 participants randomly allocated to mirtazapine than in 111 participants randomly allocated to placebo.",
+   "location": "Results (adverse events); Discussion (limitations)",
+   "pico_timeframe": "102 per group; deaths to 16 weeks after randomisation",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "By 16 weeks, 7 of 102 people on mirtazapine had died, compared with 1 of 102 on the dummy tablet. The numbers are too small to be sure this was caused by the drug, and an earlier trial of mirtazapine did not show more deaths. With no benefit to set against it, the possible harm still counts.",
+   "qualifications": "Post hoc; marginal significance; causes of death varied with no consistent pattern; not powered.",
+   "conflicting_or_uncertain": "HTA-SADD (depression in dementia) found no excess deaths with mirtazapine (reported within SYMBAD discussion).",
+   "numbers": [
+    {
+     "value": "7 of 102 vs 1 of 102",
+     "meaning": "deaths by 16 weeks, mirtazapine vs placebo"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-15-d",
+   "cand_id": "C08-15",
+   "claim": "The authors concluded the data do not support mirtazapine for agitation in dementia.",
+   "source_keys": [
+    "PMID:34688369"
+   ],
+   "supporting_passage": "This trial found no benefit of mirtazapine compared with placebo, and we observed a potentially higher mortality with use of mirtazapine. The data from this study do not support using mirtazapine as a treatment for agitation in dementia.",
+   "location": "Abstract (Interpretation)",
+   "pico_timeframe": "As above",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The researchers concluded that their results do not support using mirtazapine to treat agitation in dementia.",
+   "qualifications": "Applies to agitation in Alzheimer's or mixed dementia; not to mirtazapine for depression.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-15-e",
+   "cand_id": "C08-15",
+   "claim": "Mirtazapine is prescribed for agitation in dementia, partly to avoid antipsychotics; and when antipsychotic use has fallen, use of other sedating drugs has risen.",
+   "source_keys": [
+    "PMID:34688369",
+    "PMID:29550856"
+   ],
+   "supporting_passage": "SYMBAD: \"We assessed the efficacy and safety of mirtazapine, an antidepressant prescribed for agitation in dementia.\" \"One reason for high rates of prescription of mirtazapine in later life is to avoid the use of antipsychotics.\" Maust 2018: \"The use of mood stabilizers was growing before initiation of the partnership and then accelerated after initiation of the partnership ... However, the use of mood stabilizers, possibly as a substitute for antipsychotics, increased and accelerated after initiation of the partnership in both long-term care residents overall and in those with dementia. Measuring use of antipsychotics alone may be an inadequate proxy for quality of care and may have contributed to a shift in prescribing to alternative medications with a poorer risk-benefit balance.\"",
+   "location": "SYMBAD Abstract (Background) and Discussion; Maust 2018 Abstract (Results, Conclusions)",
+   "pico_timeframe": "SYMBAD: background statements; Maust: 637,426 US long-term care residents, 2009 to 2014, quarterly prevalence of psychotropic use",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Mirtazapine is prescribed for agitation in dementia, partly because it seems a safer choice than an antipsychotic. In US care homes, as antipsychotic use fell, use of other sedating drugs (mood stabilisers such as gabapentin and valproate) rose, possibly as a substitute.",
+   "qualifications": "SYMBAD statements are background, not trial findings. Maust concerns US care homes and mood stabilisers, not mirtazapine or the UK; antidepressant use actually fell in that study; 'possibly as a substitute' is the authors' interpretation of a time trend.",
+   "conflicting_or_uncertain": "No UK source opened showing mirtazapine rising as antipsychotics fell; do not claim that.",
+   "numbers": [
+    {
+     "value": "21.3%",
+     "meaning": "US long-term care residents prescribed antipsychotics, first quarter 2009 (Maust); optional"
+    },
+    {
+     "value": "20.1%",
+     "meaning": "US long-term care residents prescribed mood stabilisers, final quarter 2014 (Maust); optional"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-15-f",
+   "cand_id": "C08-15",
+   "claim": "Carer burden was higher in the mirtazapine group at 12 weeks.",
+   "source_keys": [
+    "PMID:34688369"
+   ],
+   "supporting_passage": "Again, there was no evidence of difference between the groups, apart from: a single significant difference in the Zarit Carer Burden Inventory at 12 weeks, which indicated higher carer burden in the mirtazapine group (adjusted difference 5·01 points, 95% CI 0·80 to 9·23; p=0·020)",
+   "location": "Results (secondary outcomes)",
+   "pico_timeframe": "Carers of participants; Zarit score; 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Optional: carers of people on mirtazapine reported slightly more strain at 12 weeks, one of many secondary measures.",
+   "qualifications": "One significant result among many secondary outcomes; could be chance. Non-essential; omit unless needed.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "5.01 points",
+     "meaning": "higher Zarit carer burden score with mirtazapine at 12 weeks"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-07-a",
+   "cand_id": "C08-07",
+   "claim": "In a meta-analysis of 15 placebo-controlled trials of atypical antipsychotics in dementia, lasting mostly 10 to 12 weeks, 3.5% died on drug and 2.3% on placebo, about 1 extra death per 100 treated.",
+   "source_keys": [
+    "PMID:16234500"
+   ],
+   "supporting_passage": "Fifteen trials (9 unpublished), generally 10 to 12 weeks in duration, including 16 contrasts of atypical antipsychotic drugs with placebo met criteria (aripiprazole [n = 3], olanzapine [n = 5], quetiapine [n = 3], risperidone [n = 5]). A total of 3353 patients were randomized to study drug and 1757 were randomized to placebo. ... Death occurred more often among patients randomized to drugs (118 [3.5%] vs 40 [2.3%]. The OR by meta-analysis was 1.54; 95% confidence interval [CI], 1.06-2.23; P = .02; and risk difference was 0.01; 95% CI, 0.004-0.02; P = .01).",
+   "location": "Abstract (Data synthesis)",
+   "pico_timeframe": "People with Alzheimer's disease or dementia in RCTs; atypical antipsychotic vs placebo; all-cause death; mostly 10 to 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In short trials of 10 to 12 weeks, about 35 in 1000 people with dementia given an antipsychotic died, compared with about 23 in 1000 given a dummy tablet: roughly 1 extra death for every 100 people treated.",
+   "qualifications": "Atypical antipsychotics (aripiprazole, olanzapine, quetiapine, risperidone); trial populations; short-term. Use absolute figures; OR not to be turned into 'x times'.",
+   "conflicting_or_uncertain": "Longer-term and real-world risks may differ; not examined here.",
+   "numbers": [
+    {
+     "value": "118 of 3353 (3.5%) vs 40 of 1757 (2.3%)",
+     "meaning": "deaths on antipsychotic vs placebo, 10 to 12 weeks"
+    },
+    {
+     "value": "about 1 in 100",
+     "meaning": "risk difference 0.01 (95% CI 0.004 to 0.02)"
+    },
+    {
+     "value": "15 trials",
+     "meaning": "number pooled (9 unpublished)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-07-b",
+   "cand_id": "C08-07",
+   "claim": "The benefit of atypical antipsychotics for aggression and psychosis in dementia is modest on average.",
+   "source_keys": [
+    "PMID:16505124",
+    "PMID:16437455"
+   ],
+   "supporting_passage": "Schneider 2006: \"Efficacy on rating scales was observed by meta-analysis for aripiprazole and risperidone, but not for olanzapine. Response rates were frequently not reported. ... Small statistical effect sizes on symptom rating scales support the evidence for the efficacy of aripiprazole and risperidone.\" Ballard 2006: \"Evidence suggests that risperidone and olanzapine are useful in reducing aggression and risperidone reduces psychosis ... Despite the modest efficacy, the significant increase in adverse events confirms that neither risperidone nor olanzapine should be used routinely to treat dementia patients with aggression or psychosis unless there is marked risk or severe distress.\"",
+   "location": "Abstracts (Results, Conclusions)",
+   "pico_timeframe": "RCTs of atypical antipsychotics vs placebo in dementia; symptom rating scales; mostly 6 to 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "On average the benefit is small: in trials, risperidone reduced aggression and psychosis a little more than a dummy tablet did. No reliable 'number helped per 100' is available, because most trials did not report how many people improved.",
+   "qualifications": "Do not show a benefit icon array or any absolute benefit number. Evidence differs by drug (olanzapine not effective on rating scales in Schneider 2006).",
+   "conflicting_or_uncertain": "Schneider and Ballard differ on olanzapine; say 'some antipsychotics'.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-07-c",
+   "cand_id": "C08-07",
+   "claim": "Atypical antipsychotics in dementia increase the risk of stroke and other cerebrovascular events.",
+   "source_keys": [
+    "PMID:16437455",
+    "PMID:16505124"
+   ],
+   "supporting_passage": "Ballard 2006: \"Risperidone and olanzpaine treated patients had a significantly higher incidence of serious adverse cerebrovascular events (including stroke), extra-pyramidal side effects and other important adverse outcomes.\" Schneider 2006: \"There was a significant risk for cerebrovascular events, especially with risperidone\"",
+   "location": "Abstracts (Results)",
+   "pico_timeframe": "RCTs, risperidone and olanzapine vs placebo in dementia; serious cerebrovascular adverse events",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In trials, people with dementia given risperidone or olanzapine had more strokes and other serious problems with blood supply to the brain than people given a dummy tablet.",
+   "qualifications": "No absolute stroke figure verified; describe in words. Shown for risperidone and olanzapine specifically.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-07-d",
+   "cand_id": "C08-07",
+   "claim": "NICE advises antipsychotics only for risk of harm or severe distress from agitation, hallucinations or delusions, after discussing benefits and harms with the person and family, at the lowest dose for the shortest time, with reassessment at least every 6 weeks.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng97"
+   ],
+   "supporting_passage": "Only offer antipsychotics for people living with dementia who are either: • at risk of harming themselves or others or or • experiencing agitation, hallucinations or delusions that are causing them severe distress. ... Before starting antipsychotics, discuss the benefits and harms with the person and their family members or carers (as appropriate). Consider using a decision aid to support this discussion. ... When using antipsychotics: • use the lowest effective dose and use them for the shortest possible time • reassess the person at least every 6 weeks, to check whether they still need medication.",
+   "location": "NICE NG97 recommendations on managing agitation, aggression, distress and psychosis (Scite full-text excerpts of NICE PDF)",
+   "pico_timeframe": "People living with dementia; antipsychotic prescribing",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NICE says antipsychotics should only be offered to a person with dementia who is at risk of harming themselves or others, or whose agitation, hallucinations or delusions are causing severe distress. The benefits and harms should be discussed with the person and family first, and the need reassessed at least every 6 weeks.",
+   "qualifications": "Quote closely; NICE also says to offer psychosocial and environmental interventions first.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "6 weeks",
+     "meaning": "maximum interval between reassessments while on an antipsychotic"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-07-e",
+   "cand_id": "C08-07",
+   "claim": "Some people whose symptoms respond to risperidone relapse when it is stopped.",
+   "source_keys": [
+    "PMID:23075176"
+   ],
+   "supporting_passage": "In the first 16 weeks after randomization, the rate of relapse was higher in the group that received placebo than in the groups that received risperidone (60% [24 of 40 patients in group 3] vs. 33% [23 of 70 in groups 1 and 2]; P=0.004; hazard ratio with placebo, 1.94; 95% confidence interval [CI], 1.09 to 3.45; P=0.02). ... In patients with Alzheimer's disease who had psychosis or agitation that had responded to risperidone therapy for 4 to 8 months, discontinuation of risperidone was associated with an increased risk of relapse.",
+   "location": "Abstract (Results, Conclusions)",
+   "pico_timeframe": "110 US responders to 16 weeks of open-label risperidone, Alzheimer's disease; switch to placebo vs continue; relapse; 16 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In people who had clearly improved on risperidone, 24 of 40 relapsed within 16 weeks after switching to a dummy tablet, compared with 23 of 70 who stayed on it. So stopping needs a plan and watching, not a blanket rule.",
+   "qualifications": "Only responders; about 4 in 10 of those switched to placebo did not relapse; small trial.",
+   "conflicting_or_uncertain": "Other withdrawal trials (not opened) report many people can stop without relapse; keep the wording to this trial.",
+   "numbers": [
+    {
+     "value": "24 of 40 (60%) vs 23 of 70 (33%)",
+     "meaning": "relapse within 16 weeks, switched to placebo vs continued risperidone"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C08-03",
+   "status": "ready",
+   "reason": "All essential claims supported. NICE wording read verbatim in the NICE PDF text (via Scite index, confirmed by a nice.org.uk search extract). DOMINO-AD gives absolute first-year care home figures (about 20 vs 37 in 100, post hoc) so the hazard ratio need not be used. Benefits are small (the function difference was below the trial's own clinically important threshold) and Cochrane rates stopping evidence as mostly low certainty. Side-effect reasons to stop are supported (nausea, vomiting, diarrhoea; fainting and slow pulse). Care home admission and end-of-life points have no opened source and must be stated as judgement. Weight loss not verified.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C08-03-a",
+    "C08-03-b",
+    "C08-03-c",
+    "C08-03-e"
+   ]
+  },
+  {
+   "cand_id": "C08-08",
+   "status": "revise",
+   "reason": "Gill 2009 figures supported but observational (per 1000 person-years; age range not confirmed). Randomised evidence (Kim 2011) supports more fainting but found no increase in falls or fractures, and Watt 2020 found no link with fall-related hospital visits in care homes, so 'new falls' cannot be presented as a known effect. SmPC/BNF not opened: drop 'vivid dreams/insomnia' and 'heart block listed'. Pulse check is advice, not a sourced recommendation.",
+   "revised_angle": "Focus on the pulse and fainting. These tablets can slow the heart; in pooled trials people taking them fainted more often than on a dummy tablet, and in Ontario data people with dementia on them went to hospital with fainting about 32 times per 1000 people a year vs about 19 (a link, not proof). A second Canadian study found admissions with a very slow pulse after starting the drug, and 78 of 138 people restarted it afterwards. Close: 'Ask at the review: has anyone checked the pulse since the tablet started? Report dizziness or fainting.' Do not say the tablets cause falls or fractures; if falls are mentioned, say a faint can look like a fall.",
+   "essential_claim_ids": [
+    "C08-08-a",
+    "C08-08-b",
+    "C08-08-c"
+   ]
+  },
+  {
+   "cand_id": "C08-17",
+   "status": "ready",
+   "reason": "Core features, non-specificity, consensus advice to avoid antipsychotics whenever possible, and the exact NICE 1.7.4 caution are all supported from full text or the NICE PDF. McKeith 1992 supports 7 of 16 severe reactions (small, old, retrospective). The checklist must be framed as a prompt; 'seek specialist advice' is house advice, not NICE wording. Per editor: lead with the dream-enactment question and antipsychotic sensitivity in dementia; do not discuss delirium or lead with haloperidol.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C08-17-a",
+    "C08-17-b",
+    "C08-17-c",
+    "C08-17-e"
+   ]
+  },
+  {
+   "cand_id": "C08-15",
+   "status": "ready",
+   "reason": "SYMBAD design, null primary result, deaths 7 vs 1 (post hoc, p = 0.065, not powered, earlier trial showed no excess) and authors' conclusion all verified in full text. Setting confirmed: mostly old-age psychiatry services and care homes. The substitution point is supported only by US care home data on mood stabilisers (Maust 2018, 'possibly as a substitute'); word it that way or cut it. Useful extra: agitation fell by about 10 points in both groups by 6 weeks.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C08-15-a",
+    "C08-15-b",
+    "C08-15-c",
+    "C08-15-d"
+   ]
+  },
+  {
+   "cand_id": "C08-07",
+   "status": "ready",
+   "reason": "Reserve. Deaths 3.5% vs 2.3% over 10 to 12 weeks (about 1 extra per 100) verified; benefit supported only in words (small, drug-dependent; no absolute benefit figure); stroke supported in words for risperidone and olanzapine; NICE indications, discussion and 6-weekly review verified; relapse on stopping risperidone in responders verified. Icon array must show deaths only.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C08-07-a",
+    "C08-07-b",
+    "C08-07-c",
+    "C08-07-d"
+   ]
+  }
+ ]
+}
