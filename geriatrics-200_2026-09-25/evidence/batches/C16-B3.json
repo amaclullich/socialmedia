@@ -1,0 +1,472 @@
+{
+ "batch": "C16-B3",
+ "category": "C16",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:27726122",
+   "citation": "Cochrane A, Furlong M, McGilloway S, Molloy DW, Stevenson M, Donnelly M. Time-limited home-care reablement services for maintaining and improving the functional independence of older adults. Cochrane Database Syst Rev. 2016;10(10):CD010825.",
+   "pmid": "27726122",
+   "pmcid": "PMC6457975",
+   "doi": "10.1002/14651858.CD010825.pub2",
+   "public_url": "https://doi.org/10.1002/14651858.CD010825.pub2",
+   "design": "Cochrane systematic review (2 RCTs, 811 participants)",
+   "population_setting": "Adults 65+ receiving home-care reablement, Western Australia and Norway",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Reused from C02-B3 (abstract re-read there). Searches 2015; superseded in part by Hogstedt 2026."
+  },
+  {
+   "key": "PMID:26537789",
+   "citation": "Tuntland H, Aaslund MK, Espehaug B, Forland O, Kjeken I. Reablement in community-dwelling older adults: a randomised controlled trial. BMC Geriatr. 2015;15:145.",
+   "pmid": "26537789",
+   "pmcid": "PMC4634595",
+   "doi": "10.1186/s12877-015-0142-9",
+   "public_url": "https://doi.org/10.1186/s12877-015-0142-9",
+   "design": "RCT, n=61",
+   "population_setting": "Home-dwelling older adults with functional decline, one rural Norwegian municipality",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Small single-site trial; unblinded participants; patient-rated primary outcome."
+  },
+  {
+   "key": "PMID:42380867",
+   "citation": "Hogstedt K, Grooten WJA, Flink M, Baudin K, Guidetti S, Rydwik E. The components and effects of home rehabilitation on activities of daily living and physical performance of community dwelling older people with low physical performance - a systematic review and meta-analysis of randomized controlled trials. BMC Geriatr. 2026;26(1).",
+   "pmid": "42380867",
+   "pmcid": "PMC13321581",
+   "doi": "10.1186/s12877-026-07887-9",
+   "public_url": "https://doi.org/10.1186/s12877-026-07887-9",
+   "design": "Systematic review and meta-analysis, 27 RCTs (n=4,948), GRADE",
+   "population_setting": "Community-dwelling people 65+ with low physical performance or ADL difficulty",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Most recent synthesis; reablement subgroup small, low to very low certainty."
+  },
+  {
+   "key": "PMID:26944937",
+   "citation": "Clegg A, Bates C, Young J, Ryan R, Nichols L, Ann Teale E, et al. Development and validation of an electronic frailty index using routine primary care electronic health record data. Age Ageing. 2016;45(3):353-60.",
+   "pmid": "26944937",
+   "pmcid": "PMC4846793",
+   "doi": "10.1093/ageing/afw039",
+   "public_url": "https://doi.org/10.1093/ageing/afw039",
+   "design": "Retrospective cohort development and validation (931,541 patients)",
+   "population_setting": "Patients 65-95 in UK primary care databases (ResearchOne, THIN)",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Validated for predicting population outcomes, not against individual clinical assessment."
+  },
+  {
+   "key": "PMID:37993406",
+   "citation": "Brack C, Kynn M, Murchie P, Makin S. Validated frailty measures using electronic primary care records: a review of diagnostic test accuracy. Age Ageing. 2023;52(11):afad173.",
+   "pmid": "37993406",
+   "pmcid": "PMC10873280",
+   "doi": "10.1093/ageing/afad173",
+   "public_url": "https://doi.org/10.1093/ageing/afad173",
+   "design": "Systematic review of diagnostic accuracy (10 studies)",
+   "population_setting": "Primary care electronic frailty measures vs in-person Frailty Phenotype",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Only one eFI study (n=60) found; wide confidence intervals."
+  },
+  {
+   "key": "PMID:41917828",
+   "citation": "Barber-Fleming V, Anand A, Wilkinson H, Mead G. A cross-sectional study of the relationship between community dwelling older adults' self-perceived frailty and their electronic frailty index score. BMC Geriatr. 2026;26(1).",
+   "pmid": "41917828",
+   "pmcid": "PMC13185184",
+   "doi": "10.1186/s12877-026-07386-x",
+   "public_url": "https://doi.org/10.1186/s12877-026-07386-x",
+   "design": "Cross-sectional survey, n=375 analysed",
+   "population_setting": "People 70+ from one GP practice (UK, Edinburgh authors)",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Comparison is with self-perception, not a clinical frailty assessment; single practice, 37.5% response."
+  },
+  {
+   "key": "PMID:37402549",
+   "citation": "Winn E, Kissane M, Merriel SW, Brain T, Silverwood VA, Whitehead IO, et al. Using the Primary care Academic CollaboraTive to explore the characteristics and healthcare use of older housebound patients in England: protocol for a retrospective observational study and clinician survey (the CHiP study). BJGP Open. 2023;7(4):BJGPO.2023.0114.",
+   "pmid": "37402549",
+   "pmcid": "PMC11176688",
+   "doi": "10.3399/BJGPO.2023.0114",
+   "public_url": "https://doi.org/10.3399/BJGPO.2023.0114",
+   "design": "Study protocol",
+   "population_setting": "Older (65+) housebound people in English general practice",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Protocol only: the 'neglected group' statement is the authors' view, not a result. CHiP results not found on PubMed."
+  },
+  {
+   "key": "PMID:42730948",
+   "citation": "Ramos T, Cochrane L, Verma A, Zhang L, Beattie A, Johnson CF, Lowrie R. Feasibility study of the Care-at-Home Pharmacotherapy Service (CAHPS): pharmacy technician-led home visits for people receiving polypharmacy who are housebound living in socioeconomically deprived areas. Int J Clin Pharm. 2026.",
+   "pmid": "42730948",
+   "pmcid": null,
+   "doi": "10.1007/s11096-026-02211-2",
+   "public_url": "https://doi.org/10.1007/s11096-026-02211-2",
+   "design": "Pre-post feasibility study, n=25",
+   "population_setting": "Housebound adults 60+ with 2+ long-term conditions and 5+ medicines, two Glasgow practices",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Very small uncontrolled study; use only for the observed missed reviews, not for effects."
+  },
+  {
+   "key": "PMID:41371942",
+   "citation": "Duncan P, Yung N, Dawson S, Howe LD, Cameron A, Sargent K, et al. What does 'housebound' mean? Mixed-methods study to develop a consensus definition. BJGP Open. 2026.",
+   "pmid": "41371942",
+   "pmcid": null,
+   "doi": "10.3399/BJGPO.2025.0234",
+   "public_url": "https://doi.org/10.3399/BJGPO.2025.0234",
+   "design": "Mixed methods: systematic review, interviews, RAND/UCLA consensus",
+   "population_setting": "UK",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Definition and under-research statement; no data on care gaps."
+  },
+  {
+   "key": "PMID:29961638",
+   "citation": "Salisbury C, Man MS, Bower P, Guthrie B, Chaplin K, Gaunt DM, et al. Management of multimorbidity using a patient-centred care model: a pragmatic cluster-randomised trial of the 3D approach. Lancet. 2018;392(10141):41-50.",
+   "pmid": "29961638",
+   "pmcid": "PMC6041724",
+   "doi": "10.1016/S0140-6736(18)31308-4",
+   "public_url": "https://doi.org/10.1016/S0140-6736(18)31308-4",
+   "design": "Pragmatic cluster RCT, 33 practices, 1546 patients",
+   "population_setting": "Adults with 3+ chronic conditions, general practices in England and Scotland",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles, get_article_metadata",
+   "correction_check": "PubMed search of PMID with retracted publication[pt] OR expression of concern[pt] OR published erratum[pt] returned no record (2026-09-25); Scite not used.",
+   "quality_note": "Adults of all ages, not only older people. Experience-of-care results are not in the abstract and were not opened."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C16-28-a",
+   "cand_id": "C16-28",
+   "claim": "Reablement is time-limited, goal-directed help at home to maximise independence.",
+   "source_keys": [
+    "PMID:27726122"
+   ],
+   "supporting_passage": "Unlike traditional home-care services, reablement is frequently time-limited (usually six to 12 weeks) and aims to maximise independence by offering an intensive multidisciplinary, person-centred and goal-directed intervention.",
+   "location": "Abstract, Background",
+   "pico_timeframe": "Definition",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "Reablement is short-term help at home, usually lasting weeks rather than months, that aims to help people do everyday things for themselves again, working towards goals set with them.",
+   "qualifications": "Length varies by service ('usually six to 12 weeks').",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "6 to 12 weeks",
+     "meaning": "usual duration of reablement services internationally, per Cochrane background"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-28-b",
+   "cand_id": "C16-28",
+   "claim": "In England reablement is free for up to six weeks.",
+   "source_keys": [],
+   "supporting_passage": "No PubMed-indexed or opened source stating the charging rule was found (PubMed searches for reablement plus England and six weeks returned only a trial protocol that does not state it). The regulations and Care Act guidance could not be opened.",
+   "location": "Not found",
+   "pico_timeframe": "England, adult social care charging",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Do not state the six-week rule or that reablement is free. If needed: 'Ask the council whether there is any charge and how long the help will last.'",
+   "qualifications": "Scotland and other nations differ; not verified.",
+   "conflicting_or_uncertain": "Unverified.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C16-28-c",
+   "cand_id": "C16-28",
+   "claim": "A 2016 Cochrane review found only two trials and very low certainty evidence.",
+   "source_keys": [
+    "PMID:27726122"
+   ],
+   "supporting_passage": "We are very uncertain as to the effects of reablement compared with usual care as the evidence was of very low quality for all of the outcomes reported.",
+   "location": "Abstract, Main results",
+   "pico_timeframe": "Adults 65+ / time-limited reablement / usual home care / function, admissions, QoL / up to 24 months; searches to 2015",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A 2016 Cochrane review found only 2 trials and was very uncertain whether reablement helps more than usual home care.",
+   "qualifications": "Old searches (2015); a 2026 meta-analysis now exists (C16-28-e).",
+   "conflicting_or_uncertain": "See C16-28-e.",
+   "numbers": [
+    {
+     "value": "2 trials, 811 participants",
+     "meaning": "Cochrane evidence base"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-28-d",
+   "cand_id": "C16-28",
+   "claim": "A Norwegian trial found reablement improved self-rated performance of, and satisfaction with, chosen daily activities.",
+   "source_keys": [
+    "PMID:26537789"
+   ],
+   "supporting_passage": "There were significant improvements in mean scores favouring reablement in COPM performance at 3 months with a score of 1.5 points (p = 0.02), at 9 months 1.4 points (p = 0.03) and overall treatment 1.5 points (p = 0.01), and for COPM satisfaction at 9 months 1.4 points (p = 0.03) and overall treatment 1.2 points (p = 0.04). No significant group differences were found concerning COPM satisfaction at 3 months, physical capacity or health-related quality of life.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "61 home-dwelling older adults with functional decline, rural Norway / 10-week reablement / usual care / self-rated activity performance and satisfaction (COPM), physical capacity, HRQoL / 3 and 9 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one small Norwegian trial of 61 people, those offered 10 weeks of reablement rated their own performance of the everyday activities they had chosen as somewhat better at 3 and 9 months. It did not show a clear difference in physical capacity or quality of life.",
+   "qualifications": "Single small trial; outcome self-rated; effects persisted to 9 months (contrary to the judge's note).",
+   "conflicting_or_uncertain": "Pooled reablement trials in Hogstedt 2026 showed no significant COPM effect.",
+   "numbers": [
+    {
+     "value": "61",
+     "meaning": "participants randomised"
+    },
+    {
+     "value": "10 weeks",
+     "meaning": "programme length"
+    },
+    {
+     "value": "1.5 points at 3 months; 1.4 at 9 months",
+     "meaning": "mean difference in COPM performance (10-point scale), relative to control"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-28-e",
+   "cand_id": "C16-28",
+   "claim": "The newest pooled evidence on reablement remains weak (evidence gap, not evidence of no benefit).",
+   "source_keys": [
+    "PMID:42380867"
+   ],
+   "supporting_passage": "Reablement-based interventions showed no significant effects on selected ADL tasks measured with Canadian Occupational Performance Measure (COPM) (n = 291, COPM performance MD 0.30, 95% CI - 0.25 to 0.86; COPM satisfaction MD 0.19, 95% CI - 0.04 to 0.42) or physical performance (n = 555, SMD 0.12, 95% CI - 0.05 to 0.28), with low to very low evidence according to GRADE. ... Evidence for other ADL outcomes and the Reablement-based remains limited.",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "People 65+ at home with low physical performance / reablement-based home rehabilitation / usual care / COPM, physical performance",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A 2026 review that pooled reablement trials did not show a clear difference in chosen daily activities or physical performance, and the certainty of the evidence was low to very low. That means we do not know, not that it does not work.",
+   "qualifications": "Small pooled numbers (291 and 555).",
+   "conflicting_or_uncertain": "Conflicts with the single-trial positive result; post must present both.",
+   "numbers": [
+    {
+     "value": "27 RCTs, 4,948 people",
+     "meaning": "all home rehabilitation trials in review"
+    },
+    {
+     "value": "291; 555",
+     "meaning": "participants in pooled reablement COPM and physical performance analyses"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-19-a",
+   "cand_id": "C16-19",
+   "claim": "The eFI was built from 36 deficits in routine GP records and predicts population outcomes.",
+   "source_keys": [
+    "PMID:26944937"
+   ],
+   "supporting_passage": "The eFI incorporates 36 deficits constructed using 2,171 CTV3 codes. ... The eFI score is calculated by the presence or absence of individual deficits as a proportion of the total possible. Categories of fit, mild, moderate and severe frailty were defined using population quartiles. ... with good to moderate discrimination but low calibration estimates.",
+   "location": "Abstract, Methods and Results",
+   "pico_timeframe": "931,541 patients aged 65-95, UK primary care databases / eFI category / fit / mortality, hospitalisation, nursing home admission / 1, 3, 5 years",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The eFI counts 36 kinds of problem coded in GP records. It was built to sort a practice population by risk, and higher categories were linked with more deaths, hospital stays and care home moves.",
+   "qualifications": "Validated for population risk prediction; 'low calibration'. Scores depend on what is coded (follows from the method; the abstract does not state it in these words).",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "36 deficits",
+     "meaning": "items in the eFI"
+    },
+    {
+     "value": "931,541",
+     "meaning": "patients in development and validation"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-19-b",
+   "cand_id": "C16-19",
+   "claim": "eFI agreement with in-person frailty assessment for individuals is limited.",
+   "source_keys": [
+    "PMID:37993406",
+    "PMID:41917828"
+   ],
+   "supporting_passage": "Brack 2023: \"One study of 60 patients examined the eFI, reporting a sensitivity of 0.84 (95% CI = 0.55, 0.98) and a specificity of 0.78 (0.64, 0.89).\" ... \"eFI is the best-performing VEFM; however, based on our analysis of an average UK GP practice, it would return a high number of false-positive results. In conclusion, existing electronic frailty tools may not be appropriate for primary care-based population screening.\" Barber-Fleming 2026: \"Agreement was 'fair' between self-perceived frailty and eFI (linear weighted Kappa 0.25, quadratic weighted Kappa 0.37).\"",
+   "location": "Abstracts, Results and Conclusions",
+   "pico_timeframe": "Brack: primary care patients / eFI / Frailty Phenotype in person. Barber-Fleming: 375 people 70+ at one practice / eFI category / self-rated frailty",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Only one small study (60 people) has checked the eFI against an in-person frailty assessment. A 2023 review estimated that, across a typical practice, it would label many people as frail who are not. So an eFI category is a reason to review someone, not a diagnosis.",
+   "qualifications": "Do not say 'moderate agreement' (no source gives that); self-perception study is not a clinical comparison.",
+   "conflicting_or_uncertain": "Evidence base for individual accuracy is very thin.",
+   "numbers": [
+    {
+     "value": "1 study, 60 patients",
+     "meaning": "eFI vs Frailty Phenotype"
+    },
+    {
+     "value": "sensitivity 0.84, specificity 0.78",
+     "meaning": "that single study, wide CIs"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-19-c",
+   "cand_id": "C16-19",
+   "claim": "The GP contract in England since 2017/18 requires frailty identification using a tool such as the eFI.",
+   "source_keys": [
+    "PMID:37993406"
+   ],
+   "supporting_passage": "the use of tools that screen for frailty using electronic records (which we term as validated electronic frailty measures (VEFMs)) within primary care is incentivised by NHS England.",
+   "location": "Abstract, Background",
+   "pico_timeframe": "England",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "In England, NHS England encourages practices to use electronic record tools such as the eFI to find people who may be living with frailty.",
+   "qualifications": "Year (2017) and contract wording not verified; background statement.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C16-26-a",
+   "cand_id": "C16-26",
+   "claim": "Housebound older people are an under-researched group with complex needs who face challenges accessing primary care.",
+   "source_keys": [
+    "PMID:41371942",
+    "PMID:37402549"
+   ],
+   "supporting_passage": "Duncan 2026: \"Housebound patients are an under-researched group who face challenges accessing primary health care and have complex needs.\" Winn 2023: \"Older housebound people are a neglected group both in terms of research and clinical care.\"",
+   "location": "Abstracts, Background and Conclusion",
+   "pico_timeframe": "UK primary care",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "UK researchers describe housebound patients as a group who find it hard to get GP care, have complex needs, and have been little studied.",
+   "qualifications": "Authors' framing statements, not measured findings; CHiP results not found.",
+   "conflicting_or_uncertain": "No UK figures on the size of the care gap were found.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C16-26-b",
+   "cand_id": "C16-26",
+   "claim": "Housebound people often miss routine long-term condition reviews at the practice.",
+   "source_keys": [
+    "PMID:42730948"
+   ],
+   "supporting_passage": "People who are housebound frequently miss general practice-based long-term condition (LTC) reviews. ... In total, twenty-three patients had missed 91 LTC reviews since becoming housebound and were prescribed a median of 14 regular medications (range 9-27).",
+   "location": "Abstract, Background and Results",
+   "pico_timeframe": "25 housebound adults 60+ with 2+ LTCs and 5+ medicines, two deprived Glasgow practices / home pharmacy review",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one small Glasgow study, 23 of 25 housebound people had missed routine reviews of their long-term conditions since becoming housebound.",
+   "qualifications": "Small, Scottish, selected sample; not a prevalence estimate. Do not claim effects of the home visits.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "23 of 25",
+     "meaning": "housebound patients who had missed reviews"
+    },
+    {
+     "value": "91",
+     "meaning": "missed long-term condition reviews in total"
+    }
+   ]
+  },
+  {
+   "claim_id": "C16-26-c",
+   "cand_id": "C16-26",
+   "claim": "Home NHS sight tests and home vaccination are available for eligible housebound people.",
+   "source_keys": [],
+   "supporting_passage": "No source opened; NHS and UKHSA pages cannot be opened.",
+   "location": "Not found",
+   "pico_timeframe": "England/Scotland",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Leave out specific entitlements, or phrase as a question: 'Ask the practice what can be done at home, such as vaccines and medicine reviews.'",
+   "qualifications": "Nation-specific rules unverified.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C16-25-a",
+   "cand_id": "C16-25",
+   "claim": "The 3D trial of patient-centred multimorbidity reviews did not improve quality of life.",
+   "source_keys": [
+    "PMID:29961638"
+   ],
+   "supporting_passage": "In our intention-to-treat analysis, there was no difference between trial groups in the primary outcome of quality of life (adjusted difference in mean EQ-5D-5L 0\u00b700, 95% CI -0\u00b702 to 0\u00b702; p=0\u00b793).",
+   "location": "Abstract, Findings",
+   "pico_timeframe": "1546 adults with 3+ chronic conditions, 33 practices in England and Scotland / 6-monthly 3D reviews / usual care / EQ-5D-5L / 15 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a UK trial of 1546 adults with three or more long-term conditions, longer six-monthly whole-person reviews did not show a difference in quality of life after 15 months.",
+   "qualifications": "Adults of all ages. Better experience of care is not in the abstract and was not verified.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "1546",
+     "meaning": "patients"
+    },
+    {
+     "value": "0.00 (-0.02 to 0.02)",
+     "meaning": "adjusted difference in EQ-5D-5L"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C16-28",
+   "status": "revise",
+   "reason": "Six-week free rule not found in any opened source; the newest meta-analysis (Hogstedt 2026) shows no clear pooled benefit, so the evidence picture must include it.",
+   "revised_angle": "Reablement is short-term help to relearn everyday tasks. Evidence is uncertain: a 2016 Cochrane review found 2 trials; one small Norwegian trial found people rated their chosen activities better; a 2026 pooled review did not show a clear difference, at low certainty. This is a gap, not proof it fails. Close: ask for your goals in writing, how long the help lasts, whether there is any charge, and a review at the end. Drop the six-week/free claim.",
+   "essential_claim_ids": [
+    "C16-28-a",
+    "C16-28-c",
+    "C16-28-d",
+    "C16-28-e"
+   ]
+  },
+  {
+   "cand_id": "C16-26",
+   "status": "revise",
+   "reason": "UK sources found (Duncan 2026, Winn 2023, Ramos 2026) but only for under-research and missed reviews; no UK figure on the preventive-care gap; sight-test and vaccine entitlements unverified; Ornstein not used.",
+   "revised_angle": "People who cannot get to the surgery can drop out of routine reviews. UK researchers describe housebound patients as under-studied with complex needs; in one small Glasgow study 23 of 25 housebound people had missed long-term condition reviews. Ask the practice to record that the person is housebound and what reviews, medicines checks and vaccines can be done at home. No specific entitlement rules.",
+   "essential_claim_ids": [
+    "C16-26-a",
+    "C16-26-b"
+   ]
+  },
+  {
+   "cand_id": "C16-25",
+   "status": "revise",
+   "reason": "Reserve not needed as fallback since C16-26 survives. 3D quality-of-life result verified; experience-of-care benefit, consultation length and NICE NG56 wording not verified.",
+   "revised_angle": "Only if promoted: open 3D full text (PMC6041724) to verify experience-of-care results; drop consultation-length figure and NICE wording unless sourced.",
+   "essential_claim_ids": [
+    "C16-25-a"
+   ]
+  },
+  {
+   "cand_id": "C16-19",
+   "status": "ready",
+   "reason": "Construction, purpose and weak individual-level validation supported; replace 'moderate agreement' with the Brack 2023 finding; contract year left out.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C16-19-a",
+    "C16-19-b"
+   ]
+  }
+ ]
+}

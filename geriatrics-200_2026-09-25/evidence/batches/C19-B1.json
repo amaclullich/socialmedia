@@ -1,0 +1,504 @@
+{
+ "batch": "C19-B1",
+ "category": "C19",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:28385893",
+   "citation": "Downar J, Goldman R, Pinto R, Englesakis M, Adhikari NKJ. The \"surprise question\" for predicting death in seriously ill patients: a systematic review and meta-analysis. CMAJ. 2017;189(13):E484-93.",
+   "pmid": "28385893",
+   "pmcid": "PMC5378508",
+   "doi": "10.1503/cmaj.160775",
+   "public_url": "https://doi.org/10.1503/cmaj.160775",
+   "design": "Systematic review and meta-analysis (16 studies, 17 cohorts)",
+   "population_setting": "11,621 seriously ill patients, mixed settings; death at 6-18 months",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
+   "quality_note": "Most included studies moderate to high risk of bias."
+  },
+  {
+   "key": "PMID:10678857",
+   "citation": "Christakis NA, Lamont EB. Extent and determinants of error in doctors' prognoses in terminally ill patients: prospective cohort study. BMJ. 2000;320(7233):469-72.",
+   "pmid": "10678857",
+   "pmcid": "PMC27288",
+   "doi": "10.1136/bmj.320.7233.469",
+   "public_url": "https://doi.org/10.1136/bmj.320.7233.469",
+   "design": "Prospective cohort",
+   "population_setting": "468 terminally ill patients referred to 5 outpatient hospice programmes, Chicago, USA; 343 doctors",
+   "year": 2000,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
+   "quality_note": "Single US city, old data; associations only."
+  },
+  {
+   "key": "PMID:27560380",
+   "citation": "White N, Reid F, Harris A, Harries P, Stone P. A systematic review of predictions of survival in palliative care: how accurate are clinicians and who are the experts? PLoS One. 2016;11(8):e0161407.",
+   "pmid": "27560380",
+   "pmcid": "PMC4999179",
+   "doi": "10.1371/journal.pone.0161407",
+   "public_url": "https://doi.org/10.1371/journal.pone.0161407",
+   "design": "Systematic review (42 studies, no pooled estimate)",
+   "population_setting": "Adult palliative care populations",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
+   "quality_note": "High heterogeneity; single data extractor."
+  },
+  {
+   "key": "PMID:19828530",
+   "citation": "Mitchell SL, Teno JM, Kiely DK, Shaffer ML, Jones RN, Prigerson HG, et al. The clinical course of advanced dementia. N Engl J Med. 2009;361(16):1529-38.",
+   "pmid": "19828530",
+   "pmcid": "PMC2778850",
+   "doi": "10.1056/NEJMoa0902234",
+   "public_url": "https://doi.org/10.1056/NEJMoa0902234",
+   "design": "Prospective cohort (CASCADE)",
+   "population_setting": "323 residents with advanced dementia in 22 US (Boston area) nursing homes, 18 months",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
+   "quality_note": "Observational; late-stage dementia; US care context."
+  },
+  {
+   "key": "PMID:12746362",
+   "citation": "Lunney JR, Lynn J, Foley DJ, Lipson S, Guralnik JM. Patterns of functional decline at the end of life. JAMA. 2003;289(18):2387-92.",
+   "pmid": "12746362",
+   "pmcid": null,
+   "doi": "10.1001/jama.289.18.2387",
+   "public_url": "https://doi.org/10.1001/jama.289.18.2387",
+   "design": "Cohort analysis (EPESE)",
+   "population_setting": "4190 US decedents aged 65+, interviewed within a year before death, 1980s-90s",
+   "year": 2003,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
+   "quality_note": "Pseudo-longitudinal: cohorts by time to death, not individual trajectories; group means."
+  },
+  {
+   "key": "PMID:20818875",
+   "citation": "Temel JS, Greer JA, Muzikansky A, Gallagher ER, Admane S, Jackson VA, et al. Early palliative care for patients with metastatic non-small-cell lung cancer. N Engl J Med. 2010;363(8):733-42.",
+   "pmid": "20818875",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa1000678",
+   "public_url": "https://doi.org/10.1056/NEJMoa1000678",
+   "design": "Randomised controlled trial",
+   "population_setting": "151 ambulatory outpatients with newly diagnosed metastatic NSCLC, Boston, USA",
+   "year": 2010,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
+   "quality_note": "Single centre; small; survival was not primary outcome."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C19-18-a",
+   "cand_id": "C19-18",
+   "claim": "Doctors' survival estimates at hospice referral were accurate in 1 in 5 and mostly too optimistic.",
+   "source_keys": [
+    "PMID:10678857"
+   ],
+   "supporting_passage": "Median survival was 24 days. Only 20% (92/468) of predictions were accurate (within 33% of actual survival); 63% (295/468) were overoptimistic and 17% (81/468) were overpessimistic. Overall, doctors overestimated survival by a factor of 5.3.",
+   "location": "Abstract",
+   "pico_timeframe": "468 terminally ill patients at hospice referral, Chicago, late 1990s; doctors' estimate vs actual survival",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of 468 people referred to hospice, doctors' estimates were within a third of actual survival about 20 in 100 times; 63 in 100 were too optimistic and 17 in 100 too pessimistic.",
+   "qualifications": "Define 'accurate' as within 33% of actual survival; US, one city, around 2000, mostly outpatient hospice referrals.",
+   "conflicting_or_uncertain": "Old single study; newer review (White 2016) agrees estimates are often inaccurate.",
+   "numbers": [
+    {
+     "value": "468",
+     "meaning": "patients"
+    },
+    {
+     "value": "343",
+     "meaning": "doctors"
+    },
+    {
+     "value": "24 days",
+     "meaning": "median survival"
+    },
+    {
+     "value": "20%",
+     "meaning": "92/468 accurate"
+    },
+    {
+     "value": "63%",
+     "meaning": "295/468 overoptimistic"
+    },
+    {
+     "value": "17%",
+     "meaning": "81/468 overpessimistic"
+    },
+    {
+     "value": "5.3",
+     "meaning": "overall overestimation factor"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-18-b",
+   "cand_id": "C19-18",
+   "claim": "Longer doctor-patient relationship was linked with less accurate prediction.",
+   "source_keys": [
+    "PMID:10678857"
+   ],
+   "supporting_passage": "As duration of doctor-patient relationship increased and time since last contact decreased, prognostic accuracy decreased.",
+   "location": "Abstract",
+   "pico_timeframe": "Same cohort; association",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In this one study, the longer the doctor had known the patient, and the more recently they had seen them, the less accurate the estimate tended to be.",
+   "qualifications": "Association in one study; does not prove that knowing the patient causes the error.",
+   "conflicting_or_uncertain": "Not confirmed by a later review as far as checked.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C19-18-c",
+   "cand_id": "C19-18",
+   "claim": "A systematic review found clinicians' survival predictions in palliative care are frequently inaccurate, with no expert group.",
+   "source_keys": [
+    "PMID:27560380"
+   ],
+   "supporting_passage": "Studies of prognostic accuracy in palliative care are heterogeneous, but the evidence suggests that clinicians' predictions are frequently inaccurate. No sub-group of clinicians was consistently shown to be more accurate than any other.",
+   "location": "Abstract",
+   "pico_timeframe": "42 studies, adult palliative care; up to June 2015",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A review of 42 studies found clinicians' survival predictions in palliative care were often inaccurate, and no professional group was consistently better.",
+   "qualifications": "Heterogeneous; no pooled accuracy figure.",
+   "conflicting_or_uncertain": "Probabilistic estimates tended to be more accurate (c 0.74-0.78).",
+   "numbers": [
+    {
+     "value": "42",
+     "meaning": "studies in review"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-18-d",
+   "cand_id": "C19-18",
+   "claim": "Give a range, name what would shorten it, seek a colleague's view.",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Abstract",
+   "pico_timeframe": "n/a",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_supported",
+   "safe_wording": "Mark as professional recommendation: 'Our suggestion:'.",
+   "qualifications": "Judgement, not tested remedy.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C19-17-a",
+   "cand_id": "C19-17",
+   "claim": "Surprise question pooled performance.",
+   "source_keys": [
+    "PMID:28385893"
+   ],
+   "supporting_passage": "For the outcome of death at 6 to 18 months, the pooled prognostic characteristics were sensitivity 67.0% (95% confidence interval [CI] 55.7%-76.7%), specificity 80.2% (73.3%-85.6%), ... positive predictive value 37.1% (95% CI 30.2%-44.6%) and negative predictive value 93.1% (95% CI 91.0%-94.8%).",
+   "location": "Abstract",
+   "pico_timeframe": "16 studies, 11,621 patients; death within 6-18 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Pooled across 16 studies, the question picked up about 67 in 100 people who died within 6 to 18 months; of those flagged, about 37 in 100 died in that window, so most flagged people were still alive.",
+   "qualifications": "PPV depends on how many in the group die, so varies by setting; window 6-18 months, not strictly a year.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "16 studies / 17 cohorts / 11,621 patients",
+     "meaning": "meta-analysis size"
+    },
+    {
+     "value": "67.0%",
+     "meaning": "sensitivity"
+    },
+    {
+     "value": "80.2%",
+     "meaning": "specificity"
+    },
+    {
+     "value": "37.1%",
+     "meaning": "PPV"
+    },
+    {
+     "value": "93.1%",
+     "meaning": "NPV"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-17-b",
+   "cand_id": "C19-17",
+   "claim": "Worse in non-cancer illness; most studies at moderate-high risk of bias.",
+   "source_keys": [
+    "PMID:28385893"
+   ],
+   "supporting_passage": "The surprise question had worse discrimination in patients with noncancer illness (area under sROC curve 0.77 [95% CI 0.73-0.81]) than in patients with cancer (area under sROC curve 0.83 ... ). Most studies had a moderate to high risk of bias",
+   "location": "Abstract",
+   "pico_timeframe": "As above",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "It worked less well in illnesses other than cancer, and most studies had a moderate to high risk of bias.",
+   "qualifications": "",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "0.77 vs 0.83",
+     "meaning": "AUC non-cancer vs cancer"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-17-c",
+   "cand_id": "C19-17",
+   "claim": "Surprise question is in Gold Standards Framework Proactive Identification Guidance.",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Abstract",
+   "pico_timeframe": "n/a",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Omit, or say 'widely used in UK identification tools' only if another batch verifies it.",
+   "qualifications": "Official GSF document not opened.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C19-17-d",
+   "cand_id": "C19-17",
+   "claim": "Use it as a prompt for conversation rather than prediction.",
+   "source_keys": [
+    "PMID:28385893"
+   ],
+   "supporting_passage": "The surprise question performs poorly to modestly as a predictive tool for death",
+   "location": "Abstract",
+   "pico_timeframe": "As above",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The authors judged it a poor to modest predictor; using it to open conversations is our judgement.",
+   "qualifications": "Mark 'prompt not prediction' as judgement.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C19-24-a",
+   "cand_id": "C19-24",
+   "claim": "Course of advanced dementia over 18 months.",
+   "source_keys": [
+    "PMID:19828530"
+   ],
+   "supporting_passage": "Over a period of 18 months, 54.8% of the residents died. The probability of pneumonia was 41.1%; a febrile episode, 52.6%; and an eating problem, 85.8%.",
+   "location": "Abstract",
+   "pico_timeframe": "323 US nursing-home residents with advanced dementia, 18 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US study of 323 care-home residents with advanced dementia, over 18 months about 86 in 100 developed eating problems, about 53 in 100 a fever, about 41 in 100 pneumonia, and about 55 in 100 died.",
+   "qualifications": "US nursing homes, advanced (late-stage) dementia; probabilities over 18 months.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "323",
+     "meaning": "residents"
+    },
+    {
+     "value": "54.8%",
+     "meaning": "died over 18 months"
+    },
+    {
+     "value": "41.1%",
+     "meaning": "probability of pneumonia, 18 months"
+    },
+    {
+     "value": "52.6%",
+     "meaning": "febrile episode"
+    },
+    {
+     "value": "85.8%",
+     "meaning": "eating problem"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-24-b",
+   "cand_id": "C19-24",
+   "claim": "Burdensome interventions in last 3 months and link with proxy understanding.",
+   "source_keys": [
+    "PMID:19828530"
+   ],
+   "supporting_passage": "In the last 3 months of life, 40.7% of residents underwent at least one burdensome intervention (hospitalization, emergency room visit, parenteral therapy, or tube feeding). Residents whose proxies had an understanding of the poor prognosis and clinical complications expected in advanced dementia were much less likely to have burdensome interventions in the last 3 months of life than were residents whose proxies did not have this understanding (adjusted odds ratio, 0.12; 95% confidence interval, 0.04 to 0.37).",
+   "location": "Abstract",
+   "pico_timeframe": "Residents who died; proxy understanding vs not; last 3 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "About 41 in 100 who died had a hospital transfer, emergency visit, drip or tube feeding in their last 3 months. Those whose families understood the likely course were much less likely to have these.",
+   "qualifications": "Observational; do not convert OR 0.12; does not prove that informing families causes the difference.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "40.7%",
+     "meaning": "of decedents, >=1 burdensome intervention, last 3 months"
+    },
+    {
+     "value": "OR 0.12 (0.04-0.37)",
+     "meaning": "adjusted, observational; state in words only"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-35-a",
+   "cand_id": "C19-35",
+   "claim": "Functional decline patterns differ by trajectory; frail decedents low function throughout last year and more dependent near death.",
+   "source_keys": [
+    "PMID:12746362"
+   ],
+   "supporting_passage": "cancer decedents were highly functional early in their final year but markedly more disabled 3 months prior to death ...; organ failure decedents experienced a fluctuating pattern of decline ...; and frail decedents were relatively more disabled in the final year and especially dependent during the last month (2.92 [2.24-3.60] vs 5.84 [5.33-6.35], P<.001). ... Trajectories of functional decline at the end of life are quite variable.",
+   "location": "Abstract",
+   "pico_timeframe": "4190 US decedents aged 65+; ADL dependency in last year",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A large US study of older people found that those who died with frailty already needed help with daily activities a year before death and needed more near the end, while people dying of cancer often stayed independent until the last few months.",
+   "qualifications": "Group averages from 1980s-90s US data; individuals vary widely; dementia grouped under frailty in this study only by inference - do not claim dementia specifically from Lunney.",
+   "conflicting_or_uncertain": "Murray 2005 (PMID 15860828, no abstract, not opened) describes three trajectories conceptually.",
+   "numbers": [
+    {
+     "value": "2.92 vs 5.84",
+     "meaning": "mean ADL dependencies, frail, 12 months vs last month"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-35-b",
+   "cand_id": "C19-35",
+   "claim": "No clear moment; start conversations early.",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Abstract",
+   "pico_timeframe": "n/a",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Present as judgement drawn from the slow-decline pattern.",
+   "qualifications": "Judgement.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C19-36-a",
+   "cand_id": "C19-36",
+   "claim": "Early palliative care alongside cancer treatment improved quality of life and mood.",
+   "source_keys": [
+    "PMID:20818875"
+   ],
+   "supporting_passage": "We randomly assigned patients with newly diagnosed metastatic non-small-cell lung cancer to receive either early palliative care integrated with standard oncologic care or standard oncologic care alone. ... Patients assigned to early palliative care had a better quality of life ... (98.0 vs. 91.5; P=0.03). In addition, fewer patients in the palliative care group than in the standard care group had depressive symptoms (16% vs. 38%, P=0.01).",
+   "location": "Abstract",
+   "pico_timeframe": "151 outpatients, metastatic NSCLC; early PC + oncology vs oncology alone; 12 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a trial of 151 people with advanced lung cancer, palliative care given alongside cancer treatment from diagnosis improved quality of life, and fewer had depressive symptoms at 12 weeks (16 in 100 vs 38 in 100).",
+   "qualifications": "One small US trial in lung cancer; do not generalise benefit to non-cancer illness; survival was secondary and should not lead; do not describe age as 'younger'.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "151",
+     "meaning": "randomised"
+    },
+    {
+     "value": "16% vs 38%",
+     "meaning": "depressive symptoms at 12 weeks among assessed"
+    },
+    {
+     "value": "33% vs 54%",
+     "meaning": "aggressive end-of-life care"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-36-b",
+   "cand_id": "C19-36",
+   "claim": "WHO definition: palliative care applicable early alongside life-prolonging therapy.",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Abstract",
+   "pico_timeframe": "n/a",
+   "claim_type": "definition",
+   "verdict": "not_found",
+   "safe_wording": "Omit the WHO attribution; the Temel trial itself shows palliative care given alongside treatment.",
+   "qualifications": "WHO page not opened.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C19-36-c",
+   "cand_id": "C19-36",
+   "claim": "People often associate palliative care with death and loss of hope (Zimmermann 2016).",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Abstract",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Omit as a finding; may say 'some people worry' as observation.",
+   "qualifications": "Not verified.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C19-18",
+   "status": "ready",
+   "reason": "Figures and association verified; corrections marked as recommendation; White 2016 supports general point.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C19-18-a",
+    "C19-18-b",
+    "C19-18-c"
+   ]
+  },
+  {
+   "cand_id": "C19-17",
+   "status": "revise",
+   "reason": "Downar figures verified; GSF guidance claim not verified.",
+   "revised_angle": "Drop the Gold Standards Framework attribution; keep 6-18 month window and note PPV varies with setting; 'prompt not prediction' as judgement.",
+   "essential_claim_ids": [
+    "C19-17-a",
+    "C19-17-b",
+    "C19-17-d"
+   ]
+  },
+  {
+   "cand_id": "C19-24",
+   "status": "ready",
+   "reason": "All Mitchell figures verified from abstract; open with eating-problems finding; OR in words.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C19-24-a",
+    "C19-24-b"
+   ]
+  },
+  {
+   "cand_id": "C19-35",
+   "status": "revise",
+   "reason": "Lunney supports frailty vs cancer patterns; Murray not opened; dementia-specific trajectory not directly verified.",
+   "revised_angle": "Base on Lunney (frailty vs cancer vs organ failure), label as group averages with wide variation; mention dementia only as judgement.",
+   "essential_claim_ids": [
+    "C19-35-a"
+   ]
+  },
+  {
+   "cand_id": "C19-36",
+   "status": "revise",
+   "reason": "Temel verified; WHO definition and Zimmermann not opened.",
+   "revised_angle": "Anchor 'alongside treatment' in Temel trial design, drop WHO attribution, no age claim, survival not leading.",
+   "essential_claim_ids": [
+    "C19-36-a"
+   ]
+  }
+ ]
+}

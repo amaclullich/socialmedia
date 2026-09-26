@@ -1,0 +1,1132 @@
+{
+ "batch": "C08-B3",
+ "category": "C08",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:37586881",
+   "citation": "Pittock RR, Aakre JA, Castillo AM, Ramanan VK, Kremers WK, Jack CR, et al. Eligibility for anti-amyloid treatment in a population-based study of cognitive aging. Neurology. 2023;101(19):e1837-e1849.",
+   "pmid": "37586881",
+   "pmcid": "PMC10663008",
+   "doi": "10.1212/WNL.0000000000207770",
+   "public_url": "https://doi.org/10.1212/WNL.0000000000207770",
+   "design": "Cross-sectional application of the lecanemab (Clarity AD) and aducanumab trial eligibility criteria to a population-based cohort",
+   "population_setting": "237 participants of the population-based Mayo Clinic Study of Aging (USA) with mild cognitive impairment or mild dementia and raised brain amyloid on PiB PET; mean age 80.9, 54.9% men, 97.5% White",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article on PMC10663008 returned only the abstract (empty body)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Peer-reviewed, population-based sample, which is its strength compared with memory-clinic samples. Applies TRIAL entry criteria, not licensing or appropriate-use criteria, so it describes who the trial evidence represents rather than who can be treated. Almost all participants White; one US study. The breakdown of specific exclusion reasons is in the full text, which could not be read; the abstract gives only 'other chronic conditions and neuroimaging findings'."
+  },
+  {
+   "key": "PMID:41865008",
+   "citation": "Borgström Bolmsjö B, Barbosa Djärf J, van Westen D, Schindler SE, Fawad A, Collij L, et al. Eligibility for amyloid targeting therapies among primary care patients with cognitive symptoms. Alzheimers Res Ther. 2026;18(1).",
+   "pmid": "41865008",
+   "pmcid": "PMC13064071",
+   "doi": "10.1186/s13195-026-02019-2",
+   "public_url": "https://doi.org/10.1186/s13195-026-02019-2",
+   "design": "Prospective cohort (BioFINDER-Primary Care) with full diagnostic work-up (CSF or PET amyloid, 3T MRI, specialist consensus) and stepwise application of appropriate use recommendations (AUR) for lecanemab and donanemab",
+   "population_setting": "607 consecutive patients presenting with cognitive symptoms at 23 primary care centres in southern Sweden, January 2020 to April 2025; mean age 75.9; included subjective cognitive decline (34.1%), MCI (43.0%), mild dementia (20.4%) and moderate dementia (2.5%)",
+   "year": 2026,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC13064071)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Peer-reviewed, recent, primary-care setting, which is the closest to 'typical patients'. Applies real-world use recommendations (not trial criteria). Research participation led to earlier assessment than routine care; care-partner requirement could not be assessed (may overestimate eligibility); 3T MRI may slightly lower eligibility. Single Swedish region. Authors state 'clinical eligibility does not equate to treatment initiation'."
+  },
+  {
+   "key": "PMID:41634843",
+   "citation": "Bellelli F, Delrieu J, van Kan GA, Peluso A, Soriano G, Vellas B, et al. Are pre-frail and frail amyloid positive individuals eligible to Lecanemab? A cross-sectional analysis from the Cogfrail real-world cohort. Alzheimers Res Ther. 2026;18(1).",
+   "pmid": "41634843",
+   "pmcid": "PMC12964647",
+   "doi": "10.1186/s13195-026-01966-0",
+   "public_url": "https://doi.org/10.1186/s13195-026-01966-0",
+   "design": "Cross-sectional analysis applying Clarity AD trial criteria and US and French appropriate use recommendations to an existing cohort",
+   "population_setting": "120 amyloid-positive pre-frail and frail older adults in the Cogfrail real-world cohort (NCT03129269); median age 82; 65% women; 36.7% frail by Fried phenotype",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (abstract read; full text not opened)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Peer-reviewed; small sample (44 frail). Directly relevant to geriatric populations. Shows the gap between trial criteria (about 1 in 5 eligible) and real-world use recommendations (about 1 in 2 potentially eligible), which the post must not blur."
+  },
+  {
+   "key": "PMID:36449413",
+   "citation": "van Dyck CH, Swanson CJ, Aisen P, Bateman RJ, Chen C, Gee M, et al. Lecanemab in early Alzheimer's disease. N Engl J Med. 2023;388(1):9-21.",
+   "pmid": "36449413",
+   "pmcid": null,
+   "doi": "10.1056/NEJMoa2212948",
+   "public_url": "https://doi.org/10.1056/NEJMoa2212948",
+   "design": "Phase 3, 18-month, multicentre, double-blind, placebo-controlled randomised trial (Clarity AD)",
+   "population_setting": "1795 people aged 50 to 90 with early Alzheimer's disease (MCI or mild dementia) and amyloid on PET or CSF",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article. A 2024 correction exists for the separate Honig et al. updated-safety paper (PMID 38987826), not for this trial report.",
+   "quality_note": "Pivotal trial, funded by Eisai and Biogen. Abstract gives the CDR-SB difference and ARIA-E rate in the lecanemab group only; the placebo ARIA-E rate (1.7% in the candidate) is NOT in the abstract and was not verified, so it must not be used."
+  },
+  {
+   "key": "PMID:40051090",
+   "citation": "Bobbins A, Davies M, Lynn E, Roy D, Yeomans A, Shakir SAW. Safety and effectiveness of the anti-amyloid monoclonal antibody (mAb) drug lecanemab for early Alzheimer's disease: the pharmacovigilance perspective. Br J Clin Pharmacol. 2025;91(5):1352-60.",
+   "pmid": "40051090",
+   "pmcid": "PMC12035590",
+   "doi": "10.1002/bcp.70021",
+   "public_url": "https://doi.org/10.1002/bcp.70021",
+   "design": "Narrative review",
+   "population_setting": "UK regulatory and NHS context for lecanemab",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: no retraction, expression of concern or erratum found by publication-type search (26 Sep 2026).",
+   "quality_note": "Used only for the dated regulatory fact that the MHRA approved lecanemab in August 2024. Its statement about NICE reflects the position at the time of writing (early 2025) and could not be checked against current NICE guidance, so the post should not state NICE's current position."
+  },
+  {
+   "key": "PMID:35074796",
+   "citation": "Delgado J, Evans PH, Gray DP, Sidaway-Lee K, Allan L, Clare L, et al. Continuity of GP care for patients with dementia: impact on prescribing and the health of patients. Br J Gen Pract. 2022;72(715):e91-e98.",
+   "pmid": "35074796",
+   "pmcid": "PMC8803082",
+   "doi": "10.3399/BJGP.2021.0413",
+   "public_url": "https://doi.org/10.3399/BJGP.2021.0413",
+   "design": "Retrospective cohort (CPRD primary care records linked to Hospital Episode Statistics and death registrations), 1-year lead-in to measure continuity and 1-year follow-up",
+   "population_setting": "9,324 people with dementia aged 65 or over registered with English general practices, with at least 3 GP consultations in 2015; mean age 84.5; 65.7% women; 8.8% care home residents; followed through 2016",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC8803082)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Large, representative English primary care data, adjusted for age, sex, deprivation, 14 conditions, frailty and number of consultations. Observational: authors state it 'cannot indicate causation'. Medicine counts quoted in the abstract (8.5 vs 9.7; 2.1 vs 2.5) are unadjusted means; adjusted differences are smaller (IRR 0.96 and 0.93). Emergency admission association lost significance when the first 6 months were censored. Many PIP criteria tested (false discovery possible). Excluded 1,851 people with fewer than 3 GP visits. Authors' discussion sentence 'higher CGPC leads to better health outcomes' overstates their own design and must not be echoed."
+  },
+  {
+   "key": "PMID:33635538",
+   "citation": "Godard-Sebillotte C, Strumpf E, Sourial N, Rochette L, Pelletier E, Vedel I. Primary care continuity and potentially avoidable hospitalization in persons with dementia. J Am Geriatr Soc. 2021;69(5):1208-20.",
+   "pmid": "33635538",
+   "pmcid": null,
+   "doi": "10.1111/jgs.17049",
+   "public_url": "https://doi.org/10.1111/jgs.17049",
+   "design": "Population-based retrospective cohort with inverse probability of treatment weighting (propensity score)",
+   "population_setting": "22,060 community-dwelling people with dementia aged 65 or over in Quebec, Canada, with at least 2 primary care visits in the preceding year; followed 1 year from 31 March 2015",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Independent replication in another health system, with propensity weighting. Still observational. Abstract labels effect sizes 'relative risk reduction 0.82' although values below 1 read as relative risks; quote cautiously or use words rather than numbers."
+  },
+  {
+   "key": "PMID:40744755",
+   "citation": "Dineen M, Engamba S, Khan NF, Sidaway-Lee K, Duncan P, Watson J, et al. Delivering relational continuity of care in light of recent GP contract changes. Br J Gen Pract. 2025;75(757):342-4.",
+   "pmid": "40744755",
+   "pmcid": "PMC12729037",
+   "doi": "10.3399/BJGP.2025.0199",
+   "public_url": "https://doi.org/10.3399/BJGP.2025.0199",
+   "design": "Editorial (expert opinion)",
+   "population_setting": "UK general practice; NHS England GP contract 2025-26 and Welsh GMS contract 2024-25",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC12729037)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Expert opinion by continuity researchers (several authors from the St Leonard's group, which advocates for continuity). The statement that most UK practices do not measure continuity is attributed to the Welsh Government and is not an audited figure. Contract policy may have changed since (see PMID 40750333)."
+  },
+  {
+   "key": "PMID:40750333",
+   "citation": "Engamba S, Smith J, Khan N, Sidaway-Lee K, Burch P, Marshall T, et al. Enhancing understanding of interventions to increase relational continuity in general practice: a realist review protocol. BJGP Open. 2026;10(1).",
+   "pmid": "40750333",
+   "pmcid": "PMC13540356",
+   "doi": "10.3399/BJGPO.2025.0119",
+   "public_url": "https://doi.org/10.3399/BJGPO.2025.0119",
+   "design": "Realist review protocol",
+   "population_setting": "General practice, England",
+   "year": 2026,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: no retraction or erratum found by publication-type search (26 Sep 2026).",
+   "quality_note": "Used only as a currency flag: its background sentence says the new GP contract in England highlights monitoring continuity. A background statement in a protocol, not a verified policy source; it signals that 'practices do not measure continuity' may be becoming out of date."
+  },
+  {
+   "key": "PMID:31548353",
+   "citation": "Tammes P, Payne RA, Salisbury C, Chalder M, Purdy S, Morris RW. The impact of a named GP scheme on continuity of care and emergency hospital admission: a cohort study among older patients in England, 2012-2016. BMJ Open. 2019;9(9):e029103.",
+   "pmid": "31548353",
+   "pmcid": "PMC6773345",
+   "doi": "10.1136/bmjopen-2019-029103",
+   "public_url": "https://doi.org/10.1136/bmjopen-2019-029103",
+   "design": "Cohort study (CPRD linked to HES), before-after comparison with an age-group control",
+   "population_setting": "Random sample of 27,500 patients aged 65 to 84 in 2012 in 139 English practices",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Supports the judge's point that having a named GP differs from seeing the same GP: the 2014 named accountable GP policy for over-75s was not followed by better continuity. Observational policy evaluation."
+  },
+  {
+   "key": "PMID:30803982",
+   "citation": "Sidaway-Lee K, Gray DP, Evans P. A method for measuring continuity of care in day-to-day general practice: a quantitative analysis of appointment data. Br J Gen Pract. 2019;69(682):e356-e362.",
+   "pmid": "30803982",
+   "pmcid": "PMC6478463",
+   "doi": "10.3399/bjgp19X701813",
+   "public_url": "https://doi.org/10.3399/bjgp19X701813",
+   "design": "Quantitative analysis of appointment audit data (method description)",
+   "population_setting": "One general practice in Exeter, UK, 2016 to 2017; 35,622 face-to-face GP appointments",
+   "year": 2019,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Shows a simple practice-level count (percentage of appointments with the patient's own doctor). Single practice that runs personal lists, so its figures are not typical of UK practices."
+  },
+  {
+   "key": "PMID:25933478",
+   "citation": "Cohen-Mansfield J, Dakheel-Ali M, Marx MS, Thein K, Regier NG. Which unmet needs contribute to behavior problems in persons with advanced dementia? Psychiatry Res. 2015;228(1):59-64.",
+   "pmid": "25933478",
+   "pmcid": "PMC4451402",
+   "doi": "10.1016/j.psychres.2015.03.043",
+   "public_url": "https://doi.org/10.1016/j.psychres.2015.03.043",
+   "design": "Descriptive study within the treatment arm of a randomised placebo-controlled trial of non-drug interventions; unmet needs rated by research assistants and nursing assistants with the TUNA checklist",
+   "population_setting": "89 residents with dementia (mean age 85.9; mean MMSE 7.6) in 6 Maryland nursing homes, selected because they showed verbal or physically non-aggressive agitation several times a day",
+   "year": 2015,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC4451402)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Small US sample of people with advanced dementia and non-aggressive agitation. 'Unmet needs' are informants' judgements, partly informed by whether behaviour eased with interventions; agreement between the two informant groups was low (kappa 0.25). Shows association and plausibility, not proven causes. The authors themselves estimate that pain and discomfort were under-detected."
+  },
+  {
+   "key": "PMID:23059151",
+   "citation": "Cohen-Mansfield J, Thein K, Marx MS, Dakheel-Ali M, Freedman L. Efficacy of nonpharmacologic interventions for agitation in advanced dementia: a randomized, placebo-controlled trial. J Clin Psychiatry. 2012;73(9):1255-61.",
+   "pmid": "23059151",
+   "pmcid": null,
+   "doi": "10.4088/JCP.12m07918",
+   "public_url": "https://doi.org/10.4088/JCP.12m07918",
+   "design": "Randomised placebo-controlled trial (TREA: Treatment Routes for Exploring Agitation)",
+   "population_setting": "125 agitated nursing home residents with advanced dementia in 9 nursing homes in Maryland (89 intervention, 36 control); interventions for 2 weeks; 2006 to 2011",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Same research programme as PMID 25933478 (the 2015 paper describes the trial's treatment arm). Short intervention (2 weeks), small and unequal control group, outcomes observed by research staff; US only. Supports that addressing hypothesised unmet needs can reduce agitation in the short term."
+  },
+  {
+   "key": "PMID:26155723",
+   "citation": "den Ouden M, Bleijlevens MH, Meijers JM, Zwakhalen SM, Braun SM, Tan FE, et al. Daily (in)activities of nursing home residents in their wards: an observation study. J Am Med Dir Assoc. 2015;16(11):963-8.",
+   "pmid": "26155723",
+   "pmcid": null,
+   "doi": "10.1016/j.jamda.2015.05.016",
+   "public_url": "https://doi.org/10.1016/j.jamda.2015.05.016",
+   "design": "Cross-sectional observation study (5 random observation times per resident between 07:00 and 23:00)",
+   "population_setting": "723 residents of 7 Dutch nursing homes (19 psychogeriatric and 11 somatic wards); 3,282 observations",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Direct observation rather than staff report. Netherlands, 2015; psychogeriatric wards are mainly people with dementia but the figures are pooled with somatic wards. Snapshot observations, reported as ranges across observation times."
+  },
+  {
+   "key": "URL:https://www.mentalhealth.org.uk/explore-mental-health/publications/what-truth-inquiry-about-truth-and-lying-dementia-care",
+   "citation": "Mental Health Foundation. What is truth? An inquiry about truth and lying in dementia care. London: Mental Health Foundation; 2016.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.mentalhealth.org.uk/explore-mental-health/publications/what-truth-inquiry-about-truth-and-lying-dementia-care",
+   "design": "Inquiry report (expert panel taking evidence; panel included people living with dementia and family carers, per search extract)",
+   "population_setting": "UK dementia care",
+   "year": 2016,
+   "access": "search_extract",
+   "tool_used": "WebSearch only (report page and PDF at mentalhealth.org.uk located; download attempt returned proxy 403; WebFetch blocked; no copy in Alasdair's Drive)",
+   "correction_check": "Not applicable (grey literature report).",
+   "quality_note": "The report itself was NOT opened. Its content is known only from search-engine summaries and from secondary peer-reviewed descriptions (Murray 2025, full text; James and Caiazza 2018, abstract). No verbatim quotation from the report may be used in the post."
+  },
+  {
+   "key": "PMID:39865755",
+   "citation": "Murray J, Thompson J, Hill M, James I. An ethnographic study to develop a taxonomy of lies for communicating with people with moderate to severe dementia. Nurs Ethics. 2025;32(1):272-87.",
+   "pmid": "39865755",
+   "pmcid": "PMC11771084",
+   "doi": "10.1177/09697330241246087",
+   "public_url": "https://doi.org/10.1177/09697330241246087",
+   "design": "Focused ethnography (participant observation) with thematic analysis",
+   "population_setting": "Two hospital wards for people with moderate to severe dementia in North East England; 338 hours of observation over 4 months; 250 untruths told by 63 professional caregivers",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC11771084)",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Peer-reviewed, open access. Qualitative, one observer, staff not family, inpatient setting. Its Background section describes the conclusions of an inquiry report; in the PMC text the author name of the cited reference was stripped, but the passage matches search extracts attributing the same phrases ('purposeful deception', continuum to lying as a last resort) to the Mental Health Foundation 2016 inquiry. Epub 2024; journal issue 2025."
+  },
+  {
+   "key": "PMID:30803272",
+   "citation": "Casey D, Lynch U, Murphy K, Cooney A, Gannon M, Houghton C, et al. Telling a 'good or white lie': the views of people living with dementia and their carers. Dementia (London). 2020;19(8):2582-600.",
+   "pmid": "30803272",
+   "pmcid": null,
+   "doi": "10.1177/1471301219831525",
+   "public_url": "https://doi.org/10.1177/1471301219831525",
+   "design": "Descriptive qualitative study (focus groups, content analysis)",
+   "population_setting": "Ireland, community: 14 people with memory problems or dementia (3 focus groups) and 18 unpaid family carers (3 focus groups)",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article. (Epub 2019; volume 19 issue 8.)",
+   "quality_note": "Small qualitative study, but includes the views of people with memory problems themselves, which gives the post the perspective of the person who would be told the untruth."
+  },
+  {
+   "key": "PMID:39437538",
+   "citation": "Villar F, Martínez D. Ethical aspects of staff responses when older people with dementia express false beliefs. Nurs Ethics. 2025;32(4):1047-59.",
+   "pmid": "39437538",
+   "pmcid": null,
+   "doi": "10.1177/09697330241295376",
+   "public_url": "https://doi.org/10.1177/09697330241295376",
+   "design": "Qualitative interview study using a vignette about a 'time-shift'",
+   "population_setting": "42 staff (21 assistant carers, 21 technical staff) in four Spanish long-term care facilities",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Small qualitative study in care homes in Spain; shows staff uncertainty and practice variation, not outcomes for residents."
+  },
+  {
+   "key": "PMID:29573753",
+   "citation": "James IA, Caiazza R. Therapeutic lies in dementia care: should psychologists teach others to be person-centred liars? Behav Cogn Psychother. 2018;46(4):454-62.",
+   "pmid": "29573753",
+   "pmcid": null,
+   "doi": "10.1017/S1352465818000152",
+   "public_url": "https://doi.org/10.1017/S1352465818000152",
+   "design": "Before-after survey of clinicians attending a workshop",
+   "population_setting": "UK clinicians, mainly psychologists",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Scite unavailable (monthly MCP usage limit reached, 26 Sep 2026). PubMed: UID search with retracted publication[pt], retraction of publication[pt], expression of concern[pt], published erratum[pt], corrected and republished article[pt] returned no records (26 Sep 2026); topic search of published errata (lecanemab, continuity and dementia, unmet needs, author names) found no erratum linked to this article.",
+   "quality_note": "Used only to corroborate that the Mental Health Foundation 2016 inquiry produced guidance on untruths ('a number of protocols have been produced to guide their usage (Mental Health Foundation, 2016)'). Not used for any finding."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C08-29-a",
+   "cand_id": "C08-29",
+   "claim": "When the lecanemab trial's entry rules were applied to 237 older people with early memory problems and amyloid on a brain scan in a US population study, 112 (47.3%) met the inclusion criteria and 19 (8%) remained after the exclusion criteria.",
+   "source_keys": [
+    "PMID:37586881"
+   ],
+   "supporting_passage": "Two hundred thirty-seven MCSA participants (mean age [SD] 80.9 [6.3] years, 54.9% male, and 97.5% White) with mild cognitive impairment (MCI) or mild dementia and increased brain amyloid burden by PiB PET comprised the study sample. Lecanemab trial's inclusion criteria reduced the study sample to 112 (47.3% of 237) participants. The trial's exclusion criteria further narrowed the number of potentially eligible participants to 19 (overall 8% of 237).",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Population: 237 people in the population-based Mayo Clinic Study of Aging (USA) with MCI or mild dementia and raised amyloid on PiB PET, mean age 80.9. Exposure: Clarity AD trial inclusion then exclusion criteria applied retrospectively. Outcome: number meeting criteria. Cross-sectional.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a US population study, 237 older people (average age 81) had early memory problems and amyloid on a brain scan. When the lecanemab trial's entry rules were applied, 19 of them, about 8 in 100, would have qualified for the trial.",
+   "qualifications": "Say 'would have qualified for the trial' or 'met the trial's entry rules', not 'eligible for treatment': trial criteria are stricter than the licence and real-world use recommendations. One US study; 97.5% White. Relaxing the cognitive criteria to include everyone with MCI raised trial eligibility to 17.4% of those with MCI.",
+   "conflicting_or_uncertain": "Real-world use recommendations are less strict than trial rules: in a frail European cohort about half were potentially eligible under use recommendations versus 1 in 5 under trial rules (PMID:41634843). In Swedish primary care about 1 in 7 people presenting with memory symptoms met use recommendations (PMID:41865008).",
+   "numbers": [
+    {
+     "value": "237",
+     "meaning": "people with MCI or mild dementia and raised amyloid in the population study (denominator)"
+    },
+    {
+     "value": "80.9 years",
+     "meaning": "mean age of the 237"
+    },
+    {
+     "value": "112 (47.3%)",
+     "meaning": "of 237 meeting the trial's inclusion criteria"
+    },
+    {
+     "value": "19 (8%)",
+     "meaning": "of 237 remaining after inclusion and exclusion criteria; about 8 in 100"
+    },
+    {
+     "value": "97.5%",
+     "meaning": "proportion of the sample who were White"
+    },
+    {
+     "value": "17.4%",
+     "meaning": "of participants with MCI eligible if all MCI were admitted rather than applying extra cognitive criteria"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-29-b",
+   "cand_id": "C08-29",
+   "claim": "The most common reasons people fell outside the trial rules were other long-term health conditions and brain scan findings.",
+   "source_keys": [
+    "PMID:37586881",
+    "PMID:41865008"
+   ],
+   "supporting_passage": "Pittock 2023: \"Common exclusions were related to other chronic conditions and neuroimaging findings.\" Borgström Bolmsjö 2026: \"In total, 180 participants had any comorbidity or ongoing treatments incompatible with ATT, of whom 98 were receiving anticoagulant therapy. Most participants met multiple exclusion criteria (Fig.), with 102 patients (16.8%) fulfilling five or more criteria simultaneously.\" and \"At the same time, MRI abnormalities were common overall, affecting nearly 200 (32.3%) participants, most often in combination with other exclusion criteria. Severe white matter disease (Fazekas score 3) was the most frequent imaging-based exclusion (= 156; 25.7%).\"",
+   "location": "Pittock 2023 Abstract, Results; Borgström Bolmsjö 2026 full text, Results, 'Specific exclusion criteria' and Table 2",
+   "pico_timeframe": "Pittock: US population sample, trial criteria. Borgström Bolmsjö: 607 Swedish primary care patients with cognitive symptoms, appropriate use recommendations; exclusion counts are of the whole 607, and people often had several.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "People were mostly ruled out by other health problems and by brain scan findings. In a Swedish primary care study of 607 people with memory symptoms, about 1 in 6 were taking a blood thinner (anticoagulant), which rules out lecanemab, and about 1 in 4 had marked changes in the brain's small blood vessels on MRI. Most people who were ruled out had more than one reason.",
+   "qualifications": "Pittock gives only the broad categories; the specific counts come from the Swedish primary care study, which applied use recommendations rather than trial rules. Anticoagulants rule out lecanemab under the use recommendations quoted (the FDA allows anticoagulants with donanemab). Exclusion reasons overlap, so the proportions must not be added.",
+   "conflicting_or_uncertain": "Proportions will differ by setting and age; the Swedish MRI used high-sensitivity 3T scanners, though sensitivity analyses changed eligibility very little.",
+   "numbers": [
+    {
+     "value": "98 of 607 (16.1%)",
+     "meaning": "primary care patients with cognitive symptoms taking anticoagulants; about 1 in 6"
+    },
+    {
+     "value": "156 of 607 (25.7%)",
+     "meaning": "with severe white matter disease (Fazekas 3) on MRI; about 1 in 4"
+    },
+    {
+     "value": "196 of 607 (32.3%)",
+     "meaning": "with any MRI finding that excludes treatment"
+    },
+    {
+     "value": "180 of 607 (29.7%)",
+     "meaning": "with any excluding condition or medicine"
+    },
+    {
+     "value": "102 (16.8%)",
+     "meaning": "meeting five or more exclusion criteria at once"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-29-c",
+   "cand_id": "C08-29",
+   "claim": "In a primary care population (the typical route for older people with memory concerns), about 1 in 7 people presenting with cognitive symptoms met real-world eligibility criteria for lecanemab after a full work-up.",
+   "source_keys": [
+    "PMID:41865008"
+   ],
+   "supporting_passage": "In a full diagnostic work-up of 607 patients with sequential exclusions, 86 patients (14.2%) and 78 patients (12.8%) ultimately met the eligibility criteria for lecanemab and donanemab, respectively. Due to comorbidities, medication use, and age/BMI, around 1/3 of the original population was excluded. Most ineligible patients met more than one exclusion criterion. The eligible population was 63% female, mean age 77 years. ... Importantly, clinical eligibility does not equate to treatment initiation.",
+   "location": "Abstract, Results; Discussion (limitations)",
+   "pico_timeframe": "Population: 607 consecutive primary care patients with cognitive symptoms, 23 centres, southern Sweden, 2020 to 2025, mean age 75.9. Exposure: stepwise application of lecanemab and donanemab appropriate use recommendations with CSF or PET amyloid and MRI. Outcome: proportion eligible.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Swedish study of 607 people who went to their GP with memory symptoms, 86 (about 1 in 7) met the criteria for lecanemab after full tests. About a third were ruled out early by other illnesses, medicines, age or weight.",
+   "qualifications": "Denominator is everyone presenting with cognitive symptoms, including people with only subjective complaints and people whose problems were not due to Alzheimer's disease; about half were amyloid negative. Excluding APOE e4 homozygotes, as European guidance requires, reduced eligibility to 75 (12.4%). One Swedish region; research setting. Eligibility is not the same as being offered or choosing treatment.",
+   "conflicting_or_uncertain": "Other settings give different figures: 6% in a Swedish memory clinic (PMID 41544372, abstract seen in search, not used) and about 23% in US cohorts (cited by the authors).",
+   "numbers": [
+    {
+     "value": "607",
+     "meaning": "primary care patients with cognitive symptoms (denominator)"
+    },
+    {
+     "value": "86 (14.2%)",
+     "meaning": "met lecanemab appropriate use criteria; about 1 in 7"
+    },
+    {
+     "value": "75 (12.4%)",
+     "meaning": "eligible after also excluding APOE e4 homozygotes (European guidance)"
+    },
+    {
+     "value": "around 1/3",
+     "meaning": "excluded at the first step for conditions, medicines, age or BMI"
+    },
+    {
+     "value": "77 years",
+     "meaning": "mean age of the eligible group"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-29-d",
+   "cand_id": "C08-29",
+   "claim": "Frail older people were much less likely to meet the Clarity AD trial criteria than pre-frail older people, although about half of frail people met real-world use recommendations.",
+   "source_keys": [
+    "PMID:41634843"
+   ],
+   "supporting_passage": "The median age of the sample was 82.0 years (IQR: 79-85); 65% (n = 78) were women, and 36.7% (n = 44) were frail. Overall, 20.0% (n = 24) met the Clarity-AD eligibility criteria, while 50.8% (n = 61) and 47.5% (n = 57) were potentially eligible according to the American and French AURs, respectively. Only 9.1% (n = 4) of frail individuals met the Clarity-AD criteria, compared to 26.3% (n = 20) of pre-frail participants (p = 0.042). In contrast, 50.0% (n = 22) and 45.5% (n = 20) of frail individuals were potentially eligible according to the American and French AURs, respectively.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Population: 120 amyloid-positive pre-frail and frail adults, median age 82, Cogfrail cohort. Exposure: Clarity AD trial criteria vs US and French appropriate use recommendations. Outcome: proportion eligible. Cross-sectional.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Among 120 older people (median age 82) with amyloid and early memory problems, 1 in 5 would have qualified for the lecanemab trial. Among the 44 who were frail, only 4 would have qualified. Under the looser rules now used in clinics, about half of the frail group could be considered for treatment.",
+   "qualifications": "Small study; 44 frail people. The contrast shows that trial evidence says little about frail people, not that frail people cannot be treated. Keep trial rules and clinic rules clearly separate.",
+   "conflicting_or_uncertain": "Authors conclude frailty 'may have been underrepresented in the trial', which is an inference; the trial did not report frailty.",
+   "numbers": [
+    {
+     "value": "120",
+     "meaning": "amyloid-positive pre-frail and frail participants (denominator)"
+    },
+    {
+     "value": "82.0 years",
+     "meaning": "median age"
+    },
+    {
+     "value": "24 (20.0%)",
+     "meaning": "of 120 meeting Clarity AD trial criteria; 1 in 5"
+    },
+    {
+     "value": "4 of 44 (9.1%)",
+     "meaning": "frail participants meeting trial criteria"
+    },
+    {
+     "value": "20 of 76 (26.3%)",
+     "meaning": "pre-frail participants meeting trial criteria"
+    },
+    {
+     "value": "61 (50.8%) and 57 (47.5%)",
+     "meaning": "of 120 potentially eligible under US and French use recommendations"
+    },
+    {
+     "value": "22 (50.0%) and 20 (45.5%)",
+     "meaning": "of 44 frail potentially eligible under US and French use recommendations"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-29-e",
+   "cand_id": "C08-29",
+   "claim": "In Clarity AD (people aged 50 to 90 with early Alzheimer's disease), lecanemab slowed decline on the 18-point CDR-SB by 0.45 points over 18 months compared with placebo; brain swelling or fluid on MRI (ARIA-E) occurred in 12.6% of people on lecanemab.",
+   "source_keys": [
+    "PMID:36449413"
+   ],
+   "supporting_passage": "We conducted an 18-month, multicenter, double-blind, phase 3 trial involving persons 50 to 90 years of age with early Alzheimer's disease (mild cognitive impairment or mild dementia due to Alzheimer's disease) with evidence of amyloid on positron-emission tomography (PET) or by cerebrospinal fluid testing. ... The primary end point was the change from baseline at 18 months in the score on the Clinical Dementia Rating-Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater impairment). ... The adjusted least-squares mean change from baseline at 18 months was 1.21 with lecanemab and 1.66 with placebo (difference, -0.45; 95% confidence interval [CI], -0.67 to -0.23; P<0.001). ... Lecanemab resulted in infusion-related reactions in 26.4% of the participants and amyloid-related imaging abnormalities with edema or effusions in 12.6%.",
+   "location": "Abstract, Methods and Results",
+   "pico_timeframe": "Population: 1795 people aged 50 to 90 with early Alzheimer's disease and confirmed amyloid. Intervention: IV lecanemab 10 mg/kg every 2 weeks. Comparator: placebo. Outcome: CDR-SB change, adverse events. Timeframe: 18 months.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the main trial, people on lecanemab declined a little more slowly than people on a dummy drip: 0.45 points less on an 18-point scale of memory and daily function over 18 months. About 1 in 8 people on lecanemab had brain swelling or fluid on their scans, and about 1 in 4 had reactions to the drip.",
+   "qualifications": "Optional context only; the editor asked the post to lead with access. Do NOT use the placebo ARIA-E rate (1.7%), which was not verified. Give the difference on the 18-point scale; do not convert to a percentage slowing. ARIA-E is mostly seen on scans; do not describe all cases as symptomatic.",
+   "conflicting_or_uncertain": "Whether a 0.45-point difference is clinically meaningful is disputed; the UK review (PMID:40051090) records NICE's concerns about translation into clinically meaningful improvement.",
+   "numbers": [
+    {
+     "value": "1795",
+     "meaning": "participants randomised (898 lecanemab, 897 placebo)"
+    },
+    {
+     "value": "50 to 90",
+     "meaning": "age range for trial entry"
+    },
+    {
+     "value": "0 to 18",
+     "meaning": "range of CDR-SB scale, higher is worse"
+    },
+    {
+     "value": "1.21 vs 1.66",
+     "meaning": "adjusted mean increase in CDR-SB over 18 months, lecanemab vs placebo"
+    },
+    {
+     "value": "-0.45 (95% CI -0.67 to -0.23)",
+     "meaning": "absolute difference in CDR-SB points at 18 months"
+    },
+    {
+     "value": "12.6%",
+     "meaning": "lecanemab group with ARIA-E over 18 months; about 1 in 8"
+    },
+    {
+     "value": "26.4%",
+     "meaning": "lecanemab group with infusion-related reactions; about 1 in 4"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-29-f",
+   "cand_id": "C08-29",
+   "claim": "The UK medicines regulator (MHRA) approved lecanemab in August 2024.",
+   "source_keys": [
+    "PMID:40051090"
+   ],
+   "supporting_passage": "The decision by the UK's Medicines and Healthcare products Regulatory Agency (MHRA) to approve lecanemab in August 2024 followed similar regulatory decisions in the US and Japan. ... The UK's National Institute for Health and Care Excellence (NICE) has not recommended lecanemab for use in early AD amid concerns, including treatment cost and the translation of efficacy outcomes into clinically meaningful improvement.",
+   "location": "Abstract",
+   "pico_timeframe": "UK regulatory status as described in a 2025 narrative review.",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Lecanemab was licensed in the UK in August 2024.",
+   "qualifications": "Optional. State only the dated licensing fact. Do not state NICE's current position or imply any view on NHS funding (editor's values concern); the NICE statement reflects early 2025 and could not be checked against current NICE guidance.",
+   "conflicting_or_uncertain": "UK licence conditions (for example the APOE e4 restriction) were not verified from a UK source; European guidance excluding APOE e4 homozygotes is described in PMID:41865008.",
+   "numbers": [
+    {
+     "value": "August 2024",
+     "meaning": "date of MHRA approval"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-a",
+   "cand_id": "C08-10",
+   "claim": "An English cohort study followed 9,324 people with dementia aged 65 or over for a year, comparing those who saw the same GP most consistently with those who saw the same GP least consistently.",
+   "source_keys": [
+    "PMID:35074796"
+   ],
+   "supporting_passage": "A retrospective cohort study with 1 year of follow-up anonymised medical records from 9324 patients with dementia, aged ≥65 years living in England in 2016. ... At the study start date, all patients were aged ≥65 years, registered with a practice, and had at least three consultations (required for calculating continuity) during a 1-year lead-in period (1 January 2015 until 31 December 2015). ... There were 9324 individuals who were diagnosed with dementia before the study start date (age mean 84.5 years, SD 7.4, 65.7% female) and met the inclusion criteria.",
+   "location": "Abstract, Design and setting; full text, Method (Population) and Results",
+   "pico_timeframe": "Population: 9,324 people with dementia aged 65+, English practices (CPRD), mean age 84.5. Exposure: continuity of GP care in 2015 (UPC, BB and SECON indices, in quartiles). Comparator: lowest continuity quartile. Outcomes: prescribing (3 months before start) and adverse outcomes over 2016.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "A study of 9,324 people with dementia in England (average age 84) compared those who saw the same GP most often with those who saw the same GP least often.",
+   "qualifications": "Continuity was measured with established indices (for example the share of consultations with the most-seen GP), not a simple count of different GPs; the post's 'count the doctors' idea is a practical proxy, not the study's measure. People with fewer than 3 GP consultations were excluded.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "9,324",
+     "meaning": "people with dementia in the cohort"
+    },
+    {
+     "value": "84.5 years",
+     "meaning": "mean age"
+    },
+    {
+     "value": "65 or over",
+     "meaning": "age for inclusion"
+    },
+    {
+     "value": "1 year",
+     "meaning": "follow-up (2016), after a 1-year lead-in to measure continuity (2015)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-b",
+   "cand_id": "C08-10",
+   "claim": "People in the highest continuity quarter had fewer prescribed medicines (mean 8.5 vs 9.7) and fewer potentially inappropriate prescriptions (mean 2.1 vs 2.5) than those in the lowest quarter.",
+   "source_keys": [
+    "PMID:35074796"
+   ],
+   "supporting_passage": "Patients in the HQ of the UPC had fewer prescriptions (mean 8.52, SD 4.75) than those in the LQ (mean 9.67, SD 5.31,<0.01). A fully adjusted negative binomial regression model confirmed a dose–response relationship with fewer medications by increasing quartiles of UPC (). ... Patients in the HQ of the UPC had significantly fewer instances of PIP (mean 2.09, SD 2.06) compared with the LQ (mean 2.50, SD 2.28,<0.01). Negative binomial regression models confirmed this reduction in PIP was statistically significant (). Higher levels of CGPC were not associated with the likelihood of having ≥1 PIP. Table 2 (Usual Provider of Care Index, High quartile): number of prescriptions IRR 0.96 (0.93 to 0.98); potentially inappropriate prescribing IRR 0.93 (0.88 to 0.97); footnote: IRRs estimated using negative binomial regression model, stratified by quartile of CGPC and adjusted for age, sex, 14 comorbidities, and frailty status.",
+   "location": "Full text, Results ('Treatment of patients with dementia') and Table 2",
+   "pico_timeframe": "Population as C08-10-a. Exposure: highest vs lowest UPC quartile. Outcome: number of prescriptions and STOPP-defined potentially inappropriate prescriptions in the 3 months before study start (cross-sectional with the continuity period). Means are unadjusted; IRRs adjusted.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "People with dementia who saw the same GP most consistently were prescribed fewer medicines on average: 8.5 compared with 9.7 in those with the least consistency. They also had fewer prescriptions that are often unsafe in older age: 2.1 compared with 2.5. After allowing for age, other illnesses and frailty, the difference was smaller but remained.",
+   "qualifications": "The 8.5 vs 9.7 and 2.1 vs 2.5 figures are UNADJUSTED averages; the candidate's visual label 'linked with, after adjustment' is wrong for these bars. Label them 'average, before adjustment' and state that the adjusted difference was smaller (about 4% fewer medicines and about 7% fewer inappropriate prescriptions). Continuity was not linked with whether a person had at least one inappropriate prescription. Link, not proof of cause.",
+   "conflicting_or_uncertain": "Reverse causation and confounding by need are possible (people with more complex, unstable problems may see more doctors); adjustment for frailty, 14 conditions and number of consultations reduces but cannot remove this.",
+   "numbers": [
+    {
+     "value": "8.52 vs 9.67",
+     "meaning": "mean number of prescribed medicines (3 months), highest vs lowest continuity quarter, unadjusted"
+    },
+    {
+     "value": "2.09 vs 2.50",
+     "meaning": "mean potentially inappropriate prescriptions, highest vs lowest quarter, unadjusted"
+    },
+    {
+     "value": "IRR 0.96 (0.93 to 0.98)",
+     "meaning": "adjusted rate ratio for number of medicines, highest vs lowest quarter; about 4% fewer (relative)"
+    },
+    {
+     "value": "IRR 0.93 (0.88 to 0.97)",
+     "meaning": "adjusted rate ratio for number of inappropriate prescriptions; about 7% fewer (relative)"
+    },
+    {
+     "value": "81.6% (7,612)",
+     "meaning": "whole cohort with polypharmacy (5 or more medicines)"
+    },
+    {
+     "value": "75.4% (7,027)",
+     "meaning": "whole cohort with at least one potentially inappropriate prescription"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-c",
+   "cand_id": "C08-10",
+   "claim": "Highest continuity was associated with lower odds of newly recorded incontinence (OR 0.42) and emergency hospital admission (OR 0.90) over a year, after adjustment for age, sex, deprivation, 14 conditions, frailty and number of consultations.",
+   "source_keys": [
+    "PMID:35074796"
+   ],
+   "supporting_passage": "Patients in the HQ of the UPC, compared with those in the quartile with least continuity (LQ), displayed reduction in risk of delirium by 34.8% (odds ratio [OR] 0.65, 95% confidence interval [CI] = 0.51 to 0.84,<0.01), reduction in risk of incontinence by 57.9% (OR 0.42, 95% CI = 0.31 to 0.58,<0.01), and reduction in risk of emergency admission to hospital by 9.7% (OR 0.90, 95% CI = 0.82 to 0.99,= 0.03). ... Censoring the first 6 months of follow-up did not significantly alter the association with delirium and incontinence, although emergency admission to hospital became non-significant (Supplementary Table S7). ... All models were adjusted for age (squared), sex, quintiles of multiple deprivation, diagnosis of 14 chronic conditions (listed in), frailty classification based on the Electronic Frailty Index, and the number of consultations during the lead-in period (a proxy of medical needs).",
+   "location": "Full text, Results ('CGPC and AHOs') and Method (Statistical analysis)",
+   "pico_timeframe": "Population as C08-10-a. Exposure: highest vs lowest UPC quartile. Outcomes: first newly recorded incontinence diagnosis and first emergency admission during 2016 (competing-risk survival models). Adjusted, relative measures.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Over the following year, people who saw the same GP most consistently were less likely to have new incontinence recorded and slightly less likely to be admitted to hospital as an emergency. The study shows a link; it does not prove that seeing the same GP caused these differences.",
+   "qualifications": "Relative measures only; do not convert OR 0.42 into 'less than half as likely' or into '58% less' and do not derive absolute differences. The admission link was small and lost statistical significance when the first 6 months were excluded, so present it as weak. Incontinence here means a new diagnosis recorded in GP notes (3.5% of the whole cohort had one), so recording practices may contribute. Do not use the delirium result (collection excludes delirium as a topic).",
+   "conflicting_or_uncertain": "Replicated for hospital use in Quebec (C08-10-e). Reverse causation remains possible.",
+   "numbers": [
+    {
+     "value": "OR 0.42 (95% CI 0.31 to 0.58)",
+     "meaning": "adjusted, newly recorded incontinence, highest vs lowest continuity quarter, 1 year; relative"
+    },
+    {
+     "value": "OR 0.90 (95% CI 0.82 to 0.99)",
+     "meaning": "adjusted, emergency admission, highest vs lowest quarter, 1 year; relative; not significant after censoring first 6 months"
+    },
+    {
+     "value": "39.1% (3,644)",
+     "meaning": "whole cohort with an emergency admission during the year"
+    },
+    {
+     "value": "3.5% (329)",
+     "meaning": "whole cohort with newly recorded incontinence during the year"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-d",
+   "cand_id": "C08-10",
+   "claim": "The study is observational and cannot show that continuity causes these differences.",
+   "source_keys": [
+    "PMID:35074796"
+   ],
+   "supporting_passage": "The observational nature of this study provides data on statistical associations but cannot indicate causation. ... Study design and sensitivity analyses excluding the first 6 months of follow-up minimise the potential role of reverse-causation driving the findings.",
+   "location": "Full text, Discussion (Strengths and limitations)",
+   "pico_timeframe": "Design statement by the authors.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "This kind of study shows a link, not proof that seeing the same GP causes fewer problems. People who are more unwell may also see more different doctors.",
+   "qualifications": "The authors elsewhere write that continuity 'leads to better health outcomes'; do not repeat that causal wording.",
+   "conflicting_or_uncertain": "None beyond the design limitation.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-10-e",
+   "cand_id": "C08-10",
+   "claim": "A separate Canadian study of 22,060 community-dwelling people with dementia found that those who saw the same primary care doctor at every visit had fewer hospital admissions and emergency department visits over the following year.",
+   "source_keys": [
+    "PMID:33635538"
+   ],
+   "supporting_passage": "Population-based sample of 22,060 community-dwelling 65 + persons with dementia on March 31st, 2015, with at least two primary care visits in the preceding year (mean age 81 years, 60% female). ... High primary care continuity on March 31st, 2015, i.e., having had every primary care visit with the same primary care physician, during the preceding year. ... Among the 22,060 persons, compared with the persons with low primary care continuity, the 14,515 (65.8%) persons with high primary care continuity had a lower risk of ACSC hospitalization (general population definition) (relative risk reduction 0.82, 95% CI 0.72-0.94), ACSC hospitalization (older population definition) (0.87, 0.79-0.95), 30-day hospital readmission (0.81, 0.72-0.92), hospitalization (0.90, 0.86-0.94), and emergency department visit (0.92, 0.90-0.95).",
+   "location": "Abstract",
+   "pico_timeframe": "Population: 22,060 community-dwelling people with dementia aged 65+, Quebec. Exposure: every primary care visit in the prior year with the same physician. Comparator: low continuity. Outcomes: hospitalisations, readmission, ED visits over 1 year. Propensity-weighted observational.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A study of 22,060 people with dementia in Quebec found the same pattern: those who saw the same family doctor at every visit had somewhat fewer hospital admissions and emergency visits in the next year.",
+   "qualifications": "Observational (propensity weighting). Effect sizes are modest; the abstract's labelling of the estimates is ambiguous ('relative risk reduction 0.82'), so describe in words ('somewhat fewer') rather than quoting numbers. Canada.",
+   "conflicting_or_uncertain": "Consistent with Delgado 2022 on admissions.",
+   "numbers": [
+    {
+     "value": "22,060",
+     "meaning": "people with dementia in the Quebec cohort"
+    },
+    {
+     "value": "14,515 (65.8%)",
+     "meaning": "with high continuity (all visits with one physician)"
+    },
+    {
+     "value": "0.90 (0.86 to 0.94)",
+     "meaning": "relative estimate for any hospitalisation, high vs low continuity, 1 year; use in words only"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-f",
+   "cand_id": "C08-10",
+   "claim": "Most UK general practices do not routinely measure continuity of GP care, although validated measures exist.",
+   "source_keys": [
+    "PMID:40744755",
+    "PMID:40750333"
+   ],
+   "supporting_passage": "Dineen 2025: \"The Welsh Government has recognised that an important drawback is that most practices in the UK do not currently measure their continuity, despite the existence of several validated measures (for example, the Usual Provider of Care Index [UPC] or the St Leonard's Index of Continuity of Care [SLICC]).\" and \"What the contract does not yet offer is any guidance or incentive for practices to deliver relational continuity of care to the patients that have been identified, nor is there any requirement to measure or evaluate the continuity that is already being delivered.\" Engamba 2026: \"With the new GP contract in England highlighting the need for primary care providers to monitor and deliver relational continuity, it is more crucial than ever to understand how best to achieve it.\"",
+   "location": "Dineen 2025 full text (editorial); Engamba 2026 abstract (Background)",
+   "pico_timeframe": "UK general practice, 2025 contract year; expert opinion, not an audit.",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "GP researchers wrote in 2025 that most UK practices did not measure how often patients see the same GP, even though simple measures exist.",
+   "qualifications": "Attribute it ('GP researchers wrote in 2025'); it is an expert statement citing the Welsh Government, not a survey result. Do not say 'nobody counts it' or 'practices never measure it'. Policy is moving: the 2025-26 England contract encouraged practices to consider continuity, and a 2026 protocol says the new England contract highlights monitoring it.",
+   "conflicting_or_uncertain": "Currency uncertain: the current (2026-27) England GP contract could not be opened; it may now ask practices to monitor continuity. If the post is published, the claim should be phrased in the past tense and dated.",
+   "numbers": [
+    {
+     "value": "2025-2026",
+     "meaning": "NHS England GP contract year discussed in the editorial (announced 28 February 2025)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-g",
+   "cand_id": "C08-10",
+   "claim": "Having a named GP is not the same as seeing the same GP: England's named accountable GP policy for people over 74 (April 2014) was not followed by better continuity or fewer emergency admissions.",
+   "source_keys": [
+    "PMID:31548353"
+   ],
+   "supporting_passage": "National Health Service policy to introduce a named accountable GP for patients aged over 74 in April 2014. ... The intervention was associated with a decrease in continuity index-scores of -0.024 (95% CI -0.030 to -0.018, p<0.001) ... The introduction of the named GP scheme was not associated with improvements in either continuity of care or rates of unplanned hospitalisation.",
+   "location": "Abstract",
+   "pico_timeframe": "Population: 27,500 patients aged 65 to 84 in 139 English practices, 2012 to 2016. Exposure: named accountable GP policy (April 2014). Outcomes: continuity index, emergency admissions, 2 years before and after.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In England, people over 75 were given a named GP from 2014, but a study found this did not increase how often they saw the same GP. So the useful request is to book with the same GP each time, not only to know who the named GP is.",
+   "qualifications": "Observational policy evaluation; the policy was later extended but that extension was not verified here. The family action ('ask to book with the same GP each time and keep a note of who you saw') is a practical suggestion (judgement) that follows from the evidence, not a tested intervention.",
+   "conflicting_or_uncertain": "Continuity was falling generally during the period, which the study design tried to account for with an age-group comparison.",
+   "numbers": [
+    {
+     "value": "April 2014",
+     "meaning": "start of named accountable GP policy for patients over 74"
+    },
+    {
+     "value": "27,500",
+     "meaning": "patients aged 65 to 84 in the sample"
+    },
+    {
+     "value": "139",
+     "meaning": "English practices"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-10-h",
+   "cand_id": "C08-10",
+   "claim": "Continuity can be counted simply, for example as the percentage of appointments with the patient's own doctor.",
+   "source_keys": [
+    "PMID:30803982"
+   ],
+   "supporting_passage": "The percentage of face-to-face appointments for patients on each doctor's list, with the patient's personal doctor (the SLICC), was calculated monthly. ... Overall, 51.7% (95% confidence interval = 51.2 to 52.2) of GP appointments were with the patients' personal doctor. Patients aged ≥65 years had a higher level of continuity with 64.9% of appointments being with their personal doctor. ... This method could provide working GPs with a simple way to track continuity of care and inform practice management and decision making.",
+   "location": "Abstract, Method and Results",
+   "pico_timeframe": "One Exeter practice with personal lists, 2016 to 2017, 35,622 appointments.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Practices can count continuity simply: the share of a person's appointments that are with their own GP.",
+   "qualifications": "Single practice that organises care around personal lists; its percentages are not typical and should not be presented as a benchmark.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "51.7%",
+     "meaning": "appointments with the patient's own doctor in one Exeter practice, 2016 to 2017"
+    },
+    {
+     "value": "64.9%",
+     "meaning": "same measure for patients aged 65 or over"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-28-a",
+   "cand_id": "C08-28",
+   "claim": "In 89 nursing home residents with advanced dementia and frequent agitation in six Maryland nursing homes, raters identified about three unmet needs per resident; the commonest were loneliness or need for social contact and boredom, followed by need for meaningful activity.",
+   "source_keys": [
+    "PMID:25933478"
+   ],
+   "supporting_passage": "Participants were 89 NH residents (mean age=85.9) with a diagnosis of dementia, according to their medical chart, from 6 NHs in Maryland, USA. ... (b) The resident had been identified by nursing staff as exhibiting either verbal agitation or physical non-aggressive agitation several times a day ... The mean MMSE score was 7.6. ... The most common needs were loneliness/need for social contact and boredom/sensory deprivation, noted for about two thirds of the sample by RAs and for approximately half by NAs, followed by the need for a meaningful activity, which was noted for around half the sample by both sources. ... RAs reported an average of 2.9 unmet needs per participant (range 0–7, s.d.=1.3) and NAs reported an average of 2.6 unmet needs per participant (range 0–6, s.d.=1.4).",
+   "location": "Full text, Methods (Subjects) and Results 3.1",
+   "pico_timeframe": "Population: 89 residents with advanced dementia (mean MMSE 7.6) showing verbal or physically non-aggressive agitation several times daily, 6 Maryland nursing homes. Exposure: assessment of unmet needs by research assistants and nursing assistants (TUNA checklist). Outcome: prevalence of each unmet need. Cross-sectional within the treatment arm of an RCT.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In one US study of 89 care home residents with advanced dementia who were often agitated, staff and researchers found about three unmet needs per person. The commonest were loneliness and boredom, each noted for about half to two thirds of residents, then having nothing meaningful to do, noted for about half.",
+   "qualifications": "One small US study of people with advanced dementia and non-aggressive agitation (calling out, restlessness), not aggression. 'Unmet needs' are judgements by researchers and care staff, not measured causes. Name the study's limits in the post ('one US study of 89 residents').",
+   "conflicting_or_uncertain": "Agreement between the two groups of raters was low (C08-28-d).",
+   "numbers": [
+    {
+     "value": "89",
+     "meaning": "residents with dementia (denominator)"
+    },
+    {
+     "value": "6",
+     "meaning": "Maryland nursing homes"
+    },
+    {
+     "value": "85.9 years",
+     "meaning": "mean age"
+    },
+    {
+     "value": "7.6",
+     "meaning": "mean MMSE score out of 30 (advanced dementia)"
+    },
+    {
+     "value": "2.9 and 2.6",
+     "meaning": "average unmet needs per resident as rated by research assistants and nursing assistants; 'about three'"
+    },
+    {
+     "value": "about two thirds / about half",
+     "meaning": "residents with loneliness and boredom as rated by research assistants / nursing assistants"
+    },
+    {
+     "value": "around half",
+     "meaning": "residents with need for meaningful activity (both rater groups)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-28-b",
+   "cand_id": "C08-28",
+   "claim": "Pain and discomfort were also common and were probably under-detected by staff; boredom and loneliness sit alongside, not instead of, physical causes.",
+   "source_keys": [
+    "PMID:25933478"
+   ],
+   "supporting_passage": "Abstract: \"Based on results and independent ratings of pain, the authors estimate notable under-detection of discomfort and pain by both types of informants.\" Full text: \"The following unmet needs were found for over half of the residents: loneliness/need for social contact, boredom, need for meaningful activity, pain, and discomfort. Moreover, each study participant was rated as having at least one unmet need.\"",
+   "location": "Abstract; full text, Results 3.4 (authors' revised estimate)",
+   "pico_timeframe": "As C08-28-a; revised estimate used an independent pain scale (PAINE) for pain and combined raters for discomfort.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The same study found that pain and physical discomfort were also common and were often missed. So checking for pain comes first, and asking about company and occupation comes next, not instead.",
+   "qualifications": "The 'over half' figures are the authors' revised estimates, not direct ratings. Supports the judge's sharpening: state that this question follows a check for physical causes.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "over half",
+     "meaning": "residents with unmet needs of loneliness, boredom, meaningful activity, pain and discomfort in the authors' revised estimate"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-28-c",
+   "cand_id": "C08-28",
+   "claim": "The Unmet Needs Model proposes that distressed behaviour in dementia arises from needs the person can no longer communicate or meet for themselves.",
+   "source_keys": [
+    "PMID:25933478"
+   ],
+   "supporting_passage": "The Unmet Needs Model states that problem behaviors of people with dementia result from unmet needs stemming from a decreased ability to communicate those needs and to provide for oneself.",
+   "location": "Abstract",
+   "pico_timeframe": "Theoretical model (definition).",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "One way of understanding distressed behaviour in dementia is that it often signals a need the person can no longer put into words or meet for themselves.",
+   "qualifications": "A model, not a proven law: say 'often' or 'one way of understanding'. Avoid 'problem behaviours' in the post; use 'distressed behaviour' (house style).",
+   "conflicting_or_uncertain": "Other models (for example stress threshold, learning or environmental models) coexist.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-28-d",
+   "cand_id": "C08-28",
+   "claim": "The needs were raters' judgements and the two groups of raters agreed poorly on which residents had which need.",
+   "source_keys": [
+    "PMID:25933478"
+   ],
+   "supporting_passage": "The agreement rate between RAs and NAs averaged 86% for all types of needs, and kappas averaged .25. Based on our examination of the results, this indicates high agreement when most of the residents do not exhibit the need, but much lower agreement when determining which residents actually experience a specific unmet need.",
+   "location": "Full text, Results 3.2",
+   "pico_timeframe": "As C08-28-a.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Working out which need lies behind distress is hard: care staff and researchers often disagreed about which residents had which need.",
+   "qualifications": "Include as the limitation, or omit the detail and say 'one small study'. Supports the practical point that several people who know the person should be asked.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "kappa 0.25",
+     "meaning": "average chance-corrected agreement between research assistants and nursing assistants (low); do not use in public post"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-28-e",
+   "cand_id": "C08-28",
+   "claim": "Care home residents spend much of the day inactive.",
+   "source_keys": [
+    "PMID:26155723"
+   ],
+   "supporting_passage": "Participants were 723 home residents in 7 nursing homes. ... Nursing homes in the Netherlands (19 psychogeriatric and 11 somatic wards). ... Nursing home residents of both psychogeriatric and somatic wards were mainly observed partaking in in activities, such as sleeping, doing nothing, and watching TV (range: 45%-77% of the 5 observation times). ... Residents were largely observed in a lying or sitting position (range: 89%-92%). ... Most of the psychogeriatric and somatic nursing home residents spend their day inactive in a lying or sitting position in the ward.",
+   "location": "Abstract, Participants, Results and Conclusions",
+   "pico_timeframe": "Population: 723 residents in 7 Dutch nursing homes (psychogeriatric and somatic wards). Method: 5 random observations per resident between 07:00 and 23:00. Outcome: activity and body position. Cross-sectional, 2015.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "When researchers observed 723 residents of Dutch nursing homes at random times of day, residents were mostly asleep, doing nothing or watching television, in 45% to 77% of observations depending on the time of day.",
+   "qualifications": "Netherlands, 2015; includes residents with and without dementia (psychogeriatric and somatic wards pooled). Say 'in one Dutch study'. Do not present as a UK figure.",
+   "conflicting_or_uncertain": "Activity provision varies between homes and countries.",
+   "numbers": [
+    {
+     "value": "723",
+     "meaning": "residents observed in 7 Dutch nursing homes"
+    },
+    {
+     "value": "45% to 77%",
+     "meaning": "share of observations in which residents were inactive (sleeping, doing nothing, watching TV), range across 5 observation times"
+    },
+    {
+     "value": "89% to 92%",
+     "meaning": "share of observations lying or sitting"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-28-f",
+   "cand_id": "C08-28",
+   "claim": "Addressing hypothesised unmet needs with individualised non-drug interventions reduced agitation in a randomised trial.",
+   "source_keys": [
+    "PMID:23059151"
+   ],
+   "supporting_passage": "Agitated nursing home residents with advanced dementia (from 9 nursing homes in 5 locations in Maryland, United States) were randomized into an intervention group (n = 89) and a placebo control group (n = 36). On the basis of data from baseline assessment, a systematic methodology for individualizing nonpharmacologic interventions, Treatment Routes for Exploring Agitation (TREA), was used with the intervention group: an unmet need was hypothesized, a corresponding treatment category was identified, and specifics of the treatment were chosen to fit the person's need, past identity, preferences, and abilities. ... TREA interventions were implemented for 2 weeks ... Relative to a control group, TREA interventions for unmet needs produced statistically significant declines in total (P < .001), physical nonaggressive (P < .001), and verbal agitation (P = .004) and significant increases in pleasure (P < .001) and interest (P < .05).",
+   "location": "Abstract",
+   "pico_timeframe": "Population: 125 agitated residents with advanced dementia, 9 Maryland nursing homes. Intervention: individualised non-drug interventions matched to a hypothesised unmet need (e.g. boredom, pain), 2 weeks. Comparator: placebo activity control. Outcome: observed agitation and affect.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US trial, matching activities and company to each resident's likely unmet need reduced agitation and increased signs of pleasure over two weeks, compared with a control group.",
+   "qualifications": "Short (2 weeks), small control group (36), US, by the same research team; effect sizes not given in the abstract. Say 'in a short US trial'.",
+   "conflicting_or_uncertain": "Longer-term effects and effects outside research staffing were not shown; the authors note that practice would need dedicated staff time.",
+   "numbers": [
+    {
+     "value": "89 vs 36",
+     "meaning": "residents randomised to intervention vs control"
+    },
+    {
+     "value": "2 weeks",
+     "meaning": "intervention period"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-27-a",
+   "cand_id": "C08-27",
+   "claim": "In 2016 the Mental Health Foundation published a UK inquiry, 'What is truth?', on truth and lying in dementia care.",
+   "source_keys": [
+    "URL:https://www.mentalhealth.org.uk/explore-mental-health/publications/what-truth-inquiry-about-truth-and-lying-dementia-care",
+    "PMID:29573753",
+    "PMID:39865755"
+   ],
+   "supporting_passage": "James and Caiazza 2018 (abstract): \"Their use is complex and controversial, and a number of protocols have been produced to guide their usage (Mental Health Foundation, 2016).\" Murray 2025 (full text): \"investigated if, why, when and how non-truth telling is justified.\" Search extract (WebSearch summary, not verbatim from the page): the Mental Health Foundation page titled 'What is truth? An inquiry about truth and lying in dementia care'; report published December 2016; panel included people living with a diagnosis of dementia and family carers.",
+   "location": "WebSearch results (mentalhealth.org.uk publication page); James and Caiazza 2018 abstract; Murray 2025 full text, Background",
+   "pico_timeframe": "UK inquiry report, 2016.",
+   "claim_type": "service or policy fact",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In 2016 a UK inquiry by the Mental Health Foundation looked at truth and untruths in dementia care.",
+   "qualifications": "The report was not opened. Do not quote it or describe its panel or methods in detail. Title and year are corroborated by a peer-reviewed citation.",
+   "conflicting_or_uncertain": "Panel composition rests on search extract only.",
+   "numbers": [
+    {
+     "value": "2016",
+     "meaning": "year of publication"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-27-b",
+   "cand_id": "C08-27",
+   "claim": "The inquiry concluded that truth should be the starting point, that repeating a painful truth may not be in the person's interest, and that untruths should be a last resort, used with good intent.",
+   "source_keys": [
+    "PMID:39865755",
+    "URL:https://www.mentalhealth.org.uk/explore-mental-health/publications/what-truth-inquiry-about-truth-and-lying-dementia-care"
+   ],
+   "supporting_passage": "Murray 2025: \"The report concludes that whilst telling the truth must always be the starting point, it may not be in a person's best interest, to continue to repeat that truth. In some instances, in order to reduce distress, it may be beneficial to consider a continuum from whole truth telling to lying, with lying being used as a last resort. What was repeated throughout the report was the significance of intent in relation to telling a lie, and the inquiry only focused on instances where lies would be told with best intent, whilst acknowledging that this may not always be the case.\" Search extract (not verbatim from the report): the report 'endorsed the use of untruths in dementia care if they are used in the best interests of people with dementia'; 'the choice to use an untruth in dementia care should not be taken lightly'.",
+   "location": "Murray 2025 full text, Background (secondary description of the report); WebSearch extracts",
+   "pico_timeframe": "Secondary description of a UK inquiry report.",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A 2016 UK inquiry concluded that the truth should be the starting point. It also said that repeating a painful truth again and again may not be in the person's interest, and that an untruth should be a last resort, used only for the person's good.",
+   "qualifications": "Secondary source: attribute as 'a 2016 UK inquiry concluded' and paraphrase; no quotation marks around the report's words. In the PMC text the reference name is stripped; the match to the Mental Health Foundation report rests on context and on search extracts that attribute the same wording to it.",
+   "conflicting_or_uncertain": "Deception in dementia care is ethically contested (for example Kitwood regarded lying as part of 'malignant social psychology', as noted by Murray 2025). The post's position must be marked as judgement.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-27-c",
+   "cand_id": "C08-27",
+   "claim": "The inquiry described a specific range of responses: truth-telling, looking for the meaning of the question, going along with the person, and lying as a last resort.",
+   "source_keys": [
+    "PMID:39865755"
+   ],
+   "supporting_passage": "Only the ends of the range are verified: \"... it may be beneficial to consider a continuum from whole truth telling to lying, with lying being used as a last resort.\" (Murray 2025, describing the report). The intermediate steps named in the candidate were not found in any opened source as the inquiry's words.",
+   "location": "Murray 2025 full text, Background",
+   "pico_timeframe": "Secondary description only.",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not present a named scale of responses as the inquiry's. The post may say the inquiry described a range from the whole truth to an untruth as a last resort. Middle options (responding to the feeling, going along with) can be described as approaches reported in other studies: staff in Spanish care homes described distraction and calming as responses 'in-between' (Villar 2025), and 'going along with' was one category observed on UK dementia wards (Murray 2025).",
+   "qualifications": "The candidate's visual scale (gentle truth; look for the meaning; change the subject kindly; go along with; untruth as last resort) must not be credited to the inquiry. It can appear as an illustrative range labelled as such, or be replaced by the test 'What would help this person now?' (judgement).",
+   "conflicting_or_uncertain": "The report itself could not be opened; it may contain such a list, but it cannot be verified.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-27-d",
+   "cand_id": "C08-27",
+   "claim": "Repeating news of a death to a person with dementia causes fresh grief each time.",
+   "source_keys": [
+    "PMID:39865755",
+    "PMID:30803272"
+   ],
+   "supporting_passage": "No finding located. Background statements only: Murray 2025 (Background, citing others): \"The difficulty is that telling the truth to patients with dementia can often cause major distress or do certain harm, for example, when a person with dementia is asking after a deceased relative.\" Casey 2020 (Abstract background): \"A common symptom of cognitive decline in people living with dementia ... is the person repeatedly asking for loved ones who are deceased or making statements that are incorrect. Carers are then faced with a dilemma, do they avoid and distract or 'correct' the person and tell the 'truth', or tell a lie.\"",
+   "location": "Murray 2025 Background; Casey 2020 Abstract (background)",
+   "pico_timeframe": "Background statements, not study findings.",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Do not state as fact that repeated news of a death causes fresh grief. Frame it as the carer's dilemma: 'Should I tell her again that he has died, or not?' The inquiry's view that repeating a painful truth may not be in the person's interest (C08-27-b) can carry the point.",
+   "qualifications": "No empirical study located; Scite and Consensus were unavailable (usage limits) and PubMed searches found none.",
+   "conflicting_or_uncertain": "Plausible and widely reported clinically, but unverified in this project.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C08-27-e",
+   "cand_id": "C08-27",
+   "claim": "People with memory problems and their carers considered a 'good lie' to relieve distress acceptable only in some circumstances: with the intention to do good, by someone who knows the person, and never to deceive for harm.",
+   "source_keys": [
+    "PMID:30803272"
+   ],
+   "supporting_passage": "Three focus group's with a purposive sample of people with memory problems ( = 14) and three focus group's with informal/unpaid carers ( = 18) were undertaken. ... All participants considered that blatant lying with the intention to deceive and do harm is not acceptable. However, telling a 'good lie' or 'white lie' to alleviate distress was in certain circumstances considered acceptable. The intention behind the 'lie' in their view had to be to do good, and the informal/unpaid carer telling the lie had to really 'know the person' and be cognisant of family preferences. ... Lying was only considered acceptable in the context of knowing the person and when done with the intention not to harm or deceive, undertaken with empathy, and only for the purpose of mitigating the person living with dementia's distress.",
+   "location": "Abstract, Methods, Results and Conclusion",
+   "pico_timeframe": "Population: 14 people with memory problems or dementia and 18 unpaid carers, community, Ireland. Method: focus groups. Outcome: views on lying.",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In an Irish study, people with memory problems and family carers said that deceiving someone to harm them is never acceptable. A 'white lie' to ease distress could be acceptable, but only from someone who knows the person well and only to help them.",
+   "qualifications": "Small qualitative study (32 people). Views, not outcomes. Valuable because people with memory problems themselves took part; say so.",
+   "conflicting_or_uncertain": "Views may differ in other cultures and in advanced dementia.",
+   "numbers": [
+    {
+     "value": "14",
+     "meaning": "people with memory problems in focus groups"
+    },
+    {
+     "value": "18",
+     "meaning": "unpaid carers in focus groups"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-27-f",
+   "cand_id": "C08-27",
+   "claim": "When staff told untruths on dementia wards, how and why they said it mattered: responses motivated by the person's needs, with empathy and validation of feelings, went well; those motivated by the carer's convenience were less effective. Asking for a relative who had often died was a frequent situation.",
+   "source_keys": [
+    "PMID:39865755"
+   ],
+   "supporting_passage": "Data were collected across the two sites over a period of 4 months which equated to 338 hours of observation time. 250 lies or untruths were recorded during this period from 63 participants. ... The study defined avoidance as not wanting to cause upset by confronting people with the truth. A frequent example was when a patient was looking for a relative, who was often deceased. ... Motivation and validation on the part of the teller are the indicative elements as to whether the lie is likely to be effective or therapeutic. When the teller demonstrates empathy and understanding with the aim of meeting the needs of the patient, the result of the interaction was always positive. ... If the motivation is to meet the needs of the nurse or carer, it is far less likely to be effective.",
+   "location": "Full text, Methods (Data collection), Results (Avoidance; The Lie ARM) and Discussion",
+   "pico_timeframe": "Setting: two NHS wards for moderate to severe dementia, North East England; 338 hours observation; 250 untruths by 63 staff. Qualitative.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Researchers who watched staff on two UK dementia wards found that people often asked for a relative who had died. What helped was less the words chosen than the reason and the manner: responses aimed at the person's needs, given warmly and acknowledging their feelings, went well; those aimed at getting a task done went less well.",
+   "qualifications": "Qualitative, one observer, hospital staff not families, moderate to severe dementia. 'Always positive' is the authors' observation in this sample; do not generalise it. Mark the post's position (any departure from the literal truth should serve the person, not the carer's convenience) as judgement, supported by this observation.",
+   "conflicting_or_uncertain": "Ethical views on therapeutic lying remain divided.",
+   "numbers": [
+    {
+     "value": "338 hours",
+     "meaning": "observation time over 4 months, two wards"
+    },
+    {
+     "value": "250",
+     "meaning": "untruths recorded"
+    },
+    {
+     "value": "63",
+     "meaning": "staff observed telling them"
+    }
+   ]
+  },
+  {
+   "claim_id": "C08-27-g",
+   "cand_id": "C08-27",
+   "claim": "Care staff are often unsure how to respond when a person with dementia believes they are living in the past, and practice varies.",
+   "source_keys": [
+    "PMID:39437538"
+   ],
+   "supporting_passage": "Forty-two staff members working in four Spanish long-term care facilities were interviewed. ... All the participants mentioned having experienced a situation similar to that described in the vignette. In the case of common practices, lying was the most frequently mentioned strategy. As for best practices, lying and telling the truth were mentioned as well as responses that lie in-between, such as distracting or relaxing. However, most assistant carers reported that they do not know how a challenging false belief should be managed.",
+   "location": "Abstract, Participants and Findings",
+   "pico_timeframe": "Population: 42 staff in four Spanish long-term care facilities. Method: vignette-based interviews.",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Spanish study, all 42 care staff interviewed had faced a resident reliving the past. Most care assistants said they did not know how such a situation should be handled.",
+   "qualifications": "Small qualitative study in Spain; staff views, not family carers.",
+   "conflicting_or_uncertain": "None material.",
+   "numbers": [
+    {
+     "value": "42",
+     "meaning": "staff interviewed in four Spanish care facilities"
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C08-29",
+   "status": "ready",
+   "reason": "All essential claims are supported. Pittock 2023 (abstract) supports the 237 to 112 to 19 funnel and the broad exclusion reasons; Borgström Bolmsjö 2026 (full text) adds the access picture from primary care (about 1 in 7 people presenting with memory symptoms met lecanemab use criteria) and concrete reasons (about 1 in 6 on anticoagulants, about 1 in 4 with marked small-vessel changes on MRI, most with several reasons); Bellelli 2026 adds frailty (4 of 44 frail people met trial rules). To follow the editor's guidance, lead with access using these reasons. Must keep trial rules and real-world use rules separate (1 in 5 vs about 1 in 2 in the frail cohort). Drop the unverified placebo ARIA-E figure (1.7%); Clarity AD results are optional context. State UK licensing (MHRA, August 2024) only as a dated fact if used; do not state NICE's current position or imply a view on funding. Close with the question 'Would someone like me have been in the trial?'",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C08-29-a",
+    "C08-29-b",
+    "C08-29-c",
+    "C08-29-d"
+   ]
+  },
+  {
+   "cand_id": "C08-10",
+   "status": "revise",
+   "reason": "Core findings are supported (Delgado 2022, full text) and replicated for hospital use in Quebec (Godard-Sebillotte 2021). Two changes are needed. First, the medicine figures in the planned chart (8.5 vs 9.7; 2.1 vs 2.5) are unadjusted averages; the label 'linked with, after adjustment' is wrong. Adjusted differences were smaller (about 4% fewer medicines, about 7% fewer inappropriate prescriptions). Second, 'practices rarely measure continuity' has only an expert-opinion source (2025 editorial) and may be going out of date as England's GP contract changes; it must be attributed and dated or dropped. The admission link is weak (lost significance after excluding the first 6 months). The family action should be to book with the same GP (a named GP alone did not improve continuity; Tammes 2019).",
+   "revised_angle": "Count something simple: how many of your relative's GP appointments in the past year were with the same GP? In an English study of 9,324 people with dementia, those who saw the same GP most consistently were prescribed fewer medicines on average (8.5 vs 9.7 before adjustment; a smaller difference after adjustment) and fewer medicines that are often unsafe in older age, and had fewer new records of incontinence over the next year. A Canadian study found fewer hospital admissions. These studies show links, not proof of cause. Having a named GP is not enough: England's 2014 named-GP policy did not increase continuity. Action: ask to book with the same GP each time and keep a note of who you saw. Optional, attributed and dated: GP researchers wrote in 2025 that most UK practices did not measure continuity.",
+   "essential_claim_ids": [
+    "C08-10-a",
+    "C08-10-b",
+    "C08-10-c",
+    "C08-10-d",
+    "C08-10-g"
+   ]
+  },
+  {
+   "cand_id": "C08-28",
+   "status": "ready",
+   "reason": "All claims supported. Cohen-Mansfield 2015 (full text) supports about three unmet needs per resident (2.9 and 2.6 by the two rater groups), with loneliness and boredom commonest (about half to two thirds) and meaningful activity next (about half). The same study estimates pain and discomfort were under-detected and affected over half, which supports stating that physical causes are checked first. The 'time without activity' claim is now sourced (den Ouden 2015, Dutch observation study: inactive in 45% to 77% of observations). Effect of acting on unmet needs: short US RCT (TREA 2012). Must say 'one small US study of 89 residents with advanced dementia'; needs are raters' judgements (low agreement), linked with behaviour, not proven causes. Use 'distressed behaviour', not 'problem behaviour'.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C08-28-a",
+    "C08-28-b",
+    "C08-28-c",
+    "C08-28-e"
+   ]
+  },
+  {
+   "cand_id": "C08-27",
+   "status": "revise",
+   "reason": "The Mental Health Foundation 2016 report could not be opened (download blocked by proxy, not in Drive), so the judge's requirement to quote the inquiry's range and recommendations from the report itself cannot be met. Its main conclusions are available only through a peer-reviewed secondary description (Murray 2025, full text) and search extracts: truth as the starting point, repeating a painful truth may not be in the person's interest, untruth as a last resort with good intent. The candidate's named five-step range cannot be credited to the inquiry (partly supported). The claim that repeating news of a death causes fresh grief was not found as a finding and must be recast as the carer's dilemma. Peer-reviewed sources supply what the post needs instead: people with memory problems and carers accept a 'white lie' only to ease distress, from someone who knows the person (Casey 2020); on UK dementia wards, motive and manner mattered more than the words (Murray 2025).",
+   "revised_angle": "Keep the opening question ('What do you say when someone with dementia asks where their late husband is?'). Present it as a dilemma families and staff face. Say, paraphrased and attributed, that a 2016 UK inquiry concluded that truth is the starting point, that repeating a painful truth may not help, and that an untruth should be a last resort used only for the person's good. Add the view of people with memory problems themselves (Irish focus groups: deceiving to harm is never acceptable; a white lie to ease distress can be, from someone who knows the person). Add the ward observation that responses aimed at the person's needs, given warmly and acknowledging the feeling, went better than those aimed at finishing a task. Centre the visual on the test 'What would help this person now?', marked as judgement, with one clearly labelled illustrative example of answering the feeling behind the question. Do not show a scale credited to the inquiry, and do not quote the report.",
+   "essential_claim_ids": [
+    "C08-27-a",
+    "C08-27-b",
+    "C08-27-e",
+    "C08-27-f"
+   ]
+  }
+ ]
+}

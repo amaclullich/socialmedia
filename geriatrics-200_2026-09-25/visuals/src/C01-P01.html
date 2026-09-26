@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P01 Weeks after the fall</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>
+ .defn { display: grid; grid-template-columns: 1fr 490px; gap: 10px; align-items: center; margin-top: 26px; padding: 10px 20px 8px 30px; }
+ .defn .term { font-size: 32px; line-height: 1.32; font-weight: 600; color: var(--ink); }
+ .defn .term b { color: var(--orange); font-weight: 800; }
+ .defn svg { display: block; }
+ .tl-head { display: flex; align-items: center; margin-top: 14px; }
+ .tl { display: grid; grid-template-columns: 1fr 34px 1fr 34px 1fr; margin-top: 10px; align-items: start; }
+ .st .vig { position: relative; height: 172px; border-radius: 18px; overflow: hidden; background: var(--sand); border: 2px solid var(--line); }
+ .st .vig svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+ .st .lab { font-family: "Montserrat"; font-weight: 800; font-size: 25px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--teal); margin-top: 12px; }
+ .st .txt { font-size: 30px; line-height: 1.26; margin-top: 4px; }
+ .st.act .box { background: var(--deep); border-radius: 18px; padding: 16px 20px 20px; margin-top: 12px; }
+ .st.act .lab { color: var(--gold); margin-top: 0; }
+ .st.act .txt { color: var(--white); font-weight: 500; }
+ .arr { height: 172px; display: flex; align-items: center; justify-content: center; }
+ .note { margin-top: auto; display: flex; gap: 18px; align-items: flex-start; font-size: 31px; line-height: 1.32; font-weight: 700; padding-bottom: 8px; }
+ .note::before { content: ""; flex: 0 0 8px; align-self: stretch; border-radius: 4px; background: var(--orange); }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content">
+  <h1 class="s">A fall weeks ago can explain <em>new symptoms now</em></h1>
+  <div class="panel mint defn">
+   <p class="term"><b>Chronic subdural haematoma:</b> a slow bleed between the brain and the skull</p>
+   <svg id="head" viewBox="0 0 490 236" width="490" height="236" aria-hidden="true"></svg>
+  </div>
+  <div class="tl-head"><span class="badge illustrative">Illustrative example</span></div>
+  <div class="tl">
+   <div class="st"><div class="vig" id="v1"></div><div class="lab">Day of the fall</div><p class="txt">The fall or knock to the head. It may seem minor, or be forgotten.</p></div>
+   <div class="arr"><svg width="30" height="44" viewBox="0 0 30 44"><path d="M4,4 L26,22 L4,40 Z" fill="#15535B"/></svg></div>
+   <div class="st"><div class="vig" id="v2"></div><div class="lab">Days to weeks later</div><p class="txt">New unsteadiness or falls, headache, weakness on one side, slower or muddled thinking, drowsiness.</p></div>
+   <div class="arr"><svg width="30" height="44" viewBox="0 0 30 44"><path d="M4,4 L26,22 L4,40 Z" fill="#15535B"/></svg></div>
+   <div class="st act"><div class="vig" id="v3"></div><div class="box"><div class="lab">What to do</div><p class="txt">Tell the doctor about the fall. Ask whether a brain scan is needed.</p></div></div>
+  </div>
+  <p class="note">Often treatable. Sudden or severe symptoms: get emergency help.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Shapey et al. 2016; El Rahal et al. 2023; Brennan et al. 2017</span></div>
+</div>
+
+</div>
+<script>
+/* ---- schematic head cross-section: face to the left, bleed as a thin crescent top right ---- */
+(function () {
+  const OL = '#1F2A30';
+  const head = 'M250,236 C258,214 280,200 300,184 C330,150 330,52 232,22 C150,0 92,40 86,92 C84,104 80,112 74,120 C68,130 58,140 60,146 C62,152 72,152 76,154 C72,160 70,164 74,168 C70,172 70,178 76,182 C76,192 82,202 98,206 C120,210 142,206 156,204 C162,214 164,226 164,236 Z';
+  const gyri = [
+    'M150,92 C162,80 176,84 180,96', 'M196,76 C210,66 226,70 230,84', 'M242,92 C256,86 266,98 262,110',
+    'M130,122 C142,112 158,116 160,130', 'M178,112 C192,104 206,110 206,124', 'M222,120 C236,112 250,120 248,134',
+    'M146,152 C158,144 172,150 172,162', 'M192,148 C204,140 220,146 220,160', 'M236,150 C248,146 258,154 256,164'
+  ].map(d => `<path d="${d}" fill="none" stroke="#9E7F8C" stroke-width="2.5" stroke-linecap="round"/>`).join('');
+  const lab = (x, y, s) => `<text x="${x}" y="${y}" font-family="Inter" font-weight="700" font-size="26" fill="${OL}">${s}</text>`;
+  const lead = (x1, y1, x2, y2) => `<path d="M${x1},${y1} L${x2},${y2}" stroke="${OL}" stroke-width="2.5"/><circle cx="${x2}" cy="${y2}" r="5" fill="${OL}"/>`;
+  document.getElementById('head').innerHTML =
+    `<path d="${head}" fill="#E8D5C4" stroke="${OL}" stroke-width="3" stroke-linejoin="round"/>` +
+    `<ellipse cx="205" cy="112" rx="104" ry="84" fill="#F7F3EA" stroke="${OL}" stroke-width="3"/>` +
+    `<ellipse cx="205" cy="112" rx="90" ry="71" fill="#E59A70" stroke="${OL}" stroke-width="3"/>` +
+    `<ellipse cx="197" cy="121" rx="83" ry="62" fill="#E7CFD6" stroke="${OL}" stroke-width="3"/>` + gyri +
+    lead(338, 40, 272, 64) + lab(344, 49, 'Slow bleed') +
+    lead(338, 118, 302, 118) + lab(344, 127, 'Skull') +
+    lead(338, 196, 238, 156) + lab(344, 205, 'Brain');
+})();
+
+/* ---- three vignettes, same woman throughout ---- */
+const K = Kit;
+const her = { age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'pixie', top: 'cream', bottom: 'navy', extras: ['cardigan'], cardigan: 'sage', shoes: '#6B5647', shoeStyle: 'slipper' };
+
+(function () { // 1: sitting on the kitchen floor beside a chair, hand to her forehead, alert
+  const W = 600, H = 408, S = 1.0, g = 372;
+  const w = Object.assign({ pose: 'on_floor', x: 250, y: g, scale: S, tilt: -4 }, her);
+  const hd = K.joint(w, 'head');
+  w.hands = { near: { x: hd.x + 30, y: hd.y - 14 } };
+  K.draw('#v1', W, H, [
+    K.room('kitchen', { w: W, h: H, ground: g, scale: S }),
+    K.kitchen_counter({ x: 470, y: g - 48, scale: 0.9, w: 300, sink: false }),
+    K.chair({ x: 120, y: g - 6, scale: S }),
+    K.person(w),
+  ], { cls: 'art' });
+})();
+
+(function () { // 2: two weeks later, tired, starting to stand from her armchair, stick beside her
+  const W = 600, H = 408, S = 0.98, g = 384;
+  K.draw('#v2', W, H, [
+    K.room('home_living', { w: W, h: H, ground: g, scale: S }),
+    K.window({ x: 430, y: g - 70 * S - 260, scale: 0.9, curtains: 'mustard' }),
+    K.person(Object.assign({ pose: 'rising', seat: 'armchair', seatColour: 'plum', x: 250, y: g, scale: S, tilt: 16 }, her)),
+    K.stick({ x: 410, y: g, angle: -9, scale: S, length: 176 }),
+  ], { cls: 'art' });
+})();
+
+(function () { // 3: at the GP's desk with her son; the GP listening, facing them
+  const W = 620, H = 422, S = 0.8, g = 404;
+  const dk = K.anchor('desk', { x: 370, y: g, scale: S });
+  K.draw('#v3', W, H, [
+    K.room('gp_room', { w: W, h: H, ground: g, scale: S }),
+    K.person({ pose: 'seated_side', x: 70, y: g, scale: S, age: 'adult', skin: 'olive', hair: 'darkgrey', hairStyle: 'short', top: 'denim', bottom: 'charcoal', tilt: 6, hands: 'lap' }),
+    K.person(Object.assign({ pose: 'seated_talking', x: 196, y: g, scale: S }, her, { shoeStyle: 'shoe' })),
+    K.person({ pose: 'seated_side', role: 'doctor', sex: 'f', x: 548, y: g, scale: S, facing: 'left', skin: 'tan', hair: 'black', hairStyle: 'bun', tilt: 4, hands: 'lap' }),
+    K.desk({ x: 400, y: g, scale: S, w: 200 }),
+    K.notepad({ x: 440, y: dk.top.y, scale: S }),
+  ], { cls: 'art' });
+})();
+window.__ready = true;
+</script></body></html>

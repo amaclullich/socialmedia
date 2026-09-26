@@ -1,0 +1,807 @@
+{
+ "batch": "C12-B3",
+ "category": "C12",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:1624166",
+   "citation": "Heaton KW, Radvan J, Cripps H, Mountford RA, Braddon FE, Hughes AO. Defecation frequency and timing, and stool form in the general population: a prospective study. Gut. 1992;33(6):818-24.",
+   "pmid": "1624166",
+   "pmcid": "PMC1379343",
+   "doi": "10.1136/gut.33.6.818",
+   "public_url": "https://doi.org/10.1136/gut.33.6.818",
+   "design": "Population-based prospective survey with bowel diaries (three consecutive defecations) and questionnaire",
+   "population_setting": "838 men and 1059 women (72.2% of a random stratified sample of the East Bristol population, UK); age range not stated in the abstract and not verified",
+   "year": 1992,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC1379343 returned no text: the PMC version is a scanned page image)",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Old (1992) single-city UK sample. The judge notes the sample was adults aged about 25 to 69; this could not be confirmed because the full text is not machine-readable, so do not state an age range. The abstract says age had little effect on bowel habit apart from younger women. Not a study of people over 70. Frequency figures are the study's own findings, not background figures."
+  },
+  {
+   "key": "PMID:28762379",
+   "citation": "Mitsuhashi S, Ballou S, Jiang ZG, Hirsch W, Nee J, Iturrino J, et al. Characterizing normal bowel frequency and consistency in a representative sample of adults in the United States (NHANES). Am J Gastroenterol. 2018;113(1):115-23.",
+   "pmid": "28762379",
+   "pmcid": null,
+   "doi": "10.1038/ajg.2017.213",
+   "public_url": "https://doi.org/10.1038/ajg.2017.213",
+   "design": "Cross-sectional analysis of a nationally representative survey (NHANES 2009-2010)",
+   "population_setting": "4,775 US adult NHANES participants who reported normal bowel patterns; MeSH includes Aged; exact age range not checked in full text",
+   "year": 2018,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Large, nationally representative sample, but restricted to people who already described their bowel habits as normal, so the 3-a-day to 3-a-week range partly reflects that selection. Self-report. US population. No full text in PMC, so age-specific breakdown not checked."
+  },
+  {
+   "key": "PMID:20205503",
+   "citation": "Walter SA, Kjellström L, Nyhlin H, Talley NJ, Agréus L. Assessment of normal bowel habits in the general adult population: the Popcol study. Scand J Gastroenterol. 2010;45(5):556-66.",
+   "pmid": "20205503",
+   "pmcid": null,
+   "doi": "10.3109/00365520903551332",
+   "public_url": "https://doi.org/10.3109/00365520903551332",
+   "design": "Prospective population study: random sample with one-week symptom diaries, gastroenterologist assessment, colonoscopy and laboratory tests",
+   "population_setting": "268 randomly selected adults aged 18 to 70 in Sweden; 124 with no organic disease, IBS or relevant medication formed the 'healthy' subgroup",
+   "year": 2010,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Small healthy subgroup (124); upper age 70, so it does not describe people over 70. Strength: organic disease excluded by colonoscopy. Useful for the finding that some straining, urgency and incomplete emptying are common in healthy people."
+  },
+  {
+   "key": "PMID:37211380",
+   "citation": "Chang L, Chey WD, Imdad A, Almario CV, Bharucha AE, Diem S, et al. American Gastroenterological Association-American College of Gastroenterology Clinical Practice Guideline: pharmacological management of chronic idiopathic constipation. Gastroenterology. 2023;164(7):1086-106.",
+   "pmid": "37211380",
+   "pmcid": "PMC10542656",
+   "doi": "10.1053/j.gastro.2023.03.214",
+   "public_url": "https://doi.org/10.1053/j.gastro.2023.03.214",
+   "design": "Clinical practice guideline with systematic reviews and GRADE (joint AGA-ACG)",
+   "population_setting": "Adults (18 years or older) with chronic idiopathic constipation; US guideline; drug treatment only",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC10542656), searched for definition passages",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Authoritative recent guideline, but its scope is drug treatment; the definition of constipation used here is its description of the Rome criteria as applied in the PEG trials it reviewed, not the Rome IV document itself (Rome IV, Mearin 2016, PMID 27144627, abstract gives no criteria). Also published in Am J Gastroenterol (PMID 37204227)."
+  },
+  {
+   "key": "PMID:35820780",
+   "citation": "Monahan KJ, Davies MM, Abulafi M, Banerjea A, Nicholson BD, Arasaradnam R, et al. Faecal immunochemical testing (FIT) in patients with signs or symptoms of suspected colorectal cancer (CRC): a joint guideline from the Association of Coloproctology of Great Britain and Ireland (ACPGBI) and the British Society of Gastroenterology (BSG). Gut. 2022;71(10):1939-62.",
+   "pmid": "35820780",
+   "pmcid": "PMC9484376",
+   "doi": "10.1136/gutjnl-2022-327985",
+   "public_url": "https://doi.org/10.1136/gutjnl-2022-327985",
+   "design": "National specialist society guideline (ACPGBI/BSG) with systematic review, GRADE and extended Delphi",
+   "population_setting": "People presenting to UK primary care with signs or symptoms of suspected colorectal cancer",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles, get_article_metadata; PubMed get_full_text_article (PMC9484376), searched for recommendations and symptom passages",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Current UK specialist guidance on the FIT pathway. It does not give a public symptom checklist; NICE NG12 and DG30 are described in it but were not opened (NICE pages blocked, not in Drive). Evidence grade for primary-care FIT recommendation low, strength strong."
+  },
+  {
+   "key": "PMID:35303758",
+   "citation": "Assmann SL, Keszthelyi D, Kleijnen J, Anastasiou F, Bradshaw E, Brannigan AE, et al. Guideline for the diagnosis and treatment of faecal incontinence: a UEG/ESCP/ESNM/ESPCG collaboration. United European Gastroenterol J. 2022;10(3):251-86.",
+   "pmid": "35303758",
+   "pmcid": "PMC9004250",
+   "doi": "10.1002/ueg2.12213",
+   "public_url": "https://doi.org/10.1002/ueg2.12213",
+   "design": "European multi-society clinical practice guideline with systematic review and GRADE; patient advisory board; primary care society included",
+   "population_setting": "Adults with faecal incontinence in any setting; includes sections on nursing home residents and people with neurological disease or cognitive impairment",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles, get_article_metadata; PubMed get_full_text_article (PMC9004250), saved and searched for diagnosis and first-line treatment sections",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Recent, multidisciplinary, includes primary care. The diagnosis chapter states its recommendations are mainly expert opinion. Evidence for individual first-line measures is modest (psyllium beat placebo; loperamide similar to psyllium; education alone did about as well as exercises or biofeedback in trials). Used in place of NICE CG49, which could not be opened."
+  },
+  {
+   "key": "PMID:8561140",
+   "citation": "Johanson JF, Lafferty J. Epidemiology of fecal incontinence: the silent affliction. Am J Gastroenterol. 1996;91(1):33-6.",
+   "pmid": "8561140",
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://pubmed.ncbi.nlm.nih.gov/8561140/",
+   "design": "Prospective questionnaire survey of consecutive clinic attenders",
+   "population_setting": "881 adults aged 18 or older attending primary care physicians or gastroenterologists in Illinois, USA (1990s)",
+   "year": 1996,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms ('silent affliction') returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Old, single-region US clinic sample (not the general population; gastroenterology attenders will have more bowel problems), so prevalence is not transferable. The 'only one-third had ever discussed it' figure is the useful part; it agrees with Brown 2013. No DOI returned by PubMed."
+  },
+  {
+   "key": "PMID:19410574",
+   "citation": "Whitehead WE, Borrud L, Goode PS, Meikle S, Mueller ER, Tuteja A, et al. Fecal incontinence in US adults: epidemiology and risk factors. Gastroenterology. 2009;137(2):512-7.",
+   "pmid": "19410574",
+   "pmcid": "PMC2748224",
+   "doi": "10.1053/j.gastro.2009.04.054",
+   "public_url": "https://doi.org/10.1053/j.gastro.2009.04.054",
+   "design": "Cross-sectional nationally representative survey (NHANES 2005-2006) with validated Fecal Incontinence Severity Index; weighted prevalence; multivariable logistic regression",
+   "population_setting": "2229 women and 2079 men aged 20 or older, civilian non-institutionalised US population (care home residents not included)",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Strong source for prevalence by age. Leakage defined broadly (solid, liquid or mucus at least once in the past month), so it includes minor episodes; people in care homes excluded, so older-age figures likely underestimate the whole older population. Risk factors are associations. Full text available in PMC but not needed."
+  },
+  {
+   "key": "PMID:23442502",
+   "citation": "Brown HW, Wexner SD, Lukacz ES. Factors associated with care seeking among women with accidental bowel leakage. Female Pelvic Med Reconstr Surg. 2013;19(2):66-71.",
+   "pmid": "23442502",
+   "pmcid": null,
+   "doi": "10.1097/SPV.0b013e31828016d3",
+   "public_url": "https://doi.org/10.1097/SPV.0b013e31828016d3",
+   "design": "Secondary analysis of a community-based internet survey",
+   "population_setting": "938 US women aged 45 or older with accidental bowel leakage (from 5817 survey respondents, 2009-2010); 85% white, 87% insured; median age 55 to 59",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Internet survey of mainly white, insured, well-educated women; mostly under 65; care seeking self-reported. Supports the 'about 1 in 3 had talked to a doctor' finding in a second, more recent sample."
+  },
+  {
+   "key": "PMID:23067034",
+   "citation": "Brown HW, Wexner SD, Segall MM, Brezoczky KL, Lukacz ES. Accidental bowel leakage in the mature women's health study: prevalence and predictors. Int J Clin Pract. 2012;66(11):1101-8.",
+   "pmid": "23067034",
+   "pmcid": null,
+   "doi": "10.1111/ijcp.12018",
+   "public_url": "https://doi.org/10.1111/ijcp.12018",
+   "design": "Cross-sectional internet-based survey of a cohort",
+   "population_setting": "5817 community-dwelling US women aged 45 or older (surveyed Sept 2009 to April 2010)",
+   "year": 2012,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Same survey as Brown 2013. Used only for the finding on the words women prefer. Sample predominantly white, well educated and insured."
+  },
+  {
+   "key": "PMID:38078194",
+   "citation": "Hagen S, Kearney R, Goodman K, Best C, Elders A, Melone L, et al. Clinical effectiveness of vaginal pessary self-management vs clinic-based care for pelvic organ prolapse (TOPSY): a randomised controlled superiority trial. EClinicalMedicine. 2023;66:102326.",
+   "pmid": "38078194",
+   "pmcid": "PMC10701109",
+   "doi": "10.1016/j.eclinm.2023.102326",
+   "public_url": "https://doi.org/10.1016/j.eclinm.2023.102326",
+   "design": "Multicentre parallel-group superiority randomised controlled trial (unblinded), intention-to-treat analysis; primary outcome at 18 months",
+   "population_setting": "340 women aged 18 or older using a pessary for prolapse at 21 UK NHS pessary clinics (recruited May 2018 to Feb 2020)",
+   "year": 2023,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles, get_article_metadata; PubMed get_full_text_article (PMC10701109)",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "The only RCT of pessary self-management. Unblinded, patient-reported outcomes; complications measured with a study-specific, unvalidated questionnaire as the percentage of relevant complication types each woman reported (not the proportion of women with a complication). 20% crossed from self-management to clinic care. Randomised women were slightly younger (64 vs 67 years) than eligible non-participants; authors say findings may be less generalisable to older existing users. Little ethnic diversity."
+  },
+  {
+   "key": "PMID:38767959",
+   "citation": "Bugge C, Hagen S, Elders A, Mason H, Goodman K, Dembinsky M, et al. Clinical and cost-effectiveness of pessary self-management versus clinic-based care for pelvic organ prolapse in women: the TOPSY RCT with process evaluation. Health Technol Assess. 2024;28(23):1-121.",
+   "pmid": "38767959",
+   "pmcid": "PMC11145464",
+   "doi": "10.3310/NWTB5403",
+   "public_url": "https://doi.org/10.3310/NWTB5403",
+   "design": "Full NIHR HTA report of the TOPSY superiority RCT with economic and process evaluation",
+   "population_setting": "Same trial population as Hagen 2023: 340 women at UK NHS outpatient pessary services",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC11145464 returned only the abstract and plain language summary)",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Report of the same trial. Abstract gives 32 serious adverse events (17 + 14) whereas the EClinicalMedicine paper gives 31; use neither number in posts. The plain language summary gives usual clinic follow-up as every 6 months."
+  },
+  {
+   "key": "PMID:40832737",
+   "citation": "Bugge C, Kearney R, Best C, Goodman K, Manoukian S, Melone L, et al. Four year clinical and cost effectiveness of vaginal pessary self-management versus clinic-based care for pelvic organ prolapse (TOPSY): long term follow-up of a randomised controlled superiority trial. BJOG. 2025;132(12):1762-71.",
+   "pmid": "40832737",
+   "pmcid": "PMC12501713",
+   "doi": "10.1111/1471-0528.18333",
+   "public_url": "https://doi.org/10.1111/1471-0528.18333",
+   "design": "Long-term (4-year) questionnaire follow-up of an RCT, intention-to-treat with equivalence test and economic evaluation",
+   "population_setting": "186 of the 340 TOPSY women (55%) who opted into 4-year follow-up (86 self-management, 100 clinic care), 21 UK centres",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC12501713)",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "45% lost to follow-up (authors report responders and non-responders were similar); loss of power for complications; after 18 months care returned to usual practice and many crossed over (39% of clinic-care pessary users had moved to self-management). Abstract gives complications 17.7% vs 22.0%, results text and table give 17.9% vs 22.0%: say 'about 18 vs 22' or avoid the figure."
+  },
+  {
+   "key": "PMID:38492924",
+   "citation": "Manoukian S, Mason H, Hagen S, Kearney R, Goodman K, Best C, et al. Cost-effectiveness of 2 models of pessary care for pelvic organ prolapse: findings from the TOPSY randomized controlled trial. Value Health. 2024;27(7):889-96.",
+   "pmid": "38492924",
+   "pmcid": null,
+   "doi": "10.1016/j.jval.2024.03.004",
+   "public_url": "https://doi.org/10.1016/j.jval.2024.03.004",
+   "design": "Within-trial cost-utility analysis plus 5-year decision analytic model",
+   "population_setting": "TOPSY trial participants, UK NHS perspective",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Within-trial result uncertain (80.8% probability of cost-effectiveness; confidence interval for net benefit crossed zero in the EClinicalMedicine paper). Say 'cost the NHS less' and 'likely to be cost-effective', not 'saves money' as a certainty."
+  },
+  {
+   "key": "PMID:38953998",
+   "citation": "Dwyer L, Rajai A, Dowding D, Kearney R. Understanding factors that affect willingness to self-manage a pessary for pelvic organ prolapse: a questionnaire-based cross-sectional study of pessary-using women in the UK. Int Urogynecol J. 2024;35(8):1627-34.",
+   "pmid": "38953998",
+   "pmcid": "PMC11380633",
+   "doi": "10.1007/s00192-024-05840-1",
+   "public_url": "https://doi.org/10.1007/s00192-024-05840-1",
+   "design": "Cross-sectional questionnaire study",
+   "population_setting": "89 women attending a pessary clinic at one UK hospital",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles and get_article_metadata",
+   "correction_check": "PubMed: this PMID searched with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (26 Sep 2026); PubMed search for published erratum[pt] notices matching the title terms returned no erratum for this paper (the 3 hits were unrelated FIT/screening errata). Scite could not be used (monthly usage limit reached).",
+   "quality_note": "Small single-centre survey. Used only to show that many women prefer clinic care and that willingness fell with age, so self-management should be an offered option, not an expectation."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C12-25-a",
+   "cand_id": "C12-25",
+   "claim": "In a random population sample of about 1,900 adults in East Bristol, going once a day was the most common bowel pattern but only a minority had a regular daily cycle; most people had irregular bowels and a third of women went less often than daily.",
+   "source_keys": [
+    "PMID:1624166"
+   ],
+   "supporting_passage": "\"Because the range of bowel habits and stool types in the community is unknown we questioned 838 men and 1059 women, comprising 72.2% of a random stratified sample of the East Bristol population.\" \"Although the most common bowel habit was once daily this was a minority practice in both sexes; a regular 24 hour cycle was apparent in only 40% of men and 33% of women. Another 7% of men and 4% of women seemed to have a regular twice or thrice daily bowel habit. Thus most people had irregular bowels. A third of women defecated less often than daily and 1% once a week or less.\"",
+   "location": "Abstract",
+   "pico_timeframe": "Adults in a random stratified sample of East Bristol, UK (age range not verified) / none (descriptive) / none / bowel frequency and regularity from questionnaire and records of three consecutive defecations / cross-sectional, published 1992",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a study of about 1,900 adults in East Bristol, published in 1992, going once a day was the most common pattern. But only 40 in 100 men and 33 in 100 women went on a regular daily cycle, and a third of the women went less often than once a day.",
+   "qualifications": "Name the place and date. Do not state an age range (not verifiable from the abstract) and do not present it as a study of older people. 'Most people had irregular bowels' is the authors' own summary and may be quoted as the study's finding.",
+   "conflicting_or_uncertain": "Old single-city data. The abstract also reports that only 56% of women's and 61% of men's stools were of 'normal' type, so the study's own conclusion is that textbook-normal bowel function is less common than assumed, not that everything is normal.",
+   "numbers": [
+    {
+     "value": "838 men and 1059 women (1,897; about 1,900)",
+     "meaning": "participants; 72.2% of a random stratified sample of East Bristol"
+    },
+    {
+     "value": "40% of men, 33% of women",
+     "meaning": "had a regular 24-hour (once-daily) cycle; denominators are the men and women in the sample"
+    },
+    {
+     "value": "7% of men, 4% of women",
+     "meaning": "had a regular twice or three-times daily pattern"
+    },
+    {
+     "value": "a third of women",
+     "meaning": "opened bowels less often than daily"
+    },
+    {
+     "value": "1% of women",
+     "meaning": "once a week or less"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-25-b",
+   "cand_id": "C12-25",
+   "claim": "Age made little difference to bowel frequency in adult population studies (apart from younger women in Bristol); these studies did not include people over about 70.",
+   "source_keys": [
+    "PMID:1624166",
+    "PMID:20205503"
+   ],
+   "supporting_passage": "Heaton: \"In women of child bearing age bowel habit and the spectrum of stool types were shifted towards constipation and irregularity compared with older women and three cases of severe slow transit constipation were discovered in young women. Otherwise age had little effect on bowel habit or stool type.\" Walter (Popcol): \"Two hundred and sixty-eight randomly selected subjects between 18 and 70 years completed symptom diaries for one week\" ... \"We could not demonstrate any gender or age differences in terms of stool frequency, defecatory symptoms or abdominal bloating.\"",
+   "location": "Abstracts",
+   "pico_timeframe": "Adults in East Bristol (age range unverified) and Swedish adults aged 18 to 70 / age groups compared / none / bowel frequency and symptoms / cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In these studies of adults up to about 70, age made little difference to how often people opened their bowels.",
+   "qualifications": "Say 'adults up to about 70'. Do not extend to people in their 80s or 90s or to people in hospital or care homes, where immobility, illness and medicines change bowel habit; no source opened here covers them.",
+   "conflicting_or_uncertain": "No source opened in this batch describes normal bowel frequency specifically in people over 70.",
+   "numbers": [
+    {
+     "value": "18 to 70",
+     "meaning": "age range of the Popcol random sample (Sweden)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-25-c",
+   "cand_id": "C12-25",
+   "claim": "Almost all adults with normal bowels go between three times a day and three times a week.",
+   "source_keys": [
+    "PMID:28762379",
+    "PMID:20205503"
+   ],
+   "supporting_passage": "Mitsuhashi (NHANES): \"This study used data from adult participants who completed bowel health questions as part of the National Health and Nutrition Examination Survey (NHANES) in 2009-2010 and who reported normal bowel patterns (N=4,775).\" \"95.9% of the sample reported between 3 and 21 BMs per week.\" \"The current findings bolster the common \\\"3 and 3\\\" metric of normal frequency (3 BMs/day to 3 BMs/week)\". Walter (Popcol): \"One hundred and twenty-four subjects had no organic gastrointestinal abnormality, IBS, or relevant medication; 98% of them had between three stools per day and three per week.\"",
+   "location": "Abstracts",
+   "pico_timeframe": "US adults in NHANES 2009-10 who reported normal bowel patterns (n=4,775); Swedish adults 18 to 70 without organic disease, IBS or relevant medication (n=124) / none / none / stools per week / cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Among US adults who said their bowels were normal, 96 in 100 went somewhere between 3 times a week and 3 times a day. A Swedish study of healthy adults aged 18 to 70 found the same range for 98 in 100.",
+   "qualifications": "Attribute the range to these studies (not to the Bristol study). The US sample was restricted to people who called their own bowels normal, so the range describes people who feel normal; it is not a diagnostic cut-off. Do not claim the range was established in people over 70.",
+   "conflicting_or_uncertain": "The judge noted the '3 a day to 3 a week' range is often traced to Connell 1965; that paper was not opened and is not needed now that two opened sources give the range.",
+   "numbers": [
+    {
+     "value": "95.9% (about 96 in 100)",
+     "meaning": "of 4,775 US adults reporting normal bowel patterns, reported 3 to 21 bowel movements per week (3 a week to 3 a day); NHANES 2009-10"
+    },
+    {
+     "value": "98% (about 98 in 100)",
+     "meaning": "of 124 healthy Swedish adults aged 18 to 70, had between 3 stools a day and 3 a week (one-week diary)"
+    },
+    {
+     "value": "268",
+     "meaning": "randomly selected Popcol participants, of whom 124 formed the healthy subgroup"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-25-d",
+   "cand_id": "C12-25",
+   "claim": "Constipation is defined by a combination of symptoms (hard stools, straining, feeling of incomplete emptying, fewer than 3 bowel movements a week) rather than by not going every day; occasional straining is common in healthy people.",
+   "source_keys": [
+    "PMID:37211380",
+    "PMID:20205503"
+   ],
+   "supporting_passage": "Chang (AGA-ACG guideline): \"Two of these studies were multicenter trials conducted in Italy and enrolled participants aged 18–70 years with chronic constipation defined in accordance with the Rome criteria, that is, less than 2 bowel movements per week for at least 12 months or the presence of 2 or more of the following symptoms: <3 bowel movements per week, straining at defecation, sense of incomplete evacuation, and hard stools on at least 25% of occasions.\" \"The third study was conducted in the United States and included 304 participants with chronic constipation based on modified Rome criteria, where participants reported <3 bowel movements per week for at least 3 months and one or more of the following: straining, lumpy or hard stools, and sensation of incomplete evacuation in >25% of defecations.\" Walter (Popcol): \"Urgency was reported by 36%; straining by 47% and incomplete defecation by 46%.\" \"Some degree of urgency, straining, and incomplete evacuation should be considered normal.\"",
+   "location": "Chang 2023: full text, Polyethylene Glycol, Summary of evidence; Walter 2010: Abstract",
+   "pico_timeframe": "Definition as applied in trials reviewed by a 2023 US guideline; healthy Swedish adults 18 to 70 for the frequency of occasional symptoms",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Doctors call it constipation when problems such as hard or lumpy stools, straining, a feeling of not having emptied, or going fewer than 3 times a week happen a good part of the time. Going less than once a day is not constipation on its own. Occasional straining is common in healthy people.",
+   "qualifications": "Say 'a good part of the time' or 'at least 1 time in 4' rather than giving a set duration: the durations quoted (3 months, 12 months) are those used in particular trials, and the current Rome IV wording was not opened. Do not call this the NHS definition.",
+   "conflicting_or_uncertain": "Popcol found straining in 47% and incomplete emptying in 46% of healthy people, so a single symptom now and then does not mean constipation.",
+   "numbers": [
+    {
+     "value": "fewer than 3 a week; at least 25% of occasions",
+     "meaning": "Rome-criteria thresholds as described in the AGA-ACG guideline for the trials it reviewed"
+    },
+    {
+     "value": "47% straining, 46% incomplete defecation, 36% urgency",
+     "meaning": "proportion of Popcol participants reporting these symptoms (per abstract; denominator not fully specified, appears to refer to the healthy subgroup)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-25-e",
+   "cand_id": "C12-25",
+   "claim": "A lasting change in your usual bowel pattern, bleeding from the back passage or unexplained weight loss should be checked by a GP; in UK primary care a stool test (FIT) is now recommended to decide who needs urgent bowel investigation.",
+   "source_keys": [
+    "PMID:35820780",
+    "PMID:35303758"
+   ],
+   "supporting_passage": "Monahan (ACPGBI/BSG FIT guideline): \"FIT provides an opportunity to effectively triage patients with bowel symptoms into two groups: those who require ‘Fast Track’ referral on an urgent suspected cancer pathway and lower risk patients who may potentially be managed in primary care.\" \"We recommend that FIT should be used by primary care clinicians to prioritise patients with clinical features of CRC for referral for urgent investigation\" \"GRADE of evidence: low; Strength of recommendation: Strong.\" \"Pathway for FIT in patients with signs or symptoms of a suspected diagnosis of colorectal cancer (CRC), including symptoms such as those with per rectal bleeding, and signs including iron deficiency anaemia.\" \"We suggest that patients with an fHb <10 µg Hb/g but with persistent and unexplained symptoms for whom the GP has ongoing clinical concern should be referred to secondary care for evaluation\" \"Those with an anal/rectal mass or anal ulceration should be referred urgently from primary care without a FIT.\" Assmann (UEG guideline): \"The presence of other diseases generally causing diarrhoea such as colorectal cancer, inflammatory bowel disease (IBD), coeliac disease, diabetes and prolapse should be ruled out, considering factors such as age at presentation and red flag features (weight loss, rectal blood loss, sudden change in stool consistency etc.).\"",
+   "location": "Monahan 2022: full text (Background; Executive summary of recommendations; Figure 1 legend; Scope); Assmann 2022: full text (Diagnosis, History taking)",
+   "pico_timeframe": "People with lower bowel symptoms presenting to UK primary care / FIT-guided triage / symptoms alone / urgent referral for suspected colorectal cancer; UEG: adults with faecal incontinence, red-flag features",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "See your GP about a change from your usual bowel pattern that lasts, blood from your back passage or in your stool, or weight loss you can't explain. UK specialist guidance recommends that GPs use a simple stool test, called FIT, to help decide who needs urgent bowel tests.",
+   "qualifications": "Do not give a set number of weeks, age thresholds or NICE NG12 wording: NG12 and DG30 were not opened. Do not imply a normal FIT means nothing is wrong: the guideline says people with persistent unexplained symptoms and ongoing concern should still be referred. The red-flag list comes from two guidelines (FIT guideline: change in bowel habit, rectal bleeding, iron deficiency anaemia; UEG: weight loss, rectal blood loss, sudden change in stool consistency).",
+   "conflicting_or_uncertain": "The FIT guideline notes symptoms alone are unreliable predictors of cancer and that change in bowel habit or bleeding often has other causes (IBS, haemorrhoids); the post should prompt checking, not alarm.",
+   "numbers": [
+    {
+     "value": "fHb 10 µg Hb/g",
+     "meaning": "FIT threshold recommended for urgent referral from primary care (practitioner detail; not needed for a public post)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-25-f",
+   "cand_id": "C12-25",
+   "claim": "Pressure to go every day drives unnecessary laxative use (angle as drafted).",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "Not found",
+   "pico_timeframe": "Not studied in the sources opened",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Leave this out. The post may say that going less than once a day is common and is not, by itself, constipation.",
+   "qualifications": "No source opened links beliefs about daily bowel opening with laxative use.",
+   "conflicting_or_uncertain": "None identified.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C12-26-a",
+   "cand_id": "C12-26",
+   "claim": "Accidental bowel leakage becomes more common with age.",
+   "source_keys": [
+    "PMID:19410574",
+    "PMID:8561140"
+   ],
+   "supporting_passage": "Whitehead: \"Participants were 2229 women and 2079 men aged 20 years or older. FI was defined as accidental leakage of solid, liquid, or mucus at least once in the preceding month.\" \"The estimated prevalence of FI in noninstitutionalized US adults is 8.3% (95% confidence interval, 7.1-9.5) and consists of liquid stool in 6.2%, solid stool in 1.6%, and mucus in 3.1%. It occurs at least weekly in 2.7%. Prevalence is similar in women (8.9%) and men (7.7%) and increases with age from 2.6% in 20 to 29 year olds up to 15.3% in participants aged 70 years and older.\" \"FI is a prevalent age-related disorder.\" Johanson: \"Incontinence increased progressively with age\"",
+   "location": "Abstracts",
+   "pico_timeframe": "US civilian non-institutionalised adults aged 20+ (NHANES 2005-06; n=4,308) / age groups / 20 to 29 year olds / any accidental leakage of solid, liquid or mucus in the preceding month / cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a US national survey of adults living at home, about 3 in 100 people in their 20s reported any bowel leakage in the past month, rising to about 15 in 100 (roughly 1 in 7) of those aged 70 and over.",
+   "qualifications": "Say 'any leakage in the past month, including small amounts of liquid or mucus'. People in care homes were not included. US data from 2005-06.",
+   "conflicting_or_uncertain": "The Johanson prevalence (18.4%) comes from clinic attenders, including gastroenterology patients; do not use it as a population figure.",
+   "numbers": [
+    {
+     "value": "2.6% (about 3 in 100)",
+     "meaning": "prevalence of leakage in the past month, US adults aged 20 to 29, living at home"
+    },
+    {
+     "value": "15.3% (about 15 in 100, roughly 1 in 7)",
+     "meaning": "prevalence in US adults aged 70 and over, living at home, same definition"
+    },
+    {
+     "value": "8.3%",
+     "meaning": "overall weighted prevalence, US adults 20+"
+    },
+    {
+     "value": "2.7%",
+     "meaning": "leakage at least weekly, all adults 20+"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-26-b",
+   "cand_id": "C12-26",
+   "claim": "Most people with bowel leakage have never talked to a doctor about it: in two US surveys only about one in three had.",
+   "source_keys": [
+    "PMID:8561140",
+    "PMID:23442502",
+    "PMID:35303758"
+   ],
+   "supporting_passage": "Johanson: \"Eight hundred and eighty-one individuals 18 yr or older were included in the analysis.\" \"Only one-third of individuals with fecal incontinence had ever discussed the problem with a physician.\" Brown 2013: \"Women with ABL were asked, \\\"Have you ever talked to a physician about accidental leakage of stool and/or gas?\\\"\" \"Only 29% (268/938) of those with ABL sought care. Multivariate analysis demonstrated that care seekers were more likely to have a primary care physician (PCP), to have heard of ABL, and to have suffered longer with more severe leakage.\" \"More than two thirds of women with ABL do not seek care.\" Assmann (UEG): \"Patients who suffer from FI often feel ashamed to talk about their problem and may find it difficult to describe their complaints.\" \"Many people who suffer from FI delay seeking help or never discuss their problem with a healthcare professional at all.\"",
+   "location": "Johanson 1996 and Brown 2013: Abstracts; Assmann 2022: full text, Diagnosis, History taking",
+   "pico_timeframe": "Johanson: US adults 18+ attending primary care or gastroenterology clinics, Illinois, 1990s; Brown: US women 45+ with leakage in the past year, internet survey 2009-10 / ever talked to a physician about it / cross-sectional",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In two US surveys, one of clinic patients in the 1990s and one of women aged 45 and over, only about 1 in 3 people with bowel leakage had ever talked to a doctor about it.",
+   "qualifications": "Name the surveys as US and give the era; do not say 'most people never tell anyone'. The Brown sample was mostly under 65, white and insured.",
+   "conflicting_or_uncertain": "No UK figure was opened. Care seeking was higher in people with a GP, who had heard of the condition, or had worse leakage.",
+   "numbers": [
+    {
+     "value": "one-third",
+     "meaning": "of people with faecal incontinence among 881 US adult clinic attenders had ever discussed it with a physician (Johanson 1996)"
+    },
+    {
+     "value": "29% (268/938)",
+     "meaning": "of US women aged 45+ with accidental bowel leakage in the past year had ever talked to a physician about it (Brown 2013)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-26-c",
+   "cand_id": "C12-26",
+   "claim": "Many people prefer the words 'accidental bowel leakage' or 'accidents', and guidance tells health professionals to ask about it directly.",
+   "source_keys": [
+    "PMID:23067034",
+    "PMID:35303758"
+   ],
+   "supporting_passage": "Brown 2012: \"Among 938 respondents with FI, 71.1% (667) preferred the term 'accidental bowel leakage' (ABL) over faecal or bowel incontinence.\" Assmann (UEG): \"When FI is suspected, health care professionals should take it upon themselves to ask the patient whether they suffer from FI, rather than waiting for the patient to mention this problem.\" \"Direct questioning rather than talking around the issue should be aimed for when talking about FI.\" \"Asking the patient about their unwanted loss of faeces should be done in a sensitive manner, cultural preferences for wording should be taken into account (e.g. ‘accidents’, ‘unwanted loss of faeces’, etc.).\"",
+   "location": "Brown 2012: Abstract; Assmann 2022: full text, Diagnosis, History taking",
+   "pico_timeframe": "US women 45+ with leakage (internet survey 2009-10); European guideline for all adults with FI (expert opinion)",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "In a US survey of women aged 45 and over with leakage, 7 in 10 preferred the words 'accidental bowel leakage' to 'faecal incontinence'. European guidance tells doctors and nurses to ask about bowel leakage directly, rather than wait for you to raise it, and to use words like 'accidents'.",
+   "qualifications": "The asking-directly advice is expert opinion (the guideline says its diagnosis recommendations are mainly expert opinion). The word-preference finding is from US women only.",
+   "conflicting_or_uncertain": "None identified.",
+   "numbers": [
+    {
+     "value": "71.1% (667/938), about 7 in 10",
+     "meaning": "of US women aged 45+ with bowel leakage preferred the term 'accidental bowel leakage'"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-26-d",
+   "cand_id": "C12-26",
+   "claim": "Common, checkable causes include loose stools, constipation with overflow, damage to the anal sphincter (for example from childbirth or surgery) and faecal impaction; leakage is also linked with urinary incontinence, multiple chronic illnesses and neurological conditions.",
+   "source_keys": [
+    "PMID:35303758",
+    "PMID:19410574",
+    "PMID:23067034"
+   ],
+   "supporting_passage": "Assmann (UEG): \"Bowel habit should be thoroughly assessed to ensure diarrhoea and overflow constipation are not the cause for the unwanted loss of faeces.\" \"The patient should be asked about any possible underlying reason for the presence of FI and about their obstetric history (in women).\" \"Inspection and physical examination of the anorectal region should be performed to exclude other anorectal pathology, to assess for previous perianal surgery/trauma and faecal impaction and to evaluate anal state/tone at rest and during voluntary effort.\" \"Any patient group with FI with any type of neurological disease and/or cognitive impairment, whether mild or severe (e.g., Dementia, Parkinson, Spinal Cord Injury, Stroke etc.) were included in this section.\" Whitehead: \"Independent risk factors in women are advancing age, loose or watery stools, more than 21 stools per week, multiple chronic illnesses, and urinary incontinence. Independent risk factors in men are age, loose or watery stools, poor self-rated health, and urinary incontinence.\" \"Chronic diarrhea is a strong modifiable risk factor that may form the basis for prevention and treatment.\" Brown 2012: \"Bowel disorders, urinary incontinence, stroke, age 55-64, diabetes mellitus and prior vaginal delivery were associated with an increased odds of FI\"",
+   "location": "Assmann 2022: full text, Diagnosis (History taking; Physical examination) and Special situations; Whitehead 2009: Abstract; Brown 2012: Abstract",
+   "pico_timeframe": "Adults with FI (guideline assessment); US adults 20+ (risk factors, cross-sectional, adjusted associations); US women 45+",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A GP or nurse will ask about your usual bowel pattern, because loose stools and constipation with leakage around hard stool are common causes that can be treated. Women are asked about childbirth, and anyone about past surgery near the back passage. A gentle examination checks the muscle and looks for hard stool. Leakage is also more common in people with bladder leakage and in people with conditions such as stroke.",
+   "qualifications": "Risk factors from surveys are associations, not proven causes; use 'linked with' for them. Do not list medicines as a cause: no opened source states it (NICE CG49 was not opened). 'Neurological conditions' comes from the guideline's description of a population group, plus the stroke association in Brown 2012.",
+   "conflicting_or_uncertain": "None that changes the reading.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C12-26-e",
+   "cand_id": "C12-26",
+   "claim": "First-line treatments include diet and fibre advice, a toilet routine, fibre supplements or anti-diarrhoea medicine such as loperamide, pelvic floor exercises, and pads and skin care; many people improve with these simple steps, and further treatments exist if they do not work.",
+   "source_keys": [
+    "PMID:35303758"
+   ],
+   "supporting_passage": "\"First line treatment includes lifestyle adjustments, dietary advice (fibre and water intake, possibly reduction of caffeine and FODMAP intake), basic behavioural advice (toilet routine/bowel training), stool bulking agents and/or anti‐diarrheal medication, pelvic floor muscle exercises, absorbent products for containment and possibly skin care products to treat irritation of the skin around the anus.\" \"Fibre supplementation, especially Psyllium helps reduce FI episodes.\" \"Anti‐diarrheal medication has a positive impact on diarrheal and/or FI symptoms.\" \"Loperamide is not significantly better in reducing FI complaints compared to Psyllium.\" \"Constipation was the most common adverse event for loperamide use (29.1%)\" \"No significant differences were found between any of the groups in mean number of FI episodes per week (= 0.51 KW), severity of FI (St. Mark's) (= 0.54 KW) or quality of life (QoL) (numerical data not available) after 1 year follow‐up, however both groups improved in all outcomes compared to baseline\" \"An education pamphlet regarding FI may be effective in treatment of FI. Results should be interpreted with caution.\" \"Biofeedback may not be superior to education only.\" \"In patients where initial first line treatment has not resulted in acceptable symptom reduction additional diagnostic test could be considered prior to starting second line treatment.\"",
+   "location": "Assmann 2022: full text, First line treatment for faecal incontinence (Introduction, evidence summaries); Diagnostic tests prior to second line treatment",
+   "pico_timeframe": "Adults with FI / first-line conservative measures / placebo, education or each other / FI episodes, severity, QoL / trials of weeks to 1 year",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "First steps a GP or nurse can offer: advice on food, fibre and drinks; a regular toilet routine; a fibre supplement, or a medicine that firms up loose stools such as loperamide; pelvic floor exercises; and pads and skin care. Many people improve with these simple steps. If they don't help enough, there are further tests and treatments.",
+   "qualifications": "Evidence for each first step is modest: psyllium fibre reduced leakage compared with placebo; loperamide worked about as well as psyllium and can cause constipation (about 3 in 10 in one trial); in trials, education and advice alone did about as well as pelvic floor exercises or biofeedback. Do not say pelvic floor exercises are proven better than advice.",
+   "conflicting_or_uncertain": "The Norton 2003 trial had no untreated control group, so improvement with education alone may partly reflect natural change.",
+   "numbers": [
+    {
+     "value": "29.1%",
+     "meaning": "constipation as an adverse event with loperamide in the Markland 2015 crossover trial of 80 people, as reported in the guideline"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-a",
+   "cand_id": "C12-36",
+   "claim": "The TOPSY trial randomised 340 women using a vaginal pessary for prolapse at 21 UK NHS centres to self-management (30-minute teaching session, leaflet, phone call at 2 weeks, helpline) or usual clinic-based care (clinic changes about every 6 months).",
+   "source_keys": [
+    "PMID:38078194",
+    "PMID:38767959"
+   ],
+   "supporting_passage": "Hagen 2023: \"The requisite 340 women were randomised (169 SM, 171 CBC) across 21 centres.\" \"SM group received a 30-min teaching session; information leaflet; 2-week follow-up call; and telephone support. CBC group received usual routine appointments.\" \"Women in the clinic-based care group received usual care comprising appointments where their pessary was removed, cleaned and re-inserted or renewed by a healthcare professional. The frequency of appointments was determined by the usual practice of the centre, with most centres seeing women every 6 months.\" Bugge 2024 (plain language summary): \"Women who use a vaginal pessary usually come back to clinic every 6 months to have their pessary removed and replaced; this is called clinic-based care. However, it is possible for a woman to look after the pessary herself; this is called self-management.\"",
+   "location": "Hagen 2023: Abstract (Findings, Methods) and full text (Procedures); Bugge 2024: plain language summary",
+   "pico_timeframe": "Women 18+ using a pessary for prolapse at UK NHS pessary clinics / self-management support / usual clinic-based care / 18-month follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a UK trial at 21 NHS clinics, 340 women using a pessary for prolapse were randomly assigned either to learn to remove, clean and replace it themselves, or to keep having it changed in clinic, usually every 6 months. Self-management support was a 30-minute teaching session, a leaflet, a phone call after 2 weeks and a helpline number.",
+   "qualifications": "Say what a pessary is (a device placed in the vagina to hold the pelvic organs up).",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "340 (169 self-management, 171 clinic care)",
+     "meaning": "women randomised"
+    },
+    {
+     "value": "21",
+     "meaning": "UK NHS centres"
+    },
+    {
+     "value": "30 minutes",
+     "meaning": "length of the teaching session"
+    },
+    {
+     "value": "2 weeks",
+     "meaning": "follow-up phone call after teaching"
+    },
+    {
+     "value": "every 6 months",
+     "meaning": "usual clinic change interval at most centres (median 186 days in the clinic group)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-b",
+   "cand_id": "C12-36",
+   "claim": "At 18 months there was no clear difference in prolapse-related quality of life between self-management and clinic care.",
+   "source_keys": [
+    "PMID:38078194",
+    "PMID:38767959"
+   ],
+   "supporting_passage": "Hagen 2023: \"There was not a statistically significant difference between groups in PFIQ-7 at 18 months (mean SM 32.3 vs CBC 32.5, adjusted mean difference SM-CBC -0.03, 95% CI -9.32 to 9.25).\" \"The confidence intervals also rule out any clinical difference between groups, the smallest assumed meaningful difference being 20 points.\" \"Pessary self-management is cost-effective, does not improve or worsen QoL compared to CBC, and has a lower complication rate.\" Bugge 2024: \"There was no group difference in prolapse-specific quality of life at 18 months (adjusted mean difference -0.03, 95% confidence interval -9.32 to 9.25).\"",
+   "location": "Hagen 2023: Abstract (Findings, Interpretation) and full text (Primary outcome); Bugge 2024: Abstract",
+   "pico_timeframe": "As C12-36-a / PFIQ-7 pelvic floor-specific quality of life (0 to 300, higher worse) / 18 months; superiority design",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "After 18 months there was no clear difference in quality of life between the two groups.",
+   "qualifications": "Editor's ruling: say 'no clear difference in quality of life', not 'did as well as' (superiority trial). The authors add that the confidence interval ruled out a difference of the size they judged meaningful, so 'no meaningful difference' is also accurate if needed.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "32.3 vs 32.5",
+     "meaning": "mean PFIQ-7 scores (0 to 300, higher = worse), self-management vs clinic, 18 months; do not use in public posts"
+    },
+    {
+     "value": "-0.03 (95% CI -9.32 to 9.25)",
+     "meaning": "adjusted mean difference; meaningful difference prespecified as 20 points"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-c",
+   "cand_id": "C12-36",
+   "claim": "Women who self-managed reported fewer pessary complications at 18 months, including fewer problems emptying the bladder or bowel, and fewer vaginal tissue problems were found on examination.",
+   "source_keys": [
+    "PMID:38078194"
+   ],
+   "supporting_passage": "\"A lower percentage of pessary complications was reported in the SM group (mean SM 16.7% vs CBC 22.0%, adjusted mean difference -3.83%, 95% CI -6.86% to -0.81%).\" \"study-specific questionnaires for pessary complications (15 items, percentage of relevant items reported calculated for each participant)\" \"difficulties with emptying the bladder (17.7% vs 27.9%) and bowel (24.3% vs 36.4%) were more prevalent in the clinic-based care group, as were issues with vaginal tissues on examination at 18-month follow-up (17.8% vs 26.9%).\" \"Ulceration, granulation or other clinical concerns about the vaginal tissues (e.g., vaginal atrophy, erythema) on examination at 18 months were less common in the self-management group (27/152, 17.8% vs 43/160, 26.9%).\"",
+   "location": "Abstract (Findings); full text (Outcomes; Secondary outcomes; Discussion)",
+   "pico_timeframe": "As C12-36-a / self-management vs clinic care / self-reported pessary complications (unvalidated 15-item questionnaire) and vaginal examination / 18 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Women who looked after their own pessary reported fewer pessary problems, such as difficulty emptying the bladder or bowel. When examined at 18 months, sore or damaged vaginal skin was found in about 18 in 100 women who self-managed, compared with about 27 in 100 in clinic care.",
+   "qualifications": "The headline complication figure (16.7% vs 22.0%) is the average share of relevant complication types each woman reported, not the share of women with a complication: do not write it as 'X in 100 women had complications'. The examination figures (27/152 vs 43/160) are proportions of women examined and can be given as natural frequencies. Unblinded trial and unvalidated complication questionnaire.",
+   "conflicting_or_uncertain": "At 4 years the difference in complications was similar in size but no longer statistically clear (see C12-36-e).",
+   "numbers": [
+    {
+     "value": "16.7% vs 22.0%",
+     "meaning": "mean percentage of relevant complication types reported per woman, self-management vs clinic, 18 months; adjusted difference -3.83 percentage points (95% CI -6.86 to -0.81)"
+    },
+    {
+     "value": "17.7% vs 27.9%",
+     "meaning": "reported difficulty emptying the bladder, self-management vs clinic, 18 months"
+    },
+    {
+     "value": "24.3% vs 36.4%",
+     "meaning": "reported difficulty emptying the bowel, self-management vs clinic, 18 months"
+    },
+    {
+     "value": "27/152 (17.8%) vs 43/160 (26.9%)",
+     "meaning": "women with vaginal tissue problems on examination at 18 months, self-management vs clinic"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-d",
+   "cand_id": "C12-36",
+   "claim": "Self-management cost the NHS less and was likely to be cost-effective.",
+   "source_keys": [
+    "PMID:38078194",
+    "PMID:38492924",
+    "PMID:38767959"
+   ],
+   "supporting_passage": "Hagen 2023: \"SM was less costly than CBC. The incremental net benefit of SM was £564 (SE £581, 95% CI -£576 to £1704).\" Manoukian 2024: \"There was no significant difference in the mean number of QALYs gained between SM and CBC (1.241 vs 1.221), but mean cost was lower for SM (£578 vs £728). The incremental net benefit estimated at a willingness to pay of £20 000 per QALY gained was £564, with an 80.8% probability of cost-effectiveness.\" \"Results suggest that pessary SM is likely to be cost-effective.\" Hagen 2023 (Discussion): \"Self-management was less costly than clinic-based care, and this was driven by less resource use and health-seeking behaviour in the self-management group.\"",
+   "location": "Hagen 2023: Abstract and Discussion; Manoukian 2024: Abstract",
+   "pico_timeframe": "TOPSY trial, UK NHS perspective / self-management / clinic care / cost per QALY / 18 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Self-management cost the NHS less, about £578 per woman compared with £728 over 18 months, and was likely to be good value for money.",
+   "qualifications": "Say 'likely' cost-effective: the probability was about 81% and the net-benefit confidence interval crossed zero at 18 months. At 4 years the probability was over 92% (see C12-36-e).",
+   "conflicting_or_uncertain": "None beyond the uncertainty stated.",
+   "numbers": [
+    {
+     "value": "£578 vs £728",
+     "meaning": "mean cost per woman over 18 months, self-management vs clinic (2019/20 prices)"
+    },
+    {
+     "value": "£564 (95% CI -£576 to £1704)",
+     "meaning": "incremental net benefit of self-management at £20,000 per QALY, 18 months"
+    },
+    {
+     "value": "80.8%",
+     "meaning": "probability self-management is cost-effective at 18 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-e",
+   "cand_id": "C12-36",
+   "claim": "At 4 years (about half of women responding) there was still no clear difference in quality of life, fewer complications with self-management but not statistically clear, and self-management remained cost-effective.",
+   "source_keys": [
+    "PMID:40832737"
+   ],
+   "supporting_passage": "\"Of 340 women randomised, 186 (55%) responded at 4 years (86/169 [51%] SM, 100/171 [58%] CBC). There was no statistically significant group difference in PFIQ-7 at 4 years (mean SM 32.9 vs. CBC 31.4, adjusted mean difference [AMD] SM-CBC 4.86, 95% CI −6.41 to 16.12). There was a statistically non-significant lower percentage of pessary complications for SM (SM 17.7% vs. CBC 22.0%, AMD 3.01 CI −0.58 to 6.61). At 4-years, SM was cost-effective (INB £2240).\" \"The probability SM is cost-effective was more than 92% at a willing-to-pay threshold of £20 000 per QALY gained\" \"Pessary continuation rates were high with 93% (173/186) of responders having used a pessary within the last 6 months\" \"Loss to follow-up of participants at 4 years did result in a loss of statistical power, which may explain the lack of a statistical difference in complications between the SM and CBC groups.\" \"Of those randomised to the SM group and currently using a pessary, 80% (60/75) continued to self-manage (i.e., 15 crossed over to CBC) and 39% (35/90) currently using a pessary of the original CBC group had crossed over to self-manage by the 4-year follow-up\"",
+   "location": "Abstract (Results); full text (Results 3.2 to 3.5; Strengths and Limitations)",
+   "pico_timeframe": "186 of 340 TOPSY women who opted into 4-year follow-up / originally randomised groups (ITT) / PFIQ-7, complications, cost per QALY / 4 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "About half the women answered again after 4 years. There was still no clear difference in quality of life, self-management still looked like good value, and 8 in 10 women still using a pessary who had learned to manage it were still doing so.",
+   "qualifications": "Only 55% responded, so 4-year results are less certain. Complications were lower with self-management at 4 years but the difference was not statistically clear: do not claim fewer complications at 4 years. After 18 months women could switch, and 39% of clinic-group pessary users had switched to self-management.",
+   "conflicting_or_uncertain": "Abstract gives 17.7% for self-management complications and the results text gives 17.9%; avoid the figure or say 'about 18 vs 22'.",
+   "numbers": [
+    {
+     "value": "186 of 340 (55%)",
+     "meaning": "women responding at 4 years"
+    },
+    {
+     "value": "4.86 (95% CI -6.41 to 16.12)",
+     "meaning": "adjusted difference in PFIQ-7 at 4 years (0 to 300 scale; meaningful difference 20)"
+    },
+    {
+     "value": "about 18% vs 22%",
+     "meaning": "mean percentage of relevant complication types reported, 4 years; not statistically significant"
+    },
+    {
+     "value": "£2240; >92%",
+     "meaning": "incremental net benefit and probability of cost-effectiveness at 4 years"
+    },
+    {
+     "value": "60/75 (80%)",
+     "meaning": "of self-management group currently using a pessary were still self-managing at 4 years"
+    },
+    {
+     "value": "35/90 (39%)",
+     "meaning": "of clinic group currently using a pessary had switched to self-management by 4 years"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-f",
+   "cand_id": "C12-36",
+   "claim": "The trial excluded women with limited manual dexterity, cognitive impairment preventing consent or self-management, pregnancy, or who needed teaching in a language other than English.",
+   "source_keys": [
+    "PMID:38078194",
+    "PMID:40832737"
+   ],
+   "supporting_passage": "Hagen 2023: \"Women were excluded if they had limited manual dexterity that would impede their ability to remove and replace their own pessary; were judged by their healthcare team to have a cognitive deficit such that it was not possible for them to give informed consent or to self-manage; were pregnant; or had insufficient understanding of English language (the self-management teaching was only available in English).\" Bugge 2025: \"Our participants predominately self-reported their ethnicity as White.\"",
+   "location": "Hagen 2023: full text (Participants); Bugge 2025: full text (Strengths and Limitations)",
+   "pico_timeframe": "Trial eligibility",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The trial did not include women who could not use their hands well enough to remove a pessary, women whose memory or thinking problems meant they could not consent or self-manage, or women who needed teaching in a language other than English. Clinic care remains the right option for many of them.",
+   "qualifications": "The last sentence is a judgement, not a trial finding; keep it phrased as an option.",
+   "conflicting_or_uncertain": "The self-management teaching was only available in English and the sample was mainly White, so the results say little about women from minority ethnic groups or non-English speakers.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C12-36-g",
+   "cand_id": "C12-36",
+   "claim": "Women in the trial were typically in their mid-60s; the effect did not differ clearly between women under and over 65; many eligible women preferred to stay with clinic care.",
+   "source_keys": [
+    "PMID:38078194",
+    "PMID:38953998"
+   ],
+   "supporting_passage": "Hagen 2023: \"Women who were randomised were slightly younger (64 vs 67 years) and less likely to be an existing user (68% vs 80%) than those who were eligible but did not participate. This may mean the trial findings are less generalisable to older, existing pessary users. Although there were no significant subgroup effects relating to age or pessary user type, the direction of the effect favoured self-management for older and existing users\" \"Subgroup analysis of the primary outcome showed no significant effect of treatment group by subgroup interactions (subgroups were age <65 vs ≥65, p = 0.287\" \"Thirty-nine percent declined randomisation because they had a treatment preference (33% CBC, 6% SM).\" \"Thirty-four women (20.1%) crossed over from self-management to clinic-based care, including 11 women who had been unable to remove their pessary\" Dwyer 2024: \"Thirty-three women (38%) had previously been taught pessary self-management. Of the remaining women, 12 (21%) were willing to learn, 28 (50%) were not willing and 16 (29%) were unsure.\" \"Younger women were more willing to learn self-management (p =  < 0.001).\"",
+   "location": "Hagen 2023: full text (Results; Discussion); Dwyer 2024: Abstract",
+   "pico_timeframe": "TOPSY participants vs eligible non-participants; subgroup <65 vs 65+ for primary outcome; separate single-centre UK survey of 89 pessary users",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Women in the trial were typically in their mid-60s, and the results did not differ clearly between women under and over 65. About 1 in 5 women taught to self-manage went back to clinic care during the trial, some because they could not remove the pessary. Many women prefer clinic care, and that choice deserves respect.",
+   "qualifications": "The paper gives '64 vs 67 years' without saying mean or median; write 'mid-60s', not 'average age 64'. Subgroup analyses are underpowered; say 'did not differ clearly', not 'worked equally well at all ages'. The authors caution the findings may apply less well to older women who have used a pessary for a long time.",
+   "conflicting_or_uncertain": "In a separate UK clinic survey, only about 1 in 5 women not yet taught were willing to learn, and younger women were more willing.",
+   "numbers": [
+    {
+     "value": "64 vs 67 years",
+     "meaning": "age of randomised women vs eligible women who did not take part (summary measure not stated)"
+    },
+    {
+     "value": "p = 0.287",
+     "meaning": "age subgroup (<65 vs 65+) interaction for quality of life; no significant difference"
+    },
+    {
+     "value": "34 (20.1%)",
+     "meaning": "of 169 self-management women switched to clinic care by 18 months, including 11 unable to remove their pessary"
+    },
+    {
+     "value": "39% (33% preferring clinic care, 6% preferring self-management)",
+     "meaning": "of eligible women declined randomisation because of a treatment preference"
+    },
+    {
+     "value": "12 of 56 (21%)",
+     "meaning": "of women in one UK clinic not previously taught who were willing to learn self-management (Dwyer 2024)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C12-36-h",
+   "cand_id": "C12-36",
+   "claim": "Women using a pessary who are able to manage it should be offered teaching to look after it themselves (position).",
+   "source_keys": [
+    "PMID:38078194",
+    "PMID:40832737"
+   ],
+   "supporting_passage": "Hagen 2023: \"These findings support routinely offering women who can self-manage the option to do so. This is currently not widespread practice\" \"The UK Clinical Guideline for best practice in vaginal pessary use for prolapse recommends that women who are assessed to be willing and suitable should be offered self-management.\" Bugge 2025: \"Clinical services should consider implementing robust self-management protocols for women with the capacity to self-manage.\"",
+   "location": "Hagen 2023: Research in context (Implications) and Discussion; Bugge 2025: Conclusion",
+   "pico_timeframe": "Authors' interpretation of the only RCT; UK pessary guideline cited secondhand",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "If you use a pessary and could manage it yourself, ask whether you can be taught to. The trial's authors conclude that women who can self-manage should routinely be offered the choice.",
+   "qualifications": "Frame as an offer and a choice. The UK pessary guideline was not opened; attribute its recommendation to the trial paper ('the trial authors report that UK pessary guidance recommends...') or leave it out. The authors say self-management is 'not widespread practice'; do not state how often UK clinics offer it.",
+   "conflicting_or_uncertain": "Many women prefer clinic care (C12-36-g); self-management is not suitable for everyone.",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C12-25",
+   "status": "revise",
+   "reason": "The core finding is supported: in the Bristol study once-daily was the most common pattern but a minority, and most people were irregular. But four changes are needed. (1) The 3-a-day to 3-a-week range must be credited to NHANES and Popcol, not to the Bristol study. (2) The age range of the Bristol sample could not be verified, and no opened source covers people over about 70, so the post must not present the findings as a study of older people. (3) The laxative-overuse framing is unsupported (C12-25-f) and must go. (4) The 'see your GP' box should follow the UK FIT guidance plus the UEG red flags, without NICE NG12 durations or ages.",
+   "revised_angle": "Going once a day is one common pattern, not a rule. In the Bristol population study only 40 in 100 men and 33 in 100 women went on a regular daily cycle, and a third of women went less often than daily. Among adults with normal bowels, nearly all go between 3 times a day and 3 times a week (US and Swedish studies of adults up to about 70). Constipation means problems such as hard stools or straining a good part of the time, not missing a day. A lasting change from your own pattern, blood, or unexplained weight loss is worth a GP visit, where a simple stool test (FIT) helps decide on further tests. Do not claim anything about laxative overuse or about people over 70 specifically.",
+   "essential_claim_ids": [
+    "C12-25-a",
+    "C12-25-c",
+    "C12-25-d",
+    "C12-25-e"
+   ]
+  },
+  {
+   "cand_id": "C12-26",
+   "status": "ready",
+   "reason": "All essential claims are supported with qualifications. Leakage rises with age (US national survey: about 3 in 100 in their 20s, 15 in 100 aged 70+). In two US surveys only about 1 in 3 people with leakage had ever talked to a doctor. The European guideline (in place of NICE CG49, which could not be opened) sets out causes to check and first-line treatments. Wording changes: give the one-in-three figure as 'two US surveys' with era; leave out medicines as a cause (not found); do not say pelvic floor exercises beat advice; do not name a specific UK continence service. Say 'further tests and treatments if first steps don't help'.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C12-26-a",
+    "C12-26-b",
+    "C12-26-c",
+    "C12-26-d",
+    "C12-26-e"
+   ]
+  },
+  {
+   "cand_id": "C12-36",
+   "status": "ready",
+   "reason": "The TOPSY RCT and its 4-year follow-up (full text opened) support every essential claim. Follow the editor's wording: 'no clear difference in quality of life, fewer complications'. Describe complications as fewer pessary problems reported, with examination figures (about 18 vs 27 in 100) as the natural frequency; do not turn the 16.7% vs 22.0% complication score into 'women with complications'. Say 'likely cost-effective'. At 4 years about half responded, and the lower complication rate was not statistically clear. Keep the exclusions on the slide and say trial women were typically in their mid-60s.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C12-36-a",
+    "C12-36-b",
+    "C12-36-c",
+    "C12-36-f",
+    "C12-36-g"
+   ]
+  }
+ ]
+}

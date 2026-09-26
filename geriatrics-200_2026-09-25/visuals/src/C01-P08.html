@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P08</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .stat { font-size: 35px; line-height: 1.36; font-weight: 500; margin-top: 26px; }
+ .stat b { color: var(--orange); font-weight: 800; }
+ .tplhead { display: flex; justify-content: flex-end; margin-top: 30px; }
+ .tpl { margin-top: 12px; border: 3px solid var(--ink); border-radius: 16px; overflow: hidden; background: var(--white);
+   display: grid; grid-template-columns: 168px 138px 196px 196px 1fr; }
+ .tpl .h { background: var(--mint); font-family: "Inter"; font-weight: 700; font-size: 30px; line-height: 1.18; padding: 16px 14px 18px; color: var(--ink);
+   border-bottom: 3px solid var(--ink); border-left: 2px solid var(--teal); }
+ .tpl .h:first-child { border-left: none; }
+ .tpl .c { height: 74px; border-left: 2px solid var(--pale); border-bottom: 2px solid var(--pale); }
+ .tpl .c.first { border-left: none; }
+ .tpl .c.last { border-bottom: none; }
+ .after { display: grid; grid-template-columns: 1fr 230px; gap: 24px; align-items: center; margin-top: 26px; }
+ .after .body { margin-top: 0; }
+ #tools { height: 150px; position: relative; }
+ #tools svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content">
+  <h1 class="m">Write each fall down on the day</h1>
+  <p class="stat">In a US study, <b>13 to 32 in 100</b> people with a confirmed fall did not recall falling in the months they were asked about.</p>
+  <div class="tplhead"><span class="badge">Template</span></div>
+  <div class="tpl" id="tpl">
+   <div class="h">Date and time</div>
+   <div class="h">Where</div>
+   <div class="h">What you were doing</div>
+   <div class="h">How you felt just before</div>
+   <div class="h">Could you get up? How long on the floor?</div>
+  </div>
+  <div class="after">
+   <p class="body">Take this to every appointment. An hour or more on the floor is a sign of high risk: tell the doctor.</p>
+   <div id="tools"></div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Cummings et al., J Am Geriatr Soc 1988; World Falls Guidelines 2022</span></div>
+</div>
+
+</div>
+<script>
+// four empty ruled rows
+const tpl = document.getElementById('tpl');
+for (let r = 0; r < 4; r++) for (let c = 0; c < 5; c++) {
+  const d = document.createElement('div');
+  d.className = 'c' + (c === 0 ? ' first' : '') + (r === 3 ? ' last' : '');
+  tpl.appendChild(d);
+}
+// a pencil and a pair of reading glasses, outside the grid
+const K = Kit, pen = K.pen(K.LW);
+const pencil = (() => {
+  const L = 250, w = 22;
+  let s = pen.r(0, -w / 2, 30, w, 6, '#D98C86');                 // eraser
+  s += pen.r(26, -w / 2 - 1, 22, w + 2, 2, '#AEB6B9');            // ferrule
+  s += pen.r(46, -w / 2, L - 90, w, 2, '#D9A441');                // body
+  s += pen.t(`M50,-3H${L - 46}`, '#B8862F', 2.5);
+  s += pen.p(`M${L - 44},${-w / 2}L${L},0L${L - 44},${w / 2}Z`, '#E8CFAE'); // sharpened wood
+  s += pen.p(`M${L - 14},-4L${L},0L${L - 14},4Z`, '#3B4A52');     // lead
+  return `<g transform="translate(30,118) rotate(-14)">${s}</g>`;
+})();
+K.draw('#tools', 330, 150, [
+  K.glasses({ x: 205, y: 70, scale: 1.7 }),
+  pencil
+], { fit: 'xMidYMid meet' });
+window.__ready = true;
+</script></body></html>
