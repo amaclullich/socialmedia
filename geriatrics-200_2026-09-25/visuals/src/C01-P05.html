@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P05 How worried, and how at risk</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<style>
+ .gridwrap { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; margin-top: 22px; }
+ .colh { font-family: "Montserrat"; font-weight: 800; font-size: 25px; color: var(--teal); padding: 0 4px 8px; text-align: center; }
+ .rowh { grid-column: 1 / 3; font-family: "Montserrat"; font-weight: 800; font-size: 25px; color: var(--teal); margin: 10px 0 8px; display: flex; align-items: center; gap: 12px; }
+ .rowh::after { content: ""; flex: 1; height: 3px; background: var(--pale); }
+ .cell { border-radius: 18px; padding: 18px 22px 20px; min-height: 266px; }
+ .cell.match { background: var(--mint); border: 4px solid var(--mint); }
+ .cell.mis { background: repeating-linear-gradient(45deg, #FFFFFF 0 14px, #F8E6DC 14px 22px); border: 4px solid var(--orange); }
+ .cell .num { font-family: "Montserrat"; font-weight: 800; font-size: 54px; line-height: 1.05; color: var(--ink); }
+ .cell.mis .num { color: var(--orange); }
+ .cell p { font-size: 27px; line-height: 1.3; margin-top: 8px; font-weight: 500; }
+ .cell p b { font-weight: 700; }
+ .tag { display: inline-block; font-weight: 800; font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; background: var(--orange); color: var(--white); border-radius: 999px; padding: 4px 14px; margin-bottom: 8px; }
+ .note { margin-top: auto; margin-bottom: 18px; font-size: 25px; line-height: 1.34; color: var(--ink-2); }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">What gets counted</span></div>
+ <div class="content">
+  <div class="kicker">Sydney study: 500 people aged 70 to 90, followed for 1 year</div>
+  <h1 class="s">Worry and physical risk <em>don't always match</em></h1>
+  <div class="gridwrap">
+   <div class="colh">Measured physical risk: low</div><div class="colh">Measured physical risk: high</div>
+   <div class="rowh">Worry about falling: high</div>
+   <div class="cell mis"><span class="tag">Mismatch</span><div class="num">11 in 100</div><p>Almost 4 in 10 had injurious or repeated falls.</p><p><b>Suggested:</b> a talking therapy (CBT).</p></div>
+   <div class="cell match"><div class="num">40 in 100</div><p><b>Suggested:</b> balance exercise and a talking therapy.</p></div>
+   <div class="rowh">Worry about falling: low</div>
+   <div class="cell match"><div class="num">29 in 100</div><p><b>General advice:</b> stay safely active.</p></div>
+   <div class="cell mis"><span class="tag">Mismatch</span><div class="num">20 in 100</div><p>About 1 in 3 had injurious or repeated falls.</p><p><b>Suggested:</b> challenging balance exercise.</p></div>
+  </div>
+  <p class="note">'Suggested' help is the researchers' untested proposal; 'general advice' is not from the study. Groups are approximate. People with dementia or Parkinson's disease were not included.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Delbaere et al., BMJ 2010; World Falls Guidelines 2022</span></div>
+</div>
+
+</div></body></html>

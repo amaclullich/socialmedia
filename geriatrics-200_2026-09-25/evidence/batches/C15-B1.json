@@ -1,0 +1,1240 @@
+{
+ "batch": "C15-B1",
+ "category": "C15",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:19072244",
+   "citation": "High KP, Bradley SF, Gravenstein S, Mehr DR, Quagliarello VJ, Richards C, et al. Clinical practice guideline for the evaluation of fever and infection in older adult residents of long-term care facilities: 2008 update by the Infectious Diseases Society of America. Clin Infect Dis. 2009;48(2):149-71.",
+   "pmid": "19072244",
+   "pmcid": null,
+   "doi": "10.1086/595683",
+   "public_url": "https://doi.org/10.1086/595683",
+   "design": "Clinical practice guideline (Infectious Diseases Society of America)",
+   "population_setting": "Older adult residents of long-term care facilities (nursing homes), US",
+   "year": 2009,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata; Undermind read_pdfs attempted but PDF not available",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Only the abstract was read. The guideline's fever definition was read as restated verbatim in Stone 2012 (PMID 22961014), which says it adopted the 2008 IDSA definition. Population is long-term care residents, not all older people in emergency departments. Still the current IDSA guideline on this topic as far as found; it is from 2009."
+  },
+  {
+   "key": "PMID:22961014",
+   "citation": "Stone ND, Ashraf MS, Calder J, Crnich CJ, Crossley K, Drinka PJ, et al. Surveillance definitions of infections in long-term care facilities: revisiting the McGeer criteria. Infect Control Hosp Epidemiol. 2012;33(10):965-77.",
+   "pmid": "22961014",
+   "pmcid": "PMC3538836",
+   "doi": "10.1086/667743",
+   "public_url": "https://doi.org/10.1086/667743",
+   "design": "Expert consensus surveillance definitions (SHEA Long-Term Care Special Interest Group, with CDC authors)",
+   "population_setting": "Residents of long-term care facilities, US",
+   "year": 2012,
+   "access": "full_text",
+   "tool_used": "Undermind read_pdfs (full PDF; Constitutional Criteria section and Table 2). Reused from batch C12-B1 and re-opened here.",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Consensus surveillance definitions; they restate the IDSA 2008 fever definition. Surveillance definitions are for counting infections; use here only for the fever thresholds and the stated reason for lower thresholds."
+  },
+  {
+   "key": "PMID:10913413",
+   "citation": "Norman DC. Fever in the elderly. Clin Infect Dis. 2000;31(1):148-51.",
+   "pmid": "10913413",
+   "pmcid": null,
+   "doi": "10.1086/313896",
+   "public_url": "https://doi.org/10.1086/313896",
+   "design": "Narrative review",
+   "population_setting": "Older adults, general",
+   "year": 2000,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Narrative review, old; the 20% to 30% figure is a review estimate, not a study finding. Conflicts with the 'more than one-half' figure in the IDSA abstract."
+  },
+  {
+   "key": "PMID:34223303",
+   "citation": "Engebretsen S, Bogstrand ST, Jacobsen D, Vitelli V, Rimstad R. NEWS2 versus a single-parameter system to identify critically ill medical patients in the emergency department. Resusc Plus. 2020;3:100020.",
+   "pmid": "34223303",
+   "pmcid": "PMC8244393",
+   "doi": "10.1016/j.resplu.2020.100020",
+   "public_url": "https://doi.org/10.1016/j.resplu.2020.100020",
+   "design": "Observational study of early warning scores in an emergency department; used only for its reproduction of the NEWS2 scoring table",
+   "population_setting": "Medical emergency department patients, Oslo University Hospital, Norway",
+   "year": 2020,
+   "access": "full_text",
+   "tool_used": "Undermind read_pdfs (Table 1); PubMed convert_article_ids for PMID/PMCID",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Used only as a published reproduction of the Royal College of Physicians NEWS2 (2017) chart, which it cites; the RCP document itself could not be opened from this environment."
+  },
+  {
+   "key": "PMID:36427876",
+   "citation": "Vardy ERLC, Lasserson D, Barker RO, Hanratty B. NEWS2 and the older person. Clin Med (Lond). 2022;22(6):522-4.",
+   "pmid": "36427876",
+   "pmcid": "PMC9761433",
+   "doi": "10.7861/clinmed.2022-0426",
+   "public_url": "https://doi.org/10.7861/clinmed.2022-0426",
+   "design": "Narrative review / commentary",
+   "population_setting": "Older people in hospital and care homes, UK",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); PubMed get_full_text_article returned empty body; Undermind read_pdfs (full PDF)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Expert commentary, not a study. Does not discuss temperature thresholds or fever."
+  },
+  {
+   "key": "PMID:36427887",
+   "citation": "Williams B. The National Early Warning Score: from concept to NHS implementation. Clin Med (Lond). 2022;22(6):499-505.",
+   "pmid": "36427887",
+   "pmcid": "PMC9761416",
+   "doi": "10.7861/clinmed.2022-news-concept",
+   "public_url": "https://doi.org/10.7861/clinmed.2022-news-concept",
+   "design": "Narrative review by the chair of the NEWS/NEWS2 development group",
+   "population_setting": "NHS, UK",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; Undermind read_pdfs (full PDF)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Authoritative account of how NEWS2 is meant to be used. Does not include the scoring bands."
+  },
+  {
+   "key": "PMID:27638347",
+   "citation": "Yo CH, Lee MG, Hsein YC, Lee CC. Risk factors and outcomes of afebrile bacteremia patients in an emergency department. Diagn Microbiol Infect Dis. 2016;86(4):455-9.",
+   "pmid": "27638347",
+   "pmcid": null,
+   "doi": "10.1016/j.diagmicrobio.2016.08.020",
+   "public_url": "https://doi.org/10.1016/j.diagmicrobio.2016.08.020",
+   "design": "Retrospective cohort",
+   "population_setting": "994 adults with bloodstream infection admitted through the emergency department of one university hospital, Taiwan",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Single centre, retrospective, all adult ages; abstract does not give the proportion without fever. Supporting context only."
+  },
+  {
+   "key": "PMID:31284301",
+   "citation": "Vaughn VM, Flanders SA, Snyder A, Conlon A, Rogers MAM, Malani AN, et al. Excess antibiotic treatment duration and adverse events in patients hospitalized with pneumonia: a multihospital cohort study. Ann Intern Med. 2019;171(3):153-63.",
+   "pmid": "31284301",
+   "pmcid": "PMC13258130",
+   "doi": "10.7326/M18-3640",
+   "public_url": "https://doi.org/10.7326/M18-3640",
+   "design": "Retrospective multicentre cohort study",
+   "population_setting": "6,481 general care medical patients (adults, median age 70.2 years) hospitalised with pneumonia in 43 hospitals of the Michigan Hospital Medicine Safety Consortium, US",
+   "year": 2019,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs (full PDF: Results, Tables 2 and 3, Appendix Table 5)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Large, multicentre, observational. Outcomes adjusted for patient characteristics and probability of treatment. Patient-reported adverse events available only for the 60.4% reached by telephone. All adult ages, not an older-only sample."
+  },
+  {
+   "key": "PMID:33773631",
+   "citation": "Dinh A, Ropers J, Duran C, Davido B, Deconinck L, Matt M, et al. Discontinuing beta-lactam treatment after 3 days for patients with community-acquired pneumonia in non-critical care wards (PTC): a double-blind, randomised, placebo-controlled, non-inferiority trial. Lancet. 2021;397(10280):1195-203.",
+   "pmid": "33773631",
+   "pmcid": null,
+   "doi": "10.1016/S0140-6736(21)00313-5",
+   "public_url": "https://doi.org/10.1016/S0140-6736(21)00313-5",
+   "design": "Double-blind randomised placebo-controlled non-inferiority trial",
+   "population_setting": "310 adults admitted with moderately severe community-acquired pneumonia to non-critical care wards in 16 French centres who were clinically stable after 3 days of beta-lactam; median age 73",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "High-quality trial; applies only to patients who met stability criteria at day 3. Non-inferiority margin 10 percentage points."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ng250",
+   "citation": "National Institute for Health and Care Excellence. Pneumonia: diagnosis and management. NICE guideline NG250. London: NICE; 2025 (incorporates the 2019 antimicrobial prescribing guideline NG138).",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ng250",
+   "design": "National guideline",
+   "population_setting": "Adults, children and young people with pneumonia, England",
+   "year": 2025,
+   "access": "search_extract",
+   "tool_used": "WebSearch (nice.org.uk results only; page could not be opened)",
+   "correction_check": "Not applicable (official web page; not opened).",
+   "quality_note": "Search-engine extract only. Not enough for an essential claim; the exact current wording on antibiotic duration was not read."
+  },
+  {
+   "key": "PMID:26598629",
+   "citation": "Kehoe A, Smith JE, Edwards A, Yates D, Lecky F. The changing face of major trauma in the UK. Emerg Med J. 2015;32(12):911-5.",
+   "pmid": "26598629",
+   "pmcid": "PMC4717354",
+   "doi": "10.1136/emermed-2015-205265",
+   "public_url": "https://doi.org/10.1136/emermed-2015-205265",
+   "design": "Registry analysis (Trauma Audit and Research Network database)",
+   "population_setting": "All major trauma cases (Injury Severity Score >15) in the TARN database, England and Wales, 1990 to 2013",
+   "year": 2015,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "National registry; figures describe recorded cases, which depend on hospital participation and case capture changing over 23 years. Data end in 2013; newer TARN reports exist but were not opened."
+  },
+  {
+   "key": "PMID:10866248",
+   "citation": "Bulger EM, Arneson MA, Mock CN, Jurkovich GJ. Rib fractures in the elderly. J Trauma. 2000;48(6):1040-6; discussion 1046-7.",
+   "pmid": "10866248",
+   "pmcid": null,
+   "doi": "10.1097/00005373-200006000-00007",
+   "public_url": "https://doi.org/10.1097/00005373-200006000-00007",
+   "design": "Retrospective cohort with younger control group",
+   "population_setting": "277 patients aged 65 or over and 187 randomly selected patients aged 18 to 64 with rib fractures admitted to one Level I trauma centre (Seattle, US) over 10 years",
+   "year": 2000,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Single centre, old data, admitted trauma patients. The abstract is internally inconsistent on pneumonia (odds ratio 1.16 per rib in Results, '27%' in Conclusions); use only the mortality figures."
+  },
+  {
+   "key": "PMID:34110604",
+   "citation": "Alshibani A, Alharbi M, Conroy S. Under-triage of older trauma patients in prehospital care: a systematic review. Eur Geriatr Med. 2021;12(5):903-19.",
+   "pmid": "34110604",
+   "pmcid": "PMC8463357",
+   "doi": "10.1007/s41999-021-00512-5",
+   "public_url": "https://doi.org/10.1007/s41999-021-00512-5",
+   "design": "Systematic review with narrative synthesis (23 studies)",
+   "population_setting": "Older trauma patients in prehospital care; international studies",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Heterogeneous studies; narrative synthesis; authors say the effect of under-triage on outcomes is uncertain."
+  },
+  {
+   "key": "PMID:35191799",
+   "citation": "Lupton JR, Davis-O'Reilly C, Jungbauer RM, Newgard CD, Fallat ME, Brown JB, et al. Under-triage and over-triage using the Field Triage Guidelines for injured patients: a systematic review. Prehosp Emerg Care. 2022;27(1):38-45.",
+   "pmid": "35191799",
+   "pmcid": null,
+   "doi": "10.1080/10903127.2022.2043963",
+   "public_url": "https://doi.org/10.1080/10903127.2022.2043963",
+   "design": "Systematic review (17 studies)",
+   "population_setting": "Injured patients triaged with the North American Field Triage Guidelines",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "North American triage tool; ranges are wide and study definitions vary. PubMed date 4 March 2022; volume 27 issue 1."
+  },
+  {
+   "key": "PMID:31901331",
+   "citation": "de Wit K, Merali Z, Kagoma YK, Mercier E. Incidence of intracranial bleeding in seniors presenting to the emergency department after a fall: a systematic review. Injury. 2020;51(2):157-63.",
+   "pmid": "31901331",
+   "pmcid": null,
+   "doi": "10.1016/j.injury.2019.12.036",
+   "public_url": "https://doi.org/10.1016/j.injury.2019.12.036",
+   "design": "Systematic review and meta-analysis (11 studies, 11,102 patients)",
+   "population_setting": "People aged 65 or over presenting to emergency departments after a fall (at least 80% ground-level falls)",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "High risk of bias in 8 of 11 studies; only 3 prospective; inclusion criteria varied."
+  },
+  {
+   "key": "PMID:40699169",
+   "citation": "Dubucs X, Gingras V, Boucher V, Carmichael PH, Ruel M, De Wit K, et al. Risk factors for traumatic intracranial hemorrhage in older adults sustaining a head injury in ground-level falls: a systematic review and meta-analysis. Ann Emerg Med. 2025;87(2):181-91.",
+   "pmid": "40699169",
+   "pmcid": null,
+   "doi": "10.1016/j.annemergmed.2025.05.021",
+   "public_url": "https://doi.org/10.1016/j.annemergmed.2025.05.021",
+   "design": "Systematic review and meta-analysis of 17 observational studies (22,520 patients)",
+   "population_setting": "People aged 65 or over with ground-level-fall head injury and GCS 13 or more in emergency departments",
+   "year": 2025,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Recent and directly relevant; observational studies; unadjusted pooled odds ratios for most factors. Online 22 July 2025; volume 87 issue 2."
+  },
+  {
+   "key": "PMID:35340581",
+   "citation": "Pandor A, Fuller G, Essat M, Sabir L, Holt C, Buckley Woods H, et al. Individual risk factors predictive of major trauma in pre-hospital injured older patients: a systematic review. Br Paramed J. 2022;6(4):26-40.",
+   "pmid": "35340581",
+   "pmcid": "PMC8892449",
+   "doi": "10.29045/14784726.2022.03.6.4.26",
+   "public_url": "https://doi.org/10.29045/14784726.2022.03.6.4.26",
+   "design": "Systematic review (9 studies, all US)",
+   "population_setting": "Injured older patients attended by emergency medical services",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Small number of US studies at moderate or high risk of bias."
+  },
+  {
+   "key": "PMID:35042695",
+   "citation": "Jones S, Moulton C, Swift S, Molyneux P, Black S, Mason N, et al. Association between delays to patient admission from the emergency department and all-cause 30-day mortality. Emerg Med J. 2022;39(3):168-73.",
+   "pmid": "35042695",
+   "pmcid": null,
+   "doi": "10.1136/emermed-2021-211572",
+   "public_url": "https://doi.org/10.1136/emermed-2021-211572",
+   "design": "Cross-sectional retrospective observational study (Hospital Episode Statistics linked to ONS deaths)",
+   "population_setting": "5,249,891 patients admitted from all type 1 emergency departments in England, April 2016 to March 2018; all adult ages",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed lookup_article_by_citation; get_article_metadata. Full text could not be opened (no PMC copy; Undermind PDF unavailable; publisher site blocked; Scite at usage limit).",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Very large national dataset. Risk model adjusted for sex, age, deprivation, comorbidities, hour, month, previous attendances or admissions and crowding, but not for acute illness severity, so residual confounding is likely. The abstract uses causal wording ('delays cause'), which the design does not establish. How the 1-in-82 figure was derived, and its comparison group, could not be checked in the full text."
+  },
+  {
+   "key": "PMID:36074240",
+   "citation": "Ogliari G, Coffey F, Keillor L, Aw D, Azad MY, Allaboudy M, et al. Emergency department use and length of stay by younger and older adults: Nottingham cohort study in the emergency department (NOCED). Aging Clin Exp Res. 2022;34(11):2873-85.",
+   "pmid": "36074240",
+   "pmcid": "PMC9453701",
+   "doi": "10.1007/s40520-022-02226-5",
+   "public_url": "https://doi.org/10.1007/s40520-022-02226-5",
+   "design": "Retrospective cohort study",
+   "population_setting": "146,636 attendances by adults at the single emergency department of Nottingham University Hospitals (Queen's Medical Centre), England, 2019",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs (Tables 2 and 3, Methods, Discussion)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Single large English emergency department, pre-pandemic year; attendances, not people; 12-hour stays not analysed."
+  },
+  {
+   "key": "PMID:37930696",
+   "citation": "Roussel M, Teissandier D, Yordanov Y, Balen F, Noizet M, Tazarourte K, et al. Overnight stay in the emergency department and mortality in older patients. JAMA Intern Med. 2023;183(12):1378-85.",
+   "pmid": "37930696",
+   "pmcid": "PMC10628833",
+   "doi": "10.1001/jamainternmed.2023.5961",
+   "public_url": "https://doi.org/10.1001/jamainternmed.2023.5961",
+   "design": "Prospective multicentre cohort study",
+   "population_setting": "1,598 patients aged 75 or over (median 86) admitted from 97 emergency departments across France on 12 to 14 December 2022",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Observational; adjusted risk ratios; three-day sampling window in winter. A similar Spanish study (Miro 2024) did not find a clear difference in mortality."
+  },
+  {
+   "key": "PMID:38900240",
+   "citation": "Miro O, Aguilo S, Alquezar-Arbe A, Fernandez C, Burillo G, Martinez SG, et al. Overnight stay in Spanish emergency departments and mortality in older patients. Intern Emerg Med. 2024;19(6):1653-65.",
+   "pmid": "38900240",
+   "pmcid": null,
+   "doi": "10.1007/s11739-024-03660-1",
+   "public_url": "https://doi.org/10.1007/s11739-024-03660-1",
+   "design": "Retrospective review of a multipurpose cohort",
+   "population_setting": "3,243 patients aged 75 or over (median 85) admitted from 52 emergency departments in Spain, 1 to 7 April 2019",
+   "year": 2024,
+   "access": "abstract",
+   "tool_used": "PubMed search_articles; get_article_metadata",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Observational; confidence interval wide; conflicting with Roussel 2023."
+  },
+  {
+   "key": "PMID:23043304",
+   "citation": "Dugaret E, Videau MN, Faure I, Gabinski C, Bourdel-Marchasson I, Salles N. Prevalence and incidence rates of pressure ulcers in an Emergency Department. Int Wound J. 2014;11(4):386-91.",
+   "pmid": "23043304",
+   "pmcid": "PMC7950920",
+   "doi": "10.1111/j.1742-481X.2012.01103.x",
+   "public_url": "https://doi.org/10.1111/j.1742-481X.2012.01103.x",
+   "design": "Prospective observational study",
+   "population_setting": "602 adult patients (mean age 53.6; 27.4% over 75) in one emergency department, Hopital Saint-Andre, Bordeaux, France, 1 to 15 June 2010",
+   "year": 2014,
+   "access": "full_text",
+   "tool_used": "PubMed search_articles; get_article_metadata (abstract); Undermind read_pdfs (full PDF: Results, Tables 2 and 3, Discussion)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Single centre, two-week period, 2010; trauma and neurological patients were seen elsewhere; many patients excluded for missing data (they were younger with shorter stays). Published online 2012; print 2014."
+  },
+  {
+   "key": "PMID:35402654",
+   "citation": "Richard G, Redmond A, Penugonda M, Bradley D. Parkinson's disease medication prescribing and administration during unplanned hospital admissions. Mov Disord Clin Pract. 2022;9(3):334-9.",
+   "pmid": "35402654",
+   "pmcid": "PMC8974884",
+   "doi": "10.1002/mdc3.13408",
+   "public_url": "https://doi.org/10.1002/mdc3.13408",
+   "design": "Retrospective observational study",
+   "population_setting": "102 unplanned admissions of 70 people with Parkinson's on time-critical medicines, St James's Hospital, Dublin, Ireland, 15 months",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (reused from batch C06-B3; abstract re-opened here)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Single centre, small; inpatient doses, not emergency department waits specifically."
+  },
+  {
+   "key": "PMID:28065403",
+   "citation": "Lertxundi U, Isla A, Solinis MA, Domingo-Echaburu S, Hernandez R, Peral-Aguirregoitia J, et al. Medication errors in Parkinson's disease inpatients in the Basque Country. Parkinsonism Relat Disord. 2017;36:57-62.",
+   "pmid": "28065403",
+   "pmcid": null,
+   "doi": "10.1016/j.parkreldis.2016.12.028",
+   "public_url": "https://doi.org/10.1016/j.parkreldis.2016.12.028",
+   "design": "Retrospective multicentre observational study",
+   "population_setting": "1,628 people with Parkinson's (2,546 admissions), all 11 public acute hospitals in the Basque Country, Spain, 2011 to 2012",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (reused from batch C06-B3; abstract re-opened here)",
+   "correction_check": "PubMed (26 Sep 2026): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records); PubMed title searches for published erratum[pt] / 'Erratum' / 'Correction' notices matching the title found none. Scite not used: monthly usage limit reached.",
+   "quality_note": "Observational; sicker patients may have had more errors. The abstract prints an internally inconsistent confidence interval for the antipsychotic odds ratio (1.91, CI 1.33-1.73); do not use that figure."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C15-16-a",
+   "cand_id": "C15-16",
+   "claim": "US guidance for older people in long-term care defines fever as a single oral temperature above 37.8 C, repeated oral readings above 37.2 C (or rectal above 37.5 C), or a single temperature more than 1.1 C above the person's baseline from any site.",
+   "source_keys": [
+    "PMID:22961014",
+    "PMID:19072244"
+   ],
+   "supporting_passage": "Stone 2012: \"The definition of fever was changed from a temperature of greater than 38°C (100.4°F), as in the original McGeer Criteria, to a definition consistent with the 2008 Infectious Diseases Society of America (IDSA) guideline for evaluating fever and infection in older adults residing in LTCFs: either (1) a single oral temperature greater than 37.8°C (100°F) or (2) repeated oral temperatures greater than 37.2°C (99°F) or rectal temperatures greater than 37.5°C (99.5°F) or (3) a single temperature greater than 1.1°C (2°F) over baseline from any site.\" Table 2: \"A. Fever 1. Single oral temperature >37.8°C (>100°F) OR 2. Repeated oral temperatures >37.2°C (99°F) or rectal temperatures >37.5°C (99.5°F) OR 3. Single temperature >1.1°C (2°F) over baseline from any site (oral, tympanic, axillary)\"",
+   "location": "Stone 2012, Definitions: Constitutional Criteria for Infection (p. 5) and Table 2 (p. 14)",
+   "pico_timeframe": "Residents of long-term care facilities; expert definitions consistent with the IDSA 2008 guideline; no outcome or timeframe",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "US infection guidance for older people living in care homes counts as a fever: one oral reading above 37.8°C, repeated oral readings above 37.2°C, or any reading more than 1.1°C above the person's usual temperature. The rise-from-usual rule applies to ear, mouth or armpit readings.",
+   "qualifications": "Say it comes from US guidance for care home residents (IDSA 2008, as restated in the 2012 revised McGeer surveillance criteria). The IDSA guideline full text itself was not opened. Do not present as UK guidance.",
+   "conflicting_or_uncertain": "Written for care home residents, where usual readings may be recorded; in an emergency department the usual temperature is often not known. No sensitivity or specificity for these thresholds was opened.",
+   "numbers": [
+    {
+     "value": "37.8°C",
+     "meaning": "single oral reading threshold for fever"
+    },
+    {
+     "value": "37.2°C",
+     "meaning": "repeated oral readings threshold"
+    },
+    {
+     "value": "37.5°C",
+     "meaning": "repeated rectal readings threshold"
+    },
+    {
+     "value": "1.1°C",
+     "meaning": "rise over the person's baseline from any site (oral, tympanic, axillary)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-16-b",
+   "cand_id": "C15-16",
+   "claim": "Typical fever is often absent in older people with serious infection.",
+   "source_keys": [
+    "PMID:19072244",
+    "PMID:10913413",
+    "PMID:22961014"
+   ],
+   "supporting_passage": "High 2009 abstract: \"Most residents are older and have multiple comorbidities that complicate recognition of infection; for example, typically defined fever is absent in more than one-half of LTCF residents with serious infection.\" Norman 2000 abstract: \"Fever, the cardinal sign of infection, may be absent or blunted 20%-30% of the time.\" Stone 2012: \"The lower threshold will increase sensitivity for detecting infection given the greater likelihood of a lower febrile response in the elderly.\"",
+   "location": "High 2009 Abstract; Norman 2000 Abstract; Stone 2012 Definitions: Constitutional Criteria (p. 5)",
+   "pico_timeframe": "Care home residents with serious infection (High); older adults in general (Norman review)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Many older people with a serious infection do not develop a typical fever. US care home guidance says typical fever is absent in more than half of residents with serious infection; an earlier review put fever absent or blunted in 20 to 30 in 100 older people with infection.",
+   "qualifications": "Either say 'often' without a number, or give both figures with their populations. Do not say 'more than half of older people' without 'living in care homes'.",
+   "conflicting_or_uncertain": "The two estimates differ (more than 1 in 2 versus 1 in 5 to 3 in 10) and neither primary study was opened. The claim that older people have lower baseline temperatures was NOT found in the sources opened; Stone supports only a 'lower febrile response'. Do not say older people run colder.",
+   "numbers": [
+    {
+     "value": "more than one-half",
+     "meaning": "care home residents with serious infection without typically defined fever (IDSA abstract)"
+    },
+    {
+     "value": "20% to 30%",
+     "meaning": "older people with infection in whom fever is absent or blunted (Norman review)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-16-c",
+   "cand_id": "C15-16",
+   "claim": "NEWS2 gives 0 points for temperatures from 36.1 to 38.0 C.",
+   "source_keys": [
+    "PMID:34223303"
+   ],
+   "supporting_passage": "Engebretsen 2020, Table 1 'NEWS2 and OUH-criteria', Temperature (°C) row: 3 points \"≤35.0\"; 1 point \"35.1–36.0\"; 0 points \"36.1–38.0\"; 1 point \"38.1–39.0\"; 2 points \"≥39.1\". NEWS2 is cited to: \"Royal College of Physicians. National Early Warning Score (NEWS) 2: Standardising the Assessment of Acute-Illness Severity in the NHS. London: RCP; 2017.\"",
+   "location": "Engebretsen 2020, Table 1 (p. 2) and reference 8",
+   "pico_timeframe": "NEWS2 scoring chart (RCP 2017) as reproduced in a peer-reviewed paper",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "On NEWS2, any temperature from 36.1°C to 38.0°C scores 0. A temperature has to reach 38.1°C to score 1 point.",
+   "qualifications": "Cite the Royal College of Physicians NEWS2 chart (2017) via this reproduction; the RCP document could not be opened here.",
+   "conflicting_or_uncertain": "None on the bands. Temperature is one of six parameters; the total score, not temperature alone, drives escalation.",
+   "numbers": [
+    {
+     "value": "36.1 to 38.0°C",
+     "meaning": "band scoring 0 on NEWS2"
+    },
+    {
+     "value": "38.1 to 39.0°C",
+     "meaning": "band scoring 1"
+    },
+    {
+     "value": "39.1°C or more",
+     "meaning": "band scoring 2"
+    },
+    {
+     "value": "35.1 to 36.0°C",
+     "meaning": "band scoring 1"
+    },
+    {
+     "value": "35.0°C or less",
+     "meaning": "band scoring 3"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-16-d",
+   "cand_id": "C15-16",
+   "claim": "NEWS2 has no adjustment for age, and a low score should never override a clinician's or carer's concern.",
+   "source_keys": [
+    "PMID:36427876",
+    "PMID:36427887"
+   ],
+   "supporting_passage": "Vardy 2022: \"The National Early Warning Score (NEWS), published in 2012, made no specific adjustments for older people.\" \"Insufficient evidence was available to apply weighting to the NEWS score to account for age.\" \"Study of performance of the NEWS2 specifically in older people is important, as the physiological and vital sign changes seen in response to acute illness may differ for older adults, as well as their acute care preferences.\" Williams 2022: \"An important point emphasised in the original NEWS report, and reiterated subsequently, is that a low score should never override a healthcare professional or carer's concern about a patient's clinical condition if they feel it is necessary to escalate care.\"",
+   "location": "Vardy 2022 Abstract and 'NEWS2 in older people in hospital' (pp. 522-3); Williams 2022 p. 3",
+   "pico_timeframe": "NEWS/NEWS2 in the NHS; older people",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported",
+   "safe_wording": "NEWS2 has no adjustment for age. Its developers say a low score should never override a professional's or carer's concern about a patient.",
+   "qualifications": "Vardy is expert commentary; the Williams statement reports the RCP position.",
+   "conflicting_or_uncertain": "Neither source addresses temperature thresholds in older people specifically.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-16-e",
+   "cand_id": "C15-16",
+   "claim": "Illustrative example: for a person whose usual temperature is 36.0 C, a reading of 37.5 C scores 0 on NEWS2 but is a rise of 1.5 C, which meets the care home guidance definition of fever (more than 1.1 C over baseline).",
+   "source_keys": [
+    "PMID:34223303",
+    "PMID:22961014"
+   ],
+   "supporting_passage": "Engebretsen 2020 Table 1: 0 points \"36.1–38.0\". Stone 2012 Table 2: \"3. Single temperature >1.1°C (2°F) over baseline from any site (oral, tympanic, axillary)\"",
+   "location": "As for C15-16-a and C15-16-c",
+   "pico_timeframe": "Illustrative arithmetic combining two definitions",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Illustrative example: if someone's usual temperature is 36.0°C, a reading of 37.5°C scores nothing on NEWS2, yet it is 1.5°C above their usual, which US care home guidance would count as a fever.",
+   "qualifications": "Must be labelled 'Illustrative example'. Do not state that older people typically run at 36.0°C (not supported).",
+   "conflicting_or_uncertain": "Whether the IDSA baseline rule improves detection in emergency departments was not examined in any source opened.",
+   "numbers": [
+    {
+     "value": "36.0°C",
+     "meaning": "illustrative usual temperature (not a finding)"
+    },
+    {
+     "value": "37.5°C",
+     "meaning": "illustrative reading; scores 0 on NEWS2"
+    },
+    {
+     "value": "1.5°C",
+     "meaning": "illustrative rise, above the 1.1°C threshold"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-16-f",
+   "cand_id": "C15-16",
+   "claim": "In an emergency department, adults with bloodstream infection but no fever were older and had higher 30-day mortality than those with fever.",
+   "source_keys": [
+    "PMID:27638347"
+   ],
+   "supporting_passage": "\"The afebrile patients were older, have higher Charlson comorbidity index, and had poorer outcomes than the febrile patients.\" \"Finally, the 30-day all-cause mortality was higher in the afebrile group than in the febrile group (45% versus 12%, log-rank P<0.001).\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "994 adults with bacteraemia admitted through one emergency department (Taiwan); afebrile versus febrile; 30-day mortality",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one emergency department study of adults with blood infection, those without a fever were older and more of them died within 30 days (45 in 100 versus 12 in 100).",
+   "qualifications": "Single centre, retrospective, all adult ages; crude mortality comparison; absence of fever does not cause the deaths.",
+   "conflicting_or_uncertain": "Optional supporting point; not essential.",
+   "numbers": [
+    {
+     "value": "45% versus 12%",
+     "meaning": "30-day all-cause mortality, afebrile versus febrile bacteraemia, crude"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-16-g",
+   "cand_id": "C15-16",
+   "claim": "Practical step: find the person's usual temperature in care home charts, GP records or previous admission records.",
+   "source_keys": [],
+   "supporting_passage": "No source found or opened for where baseline temperatures are recorded or how often they are available.",
+   "location": "Not applicable",
+   "pico_timeframe": "Practical advice",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "Offer as a suggestion only: 'If you can, find their usual temperature: care home charts and earlier hospital records may have it.' Do not claim these records usually contain it.",
+   "qualifications": "Judgement, not a finding.",
+   "conflicting_or_uncertain": "Baseline readings are often unavailable at the front door.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-01-a",
+   "cand_id": "C15-01",
+   "claim": "In 6,481 medical patients with pneumonia in 43 Michigan hospitals, two thirds (67.8%) received more antibiotic days than needed.",
+   "source_keys": [
+    "PMID:31284301"
+   ],
+   "supporting_passage": "\"6481 general care medical patients with pneumonia.\" \"Two thirds (67.8% [4391 of 6481]) of patients received excess antibiotic therapy.\" Full text: \"the median age was 70.2 years (interquartile range [IQR], 58.4 to 80.8 years).\" \"Patients with CAP were expected to have a treatment duration of at least 5 days, with longer courses expected only if time to clinical stability was longer\" \"treatment duration was considered to be appropriate if the actual duration was within 1 day of the expected duration.\" \"The median excess duration was 2 days (IQR, 0 to 4 days) overall\"",
+   "location": "Abstract; full text Results (p. 7) and Methods, Primary Outcome (p. 5)",
+   "pico_timeframe": "Adults hospitalised with pneumonia (median age 70), 43 US hospitals; excess days beyond shortest effective duration; 30 days",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In 43 US hospitals, 2 in 3 adults treated for pneumonia (median age 70) got more days of antibiotics than they needed, usually about 2 extra days.",
+   "qualifications": "US study of adults of all ages, not only older people. 'Needed' means the shortest effective duration set by the authors from guidelines (at least 5 days for community-acquired pneumonia, longer if slow to stabilise), with 1 day of leeway.",
+   "conflicting_or_uncertain": "None major.",
+   "numbers": [
+    {
+     "value": "67.8% (4,391 of 6,481)",
+     "meaning": "patients with excess antibiotic duration"
+    },
+    {
+     "value": "43",
+     "meaning": "hospitals"
+    },
+    {
+     "value": "70.2 years",
+     "meaning": "median age"
+    },
+    {
+     "value": "2 days",
+     "meaning": "median excess duration"
+    },
+    {
+     "value": "8 days",
+     "meaning": "median actual total duration"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-01-b",
+   "cand_id": "C15-01",
+   "claim": "Antibiotics prescribed at discharge accounted for 93.2% of the excess duration.",
+   "source_keys": [
+    "PMID:31284301"
+   ],
+   "supporting_passage": "\"Antibiotics prescribed at discharge accounted for 93.2% of excess duration.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "As C15-01-a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Almost all the extra days (93 in every 100) came from antibiotics prescribed at discharge.",
+   "qualifications": "This is a share of excess days, not of patients.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "93.2%",
+     "meaning": "share of all excess antibiotic days that came from discharge prescriptions"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-01-c",
+   "cand_id": "C15-01",
+   "claim": "Only a third of discharge summaries documented the total antibiotic duration, and not documenting it was linked with more excess treatment.",
+   "source_keys": [
+    "PMID:31284301"
+   ],
+   "supporting_passage": "Abstract: \"Patients who ... did not have a total antibiotic treatment duration documented at discharge were more likely to receive excess treatment.\" Full text: \"Only a third of patients (32.1% [2080 of 6481]) had a total treatment duration documented in their discharge summary.\" Table 2 row 'Documentation of total antibiotic treatment duration in discharge summary': No (n = 4401 [67.9%]) predicted excess days per patient 2.9, Reference; Yes (n = 2080 [32.1%]) predicted excess days 2.3, adjusted rate ratio 0.78 (0.70-0.87), P < 0.001.",
+   "location": "Abstract; full text Results 'Prescribing at Discharge' (p. 7) and Table 2 (p. 32)",
+   "pico_timeframe": "As C15-01-a; documented versus undocumented total duration; excess days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Only 1 in 3 discharge summaries said how many days of antibiotic in total. When the total was written down, patients got fewer extra days (about 2.3 versus 2.9 extra days per patient, after adjustment).",
+   "qualifications": "Observational association; documentation may mark more careful prescribing rather than cause fewer days. Use 'linked with'.",
+   "conflicting_or_uncertain": "The study did not test writing a stop date as an intervention; the authors call for future work on 'whether reducing excess treatment and improving documentation at discharge improves outcomes'.",
+   "numbers": [
+    {
+     "value": "32.1% (2,080 of 6,481)",
+     "meaning": "discharge summaries documenting total treatment duration"
+    },
+    {
+     "value": "2.3 versus 2.9",
+     "meaning": "predicted excess days per patient, documented versus not documented, adjusted"
+    },
+    {
+     "value": "0.78",
+     "meaning": "adjusted rate ratio for excess days with documentation"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-01-d",
+   "cand_id": "C15-01",
+   "claim": "Each extra day was linked with 5% higher odds of patient-reported antibiotic side effects, and extra days were not linked with better outcomes.",
+   "source_keys": [
+    "PMID:31284301"
+   ],
+   "supporting_passage": "Abstract: \"Excess treatment was not associated with lower rates of any adverse outcomes, including death, readmission, emergency department visit, or Clostridioides difficile infection. Each excess day of treatment was associated with a 5% increase in the odds of antibiotic-associated adverse events reported by patients after discharge.\" Full text: \"Of these, 60.4% (3592 of 5943) were reached.\" \"Diarrhea, gastrointestinal distress, and mucosal candidiasis were the most common antibiotic-associated adverse events reported by patients\" Table 3 patient-reported adverse events: appropriate duration \"26/1132 (2.3%)\"; excess duration \"114/2460 (4.6%)\"; adjusted OR per excess day 1.05 (1.02-1.08).",
+   "location": "Abstract; full text Results 'Patient Outcomes' (p. 8), Table 3 (p. 33)",
+   "pico_timeframe": "Patients reached by phone at 30 days (60.4% of eligible); per excess day; adjusted",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Extra days did not bring better results: no fewer deaths, readmissions or return visits. Each extra day was linked with slightly higher odds of side effects that patients reported, mostly diarrhoea and stomach upset. Among patients reached by phone, about 5 in 100 on too-long courses reported side effects, against about 2 in 100 on the right length.",
+   "qualifications": "Observational; side effects known only for the 60% reached by phone; crude percentages (4.6% versus 2.3%) differ from the adjusted per-day estimate. Do not use causal verbs.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "5% (95% CI 2% to 8%)",
+     "meaning": "increase in odds of patient-reported adverse event per excess day, adjusted"
+    },
+    {
+     "value": "4.6% versus 2.3%",
+     "meaning": "patient-reported adverse events, excess versus appropriate duration, crude, among those contacted"
+    },
+    {
+     "value": "60.4%",
+     "meaning": "eligible patients reached by telephone"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-01-e",
+   "cand_id": "C15-01",
+   "claim": "The risk of C. difficile infection from antibiotics is higher in older people.",
+   "source_keys": [
+    "PMID:31284301"
+   ],
+   "supporting_passage": "No source opened supports the age claim. In Vaughn 2019 Table 3, C. difficile infection: appropriate duration \"11 (0.5%)\"; excess duration \"22 (0.5%)\"; adjusted OR per excess day \"0.93 (0.81–1.07)\", P = 0.30. Full text: \"excess duration was not associated with C difficile infection or provider-documented adverse events\".",
+   "location": "Vaughn 2019 Table 3 (p. 33) and Results",
+   "pico_timeframe": "As C15-01-a",
+   "claim_type": "empirical",
+   "verdict": "not_supported",
+   "safe_wording": "Leave C. difficile out. In this study, extra antibiotic days were not linked with more C. difficile infection.",
+   "qualifications": "Age-specific C. difficile risk was not sourced.",
+   "conflicting_or_uncertain": "The study's own finding runs against using C. difficile as the harm in this post.",
+   "numbers": [
+    {
+     "value": "0.5% versus 0.5%",
+     "meaning": "C. difficile infection, appropriate versus excess duration"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-01-f",
+   "cand_id": "C15-01",
+   "claim": "Shorter courses work: in stable patients admitted with pneumonia, stopping antibiotics after 3 days was non-inferior to 8 days.",
+   "source_keys": [
+    "PMID:33773631"
+   ],
+   "supporting_passage": "\"Among patients admitted to hospital with community-acquired pneumonia who met clinical stability criteria, discontinuing β-lactam treatment after 3 days was non-inferior to 8 days of treatment.\" \"In the ITT population, median age was 73·0 years (IQR 57·0-84·0)\" \"cure at day 15 occurred in 117 (77%) of 152 participants in the placebo group and 102 (68%) of 151 participants in the β-lactam group\"",
+   "location": "Abstract, Findings and Interpretation",
+   "pico_timeframe": "Adults (median age 73) admitted with moderately severe CAP to non-critical care wards, stable at day 3; placebo versus 5 more days of amoxicillin-clavulanate; cure at day 15",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a French trial of people admitted with pneumonia (median age 73) who were stable after 3 days, stopping antibiotics then worked as well as continuing to 8 days.",
+   "qualifications": "Only for patients who met stability criteria at day 3 and were not in intensive care; one antibiotic regimen.",
+   "conflicting_or_uncertain": "Non-inferiority margin 10 percentage points.",
+   "numbers": [
+    {
+     "value": "77% versus 68%",
+     "meaning": "cure at day 15, stop at 3 days (placebo) versus 8 days, ITT"
+    },
+    {
+     "value": "73 years",
+     "meaning": "median age"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-01-g",
+   "cand_id": "C15-01",
+   "claim": "UK (NICE) guidance recommends stopping antibiotics for community-acquired pneumonia after 5 days unless the person is not clinically stable or microbiology suggests a longer course.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng250"
+   ],
+   "supporting_passage": "Search-engine extract only (not opened): \"For adults with community-acquired pneumonia, stop antibiotic treatment after 5 days unless microbiological results suggest a longer course is needed or the person is not clinically stable, for example, if they have had a fever in the past 48 hours or have signs of clinical instability.\"",
+   "location": "WebSearch extract from nice.org.uk results",
+   "pico_timeframe": "Adults with community-acquired pneumonia, England",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not quote NICE wording. If needed, say 'UK guidance favours short courses for most adults with pneumonia' only after the NICE page has been opened; otherwise rely on the trial (C15-01-f).",
+   "qualifications": "Search extract only; NG138 has been incorporated into NG250 (September 2025) according to search results; exact current wording unverified.",
+   "conflicting_or_uncertain": "Not essential.",
+   "numbers": [
+    {
+     "value": "5 days",
+     "meaning": "course length in NICE guidance (unverified search extract)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-11-a",
+   "cand_id": "C15-11",
+   "claim": "In UK trauma registry data, the mean age of major trauma patients rose from 36.1 in 1990 to 53.8 in 2013, people over 75 were 26.9% of cases in 2013, and low falls became the commonest mechanism (39.1%).",
+   "source_keys": [
+    "PMID:26598629"
+   ],
+   "supporting_passage": "\"In 1990, the mean age of MT patients within the TARN database was 36.1, the largest age group suffering MT was 0-24 years (39.3%), the most common causative mechanism was road traffic collision (59.1%), 72.7% were male and 33.6% underwent CT. By 2013, mean age had increased to 53.8 years, the single largest age group was 25-50 years (27.1%), closely followed by those >75 years (26.9%), the most common mechanism was low falls (39.1%), 68.3% were male and 86.8% underwent CT.\" \"the predominant mechanism that precipitates MT is a fall from <2 m.\"",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "All TARN major trauma cases (ISS >15), England and Wales, 1990 to 2013",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In the national trauma registry for England and Wales, the commonest cause of major trauma changed from road collisions (59 in 100 cases in 1990) to falls from less than 2 metres (39 in 100 in 2013). By 2013, about 1 in 4 people with major trauma were over 75, and the average age had risen from 36 to 54.",
+   "qualifications": "Registry data to 2013 only; say 'by 2013'. Shifts partly reflect changes in which hospitals submitted data and in CT use (33.6% to 86.8%), which finds more injuries.",
+   "conflicting_or_uncertain": "Newer TARN reports exist but were not opened; do not describe the figures as current.",
+   "numbers": [
+    {
+     "value": "36.1 to 53.8 years",
+     "meaning": "mean age of major trauma patients, 1990 to 2013"
+    },
+    {
+     "value": "26.9%",
+     "meaning": "share of major trauma cases aged over 75, 2013"
+    },
+    {
+     "value": "39.1%",
+     "meaning": "share caused by low falls (<2 m), 2013"
+    },
+    {
+     "value": "59.1%",
+     "meaning": "share caused by road traffic collisions, 1990"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-11-b",
+   "cand_id": "C15-11",
+   "claim": "Older people with rib fractures have about twice the mortality and pneumonia of younger people with similar injuries, and each extra rib fracture is linked with higher odds of death.",
+   "source_keys": [
+    "PMID:10866248"
+   ],
+   "supporting_passage": "\"Pneumonia occurred in 31% of elderly versus 17% of young (p < 0.01) and mortality was 22% for the elderly versus 10% for the young (p < 0.01). Mortality and pneumonia rates increased as the number of rib fxs increased with and odds ratio for death of 1.19 and for pneumonia of 1.16 per each additional rib fracture (p < 0.001).\" Conclusions: \"For each additional rib fracture in the elderly, mortality increases by 19% and the risk of pneumonia by 27%.\"",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "277 people aged 65+ versus 187 aged 18 to 64 admitted with rib fractures to one US Level I trauma centre over 10 years; similar mean injury severity; in-hospital outcomes",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one US trauma centre, people aged 65 or over admitted with rib fractures died more often than younger adults with similar injuries (22 in 100 versus 10 in 100) and got pneumonia more often (31 in 100 versus 17 in 100). Each extra broken rib was linked with higher odds of death.",
+   "qualifications": "Single centre, old data (published 2000), admitted trauma patients only. Do not quote a per-rib pneumonia figure: the abstract gives 1.16 in Results and 27% in Conclusions. Do not turn the 1.19 odds ratio into '19% more likely to die' for the public.",
+   "conflicting_or_uncertain": "Older data; care of rib fractures has changed since.",
+   "numbers": [
+    {
+     "value": "22% versus 10%",
+     "meaning": "mortality, 65+ versus 18 to 64, crude"
+    },
+    {
+     "value": "31% versus 17%",
+     "meaning": "pneumonia, 65+ versus 18 to 64, crude"
+    },
+    {
+     "value": "1.19",
+     "meaning": "odds ratio for death per additional rib fracture"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-11-c",
+   "cand_id": "C15-11",
+   "claim": "Older trauma patients are often under-triaged before reaching hospital.",
+   "source_keys": [
+    "PMID:34110604",
+    "PMID:35191799"
+   ],
+   "supporting_passage": "Alshibani 2021: \"Current trauma triage guidelines have poor sensitivity to identify major trauma and the need for TC care for older adults.\" \"This systematic review showed that under-triage is an ongoing issue for older trauma patients in prehospital care and its impact on their outcomes is still uncertain.\" Lupton 2022: \"Among eight studies evaluating the entire FTG (steps 1-4), under-triage rates ranged from 1.6% to 72.0% and were higher for older (≥55 or ≥65 years) adults (20.1-72.0%) and pediatric (<15 years) patients (15.9-34.8%) compared to all ages (1.6-33.8%).\"",
+   "location": "Alshibani Abstract, Results and Conclusions; Lupton Abstract, Results",
+   "pico_timeframe": "Older injured people in prehospital care; triage tools versus reference standards for major trauma",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Reviews of ambulance triage rules find they miss serious injury in older people more often than in younger adults. Whether this changes outcomes is still uncertain.",
+   "qualifications": "Mostly North American studies of prehospital triage, not UK emergency department practice. Ranges are wide.",
+   "conflicting_or_uncertain": "Effect of under-triage on outcomes is uncertain (Alshibani). The TARN 2017 claim that older people get less trauma team activation or senior review was not found or opened; leave it out.",
+   "numbers": [
+    {
+     "value": "20.1% to 72.0%",
+     "meaning": "range of under-triage rates for older adults using the full North American Field Triage Guidelines, across studies"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-11-d",
+   "cand_id": "C15-11",
+   "claim": "About 5 in 100 older people who come to an emergency department after a fall have bleeding inside the skull.",
+   "source_keys": [
+    "PMID:31901331"
+   ],
+   "supporting_passage": "\"The pooled incidence of intracranial bleeding was 5.2% (95% CI 3.2-8.2%). A sensitivity analysis excluding studies with a high risk of bias gave a pooled estimate of 5.1% (95% CI 3.6-7.2%).\" \"The available literature suggests there is around a 5% incidence of intracranial bleeding in seniors who present to the ED after a fall.\"",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "People aged 65+ presenting to emergency departments after a fall (mostly ground-level); intracranial bleeding within 6 weeks",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Across studies, about 1 in 20 people aged 65 or over who came to an emergency department after a fall had bleeding inside the skull.",
+   "qualifications": "Studies varied (some required head injury or a CT request); 8 of 11 at high risk of bias.",
+   "conflicting_or_uncertain": "Estimate may be higher or lower in a given department depending on who is scanned.",
+   "numbers": [
+    {
+     "value": "5.2% (95% CI 3.2% to 8.2%)",
+     "meaning": "pooled incidence of intracranial bleeding within 6 weeks, people 65+ presenting after a fall"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-11-e",
+   "cand_id": "C15-11",
+   "claim": "Anticoagulant use should raise concern for serious head injury after a low fall.",
+   "source_keys": [
+    "PMID:40699169",
+    "PMID:35340581"
+   ],
+   "supporting_passage": "Dubucs 2025: \"Preinjury anticoagulant was not a significant risk factor (OR: 0.8 [95% CI 0.7 to 1.0]).\" \"Based on AOR, only focal neurologic signs (AOR: 4.4 [95% CI 3.0 to 6.5]), external sign of head trauma (AOR: 2.7 [95% CI 2.1 to 3.5]), loss of consciousness (AOR: 1.6 [95% CI 1.2 to 2.1]), and male sex (AOR: 1.4 [95% CI 1.2 to 1.6]) remained associated with traumatic ICH.\" Pandor 2022: \"Heart rate and anticoagulant were not significant predictors.\"",
+   "location": "Dubucs Abstract, Results; Pandor Abstract, Results",
+   "pico_timeframe": "People 65+ with ground-level-fall head injury and GCS 13+ (Dubucs); injured older patients attended by EMS (Pandor)",
+   "claim_type": "empirical",
+   "verdict": "not_supported",
+   "safe_wording": "Do not tell readers that anticoagulants make a bleed after a low fall more likely: a 2025 meta-analysis did not find anticoagulant use to be a risk factor for bleeding inside the skull in this group. Keep the triage instruction to the injury and the person (look for head and chest injury after a low fall).",
+   "qualifications": "This concerns the presence of a bleed, not how serious a bleed becomes; local head injury guidance on scanning people on anticoagulants was not opened.",
+   "conflicting_or_uncertain": "Evidence conflicts with the candidate's position and the judge's suggested close.",
+   "numbers": [
+    {
+     "value": "0.8 (0.7 to 1.0)",
+     "meaning": "pooled unadjusted odds ratio for traumatic intracranial haemorrhage with preinjury anticoagulant"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-11-f",
+   "cand_id": "C15-11",
+   "claim": "NICE major trauma guidance (NG39) applies regardless of mechanism.",
+   "source_keys": [],
+   "supporting_passage": "Not opened (NICE pages blocked).",
+   "location": "Not applicable",
+   "pico_timeframe": "Not applicable",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Leave out any statement about NICE NG39.",
+   "qualifications": "Unverified.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-14-a",
+   "cand_id": "C15-14",
+   "claim": "The study included 5,249,891 patients admitted from type 1 emergency departments in England from April 2016 to March 2018; crude 30-day mortality was 8.71%.",
+   "source_keys": [
+    "PMID:35042695"
+   ],
+   "supporting_passage": "\"A cross-sectional, retrospective observational study was carried out of patients admitted from every type 1 (major) ED in England between April 2016 and March 2018. The primary outcome was death from all causes within 30 days of admission.\" \"Between April 2016 and March 2018, 26 738 514 people attended an ED, with 7 472 480 patients admitted relating to 5 249 891 individual patients, who constituted the study's dataset. A total of 433 962 deaths occurred within 30 days. The overall crude 30-day mortality rate was 8.71% (95% CI 8.69% to 8.74%).\"",
+   "location": "Abstract, Methods and Results",
+   "pico_timeframe": "All patients admitted from type 1 EDs in England, 2016 to 2018; all-cause death within 30 days of admission",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Researchers looked at over 5 million people admitted through major emergency departments in England between 2016 and 2018. About 9 in 100 died within 30 days.",
+   "qualifications": "All adult ages, not older people only; admissions (7.47 million) relate to 5.25 million individuals.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": [
+    {
+     "value": "5,249,891",
+     "meaning": "individual patients admitted"
+    },
+    {
+     "value": "7,472,480",
+     "meaning": "admissions"
+    },
+    {
+     "value": "8.71%",
+     "meaning": "crude 30-day mortality"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-14-b",
+   "cand_id": "C15-14",
+   "claim": "Mortality rose steadily with waits from 5 hours after arrival up to 12 hours; the largest change was an 8% increase in the standardised mortality ratio for waits of more than 6 to 8 hours.",
+   "source_keys": [
+    "PMID:35042695"
+   ],
+   "supporting_passage": "\"A statistically significant linear increase in mortality was found from 5 hours after time of arrival at the ED up to 12 hours (when accurate data collection ceased) (p<0.001). The greatest change in the 30-day standardised mortality ratio was an 8% increase, occurring in the patient cohort that waited in the ED for more than 6 to 8 hours from the time of arrival.\"",
+   "location": "Abstract, Results",
+   "pico_timeframe": "As C15-14-a; time from arrival to admission; observed versus model-expected 30-day mortality",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The longer people waited beyond 5 hours from arrival, the higher their risk of dying within 30 days, compared with what the researchers' model expected. The rise continued up to 12 hours, where reliable timing data stopped.",
+   "qualifications": "Association in observational data; do not use 'causes' even though the authors' conclusion does ('Between 5 and 12 hours, delays cause a predictable dose-response effect').",
+   "conflicting_or_uncertain": "Standardised mortality ratios by time band (reported in secondary coverage as 0.94 for 4 hours or less up to 1.16 for 8 to 12 hours) were seen only in search-engine extracts, not in the paper; do not quote them.",
+   "numbers": [
+    {
+     "value": "5 to 12 hours",
+     "meaning": "range over which mortality rose linearly"
+    },
+    {
+     "value": "8%",
+     "meaning": "largest step increase in 30-day standardised mortality ratio, cohort waiting more than 6 to 8 hours"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-14-c",
+   "cand_id": "C15-14",
+   "claim": "The authors estimated one extra death for every 82 admitted patients delayed beyond 6 to 8 hours from arrival.",
+   "source_keys": [
+    "PMID:35042695"
+   ],
+   "supporting_passage": "\"For every 82 admitted patients whose time to inpatient bed transfer is delayed beyond 6 to 8 hours from time of arrival at the ED, there is one extra death.\" Methods: \"Observed mortality was compared with expected mortality, as calculated using a logistic regression model\"",
+   "location": "Abstract, Conclusions and Methods",
+   "pico_timeframe": "As C15-14-a",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "The authors estimated 1 extra death for every 82 people whose move to a ward bed was delayed beyond 6 to 8 hours after arrival. This is their estimate from comparing observed deaths with the deaths their model expected; it is a link in the data, not proof that the wait caused each death.",
+   "qualifications": "The exact comparison group and calculation behind 1 in 82 could not be checked in the full text (not accessible). Do not state 'compared with people who waited less than 4 hours' or similar.",
+   "conflicting_or_uncertain": "Residual confounding: sicker patients may wait longer or shorter for reasons the model does not capture.",
+   "numbers": [
+    {
+     "value": "1 in 82",
+     "meaning": "authors' estimate of one extra death per 82 admitted patients delayed beyond 6 to 8 hours from arrival; comparison group not verified"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-14-d",
+   "cand_id": "C15-14",
+   "claim": "The model adjusted for sex, age, deprivation, comorbidities, time of day, month, previous attendances and crowding, but not for acute illness severity.",
+   "source_keys": [
+    "PMID:35042695"
+   ],
+   "supporting_passage": "\"expected mortality, as calculated using a logistic regression model to adjust for sex, age, deprivation, comorbidities, hour of day, month, previous ED attendances/emergency admissions and crowding in the department at the time of the attendance.\"",
+   "location": "Abstract, Methods",
+   "pico_timeframe": "As C15-14-a",
+   "claim_type": "definition",
+   "verdict": "supported",
+   "safe_wording": "The researchers allowed for age, sex, deprivation, long-term conditions, time of day, month, earlier visits and how crowded the department was. They could not allow for how ill each person was on arrival.",
+   "qualifications": "The absence of an acute severity measure is inferred from the listed variables in the abstract; do not write 'adjusted for illness' or 'illness severity'.",
+   "conflicting_or_uncertain": "None.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-14-e",
+   "cand_id": "C15-14",
+   "claim": "Older people are more likely than younger adults to spend 4 hours or more in the emergency department.",
+   "source_keys": [
+    "PMID:36074240"
+   ],
+   "supporting_passage": "Abstract: \"Attendances of adults aged 65 to 74 years, 75 to 84 years and ≥ 85 years, respectively, had an increased risk (odds ratio (95% confidence interval) of length of ED stay ≥ 4 h of 1.52 (1.45-1.58), 1.65 (1.58-1.72), and 1.84 (1.75-1.93), compared to those of adults 18 to 64 years (all p < 0.001). These findings remained consistent in the subsets of attendances leading to hospital admission and those leading to discharge from ED.\" Table 3 (attendances with stay ≥4 h): 18-64 years \"45,311 (43.6)\"; 65-74 \"9,027 (63.1)\"; 75-84 \"11,156 (71.4)\"; ≥85 \"10,142 (79.0)\".",
+   "location": "Abstract; full text Table 3 (p. 9) with denominators from Table 2",
+   "pico_timeframe": "146,636 adult attendances, one Nottingham emergency department, 2019; stay of 4 hours or more",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one large English emergency department in 2019, 79 in 100 visits by people aged 85 or over lasted 4 hours or more, compared with 44 in 100 visits by adults under 65.",
+   "qualifications": "Single hospital, one year, before the pandemic; attendances not people; adjusted odds ratios should not be turned into 'times more likely'. Longer stays may partly reflect more tests and assessment, not only waiting for a bed.",
+   "conflicting_or_uncertain": "No national age breakdown of 12-hour waits was opened.",
+   "numbers": [
+    {
+     "value": "79.0% (10,142 of 12,833)",
+     "meaning": "attendances aged 85+ with ED stay of 4 hours or more"
+    },
+    {
+     "value": "43.6% (45,311 of 103,869)",
+     "meaning": "attendances aged 18 to 64 with ED stay of 4 hours or more"
+    },
+    {
+     "value": "71.4% and 63.1%",
+     "meaning": "same measure for ages 75 to 84 and 65 to 74"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-14-f",
+   "cand_id": "C15-14",
+   "claim": "In older people (75+) admitted through emergency departments, spending the night in the department was linked with higher in-hospital mortality in France, but a similar Spanish study did not find a clear difference.",
+   "source_keys": [
+    "PMID:37930696",
+    "PMID:38900240"
+   ],
+   "supporting_passage": "Roussel 2023: \"The total sample comprised 1598 patients (median [IQR] age, 86 [80-90] years ...), with 707 (44%) in the ED group and 891 (56%) in the ward group. Patients who spent the night in the ED had a higher in-hospital mortality rate of 15.7% vs 11.1% (adjusted risk ratio [aRR], 1.39; 95% CI, 1.07-1.81). They also had a higher risk of adverse events compared with the ward group (aRR, 1.24; 95% CI, 1.04-1.49)\" \"In a prespecified subgroup analysis of patients who required assistance with the activities of daily living, spending the night in the ED was associated with a higher in-hospital mortality rate (aRR, 1.81; 95% CI, 1.25-2.61).\" Miro 2024: \"In-hospital mortality for patients spending the night in the ED the ED group was 10.7% and 9.5% for patients transferred to a ward bed before midnight the ward group (adjusted OR: 1.12, 95%CI: 0.80-1.58).\" \"No increased risk of in-hospital mortality or prolonged hospitalization was found in older patients waiting overnight in the ED for admission.\"",
+   "location": "Roussel Abstract, Results; Miro Abstract, Results and Conclusions",
+   "pico_timeframe": "People 75+ admitted via EDs; stayed in ED midnight to 8 am versus admitted to ward before midnight; in-hospital mortality to 30 days; France Dec 2022 (97 EDs), Spain Apr 2019 (52 EDs)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In France, older people (75 and over) who spent the night in the emergency department waiting for a bed died in hospital more often than those who reached a ward before midnight (about 16 in 100 versus 11 in 100). A similar study in Spain did not find a clear difference (about 11 in 100 versus 10 in 100).",
+   "qualifications": "Observational; give both studies. Subgroup finding (people needing help with daily activities) is a subgroup, not the whole study.",
+   "conflicting_or_uncertain": "Conflicting results between countries; the Spanish study found higher risk only in non-academic hospitals (interaction), which is a subgroup.",
+   "numbers": [
+    {
+     "value": "15.7% vs 11.1%",
+     "meaning": "in-hospital mortality, overnight in ED versus ward before midnight, France, crude; aRR 1.39"
+    },
+    {
+     "value": "10.7% vs 9.5%",
+     "meaning": "same comparison, Spain; adjusted OR 1.12 (0.80 to 1.58)"
+    },
+    {
+     "value": "aRR 1.24",
+     "meaning": "adverse events, overnight in ED versus ward, France"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-a",
+   "cand_id": "C15-15",
+   "claim": "New pressure sores developed during emergency department stays, especially in people over 75; most were early (stage I) on heels and sacrum.",
+   "source_keys": [
+    "PMID:23043304"
+   ],
+   "supporting_passage": "\"A total of 27 patients developed new PU during their ED stay, among them 20 were aged over 75 years. The cumulative incidence was 4·9% and this rate increased to 15·7% in patients aged over 75 years.\" Key messages: \"The incidence density for PUs in the ED was 5·4 per 1000 patients per hour, and increased to 17·5 per 1000 patients over 75 years and per hour\" \"Stage I PUs were the most often stages registered among the 38 new PUs that occurred during the ED stay [i.e. 34 (89·5%) PUs].\" \"Heels and sacrum were both the main sites of PUs, and new PUs were most often localised on these two sites with a greater tendency to appear on the heels.\" Table 2: \"Length of stay, hours (mean ± SD) | 9·1 (8·5)\"",
+   "location": "Results 'Prevalence and incidence rate of PUs in the ED' (p. 4); Key Messages (p. 2); Table 2 (p. 3)",
+   "pico_timeframe": "Adults in one French ED, June 2010; skin checked at admission and discharge by trained nurses; new pressure ulcers during the ED stay (mean 9.1 hours)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one French emergency department, about 1 in 20 patients developed a new pressure sore during their stay, which averaged 9 hours. Among people over 75 it was about 1 in 6. Most were early sores (red, unbroken skin), mostly on the heels and the base of the spine.",
+   "qualifications": "Single centre, two weeks in 2010; stage I sores are the earliest stage; many patients were excluded for missing data. Say 'in one French emergency department'.",
+   "conflicting_or_uncertain": "Length of stay over 4 hours was linked with new sores only before adjustment (P = 0.014); after adjustment only more long-term conditions (OR 1.3) and higher CRP (OR 1.005) remained independent risk factors (LOS OR 1.5, 95% CI 0.3 to 7.5, P = 0.618). So do not claim longer waits independently cause more sores.",
+   "numbers": [
+    {
+     "value": "4.9%",
+     "meaning": "cumulative incidence of new pressure ulcers during ED stay, all patients"
+    },
+    {
+     "value": "15.7%",
+     "meaning": "cumulative incidence in patients over 75"
+    },
+    {
+     "value": "20 of 27",
+     "meaning": "patients with new pressure ulcers who were over 75"
+    },
+    {
+     "value": "34 of 38 (89.5%)",
+     "meaning": "new ulcers that were stage I"
+    },
+    {
+     "value": "9.1 hours",
+     "meaning": "mean ED length of stay"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-b",
+   "cand_id": "C15-15",
+   "claim": "Older people are more likely to have long emergency department stays.",
+   "source_keys": [
+    "PMID:36074240"
+   ],
+   "supporting_passage": "Table 3 (attendances with stay ≥4 h): 18-64 years \"45,311 (43.6)\"; ≥85 \"10,142 (79.0)\". Abstract: \"older adults were more likely to have a length of ED stay ≥ 4 h, with the oldest old having the highest risk.\"",
+   "location": "Abstract; Table 3",
+   "pico_timeframe": "As C15-14-e",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one large English emergency department, 8 in 10 visits by people aged 85 or over lasted 4 hours or more, compared with just over 4 in 10 visits by adults under 65.",
+   "qualifications": "Single hospital, 2019.",
+   "conflicting_or_uncertain": "As C15-14-e.",
+   "numbers": [
+    {
+     "value": "79.0% versus 43.6%",
+     "meaning": "visits lasting 4 hours or more, age 85+ versus 18 to 64"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-c",
+   "cand_id": "C15-15",
+   "claim": "Usual medicines are often given late or missed in hospital, and for some medicines, such as those for Parkinson's, this is linked with harm.",
+   "source_keys": [
+    "PMID:35402654",
+    "PMID:28065403"
+   ],
+   "supporting_passage": "Richard 2022: \"Time-critical medications were prescribed correctly on admission in 50% of admissions, with errors in medication timing most common (31.6%). Of all doses, 51.7% were administered >30 minutes late, and 29.7% of doses were administered >1 hour late.\" Lertxundi 2017: \"Medication errors, affecting almost one third of admissions and half of patients, were associated with higher mortality: inappropriately omitted dopaminergic drug doses OR = 1.92 CI 95% (1.34-2.76)\" \"Inappropriately omitted doses and both inappropriate antipsychotic and antiemetic administration were associated with a significant 4-day increase in median hospital stay.\"",
+   "location": "Richard Abstract, Results; Lertxundi Abstract, Results",
+   "pico_timeframe": "People with Parkinson's admitted to hospital (Dublin; Basque Country 2011-2012); dose timing and omission; length of stay and in-hospital mortality",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Some medicines need to be given on time. In a Dublin hospital, half of Parkinson's medicine doses were given more than 30 minutes late. In Spanish hospitals, missed Parkinson's doses were linked with longer stays and more deaths in hospital.",
+   "qualifications": "Inpatient studies, not emergency department waits specifically; observational (link, not proof of cause); Parkinson's is the example with evidence. The NPSA 2010 rapid response report on omitted and delayed medicines was not opened; do not cite it.",
+   "conflicting_or_uncertain": "No emergency-department-specific source on missed doses during long waits was opened.",
+   "numbers": [
+    {
+     "value": "51.7%",
+     "meaning": "Parkinson's doses given more than 30 minutes late, Dublin"
+    },
+    {
+     "value": "29.7%",
+     "meaning": "doses given more than 1 hour late"
+    },
+    {
+     "value": "4 days",
+     "meaning": "longer median hospital stay with omitted Parkinson's doses (Spain)"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-d",
+   "cand_id": "C15-15",
+   "claim": "Older people who spent the night in the emergency department had more in-hospital adverse events (including pressure sores in the composite) in a French study.",
+   "source_keys": [
+    "PMID:37930696",
+    "PMID:38900240"
+   ],
+   "supporting_passage": "Roussel 2023: \"Secondary outcomes included in-hospital adverse events (ie, falls, infection, bleeding, myocardial infarction, stroke, thrombosis, bedsores, and dysnatremia)\" \"They also had a higher risk of adverse events compared with the ward group (aRR, 1.24; 95% CI, 1.04-1.49)\"",
+   "location": "Roussel Abstract, Methods and Results",
+   "pico_timeframe": "As C15-14-f",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In France, people aged 75 and over who spent the night in the emergency department had more complications in hospital, such as falls, infections and pressure sores, than those who reached a ward before midnight.",
+   "qualifications": "Composite outcome; the abstract does not give the bedsore rate separately. Observational. Mortality finding conflicts with a Spanish study (see C15-14-f). Optional for C15-15; if used, schedule apart from C15-14.",
+   "conflicting_or_uncertain": "See C15-14-f.",
+   "numbers": [
+    {
+     "value": "aRR 1.24 (1.04 to 1.49)",
+     "meaning": "in-hospital adverse events, overnight in ED versus ward before midnight"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-e",
+   "cand_id": "C15-15",
+   "claim": "Some patients must not eat or drink while awaiting tests or surgery, so the advice is to ask whether drinking is allowed.",
+   "source_keys": [],
+   "supporting_passage": "No source opened.",
+   "location": "Not applicable",
+   "pico_timeframe": "Practical advice framed as a question",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Keep as a question only: 'Ask whether they are allowed to drink.' Make no claim about harms of thirst or incontinence during waits.",
+   "qualifications": "No evidence opened on dehydration or incontinence during emergency department waits.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C15-16",
+   "status": "ready",
+   "reason": "All essential claims supported: care home fever definitions including the >1.1°C rise over baseline (Stone 2012 full text restating IDSA 2008; High 2009 abstract), NEWS2 scores 0 for 36.1 to 38.0°C (Engebretsen 2020 Table 1 reproducing RCP 2017), NEWS2 has no age adjustment and a low score should not override concern (Vardy 2022; Williams 2022). Wording limits: the IDSA fever definitions are for care home residents; 'more than half' applies only to care home residents with serious infection and conflicts with a 20 to 30% review estimate (Norman 2000); the claim that older people have lower baseline temperatures was not found and must go; the 36.0/37.5 example must be labelled illustrative; the advice on where to find a baseline is a suggestion, not a finding.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-16-a",
+    "C15-16-b",
+    "C15-16-c",
+    "C15-16-d"
+   ]
+  },
+  {
+   "cand_id": "C15-01",
+   "status": "ready",
+   "reason": "Vaughn 2019 (full text) supports 67.8% excess, 93.2% of excess from discharge prescriptions, only 32.1% with duration documented and documentation linked with fewer excess days (aRR 0.78), and 5% higher odds of patient-reported side effects per excess day with no benefit. Population is US adults of all ages (median age 70). Drop the C. difficile age claim: this study found no link between extra days and C. difficile (0.5% vs 0.5%). NICE 5-day wording is a search extract only; use the PTC trial (Dinh 2021) if a short-course statement is wanted.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-01-a",
+    "C15-01-b",
+    "C15-01-c",
+    "C15-01-d"
+   ]
+  },
+  {
+   "cand_id": "C15-11",
+   "status": "revise",
+   "reason": "Kehoe 2015 (1990 to 2013 shift to low falls; over-75s 26.9%), Bulger 2000 (mortality 22% vs 10%; OR 1.19 per rib; quote no pneumonia per-rib figure), prehospital under-triage of older people (Alshibani 2021; Lupton 2022) and about 5% intracranial bleeding after a fall (de Wit 2020) are supported. The anticoagulant element of the position is contradicted by a 2025 meta-analysis (anticoagulant not a risk factor for intracranial bleeding after ground-level-fall head injury, OR 0.8) and must go; the TARN 2017 trauma-team/senior-review claim and NICE NG39 were not opened and must go.",
+   "revised_angle": "Registry data show that by 2013 the commonest cause of major trauma in England and Wales was a fall from less than 2 metres, with about 1 in 4 cases over 75; triage rules built on mechanism miss serious injury in older people more often. Close on one instruction without anticoagulants: after a low fall in an older person, look for head and chest injury (about 1 in 20 who attend after a fall have bleeding inside the skull; older people with rib fractures die about twice as often as younger adults with similar injuries) rather than judging by the height of the fall.",
+   "essential_claim_ids": [
+    "C15-11-a",
+    "C15-11-b",
+    "C15-11-c",
+    "C15-11-d"
+   ]
+  },
+  {
+   "cand_id": "C15-14",
+   "status": "revise",
+   "reason": "Jones 2022 abstract supports the dataset, the linear rise from 5 to 12 hours, the 8% SMR step at 6 to 8 hours, the 1-in-82 estimate and the adjustment list. Wording must change: the model did not adjust for acute illness severity ('adjusted for illness' is wrong); the comparison group behind 1 in 82 could not be verified (full text inaccessible), so it must be presented as the authors' estimate from observed versus expected deaths, not 'compared with shorter waits'; the authors' causal wording must not be repeated. Older-people evidence added: older adults more often stay 4 hours or more (Ogliari 2022, single English site) and overnight ED stays for people 75+ were linked with higher mortality in France (Roussel 2023) but not clearly in Spain (Miro 2024).",
+   "revised_angle": "Read the most-quoted English study properly: over 5 million admissions, mortality rose with each hour beyond 5 hours up to 12, and the authors estimated 1 extra death per 82 people delayed beyond 6 to 8 hours. It allowed for age, long-term conditions, deprivation and crowding but not for how ill people were on arrival, and it shows a link, not proof. Add the older-person picture: older people wait longer (79 in 100 visits by people 85+ lasted 4 hours or more in one English department), and overnight waits for people 75+ were linked with more deaths in France but not clearly in Spain.",
+   "essential_claim_ids": [
+    "C15-14-a",
+    "C15-14-b",
+    "C15-14-c",
+    "C15-14-d",
+    "C15-14-e"
+   ]
+  },
+  {
+   "cand_id": "C15-15",
+   "status": "ready",
+   "reason": "Essential claims supported with qualifications: new pressure sores during an ED stay (Dugaret 2014 full text: 4.9% overall, 15.7% in over-75s, mostly stage I on heels and sacrum, mean stay 9.1 hours); older people wait longer (Ogliari 2022); time-critical medicines such as Parkinson's are often late or missed and missed doses are linked with harm (Richard 2022; Lertxundi 2017, inpatient studies). The candidate's claim that longer stays are independently associated with sores is not supported after adjustment and must not be made. Drinking and toilet requests carry no evidence claim and stay as questions. NPSA RRR009 was not opened; do not cite. Schedule apart from C15-14 as the editor directed.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-15-a",
+    "C15-15-b",
+    "C15-15-c"
+   ]
+  }
+ ]
+}
