@@ -1,0 +1,174 @@
+{
+ "category": "C17",
+ "controls": [
+  {"tmp_id": "CONTROL-1", "total": 1},
+  {"tmp_id": "CONTROL-2", "total": 4}
+ ],
+ "variants": [
+  {
+   "tmp_id": "C17-P01", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":1,"6":2,"7":2}, "total": 13, "verdict": "pass",
+   "problems": [
+    {"item":"5","quote":"Loneliness is painful to live with, and that is reason enough to take it seriously.","fix":"Loneliness is painful to live with, and that alone is reason to ask an older person about it and offer support."}
+   ],
+   "flags": ["closing sentiment ('painful ... reason enough') repeated near-verbatim across all four platform variants of this post"]
+  },
+  {
+   "tmp_id": "C17-P01", "platform": "linkedin",
+   "scores": {"1":1,"2":2,"3":2,"4":2,"5":2,"6":1,"7":2}, "total": 12, "verdict": "fix",
+   "problems": [
+    {"item":"1","quote":"whole post (four numbered claims plus three stacked findings before the verdict)","fix":"State the headline up front in one line: 'The smoking-a-day comparison for loneliness is based on weak evidence and should be dropped' — then give the numbered detail."},
+    {"item":"6","quote":"In the English Longitudinal Study of Ageing (about 6,500 people aged 52 and over, followed for about 7 years), lonely people were more likely to die at first.","fix":"Split into two sentences: 'One English study followed about 6,500 people aged 52 and over for 7 years. At first, lonely people were more likely to die.'"}
+   ],
+   "flags": ["repeated closing sentiment shared with sibling variants ('Loneliness is painful to live with')"]
+  },
+  {
+   "tmp_id": "C17-P01", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [],
+   "flags": ["closing line 'Loneliness is painful: reason enough to help' repeats the sentiment used to close every other variant of this post"]
+  },
+  {
+   "tmp_id": "C17-P01", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [],
+   "flags": ["closing line reuses the 'painful ... take seriously' phrasing common to all variants in this set"]
+  },
+  {
+   "tmp_id": "C17-P02", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P02", "platform": "linkedin",
+   "scores": {"1":1,"2":2,"3":2,"4":2,"5":2,"6":1,"7":2}, "total": 12, "verdict": "fix",
+   "problems": [
+    {"item":"1","quote":"whole post (two studies, four numbered questions, then a caveat)","fix":"Open with the single takeaway: 'Missed GP appointments are a warning sign, not bad behaviour — call before you discharge someone,' then give the detail."},
+    {"item":"6","quote":"In the first, covering 550,083 patients from 2013 to 2016, people over 90 and people living in the most deprived areas were among the most likely to miss appointments repeatedly.","fix":"Split: 'The first study covered 550,083 patients from 2013 to 2016. People over 90, and people in the most deprived areas, were among the most likely to miss appointments repeatedly.'"}
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C17-P02", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P02", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P03", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P03", "platform": "linkedin",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":0,"6":2,"7":2}, "total": 12, "verdict": "fix",
+   "problems": [
+    {"item":"5","quote":"More posts in the Care that works series look at one programme at a time: what it did and what it showed.","fix":"Delete this promotional sentence and end on the actual verdict: 'My reading: this is a cheap, specific programme that services could try now, as long as they measure what happens after the first month.'"}
+   ],
+   "flags": ["closing sentence is a series-promo tag, not a statement about this study — reads as an empty close"]
+  },
+  {
+   "tmp_id": "C17-P03", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P03", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P04", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P04", "platform": "linkedin",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":1,"6":2,"7":2}, "total": 13, "verdict": "pass",
+   "problems": [
+    {"item":"5","quote":"The study is American, over 20 years old, and about dementia carers. The questions still apply wherever you are.","fix":"Move the caveat earlier and close on the action instead: 'If you are that partner, ask who will check on you, and how the fees assessment treats your home and income if you stay.'"}
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C17-P04", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P04", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P05", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P05", "platform": "linkedin",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P05", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P05", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P06", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P06", "platform": "linkedin",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":1,"7":2}, "total": 13, "verdict": "pass",
+   "problems": [
+    {"item":"6","quote":"The studies included one non-randomised controlled trial, one pilot randomised trial, one before-and-after study, three qualitative studies and eight case studies.","fix":"Simplify: 'The 14 studies were mostly small and weakly designed — only two used random assignment.'"}
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C17-P06", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P06", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P07", "platform": "x",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":0,"6":2,"7":2}, "total": 12, "verdict": "fix",
+   "problems": [
+    {"item":"5","quote":"But do not assume the blood pressure tablet is to blame: in one trial of five blood pressure medicines, only chlorthalidone clearly differed from placebo, and only over the first 2 years.","fix":"End on the instruction instead: 'Ask about sexual side effects at every medicines review — and don't assume the blood pressure tablet is to blame before checking which one it is.'"}
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C17-P07", "platform": "linkedin",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P07", "platform": "bluesky",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  },
+  {
+   "tmp_id": "C17-P07", "platform": "threads",
+   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "problems": [], "flags": []
+  }
+ ]
+}
