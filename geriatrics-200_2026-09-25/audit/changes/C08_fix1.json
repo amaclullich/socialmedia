@@ -180,5 +180,89 @@
   "old": "with good evidence behind it",
   "new": "with moderate-quality evidence behind it",
   "reason": "minor: Overstates: cognition evidence is moderate quality and results varied."
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "visual_text[1]",
+  "old": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia: no clear effect on low mood at 6 months.",
+  "reason": "major: fact-check visual_text replacement (non-significant result)"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia: no clear effect on low mood at 6 months.",
+  "reason": "major: match visual_text replacement"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "alt_text[0]",
+  "old": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia showed no clear effect on low mood at 6 months.",
+  "reason": "major: fact-check alt_text replacement; also brings alt under 400"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.threads",
+  "old": "Low mood may ease slightly",
+  "new": "Low mood probably eases slightly",
+  "reason": "consistency with minor certainty-word fix (Cochrane: probably, moderate certainty)"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "A 2025 Cochrane review of 30 trials found planned music sessions probably do not calm agitation in dementia.",
+  "new": "A 2025 Cochrane review of 30 trials: planned music sessions probably do not calm agitation in dementia.",
+  "reason": "trim to 300"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care.",
+  "reason": "trim to 300 (6-month timepoint kept on X/Threads/LinkedIn/visual)"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.bluesky",
+  "old": "people who stopped did slightly worse over a year, and in an analysis done after the trial, more moved to a care home in year one (about 37 vs 20 in 100), but not over the next 3 years.",
+  "new": "those who stopped did slightly worse over a year. In a later analysis, more moved to a care home in year one (about 37 vs 20 in 100), not over the next 3 years.",
+  "reason": "trim to 300 while keeping post-hoc qualifier"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.bluesky",
+  "old": "They got fitter during the classes.",
+  "new": "Exercisers got fitter in class (only they were measured).",
+  "reason": "consistency with major fitness-causality fix"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.bluesky",
+  "old": "NICE: do not stop donepezil in Alzheimer's disease because of severity alone.",
+  "new": "NICE: do not stop donepezil in Alzheimer's because of severity alone.",
+  "reason": "trim to 300 characters after fact-check changes"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.bluesky",
+  "old": "At a year, thinking had not declined more slowly; scores were slightly worse, of uncertain importance.",
+  "new": "At a year, thinking had not declined more slowly; scores were slightly worse.",
+  "reason": "trim to 300 characters after fact-check changes"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care.",
+  "new": "A later trial in 1,021 care home residents with dementia did not show music groups easing low mood more than usual care.",
+  "reason": "trim to 300 characters after fact-check changes"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "Low mood probably eases slightly by the end of a course.",
+  "new": "Low mood probably eases slightly.",
+  "reason": "trim to 300 characters after fact-check changes"
  }
 ]

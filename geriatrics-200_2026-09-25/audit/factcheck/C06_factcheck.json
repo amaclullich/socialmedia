@@ -1,0 +1,579 @@
+{
+ "category": "C06",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C06-P01",
+  "C06-P02",
+  "C06-P03",
+  "C06-P04",
+  "C06-P05",
+  "C06-P06",
+  "C06-P07",
+  "C06-P08",
+  "C06-P09",
+  "C06-P10",
+  "C06-P11",
+  "C06-P12"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:32091538",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:21558959",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:41329486",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:15175486",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30745357",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:14622685",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:24912424",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34257088",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:29790202",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:29957885",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:16129874",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30249608",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28498634",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:21357814",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:35402654",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37495500",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25874600",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23299844",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:26981935",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:26573594",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23052416",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:26906457",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25325120",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C06-P01",
+   "where": "all",
+   "text": "Ankle swelling that starts after amlodipine is a side effect of amlodipine.",
+   "problem": "Stated as certain for every case. The claim record says the first question is whether the drug is the cause; Savage is dispensing data and shows an association only.",
+   "source_says": "C06-18-e safe wording: 'the first question is whether the drug is the cause'. Makani: oedema 10.7% on CCB vs 3.2% on control, so not every swelling is drug-caused.",
+   "severity": "major",
+   "replacement": "Ankle swelling that starts after amlodipine is often a side effect of amlodipine."
+  },
+  {
+   "tmp_id": "C06-P01",
+   "where": "bluesky",
+   "text": "Ankle swelling after amlodipine is a known side effect of the drug.",
+   "problem": "Acceptable, but for consistency the certainty should match the other versions once they are corrected.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Ankle swelling after amlodipine is often a side effect of the drug."
+  },
+  {
+   "tmp_id": "C06-P01",
+   "where": "x",
+   "text": "After other blood pressure tablets the figure was about 7 in 1,000.",
+   "problem": "The comparator was specifically an ACE inhibitor or ARB, not blood pressure tablets in general.",
+   "source_says": "Savage 2020: comparator 'newly dispensed an angiotensin-converting enzyme inhibitor or angiotensin II receptor blocker'; 1.4% vs 0.7% and 0.5% at 90 days.",
+   "severity": "minor",
+   "replacement": "After an ACE inhibitor or ARB (another type of blood pressure tablet) the figure was about 7 in 1,000."
+  },
+  {
+   "tmp_id": "C06-P01",
+   "where": "linkedin",
+   "text": "In trials, adding an ACE inhibitor or ARB cut the rate of swelling by about a third",
+   "problem": "'About a third' understates the result. The source is also missing from the source reply.",
+   "source_says": "Makani Am J Med 2011: incidence 38% lower (RR 0.62).",
+   "severity": "minor",
+   "replacement": "In trials of about 9 weeks, adding an ACE inhibitor or ARB cut the rate of swelling by about 4 in 10"
+  },
+  {
+   "tmp_id": "C06-P01",
+   "where": "source_reply",
+   "text": "Sources: Savage 2020 ... ; Makani 2011 ... ; Woodford 2020 ... ; Growdon 2025 ...",
+   "problem": "Leaves out Makani Am J Med 2011, the source for the ACE inhibitor/ARB figure.",
+   "source_says": "claims_used C06-18-e cites PMID:21295192.",
+   "severity": "minor",
+   "replacement": "Sources: Savage 2020 https://doi.org/10.1001/jamainternmed.2019.7087 ; Makani 2011 (J Hypertens) https://doi.org/10.1097/HJH.0b013e3283472643 ; Makani 2011 (Am J Med) https://doi.org/10.1016/j.amjmed.2010.08.007 ; Woodford 2020 https://doi.org/10.1007/s40266-019-00730-4 ; Growdon 2025 https://doi.org/10.1001/jamanetworkopen.2025.45274"
+  },
+  {
+   "tmp_id": "C06-P02",
+   "where": "x",
+   "text": "In a UK study, 120 people taking a statin read that constipation was a 'common' side effect. On average they guessed 34 in 100",
+   "problem": "Subgroup written as the whole study. The 120 were split four ways (constipation or pancreatitis, word or number), so only about 30 read 'common' for constipation.",
+   "source_says": "Knapp 2004: 'Within each side effect condition half the patients were given the information in verbal form and half in numerical form (for constipation, \"common\" or 2.5%; for pancreatitis, \"rare\" or 0.04%)'. Mean estimate 34.2% verbal vs 8.1% numerical.",
+   "severity": "major",
+   "replacement": "In a UK study of 120 people taking a statin, those who read that constipation was a 'common' side effect guessed, on average, that 34 in 100 people would get it"
+  },
+  {
+   "tmp_id": "C06-P02",
+   "where": "linkedin",
+   "text": "In a study in Leeds, 120 people taking a statin read that constipation was a 'common' side effect. On average they guessed that 34 in 100 people would get it.",
+   "problem": "Same subgroup-as-whole error as the X version.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "In a study in Leeds of 120 people taking a statin, those who read that constipation was a 'common' side effect guessed, on average, that 34 in 100 people would get it."
+  },
+  {
+   "tmp_id": "C06-P02",
+   "where": "visual_text",
+   "text": "120 statin users in Leeds; average guesses made straight after reading one statement.",
+   "problem": "Implies that all 120 made the guesses shown. Each bar is roughly a quarter of the sample.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Study of 120 statin users in Leeds, split into groups; average guesses made straight after reading one statement."
+  },
+  {
+   "tmp_id": "C06-P02",
+   "where": "source_reply",
+   "text": "Sources: Knapp 2004 ... ; Büchter 2014 ...",
+   "problem": "Leaves out Berry 2003 (C06-11-c, 'less likely to take it').",
+   "source_says": "claims_used C06-11-c cites PMID:12495359.",
+   "severity": "minor",
+   "replacement": "Sources: Knapp 2004 https://doi.org/10.1136/qhc.13.3.176 ; Büchter 2014 https://doi.org/10.1186/1472-6947-14-76 ; Berry 2003 https://doi.org/10.2165/00002018-200326010-00001"
+  },
+  {
+   "tmp_id": "C06-P03",
+   "where": "visual_text",
+   "text": "Panel 2 caption: 'Did someone review my tablets? Nobody asked me.'",
+   "problem": "Invented patient quotation. It is labelled illustrative, but the patient's-eye complaint is not from the study, where patients were not interviewed.",
+   "source_says": "Duncan 2019: 'outside the scope of this study ... to interview patients'.",
+   "severity": "minor",
+   "replacement": "Panel 2 caption: Was this review done with me, or from my notes?"
+  },
+  {
+   "tmp_id": "C06-P03",
+   "where": "x",
+   "text": "Since 2020, England has offered longer 'structured medication reviews' to some people",
+   "problem": "The 2020 start is background from the survey paper's introduction, not its finding. Acceptable if kept general.",
+   "source_says": "Agwunobi 2025 Introduction: 'SMRs were formally introduced via NHS England (NHSE) in September 2020'.",
+   "severity": "minor",
+   "replacement": "Since 2020, practices in England have been able to offer longer 'structured medication reviews' to some people"
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "x",
+   "text": "A strong pain patch still holds a substantial amount of medicine after it has been worn for its full time. Enough to seriously harm a child or a pet.",
+   "problem": "The residual-drug and harm-to-child evidence is for fentanyl only (Marquardt, Hilado, Finlay). 'A strong pain patch' extends it to buprenorphine without a source.",
+   "source_says": "Marquardt 1995 and Hilado 2020 concern fentanyl patches only.",
+   "severity": "major",
+   "replacement": "A used fentanyl pain patch still holds a substantial amount of medicine after it has been worn for its full time. Enough to seriously harm a child or a pet."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "linkedin",
+   "text": "A strong pain patch still holds a substantial amount of medicine after it has been worn for its full time. Enough to seriously harm a child or a pet.",
+   "problem": "Same issue as the X version.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A used fentanyl pain patch still holds a substantial amount of medicine after it has been worn for its full time. Enough to seriously harm a child or a pet."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "threads",
+   "text": "A used fentanyl or buprenorphine patch still holds a substantial amount of medicine. Enough to seriously harm a child or a pet.",
+   "problem": "Names buprenorphine explicitly, but no opened source covers residual buprenorphine or harm from it.",
+   "source_says": "The C06-08-a sources are fentanyl only.",
+   "severity": "major",
+   "replacement": "A used fentanyl patch still holds a substantial amount of medicine. Enough to seriously harm a child or a pet."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "bluesky",
+   "text": "A used strong pain patch still holds enough medicine to seriously harm a child or pet.",
+   "problem": "Same generalisation beyond fentanyl.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A used fentanyl pain patch still holds enough medicine to seriously harm a child or pet."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "visual_text",
+   "text": "A used patch still holds enough medicine to harm a child or a pet.",
+   "problem": "Same generalisation beyond fentanyl, on the visual.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A used fentanyl patch still holds enough medicine to harm a child or a pet."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "threads",
+   "text": "a forgotten old patch is a common route to too high a dose.",
+   "problem": "Incident reports cannot show how common this is.",
+   "source_says": "C06-08-d qualification: 'Incident reports cannot give how often this happens overall.' Lövborg: 7 of 13 too-high-dose reports.",
+   "severity": "minor",
+   "replacement": "a forgotten old patch is a recognised route to too high a dose."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "linkedin",
+   "text": "Buprenorphine patches behave the same way.",
+   "problem": "Overstates a second-hand background statement.",
+   "source_says": "Thomas 2023 background: a heating pad over Butrans 'has been shown to increase systemic levels of buprenorphine in human volunteers'.",
+   "severity": "minor",
+   "replacement": "Heat over a buprenorphine patch has also raised blood levels in volunteers."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "x",
+   "text": "a heating pad raised fentanyl blood levels to almost 3 times higher while it was on.",
+   "problem": "Needs the timeframe and the small sample. Over the whole period the total dose did not differ significantly.",
+   "source_says": "Ashburn 2003: 10 volunteers; 'significant differences were seen during the first 4 hours, with C(max) and AUC values almost 3 times higher'; no significant difference in overall Cmax/AUC.",
+   "severity": "minor",
+   "replacement": "In a small study of 10 volunteers, a heating pad raised fentanyl blood levels to almost 3 times higher during the 4 heated hours."
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "source_reply",
+   "text": "MHRA https://www.gov.uk/drug-safety-update/...",
+   "problem": "This page was never opened (search extract only), so it should not be cited as a source. The sources for the residual-drug claim are missing.",
+   "source_says": "Evidence record: MHRA access = search_extract.",
+   "severity": "minor",
+   "replacement": "Sources: Marquardt 1995 https://doi.org/10.1177/106002809502901001 ; Hilado 2020 https://doi.org/10.7759/cureus.6755 ; Lövborg 2014 https://doi.org/10.1186/2050-6511-15-31 ; Ashburn 2003 https://doi.org/10.1016/s1526-5900(03)00618-7"
+  },
+  {
+   "tmp_id": "C06-P04",
+   "where": "visual_text",
+   "text": "Lövborg et al. 2014; Ashburn et al. 2003; MHRA",
+   "problem": "Source line cites an MHRA page that was not opened.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Lövborg et al. 2014; Ashburn et al. 2003; Hilado et al. 2020"
+  },
+  {
+   "tmp_id": "C06-P05",
+   "where": "x",
+   "text": "At 2 months, about 42 in 100 in each group were still on a medicine judged overused.",
+   "problem": "'Still' implies these people were already on the medicine at baseline, which was not measured. It is a cross-sectional proportion at 2 months.",
+   "source_says": "OPERAM Table 5: drug overuse 42.1% control vs 41.8% intervention at 2 months, OR 0.99 (0.82 to 1.20).",
+   "severity": "minor",
+   "replacement": "At 2 months, about 42 in 100 in each group were on a medicine judged overused."
+  },
+  {
+   "tmp_id": "C06-P05",
+   "where": "bluesky",
+   "text": "about 42 in 100 in both arms were still on an overused medicine",
+   "problem": "Same use of 'still' as the X version.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "about 42 in 100 in both arms were on a medicine judged overused"
+  },
+  {
+   "tmp_id": "C06-P05",
+   "where": "threads",
+   "text": "about 42 in 100 in both groups were still on a medicine judged overused",
+   "problem": "Same use of 'still' as the X version.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "about 42 in 100 in both groups were on a medicine judged overused"
+  },
+  {
+   "tmp_id": "C06-P05",
+   "where": "visual_text",
+   "text": "Still on an overused medicine at 2 months: about 42 in 100 in each group",
+   "problem": "Same use of 'still', on the visual.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "On an overused medicine at 2 months: about 42 in 100 in each group"
+  },
+  {
+   "tmp_id": "C06-P05",
+   "where": "linkedin",
+   "text": "A Cochrane review of 38 trials found it uncertain whether medicines reviews reduce inappropriate prescribing",
+   "problem": "The Cochrane review covers 'pharmaceutical care' interventions in general, not only medicines reviews.",
+   "source_says": "Cole 2023: 'It is uncertain whether pharmaceutical care reduces the proportion of patients with one or more PIM ... very low-certainty evidence'.",
+   "severity": "minor",
+   "replacement": "A Cochrane review of 38 trials found it uncertain whether medicines reviews and similar pharmacist-led care reduce inappropriate prescribing"
+  },
+  {
+   "tmp_id": "C06-P06",
+   "where": "x",
+   "text": "Doctors discharging older people were asked one question: will this person be harmed by their medicines in the next 8 weeks?",
+   "problem": "Doctors rated a likelihood of harm that needed healthcare; they did not give a yes/no to any harm. The prediction analysis covered 1,066 people, not 1,116.",
+   "source_says": "Parekh (prediction) 2018: doctors 'predicted the likelihood of their patient experiencing MRH requiring healthcare ... in the initial 8-week period'; 1066 analysed.",
+   "severity": "minor",
+   "replacement": "Doctors discharging older people were asked how likely it was that the person would need care for harm from their medicines in the next 8 weeks."
+  },
+  {
+   "tmp_id": "C06-P06",
+   "where": "linkedin",
+   "text": "Doctors discharging older people were asked one question: will this person be harmed by their medicines in the next 8 weeks?",
+   "problem": "Same as the X version.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Doctors discharging older people were asked how likely it was that the person would need care for harm from their medicines in the next 8 weeks."
+  },
+  {
+   "tmp_id": "C06-P07",
+   "where": "x",
+   "text": "The six-monthly bone injection will never be in the bag of boxes at home.",
+   "problem": "'Never' is too absolute: some people are given denosumab to inject at home. The claim is a logical inference, not a finding.",
+   "source_says": "C06-15-c: 'The \"not in the bag\" point is a logical consequence of the dosing, not a study finding.'",
+   "severity": "minor",
+   "replacement": "The six-monthly bone injection is usually not in the bag of boxes at home."
+  },
+  {
+   "tmp_id": "C06-P07",
+   "where": "linkedin",
+   "text": "The six-monthly bone injection will never be in the bag of boxes at home.",
+   "problem": "Same as the X version.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "The six-monthly bone injection is usually not in the bag of boxes at home."
+  },
+  {
+   "tmp_id": "C06-P07",
+   "where": "threads",
+   "text": "The six-monthly bone injection will never be in the bag of boxes at home.",
+   "problem": "Same as the X version.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "The six-monthly bone injection is usually not in the bag of boxes at home."
+  },
+  {
+   "tmp_id": "C06-P07",
+   "where": "x",
+   "text": "Some combinations can interact, for example ginkgo, garlic or ginseng with aspirin or warfarin, with a raised bleeding risk.",
+   "problem": "Leaves out that these are potential interactions reported in a review, not observed harm. The LinkedIn version carries this qualification.",
+   "source_says": "Agbabiaka 2017: 'Potential risks of bleeding due to the use of Ginkgo biloba, garlic or ginseng with aspirin or warfarin was the most reported herb-drug interaction.'",
+   "severity": "minor",
+   "replacement": "Some combinations may interact: the most often reported is a possible raised bleeding risk when ginkgo, garlic or ginseng is taken with aspirin or warfarin."
+  },
+  {
+   "tmp_id": "C06-P07",
+   "where": "source_reply",
+   "text": "Sources: Tam 2005 ... ; Agbabiaka 2018 ... ; Cummings 2009 ... ; Shah and Barnett 2015 ...",
+   "problem": "Leaves out Agbabiaka 2017, the source for the ginkgo/garlic/ginseng claim.",
+   "source_says": "claims_used C06-15-d cites PMID:29196903.",
+   "severity": "minor",
+   "replacement": "Sources: Tam 2005 https://doi.org/10.1503/cmaj.045311 ; Agbabiaka 2018 https://doi.org/10.3399/bjgp18X699101 ; Agbabiaka 2017 https://doi.org/10.1007/s40266-017-0501-7 ; Cummings 2009 https://doi.org/10.1056/NEJMoa0809493 ; Shah and Barnett 2015 https://doi.org/10.1002/psb.1415"
+  },
+  {
+   "tmp_id": "C06-P08",
+   "where": "linkedin",
+   "text": "In a small US study of 40 older people on insulin, 26 had low readings over 3 days of continuous monitoring",
+   "problem": "Population swap. The study enrolled only people with a HIGH HbA1c (8% or more, mean 9.3%), and 37 of 40 were on insulin. In a post about low HbA1c, leaving this out suggests the study shows hidden lows in people with low HbA1c.",
+   "source_says": "Munshi 2011: 'Patients 69 years or older with HbA(1C) values of 8% or greater ... 37 [93%] using insulin ... Twenty-six patients (65%) experienced 1 or more episodes'.",
+   "severity": "major",
+   "replacement": "Even when HbA1c is high, lows can be missed: in a small US study of 40 older people with a high HbA1c, almost all on insulin, 26 had low readings over 3 days of continuous monitoring"
+  },
+  {
+   "tmp_id": "C06-P08",
+   "where": "x",
+   "text": "Tighter control does bring fewer blood vessel complications, so this is a balance.",
+   "problem": "Causal certainty drawn from a meta-analysis that mixes RCT and observational data. It also leaves out the other side of the balance, more than twice the rate of severe low sugars.",
+   "source_says": "Crabtree 2022: intensive control 'associated' with fewer microvascular (0.73) and macrovascular (0.84) complications; severe hypoglycaemia 2.45; no difference in mortality.",
+   "severity": "major",
+   "replacement": "Tighter control is linked with fewer blood vessel complications, but also with more than twice the rate of severe low sugars, so this is a balance."
+  },
+  {
+   "tmp_id": "C06-P08",
+   "where": "source_reply",
+   "text": "Sources: Hambling 2017 ... ; Strain 2018 ... ; Farrell 2017 ... ; Mattishent 2021 ... ; Munshi 2011 ...",
+   "problem": "Leaves out Lipska 2015 (the US national data) and Crabtree 2022 (the 15-study meta-analysis), both cited in the LinkedIn version.",
+   "source_says": "claims_used C06-25-a/b and C06-25-i.",
+   "severity": "minor",
+   "replacement": "Sources: Hambling 2017 https://doi.org/10.1111/dme.13380 ; Lipska 2015 https://doi.org/10.1001/jamainternmed.2014.7345 ; Strain 2018 https://doi.org/10.1111/dme.13644 ; Farrell 2017 https://pubmed.ncbi.nlm.nih.gov/29138153/ ; Mattishent 2021 https://doi.org/10.3389/fendo.2021.571568 ; Munshi 2011 https://doi.org/10.1001/archinternmed.2010.539 ; Crabtree 2022 https://doi.org/10.1080/17446651.2022.2079495"
+  },
+  {
+   "tmp_id": "C06-P09",
+   "where": "visual_text",
+   "text": "Richard et al., Mov Disord Clin Pract 2022; Cox, Nurs Older People 2024",
+   "problem": "The 30-minute audit standard on the visual comes from Omer 2025, not Cox 2024.",
+   "source_says": "Omer 2025: 'NICE QS164, NG71, and QS120 standards, which expect ... administration of time-critical PD medicines within ±30 minutes'.",
+   "severity": "minor",
+   "replacement": "Richard et al., Mov Disord Clin Pract 2022; Omer et al., Cureus 2025"
+  },
+  {
+   "tmp_id": "C06-P09",
+   "where": "source_reply",
+   "text": "Sources: Richard 2022 ... ; Yu 2023 ... ; Lertxundi 2017 ... ; Delf and Wright 2026 ...",
+   "problem": "Leaves out Omer 2025, the source for the 30-minute UK audit standard.",
+   "source_says": "claims_used C06-20-c.",
+   "severity": "minor",
+   "replacement": "Sources: Richard 2022 https://doi.org/10.1002/mdc3.13408 ; Yu 2023 https://doi.org/10.1016/j.parkreldis.2023.105491 ; Lertxundi 2017 https://doi.org/10.1016/j.parkreldis.2016.12.028 ; Omer 2025 https://doi.org/10.7759/cureus.97619 ; Delf and Wright 2026 https://doi.org/10.1155/padi/8428752"
+  },
+  {
+   "tmp_id": "C06-P09",
+   "where": "x",
+   "text": "In a US hospital, a levodopa dose was missed on about 1 hospital day in 5.",
+   "problem": "The denominator is admission days where the home timing was known.",
+   "source_says": "Yu 2023: 'Of the admission days with known outpatient timing regimens ... 22% had at least one missed levodopa dose.'",
+   "severity": "minor",
+   "replacement": "In a US hospital, at least one levodopa dose was missed on about 1 in 5 hospital days."
+  },
+  {
+   "tmp_id": "C06-P10",
+   "where": "threads",
+   "text": "The absolute risk is small: about 1 extra kidney injury per 158 people taking an anti-inflammatory for a year alongside both.",
+   "problem": "Leaves out that this figure is from the Scottish study, that injury was defined by blood tests, and that the finding is a link, not proof.",
+   "source_says": "Dreischulte 2015: NNH 158 for 1 year of NSAID, AKI defined as creatinine rise of 50% or more; observational.",
+   "severity": "minor",
+   "replacement": "The absolute risk is small: in the Scottish study, about 1 extra kidney injury on blood tests per 158 people taking an anti-inflammatory for a year alongside both. A link, not proof of cause."
+  },
+  {
+   "tmp_id": "C06-P10",
+   "where": "bluesky",
+   "text": "UK studies link anti-inflammatories with these to sudden kidney injury, most with all three together, in the first month and over 75. The absolute risk is small.",
+   "problem": "Acceptable, but 'first month' is from the Lapi study only. Keep as is or add 'prescribed'.",
+   "source_says": "Lapi 2013: highest in first 30 days (RR 1.82).",
+   "severity": "minor",
+   "replacement": "UK studies of prescribed anti-inflammatories link them, taken with these, to sudden kidney injury, most with all three together, in the first month and over 75. The absolute risk is small."
+  },
+  {
+   "tmp_id": "C06-P11",
+   "where": "bluesky",
+   "text": "A short, named list worked.",
+   "problem": "Presents a judgement as a finding. DQIP tested a three-part package (training, lists, payment); it did not isolate the named list, and the authors cannot say which part mattered most.",
+   "source_says": "Grant 2017: all components perceived active at different stages; C06-31-f: NEJM authors 'cannot identify which aspect of the intervention mattered most'.",
+   "severity": "major",
+   "replacement": "We think a short, named list is a better target than reviewing everything."
+  },
+  {
+   "tmp_id": "C06-P11",
+   "where": "threads",
+   "text": "Stomach bleeding admissions fell; kidney injury admissions showed no clear difference.",
+   "problem": "Leaves out that these were secondary, before-and-during comparisons (the authors say the programme 'may have improved' outcomes).",
+   "source_says": "Dreischulte 2016: prespecified secondary outcomes, intervention vs preintervention period.",
+   "severity": "minor",
+   "replacement": "In secondary before-and-during comparisons, stomach bleeding admissions fell; kidney injury admissions showed no clear difference."
+  },
+  {
+   "tmp_id": "C06-P11",
+   "where": "linkedin",
+   "text": "found no difference in potentially inappropriate prescribing at 6 months.",
+   "problem": "House style says a non-significant result should read 'did not show a clear difference'. Here the confidence interval is tight, so this is minor.",
+   "source_says": "IMPPP: 'no evidence of a difference ... difference in means -0·007 [95% CI -0·21 to 0·20]'.",
+   "severity": "minor",
+   "replacement": "found no evidence of a difference in potentially inappropriate prescribing at 6 months."
+  },
+  {
+   "tmp_id": "C06-P12",
+   "where": "bluesky",
+   "text": "About 1 in 7 older people at home find their tablets hard to swallow, and doctors often don't know.",
+   "problem": "Population swap. The 'doctors don't know' finding comes from a German survey of adults of all ages (difficulty was commoner in younger patients), not from older people at home.",
+   "source_says": "Schiele 2013: 1,051 general practice patients; 70.4% not identified by GP; age young>old.",
+   "severity": "major",
+   "replacement": "About 1 in 7 older people at home find their tablets hard to swallow. In a German GP survey of all ages, doctors had missed most cases."
+  },
+  {
+   "tmp_id": "C06-P12",
+   "where": "threads",
+   "text": "Many alter them without telling anyone.",
+   "problem": "Population swap and fusion of two sources. The 58.8% who altered tablets is from the all-age German survey, and 'without telling anyone' comes from a qualitative Irish interview study. Neither measured older people at home in the 1-in-7 review.",
+   "source_says": "Schiele 2013: 58.8% of affected all-age patients modified drugs; Mc Gillicuddy 2019 (interviews): coping without focused communication with professionals.",
+   "severity": "major",
+   "replacement": "In a German GP survey of all ages, more than half of those with difficulty had already altered their tablets themselves."
+  },
+  {
+   "tmp_id": "C06-P12",
+   "where": "threads",
+   "text": "Crushing an acid-coated tablet can stop it working.",
+   "problem": "'Acid-coated' is wrong. The coating protects the tablet against stomach acid.",
+   "source_says": "Prescrire 2014: 'When a gastro-resistant layer is destroyed by crushing, underdosing is likely.'",
+   "severity": "minor",
+   "replacement": "Crushing a tablet coated against stomach acid can stop it working properly."
+  },
+  {
+   "tmp_id": "C06-P12",
+   "where": "x",
+   "text": "In a German GP survey of adults of all ages, doctors had not recognised 7 in 10 of those with any difficulty",
+   "problem": "Needs the qualification that difficulty was commoner in younger people, so readers do not apply it to older people.",
+   "source_says": "Schiele 2013: occurrence related to 'age (young>old)'.",
+   "severity": "minor",
+   "replacement": "In a German GP survey of adults of all ages (difficulty was commoner in younger people), doctors had not recognised 7 in 10 of those with any difficulty"
+  },
+  {
+   "tmp_id": "C06-P12",
+   "where": "source_reply",
+   "text": "Sources: Mc Gillicuddy 2016 ... ; Schiele 2013 ... ; Prescrire 2014 ... ; Saran 2022 ...",
+   "problem": "Leaves out Serrano Santos 2016 (nursing home figures) and Mc Gillicuddy 2019 (Irish interviews), both used in the LinkedIn version.",
+   "source_says": "claims_used C06-01-b, C06-01-f.",
+   "severity": "minor",
+   "replacement": "Sources: Mc Gillicuddy 2016 https://doi.org/10.1007/s00228-015-1979-8 ; Schiele 2013 https://doi.org/10.1007/s00228-012-1417-0 ; Mc Gillicuddy 2019 https://doi.org/10.1016/j.sapharm.2019.01.004 ; Prescrire 2014 https://pubmed.ncbi.nlm.nih.gov/25325120/ ; Saran 2022 https://doi.org/10.3399/BJGPO.2022.0001 ; Serrano Santos 2016 https://doi.org/10.1016/j.ijpharm.2016.02.036"
+  }
+ ],
+ "posts_to_drop": []
+}
