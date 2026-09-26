@@ -1,0 +1,363 @@
+{
+ "category": "C08",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C08-P01",
+  "C08-P02",
+  "C08-P03",
+  "C08-P04",
+  "C08-P05",
+  "C08-P06",
+  "C08-P07",
+  "C08-P08",
+  "C08-P09",
+  "C08-P10",
+  "C08-P11"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:22397651",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:26515660",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34688369",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30879470",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30724405",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:29769247",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:41865008",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37586881",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:41634843",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:1356550",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:19433698",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:35074796",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:40049590",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:41380710",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:29408901",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:39804128",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C08-P04",
+   "where": "x",
+   "text": "People with dementia in a large trial in England got fitter from 4 months of gym exercise.",
+   "problem": "Causal claim on fitness; fitness was measured only in the exercise arm, only during the classes (6-minute walk at 6 weeks); authors say they cannot conclude definitively the programme improved fitness.",
+   "source_says": "'we are limited to data in the exercise arm and during the structured exercise intervention period only. Hence we cannot conclude definitively that the intervention improves physical fitness.'",
+   "severity": "major",
+   "replacement": "People with dementia in a large trial in England got fitter while taking part in 4 months of gym exercise (measured only in the exercise group)."
+  },
+  {
+   "tmp_id": "C08-P04",
+   "where": "linkedin",
+   "text": "People with dementia in a large trial in England got fitter from 4 months of gym exercise.",
+   "problem": "Same causal overstatement in the opening line (body later carries the caveat).",
+   "source_says": "As above (C08-24-c).",
+   "severity": "major",
+   "replacement": "People with dementia in a large trial in England got fitter while taking part in 4 months of gym exercise (measured only in the exercise group)."
+  },
+  {
+   "tmp_id": "C08-P04",
+   "where": "threads",
+   "text": "Four months of fairly hard gym exercise made people with mild to moderate dementia fitter in the DAPA trial in England (494 people).",
+   "problem": "'made ... fitter' is causal; no control comparison for fitness.",
+   "source_says": "As above (C08-24-c).",
+   "severity": "major",
+   "replacement": "In the DAPA trial in England, 494 people with mild to moderate dementia did 4 months of fairly hard gym exercise or usual care. Those exercising got fitter during the classes (measured only in their group)."
+  },
+  {
+   "tmp_id": "C08-P04",
+   "where": "x",
+   "text": "Walking distance and lifting improved during the classes.",
+   "problem": "Omits that this was measured only in the exercise group.",
+   "source_says": "C08-24-c",
+   "severity": "minor",
+   "replacement": "Walking distance and lifting improved during the classes (measured only in the exercise group)."
+  },
+  {
+   "tmp_id": "C08-P04",
+   "where": "x",
+   "text": "Daily activities, quality of life and falls did not differ.",
+   "problem": "Non-significant results stated as no difference.",
+   "source_says": "'No differences were found in secondary outcomes'; record: not proof of none.",
+   "severity": "minor",
+   "replacement": "The trial did not show a clear difference in daily activities, quality of life or falls."
+  },
+  {
+   "tmp_id": "C08-P04",
+   "where": "linkedin",
+   "text": "walked about 18 metres further in six minutes",
+   "problem": "Timeframe missing: the 18.1 m gain was over the first six weeks.",
+   "source_says": "'Six minute walking distance improved over six weeks (mean change 18.1 m)'",
+   "severity": "minor",
+   "replacement": "after six weeks walked about 18 metres further in six minutes"
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "threads",
+   "text": "A later trial of 1,021 care home residents in six countries found no effect on low mood at 6 months.",
+   "problem": "Non-significant result stated as 'no effect'; also omits comparator and that residents had dementia and low mood.",
+   "source_says": "MIDDEL: no significant effect on MADRS of choir singing (beta 0.4, 95% CI -1.3 to 2.1) or group music therapy (0.8, -1.0 to 2.6) vs none, 751 of 1,021 analysed.",
+   "severity": "major",
+   "replacement": "A later trial of 1,021 care home residents with dementia and low mood, in six countries, did not show that music therapy groups or choir singing eased low mood more than usual care at 6 months."
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "bluesky",
+   "text": "A later trial of 1,021 care home residents found no effect on low mood at 6 months.",
+   "problem": "'No effect' overstates a non-significant result.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A later trial of 1,021 care home residents with dementia did not show music groups easing low mood more than usual care at 6 months."
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "visual_text",
+   "text": "A later trial of 1,021 care home residents found no effect on low mood at 6 months.",
+   "problem": "'No effect' on the visual overstates a non-significant result.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A later trial of 1,021 care home residents with dementia: no clear effect on low mood at 6 months."
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "alt_text",
+   "text": "A later trial of 1,021 care home residents found no effect on low mood at 6 months.",
+   "problem": "Same as visual.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A later trial of 1,021 care home residents with dementia showed no clear effect on low mood at 6 months."
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "bluesky",
+   "text": "Low mood may ease slightly while sessions last.",
+   "problem": "Certainty word changed: Cochrane says 'probably' (moderate certainty), and the effect is at the end of treatment.",
+   "source_says": "'moderate-certainty evidence that, at the end of treatment, music-based therapeutic interventions probably improved depressive symptoms slightly'",
+   "severity": "minor",
+   "replacement": "Low mood probably eases slightly by the end of a course."
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "x",
+   "text": "Since then, a trial of 1,021 care home residents in six countries, including the UK, found that neither music therapy groups nor choir singing eased depressive symptoms at 6 months.",
+   "problem": "Comparator and population missing; should be 'more than usual care' and residents with dementia and low mood.",
+   "source_says": "C08-25-e safe wording.",
+   "severity": "minor",
+   "replacement": "Since then, a trial of 1,021 care home residents with dementia and low mood in six countries, including the UK, found that neither music therapy groups nor choir singing eased depressive symptoms more than usual care at 6 months."
+  },
+  {
+   "tmp_id": "C08-P09",
+   "where": "x",
+   "text": "No benefit was shown a month after they stopped.",
+   "problem": "Omits that this long-term evidence is low or very low certainty.",
+   "source_says": "'Low or very-low-certainty evidence showed that music-based therapeutic interventions may not have been more effective than usual care in the long term'",
+   "severity": "minor",
+   "replacement": "No benefit was shown a month after they stopped, though that evidence is weak."
+  },
+  {
+   "tmp_id": "C08-P03",
+   "where": "x",
+   "text": "On a 0 to 10 scale, ratings of their own goals rose about 2.6 points with therapy, against about 0.9 with usual care. The gain held at 9 months, and family ratings agreed.",
+   "problem": "Timepoint of 2.6 vs 0.9 (3 months) not stated.",
+   "source_says": "HTA: mean change CR 2.57 vs TAU 0.86 at 3 months (primary outcome).",
+   "severity": "minor",
+   "replacement": "On a 0 to 10 scale, ratings of their own goals rose about 2.6 points after 3 months with therapy, against about 0.9 with usual care. The gain held at 9 months, and family ratings agreed."
+  },
+  {
+   "tmp_id": "C08-P03",
+   "where": "x",
+   "text": "Therapy used prompts, memory aids and practising the skill, over 10 weekly visits then 4 more.",
+   "problem": "Methods list is the paper's general description of cognitive rehabilitation, not a record of what was used.",
+   "source_says": "C08-06-b qualification.",
+   "severity": "minor",
+   "replacement": "Therapy could use prompts, memory aids and practising the skill, over 10 weekly visits then 4 more."
+  },
+  {
+   "tmp_id": "C08-P03",
+   "where": "threads",
+   "text": "Still, services should count the person's own goals too.",
+   "problem": "Judgement not marked as judgement.",
+   "source_says": "C08-06-f; position is editorial.",
+   "severity": "minor",
+   "replacement": "In our view, services should count the person's own goals too."
+  },
+  {
+   "tmp_id": "C08-P01",
+   "where": "bluesky",
+   "text": "and more moved to a care home in year one (about 37 vs 20 in 100), not over the next 3 years.",
+   "problem": "Omits that the first-year comparison was a post-hoc analysis.",
+   "source_says": "'Analyses restricted to risk of placement in the first year ... were post-hoc.'",
+   "severity": "minor",
+   "replacement": "and in an analysis done after the trial, more moved to a care home in year one (about 37 vs 20 in 100), but not over the next 3 years."
+  },
+  {
+   "tmp_id": "C08-P01",
+   "where": "x",
+   "text": "The DOMINO-AD trial gives the reason.",
+   "problem": "Attributes NICE's rationale to DOMINO-AD; NICE's reasoning is not in the opened source.",
+   "source_says": "C08-03-a quotes the recommendation only.",
+   "severity": "minor",
+   "replacement": "The DOMINO-AD trial is the main evidence."
+  },
+  {
+   "tmp_id": "C08-P02",
+   "where": "threads",
+   "text": "By 16 weeks, 7 of 102 people on mirtazapine had died, against 1 of 102.",
+   "problem": "Comparator not named; post hoc status missing in threads.",
+   "source_says": "'seven deaths in the mirtazapine and one in the placebo group by 16-week safety follow-up ... The analysis was post-hoc'",
+   "severity": "minor",
+   "replacement": "By 16 weeks, 7 of 102 people on mirtazapine had died, against 1 of 102 on the dummy tablet."
+  },
+  {
+   "tmp_id": "C08-P02",
+   "where": "x",
+   "text": "The numbers are too small to be sure the drug caused this.",
+   "problem": "Should also say this came from a post-hoc analysis.",
+   "source_says": "C08-15-c qualifications.",
+   "severity": "minor",
+   "replacement": "This came from an analysis after the trial, and the numbers are too small to be sure the drug caused it."
+  },
+  {
+   "tmp_id": "C08-P05",
+   "where": "linkedin",
+   "text": "Access is narrower than much coverage suggests.",
+   "problem": "Claim about media coverage has no claim record.",
+   "source_says": "None.",
+   "severity": "minor",
+   "replacement": "Delete the sentence."
+  },
+  {
+   "tmp_id": "C08-P05",
+   "where": "x",
+   "text": "About 1 in 7 people who saw a Swedish GP with memory symptoms met the criteria for lecanemab after full tests.",
+   "problem": "Denominator includes people whose problems were not due to Alzheimer's disease; X lacks this qualification (LinkedIn carries it).",
+   "source_says": "C08-29-c: denominator is everyone presenting with cognitive symptoms; about half amyloid negative.",
+   "severity": "minor",
+   "replacement": "About 1 in 7 people who saw a Swedish GP with memory symptoms, from any cause, met the criteria for lecanemab after full tests."
+  },
+  {
+   "tmp_id": "C08-P07",
+   "where": "visual_text",
+   "text": "Panel 1 caption: 'Mum started donepezil in spring. She felt dizzy twice last week.'",
+   "problem": "Invented patient dialogue; it is labelled illustrative, but the rule set bars invented patients. Confirm with editor or replace with a non-narrative prompt card.",
+   "source_says": "No source; illustrative.",
+   "severity": "minor",
+   "replacement": "Panel 1 caption: 'Has she felt dizzy or fainted since starting donepezil?'"
+  },
+  {
+   "tmp_id": "C08-P07",
+   "where": "linkedin",
+   "text": "These medicines help some people with Alzheimer's disease.",
+   "problem": "No claim record cited for benefit; vague but uncontentious.",
+   "source_says": "Not in C08-08 claims.",
+   "severity": "minor",
+   "replacement": "Delete the sentence, or cite DOMINO-AD/Birks via a claim record."
+  },
+  {
+   "tmp_id": "C08-P08",
+   "where": "linkedin",
+   "text": "One thing that did not help: from 2014, people over 75 in England were given a named GP.",
+   "problem": "Observational policy evaluation; 'did not help' is broader than 'not associated with improved continuity'.",
+   "source_says": "'not associated with improvements in either continuity of care or rates of unplanned hospitalisation'",
+   "severity": "minor",
+   "replacement": "One thing that did not seem to help: from 2014, people over 75 in England were given a named GP."
+  },
+  {
+   "tmp_id": "C08-P10",
+   "where": "threads",
+   "text": "The activity hour is a reasonable place for a home to start.",
+   "problem": "Editorial judgement, and the activity component was not tested alone; not marked as judgement.",
+   "source_says": "C08-26-g: authors' speculation; first step is judgement.",
+   "severity": "minor",
+   "replacement": "In our view, the activity hour is a reasonable place for a home to start, though it was not tested on its own."
+  },
+  {
+   "tmp_id": "C08-P10",
+   "where": "x",
+   "text": "A home could start with the tailored activity hour.",
+   "problem": "Same; unmarked judgement.",
+   "source_says": "C08-26-g.",
+   "severity": "minor",
+   "replacement": "In our view, a home could start with the tailored activity hour, though it was not tested on its own."
+  },
+  {
+   "tmp_id": "C08-P11",
+   "where": "x",
+   "text": "A 2023 review of 37 trials found a small boost to memory and thinking by the end of the course",
+   "problem": "Certainty word dropped ('probably', moderate quality).",
+   "source_says": "'moderate-quality evidence for a small benefit in cognition'",
+   "severity": "minor",
+   "replacement": "A 2023 review of 37 trials found the groups probably give a small boost to memory and thinking by the end of the course"
+  },
+  {
+   "tmp_id": "C08-P11",
+   "where": "linkedin",
+   "text": "with good evidence behind it",
+   "problem": "Overstates: cognition evidence is moderate quality and results varied.",
+   "source_says": "C08-18-d.",
+   "severity": "minor",
+   "replacement": "with moderate-quality evidence behind it"
+  }
+ ],
+ "posts_to_drop": []
+}

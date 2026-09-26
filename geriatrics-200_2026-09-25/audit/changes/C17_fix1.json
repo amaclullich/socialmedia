@@ -1,0 +1,282 @@
+[
+  {
+    "tmp_id": "C17-P02",
+    "where": "captions.bluesky",
+    "old": "In Scottish GP records, people over 90 and people in the most deprived areas were among the most likely to miss appointments repeatedly. Missing appointments was linked with higher mortality: a warning sign, not a cause.",
+    "new": "In Scottish GP records, people over 90, young adults and people in the most deprived areas were among the most likely to miss appointments repeatedly. In all ages, missing appointments was linked with higher mortality: a warning sign, not a cause.",
+    "reason": "minor: Drops the required qualification that young adults were also at higher risk and that the mortality study covered all ages."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "captions.x",
+    "old": "Later reviews of loneliness on its own still find it linked with earlier death, but less strongly than social isolation (having little contact with others).",
+    "new": "The largest recent reviews of loneliness on its own still find it linked with earlier death, but less strongly than social isolation (having little contact with others). These are observational studies.",
+    "reason": "minor: The 2015 review found loneliness about the same as isolation (OR 1.26 vs 1.29); only the 2023 and 2025 reviews found a smaller link. Also no 'observational' caveat in X."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "visual_brief.slides[2].text.body",
+    "old": "Linked with earlier death, less strongly than social isolation. In one English study, no link once health at the start was allowed for. All observational.",
+    "new": "Linked with earlier death, less strongly than social isolation. In one English study, the link disappeared once health at the start was allowed for. All observational.",
+    "reason": "major: Same compression: 'no link' overstates a non-significant adjusted result."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "visual_text[13]",
+    "old": "Linked with earlier death, less strongly than social isolation. In one English study, no link once health at the start was allowed for. All observational.",
+    "new": "Linked with earlier death, less strongly than social isolation. In one English study, the link disappeared once health at the start was allowed for. All observational.",
+    "reason": "major: Same compression: 'no link' overstates a non-significant adjusted result."
+  },
+  {
+    "tmp_id": "C17-P05",
+    "where": "captions.bluesky",
+    "old": "In past heatwaves, older people who were confined to bed, rarely left home, lived alone or slept on a top floor were more likely to die.",
+    "new": "In the Chicago (1995) and French (2003) heatwaves, people who were confined to bed, rarely left home, lived alone or slept on a top floor were more likely to die.",
+    "reason": "minor: Population swap: the Chicago study was of all ages (matched on age), not older people only; only the French study was restricted to people aged 65 and over."
+  },
+  {
+    "tmp_id": "C17-P02",
+    "where": "captions.linkedin",
+    "old": "practice factors, such as how appointments were organised, explained a good part of the pattern.",
+    "new": "practice factors, such as how appointments were organised, also made a substantial difference.",
+    "reason": "minor: 'Explained a good part' implies a variance decomposition not reported in the abstract."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "captions.linkedin",
+    "old": "The authors warned that their generally poor quality means firm conclusions should not be drawn.",
+    "new": "The authors warned that, given the generally poor quality of the studies, care must be taken in drawing firm conclusions.",
+    "reason": "minor: Slightly stronger than source."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "captions.threads",
+    "old": "Later reviews still link loneliness with earlier death, but less than social isolation.",
+    "new": "Recent large reviews still link loneliness with earlier death, but less strongly than social isolation.",
+    "reason": "minor: As for X: the 2015 review found similar sizes."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "alt_text[2]",
+    "old": "In one English study there was no link once health at the start was allowed for.",
+    "new": "In one English study the link disappeared once health at the start was allowed for.",
+    "reason": "major: As above."
+  },
+  {
+    "tmp_id": "C17-P02",
+    "where": "captions.linkedin",
+    "old": "A discharge letter after two missed appointments treats the absence as a choice.",
+    "new": "A discharge letter after missed appointments treats the absence as a choice.",
+    "reason": "minor: Specific 'two missed appointments' policy is not in any claim record."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "visual_brief.slides[0].text.items[0]",
+    "old": "Well supported: people ended up better off financially (all 14 studies)",
+    "new": "Consistently reported: people ended up better off financially (all 14 studies)",
+    "reason": "major: Same overstatement on the visual; column heading 'Well supported' also."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "visual_text[4]",
+    "old": "Well supported: people ended up better off financially (all 14 studies)",
+    "new": "Consistently reported: people ended up better off financially (all 14 studies)",
+    "reason": "major: Same overstatement on the visual; column heading 'Well supported' also."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "alt_text[0]",
+    "old": "Well supported: people ended up better off financially in all 14.",
+    "new": "Consistently reported: people ended up better off financially in all 14.",
+    "reason": "major: Match visual fix."
+  },
+  {
+    "tmp_id": "C17-P07",
+    "where": "captions.x",
+    "old": "in one trial, only chlorthalidone clearly differed from placebo.",
+    "new": "in one trial of five blood pressure medicines, only chlorthalidone clearly differed from placebo, and only over the first 2 years.",
+    "reason": "minor: The difference was at 24 months only, in people aged 45 to 69; by 48 months it was not significant."
+  },
+  {
+    "tmp_id": "C17-P05",
+    "where": "visual_brief.slides[0].text.items[4]",
+    "old": "5. A daily visitor or call: contact with others was protective",
+    "new": "5. Friends nearby or group activities: linked with lower risk in Chicago",
+    "reason": "blocker: Attributes a protective finding to daily visits or calls, which neither study measured. Chicago measured social contacts such as group activities or friends in the area. This presents an untested intervention as a finding."
+  },
+  {
+    "tmp_id": "C17-P05",
+    "where": "visual_text[11]",
+    "old": "5. A daily visitor or call: contact with others was protective",
+    "new": "5. Friends nearby or group activities: linked with lower risk in Chicago",
+    "reason": "blocker: Attributes a protective finding to daily visits or calls, which neither study measured. Chicago measured social contacts such as group activities or friends in the area. This presents an untested intervention as a finding."
+  },
+  {
+    "tmp_id": "C17-P04",
+    "where": "captions.threads",
+    "old": "The partner at home should be offered their own conversation.",
+    "new": "This US study is from 1996 to 2000, and support after a move has barely been tested. Still, I think the partner at home should be offered their own conversation.",
+    "reason": "major: Recommendation not marked as judgement, and the Threads version drops the qualifications that support after a move is untested and that the study is US, 1996-2000, dementia carers."
+  },
+  {
+    "tmp_id": "C17-P05",
+    "where": "alt_text[0]",
+    "old": "light clothes, cooling and contact with others with survival.",
+    "new": "light clothes, cooling, and having friends nearby or group activities with survival.",
+    "reason": "minor: Consistent with the fix above; retain but match the measured exposure."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "captions.threads",
+    "old": "One English study found no link once health was allowed for.",
+    "new": "In one English study, loneliness was no longer linked with death once health at the start was allowed for.",
+    "reason": "major: Non-significant adjusted HR (0.92, CI 0.78-1.09) written as 'no link'; the unadjusted link existed. Reads as evidence of no effect."
+  },
+  {
+    "tmp_id": "C17-P04",
+    "where": "captions.x",
+    "old": "Support after a move has barely been tested in trials.",
+    "new": "Only a few small trials have tested support after a move, without clear effects.",
+    "reason": "minor: Slightly vague; the review found few small trials without clear effect."
+  },
+  {
+    "tmp_id": "C17-P03",
+    "where": "captions.bluesky",
+    "old": "Anxiety eased too. Whether it lasts is unknown.",
+    "new": "Anxiety eased too. A second loneliness scale showed no clear difference, and whether it lasts is unknown.",
+    "reason": "minor: Compression drops that the second loneliness scale showed no clear difference, making the short version stronger than the others."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "captions.linkedin",
+    "old": "The financial gain is well supported.",
+    "new": "The financial gain was reported consistently, though by mostly weak studies.",
+    "reason": "major: Overstates certainty: the review said all studies reported financial gain but the studies were generally of poor quality and care must be taken in drawing firm conclusions."
+  },
+  {
+    "tmp_id": "C17-P07",
+    "where": "visual_brief.slides[0].text.headline",
+    "old": "Sexual activity at 75 to 85 is common",
+    "new": "About 1 in 4 people aged 75 to 85 are sexually active",
+    "reason": "major: 26 in 100 described as 'common'; qualification says use natural frequencies rather than vague quantifiers."
+  },
+  {
+    "tmp_id": "C17-P07",
+    "where": "visual_text[1]",
+    "old": "Sexual activity at 75 to 85 is common",
+    "new": "About 1 in 4 people aged 75 to 85 are sexually active",
+    "reason": "major: 26 in 100 described as 'common'; qualification says use natural frequencies rather than vague quantifiers."
+  },
+  {
+    "tmp_id": "C17-P07",
+    "where": "captions.bluesky",
+    "old": "Few had discussed sex with a doctor.",
+    "new": "Only about 4 in 10 men and 1 in 5 women had discussed sex with a doctor since 50.",
+    "reason": "minor: 38% of men is not 'few'; and 'in the past year' missing from activity figure."
+  },
+  {
+    "tmp_id": "C17-P03",
+    "where": "captions.x",
+    "old": "Sixteen students aged 17 to 23",
+    "new": "Sixteen young people aged 17 to 23, mostly students",
+    "reason": "minor: Not all were students: 14 undergraduates, 1 entering community college, 1 graduate student."
+  },
+  {
+    "tmp_id": "C17-P03",
+    "where": "captions.linkedin",
+    "old": "Sixteen students aged 17 to 23",
+    "new": "Sixteen young people aged 17 to 23, mostly students",
+    "reason": "minor: Not all were students: 14 undergraduates, 1 entering community college, 1 graduate student."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "visual_brief.slides[0].text.labels[0]",
+    "old": "Well supported",
+    "new": "Consistently reported",
+    "reason": "major: Column heading overstates certainty."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "visual_brief.slides[0].art",
+    "old": "Well supported",
+    "new": "Consistently reported",
+    "reason": "major: Column heading overstates certainty."
+  },
+  {
+    "tmp_id": "C17-P06",
+    "where": "visual_text[2]",
+    "old": "Well supported",
+    "new": "Consistently reported",
+    "reason": "major: Column heading overstates certainty."
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "captions.threads",
+    "old": "\"Loneliness is as bad as 15 cigarettes a day.\" A smoking comparison appears in a 2010 review, but most of its studies measured marriage, networks and support.",
+    "new": "A 2010 review is the source of the smoking comparison, but most of its studies measured marriage, networks and support.",
+    "reason": "Trim to Threads 500 limit after fact-check additions"
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "captions.threads",
+    "old": "We should drop the cigarettes. Loneliness is painful enough to take seriously.",
+    "new": "Drop the cigarettes. Loneliness is painful enough to take seriously.",
+    "reason": "Trim to Threads 500 limit"
+  },
+  {
+    "tmp_id": "C17-P01",
+    "where": "captions.bluesky",
+    "old": "Newer reviews link loneliness with earlier death, less than isolation.\n\nLoneliness is painful. That is reason enough to help.",
+    "new": "Recent large reviews link loneliness with earlier death, less than isolation.\n\nLoneliness is painful: reason enough to help.",
+    "reason": "Consistency with minor fix (2015 review found similar sizes); keep within 300"
+  },
+  {
+    "tmp_id": "C17-P02",
+    "where": "captions.bluesky",
+    "old": "In all ages, missing appointments was linked with higher mortality",
+    "new": "At all ages, missing appointments was linked with more deaths",
+    "reason": "Trim to Bluesky 300 limit"
+  },
+  {
+    "tmp_id": "C17-P02",
+    "where": "captions.bluesky",
+    "old": "For an older person, phone and ask why before any discharge letter.",
+    "new": "Phone and ask why before any discharge letter.",
+    "reason": "Trim to Bluesky 300 limit"
+  },
+  {
+    "tmp_id": "C17-P03",
+    "where": "captions.bluesky",
+    "old": "In a 2020 trial, young callers with 2 hours' training phoned homebound people, listened and let them choose the topics.",
+    "new": "In a 2020 trial, briefly trained young callers phoned homebound people and let them choose the topics.",
+    "reason": "Trim to Bluesky 300 limit"
+  },
+  {
+    "tmp_id": "C17-P03",
+    "where": "captions.bluesky",
+    "old": " (scale 3 to 9)",
+    "new": "",
+    "reason": "Trim to Bluesky 300 limit"
+  },
+  {
+    "tmp_id": "C17-P04",
+    "where": "captions.threads",
+    "old": "When your husband or wife moves into a care home, who asks how you are?\n\n",
+    "new": "",
+    "reason": "Trim to Threads 500 limit"
+  },
+  {
+    "tmp_id": "C17-P07",
+    "where": "captions.bluesky",
+    "old": "Many antidepressants cause sexual side effects people rarely report unasked. Ask.",
+    "new": "Many antidepressants cause sexual side effects people rarely report unasked.",
+    "reason": "Trim to Bluesky 300 limit"
+  },
+  {
+    "tmp_id": "C17-P07",
+    "where": "captions.bluesky",
+    "old": " in a US survey were sexually active with a partner;",
+    "new": " in a US survey had been sexually active with a partner in the past year;",
+    "reason": "Add 'in the past year' per fact-check note"
+  }
+]
