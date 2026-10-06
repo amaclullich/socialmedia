@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C04-P03 Weekly routine</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style></style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Weighing it up</span></div>
+ <div class="content"><h1 class="s">One line on the list, <em>a weekly routine</em> in the chair</h1>
+<p class="body" style="margin-top:18px">In trials, about 1 year of treatment spared 1 in 100 women a fracture outside the spine.</p>
+<div class="scene" id="sc" style="flex:none;height:340px;margin-top:16px"></div>
+<ol class="steps" style="margin-top:22px;gap:10px">
+ <li style="font-size:30px">Nothing to eat or drink first thing</li>
+ <li style="font-size:30px">Tablet with a glass of plain water</li>
+ <li style="font-size:30px">Sit or stand for 30 minutes</li>
+ <li style="font-size:30px">Then breakfast, drinks, other medicines</li>
+</ol>
+<div class="panel sand" style="margin-top:20px;padding:20px 30px"><p class="body" style="font-size:29px">Near the end of life: consider stopping (STOPPFrail)</p><p class="body" style="font-size:29px;margin-top:8px">Denosumab: ask for a plan, do not let it lapse</p></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Deardorff et al., JAMA Intern Med 2022; STOPPFrail 2017</span></div>
+</div>
+
+</div>
+<script>
+const W=1000,H=340,S=0.8,g=325;
+const bt=Kit.anchor('bedside_table',{x:760,y:g,scale:1.0});
+Kit.draw('#sc',W,H,[
+ Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:150,y:g-70*S-130,scale:0.9,curtains:'mustard'}),
+ Kit.bedside_table({x:760,y:g,scale:1.0}),
+ Kit.water_jug({x:bt.top.x-20,y:bt.top.y,scale:0.9,level:0.7}),
+ Kit.glass({x:bt.top.x+20,y:bt.top.y,scale:0.9,level:0.8}),
+ Kit.person({pose:'seated_side',seat:'armchair',x:420,y:g,scale:S,age:'older',sex:'f',skin:'olive',hair:'grey',hairStyle:'pixie',top:'plum',bottom:'stone',extras:['cardigan'],facing:'right'}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:2,x:bt.top.x+20,y:bt.top.y-90},{n:3,x:380,y:g-300}]);
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C02-P08 Strength training at 87</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .sub { font-size: 30px; line-height: 1.35; color: var(--ink-2); font-weight: 600; margin-top: 16px; }
+ .note { margin-top: 20px; font-size: 28px; line-height: 1.36; color: var(--ink-2); }
+ .tagline { display:inline-block; align-self:flex-start; background: var(--orange); color: var(--white); font-weight: 800; font-size: 26px; border-radius: 999px; padding: 6px 18px; margin-bottom: 14px; }
+ .flow .step small { display:block; font-weight:500; font-size:28px; margin-top:6px; }
+ .key { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+ .key li { font-size: 31px; line-height: 1.3; }
+ .key li b { font-family: "Montserrat"; font-weight: 800; color: var(--orange); }
+ .fact { margin-top: 16px; border-left: 8px solid var(--teal); background: var(--mint); border-radius: 0 16px 16px 0; padding: 16px 24px; font-size: 29px; line-height: 1.34; }
+ .compare .col h3 { font-family: Montserrat; font-weight: 800; }
+ .illus { display:inline-block; margin-top: 14px; }
+ #chart svg, .chartwrap svg { display:block; }
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content">
+
+  <div class="kicker">100 care home residents, 10 weeks, 1994</div>
+  <h1 class="s">Strength training at <em>an average age of 87</em></h1>
+  <p class="sub">Average % change from each person's own starting level</p>
+  <div id="chart" class="chart" style="margin-top:20px"></div>
+  <p class="fact">Pooled care home trials: smaller gains in everyday activities, strength and balance.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Fiatarone et al., NEJM 1994; Crocker et al., Cochrane 2013</span></div>
+</div>
+</div>
+<script>
+
+function divBars(target, groups, zero, scale, W, unitNote){
+ const NS='http://www.w3.org/2000/svg'; let y=10, parts=[];
+ parts.push('<defs><pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="14" height="14" fill="#DCEBEA"/><line x1="0" y1="0" x2="0" y2="14" stroke="#15535B" stroke-width="5"/></pattern></defs>');
+ groups.forEach(g=>{
+  if(g.title){parts.push(`<text x="${zero<100?zero+14:2}" y="${y+32}" font-family="Montserrat" font-weight="800" font-size="34" fill="#15535B">${g.title}</text>`); y+=54;}
+  g.rows.forEach(r=>{
+   parts.push(`<text x="${zero<100?zero+14:2}" y="${y+28}" font-family="Inter" font-weight="600" font-size="30" fill="#1F2A30">${r.label}</text>`); y+=38;
+   const w=Math.max(Math.abs(r.val)*scale,3), x=r.val>=0?zero:zero-w;
+   const fill=r.solid?'fill="#00909A"':'fill="url(#hatch)" stroke="#15535B" stroke-width="3"';
+   parts.push(`<rect x="${x}" y="${y}" width="${w}" height="52" rx="4" ${fill}/>`);
+   const tx=r.val>=0?zero+w+14:zero+14;
+   parts.push(`<text x="${tx}" y="${y+38}" font-family="Inter" font-weight="800" font-size="34" fill="#1F2A30">${r.disp}</text>`);
+   y+=70;
+  });
+  y+=14;
+ });
+ parts.push(`<line x1="${zero}" y1="0" x2="${zero}" y2="${y-14}" stroke="#5F6B76" stroke-width="3"/>`);
+ const svg=document.createElementNS(NS,'svg'); svg.setAttribute('viewBox',`0 0 ${W} ${y}`); svg.setAttribute('width',W); svg.setAttribute('height',y); svg.innerHTML=parts.join('');
+ document.querySelector(target).appendChild(svg);
+}
+
+divBars('#chart',[
+ {title:'Muscle strength',rows:[{label:'Trained',val:113,disp:'+113%',solid:1},{label:'Not trained',val:3,disp:'+3%',solid:0}]},
+ {title:'Walking speed',rows:[{label:'Trained',val:11.8,disp:'+12%',solid:1},{label:'Not trained',val:-1,disp:'-1%',solid:0}]}],
+ 70,6.2,920);
+
+window.__ready = true;
+</script></body></html>

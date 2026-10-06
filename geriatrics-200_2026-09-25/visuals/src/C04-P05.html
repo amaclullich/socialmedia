@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C04-P05 Density versus fractures</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style></style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">What gets counted</span></div>
+ <div class="content"><div class="kicker">Sodium fluoride trial, 4 years, 202 women</div>
+<h1 class="m">Denser bone, <em>no fewer fractures</em></h1>
+<div class="panel mint" style="margin-top:28px;padding:22px 34px"><p class="body"><b>Spine density: 35% higher with fluoride.</b></p></div>
+<p class="small" style="margin-top:22px">Number of new fractures. Counts of fractures, not women.</p>
+<div id="ch" style="margin-top:8px"></div>
+<p class="body" style="font-size:31px;margin-top:14px">Spinal fractures: fluoride 163, placebo 136 (no clear difference)</p>
+<p class="body" style="font-size:31px;margin-top:8px">Other fractures: fluoride 72, placebo 24</p></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Riggs et al., NEJM 1990</span></div>
+</div>
+
+</div>
+<script>
+barChart('#ch',[{label:'Spinal, fluoride',value:163,display:'163',colour:'a'},{label:'Spinal, placebo',value:136,display:'136',colour:'empty'},{label:'Other, fluoride',value:72,display:'72',colour:'a'},{label:'Other, placebo',value:24,display:'24',colour:'empty'}],{max:180,ticks:[0,50,100,150],width:920,labelWidth:0,barH:40,gap:46});
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,1160 @@
+{
+ "category": "C02",
+ "variants": [
+  {
+   "tmp_id": "C02-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More Teaching round posts take one clinical distinction at a time.",
+     "fix": "end on the test-grip action"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "means probable sarcopenia",
+     "fix": "say what \"probable\" means: weak enough to look for causes"
+    },
+    {
+     "item": "2",
+     "quote": "over 15 s",
+     "fix": "write seconds in full"
+    },
+    {
+     "item": "5",
+     "quote": "A scan can come later.",
+     "fix": "close on what to do"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "A muscle scan can come later, if it will change the plan.",
+     "fix": "close is a delay, not an action"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Practise the same movement, the same way, in the real place.",
+     "fix": "acceptable but terse"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In one English clinic survey of 50 stick users, 44 in 100 sticks were the wrong length and 54 in 100 were in poor condition, mostly a worn tip.",
+     "fix": "30 words"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a survey of 50 stick users at an English hospital arthritis clinic, 44 in 100 sticks were the wrong length and 54 in 100 were in poor condition, most often a worn tip.",
+     "fix": "35 words"
+    },
+    {
+     "item": "7",
+     "quote": "About 4 in 10 people used the stick wrongly",
+     "fix": "third figure next to 44 in 100 and 54 in 100 without saying they are different faults"
+    },
+    {
+     "item": "4",
+     "quote": "A US study of 93 stick users over 65 found the same kinds of problems",
+     "fix": "no result that went the other way; limits stated only as small sample"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In one English clinic survey of 50 stick users, 44 in 100 sticks were the wrong length and 54 in 100 were in poor condition.",
+     "fix": "25 words"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In care homes studied by Berlin researchers, who published in the early 1990s, residents who needed help got attention.",
+     "fix": "nested clause"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Modern trials show that this can be taught, with mixed results for residents:",
+     "fix": "list items run past 30 words"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Supported self-care needs time on the rota.",
+     "fix": "term not explained"
+    },
+    {
+     "item": "3",
+     "quote": "gains in some homes, not others",
+     "fix": "no numbers for the trials"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Modern trials are mixed: better walking and bathing in 12 US homes, no clear change in independence on 28 Dutch wards, where nurses named time pressure and staff shortages.",
+     "fix": "35 words"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "One 2026 meta-analysis of 9 trials ...",
+     "fix": "long, but practitioner audience"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Offer prehab for fitness and recovery. Don't promise fewer complications.",
+     "fix": "\"prehab\" shorthand not explained"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "assumed walking speed of 1.2 metres per second",
+     "fix": "no everyday meaning for the speed"
+    },
+    {
+     "item": "7",
+     "quote": "only 1 in 10 walking-speed measurements ... fast enough",
+     "fix": "sits beside 85% and 76% without saying it counts measurements, not people"
+    },
+    {
+     "item": "6",
+     "quote": "UK researchers reported in 2012 and 2017 that pedestrian crossing times are based on an assumed walking speed of 1.2 metres per second.",
+     "fix": "22 words but dense"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Whether an older person gets to the shop ... streets as well as legs.",
+     "fix": "close is a general statement; long sentences earlier"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "a walking speed of 1.2 metres per second",
+     "fix": "no everyday meaning"
+    },
+    {
+     "item": "7",
+     "quote": "85% of women and 76% of men",
+     "fix": "no reconciliation with the second study"
+    },
+    {
+     "item": "5",
+     "quote": "The researchers said crossing times should be reconsidered.",
+     "fix": "not an action for the reader"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "1.2 metres per second",
+     "fix": "no everyday meaning"
+    },
+    {
+     "item": "7",
+     "quote": "Women, the oldest, the poorest ... least likely to be fast enough",
+     "fix": "figure from the second study appears with no number"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "About 3 in 10 older people admitted to acute hospital leave less able to wash, dress, use the toilet or get in and out of a bed or chair than before admission, a 2020 pooled analysis found.",
+     "fix": "37 words"
+    },
+    {
+     "item": "2",
+     "quote": "acute hospital; pooled analysis",
+     "fix": "terms not explained"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 1
+   },
+   "total": 10,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A 2020 pooled analysis of 15 studies (7,375 people aged 65 and over) found that about 3 in 10 older people admitted to acute hospital came out less able to wash, dress, use the toilet, eat, or get in and out of a bed or chair than before admission.",
+     "fix": "48 words"
+    },
+    {
+     "item": "2",
+     "quote": "pooled analysis; acute hospital",
+     "fix": "not explained"
+    },
+    {
+     "item": "7",
+     "quote": "about 3 in 10 ... about 1 in 3",
+     "fix": "two figures for one effect, not reconciled"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "leave acute hospital",
+     "fix": "\"acute hospital\" not explained"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "About 3 in 10 older people admitted to acute hospital leave less able to wash, dress, use the toilet or get out of a bed or chair than before admission.",
+     "fix": "31 words"
+    },
+    {
+     "item": "2",
+     "quote": "acute hospital",
+     "fix": "not explained"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A Cochrane review of 67 care home trials found smaller gains: exercise and rehabilitation probably help a little with everyday activities, strength and balance, without more deaths.",
+     "fix": "29 words"
+    },
+    {
+     "item": "2",
+     "quote": "Cochrane review; high-intensity",
+     "fix": "not explained"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A Cochrane review of 67 trials in care homes found that exercise and rehabilitation probably help a little with everyday activities and with strength and balance, without increasing deaths.",
+     "fix": "30+ words, several more in the post"
+    },
+    {
+     "item": "2",
+     "quote": "Cochrane review; progressive strength training",
+     "fix": "not explained"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Pooled care home trials",
+     "fix": "\"pooled\" not explained"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A review of 67 care home trials found smaller gains: a little better at everyday activities, strength and balance, with no extra deaths.",
+     "fix": "24 words after the opening, but the trial sentence is 30"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a US study, older people admitted to hospital for a medical illness lost about 10 points of life-space and, as a group, had not got it back up to two years later.",
+     "fix": "35 words"
+    },
+    {
+     "item": "3",
+     "quote": "about 10 points",
+     "fix": "no sense of the size on a 0 to 120 scale"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "It asks whether you have been to other rooms of your home, outside your door ...",
+     "fix": "long list sentence"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "life-space",
+     "fix": "term not explained"
+    },
+    {
+     "item": "3",
+     "quote": "lost about 10 points of life-space (0 to 120)",
+     "fix": "size not given in words"
+    },
+    {
+     "item": "6",
+     "quote": "After a medical hospital stay, older people in a US study lost about 10 points of life-space (0 to 120) and, on average, had not regained it 2 years on.",
+     "fix": "31 words"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a US study, older people admitted to hospital for a medical illness lost about 10 points of life-space (0 to 120) and, as a group, had not regained it two years later.",
+     "fix": "32 words"
+    },
+    {
+     "item": "3",
+     "quote": "about 10 points",
+     "fix": "size not given"
+    }
+   ],
+   "flags": [],
+   "after_fix": {
+    "total": 14,
+    "note": "rewritten with plain wording, all facts kept",
+    "scores": {
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2,
+     "7": 2
+    }
+   }
+  },
+  {
+   "tmp_id": "C02-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "long sentences, practitioner audience",
+     "fix": ""
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Pooled trials showed no clear gain in independence, and no rise in falls.",
+     "fix": "no reader action"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C02-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Dose seems to count, in the authors' view.",
+     "fix": "no reader action"
+    }
+   ],
+   "flags": []
+  }
+ ],
+ "controls": []
+}

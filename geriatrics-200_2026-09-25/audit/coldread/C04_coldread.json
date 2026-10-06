@@ -1,0 +1,933 @@
+{
+ "category": "C04",
+ "scale": "Plain Reading Scale, 7 items 2/1/0, pass at 13 or more; item 6 applied to public and both-audience posts, scored 2 (not applicable) for practitioner posts",
+ "variants": [
+  {
+   "tmp_id": "C04-P01",
+   "platform": "x",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "bisphosphonate; bone density",
+     "fix": "explain both in brackets"
+    },
+    {
+     "item": "6",
+     "quote": "If it is going to stop, UK and European guidance is to plan a switch to another bone medicine, usually a bisphosphonate, about 6 months after the last injection.",
+     "fix": "split into two sentences"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P01",
+   "platform": "linkedin",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "bisphosphonate; bone density",
+     "fix": "explain in brackets"
+    },
+    {
+     "item": "6",
+     "quote": "Bone breakdown starts rising about 3 months after a missed dose and goes above the level before treatment by about 6 months.",
+     "fix": "split; fracture paragraph over 25 words per sentence"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P01",
+   "platform": "bluesky",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P01",
+   "platform": "threads",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P02",
+   "platform": "x",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "sham procedure; Cochrane review",
+     "fix": "explain sham and review"
+    },
+    {
+     "item": "6",
+     "quote": "In 120 people with severe pain from fractures under 6 weeks old, 44 in 100 had low pain at two weeks after cement, against 21 in 100 after the sham.",
+     "fix": "two sentences"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P02",
+   "platform": "linkedin",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "sham procedure; balloon kyphoplasty",
+     "fix": "explain both"
+    },
+    {
+     "item": "6",
+     "quote": "In one sham trial of 120 people with severe pain (7 out of 10 or more) from fractures under 6 weeks old, 44 in 100 had low pain at two weeks after cement, against 21 in 100 after the sham.",
+     "fix": "split"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P02",
+   "platform": "bluesky",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "against a sham procedure",
+     "fix": "say what sham means"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P02",
+   "platform": "threads",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "sham procedure",
+     "fix": "explain in brackets"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P03",
+   "platform": "x",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P03",
+   "platform": "linkedin",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "meta-analysis of bisphosphonate trials; infusion",
+     "fix": "explain pooled analysis and the medicine type"
+    },
+    {
+     "item": "6",
+     "quote": "In a meta-analysis of bisphosphonate trials, it took about a year of treatment before 1 in every 100 women treated was spared a fracture outside the spine, and about 20 months before 1 in every 200 was spared a hip fracture.",
+     "fix": "split"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P03",
+   "platform": "bluesky",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "bisphosphonate treatment",
+     "fix": "use bone medicine or explain"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P03",
+   "platform": "threads",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P04",
+   "platform": "x",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Vitamin D with calcium cut hip fractures slightly in pooled trials: an estimated 1 fewer per 1000 people a year at home, and 9 fewer per 1000 in care homes.",
+     "fix": "split; leave 'pooled' out"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P04",
+   "platform": "linkedin",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "deficient; pooled",
+     "fix": "short of vitamin D; combined"
+    },
+    {
+     "item": "3",
+     "quote": "769 of 12,927 against 782 of 12,944",
+     "fix": "say which group each count is"
+    },
+    {
+     "item": "6",
+     "quote": "Reviews of many trials agree that vitamin D on its own does not prevent fractures.",
+     "fix": "split the hip fracture sentence"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P04",
+   "platform": "bluesky",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "deficient people; pooled trials",
+     "fix": "short of vitamin D"
+    },
+    {
+     "item": "3",
+     "quote": "over 45,000 people",
+     "fix": "no result figure given"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P04",
+   "platform": "threads",
+   "audience": "both",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "pooled trials; deficient",
+     "fix": "combined; short of vitamin D"
+    },
+    {
+     "item": "6",
+     "quote": "Vitamin D with calcium slightly cut hip fractures in pooled trials; because hip fractures are more common in care homes, more are estimated to be prevented there.",
+     "fix": "split"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P05",
+   "platform": "x",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P05",
+   "platform": "linkedin",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P05",
+   "platform": "bluesky",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P05",
+   "platform": "threads",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P06",
+   "platform": "x",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P06",
+   "platform": "linkedin",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P06",
+   "platform": "bluesky",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "CrCl <35",
+     "fix": "practitioner audience: acceptable abbreviation but spell once"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P06",
+   "platform": "threads",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P07",
+   "platform": "x",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The balance stays favourable: modelled estimates...",
+     "fix": "close is a statement of balance, not an action; acceptable for practitioners"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P07",
+   "platform": "linkedin",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P07",
+   "platform": "bluesky",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P07",
+   "platform": "threads",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Modelled estimates: 149 hip fractures prevented...",
+     "fix": "close is a figure, not an action"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P08",
+   "platform": "x",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P08",
+   "platform": "linkedin",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P08",
+   "platform": "bluesky",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Under 1% is absorbed anyway",
+     "fix": "meaning of absorbed not given"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P08",
+   "platform": "threads",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P09",
+   "platform": "x",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P09",
+   "platform": "linkedin",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Teaching round series take one prescribing decision at a time.",
+     "fix": "empty close; removed"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P09",
+   "platform": "bluesky",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P09",
+   "platform": "threads",
+   "audience": "practitioners",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P10",
+   "platform": "x",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "aromatase inhibitors",
+     "fix": "say what they do"
+    },
+    {
+     "item": "6",
+     "quote": "In US records, among men who lived at least 5 years, about 19 in 100 who had hormone treatment had broken a bone, against about 13 in 100 who did not.",
+     "fix": "split"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  },
+  {
+   "tmp_id": "C04-P10",
+   "platform": "linkedin",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In US records of men with prostate cancer, among men who lived at least 5 years after diagnosis, about 19 in 100 who had hormone treatment had broken a bone, compared with about 13 in 100 who did not.",
+     "fix": "long, kept; total 13 passes"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P10",
+   "platform": "bluesky",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "aromatase inhibitor",
+     "fix": "unexplained"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C04-P10",
+   "platform": "threads",
+   "audience": "public",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Aromatase inhibitors",
+     "fix": "unexplained"
+    },
+    {
+     "item": "6",
+     "quote": "In US records of men with prostate cancer who lived at least 5 years, 19 in 100 who had hormone treatment had broken a bone...",
+     "fix": "split"
+    }
+   ],
+   "flags": [],
+   "rewritten": true,
+   "after_fix_total": 14
+  }
+ ]
+}

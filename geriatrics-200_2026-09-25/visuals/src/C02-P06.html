@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C02-P06 The green man and the 2005 walking survey</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .sub { font-size: 30px; line-height: 1.35; color: var(--ink-2); font-weight: 600; margin-top: 16px; }
+ .note { margin-top: 20px; font-size: 28px; line-height: 1.36; color: var(--ink-2); }
+ .tagline { display:inline-block; align-self:flex-start; background: var(--orange); color: var(--white); font-weight: 800; font-size: 26px; border-radius: 999px; padding: 6px 18px; margin-bottom: 14px; }
+ .flow .step small { display:block; font-weight:500; font-size:28px; margin-top:6px; }
+ .key { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+ .key li { font-size: 31px; line-height: 1.3; }
+ .key li b { font-family: "Montserrat"; font-weight: 800; color: var(--orange); }
+ .fact { margin-top: 16px; border-left: 8px solid var(--teal); background: var(--mint); border-radius: 0 16px 16px 0; padding: 16px 24px; font-size: 29px; line-height: 1.34; }
+ .compare .col h3 { font-family: Montserrat; font-weight: 800; }
+ .illus { display:inline-block; margin-top: 14px; }
+ #chart svg, .chartwrap svg { display:block; }
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content">
+
+  <div class="kicker">Health Survey for England, 2005, adults 65+</div>
+  <h1 class="s">Most older people walked <em>slower than 1.2 m/s</em></h1>
+  <p class="sub">Timed over an 8-foot walk at normal pace. 1.2 m/s is the assumed crossing speed UK researchers reported.</p>
+  <div id="chart" class="chart" style="margin-top:24px"></div>
+  <p class="note">3,145 adults aged 65 and over, private households. Share of each group.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Asher et al., Age Ageing 2012</span></div>
+</div>
+</div>
+<script>
+
+barChart('#chart',[
+ {label:'Women, slower than 1.2 m/s',value:85,display:'85%',colour:'a'},
+ {label:'Men, slower than 1.2 m/s',value:76,display:'76%',colour:'a'},
+ {label:'Women, slower or unable',value:93,display:'93%',colour:'b'},
+ {label:'Men, slower or unable',value:84,display:'84%',colour:'b'}],
+ {max:100,width:920,barH:48,gap:50,valueRoom:130,ticks:[0,25,50,75,100],tickFmt:v=>v+'%'});
+
+window.__ready = true;
+</script></body></html>
