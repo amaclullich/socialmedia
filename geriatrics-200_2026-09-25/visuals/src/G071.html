@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P11 Screening words</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content"><div class="kicker" style="font-size:26px;margin-bottom:8px">Illustration. Wordings tested in US research, not real conversations</div>
+<h1 class="m" style="font-size:62px">Stopping screening: the words people preferred</h1>
+<div class="strip p3" style="margin-top:20px;gap:16px"><div class="panelbox"><div class="art" id="p1"><div class="bubble" style="left:54%;top:8px;transform:translateX(-50%);max-width:48%;text-align:center;font-size:26px">You may not live long enough to benefit from this test.</div></div><div class="cap" style="font-size:25px;line-height:1.25;padding:10px 20px">Many found this unnecessarily harsh (US interviews, 40 people aged 65+)</div></div><div class="panelbox"><div class="art" id="p2"><div class="bubble" style="left:54%;top:8px;transform:translateX(-50%);max-width:48%;text-align:center;font-size:26px">This test would not help you live longer.</div></div><div class="cap" style="font-size:25px;line-height:1.25;padding:10px 20px">Preferred by many in the interviews</div></div><div class="panelbox"><div class="art" id="p3"><div class="bubble" style="left:54%;top:8px;transform:translateX(-50%);max-width:48%;text-align:center;font-size:26px">Your other health issues should take priority.</div></div><div class="cap" style="font-size:25px;line-height:1.25;padding:10px 20px">Most preferred in a US survey of 881 people aged 65+; no explanation was liked least</div></div></div>
+<div style="margin-top:14px"><span class="badge illustrative">Illustrative dialogue</span></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Schoenborn et al., JAMA Intern Med 2017; JAMA Oncol 2018</span></div>
+</div>
+</div>
+<script>
+const W=1000,H=210,S=1.0,g=330;
+function pan(id,lean,tilt,pl){
+ Kit.draw('#'+id,W,H,[
+  Kit.room('gp_room',{w:W,h:H,ground:g,scale:S,depth:90}),
+  Kit.person({pose:'seated_talking',seat:'chair',x:190,y:g,scale:S,age:'adult',sex:'f',skin:'dark',hair:'black',hairStyle:'cropped',role:'doctor',facing:'right',lean:pl}),
+  Kit.person({pose:'seated_side',seat:'chair',x:810,y:g,scale:S,age:'older',sex:'m',build:'broad',skin:'fair',hair:'white',hairStyle:'balding',top:'oat',bottom:'slate',facing:'left',lean:lean,tilt:tilt}),
+ ],{cls:'art'});
+}
+pan('p1',-8,-4,4);pan('p2',0,0,6);pan('p3',10,4,6);
+window.__ready = true;
+</script></body></html>

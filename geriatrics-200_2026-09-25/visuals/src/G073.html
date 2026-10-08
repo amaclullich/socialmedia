@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C08-P01 Stopping donepezil</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .compare{flex:0 0 auto;margin-top:26px}
+ .compare .col{padding:28px 30px;gap:14px}
+ .compare .col li{font-size:31px}
+ .sec{font-family:Montserrat;font-weight:800;font-size:30px;line-height:1.25;margin-top:34px;color:var(--teal)}
+ .note{font-size:28px;line-height:1.35;color:var(--ink-2);margin-top:14px}
+ .nice{font-size:30px;font-weight:700;margin-top:24px;border-left:8px solid var(--teal);padding-left:20px;line-height:1.3}
+ #c svg{display:block;margin-top:6px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Weighing it up</span></div>
+ <div class="content">
+  <div class="kicker">Alzheimer's disease, moderate to severe, living at home</div>
+  <h1 class="s">Stopping donepezil: <em>good reasons and a poor one</em></h1>
+  <div class="compare">
+   <div class="col b"><span class="tag">Reasons to review or stop</span><ul><li>Sickness or diarrhoea</li><li>Fainting or a slow pulse</li><li>Our view: the person's goals have changed</li></ul></div>
+   <div class="col a"><span class="tag">Not a reason on its own</span><ul><li>The dementia is now severe</li></ul><p class="small">NICE: do not stop because of disease severity alone</p></div>
+  </div>
+  <div class="sec">DOMINO-AD: moved permanently to a care home within 1 year</div>
+  <div id="c"></div>
+  <p class="note">Analysis done after the trial; similar after 3 more years</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">NICE NG97; Howard et al., NEJM 2012; Lancet Neurol 2015</span></div>
+</div>
+</div>
+<script>
+barChart('#c',[
+ {label:'Stopped donepezil',value:37,display:'about 37 in 100',colour:'b'},
+ {label:'Continued donepezil',value:20,display:'about 20 in 100',colour:'a'}
+],{max:100,width:920,valueRoom:300,barH:44,gap:50,ticks:[0,50,100]});
+window.__ready = true;
+</script></body></html>

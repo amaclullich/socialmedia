@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P09</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.s { margin-top: 12px; }
+ .letters { display:grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 22px; }
+ .lt { background: #fff; border: 3px solid var(--ink); border-radius: 6px 22px 6px 6px; padding: 0 0 20px; position: relative; }
+ .lt .hb { height: 26px; background: #B9CDCC; border-bottom: 3px solid var(--ink); }
+ .lt.to .hb { background: var(--teal); }
+ .lt .lab { font-family: Montserrat; font-weight: 800; font-size: 28px; padding: 16px 20px 6px; display:flex; align-items:center; gap:12px; }
+ .lt p { font-size: 28px; line-height: 1.32; padding: 6px 20px 0; }
+ .lt p + p { margin-top: 10px; }
+ .sqm { width: 22px; height: 22px; background: var(--ink); display:inline-block; flex:none; }
+ .cm { width: 22px; height: 22px; border: 4px solid var(--ink); border-radius: 50%; display:inline-block; box-sizing:border-box; flex:none; }
+ .ask { margin-top: 24px; background:#fff; border: 3px solid var(--ink); border-radius: 26px; padding: 16px 24px; font-size: 36px; font-weight: 700; text-align:center; }
+ .band { margin-top: 22px; border-radius: 18px; background: var(--mint); padding: 20px 26px; font-size: 30px; line-height: 1.34; }
+ .band b { color: var(--orange); }
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Ask for the letter to be written to you</h1>
+  <div class="letters">
+   <div class="lt"><div class="hb"></div><div class="lab"><i class="cm"></i>Written about you</div><p>Dear Dr Patel, I reviewed this 81-year-old woman in clinic. She reports dizziness on standing.</p></div>
+   <div class="lt to"><div class="hb"></div><div class="lab"><i class="sqm"></i>Written to you</div><p>Dear Mrs Grant,</p><p>Today we talked about your dizziness.</p><p>What we found.</p><p>What happens next.</p><p>Who to call.</p></div>
+  </div>
+  <div class="ask">Could you write the letter to me, please?</div>
+  <p class="body" style="margin-top:20px;font-size:31px">National guidance recommends clinic letters are written to the patient.</p>
+  <div class="band">At one London eye hospital, <b>about 2 in 100</b> of 4.6 million letters (2013 to 2025) were judged to be written to the patient.</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Academy of Medical Royal Colleges 2018; Ong et al, BMJ Health Care Inform 2026</span></div>
+</div>
+</div></body></html>

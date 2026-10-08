@@ -1,0 +1,134 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P07</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .q { font-size: 60px; }
+ .exrow { display: flex; align-items: center; gap: 18px; margin-top: 24px; }
+ .exrow .badge { font-size: 24px; }
+ .vgrid { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 18px; margin-top: 16px; flex: 1 1 auto; min-height: 0; }
+ .vcell { display: flex; flex-direction: column; min-height: 0; border: 3px solid var(--pale); border-radius: 18px; overflow: hidden; background: var(--white); }
+ .vart { flex: 1 1 auto; position: relative; min-height: 0; background: var(--sand); }
+ .vart svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+ .vcap { flex: 0 0 auto; font-family: "Montserrat"; font-weight: 800; font-size: 30px; line-height: 1.2; padding: 9px 18px 11px; color: var(--ink); border-top: 3px solid var(--pale); }
+ .answer { margin-top: 20px; background: var(--deep); border-radius: 20px; padding: 22px 32px; }
+ .answer p { color: var(--gold); font-size: 31px; line-height: 1.36; font-weight: 600; }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content">
+  <h1 class="q">Anything you've stopped doing because you worry about falling?</h1>
+  <div class="exrow"><span class="badge">Examples</span></div>
+  <div class="vgrid">
+   <div class="vcell"><div class="vart" id="v1"></div><div class="vcap">A regular walk</div></div>
+   <div class="vcell"><div class="vart" id="v2"></div><div class="vcap">The bus into town</div></div>
+   <div class="vcell"><div class="vart" id="v3"></div><div class="vcap">A bath</div></div>
+   <div class="vcell"><div class="vart" id="v4"></div><div class="vcap">Visiting a friend</div></div>
+  </div>
+  <div class="answer"><p>If yes, tell the GP or physiotherapist. Ask about strength and balance exercise, a talking therapy (CBT) or an occupational therapist.</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">World Falls Guidelines 2022; Deshpande et al., J Am Geriatr Soc 2008</span></div>
+</div>
+
+</div>
+<script>
+const K = Kit, OL = '#1F2A30';
+const W = 600, H = 333;
+const pen = K.pen(K.LW);
+
+/* ---------- 1. a regular walk: park path, man with a stick and a flat cap ---------- */
+(function () {
+  const g = 312, S = 0.7;
+  const man = { pose: 'stick', x: 290, y: g, scale: S, age: 'older', sex: 'm', skin: 'brown', hair: 'grey', hairStyle: 'short',
+    top: 'navy', bottom: 'stone', extras: ['cardigan', 'beard'], cardigan: 'oat', beardColour: 'grey', stickType: 'crook', stickColour: '#6B4A30', tilt: -8 };
+  const H0 = K.joint(man, 'head');
+  // flat cap in head coordinates (head drawn at rotate(ha) scale(1.08)); ha for the stick pose is about 16 degrees
+  const cp = K.pen(K.LW / S);
+  const cap = cp.p('M-28,-6C-31,-24 -15,-36 4,-35C19,-34 27,-26 28,-17L41,-13C44,-11 43,-8 39,-8L20,-9C6,-10 -14,-7 -28,-6Z', '#5E6457')
+            + cp.t('M-20,-12C-8,-15 10,-15 24,-13', '#474C42', 2);
+  const capG = `<g transform="translate(${H0.x},${H0.y}) scale(${S}) rotate(8) scale(1.08)">${cap}</g>`;
+  const sky = `<rect x="-200" y="-200" width="${W + 400}" height="${g - 60 + 200}" fill="#DDEBEA"/>`;
+  const hill = pen.p(`M-100,${g - 60}C80,${g - 120} 260,${g - 110} 420,${g - 80}C520,${g - 64} 620,${g - 90} 760,${g - 90}L760,${g + 200}L-100,${g + 200}Z`, '#B7CBA8');
+  const grass = `<rect x="-200" y="${g - 50}" width="${W + 400}" height="400" fill="#A9C19A"/>`;
+  const path = pen.p(`M-100,${g - 24}L760,${g - 24}L760,${g + 30}L-100,${g + 30}Z`, '#E4DCCB');
+  K.draw('#v1', W, H, [sky, hill, grass, path,
+    K.tree({ x: 90, y: g - 40, scale: 0.62, h: 420 }), K.tree({ x: 520, y: g - 44, scale: 0.5, colour: '#7F9C84' }),
+    K.bench({ x: 500, y: g - 30, scale: 0.55 }),
+    K.person(man), capG], { fit: 'xMidYMid slice' });
+})();
+
+/* ---------- 2. the bus into town: woman boarding a low-floor bus, hand on the pole ---------- */
+(function () {
+  const g = 312, S = 0.7;
+  const bx = 300, by = g - 6;                 // bus left edge, bus floor at pavement level
+  const top = g - 300, doorL = bx + 40, doorR = bx + 150, poleX = doorL + 44;
+  let bus = '';
+  bus += `<rect x="-200" y="-200" width="${W + 400}" height="${g + 200}" fill="#DDEBEA"/>`;
+  bus += `<rect x="-200" y="${g - 4}" width="${W + 400}" height="200" fill="#D6D7CF"/><rect x="-200" y="${g - 4}" width="${W + 400}" height="3" fill="${OL}"/>`;
+  // bus body
+  bus += pen.p(`M${bx},${g - 10}L${bx},${top + 30}Q${bx},${top} ${bx + 30},${top}L${W + 200},${top}L${W + 200},${g - 10}Z`, '#2F6F74');
+  bus += pen.r(bx + 170, top + 34, 520, 118, 10, '#CFE3E6');        // side windows
+  bus += pen.t(`M${bx + 300},${top + 34}V${top + 152}M${bx + 430},${top + 34}V${top + 152}`, OL, 3);
+  bus += pen.r(bx + 170, g - 112, 520, 14, 4, '#245A5F');              // lower band
+  // door opening with interior, floor and pole
+  bus += pen.r(doorL, top + 26, doorR - doorL, g - 10 - (top + 26), 6, '#6F7E84');
+  bus += `<rect x="${doorL + 6}" y="${g - 34}" width="${doorR - doorL - 12}" height="24" fill="#8C979B"/>`;
+  bus += pen.l([{ x: poleX, y: top + 30 }, { x: poleX, y: g - 12 }], 6, '#D5DADC');
+  // folded door leaf at the right side of the opening
+  bus += pen.r(doorR - 18, top + 30, 14, g - 44 - top, 3, '#BFD4D7');
+  // wheel under the rear of the bus
+  bus += pen.p(`M${bx + 196},${g - 10}A50,50 0 0 1 ${bx + 304},${g - 10}Z`, '#23484C');
+  bus += pen.c(bx + 250, g - 10, 40, '#2B3236') + pen.c(bx + 250, g - 10, 15, '#9AA4A8');
+  bus += `<rect x="-200" y="${g - 4}" width="${W + 400}" height="200" fill="#D6D7CF"/>` + `<rect x="-200" y="${g - 5}" width="${W + 400}" height="3" fill="${OL}"/>`;
+  const woman = { pose: 'walking', x: doorL - 34, y: g, scale: S, age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'bob',
+    top: 'mustard', bottom: 'slate', stride: 0.4, hands: { near: { x: poleX - 4, y: g - 196 } }, tilt: 2 };
+  K.draw('#v2', W, H, [bus, K.person(woman)], { fit: 'xMidYMid slice' });
+})();
+
+/* ---------- 3. a bath: bath with a grab rail and a folded towel, no person ---------- */
+(function () {
+  const g = 312, S = 0.8;
+  const x0 = 150, x1 = 470, rimY = g - 118;
+  let s = K.room('bathroom', { w: W, h: H, ground: g, scale: S });
+  // bath: side panel, rim, taps
+  s += pen.r(x0, rimY + 12, x1 - x0, g - rimY - 12, 6, '#F7F8F6');
+  s += pen.t(`M${x0 + 12},${rimY + 34}H${x1 - 12}`, '#D6DEDD', 3);
+  s += pen.r(x0 - 8, rimY, x1 - x0 + 16, 16, 7, '#FFFFFF');
+  [x0 + 26, x0 + 62].forEach(tx => { s += pen.r(tx - 6, rimY - 26, 12, 26, 3, '#C9D0D3') + pen.r(tx - 14, rimY - 34, 28, 9, 4, '#DDE2E4'); });
+  // grab rail on the wall above the bath
+  s += K.grab_rail({ x: 310, y: rimY - 92, length: 150, scale: 1.0 });
+  s += K.grab_rail({ x: 520, y: rimY - 20, length: 110, angle: -90, scale: 1.0 });
+  // folded towel on the rim
+  s += pen.p(`M${x1 - 112},${rimY - 10}Q${x1 - 112},${rimY - 16} ${x1 - 106},${rimY - 16}L${x1 - 30},${rimY - 16}Q${x1 - 24},${rimY - 16} ${x1 - 24},${rimY - 10}L${x1 - 24},${rimY + 58}L${x1 - 112},${rimY + 58}Z`, '#8FA98F')
+     + pen.t(`M${x1 - 104},${rimY + 46}H${x1 - 32}M${x1 - 104},${rimY + 2}H${x1 - 32}`, '#6F8A70', 2.5);
+  // bath mat on the floor
+  s += pen.r(x0 + 60, g - 8, 200, 10, 4, '#C98B86');
+  K.draw('#v3', W, H, [s], { fit: 'xMidYMid slice' });
+})();
+
+/* ---------- 4. visiting a friend: woman with a cake tin, friend opening the front door ---------- */
+(function () {
+  const g = 312, S = 0.68, step = 22, dx = 420, dW = 150, dH = 300;
+  let s = `<rect x="-200" y="-200" width="${W + 400}" height="${g + 200}" fill="#DCCBB6"/>`;
+  // brick courses
+  let d = ''; for (let y = g - 10; y > -20; y -= 24) d += `M-200,${y}H${W + 200}`; s += `<path d="${d}" stroke="#CDB9A2" stroke-width="2"/>`;
+  s += `<rect x="-200" y="${g - 2}" width="${W + 400}" height="200" fill="#CFCAC0"/><rect x="-200" y="${g - 3}" width="${W + 400}" height="3" fill="${OL}"/>`;
+  // door frame, dark hall, open door leaf, step
+  s += pen.r(dx - dW / 2 - 12, g - step - dH - 12, dW + 24, dH + 12, 3, '#FFFFFF');
+  s += pen.r(dx - dW / 2, g - step - dH, dW, dH, 1, '#7C868A');
+  s += pen.p(`M${dx + dW / 2},${g - step - dH}L${dx + dW / 2 - 44},${g - step - dH + 20}L${dx + dW / 2 - 44},${g - step - 6}L${dx + dW / 2},${g - step}Z`, '#2F5D6B');
+  s += pen.r(dx - dW / 2 - 30, g - step, dW + 60, step, 2, '#C9C3B8');
+  const cake = { x: 238, y: g - 168 };
+  const visitor = { pose: 'standing', x: 190, y: g, scale: S, age: 'older', sex: 'f', skin: 'dark', hair: 'grey', hairStyle: 'coily', build: 'broad',
+    top: 'teal', bottom: 'plum', bottomStyle: 'skirt', legs: '#5A3B2A', skirtLength: 'midi', extras: ['cardigan'], cardigan: 'mustard', tilt: -2,
+    hands: { near: { x: cake.x - 8, y: cake.y + 6 }, far: { x: cake.x + 20, y: cake.y + 2 } } };
+  const friend = { pose: 'standing', x: dx - 8, y: g - step, scale: S, facing: 'left', age: 'older', sex: 'f', skin: 'fair', hair: 'silver', hairStyle: 'wavy',
+    top: 'sage', bottom: 'navy', extras: ['glasses'], hands: { far: { x: dx + dW / 2 - 40, y: g - step - 150 } } };
+  // round cake tin held in both hands
+  const tin = pen.r(cake.x - 34, cake.y - 34, 68, 40, 6, '#B9CDCC') + pen.r(cake.x - 38, cake.y - 42, 76, 12, 5, '#8FB3B1');
+  K.draw('#v4', W, H, [s, K.person(friend), tin, K.person(visitor)], { fit: 'xMidYMid slice' });
+})();
+
+window.__ready = true;
+</script></body></html>

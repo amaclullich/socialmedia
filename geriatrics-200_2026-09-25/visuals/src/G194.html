@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C20-P03 Question to ask</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>
+.scene{flex:none;height:470px;margin-top:16px;background:var(--sand)}
+.scene .badge{position:absolute;left:18px;top:16px;z-index:2}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px}
+.two .panel{padding:22px 26px;font-size:27px;line-height:1.3;margin:0}
+.two .panel b{font-weight:800;color:var(--teal)}
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content">
+  <h1 class="m">A question to ask: <em>what would you advise if I were 20 years younger?</em></h1>
+  <div class="scene" id="sc"><span class="badge illustrative">Illustration</span></div>
+  <p class="lead" style="margin-top:14px">Then listen for the reasons.</p>
+  <div class="two">
+   <div class="panel mint"><b>Reasons about you:</b> how long any benefit would take; your health and other conditions; what you want from treatment</div>
+   <div class="panel"><b>Only the number:</b> ask what the reasoning is</div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Time to benefit of cancer screening: Lee et al., BMJ 2013</span></div>
+</div></div>
+<script>
+const W=920,H=470,g=440,S=0.95;
+const bub=(x,y,w,h)=>`<g fill="#15535B" stroke="#1F2A30" stroke-width="3"><ellipse cx="${x}" cy="${y}" rx="${w}" ry="${h}"/></g>`;
+Kit.draw('#sc',W,H,[
+ Kit.room?Kit.room('home_living',{w:W,h:H,ground:g,scale:S}):'',
+ Kit.desk({x:790,y:g,scale:S,w:230}),
+ Kit.chair({x:260,y:g,scale:S}),
+ Kit.person({pose:'seated_talking',seat:'none',x:260,y:g,scale:S,seatHeight:Kit.dims.chairSeat,facing:'right',age:'older',sex:'m',skin:'dark',hair:'grey',hairStyle:'cropped',build:'broad',top:'mustard',extras:['glasses','cardigan']}),
+ Kit.stick({x:150,y:g,angle:4,scale:S}),
+ Kit.person({pose:'seated_side',seat:'chair',x:600,y:g,scale:S,facing:'left',age:'adult',sex:'f',skin:'brown',hair:'black',hairStyle:'bun',role:'doctor',extras:['lanyard']}),
+ bub(400,130,46,28),bub(480,100,38,24)
+],{cls:'art'});
+window.__ready=true;
+</script></body></html>

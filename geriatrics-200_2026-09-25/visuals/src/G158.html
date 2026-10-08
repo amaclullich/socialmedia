@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C16-P02</title><link rel="stylesheet" href="../design_system/base.css">
+<style>
+.lab{font:800 28px Montserrat;text-transform:uppercase;letter-spacing:.06em;margin:26px 0 12px}
+.lab.a{color:var(--orange)}.lab.b{color:var(--teal)}
+.tr{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 38px}
+.bx{position:relative;background:#fff;border:3px solid var(--ink-2);border-radius:16px;padding:16px 18px;font-size:29px;line-height:1.25;min-height:132px;display:flex;align-items:center}
+.bx:not(:nth-child(3n))::after{content:"";position:absolute;right:-32px;top:50%;margin-top:-12px;border-left:20px solid var(--ink-2);border-top:12px solid transparent;border-bottom:12px solid transparent}
+.bx.hot{border-color:var(--orange);border-width:6px}
+.bx.t{border-color:var(--teal);background:var(--teal);color:#fff}
+.bx.t:not(:nth-child(3n))::after{border-left-color:var(--teal)}
+.tab{position:absolute;right:12px;bottom:10px;width:46px;height:46px}
+.tk{position:absolute;right:12px;top:-20px;width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--deep);font:800 30px Montserrat;display:flex;align-items:center;justify-content:center;border:3px solid var(--deep)}
+.up{margin:6px 0 0;color:var(--orange);font:700 26px Inter}
+.strip1{margin-top:auto;background:var(--mint);border-radius:20px;padding:22px 28px;font-size:30px;line-height:1.3}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content">
+  <div class="kicker">Illustrative sequence, not a measured frequency</div>
+  <h1 class="m">How a stopped medicine can come back</h1>
+  <div class="lab a">Without a check</div>
+  <div class="tr">
+   <div class="bx">Hospital stops a tablet</div>
+   <div class="bx">Discharge letter arrives</div>
+   <div class="bx">Home medicines chart updated</div>
+   <div class="bx hot">GP repeat list unchanged</div>
+   <div class="bx">Next monthly order placed from the repeat list</div>
+   <div class="bx" style="padding-right:64px">Supply arrives with the stopped tablet<svg class="tab" viewBox="0 0 40 40"><ellipse cx="20" cy="20" rx="17" ry="11" transform="rotate(-30 20 20)" fill="#fff" stroke="#C24E12" stroke-width="3"/><line x1="11" y1="26" x2="29" y2="14" stroke="#C24E12" stroke-width="3"/></svg></div>
+  </div>
+  <div class="lab b">With a named person</div>
+  <div class="tr">
+   <div class="bx t">Discharge letter arrives</div>
+   <div class="bx t">Repeat list and next order updated within days</div>
+   <div class="bx t">Supply matches the discharge letter<span class="tk">&#10003;</span></div>
+  </div>
+  <div class="strip1">Review of 54 studies: about half of adults had an unintended medicine discrepancy after leaving hospital (median of 11 studies).</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Alqenae et al, Drug Saf 2020</span></div>
+</div></div></body></html>

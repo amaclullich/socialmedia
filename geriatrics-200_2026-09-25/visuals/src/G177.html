@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>X</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/kit.js"></script>
+<style>.rw{display:grid;grid-template-columns:400px 1fr;border:4px solid var(--ink);border-radius:14px;overflow:hidden;background:#fff;height:206px}.rw .art{position:relative;background:var(--sand)}.rw .art svg{position:absolute;inset:0;width:100%;height:100%}.rw .cap{padding:12px 20px;font-size:26px;line-height:1.28;border-left:4px solid var(--ink);display:flex;align-items:center}.rw .bubble{font-size:24px;padding:8px 12px;max-width:none;width:170px;line-height:1.2}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content" style="padding-top:24px">
+  <h1 class="s" style="font-size:50px">When a client dies, the care worker has lost someone too</h1>
+  <div class="kicker" style="margin-top:14px;margin-bottom:0">Illustration, not a real case</div>
+  <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+   <div class="rw"><div class="art" id="p1"></div><div class="cap">In a New York study, researchers concluded that home care workers' grief when a client died was underestimated by employers and society, particularly the loss of work.</div></div>
+   <div class="rw"><div class="art" id="p2"></div><div class="cap">In England, workers said a client's death could leave them drained and under-prepared.</div></div>
+   <div class="rw"><div class="art" id="p3"><div class="bubble" style="left:70px;top:3px;width:280px">I'm sorry. I know how much you cared about him.</div></div><div class="cap">What helped: experienced colleagues, and managers acknowledging their feelings.</div></div>
+   <div class="rw"><div class="art" id="p4"><div class="bubble" style="left:20px;top:6px;width:340px">You are welcome to come.</div></div><div class="cap">For some, time off or encouragement to attend the funeral.</div></div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Tsui et al., Qual Health Res, 2019; Yeh et al., Int J Geriatr Psychiatry, 2019</span></div>
+</div>
+<script>
+const W=400,H=206,g=252,S=.45;
+const cw=o=>Object.assign({role:'care_worker',sex:'f',skin:'brown',hair:'black',hairStyle:'bun',scale:S,y:g,age:'adult',extras:['lanyard']},o);
+const car='<g stroke="#1F2A30" stroke-width="3"><rect x="0" y="150" width="400" height="60" fill="#B9CDCC"/><path d="M230 70 H400 V150 H200 Z" fill="#DCEBEA"/><rect x="215" y="150" width="185" height="18" fill="#5F6B76"/><line x1="250" y1="110" x2="285" y2="170" stroke-width="9"/><ellipse cx="270" cy="112" rx="10" ry="34" fill="none" stroke-width="7" transform="rotate(20 270 112)"/></g>';
+Kit.draw('#p1',W,H,[Kit.door({x:300,y:290,w:130,scale:.6}),Kit.person(cw({pose:'standing',x:120,y:290,scale:.6,hold:'phone',tilt:12}))],{cls:'art'});
+Kit.draw('#p2',W,H,[car,Kit.person(cw({pose:'seated_side',seat:'chair',x:130,facing:'right',tilt:20,lean:5,hands:{near:{x:262,y:122}}}))],{cls:'art'});
+Kit.draw('#p3',W,H,[Kit.table({x:200,y:g,w:240,height:150,scale:S}),
+ Kit.person(cw({pose:'seated_side',seat:'chair',x:70})),
+ Kit.person({pose:'seated_side',seat:'chair',x:190,y:g,scale:S,facing:'right',age:'adult',sex:'f',skin:'light',hair:'sandy',hairStyle:'bob',topStyle:'shirt',top:'navy'}),
+ Kit.person({pose:'seated_side',seat:'chair',x:340,y:g,scale:S,facing:'left',age:'older',sex:'m',skin:'fair',hair:'grey',hairStyle:'balding',topStyle:'polo',top:'teal'}),Kit.cup({x:300,y:g-67,scale:.6})],{cls:'art'});
+Kit.draw('#p4',W,H,[Kit.door({x:350,y:268,w:130,open:true,scale:.5}),
+ Kit.person(cw({pose:'standing',x:140,y:268,scale:.5,stride:.3})),
+ Kit.person({pose:'standing',x:240,y:268,scale:.5,age:'young',sex:'m',skin:'tan',hair:'black',hairStyle:'cropped',top:'ink',bottom:'ink'})],{cls:'art'});
+</script></div></body></html>

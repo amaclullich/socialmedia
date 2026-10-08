@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C19-P01 Survival estimates</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .note{font-size:28px;line-height:1.38;color:var(--ink-2);margin-top:30px;font-weight:600}
+ .panel.mint .body{margin-top:0}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <div class="kicker">468 people referred to hospice, Chicago; 343 doctors; median survival 24 days</div>
+  <h1 class="m">Survival estimates at hospice referral were mostly <em>too optimistic</em></h1>
+  <p class="note">Out of every 100 estimates</p>
+  <div id="bars" class="chart" style="margin-top:6px"></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Christakis and Lamont, BMJ 2000</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <div class="kicker">A judgement, not a tested remedy</div>
+  <h1 class="m">Our suggestion: three habits when estimating survival</h1>
+  <ul class="ticks" style="margin-top:44px;gap:34px">
+   <li>Give a range, not a single figure</li>
+   <li>Say what would shorten it</li>
+   <li>Ask a colleague's view when you know the patient well</li>
+  </ul>
+  <div class="panel mint mt-auto" style="margin-bottom:44px"><p class="body">In this study, estimates tended to be less accurate the longer the doctor had known the patient (an association in one study).</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Christakis and Lamont, BMJ 2000; White et al., PLoS One 2016</span></div>
+</div>
+</div>
+<script>
+barChart('#bars',[
+ {label:'Accurate (within a third of actual time)',value:20,display:'20 in 100',colour:'a'},
+ {label:'Too optimistic',value:63,display:'63 in 100',colour:'b'},
+ {label:'Too pessimistic',value:17,display:'17 in 100',colour:'empty'}
+],{max:100,width:920,gap:130,ticks:[0,25,50,75,100]});
+window.__ready = true;
+</script></body></html>

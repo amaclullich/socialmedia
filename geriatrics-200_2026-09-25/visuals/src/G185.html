@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C19-P06 Hours of care</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .lab{font-size:34px;font-weight:700;line-height:1.3;display:flex;gap:16px;align-items:flex-start}
+ .lab i{flex:0 0 30px;height:30px;border-radius:6px;margin-top:6px;display:block}
+ .lab.o{color:var(--orange)}
+ .lab.w{font-size:30px;font-weight:600;color:var(--ink);margin-top:22px}
+ .fact{margin-top:34px;border-left:8px solid var(--teal);background:var(--mint);border-radius:0 16px 16px 0;padding:18px 26px;font-size:34px;font-weight:700}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content">
+  <div class="kicker">Median among carers of people who died of cancer in England, 2015</div>
+  <h1 class="m">Carers reported about 69 and a half hours of care a week</h1>
+  <div style="margin-top:44px">
+   <div class="lab o"><i style="background:var(--chart-a)"></i><span>Median reported care: 69 h 30 min</span></div>
+   <div id="wk" style="margin-top:18px"></div>
+   <div class="lab w"><i style="background:var(--chart-empty);border:3px solid var(--ink-2)"></i><span>One week: 168 hours (for scale only; 69 h 30 min is a median across carers, not one person's week)</span></div>
+  </div>
+  <p class="fact">Over 9 in 10 carers reported giving care</p>
+  <p class="small" style="margin-top:24px">Self-reported by 1,504 bereaved relatives who had registered a cancer death (28.5% replied). The published abstract does not say whether the hours include time on call. Cancer deaths only.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Rowland et al., Palliat Med 2017</span></div>
+</div>
+</div>
+<script>
+(function(){const NS='http://www.w3.org/2000/svg',W=920,H=96;
+const s=document.createElementNS(NS,'svg');s.setAttribute('viewBox','0 0 '+W+' '+H);s.setAttribute('width',W);s.setAttribute('height',H);
+function r(a){const e=document.createElementNS(NS,a.t);for(const k in a)if(k!='t')e.setAttribute(k,a[k]);s.appendChild(e);}
+r({t:'rect',x:0,y:0,width:W,height:H,fill:'#D5DEDD',stroke:'#5F6B76','stroke-width':3});
+r({t:'rect',x:0,y:0,width:W*69.5/168,height:H,fill:'#00909A'});
+for(let d=1;d<7;d++){r({t:'line',x1:W*d/7,y1:0,x2:W*d/7,y2:H,stroke:'#FBFAF6','stroke-width':4});}
+document.getElementById('wk').appendChild(s);})();
+window.__ready = true;
+</script></body></html>

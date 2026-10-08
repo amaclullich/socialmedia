@@ -1,0 +1,66 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C11-P04 Alarm for hearing loss</title><link rel="stylesheet" href="../design_system/base.css"><script>window.__ready = false;</script><script src="../design_system/kit.js"></script>
+<style>
+ .bars{display:flex;flex-direction:column;gap:30px;margin-top:34px}
+ .bl{font-size:32px;font-weight:700;line-height:1.2;margin-bottom:10px}
+ .tr{position:relative;height:54px;background:#fff;border:2px solid var(--line);border-radius:10px;width:100%}
+ .bv{position:absolute;left:0;top:0;bottom:0;border-radius:8px 0 0 8px}
+ .hat{background:repeating-linear-gradient(135deg,#00909A 0 10px,#fff 10px 16px);border:4px solid #00909A}
+ .sol{background:#00909A}
+ .lite{background:#7FC5CB}
+ .dot{background:radial-gradient(#00909A 3px,transparent 4px) 0 0/14px 14px,#fff;border:4px solid #00909A}
+ .ax{display:flex;justify-content:space-between;font-size:24px;color:var(--ink-2);margin-top:8px}
+ .axt{font-size:26px;font-weight:600;color:var(--ink-2);margin-top:4px;text-align:right}
+ .nt{font-size:28px;color:var(--ink-2);margin-top:22px;line-height:1.35}
+ .keys{display:flex;flex-direction:column;gap:12px;margin-top:20px;margin-bottom:24px}
+ .k{display:grid;grid-template-columns:50px 1fr;gap:16px;align-items:center;font-size:29px;line-height:1.28;font-weight:600}
+ .k i{width:44px;height:44px;border-radius:50%;background:var(--orange);color:#fff;font-style:normal;font-family:Montserrat;font-weight:800;font-size:24px;display:flex;align-items:center;justify-content:center}
+</style></head><body><div class="sheet">
+<div class="card"><div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">1/2</span></div>
+<div class="content">
+ <h1 class="m">Which alarm wakes someone <em>with hearing loss?</em></h1>
+ <p class="body" style="font-size:31px">Out of 100 adults with mild to moderately severe hearing loss in deep sleep, in a laboratory.</p>
+ <div class="bars">
+  <div><div class="bl">Standard high-pitched alarm: 56</div><div class="tr"><div class="bv hat" style="width:56%"></div></div></div>
+  <div><div class="bl">Lower-pitched alarm: 92</div><div class="tr"><div class="bv sol" style="width:92%"></div></div></div>
+  <div><div class="bl">Vibrating pad under pillow or mattress: 80 to 84</div><div class="tr"><div class="bv lite" style="width:84%"></div><div class="bv sol" style="width:80%"></div></div></div>
+  <div><div class="bl">Flashing light: 27</div><div class="tr"><div class="bv dot" style="width:27%"></div></div></div>
+ </div>
+ <div class="ax"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+ <div class="axt">Woken out of 100</div>
+ <p class="nt">38 adults aged 18 to 80; deep sleep only; not only older people</p>
+</div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bruck and Thomas, Ear Hear 2009</span></div></div>
+
+<div class="card"><div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">2/2</span></div>
+<div class="content">
+ <h1 class="m">Sleep without hearing aids? <em>Check your alarm</em></h1>
+ <p class="small mt-s">Illustration. Visits are offered by every fire and rescue service in England; what they fit varies.</p>
+ <div class="scene" id="sc" style="min-height:400px"></div>
+ <div class="keys">
+  <div class="k"><i>1</i><span>Hearing aids out at night: ask for an alarm you will wake to</span></div>
+  <div class="k"><i>2</i><span>Ask for a vibrating pad, not only a flashing light</span></div>
+  <div class="k"><i>3</i><span>Ask your fire and rescue service for a home fire safety visit and say you are hard of hearing</span></div>
+ </div>
+</div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bruck and Thomas, Ear Hear 2009; James and Clark 2025</span></div></div>
+</div>
+<script>
+const W=1000,H=620,S=0.95,g=560;
+const bt=Kit.anchor('bedside_table',{x:820,y:g,scale:1.1});
+const pen=Kit.pen(3);
+const pad=Kit.at(0,0,1,pen.r(236,420,110,12,4,'#7FC5CB')+pen.t('M248 426l8-4 8 8 8-8 8 8 8-8 8 8 8-8 8 8'));
+const alarm=Kit.at(0,0,1,pen.c(500,40,34,'#FFFFFF')+pen.c(500,40,10,'#D9DEDC'));
+Kit.draw('#sc',W,H,[
+ Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S,wall:'#2B4A5C',floorColour:'#3A3F4A'}),
+ alarm,
+ Kit.window({x:120,y:g-300,w:200,h:200,curtains:'plum'}),
+ Kit.person({pose:'lying_bed',bed:'domestic',blanket:'mustard',x:420,y:g,scale:S,age:'older',sex:'f',skin:'dark',hair:'grey',hairStyle:'cropped',top:'rose'}),
+ pad,
+ Kit.bedside_table({x:820,y:g,scale:1.1}),
+ Kit.hearing_aid({x:bt.top.x-30,y:bt.top.y,scale:1.4}),
+ Kit.glass({x:bt.top.x+30,y:bt.top.y,level:0.6}),
+ Kit.phone({x:bt.top.x+68,y:bt.top.y}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:bt.top.x-30,y:bt.top.y-90},{n:2,x:292,y:372},{n:3,x:500,y:120}]);
+window.__ready=true;
+</script></body></html>

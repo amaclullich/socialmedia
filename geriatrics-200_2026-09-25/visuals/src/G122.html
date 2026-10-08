@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P07 Catheter handover</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>
+ .wrap { display:grid; grid-template-columns:440px 1fr; gap:60px; margin-top:26px; }
+ .flow { margin-top:0; }
+ .flow .step { padding:14px 22px; font-size:30px; font-weight:700; line-height:1.25; }
+ .flow .arrow { height:40px; padding-left:40px; }
+ .tag { position:relative; margin-top:112px; background:#FFF8E6; border:4px solid var(--ink); border-radius:12px 40px 40px 12px; padding:20px 22px 22px 66px; align-self:start; }
+ .tag::before { content:""; position:absolute; left:22px; top:30px; width:22px; height:22px; border-radius:50%; background:var(--ground); border:4px solid var(--ink); }
+ .tag::after { content:""; position:absolute; left:-64px; top:38px; width:62px; border-top:5px dashed var(--ink); }
+ .tag h3 { font-size:30px; color:var(--teal); margin-bottom:16px; line-height:1.2; }
+ .tag ol { list-style:none; counter-reset:t; display:flex; flex-direction:column; gap:14px; }
+ .tag li { counter-increment:t; display:grid; grid-template-columns:44px 1fr; gap:12px; font-size:28px; line-height:1.28; font-weight:600; background:#fff; border:2px solid var(--line); border-radius:10px; padding:10px 12px; }
+ .tag li::before { content:counter(t); width:40px; height:40px; border-radius:50%; background:var(--orange); color:#fff; font-family:Montserrat; font-weight:800; font-size:24px; display:flex; align-items:center; justify-content:center; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content">
+  <h1 class="s">Three facts should travel with every catheter</h1>
+  <div class="wrap">
+   <div class="flow">
+    <div class="step">Hospital ward</div><div class="arrow"></div>
+    <div class="step">Discharge letter</div><div class="arrow"></div>
+    <div class="step">Home or care home</div><div class="arrow"></div>
+    <div class="step alt">District nurse, GP or continence service</div>
+   </div>
+   <div class="tag"><h3>Written down at discharge</h3>
+    <ol><li>Why it went in</li><li>The date it went in</li><li>Who will review it or take it out, or try without it, and when</li></ol></div>
+  </div>
+  <p class="body" style="font-size:29px;margin-top:26px">UK district nursing survey, 2017 to 2018: half of the people whose catheter had been placed in the previous 4 weeks had a plan to remove it (134 of 267).</p>
+  <div id="bar" style="margin-top:14px"></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Prieto, J Infect Prev, 2020; Loveday, epic3, J Hosp Infect, 2014</span></div>
+</div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+const s=document.createElementNS(NS,'svg'); s.setAttribute('viewBox','0 0 920 90'); s.setAttribute('width',920); s.setAttribute('height',90);
+const w=916*134/267;
+s.innerHTML=`<defs><pattern id="h7" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#FBFAF6"/><rect width="6" height="12" fill="#00909A"/></pattern></defs>
+<rect x="2" y="10" width="916" height="64" rx="8" fill="#D5DEDD"/>
+<rect x="2" y="10" width="${w}" height="64" rx="8" fill="url(#h7)" stroke="#00909A" stroke-width="4"/>
+<text x="${w+24}" y="53" text-anchor="start" font-family="Montserrat" font-weight="800" font-size="32" fill="#1F2A30">134 of 267</text>`;
+document.getElementById('bar').appendChild(s);
+window.__ready=true;
+</script></body></html>

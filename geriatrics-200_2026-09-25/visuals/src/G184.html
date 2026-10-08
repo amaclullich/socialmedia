@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C19-P05 Noisy breathing</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .scene{flex:0 0 520px;margin-top:20px}
+ .key{list-style:none;margin-top:22px;display:flex;flex-direction:column;gap:12px;counter-reset:k}
+ .key li{counter-increment:k;display:grid;grid-template-columns:52px 1fr;gap:16px;font-size:30px;line-height:1.3;align-items:center}
+ .key li::before{content:counter(k);width:44px;height:44px;border-radius:50%;background:var(--orange);color:#fff;font-family:Montserrat;font-weight:800;font-size:24px;display:flex;align-items:center;justify-content:center}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content" style="padding-top:28px">
+  <h1 class="s">Noisy breathing near death: what you may hear</h1>
+  <div class="scene" id="sc"></div>
+  <ul class="key">
+   <li>Saliva and mucus collect in the throat when a person can no longer clear them</li>
+   <li>Changing the person's position is one usual way to manage the sound</li>
+   <li>Ask the nurse to explain what you are hearing</li>
+  </ul>
+  <p class="small" style="margin-top:16px;font-size:26px">Studies generally find the sound does not distress the person; few looked at patients</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Wee and Hillier, Cochrane 2008; Fagan et al., 2025</span></div>
+</div>
+</div>
+<script>
+const W=1000,H=620,g=560,S=0.95;
+const bt=Kit.anchor('bedside_table',{x:880,y:g,scale:S});
+Kit.draw('#sc',W,H,[
+ Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:640,y:g-70*S-170,scale:1,curtains:'mustard'}),
+ Kit.person({pose:'lying_bed',bed:'hospital',rails:'down',blanket:'sage',x:420,y:g,scale:S,age:'older',sex:'m',skin:'dark',hair:'grey',hairStyle:'cropped',top:'paleblue'}),
+ Kit.person({pose:'seated_side',seat:'chair',x:790,y:g,scale:S,facing:'left',age:'older',sex:'f',skin:'olive',hair:'grey',hairStyle:'bun',top:'plum',extras:['cardigan'],bottom:'charcoal'}),
+ Kit.person({pose:'standing',role:'nurse',x:130,y:g,scale:S,sex:'f',skin:'fair',hair:'brown',hairStyle:'bun',tilt:8,lean:6}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:335,y:360},{n:2,x:190,y:400},{n:3,x:130,y:150}]);
+window.__ready=true;
+</script></body></html>

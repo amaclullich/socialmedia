@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C02-P03 Three checks for your walking stick</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .sub { font-size: 30px; line-height: 1.35; color: var(--ink-2); font-weight: 600; margin-top: 16px; }
+ .note { margin-top: 20px; font-size: 28px; line-height: 1.36; color: var(--ink-2); }
+ .tagline { display:inline-block; align-self:flex-start; background: var(--orange); color: var(--white); font-weight: 800; font-size: 26px; border-radius: 999px; padding: 6px 18px; margin-bottom: 14px; }
+ .flow .step small { display:block; font-weight:500; font-size:28px; margin-top:6px; }
+ .key { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+ .key li { font-size: 31px; line-height: 1.3; }
+ .key li b { font-family: "Montserrat"; font-weight: 800; color: var(--orange); }
+ .fact { margin-top: 16px; border-left: 8px solid var(--teal); background: var(--mint); border-radius: 0 16px 16px 0; padding: 16px 24px; font-size: 29px; line-height: 1.34; }
+ .compare .col h3 { font-family: Montserrat; font-weight: 800; }
+ .illus { display:inline-block; margin-top: 14px; }
+ #chart svg, .chartwrap svg { display:block; }
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content">
+
+  <h1 class="s">Three checks for <em>your walking stick</em></h1>
+  <div class="scene" id="hall" style="flex:0 0 520px"></div>
+  <ul class="key">
+   <li><b>1.</b> Height: top of stick level with the wrist crease</li>
+   <li><b>2.</b> Hand: opposite the painful or weak leg</li>
+   <li><b>3.</b> Tip: worn smooth? Replace it</li>
+  </ul>
+  <p class="fact"><b>44 in 100 sticks were the wrong length</b> (50 users, one English clinic). Both legs weak or poor balance? Ask about a frame.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bradley and Hernandez, Am Fam Physician 2011; Sheehan and Millicheap, Musculoskeletal Care 2008</span></div>
+</div>
+</div>
+<script>
+
+const K=Kit,W=1000,H=620,S=1.2,g=590;
+const po={pose:'stick',x:470,y:g,scale:S,age:'older',sex:'m',skin:'brown',hair:'grey',hairStyle:'balding',top:'mustard',bottom:'charcoal',extras:['glasses'],stickType:'crook',topStyle:'plain'};
+const hand=K.joint(po,'nearHand');
+K.draw('#hall',W,H,[K.room('home_living',{w:W,h:H,ground:g,scale:S}),K.door({x:150,y:g-6,w:190}),K.radiator({x:850,y:g-6,scale:S}),K.person(po),
+ `<line class="bleed" x1="${hand.x-110}" y1="${hand.y}" x2="${hand.x+130}" y2="${hand.y}" stroke="#C24E12" stroke-width="5" stroke-dasharray="14 10"/>`],{cls:'art'});
+K.pins('#hall',[{n:1,x:hand.x+175,y:hand.y},{n:2,x:hand.x-70,y:hand.y+70},{n:3,x:hand.x+120,y:g-20}]);
+
+window.__ready = true;
+</script></body></html>

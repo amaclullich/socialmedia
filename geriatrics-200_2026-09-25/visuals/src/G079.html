@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C08-P07 Dementia tablets and the pulse</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .strip{margin-top:20px}
+ .panelbox .cap{font-size:30px;padding:14px 22px}
+ .badge{align-self:flex-start;margin-top:14px}
+ .sec{font-family:Montserrat;font-weight:800;font-size:34px;line-height:1.25;color:var(--teal);margin-top:30px}
+ .note{font-size:30px;line-height:1.38;color:var(--ink-2);margin-top:22px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <span class="badge illustrative" style="margin:0 0 18px">Illustrative example</span>
+  <h1 class="s">Dementia tablets <em>and the pulse</em></h1>
+  <div class="strip p3">
+   <div class="panelbox"><div class="art" id="p1"></div><div class="cap">Has she felt dizzy or fainted since starting donepezil?</div></div>
+   <div class="panelbox"><div class="art" id="p2"></div><div class="cap">These tablets can slow the pulse. Let me check it now.</div></div>
+   <div class="panelbox"><div class="art" id="p3"></div><div class="cap">Tell the GP about any dizziness or fainting. A faint can look like a fall.</div></div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Illustrative dialogue, not a real patient</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">2/2</span></div>
+ <div class="content center">
+  <h1>Hospital visits <em>for fainting</em></h1>
+  <div class="sec">Visits per 1000 people a year, older people with dementia</div>
+  <div id="c" class="chart" style="margin-top:10px"></div>
+  <p class="note" style="margin-top:6px">About 81,000 older people with dementia, Ontario, Canada, 2002 to 2004</p>
+  <p class="note" style="margin-top:12px;color:var(--ink);font-weight:600">Shows a link, not that the tablet caused every faint</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Gill et al., Arch Intern Med 2009</span></div>
+</div>
+</div>
+<script>
+const K=Kit, W=1000, H=230;
+const wom={age:'older',sex:'f',skin:'dark',hair:'silver',hairStyle:'curly',top:'plum',bottom:'stone',extras:['cardigan'],cardigan:'cream'};
+const son={age:'adult',sex:'m',skin:'brown',hair:'black',hairStyle:'cropped',top:'denim',bottom:'charcoal',build:'broad'};
+const ph={role:'pharmacist',sex:'f',skin:'light',hair:'auburn',hairStyle:'bob'};
+const S=0.8,g=290;
+const room=()=>K.room('gp_room',{w:W,h:H,ground:g,scale:S});
+const tb=K.anchor('table',{x:500,y:g,scale:S});
+K.draw('#p1',W,H,[room(),
+ K.person({...wom,pose:'seated_side',seat:'chair',x:130,y:g,scale:S,tilt:3,hold:'bag'}),
+ K.person({...son,pose:'seated_side',seat:'chair',x:290,y:g,scale:S}),
+ K.table({x:500,y:g,scale:S,w:230}),
+ K.medicine_bottle({x:520,y:tb.top.y,scale:S,type:'blister'}),
+ K.person({...ph,pose:'seated_talking',seat:'chair',x:810,y:g,scale:S,facing:'left'}),
+],{cls:'art'});
+K.draw('#p2',W,H,[room(),
+ K.person({...wom,pose:'seated_side',seat:'chair',x:390,y:g,scale:S,hands:{near:{x:505,y:tb.top.y-16}}}),
+ K.table({x:500,y:g,scale:S,w:230}),
+ K.person({...ph,pose:'seated_side',seat:'chair',x:640,y:g,scale:S,facing:'left',tilt:6,hands:{near:{x:515,y:tb.top.y-20}}}),
+ K.person({...son,pose:'seated_side',seat:'chair',x:200,y:g,scale:S}),
+],{cls:'art'});
+K.draw('#p3',W,H,[room(),
+ K.person({...wom,pose:'seated_side',seat:'chair',x:300,y:g,scale:S,hold:'bag'}),
+ K.person({...son,pose:'seated_side',seat:'chair',x:130,y:g,scale:S,hold:'notepad',tilt:10}),
+ K.table({x:530,y:g,scale:S,w:200}),
+ K.person({...ph,pose:'seated_talking',seat:'chair',x:790,y:g,scale:S,facing:'left'}),
+],{cls:'art'});
+barChart('#c',[
+ {label:'Taking these tablets',value:31.5,display:'about 32',colour:'b'},
+ {label:'Not taking them',value:18.6,display:'about 19',colour:'a'}
+],{max:40,width:920,valueRoom:170,barH:60,gap:100,ticks:[0,10,20,30,40]});
+window.__ready = true;
+</script></body></html>

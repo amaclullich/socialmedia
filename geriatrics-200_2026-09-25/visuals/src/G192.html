@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C20-P01 Quoted figure</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style>.note{display:flex;gap:26px;align-items:center;background:var(--mint);border-radius:22px;padding:30px 34px;margin-top:24px;font-size:32px;line-height:1.34}.note svg{flex:0 0 120px;width:120px;height:90px}.note p{margin:0}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="m">In one US study, people with more positive views of ageing lived <em>7.5 years</em> longer</h1>
+  <p class="lead" style="margin-top:20px">A figure worth checking before you repeat it</p>
+  <div class="note"><svg id="i1" viewBox="0 0 120 90"></svg><p>1. One study: 660 people aged 50 and over, Ohio</p></div>
+  <div class="note"><svg id="i2" viewBox="0 0 120 90"></svg><p>2. A link, not a cause: observational, adjusted for age, sex, socioeconomic status, loneliness and functional health</p></div>
+  <div class="note"><svg id="i3" viewBox="0 0 120 90"></svg><p>3. 19 studies pooled: a small link, weaker with longer follow-up</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Levy et al., J Pers Soc Psychol 2002; Westerhof et al., Psychol Aging 2014</span></div>
+</div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+function add(s,t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);document.querySelector(s).appendChild(e);}
+for(let i=0;i<60;i++){const c=i%12,r=Math.floor(i/12);add('#i1','circle',{cx:8+c*9.5,cy:10+r*15,r:3.6,fill:'#15535B'});}
+add('#i2','circle',{cx:32,cy:45,r:24,fill:'none',stroke:'#15535B','stroke-width':6});
+add('#i2','circle',{cx:88,cy:45,r:24,fill:'none',stroke:'#15535B','stroke-width':6});
+add('#i2','line',{x1:58,y1:45,x2:62,y2:45,stroke:'#C24E12','stroke-width':6});
+for(let i=0;i<19;i++)add('#i3','rect',{x:4+i*6,y:80-(18+(i*7)%40),width:4,height:18+(i*7)%40,fill:'#15535B'});
+window.__ready=true;
+</script></body></html>

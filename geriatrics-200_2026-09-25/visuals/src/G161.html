@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C16-P05</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/kit.js"></script>
+<style>
+.scene{flex:0 0 640px;margin-top:20px}
+.qs{list-style:none;display:flex;flex-direction:column;gap:14px;margin-top:22px}
+.qs li{display:grid;grid-template-columns:52px 1fr;gap:16px;font-size:33px;line-height:1.25;align-items:center}
+.qs b{width:48px;height:48px;border-radius:50%;background:var(--orange);color:#fff;font:800 28px Montserrat;display:flex;align-items:center;justify-content:center}
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content">
+  <h1 style="font-size:56px;line-height:1.1">Reablement: short-term help to do things for yourself again</h1>
+  <div class="scene" id="sc"></div>
+  <ul class="qs">
+   <li><b>1</b><span>Which goals will the help work on?</span></li>
+   <li><b>2</b><span>How long does it last, and is there any charge?</span></li>
+   <li><b>3</b><span>When will it be reviewed?</span></li>
+  </ul>
+  <p class="small" style="margin-top:16px">Evidence so far: few trials, so the effect is uncertain.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Cochrane review 2016; Tuntland et al 2015; Hogstedt et al 2026</span></div>
+</div>
+</div><script>
+window.__ready=false;
+const W=1000,H=640,S=1.05,g=600;
+const kc=Kit.anchor('kitchen_counter',{x:430,y:g,scale:S});
+const tb=Kit.anchor('table',{x:830,y:g,scale:S});
+const clock='<g class="bleed"><circle cx="800" cy="130" r="48" fill="#fff" stroke="#1F2A30" stroke-width="4"/><line x1="800" y1="130" x2="800" y2="98" stroke="#1F2A30" stroke-width="4" stroke-linecap="round"/><line x1="800" y1="130" x2="824" y2="140" stroke="#1F2A30" stroke-width="4" stroke-linecap="round"/><circle cx="800" cy="130" r="4" fill="#1F2A30"/></g>';
+Kit.draw('#sc',W,H,[
+ Kit.room('kitchen',{w:W,h:H,ground:g,scale:S}),
+ clock,
+ Kit.kitchen_counter({x:430,y:g,w:380,sink:true,scale:S}),
+ Kit.kettle({x:kc.top.x-10,y:kc.top.y,scale:S}),
+ Kit.table({x:830,y:g,scale:S}),
+ Kit.cup({x:tb.top.x-40,y:tb.top.y,scale:S}),
+ Kit.notepad({x:tb.top.x+40,y:tb.top.y,scale:S}),
+ Kit.person({pose:'walking_frame',frame:'rollator',x:200,y:g,scale:S,age:'older',sex:'f',skin:'fair',hair:'grey',hairStyle:'pixie',top:'plum',extras:['cardigan'],hands:{near:{x:330,y:kc.top.y-20}}}),
+ Kit.person({pose:'standing',view:'front',x:620,y:g,scale:S,age:'adult',sex:'m',skin:'brown',hair:'black',hairStyle:'short',role:'care_worker',top:'navy',facing:'left'}),
+],{cls:'art',fit:'xMidYMid slice'});
+Kit.pins('#sc',[{n:1,x:kc.top.x-10,y:kc.top.y-130},{n:2,x:800,y:60},{n:3,x:tb.top.x+40,y:tb.top.y-110}]);
+window.__ready=true;
+</script></body></html>

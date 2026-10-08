@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P03 Fewer falls, or fewer people falling</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<style>
+ .grp { margin-top: 34px; }
+ .grp h3 { font-size: 34px; }
+ .grp .chart { margin-top: 8px; }
+ .stm { display: grid; grid-template-columns: 170px 1fr; gap: 30px; align-items: center; }
+ .stm p { font-size: 36px; line-height: 1.32; font-weight: 600; }
+ .stm svg { display: block; }
+ .cta { margin-top: auto; margin-bottom: 36px; }
+ .cta p { font-family: "Montserrat"; font-weight: 800; font-size: 44px; line-height: 1.2; color: var(--gold); }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <div class="kicker">Exercise for older people living at home: 1000 people like those in the trials, followed for one year</div>
+  <h1 class="m">Same review, <em>two counts</em></h1>
+  <div class="mt-s"><span class="badge illustrative">Illustration based on Cochrane 2019</span></div>
+  <div class="grp"><h3>Falls among 1000 people</h3><div class="chart" id="c1"></div></div>
+  <div class="grp"><h3>People with at least one fall, of 1000</h3><div class="chart" id="c2"></div></div>
+  <p class="body mt-auto" style="margin-bottom:30px"><b>23% fewer falls. 15% fewer people falling.</b> Averages, not a forecast for one person.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Sherrington et al., Cochrane 2019</span></div>
+</div>
+
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <div class="kicker">Multifactorial programmes against usual care or attention control, Cochrane 2026 (low-certainty evidence)</div>
+  <h1 class="m">The gap can be <em>wider</em></h1>
+  <div class="panel mt-m stm"><svg width="170" height="110" viewBox="0 0 170 110"><path d="M8,24 H80 V86 H162" fill="none" stroke="#00909A" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/></svg><p>Rate of falls: may be about a quarter lower (rate ratio 0.76)</p></div>
+  <div class="panel stm"><svg width="170" height="110" viewBox="0 0 170 110"><path d="M8,40 H162" fill="none" stroke="#5F6B76" stroke-width="12" stroke-linecap="round"/></svg><p>People who fall at least once: little or no difference (risk ratio 0.95)</p></div>
+  <div class="panel deep cta"><p>Say which count you mean, and give the numbers per 1000.</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Swarnalatha et al., Cochrane 2026</span></div>
+</div>
+
+</div>
+<script>
+const opts = { max: 900, width: 920, labelWidth: 280, barH: 48, gap: 40, valueRoom: 150, top: 4 };
+function pair(id, without, withEx, withDisp, fewer) {
+  const svg = barChart(id, [{ label: 'Without exercise', value: without, display: String(without), colour: 'b' }, { label: 'With exercise', value: withEx, display: withDisp, colour: 'a' }], opts);
+  const ns = 'http://www.w3.org/2000/svg', pid = 'h' + id.slice(1);
+  const defs = document.createElementNS(ns, 'defs');
+  defs.innerHTML = `<pattern id="${pid}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="14" height="14" fill="#00909A"/><rect width="5" height="14" fill="#FFFFFF" opacity=".55"/></pattern>`;
+  svg.prepend(defs);
+  const bar = svg.querySelector('path[fill="#00909A"]'); bar.setAttribute('fill', `url(#${pid})`); bar.setAttribute('stroke', '#00909A'); bar.setAttribute('stroke-width', '2');
+  // ghost segment: the falls (or fallers) that exercise removes, drawn as a dashed outline from the 'with' bar to the 'without' length
+  const plotW = 920 - 280 - 150, x0 = 280, rowH = 48 + 40 * 0.4, yBar = 4 + rowH;
+  const xa = x0 + plotW * withEx / 900, xb = x0 + plotW * without / 900;
+  const g = document.createElementNS(ns, 'g');
+  g.innerHTML = `<rect x="${xa + 3}" y="${yBar + 2}" width="${xb - xa - 4}" height="44" rx="6" fill="none" stroke="#1F2A30" stroke-width="3" stroke-dasharray="8 6"/>`;
+  svg.appendChild(g);
+  // move the value label of the 'with' bar past the ghost and add the difference
+  const texts = svg.querySelectorAll('text'); const v = texts[texts.length - 1];
+  v.setAttribute('x', xb + 16);
+  svg.setAttribute('height', +svg.getAttribute('height') + 40); svg.setAttribute('viewBox', `0 0 920 ${+svg.getAttribute('height')}`);
+  const t = document.createElementNS(ns, 'text');
+  Object.entries({ x: xb + 16, y: yBar + 64, 'font-size': 30, 'font-weight': 800, fill: '#C24E12', 'font-family': 'Inter' }).forEach(([k, val]) => t.setAttribute(k, val));
+  t.textContent = fewer; svg.appendChild(t);
+}
+pair('#c1', 850, 655, 'about 655', '195 fewer');
+pair('#c2', 480, 408, 'about 408', '72 fewer');
+window.__ready = true;
+</script></body></html>

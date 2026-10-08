@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P02 Common</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="s">'Common' side effect: guessed <em>34 in 100</em>. Study figure: 2.5</h1>
+  <p class="small" style="margin-top:20px;color:var(--ink)">120 statin users in Leeds, each given one statement about one side effect. Bars show the constipation groups' average guesses, made straight after reading.</p>
+  <div id="b" class="chart" style="margin-top:14px"></div>
+  <p class="chartnote" style="margin-top:0">Scale: people in 100</p>
+  <div class="panel mint" style="margin-top:22px;padding:22px 32px">
+   <p style="font-size:28px;line-height:1.5">Very common: 1 in 10 or more<br>Common: 1 in 100 up to 1 in 10<br>Uncommon: 1 in 1,000 up to 1 in 100<br>Rare: 1 in 10,000 up to 1 in 1,000<br>Very rare: fewer than 1 in 10,000</p>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Knapp et al., Qual Saf Health Care 2004</span></div>
+</div></div>
+<script>
+const s=barChart('#b',[{label:"Guess, told 'common'",value:34.2,display:'34 in 100',colour:'b'},{label:'Guess, told the number',value:8.1,display:'8 in 100',colour:'a'},{label:'Figure used in the study',value:2.5,display:'2.5 in 100',colour:'a'}],{max:40,width:920,ticks:[0,10,20,30,40],gap:40,barH:44});
+s.querySelectorAll('path')[2].setAttribute('fill','#0F3C4F');
+window.__ready=true;
+</script></body></html>

@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C10-P06</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.foot .src{font-size:22px}.two{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:36px}.pn{background:var(--sand);border-radius:18px;height:560px;position:relative;overflow:hidden}.pn svg{position:absolute;inset:0;width:100%;height:100%}.tag{font:800 24px Montserrat;color:var(--teal);margin-bottom:10px;text-transform:uppercase}.fg{height:440px;background:var(--sand);border-radius:18px;position:relative;overflow:hidden;margin-top:30px}.fg svg{position:absolute;inset:0;width:100%;height:100%}</style></head><body><div class="sheet">
+<div class="card "><div class="topline"><span class="series">What gets counted</span><span class="slidecount">1/3</span></div><div class="content ">
+<h1 class="m">Your knee X-ray is a poor guide to your pain</h1>
+<p class="lead" style="font-size:34px">Many people with arthritis changes on the X-ray have little pain. Many with knee pain have fairly normal X-rays.</p>
+<div class="two"><div><div class="pn" id="k1"></div></div><div><div class="pn" id="k2"></div></div></div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bedson and Croft, BMC Musculoskelet Disord 2008</span></div></div>
+<div class="card "><div class="topline"><span class="series">What gets counted</span><span class="slidecount">2/3</span></div><div class="content ">
+<h1 class="m">It still tells you something</h1>
+<p class="lead">Within one person, the worse knee on X-ray is more often the painful one.</p>
+<div class="panel mint" style="margin-top:40px"><p style="font-size:38px;line-height:1.36">Typical symptoms: an X-ray is not needed to diagnose knee osteoarthritis</p></div>
+<div class="panel" style="border-color:var(--teal);border-width:3px"><p style="font-size:38px;line-height:1.36">Something unusual or another possible cause: imaging helps. Unexpected worsening: consider imaging</p></div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Neogi et al., BMJ 2009; EULAR 2017</span></div></div>
+<div class="card "><div class="topline"><span class="series">What gets counted</span><span class="slidecount">3/3</span></div><div class="content ">
+<h1 class="m">Better questions than 'what does the X-ray show?'</h1>
+<div class="fg" id="k3"></div>
+<ul class="ticks"><li class="q">What can I do to keep this knee moving?</li><li class="q">What should make us look again?</li></ul></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bunzli et al., Clin Orthop Relat Res 2019</span></div></div>
+</div><script>window.__ready=false;
+const sk=(id,els)=>Kit.draw(id,500,520,[`<rect width="500" height="520" fill="#EFE6D6"/>`,...els],{fit:'xMidYMid slice'});
+sk('#k1',[Kit.at(120,10,.65,`<g><g fill="#fff" stroke="#1F2A30" stroke-width="5" stroke-linejoin="round"><path d="M122 0 H178 L184 90 Q215 110 212 150 Q205 176 150 178 Q95 176 88 150 Q85 110 116 90Z"/><path d="M90 185 Q150 193 210 185 Q216 210 192 235 L176 375 H124 L108 235 Q84 210 90 185 Z"/><ellipse cx="150" cy="140" rx="26" ry="22" fill="#DCEBEA"/></g><g fill="#1F2A30"><path d="M88 168 l-34 14 l34 12z"/><path d="M212 168 l34 14 l-34 12z"/></g></g>`),Kit.person({pose:'walking',x:380,y:515,scale:.58,age:'older',sex:'m',skin:'olive',hair:'white',hairStyle:'balding',top:'teal'})]);
+sk('#k2',[Kit.at(120,10,.65,`<g><g fill="#fff" stroke="#1F2A30" stroke-width="5" stroke-linejoin="round"><path d="M122 0 H178 L184 90 Q215 110 212 150 Q205 176 150 178 Q95 176 88 150 Q85 110 116 90Z"/><path d="M90 213 Q150 221 210 213 Q216 238 192 263 L176 403 H124 L108 263 Q84 238 90 213 Z"/><ellipse cx="150" cy="140" rx="26" ry="22" fill="#DCEBEA"/></g></g>`),Kit.person({pose:'seated_side',seat:'chair',x:360,y:515,scale:.6,age:'older',sex:'f',skin:'light',hair:'grey',hairStyle:'bun',top:'brick',bottom:'slate'})]);
+Kit.draw('#k3',1000,440,[Kit.room('gp_room',{w:1000,h:440,ground:430,scale:1.1}),
+Kit.person({pose:'seated_side',seat:'chair',x:380,y:430,scale:1.1,hands:'lap',age:'older',sex:'f',skin:'olive',hair:'black',hairStyle:'bun',top:'mustard',bottom:'slate'}),
+Kit.person({pose:'seated_side',seat:'chair',x:700,y:430,scale:1.1,hands:'lap',facing:'left',age:'young',sex:'m',role:'physio',skin:'brown',hairStyle:'short'})],{fit:'xMidYMid slice'});
+window.__ready=true;</script></body></html>

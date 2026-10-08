@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P09 Parkinson doses</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><div class="card sand" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content" style="padding-top:24px">
+  <h1 class="s" style="font-size:56px">Parkinson's doses: <em>their times</em>, not the ward's</h1>
+  <div class="scene" id="sc" style="margin-top:18px;flex:0 0 470px"></div>
+  <ul class="ticks" style="margin-top:22px;gap:12px">
+   <li class="q" style="font-size:32px">Can doses be given at their own times?</li>
+   <li class="q" style="font-size:32px">Can they keep taking their own supply?</li>
+   <li class="q" style="font-size:32px">If they can't swallow or are told not to eat, what is the plan?</li>
+  </ul>
+  <div class="panel" style="margin-top:auto;padding:16px 26px;font-size:26px;line-height:1.3">Standard used in one English hospital audit: within 30 minutes of the person's own time<br><b>Dublin hospital study: 52 in 100 doses more than 30 minutes late</b></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Richard et al., Mov Disord Clin Pract 2022; Omer et al., Cureus 2025</span></div>
+</div></div>
+<style>.ticks li::before{width:40px!important;height:40px!important}.ticks li{grid-template-columns:50px 1fr!important}</style>
+<script>
+const W=920,H=470,g=420,S=0.88;
+Kit.draw('#sc',W,H,[Kit.room('hospital_bay',{w:W,h:H,ground:g,scale:S}),
+ Kit.curtain({x:80,y:g,w:200,scale:S}),
+ Kit.person({pose:'seated_side',seat:'chair',x:520,y:g,scale:S,facing:'left',age:'older',sex:'m',skin:'olive',hair:'saltpepper',hairStyle:'short',top:'denim',extras:['cardigan','glasses'],tilt:6,lean:6,hold:'pill_organiser'}),
+ Kit.walking_frame({x:400,facing:'left',y:g,scale:S,type:'standard'}),
+ Kit.person({pose:'standing',x:690,y:g,scale:S,facing:'left',sex:'f',skin:'olive',hair:'black',hairStyle:'wavy',top:'brick',bottom:'charcoal',extras:['cardigan'],hold:'notepad'}),
+ Kit.person({pose:'standing',role:'nurse',x:810,y:g,scale:S,facing:'left',sex:'f',skin:'brown',hair:'black',hairStyle:'bun'}),
+],{cls:'art'});
+window.__ready=true;
+</script></body></html>

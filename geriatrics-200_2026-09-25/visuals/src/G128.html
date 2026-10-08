@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C13-P03</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>.list{display:flex;flex-direction:column;gap:12px;margin-top:20px;font-size:28px;line-height:1.28}.list b{color:var(--orange);font-weight:800}
+.sc2{position:relative;flex:0 0 270px;margin-top:16px;border-radius:22px;overflow:hidden;background:var(--sand)}.sc2 svg{position:absolute;inset:0;width:100%;height:100%}.sc2 svg.art{width:100%;height:100%}</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Small detail, worth checking</span></div>
+ <div class="content">
+  <h1 class="s">Could they open it?</h1>
+  <p class="small" style="margin-top:8px;color:var(--ink)">Illustrative drawing of a hospital tray. Figures are from Australian studies.</p>
+  <div class="scene" id="tray" style="flex:0 0 290px;margin-top:14px;background:#E3D6BD"></div>
+  <div class="sc2" id="inset"><div id="insetA" style="position:absolute;left:0;top:0;width:calc(50% - 3px);height:100%;overflow:hidden"></div><div id="insetB" style="position:absolute;right:0;top:0;width:calc(50% - 3px);height:100%;overflow:hidden"></div></div>
+  <div class="list">
+   <p><b>1.</b> Cheese portion: about 4 in 10 healthy people over 65 could not open one</p>
+   <p><b>2.</b> Water bottle: 1 in 10 could not</p>
+   <p><b>3.</b> Milk, juice and cereal packs: about half of 140 mostly older patients found them difficult</p>
+   <p><b>4.</b> In a lab test of 34 well older adults, opening a pack lying in bed took more finger strength than sitting in a chair</p>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bell et al., Appetite 2013, 2016; J Hum Nutr Diet 2017</span></div>
+</div>
+</div>
+<script>
+const L='#1F2A30',st=`stroke="${L}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"`;
+const tray=`<rect x="30" y="22" width="860" height="250" rx="34" fill="#F4F1EA" ${st}/><rect x="52" y="42" width="816" height="210" rx="22" fill="none" stroke="${L}" stroke-opacity=".25" stroke-width="3"/>
+<g ${st}><rect x="90" y="100" width="90" height="60" rx="8" fill="#F2D77A"/><path d="M180 112l26 18l-26 18z" fill="#F2D77A"/></g>
+<g ${st}><rect x="250" y="160" width="130" height="50" rx="24" fill="#CFE6EE"/><circle cx="392" cy="185" r="19" fill="#3B6FB6"/></g>
+<g ${st}><path d="M470 70h70v56h-70z" fill="#fff"/><path d="M470 70l35-18l35 18" fill="#E7EEF0"/><path d="M505 52v18" fill="none" stroke-width="3"/></g>
+<g ${st}><path d="M560 70h70v56h-70z" fill="#F29B4A"/><path d="M560 70l35-18l35 18" fill="#F7C08A"/><path d="M595 52v18" fill="none" stroke-width="3"/></g>
+<g ${st}><circle cx="720" cy="100" r="42" fill="#D9DEDC"/><circle cx="720" cy="100" r="30" fill="#F4F1EA" stroke-width="3"/></g>
+<g ${st}><path d="M690 170h110v70h-110z" fill="#E7B76B"/><path d="M690 182l10-8l10 8l10-8l10 8l10-8l10 8l10-8l10 8l10-8l10 8" fill="none" stroke-width="3"/></g>
+<g ${st}><circle cx="500" cy="210" r="34" fill="#EAF2F4" fill-opacity=".8"/><circle cx="500" cy="210" r="22" fill="none" stroke-width="3"/></g>`;
+Kit.draw('#tray',920,290,[],{cls:'art'});
+document.querySelector('#tray svg').insertAdjacentHTML('beforeend',`<g class="bleed">${tray}</g>`);
+// pins
+[[1,150,70],[2,420,150],[3,590,160]].forEach(([n,x,y])=>{const p=document.createElement('div');p.className='pin';p.style.left=x+'px';p.style.top=(y-14)+'px';p.textContent=n;document.getElementById('tray').appendChild(p);});
+// inset
+const g=232,S=0.7;
+const ob=Kit.anchor('over_bed_table',{x:385,y:g,scale:S});
+Kit.draw('#insetA',460,250,[
+ Kit.room('hospital_bay',{w:460,h:250,ground:g,scale:S}),
+ Kit.person({pose:'sitting_up_bed',bed:'hospital',backrest:12,rails:'down',x:215,y:g,scale:S,age:'older',sex:'f',skin:'fair',hair:'grey',hairStyle:'bun',top:'rose',hands:{near:{x:ob.top.x-30,y:ob.top.y-6}}}),
+ Kit.over_bed_table({x:385,y:g,scale:S}),
+ Kit.tray({x:ob.top.x,y:ob.top.y,w:120,scale:S*0.9}),
+],{cls:'art'});
+const tb=Kit.anchor('table',{x:230,y:g,scale:S});
+Kit.draw('#insetB',460,250,[
+ Kit.room('hospital_bay',{w:460,h:250,ground:g,scale:S}),
+ Kit.person({pose:'seated_side',seat:'chair',x:330,y:g,scale:S,facing:'left',age:'older',sex:'m',skin:'brown',hair:'white',hairStyle:'balding',top:'sage',bottom:'slate',hands:{near:{x:tb.top.x+40,y:tb.top.y-6}}}),
+ Kit.table({x:230,y:g,w:200,scale:S}),
+ Kit.tray({x:tb.top.x-20,y:tb.top.y,w:120,scale:S*0.9}),
+],{cls:'art'});
+const pn=document.createElement('div');pn.className='pin';pn.style.left='50%';pn.style.top='34px';pn.textContent='4';document.getElementById('inset').appendChild(pn);
+window.__ready=true;
+</script></body></html>

@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>X</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content" style="padding-top:26px">
+  <h1 class="s" style="font-size:54px">The family carer needs a handover of their own</h1>
+  <p class="small" style="margin-top:12px;font-size:26px;line-height:1.3">Illustration, not a real case. Discharge plans that included carers: about a quarter fewer readmissions over 3 to 6 months (relative; multi-part programmes)</p>
+  <div class="scene" id="sc" style="flex:0 0 405px;margin-top:18px"></div>
+  <ol class="steps" style="margin-top:20px;gap:8px">
+   <li style="font-size:30px;grid-template-columns:60px 1fr;gap:16px;align-items:center">Ask what the carer is willing and able to do</li>
+   <li style="font-size:30px;grid-template-columns:60px 1fr;gap:16px;align-items:center">Give a written plan</li>
+   <li style="font-size:30px;grid-template-columns:60px 1fr;gap:16px;align-items:center">Show the task, then watch the carer show it back</li>
+   <li style="font-size:30px;grid-template-columns:60px 1fr;gap:16px;align-items:center">Link the carer to community services</li>
+   <li style="font-size:30px;grid-template-columns:60px 1fr;gap:16px;align-items:center">Say who to call with questions</li>
+  </ol>
+  <p class="small" style="margin-top:14px;font-size:25px;line-height:1.3">Steps 2 to 4 echo components used in some of the tested programmes. Steps 1 and 5 are our suggestions.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Rodakowski et al., J Am Geriatr Soc, 2017</span></div>
+</div>
+<script>
+const W=1000,H=405,g=380,S=.8;
+const man={pose:'seated_side',seat:'chair',x:270,y:g,scale:S,age:'older',sex:'m',skin:'dark',hair:'grey',hairStyle:'short',top:'denim',bottom:'slate',build:'broad'};
+const nurse={pose:'kneeling',role:'nurse',x:540,y:g,scale:S,facing:'left',skin:'olive',hair:'black',hairStyle:'short',sex:'m'};
+const dau={pose:'standing',x:660,y:g,scale:S,facing:'left',age:'adult',sex:'f',skin:'medium',hair:'brown',hairStyle:'bob',top:'sage',bottom:'charcoal',extras:['cardigan'],hold:'notepad'};
+const fr=Kit.anchor("walking_frame",{x:420,y:g,scale:S});
+const sh=Kit.anchor('shelf',{x:880,y:g,scale:S});
+Kit.draw('#sc',W,H,[Kit.room('hospital_bay',{w:W,h:H,ground:g,scale:S}),Kit.shelf({x:900,y:g,height:300,scale:S}),Kit.walking_frame({x:420,y:g,scale:S}),Kit.person(man),Kit.person(nurse),Kit.person(dau)],{cls:'art'});
+const hd=Kit.joint(dau,'head'),nh=Kit.joint(nurse,'nearHand'),dh=Kit.joint(dau,'nearHand');
+Kit.pins('#sc',[{n:1,x:hd.x,y:hd.y-58},{n:2,x:dh.x+40,y:dh.y+20},{n:3,x:fr.grip.x,y:fr.grip.y-60},{n:4,x:900,y:g-330},{n:5,x:nh.x+80,y:nh.y-10}]);
+</script></div></body></html>

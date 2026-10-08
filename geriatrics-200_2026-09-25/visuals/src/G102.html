@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C10-P08</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.foot .src{font-size:22px}.strip{margin-top:18px;gap:16px}.panelbox .cap{font-size:25px;line-height:1.28;padding:12px 16px}.panelbox .art{background:var(--sand)}.last{margin-top:14px;font-size:26px;line-height:1.3;color:var(--ink-2)}</style></head><body><div class="sheet">
+<div class="card "><div class="topline"><span class="series">Weighing it up</span></div><div class="content ">
+<span class="badge illustrative">Illustrative example, not real people</span>
+<h1 class="s" style="margin-top:16px">Quinine for night cramps: time for a review?</h1>
+<div class="strip p4"><div class="panelbox"><div class="art" id="p1"></div><div class="cap"><b>Man:</b> 'I've taken quinine for my cramps for ages. Is it still doing anything?'</div></div><div class="panelbox"><div class="art" id="p2"></div><div class="cap"><b>Pharmacist:</b> 'In trials, cramps fell from about 9 to 6 or 7 a fortnight, on low-quality evidence. Rare harms can be serious.'</div></div><div class="panelbox"><div class="art" id="p3"></div><div class="cap"><b>Pharmacist:</b> 'UK prescribing advice has been to pause it every 3 months to check. Could any of your other medicines be linked?'</div></div><div class="panelbox"><div class="art" id="p4"></div><div class="cap"><b>Man:</b> 'So we pause it, and I try calf stretches before bed.'</div></div></div>
+<p class="last">Under the last panel: no harms were reported in small stretching trials; evidence for benefit is mixed</p></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., Br J Gen Pract 2005; Garrison et al., Arch Intern Med 2012; Hawke et al., Cochrane 2021</span></div></div>
+</div><script>window.__ready=false;
+const R=(id,t,a,b)=>Kit.draw(id,700,330,[Kit.room(t,{w:700,h:330,ground:420,scale:.9,depth:50}),...a],{fit:'xMidYMid slice'});
+const man={age:'older',sex:'m',skin:'light',hair:'white',hairStyle:'balding',top:'denim',bottom:'slate',extras:['cardigan']};
+const ph={role:'pharmacist',sex:'f',skin:'dark',hair:'black',hairStyle:'bun',age:'adult'};
+R('#p1','gp_room',[Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:350,y:350,scale:.9,extras:['cardigan']},man,{extras:['cardigan']}))]);
+R('#p2','gp_room',[Kit.person(Object.assign({pose:'standing',x:300,y:420,scale:.8,facing:'right',hands:{near:{x:390,y:225}}},ph)),Kit.medicine_bottle({x:405,y:232,scale:.8,type:'blister'})]);
+R('#p3','gp_room',[Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:190,y:350,scale:.9},man)),Kit.person(Object.assign({pose:'seated_talking',seat:'chair',x:500,y:350,scale:.9,facing:'left'},ph))]);
+R('#p4','home_living',[Kit.person(Object.assign({pose:'standing',x:300,y:430,scale:.8,lean:6,hands:{near:{x:440,y:250}}},man))]);
+window.__ready=true;</script></body></html>

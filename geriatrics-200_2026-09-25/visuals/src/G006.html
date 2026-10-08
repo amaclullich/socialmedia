@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P06 Checking the six-month figure</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<style>
+ .quote { font-size: 36px; line-height: 1.3; font-weight: 600; font-style: italic; color: var(--deep); border-left: 8px solid var(--pale); padding-left: 26px; }
+ .facts { list-style: none; margin-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+ .facts li { font-size: 30px; line-height: 1.32; padding-left: 30px; position: relative; }
+ .facts li::before { content: ""; position: absolute; left: 0; top: 14px; width: 14px; height: 14px; border-radius: 50%; background: var(--teal); }
+ .icons { margin-top: 22px; padding: 22px 30px; }
+ .icons .lab { font-family: "Montserrat"; font-weight: 800; font-size: 26px; color: var(--teal); }
+ .icons #ia { margin-top: 14px; }
+ .key { display: flex; align-items: center; gap: 14px; font-size: 30px; font-weight: 700; margin-top: 10px; }
+ .key svg { flex: 0 0 auto; }
+ .timeline .ev .t { font-size: 32px; }
+ .timeline .ev .d { font-size: 30px; }
+ .close { margin-top: auto; margin-bottom: 30px; }
+ .close p { font-size: 32px; line-height: 1.34; font-weight: 600; }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <p class="quote">'Half of people who lie on the floor for more than an hour die within six months'</p>
+  <h1 class="mt-m">Half of <em>20 people</em></h1>
+  <ul class="facts">
+   <li>1981: 125 people aged 65 and over who fell at home, from six general practices</li>
+   <li>20 lay on the floor for more than an hour</li>
+  </ul>
+  <div class="panel icons">
+   <div class="lab">The 20 people who lay for more than an hour</div>
+   <div id="ia"></div>
+   <div class="key"><svg width="26" height="40" viewBox="0 0 26 40"><circle cx="13" cy="7" r="6" fill="#C24E12"/><path d="M4,40V20Q4,15 9,15H17Q22,15 22,20V40Z" fill="#C24E12"/></svg>Half of those 20 died within 6 months</div>
+  </div>
+  <ul class="facts"><li>All fallers: a quarter died within a year, 5 times as many as a matched comparison group</li></ul>
+  <p class="body mt-auto" style="margin-bottom:24px"><b>A small observational series. It shows a link, not a cause.</b></p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Wild, Nayak and Isaacs, BMJ 1981</span></div>
+</div>
+
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="s">What newer studies add</h1>
+  <div class="timeline">
+   <div class="ev"><div class="t">1993</div><div class="d">US, 1103 people aged 72 and over: fallers without serious injury who couldn't get up had a lasting loss of everyday abilities more often (35 against 26 in 100). The difference in deaths could have been chance.</div></div>
+   <div class="ev"><div class="t">2008</div><div class="d">Cambridge, people over 90: an hour or more on the floor linked with serious injury; 12 of 20 were admitted after a fall. Deaths not reported.</div></div>
+   <div class="ev hot"><div class="t">2022</div><div class="d">World Falls Guidelines: an hour or more on the floor marks high risk. Do a full falls assessment.</div></div>
+  </div>
+  <div class="panel mint close"><p>Newer cohorts link long lies with serious harm. None updates the six-month death figure.</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Tinetti et al., JAMA 1993; Fleming and Brayne, BMJ 2008; Montero-Odasso et al., Age Ageing 2022</span></div>
+</div>
+
+</div>
+<script>
+const svg = iconArray('#ia', { filled: 10, total: 20, cols: 10, size: 52, gap: 18, shape: 'person', fillColour: 'b' });
+// unfilled people drawn as outlines, so filled against unfilled does not rest on colour alone
+svg.querySelectorAll('[fill="#D5DEDD"]').forEach(e => { e.setAttribute('fill', '#FFFFFF'); e.setAttribute('stroke', '#5F6B76'); e.setAttribute('stroke-width', '3'); });
+svg.setAttribute('overflow', 'visible');
+window.__ready = true;
+</script></body></html>

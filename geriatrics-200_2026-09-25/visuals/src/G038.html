@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C04-P08 Half hour after tablet</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style></style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content"><span class="badge illustrative" style="align-self:flex-start">Illustrative example</span>
+<h1 class="s" style="margin-top:16px">The first half hour after the <em>weekly bone tablet</em></h1>
+<div class="strip p4" style="margin-top:22px"><div class="panelbox"><div class="art" id="p1"></div><div class="cap"><b>First thing, before breakfast.</b> Tablet with a full glass of plain water.</div></div><div class="panelbox"><div class="art" id="p2"></div><div class="cap"><b>Sit or stand.</b> No lying down.</div></div><div class="panelbox"><div class="art" id="p3"></div><div class="cap"><b>No coffee, juice, food or other tablets for 30 minutes.</b> In volunteers, coffee or juice cut absorption by about 60%. Coffee waits.</div></div><div class="panelbox"><div class="art" id="p4"></div><div class="cap"><b>After 30 minutes:</b> breakfast and other medicines.</div></div></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">NOGG 2022; Gertz et al., Clin Pharmacol Ther 1995</span></div>
+</div>
+
+</div>
+<script>
+const W=450,H=300,g=420,S=0.9;
+const man={age:'older',sex:'m',skin:'tan',hair:'grey',hairStyle:'balding',top:'sage',bottom:'slate',extras:['cardigan'],scale:S};
+const wom={age:'older',sex:'f',skin:'olive',hair:'white',hairStyle:'bun',top:'plum',bottom:'stone',scale:S};
+const kc=(n)=>Kit.room('kitchen',{w:W,h:H,ground:g,scale:S});
+Kit.draw('#p1',W,H,[kc(),Kit.kitchen_counter({x:340,y:500,w:260,sink:true,scale:1.15}),Kit.glass({x:Kit.anchor('kitchen_counter',{x:340,y:500,scale:1.15}).top.x-70,y:Kit.anchor('kitchen_counter',{x:340,y:500,scale:1.15}).top.y,scale:1.4,level:0.9}),Kit.person({...man,scale:1.15,pose:'standing',x:150,y:500,hold:'glass'})],{cls:'art'});
+Kit.draw('#p2',W,H,[kc(),Kit.window({x:330,y:g-70*S-170,scale:0.9,curtains:'mustard'}),Kit.person({...man,pose:'standing',view:'front',x:225,y:g})],{cls:'art'});
+const t=Kit.anchor('kitchen_counter',{x:340,y:g,scale:S});
+Kit.draw('#p3',W,H,[kc(),Kit.kitchen_counter({x:340,y:g,w:260,scale:S}),Kit.kettle({x:t.top.x,y:t.top.y,scale:S}),Kit.person({...wom,pose:'stick',x:200,y:g,facing:'right'}),Kit.person({...man,pose:'standing',x:60,y:g,facing:'right',shadow:false})],{cls:'art'});
+const tb=Kit.anchor('table',{x:225,y:g,scale:S});
+Kit.draw('#p4',W,H,[kc(),Kit.table({x:225,y:g,w:240,scale:S}),Kit.plate_meal({x:tb.top.x-50,y:tb.top.y,scale:S}),Kit.cup({x:tb.top.x+60,y:tb.top.y,scale:S}),Kit.person({...man,pose:'seated_side',seat:'chair',x:90,y:g}),Kit.person({...wom,pose:'seated_side',seat:'chair',x:370,y:g,facing:'left'})],{cls:'art'});
+window.__ready = true;
+</script></body></html>

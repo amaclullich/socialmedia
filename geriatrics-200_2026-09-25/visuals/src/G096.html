@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C10-P02</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.foot .src{font-size:22px}.lg{display:flex;align-items:flex-start;gap:16px;font-size:28px;line-height:1.3;margin-top:10px}.lg svg{flex:0 0 34px;margin-top:2px}#arr{margin:22px 0 0 0}.ask{margin-top:18px;font-size:30px;line-height:1.3}.ask p+p{margin-top:8px}</style></head><body><div class="sheet">
+<div class="card "><div class="topline"><span class="series">Weighing it up</span></div><div class="content ">
+<h1 class="m">A year after knee replacement</h1>
+<p style="font-size:31px;line-height:1.35;margin-top:16px">About 13 in 100 still had troublesome knee pain. At 3 months it was about 22 in 100. The true figures are probably higher.</p>
+<div id="arr"></div>
+<div class="lg"><svg width="34" height="34" viewBox="0 0 34 34"><rect x="2" y="2" width="30" height="30" rx="6" fill="url(#hat2)" stroke="#C24E12" stroke-width="3"/><defs><pattern id="hat2" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#C24E12"/><rect width="4" height="10" fill="#FBFAF6"/></pattern></defs></svg><span><b>Troublesome knee pain at 1 year: about 13 in 100</b></span></div>
+<div class="lg"><svg width="34" height="34" viewBox="0 0 34 34"><rect x="2" y="2" width="30" height="30" rx="6" fill="none" stroke="#00909A" stroke-width="3"/></svg><span>Other 87 in 100: did not report troublesome pain in these studies</span></div>
+<div class="ask"><p><b class="teal">Ask: what are my chances of still having pain afterwards?</b></p><p><b class="teal">Ask: what else could I try first?</b></p></div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Cheng et al., BMJ Open 2025 (68 studies, nearly 600,000 people)</span></div></div>
+</div><script>window.__ready=false;
+
+const NS='http://www.w3.org/2000/svg';const s=34,g=8,h=s*1.4;const W=10*s+9*g,Hh=10*h+9*g;
+let m='<defs><pattern id="hat" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#C24E12"/><rect width="4" height="10" fill="#FBFAF6"/></pattern></defs>';
+for(let i=0;i<100;i++){const r=Math.floor(i/10),c=i%10,x=c*(s+g),y=r*(h+g),on=i<13;
+const fill=on?'url(#hat)':'none',st=on?'#C24E12':'#00909A';
+m+=`<g stroke="${st}" stroke-width="3" fill="${fill}"><circle cx="${x+s/2}" cy="${y+s*.26}" r="${s*.22}"/><path d="M${x+s*.12},${y+h} V${y+s*.75} Q${x+s*.12},${y+s*.58} ${x+s*.3},${y+s*.58} H${x+s*.7} Q${x+s*.88},${y+s*.58} ${x+s*.88},${y+s*.75} V${y+h} Z"/></g>`;}
+document.getElementById('arr').innerHTML=`<svg viewBox="0 0 ${W} ${Hh}" width="${W}" height="${Hh}">${m}</svg>`;
+window.__ready=true;</script></body></html>

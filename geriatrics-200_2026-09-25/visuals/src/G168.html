@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card sand" id="s1"><div class="topline"><span class="series">Ask this</span></div>
+<div class="content"><div class="kicker">Illustration. US study of dementia carers, 1996 to 2000</div><h1 class="s">When your partner moves into a care home, ask:</h1>
+<div class="scene" id="sc" style="flex:0 0 400px;margin-top:20px"></div>
+<p class="body" style="margin-top:20px;font-size:30px">Carers were as depressed and anxious after the move as before. Husbands and wives were most affected.</p>
+<div class="panel deep" style="margin-top:20px;padding:26px 36px"><ul class="steps" style="font-size:30px"><li>Who will check how I am managing?</li><li>How does the fees assessment treat our home and my income if I stay in the house?</li><li>Can any of the pension stay with me?</li></ul></div></div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Schulz et al., JAMA, 2004</span></div></div>
+</div><script>
+window.__ready=false;
+const W=1000,H=400,S=0.95,g=380;
+const t=Kit.anchor('table',{x:560,y:g,scale:S});
+Kit.draw('#sc',W,H,[
+ Kit.room('kitchen',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:230,y:g-110,scale:0.9,curtains:'sage'}),
+ Kit.kettle({x:900,y:g-150,scale:S}),
+ Kit.table({x:560,y:g,scale:S,w:260}),
+ Kit.person({pose:'seated_side',seat:'chair',x:480,y:g,scale:S,facing:'right',age:'older',sex:'m',skin:'brown',hair:'grey',hairStyle:'balding',top:'plum',bottom:'slate',extras:['glasses','cardigan'],hands:{near:{x:t.top.x-40,y:t.top.y-10},far:{x:t.top.x-20,y:t.top.y-10}},tilt:8}),
+ Kit.notepad({x:t.top.x-30,y:t.top.y,scale:S}),
+ Kit.cup({x:t.top.x+70,y:t.top.y,scale:S}),
+ Kit.stick({x:395,y:g,angle:-8,type:'crook'}),
+],{cls:'art'});
+window.__ready=true;
+</script></body></html>

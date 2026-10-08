@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P06 Harm</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><style>
+.sw2{display:inline-block;width:30px;height:30px;border-radius:6px;vertical-align:middle;margin-right:12px}
+.lg{font-size:30px;font-weight:600;line-height:1.3;margin-bottom:14px}
+.it{font-size:29px;line-height:1.33;margin-top:16px;padding-left:20px;border-left:6px solid var(--pale)}
+</style>
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="s"><em>37 in 100</em> had harm from medicines within 8 weeks</h1>
+  <p class="small" style="margin-top:16px;color:var(--ink)">1,116 people aged 65 or over leaving five hospitals in southern England, 2013 to 2015.</p>
+  <div style="display:grid;grid-template-columns:400px 1fr;gap:36px;margin-top:20px">
+   <div id="ia"></div>
+   <div>
+    <div class="lg"><svg width="30" height="30" class="sw2" style="vertical-align:middle"><rect width="30" height="30" rx="6" fill="url(#hatch)"/></svg>37 in 100: some harm from medicines</div>
+    <div class="lg"><span class="sw2" style="background:#D5DEDD"></span>63 in 100: no harm recorded</div>
+    <div class="it">Mostly side effects: diarrhoea, constipation, falls, bleeding</div>
+    <div class="it">About 29 in 100 needed NHS care for it, mostly a GP visit</div>
+    <div class="it">About 8 in 100 were readmitted</div>
+    <div class="it">For 4 in 10 with harm, the link was rated only 'possible'</div>
+   </div>
+  </div>
+  <div class="panel deep" style="margin-top:auto;padding:24px 34px;font-size:30px;line-height:1.35">Doctors' predictions at discharge of harm needing healthcare showed <b style="color:var(--gold)">no clear link</b> with who needed it</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Parekh et al., Br J Clin Pharmacol 2018 (two papers)</span></div>
+</div></div>
+<svg width="0" height="0" style="position:absolute"><defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#C24E12"/><rect width="4" height="10" fill="#FBFAF6"/></pattern></defs></svg>
+<script>
+const s=iconArray('#ia',{filled:37,total:100,shape:'person',fillColour:'b',size:34,gap:6,width:400});
+const k=[...s.children];
+const defs=document.createElementNS('http://www.w3.org/2000/svg','defs');
+defs.innerHTML='<pattern id="hatch2" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#C24E12"/><rect width="4" height="10" fill="#FBFAF6"/></pattern>';
+s.insertBefore(defs,s.firstChild);
+k.slice(0,74).forEach(e=>e.setAttribute('fill','url(#hatch2)'));
+window.__ready=true;
+</script></body></html>

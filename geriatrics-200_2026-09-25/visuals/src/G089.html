@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P06</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.m { margin-top: 12px; }
+ .pair { display:grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px; }
+ .fr { border: 4px solid var(--ink); border-radius: 18px; overflow: hidden; background: var(--white); }
+ .fr .sc { height: 470px; position: relative; background: var(--sand); }
+ .fr .sc svg { position:absolute; inset:0; width:100%; height:100%; }
+ .fr .lb { padding: 14px 18px; font-size: 30px; font-weight: 700; border-top: 4px solid var(--ink); display:flex; align-items:center; gap:12px; }
+ .sqm { width: 24px; height: 24px; background: var(--ink); display:inline-block; flex:none; }
+ .cm { width: 24px; height: 24px; border: 4px solid var(--ink); border-radius: 50%; display:inline-block; box-sizing:border-box; flex:none; }
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="m">Ask for a qualified BSL interpreter</h1>
+  <div class="kicker" style="margin-top:12px">British Sign Language (BSL)</div>
+  <div class="pair">
+   <div class="fr"><div class="sc" id="a"></div><div class="lb"><i class="cm"></i>Notes on paper</div></div>
+   <div class="fr"><div class="sc" id="b"></div><div class="lb"><i class="sqm"></i>Qualified BSL interpreter</div></div>
+  </div>
+  <p class="body" style="margin-top:22px;font-size:32px">For many Deaf people who sign, BSL is a first language. Written English can be hard to follow. Booking an interpreter is the service's job.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Rogers et al, PLOS Glob Public Health 2025; Emond et al, BMJ Open 2015</span></div>
+</div>
+</div>
+<script>
+const K = Kit, W = 420, H = 470, S = 0.78, g = 440;
+const gp = { sex: 'f', role: 'doctor', skin: 'light', hair: 'brown', hairStyle: 'bob', age: 'adult' };
+const man = { age: 'older', sex: 'm', skin: 'tan', hair: 'grey', hairStyle: 'balding', top: 'mustard', bottom: 'slate', extras: ['glasses', 'beard'], beardColour: 'grey' };
+const interp = { sex: 'm', skin: 'dark', hair: 'black', hairStyle: 'cropped', age: 'young', top: 'charcoal', bottom: 'charcoal' };
+const room = () => K.room('gp_room', { w: W, h: H, ground: g, scale: S });
+const d = K.anchor('desk', { x: 215, y: g, scale: S });
+K.draw('#a', W, H, [room(),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 85, y: g, scale: S, hold: 'notepad', tilt: 15 }, gp)),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 345, y: g, scale: S, facing: 'left', hold: 'notepad', tilt: 18 }, man)),
+  K.desk({ x: 215, y: g, w: 150, scale: S })], { cls: 'art' });
+K.draw('#b', W, H, [room(),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 85, y: g, scale: S }, gp)),
+  K.person(Object.assign({ pose: 'standing', x: 190, y: g, scale: S, hands: { near: { x: 230, y: g - 215 }, far: { x: 200, y: g - 225 } } }, interp)),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 345, y: g, scale: S, facing: 'left', hands: { near: { x: 300, y: g - 175 } } }, man)),
+  K.desk({ x: 230, y: g, w: 90, scale: S, facing: 'left' })], { cls: 'art' });
+window.__ready = true;
+</script></body></html>

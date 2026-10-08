@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C19-P12 CPR television and UK</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>.key{display:flex;gap:26px;flex-wrap:wrap;margin-top:12px;font-size:26px;line-height:1.3}
+ .key span{display:inline-flex;align-items:center;gap:10px}
+ .key svg{flex:0 0 auto}
+ .cap{font-size:30px;line-height:1.3;font-weight:600;margin-top:16px}
+ .cap b{font-family:Montserrat;font-weight:800;color:var(--orange);font-size:34px}
+ .fact{margin-top:12px;border-left:8px solid var(--teal);background:var(--mint);border-radius:0 16px 16px 0;padding:14px 24px;font-size:30px;font-weight:700;line-height:1.3}
+ .ttl{font-family:Montserrat;font-weight:800;font-size:30px;color:var(--teal);margin-bottom:8px;height:36px}
+ .cap{min-height:92px;margin-top:10px}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <div class="kicker">Out of every 100 people given CPR: how many survived to leave hospital</div>
+  <h1 class="s">CPR on television and in UK hospitals</h1>
+  <div class="grid2" style="margin-top:26px;gap:36px">
+   <div><div class="ttl"><svg width="44" height="38" viewBox="0 0 44 38" style="vertical-align:-6px;margin-right:8px"><rect x="3" y="7" width="38" height="26" rx="5" fill="none" stroke="#1F2A30" stroke-width="3"/><path d="M15 3 L22 7 L29 3" fill="none" stroke="#1F2A30" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg> TV</div><div id="g1"></div><p class="cap">US TV programmes, 1990s: <b>67</b> in 100 appeared to survive</p></div>
+   <div><div class="ttl">UK hospitals</div><div id="g2"></div><p class="cap">UK hospitals, audit data: <b>18</b> in 100 survived</p></div>
+  </div>
+  <div class="key" style="margin-top:0"><span><svg width="26" height="34" viewBox="0 0 26 34"><circle cx="13" cy="7" r="5" fill="#00909A" stroke="#00909A" stroke-width="3"/><path d="M3 32V18Q3 14 8 14H18Q23 14 23 18V32Z" fill="#00909A" stroke="#00909A" stroke-width="3" stroke-linejoin="round"/></svg> Survived to leave hospital</span><span><svg width="26" height="34" viewBox="0 0 26 34"><circle cx="13" cy="7" r="5" fill="none" stroke="#5F6B76" stroke-width="3"/><path d="M3 32V18Q3 14 8 14H18Q23 14 23 18V32Z" fill="none" stroke="#5F6B76" stroke-width="3" stroke-linejoin="round"/></svg> Did not</span></div>
+  <p class="fact">For the most common kind of heart stop in UK hospitals: about 1 in 10</p>
+  <p class="small" style="margin-top:16px">The two figures are not like for like. UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Diem, N Engl J Med 1996; Nolan, Resuscitation 2014</span></div>
+</div>
+</div>
+<script>
+function pgrid(target,filled,s,h,g,vg){const NS="http://www.w3.org/2000/svg";const W=10*s+9*g,H=10*h+9*vg;const svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.setAttribute("width",W);svg.setAttribute("height",H);
+function e(t,a){const x=document.createElementNS(NS,t);for(const k in a)x.setAttribute(k,a[k]);svg.appendChild(x);}
+for(let i=0;i<100;i++){const r=Math.floor(i/10),c=i%10,x=c*(s+g),y=r*(h+vg),on=i<filled;
+ const st=on?{fill:"#00909A",stroke:"#00909A"}:{fill:"none",stroke:"#5F6B76"};
+ e("circle",{cx:x+s/2,cy:y+h*0.2,r:s*0.2,"stroke-width":3,...st});
+ e("path",{d:`M${x+3},${y+h-2} V${y+h*0.55} Q${x+3},${y+h*0.4} ${x+s*0.25},${y+h*0.4} H${x+s*0.75} Q${x+s-3},${y+h*0.4} ${x+s-3},${y+h*0.55} V${y+h-2} Z`,"stroke-width":3,"stroke-linejoin":"round",...st});}
+document.querySelector(target).appendChild(svg);}
+pgrid("#g1",67,30,32,8,4);pgrid("#g2",18,30,32,8,4);
+window.__ready = true;
+</script></body></html>

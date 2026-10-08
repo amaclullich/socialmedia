@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P05</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.s { margin-top: 12px; }
+ .scene { margin-top: 18px; flex: none; height: 470px; }
+ .nums { display:flex; flex-direction:column; gap: 10px; margin-top: 14px; font-size: 30px; line-height:1.3; font-weight:600; }
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Ask the person with dementia directly</h1>
+  <div class="scene" id="sc"></div>
+  <p class="body" style="margin-top:20px">Picture cards on a mat are one way to do it.</p>
+  <div class="nums"><div>18 couples, small study: both felt more involved.</div><div>101 people, 2026 trial: involvement high in both groups, no clear difference.</div></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Murphy and Oliver 2013; Bångsbo et al, BMC Geriatr 2026</span></div>
+</div>
+</div>
+<script>
+const K = Kit, W = 920, H = 520, S = 0.95, g = 470;
+const t = K.anchor('table', { x: 460, y: g, scale: S });
+const ty = t.top.y;
+const mat = `<rect x="330" y="${ty-12}" width="260" height="12" rx="4" fill="#DCEBEA" stroke="#1F2A30" stroke-width="3"/>`;
+const card = (x, y, c, glyph) => `<g><rect x="${x}" y="${y}" width="46" height="34" rx="5" fill="#FBFAF6" stroke="#1F2A30" stroke-width="3"/>${glyph(x+23,y+17,c)}</g>`;
+const dot = (x,y,c)=>`<circle cx="${x}" cy="${y}" r="8" fill="${c}"/>`;
+const sq = (x,y,c)=>`<rect x="${x-9}" y="${y-7}" width="18" height="14" fill="${c}"/>`;
+const tri = (x,y,c)=>`<path d="M${x-9} ${y+7} L${x} ${y-8} L${x+9} ${y+7}Z" fill="${c}"/>`;
+const cards = card(350, ty-38, '#15535B', dot) + card(410, ty-38, '#C24E12', sq) + card(470, ty-38, '#15535B', tri) + card(530, ty-38, '#C24E12', dot);
+K.draw('#sc', W, H, [
+  K.room('kitchen', { w: W, h: H, ground: g, scale: S }),
+  K.window({ x: 760, y: 190, scale: 1, curtains: 'sage' }),
+  K.person({ pose: 'seated_side', seat: 'chair', x: 250, y: g, scale: S, age: 'older', sex: 'f', skin: 'light', hair: 'silver', hairStyle: 'pixie', top: 'green', bottom: 'stone', extras: ['cardigan'], cardigan: 'green', hands: { near: { x: 420, y: ty - 30 } } }),
+  K.person({ pose: 'seated_side', seat: 'chair', x: 690, y: g, scale: S, facing: 'left', age: 'older', sex: 'm', build: 'broad', skin: 'fair', hair: 'grey', hairStyle: 'balding', top: 'navy', bottom: 'charcoal', extras: ['glasses', 'beard'], beardColour: 'grey', hands: 'lap' }),
+  K.table({ x: 460, y: g, w: 330, scale: S }),
+  mat + cards,
+  K.cup({ x: 640, y: ty, scale: S, colour: 'mustard' })
+], { cls: 'art' });
+window.__ready = true;
+</script></body></html>

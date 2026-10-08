@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C13-P04</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="m"><em>38 minutes</em> of one-to-one help per meal, in one US study</h1>
+  <p class="lead" style="margin-top:50px;font-size:34px;font-weight:700">Minutes of help per resident per meal</p>
+  <div id="b1" class="chart" style="margin-top:10px"></div>
+  <p class="body" style="margin-top:50px">Half of the 74 residents ate and drank significantly more with this help.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Simmons et al., J Gerontol A 2001. 74 residents, 3 US nursing homes, 2 days</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="m">A later trial found a <em>similar gap</em></h1>
+  <p class="lead" style="margin-top:50px;font-size:34px;font-weight:700">Minutes of help per person per meal</p>
+  <div id="b2" class="chart" style="margin-top:10px"></div>
+  <p class="body" style="margin-top:50px">Across the four homes, directors of nursing reported one care aide for 6 to 11 residents on the day shift. US figures; no UK figure was found.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Simmons et al., J Am Geriatr Soc 2008. 76 residents, 4 US nursing homes</span></div>
+</div>
+</div>
+<script>
+function fix(svg){svg.querySelectorAll('path').forEach(p=>{if(p.getAttribute('fill')==='#D5DEDD')p.setAttribute('fill','#7C8A93')});}
+fix(barChart('#b1',[{label:'Usual care',value:9,display:'9 minutes',colour:'empty'},{label:'One-to-one help by research staff',value:38,display:'38 minutes',colour:'a'}],{max:40,width:920,valueRoom:200,barH:60,gap:110,ticks:[0,10,20,30,40]}));
+fix(barChart('#b2',[{label:'Usual care',value:5,display:'about 5 minutes',colour:'empty'},{label:'Trained research staff (19 residents helped)',value:42,display:'42 minutes',colour:'a'}],{max:50,width:920,valueRoom:230,barH:60,gap:110,ticks:[0,10,20,30,40,50]}));
+window.__ready=true;
+</script></body></html>

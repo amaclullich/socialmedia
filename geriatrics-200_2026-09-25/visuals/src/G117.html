@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P02 Cranberry and urine infections</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>
+ .it { font-size:31px; line-height:1.34; padding:18px 0 18px 26px; border-left:8px solid var(--teal); margin-top:16px; }
+ .it.b2 { border-left-color:var(--pale); }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="s">Cranberry and urine infections: it depends who was studied</h1>
+  <p class="small" style="margin-top:14px;color:var(--ink);font-weight:600">People with a urine infection, out of 100, during the trials</p>
+  <div id="ch" style="margin-top:6px"></div>
+  <div class="legend" style="margin-top:6px;gap:40px"><span class="k"><svg width="30" height="30"><rect width="30" height="30" rx="5" fill="#0F3C4F"/></svg>Without cranberry</span><span class="k"><svg width="30" height="30"><rect width="30" height="30" rx="5" fill="url(#hatch)" stroke="#00909A" stroke-width="3"/></svg>With cranberry</span></div>
+  <div class="it" style="margin-top:22px">Women who keep getting urine infections: 24 in 100 without cranberry, 18 in 100 with it. Probably fewer infections (moderate certainty).</div>
+  <div class="it b2">Older people in care homes or other institutions: about 11 in 100 either way. No clear benefit shown. Uncertain: anything from about 4 fewer to about 3 more per 100.</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Williams et al., Cochrane Database of Systematic Reviews, 2023</span></div>
+</div>
+</div>
+<svg width="0" height="0" style="position:absolute"><defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#FBFAF6"/><rect width="6" height="12" fill="#00909A"/></pattern></defs></svg>
+<script>
+const NS='http://www.w3.org/2000/svg';
+const W=920,H=380,T=40,ph=270,x0=70,base=T+ph;
+const svg=document.createElementNS(NS,'svg'); svg.setAttribute('viewBox',`0 0 ${W} ${H}`); svg.setAttribute('width',W); svg.setAttribute('height',H);
+let h='<defs><pattern id="hatch2" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#FBFAF6"/><rect width="6" height="12" fill="#00909A"/></pattern></defs>';
+const y=v=>T+ph*(1-v/30);
+[0,10,20,30].forEach(t=>{h+=`<line x1="${x0}" x2="${W}" y1="${y(t)}" y2="${y(t)}" stroke="#D9DEDC" stroke-width="2"/><text x="${x0-14}" y="${y(t)+9}" text-anchor="end" font-size="26" fill="#5F6B76" font-family="Inter">${t}</text>`});
+const bars=[[150,24.3,'24',0],[290,18,'18',1],[570,11.3,'11',0],[710,10.5,'10.5',1]];
+bars.forEach(([x,v,l,hat])=>{
+ h+=`<rect x="${x}" y="${y(v)}" width="120" height="${base-y(v)}" fill="${hat?'url(#hatch2)':'#0F3C4F'}" ${hat?'stroke="#00909A" stroke-width="4"':''}/>`;
+ h+=`<text x="${x+60}" y="${(x==710?y(14.7):y(v))-14}" text-anchor="middle" font-size="36" font-weight="800" fill="#C24E12" font-family="Montserrat">${l}</text>`;
+});
+// range whisker on institution cranberry bar (about 7.6 to 14.7)
+h+=`<g stroke="#1F2A30" stroke-width="4"><line x1="770" x2="770" y1="${y(7.6)}" y2="${y(14.7)}"/><line x1="755" x2="785" y1="${y(7.6)}" y2="${y(7.6)}"/><line x1="755" x2="785" y1="${y(14.7)}" y2="${y(14.7)}"/></g>`;
+h+=`<line x1="${x0}" x2="${W}" y1="${base}" y2="${base}" stroke="#5F6B76" stroke-width="3"/>`;
+h+=`<text x="270" y="${base+40}" text-anchor="middle" font-size="27" font-weight="700" fill="#1F2A30" font-family="Inter">Women with repeat infections</text>`;
+h+=`<text x="690" y="${base+40}" text-anchor="middle" font-size="27" font-weight="700" fill="#1F2A30" font-family="Inter">Older people in institutions</text>`;
+svg.innerHTML=h; document.getElementById('ch').appendChild(svg);
+window.__ready=true;
+</script></body></html>

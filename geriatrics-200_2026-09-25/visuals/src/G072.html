@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P12 Time-limited trial</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content"><div class="kicker" style="margin-bottom:8px">Teaching round</div>
+<h1 class="s">A time-limited trial, from agreement to review</h1>
+<p class="body" style="font-size:28px;margin-top:12px">Core items from the ATS 2024 consensus for intensive care (16 elements in full)</p>
+<div id="tl" class="chart" style="margin-top:14px"></div>
+<ol class="steps" style="margin-top:20px;gap:12px">
+<li style="font-size:30px;line-height:1.28"><span><b style="display:inline;font-size:30px">Agree:</b> offered to the person or family, who can agree to it</span></li>
+<li style="font-size:30px;line-height:1.28"><span><b style="display:inline;font-size:30px">Name:</b> the treatment and how long it will run</span></li>
+<li style="font-size:30px;line-height:1.28"><span><b style="display:inline;font-size:30px">Define:</b> the signs that would show it is working or not</span></li>
+<li style="font-size:30px;line-height:1.28"><span><b style="display:inline;font-size:30px">Review on the agreed date:</b> carry on, stop and focus on comfort, or extend</span></li></ol></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kruser et al., Ann Am Thorac Soc 2024</span></div>
+</div>
+</div>
+<script>
+(function(){
+ const NS='http://www.w3.org/2000/svg',W=920,H=330;
+ const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.setAttribute('width',W);svg.setAttribute('height',H);
+ const F='font-family="Inter"';
+ let h=`<rect x="70" y="120" width="440" height="70" fill="#DCEBEA" stroke="#15535B" stroke-width="3"/>
+ <line x1="40" y1="155" x2="510" y2="155" stroke="#15535B" stroke-width="6"/>
+ <circle cx="70" cy="155" r="16" fill="#15535B"/><circle cx="510" cy="155" r="16" fill="#C24E12"/>
+ <text x="70" y="226" font-size="28" font-weight="700" fill="#1F2A30" text-anchor="middle" ${F}>Start</text>
+ <text x="530" y="226" font-size="28" font-weight="700" fill="#1F2A30" text-anchor="end" ${F}>Review date</text>`;
+ [[1,70,92],[2,230,92],[3,380,92],[4,510,92]].forEach(([n,cx,cy])=>{h+=`<circle cx="${cx}" cy="${cy}" r="24" fill="#C24E12"/><text x="${cx}" y="${cy+10}" font-size="28" font-weight="800" fill="#fff" text-anchor="middle" ${F}>${n}</text><line x1="${cx}" y1="${cy+24}" x2="${cx}" y2="${n==1||n==4?139:120}" stroke="#C24E12" stroke-width="3"/>`;});
+ [['Carry on',20],['Focus on comfort',125],['Extend',230]].forEach(([t,y])=>{h+=`<path d="M526,155 L600,${y+35}" stroke="#15535B" stroke-width="4" fill="none"/><path d="M600,${y+35} l-14,-4 M600,${y+35} l-8,13" stroke="#15535B" stroke-width="4"/><rect x="610" y="${y}" width="300" height="70" rx="14" fill="#fff" stroke="#15535B" stroke-width="4"/><text x="760" y="${y+45}" font-size="30" font-weight="700" fill="#1F2A30" text-anchor="middle" ${F}>${t}</text>`;});
+ svg.innerHTML=h;document.getElementById('tl').appendChild(svg);
+})();
+window.__ready = true;
+</script></body></html>

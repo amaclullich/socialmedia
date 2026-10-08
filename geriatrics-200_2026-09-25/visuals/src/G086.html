@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P03</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.s { margin-top: 10px; font-size: 54px; }
+ .strip.p3 { margin-top: 20px; gap: 16px; }
+ .panelbox .cap { font-size: 28px; padding: 12px 18px; }
+ .bubble { font-size: 25px; padding: 8px 14px; }
+ .rule2 { font-size: 32px; line-height: 1.34; font-weight: 600; margin-top: 18px; }
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content">
+  <span class="badge illustrative">Illustrative example</span>
+  <h1 class="s">Going with a parent to an appointment</h1>
+  <div class="strip p3">
+   <div class="panelbox"><div class="art" id="p1"><div class="bubble" style="left:470px;top:6px;max-width:250px">She has been dizzy in the mornings.</div></div><div class="cap">Without a plan, the daughter answers for her mother.</div></div>
+   <div class="panelbox"><div class="art" id="p2"><div class="bubble" style="left:250px;top:8px;max-width:260px">I will tell her about the mornings.</div><div class="bubble" style="left:540px;top:8px;max-width:270px">And I will add anything you miss.</div></div><div class="cap">The evening before, they agree who says what.</div></div>
+   <div class="panelbox"><div class="art" id="p3"><div class="bubble" style="left:470px;top:6px;max-width:250px">What do you think, Mum?</div></div><div class="cap">In the room, the daughter asks what her mother thinks.</div></div>
+  </div>
+  <p class="rule2">Agree beforehand who says what. Ask questions that let them speak.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Clayman et al, 2005; Laidsaar-Powell et al, 2013</span></div>
+</div>
+</div>
+<script>
+const K = Kit, W = 1000, H = 190, S = 0.74, g = 300;
+const mum = { age: 'older', sex: 'f', skin: 'light', hair: 'white', hairStyle: 'bun', top: 'plum', bottom: 'stone', extras: ['cardigan'], cardigan: 'sage' };
+const dau = { age: 'adult', sex: 'f', skin: 'olive', hair: 'dark', hairStyle: 'ponytail', top: 'denim', bottom: 'charcoal' };
+const doc = { role: 'doctor', sex: 'm', skin: 'brown', hair: 'black', hairStyle: 'cropped' };
+const clinic = () => [K.room('gp_room', { w: W, h: H, ground: g, scale: S })];
+const dk = K.anchor('desk', { x: 840, y: g, scale: S });
+// panel 1
+K.draw('#p1', W, H, [...clinic(),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 170, y: g, scale: S, tilt: 22 }, mum)),
+  K.stick({ x: 270, y: g, angle: 8, scale: S, type: 'crook', colour: '#7B5335' }),
+  K.person(Object.assign({ pose: 'seated_talking', seat: 'chair', x: 420, y: g, scale: S, lean: 8 }, dau)),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 800, y: g, scale: S, facing: 'left', tilt: 4 }, doc)),
+  K.desk({ x: 760, y: g, w: 220, scale: S })]);
+// panel 2
+const kit2 = () => [K.room('kitchen', { w: W, h: H, ground: g, scale: S })];
+K.draw('#p2', W, H, [...kit2(),
+  K.person(Object.assign({ pose: 'seated_talking', seat: 'chair', x: 250, y: g, scale: S }, mum)),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 730, y: g, scale: S, facing: 'left', hold: 'notepad' }, dau)),
+  K.table({ x: 490, y: g, w: 260, scale: S }),
+  K.cup({ x: 440, y: K.anchor('table', { x: 490, y: g, scale: S }).top.y, scale: S }),
+  K.cup({ x: 560, y: K.anchor('table', { x: 490, y: g, scale: S }).top.y, scale: S, colour: 'mustard' })]);
+// panel 3
+K.draw('#p3', W, H, [...clinic(),
+  K.person(Object.assign({ pose: 'seated_talking', seat: 'chair', x: 170, y: g, scale: S, tilt: -4 }, mum)),
+  K.stick({ x: 80, y: g, angle: -6, scale: S, type: 'crook', colour: '#7B5335' }),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 420, y: g, scale: S, tilt: 0 }, dau)),
+  K.person(Object.assign({ pose: 'seated_side', seat: 'chair', x: 800, y: g, scale: S, facing: 'left', tilt: 4 }, doc)),
+  K.desk({ x: 760, y: g, w: 220, scale: S })]);
+window.__ready = true;
+</script></body></html>

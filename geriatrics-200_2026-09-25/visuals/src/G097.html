@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C10-P03</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.foot .src{font-size:22px}.scene{flex:0 0 560px;margin-top:20px}.key{list-style:none;margin-top:22px;display:flex;flex-direction:column;gap:8px}.key li{display:grid;grid-template-columns:48px 1fr;font-size:28px;line-height:1.28;align-items:start}.key li i{font-style:normal;width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font:800 22px Montserrat;display:flex;align-items:center;justify-content:center}</style></head><body><div class="sheet">
+<div class="card "><div class="topline"><span class="series">Small detail, real effect</span></div><div class="content ">
+<h1 class="s">Count the paracetamol in every packet</h1>
+<p style="font-size:29px;line-height:1.3;margin-top:12px">Usual maximum for most adults: 4 g in 24 hours, about eight 500 mg tablets, across all products.</p>
+<div class="scene" id="sc"></div>
+<ul class="key"><li><i>1</i><span>Co-codamol: codeine plus paracetamol</span></li><li><i>2</i><span>Co-dydramol: dihydrocodeine plus paracetamol</span></li><li><i>3</i><span>Some cold and flu remedies contain paracetamol</span></li><li><i>4</i><span>Plain paracetamol</span></li><li><i>5</i><span>Under 50 kg or frail? Ask whether a lower maximum suits you</span></li></ul></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Wolf 2012; Chidiac 2024; Reid 2022</span></div></div>
+</div><script>window.__ready=false;
+const W=1000,Hh=600,g=570,S=1.4;const t=Kit.anchor('table',{x:640,y:g,scale:S});
+Kit.draw('#sc',W,Hh,[Kit.room('kitchen',{w:W,h:Hh,ground:g,scale:S}),Kit.table({x:640,y:g,scale:S,w:260}),
+Kit.person({pose:'seated_side',seat:'chair',x:290,y:g,scale:S,age:'older',sex:'f',skin:'dark',hair:'white',hairStyle:'curly',top:'plum',bottom:'slate',extras:['glasses','cardigan'],hands:{near:{x:t.top.x-70,y:t.top.y-20}}}),
+Kit.cup({x:t.top.x+135,y:t.top.y,scale:S}),
+Kit.medicine_bottle({x:t.top.x-100,y:t.top.y,scale:S,type:'box'}),Kit.medicine_bottle({x:t.top.x-40,y:t.top.y,scale:S*.9,type:'box'}),Kit.medicine_bottle({x:t.top.x+15,y:t.top.y,scale:S*.8,type:'box'}),
+Kit.medicine_bottle({x:t.top.x+75,y:t.top.y,scale:S,type:'blister'})],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:t.top.x-100,y:t.top.y-120},{n:2,x:t.top.x-40,y:t.top.y-140},{n:3,x:t.top.x+15,y:t.top.y-115},{n:4,x:t.top.x+75,y:t.top.y-110},{n:5,x:215,y:g-480}]);
+window.__ready=true;</script></body></html>

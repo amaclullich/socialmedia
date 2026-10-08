@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P10 Ibuprofen</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><style>
+.pills{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px;text-align:center}
+.pills .pl{font-size:30px;line-height:1.3;font-weight:600}
+.pills svg{display:block;margin:0 auto 14px}
+</style>
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="m">Ibuprofen plus these two? <em>Ask a pharmacist first</em></h1>
+  <div class="pills">
+   <div class="pl"><svg width="150" height="90" viewBox="0 0 150 90"><circle cx="75" cy="45" r="40" fill="#fff" stroke="#1F2A30" stroke-width="4"/><line x1="35" y1="45" x2="115" y2="45" stroke="#1F2A30" stroke-width="4"/></svg>Water tablet (diuretic)</div>
+   <div class="pl"><svg width="150" height="90" viewBox="0 0 150 90"><rect x="20" y="22" width="110" height="46" rx="23" fill="#DCEBEA" stroke="#1F2A30" stroke-width="4"/><line x1="75" y1="22" x2="75" y2="68" stroke="#1F2A30" stroke-width="4"/></svg>Blood pressure tablet such as ramipril or losartan</div>
+   <div class="pl"><svg width="150" height="90" viewBox="0 0 150 90"><rect x="35" y="5" width="80" height="80" rx="22" fill="#fff" stroke="#1F2A30" stroke-width="4"/><circle cx="75" cy="45" r="14" fill="none" stroke="#1F2A30" stroke-width="4"/></svg>Anti-inflammatory painkiller such as ibuprofen or naproxen</div>
+  </div>
+  <svg viewBox="0 0 920 400" width="100%" style="margin-top:10px;display:block">
+   <g stroke="#15535B" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M153,10 L390,190"/><path d="M460,10 L460,170"/><path d="M767,10 L530,190"/>
+   </g>
+   <g fill="#15535B"><path d="M392,180 L424,196 L402,214 Z"/><path d="M440,176 L480,176 L460,208 Z"/><path d="M528,180 L496,196 L518,214 Z"/></g>
+   <circle cx="460" cy="300" r="86" fill="none" stroke="#C24E12" stroke-width="5" stroke-dasharray="2 12" stroke-linecap="round"/>
+   <path transform="translate(460 300) scale(1.4) translate(-460 -265)" d="M492,225 C440,205 410,235 415,268 C420,300 450,312 462,298 C470,288 458,282 462,272 C466,262 500,272 504,255 C506,242 500,232 492,225 Z" fill="#DCEBEA" stroke="#1F2A30" stroke-width="5" stroke-linejoin="round"/>
+  </svg>
+  <div class="panel mint" style="margin-top:auto;font-size:32px;line-height:1.35;font-weight:600;text-align:center">Linked with sudden kidney injury; larger absolute risk with all three together</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Lapi et al., BMJ 2013; Dreischulte et al., Kidney Int 2015</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Small detail, real effect</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="s">About <em>1 extra</em> kidney injury for every 158 people on all three medicines for a year</h1>
+  <p class="body" style="font-size:31px;font-weight:700;margin-top:30px">With both medicines: about 1 extra in 158 per year</p>
+  <div id="ia" style="margin-top:14px"></div>
+  <div class="panel mint" style="margin-top:28px;font-size:31px;font-weight:700;padding:24px 34px">With only one: fewer than 1 extra in 300 per year</div>
+  <p class="small" style="margin-top:auto;color:var(--ink)">Kidney injury on blood tests, Tayside, Scotland</p>
+  <p class="small" style="margin-top:6px;margin-bottom:26px">Prescribed anti-inflammatories over a year; a link, not proof of cause</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Dreischulte et al., Kidney Int 2015</span></div>
+</div></div>
+<script>
+const s=iconArray('#ia',{filled:1,total:158,cols:20,shape:'person',fillColour:'b',size:28,gap:8,width:920});
+window.__ready=true;
+</script></body></html>

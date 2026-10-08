@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C05-P03</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style>.lg{display:flex;flex-direction:column;gap:14px;font-size:30px;line-height:1.3}.lg .r{display:flex;gap:18px;align-items:center}.lg svg{flex:0 0 auto}.ld{display:flex;gap:18px;align-items:center;padding:10px 0;font-size:30px}.ld svg{flex:0 0 auto}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content"><div class="kicker">100 older people living at home, about 4 years later on average</div>
+ <h1 class="m">Frailty changed in <em>both directions</em></h1>
+ <p class="body" style="font-size:30px;margin-top:16px">Among people who were frail, improvement was mostly to a milder early stage (prefrail)</p>
+ <div style="display:flex;gap:40px;margin-top:30px;align-items:flex-start">
+  <svg id="ia" viewBox="0 0 540 540" width="540" height="540" style="flex:0 0 auto"></svg>
+  <div style="display:flex;flex-direction:column;gap:34px;padding-top:10px">
+   <div><svg width="60" height="64" viewBox="-6 -6 66 70" id="k1"></svg><div style="font-size:32px;font-weight:700;margin-top:6px">Less frail: 14</div></div>
+   <div><svg width="60" height="64" viewBox="-6 -6 66 70" id="k2"></svg><div style="font-size:32px;font-weight:700;margin-top:6px">Same: 57</div></div>
+   <div><svg width="60" height="64" viewBox="-6 -6 66 70" id="k3"></svg><div style="font-size:32px;font-weight:700;margin-top:6px">More frail: 29</div></div>
+  </div></div>
+  <p class="small" style="margin-top:26px">16 studies, 42,775 people living at home; one checklist of five physical signs of frailty</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kojima et al., Ageing Res Rev 2019</span></div>
+</div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+function glyph(c,k,x,y,sz){ // person 44x52 plus arrow
+ const g=document.createElementNS(NS,'g');g.setAttribute('transform',`translate(${x},${y}) scale(${sz/54})`);
+ let a=`<circle cx="22" cy="12" r="10" fill="${c}"/><path d="M4 52 V34 a18 18 0 0 1 36 0 V52 Z" fill="${c}"/>`;
+ if(k=='u')a+=`<path d="M52 4 L42 20 L62 20 Z" fill="${c}" transform="translate(-4,0)"/>`;
+ if(k=='d')a+=`<path d="M52 20 L42 4 L62 4 Z" fill="${c}" transform="translate(-4,0)"/>`;
+ g.innerHTML=a;return g}
+const T='#00909A',O='#C24E12',G='#B3BDBC';
+const s=document.getElementById('ia');
+for(let i=0;i<100;i++){const r=Math.floor(i/10),c=i%10;
+ const [col,k]=i<14?[T,'u']:i<71?[G,'']:[O,'d'];
+ s.appendChild(glyph(col,k,c*54,r*54,44));}
+glyph;[['k1',T,'u'],['k2',G,''],['k3',O,'d']].forEach(a=>document.getElementById(a[0]).appendChild(glyph(a[1],a[2],0,0,60)));
+window.__ready=true;
+</script></body></html>

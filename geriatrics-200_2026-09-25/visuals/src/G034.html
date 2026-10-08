@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C04-P04 Vitamin D trials</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style></style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">1/3</span></div>
+ <div class="content"><div class="kicker">VITAL, about 5 years</div>
+<h1 class="m">Vitamin D alone: <em>no fewer broken bones</em></h1>
+<p class="lead" style="margin-top:22px">About 6 in 100 broke a bone in each group.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:34px">
+ <div><div id="a1"></div><p class="body" style="margin-top:16px"><b>Vitamin D</b><br>769 of 12,927</p></div>
+ <div><div id="a2"></div><p class="body" style="margin-top:16px"><b>Dummy pill</b><br>782 of 12,944</p></div>
+</div>
+<p class="small" style="margin-top:22px">Each block is 1 person in 100. Filled blocks broke a bone.</p></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">LeBoff et al., NEJM 2022</span></div>
+</div>
+<div class="card " id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/3</span></div>
+ <div class="content"><h1 class="m">Who was <em>in the trial</em></h1>
+<div class="bignum m" style="margin-top:34px">2 in 100</div><p class="bignum-label">had very low vitamin D</p>
+<p class="lead" style="margin-top:28px">Mostly healthy adults aged 50 and over.</p>
+<ul class="ticks" style="margin-top:34px"><li>Not designed to test people who are short of vitamin D</li><li>Authors: may not apply to people with osteoporosis or in care homes</li></ul></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">LeBoff et al., NEJM 2022</span></div>
+</div>
+<div class="card " id="s3">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">3/3</span></div>
+ <div class="content"><h1 class="m">What the trials <em>do not change</em></h1>
+<p class="lead" style="margin-top:22px">With calcium, combined trials: slightly fewer hip fractures.</p>
+<span class="badge illustrative" style="align-self:flex-start;margin-top:26px">Estimates</span>
+<div id="hc" style="margin-top:20px"></div>
+<p class="small">Fewer hip fractures per 1000 people a year with vitamin D and calcium.</p>
+<div class="panel deep" style="margin-top:34px;padding:30px 36px"><p class="lead" style="margin-top:0;font-size:36px">On a bone medicine? You still need enough vitamin D.</p></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Avenell et al., Cochrane 2014; NOGG 2022</span></div>
+</div>
+
+</div>
+<script>
+iconArray('#a1',{filled:6,total:100,cols:10,size:34,gap:7,shape:'square',fillColour:'a'});
+iconArray('#a2',{filled:6,total:100,cols:10,size:34,gap:7,shape:'square',fillColour:'b'});
+barChart('#hc',[{label:'At home',value:1,display:'about 1 fewer per 1000 a year',colour:'a'},{label:'Care homes',value:9,display:'about 9 fewer per 1000 a year',colour:'b'}],{max:30,width:920,valueRoom:20});
+window.__ready = true;
+</script></body></html>

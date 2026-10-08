@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P11</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<style>
+ .grid100 { margin: 28px auto 0; display:block; }
+ .lg { display:flex; gap: 40px; margin-top: 24px; font-size: 32px; font-weight: 700; justify-content: center; align-items:center; }
+ .lg span { display:flex; align-items:center; gap: 12px; }
+ svg.dr { display:block; margin: 30px auto 0; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <div class="kicker">Imagined end-of-life treatment questions</div>
+  <h1 class="m">Relatives matched the person's answer about 2 times in 3</h1>
+  <svg class="grid100" id="g" width="760" height="760" viewBox="0 0 760 760"></svg>
+  <div class="lg">
+   <span><svg width="40" height="40" viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="6" fill="#00909A"/><path d="M10 21 L17 28 L30 12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>Matched</span>
+   <span><svg width="40" height="40" viewBox="0 0 40 40"><rect x="3" y="3" width="34" height="34" rx="6" fill="#fff" stroke="#1F2A30" stroke-width="3"/><line x1="9" y1="31" x2="31" y2="9" stroke="#1F2A30" stroke-width="4" stroke-linecap="round"/></svg>Did not match</span>
+  </div>
+  <p class="lead" style="margin-top:20px;font-weight:700;font-size:34px"><span style="color:var(--teal)">68 in 100</span> paired answers matched<br><span>32 in 100</span> did not match</p>
+  <p class="small" style="margin-top:10px">Talking it through beforehand, in an ordinary way, did not improve this in these studies.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Shalowitz et al, Arch Intern Med 2006: 16 studies, 2,595 pairs, 19,526 paired answers</span></div>
+</div>
+<div class="card dark" id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/2</span></div>
+ <div class="content center">
+  <div class="kicker">A judgement, with one trial behind it</div>
+  <h1 class="m">Talk it through in a structured way, and write it down</h1>
+  <svg class="dr" width="560" height="220" viewBox="0 0 560 220" fill="none" stroke="#FBFAF6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+   <path d="M70 20 V110 H150 V210 M70 110 V210 M70 20 H110"/>
+   <path d="M490 20 V110 H410 V210 M490 110 V210 M490 20 H450"/>
+   <rect x="200" y="150" width="160" height="14" rx="4"/><path d="M215 160 V205 M345 160 V205"/>
+   <rect x="225" y="110" width="110" height="40" rx="4" stroke="#D9A441"/><path d="M240 124 H320 M240 136 H300" stroke="#D9A441"/>
+  </svg>
+  <p class="body" style="margin-top:30px;font-size:31px">In a US trial of 313 people with heart or kidney disease and the person chosen to speak for them, a structured conversation with a trained professional, ending in a written record of goals, left the person chosen understanding those goals much better than usual care.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kirchhoff et al, J Am Geriatr Soc 2010</span></div>
+</div>
+</div>
+<script>
+const g = document.getElementById('g'), NS = 'http://www.w3.org/2000/svg';
+let h = '';
+for (let i = 0; i < 100; i++) {
+  const r = Math.floor(i / 10), c = i % 10, x = c * 76 + 2, y = r * 76 + 2;
+  if (i < 68) h += `<rect x="${x}" y="${y}" width="68" height="68" rx="10" fill="#00909A"/><path d="M${x+18} ${y+36} L${x+30} ${y+48} L${x+51} ${y+21}" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>`;
+  else h += `<rect x="${x+2}" y="${y+2}" width="64" height="64" rx="10" fill="#fff" stroke="#1F2A30" stroke-width="3"/><line x1="${x+16}" y1="${y+52}" x2="${x+52}" y2="${y+16}" stroke="#1F2A30" stroke-width="5" stroke-linecap="round"/>`;
+}
+g.innerHTML = h;
+</script></body></html>

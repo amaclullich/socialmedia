@@ -1,0 +1,100 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C01-P02 Varifocals and the kerb</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style>
+ .lenses { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 28px; }
+ .lens h3 { font-size: 32px; margin-bottom: 12px; min-height: 78px; display: flex; align-items: flex-end; }
+ .lens .view { position: relative; }
+ .lens svg { display: block; width: 100%; height: auto; }
+ .zl { position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; background: var(--white); border: 3px solid var(--teal); border-radius: 12px; padding: 4px 14px; font-size: 25px; font-weight: 700; }
+ .zl.blur { border-color: var(--orange); }
+ .street { position: relative; height: 330px; margin-top: 26px; border-radius: 22px; overflow: hidden; background: var(--sand); }
+ .street svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+ .grp { margin-top: 22px; }
+ .grp h3 { font-size: 30px; }
+ .grp .chart { margin-top: 6px; }
+ .verdict { font-size: 28px; font-weight: 700; color: var(--teal); margin-top: -4px; }
+ .verdict.up { color: var(--orange); }
+ .body.s { font-size: 29px; line-height: 1.34; }
+</style></head><body><div class="sheet">
+
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Weighing it up</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="m">Varifocals blur the kerb <em>at your feet</em></h1>
+  <p class="body">Looking down, you see the kerb through the reading part of the lens.</p>
+  <div class="lenses">
+   <div class="lens"><h3>Varifocals</h3><div class="view"><svg id="L1" viewBox="0 0 440 330"></svg>
+     <div class="zl" style="top:42px">Distance part</div><div class="zl blur" style="top:286px">Reading part: kerb blurred</div></div></div>
+   <div class="lens"><h3>Single-lens distance glasses</h3><div class="view"><svg id="L2" viewBox="0 0 440 330"></svg>
+     <div class="zl" style="top:286px">Kerb sharp</div></div></div>
+  </div>
+  <div class="street" id="st"></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Haran et al., BMJ 2010; Lord et al., J Am Geriatr Soc 2002</span></div>
+</div>
+
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Weighing it up</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <div class="kicker">VISIBLE trial: 606 bifocal or varifocal wearers at raised risk of falling, average age 80, followed for 13 months</div>
+  <h1 class="s">No clear overall effect, and a split by lifestyle</h1>
+  <div class="grp"><h3>Everyone: falls per person</h3><div class="chart" id="b1"></div><div class="verdict">No clear difference</div></div>
+  <div class="grp"><h3>Often out (planned subgroup): falls per person</h3><div class="chart" id="b2"></div><div class="verdict">Fewer falls</div></div>
+  <div class="grp"><h3>Rarely out (planned subgroup): outdoor falls per person</h3><div class="chart" id="b3"></div><div class="verdict up">More outdoor falls</div></div>
+  <p class="body s mt-auto">Subgroups of one trial. About half used the glasses as advised. Injuries other than falls: 26 in 100 against 17 in 100.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Haran et al., BMJ 2010</span></div>
+</div>
+
+</div>
+<script>
+/* ---- lens views: pavement, kerb, road, far pavement, hedge ---- */
+function street(id) {
+  return `<rect width="440" height="330" fill="#CFE3E6"/>
+  <rect y="40" width="440" height="50" fill="#7F9C84"/>
+  <rect y="90" width="440" height="40" fill="#C9C3B8"/><path d="M0,130H440" stroke="#1F2A30" stroke-width="3"/>
+  <rect y="130" width="440" height="80" fill="#6E7477"/>
+  <path d="M40,170H110M180,170H260M330,170H400" stroke="#F4F2ED" stroke-width="6"/>
+  <rect y="210" width="440" height="26" fill="#B9B3A8"/><path d="M0,210H440M0,236H440" stroke="#1F2A30" stroke-width="4"/>
+  <rect y="236" width="440" height="94" fill="#D6D0C4"/>
+  <path d="M0,280H440M60,236L30,330M200,236L196,330M340,236L370,330" stroke="#8F8A80" stroke-width="3"/>`;
+}
+const lensPath = 'M30,20 H410 Q430,20 428,44 L416,250 Q410,316 330,318 H110 Q30,316 24,250 L12,44 Q10,20 30,20 Z';
+function lens(id, vari) {
+  const el = document.getElementById(id);
+  el.innerHTML = `<defs><clipPath id="c${id}"><path d="${lensPath}"/></clipPath>
+   <clipPath id="t${id}"><rect width="440" height="180"/></clipPath><clipPath id="b${id}"><rect y="180" width="440" height="150"/></clipPath>
+   <filter id="f${id}" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="6"/></filter></defs>
+   <rect width="440" height="330" fill="#FBFAF6"/>
+   <g clip-path="url(#c${id})">` + (vari
+     ? `<g clip-path="url(#t${id})">${street()}</g><g clip-path="url(#b${id})"><g filter="url(#f${id})">${street()}</g></g><path d="M12,180H428" stroke="#1F2A30" stroke-width="3" stroke-dasharray="12 10"/>`
+     : street()) +
+   `</g><path d="${lensPath}" fill="none" stroke="#1F2A30" stroke-width="12"/>`;
+}
+lens('L1', true); lens('L2', false);
+
+/* ---- man pausing at the kerb, looking down ---- */
+(function () {
+  const K = Kit, W = 1000, H = 360, S = 0.78, g = 332;
+  K.draw('#st', W, H, [
+    K.room('outdoors_street', { w: W, h: H, ground: g, scale: S * 0.7 }),
+    `<rect x="560" y="${g - 4}" width="600" height="80" fill="#6E7477"/><path d="M560,${g - 4}V${g + 60}" stroke="#1F2A30" stroke-width="3"/>`,
+    K.person({ pose: 'standing', x: 522, y: g, scale: S, age: 'older', sex: 'm', skin: 'dark', hair: 'grey', hairStyle: 'cropped', top: 'green', sleeves: 'long', bottom: 'charcoal', tilt: 20, hold: 'bag' }),
+  ], { cls: 'art' });
+})();
+
+/* ---- slide 2 bars: distance glasses hatched teal (A), usual care solid orange (B) ---- */
+const opts = { max: 2.5, width: 920, labelWidth: 270, barH: 44, gap: 30, valueRoom: 90, top: 4 };
+[['#b1', 1.54, '1.5', 1.66, '1.7'], ['#b2', 1.26, '1.3', 2.16, '2.2'], ['#b3', 0.92, '0.9', 0.59, '0.6']].forEach(([id, a, ad, b, bd]) => {
+  const svg = barChart(id, [{ label: 'Distance glasses', value: a, display: ad, colour: 'a' }, { label: 'Usual care', value: b, display: bd, colour: 'b' }], opts);
+  const ns = 'http://www.w3.org/2000/svg', pid = 'h' + id.slice(1);
+  const defs = document.createElementNS(ns, 'defs');
+  defs.innerHTML = `<pattern id="${pid}" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="14" height="14" fill="#00909A"/><rect width="5" height="14" fill="#FFFFFF" opacity=".55"/></pattern>`;
+  svg.prepend(defs);
+  const bar = svg.querySelector('path[fill="#00909A"]'); bar.setAttribute('fill', `url(#${pid})`); bar.setAttribute('stroke', '#00909A'); bar.setAttribute('stroke-width', '2');
+});
+window.__ready = true;
+</script></body></html>

@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P01 New leaking in hospital</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>
+ .gridrow { display:flex; gap:44px; align-items:flex-start; margin-top:28px; }
+ .leg { display:flex; flex-direction:column; gap:30px; padding-top:6px; }
+ .leg .it { display:grid; grid-template-columns:56px 1fr; gap:18px; align-items:start; font-size:30px; line-height:1.3; font-weight:600; }
+ .leg .it.n { font-weight:500; color:var(--ink-2); font-size:28px; grid-template-columns:1fr; }
+ .blk { padding:30px 0; border-top:3px solid var(--teal); font-size:33px; line-height:1.38; }
+ .blk:first-of-type { border-top:none; padding-top:6px; }
+ .judge { margin-top:auto; margin-bottom:34px; font-size:33px; line-height:1.38; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="m">All 352 were continent on admission</h1>
+  <p class="lead" style="font-size:36px;margin-top:20px"><b>By discharge, 60 (about 17 in 100) said they could no longer control their bladder</b></p>
+  <p class="small" style="margin-top:14px">Acute medical patients aged 70 and over, one Israeli teaching hospital. Reported by the patient at discharge; not followed up afterwards.</p>
+  <div class="gridrow"><div id="ia"></div>
+   <div class="leg">
+    <div class="it"><svg width="44" height="56" viewBox="0 0 50 56" id="lg1"></svg><span>Said they could no longer control their bladder at discharge: 60 of 352</span></div>
+    <div class="it"><svg width="44" height="56" viewBox="0 0 50 56" id="lg2"></svg><span>Did not report this: 292 of 352</span></div>
+    <div class="it n"><span>Each icon stands for about 3.5 people (100 icons for 352)</span></div>
+   </div></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Zisberg et al., J Am Geriatr Soc, 2011</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="m">Pads or a catheter were linked with new leaking</h1>
+  <p class="body" style="margin-top:28px">Using pads or a catheter for most of the stay was linked with new incontinence at discharge, compared with using the toilet, after allowing for age, illness severity, mobility and memory.</p>
+  <div style="margin-top:34px">
+   <div class="blk">This shows a link. It does not show that pads or a catheter caused the leaking.</div>
+   <div class="blk">Frailer people are more likely to be given pads (Danish study of about 2,000 older patients).</div>
+  </div>
+  <div class="panel mint judge"><b>Our judgement:</b> help people to the toilet by default, and ask why when a new 'incontinent' record appears.</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Zisberg et al., J Am Geriatr Soc, 2011; Larsen et al., Int J Nurs Stud Adv, 2023</span></div>
+</div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+function person(svg,x,y,on){
+  const g=document.createElementNS(NS,'g'); g.setAttribute('transform',`translate(${x},${y})`);
+  const st=on?'fill="#C24E12" stroke="#1F2A30" stroke-width="3.5"':'fill="none" stroke="#15535B" stroke-width="3.5"';
+  g.innerHTML=`<circle cx="25" cy="11" r="8.5" ${st}/><path d="M11,53 V30 Q11,22 19,22 H31 Q39,22 39,30 V53 Z" ${st}/>`;
+  svg.appendChild(g);
+}
+const svg=document.createElementNS(NS,'svg'); svg.setAttribute('viewBox','0 0 500 560'); svg.setAttribute('width',500); svg.setAttribute('height',560);
+for(let i=0;i<100;i++){ person(svg,(i%10)*50,Math.floor(i/10)*56,i<17); }
+document.getElementById('ia').appendChild(svg);
+person(document.getElementById('lg1'),0,0,true); person(document.getElementById('lg2'),0,0,false);
+window.__ready=true;
+</script></body></html>

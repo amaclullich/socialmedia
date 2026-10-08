@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C13-P08</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<style>.scene{flex:0 0 400px;margin-top:20px}.lab{position:absolute;font-size:28px;font-weight:800;font-family:Montserrat;background:#fff;border:3px solid var(--teal);border-radius:12px;padding:4px 14px;color:var(--ink)}
+.tips{margin-top:20px;padding:24px 30px}.tips p{font-size:30px;line-height:1.3}.tips p+p{margin-top:12px}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, worth checking</span></div>
+ <div class="content">
+  <h1 class="m">Does food still smell of anything?</h1>
+  <p class="body" style="font-size:31px;margin-top:14px">About <b>6 in 10</b> people aged 80 and over had a weakened sense of smell when tested. Most did not know.</p>
+  <div class="scene" id="sc">
+   <svg class="art" viewBox="0 0 920 400" id="plate"></svg>
+   <span class="lab" style="left:40px;top:28px">Pepper</span>
+   <span class="lab" style="left:730px;top:22px">Sauce</span>
+   <span class="lab" style="left:150px;top:330px">Lemon</span>
+   <span class="lab" style="left:640px;top:330px">Herbs</span>
+  </div>
+  <div class="panel mint tips">
+   <p><b>Try: stronger flavours, a sauce, herbs, a squeeze of lemon</b></p>
+   <p>Herbs, sauces and lemon are untested. Two trials of commercial flavour enhancers gave mixed results</p>
+   <p>Ask your GP or pharmacist if a medicine started recently could change taste</p>
+   <p><b>Do not stop a medicine on your own</b></p>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Murphy et al., JAMA 2002 (2,491 people, one US town)</span></div>
+</div>
+</div>
+<script>
+const L='#1F2A30';const st=`stroke="${L}" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"`;
+let s=`<rect width="920" height="400" fill="#EFE6D6"/>
+<ellipse cx="460" cy="318" rx="270" ry="40" fill="#000" opacity=".08"/>
+<ellipse cx="460" cy="250" rx="270" ry="112" fill="#fff" ${st}/><ellipse cx="460" cy="250" rx="205" ry="80" fill="#F3F1EC" stroke="${L}" stroke-opacity=".3" stroke-width="3"/>
+<path d="M320 250q30-52 110-46q50 4 70 28q-30 40-100 44q-60 2-80-26z" fill="#F2E3C8" ${st}/><path d="M360 238q40-14 90 0M355 256q50-12 100 2" fill="none" stroke="${L}" stroke-opacity=".35" stroke-width="3"/>
+<circle cx="540" cy="262" r="30" fill="#EAD9A0" ${st}/><circle cx="590" cy="244" r="26" fill="#E4D193" ${st}/><circle cx="566" cy="298" r="24" fill="#EAD9A0" ${st}/>
+<path d="M290 300q30-24 70-30M300 316q40-20 80-20M330 322q30-14 60-14" fill="none" stroke="#5B8C4E" stroke-width="12" stroke-linecap="round"/><path d="M290 300q30-24 70-30M300 316q40-20 80-20M330 322q30-14 60-14" fill="none" stroke="${L}" stroke-width="2" stroke-opacity=".5"/>
+<g ${st}><path d="M120 330a60 60 0 0 1 120 0z" fill="#F2D24A"/><path d="M135 328a45 45 0 0 1 90 0" fill="none" stroke-width="2"/></g>
+<g ${st}><path d="M700 330q10-30 40-40q20-4 30 10q-20 10-30 36z" fill="#5B8C4E"/><path d="M730 296q30-30 60-20q-10 28-40 32z" fill="#6FA05E"/><path d="M714 322q-20-30 0-52q24 14 22 44z" fill="#4C7C40"/></g>
+<g ${st}><path d="M750 150h60v60q0 28-30 28t-30-28z" fill="#E7EEF0"/><path d="M750 160q-26 4-26 26" fill="none"/><ellipse cx="780" cy="152" rx="30" ry="9" fill="#C9A66B"/><path d="M757 188h46v14q0 20-23 20t-23-20z" fill="#B97A3E" stroke-width="2"/></g>
+<g ${st}><path d="M70 130h44l-6 90h-32z" fill="#9A6A3C"/><rect x="62" y="100" width="60" height="30" rx="14" fill="#7A4E2A"/><rect x="88" y="78" width="8" height="26" fill="#7A4E2A"/><circle cx="92" cy="72" r="8" fill="#7A4E2A"/></g>
+<g fill="none" stroke="#9AA7B2" stroke-width="5" stroke-linecap="round"><path d="M410 190q-14-22 0-40t0-36"/><path d="M460 186q-14-22 0-40t0-36"/><path d="M510 190q-14-22 0-40t0-36"/></g>`;
+document.getElementById('plate').innerHTML=s;
+</script></body></html>
