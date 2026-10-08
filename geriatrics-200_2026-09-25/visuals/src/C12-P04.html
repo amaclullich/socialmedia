@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P04 Normal bowel frequency</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>
+ .sc { margin-top:70px; }
+ .rt { font-size:32px; line-height:1.34; margin-top:26px; font-weight:600; }
+ .ax { display:flex; justify-content:space-between; font-size:30px; font-weight:800; font-family:Montserrat; color:var(--teal); margin-top:12px; }
+ .ends { display:flex; justify-content:space-between; font-size:28px; color:var(--ink-2); font-weight:600; margin-top:6px; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="m">Normal bowel frequency covers a wide range</h1>
+  <p class="lead" style="font-size:34px;margin-top:20px"><b>Once a day is the most common pattern, but not the only one</b></p>
+  <p class="body" style="font-size:30px;margin-top:14px">Bristol study: a regular daily cycle in 40 in 100 men and 33 in 100 women.</p>
+  <div id="bars" style="margin-top:6px"></div>
+  <div class="sc"><div id="scale"></div>
+   <div class="ax"><span>3 times a day</span><span>3 times a week</span></div>
+   <div class="ends"><span>More often</span><span>Less often</span></div>
+   <p class="rt">96 in 100 US adults who called their bowels normal, and 98 in 100 healthy Swedish adults aged 18 to 70, fell in this range</p>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Heaton, Gut, 1992; Mitsuhashi, Am J Gastroenterol, 2018; Walter, Scand J Gastroenterol, 2010</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="m">What to look for</h1>
+  <p class="body" style="margin-top:28px">Constipation: hard or lumpy stools, straining, a feeling of not having emptied, or fewer than 3 a week, a good part of the time.</p>
+  <div class="panel mint" style="margin-top:60px;padding:40px 44px">
+   <ol class="steps" style="margin-top:0">
+    <li>Tell your GP about a change from your usual pattern that lasts</li>
+    <li>Tell your GP about blood from the back passage or in the stool</li>
+    <li>Tell your GP about weight loss you can't explain</li>
+   </ol>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Chang, Gastroenterology, 2023; Monahan, Gut, 2022; Assmann, United European Gastroenterol J, 2022</span></div>
+</div>
+</div>
+<script>
+const NS0='http://www.w3.org/2000/svg';
+const b=document.createElementNS(NS0,'svg'); b.setAttribute('viewBox','0 0 920 130'); b.setAttribute('width',920); b.setAttribute('height',130);
+b.innerHTML='<line x1="2" x2="2" y1="0" y2="130" stroke="#5F6B76" stroke-width="2"/><rect x="2" y="6" width="368" height="48" fill="#00909A"/><rect x="2" y="70" width="304" height="48" fill="#00909A"/><text x="390" y="42" font-size="32" font-weight="700" font-family="Inter" fill="#1F2A30">40 in 100 men</text><text x="326" y="106" font-size="32" font-weight="700" font-family="Inter" fill="#1F2A30">33 in 100 women</text>';
+document.getElementById('bars').appendChild(b);
+// scale band
+const NS='http://www.w3.org/2000/svg';
+const s=document.createElementNS(NS,'svg'); s.setAttribute('viewBox','0 0 920 130'); s.setAttribute('width',920); s.setAttribute('height',130);
+s.innerHTML='<rect x="0" y="20" width="920" height="90" rx="10" fill="#DCEBEA" stroke="#15535B" stroke-width="3"/><line x1="4" x2="4" y1="14" y2="106" stroke="#15535B" stroke-width="5"/><line x1="916" x2="916" y1="14" y2="106" stroke="#15535B" stroke-width="5"/><line x1="4" x2="916" y1="65" y2="65" stroke="#15535B" stroke-width="3" stroke-dasharray="2 12" stroke-linecap="round"/>';
+document.getElementById('scale').appendChild(s);
+window.__ready=true;
+</script></body></html>

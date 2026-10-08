@@ -19,8 +19,8 @@
 </div>
 <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Chung, Anesth Analg 2016; Memtsoudis, Anesth Analg 2018</span></div></div></div>
 <script>
-const W=1000,H=560,g=520,S=0.95;
-const bt=Kit.anchor('bedside_table',{x:830,y:g,scale:1.25,w:210});
+const W=880,H=580,g=545,S=0.95;
+const bt=Kit.anchor('bedside_table',{x:720,y:g,scale:1.25,w:210});
 const p=Kit.pen(3);
 const tx=bt.top.x, ty=bt.top.y;
 const machine=Kit.at(tx-95,ty,1,p.r(-34,-46,68,46,8,'#DCE3E6')+p.r(-26,-62,52,16,6,'#B9CDCC')+p.c(18,-23,6,'#15535B')+p.r(-34,-30,22,6,3,'#FFFFFF'));
@@ -29,11 +29,11 @@ const tube=Kit.at(tx+52,ty,1,p.l([{x:-20,y:-4},{x:-10,y:-24},{x:2,y:-8},{x:12,y:
 const lead=Kit.at(tx+104,ty,1,p.l([{x:-16,y:-4},{x:-4,y:-12},{x:8,y:-4},{x:20,y:-14}],4,'#1F2A30')+p.r(20,-24,14,22,3,'#3B4A52'));
 Kit.draw('#sc',W,H,[
  Kit.room('hospital_bay',{w:W,h:H,ground:g,scale:S}),
- Kit.person({pose:'sitting_up_bed',backrest:55,rails:'down',bed:'hospital',x:260,y:g,scale:S,age:'older',sex:'m',skin:'light',hair:'grey',hairStyle:'balding',top:'paleblue',blanket:'sage'}),
- Kit.person({pose:'standing',facing:'left',role:'nurse',x:560,y:g,scale:S,sex:'f',skin:'olive',hair:'black',hairStyle:'bun',hold:'notepad'}),
- Kit.bedside_table({x:830,y:g,scale:1.25,w:210}),
+ Kit.person({pose:'sitting_up_bed',backrest:55,rails:'down',bed:'hospital',x:225,y:g,scale:S,age:'older',sex:'m',skin:'light',hair:'grey',hairStyle:'balding',top:'paleblue',blanket:'sage'}),
+ Kit.person({pose:'standing',facing:'left',role:'nurse',x:470,y:g,scale:S,sex:'f',skin:'olive',hair:'black',hairStyle:'bun',hold:'notepad'}),
+ Kit.bedside_table({x:720,y:g,scale:1.25,w:210}),
  machine,mask,tube,lead,
 ],{cls:'art'});
-Kit.pins('#sc',[{n:1,x:tx-95,y:ty-100},{n:2,x:tx-12,y:ty-72},{n:3,x:tx+52,y:ty-72},{n:4,x:tx+104,y:ty-72},{n:5,x:560,y:90},{n:6,x:tx-150,y:ty-30}]);
+Kit.pins('#sc',[{n:1,x:tx-95,y:ty-100},{n:2,x:tx-12,y:ty-72},{n:3,x:tx+52,y:ty-72},{n:4,x:tx+104,y:ty-72},{n:5,x:470,y:110},{n:6,x:tx-150,y:ty-30}]);
 window.__ready=true;
 </script></body></html>

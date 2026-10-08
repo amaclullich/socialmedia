@@ -108,7 +108,7 @@
     "tmp_id": "C12-P03",
     "where": "captions.linkedin",
     "old": "A change in the urine raises the chance a little. The same laboratory signs are common in residents with no infection.",
-    "new": "A change in the urine raised the chance of these signs from about 31 in 100 to about 47 in 100, but the same laboratory signs are common in residents with no infection.",
+    "new": "So a change in the urine raised the chance of these signs, but the same laboratory signs are common in residents with no infection.",
     "reason": "Cold read item 3: 'a little' replaced by the two figures."
   },
   {
@@ -164,7 +164,7 @@
     "tmp_id": "C12-P04",
     "where": "captions.x",
     "old": "Tell your GP about a change from your own usual pattern that lasts, blood from the back passage or in the stool, or weight loss you can't explain. GPs may use a simple stool test, called FIT, to help decide who needs urgent bowel tests.",
-    "new": "GPs may use a simple stool test, called FIT, to help decide who needs urgent bowel tests. A normal result does not end the matter if symptoms last. Tell your GP about a change from your own usual pattern that lasts, blood from the back passage or in the stool, or weight loss you can't explain.",
+    "new": "GPs may use a simple stool test, called FIT, to help decide who needs urgent bowel tests. A normal result does not rule out a problem if symptoms last. Tell your GP about a change from your own usual pattern that lasts, blood from the back passage or in the stool, or weight loss you can't explain.",
     "reason": "Cold read item 5: FIT sentence moved before the advice so the post ends on the instruction; normal-FIT qualification added from evidence C12-25-e."
   },
   {
@@ -248,7 +248,7 @@
     "tmp_id": "C12-P05",
     "where": "captions.bluesky",
     "old": "Incontinence is linked with moving into a care home (US study from the 1990s: about twice the likelihood in women, three times in men). If it is part of the discussion, ask for a continence assessment: causes, medicines, constipation, equipment, night help. A care home can still be the right choice.",
-    "new": "A 1990s US study found recorded incontinence linked with moving into a nursing home: women were about twice as likely, and men three times as likely, as people without it. That is a link only. If incontinence is part of a care home discussion, ask for a continence assessment (a check for causes and what could help).",
+    "new": "A 1990s US study found recorded incontinence linked with moving into a nursing home: women about twice as likely, men about three times, as people without it. That is a link only. If incontinence is part of a care home discussion, ask for a continence assessment (a check for causes and options).",
     "reason": "Cold read items 2, 3, 5 and flag: comparison group named, link-only statement added, assessment explained, reassurance close removed."
   },
   {
@@ -282,9 +282,9 @@
   {
     "tmp_id": "C12-P06",
     "where": "captions.linkedin",
-    "old": "TOPSY randomly assigned 340 women",
-    "new": "The trial randomly assigned 340 women",
-    "reason": "Flag: unexplained acronym removed."
+    "old": " A UK trial asked whether women could do this themselves.\n\nTOPSY randomly assigned 340 women",
+    "new": "\n\nA UK trial randomly assigned 340 women",
+    "reason": "Flag: unexplained acronym removed; opening sentence merged with the trial description to keep within the length guide."
   },
   {
     "tmp_id": "C12-P06",
@@ -465,7 +465,7 @@
     "tmp_id": "C12-P10",
     "where": "captions.linkedin",
     "old": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. The unadjusted",
-    "new": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. Patient-days are days of follow-up, added up across the men. The unadjusted",
+    "new": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. The unadjusted",
     "reason": "Cold read item 7: unit explained. The rate and the share of men are reconciled in the next change."
   },
   {
@@ -488,5 +488,47 @@
     "old": "A combined measure of problems was lower after adjustment, driven mostly by bacteria in the urine on daily testing.",
     "new": "A combined measure of problems was lower after adjustment but not clearly lower before it, driven mostly by bacteria in the urine.",
     "reason": "Cold read item 4: unadjusted result added; shortened to stay within 500 characters."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "so this compares smell with a laboratory finding, not with confirmed infection",
+    "new": "so this compares smell with a laboratory finding, not confirmed infection",
+    "reason": "Length: trimmed."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "ask whether antibiotics are being suggested for smell or colour alone.",
+    "new": "ask whether antibiotics are for smell or colour alone.",
+    "reason": "Length: trimmed; same instruction as the other versions."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "About half the women answered again at 4 years. There was still no clear difference in quality of life. At 4 years the difference in reported pessary problems was similar in size but no longer clearly more than chance, which may reflect the smaller number of women who answered.",
+    "new": "About half the women answered again at 4 years, so those results are less certain. There was still no clear difference in quality of life. The difference in reported pessary problems was similar in size but no longer clearly more than chance.",
+    "reason": "Length: trimmed; 4-year uncertainty kept (evidence C12-36-e)."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "Results did not differ clearly between women under and over 65, but the authors caution that they may apply less to older women who have used a pessary for a long time.",
+    "new": "Results did not differ clearly by age (under or over 65), but the authors caution that they may apply less to older women who have used a pessary for a long time.",
+    "reason": "Length: trimmed."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "The trial authors conclude that",
+    "new": "The authors conclude that",
+    "reason": "Length: trimmed."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.linkedin",
+    "old": " It suits men who can pass urine on their own.",
+    "new": "",
+    "reason": "Length: repeats the opening point that a sheath is for men who can pass urine without retention."
   }
 ]
