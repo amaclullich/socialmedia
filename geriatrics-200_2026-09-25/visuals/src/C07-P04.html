@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P04 Stroke</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content"><div class="kicker" style="margin-bottom:10px">Clot-busting treatment in people over 80</div>
+<h1 class="s">Stroke symptoms at any age: call 999 straight away</h1>
+<div class="flow" style="margin-top:20px"><div class="step fill" style="padding:14px 26px;font-size:30px;"><b>Stroke symptoms, any age</b></div><div class="arrow" style="height:34px;padding-left:40px"></div><div class="step fill" style="padding:14px 26px;font-size:30px;background:var(--orange);border-color:var(--orange);"><b>Call 999 straight away</b></div><div class="arrow" style="height:34px;padding-left:40px"></div><div class="step fill" style="padding:14px 26px;font-size:30px;"><b>Brain scan to rule out bleeding</b></div><div class="arrow" style="height:34px;padding-left:40px"></div><div class="step fill" style="padding:14px 26px;font-size:30px;"><b>Team checks time since onset and other criteria</b></div><div class="arrow" style="height:34px;padding-left:40px"></div><div class="step fill" style="padding:14px 26px;font-size:30px;"><b>Clot-busting treatment if suitable, within 4.5 hours</b></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:22px">
+ <div class="panel" style="padding:20px 22px"><p style="font-size:25px;line-height:1.3;font-weight:600">Over 80, 9 trials (1729 people), all treatment times: no significant disability at 3 to 6 months</p><div id="bb" style="margin-top:8px"></div></div>
+ <div class="panel" style="padding:20px 22px;border:4px solid var(--orange)"><p style="font-size:25px;line-height:1.3;font-weight:600">Risk, all ages: fatal brain bleed within a week, about 3 in 100 treated vs under 1 in 100 untreated</p></div>
+</div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Emberson et al., Lancet 2014; Berge et al., ESO guideline 2021</span></div>
+</div>
+</div>
+<script>
+pairBars('#bb',{max:100,width:390,barH:30,size:25,rows:[{text:'Treated: about 18 in 100',value:18},{text:'Not treated: about 13 in 100',value:13,hatch:1}]});
+window.__ready = true;
+</script></body></html>

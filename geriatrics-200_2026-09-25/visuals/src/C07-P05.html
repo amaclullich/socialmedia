@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P05 Geriatric assessment</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Care that works</span><span class="slidecount">1/3</span></div>
+ <div class="content"><div class="kicker">Geriatric assessment</div><h1 class="m">Before cancer treatment at 70+: a fuller check</h1>
+<p class="lead" style="font-size:36px">A check of the whole person, with advice to the cancer team on each problem</p>
+<ul class="ticks" style="gap:18px;margin-top:36px"><li>Daily function</li><li>Falls</li><li>Memory</li><li>Mood</li><li>Nutrition</li><li>Medicines</li><li>Support at home</li></ul></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Mohile et al., Lancet 2021</span></div>
+</div><div class="card " id="s2">
+ <div class="topline"><span class="series">Care that works</span><span class="slidecount">2/3</span></div>
+ <div class="content"><div class="kicker">US trial, 718 people aged 70+ with incurable cancer</div><h1 class="m">Serious side effects over 3 months</h1>
+<h3 style="margin-top:34px">Serious side effects</h3><div id="g1" class="chart" style="margin-top:6px"></div>
+<h3 style="margin-top:20px">Falls</h3><div id="g2" class="chart" style="margin-top:6px"></div>
+<p class="chartnote" style="font-size:28px;color:var(--ink);margin-top:20px">Survival similar at 6 months and 1 year; the trial was not designed to test survival.</p></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Mohile et al., Lancet 2021</span></div>
+</div><div class="card dark" id="s3">
+ <div class="topline"><span class="series">Care that works</span><span class="slidecount">3/3</span></div>
+ <div class="content"><h1 class="m" style="margin-top:20px">Ask the cancer team if an assessment is possible</h1>
+<p class="body" style="font-size:31px;margin-top:30px">A second US trial (605 people aged 65+, one centre; everyone had an assessment, only one group had a specialist team act on it): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival. US guidance recommends assessment for everyone over 65 with cancer. UK specialists report few patients can get it.</p></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Li et al., JAMA Oncol 2021; Dale et al., JCO 2023; Gomes et al., J Geriatr Oncol 2024</span></div>
+</div>
+</div>
+<script>
+pairBars('#g1',{max:100,barH:34,size:30,rows:[{text:'Team had the assessment: about 51 in 100',value:51},{text:'Usual care: about 71 in 100',value:71,hatch:1}]});
+pairBars('#g2',{max:100,barH:34,size:30,rows:[{text:'Team had the assessment: about 12 in 100',value:12},{text:'Usual care: about 21 in 100',value:21,hatch:1}]});
+window.__ready = true;
+</script></body></html>

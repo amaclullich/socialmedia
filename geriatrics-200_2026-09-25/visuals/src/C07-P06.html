@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P06 Contact days</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content"><div class="kicker" style="margin-bottom:6px">Contact days in the first year after joining a cancer trial</div>
+<h1 class="xl" style="font-size:96px"><em>Nearly 1 day in 5</em></h1>
+<p class="body" style="font-size:29px;margin-top:14px">In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65+ typically spent nearly 1 day in 5 in contact with health care in the year after joining</p>
+<div class="scene" id="sc" style="flex:none;height:410px;margin-top:20px"></div>
+<div class="panel deep" style="margin-top:20px;padding:22px 34px"><h3 style="color:var(--gold);font-size:36px">Ask: how many days will this treatment take, and what might it give back?</h3></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Gupta et al., JAMA Netw Open 2025</span></div>
+</div>
+</div>
+<script>
+const W=1000,H=410,S=1.0,g=385;
+const man={pose:'seated_side',seat:'chair',x:330,y:g,scale:S,age:'older',sex:'m',build:'slim',skin:'tan',hair:'darkgrey',hairStyle:'balding',top:'sage',bottom:'charcoal',facing:'right',tilt:4};
+const dau={pose:'seated_side',seat:'chair',x:520,y:g,scale:S,age:'adult',sex:'f',skin:'tan',hair:'black',hairStyle:'ponytail',top:'denim',bottom:'stone',facing:'left',hold:'cup'};
+const g2=Kit.pen(Kit.LW);
+const lap=Kit.joint(man,'hip');
+const coat='<path d="M'+(lap.x-20)+','+(lap.y-22)+' h120 q18,0 18,18 v10 h-156 v-10 q0,-18 18,-18z" fill="#A0522D" stroke="#1F2A30" stroke-width="3"/>';
+Kit.draw('#sc',W,H,[
+ Kit.room('gp_room',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:150,y:g-70*S-130,scale:0.9,curtains:'mustard'}),
+ Kit.chair({x:700,y:g,scale:S}),Kit.chair({x:820,y:g,scale:S}),
+ Kit.person({pose:'walking_frame',x:870,y:g-4,scale:0.8,age:'older',sex:'f',skin:'light',hair:'white',hairStyle:'bun',top:'rose',bottom:'navy',frame:'wheeled',facing:'left'}),
+ Kit.person(man),Kit.person(dau),
+ Kit.bag_of_medicines({x:600,y:g-10,scale:1}),
+],{cls:'art'});
+console.log(JSON.stringify(lap));
+window.__ready = true;
+</script></body></html>
