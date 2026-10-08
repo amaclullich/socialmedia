@@ -45,7 +45,7 @@
     "tmp_id": "C12-P01",
     "where": "captions.threads",
     "old": "60 of 352 people aged 70 and over said they could no longer control their bladder when they left an Israeli hospital ward. All 352 had been able to before admission.\n\nPads or a catheter for most of the stay were linked with it. That shows a link, not cause: frailer people are more likely to be given pads.\n\nWe should help people to the toilet by default, and ask why when a new \"incontinent\" record appears. That takes staff time and call bells answered quickly.",
-    "new": "60 of 352 people aged 70 and over said they could no longer control their bladder when they left an Israeli hospital ward. All 352 had been able to control it before admission.\n\nPads or a catheter for most of the stay were linked with new leaking. This is a link only: frailer people are more likely to be given pads, so pads may not be the cause.\n\nWe should help people to the toilet by default, and ask why when a new \"incontinent\" record appears. That takes staff time and call bells answered quickly.",
+    "new": "60 of 352 people aged 70 and over said they could no longer control their bladder when they left an Israeli hospital ward. All 352 could control it before admission.\n\nPads or a catheter for most of the stay were linked with new leaking. This is a link only: frailer people are more likely to be given pads, so pads may not be the cause.\n\nWe should help people to the toilet by default, and ask why when a new \"incontinent\" record appears. That takes staff time and call bells answered quickly.",
     "reason": "Flags: dangling verb completed; negation-then-correction shape removed; caveat kept."
   },
   {
@@ -73,14 +73,14 @@
     "tmp_id": "C12-P02",
     "where": "captions.bluesky",
     "old": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small: about 18 in 100 with, 24 in 100 without. For older people in care homes or other institutions, trials showed no clear benefit: about 11 in 100 either way. Results apply to those studied.",
-    "new": "Cranberry products probably help women who keep getting urine infections, though maybe only a little: 18 in 100 women taking it had an infection, against 24 in 100 not taking it. For older people in care homes or other institutions, trials showed no clear benefit: about 11 in 100 either way. We should not rely on cranberry in a care home.",
+    "new": "Cranberry products probably help women with repeat urine infections, maybe only a little: 18 in 100 women taking them had an infection, against 24 in 100 not. In older people in institutions, trials showed no clear benefit: about 11 in 100 either way. We should not rely on cranberry in a care home.",
     "reason": "Cold read items 1, 3, 5: 'with, without' completed; empty close replaced by the action sentence."
   },
   {
     "tmp_id": "C12-P02",
     "where": "captions.threads",
     "old": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small: in trials about 18 in 100 had one with cranberry, 24 in 100 without.\n\nFor older people in care homes or other institutions, the trials did not show a clear benefit: about 11 in 100 either way, with real uncertainty.\n\nA result applies to the kind of people who were studied. We should not rely on cranberry to prevent infections in a care home.",
-    "new": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small. In the trials, about 18 in 100 women taking cranberry had an infection over the time each trial followed them, against about 24 in 100 not taking it.\n\nFor older people in care homes or other institutions, the trials did not show a clear benefit: about 11 in 100 had an infection either way. The true effect could be anywhere from about 4 fewer to about 3 more infections per 100 people.\n\nWe should not rely on cranberry to prevent infections in a care home.",
+    "new": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small. Over the trials' follow-up, about 18 in 100 women taking cranberry had an infection, against about 24 in 100 not taking it.\n\nIn older people in institutions such as care homes, the trials showed no clear benefit: about 11 in 100 had an infection either way. It could be anywhere from about 4 fewer to about 3 more per 100.\n\nWe should not rely on cranberry in a care home.",
     "reason": "Cold read item 3 and flags: noun supplied for 'had one', time period added, vague 'real uncertainty' replaced by the range; abstract sentence removed."
   },
   {
@@ -108,14 +108,14 @@
     "tmp_id": "C12-P03",
     "where": "captions.linkedin",
     "old": "A change in the urine raises the chance a little. The same laboratory signs are common in residents with no infection.",
-    "new": "A change in the urine raised the chance of these signs from about 31 in 100 to about 47 in 100. The same laboratory signs are common in residents with no infection.",
+    "new": "A change in the urine raised the chance of these signs from about 31 in 100 to about 47 in 100, but the same laboratory signs are common in residents with no infection.",
     "reason": "Cold read item 3: 'a little' replaced by the two figures."
   },
   {
     "tmp_id": "C12-P03",
     "where": "captions.linkedin",
     "old": "Infection experts who wrote criteria for care homes note that changes in colour or smell often occur without infection, for example when someone is not drinking enough. Their criteria look for new urinary symptoms: pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these. The authors say the criteria were written for surveillance and may not suit decisions such as starting antibiotics. People with a catheter, or who are unable to report symptoms, need separate judgement.",
-    "new": "Infection experts wrote criteria for care homes. They note that changes in colour or smell often occur without infection, for example when someone is not drinking enough. Their criteria look for new urinary symptoms. These are pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these. The authors say the criteria were written to track infections across a care home and may not suit decisions such as starting antibiotics. People with a catheter, or who are unable to report symptoms, need separate judgement.",
+    "new": "Infection experts wrote criteria for care homes. They note that changes in colour or smell often occur without infection, for example when someone is not drinking enough. Their criteria look for new urinary symptoms. These are pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these. The authors say the criteria track infections across a care home and may not suit decisions such as starting antibiotics. People with a catheter, or who are unable to report symptoms, need separate judgement.",
     "reason": "Cold read items 2 and 6: 'surveillance' replaced; long sentences split. Authors' caveat kept (evidence C12-17-c)."
   },
   {
@@ -127,17 +127,31 @@
   },
   {
     "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "as a sign of urine infection. In a French survey",
+    "new": "as a sign of infection. In a French survey",
+    "reason": "Length: trimmed to stay near the 2,200-character guide."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "Treating them also adds to unnecessary antibiotic use",
+    "new": "It also adds to unnecessary antibiotic use",
+    "reason": "Length: trimmed."
+  },
+  {
+    "tmp_id": "C12-P03",
     "where": "captions.bluesky",
     "old": "Smelly or changed-colour urine is often taken as a sign of infection. In nursing home studies, smell and changes in the urine were weak guides alone. Report new pain or burning, urgency or leaking, low tummy or side pain, or blood. Ask if antibiotics are for smell or colour alone.",
-    "new": "Smelly or changed-colour urine is often taken as a sign of infection. In nursing home studies, smell and colour changes alone were weak signs of infection: smell disagreed with urine tests about 1 time in 3. Report new pain or burning, urgency or leaking, low tummy or side pain, or blood. Ask if antibiotics are for smell or colour alone.",
+    "new": "Smelly or changed-colour urine is often read as infection, but smell and colour alone are weak signs: in one study smell disagreed with urine tests 1 time in 3. Report new pain or burning, urgency or leaking, low tummy or side pain, or blood. Ask if antibiotics are for smell or colour alone.",
     "reason": "Cold read item 6 and flags: 'weak guides' made literal, number added so the reader can judge how weak."
   },
   {
     "tmp_id": "C12-P03",
     "where": "captions.threads",
-    "old": "In a small US study, judging by smell disagreed with urine tests about 1 time in 3, and those tests also pick up harmless bacteria.",
-    "new": "In a small US study of 97 wet pads, judging by smell disagreed with urine tests about 1 time in 3. Those tests also pick up bacteria that many residents have without any infection.",
-    "reason": "Cold read item 3: study size added; 'harmless' replaced by the wording of evidence C12-17-a."
+    "old": "Smelly urine or a change in colour is often taken as a sign of infection. In a small US study, judging by smell disagreed with urine tests about 1 time in 3, and those tests also pick up harmless bacteria.\n\nReport new pain or burning passing urine, new urgency or leaking, low tummy or side pain, blood in the urine, or fever with any of these. Ask if antibiotics are for smell or colour alone. People with a catheter, or who are unable to say how they feel, need a clinician's judgement.",
+    "new": "Smelly or changed-colour urine is often taken as a sign of infection. In a small US study of 97 wet pads, judging by smell disagreed with urine tests 1 time in 3. The tests can find bacteria that many residents have without infection.\n\nReport new pain or burning, new urgency or leaking, low tummy or side pain, blood in the urine, or fever with any of these. Ask if antibiotics are for smell or colour alone. People with a catheter, or who can't say how they feel, need a clinician's judgement.",
+    "reason": "Cold read item 3: study size added; 'harmless' replaced by the wording of evidence C12-17-a; kept within 500 characters."
   },
   {
     "tmp_id": "C12-P04",
@@ -185,7 +199,7 @@
     "tmp_id": "C12-P04",
     "where": "captions.bluesky",
     "old": "Once a day is the most common bowel pattern, but only 40 in 100 men and 33 in 100 women in a Bristol study had a daily cycle. Adults who called their bowels normal nearly all went from 3 a day to 3 a week. Not studied in people in their 80s. Tell your GP about a lasting change, blood or weight loss.",
-    "new": "Once a day is the most common bowel pattern. In a Bristol study only 40 in 100 men and 33 in 100 women had a bowel movement every day. Adults who called their bowels normal nearly all went between 3 times a week and 3 times a day. Studies say little about people in their 80s. Tell your GP about a lasting change, blood or weight loss.",
+    "new": "Once a day is the most common bowel pattern. In a Bristol study only 40 in 100 men and 33 in 100 women went daily. Nearly all adults who called their bowels normal went 3 times a week to 3 times a day. Little is known for people in their 80s. See your GP about lasting change, blood or weight loss.",
     "reason": "Cold read items 2, 3, 6: 'daily cycle' defined; range written low to high; flat 'not studied' claim softened to match the longer versions (evidence C12-25-b)."
   },
   {
@@ -241,7 +255,7 @@
     "tmp_id": "C12-P05",
     "where": "captions.threads",
     "old": "Ask for a continence assessment (a check for the causes of leaking) when incontinence is part of why a care home is being discussed.\n\nA US study from the 1990s found a link: recorded incontinence went with about twice (women) and three times (men) the likelihood of moving into a nursing home. It does not show that treatment prevents a move.\n\nAn assessment can look at medicines, constipation, getting to the toilet, equipment, products and help at night. A care home can still be the right choice.",
-    "new": "Ask for a continence assessment (a check for the causes of leaking) when incontinence is part of why a care home is being discussed.\n\nA US study from the 1990s found a link. Women with recorded incontinence were about twice as likely to move into a nursing home as women without it, and men about three times as likely. The study did not test whether treatment prevents a move.\n\nAn assessment can look at medicines, constipation, getting to the toilet, equipment, products and help at night. Research on help at home is thin, so it may or may not find something that helps.",
+    "new": "Ask for a continence assessment (a check for causes of leaking) when incontinence is part of a care home discussion.\n\nIn a 1990s US study, women with recorded incontinence were about twice as likely to move into a nursing home as women without it, and men about three times as likely. This is a link; the study did not test whether treatment prevents a move.\n\nAn assessment can look at medicines, constipation, toilet access, equipment, products and night help. Research on help at home is thin.",
     "reason": "Cold read items 3 and 5: 'went with' and bracket shorthand replaced; negation-then-correction removed; closing reassurance replaced by the evidence limit (evidence C12-08-e)."
   },
   {
@@ -262,7 +276,7 @@
     "tmp_id": "C12-P06",
     "where": "captions.linkedin",
     "old": "On examination, ulceration, granulation or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed and about 27 in 100 in clinic care (27 of 152 against 43 of 160 examined). The paper does not report a test of this difference. Self-management cost the NHS less (about £578 per woman over 18 months, against £728) and was likely to be good value.",
-    "new": "On examination, sores, raw or overgrown tissue or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed. In clinic care it was about 27 in 100 (27 of 152 against 43 of 160 examined). The paper does not report a test of this examination difference. Self-management cost the NHS less (about £578 per woman over 18 months, against £728) and was probably good value for money (about an 8 in 10 chance, by the trial's own analysis).",
+    "new": "On examination, sores, raw or overgrown tissue or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed. In clinic care it was about 27 in 100 (27 of 152 against 43 of 160 examined). The paper does not report a test of this examination difference. Self-management cost the NHS less (about £578 per woman over 18 months, against £728) and was probably good value for money (about an 8 in 10 chance).",
     "reason": "Cold read items 2 and 6: medical terms replaced; sentence split; vague 'likely to be good value' given its figure (evidence C12-36-d, 80.8%)."
   },
   {
@@ -290,7 +304,7 @@
     "tmp_id": "C12-P06",
     "where": "captions.bluesky",
     "old": "In a UK trial of 340 women, learning to look after your own pessary (a device holding the pelvic organs up) showed no clear difference in quality of life at 18 months, and slightly fewer self-reported problems. It left out women with poor hand use or memory problems. Ask if you could be taught.",
-    "new": "In a UK trial of 340 women, some learned to look after their own pessary (a device holding the pelvic organs up). At 18 months there was no clear difference in quality of life from clinic care, and they reported slightly fewer pessary problems. It left out women with poor hand use or memory problems. Ask if you could be taught.",
+    "new": "In a UK trial of 340 women, some learned to manage their own pessary (a device holding up pelvic organs). At 18 months there was no clear difference in quality of life from clinic care, and slightly fewer problems. It left out women with poor hand use or memory problems. Ask if you could be taught.",
     "reason": "Cold read items 1, 3, 6 and flag: comparison group (clinic care) named; long sentence split."
   },
   {
@@ -332,7 +346,7 @@
     "tmp_id": "C12-P07",
     "where": "captions.threads",
     "old": "Only half of 267 people whose urinary catheter had been placed in the last 4 weeks, on UK district nursing caseloads, had a plan to remove it, in a 2017 to 2018 survey.\n\nNational hospital guidance (epic3) says to record why the catheter went in, when, and the planned removal date, and not to discharge anyone with a short-term catheter without a documented plan. The longer a catheter stays, the higher the infection risk.\n\nA catheter without a reason and a removal plan is an incomplete discharge.",
-    "new": "In a 2017 to 2018 UK survey of 267 people on district nursing caseloads whose urinary catheter had been placed in the last 4 weeks, only half had any plan for taking it out, such as a review date or a referral.\n\nNational hospital guidance (epic3) says to record why the catheter went in, when, and the planned removal date, and not to discharge anyone with a short-term catheter without a documented plan. The longer a catheter stays, the higher the infection risk.\n\nA catheter without a reason and a removal plan is an incomplete discharge.",
+    "new": "In a 2017 to 2018 UK survey of district nursing caseloads, only half of 267 people with a catheter placed in the last 4 weeks had any plan for taking it out, such as a review date or a referral.\n\nNational hospital guidance (epic3) says to record why the catheter went in, when, and the removal date, and not to discharge anyone with a short-term catheter without a documented plan. Longer catheter use raises infection risk.\n\nA catheter without a reason and a removal plan is an incomplete discharge.",
     "reason": "Flag: 'plan to remove it' dropped the other plan types; now says any plan, with examples."
   },
   {
@@ -374,8 +388,8 @@
     "tmp_id": "C12-P08",
     "where": "captions.threads",
     "old": "Some leaks happen because the toilet is hard to reach or hard to use: slow walking, memory problems, or the route and room itself.\n\nA continence assessment should include watching the person get from chair or bed to the toilet, by day and by night. Check chair height, walking aid, a lit clear route, the door, clothes, and a commode or bottle at night. These are things to check, not treatments shown to work in trials.",
-    "new": "Some leaks happen because the toilet is hard to reach or hard to use: slow walking, memory problems, or the layout of the route and room.\n\nA continence assessment (a check for the causes of leaking) should include watching the person get from chair or bed to the toilet, by day and by night. Check the chair height, whether the walking aid is within reach, that the route is clear and lit, that the door opens easily, that clothes are easy to undo, and that a commode or urinal bottle is by the bed at night. No trial has tested each change on its own.\n\nAsk for the trip to be watched.",
-    "reason": "Cold read items 2, 5, 6: assessment explained; telegraphic list written out; negation-then-correction removed; ends on a concrete next step."
+    "new": "Some leaks happen because the toilet is hard to reach or use: slow walking, memory problems, the route or room.\n\nA continence assessment (a check for causes of leaking) should include watching the trip from chair or bed to toilet, by day and night. Check the chair height, walking aid within reach, a clear lit route, a door that opens easily, clothes that are easy to undo, and a commode or bottle at night. No trial has tested each change alone.\n\nAsk for the trip to be watched.",
+    "reason": "Cold read items 2, 5, 6: assessment explained; list items given their check; negation-then-correction removed; ends on a concrete next step."
   },
   {
     "tmp_id": "C12-P09",
@@ -423,14 +437,14 @@
     "tmp_id": "C12-P09",
     "where": "captions.bluesky",
     "old": "Bowel leakage is more common in older age groups: about 15 in 100 US adults 70+ at home reported some in a month. In two US surveys (clinic patients; women 45+) only about 1 in 3 people with it had told a doctor. Causes can often be treated. Try saying: \"I have had some accidents with my bowels.\"",
-    "new": "Bowel leakage is more common in older age groups: about 15 in 100 US adults aged 70 and over living at home reported some in the past month. In two US surveys (clinic patients; women 45 and over) only about 1 in 3 people with leakage had told a doctor. Loose stools and constipation are common causes that can be treated. Try saying: \"I have had some accidents with my bowels.\"",
+    "new": "Bowel leakage rises with age: about 15 in 100 US adults aged 70 and over at home reported some in the past month. In two US surveys, only about 1 in 3 people with leakage had told a doctor. Loose stools and constipation are treatable causes. Try saying: \"I have had some accidents with my bowels.\"",
     "reason": "Flags: '70+' spelled out; 'it' replaced; vague 'causes can often be treated' made specific (evidence C12-26-d)."
   },
   {
     "tmp_id": "C12-P09",
     "where": "captions.threads",
     "old": "\"I have had some accidents with my bowels\" is a sentence your GP or practice nurse can act on.\n\nIn a US national survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month. In two other US surveys (clinic patients; women 45+), only about 1 in 3 people with it had talked to a doctor. Loose stools and constipation are common causes that can be treated, and simple first steps help some people. You can ask whether a continence service could help.",
-    "new": "\"I have had some accidents with my bowels\" is a sentence your GP or practice nurse can act on.\n\nIn a US national survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month. In two other US surveys (clinic patients; women 45 and over), only about 1 in 3 people with leakage had talked to a doctor. Loose stools and constipation are common causes that can be treated, and simple first steps help some people. You can ask whether a continence service (a team that assesses and treats leaking) could help.",
+    "new": "\"I have had some accidents with my bowels\" is a sentence your GP or practice nurse can act on.\n\nIn a US survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month. In two other US surveys (clinic patients; women 45 and over), only about 1 in 3 people with leakage had talked to a doctor. Loose stools and constipation are common causes that can be treated. You can ask whether a continence service (a team that assesses and treats leaking) could help.",
     "reason": "Cold read item 2 and flag: continence service explained; 'it' replaced by 'leakage'."
   },
   {
@@ -451,7 +465,7 @@
     "tmp_id": "C12-P10",
     "where": "captions.linkedin",
     "old": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. The unadjusted",
-    "new": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. A patient-day is one day of follow-up for one man. The unadjusted",
+    "new": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. Patient-days are days of follow-up, added up across the men. The unadjusted",
     "reason": "Cold read item 7: unit explained. The rate and the share of men are reconciled in the next change."
   },
   {
@@ -465,7 +479,7 @@
     "tmp_id": "C12-P10",
     "where": "captions.bluesky",
     "old": "For a man who can empty his bladder but needs urine collected, a sheath avoids a tube in the bladder. In a 75-man trial, more men said it was comfortable; the combined problem measure was driven by bacteria in the urine. Needs right size, secure fit, daily change, skin checks.",
-    "new": "For a man who can empty his bladder but needs urine collected, a sheath avoids a tube in the bladder. In a 75-man trial, more men with a sheath said it was comfortable. A combined problem measure (bacteria in urine, infection, death) was lower with a sheath after adjustment, mostly from bacteria in the urine.",
+    "new": "For a man who can empty his bladder but needs urine collected, a sheath avoids a tube in the bladder. In a 75-man trial, more sheath users said it was comfortable. A combined problem measure (bacteria in urine, infection, death) was lower with sheaths after adjustment, mostly from bacteria in urine.",
     "reason": "Cold read items 3 and 4: comparison group named; direction of the combined measure stated, with what it contained. Fitting advice (size, change, skin checks) dropped to fit the 300-character limit; it remains in the X, LinkedIn and Threads versions."
   },
   {

@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C11-P08 Take your CPAP</title><link rel="stylesheet" href="../design_system/base.css"><script>window.__ready = false;</script><script src="../design_system/kit.js"></script>
+<style>.keys{display:flex;flex-direction:column;gap:10px;margin-top:18px;margin-bottom:22px}
+ .k{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:center;font-size:28px;line-height:1.25;font-weight:600}
+ .k i{width:42px;height:42px;border-radius:50%;background:var(--orange);color:#fff;font-style:normal;font-family:Montserrat;font-weight:800;font-size:23px;display:flex;align-items:center;justify-content:center}
+ .keys.two{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}</style></head><body><div class="sheet">
+<div class="card"><div class="topline"><span class="series">Small detail, real effect</span></div>
+<div class="content">
+ <h1 class="m">Going into hospital? <em>Take your CPAP</em></h1>
+ <p class="small mt-s">Specialist guidance is for planned surgery. If admitted unexpectedly, ask someone to bring it in.</p>
+ <div class="scene" id="sc"></div>
+ <div class="keys two">
+  <div class="k"><i>1</i><span>Machine</span></div>
+  <div class="k"><i>2</i><span>Mask</span></div>
+  <div class="k"><i>3</i><span>Tubing</span></div>
+  <div class="k"><i>4</i><span>Power lead</span></div>
+  <div class="k"><i>5</i><span>Tell the nurse when you arrive</span></div>
+  <div class="k"><i>6</i><span>Ask whether the ward needs to check your machine</span></div>
+ </div>
+</div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Chung, Anesth Analg 2016; Memtsoudis, Anesth Analg 2018</span></div></div></div>
+<script>
+const W=1000,H=560,g=520,S=0.95;
+const bt=Kit.anchor('bedside_table',{x:830,y:g,scale:1.25,w:210});
+const p=Kit.pen(3);
+const tx=bt.top.x, ty=bt.top.y;
+const machine=Kit.at(tx-95,ty,1,p.r(-34,-46,68,46,8,'#DCE3E6')+p.r(-26,-62,52,16,6,'#B9CDCC')+p.c(18,-23,6,'#15535B')+p.r(-34,-30,22,6,3,'#FFFFFF'));
+const mask=Kit.at(tx-12,ty,1,p.p('M-24 -4 Q0 -34 24 -4 Q0 4 -24 -4Z','#B9CDCC')+p.r(-8,-12,16,8,3,'#FFFFFF')+p.l([{x:-30,y:-6},{x:-44,y:-4},{x:-50,y:-10}],4,'#1F2A30'));
+const tube=Kit.at(tx+52,ty,1,p.l([{x:-20,y:-4},{x:-10,y:-24},{x:2,y:-8},{x:12,y:-26},{x:24,y:-8},{x:34,y:-24},{x:44,y:-4}],7,'#8FA3A8'));
+const lead=Kit.at(tx+104,ty,1,p.l([{x:-16,y:-4},{x:-4,y:-12},{x:8,y:-4},{x:20,y:-14}],4,'#1F2A30')+p.r(20,-24,14,22,3,'#3B4A52'));
+Kit.draw('#sc',W,H,[
+ Kit.room('hospital_bay',{w:W,h:H,ground:g,scale:S}),
+ Kit.person({pose:'sitting_up_bed',backrest:55,rails:'down',bed:'hospital',x:260,y:g,scale:S,age:'older',sex:'m',skin:'light',hair:'grey',hairStyle:'balding',top:'paleblue',blanket:'sage'}),
+ Kit.person({pose:'standing',facing:'left',role:'nurse',x:560,y:g,scale:S,sex:'f',skin:'olive',hair:'black',hairStyle:'bun',hold:'notepad'}),
+ Kit.bedside_table({x:830,y:g,scale:1.25,w:210}),
+ machine,mask,tube,lead,
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:tx-95,y:ty-100},{n:2,x:tx-12,y:ty-72},{n:3,x:tx+52,y:ty-72},{n:4,x:tx+104,y:ty-72},{n:5,x:560,y:90},{n:6,x:tx-150,y:ty-30}]);
+window.__ready=true;
+</script></body></html>

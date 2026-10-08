@@ -80,7 +80,7 @@
     "design_notes": "Diagram is the teaching point; dashed box keeps the illustrative step visibly distinct. Numbers small and labelled with denominator and timeframe."
    },
    "alt_text": [
-    "Cascade diagram: a calcium channel blocker such as amlodipine is started, ankle swelling follows as a side effect, then a loop diuretic is added; a dashed illustrative box shows a possible further drug. Side arrow: review the first drug (lower dose, switch or stop). Ontario, people 66+, 14 per 1,000 got a loop diuretic within 3 months after the drug, 7 per 1,000 after an ACE inhibitor or ARB."
+    "Diagram of a prescribing cascade. A calcium channel blocker such as amlodipine is started, ankle swelling follows as a known side effect, and a loop diuretic is added. A dashed box shows an illustrative further drug. Advice: review the first drug. In Ontario, people 66+ given a diuretic within 3 months: 14 per 1,000 after a calcium channel blocker, 7 per 1,000 after an ACE inhibitor or ARB."
    ],
    "attention_note": "A daily, familiar prescribing decision with a concrete number showing it happens at scale.",
    "gain_note": "A rule for the next swollen ankle: check the start dates, then reduce or switch before adding a diuretic.",
@@ -95,15 +95,24 @@
     "Illustrative example: a further drug for the diuretic's effects",
     "Review the first drug: lower dose, switch, or stop if no longer needed",
     "Loop diuretic within 3 months, people 66+ in Ontario: 14 per 1,000 after a calcium channel blocker; 7 per 1,000 after an ACE inhibitor or ARB",
+    "14 per 1,000",
+    "7 per 1,000",
     "Dispensing data: shows who got a diuretic, not why",
-    "Savage et al., JAMA Intern Med 2020; Makani et al., J Hypertens 2011",
-    "Alasdair MacLullich | Teaching round"
+    "Alasdair MacLullich",
+    "Savage et al., JAMA Intern Med 2020; Makani et al., J Hypertens 2011"
    ],
    "status": "text_final",
    "open_issues": [
     "Checker us_spelling hit on 'Aging' is the journal name Drugs & Aging (proper noun); justified.",
     "check_posts us_spelling? hit on 'Aging': it is part of the journal title 'Drugs & Aging' (Woodford 2020); justified, not changed."
-   ]
+   ],
+   "visual_files": [
+    "C06-P01.png"
+   ],
+   "visual_source": "visuals/src/C06-P01.html",
+   "visual_format": "diagram (cascade) with small bar chart",
+   "design_instructions": "Single card, light ground. H1 with em. Vertical flow: deep teal box (CCB started), mint box (ankle swelling), dashed mint box (loop diuretic), dashed grey box (illustrative further drug), orange-outlined review box, then two horizontal bars via barChart 14 (orange) vs 7 (teal) per 1,000. Claim C06-18-a. Source line Savage 2020; Makani 2011.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P02",
@@ -185,7 +194,7 @@
     "design_notes": "Bars labelled directly; colour not the only cue (labels at bar ends). Band scale in Inter, 30 px minimum."
    },
    "alt_text": [
-    "Bar chart: in a Leeds study of 120 statin users, those told constipation was 'common' guessed on average 34 in 100 people would get it; those told the number guessed 8 in 100. The figure used in the study was 2.5 in 100. Below, the leaflet bands: common is 1 in 100 up to 1 in 10; uncommon up to 1 in 100; rare up to 1 in 1,000. Small study of immediate estimates."
+    "Bar chart on a scale of people in 100. Told a side effect was 'common', statin users guessed 34 in 100 on average. Told the number, they guessed 8 in 100. The figure used in the study was 2.5 in 100. Below, the five leaflet frequency words with their ranges, from very common to very rare. Source: Knapp 2004, 120 statin users in Leeds."
    ],
    "attention_note": "A word everyone reads on leaflets turns out to mean something much smaller than people think.",
    "gain_note": "The five frequency bands, and a reason to ask for the number.",
@@ -195,19 +204,35 @@
     "Reading the evidence",
     "'Common' side effect: guessed 34 in 100. Study figure: 2.5",
     "120 statin users in Leeds, each given one statement about one side effect. Bars show the constipation groups' average guesses, made straight after reading.",
+    "0",
+    "10",
+    "20",
+    "30",
+    "40",
+    "Guess, told 'common'",
+    "34 in 100",
+    "Guess, told the number",
+    "8 in 100",
+    "Figure used in the study",
+    "2.5 in 100",
+    "Scale: people in 100",
     "Very common: 1 in 10 or more",
     "Common: 1 in 100 up to 1 in 10",
     "Uncommon: 1 in 1,000 up to 1 in 100",
     "Rare: 1 in 10,000 up to 1 in 1,000",
     "Very rare: fewer than 1 in 10,000",
-    "Guess, told 'common': 34 in 100",
-    "Guess, told the number: 8 in 100",
-    "Figure used in the study: 2.5 in 100",
-    "Knapp et al., Qual Saf Health Care 2004",
-    "Alasdair MacLullich | Reading the evidence"
+    "Alasdair MacLullich",
+    "Knapp et al., Qual Saf Health Care 2004"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P02.png"
+   ],
+   "visual_source": "visuals/src/C06-P02.html",
+   "visual_format": "chart (horizontal bars)",
+   "design_instructions": "Single card. barChart three bars 0 to 40 (34.2 orange, 8.1 teal, 2.5 deep teal) direct-labelled, mint panel listing five leaflet frequency bands. Claim C06-11-b.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P03",
@@ -270,25 +295,33 @@
     "design_notes": "Show professionals as busy and competent, not careless; the point is workload. Label strip as illustrative. No text on screens or papers inside the drawing."
    },
    "alt_text": [
-    "Illustrative three-panel comic. 1: a GP at a computer beside a tall stack of repeat prescriptions; many reviews are done from the notes. 2: an older man at home with his tablets wonders whether his review was done with him. 3: the two sit together with his medicine boxes and talk. Footnote: in 2017 interviews 23 GPs and pharmacists said most reviews happened without the patient; small study."
+    "Three-panel illustrative comic. A GP at her desk beside a stack of repeat prescription requests, then an older man at his kitchen table with a pill organiser and phone wondering if his review included him, then the two talking over his medicine boxes. Study note: in 2017, 23 GPs and pharmacists said most reviews were done without the patient. Small study."
    ],
    "attention_note": "Many people have had a 'review' recorded that they never took part in.",
    "gain_note": "Permission and words to ask for a review that includes them.",
    "follow_note": "Posts that show the gap between what is recorded and what people experience.",
    "verification_notes": "Duncan 2019 full text: 23 professionals, 2017, remote reviews due to workload, 'tick box', stopping harder; limitations stated. Agwunobi 2025 full text: SMRs since 2020 (background), mostly by phone, about 1 in 4 sent information. NICE NG5 via Duncan and search extract, phrased generally. 'You can ask' phrased as suggestion (C06-29-g partly supported, used only as suggestion). Involvement argued as judgement, not outcome benefit. Comic panel 1 worded as what interviewees said; SMR survey respondents described as self-selected.",
    "visual_text": [
+    "What gets counted",
     "Illustration: dialogue is illustrative, not real people",
     "Was I part of my medicines review?",
-    "Panel 1 caption: Interviewees said a review can be done from the notes when a repeat prescription is due.",
-    "Panel 2 caption: Was my medicines review done with me, or from the notes?",
-    "Panel 3 caption: 'What do you actually take, what worries you, and is each one still helping?'",
-    "Illustrative example",
+    "Interviewees said a review can be done from the notes when a repeat prescription is due.",
+    "Was my medicines review done with me, or from the notes?",
+    "'What do you actually take, what worries you, and is each one still helping?'",
+    "ILLUSTRATIVE EXAMPLE",
     "In 2017 interviews, 23 GPs and pharmacists said most reviews were done without the patient, because of workload. Small study; patients were not asked.",
-    "Duncan et al., Br J Gen Pract 2019",
-    "Alasdair MacLullich | What gets counted"
+    "Alasdair MacLullich",
+    "Duncan et al., Br J Gen Pract 2019"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P03.png"
+   ],
+   "visual_source": "visuals/src/C06-P03.html",
+   "visual_format": "comic strip (3 panels)",
+   "design_instructions": "Single card, sand ground. Three stacked comic panels drawn with kit: GP at desk with notepad stack; older Black man at kitchen table with pill organiser, phone, stick; same man and GP talking over medicine boxes. Illustrative badge. No evidence chart. Duncan 2019 study note.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P04",
@@ -354,7 +387,7 @@
     "design_notes": "The couple are capable and in charge; the scene is ordinary, not alarming. All text in callout panels beside the drawing."
    },
    "alt_text": [
-    "Drawing of an older woman on her bed with a pain patch on her arm, partner beside her. Callouts: 1, take the old patch off before the new one and note where and when; 2, keep hot water bottles, heat pads and electric blankets off the patch; 3, fold used patches sticky sides together and dispose of them as the pharmacist advises. A used fentanyl patch can still harm a child or pet."
+    "Drawn bedroom scene: an older woman and man sit on the edge of a bed, he holding a notepad. Numbered markers point to the arm, the bed covers and a medicine bag on a high shelf. Three checks for a strong pain patch: take the old one off first, no heat over it, fold used patches sticky sides together. A used patch can still harm a child or pet."
    ],
    "attention_note": "Most people do not know a used patch is still dangerous, or that a hot water bottle changes the dose.",
    "gain_note": "Three concrete habits and the warning signs.",
@@ -363,16 +396,26 @@
    "visual_text": [
     "Small detail, real effect",
     "Three checks for a strong pain patch",
+    "1",
+    "2",
+    "3",
     "1. Old patch off before the new one goes on. Note where and when.",
     "2. No heat over the patch: hot water bottles, heat pads, electric blankets.",
     "3. Fold used patches sticky sides together; dispose of as the pharmacist advises.",
     "A used fentanyl patch still holds enough medicine to harm a child or a pet.",
     "Unusual sleepiness or slow, shallow breathing: get urgent help.",
-    "Lövborg et al. 2014; Ashburn et al. 2003; Marquardt et al. 1995; Hilado et al. 2020",
-    "Alasdair MacLullich | Small detail, real effect"
+    "Alasdair MacLullich",
+    "Lövborg et al. 2014; Ashburn et al. 2003; Marquardt et al. 1995; Hilado et al. 2020"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P04.png"
+   ],
+   "visual_source": "visuals/src/C06-P04.html",
+   "visual_format": "annotated scene",
+   "design_instructions": "Single card, sand ground. Annotated bedroom scene (kit): older couple on bed edge, notepad, shelf with medicine bag, rug; pins 1 to 3; numbered text below and warning panel. No hot water bottle drawn; pin 2 sits on the bed covers.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P05",
@@ -461,7 +504,7 @@
     "design_notes": "The within-group versus between-group distinction is the teaching point; make the brackets visually distinct by label and line style, not colour alone."
    },
    "alt_text": [
-    "Flow chain from the OPERAM trial of 2,008 people aged 70+. Within the reviewed group, 86 in 100 had a recommendation and about 6 in 10 of those had a change by 2 months. Compared with control, about 42 in 100 in each group were on an overused medicine at 2 months, and about 22 in 100 in each group were readmitted because of a medicine within a year: no clear difference."
+    "Chain diagram of the OPERAM medicines review trial. Within the reviewed group: 86 in 100 had a recommendation; about 6 in 10 of those had at least one change by 2 months. Compared with control: about 42 in 100 on an overused medicine in each group; about 22 in 100 readmitted for a medicine within a year in each group. No clear difference in readmission; quality of life about 2 points higher."
    ],
    "attention_note": "A well-known trial whose abstract conclusion is easy to misread.",
    "gain_note": "A reusable test for any medicines-review trial: within-group change versus difference from control, step by step.",
@@ -470,19 +513,26 @@
    "visual_text": [
     "Reading the evidence",
     "Where did the effect go?",
+    "WITHIN THE REVIEWED GROUP",
     "Found: 86 in 100 reviewed had a recommendation",
     "Acted on: about 6 in 10 of those had at least one change by 2 months",
+    "COMPARED WITH CONTROL",
     "On an overused medicine at 2 months: about 42 in 100 in each group",
     "Readmitted because of a medicine within a year: about 22 in 100 in each group",
+    "NO CLEAR DIFFERENCE",
     "Did it change what patients value? Readmission for a medicine: no clear difference. Quality of life: about 2 points higher on a 100-point scale.",
-    "Within the reviewed group",
-    "Compared with control",
-    "No clear difference",
-    "Blum et al. (OPERAM), BMJ 2021",
-    "Alasdair MacLullich | Reading the evidence"
+    "Alasdair MacLullich",
+    "Blum et al. (OPERAM), BMJ 2021"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P05.png"
+   ],
+   "visual_source": "visuals/src/C06-P05.html",
+   "visual_format": "diagram (flow chain)",
+   "design_instructions": "Single card. Five boxes in two bracket groups: dashed grey left rule (within reviewed group, deep teal boxes with gold figures, claims C06-04-b, C06-04-c), solid orange left rule (compared with control, mint boxes, C06-04-d, C06-04-e), dotted rule for no clear difference box.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P06",
@@ -564,7 +614,7 @@
     "design_notes": "Only the 37 is drawn as icons; 29 and 8 stay as text, because their nesting within the 37 is not shown in the source. Pattern plus colour for filled icons."
    },
    "alt_text": [
-    "Icon array of 100 people: 37 highlighted, showing that 37 in 100 of 1,116 people aged 65+ leaving hospitals in southern England had some harm from medicines within 8 weeks, mostly side effects; for 4 in 10 of them the link was only possible. About 29 in 100 needed NHS care and 8 in 100 were readmitted. Doctors' predictions of harm needing healthcare showed no clear link with who needed it."
+    "Icon array of 100 people, 37 hatched orange for harm from medicines within 8 weeks of leaving hospital and 63 grey for none recorded. Cohort: 1,116 people aged 65 or over, five English hospitals. About 29 in 100 needed NHS care, about 8 in 100 were readmitted. Doctors' predictions at discharge showed no clear link with who was harmed."
    ],
    "attention_note": "Clinicians trust their discharge judgement; this study tested it.",
    "gain_note": "A reason to organise follow-up by rule rather than impression, with the counter-finding stated.",
@@ -574,18 +624,25 @@
     "Reading the evidence",
     "37 in 100 had harm from medicines within 8 weeks",
     "1,116 people aged 65 or over leaving five hospitals in southern England, 2013 to 2015.",
+    "37 in 100: some harm from medicines",
+    "63 in 100: no harm recorded",
     "Mostly side effects: diarrhoea, constipation, falls, bleeding",
     "About 29 in 100 needed NHS care for it, mostly a GP visit",
     "About 8 in 100 were readmitted",
-    "Doctors' predictions at discharge of harm needing healthcare showed no clear link with who needed it",
-    "37 in 100: some harm from medicines",
-    "63 in 100: no harm recorded",
     "For 4 in 10 with harm, the link was rated only 'possible'",
-    "Parekh et al., Br J Clin Pharmacol 2018 (two papers)",
-    "Alasdair MacLullich | Reading the evidence"
+    "Doctors' predictions at discharge of harm needing healthcare showed no clear link with who needed it",
+    "Alasdair MacLullich",
+    "Parekh et al., Br J Clin Pharmacol 2018 (two papers)"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P06.png"
+   ],
+   "visual_source": "visuals/src/C06-P06.html",
+   "visual_format": "chart (10 by 10 icon array)",
+   "design_instructions": "Single card. iconArray person shape 37 hatched orange (stripe pattern) of 100, grey rest; legend and three notes at right; deep teal band with prediction finding. Claims C06-13-a, C06-13-c.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P07",
@@ -649,7 +706,7 @@
     "design_notes": "Worked examples first and larger; eye drops as a plain list item only (no heart or pulse imagery; timolol belongs to C14-19). Schedule at least two weeks from C14-19."
    },
    "alt_text": [
-    "Checklist of medicines often missing from a list built from the boxes at home: injections every few months such as the 6-monthly bone injection denosumab; anything from a hospital clinic; anything bought, including vitamins and herbal remedies; then eye drops, inhalers, patches, creams. In one small English survey about 1 in 3 older people on prescriptions also took a supplement or herbal remedy."
+    "Checklist titled medicines that are not in the boxes at home: injections every few months such as 6-monthly denosumab, anything supplied by a hospital clinic, anything you buy such as vitamins and herbal remedies, then eye drops, inhalers, patches and creams. About 1 in 3 older people in one small English survey also took a supplement or herbal remedy."
    ],
    "attention_note": "An obvious gap nobody thinks about: an injection twice a year leaves no box behind.",
    "gain_note": "A checklist to take to any appointment or admission.",
@@ -669,10 +726,17 @@
     "Patches",
     "Creams",
     "About 1 in 3 older people on prescriptions in one small English survey (39% replied) also took a supplement or herbal remedy.",
-    "Tam et al., CMAJ 2005; Agbabiaka et al., Br J Gen Pract 2018",
-    "Alasdair MacLullich | Ask this"
+    "Alasdair MacLullich",
+    "Tam et al., CMAJ 2005; Agbabiaka et al., Br J Gen Pract 2018"
    ],
-   "status": "text_final"
+   "status": "text_final",
+   "visual_files": [
+    "C06-P07.png"
+   ],
+   "visual_source": "visuals/src/C06-P07.html",
+   "visual_format": "checklist",
+   "design_instructions": "Single card. Checklist with ticks: first three items larger; mint panel with survey fact. No drawing.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P08",
@@ -739,7 +803,7 @@
     "design_notes": "Graph is schematic and labelled as such. Gold only on deep teal."
    },
    "alt_text": [
-    "Question card for someone frail taking insulin or a gliclazide-type tablet with a low HbA1c: 1, have there been any low blood sugars? 2, is this dose still needed? Note that HbA1c shows average blood sugar, not low sugars. In Norfolk GP practices about 3 in 10 people aged 70 or over with type 2 diabetes on these drugs had HbA1c below 53 mmol/mol. The small graph is schematic."
+    "Dark question card: a low HbA1c on insulin or gliclazide, ask two questions. Have there been any low blood sugars? Is this dose still needed? A schematic line graph, not measured data, shows blood sugar dipping below a dotted average line. HbA1c shows the average, not low sugars. In Norfolk about 3 in 10 people aged 70+ on these drugs had HbA1c below 53."
    ],
    "attention_note": "A result that looks like good control may be a reason to reduce treatment.",
    "gain_note": "Two questions for the next diabetes review and the reason behind them.",
@@ -748,16 +812,23 @@
    "visual_text": [
     "Weighing it up",
     "A low HbA1c on insulin or gliclazide: ask two questions",
-    "1. Have there been any low blood sugars?",
-    "2. Is this dose still needed?",
+    "Have there been any low blood sugars?",
+    "Is this dose still needed?",
+    "SCHEMATIC, NOT MEASURED DATA",
     "HbA1c shows average blood sugar. It does not show low sugars.",
     "Norfolk: about 3 in 10 people aged 70+ with type 2 diabetes on these drugs had HbA1c below 53 mmol/mol",
-    "Schematic, not measured data",
-    "Hambling et al., Diabet Med 2017; Strain et al., Diabet Med 2018",
-    "Alasdair MacLullich | Weighing it up"
+    "Alasdair MacLullich",
+    "Hambling et al., Diabet Med 2017; Strain et al., Diabet Med 2018"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P08.png"
+   ],
+   "visual_source": "visuals/src/C06-P08.html",
+   "visual_format": "question card",
+   "design_instructions": "Single dark teal card. Gold numbered steps for two questions; mint panel with schematic SVG line (blood sugar with two dips below a dotted average line), Schematic badge, HbA1c note and Norfolk figure. No evidence chart.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P09",
@@ -820,7 +891,7 @@
     "design_notes": "Show the man as active and in charge of his medicines, the nurse as attentive. No drugs named beyond 'Parkinson's medicines'. No patches, no list of drugs to avoid (C19-22 owns those)."
    },
    "alt_text": [
-    "Drawing of a man with Parkinson's in a hospital bedside chair holding his own pill organiser, with his daughter talking to a nurse at the medicine trolley. Three questions: can doses be given at his own times, can he keep his own supply, what is the plan if he can't swallow. Notes: an English hospital audit used a 30-minute standard; in a Dublin hospital, 52 in 100 doses were over 30 minutes late."
+    "Drawn hospital bay: an older man sits in a chair with his own pill organiser and walking frame in front of him, while his daughter holding a folder and a nurse stand by. Three questions: can doses be given at their own times, can they keep their own supply, and what is the plan if they can't swallow. A Dublin study found 52 in 100 doses over 30 minutes late."
    ],
    "attention_note": "Families often assume ward times are fine; for Parkinson's they often are not.",
    "gain_note": "Three specific asks to make on the day of admission.",
@@ -834,11 +905,18 @@
     "If they can't swallow or are told not to eat, what is the plan?",
     "Standard used in one English hospital audit: within 30 minutes of the person's own time",
     "Dublin hospital study: 52 in 100 doses more than 30 minutes late",
-    "Richard et al., Mov Disord Clin Pract 2022; Omer et al., Cureus 2025",
-    "Alasdair MacLullich | Ask this"
+    "Alasdair MacLullich",
+    "Richard et al., Mov Disord Clin Pract 2022; Omer et al., Cureus 2025"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P09.png"
+   ],
+   "visual_source": "visuals/src/C06-P09.html",
+   "visual_format": "drawn illustration",
+   "design_instructions": "Single card, sand ground. Kit hospital bay: older man seated with pill organiser and standard walking frame, daughter with folder, nurse; question ticks below and audit panel. Wall clock and trolley omitted.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P10",
@@ -930,8 +1008,8 @@
     "design_notes": "Slide 2 icon row makes the small absolute risk visible; do not name paracetamol or any alternative."
    },
    "alt_text": [
-    "Diagram: a water tablet, a blood pressure tablet such as ramipril or losartan, and an anti-inflammatory such as ibuprofen point to a kidney. Two UK studies link the combination with sudden kidney injury, with larger absolute risk on all three together; risk peaked in the first month in one study, and in people over 75 or with weaker kidneys in the other. Ask a pharmacist first.",
-    "Icon row: of 158 people taking an anti-inflammatory for a year alongside both a water tablet and an ACE inhibitor or ARB, about 1 extra had a kidney injury on blood tests. With only one of the two medicines, fewer than 1 extra in 300. Scottish observational study of prescribed painkillers; a link, not proof of cause."
+    "Three tablets, a water tablet, a blood pressure tablet such as ramipril or losartan, and an anti-inflammatory painkiller such as ibuprofen, point by arrows to a drawn kidney. Ask a pharmacist first. The combination is linked with sudden kidney injury, with larger absolute risk when all three are taken together.",
+    "Icon array of 158 people with 1 highlighted: about 1 extra kidney injury per 158 people on all three medicines for a year. With only one of the two other medicines: fewer than 1 extra in 300 per year. Blood-test kidney injury in Tayside; a link, not proof of cause."
    ],
    "attention_note": "A shop-shelf painkiller meets two of the commonest prescriptions.",
    "gain_note": "A one-minute check with a pharmacist and a sense of the actual size of the risk.",
@@ -939,23 +1017,34 @@
    "verification_notes": "Lapi 2013 full text: about a third more admissions (triple), first month peak, 7 per 10,000 cohort rate, mechanism as authors' explanation, prescribed NSAIDs only, observational. Dreischulte 2015 abstract: NNH 158 per year triple, fewer than 1 in 300 double, over 75 and weaker kidneys highest risk, blood-test definition. Doubles not described as safe. No paracetamol, BNF or NICE (C06-32-g not found). Added 68 per 10,000 (Tayside, blood-test definition) beside 7 per 10,000 (hospital-coded) to reconcile the two baselines in plain words; first-month finding attributed to Lapi, over 75 and weaker kidneys to Dreischulte; 1 in 158 stated as a year of regular use.",
    "visual_text": [
     "Small detail, real effect",
+    "1/2",
     "Ibuprofen plus these two? Ask a pharmacist first",
     "Water tablet (diuretic)",
     "Blood pressure tablet such as ramipril or losartan",
     "Anti-inflammatory painkiller such as ibuprofen or naproxen",
     "Linked with sudden kidney injury; larger absolute risk with all three together",
+    "Alasdair MacLullich",
     "Lapi et al., BMJ 2013; Dreischulte et al., Kidney Int 2015",
-    "Alasdair MacLullich | Small detail, real effect",
+    "Small detail, real effect",
+    "2/2",
     "About 1 extra kidney injury for every 158 people on all three medicines for a year",
     "With both medicines: about 1 extra in 158 per year",
     "With only one: fewer than 1 extra in 300 per year",
     "Kidney injury on blood tests, Tayside, Scotland",
     "Prescribed anti-inflammatories over a year; a link, not proof of cause",
-    "Dreischulte et al., Kidney Int 2015",
-    "Alasdair MacLullich | Small detail, real effect"
+    "Alasdair MacLullich",
+    "Dreischulte et al., Kidney Int 2015"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P10_1.png",
+    "C06-P10_2.png"
+   ],
+   "visual_source": "visuals/src/C06-P10.html",
+   "visual_format": "carousel (2 slides)",
+   "design_instructions": "Carousel 2 cards, light ground. Card 1: three drawn tablets with labels and converging arrows to kidney with dotted orange ring; mint note. Card 2: iconArray 158 persons (20 columns) 1 filled orange, mint panel for fewer than 1 in 300. Claim C06-32-e.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P11",
@@ -1039,7 +1128,7 @@
     "design_notes": "Third bar hatched and labelled as a post hoc follow-up. No admission figures on the chart (secondary outcomes stay in text)."
    },
    "alt_text": [
-    "Bar chart from 33 Tayside general practices: among patients at risk, the share on one of 9 named high-risk prescriptions was 37 per 1,000 before the programme, 22 per 1,000 at its end, and about 20 per 1,000 a year after payments stopped (post hoc analysis). The programme combined training, lists of patients, and paid time to review each one."
+    "Bar chart of high-risk anti-inflammatory and antiplatelet prescribing in 33 Tayside practices, per 1,000 patients at risk: 37 before, 22 at the end of the programme, 20 a year after payments stopped (hatched, post hoc check). The programme gave training, a patient list and paid review time."
    ],
    "attention_note": "A rare prescribing intervention that worked and lasted, from a UK primary care setting.",
    "gain_note": "A specific design to copy: named risks, patient lists, protected review time.",
@@ -1048,18 +1137,29 @@
    "visual_text": [
     "Care that works",
     "High-risk anti-inflammatory and antiplatelet prescribing fell, and stayed down",
-    "Training",
-    "A list of each practice's patients on 9 named risky combinations",
-    "Paid time to review each patient",
+    "Patients at risk with a high-risk prescription, per 1,000",
+    "37",
+    "22",
+    "20",
     "Before: 37 per 1,000",
     "End of programme: 22 per 1,000",
     "A year after payments stopped: 20 per 1,000 (post hoc check)",
     "33 Tayside general practices",
-    "Dreischulte et al., N Engl J Med 2016",
-    "Alasdair MacLullich | Care that works"
+    "Training",
+    "A list of each practice's patients on 9 named risky combinations",
+    "Paid time to review each patient",
+    "Alasdair MacLullich",
+    "Dreischulte et al., N Engl J Med 2016"
    ],
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C06-P11.png"
+   ],
+   "visual_source": "visuals/src/C06-P11.html",
+   "visual_format": "chart (bars)",
+   "design_instructions": "Single card. Custom SVG vertical bars 37 (deep teal), 22 (teal), 20 (hatched teal) per 1,000 with labels beneath; mint panel with 33 practices and three numbered steps. Claims C06-31-c, C06-31-e. Icon strip omitted.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C06-P12",
@@ -1126,7 +1226,7 @@
     "design_notes": "Mother and son act together; the son is helping, not controlling. Text only in the callout panel."
    },
    "alt_text": [
-    "Drawing of an older woman at a table with a tablet and water, her son holding a tablet crusher. Callouts: ask how tablets go down, as about 1 in 7 older people at home say they find it hard (small review); crushing can change how a medicine works; don't crush or split slow-release tablets (often MR, SR or XL); ask a pharmacist for a liquid, a tablet that dissolves in water, or another medicine."
+    "Drawn kitchen table: an older woman holds a glass of water by a pill organiser and phone while an older man holds a tablet crusher. Numbered markers point to the glass, crusher, tablets and phone. Before crushing: ask how tablets go down, crushing can change a medicine, don't crush slow-release tablets, ask a pharmacist first. Hiding medicine in food needs a formal decision."
    ],
    "attention_note": "Crushing tablets is a common, kind act that can change the dose.",
    "gain_note": "A question to ask and a check before crushing, plus the splitting distinction.",
@@ -1135,18 +1235,29 @@
    "visual_text": [
     "Small detail, real effect",
     "Before a tablet is crushed",
+    "1",
+    "2",
+    "3",
+    "4",
     "1. Ask how the tablets go down. About 1 in 7 older people at home say they find it hard (small review).",
     "2. Crushing can change how a medicine works.",
     "3. Slow-release tablets (often marked MR, SR or XL): don't crush or split.",
     "4. Ask a pharmacist first: there may be a liquid, a tablet that dissolves in water, or another medicine.",
     "Hiding medicine in food without the person knowing needs a formal decision about their capacity and care (the legal route differs across the UK).",
-    "Mc Gillicuddy et al. 2016; Prescrire Int 2014",
-    "Alasdair MacLullich | Small detail, real effect"
+    "Alasdair MacLullich",
+    "Mc Gillicuddy et al. 2016; Prescrire Int 2014"
    ],
    "status": "text_final",
    "open_issues": [
     "Close to C16-P01 (hidden medicines in food) on crushing; this post is about swallowing difficulty and the pharmacist check. Do not schedule the two adjacent."
-   ]
+   ],
+   "visual_files": [
+    "C06-P12.png"
+   ],
+   "visual_source": "visuals/src/C06-P12.html",
+   "visual_format": "annotated scene",
+   "design_instructions": "Single card, sand ground. Kit kitchen scene: older woman with glass, pill organiser, phone, custom crusher prop, older man; pins 1 to 4; numbered text and caution panel. Slow-release inset omitted; MR, SR, XL in text.",
+   "visual_status": "final"
   }
  ]
 }

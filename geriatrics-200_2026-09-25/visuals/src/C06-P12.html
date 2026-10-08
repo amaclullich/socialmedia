@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P12 Crush</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><div class="card sand" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content" style="padding-top:24px">
+  <h1 class="s" style="font-size:56px">Before a tablet is <em>crushed</em></h1>
+  <div class="scene" id="sc" style="margin-top:16px;flex:0 0 470px"></div>
+  <ol class="steps" style="margin-top:18px;gap:10px">
+   <li><span>1. Ask how the tablets go down. About 1 in 7 older people at home say they find it hard (small review).</span></li>
+   <li><span>2. Crushing can change how a medicine works.</span></li>
+   <li><span>3. Slow-release tablets (often marked MR, SR or XL): don't crush or split.</span></li>
+   <li><span>4. Ask a pharmacist first: there may be a liquid, a tablet that dissolves in water, or another medicine.</span></li>
+  </ol>
+  <div class="panel" style="margin-top:auto;padding:14px 24px;font-size:24px;line-height:1.28;border-color:var(--orange)">Hiding medicine in food without the person knowing needs a formal decision about their capacity and care (the legal route differs across the UK).</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Mc Gillicuddy et al. 2016; Prescrire Int 2014</span></div>
+</div></div>
+<style>.steps li::before{display:none!important}.steps li{display:block!important;font-size:31px!important;line-height:1.28!important}</style>
+<script>
+const W=920,H=470,g=420,S=0.85;
+const tb=Kit.anchor('table',{x:480,y:g,scale:S});
+const pen=Kit.pen(Kit.LW/S);
+const crusher=Kit.at(590,tb.top.y,S,pen.r(-26,-46,52,46,6,'#B5AB9C')+pen.r(-34,-56,68,14,5,'#D9DEDC')+pen.r(-8,-110,16,60,6,'#5F6B76'));
+Kit.draw('#sc',W,H,[Kit.room('home_living',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:120,y:g-70*S-170,scale:0.8,curtains:'mustard'}),
+ Kit.table({x:480,y:g,w:300,scale:S}),
+ Kit.person({pose:'seated_side',seat:'chair',x:340,y:g,scale:S,facing:'right',age:'older',sex:'f',skin:'tan',hair:'white',hairStyle:'bun',top:'plum',extras:['cardigan'],cardigan:'sage',hold:'glass',tilt:8}),
+ Kit.pill_organiser({x:430,y:tb.top.y,scale:S*0.9,rows:1}),
+ Kit.phone({x:510,y:tb.top.y,scale:S}),
+ crusher,
+ Kit.person({pose:'standing',x:730,y:g,scale:S,facing:'left',age:'older',sex:'m',skin:'olive',hair:'white',hairStyle:'balding',top:'denim',hands:{near:{x:615,y:tb.top.y-60}}}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:335,y:150},{n:2,x:590,y:tb.top.y-135},{n:3,x:430,y:tb.top.y-62},{n:4,x:515,y:tb.top.y-62}]);
+window.__ready=true;
+</script></body></html>

@@ -1,0 +1,1224 @@
+{
+ "category": "C20",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 3
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 6
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C20-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "socioeconomic status, loneliness and functional health",
+     "fix": "money and background, loneliness and how well they could manage daily tasks"
+    },
+    {
+     "item": "2",
+     "quote": "When 19 long-term studies were pooled",
+     "fix": "When the results of 19 studies that followed people for years were combined"
+    },
+    {
+     "item": "3",
+     "quote": "views were measured once, up to 23 years earlier",
+     "fix": "views were measured once, up to 23 years before the follow-up ended"
+    },
+    {
+     "item": "3",
+     "quote": "the link with later health and survival was small",
+     "fix": "the link with later health and survival was small (no figure is given, so say so or give it)"
+    },
+    {
+     "item": "6",
+     "quote": "This kind of study does not rule out that people who were already in poorer health, in ways it did not measure, went on to view ageing more negatively.",
+     "fix": "People who were already in poorer health may have gone on to view ageing more negatively. This kind of study cannot rule that out."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'It shows a link. It does not show cause.'",
+    "'went on to view' is mildly figurative",
+    "longest sentence over the 25-word public limit"
+   ]
+  },
+  {
+   "tmp_id": "C20-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "socioeconomic status, loneliness and functional health",
+     "fix": "money and background, loneliness and how well they could manage daily tasks"
+    },
+    {
+     "item": "2",
+     "quote": "When 19 long-term studies were pooled",
+     "fix": "When the results of 19 studies that followed people for years were combined"
+    },
+    {
+     "item": "3",
+     "quote": "measured once, up to 23 years earlier",
+     "fix": "measured once, up to 23 years before the follow-up ended"
+    },
+    {
+     "item": "6",
+     "quote": "This kind of study does not rule out that people who were already in poorer health, in ways it did not measure, went on to view ageing more negatively.",
+     "fix": "People who were already in poorer health may have gone on to view ageing more negatively. This kind of study cannot rule that out."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'It shows a link. It does not show cause.'",
+    "'deserves to be quoted with its limits' is slightly preachy",
+    "'Three checks before you repeat it' is a setup list; the third item is a result not a check"
+   ]
+  },
+  {
+   "tmp_id": "C20-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "pooled studies find a small one",
+     "fix": "studies combined together find a small link"
+    },
+    {
+     "item": "3",
+     "quote": "a small one",
+     "fix": "a small link (give the size or say it was small)"
+    },
+    {
+     "item": "6",
+     "quote": "That shows a link, not a cause, and pooled studies find a small one.",
+     "fix": "That shows a link, not a cause. When studies are combined, the link is small."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'a link, not a cause'",
+    "'a small one' has an unclear referent"
+   ]
+  },
+  {
+   "tmp_id": "C20-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "When 19 studies were pooled",
+     "fix": "When the results of 19 studies were combined"
+    },
+    {
+     "item": "3",
+     "quote": "the link was small",
+     "fix": "the link between views of ageing and living longer was small"
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'a link, not a cause'"
+   ]
+  },
+  {
+   "tmp_id": "C20-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "no extra missed clots found in that group",
+     "fix": "no extra missed clots found in that group (give the count of people followed, as the post does only for the whole study)"
+    },
+    {
+     "item": "3",
+     "quote": "about 6 in 100",
+     "fix": "about 6 in 100 of the 673"
+    },
+    {
+     "item": "4",
+     "quote": "In the whole study (age 50 or over), the 3-month failure rate in that group was 1 of 331 people (0.3%, 95% CI 0.1% to 1.7%).",
+     "fix": "In the whole study, 1 of 331 people in that group had a clot found within 3 months (0.3%); the true rate could be as high as 1.7%."
+    }
+   ],
+   "flags": [
+    "second paragraph is dense for a phone",
+    "'failure rate' is not defined"
+   ]
+  },
+  {
+   "tmp_id": "C20-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "3-month failure rate",
+     "fix": "rate of clots found within 3 months"
+    },
+    {
+     "item": "6",
+     "quote": "This comes from ADJUST-PE, a prospective study of 3346 emergency outpatients with suspected pulmonary embolism, run in 19 centres in Belgium, France, the Netherlands and Switzerland between 2010 and 2013.",
+     "fix": "This comes from ADJUST-PE, a prospective study of 3346 emergency outpatients with suspected pulmonary embolism. It ran in 19 centres in Belgium, France, the Netherlands and Switzerland between 2010 and 2013."
+    },
+    {
+     "item": "7",
+     "quote": "a rise of about 23 percentage points",
+     "fix": "delete this phrase; keep 'about 6 in 100' and 'about 30 in 100'"
+    },
+    {
+     "item": "7",
+     "quote": "About 157 more people in that group (200 rather than 43 of 673) were ruled out without a scan",
+     "fix": "delete or say plainly: 'That is 200 of the 673 rather than 43 of the 673'"
+    }
+   ],
+   "flags": [
+    "'Limits to carry with it' is figurative",
+    "'This is a test threshold adjusted for older people using evidence.' is filler",
+    "the same effect is given three ways (6 vs 30 in 100, 23 points, 157 more people)"
+   ]
+  },
+  {
+   "tmp_id": "C20-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "No extra missed clots found.",
+     "fix": "No extra missed clots were found among the 673."
+    },
+    {
+     "item": "6",
+     "quote": "ADJUST-PE, a non-randomised study: of 673 people aged 75+ with suspected pulmonary embolism and a not-high clinical score, D-dimer alone ruled out a clot in about 6 in 100 with a fixed cut-off and about 30 in 100 with age x 10",
+     "fix": "Split into two sentences after 'not-high clinical score'"
+    }
+   ],
+   "flags": [
+    "telegraphic; reads as a compressed abstract"
+   ]
+  },
+  {
+   "tmp_id": "C20-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "No extra missed clots were found in that group.",
+     "fix": "No extra missed clots were found among those 673 people."
+    },
+    {
+     "item": "6",
+     "quote": "A clot was ruled out by D-dimer alone, without a scan, in about 6 in 100 with a fixed cut-off of 500",
+     "fix": "Split after 'without a scan': 'With a fixed cut-off of 500 µg/L this was about 6 in 100; with age x 10 µg/L it was about 30 in 100.'"
+    }
+   ],
+   "flags": [
+    "'A clot was ruled out' can be misread as a clot being found in 6 in 100"
+   ]
+  },
+  {
+   "tmp_id": "C20-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In pooled trials of breast and bowel cancer screening",
+     "fix": "In trials of breast and bowel cancer screening, with results combined"
+    },
+    {
+     "item": "3",
+     "quote": "it took about 10 years on average before 1 cancer death was prevented for every 1000 people screened",
+     "fix": "screening prevented 1 cancer death for every 1000 people screened only after about 10 years, on average"
+    },
+    {
+     "item": "6",
+     "quote": "In pooled trials of breast and bowel cancer screening, it took about 10 years on average before 1 cancer death was prevented for every 1000 people screened.",
+     "fix": "In trials of breast and bowel cancer screening, about 10 years passed, on average, before 1 cancer death was prevented for every 1000 people screened."
+    }
+   ],
+   "flags": [
+    "'Different advice can be fair' risks reading as endorsing age-based refusal; no reassurance should be implied",
+    "post is long for X"
+   ]
+  },
+  {
+   "tmp_id": "C20-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A pooled analysis of trials",
+     "fix": "An analysis that combined the results of trials"
+    },
+    {
+     "item": "3",
+     "quote": "It took about 10 years on average before 1 cancer death was prevented for every 1000 people screened",
+     "fix": "screening prevented 1 cancer death for every 1000 people screened only after about 10 years, on average"
+    },
+    {
+     "item": "6",
+     "quote": "Sometimes the advice should differ, because a benefit can take years to arrive and a person's age affects whether they are likely to live long enough to receive it.",
+     "fix": "Sometimes the advice should differ. A benefit can take years to arrive, and a person may not live long enough to receive it."
+    }
+   ],
+   "flags": [
+    "'bring the reasoning into the open' is figurative",
+    "'The answer is useful either way.' is filler"
+   ]
+  },
+  {
+   "tmp_id": "C20-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "as in cancer screening",
+     "fix": "as in cancer screening (tests in people with no symptoms)"
+    },
+    {
+     "item": "6",
+     "quote": "Different advice can be fair when a benefit takes years to arrive and you may not live long enough to receive it, as in cancer screening.",
+     "fix": "Different advice can be fair when a benefit takes years to arrive. You may not live long enough to receive it, as with cancer screening."
+    }
+   ],
+   "flags": [
+    "no number or source for the screening claim; could read as unsupported"
+   ]
+  },
+  {
+   "tmp_id": "C20-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In breast and bowel cancer screening",
+     "fix": "In screening for breast and bowel cancer (tests in people with no symptoms)"
+    },
+    {
+     "item": "3",
+     "quote": "it took about 10 years on average before 1 cancer death was prevented per 1000 people screened",
+     "fix": "screening prevented 1 cancer death per 1000 people screened only after about 10 years, on average"
+    },
+    {
+     "item": "6",
+     "quote": "In breast and bowel cancer screening, it took about 10 years on average before 1 cancer death was prevented per 1000 people screened.",
+     "fix": "In breast and bowel cancer screening, about 10 years passed, on average, before 1 cancer death was prevented per 1000 people screened."
+    }
+   ],
+   "flags": [
+    "source not named, so a reader cannot tell it is pooled trial data"
+   ]
+  },
+  {
+   "tmp_id": "C20-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Few were flagged.",
+     "fix": "Few of these were flagged in the guideline (give the count if known, otherwise say 'the guideline flagged few')."
+    },
+    {
+     "item": "6",
+     "quote": "Add up the published guidelines for five common conditions and one imagined 79-year-old woman would be prescribed 12 medicines plus a complicated non-drug regimen if every guideline were followed.",
+     "fix": "Take five common conditions. If every published guideline were followed, one imagined 79-year-old woman would be prescribed 12 medicines plus a complicated non-drug regimen."
+    }
+   ],
+   "flags": [
+    "'Add up' opens with an instruction that is not an action",
+    "'review the whole plan as one plan' repeats itself"
+   ]
+  },
+  {
+   "tmp_id": "C20-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Few were flagged in the guideline.",
+     "fix": "The guideline flagged few of them."
+    },
+    {
+     "item": "5",
+     "quote": "This step is a judgement about good practice, not a trial finding.",
+     "fix": "Put the action last: 'Ask the person what they most want, then check each medicine and each task against it.'"
+    },
+    {
+     "item": "6",
+     "quote": "The underlying point is that single-condition guidelines are not built to weigh the combined effect of their advice for a person with several conditions, and they give little help in deciding which advice to put first.",
+     "fix": "Each guideline covers one condition. None weighs the combined effect of all the advice for a person with several conditions or says which to put first."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'a judgement ... not a trial finding'",
+    "'UK work shows a similar pattern' is vague"
+   ]
+  },
+  {
+   "tmp_id": "C20-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "133 potentially serious interactions between NICE type 2 diabetes guideline drugs and drugs for 11 other conditions (potential, not harm seen)",
+     "fix": "133 potentially serious interactions between drugs recommended for type 2 diabetes and drugs recommended for 11 other conditions. These are possible interactions; no harm to patients was seen."
+    },
+    {
+     "item": "6",
+     "quote": "UK review: 133 potentially serious interactions between NICE type 2 diabetes guideline drugs and drugs for 11 other conditions (potential, not harm seen).",
+     "fix": "A UK review found 133 potentially serious interactions between drugs for type 2 diabetes and drugs for 11 other conditions."
+    }
+   ],
+   "flags": [
+    "telegraphic, noun-pile 'NICE type 2 diabetes guideline drugs'",
+    "parenthetical negation-then-correction"
+   ]
+  },
+  {
+   "tmp_id": "C20-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Few were flagged.",
+     "fix": "The guideline flagged few of them."
+    },
+    {
+     "item": "6",
+     "quote": "Guidelines for five common conditions, added up for one imagined 79-year-old woman, would mean 12 medicines plus a complicated non-drug regimen if every guideline were followed (US analysis, 2005).",
+     "fix": "Take five common conditions. If every guideline were followed, one imagined 79-year-old woman would take 12 medicines plus a complicated non-drug regimen (US analysis, 2005)."
+    }
+   ],
+   "flags": [
+    "'These are potential interactions, not harm seen in patients' is negation-then-correction"
+   ]
+  },
+  {
+   "tmp_id": "C20-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "showed \"a consistent pattern of discordance\"",
+     "fix": "said they could do more than they did at home (state the direction if the paper does) or keep the quote and add 'meaning the two did not match'"
+    },
+    {
+     "item": "3",
+     "quote": "In a large US study of older adults",
+     "fix": "In a US study of 5,888 older adults"
+    }
+   ],
+   "flags": [
+    "opens with a question the post then answers",
+    "'tenses' is figurative",
+    "the three tenses are never named, only the three answers"
+   ]
+  },
+  {
+   "tmp_id": "C20-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "kappa statistics of 0.55 to 0.60",
+     "fix": "kappa statistics (a measure of agreement, where 1 is perfect) of 0.55 to 0.60"
+    },
+    {
+     "item": "3",
+     "quote": "kappa statistics of 0.55 to 0.60",
+     "fix": "agreement scores of 0.55 to 0.60, where 1.00 would be perfect agreement"
+    },
+    {
+     "item": "5",
+     "quote": "That is a judgement about good practice.",
+     "fix": "End on the action: 'Say in the letter which kind of function the score records, and add what the person does day to day.'"
+    },
+    {
+     "item": "6",
+     "quote": "To illustrate the point, it presented data from the MacArthur Studies of Successful Aging in the US, which showed \"a consistent pattern of discordance\" between what people said they could do and what they actually did at home.",
+     "fix": "It used data from the MacArthur Studies of Successful Aging in the US. These showed \"a consistent pattern of discordance\" between what people said they could do and what they did at home."
+    }
+   ],
+   "flags": [
+    "opens with a question the post then answers",
+    "'The practical point is simple.' is empty",
+    "'tenses' is figurative",
+    "last sentence is a disclaimer, not an action"
+   ]
+  },
+  {
+   "tmp_id": "C20-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "In US data, what people said they could do and what they did at home showed \"a consistent pattern of discordance\".",
+     "fix": "In US data, what people said they could do did not match what they did at home."
+    }
+   ],
+   "flags": [
+    "opens with a question the post then answers",
+    "quoted jargon 'discordance' carries the only result"
+   ]
+  },
+  {
+   "tmp_id": "C20-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "showed \"a consistent pattern of discordance\"",
+     "fix": "did not match what they did at home"
+    },
+    {
+     "item": "3",
+     "quote": "agreed only moderately with measured tests",
+     "fix": "agreed only moderately with measured tests (the agreement scores were 0.55 to 0.60 out of 1.00, if a figure is wanted)"
+    }
+   ],
+   "flags": [
+    "opens with a question the post then answers"
+   ]
+  },
+  {
+   "tmp_id": "C20-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 2
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NHS talking therapy services",
+     "fix": "NHS talking therapy services (courses of sessions with a trained worker)"
+    },
+    {
+     "item": "2",
+     "quote": "matched with similar working-age adults",
+     "fix": "compared with working-age adults who were similar in other ways"
+    },
+    {
+     "item": "3",
+     "quote": "About 53 in 100 older adults recovered.",
+     "fix": "About 53 in 100 older adults recovered by the end of treatment, as the services measured it."
+    },
+    {
+     "item": "3",
+     "quote": "by a smaller margin",
+     "fix": "by a smaller margin (no figure is given; say so)"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Care that works series look at specific treatments and how they work in later life.",
+     "fix": "Delete. End on: 'If you are over 65 and feeling low or anxious, ask your GP about talking therapy.'"
+    },
+    {
+     "item": "6",
+     "quote": "For depression alone, older adults were still more likely to recover after allowing for how unwell people were at the start, but the recovery gap was no longer clear once each older person was matched with similar working-age adults.",
+     "fix": "For depression alone, older adults were still more likely to recover once we allow for how unwell people were at the start. When each older person was compared with similar working-age adults, the gap was no longer clear."
+    }
+   ],
+   "flags": [
+    "empty promotional close",
+    "'Fewer than 4 in 100 ... against a general population figure of about 18 in 100' is confusing",
+    "headline 'did better' is stronger than the adjusted result",
+    "post is far too long for X"
+   ]
+  },
+  {
+   "tmp_id": "C20-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 2
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "after allowing for baseline severity",
+     "fix": "after allowing for how unwell people were at the start"
+    },
+    {
+     "item": "2",
+     "quote": "an observational study of routine service data",
+     "fix": "a study that looked at what happened in routine service records, without assigning people to treatments"
+    },
+    {
+     "item": "3",
+     "quote": "by a smaller margin",
+     "fix": "by a smaller margin (no figure is given; say so)"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Care that works series look at specific treatments and how they work in later life.",
+     "fix": "Delete. End on: 'If you are over 65 and feeling low or anxious, you can ask your GP about talking therapy.'"
+    },
+    {
+     "item": "6",
+     "quote": "The advantage was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for baseline severity, but the recovery gap was no longer clear once each older person was matched with similar working-age adults. The data come from London services only.",
+     "fix": "Split into separate short sentences; one idea each, and drop 'matched' in favour of 'compared with similar working-age adults'."
+    }
+   ],
+   "flags": [
+    "empty promotional close",
+    "'There are limits to carry with this' is figurative",
+    "the limits paragraph is longer than the result"
+   ]
+  },
+  {
+   "tmp_id": "C20-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Raw figures from an observational study",
+     "fix": "These figures are not adjusted, and the study did not assign people to treatments"
+    },
+    {
+     "item": "3",
+     "quote": "fewer dropped out",
+     "fix": "fewer dropped out (18 in 100, against 32 in 100)"
+    },
+    {
+     "item": "6",
+     "quote": "In NHS talking therapy in London, about 53 in 100 people aged 65+ recovered, against 41 in 100 aged 18 to 64, and fewer dropped out.",
+     "fix": "In NHS talking therapy in London, about 53 in 100 people aged 65 or over recovered. For people aged 18 to 64 it was 41 in 100. Fewer older people dropped out."
+    }
+   ],
+   "flags": [
+    "'Raw figures' is jargon",
+    "close tells the reader to seek therapy without saying the results were adjusted away partly"
+   ]
+  },
+  {
+   "tmp_id": "C20-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "These are raw figures",
+     "fix": "These figures have not been adjusted for how unwell people were at the start"
+    },
+    {
+     "item": "2",
+     "quote": "may be a selected group",
+     "fix": "may be people who differ from older people who never reach them"
+    },
+    {
+     "item": "3",
+     "quote": "Fewer than 4 in 100 of those treated were 65 or over.",
+     "fix": "Fewer than 4 in 100 of those treated were 65 or over (give the population comparison or drop the figure)."
+    }
+   ],
+   "flags": [
+    "adjusted result is not stated, so the headline gap may overstate"
+   ]
+  },
+  {
+   "tmp_id": "C20-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "other research with a consultee's advice",
+     "fix": "other research with the advice of a consultee (a person who knows them and is asked what they would want)"
+    }
+   ],
+   "flags": [
+    "'Judgement:' label is fine but the two stats come from different times and settings"
+   ]
+  },
+  {
+   "tmp_id": "C20-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a consultee's advice",
+     "fix": "a consultee's advice (someone who knows the person and says what they would want)"
+    },
+    {
+     "item": "2",
+     "quote": "INCLUDE Impaired Capacity to Consent Framework",
+     "fix": "the INCLUDE framework for trials with people who may not be able to consent"
+    }
+   ],
+   "flags": [
+    "opening says 'Two sets of figures' but the list has three items",
+    "'leaves their care with less evidence' is mild but fair"
+   ]
+  },
+  {
+   "tmp_id": "C20-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Of about 80 UK trials in conditions where impaired capacity is common",
+     "fix": "Of about 80 UK trials completed in 2015 to 2018 in conditions where impaired capacity is common"
+    }
+   ],
+   "flags": [
+    "'with safeguards' is not named"
+   ]
+  },
+  {
+   "tmp_id": "C20-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "with a legal representative or a consultee",
+     "fix": "with the consent of a legal representative (drug trials) or the advice of a consultee (other research)"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C20-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "became common 10 to 15 years earlier",
+     "fix": "became common at ages 10 to 15 years younger"
+    },
+    {
+     "item": "6",
+     "quote": "One implication: a service or study that opens at a fixed age reaches people in deprived areas later in the course of their conditions.",
+     "fix": "A service or study that opens at a fixed age reaches people in deprived areas later in the course of their conditions."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'It describes whole populations, not any one person.'",
+    "'the way in' is figurative"
+   ]
+  },
+  {
+   "tmp_id": "C20-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "became common 10 to 15 years earlier",
+     "fix": "became common at ages 10 to 15 years younger"
+    },
+    {
+     "item": "6",
+     "quote": "If the aim is to reach people who need them, eligibility based on need fits better, and it gives particular attention to people who are poorly served.",
+     "fix": "If the aim is to reach people who need them, eligibility based on need fits better. It also helps people who are poorly served."
+    }
+   ],
+   "flags": [
+    "'The same birthday falls at a different stage in different places' is figurative",
+    "'the way in' is figurative",
+    "negation-then-correction: 'whole populations, not any one person's course'"
+   ]
+  },
+  {
+   "tmp_id": "C20-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "became common 10 to 15 years earlier in the most deprived areas than the most affluent",
+     "fix": "became common at ages 10 to 15 years younger in the most deprived areas than in the most affluent"
+    },
+    {
+     "item": "5",
+     "quote": "Need fits better.",
+     "fix": "Eligibility based on need, such as help needed with everyday tasks, fits better."
+    },
+    {
+     "item": "6",
+     "quote": "In a study of 1.75 million people in Scotland, two or more long-term conditions became common 10 to 15 years earlier in the most deprived areas than the most affluent (2007 data).",
+     "fix": "A study of 1.75 million people in Scotland used 2007 data. Two or more long-term conditions became common 10 to 15 years earlier in the most deprived areas than the most affluent."
+    }
+   ],
+   "flags": [
+    "'the way into' is figurative",
+    "'Need' is undefined"
+   ]
+  },
+  {
+   "tmp_id": "C20-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "became common 10 to 15 years earlier",
+     "fix": "became common at ages 10 to 15 years younger"
+    },
+    {
+     "item": "5",
+     "quote": "Eligibility based on need fits better.",
+     "fix": "Eligibility based on need, such as help needed with everyday tasks, fits better."
+    }
+   ],
+   "flags": [
+    "'the way in' is figurative"
+   ]
+  },
+  {
+   "tmp_id": "C20-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a meta-analysis",
+     "fix": "a study that combined the results of many studies"
+    },
+    {
+     "item": "3",
+     "quote": "for the 729 people with complete data. Yet about 3 in 4 people rated",
+     "fix": "for the 729 people with complete data. Of the 832 who answered the rating question, about 3 in 4 rated"
+    },
+    {
+     "item": "6",
+     "quote": "The typical 85-year-old woman in a Newcastle study had 5 chronic diseases from a list of 18 that the researchers counted, and the typical man had 4.",
+     "fix": "In a Newcastle study, the typical 85-year-old woman had 5 chronic diseases from a list of 18, and the typical man had 4."
+    }
+   ],
+   "flags": [
+    "post is long for X",
+    "'Yet' sets up a contrast the post then explains"
+   ]
+  },
+  {
+   "tmp_id": "C20-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "health-assessment tests",
+     "fix": "tests done at a health assessment"
+    },
+    {
+     "item": "3",
+     "quote": "(646 of the 832 who answered, 78 in 100)",
+     "fix": "(646 of the 832 who answered)"
+    },
+    {
+     "item": "6",
+     "quote": "Yet about 3 in 4 people (646 of the 832 who answered, 78 in 100) rated their health as good, very good or excellent compared with others their age.",
+     "fix": "About 3 in 4 people rated their health as good, very good or excellent compared with others their age. That was 646 of the 832 who answered."
+    }
+   ],
+   "flags": [
+    "'Both are useful, and neither replaces the other.' is filler",
+    "'a snapshot' is figurative"
+   ]
+  },
+  {
+   "tmp_id": "C20-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Yet about 3 in 4 rated their health good, very good or excellent compared with others their age. If a relative has a long list of conditions, ask how they rate their own health.",
+     "fix": "Split: put 'If a relative has a long list of conditions, ask how they rate their own health.' as its own line."
+    }
+   ],
+   "flags": [
+    "'Yet' sets up a contrast the post then relies on the reader to resolve"
+   ]
+  },
+  {
+   "tmp_id": "C20-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'may run optimistic' is mildly figurative"
+   ]
+  }
+ ]
+}

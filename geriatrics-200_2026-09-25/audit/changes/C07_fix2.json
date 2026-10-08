@@ -241,8 +241,8 @@
     "tmp_id": "C07-P08",
     "where": "captions.threads",
     "old": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events in over-75s well enough to join (about 2.6 vs 3.9 in 100 a year).\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, or whose systolic fell below 110 on standing.\n\nFor them, UK guidance points to the standing reading. Treat to standing pressure, falls and goals.",
-    "new": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events with a lower target in over-75s well enough to join: about 2.6 in 100 a year against 3.9 in 100 on the higher. Kidney function fell more often on the lower target in people with normal kidneys.\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, or whose systolic fell below 110 on standing.\n\nFor them, use the standing reading, falls and the person's goals.",
-    "reason": "Cold read items 1 and 3 and flags: finding stated with group labels; kidney result added (C07-03-d); figurative 'points to' and jargon 'treat to standing pressure' removed; trim to platform limit"
+    "new": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events with a lower target in over-75s well enough to join: about 2.6 in 100 a year against 3.9 in 100 on the higher target. Kidney function fell more often on the lower target in people with normal kidneys.\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, or whose systolic fell below 110 on standing.\n\nFor them, use the standing reading, falls and the person's goals.",
+    "reason": "Cold read items 1 and 3 and flags: finding stated with group labels; kidney result added (C07-03-d); figurative 'points to' and jargon 'treat to standing pressure' removed; trim to platform limit; clarity: 'the higher' made 'the higher target'"
   },
   {
     "tmp_id": "C07-P09",
@@ -262,7 +262,7 @@
     "tmp_id": "C07-P09",
     "where": "captions.bluesky",
     "old": "NICE (England): offer dialysis or conservative kidney care (care without dialysis), and decide together.\n\nIn an observational study of older US veterans, early dialysis was linked with little clear difference in survival and 2 weeks fewer days at home, against usual medical care.\n\nAsk about both.",
-    "new": "NICE, which advises the NHS in England, says people with failing kidneys should be offered dialysis or conservative kidney care (care without dialysis).\n\nIn a US study of older veterans, early dialysis was linked with little clear difference in survival over 3 years, and 2 weeks fewer days at home.\n\nAsk about both.",
+    "new": "NICE (England) says people with failing kidneys should be offered dialysis or conservative care (care without dialysis).\n\nIn a US veterans study, early dialysis, against usual care, was linked with little clear difference in survival over 3 years and 2 weeks fewer days at home.\n\nAsk about both.",
     "reason": "Cold read (rewrite): one lead point (NICE offer of a choice) then the veterans study; leaflet study removed (cold read: its own post); veterans study explained in plain words with two comparisons kept separate and the days-at-home period (3 years) stated; NICE expanded; series plug removed; trim to platform limit; both results kept with the 3-year period"
   },
   {
@@ -402,5 +402,89 @@
     "old": "When nobody knows if a treatment will help, a time-limited trial gives it a fair chance.\n\nIn intensive care, consensus is to agree with the person or family on the treatment, how long, signs it is working and the review plan (carry on, focus on comfort or extend).\n\nIn a before-and-after study in three US intensive care units (not just older people), after doctor training, almost 9 in 10 family meetings named signs of improvement, against about 1 in 5 before. Hospital deaths did not change.",
     "new": "A time-limited trial in intensive care: consensus is to agree with the person or family the treatment, how long it runs, the signs it is working, and what happens at review (carry on, focus on comfort, or extend).\n\nA before-and-after study in three US intensive care units (not only older people), almost 9 in 10 family meetings named signs of improvement after training, against about 1 in 5 before. Hospital deaths did not change.\n\nWrite down the signs, the date, and the plan for either result.",
     "reason": "Cold read items 5 and 6: closing instruction added; consensus sentence made specific (four things); figurative 'fair chance' removed; trim to platform limit"
+  },
+  {
+    "tmp_id": "C07-P01",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P02",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P03",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P04",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P05",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P06",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P07",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P08",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue; the open_issues entry is a scheduling note for the editor, not a text problem"
+  },
+  {
+    "tmp_id": "C07-P09",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P10",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P11",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
+  },
+  {
+    "tmp_id": "C07-P12",
+    "where": "status",
+    "old": "draft",
+    "new": "text_final",
+    "reason": "All cold-read fixes applied, checker clean, no unresolved issue"
   }
 ]

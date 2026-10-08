@@ -241,7 +241,7 @@
     "tmp_id": "C13-P05",
     "where": "linkedin",
     "old": "It says fluids by drip or under the skin should be considered and reviewed for each person, for example if they have distressing thirst and are unable to drink enough, and stopped if they cause harm or the person no longer wants them.",
-    "new": "It says fluids by drip or under the skin should be considered for each person, for example if they have distressing thirst and cannot drink enough. They should be reviewed, and stopped if they cause harm or the person no longer wants them.",
+    "new": "It says fluids by drip or under the skin should be considered for each person, for example if they have distressing thirst and are unable to drink enough. They should be reviewed, and stopped if they cause harm or the person no longer wants them.",
     "reason": "item 6: split long sentence"
   },
   {
@@ -467,5 +467,166 @@
     "old": "Two trials of commercial flavour enhancers gave mixed results.",
     "new": "Two trials of flavour enhancers disagreed: one found weight gain, the other no change.",
     "reason": "item 4: 'mixed results' replaced by what each trial found"
+  },
+  {
+    "tmp_id": "C13-P09",
+    "where": "x",
+    "old": "Over three years they were more likely to be admitted to hospital with pneumonia, or to die of it, than those who took them out, even after the researchers allowed for other health differences they measured.",
+    "new": "Over three years they were more likely than those who took them out to be admitted to hospital with pneumonia, or to die of it. This held after the researchers allowed for other health differences they measured.",
+    "reason": "item 6: split long sentence with trailing comparison"
+  },
+  {
+    "tmp_id": "C13-P09",
+    "where": "linkedin",
+    "old": "Over three years they were more likely to be admitted to hospital with pneumonia, or to die of it, than those who took them out, even after the researchers allowed for other health differences they measured.",
+    "new": "Over three years they were more likely than those who took them out to be admitted to hospital with pneumonia, or to die of it. This held after the researchers allowed for other health differences they measured.",
+    "reason": "item 6: split long sentence with trailing comparison"
+  },
+  {
+    "tmp_id": "C13-P09",
+    "where": "linkedin",
+    "old": "What follows is practical advice, not a trial result. If you or your relative",
+    "new": "If you or your relative",
+    "reason": "setup line and negation shape removed; the advice is already an instruction"
+  },
+  {
+    "tmp_id": "C13-P09",
+    "where": "bluesky",
+    "old": "Dental specialists advise taking dentures out every night and cleaning daily. In a Japanese study of people aged 85+, sleeping in dentures was linked with more admissions to hospital with pneumonia, or deaths from it, over 3 years (a link, not proof).",
+    "new": "Dental specialists advise taking dentures out nightly and cleaning daily. In a Japanese study of people aged 85+, those who slept in dentures were more often admitted to hospital with pneumonia, or died of it, over 3 years. That is a link, not proof.",
+    "reason": "item 6: plain sentence instead of nominalised phrase and parenthesis"
+  },
+  {
+    "tmp_id": "C13-P09",
+    "where": "threads",
+    "old": "those who slept in dentures were more likely to be admitted with pneumonia or die of it over three years.",
+    "new": "those who slept in dentures were, over three years, more likely to be admitted to hospital with pneumonia, or to die of it.",
+    "reason": "item 6: clearer order; says 'to hospital'"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "x",
+    "old": "Mouth care was accepted and finished more often, and lasted longer.",
+    "new": "Compared with carers who cleaned teeth without those techniques, mouth care was accepted and finished more often, and lasted longer.",
+    "reason": "item 3: say what the comparison was"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "linkedin",
+    "old": "That is the authors' theory rather than a trial result, and it blames no one. It is a way of understanding the moment.",
+    "new": "That is the authors' theory, and a way of understanding the moment without blaming carers.",
+    "reason": "negation shape removed"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "linkedin",
+    "old": "In one, trained research staff used calm techniques: coming to the person at or below eye level; doing mouth care at a sink in front of a mirror; giving the person a toothbrush to hold; starting the brushing and letting them carry on; using gestures and short, one-step instructions; gently guiding their hand; and, if things escalated, letting a different carer take over.",
+    "new": "In one, trained research staff used calm techniques. They came to the person at or below eye level, and did mouth care at a sink in front of a mirror. They gave the person a toothbrush to hold, started the brushing and let them carry on. They used gestures and short, one-step instructions, and gently guided the person's hand. If things escalated, a different carer took over.",
+    "reason": "item 6: split a 60-word list sentence into short sentences"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "linkedin",
+    "old": "The trial tested the package, not each technique on its own.",
+    "new": "The trial tested the techniques as a set, so no single technique is shown to work.",
+    "reason": "plainer wording of the limitation; 'package' was figurative"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "linkedin",
+    "old": "What follows is judgement. When a person pushes the brush away, we should change the approach before deciding that brushing is not possible. The techniques are ones that families and care workers can learn.",
+    "new": "When a person pushes the brush away, we should change the approach before deciding that brushing is not possible.",
+    "reason": "item 5: judgement sentence now closes the post; setup line removed; 'families and care workers can learn' removed because the trial used trained research staff and the evidence does not show it"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "bluesky",
+    "old": "In a US trial of 101 residents with dementia who often refused mouth care, eye level, a mirror and handing over the brush meant it was accepted and finished more often. Refusals continued and mouth health showed no clear difference over 3 weeks. We should change the approach first.",
+    "new": "In a US trial of 101 people with dementia who often refused mouth care, staff used eye level, a mirror and a handed-over brush. Mouth care was accepted more often than in the other group. Refusals continued and mouth health showed no clear difference. If they refuse, we should change the approach.",
+    "reason": "items 3, 5, 6: say what 'it' was and what the comparison was; context for 'the approach'"
+  },
+  {
+    "tmp_id": "C13-P10",
+    "where": "threads",
+    "old": "calm techniques (eye level, a mirror, handing over the brush, letting the person carry on) meant mouth care was accepted and finished more often.",
+    "new": "staff used calm techniques: eye level, a mirror, handing over the brush, letting the person carry on. Mouth care was accepted and finished more often than in the comparison group.",
+    "reason": "items 3, 6: split; say what the comparison was"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "x",
+    "old": "Food in dishes on the table, residents serving themselves, and a member of staff or a volunteer sitting and chatting at each table.\n\nIn a Dutch trial",
+    "new": "In family style meals, food comes in dishes on the table, residents serve themselves, and a member of staff or a volunteer sits and chats at each table.\n\nIn a Dutch trial",
+    "reason": "opening was a sentence fragment"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "x",
+    "old": "Quality of life scores held steady with family style meals and fell with plated meals.",
+    "new": "Quality of life scores held steady with family style meals and fell by about 5 points with plated meals, on a 0 to 100 scale.",
+    "reason": "item 3: gives the size of the fall and the scale (control group change -5.0 in the trial)"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "x",
+    "old": "It was a package, with cloths, proper plates and no interruptions, so the trial does not show which part helped. For people with dementia, a 2016 systematic review lists family style meals as promising, but not established.",
+    "new": "The meals also came with cloths, proper plates and no interruptions, so the trial does not show which part helped. For people with dementia, a 2016 systematic review lists family style meals as promising, but not established. Care homes could try shared-table, self-serve meals for residents able to take part, and see what happens to how much people eat.",
+    "reason": "item 5: a practical last sentence; 'package' was figurative"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "linkedin",
+    "old": "The trial randomised 10 wards, not individual people.",
+    "new": "The 10 wards were the units randomised: each ward as a whole received one kind of meal.",
+    "reason": "negation shape removed"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "linkedin",
+    "old": "held their weight steady, while those given plated meals lost about 1 kg; the gap between the groups was 1.5 kg. Quality of life scores held steady with family style meals and fell with plated meals, a gap of about 6 points on a 0 to 100 scale.",
+    "new": "held their weight steady (up 0.5 kg), while those given plated meals lost about 1 kg, so the gap between the groups was 1.5 kg. Quality of life scores held steady with family style meals and fell by about 5 points with plated meals, on a 0 to 100 scale, so the gap between the groups was about 6 points.",
+    "reason": "item 7: reconciles the two figures (1 kg and 1.5 kg; 5 and 6 points) in plain words"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "linkedin",
+    "old": "The intervention was also a package, so the trial does not show which part helped:",
+    "new": "The intervention changed several things at once, so the trial does not show which part helped:",
+    "reason": "'package' was figurative"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "linkedin",
+    "old": "For people with dementia, a systematic review lists family style meals as promising, but the studies are small and short, so the benefit is not established.",
+    "new": "For people with dementia, a systematic review lists family style meals as promising. The studies are small and short, so the benefit is not established.",
+    "reason": "item 6: split long sentence"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "linkedin",
+    "old": "What follows is judgement. Care homes could try",
+    "new": "Care homes could try",
+    "reason": "setup line removed; 'could try' marks it as a suggestion"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "bluesky",
+    "old": "In a Dutch trial, nursing home residents without dementia who ate family style (dishes on the table, self-serve, staff or volunteers chatting at each table) held their weight and quality of life steady over 6 months; plated-meal residents lost about 1 kg. One package, one trial; dementia unproven.",
+    "new": "In a Dutch trial, nursing home residents without dementia ate family style: shared dishes, self-serve, staff or volunteers chatting at tables. Over 6 months they held weight and quality of life steady; plated-meal residents lost about 1 kg. One trial, several changes at once; unproven in dementia.",
+    "reason": "item 6: shorter sentences, no long parenthesis; 'package' was figurative"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "threads",
+    "old": "ate either family style (dishes on the table, self-serve, a staff member or volunteer sitting and chatting at each table) or usual plated meals for six months.",
+    "new": "ate either family style or usual plated meals for six months. Family style meant dishes on the table, self-serve, and a staff member or volunteer sitting and chatting at each table.",
+    "reason": "item 6: move the long parenthesis into its own sentence"
+  },
+  {
+    "tmp_id": "C13-P11",
+    "where": "threads",
+    "old": "Family style held weight steady; plated meals meant about 1 kg lost. Quality of life held steady versus fell.\n\nIt was a package of changes, tested in one trial, in residents without dementia.",
+    "new": "Family style held weight steady; plated meals meant about 1 kg lost. Quality of life scores held steady with family style meals and fell with plated meals.\n\nSeveral things changed at once, in one trial, in residents without dementia.",
+    "reason": "item 3: say what held steady and what fell; 'package' was figurative"
   }
 ]
