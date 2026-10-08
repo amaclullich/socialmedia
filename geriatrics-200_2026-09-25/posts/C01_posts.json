@@ -74,8 +74,12 @@
     "design_notes": "Single 4:5 card. Timeline reads left to right on off-white; drawn vignettes on warm sand roundels. The action station uses deep teal with gold text. The 'Illustrative example' label sits above the vignettes. Cross-section drawing is schematic and not frightening: no gore, pale burnt-orange crescent for the blood, labelled. Footer: Alasdair MacLullich, Ask this."
    },
    "visual_text": [
+    "Ask this",
     "A fall weeks ago can explain new symptoms now",
     "Chronic subdural haematoma: a slow bleed between the brain and the skull",
+    "Slow bleed",
+    "Skull",
+    "Brain",
     "Illustrative example",
     "Day of the fall",
     "The fall or knock to the head. It may seem minor, or be forgotten.",
@@ -83,16 +87,12 @@
     "New unsteadiness or falls, headache, weakness on one side, slower or muddled thinking, drowsiness.",
     "What to do",
     "Tell the doctor about the fall. Ask whether a brain scan is needed.",
-    "Skull",
-    "Brain",
-    "Slow bleed",
     "Often treatable. Sudden or severe symptoms: get emergency help.",
-    "Shapey et al. 2016; El Rahal et al. 2023; Brennan et al. 2017",
     "Alasdair MacLullich",
-    "Ask this"
+    "Shapey et al. 2016; El Rahal et al. 2023; Brennan et al. 2017"
    ],
    "alt_text": [
-    "Timeline with illustrative drawings. A fall or knock to the head, perhaps minor, is followed days to weeks later by new unsteadiness, headache, one-sided weakness, slower thinking or drowsiness: possible signs of a chronic subdural haematoma, a slow bleed between brain and skull. Tell the doctor about the fall and ask about a scan. Often treatable. Sudden or severe symptoms: emergency help."
+    "Illustrative timeline. An older woman sits on her kitchen floor after a fall, hand to her forehead. Weeks later she is tired rising from her armchair: new unsteadiness, headache, one-sided weakness, muddled thinking or drowsiness. At the GP with her son: mention the fall, ask about a scan. A head diagram shows a slow bleed between brain and skull. Often treatable; sudden or severe: emergency help."
    ],
    "attention_note": "Families may already be seeing new unsteadiness or drowsiness without linking it to a fall weeks earlier.",
    "gain_note": "A connection to make, a sentence to say to the doctor, and a clear line on when to seek emergency help.",
@@ -100,8 +100,16 @@
    "verification_notes": "C01-28-a (El Rahal 2023 full text; Kolias 2014 abstract; Brennan 2017 full text): more common in later life; Swiss 80s about 8 times the overall rate, surgically treated cases only (qualification stated in LinkedIn). C01-28-b (Shapey 2016 full text; Brennan; Iliescu 2015 full text): about 6 in 10 have a recorded knock; 'often because it seemed too small or was forgotten' is the narrative-review explanation, used in its safe wording. C01-28-c: delay of days to weeks. C01-28-d (El Rahal Table 1): unsteadiness or falls 58.6%, headache 46.4%, focal deficit 40.7%, cognitive deterioration 39.8%, drowsiness 17.6%; neurosurgical cohort caveat carried in LinkedIn; thinking change described as slower or muddled thinking. C01-28-e (Brennan 43% on a blood thinner; Rickard 2023 abstract): no advice to stop blood thinners; LinkedIn tells readers not to stop on their own. C01-28-f: 'often treatable', drainage through small holes, not everyone needs surgery, poorer outcomes in the oldest. C01-28-h (EMBOLISE, STEM, MAGIC-MT abstracts): embolisation as an add-on, two of three 2024 trials positive. C01-28-i: practical advice, not a guideline quotation; emergency line for sudden or severe symptoms. The definition 'blood collecting between the brain and the skull' is the standard meaning of subdural haematoma, used as a plain definition.",
    "status": "text_final",
    "open_issues": [
-    "The plain definition 'a slow bleed between the brain and the skull' is the standard anatomical meaning of subdural haematoma and is not a separate claim in C01-B1; fact-checker to confirm it is acceptable as a definition. Resolved: the C01 fact-check (notes) accepts it as a plain definition of chronic subdural haematoma."
-   ]
+    "The plain definition 'a slow bleed between the brain and the skull' is the standard anatomical meaning of subdural haematoma and is not a separate claim in C01-B1; fact-checker to confirm it is acceptable as a definition. Resolved: the C01 fact-check (notes) accepts it as a plain definition of chronic subdural haematoma.",
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P01.png"
+   ],
+   "visual_source": "visuals/src/C01-P01.html",
+   "visual_format": "diagram (timeline) with drawn vignettes",
+   "design_instructions": "Single 4:5 light card. h1.s headline with orange em. Mint panel: definition text left, schematic head cross-section right (SVG, face left, skull ring, pink brain, pale orange crescent top right, leader labels). Illustrative-example badge, then 3-column timeline with teal arrow shapes: kit vignettes on sand (1 kitchen floor on_floor pose, hand to forehead, beside chair; 2 rising from plum armchair, stick leaning nearby; 3 GP desk: son (olive skin), woman, GP (tan, bun, doctor role) facing left). Third station text in deep teal box with gold label. Orange-ruled bold note. Claims C01-28-a to i (no numeric data).",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P02",
@@ -235,40 +243,46 @@
     "design_notes": "Two slides so the set posts on X and Bluesky. Slide 1 is the hook, a drawing anyone who wears varifocals will recognise. Slide 2 leads with the overall result row at the top, as the evidence file requires. The blur on the left view must be clear at phone size but not exaggerated. Footer on both: Alasdair MacLullich, Weighing it up."
    },
    "visual_text": [
+    "Weighing it up",
+    "1/2",
     "Varifocals blur the kerb at your feet",
+    "Looking down, you see the kerb through the reading part of the lens.",
     "Varifocals",
     "Distance part",
     "Reading part: kerb blurred",
     "Single-lens distance glasses",
     "Kerb sharp",
-    "Looking down, you see the kerb through the reading part of the lens.",
-    "Haran et al., BMJ 2010; Lord et al., J Am Geriatr Soc 2002",
     "Alasdair MacLullich",
+    "Haran et al., BMJ 2010; Lord et al., J Am Geriatr Soc 2002",
     "Weighing it up",
-    "No clear overall effect, and a split by lifestyle",
+    "2/2",
     "VISIBLE trial: 606 bifocal or varifocal wearers at raised risk of falling, average age 80, followed for 13 months",
-    "Distance glasses",
-    "Usual care",
+    "No clear overall effect, and a split by lifestyle",
     "Everyone: falls per person",
+    "Distance glasses",
     "1.5",
+    "Usual care",
     "1.7",
     "No clear difference",
     "Often out (planned subgroup): falls per person",
+    "Distance glasses",
     "1.3",
+    "Usual care",
     "2.2",
     "Fewer falls",
     "Rarely out (planned subgroup): outdoor falls per person",
+    "Distance glasses",
     "0.9",
+    "Usual care",
     "0.6",
     "More outdoor falls",
     "Subgroups of one trial. About half used the glasses as advised. Injuries other than falls: 26 in 100 against 17 in 100.",
-    "Haran et al., BMJ 2010",
     "Alasdair MacLullich",
-    "Weighing it up"
+    "Haran et al., BMJ 2010"
    ],
    "alt_text": [
-    "Drawing of two views of a kerb. Through the lower, reading part of a varifocal lens the kerb edge is blurred; through single-lens distance glasses it is sharp. An older man in a flat cap stands at the kerb with a shopping bag.",
-    "Bar chart from the VISIBLE trial, 606 people, average age 80, 13 months. Everyone: 1.5 falls per person with distance glasses, 1.7 with usual care, no clear difference. Planned subgroup often out: 1.3 against 2.2, fewer falls. Rarely out: outdoor falls 0.9 against 0.6, more. Subgroups of one trial; about half used the glasses as advised; non-fall injuries 26 against 17 in 100."
+    "Two views of a street through glasses. Through varifocals, the far road is sharp in the upper distance part, but the kerb at your feet is blurred in the lower reading part. Through single-lens distance glasses the kerb is sharp. Below, an older Black man in a green jacket, carrying a bag, pauses at the kerb and looks down.",
+    "Bar chart, VISIBLE trial, 606 people, average age 80, 13 months. Everyone: 1.5 falls per person with distance glasses, 1.7 with usual care, no clear difference. Planned subgroup often out: 1.3 against 2.2, fewer falls. Rarely out: outdoor falls 0.9 against 0.6, more. Subgroups of one trial; about half used the glasses as advised; non-fall injuries 26 against 17 in 100."
    ],
    "attention_note": "A physical experience many varifocal wearers recognise, followed by a result that went two ways.",
    "gain_note": "A specific conversation to have with the optometrist, and who it probably does not suit.",
@@ -276,8 +290,17 @@
    "verification_notes": "C01-23-a (VISIBLE full text; Lord 2002 abstract): lower lens blurs at walking distance; lab depth and edge findings. C01-23-c (VISIBLE full text): 606 randomised, mean age 80, 1.54 against 1.66 falls per person over 13 months, IRR 0.92 (0.73 to 1.16), stated first. C01-23-d: pre-planned subgroup, 1.26 against 2.16 falls per person; outdoor and injurious falls lower; subgroup-of-one-trial caveat carried in every version. C01-23-e: outside falls 0.92 against 0.59 in the low-outdoor group. C01-23-f: 54% satisfactory use for 7 months or more; non-fall injuries 26% against 17%, mostly minor. C01-23-g (World Falls Guidelines full text): active older people avoiding multifocals outside; check multifocal use. C01-23-h: authors' recommendations (not a guideline). Not used: Lord 2002 odds ratio (C01-23-b), the paper's number needed to treat. A published erratum to VISIBLE exists but could not be opened; figures match the abstract and Table 2.",
    "status": "text_final",
    "open_issues": [
-    "A published erratum to the VISIBLE trial could not be opened (C01-B2); the figures used match the abstract and Table 2. Fact-check C01: the erratum concerns the trial registration number only; trial figures unaffected."
-   ]
+    "A published erratum to the VISIBLE trial could not be opened (C01-B2); the figures used match the abstract and Table 2. Fact-check C01: the erratum concerns the trial registration number only; trial figures unaffected.",
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P02_1.png",
+    "C01-P02_2.png"
+   ],
+   "visual_source": "visuals/src/C01-P02.html",
+   "visual_format": "carousel (drawn illustration + comparison chart)",
+   "design_instructions": "Two 4:5 light cards. Card 1: h1.m headline with orange em, body line, two SVG lens views (same street: hedge, far pavement, road, kerb, near slabs); varifocal lens has lower zone Gaussian-blurred below a dashed line, single-lens all sharp; HTML pill labels (teal border, orange for blurred). Kit street band: older Black man (dark skin, grey cropped hair, green long-sleeved jacket, charcoal trousers, bag) standing at kerb edge, head tilted down. Card 2: three chart.js barChart groups on common 0 to 2.5 scale, labelled bars; distance glasses = teal #00909A with white diagonal hatch, usual care = orange solid; verdict under each pair. Data: C01-23-c (1.54 vs 1.66), C01-23-d (1.26 vs 2.16), C01-23-e (0.92 vs 0.59), C01-23-f (26 vs 17 in 100, 54% adherence).",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P03",
@@ -408,35 +431,39 @@
     "design_notes": "The 655 and 408 bars are subtraction from the review's own absolute figures and are marked 'about'. The 'Illustration based on Cochrane 2019' label must be visible on slide 1. Footer on both: Alasdair MacLullich, Reading the evidence."
    },
    "visual_text": [
-    "Same review, two counts",
+    "Reading the evidence",
+    "1/2",
     "Exercise for older people living at home: 1000 people like those in the trials, followed for one year",
+    "Same review, two counts",
+    "Illustration based on Cochrane 2019",
     "Falls among 1000 people",
-    "People with at least one fall, of 1000",
     "Without exercise",
-    "With exercise",
     "850",
+    "With exercise",
     "about 655",
     "195 fewer",
+    "People with at least one fall, of 1000",
+    "Without exercise",
     "480",
+    "With exercise",
     "about 408",
     "72 fewer",
     "23% fewer falls. 15% fewer people falling. Averages, not a forecast for one person.",
-    "Illustration based on Cochrane 2019",
-    "Sherrington et al., Cochrane 2019",
     "Alasdair MacLullich",
+    "Sherrington et al., Cochrane 2019",
     "Reading the evidence",
-    "The gap can be wider",
+    "2/2",
     "Multifactorial programmes against usual care or attention control, Cochrane 2026 (low-certainty evidence)",
+    "The gap can be wider",
     "Rate of falls: may be about a quarter lower (rate ratio 0.76)",
     "People who fall at least once: little or no difference (risk ratio 0.95)",
     "Say which count you mean, and give the numbers per 1000.",
-    "Swarnalatha et al., Cochrane 2026",
     "Alasdair MacLullich",
-    "Reading the evidence"
+    "Swarnalatha et al., Cochrane 2026"
    ],
    "alt_text": [
-    "Bar chart, illustration based on Cochrane 2019, 1000 older people living at home followed for a year. Falls: 850 without exercise, about 655 with it, 195 fewer (23% fewer). People with at least one fall: 480 without exercise, about 408 with it, 72 fewer (15% fewer). Averages, not a forecast for one person.",
-    "Card: the gap can be wider. Cochrane 2026, multifactorial programmes against usual care or attention control, low-certainty evidence. Rate of falls may be about a quarter lower (rate ratio 0.76); people who fall at least once, little or no difference (risk ratio 0.95). Say which count you mean and give numbers per 1000."
+    "Bar chart, illustration based on Cochrane 2019: 1000 older people living at home followed for a year. Falls: 850 without exercise, about 655 with exercise, 195 fewer. People with at least one fall: 480 without exercise, about 408 with exercise, 72 fewer. 23% fewer falls, 15% fewer people falling. Averages, not a forecast for one person.",
+    "Card: the gap can be wider. Cochrane 2026, multifactorial programmes against usual care or attention control, low-certainty evidence. Rate of falls, shown by a line stepping down: may be about a quarter lower (rate ratio 0.76). People who fall at least once, shown by a level line: little or no difference (risk ratio 0.95). Say which count you mean and give numbers per 1000."
    ],
    "attention_note": "Practitioners who quote 'exercise cuts falls by about a quarter' meet the second, smaller figure from the same review.",
    "gain_note": "A habit for reading and quoting any falls result accurately, with absolute numbers.",
@@ -444,8 +471,17 @@
    "verification_notes": "C01-02-a (Cochrane 2019 abstract): RaR 0.77 and RR 0.85, high certainty, 59 and 63 studies. C01-02-b (abstract): 850 falls and 480 fallers per 1000 people followed for one year; 195 and 72 fewer; the denominator is '1000 people followed over one year'; 408 and 655 are subtraction (655 is 850 minus 195, the same operation the evidence file records for 408); labelled as an illustration and as averages, not a prediction for one person. C01-02-c (Robertson 2005 abstract; Cochrane): explanation limited to what each number counts; no claim that a minority has most falls. C01-02-d (Cochrane 2026 abstract; USPSTF 2024 abstract): multifactorial RaR 0.76, RR 0.95, low certainty, 'may' wording kept. C01-02-f: Cochrane reports both as separate main outcomes; ProFaNE not cited. Summary of findings table not opened; figures from the abstract.",
    "status": "text_final",
    "open_issues": [
-    "The 'about 655' bar is derived (850 minus 195) from the review's absolute figures; C01-02-b records the parallel derivation of 408 but not 655 explicitly. Non-blocking for the text: 655 appears only on the visual and in its alt text, and is 850 minus 195, both figures from the review abstract (C01-02-b)."
-   ]
+    "The 'about 655' bar is derived (850 minus 195) from the review's absolute figures; C01-02-b records the parallel derivation of 408 but not 655 explicitly. Non-blocking for the text: 655 appears only on the visual and in its alt text, and is 850 minus 195, both figures from the review abstract (C01-02-b).",
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P03_1.png",
+    "C01-P03_2.png"
+   ],
+   "visual_source": "visuals/src/C01-P03.html",
+   "visual_format": "carousel (bar chart + comparison card)",
+   "design_instructions": "Two 4:5 light cards. Card 1: orange kicker, h1.m with orange em, dashed Illustrative badge; two chart.js horizontal barChart pairs on a common 0 to 900 scale; without exercise = orange solid, with exercise = teal #00909A with white diagonal hatch; dashed outline ghost segment shows the removed falls, value then orange 'N fewer' label at its end. Data C01-02-b (850, 195; 480, 72; 655 and 408 by subtraction), C01-02-a (23%, 15%). Card 2: two white panels, each with a schematic line glyph (teal step down; grey level line) and statement; deep teal CTA panel with gold Montserrat text. Data C01-02-d (RaR 0.76, RR 0.95).",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P04",
@@ -512,27 +548,39 @@
     "design_notes": "Questions must be legible at phone size (at least 30 px body on a 1080 px canvas). Number the questions with plain numerals, not bullets. Footer: Alasdair MacLullich, Care that works."
    },
    "visual_text": [
+    "Care that works",
     "Four questions before you join a falls prevention class",
-    "1. Will I do balance exercises standing up?",
-    "2. Will it get harder as I improve?",
-    "3. Does it run 3 or more times a week?",
-    "4. Will it last at least 12 weeks, and can I keep going?",
+    "1.",
+    "Will I do balance exercises standing up?",
+    "2.",
+    "Will it get harder as I improve?",
+    "3.",
+    "Does it run 3 or more times a week?",
+    "4.",
+    "Will it last at least 12 weeks, and can I keep going?",
     "Seated classes build strength and can be a start. They have not been shown to prevent falls. If there is no suitable class, ask about a home programme.",
-    "Sherrington et al., Cochrane 2019; World Falls Guidelines 2022; Klempel et al. 2021",
     "Alasdair MacLullich",
-    "Care that works"
+    "Sherrington et al., Cochrane 2019; World Falls Guidelines 2022; Klempel et al. 2021"
    ],
    "alt_text": [
-    "Question card with a drawing of an older woman balancing near a chair and an older man stepping sideways in a class. Four questions before joining a falls class: balance exercises standing up? Harder as I improve? 3 or more times a week? At least 12 weeks, with a way to keep going? Seated classes build strength but have not been shown to prevent falls. No class: ask about a home programme."
+    "Drawing of a balance class: an older woman stands with a hand just above a chair back, an older man in glasses practises stepping, a physiotherapist demonstrates. Four questions before joining: balance exercises standing up? Harder as I improve? 3 or more times a week? At least 12 weeks, and can I keep going? Seated classes have not been shown to prevent falls; ask about a home programme."
    ],
    "attention_note": "Many people assume any exercise class prevents falls; the questions show what to look for.",
    "gain_note": "Four questions to ask before signing up, and a fallback if no suitable class exists.",
    "follow_note": "Questions that help people get care that matches the evidence.",
    "open_issues": [
-    "Justified checker hit: 'World Health Organization' in the LinkedIn caption is the organisation's official proper name, flagged as a possible US spelling."
+    "Justified checker hit: 'World Health Organization' in the LinkedIn caption is the organisation's official proper name, flagged as a possible US spelling.",
+    "Visual rendered and read back by the designer; not independently inspected."
    ],
    "verification_notes": "C01-25-a (Cochrane 2019 abstract): balance and functional exercise cut falls by about a quarter; multi-type probably; walking, dance, strength alone uncertain, described as a gap, not proof of no effect. C01-25-b (Sherrington 2008 abstract): definition of challenging standing balance exercise. C01-25-c (Sherrington 2017, 2020 abstracts): 3 hours a week is a between-trial finding, presented as a guide. C01-25-d (World Falls Guidelines full text): 3 or more times a week, progressed, at least 12 weeks, continued; benefits lost when people stop. C01-25-e (WHO 2020 full text): 3 or more days a week; UK CMO figure not used. C01-25-f (Klempel 2021 full text; Anthony 2013 abstract): seated exercise improved strength, not clearly balance or walking, the review did not report on falls; framed as a start not shown to prevent falls, not as worthless (wording corrected after fact-check C01). C01-25-g: supervision or smaller groups for frail people. C01-25-h (Otago review abstract): IRR 0.68 across 7 trials, adherence about 37 in 100 at 12 months. The E065 point (balance exercise reduces falls) is used only as the reason for the first question; the post's argument is how to choose a class.",
-   "status": "text_final"
+   "status": "text_final",
+   "visual_files": [
+    "C01-P04.png"
+   ],
+   "visual_source": "visuals/src/C01-P04.html",
+   "visual_format": "question card with drawn illustration",
+   "design_instructions": "Single 4:5 light card. h1.s headline with orange em. Full-width kit scene (care_home_lounge, window with sage curtains): older woman (fair skin, dark grey bob, teal top, white trainers) standing behind a wooden chair, near hand hovering above the chair back; older broad white man with glasses (mustard top) stepping; physio role, Black man, walking in from right facing left. Numbered questions with orange Montserrat numerals, 34px. Mint caveat panel. Claims C01-25-a to h (no chart data).",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P05",
@@ -637,32 +685,47 @@
     "design_notes": "The grid comes first; the text in each cell is one short sentence. The low-low cell line is labelled 'General advice' because the paper gave no advice for that group. Footer: Alasdair MacLullich, What gets counted."
    },
    "visual_text": [
-    "Worry and physical risk don't always match",
+    "What gets counted",
     "Sydney study: 500 people aged 70 to 90, followed for 1 year",
+    "Worry and physical risk don't always match",
     "Measured physical risk: low",
     "Measured physical risk: high",
-    "Worry about falling: low",
     "Worry about falling: high",
-    "Low risk, low worry: 29 in 100. General advice: stay safely active.",
-    "High risk, high worry: 40 in 100. Suggested: balance exercise and a talking therapy.",
     "Mismatch",
-    "Low risk, high worry: 11 in 100. Almost 4 in 10 had injurious or repeated falls. Suggested: a talking therapy (CBT).",
+    "11 in 100",
+    "Almost 4 in 10 had injurious or repeated falls.",
+    "Suggested: a talking therapy (CBT).",
+    "40 in 100",
+    "Suggested: balance exercise and a talking therapy.",
+    "Worry about falling: low",
+    "29 in 100",
+    "General advice: stay safely active.",
     "Mismatch",
-    "High risk, low worry: 20 in 100. About 1 in 3 had injurious or repeated falls. Suggested: challenging balance exercise.",
+    "20 in 100",
+    "About 1 in 3 had injurious or repeated falls.",
+    "Suggested: challenging balance exercise.",
     "'Suggested' help is the researchers' untested proposal; 'general advice' is not from the study. Groups are approximate. People with dementia or Parkinson's disease were not included.",
-    "Delbaere et al., BMJ 2010; World Falls Guidelines 2022",
     "Alasdair MacLullich",
-    "What gets counted"
+    "Delbaere et al., BMJ 2010; World Falls Guidelines 2022"
    ],
    "alt_text": [
-    "Grid of worry about falling against measured physical risk, Sydney study of 500 people aged 70 to 90. Low risk, low worry 29 in 100; high risk, high worry 40 in 100. Mismatches: low risk, high worry 11 in 100, almost 4 in 10 had injurious or repeated falls; high risk, low worry 20 in 100, about 1 in 3. Suggested help per group is the researchers' untested proposal. Groups approximate."
+    "Grid of worry about falling against measured physical risk, Sydney study of 500 people aged 70 to 90 followed for a year. Matched: low risk, low worry 29 in 100; high risk, high worry 40 in 100. Mismatches: low risk, high worry 11 in 100, almost 4 in 10 had injurious or repeated falls; high risk, low worry 20 in 100, about 1 in 3. Suggested help is the researchers' untested proposal."
    ],
    "attention_note": "A grid readers can place themselves or a parent in, showing that feeling safe and being safe are measured separately.",
    "gain_note": "Why reassurance helps one person and balance exercise another, and a reason to ask for both checks.",
    "follow_note": "Research explained in a form people can use, with its limits stated.",
    "verification_notes": "All from Delbaere 2010 (full text) unless stated. C01-19-a: 500 people aged 70 to 90; group sizes 144 (29%), 202 (40%), 54 (11%), 100 (20%); about a third mismatched; physical risk is the Physiological Profile Assessment. C01-19-b: each measure independently linked with injurious or multiple falls in this study; World Falls Guidelines note inconsistent prediction elsewhere (stated in LinkedIn); odds ratios not converted. C01-19-c: anxious group mood, temperament, executive function; almost 40% injurious or multiple falls; not less active. C01-19-d: stoics younger, stronger, more active, more positive; 34 of 100 fell, fewer than the aware group; 6 of 34 became more concerned; not framed as most endangered. C01-19-e (with Liu 2018, Kendrick 2014 abstracts): matching is the researchers' proposal, labelled; low-low cell uses general advice as the evidence file directs. C01-19-f (World Falls Guidelines full text): check concern alongside balance or gait. C01-19-g: cut-points approximate, not replicated.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P05.png"
+   ],
+   "visual_source": "visuals/src/C01-P05.html",
+   "visual_format": "diagram (2 by 2 grid)",
+   "design_instructions": "Single 4:5 light card. Orange kicker, h1.s with orange em. HTML 2 by 2 grid: column headers (physical risk low, high) above, row header bands (worry high on top, low below). Matched cells (top right, bottom left) mint; mismatch cells white with pale orange diagonal hatch, 4px orange border and orange 'Mismatch' tag; big Montserrat share per cell, then short lines. Grey note below. Data C01-19-a (29, 40, 11, 20 in 100), C01-19-c (almost 4 in 10), C01-19-d (about 1 in 3), C01-19-e, C01-19-g.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P06",
@@ -792,39 +855,51 @@
     "design_notes": "The quoted line is set as a quotation of a teaching statement, not attributed to any person. The 20-icon row is exact (10 filled, 10 outlined). Footer on both: Alasdair MacLullich, Reading the evidence."
    },
    "visual_text": [
+    "Reading the evidence",
+    "1/2",
     "'Half of people who lie on the floor for more than an hour die within six months'",
     "Half of 20 people",
     "1981: 125 people aged 65 and over who fell at home, from six general practices",
     "20 lay on the floor for more than an hour",
+    "The 20 people who lay for more than an hour",
     "Half of those 20 died within 6 months",
     "All fallers: a quarter died within a year, 5 times as many as a matched comparison group",
-    "The 20 people who lay for more than an hour",
     "A small observational series. It shows a link, not a cause.",
-    "Wild, Nayak and Isaacs, BMJ 1981",
     "Alasdair MacLullich",
+    "Wild, Nayak and Isaacs, BMJ 1981",
     "Reading the evidence",
+    "2/2",
     "What newer studies add",
     "1993",
-    "1993, US, 1103 people aged 72 and over: fallers without serious injury who couldn't get up had a lasting loss of everyday abilities more often (35 against 26 in 100). The difference in deaths could have been chance.",
+    "US, 1103 people aged 72 and over: fallers without serious injury who couldn't get up had a lasting loss of everyday abilities more often (35 against 26 in 100). The difference in deaths could have been chance.",
     "2008",
-    "2008, Cambridge, people over 90: an hour or more on the floor linked with serious injury; 12 of 20 were admitted after a fall. Deaths not reported.",
+    "Cambridge, people over 90: an hour or more on the floor linked with serious injury; 12 of 20 were admitted after a fall. Deaths not reported.",
     "2022",
-    "2022, World Falls Guidelines: an hour or more on the floor marks high risk. Do a full falls assessment.",
+    "World Falls Guidelines: an hour or more on the floor marks high risk. Do a full falls assessment.",
     "Newer cohorts link long lies with serious harm. None updates the six-month death figure.",
-    "Tinetti et al., JAMA 1993; Fleming and Brayne, BMJ 2008; Montero-Odasso et al., Age Ageing 2022",
     "Alasdair MacLullich",
-    "Reading the evidence"
+    "Tinetti et al., JAMA 1993; Fleming and Brayne, BMJ 2008; Montero-Odasso et al., Age Ageing 2022"
    ],
    "alt_text": [
-    "Card: the line 'half of people who lie on the floor for more than an hour die within six months' comes from a 1981 study of 125 fallers aged 65 and over. 20 lay over an hour and half of those 20 died within 6 months, shown as 20 icons, 10 filled. A quarter of all fallers died within a year. Small observational series: a link, not a cause.",
-    "Timeline. 1993, US, 1103 people aged 72 and over: fallers without serious injury who were unable to get up had a lasting loss of everyday abilities more often, 35 against 26 in 100; death difference could be chance. 2008, Cambridge, people over 90: long lies linked with serious injury, 12 of 20 admitted; deaths not reported. 2022 guidelines: an hour on the floor marks high risk."
+    "Card: the line 'half of people who lie on the floor for more than an hour die within six months' comes from a 1981 study of 125 fallers aged 65 and over. 20 lay over an hour, shown as 20 person icons, 10 filled: half of those 20 died within 6 months. A quarter of all fallers died within a year. Small observational series: a link, not a cause.",
+    "Timeline. 1993, US, 1103 people aged 72 and over: fallers without serious injury who couldn't get up had a lasting loss of everyday abilities more often, 35 against 26 in 100; death difference could be chance. 2008, Cambridge, people over 90: long lies linked with serious injury, 12 of 20 admitted; deaths not reported. 2022 guidelines: an hour on the floor marks high risk."
    ],
    "attention_note": "Clinicians who have heard or repeated the six-month line will want to see its source and size.",
    "gain_note": "A more accurate way to teach about long lies, with the newer evidence that still supports preventing them.",
    "follow_note": "The account traces well-known numbers back to their sources. The explicit series invitation was removed after the C01 cold read (it made an empty close), so the C01 set now carries no invitation to follow.",
    "verification_notes": "C01-08-a (Wild 1981 abstract; Fleming 2008 full text restatement): 125 fallers aged 65 and over from six practices; 20 lay over an hour; half of those 20 died within six months; no exact death count or screening numbers given; not called 'often quoted' (C01-08-h not found). C01-08-b (Wild abstract): a quarter of fallers died within a year, five times matched controls; authors' conclusion on severe ill health; 'can't all be put down' presented as a reading of the design. C01-08-c (Tinetti, Fleming, Kubitza): characteristics of people who can't get up. C01-08-d (Tinetti 1993 abstract): 148 of 313, 35% against 26%, death difference not statistically clear. C01-08-e (Fleming 2008 full text): 20 of 66, 12 of 20 admitted, serious injury link, care-home link uncertain (not claimed), deaths not reported, injury can cause a long lie. C01-08-f (World Falls Guidelines full text): an hour or more marks high risk and should prompt full assessment. C01-08-g (Kubitza 2023 full text): no agreed definition.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P06_1.png",
+    "C01-P06_2.png"
+   ],
+   "visual_source": "visuals/src/C01-P06.html",
+   "visual_format": "carousel (statement card with icon row + timeline)",
+   "design_instructions": "Two 4:5 light cards. Card 1: italic deep-teal quote with pale left rule, h1 'Half of 20 people' with orange em, dot list, white panel with chart.js iconArray (20 person icons, 2 rows of 10: top 10 filled orange, bottom 10 white with grey outline) and a filled-icon key, final fact, bold closing line. Data C01-08-a (125, 20, half of 20), C01-08-b (a quarter, 5 times). Card 2: base.css vertical timeline (1993, 2008, 2022 hot), mint closing panel. Data C01-08-d (35 vs 26 in 100), C01-08-e (12 of 20), C01-08-f.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P07",
@@ -903,14 +978,23 @@
     "Ask this"
    ],
    "alt_text": [
-    "Question card: anything you've stopped doing because you worry about falling? Four drawn examples: a man walking in a park, a woman boarding a bus, a bath with a grab rail, a woman visiting a friend. If yes, tell the GP or physiotherapist and ask about strength and balance exercise, a talking therapy (CBT) or an occupational therapist."
+    "Question card: anything you've stopped doing because you worry about falling? Four drawn examples: a man with a stick walking in a park, a woman stepping onto a bus holding the pole, a bath with grab rails and a towel, a woman with a cake tin at a friend's door. If yes, tell the GP or physiotherapist; ask about strength and balance exercise, a talking therapy (CBT) or an occupational therapist."
    ],
    "attention_note": "A direct question readers can ask a parent, or themselves, today.",
    "gain_note": "A way to find hidden restriction and what to ask for next.",
    "follow_note": "Questions that open useful conversations between families and clinicians.",
    "verification_notes": "C01-13-a (World Falls Guidelines full text): the question is part of the history after a fall and conditionally recommended in routine contacts; 'whenever falls come up' is marked as advice to families. C01-13-b: FES-I recommended; panel preferred 'concern'. C01-13-c (Scheffer 2008, Xiong 2024 abstracts): common, including in people who have never fallen; no single prevalence figure used. C01-13-d (Deshpande 2008 abstract): 673 people with fear of falling; 3 in 4 restricted at least one activity (59.6% plus 14.9%); three or more linked with faster decline over 3 years; association wording. C01-13-e: the four example activities are labelled 'Examples', not FES-I items. C01-13-f (WFG; Kendrick 2014; Liu 2018): exercise, CBT, OT recommended; exercise effect small; CBT up to a year; lost activities not promised to return. C01-13-g (Ellmers 2023; Delbaere 2010): a 'no' is not an all-clear; 1 in 5 of the whole sample had high physical risk but little worry (denominator corrected after fact-check C01). Distinct from E076, which described fear of falling as a disability.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P07.png"
+   ],
+   "visual_source": "visuals/src/C01-P07.html",
+   "visual_format": "question card with drawn illustration",
+   "design_instructions": "Single 1080x1350 light card, series Ask this. Headline 60px. 'Examples' mint badge above a 2x2 grid of sand vignettes drawn with kit.js (viewBox 600x333), each with a Montserrat 30px label below: older South Asian man with crook stick and custom flat cap on a park path (trees, bench); older white woman walking into a teal low-floor bus door, near hand on the pole; bathroom with bath, pillar taps, horizontal and vertical grab rails, sage towel draped on rim, no person; older Black woman holding a cake tin at a brick front door opened by an older white friend. Answer in deep teal band with gold 31px text. Footer source line. Claims C01-13-a, C01-13-d, C01-13-e, C01-13-f; no chart.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P08",
@@ -996,14 +1080,23 @@
     "Small detail, real effect"
    ],
    "alt_text": [
-    "Printable falls note template with five columns: date and time; where; what you were doing; how you felt just before; could you get up and how long on the floor. Above it: in a US study, 13 to 32 in 100 people with a confirmed fall did not recall falling in the months asked about. Take it to every appointment; an hour or more on the floor is a sign of high risk."
+    "Printable falls note: write each fall down on the day. In a US study, 13 to 32 in 100 people with a confirmed fall did not recall falling in the months they were asked about. Blank table, five columns: date and time; where; what you were doing; how you felt just before; could you get up, how long on the floor. Take it to every appointment; an hour or more on the floor is a sign of high risk."
    ],
    "attention_note": "A surprising fact about memory: people forget their own falls.",
    "gain_note": "A template to use today and take to the next appointment.",
    "follow_note": "Useful tools, not only warnings.",
    "verification_notes": "C01-31-a (Cummings 1988 abstract): 304 people over 60, weekly contact, falls confirmed; 13% to 32% of people with confirmed falls did not recall falling in the period asked (range given, no single 12-month figure; figures are for people, not falls). C01-31-b (Ganz 2005 abstract): 12-month recall sensitivity 80% to 89%; injurious falls remembered better. C01-31-d (Zieschang 2012 abstract): 110 people with dementia, 49% did not recall, GPs knew 14% of falls, carers improved accuracy. C01-31-e (Ganz, Hannan, Delbaere, Fleming): research uses calendars or diaries returned weekly or monthly. C01-31-f (World Falls Guidelines full text): history items, an hour on the floor marks high risk, fewer than a third of older adults, particularly men, mention falls unless asked. C01-31-g (partly supported) is not used as evidence: keeping a note is framed as practical advice, and the post says it has not been tested.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P08.png"
+   ],
+   "visual_source": "visuals/src/C01-P08.html",
+   "visual_format": "checklist (printable template)",
+   "design_instructions": "Single light card, series Small detail, real effect. h1.m headline; stat sentence 35px with '13 to 32 in 100' bold orange (claim C01-31-a, range by recall period, people not falls). 'Template' badge right-aligned above an HTML grid: 5 columns (168/138/196/196/rest px), mint header band with 30px bold Inter headings (last heading broken after 'get up?'), ink outer border, four empty 74px ruled rows. Below: body text left, small kit drawing right of a yellow pencil and folded reading glasses. Footer credit Cummings 1988; World Falls Guidelines 2022 (C01-31-f for the hour-on-floor point).",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P09",
@@ -1169,6 +1262,11 @@
     "Reading the evidence",
     "When the falls happened",
     "Illustrative example: a drawn care home lounge. Numbers are from the study.",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
     "1. Walking forward: 54 falls",
     "2. Standing still: 29 falls",
     "3. Sitting down: 28 falls",
@@ -1181,14 +1279,24 @@
    ],
    "alt_text": [
     "Bar chart of causes of 227 falls filmed in two Canadian care homes, 2007 to 2010: shifting body weight the wrong way 93 (41%), trip or stumble 48 (21%), hit or bump 25, loss of support 25, collapse 24 (11% each), slip 6 (3%). Cameras in shared areas only, not bedrooms or bathrooms; causes judged from video.",
-    "Illustrative drawing of a care home lounge with numbered moments from the study: walking forward 54 falls, standing still 29, sitting down 28, moving to or from a chair about 1 in 5 falls, and a quarter of the 48 trips over chair or table legs. Counts of filmed falls, not the risk of each activity."
+    "Illustrative care home lounge, five numbered moments: a man by a window, a woman walking with a wheeled frame, a woman lowering into an armchair, a care worker beside a man rising from a wheelchair, a chair pulled into the walkway. Counts: walking forward 54 falls, standing still 29, sitting down 28, moving to or from a chair about 1 in 5, a quarter of 48 trips over chair or table legs."
    ],
    "attention_note": "A specific, filmed finding that differs from the usual trip-hazard account of falls.",
    "gain_note": "A reason to put staff attention on transfers and sitting down, while keeping furniture layout in view.",
    "follow_note": "Useful research brought into everyday care, with its limits stated.",
    "verification_notes": "All from Robinovitch 2013 (full text). C01-18-a: 227 falls, 130 residents, two facilities, British Columbia, 2007 to 2010. C01-18-b: 41% weight shifting (93), 21% trip or stumble (48), 3% slip (6), 11% each hit or bump, loss of support, collapse (25, 25, 24); trips and slips together 54 of 227; no claim that most falls did not involve an object. The 221 of 227 on the chart is the sum of the six published categories. C01-18-c: walking forward 54, standing 29, sitting down 28, transfers about 1 in 5; turning not listed as a common moment; counts, not risk per activity. C01-18-d: cameras in common areas only, stated on the chart. C01-18-e: authors' suggestions; the transfers position is marked as a judgement and not a tested intervention; furniture-leg point kept.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P09_1.png",
+    "C01-P09_2.png"
+   ],
+   "visual_source": "visuals/src/C01-P09.html",
+   "visual_format": "carousel (bar chart + annotated scene)",
+   "design_instructions": "Two light cards, series Reading the evidence, 1/2 and 2/2. Card 1: h1.s headline, grey subtitle, chart.js barChart labels above bars, sorted, max 93, top bar orange (b) others teal (a), values '93 (41%)' etc from claim C01-18-b (93, 48, 25, 25, 24, 6 of 227; sum 221), camera-limitation note in mint panel with teal left rule (C01-18-d). Card 2: dashed 'Illustrative example' note, kit.js care_home_lounge scene viewBox 1300x700 with orange pins 1-5 (walking-frame woman, man by window, woman lowering into teal armchair, older man rising from wheelchair with South Asian male care worker, dining chair and table), numbered key 30px with orange bold numerals (C01-18-c, C01-18-e), teal caveat line. Footer Robinovitch et al., Lancet 2013.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P10",
@@ -1241,7 +1349,7 @@
         "Early falls recorded in past case notes of people whose diagnosis was confirmed at autopsy: about 4 in 100 of 124 with Parkinson's disease, about 1 in 3 of 28 with PSP"
        ],
        "labels": [],
-       "source_line": "Höglinger et al., Mov Disord 2017; Fox et al., NPJ Parkinsons Dis 2025"
+       "source_line": "H\u00f6glinger et al., Mov Disord 2017; Fox et al., NPJ Parkinsons Dis 2025"
       },
       "art": "Drawn clinic room. An older man (white, about 70, cardigan, walking stick leaning on his chair) seated, following with his eyes as a clinician (Black woman, 40s, lanyard) moves a raised finger up and down in front of him. Calm, professional, eye level.",
       "data": [
@@ -1313,7 +1421,7 @@
     "Repeated falls in the first 3 years: think PSP",
     "Falls without a clear cause early in a Parkinson-like illness. Check up-and-down eye movements. Question a Parkinson's diagnosis.",
     "Early falls recorded in past case notes of people whose diagnosis was confirmed at autopsy: about 4 in 100 of 124 with Parkinson's disease, about 1 in 3 of 28 with PSP",
-    "Höglinger et al., Mov Disord 2017; Fox et al., NPJ Parkinsons Dis 2025",
+    "H\u00f6glinger et al., Mov Disord 2017; Fox et al., NPJ Parkinsons Dis 2025",
     "Alasdair MacLullich",
     "Teaching round",
     "Illustrative example",
@@ -1338,17 +1446,29 @@
     "Teaching round"
    ],
    "alt_text": [
-    "Illustrative drawing: a clinician checks an older man's up-and-down eye movements. Text: repeated falls without a clear cause in the first 3 years of a Parkinson-like illness, think PSP and question a Parkinson's diagnosis. In past case notes, early falls were recorded in about 4 in 100 of 124 autopsy-confirmed Parkinson's cases and about 1 in 3 of 28 PSP cases.",
-    "Illustrative drawing: an older woman walks a corridor with short, wide-based steps, feet barely lifted, turning with a physiotherapist behind her. Text: think normal pressure hydrocephalus; bladder urgency and slowed thinking are common but many people don't have all three; selected people often improve after a shunt.",
-    "Illustrative drawing: an older man stands with feet together and eyes closed while a clinician guards him. Text: much worse with eyes closed, think loss of position sense, for example neuropathy (check B12), or inner-ear balance loss; read the test with the rest of the examination.",
+    "Illustrative drawing: a clinician raises her hand in front of a seated older man's eyes, arrows showing up-and-down movement. Text: repeated falls in the first 3 years, think PSP; check up-and-down eye movements; question a Parkinson's diagnosis. Early falls were recorded in about 4 in 100 of 124 autopsy-confirmed Parkinson's cases and about 1 in 3 of 28 PSP cases.",
+    "Illustrative drawing: an older South Asian woman walks a hospital corridor with short steps, a physiotherapist a pace behind with a hand ready. An inset shows footprints from above, short steps set wide apart. Text: think normal pressure hydrocephalus; more unsteady on turning; bladder urgency and slowed thinking are common but often not all three; selected people often improve after a shunt.",
+    "Illustrative drawing: an older man in socks stands with feet together, shoes beside him, while a clinician stands behind with both hands ready near his back, not touching. Text: much worse with eyes closed, think loss of position sense, for example neuropathy (check B12), or inner-ear balance loss; read the test with the rest of the examination.",
     "Card: watch every person who falls walk, turn and stand with eyes closed. 'Old age' is not a diagnosis."
    ],
    "attention_note": "A specific diagnostic point clinicians can use on the next ward round or in clinic.",
    "gain_note": "A structured way to watch gait, and three named conditions to consider, some treatable.",
    "follow_note": "High-yield clinical teaching with each label matched to its source.",
-   "verification_notes": "C01-27-a (Höglinger 2017 full text): repeated unprovoked falls within 3 years a core PSP feature; with vertical eye movement signs support probable PSP; 'backward' not used. C01-27-b (Fox 2025 full text): early recurrent falls a warning sign against PD (the criteria term is rendered as warning sign); 3.8% of 124 PD and 33.6% of 28 PSP autopsy cases; not an exclusion; check dopamine treatment; two thirds of PSP without early falls. Postuma 2015 not opened; wording from Fox. C01-27-c and d (Nakajima 2021 guideline full text): gait description; triad often incomplete. C01-27-e: 63% to 84% improved at 1 year in selected patients, stated as roughly 6 to 8 in 10. C01-27-f (Anagnostou 2024 abstract, 2025 full text): eyes-closed instability, position sense or inner-ear loss; a pointer. C01-27-g (Shipton 2015 full text): B12 linked to neuropathy and cord damage, not to the Romberg sign directly. C01-27-h (Snijders 2007 abstract): gait disorders have nameable causes; often multifactorial (stated). The unverified fourth vignette (Parkinson's gait) was cut.",
+   "verification_notes": "C01-27-a (H\u00f6glinger 2017 full text): repeated unprovoked falls within 3 years a core PSP feature; with vertical eye movement signs support probable PSP; 'backward' not used. C01-27-b (Fox 2025 full text): early recurrent falls a warning sign against PD (the criteria term is rendered as warning sign); 3.8% of 124 PD and 33.6% of 28 PSP autopsy cases; not an exclusion; check dopamine treatment; two thirds of PSP without early falls. Postuma 2015 not opened; wording from Fox. C01-27-c and d (Nakajima 2021 guideline full text): gait description; triad often incomplete. C01-27-e: 63% to 84% improved at 1 year in selected patients, stated as roughly 6 to 8 in 10. C01-27-f (Anagnostou 2024 abstract, 2025 full text): eyes-closed instability, position sense or inner-ear loss; a pointer. C01-27-g (Shipton 2015 full text): B12 linked to neuropathy and cord damage, not to the Romberg sign directly. C01-27-h (Snijders 2007 abstract): gait disorders have nameable causes; often multifactorial (stated). The unverified fourth vignette (Parkinson's gait) was cut.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P10_1.png",
+    "C01-P10_2.png",
+    "C01-P10_3.png",
+    "C01-P10_4.png"
+   ],
+   "visual_source": "visuals/src/C01-P10.html",
+   "visual_format": "carousel (3 drawn illustrations + statement card)",
+   "design_instructions": "Four cards, series Teaching round. Cards 1-3 light: dashed illustrative badge, h1.s headline with orange em phrase, kit.js scene, 32px body. Card 1 gp_room: seated older white man in cardigan, stick leaning on chair, Black female clinician standing with hand at his eye level, orange up/down arrows; mint stat box (claim C01-27-b: 3.8% of 124 PD, 33.6% of 28 PSP as about 4 in 100 and about 1 in 3). Card 2 hospital corridor with handrail and door: South Asian woman (headscarf, plum kameez as midi skirt, oat salwar, mustard cardigan) walking stride 0.18, white male physio behind, hand ready; inset top-down footprints short and wide (C01-27-c,d,e). Card 3 gp_room: East Asian man side view, feet together, grey socks, shoes on floor; white female clinician behind with both hands near his back (C01-27-f,g). Card 4 deep teal: gold headline, three rows with gold line icons (footprints, turn arrow, closed eye) and 64px white words, closing line (C01-27-h).",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C01-P11",
@@ -1363,7 +1483,7 @@
    "position_basis": "mixed: the counts and later study results are empirical findings; the rule for using the sign is clinical interpretation drawn from them.",
    "captions": {
     "x": "Some older people stop walking when you start talking to them. A small 1997 study in Sweden linked this with falls.\n\nOf 58 older people in sheltered housing, 12 stopped walking when someone started a conversation. Ten of those 12 fell in the next 6 months, compared with 11 of the 46 who kept walking.\n\nSo the sign was rarely a false alarm. But most of the people who fell (11 of 21) had kept walking.\n\nLater studies found it weaker. In people with stroke living at home, it gave more false alarms: 10 of the 26 who stopped did not fall, and it still missed about half of those who fell. Among over 4000 healthy older volunteers, fewer than 3 in 100 stopped, and stopping was not linked with past falls.\n\nIf someone stops walking to talk, do a full falls assessment. If they keep walking, don't take that as reassurance.",
-    "linkedin": "Some older people stop walking when you start talking to them. A small 1997 study in Umeå, Sweden, linked this with falls.\n\nThe researchers studied 58 older people in sheltered housing, many with dementia, depression or stroke. Twelve stopped walking when someone started a conversation. Ten of those 12 fell in the next 6 months, compared with 11 of the 46 who kept walking.\n\nRead those numbers both ways. Of the 37 people who did not fall, only 2 had stopped walking, so the sign was rarely a false alarm. But of the 21 who fell, 11 had kept walking. Most fallers would have passed the test.\n\nThe sign rests on 12 people in one setting, and later studies found it weaker. In 63 people with stroke living at home, it gave more false alarms (10 of the 26 who stopped did not fall) and, as in 1997, missed about half of those who fell. A 2000 report, cited by the stroke study's authors, could not repeat the 1997 result in people with Parkinson's disease. Among over 4000 healthy older volunteers, fewer than 3 in 100 stopped walking, and stopping was not linked with past falls.\n\nIt may work best in frail older people like those in the original study, many of whom had dementia, depression or stroke.\n\nA positive sign means look harder: do a full falls assessment. A negative sign does not reassure.",
+    "linkedin": "Some older people stop walking when you start talking to them. A small 1997 study in Ume\u00e5, Sweden, linked this with falls.\n\nThe researchers studied 58 older people in sheltered housing, many with dementia, depression or stroke. Twelve stopped walking when someone started a conversation. Ten of those 12 fell in the next 6 months, compared with 11 of the 46 who kept walking.\n\nRead those numbers both ways. Of the 37 people who did not fall, only 2 had stopped walking, so the sign was rarely a false alarm. But of the 21 who fell, 11 had kept walking. Most fallers would have passed the test.\n\nThe sign rests on 12 people in one setting, and later studies found it weaker. In 63 people with stroke living at home, it gave more false alarms (10 of the 26 who stopped did not fall) and, as in 1997, missed about half of those who fell. A 2000 report, cited by the stroke study's authors, could not repeat the 1997 result in people with Parkinson's disease. Among over 4000 healthy older volunteers, fewer than 3 in 100 stopped walking, and stopping was not linked with past falls.\n\nIt may work best in frail older people like those in the original study, many of whom had dementia, depression or stroke.\n\nA positive sign means look harder: do a full falls assessment. A negative sign does not reassure.",
     "bluesky": "Stopping walking to answer a question: in a 1997 Swedish study, 10 of 12 people who did this fell within 6 months, against 11 of 46 who kept walking. In a stroke study, this sign missed about half of those who later fell.\n\nIf present, do a full falls assessment. If absent, don't be reassured.",
     "threads": "Some older people stop walking when you start talking to them.\n\nIn a 1997 Swedish study of 58 people in sheltered housing, 10 of the 12 who did this fell within 6 months, against 11 of the 46 who kept walking. In a stroke study, this sign missed about half of those who later fell. Among healthy older volunteers, few people showed it at all.\n\nIf someone stops to talk, do a full falls assessment. If they keep walking, don't be reassured."
    },
@@ -1439,7 +1559,7 @@
     "Teaching round"
    ],
    "alt_text": [
-    "Illustrative four-panel comic. A physiotherapist asks an older man a question as they walk; he stops walking to answer; they sit for a fuller assessment. Final panel: 1997 Swedish study of 58 people in sheltered housing, 10 of 12 who stopped walking fell within 6 months, 11 of 46 who kept walking fell; later studies found the sign weaker. Present: look harder. Absent: no reassurance."
+    "Illustrative comic. A physiotherapist asks an older man with a stick a question while walking; he stops to answer; they sit and she takes notes. Panel 4: 1997 Swedish study of 58 people in sheltered housing; stopped walking, 10 of 12 fell within 6 months; kept walking, 11 of 46 fell (filled squares); later studies weaker. Present: look harder with a full falls assessment. Absent: no reassurance."
    ],
    "attention_note": "A moment clinicians see every day, and a sign many were taught.",
    "gain_note": "A quick sign and exactly how much weight to give it either way.",
@@ -1447,8 +1567,16 @@
    "verification_notes": "C01-24-a (Lundin-Olsson 1997 via the Consensus reproduction of the letter; percentages also in Hyndman 2004 full text): 58 residents of sheltered accommodation, many with dementia, depression or stroke; 10 of 12 who stopped fell within 6 months, 11 of 46 who kept walking. The '2 of 37 non-fallers stopped' and '11 of 21 fallers kept walking' statements are arithmetic from these counts (21 fell; 58 minus 21 is 37). The specific-but-insensitive reading is the original study's own and is not attributed to Beauchet 2009; C01-24-b (partly supported, because of that misattribution) is not cited. C01-24-c (Hyndman 2004 full text; Zhou 2026 full text): stroke study sensitivity 53%, specificity 70%; healthy volunteers 2.8% stopped, not linked with past falls (cross-sectional); Parkinson's point is second-hand from Hyndman. 'May work best in frail older people like those in the original study' follows the conflicting-evidence note (setting wording corrected after fact-check C01). Dual-task background (C01-24-d) not used.",
    "status": "text_final",
    "open_issues": [
-    "The Lundin-Olsson 1997 counts come from the Consensus reproduction of the letter (PubMed has no abstract); percentages are also in the Hyndman 2004 full text."
-   ]
+    "The Lundin-Olsson 1997 counts come from the Consensus reproduction of the letter (PubMed has no abstract); percentages are also in the Hyndman 2004 full text.",
+    "Visual rendered and read back by the designer; not independently inspected."
+   ],
+   "visual_files": [
+    "C01-P11.png"
+   ],
+   "visual_source": "visuals/src/C01-P11.html",
+   "visual_format": "comic strip (4 panels)",
+   "design_instructions": "Single light card, series Teaching round. Dashed illustrative badge, h1.s headline, .strip.p4 2x2: panels 1-3 kit.js care_home_lounge (viewBox 500x370, scale 0.66) with physio (white woman, ponytail, teal polo) and older Black man (white hair, navy, mustard cardigan, crook stick); typeset speech bubbles in panels 1-2, captions below. Panel 4 mint: study text 26px plus square arrays 10 of 12 and 11 of 46 filled orange (claim C01-24-a), 'Later studies: weaker' (C01-24-c). Bold 31px rule line below. Footer three-source credit.",
+   "visual_status": "final"
   }
  ]
 }

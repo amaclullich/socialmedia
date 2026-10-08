@@ -1,17 +1,10 @@
 [
   {
     "tmp_id": "C10-P01",
-    "where": "captions.x",
-    "old": "The two can occur together. In a Japanese study of 570 people with stenosis seen in specialist clinics, about 7 in 100 also had narrowed leg arteries, and about half of those had not been picked up before. So check",
-    "new": "Spinal stenosis and narrowed leg arteries can occur together. A Japanese study looked at 570 people with stenosis seen in specialist clinics. About 7 in 100 also had narrowed leg arteries. About half of those 7 had not been picked up before. So check",
-    "reason": "Cold read item 6 and flag: long sentence, ambiguous 'the two'; split into short sentences, same figures (C10-22-e)."
-  },
-  {
-    "tmp_id": "C10-P01",
-    "where": "captions.x",
-    "old": "The history makes stenosis likely; a scan confirms it, and only means something alongside the story.",
-    "new": "The history makes stenosis likely, and a scan can confirm it. Many older people have some narrowing on a scan without symptoms, so read the scan together with the history.",
-    "reason": "Cold read item 5: figurative 'alongside the story'; says the reason in plain words (C10-22-f)."
+    "where": "captions.bluesky",
+    "old": "Ask whether it goes on sitting, or eases leaning on a shopping trolley.",
+    "new": "Ask whether the pain goes on sitting, or eases leaning on a shopping trolley.",
+    "reason": "Cold read flag: 'it' needed a noun."
   },
   {
     "tmp_id": "C10-P01",
@@ -43,31 +36,24 @@
   },
   {
     "tmp_id": "C10-P01",
-    "where": "captions.bluesky",
-    "old": "Ask whether it goes on sitting, or eases leaning on a shopping trolley.",
-    "new": "Ask whether the pain goes on sitting, or eases leaning on a shopping trolley.",
-    "reason": "Cold read flag: 'it' needed a noun."
+    "where": "captions.threads",
+    "old": "Leg pain on walking in an older person: ask whether it goes when they sit, and whether leaning forward on a shopping trolley eases it.\n\nIn a review of 4 studies (741 people), those two answers were the strongest single pointers to lumbar spinal stenosis. Calf pain that eases on standing still points towards the arteries, and artery pain is usually not helped by bending forward.\n\nThe two can coexist, so check foot pulses or ankle pressure anyway. A scan confirms stenosis only alongside the story.",
+    "new": "Leg pain on walking in an older person: ask whether it goes when they sit, and whether leaning forward on a shopping trolley eases it.\n\nIn a review of 4 studies (741 people), those two answers were the strongest single pointers to lumbar spinal stenosis. Calf pain that eases on standing still points to the arteries; artery pain is usually not helped by bending forward.\n\nBoth can coexist, so check foot pulses or ankle pressure anyway. A scan can confirm stenosis; read it with the history.",
+    "reason": "Cold read item 5: figurative 'alongside the story'; rewritten to fit 500 characters."
   },
   {
     "tmp_id": "C10-P01",
-    "where": "captions.threads",
-    "old": "A scan confirms stenosis only alongside the story.",
-    "new": "A scan can confirm stenosis, but read it together with the history.",
-    "reason": "Cold read item 5: figurative wording."
+    "where": "captions.x",
+    "old": "The two can occur together. In a Japanese study of 570 people with stenosis seen in specialist clinics, about 7 in 100 also had narrowed leg arteries, and about half of those had not been picked up before. So check",
+    "new": "Spinal stenosis and narrowed leg arteries can occur together. A Japanese study looked at 570 people with stenosis seen in specialist clinics. About 7 in 100 also had narrowed leg arteries. About half of those 7 had not been picked up before. So check",
+    "reason": "Cold read item 6 and flag: long sentence, ambiguous 'the two'; split into short sentences, same figures (C10-22-e)."
   },
   {
-    "tmp_id": "C10-P02",
+    "tmp_id": "C10-P01",
     "where": "captions.x",
-    "old": "At 3 months after the operation it was about 22 in 100.",
-    "new": "At 3 months after the operation about 22 in 100 had troublesome pain, so fewer people had it by a year.",
-    "reason": "Cold read flag: 'it' unclear and the fall from 22 to 13 not named."
-  },
-  {
-    "tmp_id": "C10-P02",
-    "where": "captions.x",
-    "old": "because many people were lost to follow-up.",
-    "new": "because many people dropped out of the studies before they were checked again.",
-    "reason": "Cold read item 2: jargon 'lost to follow-up'."
+    "old": "The history makes stenosis likely; a scan confirms it, and only means something alongside the story.",
+    "new": "The history makes stenosis likely, and a scan can confirm it. Many older people have some narrowing on a scan without symptoms, so read the scan together with the history.",
+    "reason": "Cold read item 5: figurative 'alongside the story'; says the reason in plain words (C10-22-f)."
   },
   {
     "tmp_id": "C10-P02",
@@ -87,22 +73,36 @@
     "tmp_id": "C10-P02",
     "where": "captions.linkedin",
     "old": "The strongest predictor of dissatisfaction in that survey was expectations that were not met. So talk about likely pain before the operation, not after it.",
-    "new": "In that survey, people whose expectations were not met were the most likely to be dissatisfied. That is a reason to talk about likely pain before the operation.",
+    "new": "In that survey, people whose expectations went unmet were the most likely to be dissatisfied. That is a reason to talk about likely pain before the operation.",
     "reason": "Banned negation shape removed; wording follows C10-30-c safe_wording."
   },
   {
     "tmp_id": "C10-P02",
     "where": "captions.threads",
-    "old": "Knee replacement eases pain for most people. Not everyone.",
-    "new": "Knee replacement eases pain for most people, but some still have pain afterwards.",
-    "reason": "Cold read flag: negation-then-correction fragment."
+    "old": "Knee replacement eases pain for most people. Not everyone.\n\nA 2025 review of 68 studies (average age about 70) found troublesome knee pain in about 22 in 100 people at 3 months. At a year it was about 13 in 100. The authors think the true figures are probably higher.\n\nUnmet expectations were the strongest predictor of dissatisfaction in a Canadian survey. So ask before surgery: what are my chances of still having pain afterwards? What else could I try first?",
+    "new": "Knee replacement eases pain for most people, but some still have pain afterwards.\n\nA 2025 review of 68 studies (average age about 70) found troublesome knee pain in about 22 in 100 people at 3 months and about 13 in 100 at a year. The authors think the true figures are probably higher.\n\nIn a Canadian survey, people whose expectations were not met were the most likely to be dissatisfied. So before surgery, ask: what are my chances of still having pain afterwards? What else could I try first?",
+    "reason": "Cold read items 2 and 6 and flags: negation fragment, undefined 'dissatisfaction', long action sentence; figures from C10-30-b/c unchanged; rewritten to fit 500 characters."
   },
   {
     "tmp_id": "C10-P02",
-    "where": "captions.threads",
-    "old": "Unmet expectations were the strongest predictor of dissatisfaction in a Canadian survey. So ask before surgery: what are my chances of still having pain afterwards? What else could I try first?",
-    "new": "In a Canadian survey, people whose expectations were not met were the most likely to be dissatisfied with their new knee. So before surgery, ask what your chances are of still having pain afterwards, so that your hopes match what is likely. Also ask what else you could try first.",
-    "reason": "Cold read items 2 and 6: plain wording, reason for the question stated; follows C10-30-c."
+    "where": "captions.x",
+    "old": "At 3 months after the operation it was about 22 in 100.",
+    "new": "At 3 months after the operation about 22 in 100 had troublesome pain, so fewer people had it by a year.",
+    "reason": "Cold read flag: 'it' unclear and the fall from 22 to 13 not named."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "captions.x",
+    "old": "because many people were lost to follow-up.",
+    "new": "because many people dropped out of the studies before they were checked again.",
+    "reason": "Cold read item 2: jargon 'lost to follow-up'."
+  },
+  {
+    "tmp_id": "C10-P03",
+    "where": "captions.bluesky",
+    "old": "Co-codamol and co-dydramol contain paracetamol. So do some cold and flu remedies. Take two together and you can pass the usual 4 g a day. If you weigh under 50 kg or are frail, a lower limit may suit you. Add up the paracetamol in everything you take and ask a pharmacist.",
+    "new": "Co-codamol and co-dydramol contain paracetamol. So do some cold and flu remedies. Take two together and you can pass the usual limit of 4 g a day (eight 500 mg tablets). If you weigh under 50 kg or are frail, a lower limit may suit you. Add up the paracetamol in all you take and ask a pharmacist.",
+    "reason": "Cold read item 3: 4 g given a meaning (eight 500 mg tablets, C10-09-c); within 300 characters."
   },
   {
     "tmp_id": "C10-P03",
@@ -127,38 +127,17 @@
   },
   {
     "tmp_id": "C10-P03",
-    "where": "captions.bluesky",
-    "old": "Co-codamol and co-dydramol contain paracetamol. So do some cold and flu remedies. Take two together and you can pass the usual 4 g a day. If you weigh under 50 kg or are frail, a lower limit may suit you. Add up the paracetamol in everything you take and ask a pharmacist.",
-    "new": "Co-codamol and co-dydramol contain paracetamol. So do some cold and flu remedies. Take two together and you can pass the usual limit of 4 g a day (eight 500 mg tablets). If you weigh under 50 kg or are frail, a lower limit may suit you. Add up the paracetamol in everything you take and ask a pharmacist.",
-    "reason": "Cold read item 3: 4 g given a meaning (eight 500 mg tablets, C10-09-c)."
-  },
-  {
-    "tmp_id": "C10-P03",
     "where": "captions.threads",
-    "old": "In a pretend task with real products in a US study, 4 in 10 people aged 61 to 80 showed they would double up and go over 4 g.",
-    "new": "A US study had people show how they would take real products over a day. 4 in 10 of those aged 61 to 80 would have doubled up and gone over 4 g. It was a pretend task.",
-    "reason": "Cold read item 6: long clause split into short sentences; caveat kept."
+    "old": "Co-codamol and co-dydramol both contain paracetamol. So do some cold and flu remedies.\n\nTake two together and you can pass the usual maximum without meaning to. That is 4 g in 24 hours, or eight 500 mg tablets. In a pretend task with real products in a US study, 4 in 10 people aged 61 to 80 showed they would double up and go over 4 g.\n\nIf you weigh under 50 kg or are frail, ask whether a lower maximum suits you. Add up the paracetamol in everything you take, and ask a pharmacist to check.",
+    "new": "Co-codamol and co-dydramol both contain paracetamol. So do some cold and flu remedies.\n\nTake two together and you can pass the usual maximum without meaning to. That is 4 g in 24 hours, or eight 500 mg tablets. A US study had people show how they would take real products over a day. 4 in 10 of those aged 61 to 80 would have doubled up and gone over 4 g. It was a pretend task.\n\nIf you weigh under 50 kg or are frail, ask whether a lower maximum suits you. Ask a pharmacist to check your total.",
+    "reason": "Cold read item 6: long clause split into short sentences, pretend-task caveat kept (C10-09-d); within 500 characters."
   },
   {
     "tmp_id": "C10-P04",
-    "where": "captions.x",
-    "old": "Rising doses and death arrive close together, so it can look as if one caused the other.",
-    "new": "Doses rise as death comes closer, so it can look as if the higher dose caused the death. Families may worry about this.",
-    "reason": "Cold read flag: figurative wording; the worry is now stated before the closing refers to it."
-  },
-  {
-    "tmp_id": "C10-P04",
-    "where": "captions.x",
-    "old": "The evidence is observational, mostly low quality, and almost all from people with cancer. One large hospice study found a small statistical link between higher doses and shorter survival. Dose explained very little of it, and the link may reflect how ill people were rather than the dose. Its authors said fear of shortening life should not stop pain relief.",
-    "new": "The studies only watched what happened, and most were of low quality. Almost all the people had cancer. One large hospice study found a small link between higher doses and shorter survival. The dose accounted for very little of the difference in survival. The link may reflect how ill people were. Its authors said fear of shortening life should not stop pain relief.",
-    "reason": "Cold read items 2 and 6: 'observational' and negation shape; qualifications kept (C10-25-a, C10-25-c)."
-  },
-  {
-    "tmp_id": "C10-P04",
-    "where": "captions.x",
-    "old": "If this worry is on your mind at a bedside, say it to the nurse or doctor. We think you deserve a straight answer, and the person you love should not wait for relief.",
-    "new": "If the worry about shortening life is on your mind at a bedside, say so to the nurse or doctor, and ask how the dose is being matched to the symptoms.",
-    "reason": "Cold read item 5: emotional, patronising close replaced with an action."
+    "where": "captions.bluesky",
+    "old": "Morphine doses often rise in the last days of life as symptoms change. Hospice studies found no consistent link between symptom-adjusted doses and shorter life. Observational evidence, mostly in cancer; one large study found a small link that dose explained very little of. Ask the nurse or doctor.",
+    "new": "Morphine doses often rise in the last days of life. Hospice studies did not find that raising doses to ease symptoms shortened life. They only watched what happened, mostly in people with cancer. One found a small link to shorter survival. If this worries you, tell the nurse or doctor.",
+    "reason": "Cold read rewrite (total 8): jargon removed, limits and the contrary study in plain sentences, action given (C10-25-a, C10-25-c); within 300 characters."
   },
   {
     "tmp_id": "C10-P04",
@@ -204,31 +183,31 @@
   },
   {
     "tmp_id": "C10-P04",
-    "where": "captions.bluesky",
-    "old": "Morphine doses often rise in the last days of life as symptoms change. Hospice studies found no consistent link between symptom-adjusted doses and shorter life. Observational evidence, mostly in cancer; one large study found a small link that dose explained very little of. Ask the nurse or doctor.",
-    "new": "Morphine doses often rise in the last days of life as symptoms change. Hospice studies did not find that raising the dose to ease symptoms shortened life. They only watched what happened, mostly in people with cancer, and one found a small link to shorter survival. If this worries you, tell the nurse or doctor.",
-    "reason": "Cold read rewrite (total 8): jargon removed, study limits and the contrary study stated in plain sentences, action given (C10-25-a, C10-25-c)."
+    "where": "captions.threads",
+    "old": "Doses of morphine often go up in the last days of life, because symptoms change as death comes closer.\n\nStudies of people dying in hospices and palliative care units have not found that doses adjusted to symptoms shorten life. The studies are observational and mostly in people with cancer, and one found a small link that dose explained very little of.\n\nIf this fear is on your mind at a bedside, say it to the nurse or doctor. Relief should not wait for it.",
+    "new": "Doses of morphine often go up in the last days of life, because symptoms change.\n\nStudies of people dying in hospices and palliative care units have not found that raising doses to relieve symptoms shortens life. The studies only watched what happened and mostly involved people with cancer. One found a small link between higher doses and shorter survival, but dose explained very little of it.\n\nIf you worry about this, tell the nurse or doctor and ask how the dose is matched to the symptoms.",
+    "reason": "Cold read items 2, 4, 6: 'observational' jargon, undefined 'this fear', vague close; qualifications and contrary study kept (C10-25-a, -c); within 500 characters."
   },
   {
     "tmp_id": "C10-P04",
-    "where": "captions.threads",
-    "old": "Doses of morphine often go up in the last days of life, because symptoms change as death comes closer.\n\nStudies of people dying in hospices and palliative care units have not found that doses adjusted to symptoms shorten life. The studies are observational and mostly in people with cancer, and one found a small link that dose explained very little of.\n\nIf this fear is on your mind at a bedside, say it to the nurse or doctor. Relief should not wait for it.",
-    "new": "Doses of morphine often go up in the last days of life, because symptoms change as death comes closer.\n\nStudies of people dying in hospices and palliative care units have not found that raising doses to relieve symptoms shortens life. The studies only watched what happened and mostly involved people with cancer. One found a small link between higher doses and shorter survival, but the dose explained very little of it.\n\nIf you worry about this at a bedside, say so to the nurse or doctor, and ask how the dose is being matched to the symptoms.",
-    "reason": "Cold read items 2, 4 and 6: observational jargon, undefined 'this fear', vague close."
+    "where": "captions.x",
+    "old": "Rising doses and death arrive close together, so it can look as if one caused the other.",
+    "new": "Doses rise as death comes closer, so it can look as if the higher dose caused the death. Families may worry about this.",
+    "reason": "Cold read flag: figurative wording; the worry is now stated before the closing refers to it."
   },
   {
-    "tmp_id": "C10-P05",
+    "tmp_id": "C10-P04",
     "where": "captions.x",
-    "old": "average leg pain was 3.7 out of 10 on pregabalin and 3.1 on placebo.",
-    "new": "average leg pain was 3.7 out of 10 on pregabalin and 3.1 on placebo (a higher score means more pain).",
-    "reason": "Cold read flag: direction of the score not stated."
+    "old": "The evidence is observational, mostly low quality, and almost all from people with cancer. One large hospice study found a small statistical link between higher doses and shorter survival. Dose explained very little of it, and the link may reflect how ill people were rather than the dose. Its authors said fear of shortening life should not stop pain relief.",
+    "new": "The studies only watched what happened, and most were of low quality. Almost all the people had cancer. One large hospice study found a small link between higher doses and shorter survival. The dose accounted for very little of the difference in survival. The link may reflect how ill people were. Its authors said fear of shortening life should not stop pain relief.",
+    "reason": "Cold read items 2 and 6: 'observational' and negation shape; qualifications kept (C10-25-a, C10-25-c)."
   },
   {
-    "tmp_id": "C10-P05",
+    "tmp_id": "C10-P04",
     "where": "captions.x",
-    "old": "who is already unsteady, and to review prescriptions started for sciatica.",
-    "new": "who is already unsteady. It is also a reason to review prescriptions started for sciatica.",
-    "reason": "Cold read item 6: long sentence split."
+    "old": "If this worry is on your mind at a bedside, say it to the nurse or doctor. We think you deserve a straight answer, and the person you love should not wait for relief.",
+    "new": "If the worry about shortening life is on your mind at a bedside, say so to the nurse or doctor, and ask how the dose is being matched to the symptoms.",
+    "reason": "Cold read item 5: emotional, patronising close replaced with an action."
   },
   {
     "tmp_id": "C10-P05",
@@ -259,18 +238,25 @@
     "reason": "Cold read flags: setup phrase and negation shape."
   },
   {
-    "tmp_id": "C10-P06",
+    "tmp_id": "C10-P05",
     "where": "captions.x",
-    "old": "Imaging helps when something is unusual or another cause is possible.",
-    "new": "A scan or X-ray helps when something is unusual or another cause is possible.",
-    "reason": "Cold read item 2: 'imaging' jargon (C10-16-c)."
+    "old": "average leg pain was 3.7 out of 10 on pregabalin and 3.1 on placebo.",
+    "new": "average leg pain was 3.7 out of 10 on pregabalin and 3.1 on placebo (a higher score means more pain).",
+    "reason": "Cold read flag: direction of the score not stated."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "captions.x",
+    "old": "who is already unsteady, and to review prescriptions started for sciatica.",
+    "new": "who is already unsteady. It is also a reason to review prescriptions started for sciatica.",
+    "reason": "Cold read item 6: long sentence split."
   },
   {
     "tmp_id": "C10-P06",
-    "where": "captions.x",
-    "old": "Many believed exercise could damage the joint, and many had set it aside. A small study of beliefs, not proof of cause.\n\nAsk instead: what can I do",
-    "new": "Many believed exercise could damage the joint, and many had stopped exercising. This small study describes beliefs and does not tell us how common they are.\n\nTwo better questions: what can I do",
-    "reason": "Cold read item 6 and flags: clearer wording, negation-then-correction removed, 'instead' of what unclear (C10-16-e qualifications kept)."
+    "where": "captions.bluesky",
+    "old": "A knee X-ray is a poor guide to how much your knee will hurt or what you can do. Many people with X-ray changes have little pain, and the reverse. European guidance says typical knee arthritis needs no X-ray to diagnose. Ask: how do I keep this knee moving, and what should make us look again?",
+    "new": "A knee X-ray is a poor guide to how much your knee will hurt. Many people with X-ray changes have little pain, and many with knee pain have fairly normal X-rays. In one person, the worse-looking knee is more often the painful one. Ask how to keep the knee moving, and what should make us look again.",
+    "reason": "Cold read items 4 and 6: 'and the reverse' spelled out and opposing finding added (C10-16-a, C10-16-b); European guidance line dropped for length; within 300 characters."
   },
   {
     "tmp_id": "C10-P06",
@@ -302,10 +288,24 @@
   },
   {
     "tmp_id": "C10-P06",
-    "where": "captions.bluesky",
-    "old": "A knee X-ray is a poor guide to how much your knee will hurt or what you can do. Many people with X-ray changes have little pain, and the reverse. European guidance says typical knee arthritis needs no X-ray to diagnose. Ask: how do I keep this knee moving, and what should make us look again?",
-    "new": "A knee X-ray is a poor guide to how much your knee will hurt. Many people with X-ray changes have little pain, and many with knee pain have fairly normal X-rays. Within one person, the worse-looking knee is more often the painful one. Ask: how do I keep this knee moving, and what should make us look again?",
-    "reason": "Cold read items 4 and 6: 'and the reverse' spelled out; opposing finding added (C10-16-a, C10-16-b). European guidance line dropped for length."
+    "where": "captions.x",
+    "old": "Imaging helps when something is unusual or another cause is possible.",
+    "new": "A scan or X-ray helps when something is unusual or another cause is possible.",
+    "reason": "Cold read item 2: 'imaging' jargon (C10-16-c)."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "captions.x",
+    "old": "Many believed exercise could damage the joint, and many had set it aside. A small study of beliefs, not proof of cause.\n\nAsk instead: what can I do",
+    "new": "Many believed exercise could damage the joint, and many had stopped exercising. This small study describes beliefs and does not tell us how common they are.\n\nTwo better questions: what can I do",
+    "reason": "Cold read item 6 and flags: clearer wording, negation-then-correction removed, 'instead' of what unclear (C10-16-e qualifications kept)."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "captions.threads",
+    "old": "'Weak opioid' says little about tramadol's safety in older people.\n\nIt also raises serotonin and noradrenaline and depends on a liver enzyme that some antidepressants block. It can cause serotonin toxicity, low sodium, low blood sugar and seizures.\n\nIn UK adults starting treatment (observational), admissions for low sodium in the first month were about 4.6 vs 1.9 per 10,000 on tramadol vs codeine: uncommon, about double, wide uncertainty.\n\nCheck antidepressants, sodium, seizures, kidneys first.",
+    "new": "'Weak opioid' says little about tramadol's safety in older people.\n\nIt also raises serotonin and depends on a liver enzyme that some antidepressants block. It can cause serotonin toxicity, low sodium, low blood sugar and seizures.\n\nIn UK adults (observational), about 4.6 in 10,000 starting tramadol were admitted with low sodium in the first month, against 1.9 in 10,000 starting codeine. Uncommon, about double, wide uncertainty.\n\nCheck antidepressants, sodium, seizures, kidneys first.",
+    "reason": "Cold read item 6: 'vs' and 'per 10,000' shorthand replaced with a stated denominator (C10-18-e); noradrenaline dropped for length; within 500 characters."
   },
   {
     "tmp_id": "C10-P07",
@@ -322,18 +322,11 @@
     "reason": "Cold read items 3 and flag: comparison figure given a denominator; dense fragment turned into sentences (C10-18-e)."
   },
   {
-    "tmp_id": "C10-P07",
-    "where": "captions.threads",
-    "old": "admissions for low sodium in the first month were about 4.6 vs 1.9 per 10,000 on tramadol vs codeine: uncommon, about double, wide uncertainty.",
-    "new": "about 4.6 in 10,000 people starting tramadol were admitted with low sodium in the first month, against 1.9 in 10,000 starting codeine. That is uncommon and about double, with wide uncertainty.",
-    "reason": "Cold read item 6: shorthand 'vs' and 'per 10,000' replaced."
-  },
-  {
     "tmp_id": "C10-P08",
-    "where": "captions.x",
-    "old": "In an English GP trial, advice to try stopping led about 1 in 4 more people to stop, without a clear rise in cramps, though the trial was small and could not rule out a rise for some people.",
-    "new": "In an English GP trial, advice to try stopping led about 1 in 4 more people to stop. Cramps did not clearly rise. The trial was small and could not rule out a rise for some people.",
-    "reason": "Cold read item 6 (score 0): one long sentence split."
+    "where": "captions.bluesky",
+    "old": "On quinine for cramps? Ask when it was last reviewed. Trials: cramps fell from about 9 to 6 or 7 a fortnight (low-quality evidence); rare serious harms. UK prescribing advice reported in 2015: pause every 3 months. A small stopping trial showed no clear rise in cramps, but could not rule one out.",
+    "new": "On quinine for cramps? In trials, people on quinine had about 6 or 7 cramps in two weeks, against about 9 on a dummy tablet (low-quality evidence). Rare serious harms include a sudden fall in platelets and heart rhythm problems. Ask when it was last reviewed, and whether a pause could be tried.",
+    "reason": "Cold read items 1, 2, 4, 6: telegraphic list rewritten as sentences; serious harms named; low-quality caveat kept (C10-03-a, -c). Stopping-trial and 3-month pause lines dropped for length because the trial caveat could not fit; the action is to ask about a pause."
   },
   {
     "tmp_id": "C10-P08",
@@ -351,16 +344,16 @@
   },
   {
     "tmp_id": "C10-P08",
-    "where": "captions.bluesky",
-    "old": "On quinine for cramps? Ask when it was last reviewed. Trials: cramps fell from about 9 to 6 or 7 a fortnight (low-quality evidence); rare serious harms. UK prescribing advice reported in 2015: pause every 3 months. A small stopping trial showed no clear rise in cramps, but could not rule one out.",
-    "new": "On quinine for cramps? Ask when it was last reviewed. In trials, people on quinine had about 6 or 7 cramps in two weeks, against about 9 on a dummy tablet (low-quality evidence). Rare serious harms include a sudden fall in platelets and heart rhythm problems. A small trial of advice to try stopping showed no clear rise in cramps.",
-    "reason": "Cold read items 1, 2, 4, 6: telegraphic list rewritten in sentences; serious harms named; stopping trial described plainly (C10-03-a, -c, -g). Pause-every-3-months line dropped for length."
+    "where": "captions.threads",
+    "old": "If quinine is on your repeat list for cramps, ask when it was last reviewed.\n\nIn trials, cramps fell from about 9 to 6 or 7 a fortnight on quinine. Rare serious harms include a sudden fall in platelets and heart rhythm problems, especially after too many tablets.\n\nUK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months. In an English GP trial, advice to stop led about 1 in 4 more people to stop, with no clear rise in cramps, though a rise was not ruled out.",
+    "new": "Is quinine on your repeat list for cramps?\n\nIn trials, cramps fell from about 9 to 6 or 7 a fortnight on quinine. Rare serious harms include a sudden fall in platelets (blood cells that help clotting) and heart rhythm problems.\n\nUK prescribing advice in 2015 was to pause it every 3 months. In an English GP trial, advice to stop led about 1 in 4 more people to stop. Cramps did not clearly rise, though a rise was not ruled out.\n\nAsk when it was last reviewed, and if a pause could be tried.",
+    "reason": "Cold read items 2, 5, 6: platelets explained, sentences split, close made an action; within 500 characters."
   },
   {
     "tmp_id": "C10-P08",
-    "where": "captions.threads",
-    "old": "If quinine is on your repeat list for cramps, ask when it was last reviewed.\n\nIn trials, cramps fell from about 9 to 6 or 7 a fortnight on quinine. Rare serious harms include a sudden fall in platelets and heart rhythm problems, especially after too many tablets.\n\nUK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months. In an English GP trial, advice to stop led about 1 in 4 more people to stop, with no clear rise in cramps, though a rise was not ruled out.",
-    "new": "Is quinine on your repeat list for night cramps?\n\nIn trials, cramps fell from about 9 to 6 or 7 a fortnight on quinine. Rare serious harms include a sudden fall in platelets (blood cells that help clotting) and heart rhythm problems.\n\nUK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months. In an English GP trial, advice to stop led about 1 in 4 more people to stop. Cramps did not clearly rise, though a rise was not ruled out.\n\nAsk when it was last reviewed, and whether a pause could be tried.",
-    "reason": "Cold read items 2, 5, 6: platelets explained, sentence split, close made an action."
+    "where": "captions.x",
+    "old": "In an English GP trial, advice to try stopping led about 1 in 4 more people to stop, without a clear rise in cramps, though the trial was small and could not rule out a rise for some people.",
+    "new": "In an English GP trial, advice to try stopping led about 1 in 4 more people to stop. Cramps did not clearly rise. The trial was small and could not rule out a rise for some people.",
+    "reason": "Cold read item 6 (score 0): one long sentence split."
   }
 ]
