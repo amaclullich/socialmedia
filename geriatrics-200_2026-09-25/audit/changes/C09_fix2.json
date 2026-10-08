@@ -1,0 +1,450 @@
+[
+  {
+    "tmp_id": "C09-P01",
+    "where": "captions.x",
+    "old": "Above 24 it was less likely (0.14). In the 20 to 24 band there was no clear shift (0.87, interval 0.53 to 1.2).",
+    "new": "Above 24 it was less likely (likelihood ratio 0.14). In the 20 to 24 band there was no clear shift (likelihood ratio 0.87, 95% confidence interval 0.53 to 1.2).",
+    "reason": "Cold read item 3: statistical shorthand left unlabelled; name the measure and the interval."
+  },
+  {
+    "tmp_id": "C09-P01",
+    "where": "captions.linkedin",
+    "old": "The Aid to Capacity Evaluation had useful accuracy and is free to use.",
+    "new": "The Aid to Capacity Evaluation is free to use.",
+    "reason": "Cold read item 3: 'useful accuracy' had no figure; dropped (claim C09-26-d allows the free-to-use point alone)."
+  },
+  {
+    "tmp_id": "C09-P01",
+    "where": "captions.linkedin",
+    "old": " A score on its own is not an assessment.",
+    "new": "",
+    "reason": "Cold read item 5 and banned negation shape: the close already ends on the judgement and the practical record instruction."
+  },
+  {
+    "tmp_id": "C09-P01",
+    "where": "captions.linkedin",
+    "old": "a person may still lack capacity for a complex decision, a reasoned point that the review does not measure",
+    "new": "a person may still lack capacity for a complex decision; the review did not measure this",
+    "reason": "Cold read item 6: clumsy clause; same meaning (C09-26-b: reasoned point, not a measured rate)."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.x",
+    "old": "When a resident's behaviour changed after staff spoke, the change was to resistance about 55 times in 100 after elderspeak and about 26 times in 100 after ordinary adult talk.",
+    "new": "When a resident's behaviour changed after staff spoke, it turned to resistance about 55 times in 100 after elderspeak. After ordinary adult talk it turned to resistance about 26 times in 100.",
+    "reason": "Cold read item 6: two-part comparison split into two sentences; probability still refers to behaviour changes, not people."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.x",
+    "old": "Resistance fell by about 15 points over the same period, in step with the fall in elderspeak.",
+    "new": "Over the same period, resistance fell by about 15 percentage points of care time.",
+    "reason": "Cold read item 3: 'points' of what; unit stated. Also removed figurative 'in step with'. Percentage points of care time per C09-18-b."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.linkedin",
+    "old": "1. In a US study that filmed 80 care episodes with 20 nursing home residents with dementia, when a resident's behaviour changed after staff spoke, the change was to resistance about 55 times in 100 after elderspeak, compared with about 26 in 100 after ordinary adult talk. The authors say an experiment is needed to show cause.",
+    "new": "1. A US study filmed 80 care episodes with 20 nursing home residents with dementia. When a resident's behaviour changed after staff spoke, it turned to resistance about 55 times in 100 after elderspeak. After ordinary adult talk it turned to resistance about 26 times in 100. The authors say an experiment is needed to show cause.",
+    "reason": "Cold read item 6 (score 0): sentence of about 55 words split into four short ones; numbers and the cause caveat unchanged."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.linkedin",
+    "old": "3. In a small cluster randomised trial in 13 nursing homes (27 residents), three one-hour training sessions",
+    "new": "3. In a small trial that put 13 nursing homes into groups by chance (27 residents), three one-hour training sessions",
+    "reason": "Plain English: 'cluster randomised' replaced by what it means."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.linkedin",
+    "old": "Resistance fell from about 36% of care time by about 15 points, in step with the fall in elderspeak. At 3 months the fall in elderspeak held (12 points), but the fall in resistance (13 points) was no longer statistically clear.",
+    "new": "Over the same period, resistance fell from about 36% of care time by about 15 percentage points. At 3 months the fall in elderspeak held (12 percentage points), but the fall in resistance (13 percentage points) was no longer statistically clear, so chance could not be ruled out.",
+    "reason": "Removed figurative 'in step with'; units stated; 'statistically clear' given its plain meaning."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.bluesky",
+    "old": "In filmed nursing home care, when a resident with dementia's behaviour changed after staff spoke, it was to resistance about 55 times in 100 after elderspeak and 26 in 100 after adult talk. A link, not proof. In a small trial, 3 hours of staff training cut elderspeak.",
+    "new": "Elderspeak means pet names, 'we' for 'you', a sing-song voice. In filmed nursing home care, residents with dementia whose behaviour changed after staff spoke turned to resistance about 55 times in 100 after elderspeak, 26 in 100 after adult talk. A link, not proof of cause. Training cut staff elderspeak.",
+    "reason": "Cold read items 1, 2, 6: term 'elderspeak' defined, double-possessive sentence recast, link-versus-cause stated in a full sentence."
+  },
+  {
+    "tmp_id": "C09-P02",
+    "where": "captions.threads",
+    "old": "'Are we ready for our wash, sweetheart?' Meant kindly. This is elderspeak: pet names, 'we' for 'you', a sing-song voice.\n\nIn 80 filmed care episodes with 20 nursing home residents with dementia, behaviour changes after staff spoke were to resistance about 55 times in 100 after elderspeak and 26 in 100 after adult talk. A link, not proof of cause.\n\nIn a small trial, 3 hours of staff training cut elderspeak and resistance fell alongside. At 3 months the resistance fall was no longer clear.",
+    "new": "'Are we ready for our wash, sweetheart?' Meant kindly. This is elderspeak: pet names, 'we' for 'you', a sing-song voice.\n\nIn 80 filmed care episodes (20 nursing home residents with dementia), when behaviour changed after staff spoke, it turned to resistance about 55 times in 100 after elderspeak, 26 in 100 after adult talk. A link, not proof.\n\nIn a small trial, 3 hours of staff training cut elderspeak. Resistance fell too; at 3 months that fall was no longer clear. We should treat elderspeak as a care-quality problem staff can change.",
+    "reason": "Cold read items 5 and 6: closes on a position instead of a caveat; behaviour-change sentence recast; removed figurative 'fell alongside'."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.x",
+    "old": "If that is you, one thing is linked with more patient involvement. In a US study of 93 filmed visits by people aged 65 to 95, patients were more likely",
+    "new": "If that is you, one thing is linked with more patient involvement. A US study filmed 93 visits by people aged 65 to 95. Patients were more likely",
+    "reason": "Cold read item 6: long sentence split."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.linkedin",
+    "old": " In the same study, companions did more to help the patient take part than to take over.",
+    "new": "",
+    "reason": "Cold read item 3: comparison given with no count (claim C09-09-e is partly supported and has no figure); dropped."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.linkedin",
+    "old": "often left out of the conversation.",
+    "new": "often left out of the conversation. This was a small, old study, and later work found that being left out is not universal.",
+    "reason": "Cold read flag: 1994 finding not reconciled with later work (C09-09-c uncertainty note: exclusion is not universal)."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.linkedin",
+    "old": "A review of 52 studies found that companions were often seen as helpful, but taking over or making demands was seen as less helpful, and people differed widely in how much they wanted a companion to do.",
+    "new": "A review of 52 studies found that companions were often seen as helpful. Taking over or making demands was seen as less helpful. People differed widely in how much they wanted a companion to do.",
+    "reason": "Cold read item 6: three ideas in one sentence split."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.linkedin",
+    "old": "Having someone along was not linked with worse outcomes: none of five studies found worse outcomes for accompanied patients, though three were inconclusive.",
+    "new": "Five studies looked at outcomes for accompanied patients. None found worse outcomes, but three of the five could not say either way, so this does not show that a companion helps.",
+    "reason": "Cold read item 3 and false-reassurance flag: counts stated plainly; inconclusive studies kept visible (C09-09-f: do not claim companions improve outcomes)."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.bluesky",
+    "old": "In a US study of 93 filmed visits, older patients were more likely to take an active part in decisions when the companion asked what they thought (a link, not proof).",
+    "new": "A US study filmed 93 visits. Older patients were more likely to take an active part in decisions when the companion asked what they thought. That is a link, not proof.",
+    "reason": "Cold read item 6: parenthesis and long sentence split."
+  },
+  {
+    "tmp_id": "C09-P03",
+    "where": "captions.threads",
+    "old": "In a US study of 93 filmed visits, people aged 65 to 95 were more likely to take an active part in decisions when the person with them asked questions and asked what they thought.",
+    "new": "A US study filmed 93 visits by people aged 65 to 95. Those patients were more likely to take an active part in decisions when the person with them asked questions and asked what they thought.",
+    "reason": "Cold read item 6: long sentence split."
+  },
+  {
+    "tmp_id": "C09-P04",
+    "where": "captions.x",
+    "old": "Patients' confidence in managing their health and their own reports of sticking to advice in the short term improved, but the certainty was very low and low, and the size of the effect was very uncertain.",
+    "new": "Patients' confidence in managing their health improved (very low certainty). Their own reports of sticking to advice in the short term also improved (low certainty). The size of both effects was very uncertain.",
+    "reason": "Cold read items 3 and 6: 'very low and low' matched to each outcome (C09-23-b); sentence split."
+  },
+  {
+    "tmp_id": "C09-P04",
+    "where": "captions.linkedin",
+    "old": "It does give us a reason to check, because older patients may recall less when a lot is said: in a study of 260 people with cancer who had their first appointment recorded, older patients recalled less than younger ones when a lot of information was given.",
+    "new": "It does give us a reason to check, because older patients may recall less when a lot is said. In a study of 260 people with cancer who had their first appointment recorded, older patients recalled less than younger ones when a lot of information was given.",
+    "reason": "Cold read item 6: colon sentence split."
+  },
+  {
+    "tmp_id": "C09-P05",
+    "where": "captions.x",
+    "old": "It comes from the Talking Mats Centre in Stirling. Staff in the Swedish trial described below had two days of training before using it.",
+    "new": "It comes from the Talking Mats Centre in Stirling.",
+    "reason": "Cold read flag: forward reference and product detail ahead of the point; training detail moved to the trial sentence."
+  },
+  {
+    "tmp_id": "C09-P05",
+    "where": "captions.x",
+    "old": "In a 2026 Swedish trial that put 101 people with mild to moderate dementia in home care into groups by chance, involvement scores were high in both groups and did not show a clear difference, which may have left little room to show one.",
+    "new": "A 2026 Swedish trial put 101 people with mild to moderate dementia in home care into two groups by chance. One group had care-planning talks with the mats, after staff had two days of training, and one talked as usual. Involvement scores were high in both groups, with no clear difference. High scores in both may have made a difference hard to detect.",
+    "reason": "Cold read item 6 and figurative 'left little room': split; training detail moved here (C09-22-c, C09-22-b)."
+  },
+  {
+    "tmp_id": "C09-P05",
+    "where": "captions.linkedin",
+    "old": "In a 2026 Swedish trial, staff had two days of training before using it.\n\nTwo studies, two results.\n\n",
+    "new": "Staff in the 2026 Swedish trial below had two days of training before using it.\n\n",
+    "reason": "Cold read flag: signpost 'Two studies, two results' followed by a third source; removed."
+  },
+  {
+    "tmp_id": "C09-P05",
+    "where": "captions.linkedin",
+    "old": "A systematic review of 7 studies of ways to include the views of people with moderate-to-severe dementia in research found that each tool had some use, and that none had clear evidence over the others.",
+    "new": "A systematic review looked at 7 studies of ways to include the views of people with moderate-to-severe dementia in research. Each tool had some use. None had clear evidence over the others.",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C09-P05",
+    "where": "captions.bluesky",
+    "old": "In one small, non-randomised study of 18 couples with dementia, both partners said they felt more involved using picture cards on a mat than in usual conversation. A 2026 trial of 101 people in home care found high involvement in both groups, no clear difference. Ask the person directly.",
+    "new": "Talking Mats are picture cards on a mat for asking about daily life. A small study of 18 couples with dementia (no groups set by chance) found both felt more involved than in usual conversation. A 2026 trial (101 people, home care) found high involvement in both groups, no clear difference. Ask the person directly.",
+    "reason": "Cold read items 2 and 6: 'non-randomised' replaced by plain words; Talking Mats defined; sentence split."
+  },
+  {
+    "tmp_id": "C09-P05",
+    "where": "captions.threads",
+    "old": "Talking Mats: picture cards and a mat for asking a person how each part of daily life is going.",
+    "new": "Talking Mats are picture cards and a mat for asking a person how each part of daily life is going.",
+    "reason": "Cold read flag: clipped colon fragment."
+  },
+  {
+    "tmp_id": "C09-P06",
+    "where": "captions.x",
+    "old": "may be part of the reason.",
+    "new": "may be part of the reason treated blood pressure was less well controlled.",
+    "reason": "Cold read item 6: 'the reason' was ambiguous."
+  },
+  {
+    "tmp_id": "C09-P06",
+    "where": "captions.linkedin",
+    "old": "A scoping review of 51 studies from 12 countries",
+    "new": "A review that mapped 51 studies from 12 countries",
+    "reason": "Cold read item 2: 'scoping review' jargon."
+  },
+  {
+    "tmp_id": "C09-P06",
+    "where": "captions.linkedin",
+    "old": "People were recruited to fit quotas, blood pressure was measured once, and the sample was of all adult ages.",
+    "new": "People were recruited to include set numbers of each kind of participant. Blood pressure was measured once. The sample covered all adult ages.",
+    "reason": "Cold read item 2 and jargon flag: 'quotas' explained; sentence split."
+  },
+  {
+    "tmp_id": "C09-P06",
+    "where": "captions.linkedin",
+    "old": "That review is US-focused and qualitative, and little UK evidence",
+    "new": "That review mostly covers US studies and people's accounts rather than measurements, and little UK evidence",
+    "reason": "Cold read item 2: 'qualitative' replaced by plain meaning."
+  },
+  {
+    "tmp_id": "C09-P06",
+    "where": "captions.linkedin",
+    "old": "In England, NHS and adult social care services must record a person's communication needs and meet them, and any BSL interpreter they use must be qualified (the Accessible Information Standard).",
+    "new": "In England, NHS and adult social care services must record a person's communication needs and meet them. Any BSL interpreter they use must be qualified. This is the Accessible Information Standard.",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C09-P06",
+    "where": "captions.threads",
+    "old": "Research finds pen and paper often does not fix the problem",
+    "new": "Research with Deaf patients finds pen and paper often does not fix the problem",
+    "reason": "Cold read flag: whose research was unspecified (C09-27-a)."
+  },
+  {
+    "tmp_id": "C09-P07",
+    "where": "captions.linkedin",
+    "old": "In one small English study, staff skipped communication screening when they thought a patient's communication was fine, and 4 of 8 unscreened patients with dementia or memory problems turned out to have significant communication needs.",
+    "new": "In one small English study, staff skipped communication screening when they thought a patient's communication was fine. Of 8 unscreened patients with dementia or memory problems, 4 turned out to have significant communication needs.",
+    "reason": "Cold read item 6: sentence split; counts kept as counts (C09-21-f)."
+  },
+  {
+    "tmp_id": "C09-P07",
+    "where": "captions.bluesky",
+    "old": "After a stroke, some people lose words but may keep their judgement. About 1 in 3 people in hospital after stroke have aphasia. Some also have wider problems, so a supported assessment gives the answer. Our judgement: ask the speech and language therapist to help before the capacity conversation.",
+    "new": "After a stroke, some people lose words but may keep their judgement. About 1 in 3 people in hospital after stroke have aphasia. Some also have wider problems, so whether a person can decide needs a supported assessment, not the diagnosis alone. Our judgement: involve the speech and language therapist first.",
+    "reason": "Cold read item 6: 'a supported assessment gives the answer' answered an unstated question."
+  },
+  {
+    "tmp_id": "C09-P07",
+    "where": "captions.threads",
+    "old": "About 1 in 3 people in hospital after a stroke have aphasia (difficulty with language; a median across studies). Some also have problems with memory or reasoning.",
+    "new": "About 1 in 3 people in hospital after a stroke have aphasia, a difficulty with language. That is a median across studies. Some also have problems with memory or reasoning.",
+    "reason": "Cold read flag: clumsy parenthesis."
+  },
+  {
+    "tmp_id": "C09-P08",
+    "where": "captions.x",
+    "old": "Both studies are small and from the 1990s and 2000s, and a calm pace is not wrong.",
+    "new": "Both studies are small and from the 1990s and 2000s. A calm pace is not wrong.",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C09-P08",
+    "where": "captions.linkedin",
+    "old": "Across studies, a combination of changes that included a slower rate sometimes helped older listeners.",
+    "new": "Across studies, changing several things at once, including a slower rate, sometimes helped older listeners.",
+    "reason": "Cold read item 6: plain wording."
+  },
+  {
+    "tmp_id": "C09-P08",
+    "where": "captions.linkedin",
+    "old": "Plain wording is not elderspeak. One idea per sentence, saying it again, and checking you were understood are ordinary adult speech. Elderspeak is talking",
+    "new": "Plain wording is ordinary adult speech: one idea per sentence, saying it again, and checking you were understood. Elderspeak is talking",
+    "reason": "Banned negation-then-correction shape removed; same content stated directly."
+  },
+  {
+    "tmp_id": "C09-P08",
+    "where": "captions.bluesky",
+    "old": "In two small studies, slowing down did not, alone, help people with Alzheimer's follow a sentence (15 people; 18 couples). Repeating it and using simple sentences did. Plain wording is not elderspeak: no pet names, no sing-song voice, no 'shall we'.",
+    "new": "In two small studies, slowing down did not, alone, help people with Alzheimer's follow a sentence (15 people; 18 couples). Repeating it and grammatically simple sentences did. Elderspeak is talking to an older adult like a small child: pet names, a sing-song voice, 'shall we'. Plain wording avoids these.",
+    "reason": "Cold read item 2: 'simple' made 'grammatically simple'; elderspeak defined; negation shape removed."
+  },
+  {
+    "tmp_id": "C09-P08",
+    "where": "captions.threads",
+    "old": "Simple sentences worked (18 couples at home). A calm pace is not wrong.\n\nPlain wording is not elderspeak: no pet names, no sing-song voice, no 'shall we'.",
+    "new": "Grammatically simple sentences worked (18 couples at home). A calm pace is not wrong.\n\nElderspeak means talking to an older adult the way people talk to a small child. Plain wording avoids pet names, a sing-song voice and 'shall we'.",
+    "reason": "Cold read item 2: 'simple' qualified; elderspeak defined; negation shape removed."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.x",
+    "old": "In the NHS, patients are often sent a copy of the clinic letter, even when it is addressed to the GP. At one large London eye hospital, about 2 in 100 of 4.6 million letters (2013 to 2025) were written to the patient, and about 95 in 100 were harder to read than recommended. That is one hospital, with patients of all ages, and a computer rule decided what counted as written to the patient.",
+    "new": "Many people already get a copy of the clinic letter, but it is usually written to the GP and about them. One large London eye hospital wrote 4.6 million letters between 2013 and 2025, which includes years before the 2018 guidance. About 2 in 100 were written to the patient. About 95 in 100 were harder to read than recommended. That is one hospital, with patients of all ages, and a computer rule decided what counted as written to the patient.",
+    "reason": "Cold read item 6 and flags: sentence split; the number-free copy claim replaced by C09-02-c safe wording; pre-2018 years stated."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.x",
+    "old": "\n\nMore posts in the Ask this series take one question to ask at a time.",
+    "new": "",
+    "reason": "Cold read item 5 (score 0): empty series-promotion close removed; post ends on the question to ask."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.linkedin",
+    "old": "In the NHS, patients are often sent a copy of the clinic letter, even when it is addressed to the GP and written about them.",
+    "new": "Many people already get a copy of the clinic letter, but it is usually written to the GP and about them.",
+    "reason": "Unnumbered background claim replaced by C09-02-c safe wording."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.linkedin",
+    "old": "How common are letters written to the patient? One study analysed",
+    "new": "One study analysed",
+    "reason": "Banned self-answered setup question removed (cold read flag)."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.linkedin",
+    "old": "Treat that carefully. It is one eye hospital, the patients were of all ages (median 53), a computer rule decided which letters counted as written to the patient (at least 6 uses of 'you' or 'your' per 100 words), and the study measured reading level, not whether patients understood.",
+    "new": "This has limits. It is one eye hospital. The patients were of all ages (half were older than 53). A computer rule decided which letters counted as written to the patient: at least 6 uses of 'you' or 'your' per 100 words. The study measured reading level, and did not ask whether patients understood.",
+    "reason": "Cold read items 2 and 6: 'median' explained; sentence split; 'Treat that carefully' replaced (may read as patronising)."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.linkedin",
+    "old": "What do patients say? In a survey at one English hospital clinic",
+    "new": "In a survey at one English hospital clinic",
+    "reason": "Banned self-answered setup question removed (cold read flag)."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.linkedin",
+    "old": "That was a small, uncontrolled project, with only 53 of 120 recipients giving feedback.",
+    "new": "That was a small project with no comparison group, and only 53 of 120 recipients gave feedback.",
+    "reason": "Cold read item 2: 'uncontrolled' replaced by plain meaning."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.linkedin",
+    "old": "\n\nMore posts in the Ask this series take one question to ask at a time.",
+    "new": "",
+    "reason": "Cold read item 5 (score 0): empty series-promotion close removed."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.bluesky",
+    "old": "Guidance (Academy of Medical Royal Colleges, 2018) recommends clinic letters be written to the patient. At one London eye hospital, a computer rule judged about 2 in 100 of 4.6 million letters (2013 to 2025) to be written to the patient. You can ask: 'Could you write the letter to me, please?'",
+    "new": "Guidance (Academy of Medical Royal Colleges, 2018) recommends clinic letters be written to the patient. One London eye hospital wrote 4.6 million in 2013 to 2025, some before the guidance; a computer rule judged about 2 in 100 written to the patient. You can ask: 'Could you write the letter to me, please?'",
+    "reason": "Cold read item 6 and flag: sentence split; pre-guidance years stated."
+  },
+  {
+    "tmp_id": "C09-P09",
+    "where": "captions.threads",
+    "old": "National guidance from the Academy of Medical Royal Colleges (2018) recommends that clinic letters are written to the patient, not about the patient to the GP.\n\nAt one large London eye hospital, about 2 in 100 of 4.6 million letters written between 2013 and 2025 were judged by a computer rule to be written to the patient, and about 95 in 100 were harder to read than recommended. One hospital, patients of all ages.\n\nYou can ask: 'Could you write the letter to me, please?'",
+    "new": "National guidance from the Academy of Medical Royal Colleges (2018) recommends that clinic letters are written to the patient, not about the patient to the GP.\n\nAt one large London eye hospital, 4.6 million letters were written between 2013 and 2025, some before the guidance. A computer rule judged about 2 in 100 to be written to the patient. About 95 in 100 were harder to read than recommended. One hospital, patients of all ages.\n\nYou can ask: 'Could you write the letter to me, please?'",
+    "reason": "Cold read item 6 and flag: sentence split; pre-guidance years stated."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.x",
+    "old": "In that 2012 Court of Protection case in England (CC v KK), the judge said:",
+    "new": "That was a 2012 Court of Protection case in England (CC v KK). The judge said:",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.x",
+    "old": "We should not ask 'Can you manage at home?' before saying what help there would be.",
+    "new": "We should say what help there would be at home before asking 'Can you manage at home?'",
+    "reason": "Banned negation shape removed; wording matches Bluesky and Threads."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.linkedin",
+    "old": "What should the person be told? Residence-capacity specialists (Hughes and colleagues, BJPsych Advances, 2015) recommend:",
+    "new": "Residence-capacity specialists (Hughes and colleagues, BJPsych Advances, 2015) recommend telling the person:",
+    "reason": "Banned self-answered setup question removed."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.linkedin",
+    "old": "The same judge warned that professionals can slip from 'can she decide?' into 'what is best for her?', and then expect",
+    "new": "The same judge warned that professionals can move from asking 'can she decide?' to asking 'what is best for her?', and then expect",
+    "reason": "Figurative verb 'slip into' replaced (cold read flag)."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.linkedin",
+    "old": "What happens on wards? A study on English hospital wards (29 cases, fieldwork 2008 to 2009) found that staff varied widely in what information they gave or tested when judging whether a person with dementia could decide where to live. Practice may have changed since.",
+    "new": "A study on English hospital wards (29 cases, fieldwork 2008 to 2009) looked at how staff judged whether a person with dementia could decide where to live. Staff varied widely in what information they gave or tested. Practice may have changed since.",
+    "reason": "Cold read item 6 and setup-question flag: question removed; sentence split."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.bluesky",
+    "old": "A 2012 English court found an 82-year-old woman with dementia had capacity to decide where to live, after professionals judged otherwise. The judge: the person must be presented with detailed options to weigh (one first-instance ruling). We should say what help there would be at home before asking.",
+    "new": "A 2012 English court found an 82-year-old woman with dementia had capacity to decide where to live, though professionals judged otherwise. The judge said the person must be presented with detailed options (one first-instance ruling). Say what help there would be at home before asking 'Can you manage at home?'",
+    "reason": "Cold read item 5: the closing instruction now names the question it refers to."
+  },
+  {
+    "tmp_id": "C09-P10",
+    "where": "captions.threads",
+    "old": "A judge found that an 82-year-old woman with dementia, judged by several professionals to lack capacity to decide where to live, had it (CC v KK, England, 2012).",
+    "new": "A judge found that an 82-year-old woman with dementia had capacity to decide where to live (CC v KK, England, 2012). Several professionals had judged that she lacked it.",
+    "reason": "Cold read item 6: 'had it' referent loose."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.x",
+    "old": "Relatives the person had chosen were no more accurate than next of kin, and pairs who said they had talked it through beforehand were no more accurate than those who had not. These were imagined situations, not real decisions.",
+    "new": "Relatives the person had chosen were no more accurate than next of kin. Pairs who said they had talked it through beforehand were no more accurate than pairs who had not, and that talk was ordinary conversation. These were imagined situations, not real decisions.",
+    "reason": "Cold read flag: sentence needed a second reading; split; unstructured nature of the earlier talk stated (C09-25-b)."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.x",
+    "old": "In a US trial of 313 people with heart or kidney disease and the person chosen to speak for them, a planning conversation led by a trained professional, ending in a written record of the person's goals, left the person chosen with a much better understanding of those goals than usual care.",
+    "new": "A US trial included 313 pairs, each a person with heart or kidney disease and the person chosen to speak for them. A trained professional led a planning conversation that ended in a written record of the person's goals. The person chosen then understood those goals much better than after usual care.",
+    "reason": "Cold read item 6 (score 0): long sentence split into three."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.linkedin",
+    "old": "(68% of 19,526 paired answers), and a different answer about 1 time in 3.",
+    "new": "(68% of 19,526 paired answers). They gave a different answer about 1 time in 3.",
+    "reason": "Cold read item 6 (score 0): sentence split."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.linkedin",
+    "old": "In a US trial (Kirchhoff and colleagues, 2010) of 313 people with heart failure or kidney disease and the person chosen to speak for them, a planning conversation led by a trained professional, ending in a written record of the person's goals, left the person chosen with a much better understanding of those goals than usual care.",
+    "new": "In a US trial (Kirchhoff and colleagues, 2010), 313 people with heart failure or kidney disease took part with the person chosen to speak for them. A trained professional led a planning conversation that ended in a written record of the person's goals. The person chosen then understood those goals much better than after usual care.",
+    "reason": "Cold read flag: trial sentence ran past 55 words; split."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.linkedin",
+    "old": "though the finding is narrative and the authors",
+    "new": "though the findings were described in words rather than combined into one number, and the authors",
+    "reason": "Cold read item 2: 'narrative' jargon."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.linkedin",
+    "old": "For anyone planning ahead: our judgement is that we should record our own views and the reasons for them while we can, and go through them with the person who would speak for us, ideally with a professional's help. Keep talking about it, and write it down.\n\nOur judgement, for clinicians: ask relatives what the person valued and said, not only what they would choose.",
+    "new": "For anyone planning ahead: our judgement is that we should record our own views and the reasons for them while we can, and go through them with the person who would speak for us, ideally with a professional's help.\n\nFor clinicians, the same judgement applies: ask relatives what the person valued and said, not only what they would choose.",
+    "reason": "Cold read flag: mixed message ('keep talking') after unstructured talk did not improve accuracy; two separate 'Our judgement' lines merged."
+  },
+  {
+    "tmp_id": "C09-P11",
+    "where": "captions.threads",
+    "old": "Chatting beforehand did not improve this. In a US trial, a structured conversation with a trained professional, ending in a written record of the person's goals, left the person chosen to speak for them understanding those goals much better.\n\nWrite down your views and reasons, and go through them together.",
+    "new": "Ordinary chats beforehand did not improve this. In a US trial, a trained professional led a structured conversation that ended in a written record of the person's goals. The person chosen to speak for them then understood those goals much better.\n\nWrite down your views and reasons, and go through them with that person, ideally with a professional.",
+    "reason": "Cold read item 6 and mixed-message flag: sentence split; unstructured chat distinguished from the structured conversation."
+  }
+]

@@ -33,3 +33,5 @@ All workflows stopped. To resume text for a group, re-run `_system/workflows/pro
 
 ## Update 6 Oct 2026
 C01, C02 and C04 are complete (31 posts: text_final and visuals final). C02 and C04 had one agent do cold read, fixes and visuals; the cold read was not independent and rewrite scores are estimates. Remaining: 169 posts (see Paused section for resume run ids).
+
+- C19-P07 (drugs to avoid in Parkinson disease near death) names only two drugs a source supports; a clinician should check against NICE NG71 and Scottish palliative guidance, and check the Hewer 2024 full text for the 43 and 31 in 100 figures.

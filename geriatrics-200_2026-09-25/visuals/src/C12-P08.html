@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P08 Armchair to toilet</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>
+ .scene { margin-top:18px; flex:0 0 auto; height:430px; }
+ .keys { display:grid; grid-template-columns:1fr 1fr; gap:10px 30px; margin-top:22px; list-style:none; }
+ .keys li { font-size:27px; line-height:1.25; font-weight:600; }
+ .keys li.night { grid-column:1 / 3; }
+ .tg { margin-top:16px; display:flex; align-items:center; gap:14px; }
+ .moon { display:inline-block; width:34px; height:34px; }
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content">
+  <h1 class="s">From armchair to toilet: seven things to check</h1>
+  <p class="small" style="margin-top:12px;color:var(--ink);font-weight:600">Illustrative drawing. These are things to check, not treatments shown to work in trials.</p>
+  <div class="scene" id="sc"></div>
+  <div class="tg"><span class="badge">By day</span></div>
+  <ul class="keys" style="margin-top:12px">
+   <li>1. A chair or bed at a height the person can stand up from</li>
+   <li>5. A toilet that can be seen</li>
+   <li>2. A walking aid within reach</li>
+   <li>6. Clothes that are easy to undo</li>
+   <li>3. A clear, lit route</li>
+   <li>7. A raised seat or rails</li>
+   <li>4. A door that opens easily</li>
+  </ul>
+  <div class="tg" style="margin-top:14px"><svg class="moon" viewBox="-26 -26 52 52" style="width:44px;height:44px;flex:0 0 44px"><circle r="24" fill="#fff" stroke="#1F2A30" stroke-width="3"/><path d="M6,-14 A15,15 0 1 0 6,14 A11,11 0 1 1 6,-14 Z" fill="#15535B"/></svg><span style="font-size:28px;font-weight:700;line-height:1.25">At night: a light, and a commode or urinal bottle by the bed</span></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Frank, Can Fam Physician, 2010; Brown, J Am Geriatr Soc, 2000; Pesonen, J Urol, 2020</span></div>
+</div>
+</div>
+<script>
+const K=Kit, W=1000,H=560,S=0.95,g=505;
+const man={pose:'rising',seat:'armchair',seatColour:'sage',x:310,y:g,scale:S,age:'older',sex:'m',skin:'brown',hair:'white',hairStyle:'short',top:'#8D8FB0',bottom:'stone',extras:['cardigan'],cardigan:'#6B4E6E',shoeStyle:'slipper',shoes:'#5C3C28'};
+const moon=(x,y)=>K.at(x,y,1,`<circle cx="0" cy="0" r="24" fill="#fff" stroke="#1F2A30" stroke-width="3"/><path d="M6,-14 A15,15 0 1 0 6,14 A11,11 0 1 1 6,-14 Z" fill="#15535B"/>`);
+K.draw('#sc',W,H,[
+ K.at(0,0,1,K.room('home_bedroom',{w:520,h:H,ground:g,scale:S})),
+ K.at(520,0,1,K.room('home_living',{w:180,h:H,ground:g,scale:S,wall:'#F3EDDF'})),
+ K.at(700,0,1,K.room('bathroom',{w:300,h:H,ground:g,scale:S})),
+ K.bed({x:50,y:g,type:'domestic',scale:S*0.9,colour:'denim',blanket:'sage'}),
+ K.person(man),
+ K.commode({x:500,y:g,scale:S*0.8}),
+ K.walking_frame({x:410,y:g,scale:S,type:'rollator'}),
+ K.door({x:690,y:g,w:150,open:true,scale:S}),
+ K.toilet_with_grab_rails({x:935,y:g,scale:S,raised:true,facing:'left'}),
+ K.at(585,g-150,1,`<circle cx="0" cy="0" r="46" fill="#F7E3A8" opacity="0.55"/><rect x="-14" y="-12" width="28" height="24" rx="8" fill="#FFF3C9" stroke="#1F2A30" stroke-width="3"/>`),
+ K.at(225,g-2,1,`<path d="M0,0 h30 v-30 q0,-10 -8,-14 l-14,-6 q-8,-4 -8,6 Z" fill="#DCEBEA" stroke="#1F2A30" stroke-width="3" transform="translate(40,0)"/>`),
+ K.stool({x:630,y:g,scale:S*0.8}),
+ K.blanket({x:630,y:g-106*S*0.8,w:70,colour:'sage'}),
+ moon(500,g-230), moon(585,g-250), moon(270,g-110),
+],{cls:'art'});
+K.pins('#sc',[{n:1,x:262,y:g-120},{n:2,x:405,y:g-215},{n:3,x:585,y:g-190},{n:4,x:690,y:g-330},{n:5,x:960,y:g-250},{n:6,x:630,y:g-175},{n:7,x:880,y:g-215}]);
+window.__ready=true;
+</script></body></html>

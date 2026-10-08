@@ -1,0 +1,653 @@
+[
+ {
+  "tmp_id": "C19-P01",
+  "where": "captions.x",
+  "old": "say what would shorten it",
+  "new": "say which signs would shorten the survival time",
+  "reason": "Cold read item 6: 'what would shorten it' is vague; say which signs and what is shortened."
+ },
+ {
+  "tmp_id": "C19-P01",
+  "where": "captions.threads",
+  "old": "say what would shorten it",
+  "new": "say which signs would shorten the survival time",
+  "reason": "Cold read item 6: 'what would shorten it' is vague; say which signs and what is shortened."
+ },
+ {
+  "tmp_id": "C19-P01",
+  "where": "captions.linkedin",
+  "old": "Say which signs would shorten it.",
+  "new": "Say which signs would shorten the survival time.",
+  "reason": "Cold read item 6: 'what would shorten it' is vague; say which signs and what is shortened."
+ },
+ {
+  "tmp_id": "C19-P01",
+  "where": "captions.linkedin",
+  "old": "Our suggestion is a judgement, not a tested remedy.",
+  "new": "Our suggestion is a judgement, and the habits have not been tested as a remedy.",
+  "reason": "Flag: negation-then-correction shape removed; meaning (judgement, untested) kept."
+ },
+ {
+  "tmp_id": "C19-P01",
+  "where": "captions.threads",
+  "old": "about 20 in 100 times.",
+  "new": "in about 20 in 100 cases.",
+  "reason": "Cold read wording fix applied for consistency with Bluesky."
+ },
+ {
+  "tmp_id": "C19-P01",
+  "where": "captions.bluesky",
+  "old": "In a US study of 468 people referred to hospice, doctors' survival estimates were within a third of the true time about 20 in 100 times; 63 in 100 were too optimistic. Estimates tended to be less accurate the longer the doctor had known the patient. Suggestion: give a range, ask a colleague.",
+  "new": "In a US study of 468 people referred to hospice, doctors' survival estimates were within a third of the true time in about 20 in 100 cases; 63 in 100 were too optimistic. Estimates tended to be less accurate the longer the doctor knew the patient. Our suggestion: give a range; ask a colleague.",
+  "reason": "Cold read item 6: reworded 'about 20 in 100 times; 63 in 100' into two clear sentences; flag: association hedge ('tended to be') kept; 'when you know the patient well' left out of this short version only for length (the full condition stays in X, LinkedIn and Threads)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.x",
+  "old": "or the natural course of the illness",
+  "new": "or the illness changing on its own",
+  "reason": "Flag: 'natural course of the illness' was soft; plain wording, same uncertainty."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.x",
+  "old": "In the morning, both groups reported slightly less breathlessness.",
+  "new": "Both groups, on oxygen and on room air, said their morning breathlessness eased slightly.",
+  "reason": "Cold read item 6: say which groups and what eased."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.x",
+  "old": "If oxygen is tried, check whether it helps that person.",
+  "new": "If oxygen is tried, ask the care team how they will tell whether it is helping.",
+  "reason": "Cold read item 5: concrete question instead of 'check whether it helps'."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.threads",
+  "old": "In the morning, both groups reported slightly less breathlessness.",
+  "new": "Both groups, on oxygen and on room air, said their morning breathlessness eased slightly.",
+  "reason": "Cold read item 6: say which groups and what eased."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.threads",
+  "old": "If oxygen is tried, check it helps that person.",
+  "new": "If oxygen is tried, ask the care team how they will tell whether it is helping.",
+  "reason": "Cold read item 5: concrete question."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.bluesky",
+  "old": "In a small trial of 50 people with advanced illness, five minutes of a hand-held fan on the face eased breathlessness more than a fan on the legs. In 239 people whose blood oxygen was not low, oxygen eased it no more than room air. Our suggestion: try a fan first; check oxygen helps.",
+  "new": "In a small trial of 50 people with advanced illness, 5 minutes of a hand-held fan on the face eased breathlessness more than a fan on the legs. In 239 people whose blood oxygen was not low, oxygen eased it no more than room air. Our suggestion: try a fan first; check whether oxygen helps.",
+  "reason": "Cold read item 5: 'check oxygen helps' completed to 'check whether oxygen helps'; item 6 sentence kept clear within the 300-character limit."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.linkedin",
+  "old": "A double-blind trial tested it",
+  "new": "A trial in which neither the people nor the researchers knew who got oxygen tested it",
+  "reason": "Cold read item 2: 'double-blind' glossed in plain words."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.linkedin",
+  "old": "From the start to day 6, morning breathlessness on a 0 to 10 scale fell by 0.9 points with oxygen and 0.7 with room air. That difference was not clear. In the morning, both groups reported slightly less breathlessness. This could reflect air flow, expectation or the natural course of the illness, and the trial could not separate them.",
+  "new": "By day 6, morning breathlessness on a 0 to 10 scale (a lower score means less breathless) fell by 0.9 points with oxygen and 0.7 with room air. So both groups felt a little better, and the trial did not show that the gap between them was real. The improvement could reflect air flow, expectation or the illness changing on its own, and the trial could not separate them.",
+  "reason": "Cold read item 6: vague 'not clear' replaced by plain statement; the repeated vaguer sentence removed; scale direction stated (item 3 flag); 'natural course' made plain."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.linkedin",
+  "old": "Observers rated their breathing distress while oxygen, air and no flow were switched every 10 minutes. Most tolerated this without distress. 3 people (9 in 100) became distressed and went back on oxygen.",
+  "new": "Observers rated their breathing distress while oxygen, air and no flow were switched every 10 minutes. Most of the 32 people tolerated this without distress. 3 of the 32 (9 in 100) became distressed and went back on oxygen.",
+  "reason": "Cold read item 3: number of people in the small study stated (32, per evidence C19-21-c)."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.x",
+  "old": "The study followed 323 residents. About 53 in 100 had a fever. About 41 in 100 had pneumonia. About 55 in 100 died.",
+  "new": "The study followed 323 residents for 18 months. About 53 in 100 had a fever. About 41 in 100 had pneumonia. About 55 in 100 died within the 18 months.",
+  "reason": "Cold read item 3: time period attached to the death figure."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.x",
+  "old": "Among those who died, about 41 in 100 had a hospital transfer, emergency visit, drip or tube feeding in their last 3 months. Those whose health care proxies (the person who decides for the resident) understood the likely course were much less likely to have these. The study does not show that explaining the course made the difference.",
+  "new": "Among residents who died, about 4 in 10 had a hospital transfer, emergency visit, drip or tube feeding in their last 3 months. Those whose health care proxy (the person who decides for the resident) understood the likely course were much less likely to have these. That is a link. It does not show that explaining the course caused the difference.",
+  "reason": "Flags: caveat now matches the finding (proxy understanding, a link); second 41 in 100 figure reworded as 4 in 10 so it is not confused with the pneumonia figure (40.7% in evidence C19-24-b); proxy singular."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.linkedin",
+  "old": "That is an observational finding. It does not show that explaining the course caused the difference.",
+  "new": "That finding comes from watching what happened, not from a trial. It does not show that explaining the course caused the difference.",
+  "reason": "Cold read item 2: 'observational' glossed in plain words."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.linkedin",
+  "old": "Among those who died, about 41 in 100 had",
+  "new": "Among those who died, about 4 in 10 had",
+  "reason": "Consistency with X: avoids two different 41 in 100 figures."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.bluesky",
+  "old": "In 323 US care home residents with advanced dementia, about 86 in 100 had an eating problem in 18 months and about 55 in 100 died. Residents whose health care proxy (the decision-maker) understood the likely course were linked with fewer burdensome interventions. Ask the care team what to expect.",
+  "new": "In 18 months, about 86 in 100 of 323 US care home residents with advanced dementia had an eating problem and 55 in 100 died. Where the proxy (decision-maker) understood the likely course, residents were linked with fewer hospital transfers, drips and tube feeding. Ask the care team what to expect.",
+  "reason": "Cold read item 2: 'burdensome interventions' replaced by the actual interventions; 26-word first sentence split; link wording kept."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.threads",
+  "old": "In a US study of 323 care home residents with advanced dementia, about 86 in 100 developed an eating problem within 18 months. About 53 in 100 had a fever, 41 in 100 had pneumonia and 55 in 100 died.\n\nResidents whose health care proxies (the person who decides for them) understood the likely course were linked with fewer burdensome interventions (hospital transfers, drips, tube feeding) at the end. That does not show cause.\n\nYou can ask the care team what the later stages usually bring.",
+  "new": "In a US study of 323 care home residents with advanced dementia, about 86 in 100 developed an eating problem, about 53 in 100 had a fever, 41 in 100 had pneumonia and 55 in 100 died, all within 18 months.\n\nWhere the health care proxy (the person who decides for the resident) understood the likely course, residents were linked with fewer hospital transfers, drips and tube feeding at the end. This does not show cause.\n\nYou can ask the care team what the later stages usually bring.",
+  "reason": "Cold read items 3 and 6: time period attached to all four figures; subject clearer; burdensome interventions named; 'linked with' kept and the cause caveat kept."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.x",
+  "old": "A review of 61 UK studies found that many people's wishes about where to die were not asked, not expressed or not recorded.\n\nAmong the views that were recorded, most chose home. Once the missing views are counted, nobody knows what share of people prefer home. Where people were asked was linked with the place they named.\n\nA larger review of 210 studies from 33 countries also found that home was the most common stated choice. In the better-quality studies of patients, estimates ranged from about 3 in 10 to nearly 9 in 10. In 10 studies, mostly of lower quality, about 1 in 5 patients changed their preference as illness progressed, which was not tested for statistical significance. About 4 in 5 did not change.\n\nWe should ask each person, write down the answer and the reasons, and ask again.",
+  "new": "A review of 61 UK studies found that many people's wishes about where to die were not asked, not expressed or not recorded.\n\nAmong the wishes that were recorded, most chose home. Counting the missing wishes as well, it is not known what share of people prefer home. The place where people were asked was also linked with the answer they gave.\n\nA separate, larger review of 210 studies from 33 countries also found that home was the most common stated choice. In 9 better-quality studies of patients, leaving out outliers, the share who preferred home ranged from about 3 in 10 to nearly 9 in 10. In 10 studies, mostly of lower quality, about 1 in 5 patients changed their preference as illness progressed, and about 4 in 5 did not. The studies did not check whether this could be chance.\n\nWe should ask each person, write down the answer and the reasons, and ask again.",
+  "reason": "Cold read rewrite (items 1, 2, 3, 6, 7): one main idea (missing wishes) stated first, second review set out in its own paragraph; 'not tested for statistical significance' made plain; 'estimates' now says what was estimated; the range is tied to UK recorded views versus the international review; figurative 'Once the missing views are counted' and absolute 'nobody knows' removed; 'excluding outliers' and '9 studies' restored from evidence C19-04-c."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "Once the missing views were counted, it was not known what share of people prefer home. Where people were asked was also linked with the place they said they preferred.",
+  "new": "Counting the missing views as well, it is not known what share of people prefer home. Where people were asked was also linked with the place they said they preferred.",
+  "reason": "Flag: figurative 'Once ... counted' removed. The sentence 'Among the preferences that were recorded, most people chose home' stays directly above it (item 7)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "In the best studies of patients, estimates of preferring home ranged from about 3 in 10 to nearly 9 in 10.",
+  "new": "In 9 better-quality studies of patients (leaving out outliers), the share who preferred home ranged from about 3 in 10 to nearly 9 in 10.",
+  "reason": "Cold read items 3 and 7: says what the range measures (share of patients who preferred home) and that it comes from the international review; '9 studies' and 'leaving out outliers' from evidence C19-04-c."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "Those data came from few studies, mostly of low quality, and the change was not tested for statistical significance.",
+  "new": "Those data came from few studies, mostly of low quality, and the studies did not check whether the change could be chance.",
+  "reason": "Cold read item 2: statistical shorthand replaced by plain words."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "None of this weakens the case for helping people who choose home. It shows why each person should be asked.\n\nWe should ask each person where they would like to be cared for and to die, record the reasons, and review the answer as things change.",
+  "new": "The case for helping people who choose home stands. Each person still needs to be asked.\n\nWe should ask each person where they would like to be cared for and to die. We should record the reasons and review the answer as things change.",
+  "reason": "Flags: negation-then-correction shape removed; 27-word closing sentence split."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.bluesky",
+  "old": "In 61 UK studies, most recorded views favoured home, but many views were not asked, expressed or recorded, so the true share is unknown. A separate review: about 1 in 5 patients (10 studies) changed preference as illness progressed. We should ask, record, and ask again.",
+  "new": "In 61 UK studies, most recorded wishes about where to die favoured home, but many were not asked, expressed or recorded, so the true share is not known. A separate review found about 1 in 5 patients (10 studies) changed their preference as illness progressed. We should ask, record, and ask again.",
+  "reason": "Cold read item 1: states what the recorded views were about; flag: fragment 'A separate review:' made a full sentence; 'unknown' kept as 'not known'."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.threads",
+  "old": "A review of 61 UK studies found many people's wishes about where to die were not asked, not expressed or not recorded. Among the views recorded, most chose home. Counting the missing views, the share who prefer home is unknown.\n\nA separate review of 210 studies found that, in 10 of them, about 1 in 5 patients changed their preference as illness progressed. That was not tested for statistical significance, and about 4 in 5 did not change.\n\nWe should ask, record the reasons, and ask again.",
+  "new": "A review of 61 UK studies found many people's wishes about where to die were not asked, not expressed or not recorded. Among the views recorded, most chose home. With the missing views included, the share who prefer home is not known.\n\nA separate review of 210 studies found that, in 10 of them, about 1 in 5 patients changed their preference as illness progressed, and about 4 in 5 did not. The studies did not check whether this could be chance.\n\nWe should ask, record the reasons, and ask again.",
+  "reason": "Cold read item 2 and flags: statistical shorthand replaced; ambiguous 'That' removed; figurative 'Counting the missing views' removed."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.x",
+  "old": "They collect in the throat when a person can no longer cough or swallow them away.",
+  "new": "They collect in the throat when a person can no longer cough up or swallow them.",
+  "reason": "Flag: figurative 'swallow them away' replaced."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "They collect in the throat when a person can no longer cough or swallow them away.",
+  "new": "They collect in the throat when a person can no longer cough up or swallow them.",
+  "reason": "Flag: figurative 'swallow them away' replaced."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.x",
+  "old": "does not distress the dying person, but only 2 of the studies looked at patients.",
+  "new": "does not distress the dying person. Only 2 of the studies looked at patients, so this has not been measured well.",
+  "reason": "Cold read item 6: two ideas split; caveat made explicit (evidence C19-05-b: consensus, not well measured)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.x",
+  "old": "A 2008 Cochrane review found no trial evidence that it, or any medicine, quiets the sound once it has started.",
+  "new": "A 2008 review of trials found no evidence that it, or any medicine, reduces the sound once it has started.",
+  "reason": "Cold read item 2: 'Cochrane review' replaced by plain words; flag: figurative 'quiets' replaced."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "does not distress the dying person, but only 2 of the studies looked at patients.",
+  "new": "does not distress the dying person. Only 2 of the studies looked at patients, so this has not been measured well.",
+  "reason": "Consistency with X; item 6."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "A Cochrane review found no evidence that any medicine or other measure was better than placebo for treating the sound once it has started.",
+  "new": "A review of trials found no evidence that any medicine or other measure was better than a dummy treatment (placebo) for treating the sound once it has started.",
+  "reason": "Cold read item 2: 'Cochrane' and 'placebo' glossed."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "That tested prevention, not treatment. Restlessness was reported in 28 in 100 on the injection and 23 in 100 on placebo, and the abstract does not say whether that difference was more than chance.",
+  "new": "That trial tested prevention, before the rattle started. Restlessness was reported in 28 in 100 on the injection and 23 in 100 on placebo, and we do not know whether that gap was more than chance.",
+  "reason": "Cold read item 6 and flags: source talk ('the abstract') removed; negation shape removed."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.bluesky",
+  "old": "The rattling breath near death is thought to be saliva and mucus the person can no longer clear. Studies generally find it does not distress them, though few looked at patients. In interviews, many relatives were upset. Changing position is one usual way to manage it. Ask the nurse to explain.",
+  "new": "Rattling breath near death is thought to be mucus the person can no longer clear. A review found general agreement it does not distress them; only 2 of 14 studies looked at patients. Many relatives were upset. Changing position is usual care; no trial shows it or any medicine reduces the sound.",
+  "reason": "Cold read item 4: states that no trial shows position or medicine reduces the sound; flag: count of studies that looked at patients added (2 of 14)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.threads",
+  "old": "The rattling breathing that can come near death is thought to be saliva and mucus collecting in the throat. The person can no longer clear it.\n\nA 2025 review of 14 studies found general agreement that the sound does not distress the dying person, but only 2 studies looked at patients. In interview studies, many relatives were upset, especially if they feared choking. Others were not.\n\nChanging position is one usual way to manage it. If you hear it, ask the nurse to explain what it is.",
+  "new": "The rattling breathing near death is thought to be saliva and mucus the person can no longer clear.\n\nA 2025 review of 14 studies found general agreement that the sound does not distress the dying person. Only 2 studies looked at patients. In interview studies, many relatives were upset, especially if they feared choking. Others were not.\n\nChanging position is usual care, but no trial shows it or any medicine reduces the sound once it has started. If you hear it, ask the nurse what it is.",
+  "reason": "Cold read item 4: no-trial caveat added (Threads limit kept); flag: count of studies added."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.x",
+  "old": "Those who gave spending details reported",
+  "new": "Those who gave details of money spent reported",
+  "reason": "Cold read item 3: clearer wording."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.x",
+  "old": "The published abstract does not say whether the hours include time on call.",
+  "new": "It is not clear whether the hours include time on call.",
+  "reason": "Flag: source talk removed; uncertainty kept."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.linkedin",
+  "old": "Among the 72.5% who gave details of spending, the median",
+  "new": "Among the 72.5% who gave details of money spent, the median",
+  "reason": "Cold read item 3: clearer wording."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.linkedin",
+  "old": "The published abstract does not say whether the hours include time spent on call.",
+  "new": "It is not clear whether the hours include time spent on call.",
+  "reason": "Flag: source talk removed; uncertainty kept."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.linkedin",
+  "old": "In our view, a plan that leaves those unanswered assumes unlimited unpaid time.",
+  "new": "In our view, a plan that leaves those unanswered risks relying on unpaid time the carer may not have.",
+  "reason": "Flag: strong rhetorical claim softened; still marked as our view."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.bluesky",
+  "old": "Carers of people who died of cancer in England reported a median of about 69.5 hours of care a week in the last 3 months (survey of 1,504 bereaved relatives, 28.5% replied). We think plans for dying at home should ask what hours the main carer can give and who covers the rest.",
+  "new": "Carers of people who died of cancer in England reported a median (middle value) of about 69.5 hours of care a week in the last 3 months. The survey had 1,504 bereaved relatives; 28.5% replied. We think plans for dying at home should ask what hours the main carer can give and who covers the rest.",
+  "reason": "Cold read items 2 and 6: 'median' glossed; long parenthesis turned into a sentence."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.threads",
+  "old": "a median of about 69 and a half hours of care a week.",
+  "new": "a median (the middle value) of about 69 and a half hours of care a week.",
+  "reason": "Cold read item 2: 'median' glossed."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.x",
+  "old": "so make it a decision: ask what is causing discomfort.",
+  "new": "so decide deliberately whether to stop them: ask what is making the person uncomfortable.",
+  "reason": "Cold read item 6: plainer wording of the decision."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.x",
+  "old": "Doses are approximate, and too high a dose is linked with confusion, hallucinations and agitation.",
+  "new": "Converting from levodopa to the patch dose is approximate, and too high a dose is linked with confusion, hallucinations and agitation.",
+  "reason": "Cold read item 3: says what is approximate."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.x",
+  "old": "A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's (in its section on surgery).",
+  "new": "A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's. It gives the list in its section on surgery, so it does not say whether the list applies in the last days of life.",
+  "reason": "Flag: the scope of the list (surgery section, not specifically end of life) is now stated, per evidence C19-22-c qualifications."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "So ask what is making the person uncomfortable, and decide on purpose.",
+  "new": "So ask what is making the person uncomfortable, and decide on purpose whether to stop them.",
+  "reason": "Consistency with X."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "3. Before a patch, the review's steps include levodopa dispersed in carbonated water or thickened fluid, and a nasogastric tube if that fits the person's wishes. If neither is possible, a rotigotine skin patch is the most widely used non-oral option, but no trials show it works at the end of life, and the advice rests on case series and expert opinion. Skin absorption can fall with sweating, weight loss and poor circulation, which may limit the patch. The conversion is approximate, about 30 mg of levodopa to 1 mg of rotigotine, and the maximum patch dose of 16 mg a day corresponds to 480 mg of levodopa. Too high a dose is linked with confusion, hallucinations and agitation. In one Australian audit of people with Parkinson's who died, only 7 of 52 eligible people received the recommended dose. Agree the dose with pharmacy or the Parkinson's team.",
+  "new": "3. Before a patch, the review's steps include levodopa dispersed in carbonated water or thickened fluid, and a nasogastric tube if that fits the person's wishes. If neither is possible, a rotigotine skin patch is the most widely used non-oral option. No trials show it works at the end of life, and the advice rests on case series and expert opinion. Skin absorption can fall with sweating, weight loss and poor circulation, which may limit the patch.\n\n4. Converting from levodopa to the patch dose is approximate: about 30 mg of levodopa to 1 mg of rotigotine, and the maximum patch dose of 16 mg a day corresponds to 480 mg of levodopa. Too high a dose is linked with confusion, hallucinations and agitation. In one Australian audit of people with Parkinson's who died, only 7 of 52 eligible people received the recommended dose. Agree the dose with pharmacy or the Parkinson's team.",
+  "reason": "Cold read item 6 and flag: dense point 3 split into two numbered points; sentence split; 'conversion' says what is converted (item 3 on X)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "4. Check the chart for dopamine blockers. A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's (in its section on surgery). In the same audit, 43 in 100 of the people with Parkinson's were prescribed a contraindicated dopamine blocker, and it was given in 31 in 100 of those cases. The abstract does not list which drugs.",
+  "new": "5. Check the chart for dopamine blockers. A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's. It gives the list in its section on surgery, so it does not say whether the list applies in the last days of life. In the same audit, 43 in 100 of the people with Parkinson's were prescribed a contraindicated dopamine blocker, and 31 in 100 of those prescriptions were given. The audit summary does not say which drugs.",
+  "reason": "Cold read item 3: denominator of the 31 in 100 stated (prescriptions, per evidence C19-22-c safe wording); renumbered; scope of the list stated; source talk ('the abstract') removed."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.bluesky",
+  "old": "'Stop oral medicines' also stops Parkinson's medicines when swallowing fails. Sudden withdrawal can bring severe stiffness and pain, so decide on purpose. A rotigotine patch is the most used non-oral route (no trials). A 2025 review lists metoclopramide and haloperidol as contraindicated.",
+  "new": "'Stop oral medicines' also stops Parkinson's medicines. Stopping suddenly can bring severe stiffness and pain; decide on purpose. A rotigotine patch is the most used non-oral option; no trials show it works at the end of life. Metoclopramide and haloperidol are listed as contraindicated.",
+  "reason": "Cold read item 3: '(no trials)' completed to say what the trials would show."
+ },
+ {
+  "tmp_id": "C19-P08",
+  "where": "captions.x",
+  "old": "Across 11,621 patients, it picked up about 67 in 100 of those who died within 6 to 18 months. Of the people it flagged, about 37 in 100 died in that window.",
+  "new": "Across 11,621 patients, about 67 in 100 of those who died within 6 to 18 months had been flagged by the question. Of the people it flagged, about 37 in 100 died in that window.",
+  "reason": "Flag: figurative 'picked up' replaced; wording matches the Bluesky and Threads fix."
+ },
+ {
+  "tmp_id": "C19-P08",
+  "where": "captions.x",
+  "old": "Our view: use it to start conversations about future care, not to forecast a date or limit treatment.",
+  "new": "Our view: use it to start conversations about future care. A flag gives no date and is no reason to limit treatment.",
+  "reason": "Flag: negation-then-correction shape removed; meaning kept."
+ },
+ {
+  "tmp_id": "C19-P08",
+  "where": "captions.linkedin",
+  "old": "that followed people for death at 6 to 18 months, not strictly a year.",
+  "new": "that followed people for death at 6 to 18 months after the question, although the question asks about 12 months.",
+  "reason": "Flag: negation shape ('not strictly a year') removed."
+ },
+ {
+  "tmp_id": "C19-P08",
+  "where": "captions.linkedin",
+  "old": "use the question to start conversations and care planning with the person and their family, not to forecast a date or to limit treatment. A flag that is followed by death in the window about 4 times in 10 is a reason to talk, not a reason to label.",
+  "new": "use the question to start conversations and care planning with the person and their family. About 4 in 10 of the people it flagged died in the window, so a flag is a reason to talk. It gives no date and is no reason to limit treatment.",
+  "reason": "Flags: two negation-then-correction shapes removed; long closing sentence split."
+ },
+ {
+  "tmp_id": "C19-P08",
+  "where": "captions.bluesky",
+  "old": "Pooled across 16 studies, the surprise question picked up about 67 in 100 people who died within 6 to 18 months. But only about 37 in 100 of those flagged died in that window. Our view: use it to start conversations about future care, not to forecast.",
+  "new": "Pooled across 16 studies: of 100 people who died within 6 to 18 months, about 67 had been flagged by the surprise question. Of 100 people flagged, about 37 died in that window. Our view: use it to start conversations about future care. A flag gives no date.",
+  "reason": "Cold read item 7: two figures restated with their own denominators (of 100 who died, of 100 flagged); flag: figurative 'picked up' and 'not to forecast' shape removed."
+ },
+ {
+  "tmp_id": "C19-P08",
+  "where": "captions.threads",
+  "old": "Pooled across 16 studies, the surprise question ('Would I be surprised if this patient died in the next 12 months?') picked up about 67 in 100 people who died within 6 to 18 months. Of those it flagged, about 37 in 100 died in that window.\n\nIt worked less well outside cancer, and most studies had moderate to high risk of bias.\n\nOur view: use it to start conversations, not to forecast.",
+  "new": "Pooled across 16 studies of the surprise question ('Would I be surprised if this patient died in the next 12 months?'): of 100 people who died within 6 to 18 months, about 67 had been flagged. Of 100 people flagged, about 37 died in that window.\n\nIt worked less well outside cancer, and most studies had moderate to high risk of bias.\n\nOur view: use it to start conversations, not to forecast.",
+  "reason": "Cold read item 7: two figures restated with their own denominators; flag: figurative 'picked up' removed."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.x",
+  "old": "Pooled studies suggest roughly 1 in 10",
+  "new": "Combining studies suggests roughly 1 in 10",
+  "reason": "Cold read item 2: 'pooled' replaced by plain words."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.x",
+  "old": "A US trial included 151 people aged 50 and over with complicated grief, a term for long-lasting intense grief. About 7 in 10 improved with grief-focused therapy. About 3 in 10 improved with interpersonal psychotherapy, a talking therapy used for depression. The comparison was with another treatment, not with no treatment.",
+  "new": "A US trial included 151 people aged 50 and over with long-lasting intense grief (the trial called it complicated grief). After 20 weeks, about 7 in 10 improved with grief-focused therapy. About 3 in 10 improved with interpersonal psychotherapy, a talking therapy used for depression. The trial compared two treatments, so it does not show how either compares with no treatment.",
+  "reason": "Cold read item 3: time point added (20 weeks); flags: two names for grief reduced to one plain term with the trial's term in brackets; negation shape removed."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.linkedin",
+  "old": "A meta-analysis of 14 studies found a pooled prevalence of about 1 in 10 (9.8%) among adults bereaved by a non-violent death.",
+  "new": "Combining 14 studies, about 1 in 10 (9.8%) of adults bereaved by a non-violent death had it.",
+  "reason": "Cold read items 2 and 6: statistical terms replaced by plain words."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.linkedin",
+  "old": "Shear and colleagues randomised 151 people aged 50 and over (average age 66) with complicated grief. That is a term for long-lasting intense grief. After 20 weeks, about 7 in 10 (70.5%) had responded to grief-focused therapy. About 3 in 10 (32.0%) had responded to interpersonal psychotherapy, a talking therapy used for depression.",
+  "new": "Shear and colleagues randomly assigned 151 people aged 50 and over (average age 66) with long-lasting intense grief, which the trial called complicated grief. After 20 weeks, about 7 in 10 (70.5%) had improved with grief-focused therapy. About 3 in 10 (32.0%) had improved with interpersonal psychotherapy, a talking therapy used for depression.",
+  "reason": "Flags: 'randomised' and 'responded' glossed in plain words; second name for the same grief reduced to a bracketed note."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.linkedin",
+  "old": "This was one US trial, and the comparison was with another active therapy, not with no treatment.",
+  "new": "This was one US trial that compared two treatments, so it does not show how either compares with no treatment.",
+  "reason": "Flag: negation shape removed; meaning kept."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.bluesky",
+  "old": "About 1 in 10 adults bereaved by a non-violent death develop grief that stays intense and disabling, and studies with older participants on average found higher rates. In a US trial of people aged 50 and over, a grief-focused therapy helped about 7 in 10, against about 3 in 10 with another therapy.",
+  "new": "About 1 in 10 adults bereaved by a non-violent death develop grief that stays intense and disabling; studies with older participants on average found higher rates. In a US trial of people aged 50+, grief-focused therapy helped about 7 in 10 at 20 weeks, against about 3 in 10 with another therapy.",
+  "reason": "Cold read item 3: 20-week time point added; kept within 300 characters."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.threads",
+  "old": "in pooled studies.",
+  "new": "when studies were combined.",
+  "reason": "Cold read item 2: 'pooled' replaced by plain words."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.threads",
+  "old": "A grief-focused therapy helped about 7 in 10.",
+  "new": "After 20 weeks, a grief-focused therapy helped about 7 in 10.",
+  "reason": "Cold read item 3: time point added."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.x",
+  "old": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in deprivation.",
+  "new": "The more deprived the area, the more likely a death in hospital rather than at home, and the less likely specialist palliative care.",
+  "reason": "Cold read item 6: plainer sentence; meaning (step-by-step gradient) kept."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.x",
+  "old": "This comes from a review that combined 112 observational studies, just over half from North America.",
+  "new": "This comes from a review that combined 112 studies that watched what happened without assigning treatments, just over half from North America.",
+  "reason": "Cold read item 2: 'observational' glossed."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.linkedin",
+  "old": "Davies and colleagues searched for studies of socioeconomic position and healthcare in the last year of life. They found 209 and combined the results of 112 of them, all observational.",
+  "new": "Davies and colleagues searched for studies of how deprived people's neighbourhoods were and the healthcare they had in the last year of life. They found 209 and combined the results of 112 of them, all of which watched what happened without assigning treatments.",
+  "reason": "Cold read item 2: 'socioeconomic position' and 'observational' glossed."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.linkedin",
+  "old": "2. More likely to receive acute hospital care in the last 3 months of life.",
+  "new": "2. More likely to have hospital care in the last 3 months of life.",
+  "reason": "Flag: 'acute hospital care' unglossed; matches evidence safe wording."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.linkedin",
+  "old": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in area deprivation.",
+  "new": "The more deprived the area, the more likely a death in hospital rather than at home, and the less likely specialist palliative care.",
+  "reason": "Cold read item 6: plainer sentence; gradient kept."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.linkedin",
+  "old": "Because the studies are observational, they do not show why the gaps exist.",
+  "new": "Because the studies watched what happened without assigning treatments, they do not show why the gaps exist.",
+  "reason": "Consistency: 'observational' glossed."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.bluesky",
+  "old": "In a review of studies from high-income countries, people in the poorest neighbourhoods were more likely to die in hospital than at home, and less likely to get specialist palliative care. Causes are not shown. We should report end-of-life care by deprivation.",
+  "new": "A review of studies in high-income countries found people in the poorest neighbourhoods were more likely to die in hospital than at home, and less likely to get specialist palliative care (symptom relief and support). It does not show why. We should report end-of-life care by deprivation.",
+  "reason": "Cold read items 2 and 6: split into two sentences; 'specialist palliative care' glossed."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.threads",
+  "old": "A review combining 112 observational studies in high-income countries",
+  "new": "A review of 112 studies in high-income countries, none assigning treatments,",
+  "reason": "Cold read item 2: 'observational' glossed."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.threads",
+  "old": "less likely to get specialist palliative care.",
+  "new": "less likely to get specialist palliative care (a team focused on symptom relief and support).",
+  "reason": "Flag: 'specialist palliative care' glossed."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.x",
+  "old": "A US trial randomised 151 people with newly diagnosed advanced lung cancer to palliative care alongside cancer treatment, or cancer treatment alone. Among the 107 who completed the 12-week assessments, quality of life was better with palliative care, and fewer had depressive symptoms (16 in 100, compared with 38 in 100).",
+  "new": "A US trial randomly assigned 151 people with newly diagnosed advanced lung cancer to palliative care alongside cancer treatment, or cancer treatment alone. 107 people completed the 12-week assessments. Their quality of life was better with palliative care. Fewer had depressive symptoms: 16 in 100, compared with 38 in 100.",
+  "reason": "Cold read items 2 and 6: 'randomised' replaced; long sentence split."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.x",
+  "old": "The term still carried stigma.",
+  "new": "They still felt the term carried a stigma (a sense of shame or disapproval).",
+  "reason": "Flag: 'stigma' glossed; attributed to participants as in evidence."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.x",
+  "old": "\n\nMore posts in the Ask this series each take one question to put to a care team.",
+  "new": "",
+  "reason": "Cold read item 5: empty series-plug close deleted; post now ends on the question to ask."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "Temel and colleagues randomised 151 people with newly diagnosed advanced (metastatic) non-small-cell lung cancer.",
+  "new": "Temel and colleagues randomly assigned 151 people with newly diagnosed advanced lung cancer that had spread.",
+  "reason": "Cold read item 2: jargon replaced by plain words."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "At 12 weeks, among the 107 who completed the assessments (27 people had died by then), the early palliative care group had a better quality of life. Fewer had depressive symptoms (16 in 100 compared with 38 in 100).",
+  "new": "107 people completed the 12-week assessments, and 27 had died by then. The early palliative care group had a better quality of life. Fewer had depressive symptoms (16 in 100 compared with 38 in 100).",
+  "reason": "Cold read item 6: long sentence with parenthesis split."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "Why ask? A Canadian interview study involved 48 people with advanced cancer and 23 carers.",
+  "new": "A Canadian interview study involved 48 people with advanced cancer and 23 carers.",
+  "reason": "Flag: self-answered setup question removed."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "They still felt the term carried stigma. This is a small qualitative study.",
+  "new": "They still felt the term carried a stigma (a sense of shame or disapproval). This is a small study based on interviews.",
+  "reason": "Flag: 'stigma' and 'qualitative' glossed."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "\n\nMore posts in the Ask this series each take one question to put to a care team.",
+  "new": "",
+  "reason": "Cold read item 5: empty series-plug close deleted; post ends on questions to ask."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.bluesky",
+  "old": "Palliative care can run alongside treatment for the illness itself. In a trial of 151 people with advanced lung cancer, those given it early had better quality of life at 12 weeks, and fewer had depressive symptoms (16 in 100 vs 38 in 100 among the 107 assessed). Lung cancer only.",
+  "new": "Palliative care (symptom relief, support, planning) can be given alongside illness treatment. In a trial of 151 people with advanced lung cancer, those given it early had better quality of life at 12 weeks and fewer had depressive symptoms (16 vs 38 in 100, 107 assessed). Lung cancer only.",
+  "reason": "Cold read item 2: palliative care glossed; flag: figurative 'run alongside' replaced; item 6 split into shorter sentences."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.threads",
+  "old": "can run alongside treatment for the illness itself.",
+  "new": "can be given alongside treatment for the illness itself.",
+  "reason": "Flag: figurative 'run alongside' replaced."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.threads",
+  "old": "A US trial randomised 151 people",
+  "new": "A US trial randomly assigned 151 people",
+  "reason": "Cold read item 2: 'randomised' replaced by plain words."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.x",
+  "old": "On three US television programmes in 1994 to 1995 (ER, Chicago Hope and Rescue 911), about 2 in 3 people given CPR appeared to survive to leave hospital.",
+  "new": "On three US television programmes from 1994 to 1995, about 2 in 3 people given CPR appeared to survive to leave hospital. The programmes were ER, Chicago Hope and Rescue 911.",
+  "reason": "Cold read item 6: parenthesis turned into a sentence."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.x",
+  "old": "For the most common kind of heart stop, about 1 in 10 did.",
+  "new": "For the most common kind of heart stop (a rhythm that is not treated with a shock), about 1 in 10 did.",
+  "reason": "Flag: 'most common kind of heart stop' named in plain words (non-shockable rhythm, evidence C19-26-b)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.x",
+  "old": "This post argues neither for nor against CPR. You can ask",
+  "new": "This post takes no side on whether to have CPR. You can ask",
+  "reason": "Flag: negation shape removed."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.linkedin",
+  "old": "The figures are unadjusted and cover adults of all ages.",
+  "new": "The figures have not been adjusted for differences between patients and cover adults of all ages.",
+  "reason": "Cold read item 2: 'unadjusted' made plain."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.linkedin",
+  "old": "The most common kind of heart stop, in about 7 in 10 arrests, had survival of about 1 in 10. The less common kind that can be treated with a shock, in about 1 in 6 arrests, had survival of about 5 in 10.",
+  "new": "About 7 in 10 arrests were the most common kind of heart stop (a rhythm that is not treated with a shock). About 1 in 10 of those people survived to leave hospital. About 1 in 6 arrests were the less common kind that can be treated with a shock, and about 5 in 10 of those people survived to leave hospital.",
+  "reason": "Cold read item 6: sentences rewritten so each number says what it counts; plain name for the common rhythm."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.linkedin",
+  "old": "These are averages, not predictions for any one person. This post argues neither for nor against CPR.",
+  "new": "These are averages across many people and give no prediction for any one person. This post takes no side on whether to have CPR.",
+  "reason": "Flags: negation shapes removed."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.bluesky",
+  "old": "On three 1990s US TV programmes, about 2 in 3 people given CPR appeared to survive to leave hospital. In UK hospital audit data, fewer than 1 in 5 adults did, and about 1 in 10 for the most common kind of arrest. Ask your doctor for the figures that fit you or the person you care for.",
+  "new": "On three 1990s US TV programmes, about 2 in 3 people given CPR (chest pressing to restart the heart) appeared to survive to leave hospital. In a UK hospital audit, fewer than 1 in 5 adults did; for the commonest kind of heart stop, about 1 in 10. Ask your doctor what CPR is likely to do for you.",
+  "reason": "Cold read item 2: CPR glossed; flags: 'audit data' and 'arrest' put in plain words; 'figures that fit you' replaced by what a doctor can answer."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.threads",
+  "old": "On three 1990s US TV programmes, about 2 in 3 people given CPR appeared to survive to leave hospital. In UK hospital audit data of 22,628 adults, fewer than 1 in 5 did. For the most common kind of arrest, about 1 in 10 did.\n\nThe UK figures cover adults of all ages. You can ask your doctor what CPR is likely to achieve for you or the person you care for.",
+  "new": "On three 1990s US TV programmes, about 2 in 3 people given CPR (chest pressing to restart a stopped heart) appeared to survive to leave hospital. In a UK national audit of hospitals covering 22,628 adults, fewer than 1 in 5 did. For the most common kind of heart stop, about 1 in 10 did.\n\nThe UK figures cover adults of all ages. You can ask your doctor what CPR is likely to achieve for you or the person you care for.",
+  "reason": "Cold read item 2: CPR glossed; flags: 'audit data' and 'arrest' put in plain words."
+ }
+]

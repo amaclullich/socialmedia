@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C13-P05</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>.ticks li{font-size:31px;grid-template-columns:52px 1fr}.ticks{gap:14px;margin-top:0}.scene .badge{position:absolute;left:20px;top:18px}</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Comfort at the bedside</span></div>
+ <div class="content">
+  <h1 class="m">Easing a dry mouth in the last days of life</h1>
+  <div class="scene" id="sc" style="flex:0 0 400px;margin-top:26px"><span class="badge illustrative">Illustration, not a real person</span></div>
+  <div class="panel mint" style="margin-top:20px;padding:22px 32px">
+   <ul class="ticks">
+    <li>Sips of drink, if they want them</li>
+    <li>Frequent mouth and lip care</li>
+    <li>Ice chips or moistened lips</li>
+    <li>Family can help, if they wish</li>
+    <li>Ask the nurse to show you how to do it safely</li>
+   </ul>
+  </div>
+  <p class="small" style="margin:18px 0 0;color:var(--ink)">Fluids by drip or under the skin are a separate decision, made for each person.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">NICE NG31, 2015; McCann et al., JAMA 1994 (32 people, cancer)</span></div>
+</div>
+</div>
+<script>
+const W=920,H=400,g=360,S=0.78;
+const bt=Kit.anchor('bedside_table',{x:820,y:g,scale:S});
+Kit.draw('#sc',W,H,[
+ Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:110,y:g-70*S-130,scale:0.8,curtains:'sage'}),
+ Kit.person({pose:'sitting_up_bed',bed:'domestic',backrest:35,rails:'none',blanket:'oat',x:390,y:g,scale:S,facing:'right',age:'older',sex:'f',skin:'olive',hair:'white',hairStyle:'bun',top:'cream',tilt:-4}),
+ Kit.person({pose:'seated_talking',seat:'chair',x:400,y:g,scale:S,facing:'left',age:'adult',sex:'m',skin:'tan',hair:'dark',hairStyle:'short',top:'denim',bottom:'slate',lean:14,tilt:8,hands:{near:{x:268,y:228}}}),
+ Kit.bedside_table({x:830,y:g,scale:S}),
+ Kit.glass({x:bt.top.x-14,y:bt.top.y,scale:S,level:0.6}),
+],{cls:'art'});
+window.__ready=true;
+</script></body></html>

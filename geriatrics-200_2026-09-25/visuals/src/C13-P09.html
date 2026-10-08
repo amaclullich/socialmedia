@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C13-P09</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>.row2{display:flex;gap:26px;margin-top:24px;flex:1 1 auto;min-height:0;margin-bottom:30px}.scene{flex:0 0 310px;margin-top:0}
+.panel{flex:1 1 auto;padding:26px 28px}.ticks{margin-top:0;gap:34px}.ticks li{font-size:32px;grid-template-columns:50px 1fr;line-height:1.28}.ticks li::before{width:38px;height:38px}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, worth checking</span></div>
+ <div class="content">
+  <h1 class="m">Dentures: out at night, cleaned every day</h1>
+  <p class="body" style="font-size:30px;margin-top:16px">In a Japanese study of people aged 85 and over living at home, sleeping in dentures was linked with more admissions to hospital with pneumonia, or deaths from it. A link does not show cause.</p>
+  <div class="row2">
+   <div class="scene" id="sc"></div>
+   <div class="panel">
+    <ul class="ticks">
+     <li>Out every night</li>
+     <li>Cleaned every day</li>
+     <li>Stored as your dentist advises</li>
+     <li>In hospital: tell the ward staff you wear dentures</li>
+     <li>In hospital: keep them in a denture pot</li>
+     <li>In hospital: check they are not left on a tray</li>
+    </ul>
+   </div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Iinuma et al., J Dent Res 2015; McReynolds et al., J Prosthodont 2023</span></div>
+</div>
+</div>
+<script>
+const W=310,H=600,g=520,S=1.55;
+const t=Kit.anchor('bedside_table',{x:155,y:g,scale:S});
+const st='stroke="#1F2A30" stroke-width="3" stroke-linejoin="round"';
+const pot=`<g transform="translate(${t.top.x+14},${t.top.y}) scale(.8)"><path d="M-36 0v-52h72v52z" fill="#E7EEF0" ${st}/><rect x="-40" y="-72" width="80" height="22" rx="8" fill="#7FB7BE" ${st}/><path d="M-36 -26h72" stroke="#1F2A30" stroke-opacity=".3" stroke-width="3"/></g>`;
+Kit.draw('#sc',W,H,[
+ Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:1.2,depth:90}),
+ Kit.bedside_table({x:155,y:g,scale:S}),
+ Kit.lamp({x:t.top.x-66,y:t.top.y,scale:1.1,type:'table'}),
+ pot,
+ Kit.glass({x:t.top.x+56,y:t.top.y,scale:1.3,level:0.6}),
+ Kit.glasses({x:t.top.x-26,y:t.top.y-0,scale:1.0,folded:true}),
+],{cls:'art'});
+window.__ready=true;
+</script></body></html>

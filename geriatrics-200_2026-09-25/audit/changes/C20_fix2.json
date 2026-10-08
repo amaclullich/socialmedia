@@ -1,0 +1,485 @@
+[
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.x",
+    "old": "whose views were measured once, up to 23 years earlier.",
+    "new": "whose views were measured once, up to 23 years before the follow-up ended.",
+    "reason": "Cold read item 3 (x): 'earlier' than what was unclear; cold-read wording. Fact unchanged (Levy 2002: measured up to 23 years earlier than the survival follow-up)."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.x",
+    "old": "adjusting for age, sex, socioeconomic status, loneliness and functional health. It shows a link. It does not show cause. This kind of study does not rule out that people who were already in poorer health, in ways it did not measure, went on to view ageing more negatively.",
+    "new": "adjusting for age, sex, socioeconomic status (money and background), loneliness and how well people could manage daily tasks. It shows a link, which does not prove cause. People who were already in poorer health, in ways the study did not measure, may have viewed ageing more negatively. A study of this kind has no way to rule that out.",
+    "reason": "Cold read items 2 and 6 (x): jargon covariates glossed; negation-then-correction recast; over-long sentence split; figurative 'went on to view' removed. Reverse-causation caveat kept as 'may', matching C20-22-c safe wording."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.x",
+    "old": "When 19 long-term studies were pooled, the link with later health and survival was small, and weaker where follow-up was longer.",
+    "new": "When the results of 19 studies that followed people for years were combined, the link with later health and survival was small, and weaker where follow-up was longer. That analysis did not express the link as years of life.",
+    "reason": "Cold read items 2 and 3 (x): 'pooled' replaced; 'small' had no size, so the post now says the size is not a number of years (C20-22-b gives only a pooled likelihood ratio, not translated for the public). 'Small' and 'weaker with longer follow-up' kept."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.linkedin",
+    "old": "The figure comes from one US study, and it deserves to be quoted with its limits.",
+    "new": "The figure comes from one US study. Quote it with its limits.",
+    "reason": "Cold read flag (linkedin): 'deserves to be quoted' preachy; plain instruction."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.linkedin",
+    "old": "Their views of ageing were measured once, up to 23 years earlier. The 7.5 years remained after adjusting for age, sex, socioeconomic status, loneliness and functional health.",
+    "new": "Their views of ageing were measured once, up to 23 years before the follow-up ended. The 7.5 years remained after adjusting for age, sex, socioeconomic status (money and background), loneliness and how well people could manage daily tasks.",
+    "reason": "Cold read items 2 and 3 (linkedin): glossed covariates; 'earlier' made specific."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.linkedin",
+    "old": "Three checks before you repeat it:",
+    "new": "Three things to know before you repeat it:",
+    "reason": "Cold read flag (linkedin): the third item is a result, not a check, so 'checks' was inaccurate."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.linkedin",
+    "old": "It shows a link. It does not show cause. This kind of study does not rule out that people who were already in poorer health, in ways it did not measure, went on to view ageing more negatively.",
+    "new": "It shows a link, which does not prove cause. People who were already in poorer health, in ways the study did not measure, may have viewed ageing more negatively. A study of this kind has no way to rule that out.",
+    "reason": "Cold read item 6 (linkedin): negation-then-correction recast, long sentence split, 'went on to view' removed. Caveat kept as 'may' (C20-22-c)."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.linkedin",
+    "old": "When 19 long-term studies were pooled, views of ageing had a small link with later health and survival. The link was weaker where follow-up was longer.",
+    "new": "When the results of 19 studies that followed people for years were combined, views of ageing had a small link with later health and survival. The link was weaker where follow-up was longer. That analysis did not express the link as years of life.",
+    "reason": "Cold read item 2 (linkedin): 'pooled' replaced; size of the link stated as not given in years, for consistency with X."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.bluesky",
+    "old": "That shows a link, not a cause, and pooled studies find a small one.",
+    "new": "That shows a link, which does not prove cause. When 19 studies were combined, the link was small.",
+    "reason": "Cold read items 2, 3 and 6 (bluesky): unclear referent 'a small one' and 'pooled' removed; negation shape recast."
+  },
+  {
+    "tmp_id": "C20-P01",
+    "where": "captions.threads",
+    "old": "That shows a link, not a cause. The study does not rule out that people in poorer health already viewed ageing more negatively. When 19 studies were pooled, the link was small.",
+    "new": "That shows a link, which does not prove cause. People in poorer health may already have viewed ageing more negatively, and the study does not rule that out. When the results of 19 studies were combined, the link between views of ageing and later health and survival was small.",
+    "reason": "Cold read items 2 and 3 (threads): 'pooled' replaced, referent of 'the link' stated; negation shape recast."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.x",
+    "old": "ruled out a clot without a scan in about 6 in 100. A cut-off of age × 10 µg/L did so in about 30 in 100, with no extra missed clots found in that group.",
+    "new": "ruled out a clot without a scan in about 6 in 100 of the 673. A cut-off of age × 10 µg/L did so in about 30 in 100 of the 673, with no extra missed clots found among those 673 people.",
+    "reason": "Cold read item 3 (x): denominators made explicit; the no-missed-clots result is tied to the 673 (C20-19-b)."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.x",
+    "old": "ADJUST-PE was a European study of 3346 emergency outpatients. The age-adjusted cut-off applied from age 50, and only after a clinical probability score (simplified revised Geneva or two-level Wells). People with a D-dimer between 500 µg/L and their age-based limit were not scanned or treated. In the whole study (age 50 or over), the 3-month failure rate in that group was 1 of 331 people (0.3%, 95% CI 0.1% to 1.7%).",
+    "new": "ADJUST-PE was a European study of 3346 emergency outpatients. The age-adjusted cut-off applied from age 50, and only after a clinical probability score (simplified revised Geneva or two-level Wells).\n\nPeople with a D-dimer between 500 µg/L and their age-based limit were not scanned or treated. They were followed for 3 months. In the whole study (age 50 or over), 1 of 331 people in that group had a clot within 3 months (0.3%). The true rate could be as high as 1.7%.",
+    "reason": "Cold read items 3, 4 and flags (x): dense paragraph split; undefined 'failure rate' and 'CI' replaced by what happened and the upper limit in plain words (C20-19-a: 1 of 331, 0.3%, 95% CI 0.1% to 1.7%, not zero risk)."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.linkedin",
+    "old": "An age-adjusted cut-off did so in about 30 in 100, a rise of about 23 percentage points. The study found no extra missed clots in that group.",
+    "new": "An age-adjusted cut-off did so in about 30 in 100. The study found no extra missed clots among those 673 people.",
+    "reason": "Cold read item 7 (linkedin, scored 0): the same effect was given three ways; the '23 percentage points' phrase is deleted and 6 and 30 in 100 are kept."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.linkedin",
+    "old": "This comes from ADJUST-PE, a prospective study of 3346 emergency outpatients with suspected pulmonary embolism, run in 19 centres in Belgium, France, the Netherlands and Switzerland between 2010 and 2013.",
+    "new": "This comes from ADJUST-PE, a prospective study of 3346 emergency outpatients with suspected pulmonary embolism. It ran in 19 centres in Belgium, France, the Netherlands and Switzerland between 2010 and 2013.",
+    "reason": "Cold read item 6 (linkedin): over-long sentence split."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.linkedin",
+    "old": "In the whole study (age 50 or over), the 3-month failure rate in that group was 1 of 331 people (0.3%, 95% confidence interval 0.1% to 1.7%). The upper limit of that interval means the result should not be read as zero risk.",
+    "new": "In the whole study (age 50 or over), 1 of 331 people in that group had a clot within 3 months (0.3%, 95% confidence interval 0.1% to 1.7%). The true rate could be as high as 1.7%, so this is not zero risk.",
+    "reason": "Cold read item 2 (linkedin): undefined '3-month failure rate' replaced by what it measured; interval meaning put in plain words (C20-19-a)."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.linkedin",
+    "old": "Limits to carry with it. It was a management study with no randomised comparison. The 75 and over result is a subgroup. About 157 more people in that group (200 rather than 43 of 673) were ruled out without a scan, so a small risk is not excluded. Assays and units differ between laboratories.",
+    "new": "There are limits. It was a management study with no randomised comparison. The 75 and over result is a subgroup. In that group 200 of the 673 were ruled out without a scan with the age-adjusted cut-off, against 43 of the 673 with the fixed one, so a small risk of a missed clot is not excluded. Assays and units differ between laboratories.",
+    "reason": "Cold read item 7 and flags (linkedin): figurative 'Limits to carry' removed; '157 more people' replaced by the counts behind 6 and 30 in 100 so the two figures reconcile in plain words (C20-19-b qualification kept: small risk not excluded)."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.linkedin",
+    "old": "This is a test threshold adjusted for older people using evidence. If you work in acute",
+    "new": "If you work in acute",
+    "reason": "Cold read flag (linkedin): filler sentence deleted."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.bluesky",
+    "old": "ADJUST-PE, a non-randomised study: of 673 people aged 75+ with suspected pulmonary embolism and a not-high clinical score, D-dimer alone ruled out a clot in about 6 in 100 with a fixed cut-off and about 30 in 100 with age × 10 µg/L. No extra missed clots found. Use only after a clinical score.",
+    "new": "In ADJUST-PE (a non-randomised study), 673 people aged 75 or over had suspected pulmonary embolism and a not-high clinical score. D-dimer alone ruled out a clot in about 6 in 100 with a fixed cut-off, and about 30 in 100 with age × 10 µg/L. No extra missed clots were found among the 673. Use only after a clinical score.",
+    "reason": "Cold read items 3 and 6 (bluesky): telegraphic abstract split into sentences; denominator stated for the no-missed-clots result."
+  },
+  {
+    "tmp_id": "C20-P02",
+    "where": "captions.threads",
+    "old": "A clot was ruled out by D-dimer alone, without a scan, in about 6 in 100 with a fixed cut-off of 500 µg/L and about 30 in 100 with age × 10 µg/L. No extra missed clots were found in that group. This was a non-randomised study.",
+    "new": "A D-dimer blood test alone, without a scan, ruled out a clot in about 6 in 100 with a fixed cut-off of 500 µg/L. With a cut-off of age × 10 µg/L it was about 30 in 100. No extra missed clots were found among those 673 people. This was a non-randomised study.",
+    "reason": "Cold read items 3 and 6 (threads): split after the first result; 'A clot was ruled out' recast so it cannot be read as a clot being found in 6 in 100."
+  },
+  {
+    "tmp_id": "C20-P03",
+    "where": "captions.x",
+    "old": "In pooled trials of breast and bowel cancer screening, it took about 10 years on average before 1 cancer death was prevented for every 1000 people screened. The researchers suggest screening is most appropriate for people expected to live more than 10 years. That is a reason about expected benefit.",
+    "new": "When the results of trials of breast and bowel cancer screening were combined, about 10 years passed, on average, before 1 cancer death was prevented for every 1000 people screened. The researchers suggest screening is most appropriate for people expected to live more than 10 years. That is a reason about expected benefit, based on how long a person is expected to live.",
+    "reason": "Cold read items 2, 3 and 6 (x): 'pooled' replaced; sentence order made literal; clarifies that the reason is expected time to benefit (C20-17-a: 'not about age itself'), so it cannot be read as endorsing age-based refusal."
+  },
+  {
+    "tmp_id": "C20-P03",
+    "where": "captions.linkedin",
+    "old": "The question can bring the reasoning into the open without accusing anyone. Sometimes the advice should differ, because a benefit can take years to arrive and a person's age affects whether they are likely to live long enough to receive it. The answer is useful either way.",
+    "new": "The question asks for the reasoning without accusing anyone. Sometimes the advice should differ. A benefit can take years to arrive, and a person may not live long enough to receive it.",
+    "reason": "Cold read item 6 and flags (linkedin): figurative 'into the open' removed, long sentence split, filler 'useful either way' deleted. Meaning unchanged."
+  },
+  {
+    "tmp_id": "C20-P03",
+    "where": "captions.linkedin",
+    "old": "A pooled analysis of trials of breast and bowel cancer screening found a delay before benefit. It took about 10 years on average before 1 cancer death was prevented for every 1000 people screened.",
+    "new": "An analysis that combined the results of trials of breast and bowel cancer screening found a delay before benefit. On average, screening prevented 1 cancer death for every 1000 people screened only after about 10 years.",
+    "reason": "Cold read items 2 and 3 (linkedin): 'pooled' replaced; cold-read wording for the time-to-benefit figure (C20-17-a)."
+  },
+  {
+    "tmp_id": "C20-P03",
+    "where": "captions.bluesky",
+    "old": "Different advice can be fair when a benefit takes years to arrive and you may not live long enough to receive it, as in cancer screening. We should expect reasons about your health and wishes.",
+    "new": "Different advice can be fair when a benefit takes years to arrive. In cancer screening, trials found about 10 years passed before 1 death per 1000 people screened was prevented. We should expect reasons about your health and wishes.",
+    "reason": "Cold read items 2 and 6 and flag (bluesky): the unexplained 'cancer screening' example now carries its number (C20-17-a) so it is not unsupported; sentence split. Length checked."
+  },
+  {
+    "tmp_id": "C20-P03",
+    "where": "captions.threads",
+    "old": "In breast and bowel cancer screening, it took about 10 years on average before 1 cancer death was prevented per 1000 people screened.",
+    "new": "In trials of screening for breast and bowel cancer (tests in people with no symptoms), about 10 years passed, on average, before 1 cancer death was prevented per 1000 people screened.",
+    "reason": "Cold read items 2, 3 and 6 (threads): screening glossed, source type signalled ('trials'), cold-read wording for the time-to-benefit figure."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.x",
+    "old": "Add up the published guidelines for five common conditions and one imagined 79-year-old woman would be prescribed 12 medicines plus a complicated non-drug regimen if every guideline were followed. The conditions were",
+    "new": "Take five common conditions. If every published guideline were followed, one imagined 79-year-old woman would be prescribed 12 medicines plus a complicated non-drug regimen. The conditions were",
+    "reason": "Cold read item 6 (x): 'Add up' opened on a non-action; cold-read wording. Imagined patient and 'if followed' kept (C20-02-a)."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.x",
+    "old": "Few were flagged. These are potential interactions between recommendations, not harm seen in patients, and guidelines have been updated since.",
+    "new": "Few of these were flagged in the guideline. These are possible interactions between recommendations. The review looked at the recommendations, not at patients. Guidelines have been updated since.",
+    "reason": "Cold read item 3 (x) and flag: 'Few were flagged' made specific; negation-then-correction recast (C20-02-b qualification kept: potential interactions, not observed harm)."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.x",
+    "old": "In a review of five NICE guidelines, the authors found the advice adds up to a heavy treatment burden with no guidance on which to put first. We should review the whole plan as one plan, against what the person most wants.",
+    "new": "When five NICE guidelines were applied to two imagined patients, the advice added up to a heavy treatment burden (a lot to take, do and attend), with no guidance on which to put first. We should review the whole plan against what the person most wants.",
+    "reason": "Cold read flag (x): repetition 'whole plan as one plan' removed; the two imagined patients restored to match C20-02-c (hypothetical patients), which the X version had dropped; 'treatment burden' glossed."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.linkedin",
+    "old": "UK work shows a similar pattern:",
+    "new": "Two UK papers found something similar:",
+    "reason": "Cold read flag (linkedin): vague 'UK work shows a similar pattern'; literal wording."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.linkedin",
+    "old": "Few were flagged in the guideline. These are potential interactions between recommendations, not harm seen in patients.",
+    "new": "The guideline flagged few of them. These are possible interactions between recommendations. The review looked at the recommendations, not at patients.",
+    "reason": "Cold read item 3 (linkedin): cold-read wording; negation shape recast (C20-02-b)."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.linkedin",
+    "old": "The underlying point is that single-condition guidelines are not built to weigh the combined effect of their advice for a person with several conditions, and they give little help in deciding which advice to put first.\n\nWe should review the whole plan as one plan. That means asking the person what they most want, then checking each medicine and each task against it. This step is a judgement about good practice, not a trial finding.",
+    "new": "Each guideline covers one condition. Single-condition guidelines are not built to weigh the combined effect of their advice for a person with several conditions, and they give little help in deciding which advice to put first.\n\nReviewing the whole plan as one plan is a judgement about good practice. We should ask the person what they most want, then check each medicine and each task against it.",
+    "reason": "Cold read items 5 and 6 (linkedin): long sentence split; the closing is now the action; negation-then-correction removed. Wording stays within C20-02-d safe wording ('not built to weigh', 'little help'), not the stronger 'none weighs' suggested in the cold read."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.bluesky",
+    "old": "A 2005 analysis: following every guideline for five conditions meant 12 medicines for an imagined 79-year-old woman. UK review: 133 potentially serious interactions between NICE type 2 diabetes guideline drugs and drugs for 11 other conditions (potential, not harm seen). Review the whole plan.",
+    "new": "A 2005 analysis: following every guideline for five conditions meant 12 medicines for an imagined 79-year-old woman. A UK review found 133 potentially serious interactions between drugs recommended for type 2 diabetes and for 11 other conditions. These are possible interactions, not patients harmed. Review the whole plan.",
+    "reason": "Cold read items 3 and 6 (bluesky): noun pile 'NICE type 2 diabetes guideline drugs' and parenthesis removed; possible-versus-observed distinction kept in a sentence (C20-02-b)."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.threads",
+    "old": "Guidelines for five common conditions, added up for one imagined 79-year-old woman, would mean 12 medicines plus a complicated non-drug regimen if every guideline were followed (US analysis, 2005).",
+    "new": "Take five common conditions. If every guideline were followed, one imagined 79-year-old woman would be prescribed 12 medicines plus a complicated non-drug regimen (US analysis, 2005).",
+    "reason": "Cold read item 6 (threads): cold-read wording."
+  },
+  {
+    "tmp_id": "C20-P04",
+    "where": "captions.threads",
+    "old": "Few were flagged. These are potential interactions, not harm seen in patients.",
+    "new": "The guideline flagged few of them. These are possible interactions; the review looked at the recommendations, not at patients.",
+    "reason": "Cold read items 3 and 6 (threads): cold-read wording; negation shape recast (C20-02-b)."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.x",
+    "old": "what people said they could do and what they did at home showed \"a consistent pattern of discordance\". The abstract gives no numbers.",
+    "new": "what people said they could do and what they did at home showed \"a consistent pattern of discordance\", meaning the two did not match. The abstract gives no numbers.",
+    "reason": "Cold read item 3 (x): quoted jargon explained in plain words; direction of the gap not stated (C20-06-a: no numbers, direction not given)."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.x",
+    "old": "In a large US study of older adults, self-reported difficulty",
+    "new": "In a US study of 5,888 older adults, self-reported difficulty",
+    "reason": "Cold read item 3 (x): 'large' replaced by the number (C20-06-b)."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.linkedin",
+    "old": "To illustrate the point, it presented data from the MacArthur Studies of Successful Aging in the US, which showed \"a consistent pattern of discordance\" between what people said they could do and what they actually did at home.",
+    "new": "It used data from the MacArthur Studies of Successful Aging in the US. These showed \"a consistent pattern of discordance\" between what people said they could do and what they actually did at home, meaning the two did not match.",
+    "reason": "Cold read items 3 and 6 (linkedin): long sentence split; quoted jargon explained."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.linkedin",
+    "old": "with kappa statistics of 0.55 to 0.60.",
+    "new": "with agreement scores (kappa) of 0.55 to 0.60, where 1.00 would be perfect agreement.",
+    "reason": "Cold read items 2 and 3 (linkedin): statistical shorthand glossed with the scale (C20-06-b)."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.linkedin",
+    "old": "The practical point is simple. A score that goes into",
+    "new": "A score that goes into",
+    "reason": "Cold read flag (linkedin): empty announcement deleted."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.linkedin",
+    "old": "We should state in the discharge letter or the trial report which kind of function a score records, and add what the person does day to day. That is a judgement about good practice.",
+    "new": "That is a judgement about good practice. We should state in the discharge letter or the trial report which kind of function a score records, and add what the person does day to day.",
+    "reason": "Cold read item 5 (linkedin): the close is now the action, not the disclaimer."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.bluesky",
+    "old": "In US data, what people said they could do and what they did at home showed \"a consistent pattern of discordance\".",
+    "new": "In US data, what people said they could do consistently differed from what they did at home.",
+    "reason": "Cold read item 3 (bluesky): the only result was carried by quoted jargon; plain wording keeps 'consistent' and gives no direction or number (C20-06-a)."
+  },
+  {
+    "tmp_id": "C20-P05",
+    "where": "captions.threads",
+    "old": "what people said they could do and what they did at home showed \"a consistent pattern of discordance\". In a study of 5,888 older adults, self-reported walking and strength difficulty agreed only moderately with measured tests.",
+    "new": "what people said they could do consistently differed from what they did at home. In a study of 5,888 older adults, self-reported walking and strength difficulty agreed only moderately with measured tests (agreement scores of 0.55 to 0.60, where 1.00 would be perfect).",
+    "reason": "Cold read item 3 (threads): jargon quote replaced by plain wording; the figure for 'moderately' added (C20-06-b)."
+  },
+  {
+    "tmp_id": "C20-P06",
+    "where": "captions.x",
+    "old": "Adults aged 65 or over did better in NHS talking therapy services in London than working-age adults. The study analysed service records for 100,179 people treated for depression or anxiety. About 53 in 100 older adults recovered. For adults aged 18 to 64, it was about 41 in 100. Fewer older people dropped out: 18 in 100, against 32 in 100.\n\nThese two figures are raw. Older people started with milder symptoms. After allowing for that, older adults were still more likely to recover, but by a smaller margin. Older people who reach these services may be a selected group.\n\nThe gap was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for how unwell people were at the start, but the recovery gap was no longer clear once each older person was matched with similar working-age adults.\n\nFewer than 4 in 100 of the people in this study were 65 or over. The authors set this against a general population figure of about 18 in 100, which is only a rough guide. If you are over 65 and feeling low or anxious, ask your GP about talking therapy.\n\nMore posts in the Care that works series look at specific treatments and how they work in later life.",
+    "new": "Adults aged 65 or over were more likely to recover in NHS talking therapy services in London than working-age adults. Talking therapy means a course of sessions with a trained worker.\n\nThe study used service records for 100,179 people treated for depression or anxiety. By the end of treatment, about 53 in 100 older adults had recovered, as the services measured it. For adults aged 18 to 64, it was about 41 in 100. Fewer older people dropped out: 18 in 100, against 32 in 100.\n\nThese figures are not adjusted, and older people started with milder symptoms. After allowing for that, older adults were still more likely to recover, but the gap was smaller. This post does not give a figure for the smaller gap. Older people who reach these services may differ from older people who never do.\n\nThe gap was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for how unwell people were at the start. The gap was no longer clear when each older person was compared with working-age adults who were similar in other ways.\n\nOlder people were few among those treated: fewer than 4 in 100 were 65 or over, although about 18 in 100 of the population are that age, a figure the authors cite. That comparison is rough.\n\nIf you are over 65 and feeling low or anxious, ask your GP about talking therapy.",
+    "reason": "Rewrite (cold read: 8, items 5 and 6 scored 0). Empty series promotion deleted and the close is now an action; headline 'did better' softened to 'more likely to recover' because the adjusted result is smaller; 'talking therapy', 'raw', 'matched' and 'selected group' put in plain words; 'smaller margin' now says no figure is given; confusing 4-in-100 against 18-in-100 sentence recast; long sentence split. All figures from C20-30-a and C20-30-b unchanged."
+  },
+  {
+    "tmp_id": "C20-P06",
+    "where": "captions.linkedin",
+    "old": "Adults aged 65 or over did better in NHS talking therapy services in London than working-age adults. Talking therapy means a course of sessions with a trained worker, which can include guided self-help.\n\nThe study covered 100,179 people treated for depression or anxiety in eight London services between 2008 and 2019. At the end of treatment, about 53 in 100 of those aged 65 or over had recovered, as the services measured it. For those aged 18 to 64, it was about 41 in 100. Fewer older people dropped out: 18 in 100, against 32 in 100.\n\nThere are limits to carry with this. It is an observational study of routine service data. The 53 and 41 in 100 are raw figures, and older people started with milder symptoms. After allowing for that, older adults were still more likely to recover, but by a smaller margin. Older people who reach these services may be a selected group, and some differences between the groups may remain. The advantage was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for baseline severity, but the recovery gap was no longer clear once each older person was matched with similar working-age adults. The data come from London services only.\n\nOlder people were also few among those treated. Fewer than 4 in 100 people treated in these services were 65 or over, although about 18 in 100 of the population are that age, a background figure the authors cite. That comparison is crude, because need as well as population share counts.\n\nWe should treat depression and anxiety in later life as treatable, and offer older people talking therapy on the same terms as younger adults. That is a judgement about fair access. If you are over 65 and feeling low or anxious, you can ask your GP about talking therapy.\n\nMore posts in the Care that works series look at specific treatments and how they work in later life.",
+    "new": "Adults aged 65 or over were more likely to recover in NHS talking therapy services in London than working-age adults. Talking therapy means a course of sessions with a trained worker, which can include guided self-help.\n\nThe study covered 100,179 people treated for depression or anxiety in eight London services between 2008 and 2019. At the end of treatment, about 53 in 100 of those aged 65 or over had recovered, as the services measured it. For those aged 18 to 64, it was about 41 in 100. Fewer older people dropped out: 18 in 100, against 32 in 100.\n\nThere are limits to these figures. The study looked at routine service records and did not assign people to treatments. The 53 and 41 in 100 are not adjusted, and older people started with milder symptoms. After allowing for how unwell people were at the start, older adults were still more likely to recover, but the gap was smaller. This post does not give a figure for the smaller gap.\n\nOlder people who reach these services may differ from older people who never do, and some differences between the groups may remain. The gap was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for how unwell people were at the start. The gap was no longer clear when each older person was compared with working-age adults who were similar in other ways. The data come from London services only.\n\nOlder people were also few among those treated. Fewer than 4 in 100 people treated in these services were 65 or over, although about 18 in 100 of the population are that age, a background figure the authors cite. That comparison is rough, because need as well as population share counts.\n\nWe should treat depression and anxiety in later life as treatable, and offer older people talking therapy on the same terms as younger adults. That is a judgement about fair access.\n\nIf you are over 65 and feeling low or anxious, you can ask your GP about talking therapy.",
+    "reason": "Rewrite (cold read: 8, items 5 and 6 scored 0). Series promotion deleted and the close is now an action; 'allowing for baseline severity', 'observational study of routine service data', 'matched' and 'carry' replaced with plain wording; limits paragraph split into short single-idea sentences; 'smaller margin' now says no figure is given. Figures and qualifications from C20-30-a, C20-30-b unchanged."
+  },
+  {
+    "tmp_id": "C20-P06",
+    "where": "captions.bluesky",
+    "old": "In NHS talking therapy in London, about 53 in 100 people aged 65+ recovered, against 41 in 100 aged 18 to 64, and fewer dropped out. Raw figures from an observational study; older people started with milder symptoms. If you are low or anxious, ask your GP about talking therapy.",
+    "new": "In NHS talking therapy in London, about 53 in 100 people aged 65 or over recovered, against 41 in 100 aged 18 to 64. Fewer older people dropped out: 18 in 100, against 32 in 100. These figures are not adjusted, and older people started with milder symptoms. If you are low or anxious, ask your GP about talking therapy.",
+    "reason": "Cold read items 2, 3 and 6 (bluesky): 'Raw figures' and 'observational' replaced; dropout figures added; split into short sentences (C20-30-a)."
+  },
+  {
+    "tmp_id": "C20-P06",
+    "where": "captions.threads",
+    "old": "These are raw figures, and older people started with milder symptoms. Older people who reach these services may be a selected group. Fewer than 4 in 100 of those treated were 65 or over.",
+    "new": "These figures have not been adjusted for how unwell people were at the start, and older people started with milder symptoms. After allowing for that, older adults were still more likely to recover, but the gap was smaller. Older people who reach these services may differ from older people who never do. Fewer than 4 in 100 of those treated were 65 or over, against about 18 in 100 of the population.",
+    "reason": "Cold read items 2 and 3 (threads): 'raw' and 'selected group' put in plain words; the adjusted result stated so the headline gap does not overstate; the 4-in-100 figure given its comparison (C20-30-a, C20-30-b)."
+  },
+  {
+    "tmp_id": "C20-P07",
+    "where": "captions.x",
+    "old": "other research with a consultee's advice.",
+    "new": "other research with the advice of a consultee (someone who knows the person and says what they would want).",
+    "reason": "Cold read item 2 (x): 'consultee' glossed (C20-03-c)."
+  },
+  {
+    "tmp_id": "C20-P07",
+    "where": "captions.linkedin",
+    "old": "Two sets of figures, from different settings, show how often.",
+    "new": "Figures from two different settings show how often, and the law is the third point.",
+    "reason": "Cold read flag (linkedin): opening said two sets of figures but the list has three items."
+  },
+  {
+    "tmp_id": "C20-P07",
+    "where": "captions.linkedin",
+    "old": "with a legal representative's consent. Other research follows the Mental Capacity Act 2005, with a consultee's advice.",
+    "new": "with a legal representative's consent. Other research follows the Mental Capacity Act 2005, with the advice of a consultee (someone who knows the person and says what they would want).",
+    "reason": "Cold read item 2 (linkedin): 'consultee' glossed."
+  },
+  {
+    "tmp_id": "C20-P07",
+    "where": "captions.linkedin",
+    "old": "The INCLUDE Impaired Capacity to Consent Framework gives trial teams four key questions and worksheets for designing trials that include them.",
+    "new": "The UK INCLUDE framework for trials with people who lack capacity to consent gives trial teams four key questions and worksheets for designing trials that include them.",
+    "reason": "Cold read item 2 (linkedin): framework name replaced with what it is (C20-03-d)."
+  },
+  {
+    "tmp_id": "C20-P07",
+    "where": "captions.bluesky",
+    "old": "Of about 80 UK trials in conditions where impaired capacity is common, 15 let adults who lacked capacity take part (not a full search). In England and Wales the law already allows it, with safeguards.",
+    "new": "Of about 80 UK trials completed in 2015 to 2018 in conditions where impaired capacity is common, 15 let adults who lacked capacity take part (not a full search). In England and Wales the law already allows it, with safeguards.",
+    "reason": "Cold read item 3 (bluesky): completion years added (C20-03-b)."
+  },
+  {
+    "tmp_id": "C20-P07",
+    "where": "captions.threads",
+    "old": "with a legal representative or a consultee.",
+    "new": "with the consent of a legal representative (drug trials) or the advice of a consultee (other research).",
+    "reason": "Cold read item 2 (threads): who each safeguard applies to, from C20-03-c."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.x",
+    "old": "Two or more long-term conditions became common 10 to 15 years earlier in the most deprived areas of Scotland than in the most affluent.",
+    "new": "Two or more long-term conditions became common at ages 10 to 15 years younger in the most deprived areas of Scotland than in the most affluent.",
+    "reason": "Cold read item 3 (x): 'earlier' was unclear; cold-read wording. Fact unchanged (C20-14-a)."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.x",
+    "old": "It describes whole populations, not any one person.",
+    "new": "It describes whole populations, so each person's course will differ.",
+    "reason": "Cold read flag (x): negation-then-correction recast."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.x",
+    "old": "One implication: a service or study that opens at a fixed age reaches people in deprived areas later in the course of their conditions.",
+    "new": "This implies that a service or study that opens at a fixed age may reach people in deprived areas later in the course of their conditions.",
+    "reason": "Cold read item 6 (x): cold-read wording; 'may' keeps the interpretation hedge from the insight."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.x",
+    "old": "Judgement: services and studies for older people should not rely on age alone as the way in.",
+    "new": "Judgement: services and studies for older people should not rely on age alone to decide who is eligible.",
+    "reason": "Cold read flag (x): figurative 'the way in' removed."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.linkedin",
+    "old": "Two or more long-term conditions became common 10 to 15 years earlier in the most deprived areas of Scotland than in the most affluent.",
+    "new": "Two or more long-term conditions became common at ages 10 to 15 years younger in the most deprived areas of Scotland than in the most affluent.",
+    "reason": "Cold read item 3 (linkedin): cold-read wording (C20-14-a)."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.linkedin",
+    "old": "It describes whole populations, not any one person's course. It is cross-sectional, so it is a snapshot of one year.",
+    "new": "It describes whole populations, so each person's course will differ. It is cross-sectional, so it compares age groups at one point in time.",
+    "reason": "Cold read flags (linkedin): negation shape recast; figurative 'snapshot' removed."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.linkedin",
+    "old": "A service or study that opens at a fixed age reaches people in the most deprived areas later in the course of their conditions. The same birthday falls at a different stage in different places.",
+    "new": "A service or study that opens at a fixed age may reach people in the most deprived areas later in the course of their conditions. At the same age, people in deprived areas may be further into their conditions.",
+    "reason": "Cold read item 6 (linkedin): figurative sentence replaced with a literal one; 'may' keeps the interpretation hedge."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.linkedin",
+    "old": "services and studies for older people should not rely on age alone as the way in. If the aim is to reach people who need them, eligibility based on need fits better, and it gives particular attention to people who are poorly served.",
+    "new": "services and studies for older people should not rely on age alone to decide who is eligible. If the aim is to reach people who need them, eligibility based on need fits better. It would also give more attention to people who are poorly served.",
+    "reason": "Cold read items 6 and flags (linkedin): 'the way in' removed; sentence split."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.bluesky",
+    "old": "In a study of 1.75 million people in Scotland, two or more long-term conditions became common 10 to 15 years earlier in the most deprived areas than the most affluent (2007 data). We should not rely on age alone as the way into services and studies for older people. Need fits better.",
+    "new": "In a 2007 study of 1.75 million people in Scotland, two or more long-term conditions became common at ages 10 to 15 years younger in the most deprived areas than in the most affluent. We should not rely on age alone to decide who can use services and studies. Need, such as help with everyday tasks, fits better.",
+    "reason": "Cold read items 3, 5 and 6 (bluesky): cold-read wording; 'the way into' removed; 'need' defined (C20-14-a)."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.threads",
+    "old": "two or more long-term conditions became common 10 to 15 years earlier in the most deprived areas than in the most affluent (2007 data).",
+    "new": "two or more long-term conditions became common at ages 10 to 15 years younger in the most deprived areas than in the most affluent (2007 data).",
+    "reason": "Cold read item 3 (threads): cold-read wording (C20-14-a)."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.threads",
+    "old": "One implication: a service or study that opens at a fixed age reaches people in deprived areas later in the course of their conditions.",
+    "new": "This implies that a service or study that opens at a fixed age may reach people in deprived areas later in the course of their conditions.",
+    "reason": "Cold read item 6 flag (threads): consistent with X; hedge kept."
+  },
+  {
+    "tmp_id": "C20-P08",
+    "where": "captions.threads",
+    "old": "Judgement: we should not rely on age alone as the way in. Eligibility based on need fits better.",
+    "new": "Judgement: we should not rely on age alone to decide who is eligible. Eligibility based on need, such as help needed with everyday tasks, fits better.",
+    "reason": "Cold read item 5 (threads): 'need' defined; figurative 'the way in' removed."
+  },
+  {
+    "tmp_id": "C20-P09",
+    "where": "captions.x",
+    "old": "The typical 85-year-old woman in a Newcastle study had 5 chronic diseases from a list of 18 that the researchers counted, and the typical man had 4. The counts drew on GP records and some health-assessment tests, for the 729 people with complete data. Yet about 3 in 4 people rated their health as good, very good or excellent compared with others their age. That was 646 of the 832 who answered.",
+    "new": "In a Newcastle study, the typical 85-year-old woman had 5 chronic diseases from a list of 18 that the researchers counted, and the typical man had 4. The counts drew on GP records and some tests done at a health assessment, for the 729 people with complete data.\n\nOf the 832 who answered the rating question, about 3 in 4 (646) rated their health as good, very good or excellent compared with others their age.",
+    "reason": "Cold read items 3 and 6 (x): the two different denominators (729 with complete data; 832 who answered) are kept apart; sentence reordered for first reading; 'Yet' contrast set-up removed (C20-10-a)."
+  },
+  {
+    "tmp_id": "C20-P09",
+    "where": "captions.x",
+    "old": "The authors point to a meta-analysis finding that, in people aged 75 or more, comparing yourself with others your age gives more optimistic ratings.",
+    "new": "The authors point to a study that combined the results of many studies, which found that in people aged 75 or more, comparing yourself with others your age gives more optimistic ratings.",
+    "reason": "Cold read item 2 (x): 'meta-analysis' explained."
+  },
+  {
+    "tmp_id": "C20-P09",
+    "where": "captions.linkedin",
+    "old": "The counts drew on GP records and some health-assessment tests, for the 729 people with complete data. Yet about 3 in 4 people (646 of the 832 who answered, 78 in 100) rated their health as good, very good or excellent compared with others their age.",
+    "new": "The counts drew on GP records and some tests done at a health assessment, for the 729 people with complete data.\n\nAbout 3 in 4 people rated their health as good, very good or excellent compared with others their age. That was 646 of the 832 who answered.",
+    "reason": "Cold read items 2, 3 and 6 (linkedin): second percentage form for the same figure removed (3 in 4 and 78 in 100 were two figures for one result); 'health-assessment tests' glossed; 'Yet' removed; sentences split."
+  },
+  {
+    "tmp_id": "C20-P09",
+    "where": "captions.linkedin",
+    "old": "Both are useful, and neither replaces the other. There are two cautions. The question asked people to compare themselves with others of the same age, and answers of that kind may run optimistic. And this was a snapshot at one point in time, not a follow-up over the years.",
+    "new": "There are two cautions. The question asked people to compare themselves with others of the same age, and answers of that kind may be more optimistic. And this study looked at one point in time. It did not follow people over the years.",
+    "reason": "Cold read flags (linkedin): filler sentence deleted; figurative 'run optimistic' and 'snapshot' replaced."
+  },
+  {
+    "tmp_id": "C20-P09",
+    "where": "captions.bluesky",
+    "old": "compared with others their age. If a relative has a long list of conditions, ask how they rate their own health.",
+    "new": "compared with others their age.\n\nIf a relative has a long list of conditions, ask how they rate their own health.",
+    "reason": "Cold read item 6 (bluesky): action put on its own line."
+  },
+  {
+    "tmp_id": "C20-P09",
+    "where": "captions.threads",
+    "old": "Ratings like this may run optimistic.",
+    "new": "Ratings like this may be more optimistic.",
+    "reason": "Cold read flag (threads): figurative 'run optimistic' replaced."
+  }
+]

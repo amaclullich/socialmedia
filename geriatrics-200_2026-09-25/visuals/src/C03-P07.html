@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><title>visual</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.lbl{font-size:30px;line-height:1.3}.chip{border-radius:18px;padding:22px 28px;font-size:32px;line-height:1.3;border:3px solid var(--teal);background:#fff}
+.vbars{display:flex;gap:30px;align-items:flex-end;height:430px;border-bottom:4px solid var(--ink)}
+.vb{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end}
+.vb .v{font-family:Montserrat;font-weight:800;font-size:34px;margin-bottom:8px}
+.vb .bar{width:100%}
+.flow .arrow{height:36px!important}.nw li::before{content:"\2297  "}.hatch{background:repeating-linear-gradient(45deg,#B9CDCC 0 10px,#fff 10px 20px);border:4px solid #15535B}
+.solid{background:#00909A;border:4px solid #00909A}</style></head><body><div class="sheet">
+<div class="card " id="s1"><div class="topline"><span class="series">Ask this</span></div>
+<div class="content"><span class="badge illustrative" style="align-self:flex-start">Illustrative example</span><h1 class="s" style="margin-top:18px">The X-ray was normal. She still can't stand on that leg.</h1>
+<div class="strip p3" style="margin-top:22px"><div class="panelbox"><div class="art" id="a1"></div><div class="cap">The hip X-ray after her fall showed no fracture.</div></div><div class="panelbox"><div class="art" id="a2"></div><div class="cap">Next morning, with pain relief, she still can't take weight on the leg.</div></div>
+<div class="panelbox"><div class="art" id="a3"></div><div class="cap"><b>Her care worker asks the question.</b> Could there be a fracture the X-ray didn't show? Does she need an MRI?</div></div></div>
+<p class="small mt-s" style="font-size:26px">Illustrative example, not a real person</p>
+<p class="small" style="font-size:26px">NICE: if a fracture is still suspected after normal X-rays, offer MRI, or consider CT if MRI isn't available within 24 hours.</p></div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">NICE CG124; Haj-Mirzaian et al, Radiology 2020</span></div></div>
+</div><script>window.__ready=false;const W=1000,H=170,S=0.62;
+const wm={age:'older',sex:'f',skin:'dark',hair:'grey',hairStyle:'cropped',top:'sage',extras:['cardigan']};
+const cw={pose:'standing',role:'care_worker',skin:'brown',hair:'black',hairStyle:'bun',sex:'f',facing:'left',scale:S};
+Kit.draw('#a1',W,H,[Kit.person({...wm,pose:'seated_front',seat:'chair',x:380,y:232,scale:S}),Kit.person({pose:'standing',role:'doctor',sex:'m',skin:'fair',x:640,y:265,facing:'left',scale:S})],{cls:'art'});
+Kit.draw('#a2',W,H,[Kit.bed({x:500,y:262,type:'domestic'}),Kit.person({...wm,pose:'seated_side',seat:'none',seatHeight:Kit.dims.sofaSeat,x:420,y:262,scale:S}),Kit.person({...cw,x:620,y:265})],{cls:'art'});
+Kit.draw('#a3',W,H,[Kit.armchair({x:330,y:232,scale:S}),Kit.person({...wm,pose:'seated_side',seat:'none',x:330,y:232,scale:S}),Kit.desk({x:700,y:255,w:260,scale:S}),Kit.person({...cw,x:740,y:255})],{cls:'art'});;window.__ready=true;</script></body></html>
