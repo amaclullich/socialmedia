@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C08-P02 Mirtazapine for agitation</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .sec{font-family:Montserrat;font-weight:800;font-size:30px;line-height:1.25;color:var(--teal)}
+ .panel{padding:22px 34px;margin-top:20px}
+ .note{font-size:28px;line-height:1.35;color:var(--ink-2);margin-top:10px}
+ .arrs{display:flex;justify-content:space-between;margin-top:10px}
+ .arrs .g{width:420px}
+ .arrs .g .l{font-size:32px;font-weight:700;line-height:1.25;margin-top:10px}
+ .arrs svg{display:block}
+ .tagsch{display:inline-block;font-size:24px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);border:2px dashed var(--ink-2);border-radius:999px;padding:4px 16px;margin-left:12px;vertical-align:middle}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <div class="kicker">SYMBAD trial, 204 people with Alzheimer's disease</div>
+  <h1 class="s">Mirtazapine for agitation: <em>no clear benefit</em></h1>
+  <div class="panel">
+   <div class="sec">Agitation at 12 weeks: no clear difference <span class="tagsch">Schematic</span></div>
+   <svg viewBox="0 0 920 150" width="920" height="150" style="display:block;margin-top:6px">
+    <line x1="10" y1="10" x2="10" y2="140" stroke="#5F6B76" stroke-width="3"/>
+    <line x1="10" y1="140" x2="640" y2="140" stroke="#5F6B76" stroke-width="3"/>
+    <path d="M10,24 C200,46 300,90 640,96" fill="none" stroke="#00909A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M10,30 C200,52 300,96 640,102" fill="none" stroke="#C24E12" stroke-width="8" stroke-linecap="round" stroke-dasharray="3 16"/>
+    <line x1="656" y1="86" x2="688" y2="86" stroke="#00909A" stroke-width="8" stroke-linecap="round"/><text x="700" y="96" font-size="28" font-weight="700" fill="#1F2A30" font-family="Inter">Mirtazapine</text>
+    <line x1="656" y1="120" x2="688" y2="120" stroke="#C24E12" stroke-width="8" stroke-linecap="round" stroke-dasharray="3 12"/><text x="700" y="130" font-size="28" font-weight="700" fill="#1F2A30" font-family="Inter">Dummy tablet</text>
+   </svg>
+   <p class="note" style="margin-top:6px">Both groups improved in the first 6 weeks</p>
+  </div>
+  <div class="panel">
+   <div class="sec">Deaths by 16 weeks</div>
+   <div class="arrs"><div class="g" id="a1"><div class="l">Dummy tablet: 1 of 102</div></div><div class="g" id="a2"><div class="l">Mirtazapine: 7 of 102</div></div></div>
+   <p class="note">Difference tested after the trial; too few deaths to be sure of cause</p>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Banerjee et al., Lancet 2021</span></div>
+</div>
+</div>
+<script>
+iconArray('#a1',{filled:1,total:102,cols:10,size:23,gap:4,fillColour:'b'});
+iconArray('#a2',{filled:7,total:102,cols:10,size:23,gap:4,fillColour:'b'});
+window.__ready = true;
+</script></body></html>

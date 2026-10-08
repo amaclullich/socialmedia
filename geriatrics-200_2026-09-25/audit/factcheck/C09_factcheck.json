@@ -1,0 +1,559 @@
+{
+ "category": "C09",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C09-P01",
+  "C09-P02",
+  "C09-P03",
+  "C09-P04",
+  "C09-P05",
+  "C09-P06",
+  "C09-P07",
+  "C09-P08",
+  "C09-P09",
+  "C09-P10",
+  "C09-P11"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:21791691",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "LR 6.3/0.87/0.14 with CIs, 26% inpatients, 42% recognised, ACE free online, 43 studies: all confirmed"
+  },
+  {
+   "key": "PMID:18591210",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "80 episodes, 20 residents, .55 v .26 confirmed; probability is of resistiveness given subsequent behaviour change (denominator qualification)"
+  },
+  {
+   "key": "PMID:27048705",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "13 NHs, 27 residents, 34.6% -13.6 and 35.7% -15.3 points, 3 month -12.2 and -13.4 confirmed; RTC change predicted by elderspeak change not intervention"
+  },
+  {
+   "key": "PMID:35642656",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "88 encounters, 16 PLWD, 96.6% elderspeak, 48.9% RoC, pain linked: confirmed"
+  },
+  {
+   "key": "PMID:15652689",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "93 patients aged 65-95, adjusted OR 4.5 (1.6-12.4), sicker patients' companions more facilitative: confirmed; cross-sectional"
+  },
+  {
+   "key": "PMID:21353358",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "37.6% across 13 studies; spouses 54.7%, adult children 32.2%; 5 outcome studies 0 unfavourable 3 inconclusive 2 favourable: confirmed"
+  },
+  {
+   "key": "PMID:42693371",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "18 RCTs, 1985 participants; knowledge no clear pattern very low COE; self-efficacy 5 RCTs very low; adherence 7 RCTs low; wide CIs: confirmed"
+  },
+  {
+   "key": "PMID:42050462",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "101 recruited (51/50), no difference, high involvement both arms; attrition 24% and 35%; mild to moderate dementia, aged 65+: confirmed"
+  },
+  {
+   "key": "PMID:23095078",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "18 couples, Scotland and N England, more involved with Talking Mats: confirmed; author at Talking Mats Centre"
+  },
+  {
+   "key": "PMID:38084053",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "7 studies, no clear evidence for any one tool: confirmed; issue year is 2024 (online Dec 2023), post says 2023; setting is research"
+  },
+  {
+   "key": "PMID:25619200",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "298 Deaf adults aged 20-82; 37% v 21%; 42% v 62% control: confirmed; abstract does not attribute high readings to communication"
+  },
+  {
+   "key": "PMID:27063364",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Median 30% acute and 34% rehabilitation; range 9% to 62%: confirmed"
+  },
+  {
+   "key": "PMID:32464071",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "16 PWA v 16 matched controls; differed on linguistic, not on nonlinguistic tasks: confirmed"
+  },
+  {
+   "key": "PMID:42108587",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "195 SLTs, 32 countries; barrier of other disciplines not seeking involvement, no proportion: confirmed"
+  },
+  {
+   "key": "PMID:9100263",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "15 mild to moderate AD, repetition helped, slow rate did not: confirmed"
+  },
+  {
+   "key": "PMID:14700377",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "18 persons with AD and spouse carers; simple sentences effective, slow speech not: confirmed; \"simple\" not defined in abstract"
+  },
+  {
+   "key": "PMID:42481174",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "4.6 million letters, 2013-2025, Moorfields, 95.3% below recommended readability, 2.25% patient-addressed: confirmed; pooled across pre- and post-2018"
+  },
+  {
+   "key": "PMID:16534034",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "16 studies, 2595 pairs, 19,526 responses, 68%; no gain from designation or prior discussion: confirmed"
+  },
+  {
+   "key": "PMID:20649686",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "313 pairs, heart failure or CKD, kappa 0.61-0.78 v 0.07-0.28; surrogates not stated as relatives: confirmed"
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C09-P01",
+   "where": "x",
+   "text": "In the notes, record what was asked, what was explained and how the person reasoned.",
+   "problem": "Practice advice is stated as if it were part of the finding; the LinkedIn version marks it as judgement, the X version does not. Record position_basis: what to record is clinical judgement, not an evidence finding.",
+   "source_says": "Sessums 2011 supports the MMSE bands and decision-specific assessment; it says nothing about what to write in the notes.",
+   "severity": "minor",
+   "replacement": "Our judgement: in the notes, record what was asked, what was explained and how the person reasoned."
+  },
+  {
+   "tmp_id": "C09-P02",
+   "where": "x",
+   "text": "Resistance to care followed elderspeak about 55 times in 100, and followed ordinary adult talk about 26 times in 100.",
+   "problem": "Denominator is unclear. The .55 and .26 are probabilities that a change in resident behaviour was a change to resistance, given the staff talk in the 7 seconds before; they are not the share of elderspeak episodes (or of residents) that ended in resistance. Normal talk was also uncommon in the recordings. The same wording appears in LinkedIn, Bluesky, Threads, visual and alt text.",
+   "source_says": "Abstract: \"An increased probability of resistiveness to care occurred with elderspeak (.55, 95% CrI, .44-.66), compared with normal talk (.26, 95% CrI, .12-.44)\" for \"subsequent resident behavior (cooperative or resistive to care)\"; record: behaviour change after talk in the previous 7 seconds.",
+   "severity": "minor",
+   "replacement": "When a resident's behaviour changed after staff spoke, the change was to resistance about 55 times in 100 after elderspeak and about 26 times in 100 after ordinary adult talk. (Visual: \"In 80 filmed care episodes, when a resident's behaviour changed, it was to resistance about 55 times in 100 after elderspeak and about 26 in 100 after adult talk. A link, not proof of cause.\")"
+  },
+  {
+   "tmp_id": "C09-P02",
+   "where": "x",
+   "text": "three one-hour training sessions cut the share of care time spent in elderspeak by about 14 percentage points. Resistance fell by about 15 points alongside.",
+   "problem": "Within-group before-to-after changes are written as \"cut\" and \"fell\" with no baseline and no statement of what they are measured against. The paper reports average declines from baseline (13.6 and 15.3 points); the model shows the intervention predicted the change in elderspeak, and the change in resistance was predicted by the change in elderspeak, not directly by the intervention. Small trial (27 residents, half of staff attended all sessions) is not stated in the X version.",
+   "source_says": "Abstract: \"elderspeak declined from 34.6% ... by 13.6% points post intervention ... RTC declined from 35.7% ... by 15.3% points\"; \"RTC change was predicted by elderspeak change (b = 0.43)\".",
+   "severity": "minor",
+   "replacement": "three one-hour training sessions cut the share of care time spent in elderspeak, on average by about 14 percentage points from before training. Resistance fell by about 15 points over the same period, in step with the fall in elderspeak."
+  },
+  {
+   "tmp_id": "C09-P02",
+   "where": "linkedin",
+   "text": "Older people who are asked mostly find it patronising.",
+   "problem": "Population swap: the perception evidence is from older adults without dementia (cognitively intact), but the post is about people with dementia and the sentence does not say so.",
+   "source_says": "Shaw and Gordon 2021: \"cognitively intact older adults usually perceive elderspeak as patronizing\".",
+   "severity": "minor",
+   "replacement": "Older adults without dementia who are asked mostly find it patronising."
+  },
+  {
+   "tmp_id": "C09-P03",
+   "where": "x",
+   "text": "If that is you, one thing helps.",
+   "problem": "Causal/efficacy wording for a cross-sectional association. The next paragraph says \"a link, not proof\", but the lead-in already tells the reader the behaviour works. No trial tests coaching companions.",
+   "source_says": "Clayman 2005: cross-sectional, 93 patients aged 65 to 95; adjusted OR 4.5 (95% CI 1.6 to 12.4); companions of sicker patients were more likely to facilitate.",
+   "severity": "major",
+   "replacement": "If that is you, one thing is linked with more patient involvement."
+  },
+  {
+   "tmp_id": "C09-P03",
+   "where": "linkedin",
+   "text": "what you do in the room may change how much they take part.",
+   "problem": "Implies the companion's behaviour changes patient participation; the study is cross-sectional and the direction could run the other way (patients who want to take part may draw prompts from companions).",
+   "source_says": "Clayman 2005 is cross-sectional (one visit each); record notes reverse direction is possible.",
+   "severity": "minor",
+   "replacement": "what the person with them does in the room is linked with how much the patient takes part."
+  },
+  {
+   "tmp_id": "C09-P03",
+   "where": "linkedin",
+   "text": "A small US comparison of 15 first visits made with a companion and 15 made alone",
+   "problem": "No date or recording method. This is a 1994 audiotaped study of first visits to hospital-based primary care doctors, patients aged 60 and over; a reader may take it as current.",
+   "source_says": "Greene 1994: 15 three-person and 15 matched two-person audiotaped initial visits, patients aged 60 and over, US.",
+   "severity": "minor",
+   "replacement": "A small 1994 US comparison of 15 audiotaped first visits made with a companion and 15 made alone"
+  },
+  {
+   "tmp_id": "C09-P03",
+   "where": "alt_text",
+   "text": "In a US study of 93 visits, patients were more likely to take part in decisions when companions asked what they thought.",
+   "problem": "The association is stated without the \"link, not proof\" qualification that the captions carry.",
+   "source_says": "Clayman 2005: cross-sectional association only.",
+   "severity": "minor",
+   "replacement": "In a US study of 93 visits, patients were more likely to take part in decisions when companions asked what they thought. A link, not proof."
+  },
+  {
+   "tmp_id": "C09-P03",
+   "where": "source_reply",
+   "text": "Sources: Wolff and Roter, Soc Sci Med 2011",
+   "problem": "The LinkedIn caption uses the Greene et al 1994 study (15 v 15 first visits) but it is not in the source reply.",
+   "source_says": "PMID 8144827, doi 10.1111/j.1532-5415.1994.tb07490.x.",
+   "severity": "minor",
+   "replacement": "Append: \" ; Greene et al, J Am Geriatr Soc 1994 https://doi.org/10.1111/j.1532-5415.1994.tb07490.x\""
+  },
+  {
+   "tmp_id": "C09-P04",
+   "where": "x",
+   "text": "did improve, at very low and low certainty.",
+   "problem": "Omits that the effect sizes were very uncertain: wide confidence intervals and substantial heterogeneity. \"Did improve\" reads firmer than the evidence. The LinkedIn version mentions wide intervals; the X, Bluesky and Threads versions do not.",
+   "source_says": "Vick 2026: self-efficacy SMD 2.40 (95% CI 0.37 to 4.44), very low certainty; adherence SMD 1.04 (0.45 to 1.64), low certainty; \"large confidence intervals ... and substantial heterogeneity\".",
+   "severity": "minor",
+   "replacement": "improved, but the certainty was very low and low, and the size of the effect was very uncertain."
+  },
+  {
+   "tmp_id": "C09-P04",
+   "where": "visual_text",
+   "text": "What 18 trials of teach-back showed",
+   "problem": "Chart-style headline implies every row comes from all 18 trials. Knowledge came from 9 trials, confidence from 5 and adherence from 7, and the 9 knowledge trials could not be combined.",
+   "source_says": "Vick 2026: 18 RCTs, 1985 participants; 9 RCTs knowledge; 5 RCTs self-efficacy (416 participants); 7 RCTs adherence (571 participants).",
+   "severity": "minor",
+   "replacement": "What 18 trials of teach-back showed (knowledge: 9 trials; confidence: 5; adherence: 7)"
+  },
+  {
+   "tmp_id": "C09-P05",
+   "where": "visual_text",
+   "text": "101 people, 2026 trial: no clear difference.",
+   "problem": "Outcome missing. Without \"involvement\" a reader can take \"no clear difference\" to mean no difference in any outcome; the trial measured self-rated involvement and satisfaction, both high in both groups. Same omission in the alt text.",
+   "source_says": "Bångsbo 2026: \"High involvement and satisfaction were found in both TM and control group ... No difference between groups was detected.\"",
+   "severity": "major",
+   "replacement": "101 people, 2026 trial: involvement high in both groups, no clear difference. (Alt text: \"a 2026 trial of 101 people found high involvement in both groups and no clear difference from usual conversation.\")"
+  },
+  {
+   "tmp_id": "C09-P05",
+   "where": "bluesky",
+   "text": "Picture cards on a mat helped both partners in 18 couples with dementia feel more involved in one small study.",
+   "problem": "\"Helped\" is causal and states a result for a non-randomised, one-visit, developer-led study. The finding is self-rated involvement after each discussion, within couples.",
+   "source_says": "Murphy and Oliver 2013: each participant rated involvement after discussions with the mats and with usual communication; developers' centre; not randomised.",
+   "severity": "minor",
+   "replacement": "In one small, non-randomised study of 18 couples with dementia, both partners said they felt more involved using picture cards on a mat than in their usual conversation."
+  },
+  {
+   "tmp_id": "C09-P05",
+   "where": "source_reply",
+   "text": "Collins et al, Int J Older People Nurs 2023",
+   "problem": "Journal year: the review is volume 19, issue 1 (2024), e12594; it was published online December 2023. The DOI is correct.",
+   "source_says": "PubMed: Int J Older People Nurs 2024;19(1):e12594, doi 10.1111/opn.12594, online 11 Dec 2023.",
+   "severity": "minor",
+   "replacement": "Collins et al, Int J Older People Nurs 2024"
+  },
+  {
+   "tmp_id": "C09-P05",
+   "where": "linkedin",
+   "text": "A systematic review of ways to hear the views of people with more advanced dementia found that each tool had some use, and that none had clear evidence over the others.",
+   "problem": "Setting and size omitted: the review covered 7 studies of methods for including people with moderate-to-severe dementia in research, not clinical care planning.",
+   "source_says": "Collins 2024: \"Seven studies reported in 11 publications ... All tools had some utility and there was no clear evidence to support the recommendation of any one specific tool.\"",
+   "severity": "minor",
+   "replacement": "A systematic review of 7 studies of ways to include the views of people with moderate-to-severe dementia in research found that each tool had some use, and that none had clear evidence over the others."
+  },
+  {
+   "tmp_id": "C09-P05",
+   "where": "x",
+   "text": "101 people with dementia in home care",
+   "problem": "Population: the trial enrolled people aged 65 and over with mild to moderate dementia (MMSE 12 to 23), not dementia of any severity.",
+   "source_says": "Bångsbo 2026: \"service recipients ... ≥ 65 years scoring 12-23p on the MMSE\"; \"mild to moderate dementia\".",
+   "severity": "minor",
+   "replacement": "101 people with mild to moderate dementia in home care"
+  },
+  {
+   "tmp_id": "C09-P06",
+   "where": "x",
+   "text": "The researchers linked this to poor communication with health services.",
+   "problem": "Misattribution. In X, \"this\" follows only the high blood pressure reading figures (37 v 21 in 100). The authors do not link the higher rate of high readings to poor communication; they call it probable underdiagnosis and undertreatment, and in the discussion suggest that poorly controlled blood pressure in people already treated may reflect unclear communication with doctors and nurses. The post also omits that the sample was adults aged 20 to 82, a quota sample, with a single reading.",
+   "source_says": "Emond 2015: \"High BP readings were obtained in 37% of Deaf people (21% in HSE) ... Only 42% of Deaf people being treated for hypertension had adequate control, compared with 62%\"; conclusion: \"probable underdiagnosis and undertreatment\"; discussion: medication may not be taken enough or regularly, \"suggesting that communication with doctors and nurses has not been clear\".",
+   "severity": "blocker",
+   "replacement": "In a UK health check of 298 Deaf BSL users aged 20 to 82, 37 in 100 had a high blood pressure reading, against 21 in 100 in an English population survey. Among those treated for high blood pressure, 42 in 100 had it under control, against 62 in 100 in the wider population. The authors suggested unclear communication with doctors and nurses may be part of the reason."
+  },
+  {
+   "tmp_id": "C09-P06",
+   "where": "linkedin",
+   "text": "The researchers linked this to poor communication with health services.",
+   "problem": "Same misattribution: the communication explanation is the authors' suggestion about control of blood pressure in treated people, not about the higher rate of high readings, and it is interpretation, not a measured finding.",
+   "source_says": "Emond 2015 discussion, as above.",
+   "severity": "major",
+   "replacement": "The authors suggested that unclear communication with doctors and nurses may be part of the reason treated blood pressure was less well controlled; the study did not test this."
+  },
+  {
+   "tmp_id": "C09-P06",
+   "where": "linkedin",
+   "text": "Across the UK, the Equality Act expects services to make reasonable adjustments for disabled people, including how they communicate.",
+   "problem": "Jurisdiction error. The Equality Act 2010 applies in England, Scotland and Wales (Great Britain); Northern Ireland has separate disability discrimination law. The source record does not support \"across the UK\" (secondary source is about UK dental practice and the statute was not opened). The preceding sentence also says \"social care services\" where the Standard covers NHS and adult social care.",
+   "source_says": "Record C09-27-f: \"Secondary sources only; the Standard (DCB1605) and the Act were not opened.\" Ahmed 2022 refers to a legislative duty on dental practitioners to make reasonable adjustments.",
+   "severity": "major",
+   "replacement": "Across Great Britain, the Equality Act 2010 expects services to make reasonable adjustments for disabled people, including how they communicate. (Also change \"NHS and social care services\" to \"NHS and adult social care services\".)"
+  },
+  {
+   "tmp_id": "C09-P06",
+   "where": "linkedin",
+   "text": "A scoping review of 51 studies from 12 countries on Deaf sign language users' experiences as patients, and a Welsh focus-group study with 66 Deaf and hard of hearing people, found that handing over pen and paper often does not fix the problem. Deaf patients describe interpreters not being booked, being asked to bring a relative instead, and relatives leaving things out.",
+   "problem": "The pen-and-paper finding comes from the scoping review (and an English priority-setting study); the Welsh study is the source for interpreter booking and responsibility, not for written notes. Attributing both findings to both studies overstates what each one reports.",
+   "source_says": "Rogers 2025: \"assumptions that written communication can resolve communication barriers are unhelpful\". Terry 2024: \"frequent misunderstandings ... as to who was responsible for booking interpreters\".",
+   "severity": "minor",
+   "replacement": "A scoping review of 51 studies from 12 countries on Deaf sign language users' experiences as patients found that handing over pen and paper often does not fix the problem. That review and a Welsh focus-group study with 66 Deaf and hard of hearing people describe Deaf patients' experience of interpreters not being booked, of being asked to bring a relative instead, and of relatives leaving things out."
+  },
+  {
+   "tmp_id": "C09-P06",
+   "where": "visual_text",
+   "text": "Ask for a qualified BSL interpreter",
+   "problem": "The drawn scene of an older Deaf man at an appointment is not labelled as illustrative, unlike the other illustrated posts in this category.",
+   "source_says": "No evidence record describes the scene.",
+   "severity": "minor",
+   "replacement": "Add the label \"Illustrative example\" to the visual text."
+  },
+  {
+   "tmp_id": "C09-P07",
+   "where": "x",
+   "text": "Ask the speech and language therapist to help before the capacity conversation.",
+   "problem": "Practice recommendation written as if it were a finding. The research shows supports can help and that other professionals may not seek therapist involvement; it does not test asking for a therapist first. LinkedIn marks it as \"Our judgement\"; X, Bluesky and Threads do not.",
+   "source_says": "Stipinovich 2023 (mapping review, effectiveness not established); Jayes 2026 (barrier reported, no proportion).",
+   "severity": "minor",
+   "replacement": "Our judgement: where one is available, ask the speech and language therapist to help before the capacity conversation."
+  },
+  {
+   "tmp_id": "C09-P07",
+   "where": "x",
+   "text": "Research describes supports that can help: key words written down",
+   "problem": "The X version drops the limit that none of these supports has been tested on its own; the review maps strategies and calls for research on effectiveness.",
+   "source_says": "Stipinovich 2023: \"Future research should focus on the effectiveness of the different strategies identified\"; 16 articles, mostly descriptive.",
+   "severity": "minor",
+   "replacement": "Research describes supports that can help, though none has been tested on its own: key words written down"
+  },
+  {
+   "tmp_id": "C09-P07",
+   "where": "x",
+   "text": "affects about 1 in 3 people in hospital after a stroke.",
+   "problem": "A median across studies presented as a plain rate; the range is wide (9% to 62% by stroke type and timing).",
+   "source_says": "Flowers 2016: median 30% (acute) and 34% (rehabilitation) for mixed stroke; 9% to 62% by type and timing.",
+   "severity": "minor",
+   "replacement": "affects about 1 in 3 people in hospital after a stroke (a median across studies; the range is wide)."
+  },
+  {
+   "tmp_id": "C09-P07",
+   "where": "linkedin",
+   "text": "In Scotland, a communication difficulty that can be overcome with help or aids does not count as incapacity.",
+   "problem": "Broadened from the statute as quoted: the Scottish provision concerns an inability to communicate that can be overcome with human or mechanical aids, not any communication difficulty (the record notes that where aphasia affects understanding, the general principles apply instead).",
+   "source_says": "Edwardson 2018: \"inability to communicate because of physical disability. If this inability to communicate can be overcome with human or mechanical aids, it does not constitute incapacity\".",
+   "severity": "minor",
+   "replacement": "In Scotland, an inability to communicate that can be overcome with human or mechanical aids does not count as incapacity."
+  },
+  {
+   "tmp_id": "C09-P07",
+   "where": "source_reply",
+   "text": "Jayes et al, Disabil Rehabil 2026",
+   "problem": "The LinkedIn caption also relies on Jayes et al 2021 (communication screening before capacity assessment) and on legal sources, which are not listed.",
+   "source_says": "PMID 33325623, doi 10.1111/1460-6984.12585; Hughes 2015 doi 10.1192/apt.bp.114.013110.",
+   "severity": "minor",
+   "replacement": "Append: \" ; Jayes et al, Int J Lang Commun Disord 2021 https://doi.org/10.1111/1460-6984.12585 ; Hughes et al, BJPsych Adv 2015 https://doi.org/10.1192/apt.bp.114.013110\""
+  },
+  {
+   "tmp_id": "C09-P07",
+   "where": "visual_text",
+   "text": "Has the person had a way to answer?",
+   "problem": "The bedside scene (older man, assessor, therapist) is not labelled as illustrative.",
+   "source_says": "No evidence record describes the scene.",
+   "severity": "minor",
+   "replacement": "Add the label \"Illustrative example\" to the visual text."
+  },
+  {
+   "tmp_id": "C09-P08",
+   "where": "linkedin",
+   "text": "A high, sing-song voice did not help, and made people report more trouble following.",
+   "problem": "The experiment varied high pitch; \"sing-song\" (exaggerated intonation) is the elderspeak literature's term and was not the manipulated variable in this abstract. The same abstract found short sentences and slow speech also led to more reported problems.",
+   "source_says": "Kemper and Harden 1999: \"reducing sentence length, slowing speaking rate, and using high pitch do not [benefit] ... The use of short sentences, a slow rate of speaking, and high pitch resulted in older adults' reporting more communication problems.\"",
+   "severity": "minor",
+   "replacement": "A high-pitched voice did not help, and made people report more trouble following."
+  },
+  {
+   "tmp_id": "C09-P08",
+   "where": "linkedin",
+   "text": "'Simple' means grammatically simple, one idea per sentence, not just short.",
+   "problem": "The gloss \"one idea per sentence\" is not in the Small 2003 abstract, which says only \"simple sentences\". X repeats it as \"'Simple' means one idea per sentence.\"",
+   "source_says": "Small 2003: \"The findings validate the effectiveness of certain communication strategies (e.g., simple sentences) but not others (e.g., slow speech).\"",
+   "severity": "minor",
+   "replacement": "'Simple' means grammatically simple, not just short. (X: \"'Simple' means grammatically simple, not just short.\")"
+  },
+  {
+   "tmp_id": "C09-P08",
+   "where": "source_reply",
+   "text": "Shaw and Gordon, Innov Aging 2021",
+   "problem": "The LinkedIn caption and visual use Picheny et al 1985 (5 listeners with hearing loss) but it is not listed.",
+   "source_says": "PMID 3982003, doi 10.1044/jshr.2801.96.",
+   "severity": "minor",
+   "replacement": "Append: \" ; Picheny et al, J Speech Hear Res 1985 https://doi.org/10.1044/jshr.2801.96\""
+  },
+  {
+   "tmp_id": "C09-P09",
+   "where": "linkedin",
+   "text": "How far has the guidance reached?",
+   "problem": "The study does not measure the reach of the 2018 guidance. The 2.25% is pooled over 2013 to 2025, including five years before the guidance, at one eye hospital, with a computer rule. The share rose slightly each year from a low base.",
+   "source_says": "Ong 2026: letters 2013 to 2025; \"small annual increase in the likelihood of letters being addressed directly to patients ... the proportion remained low overall (2.25%)\".",
+   "severity": "major",
+   "replacement": "How common are letters written to the patient? One study analysed 4.6 million clinic letters written at Moorfields Eye Hospital in London between 2013 and 2025, which includes the years before the 2018 guidance."
+  },
+  {
+   "tmp_id": "C09-P09",
+   "where": "bluesky",
+   "text": "At one London eye hospital, about 2 in 100 of 4.6 million letters were.",
+   "problem": "Set directly after the 2018 guidance, with no study years and no mention that a computer rule decided what counted, it reads as a measure of non-compliance with the guidance. Dates span 2013 to 2025.",
+   "source_says": "Ong 2026: 2013 to 2025; patient-addressed letters 2.25%, by a rule of at least 6 second-person pronouns per 100 words.",
+   "severity": "major",
+   "replacement": "At one London eye hospital, about 2 in 100 of 4.6 million letters written between 2013 and 2025 were judged by a computer rule to be written to the patient."
+  },
+  {
+   "tmp_id": "C09-P09",
+   "where": "threads",
+   "text": "At one large London eye hospital, about 2 in 100 of 4.6 million letters were written to the patient, and about 95 in 100 were harder to read than recommended. One hospital, patients of all ages.",
+   "problem": "No study years and no mention of the computer rule, directly after the guidance statement.",
+   "source_says": "Ong 2026: 2013 to 2025; rule-based classification.",
+   "severity": "minor",
+   "replacement": "At one large London eye hospital, about 2 in 100 of 4.6 million letters written between 2013 and 2025 were judged by a computer rule to be written to the patient, and about 95 in 100 were harder to read than recommended. One hospital, patients of all ages."
+  },
+  {
+   "tmp_id": "C09-P09",
+   "where": "visual_text",
+   "text": "At one London eye hospital, about 2 in 100 of 4.6 million letters were written to the patient.",
+   "problem": "Stand-alone visual line sits under \"National guidance recommends clinic letters are written to the patient\" with no study years, no one-hospital-of-all-ages caveat and no mention of the rule used. Same line in the alt text.",
+   "source_says": "Ong 2026: 2013 to 2025; Moorfields; median age 53; patient-addressed by a six-per-100-words second-person rule.",
+   "severity": "major",
+   "replacement": "At one London eye hospital, about 2 in 100 of 4.6 million letters (2013 to 2025) were judged to be written to the patient. (Apply the same change to the alt text.)"
+  },
+  {
+   "tmp_id": "C09-P09",
+   "where": "x",
+   "text": "Many people already get a copy of their letter, but it is usually written to the GP.",
+   "problem": "A background statement from a paper's introduction stated as a general fact. \"Usually written to the GP\" is not measured nationally; the only data are two single-site studies (one eye hospital, one head and neck clinic).",
+   "source_says": "Ong 2026 introduction: sending copies of letters to patients \"is well established in the NHS\"; letters \"could be addressed to ... healthcare professionals or patients and copied to the other party\".",
+   "severity": "minor",
+   "replacement": "In the NHS, patients are often sent a copy of the clinic letter, even when it is addressed to the GP. (LinkedIn: same change for \"Many people already get a copy of their clinic letter, but it is usually written to the GP and about them.\")"
+  },
+  {
+   "tmp_id": "C09-P09",
+   "where": "source_reply",
+   "text": "Gupta et al, Int J Clin Pract 2021",
+   "problem": "The LinkedIn caption uses the Dublin urology project (Lonergan 2019) but it is not listed.",
+   "source_says": "PMID 31637326, doi 10.1136/bmjoq-2019-000721.",
+   "severity": "minor",
+   "replacement": "Append: \" ; Lonergan et al, BMJ Open Qual 2019 https://doi.org/10.1136/bmjoq-2019-000721\""
+  },
+  {
+   "tmp_id": "C09-P10",
+   "where": "visual_text",
+   "text": "A judge: the person must be presented with detailed options so that their capacity to weigh them can be fairly assessed.",
+   "problem": "A judicial quotation is reworded (\"weigh them\") while attributed with a paragraph reference. A quoted judgement must be verbatim.",
+   "source_says": "Ruck Keene 2019, quoting CC v KK para 68: \"The person under evaluation must be presented with detailed options so that their capacity to weigh up those options can be fairly assessed\".",
+   "severity": "minor",
+   "replacement": "A judge: \"The person under evaluation must be presented with detailed options so that their capacity to weigh up those options can be fairly assessed.\""
+  },
+  {
+   "tmp_id": "C09-P10",
+   "where": "visual_text",
+   "text": "1 Say why a move is being suggested.",
+   "problem": "The checklist is expert advice (Hughes et al 2015), not the judge's words or statute, but the card presents it as an instruction directly under the quotation without attribution.",
+   "source_says": "Hughes 2015, Box 4 and worked example: an expert proposal in a peer-reviewed review, not statutory wording.",
+   "severity": "minor",
+   "replacement": "Insert before item 1: \"Residence-capacity specialists recommend saying:\""
+  },
+  {
+   "tmp_id": "C09-P10",
+   "where": "linkedin",
+   "text": "The person needs a broad, general understanding, not every detail.",
+   "problem": "Placed inside the paragraph on the ruling, so it reads as part of CC v KK. The opened source attributes it to a different case.",
+   "source_says": "Hughes 2015, quoting Heart of England v JB: \"a broad, general understanding\"; the CC v KK point rests on a search excerpt only.",
+   "severity": "minor",
+   "replacement": "(Hughes and colleagues note that the person needs a broad, general understanding, not every detail.)"
+  },
+  {
+   "tmp_id": "C09-P10",
+   "where": "linkedin",
+   "text": "in people with acquired brain injury rather than older people",
+   "problem": "Population claim not in the source: the study was of hospital patients with communication difficulties after acquired brain injury; ages are not given in the record.",
+   "source_says": "Foulkes 2024: \"hospital patients with communication difficulties after acquired brain injury\"; four recordings.",
+   "severity": "minor",
+   "replacement": "in people with communication difficulties after acquired brain injury, not specifically older people"
+  },
+  {
+   "tmp_id": "C09-P10",
+   "where": "bluesky",
+   "text": "The judge: the person must be given detailed options to weigh.",
+   "problem": "The one-ruling and non-binding caveat carried by X, LinkedIn and Threads is dropped, and \"must\" can read as a legal requirement.",
+   "source_says": "Record: one first-instance judgment; binds no other court; do not paraphrase as \"the law requires\".",
+   "severity": "minor",
+   "replacement": "The judge: the person must be presented with detailed options to weigh (one first-instance ruling)."
+  },
+  {
+   "tmp_id": "C09-P10",
+   "where": "source_reply",
+   "text": "Emmett et al, Int J Law Psychiatry 2013",
+   "problem": "The LinkedIn caption also uses the four filmed assessments (Foulkes 2024), which is not listed.",
+   "source_says": "PMID 38377142, doi 10.1111/1460-6984.13020.",
+   "severity": "minor",
+   "replacement": "Append: \" ; Foulkes et al, Int J Lang Commun Disord 2024 https://doi.org/10.1111/1460-6984.13020\""
+  },
+  {
+   "tmp_id": "C09-P11",
+   "where": "bluesky",
+   "text": "Choosing the relative, or chatting beforehand, did not help.",
+   "problem": "Compression makes the claim stronger and general: it reads as \"talking beforehand does not help\", which the record forbids. The finding is that these did not make surrogates' predictions more accurate.",
+   "source_says": "Shalowitz 2006: \"Neither patient designation of surrogates nor prior discussion of patients' treatment preferences improved surrogates' predictive accuracy.\" Record: must not be presented as \"talking does not help\".",
+   "severity": "major",
+   "replacement": "Choosing the relative, or chatting beforehand, did not make the match closer."
+  },
+  {
+   "tmp_id": "C09-P11",
+   "where": "bluesky",
+   "text": "A structured conversation ending in a written record did.",
+   "problem": "Unattributed and ambiguous: does not say it was one trial, in people with heart or kidney disease, or what \"did\" means.",
+   "source_says": "Kirchhoff 2010: one RCT, 313 pairs, heart failure or chronic kidney disease; surrogate understanding kappa 0.61 to 0.78 v 0.07 to 0.28.",
+   "severity": "minor",
+   "replacement": "In one US trial, a structured conversation ending in a written record left the person speaking for them understanding their goals much better."
+  },
+  {
+   "tmp_id": "C09-P11",
+   "where": "x",
+   "text": "We should write down our own views and reasons while we can, and go through them with the person who would speak for us.",
+   "problem": "The trial tested a conversation led by a trained professional; the X version drops \"ideally with a professional's help\" (LinkedIn keeps it), so a do-it-yourself version is implied to have the same support.",
+   "source_says": "Kirchhoff 2010: \"Trained health professionals conducted a structured, patient-centered interview\".",
+   "severity": "minor",
+   "replacement": "We should write down our own views and reasons while we can, and go through them with the person who would speak for us, ideally with a trained professional, as in the trial."
+  },
+  {
+   "tmp_id": "C09-P11",
+   "where": "x",
+   "text": "313 people with heart or kidney disease and their relatives",
+   "problem": "Population: the trial enrolled patient-surrogate pairs; surrogates are decision-makers chosen by the patient and are not necessarily relatives. Same in LinkedIn and the visual.",
+   "source_says": "Kirchhoff 2010: \"chronic congestive heart failure or chronic renal disease and their surrogate decision-makers\".",
+   "severity": "minor",
+   "replacement": "313 people with heart or kidney disease and the person chosen to speak for them"
+  },
+  {
+   "tmp_id": "C09-P11",
+   "where": "linkedin",
+   "text": "For clinicians: ask relatives what the person valued and said, not only what they would choose.",
+   "problem": "Practice advice not drawn from any source and not marked as judgement.",
+   "source_says": "No source in the record tests this question to relatives.",
+   "severity": "minor",
+   "replacement": "Our judgement, for clinicians: ask relatives what the person valued and said, not only what they would choose."
+  }
+ ],
+ "posts_to_drop": []
+}

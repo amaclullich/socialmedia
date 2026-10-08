@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C16-P06</title><link rel="stylesheet" href="../design_system/base.css">
+<style>
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
+.card2{background:#fff;border:3px dashed var(--ink-2);border-radius:18px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.card2 .badge{align-self:flex-start;color:var(--orange);border-color:var(--orange);background:#fff;font-size:22px}
+.card2 .t{font-size:27px;line-height:1.25;font-weight:600}
+.pl{border:3px solid var(--pale);border-radius:12px;padding:16px;min-height:380px;font-size:30px;line-height:1.3;position:relative}
+.pl .q{position:absolute;left:50%;top:58%;transform:translateX(-50%);font:800 100px Montserrat;color:var(--pale)}
+.pl.f{border-color:var(--teal);display:flex;flex-direction:column;gap:14px;padding:16px 14px}
+.fd{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:start;font-size:25px;line-height:1.2;font-weight:600}
+.fd i{width:28px;height:28px;border:3px solid var(--teal);border-radius:7px;margin-top:2px}
+.fd span{border-bottom:2px solid var(--pale);padding-bottom:8px;display:block}
+.strip1{margin-top:auto;background:var(--mint);border-radius:20px;padding:20px 26px}
+.strip1 p{font-size:25px;line-height:1.3;margin-bottom:12px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content">
+  <div class="kicker" style="font-size:26px">Most hours of the week fall outside weekday surgery hours</div>
+  <h1 class="m" style="font-size:58px;line-height:1.1">Write the plan for the clinician who reads it at 3am</h1>
+  <div class="pn">
+   <div class="card2"><span class="badge">Illustrative example: a plan entry the reader can't act on</span>
+    <div class="pl">For discussion with family.<span class="q">?</span></div></div>
+   <div class="card2"><span class="badge">Illustrative example: fields the reader can act on</span>
+    <div class="pl f">
+     <div class="fd"><i></i><span>If unwell, do this first</span></div>
+     <div class="fd"><i></i><span>Treatments wanted and not wanted</span></div>
+     <div class="fd"><i></i><span>Resuscitation status</span></div>
+     <div class="fd"><i></i><span>Preferred place of care</span></div>
+     <div class="fd"><i></i><span>Who to phone</span></div>
+     <div class="fd"><i></i><span>Shared where out-of-hours teams can open it</span></div>
+    </div></div>
+  </div>
+  <div class="strip1"><p>Scottish Key Information Summaries (712 records) for people with advanced illness who died in 2017: 68% recorded resuscitation status; 55% recorded preferred place of care</p><div id="bars" class="chart" style="margin-top:0"></div></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Finucane et al, Br J Gen Pract 2019</span></div>
+</div></div>
+<script>window.__ready=false;</script><script src="../design_system/chart.js"></script><script>
+barChart('#bars',[{label:'Resuscitation status',value:68,display:'68%',colour:'a'},{label:'Preferred place of care',value:55,display:'55%',colour:'a'}],{max:100,width:860,labelWidth:380,barH:36,gap:40,valueRoom:110});
+window.__ready=true;</script></body></html>

@@ -1,0 +1,632 @@
+[
+ {
+  "tmp_id": "C07-P01",
+  "where": "captions.x",
+  "old": "Most had their device fitted after a dangerous heart rhythm, so this figure does not apply to everyone with an ICD.",
+  "new": "This was one hospital, so the figure may not apply to everyone with an ICD.",
+  "reason": "major: the claim that most Swedish devices were fitted after a dangerous heart rhythm is not in the Swedish abstract (the 82% figure is from a Dutch cohort)."
+ },
+ {
+  "tmp_id": "C07-P01",
+  "where": "captions.linkedin",
+  "old": "Most of these devices had been fitted after a previous dangerous heart rhythm. People in that group are more likely to be shocked, so the figure does not apply to everyone with an ICD.",
+  "new": "This was one hospital, and its figure may not apply to everyone with an ICD.",
+  "reason": "major: same unsupported attribution of the secondary-prevention proportion to the Swedish cohort."
+ },
+ {
+  "tmp_id": "C07-P01",
+  "where": "captions.linkedin",
+  "old": "Over the 17 years, the share rose from 7 in 100 to 59 in 100.",
+  "new": "The 42 in 100 is an average across 2006 to 2022. The share was 7 in 100 in 2006 and 59 in 100 in 2022, and it has levelled off since 2015.",
+  "reason": "minor: 42 in 100 is an average, and the rise stopped after 2015 so the sentence read as a steady upward trend."
+ },
+ {
+  "tmp_id": "C07-P01",
+  "where": "captions.x",
+  "old": "UK heart rhythm guidance (2024) says you should have the chance to talk about this. If you have an ICD, you can raise it with your cardiology or device clinic team long before it is needed.",
+  "new": "UK heart rhythm guidance (2024) says people with an ICD should have the chance to talk about switching off the shocks towards the end of life. You can raise it with your cardiology or device clinic team long before it is needed.",
+  "reason": "minor: guidance sentence dropped the timing and the object of the discussion ('this' was vague); following sentence trimmed to avoid repeating 'If you have an ICD'."
+ },
+ {
+  "tmp_id": "C07-P01",
+  "where": "verification_notes",
+  "old": "population stated with figure and secondary-prevention caveat.",
+  "new": "population stated with figure and a single-hospital caveat (the abstract gives no device indication data, so no secondary-prevention statement is made for the Swedish cohort).",
+  "reason": "consistency: verification note updated after fact-check."
+ },
+ {
+  "tmp_id": "C07-P02",
+  "where": "captions.linkedin",
+  "old": "This was a before-and-after study in one hospital, so it shows an association, not proof.",
+  "new": "This was a before-and-after study in one hospital, run by the people who developed the plan, so it shows an association, not proof.",
+  "reason": "minor: record qualification (study run by the form's developers) was not carried."
+ },
+ {
+  "tmp_id": "C07-P04",
+  "where": "captions.x",
+  "old": "Treatment depends on how long ago the stroke started and on a brain scan, not on age alone.",
+  "new": "Treatment depends on how long ago the stroke started, on a brain scan and on other checks, not on age alone.",
+  "reason": "minor: the two criteria were presented as a complete list."
+ },
+ {
+  "tmp_id": "C07-P04",
+  "where": "captions.bluesky",
+  "old": "Eligibility depends on time since the stroke and a brain scan.",
+  "new": "Eligibility depends on time since the stroke, a brain scan and other checks.",
+  "reason": "minor: closed-list problem."
+ },
+ {
+  "tmp_id": "C07-P04",
+  "where": "captions.threads",
+  "old": "Eligibility depends on time since onset and a brain scan.",
+  "new": "Eligibility depends on time since onset, a brain scan and other checks.",
+  "reason": "minor: closed-list problem."
+ },
+ {
+  "tmp_id": "C07-P04",
+  "where": "visual_text[7]",
+  "old": "Over 80, 9 trials (1729 people): no significant disability at 3 to 6 months",
+  "new": "Over 80, 9 trials (1729 people), all treatment times: no significant disability at 3 to 6 months",
+  "reason": "minor: the 18 vs 13 in 100 figure pools all treatment delays (some beyond 4.5 hours), whereas the flow chart says within 4.5 hours."
+ },
+ {
+  "tmp_id": "C07-P04",
+  "where": "visual_brief.slides.0.text.labels[0]",
+  "old": "Over 80, 9 trials (1729 people): no significant disability at 3 to 6 months",
+  "new": "Over 80, 9 trials (1729 people), all treatment times: no significant disability at 3 to 6 months",
+  "reason": "minor: kept consistent with visual_text."
+ },
+ {
+  "tmp_id": "C07-P04",
+  "where": "alt_text[0]",
+  "old": "in 9 trials, among 1729 people over 80, about 18 in 100 treated vs 13 in 100 untreated had no significant disability at 3 to 6 months.",
+  "new": "in 9 trials, among 1729 people over 80 (all treatment times), about 18 in 100 treated vs 13 in 100 untreated had no significant disability at 3 to 6 months.",
+  "reason": "minor: kept consistent with visual_text."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "captions.x",
+  "old": "A US trial involved 718 people aged 70 and over starting treatment for cancer that could not be cured.",
+  "new": "A US trial involved 718 people aged 70 and over with cancer that could not be cured, who were starting a new treatment with a high risk of side effects and had at least one problem found on the assessment.",
+  "reason": "minor: omitted that all had an impaired assessment domain and were starting a high-risk regimen."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "captions.linkedin",
+  "old": "They were starting treatment for cancer that could not be cured.",
+  "new": "They had cancer that could not be cured, were starting a new treatment with a high risk of side effects, and had at least one problem found on the assessment.",
+  "reason": "minor: same population qualification, applied to the LinkedIn version for consistency."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "captions.linkedin",
+  "old": "A second US trial involved 605 people aged 65 and over starting chemotherapy. Serious side effects happened to about 51 in 100 with a specialist team acting on the assessment, against 61 in 100 without.",
+  "new": "A second US trial, at one cancer centre, involved 605 people aged 65 and over starting chemotherapy. Everyone had an assessment. Serious side effects happened to about 51 in 100 when a specialist team acted on it, against 61 in 100 when the results were only sent to the cancer doctor.",
+  "reason": "major: comparator misleading ('without' implied no assessment); single centre omitted."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "captions.linkedin",
+  "old": "and a few more medicines were stopped.",
+  "new": "and slightly more medicines were stopped (about 1 extra medicine for every 7 people).",
+  "reason": "minor: 'a few more' overstated a tiny difference (0.14 per person)."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "visual_brief.slides.2.text.body",
+  "old": "A second US trial (605 people aged 65+): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival.",
+  "new": "A second US trial (605 people aged 65+, one centre; everyone had an assessment, only one group had a specialist team act on it): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival.",
+  "reason": "major: comparator and single centre omitted on the visual."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "visual_text[20]",
+  "old": "A second US trial (605 people aged 65+): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival.",
+  "new": "A second US trial (605 people aged 65+, one centre; everyone had an assessment, only one group had a specialist team act on it): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival.",
+  "reason": "major: card implied assessment versus none."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "alt_text[2]",
+  "old": "Text card: a second US trial of 605 people aged 65 and over found serious side effects in 51 vs 61 in 100, with no clear difference in admissions or survival.",
+  "new": "Text card: a second US trial at one centre, of 605 people aged 65 and over who all had an assessment, found serious side effects in 51 vs 61 in 100 when a specialist team acted on it rather than the results only being sent to the cancer doctor, with no clear difference in admissions or survival.",
+  "reason": "major: same comparator omission as the visual."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "visual_brief.slides.2.data.1.label",
+  "old": "Serious side effects without (GAIN)",
+  "new": "Serious side effects, results only sent to cancer doctor (GAIN)",
+  "reason": "major: chart label kept consistent with the corrected comparator."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "visual_brief.slides.2.data.0.label",
+  "old": "Serious side effects with specialist team (GAIN)",
+  "new": "Serious side effects, specialist team acted on assessment (GAIN)",
+  "reason": "major: chart label kept consistent with the corrected comparator."
+ },
+ {
+  "tmp_id": "C07-P05",
+  "where": "verification_notes",
+  "old": "GAIN: C07-23-e with null results named.",
+  "new": "GAIN: C07-23-e with null results named; single centre; every participant had an assessment and the standard care arm's results were sent to the oncologist (comparator corrected after fact-check).",
+  "reason": "consistency: verification note updated after fact-check."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.x",
+  "old": "In US cancer trials, people aged 65 and over with advanced cancer typically had health care contact on nearly 1 day in 5 of their first year.",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65 and over typically had health care contact on nearly 1 day in 5 in the year after joining.",
+  "reason": "major: headline generalised one cohort (six SWOG trials in prostate, lung and pancreatic cancer, measured from enrolment) to 'US cancer trials'."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.threads",
+  "old": "In US trials, people aged 65 and over with advanced cancer typically had health care contact on nearly 1 day in 5 of their first year.",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65 and over typically had health care contact on nearly 1 day in 5 in the year after joining.",
+  "reason": "major: same generalisation."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.linkedin",
+  "old": "In US cancer trials, people aged 65 and over with advanced cancer had a median of 48 contact days in their first year.",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65 and over had a median of 48 contact days in the year after joining.",
+  "reason": "major: same generalisation."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.bluesky",
+  "old": "In US trials, people 65+ with advanced cancer typically spent nearly 1 day in 5 on them in the first year.",
+  "new": "In six US trials in prostate, lung and pancreatic cancer, people 65+ typically spent nearly 1 day in 5 on them in the year after joining.",
+  "reason": "major: same generalisation."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "In US cancer trials, people aged 65+ with advanced cancer typically spent nearly 1 day in 5 in contact with health care in their first year",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65+ typically spent nearly 1 day in 5 in contact with health care in the year after joining",
+  "reason": "major: same generalisation on the visual brief."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "visual_text[2]",
+  "old": "In US cancer trials, people aged 65+ with advanced cancer typically spent nearly 1 day in 5 in contact with health care in their first year",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65+ typically spent nearly 1 day in 5 in contact with health care in the year after joining",
+  "reason": "major: same generalisation on the visual."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "alt_text[0]",
+  "old": "In US cancer trials, people aged 65 and over with advanced cancer typically spent nearly 1 day in 5 in contact with health care in their first year.",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65 and over typically spent nearly 1 day in 5 in contact with health care in the year after joining.",
+  "reason": "major: same generalisation in the alt text."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "visual_brief.slides.0.text.kicker",
+  "old": "Contact days in the first year of advanced cancer care",
+  "new": "Contact days in the first year after joining a cancer trial",
+  "reason": "minor: measured from trial enrolment, not from the start of advanced cancer care."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "visual_text[1]",
+  "old": "Contact days in the first year of advanced cancer care",
+  "new": "Contact days in the first year after joining a cancer trial",
+  "reason": "minor: kept consistent with the visual brief."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "insight",
+  "old": "Older people with advanced cancer in US trials spent nearly 1 day in 5 this way in their first year; treatment can also give days back.",
+  "new": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65 and over spent nearly 1 day in 5 this way in the year after joining; treatment can also give days back for some.",
+  "reason": "consistency: insight line aligned with the corrected population."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.linkedin",
+  "old": "In the CO.17 trial, people chose between weekly drip treatment and supportive care alone (median age 63).",
+  "new": "In the CO.17 trial, people with advanced bowel cancer were randomly given either weekly drip treatment (cetuximab) or supportive care alone (median age 63).",
+  "reason": "blocker: CO.17 was a randomised trial; people did not choose their arm."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.x",
+  "old": "In one cancer trial (median age 63), people whose cancer responded had more contact days (a median of 41 against 10). They also had more days at home (186 against 132).",
+  "new": "In one trial of a drug for advanced bowel cancer (median age 63), people whose tumours had no KRAS mutation (a gene change in the tumour), a group picked out after the trial and the one the drug helps most, had more contact days on the drug (a median of 41 against 10) and more days at home (186 against 132). Across everyone in the trial, days at home did not differ clearly (140 against 121).",
+  "reason": "blocker: a post hoc KRAS wild-type subgroup was mislabelled as 'people whose cancer responded' and presented as the trial result; whole-trial home days (140 vs 121, P=.09) omitted."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.linkedin",
+  "old": "Among those whose cancers responded to the drug, a group identified after the trial, treatment took more days (a median of 41 against 10). It also gave more days at home (186 against 132).",
+  "new": "Among people whose tumours had no KRAS mutation (a gene change in the tumour), the group the drug helps most and one picked out after the trial, treatment took more days (a median of 41 against 10). It also gave more days at home (186 against 132). Across everyone in the trial, days at home did not differ clearly (a median of 140 against 121).",
+  "reason": "blocker: same mislabel ('responded'); whole-trial home-day result left out."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "captions.threads",
+  "old": "Treatment can also give days back: in one trial, people whose cancer responded had more days at home.",
+  "new": "Treatment can also give days back: in one trial, people whose tumours had no KRAS mutation, a group picked out after the trial, had more days at home on the drug. Across everyone in that trial, days at home did not differ clearly.",
+  "reason": "blocker: same mislabel; whole-trial result omitted."
+ },
+ {
+  "tmp_id": "C07-P06",
+  "where": "verification_notes",
+  "old": "Home days balance 41 vs 10 contact, 186 vs 132 home (KRAS wild-type subgroup, post hoc): C07-07-c.",
+  "new": "Home days balance 41 vs 10 contact, 186 vs 132 home (KRAS wild-type subgroup, post hoc, not 'responders'): C07-07-c; whole trial home days 140 vs 121 (P=.09) now stated beside it. Population for the 1 in 5 figure: six SWOG phase 3 trials in prostate, lung and pancreatic cancer linked to Medicare claims, 1429 people, 12 months from enrolment.",
+  "reason": "consistency: verification note updated after fact-check."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "captions.x",
+  "old": "STAREE (NEJM, August 2026; 9971 Australians aged 70+, no diabetes or dementia): a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability.",
+  "new": "STAREE (NEJM, August 2026; 9971 Australians aged 70+, no heart disease, diabetes or dementia): a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability. Serious side effects were similar (2.7 in 100 in each group), but muscle, liver and diabetes-related problems were more common on the statin.",
+  "reason": "major: benefit given without the harm side; 'no heart disease' omitted from the population."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "captions.linkedin",
+  "old": "These are crude proportions from the published abstract, which does not give results for the over-75s or the size of side effects.",
+  "new": "These are crude proportions from the published abstract, which does not give results for the over-75s. Serious side effects were similar (2.7 in 100 in each group), but muscle, liver and diabetes-related problems were more common on the statin, and the abstract does not give their size.",
+  "reason": "major: direction of the reported harms was not stated."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "visual_text[9]",
+  "old": "Crude proportions from trial abstract",
+  "new": "Crude proportions from trial abstract. Serious side effects similar (2.7 in 100 in each group); more muscle, liver and diabetes-related problems on the statin.",
+  "reason": "major: visual showed only benefit bars, no harm line."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "captions.threads",
+  "old": "but did not clearly change staying alive without dementia or disability.\n\nAfter 75",
+  "new": "but did not clearly change staying alive without dementia or disability. More muscle, liver and diabetes-related problems were reported on the statin.\n\nAfter 75",
+  "reason": "minor: harm omission in the Threads version."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "captions.bluesky",
+  "old": "By 75, even ideal numbers put people above the 10% QRISK statin line (shown with QRISK2).\n\nSTAREE (2026, over-70s): a statin cut heart events from about 8 to 6 in 100 over 6 years but did not clearly lengthen life free of dementia or disability.",
+  "new": "By 75, even ideal numbers put people above the 10% QRISK statin line (shown with QRISK2).\n\nSTAREE (2026, over-70s): a statin cut heart events from about 8 to 6 in 100 over 6 years but did not clearly lengthen life free of dementia or disability. More muscle, liver and diabetes problems.",
+  "reason": "minor: same harm omission in the Bluesky version (shortened)."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "captions.x",
+  "old": "By about 75, the QRISK calculator puts almost everyone",
+  "new": "By about 75, the QRISK2 calculator puts almost everyone",
+  "reason": "minor: the threshold-crossing result is from QRISK2; QRISK3 is the current version."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "captions.linkedin",
+  "old": "By about 75, the QRISK calculator puts almost everyone",
+  "new": "By about 75, the QRISK2 calculator puts almost everyone",
+  "reason": "minor: same QRISK2 qualification for the LinkedIn opening line."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "alt_text[0]",
+  "old": "Crude proportions. Then weigh",
+  "new": "Crude proportions. Serious side effects were similar (2.7 in 100 in each group), but muscle, liver and diabetes-related problems were more common on the statin. Then weigh",
+  "reason": "major: alt text kept consistent with the visual harm line."
+ },
+ {
+  "tmp_id": "C07-P07",
+  "where": "visual_brief.design_notes",
+  "old": "Note under bars: 'Crude proportions from trial abstract'.",
+  "new": "Note under bars: 'Crude proportions from trial abstract. Serious side effects similar (2.7 in 100 in each group); more muscle, liver and diabetes-related problems on the statin.'",
+  "reason": "major: design note kept consistent with the visual text."
+ },
+ {
+  "tmp_id": "C07-P08",
+  "where": "captions.x",
+  "old": "with serious adverse events similar (about 48 in 100 in each group).",
+  "new": "with serious adverse events similar (about 48 in 100 in each group), though kidney function fell more often on the lower target in people whose kidneys were working normally at the start.",
+  "reason": "major: only the reassuring harm result was given."
+ },
+ {
+  "tmp_id": "C07-P08",
+  "where": "captions.linkedin",
+  "old": "and injurious falls did not differ clearly. About 3 in 10",
+  "new": "and injurious falls did not differ clearly. Low blood pressure, fainting, salt imbalance and kidney injury were a little more common on the lower target, though not clearly so, and a fall in kidney function was clearly more common in people whose kidneys were working normally at the start. About 3 in 10",
+  "reason": "major: same harm omission."
+ },
+ {
+  "tmp_id": "C07-P08",
+  "where": "captions.linkedin",
+  "old": "A practical reading: treat over-75s who resemble the trial population, and for people the trial left out, treat to the standing reading, their falls and their goals.",
+  "new": "A practical reading: for over-75s who resemble the trial population, the trial shows benefit from the lower target, though NICE has not adopted it. For people the trial left out, the standing reading, their falls and their goals should guide treatment.",
+  "reason": "major: previous wording read as endorsing the SPRINT target and a directive 'treat' beyond the evidence record."
+ },
+ {
+  "tmp_id": "C07-P08",
+  "where": "captions.bluesky",
+  "old": "helped over-75s fit enough to join",
+  "new": "helped over-75s well enough to join",
+  "reason": "minor: 'fit' contradicts the record (about 3 in 10 were frail)."
+ },
+ {
+  "tmp_id": "C07-P08",
+  "where": "captions.x",
+  "old": "showed benefit in 2636 people aged 75 and over: aiming below 120 systolic rather than 140 meant fewer cardiovascular events",
+  "new": "showed benefit in its 2636 participants aged 75 and over: aiming below 120 systolic rather than 140 (average reached 123 against 135) meant fewer cardiovascular events",
+  "reason": "minor: 2636 is the prespecified older group; achieved averages were 123 vs 135, not 120 vs 140."
+ },
+ {
+  "tmp_id": "C07-P08",
+  "where": "captions.linkedin",
+  "old": "Across 9 trials, lowering pressure helped people with a drop on standing as much as those without.",
+  "new": "Across 9 trials (average age 69, with only about 1 in 10 having a drop on standing at the start), lowering pressure helped people with a drop on standing about as much as those without.",
+  "reason": "minor: omitted the young mean age and low prevalence of a standing drop; 'as much as' overstated a non-significant interaction."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "captions.x",
+  "old": "About 20,000 US veterans aged 65 and over were studied. Starting dialysis as soon as kidney function fell very low made little clear difference to survival over 3 years. It meant about 2 weeks fewer days at home. Compared with never having dialysis, it added about 11 weeks of life, still with about 2 weeks fewer days at home.",
+  "new": "An observational study, designed to imitate a trial, followed about 20,000 US veterans aged 65 and over, nearly all men. Compared with carrying on with usual medical care, starting dialysis as soon as kidney function fell very low was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home. Compared with never having dialysis, it was linked with about 11 weeks longer survival, still with about 2 weeks fewer days at home. Usual medical care here was not a planned conservative care programme.",
+  "reason": "major: causal verbs on observational data; comparator and design missing."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "captions.linkedin",
+  "old": "About 20,000 US veterans aged 65 and over (average age 78) were studied. Starting dialysis as soon as kidney function fell very low made little clear difference to survival over 3 years. It meant about 2 weeks fewer days at home, rather than in hospital or a care home. Compared with never having dialysis, it added about 11 weeks of life, still with about 2 weeks fewer days at home. Nearly all were men.",
+  "new": "An observational study, designed to imitate a trial, followed about 20,000 US veterans aged 65 and over (average age 78). Compared with carrying on with usual medical care, starting dialysis as soon as kidney function fell very low was linked with little clear difference in survival over 3 years (about 9 days longer on average, from 17 days shorter to 30 days longer) and about 2 weeks fewer days at home, rather than in hospital or a care home. Compared with never having dialysis, it was linked with about 11 weeks longer survival, still with about 2 weeks fewer days at home. Nearly all were men, and usual medical care was not a planned conservative care programme.",
+  "reason": "major: same causal verbs and missing design and comparator."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "captions.bluesky",
+  "old": "In older US veterans, starting dialysis early made little clear difference to survival and meant 2 weeks fewer at home.",
+  "new": "In an observational study of older US veterans, starting dialysis early was linked with little clear difference in survival and about 2 weeks fewer days at home, compared with usual medical care.",
+  "reason": "major: causal verbs on observational data; no comparator."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "captions.threads",
+  "old": "In about 20,000 older US veterans, starting dialysis early made little clear difference to survival over 3 years. It meant about 2 weeks fewer at home.",
+  "new": "In an observational study of about 20,000 older US veterans, starting dialysis early was linked with little clear difference in survival over 3 years, compared with usual medical care. It was also linked with about 2 weeks fewer days at home.",
+  "reason": "major: causal verbs on observational data; no comparator."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "captions.threads",
+  "old": "Yet UK kidney unit leaflets often present dialysis as the expected choice.",
+  "new": "Yet in a study of leaflets from four UK kidney units, dialysis was presented as the expected choice.",
+  "reason": "minor: generalised a document analysis of four units to UK kidney units."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "visual_text[7]",
+  "old": "Older US veterans: starting dialysis early made little clear difference to survival over 3 years and meant about 2 weeks fewer days at home",
+  "new": "Older US veterans (observational study): compared with usual medical care, starting dialysis early was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home",
+  "reason": "major: causal verbs; comparator read as conservative care but was usual medical management."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "visual_brief.slides.0.text.items[2]",
+  "old": "Older US veterans: starting dialysis early made little clear difference to survival over 3 years and meant about 2 weeks fewer days at home",
+  "new": "Older US veterans (observational study): compared with usual medical care, starting dialysis early was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home",
+  "reason": "major: kept consistent with visual_text."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "alt_text[0]",
+  "old": "In older US veterans, starting dialysis early made little clear difference to survival over 3 years and meant about 2 weeks fewer days at home.",
+  "new": "In an observational study of older US veterans, compared with usual medical care, starting dialysis early was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home.",
+  "reason": "major: same change in the alt text."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "insight",
+  "old": "In older US veterans, starting dialysis early made little clear difference to survival and cost about 2 weeks at home.",
+  "new": "In an observational study of older US veterans, starting dialysis early was linked with little clear difference in survival and about 2 weeks fewer days at home, compared with usual medical care.",
+  "reason": "consistency: causal wording removed from the insight line."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "visual_text[9]",
+  "old": "Kharbanda et al., BMC Nephrol 2021; Montez-Rath",
+  "new": "NICE NG107 (2018), as quoted in Kharbanda et al., BMC Nephrol 2021; Montez-Rath",
+  "reason": "minor: Kharbanda 2021 is a commentary on NICE NG107, not the guideline; credit line could be read as NICE itself."
+ },
+ {
+  "tmp_id": "C07-P09",
+  "where": "visual_brief.slides.0.text.source_line",
+  "old": "Kharbanda et al., BMC Nephrol 2021; Montez-Rath",
+  "new": "NICE NG107 (2018), as quoted in Kharbanda et al., BMC Nephrol 2021; Montez-Rath",
+  "reason": "minor: Kharbanda 2021 is a commentary on NICE NG107, not the guideline; credit line could be read as NICE itself."
+ },
+ {
+  "tmp_id": "C07-P10",
+  "where": "captions.x",
+  "old": "Many older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments.",
+  "new": "Many seriously ill older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments, where the alternative was dying of their illness.",
+  "reason": "minor: generalised from a seriously ill sample to 'many older people' and omitted the alternative to treatment."
+ },
+ {
+  "tmp_id": "C07-P10",
+  "where": "captions.linkedin",
+  "old": "Many older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments.",
+  "new": "Many seriously ill older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments, where the alternative was dying of their illness.",
+  "reason": "minor: generalised from a seriously ill sample to 'many older people' and omitted the alternative to treatment."
+ },
+ {
+  "tmp_id": "C07-P10",
+  "where": "captions.x",
+  "old": "A US study followed 372 people aged 60 and over after planned major abdominal operations.",
+  "new": "A US study published in 2004 followed 372 people aged 60 and over (average age 69) after planned major abdominal operations.",
+  "reason": "minor: date and age context missing; data predate enhanced recovery pathways."
+ },
+ {
+  "tmp_id": "C07-P10",
+  "where": "captions.bluesky",
+  "old": "In a US study of people over 60 after planned abdominal surgery",
+  "new": "In a US study from 2004 of people over 60 after planned abdominal surgery",
+  "reason": "minor: date context missing."
+ },
+ {
+  "tmp_id": "C07-P10",
+  "where": "captions.threads",
+  "old": "A US study followed 372 people aged 60 and over after planned abdominal surgery.",
+  "new": "A US study from 2004 followed 372 people aged 60 and over (average age 69) after planned abdominal surgery.",
+  "reason": "minor: date and age context missing."
+ },
+ {
+  "tmp_id": "C07-P10",
+  "where": "source_reply",
+  "old": "https://doi.org/10.1186/s12884-021-03574-2",
+  "new": "(quoting the Montgomery judgment, Montgomery v Lanarkshire Health Board [2015] UKSC 11) https://doi.org/10.1186/s12884-021-03574-2",
+  "reason": "minor: the link is a maternity-care paper quoting the judgment, not a general source on UK consent law; label added."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.x",
+  "old": "Older people in US studies were often open to stopping cancer screening.",
+  "new": "In US interviews, older people were generally open to stopping cancer screening.",
+  "reason": "minor: openness comes from the 40 interviews only; the survey did not measure willingness."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.linkedin",
+  "old": "Older people in US studies were often open to stopping cancer screening.",
+  "new": "In US interviews, older people were generally open to stopping cancer screening.",
+  "reason": "minor: same."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.bluesky",
+  "old": "Older people in US studies were often willing to stop cancer screening, but many found",
+  "new": "In US interviews, older people were generally open to stopping cancer screening, but many found",
+  "reason": "minor: same."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.threads",
+  "old": "Older people in US studies were often willing to stop cancer screening.",
+  "new": "In US interviews, older people were generally open to stopping cancer screening.",
+  "reason": "minor: same."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "insight",
+  "old": "Older adults in US studies were often open to stopping cancer screening",
+  "new": "In US interviews, older adults were generally open to stopping cancer screening",
+  "reason": "consistency: insight aligned with the corrected wording."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.x",
+  "old": "most were willing to stop, especially if they trusted their clinician.",
+  "new": "people were generally open to stopping, especially if they trusted their clinician.",
+  "reason": "minor: 'most' is a quantifier the abstract does not give."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.linkedin",
+  "old": "most were willing to stop screening, especially if they trusted their clinician.",
+  "new": "people were generally open to stopping screening, especially if they trusted their clinician.",
+  "reason": "minor: same."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.x",
+  "old": "In a US survey of 881 people aged 65 and over, the explanation liked most",
+  "new": "In a US survey of 881 people aged 65 and over, asked to imagine a doctor stopping their screening, the explanation liked most",
+  "reason": "minor: hypothetical scenario and stated preference not mentioned in X."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.threads",
+  "old": "In a survey of 881 people aged 65+, the favourite explanation",
+  "new": "In a US survey of 881 people aged 65+, asked to imagine a doctor stopping their screening, the favourite explanation",
+  "reason": "minor: same for Threads."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "captions.bluesky",
+  "old": "Liked most: 'your other health issues should take priority'. Liked least: no explanation.",
+  "new": "In a US survey, imagining a doctor stopping screening, liked most: 'your other health issues should take priority'. Least: no explanation.",
+  "reason": "minor: same for Bluesky."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "visual_text[5]",
+  "old": "Preferred in interviews",
+  "new": "Preferred by many in the interviews",
+  "reason": "minor: interview finding was that many felt the first phrase harsh compared with the second, not a count of preferences."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "visual_brief.slides.0.text.items[1]",
+  "old": "Panel 2 caption: Preferred in interviews.",
+  "new": "Panel 2 caption: Preferred by many in the interviews.",
+  "reason": "minor: kept consistent with visual_text."
+ },
+ {
+  "tmp_id": "C07-P11",
+  "where": "alt_text[0]",
+  "old": "Panel 2: 'This test would not help you live longer', preferred.",
+  "new": "Panel 2: 'This test would not help you live longer', preferred by many in the interviews.",
+  "reason": "minor: kept consistent with visual_text."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "captions.x",
+  "old": "Expert consensus (ATS 2024) sets out the core.",
+  "new": "Expert consensus for intensive care (ATS 2024) sets out the core.",
+  "reason": "major: the ATS consensus is for critical care; the X version presented it as general."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "captions.bluesky",
+  "old": "A time-limited trial: give a treatment",
+  "new": "A time-limited trial, as defined for intensive care: give a treatment",
+  "reason": "major: same."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "captions.threads",
+  "old": "Agree with the person or family: the treatment,",
+  "new": "In intensive care, expert consensus says to agree with the person or family: the treatment,",
+  "reason": "major: same."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "Core items from the ATS 2024 consensus (16 elements in full)",
+  "new": "Core items from the ATS 2024 consensus for intensive care (16 elements in full)",
+  "reason": "major: same, on the visual brief."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "visual_text[2]",
+  "old": "Core items from the ATS 2024 consensus (16 elements in full)",
+  "new": "Core items from the ATS 2024 consensus for intensive care (16 elements in full)",
+  "reason": "major: same, on the visual."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "alt_text[0]",
+  "old": "core items from the ATS 2024 consensus:",
+  "new": "core items from the ATS 2024 consensus for intensive care:",
+  "reason": "major: same, in the alt text."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "captions.threads",
+  "old": "In three US intensive care units, training doctors in this raised family meetings naming signs of improvement from about 1 in 5 to almost 9 in 10.",
+  "new": "In a before-and-after study in three US intensive care units (not specific to older people), family meetings named signs of improvement in almost 9 in 10 cases after doctors were trained, against about 1 in 5 before. Hospital deaths did not change.",
+  "reason": "major: causal verb for an uncontrolled before-and-after study; not specific to older people; unchanged deaths omitted."
+ },
+ {
+  "tmp_id": "C07-P12",
+  "where": "captions.x",
+  "old": "Family meetings then named signs of improvement in almost 9 in 10 cases, up from about 1 in 5.",
+  "new": "Family meetings then named signs of improvement in almost 9 in 10 of the meetings held, up from about 1 in 5.",
+  "reason": "minor: the unit is family meetings, not cases or patients."
+ }
+]

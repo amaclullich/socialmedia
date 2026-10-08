@@ -1,359 +1,576 @@
 [
  {
   "tmp_id": "C11-P01",
-  "where": "captions.x",
-  "old": "In those trials, for every 13 people who took a tablet, about 1 more slept better than with a dummy pill. For every 6, about 1 more had a side effect.",
-  "new": "As a rough guide from different sets of trials: for every 13 people who took a tablet, about 1 more slept better than with a dummy pill (an imprecise figure); for every 6, about 1 more had a side effect.",
-  "reason": "factcheck major (x): Required qualification missing: the NNT and NNH come from different sets of trials (4 vs 16), the NNT is imprecise and the authors call it a rough guide. Compression makes it read as one head-to-head comparison."
- },
- {
-  "tmp_id": "C11-P01",
-  "where": "source_reply",
-  "old": "Sources: https://doi.org/10.1136/bmj.38623.768588.47 (Glass 2005) and https://doi.org/10.1111/jgs.18372 (Beers 2023) and https://doi.org/10.1111/jsr.14035 (European Insomnia Guideline)",
-  "new": "Sources: https://doi.org/10.1136/bmj.38623.768588.47 (Glass 2005), https://doi.org/10.1111/jgs.18372 (Beers 2023), https://doi.org/10.1111/jsr.14035 (European Insomnia Guideline) and https://doi.org/10.7326/M15-2175 (ACP 2016)",
-  "reason": "factcheck minor (source_reply): Visual cites 'ACP 2016' and captions cite US guidelines, but ACP is not in the source reply."
- },
- {
-  "tmp_id": "C11-P01",
   "where": "captions.linkedin",
-  "old": "Sleeping tablets in people aged 60 and over add about 25 minutes of sleep a night, on average.",
-  "new": "In short trials, sleeping tablets in people aged 60 and over added about 25 minutes of self-reported sleep a night, on average.",
-  "reason": "factcheck minor (linkedin): Present-tense general claim drops 'in short trials' and 'self-reported' from the opening line (they follow later, so minor)."
+  "old": "For every 13 people who took a tablet, about 1 more reported better sleep than with a dummy pill (the true figure could be anywhere from about 7 to 63).",
+  "new": "In 4 of the trials (1,072 people, testing zaleplon, brotizolam, nitrazepam or loprazolam), for every 13 people who took a tablet, about 1 more rated their sleep quality as improved than with a dummy pill (the range of uncertainty was about 7 to 63).",
+  "reason": "factcheck minor: NNT of 13 comes from 4 of 24 trials and 'improved sleep quality'; range is a confidence interval. Replacement applied; 'confidence range' written as 'range of uncertainty' to keep the public-facing plain-English rule."
  },
  {
-  "tmp_id": "C11-P02",
-  "where": "captions.bluesky",
-  "old": "In confirmed cases, about 6 in 100 a year went on to Parkinson's or Lewy body dementia.",
-  "new": "In people with sleep-study-confirmed disease seen at specialist centres, about 6 in 100 a year went on to Parkinson's, Lewy body dementia or a related condition.",
-  "reason": "factcheck major (bluesky): Drops the specialist-centre population (and MSA); a short version reads as a general prognosis for people with RBD."
+  "tmp_id": "C11-P01",
+  "where": "captions.x",
+  "old": "In the same review, for every 13 people who took a tablet, about 1 more reported better sleep than with a dummy pill. For every 6, about 1 more had a side effect.",
+  "new": "In the same review, in 4 of the trials, for every 13 people who took a tablet, about 1 more rated their sleep quality as improved than with a dummy pill. For every 6, about 1 more had a side effect of any kind.",
+  "reason": "Consistency with the factcheck minor on LinkedIn: same NNT population and outcome qualifier, and 'of any kind' for the side-effect figure, in the X caption."
  },
  {
-  "tmp_id": "C11-P02",
+  "tmp_id": "C11-P01",
   "where": "captions.threads",
-  "old": "In 1,280 people with sleep-study-confirmed disease, about 6 in 100 a year developed Parkinson's disease or dementia with Lewy bodies.",
-  "new": "In 1,280 people with sleep-study-confirmed disease at specialist centres, about 6 in 100 a year developed Parkinson's disease, dementia with Lewy bodies or a related condition.",
-  "reason": "factcheck major (threads): Omits specialist-centre setting and multiple system atrophy."
+  "old": "For every 6 people who took one, about 1 more had a side effect.",
+  "new": "For every 6 people who took one, about 1 more had a side effect of any kind (a rough guide, from different trials than the sleep figures).",
+  "reason": "factcheck minor: harm figure given without the rough-guide caveat and the different-trials qualification."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.threads",
+  "old": "on average, as reported by the people taking them.",
+  "new": "on average, self-reported.",
+  "reason": "Condensed so the Threads caption stays within 500 characters after the factcheck replacement."
  },
  {
   "tmp_id": "C11-P02",
   "where": "captions.x",
-  "old": "about 3 in 4 by 12 years.",
-  "new": "an estimated 3 in 4 by 12 years.",
-  "reason": "factcheck minor (x): 12-year figure is a Kaplan-Meier estimate with mean follow-up 4.6 years; stated as observed."
+  "old": "Among 1,280 people with sleep-study confirmed disease in 24 specialist centres, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition.",
+  "new": "Among 1,280 people in 24 specialist centres whose REM sleep behaviour disorder was confirmed by a sleep study and who did not yet have Parkinson's disease or dementia, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition.",
+  "reason": "factcheck minor: baseline absence of parkinsonism or dementia stated."
  },
  {
   "tmp_id": "C11-P02",
+  "where": "captions.linkedin",
+  "old": "In 1,280 people with sleep-study confirmed disease in 24 specialist centres, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition, and the estimate by 12 years was about 3 in 4. Average follow-up was 4.6 years, 82.5% were men, and these are specialist-centre patients.",
+  "new": "In 1,280 people in 24 specialist centres whose REM sleep behaviour disorder was confirmed by a sleep study and who had no Parkinson's disease or dementia at the start, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition, and the estimated figure by 12 years was about 3 in 4 (average follow-up was 4.6 years). Most (82.5%) were men, and these are specialist-centre patients.",
+  "reason": "factcheck minor: baseline status and Kaplan-Meier follow-up note added. Follow-up clause moved into the replacement sentence, so it is not repeated in the next sentence."
+ },
+ {
+  "tmp_id": "C11-P02",
+  "where": "captions.linkedin",
+  "old": "In one specialist cohort, people whose symptoms came with antidepressants still showed early signs of Parkinson-type disease, so a medicines review should not end the assessment.",
+  "new": "In one small specialist cohort, people whose symptoms came with antidepressants still had abnormalities on tests of nerve-cell loss, although their five-year risk of going on to develop Parkinson's disease or dementia was lower than in people without antidepressants (22 in 100 against 59 in 100). So a medicines review should not end the assessment.",
+  "reason": "factcheck minor: omitted the lower five-year risk in the antidepressant group; 'early signs' loosened. 22% vs 59% checked against evidence claim C11-21-e (Postuma 2013)."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.x",
+  "old": "Mailing information alone did not reduce use in a large US trial in people with dementia.",
+  "new": "Mailing information to people with dementia and their prescribers did not reduce use of high-risk medicines, including sedatives, in a large US trial.",
+  "reason": "factcheck minor: object of 'use' missing."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "visual_brief.slides[1].text.items[2]",
+  "old": "Mailing information alone did not reduce use in a large US trial in people with dementia",
+  "new": "Mailing information did not reduce use of high-risk medicines (including sedatives) in a large US trial in people with dementia",
+  "reason": "factcheck minor: same missing object on the visual."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "visual_text[11]",
+  "old": "Mailing information alone did not reduce use in a large US trial in people with dementia",
+  "new": "Mailing information did not reduce use of high-risk medicines (including sedatives) in a large US trial in people with dementia",
+  "reason": "factcheck minor: same missing object on the visual."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "alt_text[1]",
+  "old": "Mailing information alone did not reduce use in a large US trial in people with dementia.",
+  "new": "Mailing information did not reduce use of high-risk medicines (including sedatives) in a large US trial in people with dementia.",
+  "reason": "factcheck minor: same missing object in the alt text."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.linkedin",
+  "old": "A second Quebec trial, in which pharmacists sent a brochure to patients and a recommendation to stop to their doctors,",
+  "new": "A second Quebec trial, in which pharmacists were encouraged to send patients a brochure and to send their doctors a recommendation to stop,",
+  "reason": "factcheck minor: 'sent' overstated delivery."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.linkedin",
+  "old": "and the researchers say the results need testing elsewhere.",
+  "new": "and the authors of the second trial say the results need testing in other settings.",
+  "reason": "factcheck minor (second part of the same issue): the generalisability statement is from the D-PRESCRIBE authors only."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.bluesky",
+  "old": "were more likely to have stopped at 6 months: 27 in 100 against 5 in 100 with usual care.",
+  "new": "were more likely to have stopped refilling at 6 months: 27 in 100 against 5 in 100 with usual care.",
+  "reason": "factcheck minor: 'stopped' undefined; means no more pharmacy refills."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.linkedin",
+  "old": "Whether the visits themselves reduce fires or injuries is unproven. A trial that set out to test it recruited 63 of a planned 1,156 people and concluded the evidence remains inconclusive.",
+  "new": "Whether the visits themselves reduce falls or improve quality of life in older people is unproven. A trial that set out to test this recruited only 63 of a planned 1,156 people and could not run its planned analyses; its authors concluded the evidence remains inconclusive. No trial evidence on fires was found.",
+  "reason": "factcheck major: FIREFLI tested falls and quality of life, not fires."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.x",
+  "old": "The study was small: 38 adults aged 18 to 80, so not only older people, tested in deep sleep only.",
+  "new": "The study was small: 38 adults aged 18 to 80 with mild to moderately severe hearing loss, so not only older people, tested in deep sleep only.",
+  "reason": "factcheck minor: hearing-loss severity added."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.threads",
+  "old": "Small study: 38 adults aged 18 to 80, deep sleep only.",
+  "new": "Small study: 38 adults aged 18 to 80 with mild to moderately severe hearing loss, deep sleep only.",
+  "reason": "factcheck minor (same severity issue, Threads)."
+ },
+ {
+  "tmp_id": "C11-P04",
   "where": "visual_brief.slides[0].text.body",
-  "old": "About 6 in 100 a year with confirmed disease developed Parkinson's or Lewy body dementia (specialist centres).",
-  "new": "About 6 in 100 a year with confirmed disease developed Parkinson's, Lewy body dementia or a related condition (specialist centres).",
-  "reason": "factcheck minor (visual_text): Omits MSA/related conditions."
+  "old": "Out of 100 adults with hearing loss in deep sleep, in a laboratory.",
+  "new": "Out of 100 adults with mild to moderately severe hearing loss in deep sleep, in a laboratory.",
+  "reason": "factcheck minor: severity qualifier on the chart slide."
  },
  {
-  "tmp_id": "C11-P02",
+  "tmp_id": "C11-P04",
   "where": "visual_text[2]",
-  "old": "About 6 in 100 a year with confirmed disease developed Parkinson's or Lewy body dementia (specialist centres).",
-  "new": "About 6 in 100 a year with confirmed disease developed Parkinson's, Lewy body dementia or a related condition (specialist centres).",
-  "reason": "factcheck minor (visual_text): Omits MSA/related conditions."
+  "old": "Out of 100 adults with hearing loss in deep sleep, in a laboratory.",
+  "new": "Out of 100 adults with mild to moderately severe hearing loss in deep sleep, in a laboratory.",
+  "reason": "factcheck minor: severity qualifier on the chart slide."
  },
  {
-  "tmp_id": "C11-P03",
-  "where": "captions.x",
-  "old": "Older people who had taken benzodiazepines for years were handed a booklet, and many stopped.",
-  "new": "Older people on long-term benzodiazepines were given a booklet on the risks with a plan for cutting down, and more stopped: 27 in 100, against 5 in 100 with usual care.",
-  "reason": "factcheck minor (x): 'Handed' asserts in-person delivery (record: say 'given'); 'many' without the number in a headline, and 'for years' is not the trial's definition (long-term users)."
+  "tmp_id": "C11-P04",
+  "where": "alt_text[0]",
+  "old": "Of adults with hearing loss woken from deep sleep in a laboratory:",
+  "new": "Of adults with mild to moderately severe hearing loss woken from deep sleep in a laboratory:",
+  "reason": "factcheck minor: severity qualifier in the alt text."
  },
  {
-  "tmp_id": "C11-P03",
+  "tmp_id": "C11-P04",
+  "where": "captions.bluesky",
+  "old": "In a sleep lab, a standard smoke alarm woke 56 in 100 adults with hearing loss from deep sleep. A lower-pitched alarm woke 92, a vibrating pad 80 to 84, a flashing light 27. Small study, adults aged 18 to 80. If you sleep without hearing aids, ask your fire service about a pad alarm.",
+  "new": "In a sleep lab, a standard smoke alarm woke 56 in 100 adults with hearing loss from deep sleep; lower-pitched 92, a vibrating pad 80 to 84, a flashing light 27. Small study, ages 18 to 80; hearing aid use not stated. If you sleep without them, ask your fire service about a vibrating pad alarm.",
+  "reason": "factcheck minor: restores the 'hearing aid use not stated' qualification and phrases the pad alarm as something to ask about. The suggested wording was longer than the 300-character limit allows, so it was condensed."
+ },
+ {
+  "tmp_id": "C11-P04",
   "where": "captions.linkedin",
-  "old": "Older people who had taken benzodiazepines for years were handed a booklet, and many stopped.",
-  "new": "Older people on long-term benzodiazepines were given a booklet on the risks with a plan for cutting down, and more stopped: 27 in 100, against 5 in 100 with usual care.",
-  "reason": "factcheck minor (x): 'Handed' asserts in-person delivery (record: say 'given'); 'many' without the number in a headline, and 'for years' is not the trial's definition (long-term users)."
+  "old": "The pads were commercial products as sold in 2009.",
+  "new": "The pads were commercial products tested at the intensity as purchased, and the study was published in 2009.",
+  "reason": "factcheck minor: 'as sold in 2009' not in the source."
  },
  {
-  "tmp_id": "C11-P03",
+  "tmp_id": "C11-P05",
+  "where": "captions.bluesky",
+  "old": "In a large English trial the comparison group got a sleep hygiene booklet; four nurse sessions of sleep restriction did better (insomnia score 10.9 against 13.9 at 6 months). Mean age 55. In older adults, brief behavioural treatment beat printed information, 2 in 3 against 1 in 4.",
+  "new": "In a large English trial the comparison group got a sleep hygiene booklet; four nurse sessions of sleep restriction did better (score 10.9 against 13.9; mean age 55). In a small US trial of 79 older adults, behavioural treatment beat printed information at 4 weeks: 2 in 3 responded against 1 in 4.",
+  "reason": "factcheck major: single small trial written as a general finding in older adults. Replacement applied; surrounding text condensed to keep Bluesky within 300 characters."
+ },
+ {
+  "tmp_id": "C11-P05",
   "where": "captions.x",
-  "old": "Posting information alone did not reduce use in a large US trial.",
-  "new": "In a large US trial in people with dementia, mailing information to them and their prescribers did not reduce use.",
-  "reason": "factcheck major (x): Population swap by omission: Singh 2024 mailed materials to people with dementia and their prescribers, across three drug classes."
+  "old": "In 79 older adults (average age 72), about 2 in 3 improved after two nurse sessions and two phone calls of behavioural treatment, against 1 in 4 given printed information.",
+  "new": "In a small US trial of 79 older adults (average age 72), about 2 in 3 had responded at 4 weeks after two nurse sessions and two phone calls of behavioural treatment, against 1 in 4 given printed information.",
+  "reason": "factcheck minor: small US trial and 4-week timeframe added."
  },
  {
-  "tmp_id": "C11-P03",
+  "tmp_id": "C11-P05",
   "where": "captions.threads",
-  "old": "Pharmacies ran it, and withdrawal symptoms were common in people who tapered.",
-  "new": "Pharmacies ran it. In a second trial, about 4 in 10 people who tapered sleeping tablets reported withdrawal symptoms, though none needed hospital care.",
-  "reason": "factcheck minor (threads): Withdrawal figure comes from the second trial (D-PRESCRIBE, 29 of 77 sedative-hypnotic tapers), not the trial described."
- },
- {
-  "tmp_id": "C11-P04",
-  "where": "captions.bluesky",
-  "old": "In a lab study of adults with hearing loss",
-  "new": "In a small lab study of adults with hearing loss",
-  "reason": "factcheck minor (bluesky): Range truncated; also drops 'small' study."
- },
- {
-  "tmp_id": "C11-P04",
-  "where": "captions.bluesky",
-  "old": "A vibrating pad woke about 80 in 100;",
-  "new": "A vibrating pad woke about 80 to 84 in 100;",
-  "reason": "factcheck minor (bluesky): Range truncated; also drops 'small' study."
- },
- {
-  "tmp_id": "C11-P05",
-  "where": "captions.bluesky",
-  "old": "In an English GP trial, a sleep hygiene booklet was the comparison. Adding four nurse sessions of sleep restriction therapy gave less severe insomnia at 6 months.",
-  "new": "In an English GP trial (mean age 55), a sleep hygiene booklet was the comparison. Adding four nurse sessions of sleep restriction therapy gave less severe insomnia at 6 months.",
-  "reason": "factcheck major (bluesky): Missing required qualification that this was not an older-adult trial (mean age 55); older-adult audience."
- },
- {
-  "tmp_id": "C11-P05",
-  "where": "captions.x",
-  "old": "The AASM advises against sleep hygiene alone for long-term insomnia.",
-  "new": "The AASM suggests not using sleep hygiene alone for long-term insomnia (a conditional recommendation).",
-  "reason": "factcheck minor (x): Recommendation strength omitted; it is conditional."
+  "old": "In 79 older adults, brief behavioural treatment helped about 2 in 3, against 1 in 4 given printed information.",
+  "new": "In a small US trial of 79 older adults, brief behavioural treatment helped about 2 in 3 at 4 weeks, against 1 in 4 given printed information.",
+  "reason": "Consistency with the factcheck major on Bluesky and minor on X: same small-trial and 4-week qualifiers in Threads."
  },
  {
   "tmp_id": "C11-P06",
-  "where": "captions.linkedin",
-  "old": "In older people, gabapentinoids commonly cause sleepiness and dizziness.",
-  "new": "Gabapentinoids commonly cause sleepiness and dizziness.",
-  "reason": "factcheck major (linkedin): Attributes an older-adult-specific frequency claim that neither source makes; AASM reports somnolence and dizziness in trial adults, not older people specifically."
- },
- {
-  "tmp_id": "C11-P06",
-  "where": "captions.linkedin",
-  "old": "The 2025 US guideline from the American Academy of Sleep Medicine made four changes worth knowing.",
-  "new": "The 2025 US guideline from the American Academy of Sleep Medicine has four points worth knowing.",
-  "reason": "factcheck minor (linkedin): Item 3 (aggravators) is a long-standing first step, not a change."
+  "where": "captions.bluesky",
+  "old": "Restless legs in an older person: check ferritin and the medicines list first. A 2025 US guideline (AASM) suggests iron if ferritin is 75 or below, even when a result looks normal, and advises against pramipexole and ropinirole as standard. Weigh gabapentinoid sleepiness and dizziness.",
+  "new": "Restless legs in an older person: check ferritin and medicines first. 2025 US guideline (AASM): iron if ferritin is 75 or below, even if the result looks normal (untested consensus); conditionally advises against pramipexole and ropinirole as standard. Weigh gabapentinoid sleepiness and dizziness.",
+  "reason": "factcheck major: consensus caveat and conditional status of the dopamine-agonist advice added. The suggested wording was condensed to stay within 300 characters."
  },
  {
   "tmp_id": "C11-P06",
   "where": "captions.x",
-  "old": "The guideline now advises against pramipexole, ropinirole or rotigotine as standard, because of augmentation.",
-  "new": "The guideline now suggests not using pramipexole, ropinirole or rotigotine as standard (a conditional recommendation), because of augmentation.",
-  "reason": "factcheck minor (x): Conditional recommendation not stated in X."
+  "old": "It puts gabapentin and pregabalin first among medicines. In older people those cause sleepiness and dizziness, so weigh that, especially after a fall.",
+  "new": "It strongly recommends gabapentin and pregabalin (and, with appropriate iron status, intravenous iron). In older people gabapentin and pregabalin cause sleepiness and dizziness, so weigh that, especially after a fall.",
+  "reason": "factcheck minor: the guideline does not rank gabapentinoids 'first'. 'Those' replaced by the drug names so the next sentence still reads correctly."
  },
  {
   "tmp_id": "C11-P06",
-  "where": "captions.bluesky",
-  "old": "advises checking ferritin and transferrin saturation in everyone",
-  "new": "advises checking ferritin and transferrin saturation in everyone with troublesome restless legs",
-  "reason": "factcheck minor (bluesky): Guideline applies to clinically significant RLS."
+  "where": "captions.linkedin",
+  "old": "The guideline now puts gabapentin and pregabalin first among medicines and advises against pramipexole, ropinirole and rotigotine as standard treatment. The reason is augmentation:",
+  "new": "The guideline strongly recommends gabapentin and pregabalin (and, with appropriate iron status, intravenous iron) and conditionally advises against pramipexole, ropinirole and rotigotine as standard treatment. The reason is augmentation:",
+  "reason": "factcheck minor (same 'first among medicines' wording in LinkedIn)."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "captions.linkedin",
+  "old": "The recommendation is conditional. Dopamine agonists do work",
+  "new": "The advice against them is conditional. Dopamine agonists do work",
+  "reason": "Consistency: the LinkedIn sentence now has two recommendations in the previous sentence, so 'the recommendation' is made specific."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "visual_brief.slides[0].text.labels[4]",
+  "old": "Why dopamine agonists are no longer standard: augmentation",
+  "new": "Why the guideline advises against dopamine agonists as standard treatment: augmentation (conditional recommendation)",
+  "reason": "factcheck minor: conditional suggestion presented as settled change."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "visual_text[11]",
+  "old": "Why dopamine agonists are no longer standard: augmentation",
+  "new": "Why the guideline advises against dopamine agonists as standard treatment: augmentation (conditional recommendation)",
+  "reason": "factcheck minor: conditional suggestion presented as settled change."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "alt_text[0]",
+  "old": "dopamine agonists no longer standard (augmentation)",
+  "new": "the guideline conditionally advises against dopamine agonists as standard treatment (augmentation)",
+  "reason": "factcheck minor (same line in alt text)."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "insight",
+  "old": "and no longer using pramipexole, ropinirole or rotigotine as standard treatment because of augmentation.",
+  "new": "and conditionally advising against pramipexole, ropinirole or rotigotine as standard treatment because of augmentation.",
+  "reason": "Consistency with the factcheck minor on the visual: conditional status in the insight field."
  },
  {
   "tmp_id": "C11-P07",
-  "where": "captions.x",
-  "old": "The risk over time was about half.",
-  "new": "The risk over time was about half as high with CBT, though the true reduction could be smaller or larger.",
-  "reason": "factcheck major (x): Hazard ratio with wide CI presented as a firm halving in the short version; LinkedIn carries the uncertainty, X does not."
- },
- {
-  "tmp_id": "C11-P10",
   "where": "captions.linkedin",
-  "old": "Broken nights are part of that.",
-  "new": "Of those, 133 also had broken sleep at night on a wrist monitor and joined the study.",
-  "reason": "factcheck major (linkedin): Unsupported causal inference; the source reports a screening count, not that night waking explains daytime sleeping."
+  "old": "Sleep itself improved only modestly: sustained insomnia remission was 26% with CBT and 19% with sleep education.",
+  "new": "Insomnia remission that lasted through follow-up was uncommon in both groups: 26% with CBT and 19% with sleep education.",
+  "reason": "factcheck minor: 'improved only modestly' is an interpretation not in the source."
  },
  {
-  "tmp_id": "C11-P10",
+  "tmp_id": "C11-P08",
   "where": "captions.x",
-  "old": "Setting checks by each person's skin risk cut waking with no harm to skin.",
-  "new": "Setting checks by each person's skin risk cut care-related waking, with no harm to skin.",
-  "reason": "factcheck minor (x): Overstates: the reduction was in care-related (light/noise) waking, with care by research staff."
+  "old": "Their guidance says hospitals should either have a machine available or ask patients to bring their own.",
+  "new": "Their guidance suggests hospitals should consider either having a machine available or asking patients to bring their own.",
+  "reason": "factcheck minor: recommendation wording is 'should consider'."
  },
  {
-  "tmp_id": "C11-P10",
-  "where": "captions.threads",
-  "old": "In small US studies, routine night checks",
-  "new": "In small, older US studies, routine night checks",
-  "reason": "factcheck minor (threads): As X."
- },
- {
-  "tmp_id": "C11-P10",
-  "where": "captions.bluesky",
-  "old": "cut waking without harming skin",
-  "new": "cut care-related waking without harming skin",
-  "reason": "factcheck minor (threads): As X."
- },
- {
-  "tmp_id": "C11-P10",
-  "where": "captions.threads",
-  "old": "cut waking without harming skin",
-  "new": "cut care-related waking without harming skin",
-  "reason": "factcheck minor (threads): As X."
- },
- {
-  "tmp_id": "C11-P10",
-  "where": "captions.bluesky",
-  "old": "In US studies, routine checks",
-  "new": "In small, older US studies, routine checks",
-  "reason": "factcheck minor (bluesky): As X; also omits small/old US studies."
- },
- {
-  "tmp_id": "C11-P11",
-  "where": "captions.bluesky",
-  "old": "In a US trial, phone CBT for insomnia left 56 in 100 older adults free of significant insomnia a year later, against 26 in 100 given information.",
-  "new": "In a US trial of older adults with insomnia and arthritis pain, phone CBT for insomnia left 56 in 100 free of significant insomnia a year later, against 26 in 100 given information.",
-  "reason": "factcheck major (bluesky): Population swap: all participants had osteoarthritis pain; reads as older adults in general."
- },
- {
-  "tmp_id": "C11-P11",
-  "where": "captions.bluesky",
-  "old": "About 1 in 5 people over 60 in England did not use the internet in 2020.",
-  "new": "About 1 in 5 people over 60 living at home in England did not use the internet in 2020.",
-  "reason": "factcheck minor (bluesky): Drops 'living in their own homes' (care home residents excluded)."
- },
- {
-  "tmp_id": "C11-P11",
-  "where": "visual_brief.slides[0].text.headline",
-  "old": "CBT for insomnia works by phone",
-  "new": "Phone CBT for insomnia helped older adults with arthritis pain",
-  "reason": "factcheck minor (visual_text): Headline generalises beyond population; fine as RCT but should carry the population on the same card (it does in the kicker). Acceptable; tighten."
- },
- {
-  "tmp_id": "C11-P11",
-  "where": "visual_text[1]",
-  "old": "CBT for insomnia works by phone",
-  "new": "Phone CBT for insomnia helped older adults with arthritis pain",
-  "reason": "factcheck minor (visual_text): Headline generalises beyond population; fine as RCT but should carry the population on the same card (it does in the kicker). Acceptable; tighten."
- },
- {
-  "tmp_id": "C11-P12",
-  "where": "captions.x",
-  "old": "In people over 60, sleeping tablets added only about 25 minutes, with more confusion and daytime tiredness.",
-  "new": "In trials of nightly use in people over 60, sleeping tablets added only about 25 minutes of reported sleep, with more memory problems, confusion and daytime tiredness.",
-  "reason": "factcheck major (x): Missing required qualification that the trials tested nightly use over at least 5 nights, not a single ward dose; also drops 'self-reported' and 'memory problems'."
- },
- {
-  "tmp_id": "C11-P12",
-  "where": "captions.threads",
-  "old": "In people over 60, sleeping tablets added only about 25 minutes of sleep, with more confusion and daytime tiredness.",
-  "new": "In trials of nightly use in people over 60, sleeping tablets added only about 25 minutes of sleep, with more confusion and daytime tiredness.",
-  "reason": "factcheck major (threads): As X."
- },
- {
-  "tmp_id": "C11-P12",
-  "where": "captions.x",
-  "old": "and they slept 83 minutes less than at home.",
-  "new": "and they reported sleeping 83 minutes less than at home.",
-  "reason": "factcheck minor (x): Self-report of one night; phrased as measured."
- },
- {
-  "tmp_id": "C11-P12",
-  "where": "captions.x",
-  "old": "Is a diuretic given in the evening?",
-  "new": "Is a diuretic given late in the evening or at bedtime?",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
- },
- {
-  "tmp_id": "C11-P12",
+  "tmp_id": "C11-P08",
   "where": "captions.linkedin",
-  "old": "Look for an evening or bedtime dose.",
-  "new": "Look for a late-evening or bedtime dose.",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
+  "old": "It also says hospitals should either have a machine available or ask patients to bring their own.",
+  "new": "It also suggests hospitals should consider either having a machine available or asking patients to bring their own.",
+  "reason": "factcheck minor (same wording in LinkedIn)."
  },
  {
-  "tmp_id": "C11-P12",
-  "where": "captions.bluesky",
-  "old": "an evening diuretic.",
-  "new": "a late-evening or bedtime diuretic.",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
+  "tmp_id": "C11-P08",
+  "where": "insight",
+  "old": "and that hospitals either hold machines or ask patients to bring their own.",
+  "new": "and suggest that hospitals consider holding machines or asking patients to bring their own.",
+  "reason": "Consistency with the factcheck minor on X and LinkedIn."
  },
  {
-  "tmp_id": "C11-P12",
+  "tmp_id": "C11-P08",
+  "where": "captions.linkedin",
+  "old": "A second SASM guideline covers drugs given during and after surgery. It says strong painkillers such as morphine-type drugs, and some sedatives, may make breathing problems more likely in people with sleep apnoea. The evidence for this is limited, so it is graded as a weak recommendation.",
+  "new": "A second SASM guideline, on care during surgery, says strong painkillers such as morphine-type drugs, and intravenous sedatives of the benzodiazepine type, may make breathing problems more likely in people with sleep apnoea. The recommendations are graded weak, and the evidence for the painkiller statement is graded low.",
+  "reason": "factcheck minor: scope of the second guideline and evidence grades for painkillers and sedatives."
+ },
+ {
+  "tmp_id": "C11-P08",
   "where": "captions.threads",
-  "old": "a diuretic in the evening.",
-  "new": "a diuretic late in the evening or at bedtime.",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
+  "old": "Anaesthesia and sleep specialists advise keeping it up around an operation.",
+  "new": "Anaesthesia and sleep specialists advise keeping it up around a planned operation.",
+  "reason": "factcheck minor: scope of the guidance."
  },
  {
-  "tmp_id": "C11-P12",
-  "where": "visual_brief.slides[0].text.items[6]",
-  "old": "Tomorrow: diuretic in the evening?",
-  "new": "Tomorrow: diuretic late evening or bedtime?",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
+  "tmp_id": "C11-P08",
+  "where": "captions.bluesky",
+  "old": "Specialists advise keeping it up around an operation,",
+  "new": "Specialists advise keeping it up around a planned operation,",
+  "reason": "Consistency with the factcheck minor on Threads: same scope qualifier in Bluesky."
  },
  {
-  "tmp_id": "C11-P12",
-  "where": "visual_text[9]",
-  "old": "Tomorrow: diuretic in the evening?",
-  "new": "Tomorrow: diuretic late evening or bedtime?",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
+  "tmp_id": "C11-P09",
+  "where": "captions.bluesky",
+  "old": "Melatonin may make little or no difference to sleep in people with Alzheimer's, in trials. In other sleep problems the average gain was about 7 minutes quicker to sleep. Supplements tested in the US and Canada often missed the label. Decide what counts as success, and when to stop.",
+  "new": "Melatonin may make little or no difference to sleep in people with Alzheimer's, in trials. In adults and children with other sleep problems, the gain averaged about 7 minutes quicker to sleep. Tested US and Canadian supplements often missed the label. Decide what counts as success and when to stop.",
+  "reason": "factcheck major: population (adults and children together) added. Neighbouring words condensed to stay within 300 characters."
  },
  {
-  "tmp_id": "C11-P12",
+  "tmp_id": "C11-P09",
+  "where": "captions.threads",
+  "old": "In other people with sleep problems the average gain was about 7 minutes quicker to sleep and 8 minutes more of it.",
+  "new": "In adults and children together with insomnia and other sleep problems, the average gain was about 7 minutes quicker to sleep and 8 minutes more of it.",
+  "reason": "factcheck major: population added."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "visual_brief.slides[0].text.labels[4]",
+  "old": "Other sleep problems: about 7 minutes quicker to sleep, about 8 minutes more sleep, on average",
+  "new": "Other sleep problems (adults and children together): about 7 minutes quicker to sleep, about 8 minutes more sleep, on average",
+  "reason": "factcheck major: population added."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "visual_text[6]",
+  "old": "Other sleep problems: about 7 minutes quicker to sleep, about 8 minutes more sleep, on average",
+  "new": "Other sleep problems (adults and children together): about 7 minutes quicker to sleep, about 8 minutes more sleep, on average",
+  "reason": "factcheck major: population added."
+ },
+ {
+  "tmp_id": "C11-P09",
   "where": "alt_text[0]",
-  "old": "a diuretic in the evening?",
-  "new": "a diuretic late in the evening or at bedtime?",
-  "reason": "factcheck major (all): Claim C11-02-e has verdict partly_supported; only the Oelke wording (no later than mid to late afternoon) is supported, and only a late-evening or bedtime dose should be named. Current wording stays within that, but the editor should re-grade the claim record to supported_with_qualification limited to the safe wording before publication."
+  "old": "in other sleep problems about 7 minutes quicker to sleep and 8 minutes more sleep on average",
+  "new": "in other sleep problems, in adults and children together, about 7 minutes quicker to sleep and 8 minutes more sleep on average",
+  "reason": "factcheck major: population added in alt text."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "captions.linkedin",
+  "old": "For total night-time sleep the difference was about 11 minutes, and the range ran from 16 minutes less to 38 minutes more.",
+  "new": "For total night-time sleep, melatonin gave about 11 minutes more (from two small trials of 184 people), and the range ran from 16 minutes less to 38 minutes more.",
+  "reason": "factcheck minor: direction and number of trials added."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": "In another US study, residents' night-time waking was linked with noise and changes in light. Cutting noise and light reduced the waking linked to light, but on its own did not improve most measures of sleep.",
+  "new": "In another US trial (267 residents with incontinence in eight nursing homes), staff feedback on noise, noise abatement and less disruptive night continence care reduced noise and light changes. It reduced awakenings linked with light, and with noise plus light, but did not improve most other measures of sleep.",
+  "reason": "factcheck major: first sentence was background, and the intervention was multicomponent, not noise and light alone."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.bluesky",
+  "old": "Small US studies: checks set by skin risk cut waking with no skin harm.",
+  "new": "Small US studies in residents with incontinence: checks set by skin risk cut care-related waking with no skin harm.",
+  "reason": "factcheck major: overgeneralised from care-related waking to waking overall."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.threads",
+  "old": "In small US studies, checks set by each person's skin risk cut care-related waking with no harm to skin.",
+  "new": "In small US studies of residents with incontinence, checks set by each person's skin risk cut care-related waking with no adverse change in skin health over the study period.",
+  "reason": "factcheck minor: population and study-period qualifier."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.x",
+  "old": "In US nursing home studies, a wet episode was linked with about 4 in 100 night-time awakenings, while the light and noise of routine checks were linked with waking. Setting each person's checks by their own skin risk, and giving care when they were already awake, cut care-related waking with no harm to skin.",
+  "new": "In US nursing home studies of residents with incontinence, a wet episode was linked with about 4 in 100 night-time awakenings, and awakenings caused by the light and noise of continence care fell when care was individualised. That individualised care set each person's checks by their own skin risk and gave care when they were already awake, with no harm to skin.",
+  "reason": "factcheck minor: population added; the light-and-noise clause was a background sentence in the source, replaced by the measured result. Following sentence reworded so the two do not repeat each other."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.x",
+  "old": "In interviews, UK care home staff say there are too few night staff to help residents who wake.",
+  "new": "In interviews in four UK care homes, staff caring for residents with dementia said there are too few night staff to help residents who wake.",
+  "reason": "factcheck minor: scope of the staff interviews."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": "about 4 in 100 night-time awakenings were linked with a wet episode.",
+  "new": "about 4 in 100 night-time awakenings were linked with a wet episode (73 residents in three homes; the authors caution that the sleep and wetness sensors had limits).",
+  "reason": "factcheck minor: measurement caveat added."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": " The light and noise of routine night-time continence checks were linked with waking. Setting each person's checks every 2 or 4 hours",
+  "new": " Setting each person's checks every 2 or 4 hours",
+  "reason": "Consistency with the factcheck minor on X: the 'light and noise ... were linked with waking' sentence rests on a background sentence in the source; the measured result (care-related awakenings fell) is stated in the next sentence."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "insight",
+  "old": "About 1 in 5 people aged 60 and over in England did not use the internet in 2020, so a route that needs the internet leaves them out.",
+  "new": "A national study of people living at home in England estimated that about 1 in 5 people aged 60 and over did not use the internet at all in 2020, so a route that needs the internet leaves them out.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.x",
+  "old": "In England in 2020, about 1 in 5 people aged 60 and over living at home did not use the internet.",
+  "new": "In a national study of people living at home in England, the authors' estimate was that about 79 in 100 people aged 60 and over used the internet at all in 2020, so about 1 in 5 did not.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.x",
+  "old": "with insomnia and arthritis pain,",
+  "new": "with insomnia and osteoarthritis pain,",
+  "reason": "factcheck minor: condition was osteoarthritis pain."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": "In England in 2020, about 1 in 5 people aged 60 and over living in their own homes did not use the internet.",
+  "new": "In a national study of people living at home in England, the authors' estimate was that about 79 in 100 people aged 60 and over used the internet at all in 2020, so about 1 in 5 did not.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": "is the first treatment recommended for long-term insomnia in US guidelines from the American College of Physicians and the American Academy of Sleep Medicine.",
+  "new": "is the initial treatment recommended for long-term insomnia by the American College of Physicians, and is strongly recommended by the American Academy of Sleep Medicine.",
+  "reason": "factcheck minor: AASM does not rank CBT for insomnia above medicines."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.bluesky",
+  "old": "CBT for insomnia by phone helped older adults in a US trial: a year later 56 in 100 had no significant insomnia against 26 in 100 given information. About 1 in 5 people over 60 in England were offline in 2020. We should offer a route that does not need the internet.",
+  "new": "CBT for insomnia by phone helped older adults with insomnia and osteoarthritis pain in a US trial: at a year, among those followed up, 56 in 100 had no clinically significant insomnia against 26 in 100 given information. About 1 in 5 over 60s in England may be offline. Offer a non-internet route.",
+  "reason": "factcheck major (trial population and denominator) and major (internet estimate hedged). The suggested wording was condensed to stay within 300 characters."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.threads",
+  "old": "In a US trial of 327 people aged 60 and over, a year later 56 in 100 of those followed up had no significant insomnia, against 26 in 100 given information.\n\nAbout 1 in 5 people aged 60 and over in England did not use the internet in 2020.",
+  "new": "In a US trial of 327 people aged 60 and over with insomnia and osteoarthritis pain, a year later 56 in 100 of those followed up had no clinically significant insomnia, against 26 in 100 given information.\n\nA national study estimated that about 1 in 5 people aged 60 and over living at home in England did not use the internet in 2020.",
+  "reason": "factcheck minor (osteoarthritis pain) and major (internet figure labelled as an estimate)."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.threads",
+  "old": "CBT for insomnia has been tested by phone in older adults.",
+  "new": "CBT for insomnia has been tested by phone.",
+  "reason": "Condensed so the Threads caption stays within 500 characters after the factcheck replacements."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "Adults aged 60 and over with insomnia and arthritis pain.",
+  "new": "Adults aged 60 and over with insomnia and osteoarthritis pain.",
+  "reason": "factcheck minor: condition was osteoarthritis pain."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_text[2]",
+  "old": "Adults aged 60 and over with insomnia and arthritis pain.",
+  "new": "Adults aged 60 and over with insomnia and osteoarthritis pain.",
+  "reason": "factcheck minor: condition was osteoarthritis pain."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "alt_text[0]",
+  "old": "adults aged 60 and over with insomnia and arthritis pain",
+  "new": "adults aged 60 and over with insomnia and osteoarthritis pain",
+  "reason": "factcheck minor: condition was osteoarthritis pain."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_brief.slides[1].text.body",
+  "old": "In England in 2020, about 1 in 5 people aged 60 and over living at home did not use the internet.",
+  "new": "A national study of people living at home in England estimated that about 1 in 5 people aged 60 and over did not use the internet in 2020.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_text[8]",
+  "old": "In England in 2020, about 1 in 5 people aged 60 and over living at home did not use the internet.",
+  "new": "A national study of people living at home in England estimated that about 1 in 5 people aged 60 and over did not use the internet in 2020.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_brief.slides[1].art",
+  "old": "labelled '1 in 5 did not use the internet'.",
+  "new": "labelled 'About 1 in 5 did not use the internet (estimate)'.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_text[9]",
+  "old": "1 in 5 did not use the internet",
+  "new": "About 1 in 5 did not use the internet (estimate)",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "visual_brief.slides[1].data[0].label",
+  "old": "People aged 60+ in England not using the internet, 2020",
+  "new": "People aged 60+ living at home in England not using the internet, 2020 (estimate)",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "alt_text[1]",
+  "old": "Twenty person icons, four marked: in England in 2020, about 1 in 5 people aged 60 and over living at home did not use the internet.",
+  "new": "Twenty person icons, four marked: a national study of people living at home in England estimated that about 1 in 5 people aged 60 and over did not use the internet in 2020.",
+  "reason": "factcheck major: the 1 in 5 figure is a single Discussion estimate (79% used the internet at any frequency, aged 60 and over), not a reported result; labelled as an estimate."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "verification_notes",
+  "old": "Kung and Steptoe 2023 (full text): 79% of those 60+ used the internet,",
+  "new": "Kung and Steptoe 2023 (full text): the 79% of those 60+ using the internet at any frequency is a single Discussion estimate (comparable ELSA data), not a reported result, so it is worded as an estimate; the Results report daily use in adults 50+ (73.9% in June and July 2020);",
+  "reason": "Record of how the internet figure is now treated (factcheck major)."
  },
  {
   "tmp_id": "C11-P12",
   "where": "visual_brief.slides[0].text.body",
-  "old": "In people over 60, sleeping tablets added about 25 minutes of sleep.",
-  "new": "In trials of nightly use in people over 60, sleeping tablets added about 25 minutes of sleep.",
-  "reason": "consistency with factcheck major fix (nightly-use qualification)"
+  "old": "A sedative adds about 25 minutes of self-reported sleep in people over 60, with more confusion and daytime tiredness.",
+  "new": "In trials of sleeping tablets taken for at least 5 nights, people over 60 reported about 25 more minutes of sleep on average, with more confusion and daytime tiredness.",
+  "reason": "factcheck major: trial average presented as what 'a sedative' adds."
  },
  {
   "tmp_id": "C11-P12",
   "where": "visual_text[2]",
-  "old": "In people over 60, sleeping tablets added about 25 minutes of sleep.",
-  "new": "In trials of nightly use in people over 60, sleeping tablets added about 25 minutes of sleep.",
-  "reason": "consistency with factcheck major fix (nightly-use qualification)"
+  "old": "A sedative adds about 25 minutes of self-reported sleep in people over 60, with more confusion and daytime tiredness.",
+  "new": "In trials of sleeping tablets taken for at least 5 nights, people over 60 reported about 25 more minutes of sleep on average, with more confusion and daytime tiredness.",
+  "reason": "factcheck major: trial average presented as what 'a sedative' adds."
  },
  {
   "tmp_id": "C11-P12",
   "where": "alt_text[0]",
-  "old": "In people over 60, sleeping tablets added about 25 minutes of sleep.",
-  "new": "In trials of nightly use in people over 60, sleeping tablets added about 25 minutes of sleep.",
-  "reason": "consistency with factcheck major fix (nightly-use qualification)"
+  "old": "A sedative adds about 25 minutes of self-reported sleep in people over 60 with more confusion and daytime tiredness.",
+  "new": "In trials of sleeping tablets taken for at least 5 nights, people over 60 reported about 25 more minutes of sleep on average, with more confusion and daytime tiredness.",
+  "reason": "factcheck major: same text in alt text."
  },
  {
-  "tmp_id": "C11-P02",
-  "where": "captions.bluesky",
-  "old": "Acting out dreams in later life can be REM sleep behaviour disorder. In people with sleep-study-confirmed disease seen at specialist centres,",
-  "new": "Acting out dreams later in life can be REM sleep behaviour disorder. In sleep-study-confirmed cases at specialist centres,",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "tmp_id": "C11-P12",
+  "where": "insight",
+  "old": "because sleeping tablets add about 25 minutes of self-reported sleep in people over 60 with more confusion and daytime tiredness.",
+  "new": "because in trials of at least 5 nights, sleeping tablets added about 25 minutes of self-reported sleep on average in people over 60, with more confusion and daytime tiredness.",
+  "reason": "Consistency with the factcheck major on the visual."
  },
  {
-  "tmp_id": "C11-P02",
+  "tmp_id": "C11-P12",
   "where": "captions.bluesky",
-  "old": "Ask the bed partner, make the bedroom safe, refer if in doubt.",
-  "new": "Ask the bed partner; refer if in doubt.",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "old": "Awake at night, an older inpatient? Ask about noise, equipment, pain and the toilet before a sedative: in 2,005 Dutch inpatients these were reported most. In people over 60, tablets added about 25 minutes of sleep with more confusion. Next day, check steroid and donepezil dose times.",
+  "new": "Awake at night, an older inpatient? Ask first about noise, equipment, pain and the toilet (reported most by 2,005 Dutch inpatients). In trials of at least 5 nights in over 60s, sleeping tablets added about 25 minutes of self-reported sleep on average, with more confusion and daytime tiredness.",
+  "reason": "factcheck major: trial qualifiers restored (self-reported, on average, at least 5 nights, daytime tiredness). To stay within 300 characters the next-day steroid and donepezil line was dropped from Bluesky; it remains in X, LinkedIn and Threads."
  },
  {
-  "tmp_id": "C11-P11",
-  "where": "captions.bluesky",
-  "old": "phone CBT for insomnia left 56 in 100 free of significant insomnia a year later, against 26 in 100 given information.",
-  "new": "phone CBT for insomnia left 56 in 100 free of significant insomnia at a year, against 26 in 100 given information.",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "tmp_id": "C11-P12",
+  "where": "captions.threads",
+  "old": "In people over 60, tablets added only about 25 minutes of self-reported sleep, with more confusion and daytime tiredness.",
+  "new": "In trials of at least 5 nights in people over 60, tablets added only about 25 minutes of self-reported sleep on average, with more confusion and daytime tiredness.",
+  "reason": "factcheck minor: trial qualifiers restored."
  },
  {
-  "tmp_id": "C11-P02",
-  "where": "captions.bluesky",
-  "old": "Acting out dreams later in life can be",
-  "new": "Acting out dreams in older age can be",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "tmp_id": "C11-P12",
+  "where": "captions.linkedin",
+  "old": "Tonight's call is pain, a full bladder and noise.",
+  "new": "Tonight's call is to ask about pain, needing the toilet, noise and equipment.",
+  "reason": "factcheck minor: survey reported toilet visits, not a full bladder."
  },
  {
-  "tmp_id": "C11-P02",
-  "where": "captions.bluesky",
-  "old": "Ask the bed partner; refer if in doubt.",
-  "new": "Ask the bed partner. Refer if unsure.",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "tmp_id": "C11-P12",
+  "where": "captions.x",
+  "old": "In a survey of 2,005 patients in 39 Dutch hospitals (median age 68), people reported sleeping 83 minutes less than at home.",
+  "new": "In a one-night survey of 2,005 adult patients of all ages in 39 Dutch hospitals (median age 68), people reported sleeping 83 minutes less than at home.",
+  "reason": "factcheck minor: survey scope added."
  },
  {
-  "tmp_id": "C11-P11",
-  "where": "captions.bluesky",
-  "old": "Ask for it by phone or in person.",
-  "new": "Ask for it by phone.",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "tmp_id": "C11-P06",
+  "where": "alt_text[0]",
+  "old": "the guideline conditionally advises against dopamine agonists as standard treatment (augmentation)",
+  "new": "dopamine agonists not advised as standard (conditional; augmentation)",
+  "reason": "factcheck minor (alt text): wording condensed to keep alt text within 400 characters."
  },
  {
-  "tmp_id": "C11-P02",
-  "where": "captions.bluesky",
-  "old": "Most people who report dream enactment",
-  "new": "Most who report dream enactment",
-  "reason": "Bluesky 300-character limit after factcheck additions"
+  "tmp_id": "C11-P09",
+  "where": "alt_text[0]",
+  "old": "Ask: what counts as success and by when, when to review, where the product comes from.",
+  "new": "Ask: what counts as success, when to review, where the product comes from.",
+  "reason": "Condensed so the alt text stays within 400 characters after the factcheck addition."
+ },
+ {
+  "tmp_id": "C11-P12",
+  "where": "alt_text[0]",
+  "old": "Checklist card. Tonight, ask about: pain, needing the toilet, noise from other patients, medical equipment. Tomorrow, for the day team, review dose times: steroid given later than the morning; donepezil given at night with sleeplessness or vivid dreams.",
+  "new": "Checklist. Tonight, ask about pain, needing the toilet, noise, equipment. Tomorrow, day team, review dose times: steroid later than morning; donepezil at night with sleeplessness or vivid dreams.",
+  "reason": "Condensed so the alt text stays within 400 characters after the factcheck replacement."
  }
 ]

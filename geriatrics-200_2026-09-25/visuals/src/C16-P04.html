@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C16-P04</title><link rel="stylesheet" href="../design_system/base.css">
+<style>
+.wrap{display:grid;grid-template-columns:auto 1fr;gap:24px;margin-top:26px;align-items:start}
+.lbl{display:flex;flex-direction:column;gap:20px}
+.lbl .g{border-left:10px solid var(--teal);padding-left:16px;font:700 30px/1.25 Inter}
+.lbl .g.d{border-left-color:var(--orange);border-left-style:dotted}
+.note{font-size:26px;line-height:1.33;color:var(--ink-2);margin-top:20px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 style="font-size:54px;line-height:1.12">Of 100 care home residents in England and Wales in 2009, about 74 were alive a year later</h1>
+  <div class="wrap"><div id="ia"></div>
+   <div class="lbl" id="lbl"></div></div>
+  <p class="body" style="font-size:31px;margin-top:16px">About 26 died within the year. A group figure doesn't predict one person. Ask the doctor: what do you expect for this person?</p>
+  <p class="note">England and Wales, 2009. Residents aged 65 to 104 already living in a care home (9,772 people), followed for one year.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Shah et al, Age and Ageing 2013</span></div>
+</div>
+</div><script>
+window.__ready=false;
+const NS='http://www.w3.org/2000/svg',s=32,g=7,h=s*1.5,cols=10,W=cols*(s+g)-g,H=10*(h+g)-g;
+let o=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}"><defs><pattern id="hp" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="9" height="9" fill="#fff"/><rect width="4" height="9" fill="#C24E12"/></pattern></defs>`;
+for(let i=0;i<100;i++){const r=Math.floor(i/10),c=i%10,x=c*(s+g),y=r*(h+g),d=i<74;
+ const fill=d?'#15535B':'url(#hp)',st=d?'#15535B':'#C24E12';
+ o+=`<circle cx="${x+s/2}" cy="${y+s*.27}" r="${s*.23}" fill="${fill}" stroke="${st}" stroke-width="2.5"/><path d="M${x+s*.12},${y+h} V${y+s*.75} Q${x+s*.12},${y+s*.58} ${x+s*.3},${y+s*.58} H${x+s*.7} Q${x+s*.88},${y+s*.58} ${x+s*.88},${y+s*.75} V${y+h} Z" fill="${fill}" stroke="${st}" stroke-width="2.5"/>`;}
+o+='</svg>';document.getElementById('ia').innerHTML=o;
+document.getElementById('lbl').innerHTML='<div class="g">Alive a year later: about 74</div><div class="g d">Died within a year: about 26</div>';
+window.__ready=true;
+</script></body></html>

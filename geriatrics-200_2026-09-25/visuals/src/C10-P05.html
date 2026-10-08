@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C10-P05</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.foot .src{font-size:22px}.ch{margin-top:20px}.ch h3{font-size:31px;line-height:1.28}.ch .chart{margin-top:6px}</style></head><body><div class="sheet">
+<div class="card "><div class="topline"><span class="series">Reading the evidence</span></div><div class="content ">
+<h1 class="s">Pregabalin for sciatica: no clear benefit, more side effects</h1>
+<p class="small mt-s">Trial of 207 adults, average age early to mid 50s; reduced kidney function excluded.</p>
+<div class="ch"><h3>Leg pain at 8 weeks (0 to 10): pregabalin 3.7, placebo 3.1, no clear difference</h3><div id="c1" class="chart"></div></div>
+<div class="ch" style="margin-top:34px"><h3>People with at least one side effect: pregabalin 64 in 100 (68 of 106), placebo 43 in 100 (43 of 101)</h3><div id="c2" class="chart"></div></div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Mathieson et al., NEJM 2017 (PRECISE)</span></div></div>
+</div><script>window.__ready=false;
+barChart('#c1',[{label:'Pregabalin',value:3.7,display:'3.7',colour:'a'},{label:'Placebo',value:3.1,display:'3.1',colour:'b'}],{max:10,width:920,labelWidth:190,barH:50,gap:40,ticks:[0,5,10]});
+barChart('#c2',[{label:'Pregabalin',value:64,display:'64 in 100',colour:'a'},{label:'Placebo',value:43,display:'43 in 100',colour:'b'}],{max:100,width:920,labelWidth:190,barH:50,gap:40,ticks:[0,50,100],valueRoom:200});
+window.__ready=true;</script></body></html>

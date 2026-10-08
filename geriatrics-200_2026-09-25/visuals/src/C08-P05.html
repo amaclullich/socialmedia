@@ -1,0 +1,57 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C08-P05 Who meets lecanemab criteria</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .bar{border-radius:14px;padding:22px 28px;font-size:32px;line-height:1.3;font-weight:700}
+ .top{background:var(--deep);color:#fff;width:100%}
+ .tri{display:block;margin:0}
+ .bot{background:var(--orange);color:#fff;width:230px;font-size:30px;padding:16px 18px;line-height:1.25}
+ .botrow{display:flex;align-items:center;gap:24px}
+ .botrow .t{font-size:34px;font-weight:700;line-height:1.3}
+ .boxes{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px}
+ .box{background:var(--white);border:3px solid var(--teal);border-radius:20px;padding:28px 28px;font-size:34px;font-weight:600;line-height:1.3}
+ .box b{font-family:Montserrat;font-weight:800;font-size:44px;color:var(--teal);display:block;margin-bottom:6px}
+ .note{font-size:30px;color:var(--ink-2);margin-top:22px;line-height:1.35}
+ .hb{margin-top:26px}
+ .hb .l{font-size:32px;font-weight:600;line-height:1.3;margin-bottom:10px}
+ .hb .b{height:56px;border-radius:0 8px 8px 0;display:flex;align-items:center;padding-left:14px;font-weight:800;font-size:32px;color:#fff;font-family:Montserrat}
+ #f svg{display:block;margin-top:10px}
+ .sub2{font-size:32px;font-weight:600;line-height:1.35;margin-top:40px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <div class="kicker">Lecanemab, a new Alzheimer's drug: Swedish primary care study</div>
+  <h1 class="m">Who meets the criteria for lecanemab?</h1>
+  <div style="margin-top:36px">
+   <div class="bar top">607 people seeing a GP with memory symptoms, any cause</div>
+   <svg class="tri" viewBox="0 0 920 90" width="920" height="90"><polygon points="0,0 920,0 130,90 0,90" fill="#B9CDCC"/></svg>
+   <div class="botrow"><div class="bar bot" style="width:130px;padding:0;height:70px;border-radius:0 0 8px 8px"></div><div class="t">86 met lecanemab criteria after full tests: about 1 in 7</div></div>
+  </div>
+  <div class="boxes">
+   <div class="box"><b>About 1 in 6</b>on a blood thinner</div>
+   <div class="box"><b>About 1 in 4</b>with marked small-vessel changes on MRI</div>
+  </div>
+  <p class="note">Reasons overlap; most had more than one</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Borgström Bolmsjö et al., Alzheimer's Res Ther 2026</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Who gets left out</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="m">Would they have been in the trial?</h1>
+  <div class="hb"><div class="l">237 older people with early memory problems and amyloid (US)</div><div class="b" style="width:920px;background:var(--deep)">237</div></div>
+  <div class="hb"><div class="l">112 met the trial's inclusion rules</div><div class="b" style="width:435px;background:var(--teal)">112</div></div>
+  <div class="hb"><div class="l">19 remained after exclusions: about 8 in 100</div><div class="b" style="width:74px;background:var(--orange);padding-left:8px;font-size:26px">19</div></div>
+  <div class="sub2">Frail people only, in a separate study: 4 of 44 met the trial's rules</div>
+  <div id="f"></div>
+  <p class="note" style="font-size:28px;margin-top:14px">In a separate study of 120 pre-frail and frail people with amyloid: 1 in 5 met the trial's rules, about half met clinic-use recommendations</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Pittock et al., Neurology 2023; Bellelli et al., Alzheimer's Res Ther 2026</span></div>
+</div>
+</div>
+<script>
+iconArray('#f',{filled:4,total:44,cols:22,size:34,gap:6,fillColour:'b'});
+window.__ready = true;
+</script></body></html>

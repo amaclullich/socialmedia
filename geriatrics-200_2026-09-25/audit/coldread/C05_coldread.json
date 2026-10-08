@@ -1,0 +1,937 @@
+{
+ "category": "C05",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 1
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C05-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a US study of 2,293 people aged 70 and over on medical wards, 35 in 100 left hospital less able to wash, dress, eat, get in and out of bed or use the toilet than two weeks before admission.",
+     "fix": "Split: \"A US study followed 2,293 people aged 70 and over on medical wards. 35 in 100 left hospital less able than they were two weeks before admission. The five tasks were washing, dressing, eating, getting in and out of bed and using the toilet.\""
+    },
+    {
+     "item": "6",
+     "quote": "The data are over 20 years old, but a 2020 review of studies in adults aged 65 and over found about 3 in 10 lost independence in basic daily activities after an acute hospital stay, with little change by the year the study began.",
+     "fix": "\"The data are over 20 years old. A 2020 review of studies in adults aged 65 and over found about 3 in 10 lost independence in basic daily activities after an acute hospital stay. That share changed little by the year the study began.\""
+    }
+   ],
+   "flags": [
+    "Sentence 3 \"23 in 100 had lost that ability\" - 'that ability' is vague (which of five tasks?) and the 23+12=35 link is left for the reader to add.",
+    "'Improving since admission can be true' is a mild setup claim, but answered at once; acceptable."
+   ]
+  },
+  {
+   "tmp_id": "C05-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "23 in 100 at 70 to 74, 63 in 100 at 90 and over (crude figures)",
+     "fix": "The figure 23 in 100 already means something else earlier (declined before arrival, not regained). Fix: \"By age, the share who went home less able than before the illness was 23 in 100 at 70 to 74 and 63 in 100 at 90 and over (not adjusted for other differences).\""
+    },
+    {
+     "item": "6",
+     "quote": "In a US cohort of 2,293 people aged 70 and over admitted to medical wards (Covinsky 2003), 35 in 100 went home less able in basic daily activities (washing, dressing, eating, getting in and out of bed, using the toilet) than they had been two weeks before admission.",
+     "fix": "Split into two sentences after \"medical wards (Covinsky 2003).\""
+    },
+    {
+     "item": "6",
+     "quote": "A 2020 review (Loyd, J Am Med Dir Assoc) pooling studies of 7,375 adults aged 65 and over found that about 3 in 10 lost independence in basic daily activities after an acute hospital stay, with little change by the year the study began, though results varied widely between studies.",
+     "fix": "Split at \"stay.\" and give the variation and the year trend as separate short sentences."
+    },
+    {
+     "item": "7",
+     "quote": "Another 20 in 100 declined before admission and got the ability back.",
+     "fix": "Reconcile: \"That makes 35 in 100 in all (23 plus 12). A further 20 in 100 had declined before admission but had recovered by discharge, so they are not in the 35.\" Also say the review's 3 in 10 comes from different studies and is close to the 35 in 100."
+    }
+   ],
+   "flags": [
+    "Very long for one post; the 35/23/12/20/63/3-in-10/7,375 figures compete.",
+    "\"Crude figures\" and \"Judgement:\" are labels the reader must decode.",
+    "Closing line is a limit, acceptable, but the action sentence is buried before it."
+   ]
+  },
+  {
+   "tmp_id": "C05-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Most had lost it before arrival.",
+     "fix": "\"23 of those 35 had lost it before arrival and had not regained it.\" (both figures are in the x version)"
+    },
+    {
+     "item": "6",
+     "quote": "In a US study of 2,293 medical inpatients aged 70+ (data over 20 years old), 35 in 100 went home less able to wash, dress or use the toilet than two weeks before admission.",
+     "fix": "\"A US study followed 2,293 medical inpatients aged 70 and over (data over 20 years old). 35 in 100 went home less able to wash, dress or use the toilet than two weeks before admission.\""
+    }
+   ],
+   "flags": [
+    "'Most' has no number; 'it' refers to the ability only by inference."
+   ]
+  },
+  {
+   "tmp_id": "C05-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a US study of 2,293 medical inpatients aged 70+, 35 in 100 went home less able to wash, dress or use the toilet than two weeks before admission. 23 in 100 lost it before arriving and had not regained it by discharge.",
+     "fix": "Shorten: \"A US study followed 2,293 medical inpatients aged 70 and over. 35 in 100 went home less able to wash, dress or use the toilet than two weeks before admission.\" then the 23 in 100 sentence."
+    }
+   ],
+   "flags": [
+    "\"can hide loss\" is a figurative verb and 'loss' is not yet defined at that point."
+   ]
+  },
+  {
+   "tmp_id": "C05-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a Baltimore study of women in their 70s who were among the more able of their age group (1990s), those who had changed how or how often they walked or climbed stairs, without difficulty, were already slower and weaker.",
+     "fix": "\"A Baltimore study in the 1990s followed women in their 70s who were more able than most of their age. Some reported no difficulty but had changed how or how often they walked or climbed stairs. These women were already slower and weaker than women who had not changed.\""
+    }
+   ],
+   "flags": [
+    "Opens with a quoted question and answer used as a setup, answered by the post.",
+    "No size of the later risk is given ('more likely'); acceptable for X but the comparison group (women with no change) is only implied."
+   ]
+  },
+  {
+   "tmp_id": "C05-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Among women who reported no difficulty at the start, those who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty over the next 18 months, even after allowing for walking speed (Fried 2000).",
+     "fix": "Split: \"Some women reported no difficulty at the start. Those who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty over the next 18 months. This held after allowing for walking speed (Fried 2000).\""
+    },
+    {
+     "item": "7",
+     "quote": "A later analysis found new changes predicted new walking difficulty a year and a half on, with wide uncertainty (Weiss 2012).",
+     "fix": "Either delete this sentence and keep the Fried 2000 figure only, or say in plain words how it relates: \"A later analysis pointed the same way but with wide uncertainty.\""
+    },
+    {
+     "item": "6",
+     "quote": "A smaller Finnish study of people aged 75 to 81 found a similar pattern in men and women over 2 years (Mänty 2007).",
+     "fix": "Acceptable length; keep after the cut above."
+    }
+   ],
+   "flags": [
+    "Opens with quoted question as a setup, answered by the post.",
+    "Three study results (Fried 2001, Fried 2000, Weiss 2012) on one effect without reconciliation.",
+    "\"Judgement: it belongs in a functional history\" - 'it' refers to a question two paragraphs earlier."
+   ]
+  },
+  {
+   "tmp_id": "C05-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "changing method without difficulty went with slower walking and later difficulty",
+     "fix": "\"women who had changed how they walked or climbed stairs, but reported no difficulty, walked more slowly and were more likely to develop difficulty over the next 18 months.\""
+    },
+    {
+     "item": "1",
+     "quote": "A smaller Finnish study agreed.",
+     "fix": "\"A smaller Finnish study of people aged 75 to 81 found a similar pattern.\""
+    },
+    {
+     "item": "3",
+     "quote": "later difficulty",
+     "fix": "Attach the period: \"difficulty within 18 months\"."
+    }
+   ],
+   "flags": [
+    "Opens with a quoted question as a setup.",
+    "'Went with' is vague and reads as a figurative verb."
+   ]
+  },
+  {
+   "tmp_id": "C05-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a 1990s Baltimore study of more able women in their 70s, those who had changed how they walked or climbed stairs, yet reported no difficulty, were already slower and weaker and more likely to develop difficulty within 18 months.",
+     "fix": "\"In a 1990s Baltimore study of more able women in their 70s, some reported no difficulty but had changed how they walked or climbed stairs. They were already slower and weaker, and were more likely to develop difficulty within 18 months.\""
+    }
+   ],
+   "flags": [
+    "Opening question used as a setup, answered by the post."
+   ]
+  },
+  {
+   "tmp_id": "C05-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In 16 studies of 42,775 older people living at home who were reassessed after about 4 years on average (range 1 to 10), 14 in 100 became less frail, 29 in 100 became more frail, and 57 in 100 stayed the same.",
+     "fix": "\"16 studies followed 42,775 older people living at home. They were reassessed after about 4 years on average (range 1 to 10). 14 in 100 became less frail. 29 in 100 became more frail. 57 in 100 stayed the same.\""
+    },
+    {
+     "item": "6",
+     "quote": "Among people who were frail, improvement was mostly to the early stage (called prefrail): 40 in 100 moved there, and only 3 in 100 lost all signs of frailty.",
+     "fix": "\"Among people who were frail, 40 in 100 improved to the early stage, called prefrail. Only 3 in 100 lost all signs of frailty.\""
+    }
+   ],
+   "flags": [
+    "\"Being told you are frail describes where you are now. It can change.\" - reassuring opening; the post itself shows worsening was about twice as common as improvement, but never says so plainly.",
+    "\"International guidelines put exercise ... first\" - 'first' means first-line treatment; say so."
+   ]
+  },
+  {
+   "tmp_id": "C05-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "7",
+     "quote": "A US study of 754 people found the same: going straight from frail to not frail at all was very rare, under 1 in 100 in each 18 months.",
+     "fix": "Delete the sentence, or reconcile: \"The 3 in 100 above is over about 4 years; the US study's under 1 in 100 is per 18 months.\" (this uses only figures already in the post)"
+    },
+    {
+     "item": "6",
+     "quote": "Reaching none of the frailty signs was far more common from the early stage (called prefrail) than from frailty. Among people who were prefrail, about 23 in 100 later showed none of the frailty signs, while about 18 in 100 became frail.",
+     "fix": "\"People who were prefrail were much more likely to lose all frailty signs than people who were frail. About 23 in 100 prefrail people later showed none of the signs. About 18 in 100 became frail.\""
+    },
+    {
+     "item": "6",
+     "quote": "They recommend protein or calorie supplements for people who are losing weight or undernourished, and a fuller assessment for anyone found to be frail (Dent 2019).",
+     "fix": "Split at \"undernourished.\" and start a new sentence for the assessment."
+    }
+   ],
+   "flags": [
+    "Numbered list used for three numbers; fine, but the post is long for a phone.",
+    "\"It can change, in both directions\" - correct and honest."
+   ]
+  },
+  {
+   "tmp_id": "C05-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Guidelines put strength exercise first.",
+     "fix": "\"Guidelines name exercise that includes strength training as the first treatment for frailty.\""
+    }
+   ],
+   "flags": [
+    "'first' and 'Guidelines' unqualified (which guidelines, first what).",
+    "Final sentence jumps from exercise to review date without a link."
+   ]
+  },
+  {
+   "tmp_id": "C05-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "3 in 100 to none",
+     "fix": "\"3 in 100 lost all signs of frailty\""
+    },
+    {
+     "item": "6",
+     "quote": "In 16 studies of 42,775 older people living at home, over about 4 years on average, 14 in 100 became less frail and 29 in 100 more frail.",
+     "fix": "\"16 studies followed 42,775 older people living at home for about 4 years on average. 14 in 100 became less frail and 29 in 100 more frail.\""
+    }
+   ],
+   "flags": [
+    "\"describes now, not forever\" is a negation-then-correction shape and could read as false reassurance, since more people worsened (29 in 100) than improved (14 in 100).",
+    "'milder early stage' is not named; 'none' is unclear."
+   ]
+  },
+  {
+   "tmp_id": "C05-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Its developers say level 6 can describe someone with moderate dementia who can wash and dress only with prompting, or someone whose thinking is fine but who needs a person standing by because of a physical disability.",
+     "fix": "\"Its developers say level 6 can describe two people. One has moderate dementia and can wash and dress only with prompting. The other thinks clearly but needs a person standing by because of a physical disability.\""
+    }
+   ],
+   "flags": [
+    "Example label \"walks independently\" sits oddly beside level 6 (needs help outside the home); check it is meant to be a plausible example."
+   ]
+  },
+  {
+   "tmp_id": "C05-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "This post makes no claim that outcomes differ by the route to a score. No study of that was found in the searches behind it.",
+     "fix": "End on the action: move the limit earlier and close with \"We should write the reason next to the number.\""
+    },
+    {
+     "item": "6",
+     "quote": "Level 6 describes someone who needs help with all activities outside the home and with housework, often has trouble with stairs, needs help to bathe, and may need prompting or someone standing by while dressing.",
+     "fix": "Break into a short list or two sentences after \"housework\"."
+    },
+    {
+     "item": "6",
+     "quote": "The developers point out that this pattern fits two quite different people: someone with moderate dementia who can wash and dress only with prompting, and someone whose thinking is fine but whose physical disability means they need a person standing by (Rockwood and Theou 2020).",
+     "fix": "\"The developers point out that this pattern fits two quite different people. One has moderate dementia and can wash and dress only with prompting. The other thinks clearly but needs a person standing by because of a physical disability (Rockwood and Theou 2020).\""
+    }
+   ],
+   "flags": [
+    "\"My suggestion is clinical judgement, not a published recommendation\" and \"not a substitute for one\" are negation-then-correction shapes.",
+    "\"They send the next reader in different directions\" is figurative.",
+    "\"the searches behind it\" is process talk the reader cannot use."
+   ]
+  },
+  {
+   "tmp_id": "C05-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A Clinical Frailty Scale score of 6 can mean moderate dementia with prompting to dress, or intact thinking with a physical disability that means someone must stand by.",
+     "fix": "\"A Clinical Frailty Scale score of 6 can mean moderate dementia with prompting to dress. It can also mean clear thinking with a physical disability, where someone must stand by.\""
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C05-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Strong; no changes needed."
+   ]
+  },
+  {
+   "tmp_id": "C05-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Ask this series explain one piece of hospital shorthand at a time.",
+     "fix": "Delete and end on the action: \"You can ask what your score was based on.\""
+    },
+    {
+     "item": "6",
+     "quote": "Level 9 is for people expected to live less than about 6 months who are not otherwise severely frail; many are still active.",
+     "fix": "\"Level 9 is for people expected to live less than about 6 months. They are not otherwise severely frail, and many are still active.\" Also reconcile with \"9 (terminally ill)\" in line 1."
+    }
+   ],
+   "flags": [
+    "Opens with a setup question (\"Seen 'CFS 6' in a hospital letter?\") answered by the post.",
+    "Empty/promotional close (series plug).",
+    "Line 1 calls 9 'terminally ill' but level 9 text says many are still active: reads as a contradiction."
+   ]
+  },
+  {
+   "tmp_id": "C05-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Ask this series explain one piece of hospital shorthand at a time.",
+     "fix": "Delete; the real close is the question list above: \"You can ask: what was my score based on, does it describe me before this illness, and what is it being used for?\" End there."
+    },
+    {
+     "item": "6",
+     "quote": "A person's worth does not depend on a number, and we should not let the score alone decide treatment.",
+     "fix": "\"The score is one input. It should not be the only thing that decides treatment.\" (drops the moral aside and the negation-then-correction)"
+    },
+    {
+     "item": "6",
+     "quote": "It was designed for older people and is not well tested in younger people or in people with a long-standing single disability (Rockwood and Theou 2020).",
+     "fix": "\"It was designed for older people. It is not well tested in younger people or in people with a long-standing single disability (Rockwood and Theou 2020).\""
+    }
+   ],
+   "flags": [
+    "Opens with a setup question.",
+    "\"A person's worth does not depend on a number\" reads as patronising for a family reader.",
+    "Long for a phone: seven numbered levels plus caveats."
+   ]
+  },
+  {
+   "tmp_id": "C05-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "\"It should describe your usual self\" - 'it' could be taken as the letter; minor.",
+    "Does not say what 6 means although it is the headline example."
+   ]
+  },
+  {
+   "tmp_id": "C05-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Strong. \"usual self\" is plain."
+   ]
+  },
+  {
+   "tmp_id": "C05-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a Baltimore trial of 300 older people on low incomes, half were offered up to 10 home visits from an occupational therapist, a nurse and a handyperson, working on goals each person chose.",
+     "fix": "\"A Baltimore trial included 300 older people on low incomes. Half were offered up to 10 home visits from an occupational therapist, a nurse and a handyperson. The visits worked on goals each person chose.\""
+    },
+    {
+     "item": "6",
+     "quote": "At 5 months the first group reported less difficulty with basic daily tasks such as washing, dressing and using the toilet, on an overall score.",
+     "fix": "\"At 5 months the first group reported less difficulty with washing, dressing and using the toilet.\""
+    }
+   ],
+   "flags": [
+    "\"what your home asks of it\" is figurative.",
+    "\"the difference faded\" is a figurative verb; use \"was no longer clear\".",
+    "\"against 4 in 10\" should say \"4 in 10 of those given social visits\"."
+   ]
+  },
+  {
+   "tmp_id": "C05-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Their average difficulty scores were about 30% lower than the comparison group's (a relative comparison of scores, not of people).",
+     "fix": "\"On a scale of difficulty with daily tasks, their average score was about 30% lower than the comparison group's.\" (drops the negation-correction parenthesis; if the scale range is known, state it)"
+    },
+    {
+     "item": "6",
+     "quote": "A 2025 trial of the same programme in 268 people about 60 days after leaving hospital, who had already had home health care, did not clearly improve basic daily tasks compared with no further care, though a measure of walking and stairs improved more.",
+     "fix": "\"A 2025 trial tested the same programme in 268 people about 60 days after leaving hospital. All had already had home health care. Basic daily tasks did not clearly improve compared with no further care. A measure of walking and stairs improved more.\""
+    }
+   ],
+   "flags": [
+    "\"The limits deserve equal space\" is meta commentary.",
+    "\"Seven months after the visits stopped, the difference had faded\" - figurative; also check it matches the 12-month point."
+   ]
+  },
+  {
+   "tmp_id": "C05-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "At 5 months they reported less difficulty with basic daily tasks such as washing and dressing than with social visits; not clearly at 12 months.",
+     "fix": "\"The other half got friendly social visits. At 5 months the visited group reported less difficulty with washing and dressing. At 12 months the difference was not clear.\""
+    },
+    {
+     "item": "1",
+     "quote": "sent an occupational therapist, nurse and handyperson to half.",
+     "fix": "\"sent an occupational therapist, nurse and handyperson to half of them.\" (the comparison group is otherwise unclear)"
+    }
+   ],
+   "flags": [
+    "\"than with social visits\" is a garbled comparison; needs two readings."
+   ]
+  },
+  {
+   "tmp_id": "C05-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "\"The gain faded by 12 months\" - figurative verb; use \"was not clear by 12 months\"."
+   ]
+  },
+  {
+   "tmp_id": "C05-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "In those 21 community studies, unplanned hospital admissions may be lower, but the evidence is low certainty.",
+     "fix": "\"In 21 studies of frail people living at home, unplanned hospital admissions may be lower, but the evidence is low certainty.\" ('those 21' has no earlier mention.)"
+    }
+   ],
+   "flags": [
+    "Opening claim 'good evidence' sits beside a 4 in 100 difference; the numbers are given, so acceptable.",
+    "Second paragraph says 'trials found little or no difference' before 'In those 21 community studies' introduces the number."
+   ]
+  },
+  {
+   "tmp_id": "C05-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Comprehensive geriatric assessment (CGA) has good evidence of benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves, with a possible reduction in unplanned admissions on low-certainty evidence.",
+     "fix": "Split the second sentence after \"care home moves.\" and put the admissions point in its own sentence."
+    }
+   ],
+   "flags": [
+    "Extra detail on wards versus visiting teams dilutes the point.",
+    "'Good evidence' then 'effects are modest' - say which in the opening."
+   ]
+  },
+  {
+   "tmp_id": "C05-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Cochrane, 29 hospital trials: with geriatric assessment about 60 in 100 were alive and at home at 3 to 12 months vs 56 without; fewer moved into care homes; same deaths.",
+     "fix": "\"A Cochrane review of 29 hospital trials found that with geriatric assessment about 60 in 100 were alive and at home at 3 to 12 months, against 56 in 100 without. Fewer moved into care homes. Deaths were the same.\" (If length forbids, drop the 'Tested:' line.)"
+    }
+   ],
+   "flags": [
+    "Telegraphic: semicolons and a final fragment (\"Tested: team assessment, plan, follow-up.\")."
+   ]
+  },
+  {
+   "tmp_id": "C05-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Strong."
+   ]
+  },
+  {
+   "tmp_id": "C05-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 0
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "for almost 9 in 10 pairs, agreement was moderate at best (kappa 0.10 to 0.83 overall)",
+     "fix": "A kappa of 0.83 is not 'moderate'; the reader cannot reconcile the two. Fix: give one figure with its meaning, e.g. \"For almost 9 in 10 pairs of tools, agreement on who was frail was moderate at best.\" and drop the range (or explain: 1 is perfect agreement, 0 is chance)."
+    },
+    {
+     "item": "2",
+     "quote": "kappa",
+     "fix": "Replace with \"a measure of agreement where 1 is perfect\" or drop it."
+    },
+    {
+     "item": "7",
+     "quote": "almost 9 in 10 pairs, agreement was moderate at best (kappa 0.10 to 0.83 overall)",
+     "fix": "Two descriptions of the same agreement with no reconciliation; give one."
+    },
+    {
+     "item": "5",
+     "quote": "Some tools were rebuilt from the study's data, so they approximate the originals.",
+     "fix": "End on the action: \"Before applying a study 'in frail older people', check which tool and cut-off it used.\""
+    }
+   ],
+   "flags": [
+    "Opens with a setup question (\"Which tool decided who was frail?\") answered by the post."
+   ]
+  },
+  {
+   "tmp_id": "C05-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Agreement between pairs ranged from kappa 0.10 to 0.83 (where 1 is perfect agreement), and almost 9 in 10 pairs showed moderate agreement at best.",
+     "fix": "State what 'moderate' means in kappa terms or drop one figure, e.g. \"Almost 9 in 10 pairs of tools agreed only moderately at best.\""
+    },
+    {
+     "item": "7",
+     "quote": "kappa 0.10 to 0.83 ... almost 9 in 10 pairs showed moderate agreement at best",
+     "fix": "Two figures on one effect; keep only the 9 in 10 statement and the 3 in 10 worked illustration."
+    },
+    {
+     "item": "6",
+     "quote": "In the authors' worked illustration, at an assumed prevalence of 20%, the worst pairs would label about 3 in 10 people differently.",
+     "fix": "\"The authors gave an example. If 20 in 100 people were truly frail, the worst pairs of tools would label about 3 in 10 people differently.\""
+    },
+    {
+     "item": "6",
+     "quote": "Pooling many studies of people aged 50 and over, tools based on physical measures labelled about 1 in 8 as frail, and tools counting many health problems about 1 in 4.",
+     "fix": "Cut this paragraph or split into two sentences; it adds figures (4 to 59 in 100, 1 in 8, 1 in 4) that compete with the main point."
+    }
+   ],
+   "flags": [
+    "Opens with a setup question.",
+    "Too many prevalence figures from other studies dilute the single claim."
+   ]
+  },
+  {
+   "tmp_id": "C05-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "35 frailty tools applied to the same 5,377 people in England: the 29 with a published cut-off called between about 1 in 100 and about 7 in 10 of them frail, and the tools often disagreed on who.",
+     "fix": "\"Researchers applied 35 frailty tools to the same 5,377 people in England. The 29 tools with a published cut-off called between about 1 in 100 and about 7 in 10 of them frail. The tools often disagreed on who.\""
+    }
+   ],
+   "flags": [
+    "Telegraphic first line needs two readings; age range of the people missing."
+   ]
+  },
+  {
+   "tmp_id": "C05-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opens with a setup question answered by the post.",
+    "'moderate at best' is undefined but acceptable for practitioners."
+   ]
+  }
+ ]
+}

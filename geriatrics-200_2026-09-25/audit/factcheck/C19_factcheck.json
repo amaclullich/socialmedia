@@ -1,0 +1,534 @@
+{
+ "category": "C19",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C19-P01",
+  "C19-P02",
+  "C19-P03",
+  "C19-P04",
+  "C19-P05",
+  "C19-P06",
+  "C19-P07",
+  "C19-P08",
+  "C19-P09",
+  "C19-P10",
+  "C19-P11",
+  "C19-P12"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:10678857",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:27560380",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:19828530",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:20471544",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:20816546",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; evening scores (-0.3 oxygen, -0.5 room air) not carried by posts."
+  },
+  {
+   "key": "PMID:22921175",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; n=32 is not in the abstract (3 = 9%, 91% tolerated; arithmetic consistent)."
+  },
+  {
+   "key": "PMID:26555077",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23414145",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; the review's conclusion that about four fifths did not change preference is not carried by the posts."
+  },
+  {
+   "key": "PMID:28281406",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28385893",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31013279",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; abstract reports dose-response for hospital vs home death and no specialist palliative care only."
+  },
+  {
+   "key": "PMID:20818875",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches the abstract, but claim C19-36-a omits that results are for the 107 assessed at 12 weeks (27 died); posts inherit this."
+  },
+  {
+   "key": "PMID:28167398",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25250737",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:16764222",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34609452",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:18254072",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:41024465",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37838081",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; abstract says 'administered in 31% of those cases', not prescriptions."
+  },
+  {
+   "key": "PMID:8628340",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; Rescue 911 is a reality programme."
+  },
+  {
+   "key": "PMID:24746785",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:27091801",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Record matches; 'ongoing care' view was in the intervention arm only."
+  },
+  {
+   "key": "PMID:40619871",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC13347516)",
+   "matches_record": true,
+   "note": "Record matches full text; 6% statistic has no stated medicine status; metoclopramide/haloperidol listed in perioperative section."
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C19-P02",
+   "where": "visual_text",
+   "text": "Breathlessness: try a fan before oxygen",
+   "problem": "Headline states a recommendation as if it were a finding. No trial compared a fan with oxygen; the two trials asked different questions (fan face vs leg for 5 minutes; oxygen vs room air for 7 days). 'Before oxygen' also reads as if a fan is better than oxygen, and it carries no 'our suggestion' marker (STYLE 9, judgement must be marked).",
+   "source_says": "Galbraith: fan to face vs fan to legs, 5 minutes. Abernethy: oxygen vs room air via same cannula, no extra benefit in people with PaO2 above 7.3 kPa. Neither compares fan with oxygen.",
+   "severity": "major",
+   "replacement": "Breathlessness: our suggestion is a fan first, and oxygen only if it helps"
+  },
+  {
+   "tmp_id": "C19-P02",
+   "where": "x",
+   "text": "Both groups felt a little better.",
+   "problem": "Only the morning score improved in both arms. Evening breathlessness changed by -0.3 (95% CI -0.7 to 0.1) with oxygen and -0.5 (-0.9 to -0.1) with room air, so 'both groups felt a little better' is true for morning ratings only. Same sentence appears in LinkedIn, Threads and visual_text ('Both groups felt a little better'); the alt text says 'both groups improved slightly (-0.9 and -0.7 on a 0 to 10 scale)' without 'morning'.",
+   "source_says": "From baseline to day 6, mean morning breathlessness changed by -0.9 (oxygen) and -0.7 (room air), p=0.504; evening -0.3 and -0.5, p=0.554.",
+   "severity": "minor",
+   "replacement": "In the morning, both groups reported slightly less breathlessness. (Visual: 'Morning breathlessness fell slightly in both groups'. Alt text: 'morning breathlessness fell slightly in both groups (-0.9 and -0.7 on a 0 to 10 scale)'.)"
+  },
+  {
+   "tmp_id": "C19-P02",
+   "where": "bluesky",
+   "text": "A hand-held fan on the face eased breathlessness more than a fan on the legs in a trial of 50 people with advanced illness.",
+   "problem": "Compression drops the 5-minute, short-term limit, so the short version reads as a lasting effect.",
+   "source_says": "Fan directed to face or leg for five minutes in a crossover design; no longer-term outcome measured.",
+   "severity": "minor",
+   "replacement": "In a small trial of 50 people with advanced illness, five minutes of a hand-held fan on the face eased breathlessness more than a fan on the legs."
+  },
+  {
+   "tmp_id": "C19-P02",
+   "where": "linkedin",
+   "text": "Oxygen also means tubing and equipment, which some people find hard to live with.",
+   "problem": "No opened source states that people find oxygen tubing or equipment hard to live with. Campbell's nasal irritation/cost line is background, and Abernethy found side-effects did not differ between oxygen and room air through the same tubes (claim C19-21-d is only partly supported).",
+   "source_says": "Abernethy conclusion: oxygen gave no additional symptomatic benefit over room air, 'less burdensome strategies should be considered after brief assessment'. Side-effect frequency did not differ.",
+   "severity": "minor",
+   "replacement": "The authors of the oxygen trial concluded that less burdensome strategies should be considered after a brief check of whether oxygen helps the individual."
+  },
+  {
+   "tmp_id": "C19-P02",
+   "where": "linkedin",
+   "text": "A small study looked at 32 people close to death who were not in distress.",
+   "problem": "The sample size of 32 is not in the PubMed abstract (abstract gives 91% tolerated, 3 patients = 9%; 3/32 fits arithmetically). Observer-rating of distress is not carried. Confirm n=32 in the full text or drop the number.",
+   "source_says": "Double-blind repeated-measures study, oxygen/air/no flow alternated every 10 minutes; Respiratory Distress Observation Scale; 3 patients (9%) displayed distress and were restored to baseline oxygen.",
+   "severity": "minor",
+   "replacement": "A small US study looked at people close to death who were not in distress at the start. Observers rated their breathing distress while oxygen, air and no flow were switched every 10 minutes."
+  },
+  {
+   "tmp_id": "C19-P03",
+   "where": "bluesky",
+   "text": "Families who understood the likely course were linked with fewer hospital-type interventions.",
+   "problem": "The outcome included parenteral therapy and tube feeding, which are not necessarily hospital interventions; and the exposure was the health care proxy's understanding, not 'families'. Threads has the same 'hospital-type' wording.",
+   "source_says": "Burdensome interventions = hospitalization, ER visit, parenteral therapy, or tube feeding; proxies who understood prognosis had adjusted OR 0.12 (0.04-0.37) for these in the last 3 months.",
+   "severity": "minor",
+   "replacement": "Residents whose health care proxies understood the likely course were linked with fewer burdensome interventions (hospital transfers, emergency visits, drips, tube feeding)."
+  },
+  {
+   "tmp_id": "C19-P03",
+   "where": "x",
+   "text": "Those whose families understood the likely course were much less likely to have these.",
+   "problem": "The source variable is the health care proxy's understanding of prognosis and expected complications, not 'families' generally. Same wording in LinkedIn ('Residents whose families understood').",
+   "source_says": "'Residents whose proxies had an understanding of the poor prognosis and clinical complications expected in advanced dementia were much less likely to have burdensome interventions'.",
+   "severity": "minor",
+   "replacement": "Those whose health care proxies (the person who decides for the resident) understood the likely course were much less likely to have these."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "visual_text",
+   "text": "Many people are never asked where they would like to be cared for. About 1 in 5 changed their preference as illness progressed.",
+   "problem": "Two errors in the visual statement. (1) Hoare counted views 'not asked, expressed or reported' within 61 UK studies; it does not show many people are 'never asked' in real life. (2) The 1 in 5 is from the separate 210-study international review (10 studies, 1395 patients, significance untested, 8 of 10 studies not high quality), not from the UK review; the visual cites both and runs them together, with no caveat. The alt text repeats it.",
+   "source_says": "Hoare: missing data (not asked, expressed or reported) were common. Gomes: 20% of 1395 patients in 10 studies (2 of high quality) changed preference, significance untested; around four fifths did not change.",
+   "severity": "major",
+   "replacement": "In 61 UK studies, many people's preferences were not asked, expressed or recorded. In a separate review, about 1 in 5 patients (10 studies) changed their preference as illness progressed; about 4 in 5 did not. (Alt text to match.)"
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "bluesky",
+   "text": "But a review of 61 studies found many were never asked, so the true share is unknown. About 1 in 5 changed their preference as illness progressed.",
+   "problem": "Population/source swap: the sentences read as if the 1 in 5 who changed preference came from the same UK review. It comes from Gomes (210 studies, 33 countries), based on 10 studies, untested for significance. 'Never asked' also overstates 'not asked, expressed or reported'.",
+   "source_says": "Hoare (61 UK studies): missing data common. Gomes (210 studies): 20% of 1395 patients in 10 studies changed preference, significance untested.",
+   "severity": "major",
+   "replacement": "In 61 UK studies, most recorded views favoured home, but many views were not asked, expressed or recorded, so the true share is unknown. A separate review: about 1 in 5 patients (10 studies) changed preference as illness progressed. We should ask, record, and ask again."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "threads",
+   "text": "In 10 studies, about 1 in 5 patients changed their preference as illness progressed.",
+   "problem": "Placed straight after the sentence about the 61 UK studies, so it reads as part of that review; it is from the separate Gomes review. Also omits that significance was untested and that about 4 in 5 did not change. 'Many people were never asked' earlier in Threads has the same overstatement.",
+   "source_says": "Gomes: 20% of 1395 patients in 10 studies (2 of high quality) changed their preference, statistical significance untested; around four fifths did not change.",
+   "severity": "major",
+   "replacement": "A separate review of 210 studies found that, in 10 of them, about 1 in 5 patients changed their preference as illness progressed. That was not tested for statistical significance, and about 4 in 5 did not change."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "x",
+   "text": "In patients, estimates ranged from about 3 in 10 to nearly 9 in 10. In 10 studies, about 1 in 5 patients changed their preference as illness progressed.",
+   "problem": "X drops two qualifiers that LinkedIn carries. The 31%-87% range is for the high-quality patient studies after excluding outliers (9 studies). The 1 in 5 figure is from 10 studies, mostly low quality, with significance untested; the review's own conclusion is that around four fifths did not change.",
+   "source_says": "Amongst high-quality studies and excluding outliers, home preference ranged 31% to 87% for patients (9 studies). 20% of 1395 patients in 10 studies (2 of high quality) changed preference, significance untested.",
+   "severity": "major",
+   "replacement": "In the better-quality studies of patients, estimates ranged from about 3 in 10 to nearly 9 in 10. In 10 studies, mostly of lower quality, about 1 in 5 patients changed their preference as illness progressed, which was not tested for statistical significance. About 4 in 5 did not change."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "x",
+   "text": "A review of 61 UK studies found that many people's wishes about where to die were never asked or recorded.",
+   "problem": "Hoare's missing data are views 'not asked, expressed or reported', which includes people with no preference or who did not express one. 'Never asked' is stronger than the source. Also in LinkedIn ('were never asked or recorded'), Bluesky and Threads ('never asked').",
+   "source_says": "'the views of those whose preferences were not asked, expressed or reported or absent in studies'.",
+   "severity": "minor",
+   "replacement": "A review of 61 UK studies found that many people's wishes about where to die were not asked, not expressed or not recorded."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "x",
+   "text": "A larger review of 210 studies from 33 countries agrees that most people who state a preference choose home.",
+   "problem": "'Agrees' hides a difference: Hoare concluded it is unknown what proportion prefers home and urged caution in asserting that most do; Gomes concluded there was evidence that most people prefer to die at home (75% of studies). The reviews overlap only on 'among recorded or stated views, home was the most common'.",
+   "source_says": "Gomes: 'moderate evidence that most people prefer a home death - found in 75% of studies'. Hoare: 'Caution should be exercised if asserting that most patients prefer to die at home.'",
+   "severity": "minor",
+   "replacement": "A larger review of 210 studies from 33 countries also found that home was the most common stated choice."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "linkedin",
+   "text": "A well-planned death in a hospice, hospital or care home should not be counted as a failure.",
+   "problem": "A normative position on a contested policy indicator (place of death) that is not marked as the author's view and has no source. STYLE 9 requires ethical judgement to be marked.",
+   "source_says": "No source in the library addresses this; C19-04-e (home death as a UK quality indicator) was not found.",
+   "severity": "minor",
+   "replacement": "In our view, a well-planned death in a hospice, hospital or care home should not be counted as a failure."
+  },
+  {
+   "tmp_id": "C19-P04",
+   "where": "linkedin",
+   "text": "Where people were asked, such as in a hospice or at home, was also linked with the place they said they preferred.",
+   "problem": "The examples 'a hospice or at home' are not in the abstract opened; the abstract says only that preferred place was related to where the person was asked.",
+   "source_says": "'Where patients wished to die was related to where they were asked their preference.'",
+   "severity": "minor",
+   "replacement": "Where people were asked was also linked with the place they said they preferred."
+  },
+  {
+   "tmp_id": "C19-P05",
+   "where": "x",
+   "text": "Changing the person's position is a usual first step. There is little trial evidence that medicines reduce the sound once it has started. Relatives need time and explanation.",
+   "problem": "(1) 'Usual first step' is not in the Cochrane passage, which says the sound is managed physically (repositioning, suction) or with anticholinergics; the same review found no evidence that any non-drug intervention beats placebo, which the X, Bluesky and Threads versions leave out, so repositioning sounds evidence-backed. (2) The evidence statement rests on a 2008 review (searches to 2007) and is not dated; the 2021 trial tested prevention, not treatment. Applies to Bluesky, Threads and visual ('a usual first step') too.",
+   "source_says": "Cochrane 2008: 'managed physically (repositioning and clearing the upper airways...) or pharmacologically'; 'no evidence to show that any intervention, be it pharmacological or non-pharmacological, is superior to placebo in the treatment of death rattle'.",
+   "severity": "minor",
+   "replacement": "Changing the person's position is one of the usual ways to manage it. A 2008 Cochrane review found no trial evidence that it, or any medicine, quiets the sound once it has started. Relatives need time and explanation. (Visual: 'Changing the person's position is one usual way to manage the sound'.)"
+  },
+  {
+   "tmp_id": "C19-P05",
+   "where": "x",
+   "text": "Some relatives are upset by it, especially when they think the person is choking or drowning. Others are not.",
+   "problem": "Undersells the finding: in the interview studies 10 of 17 (Wee II) and about 5 of 12 (Wee I) were distressed, and the 2025 scoping review (the post's own source) says distress among carers was common and that death rattle is frequently distressing. 'Some' may falsely reassure. Same in Bluesky and Threads.",
+   "source_says": "Fagan 2025: 'related distress was common amongst informal carers'; 'Death rattle is frequently distressing'. Wee II: 10 distressed, 7 not, of 17 who heard it.",
+   "severity": "minor",
+   "replacement": "In interview studies, many relatives were upset by it, especially when they thought the person was choking or drowning. Others were not."
+  },
+  {
+   "tmp_id": "C19-P05",
+   "where": "x",
+   "text": "Experts generally agree the sound is unlikely to distress the dying person. This has not been measured well.",
+   "problem": "'Experts generally agree' attributes an opinion; the source says the included studies reached a consensus, based on only 2 patient-focused studies of 14. Visual and Bluesky repeat 'Experts think'.",
+   "source_says": "'although there was a consensus that death rattle is not distressing to affected patients'; 14 studies, 2 focused on patients; 'Further research is needed to determine the effect on patients'.",
+   "severity": "minor",
+   "replacement": "A 2025 review of 14 studies found general agreement that the sound does not distress the dying person, but only 2 of the studies looked at patients. (Visual: 'Studies generally find the sound does not distress the person; few looked at patients'.)"
+  },
+  {
+   "tmp_id": "C19-P05",
+   "where": "linkedin",
+   "text": "Restlessness was 28 in 100 compared with 23 in 100.",
+   "problem": "One adverse event is reported without saying whether the difference is clear; the abstract gives no test for it, and other events went the other way (dry mouth 10% vs 15%). A reader could take it as shown harm or as nothing.",
+   "source_says": "Restlessness 22/79 (28%) vs 18/78 (23%); dry mouth 8/79 (10%) vs 12/78 (15%); urinary retention 6/26 (23%) vs 3/18 (17%). No test reported in the abstract.",
+   "severity": "minor",
+   "replacement": "Restlessness was reported in 28 in 100 on the injection and 23 in 100 on placebo, and the abstract does not say whether that difference was more than chance. Dry mouth was reported in 10 in 100 and 15 in 100."
+  },
+  {
+   "tmp_id": "C19-P06",
+   "where": "x",
+   "text": "The figure comes from a national survey of 1,504 bereaved carers.",
+   "problem": "The survey was mailed to people who registered a cancer death; over 90% of respondents reported giving care, so about 1 in 10 respondents were not carers. 'Bereaved carers' misdescribes the respondents. Same in Bluesky and visual ('1,504 bereaved carers').",
+   "source_says": "'Survey packs were mailed to 5271 people who registered the death of a relative to cancer'; 'Over 90% of respondents reported spending time on care-giving'.",
+   "severity": "minor",
+   "replacement": "The figure comes from a national survey of 1,504 bereaved relatives who had registered a cancer death."
+  },
+  {
+   "tmp_id": "C19-P06",
+   "where": "x",
+   "text": "The summary does not say whether the hours include time on call.",
+   "problem": "'The summary' is unclear to a lay reader and could be read as the post's own summary; the limit belongs to the published abstract. Same in LinkedIn and visual.",
+   "source_says": "Abstract: 'a median 69 h 30 min of care-giving each week'; on-call time not addressed.",
+   "severity": "minor",
+   "replacement": "The published abstract does not say whether the hours include time on call."
+  },
+  {
+   "tmp_id": "C19-P06",
+   "where": "linkedin",
+   "text": "A plan that leaves those unanswered assumes unlimited unpaid time.",
+   "problem": "A rhetorical inference stated as fact, not marked as the author's view.",
+   "source_says": "Not a finding of Rowland et al.",
+   "severity": "minor",
+   "replacement": "In our view, a plan that leaves those unanswered assumes unlimited unpaid time."
+  },
+  {
+   "tmp_id": "C19-P06",
+   "where": "visual_text",
+   "text": "One week: 168 hours",
+   "problem": "The 168-hour comparison bar invites a reading of '41% of the week' for one person. The 69.5 hours is a median across respondents, with unknown overlap with on-call time, so the proportion is not a finding.",
+   "source_says": "Median 69 h 30 min of care-giving each week among respondents; not a share of the week.",
+   "severity": "minor",
+   "replacement": "One week: 168 hours (for scale only; 69 h 30 min is a median across carers, not one person's week)"
+  },
+  {
+   "tmp_id": "C19-P07",
+   "where": "linkedin",
+   "text": "A 2025 practice review notes that some people have good symptom control without the medicines near the end of life. In one study it cites, severe motor symptoms were present in 6 in 100 people in the last 72 hours of life.",
+   "problem": "Unsupported inference on a high-stakes decision. The review says one can omit dopaminergic treatment 'if a person has sufficient symptom control with palliative treatments, including palliative sedation', and that stopping suddenly carries a PHS risk. The 6% figure is a background statistic about severe motor symptoms in the last 72 hours with no statement of whether those people were off dopaminergic medicines; in the UK cohort the review cites, 55% had rotigotine substituted at death. Placing the 6% after 'without the medicines' implies that figure shows people do well off them.",
+   "source_says": "'In the 72 h before death, severe motor symptoms were present in only 6% of persons in one study.' 'If a person has sufficient symptom control with palliative treatments, including palliative sedation, one can opt to omit dopaminergic treatment altogether - although sudden cessation carries a risk of parkinsonism-hyperpyrexia syndrome.' 'Several experts argue that diminishing and tapering off the dopaminergic medication is, at least in some PwP, possible with limited negative consequences. Others suggest to continue ... until the moment of death.'",
+   "severity": "blocker",
+   "replacement": "2. Stopping can still be a choice. A 2025 practice review says experts differ: some argue the medicines can be tapered off at the end of life in some people with limited harm, others continue them until death. It says that if symptoms are controlled with palliative treatments, one can choose to omit them, although stopping suddenly carries a risk of parkinsonism-hyperpyrexia syndrome. So ask what is making the person uncomfortable, and decide on purpose rather than by default."
+  },
+  {
+   "tmp_id": "C19-P07",
+   "where": "x",
+   "text": "Some people stay comfortable without the medicines near the end of life, so make it a decision: ask what is causing discomfort.",
+   "problem": "Same overreach in the short form: the source says experts disagree and that omission is an option only if palliative treatments control symptoms; it does not report that people stay comfortable without the medicines.",
+   "source_says": "Beckers 2025: experts differ on tapering versus continuing; omission possible with sufficient symptom control using palliative treatments.",
+   "severity": "minor",
+   "replacement": "Experts differ on whether to taper them off near the end of life, so make it a decision: ask what is causing discomfort."
+  },
+  {
+   "tmp_id": "C19-P07",
+   "where": "x",
+   "text": "Metoclopramide and haloperidol block dopamine and are listed as contraindicated in Parkinson's. Check every anti-sickness, calming and sedative medicine on the chart.",
+   "problem": "Missing the qualification in claim C19-22-c. Beckers names ketamine, metoclopramide and haloperidol as contraindicated in Parkinson's in its perioperative section, not specifically for the last days of life; 'listed' is not attributed. The 'block dopamine' mechanism is not stated in the opened passages. Haloperidol and metoclopramide are used in palliative care generally, so an unattributed blanket statement to practitioners needs its source and context. Guideline text (NICE NG71, Scottish guideline) was not opened.",
+   "source_says": "Beckers (surgery section): 'certain drugs which are commonly used periprocedurally are contraindicated in PwP (examples include ketamine, metoclopramide and haloperidol)'. Hewer abstract: 'Contraindicated dopamine antagonists were prescribed for 43% of PWP'.",
+   "severity": "major",
+   "replacement": "A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's (in its section on surgery). Check every anti-sickness, calming and sedative medicine on the chart against its dopamine-blocking effect, and ask pharmacy or the Parkinson's team. (Apply the same attribution in LinkedIn point 4, Threads and visual step 4.)"
+  },
+  {
+   "tmp_id": "C19-P07",
+   "where": "bluesky",
+   "text": "Metoclopramide and haloperidol are contraindicated.",
+   "problem": "Bare directive with no source, no setting and no Parkinson's context in the final sentence; the source statement is from a perioperative section.",
+   "source_says": "Beckers lists them as contraindicated in PwP among 'drugs commonly used periprocedurally'.",
+   "severity": "major",
+   "replacement": "A 2025 review lists metoclopramide and haloperidol as contraindicated in Parkinson's."
+  },
+  {
+   "tmp_id": "C19-P07",
+   "where": "linkedin",
+   "text": "In the same audit, 43 in 100 of the people with Parkinson's were prescribed a contraindicated dopamine blocker and 31 in 100 of those prescriptions were given.",
+   "problem": "Unit changed from the source. The abstract says contraindicated dopamine antagonists were 'prescribed for 43% of PWP and administered in 31% of those cases'; it does not say 31% of prescriptions. STYLE 9: prescriptions are not patients. The audit's drug list is not in the abstract, so the post's juxtaposition with metoclopramide and haloperidol implies drugs the abstract does not name.",
+   "source_says": "'Contraindicated dopamine antagonists were prescribed for 43% of PWP and administered in 31% of those cases.' (about 63 people, one Australian hospital)",
+   "severity": "major",
+   "replacement": "In the same audit, 43 in 100 of the people with Parkinson's were prescribed a contraindicated dopamine blocker, and in 31 in 100 of those cases it was given. The abstract does not list which drugs."
+  },
+  {
+   "tmp_id": "C19-P07",
+   "where": "linkedin",
+   "text": "3. A rotigotine skin patch is the most widely used non-oral option, but no trials show it works at the end of life, and the advice rests on case series and expert opinion.",
+   "problem": "Necessary practical qualifications from the same review are omitted: skin absorption can be reduced by sweating, cachexia and poor circulation in a palliative setting, which may limit the patch's efficacy; and the review's earlier steps (levodopa dispersed in carbonated water or thickened fluid, or a nasogastric tube if consistent with the person's wishes) come before the non-oral routes. 'Non-oral' also excludes the tube route.",
+   "source_says": "'cutaneous absorption of medication can be adversely affected by factors such as sweating, cachexia and reduced dermal blood circulation ... This may limit the efficacy of a rotigotine patch.' Step 2: dispersed or dissolved levodopa; NG tube if possible and consistent with wishes.",
+   "severity": "minor",
+   "replacement": "3. Before a patch, the review's steps include levodopa dispersed in carbonated water or thickened fluid, and a nasogastric tube if that fits the person's wishes. If neither is possible, a rotigotine skin patch is the most widely used non-oral option, but no trials show it works at the end of life, and the advice rests on case series and expert opinion. Skin absorption can fall with sweating, weight loss and poor circulation, which may limit the patch."
+  },
+  {
+   "tmp_id": "C19-P09",
+   "where": "x",
+   "text": "It appears more common in older groups.",
+   "problem": "Ecological inference: the moderator was the mean age of each study's sample, not age within individuals. 'Older groups' reads as if older individuals are at higher risk. Same wording in LinkedIn, Bluesky, Threads, visual text and alt text.",
+   "source_says": "'Moderation analyses showed higher mean age to be associated with higher prevalence of PGD' across 14 studies.",
+   "severity": "minor",
+   "replacement": "Studies with older participants on average found higher rates."
+  },
+  {
+   "tmp_id": "C19-P09",
+   "where": "threads",
+   "text": "Roughly 1 in 10 bereaved adults develop it in pooled studies.",
+   "problem": "Drops the 'non-violent bereavement' limit that X, Bluesky and the first visual slide carry, and the visual's second slide says 'About 1 in 10 bereaved adults'. The figure is a pooled prevalence (9.8%, CI 6.8-14.0), not the share who 'develop' it.",
+   "source_says": "Pooled prevalence 9.8% (95% CI 6.8-14.0) in adults exposed to non-violent bereavement; studies heterogeneous and of limited representativeness.",
+   "severity": "minor",
+   "replacement": "Roughly 1 in 10 adults bereaved by a non-violent death had it, in pooled studies. (Visual slide 2: 'About 1 in 10 adults bereaved by a non-violent death'.)"
+  },
+  {
+   "tmp_id": "C19-P09",
+   "where": "linkedin",
+   "text": "The studies differed from each other and used criteria that predate the current diagnosis.",
+   "problem": "'The current diagnosis' is not supported by any opened source: Lundorff 2017 says only that PGD was 'expected to be included in the forthcoming ICD-11', and the ICD-11 claim (C19-29-c) was not verified.",
+   "source_says": "'Prolonged grief disorder (PGD) is a bereavement-specific syndrome expected to be included in the forthcoming ICD-11'; studies 'methodologically heterogeneous'.",
+   "severity": "minor",
+   "replacement": "The studies differed from each other and used differing definitions of the disorder."
+  },
+  {
+   "tmp_id": "C19-P10",
+   "where": "visual_text",
+   "text": "The poorer the neighbourhood, the more hospital deaths",
+   "problem": "Headline misstates the outcome. The pooled result is the odds of dying in hospital versus at home, not the number of hospital deaths, and the per-quintile gradient is for hospital-versus-home death only.",
+   "source_says": "Most vs least deprived neighbourhoods: more likely to die in hospital versus home (OR 1.30); per quintile increase, hospital versus home death more likely (OR 1.07).",
+   "severity": "major",
+   "replacement": "The poorer the neighbourhood, the more likely a hospital death rather than a home death"
+  },
+  {
+   "tmp_id": "C19-P10",
+   "where": "x",
+   "text": "The gap grew at each step up in deprivation.",
+   "problem": "The dose-response result was reported for two outcomes only: hospital versus home death and not receiving specialist palliative care. None is reported in the abstract for acute hospital care in the last 3 months. The sentence follows all three outcomes in X, LinkedIn and Threads, and the stepped diagram (with alt text) draws all three across the five quintiles.",
+   "source_says": "'For every quintile increase in area deprivation, hospital versus home death was more likely (OR 1.07) and not receiving specialist palliative care was more likely (OR 1.03).'",
+   "severity": "major",
+   "replacement": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in deprivation. (Diagram and alt text: show the step pattern for those two outcomes only; keep acute hospital care as a most-versus-least comparison.)"
+  },
+  {
+   "tmp_id": "C19-P10",
+   "where": "x",
+   "text": "This comes from a review that combined 112 observational studies, mostly from North America.",
+   "problem": "53.5% of the 112 studies were from North America, which is 'just over half', not 'mostly'. Same in LinkedIn ('mostly from North America').",
+   "source_says": "112 studies (53.5% from North America, 31.0% from Europe, 8.5% from Australia, 7.0% from Asia).",
+   "severity": "minor",
+   "replacement": "This comes from a review that combined 112 observational studies, just over half from North America."
+  },
+  {
+   "tmp_id": "C19-P11",
+   "where": "x",
+   "text": "A US trial included 151 people with newly diagnosed advanced lung cancer. Palliative care was given alongside cancer treatment from the start. It improved quality of life. At 12 weeks, fewer people had depressive symptoms (16 in 100, compared with 38 in 100).",
+   "problem": "Wrong denominator. 151 were randomised, but 27 died by 12 weeks and the quality-of-life and mood results are for the 107 who completed the 12-week assessments. The 16% vs 38% depressive-symptom figures are among those 107, so 'of 151 people ... fewer people had depressive symptoms' misstates the population. The same sentence is in LinkedIn, Bluesky, Threads, visual text, alt text and the chart data.",
+   "source_says": "'Of the 151 patients who underwent randomization, 27 died by 12 weeks and 107 (86% of the remaining patients) completed assessments. ... fewer patients in the palliative care group than in the standard care group had depressive symptoms (16% vs. 38%, P=0.01).'",
+   "severity": "major",
+   "replacement": "A US trial randomised 151 people with newly diagnosed advanced lung cancer to palliative care alongside cancer treatment, or cancer treatment alone. Among the 107 who completed the 12-week assessments, quality of life was better with palliative care, and fewer had depressive symptoms (16 in 100, compared with 38 in 100)."
+  },
+  {
+   "tmp_id": "C19-P11",
+   "where": "visual_text",
+   "text": "Trial in advanced lung cancer only: 151 people. At 12 weeks, better quality of life and fewer with depressive symptoms (16 in 100 compared with 38 in 100).",
+   "problem": "Chart/visual text carries the same denominator error as the captions: the percentages are among the 107 assessed at 12 weeks, not the 151 randomised. Chart data labels ('Depressive symptoms at 12 weeks, early palliative care group') need the same denominator.",
+   "source_says": "107 of 151 randomised completed 12-week assessments; 27 had died.",
+   "severity": "major",
+   "replacement": "Trial in advanced lung cancer only: 151 randomised, 107 assessed at 12 weeks. Among those assessed, better quality of life and fewer with depressive symptoms (16 in 100 compared with 38 in 100). (Alt text and bar labels to match.)"
+  },
+  {
+   "tmp_id": "C19-P11",
+   "where": "bluesky",
+   "text": "In a trial of 151 people with advanced lung cancer, those given it from diagnosis had better quality of life, and fewer had depressive symptoms at 12 weeks (16 in 100 vs 38 in 100).",
+   "problem": "Same denominator error; 'from diagnosis' is also looser than the trial's 'early after diagnosis'.",
+   "source_says": "107 of 151 completed the 12-week assessments.",
+   "severity": "major",
+   "replacement": "In a trial of 151 people with advanced lung cancer, those given palliative care early had better quality of life at 12 weeks, and fewer had depressive symptoms (16 in 100 vs 38 in 100 among the 107 assessed). Evidence is from lung cancer only."
+  },
+  {
+   "tmp_id": "C19-P11",
+   "where": "threads",
+   "text": "A US trial included 151 people with advanced lung cancer. Those given palliative care from diagnosis had better quality of life. Fewer had depressive symptoms at 12 weeks (16 in 100 vs 38 in 100).",
+   "problem": "Same denominator error.",
+   "source_says": "107 of 151 completed the 12-week assessments.",
+   "severity": "major",
+   "replacement": "A US trial randomised 151 people with advanced lung cancer. Those given palliative care early had better quality of life at 12 weeks. Among the 107 assessed, fewer had depressive symptoms (16 in 100 vs 38 in 100)."
+  },
+  {
+   "tmp_id": "C19-P11",
+   "where": "x",
+   "text": "After receiving it, they described 'ongoing care' that improved their 'quality of living'.",
+   "problem": "Only the intervention-arm participants developed this broader view; control-arm participants had not received early palliative care. 'They' covers all 48 patients and 23 carers. Same in LinkedIn ('participants described').",
+   "source_says": "'During the trial, those in the intervention arm developed a broader concept of palliative care as \"ongoing care\" that improved their \"quality of living\" but still felt that the term itself carried a stigma.'",
+   "severity": "minor",
+   "replacement": "Those who received early palliative care described 'ongoing care' that improved their 'quality of living'."
+  },
+  {
+   "tmp_id": "C19-P11",
+   "where": "x",
+   "text": "Palliative care can run alongside treatment for the illness itself. It is care that focuses on symptoms, support and planning ahead.",
+   "problem": "The general statement and definition rest on no opened source (WHO definition, C19-36-b, not found). The only support is the trial design (early palliative care integrated with standard oncology care) in lung cancer. The open_issues entry acknowledges this.",
+   "source_says": "Temel: 'early palliative care integrated with standard oncologic care' vs standard care alone, in metastatic NSCLC.",
+   "severity": "minor",
+   "replacement": "Palliative care can be given alongside treatment for the illness itself, as it was in a US lung cancer trial. It is care that focuses on symptoms, support and planning ahead."
+  },
+  {
+   "tmp_id": "C19-P12",
+   "where": "x",
+   "text": "On US television medical dramas in the 1990s, about 2 in 3 people given CPR appeared to survive to leave hospital.",
+   "problem": "Diem analysed ER and Chicago Hope (dramas) and 50 episodes of Rescue 911, which is a reality-based rescue programme, not a medical drama. 'Medical dramas' / 'TV dramas' appears in X, LinkedIn, Bluesky, Threads, visual text and alt text.",
+   "source_says": "'all the episodes of ER and Chicago Hope during the 1994-1995 viewing season and 50 consecutive episodes of Rescue 911'; 67 percent appeared to have survived to hospital discharge.",
+   "severity": "minor",
+   "replacement": "On three US television programmes in 1994 to 1995 (ER, Chicago Hope and Rescue 911), about 2 in 3 people given CPR appeared to survive to leave hospital."
+  },
+  {
+   "tmp_id": "C19-P12",
+   "where": "visual_text",
+   "text": "UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person.",
+   "problem": "The side-by-side grids compare a TV sample (programme mix, many trauma arrests, 65% in children and young adults, outcome 'appeared to survive') with UK in-hospital team-attended arrests. The caveat does not say the two figures are not like for like.",
+   "source_says": "Diem: majority of arrests due to trauma; 65% in children, teenagers or young adults. Nolan: 22,628 adults aged 16+, in-hospital, team-attended, unadjusted.",
+   "severity": "minor",
+   "replacement": "The two figures are not like for like. UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person."
+  }
+ ],
+ "posts_to_drop": []
+}

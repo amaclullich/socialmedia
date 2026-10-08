@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C10-P01</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script>
+<style>.foot .src{font-size:22px}.fig{height:300px;background:var(--sand);border-radius:14px;overflow:hidden;position:relative}.fig svg{position:absolute;inset:0;width:100%;height:100%}
+.compare{margin-top:30px;flex:0 0 auto}.compare .col{gap:16px}.compare .col h3{min-height:0}.band{margin-top:28px;background:var(--deep);color:#fff;border-radius:18px;padding:26px 34px;font-size:30px;line-height:1.35;font-weight:500}</style></head><body><div class="sheet">
+<div class="card "><div class="topline"><span class="series">Teaching round</span></div><div class="content ">
+<h1 class="s">Leg pain on walking: spine or arteries?</h1>
+<div class="compare"><div class="col a"><h3>Points to the spine (lumbar spinal stenosis)</h3><div class="fig" id="fa"></div><ul><li>No pain when sitting</li><li>Eases on bending forward, as on a shopping trolley</li></ul></div>
+<div class="col b"><h3>Points to the arteries</h3><div class="fig" id="fb"></div><ul><li>Calf pain eases on standing still</li><li>Bending forward does not help</li></ul></div></div>
+<div class="band">No single answer settles it, and the two can occur together: check foot pulses or ankle pressure anyway.</div></div><div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Suri et al., JAMA 2010; Nadeau et al., Can J Surg 2013; Uesugi et al., J Orthop Sci 2012</span></div></div>
+</div><script>window.__ready=false;
+Kit.draw('#fa',500,300,[Kit.room('outdoors_street',{w:500,h:300,ground:285,scale:.7}),Kit.person({pose:'standing',x:230,y:285,scale:.62,age:'older',sex:'m',skin:'tan',hair:'grey',hairStyle:'balding',top:'plum',bottom:'slate',extras:['cardigan'],lean:12,tilt:6})],{fit:'xMidYMid slice'});
+Kit.draw('#fb',500,300,[Kit.room('outdoors_street',{w:500,h:300,ground:285,scale:.7}),Kit.person({pose:'stick',x:250,y:285,scale:.62,age:'older',sex:'f',skin:'fair',hair:'white',hairStyle:'bun',top:'sage',bottom:'navy',stickType:'crook'})],{fit:'xMidYMid slice'});
+window.__ready=true;</script></body></html>

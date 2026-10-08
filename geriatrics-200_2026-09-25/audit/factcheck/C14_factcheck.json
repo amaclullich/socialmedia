@@ -1,40 +1,572 @@
-{"category":"C14","checked":"2026-09-25",
-"posts_checked":["C14-P01","C14-P02","C14-P03","C14-P04","C14-P05","C14-P06","C14-P07","C14-P08","C14-P09","C14-P10","C14-P11"],
-"sources_reopened":[
-{"key":"PMID:25485940","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:10793337","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:8622335","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:30667516","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:32587364","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:29460275","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:14593039","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:16364936","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:35169334","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:25325767","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:12807656","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:31691470","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:31791399","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:31525271","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:31270110","tool":"mcp__PubMed__get_article_metadata","matches_record":true}],
-"issues":[
-{"tmp_id":"C14-P11","where":"visual_text","text":"Suspected active giant cell arteritis","problem":"Headline plus item 1 ('Start high-dose glucocorticoid immediately') tells readers to start steroid on suspicion. EULAR abstract recommends immediate high-dose GC in ACTIVE GCA and confirmation of a suspected diagnosis; it does not say start before confirmation. The evidence record flags this qualification. The post title says the same ('Suspected active GCA: steroid now').","source_says":"We recommend that a suspected diagnosis of LVV should be confirmed by imaging or histology. High dose glucocorticoid therapy (40-60 mg/day prednisone-equivalent) should be initiated immediately for induction of remission in active giant cell arteritis.","severity":"major","replacement":"Active giant cell arteritis: EULAR recommendations"},
-{"tmp_id":"C14-P11","where":"all","text":"prednisolone 40 to 60 mg a day","problem":"Source gives 40-60 mg/day prednisone-equivalent; wording implies one named drug.","source_says":"40-60 mg/day prednisone-equivalent","severity":"minor","replacement":"40 to 60 mg a day of prednisolone or equivalent"},
-{"tmp_id":"C14-P10","where":"x","text":"Small studies in care homes found wax needing removal in more than half of residents, and hearing improved in most blocked ears after removal.","problem":"Hearing improvement was measured in only one study (29 new admissions to a US skilled nursing facility); plural 'studies' overstates the evidence for the hearing outcome. Same wording in threads, bluesky and visual_text.","source_says":"Moore 2002: 29 residents; hearing improved in 80% of impacted ears vs 3% of nonimpacted. Morley 2019: 57% of 51 residents had excess cerumen requiring removal.","severity":"major","replacement":"Small studies in care homes found wax needing removal in more than half of residents. In one small study, hearing improved in most blocked ears after removal."},
-{"tmp_id":"C14-P10","where":"bluesky","text":"In small care home studies, hearing improved in most blocked ears after removal.","problem":"Only one study measured hearing after removal.","source_says":"Moore 2002, n=29.","severity":"major","replacement":"In one small care home study, hearing improved in most blocked ears after removal."},
-{"tmp_id":"C14-P10","where":"threads","text":"In small care home studies, over half of residents had wax needing removal, and hearing improved in most blocked ears once it was removed.","problem":"Only one study measured hearing after removal.","source_says":"Moore 2002, n=29.","severity":"major","replacement":"In small care home studies, over half of residents had wax needing removal. In one, hearing improved in most blocked ears once it was removed."},
-{"tmp_id":"C14-P10","where":"visual_text","text":"Small care home studies: wax needing removal in more than half of residents; hearing improved in most blocked ears after removal.","problem":"As above.","source_says":"Moore 2002, n=29.","severity":"major","replacement":"Small care home studies: wax needing removal in more than half of residents. One study: hearing improved in most blocked ears after removal."},
-{"tmp_id":"C14-P10","where":"x","text":"GP practices are not obliged to provide it unless it is commissioned locally, so access varies from area to area.","problem":"Stated as current fact from a 2020 (CCG-era) source; record qualifies the date.","source_says":"Radford 2020: without a commissioned service, GPs are under no obligation; funding variable by CCG.","severity":"minor","replacement":"A 2020 review found GP practices were not obliged to provide it unless it was commissioned locally, so access varied from area to area."},
-{"tmp_id":"C14-P10","where":"visual_text","text":"Radford, BJGP Open 2020; Sharvill, BMJ 2021; Morley 2019; Moore 2002","problem":"Sharvill BMJ 2021 was verified only by title (search_extract) and supports no statement in the post; should not be cited as a source.","source_says":"verification_notes: 'Sharvill 2021 BMJ letter title only (search_extract)'.","severity":"minor","replacement":"Radford, BJGP Open 2020; Morley 2019; Moore 2002"},
-{"tmp_id":"C14-P05","where":"x","text":"Saying it louder brings back the voice more than the missing sounds.","problem":"Not in the source or claim record; an unsourced acoustic claim stated as fact (also in threads 'Louder brings back the voice more than the missing sounds' and linkedin 'repeating the same sentence louder often brings back more voice than meaning').","source_says":"Aydelott 2010: high-frequency threshold elevation; consonants become inaudible. Nothing on raising volume.","severity":"major","replacement":"So talking louder may not be enough on its own."},
-{"tmp_id":"C14-P05","where":"threads","text":"Louder brings back the voice more than the missing sounds.","problem":"Unsourced, as above.","source_says":"As above.","severity":"major","replacement":"Talking louder may not be enough on its own."},
-{"tmp_id":"C14-P05","where":"linkedin","text":"So repeating the same sentence louder often brings back more voice than meaning.","problem":"Unsourced, as above.","source_says":"As above.","severity":"major","replacement":"So repeating the same sentence louder may not be enough on its own."},
-{"tmp_id":"C14-P03","where":"x","text":"In a Dutch clinic study of 505 people with sight loss, 60 had these images.","problem":"X version drops the year and the caution that clinic figures are not a general prevalence, which LinkedIn carries.","source_says":"Teunisse 1996: 60 of 505 visually handicapped patients met criteria; record: do not generalise.","severity":"minor","replacement":"In a 1996 Dutch clinic study of 505 people with sight loss, 60 had these images."},
-{"tmp_id":"C14-P03","where":"linkedin","text":"That is one clinic, nearly 30 years ago,","problem":"1996 to 2026 is 30 years.","source_says":"Lancet 1996.","severity":"minor","replacement":"That is one clinic, 30 years ago,"},
-{"tmp_id":"C14-P06","where":"linkedin","text":"The drops had unmasked an existing problem in his heart's conduction system.","problem":"Omits that the block worsened again at one year despite stopping; 'resolved' reads as cure.","source_says":"Discharged with first-degree AV block; presented with a worsened AV block at his one-year checkup.","severity":"minor","replacement":"The drops had unmasked an existing problem in his heart's conduction system, which was worse again a year later."},
-{"tmp_id":"C14-P06","where":"linkedin","text":"A drop goes into the eye, drains through the tear duct into the nose, and is absorbed from there into the blood.","problem":"Mechanism not recorded as a claim (open issue); also on the visual. Source supports only that timolol enters systemic circulation.","source_says":"Wang 2019: ophthalmic timolol enters systemic circulation.","severity":"minor","replacement":"A drop put into the eye can be absorbed into the blood."},
-{"tmp_id":"C14-P06","where":"visual_text","text":"Drains through the tear duct and is absorbed into the blood","problem":"As above.","source_says":"As above.","severity":"minor","replacement":"Is absorbed into the blood"},
-{"tmp_id":"C14-P08","where":"all","text":"Second-eye surgery evens it out.","problem":"Stronger than safe_wording; Ishikawa review found moderate evidence of improvement in anisometropia.","source_says":"moderate evidence supporting improvement in ... anisometropia","severity":"minor","replacement":"Second-eye surgery helps even it out."},
-{"tmp_id":"C14-P04","where":"linkedin","text":"compared with 17 young students","problem":"Source describes young healthy controls; 'students' not verified.","source_says":"conscious young, healthy control participants","severity":"minor","replacement":"compared with 17 young healthy volunteers"},
-{"tmp_id":"C14-P01","where":"bluesky","text":"Dizzy when rolling over in bed? That points to BPPV (positional vertigo).","problem":"Overstates diagnosis from a symptom; other versions say 'test for'.","source_says":"Guideline: diagnose when nystagmus is provoked by Dix-Hallpike.","severity":"minor","replacement":"Dizzy when rolling over in bed? Get checked for BPPV (positional vertigo)."}
-],
-"posts_to_drop":[]}
+{
+ "category": "C14",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C14-P01",
+  "C14-P02",
+  "C14-P03",
+  "C14-P04",
+  "C14-P05",
+  "C14-P06",
+  "C14-P07",
+  "C14-P08",
+  "C14-P09",
+  "C14-P10",
+  "C14-P11"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:25485940",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "56 v 21 in 100, OR 4.42, 5 studies 273, recurrence 36% match; population adults 18-90 and comparator 'sham or control' differ from post wording."
+  },
+  {
+   "key": "PMID:10793337",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "9% unrecognised BPPV, fall in previous 3 months, one inner-city geriatric clinic, 2000 confirmed."
+  },
+  {
+   "key": "PMID:28248609",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Dix-Hallpike 45/20 degrees, repositioning, against antihistamines/benzodiazepines, assess mobility and falls risk confirmed. 'Quickly' not in abstract."
+  },
+  {
+   "key": "PMID:23238307",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Side-lying test, 675 questionnaire, 571 tested, BPPV 11% confirmed."
+  },
+  {
+   "key": "PMID:31369359",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "KAS 1, 4 (14 days), 8 (steroid within 2 weeks, 'may offer') confirmed; no destination named."
+  },
+  {
+   "key": "PMID:23818120",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "3 trials, 267, high risk of bias, value unclear confirmed (2013)."
+  },
+  {
+   "key": "PMID:35867413",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": false,
+   "note": "Record uses it for 'value of steroids unclear'; that sentence is background in an abstract about intratympanic steroids."
+  },
+  {
+   "key": "PMID:8622335",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "60 of 505, full insight, 1 of 16 correctly diagnosed, all glad confirmed; 'one clinic/attending' not stated in abstract."
+  },
+  {
+   "key": "PMID:30667516",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Underreported, diagnosis of exclusion, information major part of treatment, usually maintain insight, AMD most common confirmed."
+  },
+  {
+   "key": "PMID:32587364",
+   "tool": "mcp__PubMed__get_full_text_article",
+   "matches_record": true,
+   "note": "5/5 with MMN or P3a to tone changes, 13/4/9/5, eligibility free of cognitive impairment incl. delirium, authors' 'some credence' confirmed; only 4 patients recorded in both states; less conservative analysis noted."
+  },
+  {
+   "key": "PMID:21307006",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "High-frequency loss, consonants inaudible confirmed; s/f/th examples not in source."
+  },
+  {
+   "key": "PMID:3982003",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "5 listeners, nonsense sentences, 17 percentage points, 'first approximation' independent of level confirmed; 'slower' not in abstract."
+  },
+  {
+   "key": "PMID:31791399",
+   "tool": "mcp__PubMed__get_full_text_article",
+   "matches_record": true,
+   "note": "Man 62, 13 years of timolol 0.5% twice daily (full text), HR 29, complete AV block resolved at 48 h; first-degree block remained, worsened at 1 year."
+  },
+  {
+   "key": "PMID:31525271",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": false,
+   "note": "21 adults, 5 min NLO or tissue press lowered plasma timolol at 1 h confirmed; but heart rate, BP and IOP were secondary outcomes, so 'not heart rates' is wrong."
+  },
+  {
+   "key": "PMID:14593039",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "4340 aged 75+, 20 practices, universal v targeted, RR 1.07 (0.84-1.36), 3-5 years confirmed."
+  },
+  {
+   "key": "PMID:29460275",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "10 trials, 10,608, low take-up as most likely reason, community-dwelling 65+ confirmed; most trials used self-reported vision."
+  },
+  {
+   "key": "PMID:35169334",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "179 awaiting first eye (57% of 315), 32% at risk of symptomatic anisometropia, Belfast 2020 confirmed."
+  },
+  {
+   "key": "PMID:24075161",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "Moderate evidence for improvement in anisometropia, 10 studies, MEDLINE only confirmed."
+  },
+  {
+   "key": "PMID:16364936",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "239 women over 70, 4 weeks v 12 months, RR 0.68 (0.39-1.19) confirmed; 40% v 34% fell at least once."
+  },
+  {
+   "key": "PMID:25325767",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "301 older adults mean age 71, fewer with sensory loss passed MoCA even after adjustment confirmed."
+  },
+  {
+   "key": "PMID:31242497",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "No effect of amplification on total MoCA; word recall improved confirmed."
+  },
+  {
+   "key": "PMID:29988012",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "No significant change in MoCA with amplification; word recall not reported; authors caution amplification not unnecessary."
+  },
+  {
+   "key": "PMID:32238391",
+   "tool": "mcp__PubMed__get_full_text_article",
+   "matches_record": true,
+   "note": "Introduction passage on NICE/commissioning matches; mobility sentence is about referral to hospital microsuction; opinion/narrative article."
+  },
+  {
+   "key": "PMID:12807656",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "29 new SNF admissions, 65.5% cerumen in at least one ear, hearing improved 80% v 3% of ears confirmed."
+  },
+  {
+   "key": "PMID:31691470",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "51 residents, 57% excess cerumen requiring removal confirmed."
+  },
+  {
+   "key": "PMID:42045995",
+   "tool": "mcp__PubMed__get_full_text_article",
+   "matches_record": false,
+   "note": "Hearing-aid otoscopy recommendation is AAO-HNS only; NICE did not discuss diagnosis."
+  },
+  {
+   "key": "PMID:39400596",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "48 people, TA-US sensitivity 73% to 53% (CIs 58-85, 38-68), all-vessel 94% to 83%, within 3 days confirmed."
+  },
+  {
+   "key": "PMID:31270110",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "40-60 mg prednisone-equivalent immediately in active GCA; confirm by imaging or histology; no timing for imaging."
+  },
+  {
+   "key": "PMID:39482474",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "746 individuals, median age 72, 18% atypical only, greater delay confirmed; top atypical features are across all cases."
+  },
+  {
+   "key": "PMID:35522539",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true,
+   "note": "11 of 502 (2.2%) new permanent visual loss after glucocorticoid start, 1976-2020 confirmed."
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C14-P01",
+   "where": "all",
+   "text": "In trials, vertigo fully resolved in about 56 in 100 people after the Epley, against about 21 in 100 after a sham manoeuvre or no treatment.",
+   "problem": "Population and comparator are narrower in the source than the posts imply. The Cochrane figure comes from trials in adults aged 18 to 90 with posterior canal BPPV (hospital ENT departments and family practices), not specifically older people, and the comparator is 'a sham manoeuvre or control' (control = no treatment, medication only or postural restriction), not simply 'no treatment'. The same wording appears in the X, Threads and Bluesky captions, the LinkedIn caption ('after a sham manoeuvre or no treatment') and the alt text of the bar chart. The post is about older people, so the trial population must be stated.",
+   "source_says": "Hilton and Pinder 2014 (PMID 25485940): 'Complete resolution of vertigo occurred significantly more often in the Epley treatment group when compared to a sham manoeuvre or control (OR 4.42, 95% CI 2.62 to 7.44; five studies, 273 participants); the proportion of patients resolving increased from 21% to 56%... All patients were adults aged 18 to 90 years'. Control = no treatment, medication only, postural restriction. High recurrence rate (36%).",
+   "severity": "major",
+   "replacement": "X/linkedin: 'In trials of adults aged 18 to 90 with BPPV of the posterior canal, vertigo fully resolved in about 56 in 100 people after the Epley, against about 21 in 100 after a sham manoeuvre or a control with no repositioning.' Bluesky: 'In trials in adults, vertigo fully resolved in about 56 in 100 after the Epley manoeuvre, against 21 in 100 with a sham or control.' Threads: 'In trials in adults, vertigo fully resolved in about 56 in 100 people after the Epley manoeuvre, against about 21 in 100 after a sham manoeuvre or a control. It came back in about 36 in 100.' Alt text: 'In trials in adults, vertigo fully resolved in 56 in 100 people, against 21 in 100 after a sham manoeuvre or a control.'"
+  },
+  {
+   "tmp_id": "C14-P01",
+   "where": "visual_text",
+   "text": "Sham manoeuvre or no treatment: 21 in 100",
+   "problem": "Chart label states the comparator as 'no treatment'; the pooled comparator is sham or control. The chart title and subtitle also do not say that the trials were in adults aged 18 to 90 with posterior canal BPPV.",
+   "source_says": "Hilton and Pinder 2014: 'compared to a sham manoeuvre or control'; adults 18 to 90.",
+   "severity": "major",
+   "replacement": "Change label to 'Sham manoeuvre or control: 21 in 100'. Change 'In trials, the Epley manoeuvre cleared vertigo more often' to 'In trials in adults aged 18 to 90, the Epley manoeuvre cleared vertigo more often'. Leave 'Epley manoeuvre: 56 in 100'. Footer line to read '5 trials, 273 people, mostly small, short follow-up. BPPV came back in about 36 in 100 after treatment.'"
+  },
+  {
+   "tmp_id": "C14-P01",
+   "where": "linkedin",
+   "text": "Dizziness in an older person is often filed under a general label.",
+   "problem": "Frequency claim about clinical practice ('often') has no source in the claim records; Oghalai shows unrecognised BPPV in about 9 in 100 in one clinic, not how often dizziness is mislabelled.",
+   "source_says": "Oghalai 2000 (PMID 10793337): 'Nine percent were found to have unrecognized BPPV'; balance disorders 'often difficult to diagnose because of comorbid chronic medical problems'.",
+   "severity": "minor",
+   "replacement": "Dizziness in an older person can be filed under a general label."
+  },
+  {
+   "tmp_id": "C14-P01",
+   "where": "visual_text",
+   "text": "2 Lie back quickly, neck extended 20 degrees, affected ear down",
+   "problem": "'Quickly' is not in the opened guideline text; the visual is labelled as the test 'as defined in the AAO-HNS guideline'.",
+   "source_says": "Bhattacharyya 2017 (PMID 28248609): 'bringing the patient from an upright to supine position with the head turned 45 degrees to one side and neck extended 20 degrees with the affected ear down'.",
+   "severity": "minor",
+   "replacement": "2 Lie back, neck extended 20 degrees, affected ear down"
+  },
+  {
+   "tmp_id": "C14-P02",
+   "where": "all",
+   "text": "Steroid treatment is an option if started within about two weeks, though trials have not shown clearly that it works.",
+   "problem": "The 'trials have not shown clearly' wording rests on two Cochrane reviews that do not both say this. Wei 2013 (steroid tablets) did: 3 small trials, 267 people, all at high risk of bias, with contradictory results. Plontke 2022 is about steroid injections into the middle ear; its sentence 'their value remains unclear' is background from the abstract's introduction, not its finding (its findings were low-certainty evidence on intratympanic steroids). 'Cochrane reviews describe the value of steroids as unclear' (LinkedIn) and 'Cochrane reviews of steroids' (visual footer) therefore overstate. The statement should be dated and tied to the review that supports it. Same sentence is in X, Bluesky, Threads, LinkedIn and the visual and alt text.",
+   "source_says": "Wei 2013 (PMID 23818120): 'Only three trials, involving 267 participants... all three studies were at high risk of bias... The value of steroids in the treatment of idiopathic sudden sensorineural hearing loss remains unclear since the evidence obtained from randomised controlled trials is contradictory in outcome, in part because the studies are based upon too small a number of patients.' Chandrasekhar 2019 KAS 8: 'Clinicians may offer corticosteroids as initial therapy... within 2 weeks of symptom onset.'",
+   "severity": "major",
+   "replacement": "X/Threads/Bluesky: 'Steroid treatment is an option if started within about two weeks, though a Cochrane review of three small trials found it unclear whether it works.' (Bluesky: '...though a Cochrane review of three small trials found their value unclear.')"
+  },
+  {
+   "tmp_id": "C14-P02",
+   "where": "linkedin",
+   "text": "Cochrane reviews describe the value of steroids as unclear, so this is a choice to discuss with the specialist, not a sure fix.",
+   "problem": "See previous issue: only the 2013 Cochrane review of steroid tablets supports 'unclear'; the 2022 review concerns injected steroids and its 'unclear' sentence is background.",
+   "source_says": "Wei 2013: 3 trials, 267 participants, high risk of bias, contradictory results.",
+   "severity": "major",
+   "replacement": "A 2013 Cochrane review of three small trials found the value of steroids unclear, so this is a choice to discuss with the specialist, not a sure fix."
+  },
+  {
+   "tmp_id": "C14-P02",
+   "where": "visual_text",
+   "text": "Steroids are an option if started within about 2 weeks. Trials have not shown clearly that they work.",
+   "problem": "Same overstatement on the visual and alt text; footer 'Cochrane reviews of steroids' misdescribes the two reviews.",
+   "source_says": "Wei 2013 (3 small trials, value unclear); Plontke 2022 is on intratympanic steroids.",
+   "severity": "major",
+   "replacement": "Steroids are an option if started within about 2 weeks. A Cochrane review of 3 small trials found their value unclear. Footer: 'AAO-HNS guideline 2019; Wei et al., Cochrane 2013'. Alt text: '...hears that steroids are an option within about 2 weeks. A Cochrane review of three small trials found their value unclear. Source: AAO-HNS guideline 2019; Cochrane 2013.'"
+  },
+  {
+   "tmp_id": "C14-P02",
+   "where": "x",
+   "text": "Ask to be seen by an ear, nose and throat (ENT) service or an emergency department, and say: my hearing has dropped suddenly in one ear.",
+   "problem": "The recommended destination (ENT service or emergency department) and the telephone sentence are not in any opened source (NICE NG98 was not opened; the AAO-HNS abstract does not say where to go). They are presented as instructions, and the open_issues field already records that the destination is unconfirmed. This is a medical recommendation to the public without a source or a 'our suggestion' marker. Same in LinkedIn, Threads, the visual panel text and the alt text.",
+   "source_says": "Chandrasekhar 2019 gives: distinguish sensorineural from conductive loss at first presentation (KAS 1); audiometry as soon as possible within 14 days (KAS 4); 'Sudden hearing loss is a frightening symptom that often prompts an urgent or emergent visit to a health care provider'. It names no destination.",
+   "severity": "major",
+   "replacement": "Our practical advice, not guideline wording: ask to be seen urgently by an ear, nose and throat (ENT) service or an emergency department, and say: my hearing has dropped suddenly in one ear."
+  },
+  {
+   "tmp_id": "C14-P03",
+   "where": "all",
+   "text": "In a Dutch study of 505 people attending with sight loss, 60 had these images.",
+   "problem": "'One clinic' / 'clinic population' / 'attending' is not in the abstract and the claim record's 'clinic-based' could not be confirmed (full text not available). The abstract says only that 505 visually handicapped patients were screened and 60 met the criteria. Wording must not assert a single clinic. X says 'The study was one clinic'; LinkedIn says 'That was one clinic population' and 'of 505 people attending with sight loss'; Threads says 'In a Dutch clinic study'.",
+   "source_says": "Teunisse 1996 (PMID 8622335): 'After screening 505 visually handicapped patients, 60 were found to meet proposed diagnostic criteria for CBS... The proper diagnosis had been made in only one of the 16 patients who had consulted a doctor.'",
+   "severity": "major",
+   "replacement": "X: 'In a Dutch study of 505 patients with sight loss, 60 had these images.' and 'The patients were a selected group and the study was published in 1996, so awareness may be better now.' LinkedIn: 'The numbers come from a Dutch study, published in 1996, of 505 patients with sight loss.' and 'That was a selected group of patients, so 60 in 505 is not a figure for everyone with sight loss, and awareness may have improved since.' Threads: 'In a Dutch study of patients with sight loss, only 1 of 16 people who had seen a doctor about the images had been given the proper diagnosis. All were glad to hear it was not mental illness.'"
+  },
+  {
+   "tmp_id": "C14-P03",
+   "where": "x",
+   "text": "They know the images are unreal.",
+   "problem": "As a general statement about the syndrome this is too absolute. The review says people usually keep insight. (In the Dutch study all 60 had full insight, but the study's criteria required at least partial insight.) Same in the Bluesky and Threads openings ('and know it') and the visual line 'seen by people who know they are not real'.",
+   "source_says": "Molander 2019 (PMID 30667516): 'Individuals with CBS usually maintain insight into the unreal nature of their hallucinatory experiences.'",
+   "severity": "minor",
+   "replacement": "They usually know the images are unreal. (Bluesky/Threads: 'and usually know it'. Visual: 'seen by people who usually know they are not real'. Alt text: 'seen by people with sight loss who usually know they are not real'.)"
+  },
+  {
+   "tmp_id": "C14-P04",
+   "where": "x",
+   "text": "The belief rests mostly on anecdote. One small study tested it with brain recordings.",
+   "problem": "'Rests mostly on anecdote' is a background statement from the paper's introduction, presented as the post's own finding. Also the study did not test whether hearing is the last sense to go; it looked for brain responses to tones in 5 people who had stopped responding. Same framing in LinkedIn ('tested it with brain recordings') and Threads.",
+   "source_says": "Blundon 2020 (PMC7316981) Introduction: 'Much of this belief comes from reports of near-death experiences... there is no empirical evidence to corroborate these anecdotes'; Discussion: results 'consistent with the trope that hearing is one of the last senses to lose function'.",
+   "severity": "minor",
+   "replacement": "The authors of one study say the belief rests mostly on anecdote. They used brain recordings to look for signs of hearing. (LinkedIn: 'The authors of one small hospice study in Canada say the belief rests mostly on anecdote. They looked for signs of hearing with brain recordings.')"
+  },
+  {
+   "tmp_id": "C14-P04",
+   "where": "linkedin",
+   "text": "They compared 5 people who had stopped responding and were actively dying with the same hospice patients when they were still responsive.",
+   "problem": "Inaccurate description of the design. Eight patients were recorded when responsive and five when unresponsive; only four were recorded in both states, and 17 healthy young students were recorded as controls. The results were reported person by person, not as a formal comparison.",
+   "source_says": "Blundon 2020 full text: 'Eight patients were recorded when they were responsive, five when they were unresponsive. Four patients were recorded once when they were responsive, and again when they were unresponsive'; 17 control students.",
+   "severity": "minor",
+   "replacement": "They recorded 5 people who had stopped responding and were actively dying. Four of the five had also been recorded earlier, when they were still responsive, and 17 healthy students were recorded for comparison."
+  },
+  {
+   "tmp_id": "C14-P04",
+   "where": "linkedin",
+   "text": "All 5 unresponsive patients showed a brain response to a change in the tones, so part of their hearing system was still reacting.",
+   "problem": "Missing the authors' own methodological caveat on the individual results. The authors say they used a somewhat less conservative analysis than the original study, and in one patient the response shape was atypical so it 'may not indicate' awareness. The count of 5 of 5 depends on that analysis.",
+   "source_says": "Blundon 2020: 'We adopted a somewhat less conservative version of the analysis employed in the original study... our goals were to see if hearing is even possible'; for patient P008 the waves 'don't resemble a typical MMN or P3a'.",
+   "severity": "minor",
+   "replacement": "All 5 unresponsive patients showed a brain response to a change in the tones, so part of their hearing system was still reacting. The authors used a less strict analysis than the study they copied, so the individual results are tentative."
+  },
+  {
+   "tmp_id": "C14-P05",
+   "where": "all",
+   "text": "In a very small 1985 experiment with 5 listeners who had hearing loss, clear, slightly slower speech was understood better than ordinary speech, at each loudness level tested.",
+   "problem": "'Slightly slower' is not in the opened abstract (it compares speech produced clearly with speech produced conversationally); the claim record's safe wording added 'a little slower' without a passage. 'At each loudness level tested' is stronger than the abstract's 'to a first approximation'. Same in LinkedIn ('clear, slightly slower speech... the gain held at different loudness levels').",
+   "source_says": "Picheny 1985 (PMID 3982003): 'Five listeners with sensorineural hearing losses were tested on groups of nonsense sentences spoken clearly and conversationally by three male talkers as a function of level and frequency-gain characteristic. The average intelligibility difference... was 17 percentage points. To a first approximation, this difference was independent of the listener, level, and frequency-gain characteristic.'",
+   "severity": "major",
+   "replacement": "X: 'In a very small 1985 experiment with 5 listeners who had hearing loss, speech spoken clearly was understood better than ordinary conversational speech, and the gain was much the same at the loudness levels tested.' LinkedIn: 'Five listeners with hearing loss understood speech spoken clearly better than ordinary conversational speech, and the gain was much the same at the different loudness levels tested.'"
+  },
+  {
+   "tmp_id": "C14-P05",
+   "where": "linkedin",
+   "text": "'She hears what she wants to hear' is something families say, and it can cause hurt on both sides.",
+   "problem": "'Can cause hurt on both sides' is an unsourced claim about family relationships.",
+   "source_says": "No claim record covers it.",
+   "severity": "minor",
+   "replacement": "'She hears what she wants to hear' is something families say."
+  },
+  {
+   "tmp_id": "C14-P05",
+   "where": "visual_text",
+   "text": "Alasdair MacLullich | Small detail, real effect",
+   "problem": "The series footer 'real effect' sits on a card whose only trial evidence is five listeners in 1985 and whose advice is labelled 'suggestions, not trial findings'. It implies an established effect.",
+   "source_says": "Picheny 1985: tiny experiment; Aydelott 2010: review statement.",
+   "severity": "minor",
+   "replacement": "Use a footer that does not assert an effect, for example 'Alasdair MacLullich | Teaching round' or 'Alasdair MacLullich | Ask this'."
+  },
+  {
+   "tmp_id": "C14-P06",
+   "where": "linkedin",
+   "text": "The trial measured blood levels, not heart rates or symptoms, and the adults were not older patients, so clinical benefit is not shown.",
+   "problem": "False as written. The trial measured heart rate, blood pressure and intraocular pressure at baseline and one hour after the drop as secondary outcomes. The abstract reports no difference between the tissue press and the 5-minute press for heart rate, but does not report heart rate against no intervention. Ages are given only as over 18 (indexed 'middle aged'), so 'not older patients' is an inference. The record's 'surrogate outcome only' description is incomplete.",
+   "source_says": "Muller 2020 (PMID 31525271): 'Timolol plasma levels were measured 1 h after drop application. At each visit, baseline measurement of blood pressure, heart rate and intraocular pressure (IOP) were performed, and repeated 1 h after timolol 0.5% eye drop application... Comparing tissue press method to NLO, there were no significant differences in plasma levels of timolol, blood pressure, heart rate or IOP.'",
+   "severity": "blocker",
+   "replacement": "The main outcome was the timolol level in the blood. Heart rate and blood pressure were also measured, but the abstract does not report whether they differed from no intervention, and the adults were not described as older patients, so a benefit for slow pulse is not shown."
+  },
+  {
+   "tmp_id": "C14-P06",
+   "where": "x",
+   "text": "Clinical benefit was not tested.",
+   "problem": "Imprecise: heart rate was a secondary measure in the trial. What was not shown is that the technique prevents a slow pulse or other side effects. Same phrase in Threads ('clinical benefit was not tested'), the visual and the alt text.",
+   "source_says": "Muller 2020: primary comparison was plasma timolol at 1 h; heart rate, blood pressure and IOP were secondary outcomes.",
+   "severity": "minor",
+   "replacement": "The main measure was the timolol level in the blood; whether this prevents a slow pulse was not shown. (Threads: '...lowered blood levels in a small study of 21 adults; whether it prevents a slow pulse was not shown.' Visual and alt text: 'Whether it prevents a slow pulse was not shown.')"
+  },
+  {
+   "tmp_id": "C14-P06",
+   "where": "x",
+   "text": "Case reports describe very slow heart rates and heart block that settled when the drops were stopped.",
+   "problem": "Incomplete summary of the only case the post cites in detail. The complete block resolved within 48 hours, but the man was discharged with a first-degree block, and a year later Holter monitoring showed intermittent second-degree and 2:1 block, so the authors say the block was 'only temporarily resolved' and recommend long-term follow-up. Bluesky and Threads give 'settled when the drops were stopped' with no mention of the underlying conduction problem, which makes the short versions stronger than the source.",
+   "source_says": "Wang 2019 (PMID 31791399): 'The AV block and bradycardia resolved 48-h after timolol cessation. The man was discharged 1 week later with an asymptomatic first-degree A-V block. However, he presented with a worsened A-V block at his one-year checkup... an AV block that is only temporarily resolved by timolol cessation.' Full text confirms 13 years of timolol 0.5% twice daily.",
+   "severity": "major",
+   "replacement": "X/LinkedIn (after the man-of-62 sentence): 'The complete block settled within 48 hours of stopping, but a milder block remained and had worsened a year later, which points to an underlying conduction problem that the drops unmasked, so follow-up matters.' Bluesky: 'Case reports describe very slow heart rates and heart block that settled when the drops stopped. In one, a milder block later returned, so follow-up matters.' Threads: 'Case reports describe very slow heart rates and heart block that settled when the drops were stopped, though in one a milder block remained and later worsened. They show it can happen, not how often.' Visual: '...heart block settled within 48 hours of stopping; a milder block remained and worsened a year later'."
+  },
+  {
+   "tmp_id": "C14-P07",
+   "where": "visual_text",
+   "text": "Community eyesight screening did not improve eyesight",
+   "problem": "Headline overstates what was measured. In the Cochrane review six of the seven multi-component trials used self-reported vision as both screening tool and outcome and did not measure vision directly; only a few trials measured acuity. 'Eyesight' implies measured sight.",
+   "source_says": "Clarke 2018 (PMID 29460275): 'Six of these studies used self-reported vision as both screening tool and outcome measure, but did not directly measure vision... similar risk of not seeing well (RR 1.05, 95% CI 0.97 to 1.14, 4522 participants, high-certainty evidence)'.",
+   "severity": "minor",
+   "replacement": "In trials, community vision screening did not improve older people's vision"
+  },
+  {
+   "tmp_id": "C14-P07",
+   "where": "x",
+   "text": "while many unscreened people sought help themselves.",
+   "problem": "The source says unscreened people 'appeared to' seek their own treatment; the review did not measure it directly. Also LinkedIn's 'They suggested testing screening in people who are more dependent' mis-states the recommendation (trials should include more dependent people).",
+   "source_says": "Clarke 2018: 'large proportions of those who did not have vision screening appeared to seek their own intervention... trials should consider including more dependent participants'.",
+   "severity": "minor",
+   "replacement": "X/Threads/LinkedIn: 'while many unscreened people appeared to seek help themselves.' LinkedIn: 'They suggested that future trials include more dependent people.'"
+  },
+  {
+   "tmp_id": "C14-P07",
+   "where": "bluesky",
+   "text": "A Cochrane review found screening did not improve eyesight.",
+   "problem": "Drops the population (older people living independently in the community) and says 'eyesight' for outcomes that were mostly self-reported.",
+   "source_says": "Clarke 2018: community-dwelling people aged 65 and over; 'does not support vision screening for older people living independently in a community setting'.",
+   "severity": "minor",
+   "replacement": "A Cochrane review of community screening found it did not improve vision."
+  },
+  {
+   "tmp_id": "C14-P08",
+   "where": "linkedin",
+   "text": "Whether it reduced falls was uncertain: the fall rate was about a third lower, but the result was too uncertain to be sure of a real effect.",
+   "problem": "A relative figure ('about a third lower') is given without the absolute figures, which point the other way: more of the women who had early surgery fell at least once. The claim record says not to quote the 32% as a benefit.",
+   "source_says": "Foss 2006 (PMID 16364936): '48 (40%) operated participants fell at least once... 41 (34%) unoperated participants fell at least once. Rate of falling was reduced by 32% in the operated group, but this was not statistically significant (rate ratio 0.68, 95% CI 0.39, 1.19, P = 0.18)... The effect on rate of falling remains uncertain.'",
+   "severity": "major",
+   "replacement": "Whether it reduced falls was uncertain. Over 12 months, 40 in 100 of the women who had earlier surgery and 34 in 100 of those who waited fell at least once. The overall rate of falls was lower after earlier surgery, but the difference was too uncertain to be sure of a real effect."
+  },
+  {
+   "tmp_id": "C14-P08",
+   "where": "x",
+   "text": "Having the second eye done helps even it out.",
+   "problem": "The short captions state the systematic review result without its qualification. The source is moderate-strength evidence from 10 studies found in a MEDLINE-only search. Same sentence in Threads; Bluesky and the visual say 'can need very different glasses' only.",
+   "source_says": "Ishikawa 2013 (PMID 24075161): 'We found \"moderate\" evidence supporting improvement in stereopsis, stereoacuity, and anisometropia over and above the benefits of first-eye surgery.'",
+   "severity": "minor",
+   "replacement": "Second-eye surgery probably helps even it out."
+  },
+  {
+   "tmp_id": "C14-P08",
+   "where": "x",
+   "text": "improved their sight and confidence",
+   "problem": "'Sight' reads as clearer vision. The trial reports improved visual function, especially depth perception (stereopsis), plus confidence, visual disability and handicap; it does not say acuity improved. Same wording in Threads ('improved sight and confidence'), the visual card and the alt text.",
+   "source_says": "Foss 2006: 'visual function (especially stereopsis) improved in the operated group... Confidence, visual disability and handicap all improved'.",
+   "severity": "minor",
+   "replacement": "improved their visual function, especially depth perception, and their confidence (Threads: 'improved visual function and confidence'; visual and alt text: 'improved visual function and confidence')"
+  },
+  {
+   "tmp_id": "C14-P08",
+   "where": "visual_text",
+   "text": "Alasdair MacLullich | Small detail, real effect",
+   "problem": "Series footer 'real effect' on a card that says the falls effect was uncertain and the risk figure is an estimate.",
+   "source_says": "Foss 2006: falls effect uncertain; Stuart 2022: estimated risk.",
+   "severity": "minor",
+   "replacement": "Use a footer that does not assert an effect, for example 'Alasdair MacLullich | Ask this'."
+  },
+  {
+   "tmp_id": "C14-P09",
+   "where": "all",
+   "text": "Small studies found that amplification did not change the total MoCA score, though it helped word recall.",
+   "problem": "Word recall benefit is attributed to 'small studies' (plural). Only Shen 2020 reported improved word recall; Saunders 2018 found no change in MoCA with amplification and did not report word recall. Same compression in the Threads caption, the LinkedIn caption, the visual ('In small studies, amplification did not change the total score but helped word recall') and the alt text.",
+   "source_says": "Shen 2020 (PMID 31242497): 'We did not find any effect of amplification or test modality on the total score... Amplification improved working memory performance as measured by word recall performance'. Saunders 2018 (PMID 29988012): 'the use of amplification did not significantly change performance'; 42 hearing-impaired and 19 normal-hearing adults.",
+   "severity": "major",
+   "replacement": "X: 'Two small studies found that amplification did not change the total MoCA score. In one of them it helped word recall.' LinkedIn: 'Two small studies in adults with hearing loss found that amplification did not change the total MoCA score; in one of them it helped word recall.' Threads: 'Two small studies found amplification did not change the total score; in one it helped word recall.' Visual: 'In two small studies, amplification did not change the total score. In one, it helped word recall.' Alt text: 'in two small studies amplification did not change the total score; in one it helped word recall.'"
+  },
+  {
+   "tmp_id": "C14-P09",
+   "where": "visual_text",
+   "text": "Adaptations may not fully correct the score. Record them anyway.",
+   "problem": "Headline asserts that scores need 'correcting' and that adaptations fall short of it. The studies show only that amplification did not change total MoCA scores; this could equally mean the scores were not distorted by that hearing loss. Dupuis shows sensory loss is linked with lower pass rates after adjustment, an association that may reflect real differences in thinking.",
+   "source_says": "Saunders 2018: amplification 'did not compensate for this performance deficit... might be that other unmeasured factors... were decreased'. Dupuis 2015: association; 'cognitive abilities may be underestimated if sensory problems are not considered'.",
+   "severity": "minor",
+   "replacement": "Amplification did not change total scores in small studies. Record the adaptations anyway."
+  },
+  {
+   "tmp_id": "C14-P09",
+   "where": "bluesky",
+   "text": "People with hearing or sight loss passed the MoCA less often.",
+   "problem": "Short version drops the sample (301 older adults), the 'even after adjustment' finding and that it is an association; reads as a general result.",
+   "source_says": "Dupuis 2015 (PMID 25325767): 'Three hundred and one older adults (mean age = 71 years)... More participants with normal sensory acuity passed the MoCA compared to those with sensory loss, even after modifying scores to adjust for sensory factors.'",
+   "severity": "minor",
+   "replacement": "A person who mishears the word list scores as if they forgot it. In 301 older adults, those with hearing or sight loss passed the MoCA less often, even after adjustment (an association). Put aids in, check glasses, reduce noise, record the adaptations."
+  },
+  {
+   "tmp_id": "C14-P10",
+   "where": "all",
+   "text": "Guidelines say to check the ears of hearing aid users for wax.",
+   "problem": "Attribution error. The recommendation to check hearing aid users for wax (otoscopy 'in patients with hearing aids') comes from the 2017 US AAO-HNS guideline only; the opened systematic review states that NICE did not discuss diagnosis. The record and the post attribute it to guidelines in general beside the NICE point, so it reads as English guidance. Same in LinkedIn ('Guidelines also say'), the visual ('2 Guidelines: check the ears of hearing aid users for wax') and the alt text.",
+   "source_says": "Kfoury 2026 (PMC13130458): 'The AAO-HNS CPG provided recommendations regarding the diagnosis of cerumen impaction, a topic not discussed by the NICE CPG... Clinicians should perform otoscopy to detect the presence of cerumen in patients with hearing aids during a health care encounter.'",
+   "severity": "major",
+   "replacement": "X: 'The 2017 US ENT guideline says clinicians should check for wax in people who use hearing aids.' LinkedIn: 'The 2017 US ENT guideline also says to check the ears of hearing aid users for wax.' Visual: '2 US ENT guideline 2017: check the ears of hearing aid users for wax'. Alt text: 'the 2017 US ENT guideline says to check hearing aid users' ears'."
+  },
+  {
+   "tmp_id": "C14-P10",
+   "where": "x",
+   "text": "A 2020 review found GP practices were not obliged to provide it unless it was commissioned locally, so access varied from area to area.",
+   "problem": "The only source for the access claim is the introduction of a GP's 2020 opinion piece arguing for community microsuction ('a case for increased community-based microsuction'). It is background, second-hand about NICE, and it states that funding varied by commissioning group; it did not 'find' a variation in access. The same 'review found' framing is in LinkedIn ('A 2020 review by a GP found'), Bluesky, Threads and the visual ('England, 2020 review').",
+   "source_says": "Radford 2020 (PMC7330231) Introduction: 'Funding for treatment of impacted earwax is variable across clinical commissioning groups (CCGs). NICE guidance recommends ear wax removal should be performed in primary care, although without a commissioned service, GPs are under no obligation to do so... many practices now opting out of providing irrigation'.",
+   "severity": "major",
+   "replacement": "X: 'A GP writing in 2020 described practices as not obliged to provide it unless it was commissioned locally, with funding varying from area to area.' LinkedIn: 'A 2020 article by a GP described practices as not obliged to provide it unless it was commissioned locally, so funding varied from area to area.' Bluesky: '...but a GP's 2020 article described practices as not obliged to provide it unless locally commissioned, with funding varying by area.' Threads: '...but a 2020 article by a GP described practices as not obliged to provide it unless it was commissioned locally.' Visual: '3 England, 2020 GP article: practices not obliged to provide removal unless it is commissioned locally'."
+  },
+  {
+   "tmp_id": "C14-P10",
+   "where": "x",
+   "text": "Access is a particular problem for people with poor mobility who rely on carers.",
+   "problem": "Context shifted. In the source the mobility point is about referral to hospital ENT for microsuction (getting to hospital appointments), not about missing out on wax removal in primary care. The sentence follows the GP-obligation sentence, so it reads as an effect of that policy. The LinkedIn version has the same issue ('The review noted that access is a particular problem for people with mobility problems who rely on carers').",
+   "source_says": "Radford 2020 Discussion: 'Referral for microsuction accounts for a significant proportion of the secondary care ENT workload. This presents problems for access, particularly in patient populations who have mobility issues and rely on carers, family, or hospital transport to take them to and from hospital appointments.'",
+   "severity": "major",
+   "replacement": "The same article noted that getting to hospital for microsuction is a particular problem for people with mobility problems who rely on carers or hospital transport. (LinkedIn: 'The article noted that when people are referred to hospital for microsuction, getting there is a particular problem for those with mobility problems who rely on carers or hospital transport.')"
+  },
+  {
+   "tmp_id": "C14-P10",
+   "where": "x",
+   "text": "In one small study of 29 people newly admitted to a care home",
+   "problem": "The study was of new admissions to a US skilled nursing facility, not a UK-style care home; LinkedIn says so correctly. Also the hearing outcome was a change in audiometric score per ear, before and after removal.",
+   "source_says": "Moore 2002 (PMID 12807656): '29 English-speaking residents over the age of 65 who were new admissions to a SNF... hearing improved in 80% of impacted ears compared with 3% of nonimpacted ears'.",
+   "severity": "minor",
+   "replacement": "In one small study of 29 people newly admitted to a US nursing facility"
+  },
+  {
+   "tmp_id": "C14-P10",
+   "where": "threads",
+   "text": "In one study, hearing improved in most blocked ears once the wax was removed.",
+   "problem": "Short version drops 'small' and the sample size; a 29-person pre-post study is stated as if general.",
+   "source_says": "Moore 2002: 29 residents, hearing improved in 80% of impacted ears.",
+   "severity": "minor",
+   "replacement": "In one small study of 29 people, hearing improved in most blocked ears once the wax was removed."
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "visual_text",
+   "text": "Ultrasound as soon as possible after starting, preferably within 3 days",
+   "problem": "Misattribution on the 'EULAR recommendations' card. The ultrasound timing is the Danish study authors' advice, not in the EULAR abstract. The line 'We should not hold treatment for a scan slot.' on the same card is the post's own judgement but reads as EULAR wording. Same in the first alt text ('Flow from EULAR recommendations: ... ultrasound as soon as possible, preferably within 3 days... We should not hold treatment for a scan slot.').",
+   "source_says": "Hellmich 2019 (PMID 31270110): 'suspected diagnosis of LVV should be confirmed by imaging or histology. High dose glucocorticoid therapy (40-60 mg/day prednisone-equivalent) should be initiated immediately... in active giant cell arteritis' (no timing for imaging). Hansen 2025: 'these findings encourage prompt US assessment, preferably within 3 days'.",
+   "severity": "major",
+   "replacement": "Change to 'Authors of a Danish study advise prompt ultrasound, preferably within 3 days of starting steroid' and change 'We should not hold treatment for a scan slot.' to 'Our view, not EULAR wording: we should not hold treatment for a scan slot.' Alt text: 'Flow from EULAR recommendations: in active giant cell arteritis start high-dose steroid, 40 to 60 mg a day of prednisone or equivalent, immediately; confirm by scan or biopsy. Authors of a Danish study advise ultrasound preferably within 3 days. Sight loss can be permanent. Our view, not EULAR wording: we should not hold treatment for a scan slot.'"
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "bluesky",
+   "text": "Temporal artery ultrasound found it in about 73 in 100 people before steroids and 53 in 100 after 10 days.",
+   "problem": "The short version drops the central qualification of the post: a small study of 48 people, and that the figures are the share of people with the disease whom ultrasound picked up. Read alone, '73 in 100 people' is ambiguous.",
+   "source_says": "Hansen 2025 (PMID 39400596): 'Forty-eight patients were included. Before GC exposure... TA US sensitivity 73% (95% CI 58-85)... At day 10, the TA-US... sensitivity was 53% (95% CI 38-68, P < 0.01)'.",
+   "severity": "major",
+   "replacement": "EULAR says start high-dose steroid immediately in active giant cell arteritis and confirm by scan or biopsy. In a small Danish study of 48 people, temporal artery ultrasound picked it up in 73 in 100 before steroids and 53 in 100 after 10 days. Sight loss can be permanent."
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "x",
+   "text": "Temporal artery ultrasound found giant cell arteritis in about 73 in 100 people before steroids and about 53 in 100 after 10 days of steroids.",
+   "problem": "Ambiguous: these are sensitivities (share of people who had the disease that ultrasound picked up), not the share of people in whom ultrasound found it. The abstract does not name the reference standard. Same opening in LinkedIn and Threads.",
+   "source_says": "Hansen 2025: 'US sensitivity was... 73% (95% CI: 58-85)' before glucocorticoid; 'At day 10, the TA-US... sensitivity was 53% (95% CI: 38-68, P < 0.01)'; sonographers unblinded.",
+   "severity": "minor",
+   "replacement": "Temporal artery ultrasound picked up giant cell arteritis in about 73 in 100 people who had it before steroids, and in about 53 in 100 after 10 days of steroids."
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "visual_text",
+   "text": "Temporal artery ultrasound picks up less once steroids start",
+   "problem": "Headline implies an immediate drop. The temporal artery figure is reported only at day 10 (53 in 100; P<0.01). At day 3 only the all-vessel figure is given (92 in 100, not clearly different), and all-vessel ultrasound fell less (94 to 83 in 100, P=0.10). The chart shows only the temporal artery bars.",
+   "source_says": "Hansen 2025: 'At day 3 and 10, the overall US sensitivity was 92%... and 83%... At day 10, the TA-US and LV-US sensitivity was 53%... and 60%'.",
+   "severity": "minor",
+   "replacement": "Temporal artery ultrasound picked up less after 10 days of steroids. (Optional extra note line: 'Ultrasound of all vessels fell less: 94 to 83 in 100, not clearly different.')"
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "x",
+   "text": "40 to 60 mg a day of prednisolone or equivalent",
+   "problem": "The EULAR abstract says prednisone-equivalent. Same wording in LinkedIn, the visual and the alt text.",
+   "source_says": "Hellmich 2019: 'High dose glucocorticoid therapy (40-60 mg/day prednisone-equivalent)'.",
+   "severity": "minor",
+   "replacement": "40 to 60 mg a day of prednisone or equivalent (visual: 'High-dose steroid at once: 40 to 60 mg a day of prednisone or equivalent')"
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "linkedin",
+   "text": "The trap in older people is the vague or unusual story.",
+   "problem": "The review has no comparison by age (median age 72 in 746 cases with at least one unusual feature), so 'in older people' is not shown. The vertigo, scalp ulceration and dry cough figures are the most commonly reported unusual features across all 746 cases, not features of the 'only unusual features' group, though X and LinkedIn write them as if they were. The review population is people with biopsy-proven disease and at least one unusual feature.",
+   "source_says": "Sverdlichenko 2025 (PMID 39482474): '746 individuals (median age 72)... 18% of patients with atypical signs and symptoms only presented with atypical features... Patients with atypical features only experienced greater delay in treatment initiation (p<0.001). The most commonly reported atypical signs/symptoms were vertigo (11.9%), scalp necrosis/ulceration (7.9%), and dry cough (5.8%).'",
+   "severity": "minor",
+   "replacement": "LinkedIn: 'One trap is the vague or unusual story.' and 'A systematic review of case reports of 746 people with biopsy-proven disease and at least one unusual feature (median age 72) found that people who had only unusual features had longer delays before treatment started. Across all 746, the unusual features reported most often were vertigo, scalp ulceration and dry cough.' X: '...people with only unusual features had longer delays before treatment. Across the review, the unusual features reported most often were vertigo, scalp ulceration and dry cough.'"
+  },
+  {
+   "tmp_id": "C14-P11",
+   "where": "visual_text",
+   "text": "Hellmich et al., EULAR 2020; Hansen et al., Rheumatology 2025",
+   "problem": "Year ambiguity: the document is the 2018 update of the EULAR recommendations, published online July 2019 and in print in Ann Rheum Dis 2020;79(1).",
+   "source_says": "Hellmich 2019: '2018 Update of the EULAR recommendations for the management of large vessel vasculitis', Ann Rheum Dis 2020;79(1):19-30.",
+   "severity": "minor",
+   "replacement": "Hellmich et al., EULAR 2018 update, Ann Rheum Dis 2020; Hansen et al., Rheumatology 2025"
+  }
+ ],
+ "posts_to_drop": [],
+ "notes": "One blocker: C14-P06 LinkedIn says the timolol press trial did not measure heart rates, but heart rate was a secondary outcome. No post needs dropping. PMID:35329914 (Castaneda 2022) and PMID:27299619 (Buttgereit 2016) were not re-opened: used only for the general statement that permanent sight loss can occur in giant cell arteritis. Checked: no invented patients or quotations, no first-person clinical claims, no religion, no delirium as topic; labelled illustrations in P02, P03, P04, P10 are within STYLE rules. PMIDs and DOIs in all source_reply fields match their citations. The evidence batch note for C14-26/C14-18 etc. should be corrected where it says Shen authors made the caution (it is Saunders) and where it attributes hearing-aid otoscopy to NICE."
+}
