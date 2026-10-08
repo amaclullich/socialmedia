@@ -1,0 +1,587 @@
+{
+ "category": "C07",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C07-P01",
+  "C07-P02",
+  "C07-P03",
+  "C07-P04",
+  "C07-P05",
+  "C07-P06",
+  "C07-P07",
+  "C07-P08",
+  "C07-P09",
+  "C07-P10",
+  "C07-P11",
+  "C07-P12"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:24243857",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "Figures match (125, 31%, 52%, 65%). Abstract has no device-indication data, so the 'most devices secondary prevention' statement is not supported for the Swedish cohort (issue raised)."
+  },
+  {
+   "key": "PMID:41782279",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "1606, 2006 to 2022, 42%, 33% on final day, plateau from 2015 match; 7% to 59% is full text, not re-opened."
+  },
+  {
+   "key": "PMID:27237130",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30221596",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25106063",
+   "tool": "PubMed get_article_metadata (abstract); get_full_text_article PMC4441266 (over-80 figures)",
+   "matches_record": true,
+   "note": "Over 80: 155 (18%) vs 112 (13%), n=1729, mean delay 3.7 h confirmed in full text."
+  },
+  {
+   "key": "PMID:34741815",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34591080",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "Standard care arm received the assessment results; comparator wording issue raised."
+  },
+  {
+   "key": "PMID:40080017",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:39212749",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:36881786",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "RCT; KRAS wild-type subgroup; whole-trial home days 140 vs 121 (P=.09)."
+  },
+  {
+   "key": "PMID:42670961",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:27195814",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "Abstract confirmed; exclusion list, NNT 27 and 2.59 vs 3.85 per year are full text, not re-opened."
+  },
+  {
+   "key": "PMID:39159459",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34416872",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "Abstract is a Renal Association commentary on NICE NG107; NG107 wording not in abstract."
+  },
+  {
+   "key": "PMID:40487369",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:19828531",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:15501119",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:11932474",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28604917",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:29955796",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": null,
+   "note": "Research letter with a one-line abstract; survey figures (881, most/least preferred) could not be re-checked from the abstract."
+  },
+  {
+   "key": "PMID:33843946",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:38063572",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:39455366",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C07-P01",
+   "where": "x",
+   "text": "Most had their device fitted after a dangerous heart rhythm, so this figure does not apply to everyone with an ICD.",
+   "problem": "The claim that most devices in the Swedish study were fitted after a dangerous heart rhythm (secondary prevention) is not in the Swedish abstract. The evidence record takes the 82% from a different (Dutch, Leiden) cohort, Al Jaff 2026, so it is attributed to the wrong population.",
+   "source_says": "Kinch Westerdahl 2014 (Circulation, 125 explanted ICDs, one Stockholm centre) reports 31% shocked in the last 24 hours and 65% of those with a DNR order still active; the abstract says nothing about the indication for the devices.",
+   "severity": "major",
+   "replacement": "This was one hospital, so the figure may not apply to everyone with an ICD."
+  },
+  {
+   "tmp_id": "C07-P01",
+   "where": "linkedin",
+   "text": "Most of these devices had been fitted after a previous dangerous heart rhythm. People in that group are more likely to be shocked, so the figure does not apply to everyone with an ICD.",
+   "problem": "Same unsupported attribution of the secondary-prevention proportion to the Swedish cohort (the 82% figure comes from the Dutch Leiden cohort).",
+   "source_says": "Abstract of PMID 24243857 gives no device indication data.",
+   "severity": "major",
+   "replacement": "This was one hospital, and its figure may not apply to everyone with an ICD."
+  },
+  {
+   "tmp_id": "C07-P01",
+   "where": "linkedin",
+   "text": "Over the 17 years, the share rose from 7 in 100 to 59 in 100.",
+   "problem": "42 in 100 is an average over the whole period; the claim record requires saying so, and the rise stopped after 2015, so the sentence reads as a steady upward trend.",
+   "source_says": "Al Jaff 2026 abstract: deactivation rose 5.2% a year 2006 to 2014 but plateaued 2015 to 2022 (P=0.403); 7% in 2006 and 59% in 2022 (full text, per record).",
+   "severity": "minor",
+   "replacement": "The 42 in 100 is an average across 2006 to 2022. The share was 7 in 100 in 2006 and 59 in 100 in 2022, and it has levelled off since 2015."
+  },
+  {
+   "tmp_id": "C07-P01",
+   "where": "x",
+   "text": "UK heart rhythm guidance (2024) says you should have the chance to talk about this.",
+   "problem": "Drops the timing in the guidance (towards the end of life) and the object of the discussion; 'this' is vague.",
+   "source_says": "BHRS 2024: people should have the opportunity to consider and discuss the option to deactivate the shock function as they approach the end of life.",
+   "severity": "minor",
+   "replacement": "UK heart rhythm guidance (2024) says people with an ICD should have the chance to talk about switching off the shocks towards the end of life."
+  },
+  {
+   "tmp_id": "C07-P02",
+   "where": "linkedin",
+   "text": "After that, there were fewer harmful events in patients not for CPR. This was a before-and-after study in one hospital, so it shows an association, not proof.",
+   "problem": "Record qualification (run by the form's developers) is not carried.",
+   "source_says": "Fritz 2013: before-and-after study with contemporaneous controls in one hospital, run by the developers of the whole-plan form (UFTO).",
+   "severity": "minor",
+   "replacement": "After that, there were fewer harmful events in patients not for CPR. This was a before-and-after study in one hospital, run by the people who developed the plan, so it shows an association, not proof."
+  },
+  {
+   "tmp_id": "C07-P04",
+   "where": "x",
+   "text": "Treatment depends on how long ago the stroke started and on a brain scan, not on age alone.",
+   "problem": "Presents a closed list of two criteria; record qualification says eligibility also depends on other factors (bleeding risk, some medicines, pre-stroke function) and must not be listed as complete.",
+   "source_says": "C07-30-h qualifications; ESO guideline: other criteria must also be met.",
+   "severity": "minor",
+   "replacement": "Treatment depends on how long ago the stroke started, on a brain scan and on other checks, not on age alone."
+  },
+  {
+   "tmp_id": "C07-P04",
+   "where": "bluesky",
+   "text": "Eligibility depends on time since the stroke and a brain scan.",
+   "problem": "Same closed-list problem.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Eligibility depends on time since the stroke, a brain scan and other checks."
+  },
+  {
+   "tmp_id": "C07-P04",
+   "where": "threads",
+   "text": "Eligibility depends on time since onset and a brain scan.",
+   "problem": "Same closed-list problem.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Eligibility depends on time since onset, a brain scan and other checks."
+  },
+  {
+   "tmp_id": "C07-P04",
+   "where": "visual_text",
+   "text": "Over 80, 9 trials (1729 people): no significant disability at 3 to 6 months",
+   "problem": "The 18 vs 13 in 100 figure pools all treatment delays in the trials (mean delay 3.7 h, some beyond 4.5 h), whereas the flow chart above it says within 4.5 hours. Reader may take 18 vs 13 as the benefit within 4.5 hours.",
+   "source_says": "Emberson 2014 full text (re-opened): over 80, mean delay 3.7 h, 155 (18%) vs 112 (13%), OR 1.56; benefit in the whole pooled set was larger when treated earlier and not clear after 4.5 h.",
+   "severity": "minor",
+   "replacement": "Over 80, 9 trials (1729 people), all treatment times: no significant disability at 3 to 6 months"
+  },
+  {
+   "tmp_id": "C07-P05",
+   "where": "x",
+   "text": "A US trial involved 718 people aged 70 and over starting treatment for cancer that could not be cured.",
+   "problem": "Omits that all had at least one problem on the assessment and were starting a high-risk (chemotherapy-type) regimen; the opening sentence ('Before cancer treatment at 70 or over...') is broader than the trial population.",
+   "source_says": "GAP70+ abstract: aged 70+, incurable solid tumours or lymphoma, at least one impaired geriatric assessment domain, starting a new treatment regimen with high risk of toxicity (mean 4.5 impaired domains).",
+   "severity": "minor",
+   "replacement": "A US trial involved 718 people aged 70 and over with cancer that could not be cured, who were starting a new treatment with a high risk of side effects and had at least one problem found on the assessment."
+  },
+  {
+   "tmp_id": "C07-P05",
+   "where": "linkedin",
+   "text": "A second US trial involved 605 people aged 65 and over starting chemotherapy. Serious side effects happened to about 51 in 100 with a specialist team acting on the assessment, against 61 in 100 without.",
+   "problem": "Comparator is misleading: in GAIN every participant had a geriatric assessment; in the standard care arm the results were sent to the oncologist. 'Without' implies no assessment. Single centre also omitted.",
+   "source_says": "Li 2021 (JAMA Oncol, re-opened): 613 randomised at one NCI-designated centre; SOC arm: geriatric assessment results sent to treating oncologists; grade 3+ toxicity 50.5% vs 60.6%; no significant difference in ED visits, hospitalisations or survival.",
+   "severity": "major",
+   "replacement": "A second US trial, at one cancer centre, involved 605 people aged 65 and over starting chemotherapy. Everyone had an assessment. Serious side effects happened to about 51 in 100 when a specialist team acted on it, against 61 in 100 when the results were only sent to the cancer doctor."
+  },
+  {
+   "tmp_id": "C07-P05",
+   "where": "visual_text",
+   "text": "A second US trial (605 people aged 65+): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival. US guidance recommends assessment for everyone over 65 with cancer. UK specialists report few patients can get it.",
+   "problem": "Same comparator and single-centre omission; the card implies assessment versus none.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A second US trial (605 people aged 65+, one centre; everyone had an assessment, only one group had a specialist team act on it): serious side effects 51 vs 61 in 100; no clear difference in admissions or survival. US guidance recommends assessment for everyone over 65 with cancer. UK specialists report few patients can get it."
+  },
+  {
+   "tmp_id": "C07-P05",
+   "where": "alt_text",
+   "text": "Text card: a second US trial of 605 people aged 65 and over found serious side effects in 51 vs 61 in 100, with no clear difference in admissions or survival.",
+   "problem": "Same comparator omission as the visual.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Text card: a second US trial at one centre, of 605 people aged 65 and over who all had an assessment, found serious side effects in 51 vs 61 in 100 when a specialist team acted on it rather than the results only being sent to the cancer doctor, with no clear difference in admissions or survival."
+  },
+  {
+   "tmp_id": "C07-P05",
+   "where": "linkedin",
+   "text": "and a few more medicines were stopped.",
+   "problem": "Overstates a tiny difference.",
+   "source_says": "GAP70+: mean adjusted difference 0.14 more medicines discontinued per person (95% CI 0.03 to 0.25).",
+   "severity": "minor",
+   "replacement": "and slightly more medicines were stopped (about 1 extra medicine for every 7 people)."
+  },
+  {
+   "tmp_id": "C07-P06",
+   "where": "linkedin",
+   "text": "In the CO.17 trial, people chose between weekly drip treatment and supportive care alone (median age 63).",
+   "problem": "CO.17 was a randomised controlled trial; people did not choose their arm. False description of the design.",
+   "source_says": "Gupta 2023 (JCO Oncol Pract, re-opened): secondary analysis of the CCTG CO.17 RCT of weekly cetuximab versus supportive care alone in 572 patients with advanced colorectal cancer.",
+   "severity": "blocker",
+   "replacement": "In the CO.17 trial, people with advanced bowel cancer were randomly given either weekly drip treatment (cetuximab) or supportive care alone (median age 63)."
+  },
+  {
+   "tmp_id": "C07-P06",
+   "where": "x",
+   "text": "In one cancer trial (median age 63), people whose cancer responded had more contact days (a median of 41 against 10). They also had more days at home (186 against 132).",
+   "problem": "A post hoc genetic subgroup (KRAS wild-type tumours) is mislabelled as 'people whose cancer responded', and written as if it were the trial result. In the whole trial home days did not differ clearly (140 vs 121, P=.09).",
+   "source_says": "Gupta 2023: overall, contact days 28 vs 10 and home days 140 vs 121 (P=.09, not statistically different); in KRAS wild-type tumours, 41 vs 10 contact days and 186 vs 132 home days. The subgroup is defined by tumour genetics, not by observed response.",
+   "severity": "blocker",
+   "replacement": "In one cancer trial (median age 63), people whose tumours had no KRAS mutation, a group picked out after the trial and the one the drug helps most, had more contact days on the drug (a median of 41 against 10) and more days at home (186 against 132). Across everyone in the trial, days at home did not differ clearly (140 against 121)."
+  },
+  {
+   "tmp_id": "C07-P06",
+   "where": "linkedin",
+   "text": "Among those whose cancers responded to the drug, a group identified after the trial, treatment took more days (a median of 41 against 10). It also gave more days at home (186 against 132).",
+   "problem": "Same mislabel ('responded'); the whole-trial home-day result (no clear difference) is left out, so the subgroup reads as the finding.",
+   "source_says": "As above.",
+   "severity": "blocker",
+   "replacement": "Among people whose tumours had no KRAS mutation, the group the drug helps most and one picked out after the trial, treatment took more days (a median of 41 against 10). It also gave more days at home (186 against 132). Across everyone in the trial, days at home did not differ clearly (a median of 140 against 121)."
+  },
+  {
+   "tmp_id": "C07-P06",
+   "where": "threads",
+   "text": "Treatment can also give days back: in one trial, people whose cancer responded had more days at home.",
+   "problem": "Same mislabel; presents a post hoc genetic subgroup result as if it applied to responders generally, with no mention that the whole trial showed no clear difference in home days.",
+   "source_says": "As above.",
+   "severity": "blocker",
+   "replacement": "Treatment can also give days back: in one trial, people whose tumours had no KRAS mutation, a group picked out after the trial, had more days at home on the drug. Across everyone in that trial, days at home did not differ clearly."
+  },
+  {
+   "tmp_id": "C07-P06",
+   "where": "visual_text",
+   "text": "In US cancer trials, people aged 65+ with advanced cancer typically spent nearly 1 day in 5 in contact with health care in their first year",
+   "problem": "Headline generalises one cohort to 'US cancer trials'. Source is six SWOG phase 3 trials (prostate, lung and pancreatic cancer, 1999 to 2014) linked to Medicare claims, 1429 people, 79% men; first 12 months after enrolment, not 'first year of advanced cancer care'. Same wording appears in the X, Bluesky, Threads and LinkedIn captions and the alt text.",
+   "source_says": "Gupta 2025 (JAMA Netw Open, re-opened): 1429 patients aged 65+ in 6 SWOG trials across prostate, lung and pancreatic cancer; median 48 contact days over median 350 days observed; median 19%; 'nearly 1 in 5 days'.",
+   "severity": "major",
+   "replacement": "In six US trials in advanced prostate, lung and pancreatic cancer, people aged 65+ typically spent nearly 1 day in 5 in contact with health care in the year after joining. (Use the same 'six US trials in prostate, lung and pancreatic cancer' wording in the X, Bluesky, Threads and LinkedIn captions and the alt text, in place of 'US cancer trials'.)"
+  },
+  {
+   "tmp_id": "C07-P06",
+   "where": "visual_text",
+   "text": "Contact days in the first year of advanced cancer care",
+   "problem": "Measured from trial enrolment, not from diagnosis or start of 'advanced cancer care'.",
+   "source_says": "Gupta 2025: first 12 months after trial enrolment.",
+   "severity": "minor",
+   "replacement": "Contact days in the first year after joining a cancer trial"
+  },
+  {
+   "tmp_id": "C07-P07",
+   "where": "x",
+   "text": "STAREE (NEJM, August 2026; 9971 Australians aged 70+, no diabetes or dementia): a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability.",
+   "problem": "Benefit is given without the harm side. The trial abstract reports more musculoskeletal, liver and diabetes-related adverse events on the statin; none of the four captions or the visual says so. Also omits 'no heart disease' from the population.",
+   "source_says": "STAREE abstract (re-opened): serious adverse events 2.7% vs 2.7%, with musculoskeletal, hepatobiliary and diabetes-related adverse events more common with atorvastatin; participants had no history of cardiovascular disease, diabetes or dementia.",
+   "severity": "major",
+   "replacement": "STAREE (NEJM, August 2026; 9971 Australians aged 70+, no heart disease, diabetes or dementia): a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability. Serious side effects were similar (2.7 in 100 in each group), but muscle, liver and diabetes-related problems were more common on the statin."
+  },
+  {
+   "tmp_id": "C07-P07",
+   "where": "linkedin",
+   "text": "These are crude proportions from the published abstract, which does not give results for the over-75s or the size of side effects.",
+   "problem": "Says the abstract does not give the size of side effects, but does not report the direction the abstract does give (more muscle, liver and diabetes-related events on the statin).",
+   "source_says": "STAREE abstract as above.",
+   "severity": "major",
+   "replacement": "These are crude proportions from the published abstract, which does not give results for the over-75s. Serious side effects were similar (2.7 in 100 in each group), but muscle, liver and diabetes-related problems were more common on the statin, and the abstract does not give their size."
+  },
+  {
+   "tmp_id": "C07-P07",
+   "where": "visual_text",
+   "text": "Crude proportions from trial abstract",
+   "problem": "Visual shows only the benefit bars; no harm line.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Crude proportions from trial abstract. Serious side effects similar (2.7 in 100 in each group); more muscle, liver and diabetes-related problems on the statin."
+  },
+  {
+   "tmp_id": "C07-P07",
+   "where": "threads",
+   "text": "STAREE (2026), 9971 Australians aged 70+: a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability.",
+   "problem": "Same harm omission (applies equally to the Bluesky version).",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "STAREE (2026), 9971 Australians aged 70+: a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability. More muscle, liver and diabetes-related problems were reported on the statin. (Add the same final sentence, shortened, to the Bluesky version.)"
+  },
+  {
+   "tmp_id": "C07-P07",
+   "where": "x",
+   "text": "By about 75, the QRISK calculator puts almost everyone above the 10% statin line, even people with ideal numbers.",
+   "problem": "Opening line is unqualified, but the threshold-crossing result is from QRISK2 (2017 analysis); QRISK3 is the current version.",
+   "source_says": "Ueda 2017: QRISK2 profiles; every man and woman aged 75 to 84 without CVD in HSE 2011 sample exceeded 10%.",
+   "severity": "minor",
+   "replacement": "By about 75, the QRISK2 calculator puts almost everyone above the 10% statin line, even people with ideal numbers."
+  },
+  {
+   "tmp_id": "C07-P08",
+   "where": "x",
+   "text": "with serious adverse events similar (about 48 in 100 in each group).",
+   "problem": "Gives only the reassuring harm result. The same paper reports numerically more low blood pressure, fainting, salt imbalance and kidney injury on the lower target and a clearly higher rate of kidney function decline in people without kidney disease at baseline.",
+   "source_says": "Williamson 2016 (re-opened): hypotension 2.4% vs 1.4%, syncope 3.0% vs 2.4%, electrolyte 4.0% vs 2.7%, AKI 5.5% vs 4.0% (none individually significant); eGFR decline 1.70% vs 0.58% a year in those without CKD (HR 3.14, full text).",
+   "severity": "major",
+   "replacement": "with serious adverse events similar (about 48 in 100 in each group), though kidney function fell more often on the lower target in people whose kidneys were working normally at the start."
+  },
+  {
+   "tmp_id": "C07-P08",
+   "where": "linkedin",
+   "text": "Serious adverse events were equally common (about 48 in 100 in each group), and injurious falls did not differ clearly.",
+   "problem": "Same harm omission.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Serious adverse events were equally common (about 48 in 100 in each group), and injurious falls did not differ clearly. Low blood pressure, fainting, salt imbalance and kidney injury were a little more common on the lower target, though not clearly so, and a fall in kidney function was clearly more common in people whose kidneys were working normally at the start."
+  },
+  {
+   "tmp_id": "C07-P08",
+   "where": "linkedin",
+   "text": "A practical reading: treat over-75s who resemble the trial population, and for people the trial left out, treat to the standing reading, their falls and their goals.",
+   "problem": "Reads as endorsing the SPRINT lower target for trial-like over-75s, in the same post that reports NICE did not adopt it. That is an inferred position on a disputed guideline question and a directive 'treat' not supported by the evidence record (C07-03-h/i support standing reading, falls and goals, not a target).",
+   "source_says": "Jones 2020 (BJGP summary of NG136): NICE does not suggest aiming for lower targets; judge over-80s on individual merit including frailty and comorbidity.",
+   "severity": "major",
+   "replacement": "A practical reading: for over-75s who resemble the trial population, the trial shows benefit from the lower target, though NICE has not adopted it. For people the trial left out, the standing reading, their falls and their goals should guide treatment."
+  },
+  {
+   "tmp_id": "C07-P08",
+   "where": "bluesky",
+   "text": "SPRINT, the trial behind US and European blood pressure targets, helped over-75s fit enough to join.",
+   "problem": "'Fit' contradicts the record: about 3 in 10 were classed as frail. Editor guidance: 'well enough to join the trial'.",
+   "source_says": "C07-03-e qualifications.",
+   "severity": "minor",
+   "replacement": "SPRINT, the trial behind US and European blood pressure targets, helped over-75s well enough to join."
+  },
+  {
+   "tmp_id": "C07-P08",
+   "where": "x",
+   "text": "SPRINT, the trial behind US and European targets, showed benefit in 2636 people aged 75 and over: aiming below 120 systolic rather than 140 meant fewer cardiovascular events (about 2.6 vs 3.9 in 100 a year)",
+   "problem": "The 2636 are the trial's prespecified older group, not the whole trial; the trial stopped early for benefit, which can overstate effects; average systolic achieved was 123 vs 135, not 120 vs 140.",
+   "source_says": "Williamson 2016: 2636 participants aged 75+; achieved mean SBP 123.4 vs 134.8 (full text).",
+   "severity": "minor",
+   "replacement": "SPRINT, the trial behind US and European targets, showed benefit in its 2636 participants aged 75 and over: aiming below 120 systolic rather than 140 (average reached 123 against 135) meant fewer cardiovascular events (about 2.6 vs 3.9 in 100 a year)"
+  },
+  {
+   "tmp_id": "C07-P08",
+   "where": "linkedin",
+   "text": "Across 9 trials, lowering pressure helped people with a drop on standing as much as those without.",
+   "problem": "Omits that only about 1 in 10 had a drop on standing at the start and that participants were younger (mean age 69); 'as much as' overstates a non-significant interaction.",
+   "source_says": "Juraschek 2023: 29,235 participants, mean age 69, 9% orthostatic hypotension; HR 0.81 vs 0.83, P=.68 for interaction.",
+   "severity": "minor",
+   "replacement": "Across 9 trials (average age 69, with only about 1 in 10 having a drop on standing at the start), lowering pressure helped people with a drop on standing about as much as those without."
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "x",
+   "text": "About 20,000 US veterans aged 65 and over were studied. Starting dialysis as soon as kidney function fell very low made little clear difference to survival over 3 years. It meant about 2 weeks fewer days at home. Compared with never having dialysis, it added about 11 weeks of life, still with about 2 weeks fewer days at home.",
+   "problem": "Observational target-trial emulation reported with causal verbs ('meant', 'added'). Comparator is 'continuing medical management', which the authors say is not equivalent to a structured conservative care programme, yet the post and visual sit it beside conservative kidney care. Design, comparator and nearly all-male population are missing from X, Bluesky, Threads and the visual.",
+   "source_says": "Montez-Rath 2024 (re-opened): observational cohort, target trial emulation, VA 2010 to 2018, 20,440 adults 65+; starting dialysis vs continuing medical management: survival difference 9.3 days (95% CI -17.4 to 30.1), 13.6 fewer days at home; vs forgoing dialysis completely: 77.6 days longer survival, 14.7 fewer days at home. Authors: unmeasured confounding; limited generalisability to women.",
+   "severity": "major",
+   "replacement": "An observational study, designed to imitate a trial, followed about 20,000 US veterans aged 65 and over, nearly all men. Compared with carrying on with usual medical care, starting dialysis as soon as kidney function fell very low was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home. Compared with never having dialysis, it was linked with about 11 weeks longer survival, still with about 2 weeks fewer days at home. Usual medical care here was not a planned conservative care programme."
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "linkedin",
+   "text": "About 20,000 US veterans aged 65 and over (average age 78) were studied. Starting dialysis as soon as kidney function fell very low made little clear difference to survival over 3 years. It meant about 2 weeks fewer days at home, rather than in hospital or a care home. Compared with never having dialysis, it added about 11 weeks of life, still with about 2 weeks fewer days at home. Nearly all were men.",
+   "problem": "Same causal verbs and missing design and comparator.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "An observational study, designed to imitate a trial, followed about 20,000 US veterans aged 65 and over (average age 78). Compared with carrying on with usual medical care, starting dialysis as soon as kidney function fell very low was linked with little clear difference in survival over 3 years (about 9 days longer on average, from 17 days shorter to 30 days longer) and about 2 weeks fewer days at home, rather than in hospital or a care home. Compared with never having dialysis, it was linked with about 11 weeks longer survival, still with about 2 weeks fewer days at home. Nearly all were men, and usual medical care was not a planned conservative care programme."
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "bluesky",
+   "text": "In older US veterans, starting dialysis early made little clear difference to survival and meant 2 weeks fewer at home.",
+   "problem": "Causal verbs on observational data; no comparator.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "In an observational study of older US veterans, starting dialysis early was linked with little clear difference in survival and about 2 weeks fewer days at home, compared with usual medical care."
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "threads",
+   "text": "In about 20,000 older US veterans, starting dialysis early made little clear difference to survival over 3 years. It meant about 2 weeks fewer at home.",
+   "problem": "Causal verbs on observational data; no comparator.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "In an observational study of about 20,000 older US veterans, starting dialysis early was linked with little clear difference in survival over 3 years, compared with usual medical care. It was also linked with about 2 weeks fewer days at home."
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "visual_text",
+   "text": "Older US veterans: starting dialysis early made little clear difference to survival over 3 years and meant about 2 weeks fewer days at home",
+   "problem": "Causal verbs; sits in the 'Conservative kidney care' column area so the comparator reads as conservative care, but it was usual medical management. Alt text carries the same wording.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Older US veterans (observational study): compared with usual medical care, starting dialysis early was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home. (Make the same change in the alt text.)"
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "threads",
+   "text": "Yet UK kidney unit leaflets often present dialysis as the expected choice.",
+   "problem": "Generalises a qualitative analysis of four units' leaflets to UK kidney units.",
+   "source_says": "Sowden 2025 (re-opened): document analysis of leaflets from four UK renal departments; dialysis constructed as the assumed choice; CKM often omitted.",
+   "severity": "minor",
+   "replacement": "Yet in a study of leaflets from four UK kidney units, dialysis was presented as the expected choice."
+  },
+  {
+   "tmp_id": "C07-P09",
+   "where": "visual_text",
+   "text": "Kharbanda et al., BMC Nephrol 2021; Montez-Rath et al., Ann Intern Med 2024",
+   "problem": "Kharbanda 2021 is the Renal Association commentary on NICE NG107, not the guideline; NICE page was not opened. The credit line could be read as NICE itself.",
+   "source_says": "PMID 34416872: 'Commentary on the NICE guideline on renal replacement therapy and conservative management', BMC Nephrol 2021.",
+   "severity": "minor",
+   "replacement": "NICE NG107 (2018), as quoted in Kharbanda et al., BMC Nephrol 2021; Montez-Rath et al., Ann Intern Med 2024"
+  },
+  {
+   "tmp_id": "C07-P10",
+   "where": "x",
+   "text": "Many older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments.",
+   "problem": "Generalises from a seriously ill sample to 'many older people' and omits that the alternative to treatment was death from their illness (not elective surgery), which the record flags.",
+   "source_says": "Fried 2002 (re-opened): 226 people 60+ with cancer, heart failure or COPD and limited life expectancy; outcome without treatment specified as death from the underlying disease; 74.4% and 88.8% of those who would accept the low-burden treatment would not choose it with severe functional or cognitive impairment.",
+   "severity": "minor",
+   "replacement": "Many seriously ill older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments, where the alternative was dying of their illness."
+  },
+  {
+   "tmp_id": "C07-P10",
+   "where": "linkedin",
+   "text": "Many older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments.",
+   "problem": "Same generalisation and omitted alternative.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Many seriously ill older people weigh independence heavily. In another US study, 226 seriously ill people aged 60 and over were asked about hypothetical treatments, where the alternative was dying of their illness."
+  },
+  {
+   "tmp_id": "C07-P10",
+   "where": "x",
+   "text": "A US study followed 372 people aged 60 and over after planned major abdominal operations.",
+   "problem": "Date and age context missing from X, Bluesky and Threads; the record requires anchoring to the study and population because the data predate enhanced recovery pathways.",
+   "source_says": "Lawrence 2004 (re-opened): prospective cohort, 372 patients 60+, mean age 69, elective major abdominal operations; ADL recovery 3 months, IADL 6 months; persistent disability at 6 months ADL 9%, IADL 19%.",
+   "severity": "minor",
+   "replacement": "A US study published in 2004 followed 372 people aged 60 and over (average age 69) after planned major abdominal operations. (Add 'in 2004' or 'an older US study' to the Bluesky and Threads versions too.)"
+  },
+  {
+   "tmp_id": "C07-P10",
+   "where": "source_reply",
+   "text": "https://doi.org/10.1186/s12884-021-03574-2",
+   "problem": "The Montgomery source is a maternity-care paper (BMC Pregnancy and Childbirth) that quotes para 87; it is not a general source on UK consent law and the judgment was not opened.",
+   "source_says": "C07-01-c: secondary source quoting para 87 of Montgomery v Lanarkshire Health Board.",
+   "severity": "minor",
+   "replacement": "Cite the judgment itself (Montgomery v Lanarkshire Health Board [2015] UKSC 11) or label the link 'quoting the Montgomery judgment' in the source reply."
+  },
+  {
+   "tmp_id": "C07-P11",
+   "where": "all",
+   "text": "Older people in US studies were often open to stopping cancer screening.",
+   "problem": "Openness comes from the 40 interviews only; the 881-person survey was a hypothetical ranking of explanations and did not measure willingness. 'Often' and, in X and LinkedIn, 'most were willing' go beyond the qualitative theme.",
+   "source_says": "Schoenborn 2017 abstract (re-opened): 'participants were amenable to stopping cancer screening, especially in the context of a trusting relationship with their clinician'; no proportions given.",
+   "severity": "minor",
+   "replacement": "In US interviews, older people were generally open to stopping cancer screening."
+  },
+  {
+   "tmp_id": "C07-P11",
+   "where": "x",
+   "text": "In interviews with 40 adults aged 65 and over, most were willing to stop, especially if they trusted their clinician.",
+   "problem": "'Most' is a quantifier the abstract does not give (record: report as themes, not proportions). Same phrase in the LinkedIn version ('most were willing to stop screening').",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "In interviews with 40 adults aged 65 and over, people were generally open to stopping, especially if they trusted their clinician."
+  },
+  {
+   "tmp_id": "C07-P11",
+   "where": "x",
+   "text": "In a US survey of 881 people aged 65 and over, the explanation liked most was 'your other health issues should take priority'.",
+   "problem": "Hypothetical scenario and stated preference not mentioned in X, Bluesky or Threads (LinkedIn has it).",
+   "source_says": "Schoenborn 2018 (full text per record): best-worst scaling of 13 phrases in a hypothetical scenario.",
+   "severity": "minor",
+   "replacement": "In a US survey of 881 people aged 65 and over, asked to imagine a doctor stopping their screening, the explanation liked most was 'your other health issues should take priority'."
+  },
+  {
+   "tmp_id": "C07-P11",
+   "where": "visual_text",
+   "text": "Preferred in interviews",
+   "problem": "Interview finding was 'many felt' the first phrase harsh compared with the second; not a count of preferences.",
+   "source_says": "Schoenborn 2017.",
+   "severity": "minor",
+   "replacement": "Preferred by many in the interviews"
+  },
+  {
+   "tmp_id": "C07-P12",
+   "where": "all",
+   "text": "Expert consensus (ATS 2024) sets out the core.",
+   "problem": "The ATS consensus is for critical care and life-sustaining treatment. LinkedIn says so, but X, Bluesky, Threads and the visual present the definition as general, under a general opening line. The record says applying it to other decisions is extrapolation.",
+   "source_says": "Kruser 2024 ATS Workshop Report (re-opened): 'a consensus definition of a time-limited trial in critical care'; 16 essential elements.",
+   "severity": "major",
+   "replacement": "X: Expert consensus for intensive care (ATS 2024) sets out the core. | Bluesky: begin 'A time-limited trial, as defined for intensive care: give a treatment for an agreed time...' | Threads: begin the second paragraph 'In intensive care, expert consensus says to agree with the person or family: ...' | Visual: 'Core items from the ATS 2024 consensus for intensive care (16 elements in full)'; same in the alt text."
+  },
+  {
+   "tmp_id": "C07-P12",
+   "where": "threads",
+   "text": "In three US intensive care units, training doctors in this raised family meetings naming signs of improvement from about 1 in 5 to almost 9 in 10.",
+   "problem": "Causal verb ('raised') for an uncontrolled before-and-after quality improvement study; not labelled as such, not specific to older people (mean age 64), and the unchanged hospital deaths are omitted.",
+   "source_says": "Chang 2021 (re-opened): prospective QI study, 3 California ICUs, 209 patients, mean age 63.6; clinical markers of improvement identified in 20.9% vs 88.1% of meetings; hospital mortality 58.4% vs 58.3%; 'associated with'.",
+   "severity": "major",
+   "replacement": "In a before-and-after study in three US intensive care units (not specific to older people), family meetings named signs of improvement in almost 9 in 10 cases after doctors were trained, against about 1 in 5 before. Hospital deaths did not change."
+  },
+  {
+   "tmp_id": "C07-P12",
+   "where": "x",
+   "text": "Family meetings then named signs of improvement in almost 9 in 10 cases, up from about 1 in 5.",
+   "problem": "The unit is family meetings (9 of 43, then 52 of 59), not 'cases' or patients.",
+   "source_says": "Chang 2021: 9 [20.9%] vs 52 [88.1%] meetings identified clinical markers of improvement.",
+   "severity": "minor",
+   "replacement": "Family meetings then named signs of improvement in almost 9 in 10 of the meetings held, up from about 1 in 5."
+  }
+ ],
+ "posts_to_drop": []
+}

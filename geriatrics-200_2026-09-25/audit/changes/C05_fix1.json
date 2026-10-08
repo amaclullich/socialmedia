@@ -278,5 +278,600 @@
   "old": "2,293 people aged 70+ on medical wards",
   "new": "2,293 medical inpatients aged 70+",
   "reason": "trim to platform limit after fact-check additions"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.linkedin",
+  "old": "A 2019 review pooling 7,375 older adults found about 3 in 10 lost independence after an acute stay, with little change over the years, though methods varied between studies.",
+  "new": "A 2020 review (Loyd, J Am Med Dir Assoc) pooling studies of 7,375 adults aged 65 and over found that about 3 in 10 lost independence in basic daily activities after an acute hospital stay, with little change by the year the study began, though results varied widely between studies.",
+  "reason": "minor: Loyd review is J Am Med Dir Assoc 2020; say hospital stay, basic daily activities, age 65+"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.x",
+  "old": "The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute stay.",
+  "new": "The data are over 20 years old, but a 2020 review of studies in adults aged 65 and over found about 3 in 10 lost independence in basic daily activities after an acute hospital stay, with little change by the year the study began.",
+  "reason": "minor: Loyd review is J Am Med Dir Assoc 2020; say hospital stay, basic daily activities, age 65+"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.threads",
+  "old": "The data are 20+ years old, but a 2019 review found about 3 in 10 older people still lose independence after an acute stay.",
+  "new": "Data are 20+ years old; a 2020 review found about 3 in 10 older people lost independence in basic daily activities after a hospital stay.",
+  "reason": "minor: Loyd review is J Am Med Dir Assoc 2020; say hospital stay, basic daily activities, age 65+ (shortened to keep Threads within 500 characters)"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.threads",
+  "old": "We should record the level two weeks before illness and state the gap at discharge.",
+  "new": "We should record the level two weeks before illness and the gap at discharge.",
+  "reason": "length: keep Threads within 500 characters after the review sentence was lengthened"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.linkedin",
+  "old": "In a 2001 study of 525 medical patients at one US centre, most hospital records did not say whether the person could manage individual daily tasks before admission. Walking was the exception.",
+  "new": "In a 2001 study of 525 medical patients aged 70 and over at one US centre, most paper hospital records did not say whether the person could manage individual daily tasks before admission. Walking was the exception. Electronic records may differ.",
+  "reason": "minor: add paper records, age 70+ and the record qualification"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "captions.linkedin",
+  "old": "My view: we should record what the person could do two weeks before the illness",
+  "new": "Judgement: we should record what the person could do two weeks before the illness",
+  "reason": "minor: house rule, no personal opinion claimed beyond a published source"
+ },
+ {
+  "tmp_id": "C05-P01",
+  "where": "verification_notes",
+  "old": "Loyd 2019 abstract",
+  "new": "Loyd 2020 abstract (published online 2019)",
+  "reason": "consistency: journal year of the Loyd review"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.threads",
+  "old": "those who had changed how they walked or climbed stairs were already slower and weaker, and more likely to develop difficulty later.",
+  "new": "those who had changed how they walked or climbed stairs, but reported no difficulty, were already slower and weaker and more likely to develop difficulty within 18 months.",
+  "reason": "major: restore the qualifier 'without difficulty' that defines the finding"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.threads",
+  "old": "A Finnish study found the same in men and women.",
+  "new": "A Finnish study found a similar pattern.",
+  "reason": "minor: 'the same' overstates the Finnish study (age range left out to keep Threads within 500 characters)"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.threads",
+  "old": "can get a no from someone who now goes one step at a time with both hands on the rail.",
+  "new": "can get a no from someone taking them one step at a time.",
+  "reason": "length: keep Threads within 500 characters after the major fix"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.threads",
+  "old": "Ask: \"Have you changed how you do this, or how often, because of your health?\"",
+  "new": "Ask: \"Have you changed how or how often you do this because of your health?\"",
+  "reason": "length: keep Threads within 500 characters after the major fix"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.threads",
+  "old": "In a Baltimore study of more able women in their 70s (1990s),",
+  "new": "In a 1990s Baltimore study of more able women in their 70s,",
+  "reason": "length: keep Threads within 500 characters after the major fix"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.threads",
+  "old": "stairs, but reported no difficulty, were already",
+  "new": "stairs, yet reported no difficulty, were already",
+  "reason": "length: keep Threads within 500 characters after the major fix"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.x",
+  "old": "A smaller Finnish study found the same in men and women.",
+  "new": "A smaller Finnish study of men and women aged 75 to 81 found a similar pattern over 2 years.",
+  "reason": "minor: 'the same' overstates the Finnish study"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.linkedin",
+  "old": "Over the next 18 months, women who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty, even after allowing for walking speed (Fried 2000).",
+  "new": "Among women who reported no difficulty at the start, those who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty over the next 18 months, even after allowing for walking speed (Fried 2000).",
+  "reason": "minor: state the baseline group the odds apply to"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.linkedin",
+  "old": "Limits: the main studies were of women aged 70 to 79 in Baltimore, the more able two thirds of their age group, recruited in the mid-1990s.",
+  "new": "Limits: the main studies were of women in their 70s in Baltimore, the more able two thirds of their age group, recruited in 1994 and 1995.",
+  "reason": "minor: remove 70 to 80 versus 70 to 79 inconsistency within the caption"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.linkedin",
+  "old": "I think it belongs in a functional history, next to the difficulty question.",
+  "new": "Judgement: it belongs in a functional history, next to the difficulty question.",
+  "reason": "minor: house rule, no personal opinion claimed beyond a published source"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "captions.linkedin",
+  "old": "A Finnish study of people aged 75 to 81 found the same pattern in men and women (Mänty 2007).",
+  "new": "A smaller Finnish study of people aged 75 to 81 found a similar pattern in men and women over 2 years (Mänty 2007).",
+  "reason": "consistency with the minor fix to the X and Threads Finnish sentences ('the same' overstates)"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "visual_text.5",
+  "old": "Changing how you do a task, before any difficulty, was linked with later difficulty in older women (1990s US studies).",
+  "new": "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies).",
+  "reason": "minor: population limit on the visual"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "visual_brief.slides.0.text.items.3",
+  "old": "Changing how you do a task, before any difficulty, was linked with later difficulty in older women (1990s US studies).",
+  "new": "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies).",
+  "reason": "minor: population limit on the visual (visual_brief copy of visual_text)"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "alt_text.0",
+  "old": "Caption: changing method before difficulty was linked with later difficulty in 1990s US studies of older women.",
+  "new": "Caption: changing method before difficulty was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies).",
+  "reason": "minor: population limit on the visual (alt text copy)"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "open_issues.0",
+  "old": "Short captions say \"in their 70s\"; LinkedIn gives both as sourced.",
+  "new": "Captions say \"in their 70s\"; LinkedIn gives 70 to 80 for Fried 2001 as sourced and \"in their 70s\" in the limits line.",
+  "reason": "consistency: open issue wording after the LinkedIn limits fix"
+ },
+ {
+  "tmp_id": "C05-P02",
+  "where": "alt_text.0",
+  "old": "A clinician asks an older woman if she has difficulty with stairs; she says no. At home she climbs one step at a time with both hands on the rail. Asked if she has changed how or how often she does it, she says she goes up once a day, slowly.",
+  "new": "A clinician asks an older woman about difficulty with stairs; she says no. At home she climbs one step at a time, both hands on the rail. Asked how or how often she does it now, she says once a day, slowly.",
+  "reason": "length: keep alt text within 400 characters after the population limit was added"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "captions.linkedin",
+  "old": "Improvement was real, though, and far more common from the early stage (called prefrail).",
+  "new": "Improvement was real, though. Reaching none of the frailty signs was far more common from the early stage (called prefrail) than from frailty.",
+  "reason": "major: any improvement was not more common from prefrail; only reaching no signs was"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "captions.x",
+  "old": "who were reassessed after about 4 years, 14 in 100",
+  "new": "who were reassessed after about 4 years on average (range 1 to 10), 14 in 100",
+  "reason": "minor: follow-up was a mean of 3.9 years, range 1 to 10"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "captions.threads",
+  "old": "over about 4 years, 14 in 100",
+  "new": "over about 4 years on average, 14 in 100",
+  "reason": "consistency with the minor follow-up fix"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "captions.bluesky",
+  "old": "Over about 4 years, 14 in 100",
+  "new": "Over about 4 years on average, 14 in 100",
+  "reason": "consistency with the minor follow-up fix"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "captions.bluesky",
+  "old": "If you've been called frail, ask",
+  "new": "If called frail, ask",
+  "reason": "length: keep Bluesky within 300 characters after adding 'on average'"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "visual_text.0",
+  "old": "100 older people living at home, about 4 years later",
+  "new": "100 older people living at home, about 4 years later on average",
+  "reason": "minor: follow-up was a mean of 3.9 years"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "visual_brief.slides.0.text.kicker",
+  "old": "100 older people living at home, about 4 years later",
+  "new": "100 older people living at home, about 4 years later on average",
+  "reason": "minor: follow-up was a mean (visual_brief copy of visual_text)"
+ },
+ {
+  "tmp_id": "C05-P03",
+  "where": "alt_text.0",
+  "old": "Over about 4 years, in 16 studies",
+  "new": "Over about 4 years on average, in 16 studies",
+  "reason": "minor: follow-up was a mean (alt text copy)"
+ },
+ {
+  "tmp_id": "C05-P04",
+  "where": "captions.bluesky",
+  "old": "or intact thinking with a physical disability.",
+  "new": "or intact thinking with a physical disability that means someone must stand by.",
+  "reason": "major: the standby-help qualifier is what makes the second person a level 6"
+ },
+ {
+  "tmp_id": "C05-P05",
+  "where": "captions.x",
+  "old": "Level 9 is for people expected to live less than about 6 months, many still active.",
+  "new": "Level 9 is for people expected to live less than about 6 months who are not otherwise severely frail; many are still active.",
+  "reason": "minor: level 9 applies to people not otherwise severely frail"
+ },
+ {
+  "tmp_id": "C05-P05",
+  "where": "captions.linkedin",
+  "old": "It is one input, and it depends on a clinician's judgement (Rockwood and Theou 2020).",
+  "new": "It is one input and depends on a clinician's judgement. It was designed for older people and is not well tested in younger people or in people with a long-standing single disability (Rockwood and Theou 2020).",
+  "reason": "minor: carry the scale's stated validation limit"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.x",
+  "old": "At 5 months the first group reported less difficulty with washing, dressing and the toilet.",
+  "new": "At 5 months the first group reported less difficulty with basic daily tasks such as washing, dressing and using the toilet, on an overall score.",
+  "reason": "major: the result is an overall score across daily activities, not specific to washing and dressing"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.threads",
+  "old": "At 5 months they had less difficulty with washing and dressing than people given social visits.",
+  "new": "At 5 months they reported less difficulty with basic daily tasks such as washing and dressing, on an overall score, than people given social visits.",
+  "reason": "major: the result is an overall score across daily activities, not specific to washing and dressing"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.threads",
+  "old": "to about half of them.",
+  "new": "to about half.",
+  "reason": "length: keep Threads within 500 characters after the major fix"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.bluesky",
+  "old": "A US trial of 300 older people on low incomes sent an occupational therapist, nurse and handyperson to half. At 5 months they had less difficulty washing and dressing than those given social visits, but it faded by 12 months.",
+  "new": "A US trial of 300 low-income older people sent an occupational therapist, nurse and handyperson to half. At 5 months they reported less difficulty with basic daily tasks such as washing and dressing than with social visits; not clearly at 12 months.",
+  "reason": "major: the result is an overall score across daily activities, not specific to washing and dressing (wording shortened to keep Bluesky within 300 characters)"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.bluesky",
+  "old": "Ask for someone to look at you and your home together.",
+  "new": "Ask for someone to look at you and your home.",
+  "reason": "length: keep Bluesky within 300 characters"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "visual_text.2",
+  "old": "US trial, 300 older people on low incomes: the half who had the visits had less difficulty with washing and dressing at 5 months; faded by 12 months.",
+  "new": "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
+  "reason": "major: the result is an overall score across daily activities, not specific to washing and dressing"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "US trial, 300 older people on low incomes: the half who had the visits had less difficulty with washing and dressing at 5 months; faded by 12 months.",
+  "new": "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
+  "reason": "major: the result is an overall score across daily activities, not specific to washing and dressing (visual_brief copy of visual_text)"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "alt_text.0",
+  "old": "found that the half who had the visits had less difficulty with washing and dressing at 5 months; the difference faded by 12 months.",
+  "new": "found that the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; the difference was no longer clear at 12 months.",
+  "reason": "major: the result is an overall score across daily activities, not specific to washing and dressing (alt text)"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "alt_text.0",
+  "old": "Illustrated cutaway of a home:",
+  "new": "Cutaway of a home:",
+  "reason": "length: keep alt text within 400 characters"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "alt_text.0",
+  "old": "Caption: a US trial of 300 older people on low incomes found that the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; the difference was no longer clear at 12 months.",
+  "new": "Caption: US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
+  "reason": "length: keep alt text within 400 characters"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.linkedin",
+  "old": "A 2025 trial of the same programme in 268 people just home from hospital did not clearly improve basic daily tasks, though walking and stairs improved more.",
+  "new": "A 2025 trial of the same programme in 268 people about 60 days after leaving hospital, who had already had home health care, did not clearly improve basic daily tasks compared with no further care, though a measure of walking and stairs improved more.",
+  "reason": "minor: 'just home from hospital' was inaccurate; add enrolment timing and comparator"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "captions.linkedin",
+  "old": "What I take from it: an assessment of difficulty at home",
+  "new": "Judgement: an assessment of difficulty at home",
+  "reason": "minor: house rule, no personal opinion claimed beyond a published source"
+ },
+ {
+  "tmp_id": "C05-P06",
+  "where": "insight",
+  "old": "reduced difficulty with washing and dressing at 5 months",
+  "new": "reduced difficulty with basic daily tasks such as washing and dressing (on an overall score) at 5 months",
+  "reason": "consistency: insight field after the fixes"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.x",
+  "old": "Comprehensive geriatric assessment (CGA) has good evidence in hospital and much weaker evidence at home.",
+  "new": "Comprehensive geriatric assessment (CGA) has good evidence of benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves.",
+  "reason": "major: the Briggs 2022 community result is little or no difference in deaths and care home moves, not merely weaker evidence"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.x",
+  "old": "For frail people living at home, 21 studies showed probably little or no difference in deaths or care home moves; fewer unplanned admissions is possible, on weak evidence.",
+  "new": "In those 21 community studies, unplanned hospital admissions may be lower, but the evidence is low certainty.",
+  "reason": "consistency: avoid repeating the community finding now stated in the opening"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.x",
+  "old": "About 15 in 100 were in a care home, against 19.",
+  "new": "About 15 in 100 had moved into a care home, against 19.",
+  "reason": "major: the outcome is admission to a care home, not the share living in one"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.x",
+  "old": "A service using the name should be able to show both.",
+  "new": "Judgement: a service using the name should be able to show both.",
+  "reason": "minor: mark judgement"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.linkedin",
+  "old": "Comprehensive geriatric assessment (CGA) has good evidence in hospital and much weaker evidence for frail people living at home. The name covers both, so it helps to know which is which.",
+  "new": "Comprehensive geriatric assessment (CGA) has good evidence of benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves, with a possible reduction in unplanned admissions on low-certainty evidence. The name covers both settings, so it helps to know which is which.",
+  "reason": "major: the Briggs 2022 community result is little or no difference in deaths and care home moves, not merely weaker evidence"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.linkedin",
+  "old": "2. In a care home: about 15 in 100 against 19 in 100.",
+  "new": "2. Moved into a care home: about 15 in 100 against 19 in 100.",
+  "reason": "major: the outcome is admission to a care home, not the share living in one"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.bluesky",
+  "old": "fewer in care homes;",
+  "new": "fewer moved into care homes;",
+  "reason": "major: the outcome is admission to a care home, not the share living in one"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.bluesky",
+  "old": "At home, evidence is weaker. What was tested: team assessment, then a plan with follow-up.",
+  "new": "At home, 21 trials found little or no difference in deaths or care home moves. Tested: team assessment, plan, follow-up.",
+  "reason": "major: the Briggs 2022 community result is little or no difference in deaths and care home moves, not merely weaker evidence"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "captions.threads",
+  "old": "Services using the name should show both.",
+  "new": "Judgement: a service using the name should show both.",
+  "reason": "minor: mark judgement"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_text.7",
+  "old": "At home, the evidence is weaker",
+  "new": "At home, the trials found little or no difference in deaths or care home moves",
+  "reason": "major: the Briggs 2022 community result is little or no difference in deaths and care home moves, not merely weaker evidence"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_brief.slides.1.text.headline",
+  "old": "At home, the evidence is weaker",
+  "new": "At home, the trials found little or no difference in deaths or care home moves",
+  "reason": "major: the Briggs 2022 community result is little or no difference in deaths and care home moves, not merely weaker evidence (visual_brief copy)"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_text.3",
+  "old": "In a care home: 15 with, 19 without",
+  "new": "Moved into a care home: about 15 with, about 19 without",
+  "reason": "major: the outcome is admission to a care home, not the share living in one"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_brief.slides.0.text.labels.1",
+  "old": "In a care home: 15 with, 19 without",
+  "new": "Moved into a care home: about 15 with, about 19 without",
+  "reason": "major: the outcome is admission to a care home, not the share living in one (visual_brief copy)"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_text.2",
+  "old": "Alive and at home: 60 with, 56 without",
+  "new": "Alive and at home: about 60 with, about 56 without",
+  "reason": "minor: derived figures are rounded, keep 'about'"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "Alive and at home: 60 with, 56 without",
+  "new": "Alive and at home: about 60 with, about 56 without",
+  "reason": "minor: 'about' (visual_brief copy)"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_brief.slides.0.data.2.label",
+  "old": "Care home, with",
+  "new": "Moved into a care home, with",
+  "reason": "major: the outcome is admission to a care home, not the share living in one (chart data label)"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "visual_brief.slides.0.data.3.label",
+  "old": "Care home, without",
+  "new": "Moved into a care home, without",
+  "reason": "major: the outcome is admission to a care home, not the share living in one (chart data label)"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "alt_text.0",
+  "old": "in a care home about 15 versus 19;",
+  "new": "moved into a care home about 15 versus 19;",
+  "reason": "major: the outcome is admission to a care home, not the share living in one"
+ },
+ {
+  "tmp_id": "C05-P07",
+  "where": "insight",
+  "old": "3 to 4 fewer in care homes. For frail people at home the evidence is much weaker.",
+  "new": "3 to 4 fewer moved into care homes. For frail people at home, trials found little or no difference in deaths or care home moves.",
+  "reason": "consistency: insight field after the fixes"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.x",
+  "old": "Researchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England. Depending only on the tool and cut-off, the share called frail ranged from about 1 in 100 to about 2 in 3.",
+  "new": "Researchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England (data from 2004 to 2005). Among the 29 tools with a published cut-off, the share called frail ranged from about 1 in 100 to about 7 in 10, depending only on the tool.",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.x",
+  "old": "The authors concluded most tools can't be swapped for one another.",
+  "new": "The authors concluded most tools can't be swapped for one another. Some tools were rebuilt from the study's data, so they approximate the originals.",
+  "reason": "minor: add the caveat that scores were rebuilt from the study's variables"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.threads",
+  "old": "35 published frailty tools applied to the same 5,377 people aged 60+ in England labelled between about 1 in 100 and 2 in 3 of them frail.",
+  "new": "35 published frailty tools were applied to the same 5,377 people aged 60+ in England. The 29 with a published cut-off labelled between about 1 in 100 and about 7 in 10 of them frail.",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.bluesky",
+  "old": "35 frailty tools applied to the same 5,377 people in England called between about 1 in 100 and 2 in 3 of them frail, and often disagreed on who.",
+  "new": "35 frailty tools applied to the same 5,377 people in England: the 29 with a published cut-off called between about 1 in 100 and about 7 in 10 of them frail, and the tools often disagreed on who.",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.linkedin",
+  "old": "The share classed as frail ranged from about 1 in 100 to about 2 in 3, depending on which tool and cut-off was used.",
+  "new": "Among the 29 tools that had a published cut-off, the share classed as frail ranged from about 1 in 100 to about 7 in 10 (up to 65 in 100 men and 72 in 100 women), depending on which tool was used.",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.linkedin",
+  "old": "to the person in front of me, I would ask which tool and cut-off identified them.",
+  "new": "to the person in front of you, ask which tool and cut-off identified them.",
+  "reason": "minor: house rule, no personal practice claimed beyond a published source"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "captions.linkedin",
+  "old": "My practical reading: a trial result",
+  "new": "Judgement: a trial result",
+  "reason": "minor: house rule, mark as judgement"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_text.4",
+  "old": "Share called frail: from about 1 in 100 to about 2 in 3, depending on the tool and cut-off. Most pairs of tools agreed only weakly to moderately on who was frail.",
+  "new": "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail.",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "Share called frail: from about 1 in 100 to about 2 in 3, depending on the tool and cut-off. Most pairs of tools agreed only weakly to moderately on who was frail.",
+  "new": "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail.",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10 (visual_brief copy)"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_text.3",
+  "old": "Highest: about 2 in 3",
+  "new": "Highest: about 7 in 10",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10 (chart label)"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.text.labels.1",
+  "old": "Highest: about 2 in 3",
+  "new": "Highest: about 7 in 10",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10 (visual_brief copy)"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.data.0.label",
+  "old": "Lowest share called frail across 35 tools",
+  "new": "Lowest share called frail across the 29 tools with a published cut-off",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.data.1.label",
+  "old": "Highest share called frail across 35 tools",
+  "new": "Highest share called frail across the 29 tools with a published cut-off",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.data.1.display",
+  "old": "about 2 in 3",
+  "new": "about 7 in 10",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.data.1.value",
+  "old": "67",
+  "new": "70",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.slides.0.art",
+  "old": "'about 1 in 100' at the left and 'about 2 in 3' at the right",
+  "new": "'about 1 in 100' at the left and 'about 7 in 10' at the right",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10 (art direction)"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "visual_brief.design_notes",
+  "old": "'about 2 in 3' summarises 65.0% (men) and 72.4% (women)",
+  "new": "'about 7 in 10' summarises 65.0% (men) and 72.4% (women) among the 29 tools with a published cut-off",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "alt_text.0",
+  "old": "the share called frail ranged from about 1 in 100 to about 2 in 3 depending on the tool and cut-off;",
+  "new": "the share called frail, among the 29 tools with a published cut-off, ranged from about 1 in 100 to about 7 in 10;",
+  "reason": "major: range applies to the 29 of 35 scores with a published cut-off; women reached 72.4%, so about 7 in 10 (alt text)"
+ },
+ {
+  "tmp_id": "C05-P08",
+  "where": "insight",
+  "old": "35 frailty tools labelled between about 1 in 100 and 2 in 3 as frail",
+  "new": "35 frailty tools (29 with a published cut-off) labelled between about 1 in 100 and about 7 in 10 as frail",
+  "reason": "consistency: insight field after the fixes"
  }
 ]

@@ -1,0 +1,900 @@
+{
+ "category": "C16",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 0
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 4
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C16-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Ask-a-pharmacist instruction appears twice (pharmacist's advice on each medicine; Ask a pharmacist about each medicine).",
+    "Close restates the opener; acceptable but adds little."
+   ]
+  },
+  {
+   "tmp_id": "C16-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "This post does not set out national requirements.",
+     "fix": "Before you hide any medicine in food or drink, check the law and guidance where you work, and ask whether the person still needs it."
+    },
+    {
+     "item": "6",
+     "quote": "In a Norwegian study of 1,926 nursing home residents, about 1 in 9 residents in regular units, and 1 in 6 in dementia units, had medicines hidden in food or drink at least once in a week.",
+     "fix": "A Norwegian study followed 1,926 nursing home residents. In one week, medicines were hidden in food or drink at least once for about 1 in 9 residents in regular units and 1 in 6 in dementia units."
+    }
+   ],
+   "flags": [
+    "Setup question answered by the post: 'How common is it?'",
+    "'leaves less to hide' mildly figurative."
+   ]
+  },
+  {
+   "tmp_id": "C16-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "recorded in 4 in 10 cases",
+     "fix": "and the record showed it in only 4 in 10 of those cases"
+    },
+    {
+     "item": "6",
+     "quote": "In an older Norwegian study, medicines were hidden in a week for about 1 in 9 residents of regular nursing home units and 1 in 6 in dementia units; recorded in 4 in 10 cases.",
+     "fix": "In an older Norwegian study, medicines were hidden in a week for about 1 in 9 residents of regular nursing home units and 1 in 6 in dementia units. The record showed it in only 4 in 10 of those cases."
+    }
+   ],
+   "flags": [
+    "'older' gives no year."
+   ]
+  },
+  {
+   "tmp_id": "C16-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'older Norwegian study' gives no year."
+   ]
+  },
+  {
+   "tmp_id": "C16-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "in a systematic review, about half of adults had at least one unintended discrepancy in their medicines after leaving hospital (median across 11 studies; the middle half of studies reported between 39 and 76 in 100).",
+     "fix": "In a systematic review, about half of adults had at least one unintended discrepancy in their medicines after leaving hospital. That is the median across 11 studies. The middle half of the studies reported between 39 and 76 in 100."
+    }
+   ],
+   "flags": [
+    "'What has been measured is wider' is vague about what 'wider' means.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Long for the point; the four-step route could be shorter.",
+    "'Each handover is a separate chance' mildly figurative.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "with an unintended discrepancy after discharge",
+     "fix": "with an unintended medicine discrepancy after discharge"
+    }
+   ],
+   "flags": [
+    "Packs three clauses into 298 characters.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P03",
+   "platform": "x",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "'Potentially avoidable' is a label put on emergency admissions using lists of diagnosis codes, and different lists give different totals.",
+     "fix": "Open with the point: A count of 'potentially avoidable' admissions is a service measure and should not be used to argue against sending one resident to hospital. Then explain the lists."
+    },
+    {
+     "item": "6",
+     "quote": "In an analysis of all emergency admissions in England in 2005/6 (not care homes specifically), the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature.",
+     "fix": "The most commonly used NHS list contained 19 of the 36 conditions found in the research literature. This comes from an analysis of all emergency admissions in England in 2005/6, not care homes specifically."
+    }
+   ],
+   "flags": [
+    "Paragraph on the 2023 review (advance care planning, do-not-hospitalise orders) is not tied to the main point.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In an analysis of all emergency admissions in England in 2005/6, the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature, and the choice of list changed the proportion of admissions counted.",
+     "fix": "In an analysis of all emergency admissions in England in 2005/6, the most commonly used NHS list contained 19 of the 36 conditions found in the research literature. The choice of list changed the proportion of admissions counted."
+    }
+   ],
+   "flags": [
+    "The Rushcliffe study is cited with no result ('cited here only to show how the measure is used'); padding.",
+    "'(a defined list of diagnoses)' does not really explain 'ambulatory care sensitive'.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction shape: 'It is a service measure, not a verdict on one resident's transfer.'",
+    "Fragment questions 'preventable? treatable at home?' read as shorthand.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'(the authors' framing)' is unexplained to a reader; 'often necessary' lacks the noun it describes in the quote.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series take one statistic at a time.",
+     "fix": "If you are asking about someone you love, ask their doctor: what do you expect for this person?  (Move this to the end and drop the series line.)"
+    },
+    {
+     "item": "6",
+     "quote": "This study can't show whether the type of home affects how long people live: residents of the two kinds of home may differ in how unwell they are.",
+     "fix": "This study can't show whether the type of home affects how long people live. Residents of the two kinds of home may differ in how unwell they are."
+    }
+   ],
+   "flags": [
+    "'half lived longer and half lived less' is awkward; 'half died sooner' reads plainer.",
+    "Negation-then-correction: 'counted from residents already living in a home, not from the day they moved in.'",
+    "'After allowing for age and sex' is borderline plain for a lay reader."
+   ]
+  },
+  {
+   "tmp_id": "C16-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series take one statistic at a time.",
+     "fix": "End on: If you are asking about someone you love, ask their doctor: what do you expect for this person, and what would change that?"
+    },
+    {
+     "item": "6",
+     "quote": "They were people already living in a home on one date, not people counted from the day they moved in, so it is not a measure of survival from the day someone moves in.",
+     "fix": "They were people already living in a home on one date. They were not counted from the day they moved in, so these figures do not show survival from the day someone moves in."
+    }
+   ],
+   "flags": [
+    "Negation-then-correction shape.",
+    "Mild setup: 'If you are searching for a number like this, it helps to know what it describes.'",
+    "'half lived less' is awkward."
+   ]
+  },
+  {
+   "tmp_id": "C16-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In England and Wales in 2009, about 26 in 100 care home residents aged 65+ died within a year; about 74 in 100 were alive a year later.",
+     "fix": "In England and Wales in 2009, about 26 in 100 care home residents aged 65 and over died within a year. About 74 in 100 were alive a year later."
+    }
+   ],
+   "flags": [
+    "'65+' is shorthand for a lay reader."
+   ]
+  },
+  {
+   "tmp_id": "C16-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'After allowing for age and sex' is borderline plain for a lay reader."
+   ]
+  },
+  {
+   "tmp_id": "C16-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A 2016 Cochrane review",
+     "fix": "A 2016 Cochrane review (a careful summary of all the trials found on a question)"
+    },
+    {
+     "item": "2",
+     "quote": "pooled the reablement-based programmes",
+     "fix": "combined the results of the programmes built on reablement"
+    },
+    {
+     "item": "6",
+     "quote": "Those offered 10 weeks of reablement rated their own performance of chosen activities somewhat better at 3 and 9 months, with no clear difference in physical capacity or quality of life.",
+     "fix": "Those offered 10 weeks of reablement rated their own performance of chosen activities somewhat better at 3 and 9 months. There was no clear difference in physical capacity or quality of life."
+    },
+    {
+     "item": "7",
+     "quote": "rated their own performance of chosen activities somewhat better ... It did not show a clear difference in chosen activities",
+     "fix": "One small trial found a benefit for chosen activities. When the results of several trials were combined, no clear benefit showed. So the small trial's result is not firm."
+    }
+   ],
+   "flags": [
+    "'The evidence is thin' is a figurative shorthand.",
+    "Two different reviews (2016, 2026) in a short post may be confused."
+   ]
+  },
+  {
+   "tmp_id": "C16-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A 2016 Cochrane review",
+     "fix": "A 2016 Cochrane review (a careful summary of all the trials found on a question)"
+    },
+    {
+     "item": "2",
+     "quote": "pooled the reablement-based programmes",
+     "fix": "combined the results of the programmes built on reablement"
+    },
+    {
+     "item": "6",
+     "quote": "Those offered 10 weeks of reablement rated their own performance of the everyday activities they had chosen about 1.5 points higher on a 10-point scale at 3 months and at 9 months.",
+     "fix": "Those offered 10 weeks of reablement rated their own performance of the activities they had chosen about 1.5 points higher on a 10-point scale. This held at 3 months and at 9 months."
+    },
+    {
+     "item": "7",
+     "quote": "about 1.5 points higher ... did not show a clear difference in chosen daily activities",
+     "fix": "One small trial found a benefit for chosen activities. When several trials were combined, no clear benefit showed, so the small trial's result is not firm."
+    }
+   ],
+   "flags": [
+    "'the pooled numbers were small' is unclear (small samples? small effects?).",
+    "Last sentence repeats questions 2 and 3.",
+    "'The evidence is thin' style shorthand."
+   ]
+  },
+  {
+   "tmp_id": "C16-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a 2016 Cochrane review found 2 trials; a 2026 home rehabilitation review showed no clear difference for reablement-based programmes (low to very low certainty)",
+     "fix": "A 2016 Cochrane review (a careful summary of all trials on a question) found only 2 trials. A 2026 review of home rehabilitation trials found no clear benefit from programmes built on reablement, and the evidence was weak."
+    },
+    {
+     "item": "3",
+     "quote": "showed no clear difference for reablement-based programmes",
+     "fix": "showed no clear difference compared with usual care for programmes built on reablement"
+    },
+    {
+     "item": "6",
+     "quote": "Evidence is thin: a 2016 Cochrane review found 2 trials; a 2026 home rehabilitation review showed no clear difference for reablement-based programmes (low to very low certainty).",
+     "fix": "Split into two sentences, one per review."
+    }
+   ],
+   "flags": [
+    "'Evidence is thin' figurative.",
+    "'Ask: which goals, how long, any charge, when reviewed?' is clipped shorthand."
+   ]
+  },
+  {
+   "tmp_id": "C16-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A 2016 Cochrane review found 2 trials",
+     "fix": "A 2016 Cochrane review (a careful summary of all trials on a question) found only 2 trials"
+    },
+    {
+     "item": "3",
+     "quote": "found people rated their chosen activities somewhat better",
+     "fix": "found people offered reablement rated their own performance of chosen activities somewhat better than people given usual care"
+    },
+    {
+     "item": "7",
+     "quote": "somewhat better ... showed no clear difference",
+     "fix": "One small trial found a benefit. When several trials were combined, no clear benefit showed, so the small trial's result is not firm."
+    }
+   ],
+   "flags": [
+    "'The evidence is thin' figurative."
+   ]
+  },
+  {
+   "tmp_id": "C16-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 KIS did not record resuscitation status and more than 4 in 10 did not record preferred place of care.",
+     "fix": "One Scottish study looked at people with advanced illness who died in 2017. About 1 in 3 of their KIS did not record resuscitation status. More than 4 in 10 did not record preferred place of care."
+    }
+   ],
+   "flags": [
+    "Sentence starts with 'But' after a claim about reach; fine but abrupt.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Which of the six is most often missing in the plans you read?",
+     "fix": "Write the plan for someone who has never met the person, and check that out-of-hours teams can open it."
+    },
+    {
+     "item": "6",
+     "quote": "Hours are not demand, and this study did not look at care home residents as a group.",
+     "fix": "This study did not look at care home residents as a group. The point about hours does not show how many out-of-hours contacts there are."
+    }
+   ],
+   "flags": [
+    "Closing question asks about all six items although the study measured only two; invites an unsupported answer.",
+    "Negation shape: 'Hours are not demand'.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "about 1 in 3 KIS lacked",
+     "fix": "about 1 in 3 Key Information Summaries (KIS) lacked"
+    },
+    {
+     "item": "6",
+     "quote": "In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 KIS lacked resuscitation status and over 4 in 10 lacked preferred place of care.",
+     "fix": "One Scottish study looked at people with advanced illness who died in 2017. About 1 in 3 Key Information Summaries lacked resuscitation status, and over 4 in 10 lacked preferred place of care."
+    }
+   ],
+   "flags": [
+    "No action beyond the opening clause; acceptable at this length.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 Key Information Summaries did not record resuscitation status and more than 4 in 10 did not record preferred place of care.",
+     "fix": "One Scottish study looked at people with advanced illness who died in 2017. About 1 in 3 Key Information Summaries did not record resuscitation status, and more than 4 in 10 did not record preferred place of care."
+    }
+   ],
+   "flags": [
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "training staff to use the INTERACT tools",
+     "fix": "training staff to use the INTERACT tools (a set of tools for staff to flag and respond to a resident getting worse)"
+    },
+    {
+     "item": "6",
+     "quote": "In one UK interview study about a proposed trial of antibiotics for suspected urine infection in care homes, participants strongly supported using RESTORE2 to monitor residents, but worried about training night and temporary staff.",
+     "fix": "An interview study in the UK asked people about a proposed trial of antibiotics for suspected urine infection in care homes. Participants strongly supported using RESTORE2 to monitor residents. They worried about training night and temporary staff."
+    }
+   ],
+   "flags": [
+    "Interview study about an antibiotic trial is a detour from the main point.",
+    "'well placed' mild idiom.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "training and support for the INTERACT tools",
+     "fix": "training and support for the INTERACT tools (a set of tools for staff to flag and respond to a resident getting worse)"
+    },
+    {
+     "item": "3",
+     "quote": "Potentially avoidable admissions fell, but that did not hold up after adjusting for multiple comparisons.",
+     "fix": "Fewer potentially avoidable admissions were seen in the trained homes than in the comparison homes, but the difference was not reliable after adjusting for multiple comparisons."
+    }
+   ],
+   "flags": [
+    "Closing question is reasonable but sits after a judgement paragraph; fine.",
+    "'handover route' mildly figurative.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "A US trial of INTERACT training in 85 nursing homes showed no clear drop in admissions overall.",
+     "fix": "The post recommends a reporting route, then cites a trial that found no clear benefit, with no link between them. Add the link in plain words or drop the trial."
+    },
+    {
+     "item": "2",
+     "quote": "INTERACT training",
+     "fix": "INTERACT training (training in a set of tools for staff to flag and respond to a resident getting worse)"
+    },
+    {
+     "item": "3",
+     "quote": "no clear drop in admissions overall",
+     "fix": "no clear drop in hospital admissions overall"
+    }
+   ],
+   "flags": [
+    "Non sequitur between the recommendation and the trial.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "A US trial of INTERACT training in 85 nursing homes did not show a clear drop in hospital admissions overall.",
+     "fix": "Say in plain words why a trial with no clear benefit supports a structured report and a named responder, or drop the trial."
+    },
+    {
+     "item": "2",
+     "quote": "INTERACT training",
+     "fix": "INTERACT training (training in a set of tools for staff to flag and respond to a resident getting worse)"
+    }
+   ],
+   "flags": [
+    "Non sequitur between the trial result and the recommendation.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In one small study of 25 housebound adults aged 60 and over, all with two or more long-term conditions and five or more regular medicines, in two Glasgow practices serving a deprived area, 23 had missed routine reviews of their long-term conditions since becoming housebound, 91 reviews in all.",
+     "fix": "One small study in two Glasgow practices serving a deprived area looked at 25 housebound adults aged 60 and over. All had two or more long-term conditions and took five or more regular medicines. Of the 25, 23 had missed routine reviews of their long-term conditions since becoming housebound. Between them they had missed 91 reviews."
+    }
+   ],
+   "flags": [
+    "Opening claim 'Some housebound people' is unquantified, but the study caveat follows.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "We should plan routine care at home for people who can't get to the surgery.",
+     "fix": "Practices should plan routine care at home for people who can't get to the surgery."
+    }
+   ],
+   "flags": [
+    "'We' is unclear in a public post.",
+    "Two sentences run to about 26-27 words; at the limit.",
+    "Closing 'We should ...' shape repeats across P02, P03, P06, P07 and P08."
+   ]
+  },
+  {
+   "tmp_id": "C16-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C16-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  }
+ ]
+}

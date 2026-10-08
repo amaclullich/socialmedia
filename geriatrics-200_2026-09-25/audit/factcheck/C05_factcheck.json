@@ -1,35 +1,479 @@
-{"category":"C05","checked":"2026-09-25",
-"posts_checked":["C05-P01","C05-P02","C05-P03","C05-P04","C05-P05","C05-P06","C05-P07","C05-P08"],
-"sources_reopened":[
-{"key":"PMID:12657063","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:10719772","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:11520648","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:30659942","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:32904824","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:30615024","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:28898390","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:28633404","tool":"mcp__PubMed__get_article_metadata","matches_record":true}],
-"issues":[
-{"tmp_id":"C05-P01","where":"threads","text":"23 in 100 lost it before arriving and never regained it.","problem":"'Never' overstates: the study measured only to discharge.","source_says":"23% declined between baseline and admission and failed to recover to baseline function between admission and discharge.","severity":"blocker","replacement":"23 in 100 lost it before arriving and had not regained it by discharge."},
-{"tmp_id":"C05-P01","where":"threads","text":"The data are old, but a 2019 review found about 3 in 10 still lose independence.","problem":"Omits outcome and setting of the review (basic daily activities after an acute hospital stay).","source_says":"Loyd 2019: pooled prevalence of hospital-associated disability 30% in adults 65+ in acute care.","severity":"minor","replacement":"The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute hospital stay."},
-{"tmp_id":"C05-P01","where":"bluesky","text":"In a US study of 2,293 older medical inpatients, 35 in 100 went home less able to wash, dress or use the toilet than two weeks before admission. Most had lost it before arrival.","problem":"Omits the qualifications (age 70+, reported by patient or relative, data over 20 years old) that every other version carries.","source_says":"C05-01-a/e qualifications: self or surrogate report; published 2003.","severity":"major","replacement":"In a US study of 2,293 medical inpatients aged 70+ (data over 20 years old), 35 in 100 went home less able to wash, dress or use the toilet than two weeks before admission. Most had lost it before arrival."},
-{"tmp_id":"C05-P02","where":"bluesky","text":"In older women in Baltimore, changing method without difficulty went with slower walking and later difficulty. A Finnish study agreed.","problem":"Population limits (more able women aged 70 to 80, recruited in the 1990s) must appear in every version (C05-02-e).","source_says":"436 women 70-80 among the two-thirds least disabled; enrolled 1994-95.","severity":"major","replacement":"In more able women aged 70 to 80 in Baltimore (1990s), changing method without difficulty went with slower walking and later difficulty. A smaller Finnish study agreed."},
-{"tmp_id":"C05-P02","where":"threads","text":"In a Baltimore study of women aged 70 to 80 (1990s),","problem":"Omits that these were the more able two thirds of their age group.","source_says":"'among the two-thirds least disabled living in the community'.","severity":"minor","replacement":"In a Baltimore study of more able women aged 70 to 80 (1990s),"},
-{"tmp_id":"C05-P03","where":"linkedin","text":"Improvement was real, though, and it was most common early.","problem":"False as written: more frail people improved (about 43 in 100 moved to a less frail stage) than prefrail people (23 in 100). What was more common from the early stage was reaching no frailty signs at all.","source_says":"Prefrail to robust 23.1%; frail to robust 3.3%, frail to prefrail 40.3%.","severity":"blocker","replacement":"Improvement was real, though, and getting back to no signs of frailty was far more common from the early stage."},
-{"tmp_id":"C05-P03","where":"x","text":"In 16 studies of 42,775 older people living at home, followed for about 4 years, 14 in 100 became less frail, 29 in 100 became more frail, and 57 in 100 stayed the same.","problem":"Missing required qualification that figures use one definition of frailty (phenotype); present on visual and LinkedIn only.","source_says":"C05-07-a qualifications: one definition, people living at home.","severity":"minor","replacement":"In 16 studies of 42,775 older people living at home, followed for about 4 years, 14 in 100 became less frail, 29 in 100 became more frail, and 57 in 100 stayed the same (one definition of frailty)."},
-{"tmp_id":"C05-P04","where":"linkedin","text":"\"CFS 6 (heart failure; needs standby help to wash)\"","problem":"Invented illustrative example not labelled as such in the caption.","source_says":"C05-16-d: two-person comparison must be labelled illustrative.","severity":"minor","replacement":"\"CFS 6 (heart failure; needs standby help to wash)\", to take an invented example,"},
-{"tmp_id":"C05-P05","where":"visual_text","text":"9: expected to live under about 6 months","problem":"Omits that level 9 applies only to people not otherwise severely frail; readers may equate 9 with 'worse than 8'.","source_says":"Level 9: life expectancy <6 months, who are not otherwise living with severe frailty.","severity":"minor","replacement":"9: expected to live under about 6 months, not otherwise severely frail"},
-{"tmp_id":"C05-P06","where":"x","text":"A US trial sent an occupational therapist, a nurse and a handyperson to 300 older people on low incomes,","problem":"Only 152 of the 300 randomised got the programme; the rest had social visits.","source_says":"300 randomised: CAPABLE n=152, attention control n=148.","severity":"major","replacement":"A US trial of 300 older people on low incomes sent an occupational therapist, a nurse and a handyperson to about half of them,"},
-{"tmp_id":"C05-P06","where":"threads","text":"A US trial sent an occupational therapist, a nurse and a handyperson to 300 older people on low incomes.","problem":"As X: only half received the programme.","source_says":"CAPABLE n=152, control n=148.","severity":"major","replacement":"A US trial of 300 older people on low incomes sent an occupational therapist, a nurse and a handyperson to about half of them."},
-{"tmp_id":"C05-P06","where":"bluesky","text":"A US trial sent an occupational therapist, nurse and handyperson to 300 older people on low incomes. At 5 months they had less difficulty washing and dressing, but it faded by 12 months.","problem":"Only half received it; comparator missing.","source_says":"CAPABLE n=152 vs social-visit control n=148.","severity":"major","replacement":"A US trial of 300 older people on low incomes sent an occupational therapist, nurse and handyperson to half. At 5 months they had less difficulty washing and dressing than those given social visits, but it faded by 12 months."},
-{"tmp_id":"C05-P06","where":"x","text":"8 in 10 said it made life easier, against 4 in 10.","problem":"Omits 'a great deal' and that this is a survey of those who answered.","source_says":"'a great deal': 82.3% (98/119) vs 43.1% (53/123).","severity":"minor","replacement":"8 in 10 who answered said it made life easier a great deal, against 4 in 10."},
-{"tmp_id":"C05-P07","where":"x","text":"In 29 hospital trials of 13,766 people, about 60 in 100 were alive and at home 3 to 12 months later with CGA, against 56 in 100 without.","problem":"The per-100 figures come from subsets of trials (16 trials, 6,799 people for living at home; 14 for care home; 21 for deaths), not all 29 trials/13,766 people.","source_says":"RR 1.06 (16 trials, 6799); nursing home RR 0.80 (14 trials, 6285); mortality RR 1.00 (21 trials, 10,023).","severity":"major","replacement":"In a Cochrane review of 29 hospital trials, about 60 in 100 were alive and at home 3 to 12 months later with CGA, against 56 in 100 without (16 trials reported this)."},
-{"tmp_id":"C05-P07","where":"visual_text","text":"29 trials, 13,766 older people, 3 to 12 months","problem":"Kicker implies every bar pools all 29 trials; each outcome comes from 14 to 21 trials.","source_says":"As above.","severity":"major","replacement":"Cochrane review of 29 trials; each result from 14 to 21 trials; 3 to 12 months"},
-{"tmp_id":"C05-P07","where":"alt_text","text":"Bar chart from a Cochrane review of 29 hospital trials, 13,766 older people, at 3 to 12 months, per 100 people:","problem":"Same denominator issue.","source_says":"As above.","severity":"minor","replacement":"Bar chart from a Cochrane review of 29 hospital trials (each result from 14 to 21 trials), at 3 to 12 months, per 100 people:"},
-{"tmp_id":"C05-P07","where":"threads","text":"For frail people at home, 21 studies showed little or no difference in deaths or care home moves.","problem":"Drops the possible reduction in unplanned admissions and certainty wording; reads as evidence of no benefit (C05-08-g).","source_says":"Mortality 'probably' little or no difference (moderate); may decrease unplanned admissions (low certainty).","severity":"major","replacement":"For frail people at home, 21 studies showed probably little or no difference in deaths or care home moves, and possibly fewer unplanned admissions (weak evidence)."},
-{"tmp_id":"C05-P07","where":"x","text":"For frail people living at home, 21 studies showed little or no difference in deaths or care home moves;","problem":"Mortality finding is moderate certainty ('probably').","source_says":"CGA probably leads to little or no difference in mortality (moderate certainty).","severity":"minor","replacement":"For frail people living at home, 21 studies showed probably little or no difference in deaths or care home moves;"},
-{"tmp_id":"C05-P08","where":"x","text":"for almost 9 in 10 pairs, agreement was only weak to moderate (kappa 0.10 to 0.83 overall).","problem":"About 8 in 100 pairs had kappa below 0.2 (worse than weak); 'at most moderate' is accurate.","source_says":"Almost 90% of 595 pairs had kappa under 0.6; 7.6% under 0.2.","severity":"minor","replacement":"for almost 9 in 10 pairs, agreement was moderate at best (kappa 0.10 to 0.83 overall)."},
-{"tmp_id":"C05-P08","where":"threads","text":"For almost 9 in 10 pairs of tools, agreement on who was frail was only weak to moderate.","problem":"As X.","source_says":"As above.","severity":"minor","replacement":"For almost 9 in 10 pairs of tools, agreement on who was frail was moderate at best."},
-{"tmp_id":"C05-P08","where":"linkedin","text":"Pooled estimates put physical definitions at about 1 in 8 and tools counting many health problems at about 1 in 4.","problem":"O'Caoimh pooled studies including people aged 50+; qualification missing.","source_says":"O'Caoimh 2021: population studies, ages 50+; 12% physical, 24% frailty index.","severity":"minor","replacement":"Pooled estimates from studies of people aged 50 and over put physical definitions at about 1 in 8 and tools counting many health problems at about 1 in 4."}
-],
-"posts_to_drop":[]}
+{
+ "category": "C05",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C05-P01",
+  "C05-P02",
+  "C05-P03",
+  "C05-P04",
+  "C05-P05",
+  "C05-P06",
+  "C05-P07",
+  "C05-P08"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:12657063",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31734122",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:11520648",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:10719772",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30659942",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:32904824",
+   "tool": "mcp__PubMed__get_full_text_article (PMC7458601)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30615024",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:40990312",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28898390",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:35521829",
+   "tool": "mcp__PubMed__get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28633404",
+   "tool": "mcp__PubMed__get_article_metadata + get_full_text_article (PMC5860330)",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C05-P01",
+   "where": "linkedin",
+   "text": "A 2019 review pooling 7,375 older adults found about 3 in 10 lost independence after an acute stay, with little change over the years, though methods varied between studies.",
+   "problem": "Loyd et al. is cited in the evidence record as J Am Med Dir Assoc 2020;21(4):455-461 (published online 14 Nov 2019). Calling it a 2019 review is defensible but does not match the journal citation; it also does not say hospital stay, or that the pooled population was aged 65 and over.",
+   "source_says": "Meta-analysis of adults aged 65+ hospitalised in medical-surgical acute care, total sample 7,375; combined prevalence of hospital-associated disability 30% (95% CI 24 to 33%); effect of study start year minimal; large heterogeneity.",
+   "severity": "minor",
+   "replacement": "A 2020 review (Loyd, J Am Med Dir Assoc) pooling studies of 7,375 adults aged 65 and over found that about 3 in 10 lost independence in basic daily activities after an acute hospital stay, with little change by the year the study began, though results varied widely between studies."
+  },
+  {
+   "tmp_id": "C05-P01",
+   "where": "x",
+   "text": "The data are over 20 years old, but a 2019 review found about 3 in 10 older people still lose independence in daily activities after an acute stay.",
+   "problem": "Same year issue (journal citation is 2020). 'Acute stay' should say hospital stay and basic daily activities; the pooled figure carries large heterogeneity and covers people aged 65+, so 'still' should be tied to the review's finding of little change by study year.",
+   "source_says": "Pooled 30% (95% CI 24 to 33%), adults 65+ in acute hospital care, 7,375 people, minimal effect of study start year, large heterogeneity.",
+   "severity": "minor",
+   "replacement": "The data are over 20 years old, but a 2020 review of studies in adults aged 65 and over found about 3 in 10 lost independence in basic daily activities after an acute hospital stay, with little change by the year the study began."
+  },
+  {
+   "tmp_id": "C05-P01",
+   "where": "threads",
+   "text": "The data are 20+ years old, but a 2019 review found about 3 in 10 older people still lose independence after an acute stay.",
+   "problem": "Same as X: year, 'hospital stay', and 'basic daily activities' are missing.",
+   "source_says": "Pooled 30% lost independence in ADLs after acute hospitalisation (J Am Med Dir Assoc 2020;21:455).",
+   "severity": "minor",
+   "replacement": "The data are 20+ years old, but a 2020 review found about 3 in 10 older people lost independence in basic daily activities after an acute hospital stay."
+  },
+  {
+   "tmp_id": "C05-P01",
+   "where": "linkedin",
+   "text": "In a 2001 study of 525 medical patients at one US centre, most hospital records did not say whether the person could manage individual daily tasks before admission. Walking was the exception.",
+   "problem": "Omits that the records were paper records from 2001; the record's qualification says electronic records may differ.",
+   "source_says": "Bogardus 2001: 525 medical patients aged 70+ at one academic centre; most medical records contained no documentation of individual BADLs/IADLs (61 to 98% lacking), walking the exception (24% lacking); paper records.",
+   "severity": "minor",
+   "replacement": "In a 2001 study of 525 medical patients aged 70 and over at one US centre, most paper hospital records did not say whether the person could manage individual daily tasks before admission. Walking was the exception. Electronic records may differ."
+  },
+  {
+   "tmp_id": "C05-P01",
+   "where": "linkedin",
+   "text": "My view: we should record what the person could do two weeks before the illness",
+   "problem": "House rule: never claim anything about Alasdair's own opinions beyond a published source. The recommendation is the drafter's position, not a sourced view of Alasdair; 'We should' framing already marks it as judgement.",
+   "source_says": "Evidence record C05-01-g: present as judgement ('We should record...'); no trial shows that recording a baseline improves outcomes.",
+   "severity": "minor",
+   "replacement": "Judgement: we should record what the person could do two weeks before the illness"
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "threads",
+   "text": "those who had changed how they walked or climbed stairs were already slower and weaker, and more likely to develop difficulty later.",
+   "problem": "Drops the key qualifier 'without difficulty'. The finding concerns women who had changed method but reported no difficulty; without it the sentence reads as if anyone who changed how they climb stairs (including people who already had difficulty) was slower and at higher risk.",
+   "source_says": "Fried 2001: preclinical disability = task modification but no difficulty; performance intermediate between no change and difficulty. Fried 2000: task modification without difficulty gave 3- to 4-fold higher odds of incident difficulty at 18 months.",
+   "severity": "major",
+   "replacement": "those who had changed how they walked or climbed stairs, but reported no difficulty, were already slower and weaker, and were more likely to develop difficulty over the next 18 months."
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "linkedin",
+   "text": "Over the next 18 months, women who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty, even after allowing for walking speed (Fried 2000).",
+   "problem": "The 3 to 4 times odds applies to women with no mobility difficulty at the start who had changed their method, compared with those who had not. Omitted here, though implied by context. Odds are correctly not turned into risk multiples.",
+   "source_says": "Fried 2000: among women with no difficulty at baseline, baseline task modification gave three- to fourfold higher odds (OR 3.67 walking half a mile; 3.84 climbing 10 steps) of incident difficulty at 18 months; independent of performance measures.",
+   "severity": "minor",
+   "replacement": "Among women who reported no difficulty at the start, those who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty over the next 18 months, even after allowing for walking speed (Fried 2000)."
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "linkedin",
+   "text": "Limits: the main studies were of women aged 70 to 79 in Baltimore, the more able two thirds of their age group, recruited in the mid-1990s.",
+   "problem": "Earlier in the same caption the cohort is given as 'women aged 70 to 80' (Fried 2001 abstract); here it is 70 to 79 (Weiss 2012 methods). Inconsistent within one caption.",
+   "source_says": "Fried 2000/2001: 436 women aged 70 to 80 at baseline; Weiss 2012: recruited from the higher functioning two thirds of women aged 70 to 79, enrolled 1994 to 1995.",
+   "severity": "minor",
+   "replacement": "Limits: the main studies were of women in their 70s in Baltimore, the more able two thirds of their age group, recruited in 1994 and 1995."
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "x",
+   "text": "A smaller Finnish study found the same in men and women.",
+   "problem": "'The same' overstates: the Finnish measure defined preclinical limitation as tiredness or modified task performance without difficulty, in people aged 75 to 81 followed for 2 years, with only 302 of 632 followed up; the outcome was major mobility limitation.",
+   "source_says": "Mänty 2007: 632 Finnish men and women aged 75 to 81 (302 followed over 2 years); preclinical limitation (tiredness or modified performance without difficulty) had intermediate performance and 3- to 6-fold higher adjusted risk of major mobility limitation.",
+   "severity": "minor",
+   "replacement": "A smaller Finnish study of men and women aged 75 to 81 found a similar pattern over 2 years."
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "threads",
+   "text": "A Finnish study found the same in men and women.",
+   "problem": "As X: 'the same' overstates; Finnish study was smaller, older (75 to 81), 2-year follow-up and defined the stage to include tiredness.",
+   "source_says": "Mänty 2007 abstract, as above.",
+   "severity": "minor",
+   "replacement": "A smaller Finnish study of men and women aged 75 to 81 found a similar pattern."
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "visual_text",
+   "text": "Changing how you do a task, before any difficulty, was linked with later difficulty in older women (1990s US studies).",
+   "problem": "The visual states the finding for 'older women' without the population limit that is required in every version (more able women in Baltimore).",
+   "source_says": "Fried 2000/2001, Weiss 2012: women in their 70s, higher-functioning two thirds, Baltimore, enrolled 1994 to 1995.",
+   "severity": "minor",
+   "replacement": "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies)."
+  },
+  {
+   "tmp_id": "C05-P02",
+   "where": "linkedin",
+   "text": "I think it belongs in a functional history, next to the difficulty question.",
+   "problem": "Claims an opinion by Alasdair that is not in a published source (house rule). It is a recommendation; fine as judgement but should not be written as his personal belief.",
+   "source_says": "Evidence record C05-02-f: acting at the preclinical stage is an untested hypothesis; the cohort authors only suggested screening/targeting.",
+   "severity": "minor",
+   "replacement": "Judgement: it belongs in a functional history, next to the difficulty question."
+  },
+  {
+   "tmp_id": "C05-P03",
+   "where": "linkedin",
+   "text": "Improvement was real, though, and far more common from the early stage (called prefrail).",
+   "problem": "False as written. Any improvement was NOT more common from prefrail: people who were frail improved to prefrail in about 40 in 100 and to no signs in 3 in 100 (about 43 in 100 improved), against about 23 in 100 of prefrail people who improved (to no signs; prefrail can only improve to that). Only reaching no frailty signs was far more common from the early stage.",
+   "source_says": "Prefrail at baseline: 23.1% to robust, 58.2% stayed prefrail, 18.2% to frail. Frail at baseline: 3.3% to robust, 40.3% to prefrail, 54.5% stayed frail.",
+   "severity": "major",
+   "replacement": "Improvement was real, though. Reaching none of the frailty signs was far more common from the early stage (called prefrail) than from frailty."
+  },
+  {
+   "tmp_id": "C05-P03",
+   "where": "x",
+   "text": "In 16 studies of 42,775 older people living at home who were reassessed after about 4 years,",
+   "problem": "Follow-up was a mean of 3.9 years with a range of 1 to 10 years; 'about 4 years' without 'on average' implies a fixed interval.",
+   "source_says": "Mean follow-up 3.9 years (range 1 to 10).",
+   "severity": "minor",
+   "replacement": "In 16 studies of 42,775 older people living at home who were reassessed after about 4 years on average (range 1 to 10),"
+  },
+  {
+   "tmp_id": "C05-P03",
+   "where": "visual_text",
+   "text": "100 older people living at home, about 4 years later",
+   "problem": "Same: mean follow-up, not fixed; range 1 to 10 years.",
+   "source_says": "Mean follow-up 3.9 years (range 1 to 10).",
+   "severity": "minor",
+   "replacement": "100 older people living at home, about 4 years later on average"
+  },
+  {
+   "tmp_id": "C05-P04",
+   "where": "bluesky",
+   "text": "A Clinical Frailty Scale score of 6 can mean moderate dementia with prompting to dress, or intact thinking with a physical disability.",
+   "problem": "Compression drops the qualifier that makes the second person a level 6: the physical disability means they need someone nearby (standby help). As written, any physical disability with intact thinking could be read as level 6.",
+   "source_says": "Rockwood and Theou 2020: this can also be the case in people who are cognitively intact, but whose disability obliges them to have someone nearby (standby assistance or set-up).",
+   "severity": "major",
+   "replacement": "A Clinical Frailty Scale score of 6 can mean moderate dementia with prompting to dress, or intact thinking with a physical disability that means someone must stand by."
+  },
+  {
+   "tmp_id": "C05-P05",
+   "where": "x",
+   "text": "Level 9 is for people expected to live less than about 6 months, many still active.",
+   "problem": "Omits that level 9 applies to people who are not otherwise severely frail (someone completely dependent for personal care is scored 8 even if dying). 'Many still active' without that can mislead.",
+   "source_says": "Level 9: life expectancy under 6 months, who are not otherwise living with severe frailty; many can still exercise until close to death. If completely dependent at baseline, scored 8.",
+   "severity": "minor",
+   "replacement": "Level 9 is for people expected to live less than about 6 months who are not otherwise severely frail; many are still active."
+  },
+  {
+   "tmp_id": "C05-P05",
+   "where": "linkedin",
+   "text": "Doctors use the score to help judge how someone may cope with illness and treatment and to plan care. It is one input, and it depends on a clinician's judgement (Rockwood and Theou 2020).",
+   "problem": "The scale's stated limit is not carried: it was designed for older people and is not well validated in younger people or in people with stable single-system disabilities.",
+   "source_says": "Abstract: not widely validated in younger people or those with stable single-system disabilities; requires clinical judgement.",
+   "severity": "minor",
+   "replacement": "Doctors use the score to help judge how someone may cope with illness and treatment and to plan care. It is one input and depends on a clinician's judgement. It was designed for older people and is not well tested in younger people or in people with a long-standing single disability (Rockwood and Theou 2020)."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "x",
+   "text": "At 5 months the first group reported less difficulty with washing, dressing and the toilet.",
+   "problem": "The outcome was a composite score of difficulty or need for help across 8 daily activities (walking across a room, bathing, dressing upper and lower body, eating, toilet, transfers, grooming), not a result for each named task.",
+   "source_says": "30% lower ADL disability score at 5 months (ratio of means 0.70, 95% CI 0.54 to 0.93); composite of 8 essential ADLs.",
+   "severity": "major",
+   "replacement": "At 5 months the first group reported less difficulty with basic daily tasks such as washing, dressing and using the toilet, on an overall score."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "threads",
+   "text": "At 5 months they had less difficulty with washing and dressing than people given social visits.",
+   "problem": "Same: composite ADL score presented as if specific to washing and dressing.",
+   "source_says": "Composite of 8 ADLs, ratio of means 0.70 (0.54 to 0.93).",
+   "severity": "major",
+   "replacement": "At 5 months they reported less difficulty with basic daily tasks such as washing and dressing, on an overall score, than people given social visits."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "bluesky",
+   "text": "At 5 months they had less difficulty washing and dressing than those given social visits, but it faded by 12 months.",
+   "problem": "Same: composite ADL score presented as washing and dressing only.",
+   "source_says": "Composite of 8 ADLs at 5 months; difference no longer clear at 12 months (adjusted ratio 0.90, 0.68 to 1.18).",
+   "severity": "major",
+   "replacement": "At 5 months they reported less difficulty with basic daily tasks such as washing and dressing than those given social visits, but the difference was no longer clear at 12 months."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "visual_text",
+   "text": "US trial, 300 older people on low incomes: the half who had the visits had less difficulty with washing and dressing at 5 months; faded by 12 months.",
+   "problem": "Same: composite ADL score presented as washing and dressing only.",
+   "source_says": "Composite of 8 ADLs, ratio of means 0.70 (0.54 to 0.93) at 5 months; not clear at 12 months.",
+   "severity": "major",
+   "replacement": "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "alt_text",
+   "text": "a US trial of 300 older people on low incomes found that the half who had the visits had less difficulty with washing and dressing at 5 months; the difference faded by 12 months.",
+   "problem": "Same: composite ADL score presented as washing and dressing only.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "a US trial of 300 older people on low incomes found that the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; the difference was no longer clear at 12 months."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "linkedin",
+   "text": "A 2025 trial of the same programme in 268 people just home from hospital did not clearly improve basic daily tasks, though walking and stairs improved more.",
+   "problem": "'Just home from hospital' is inaccurate: participants were enrolled 60 days after discharge, had already had a home health episode, and the comparator was no further care. Mobility was a composite of climbing stairs and walking a block.",
+   "source_says": "268 low-income adults discharged to home 60 days before enrolment, with a home health episode and remaining ADL difficulty; CAPABLE vs no further care for 5 months; ADL difference not statistically or clinically significant; greater improvement in composite mobility.",
+   "severity": "minor",
+   "replacement": "A 2025 trial of the same programme in 268 people about 60 days after leaving hospital, who had already had home health care, did not clearly improve basic daily tasks compared with no further care, though a measure of walking and stairs improved more."
+  },
+  {
+   "tmp_id": "C05-P06",
+   "where": "linkedin",
+   "text": "What I take from it: an assessment of difficulty at home should look at the person and the house together.",
+   "problem": "Claims Alasdair's own reading/opinion beyond a published source (house rule); the 'two places' framing is interpretation, not a trial finding.",
+   "source_says": "Szanton 2019 conclusion: disability may be modifiable through addressing both the person and the environment (authors' interpretation of a single trial).",
+   "severity": "minor",
+   "replacement": "Judgement: an assessment of difficulty at home should look at the person and the house together."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "x",
+   "text": "Comprehensive geriatric assessment (CGA) has good evidence in hospital and much weaker evidence at home.",
+   "problem": "Mischaracterises the community evidence. The 2022 Cochrane review is not a gap: it found probably little or no difference in deaths (moderate certainty) and little or no difference in care home moves (high certainty); only unplanned admissions had low-certainty possible benefit. 'Much weaker evidence' reads as an evidence gap, when the evidence shows little or no effect on those outcomes.",
+   "source_says": "Briggs 2022: mortality RR 0.88 (0.76 to 1.02) moderate certainty, nursing home admission RR 0.93 (0.76 to 1.14) high certainty, unplanned admission RR 0.83 (0.70 to 0.99) low certainty; authors: 'CGA had no impact on death or nursing home admission'.",
+   "severity": "major",
+   "replacement": "Comprehensive geriatric assessment (CGA) has good evidence of benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "linkedin",
+   "text": "Comprehensive geriatric assessment (CGA) has good evidence in hospital and much weaker evidence for frail people living at home. The name covers both, so it helps to know which is which.",
+   "problem": "Same mischaracterisation of the community review as an evidence gap rather than evidence of little or no difference on deaths and care home moves.",
+   "source_says": "As above (Briggs 2022).",
+   "severity": "major",
+   "replacement": "Comprehensive geriatric assessment (CGA) has good evidence of benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves, with a possible reduction in unplanned admissions on low-certainty evidence. The name covers both settings, so it helps to know which is which."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "bluesky",
+   "text": "At home, evidence is weaker. What was tested: team assessment, then a plan with follow-up.",
+   "problem": "Same mischaracterisation; also bluesky text 'fewer in care homes' says stock rather than moves.",
+   "source_says": "As above (Briggs 2022).",
+   "severity": "major",
+   "replacement": "At home, 21 trials found little or no difference in deaths or care home moves. What was tested: team assessment, then a plan with follow-up."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "visual_text",
+   "text": "At home, the evidence is weaker",
+   "problem": "Same mischaracterisation in the visual headline.",
+   "source_says": "As above (Briggs 2022).",
+   "severity": "major",
+   "replacement": "At home, the trials found little or no difference in deaths or care home moves"
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "x",
+   "text": "About 15 in 100 were in a care home, against 19.",
+   "problem": "Wrong outcome: the Cochrane outcome is admission to a nursing home by 3 to 12 months (people who moved into a care home), not the share living in a care home.",
+   "source_says": "Admission to a nursing home at 3 to 12 months: 186 per 1000 with usual care vs 151 per 1000 with CGA (RR 0.80, 0.72 to 0.89, 14 trials, high certainty).",
+   "severity": "major",
+   "replacement": "About 15 in 100 had moved into a care home, against 19."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "linkedin",
+   "text": "In a care home: about 15 in 100 against 19 in 100.",
+   "problem": "Same outcome error (admission to a care home, not residence).",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Moved into a care home: about 15 in 100 against 19 in 100."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "bluesky",
+   "text": "fewer in care homes;",
+   "problem": "Same outcome error.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "fewer moved into care homes;"
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "visual_text",
+   "text": "In a care home: 15 with, 19 without",
+   "problem": "Same outcome error in the chart label.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Moved into a care home: about 15 with, about 19 without"
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "alt_text",
+   "text": "in a care home about 15 versus 19;",
+   "problem": "Same outcome error in alt text.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "moved into a care home about 15 versus 19;"
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "visual_text",
+   "text": "Alive and at home: 60 with, 56 without",
+   "problem": "The chart labels drop 'about'. These per-100 figures are derived from a Cochrane summary of findings (595 vs 561 per 1000) and the record asks for rounded 'about' wording.",
+   "source_says": "595 vs 561 per 1000 alive and at home at 3 to 12 months.",
+   "severity": "minor",
+   "replacement": "Alive and at home: about 60 with, about 56 without"
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "x",
+   "text": "A service using the name should be able to show both.",
+   "problem": "Unmarked judgement written as a plain statement; the record asks for judgement to be marked.",
+   "source_says": "Evidence record C05-08-g: mark as judgement.",
+   "severity": "minor",
+   "replacement": "Judgement: a service using the name should be able to show both."
+  },
+  {
+   "tmp_id": "C05-P07",
+   "where": "threads",
+   "text": "Services using the name should show both.",
+   "problem": "Unmarked judgement.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Judgement: a service using the name should be able to show both."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "x",
+   "text": "Researchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England. Depending only on the tool and cut-off, the share called frail ranged from about 1 in 100 to about 2 in 3.",
+   "problem": "The prevalence range comes from the 29 of 35 scores that had published cut-offs, not all 35. Also 'about 2 in 3' fits men (65.0%) but women reached 72.4%. Data are from 2004 to 2005 and some scores were approximated from the study's variables.",
+   "source_says": "29 of 35 scores had published cut-offs; prevalence range 0.8 to 65.0% (men), 1.0 to 72.4% (women). ELSA wave 2, 2004-2005.",
+   "severity": "major",
+   "replacement": "Researchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England (data from 2004 to 2005). Among the 29 tools with a published cut-off, the share called frail ranged from about 1 in 100 to about 7 in 10, depending only on the tool."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "threads",
+   "text": "35 published frailty tools applied to the same 5,377 people aged 60+ in England labelled between about 1 in 100 and 2 in 3 of them frail.",
+   "problem": "Same: range is across the 29 tools with published cut-offs; highest 72.4% in women.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "35 published frailty tools were applied to the same 5,377 people aged 60+ in England. The 29 with a published cut-off labelled between about 1 in 100 and about 7 in 10 of them frail."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "bluesky",
+   "text": "35 frailty tools applied to the same 5,377 people in England called between about 1 in 100 and 2 in 3 of them frail, and often disagreed on who.",
+   "problem": "Same: 29 of 35 tools had cut-offs; highest 72.4% in women.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "35 frailty tools applied to the same 5,377 people in England: the 29 with a published cut-off called between about 1 in 100 and about 7 in 10 of them frail, and the tools often disagreed on who."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "linkedin",
+   "text": "The share classed as frail ranged from about 1 in 100 to about 2 in 3, depending on which tool and cut-off was used.",
+   "problem": "Same: range applies to the 29 tools with published cut-offs; men up to 65.0%, women up to 72.4%.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Among the 29 tools that had a published cut-off, the share classed as frail ranged from about 1 in 100 to about 7 in 10 (up to 65 in 100 men and 72 in 100 women), depending on which tool was used."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "visual_text",
+   "text": "Share called frail: from about 1 in 100 to about 2 in 3, depending on the tool and cut-off. Most pairs of tools agreed only weakly to moderately on who was frail.",
+   "problem": "Same: range is across the 29 tools with published cut-offs; 'about 2 in 3' understates women (72.4%). Visual also labels 'Highest: about 2 in 3' and alt text repeats it.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "x",
+   "text": "The authors concluded most tools can't be swapped for one another.",
+   "problem": "Adds no caveat that the scores were rebuilt from the study's own variables (some approximate the original tools), carried only in the LinkedIn version.",
+   "source_says": "Aguayo 2017: some variables tailored to ELSA; authors judged distortion unlikely to change main findings.",
+   "severity": "minor",
+   "replacement": "The authors concluded most tools can't be swapped for one another. Some tools were rebuilt from the study's data, so they approximate the originals."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "linkedin",
+   "text": "Before applying any study \"in frail older people\" to the person in front of me, I would ask which tool and cut-off identified them.",
+   "problem": "Claims Alasdair's own practice ('I would ask') without a published source (house rule).",
+   "source_says": "Evidence record C05-04-c: 'which tool?' is a judgement that follows from the finding.",
+   "severity": "minor",
+   "replacement": "Before applying any study \"in frail older people\" to the person in front of you, ask which tool and cut-off identified them."
+  },
+  {
+   "tmp_id": "C05-P08",
+   "where": "linkedin",
+   "text": "My practical reading: a trial result, a guideline threshold or a service criterion based on one tool applies most directly to people identified the same way.",
+   "problem": "Opinion attributed to Alasdair personally; mark as judgement instead.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Judgement: a trial result, a guideline threshold or a service criterion based on one tool applies most directly to people identified the same way."
+  }
+ ],
+ "posts_to_drop": []
+}

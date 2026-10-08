@@ -1,0 +1,1142 @@
+{
+ "category": "C08",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 0
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 6
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C08-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Over the next 3 years the groups ended up similar.",
+     "fix": "Over the next 3 years the two groups had similar numbers who had moved into a care home."
+    },
+    {
+     "item": "6",
+     "quote": "The cognition difference was above the trial's own threshold for clinical importance; the daily function difference was below it.",
+     "fix": "The difference in cognition was larger than the trial's own threshold for clinical importance. The difference in daily function was smaller than that threshold."
+    }
+   ],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set",
+    "Cognition and daily function results have no magnitudes in this variant"
+   ]
+  },
+  {
+   "tmp_id": "C08-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction: 'It does not say never stop.' and 'A move into a care home is not a reason to stop on its own.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "After 3 years the groups were similar.",
+     "fix": "After 3 years the two groups had similar numbers who had moved into a care home."
+    }
+   ],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "The deaths were counted as a safety measure; the test of the difference was done after the trial, and the numbers are too small to be sure the drug caused it.",
+     "fix": "Deaths were counted as a safety check. The comparison of deaths was run after the trial ended. The numbers are too small to be sure the drug caused them."
+    }
+   ],
+   "flags": [
+    "Idiom: 'had not settled with non-drug care'",
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "The deaths finding needs care. The test of the difference was done after the trial, the numbers are small, causes of death varied, and an earlier trial of mirtazapine for depression in dementia did not show more deaths.",
+     "fix": "Treat the deaths finding with care. The comparison of deaths was run after the trial ended. The numbers are small. Causes of death varied. An earlier trial of mirtazapine for depression in dementia did not show more deaths."
+    }
+   ],
+   "flags": [
+    "US mood-stabiliser paragraph is a tangent to the mirtazapine point",
+    "Negation-then-correction: 'This applies to agitation ... not to mirtazapine for depression.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'so the possible harm counts' is terse"
+   ]
+  },
+  {
+   "tmp_id": "C08-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C08-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction: 'The therapy aimed at the goals, not at memory scores.'",
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Judged by quality-adjusted life years, the usual economic measure",
+     "fix": "Judged by a standard measure of years of good health gained"
+    },
+    {
+     "item": "6",
+     "quote": "Judged by the goals people chose, it did, depending on what a service will pay per point of goal improvement.",
+     "fix": "Judged by the goals people chose, it may be good value, if a service is willing to pay for each point of goal improvement."
+    }
+   ],
+   "flags": [
+    "Figurative/empty: 'That is less of a contradiction than it looks.'",
+    "Negation: 'was never aimed at memory scores'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Goal ratings rose about 2.6 points vs 0.9",
+     "fix": "Goal ratings (0 to 10) rose about 2.6 points with therapy and 0.9 with usual care"
+    },
+    {
+     "item": "5",
+     "quote": "In our view, services should count goals.",
+     "fix": "In our view, services should record progress on the goals people set for themselves."
+    }
+   ],
+   "flags": [
+    "Telegraphic: 'Quality of life, mood, memory: no clear difference.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening is a negation shape: 'had not declined more slowly'",
+    "Close 'offer exercise for strength' rests on the German trial, which is given only one clause"
+   ]
+  },
+  {
+   "tmp_id": "C08-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In DAPA, though, falls did not show a clear difference (the range of possible effects was wide), so that benefit should not be promised to people with dementia on this evidence.",
+     "fix": "In DAPA, falls did not show a clear difference. The range of possible effects was wide. So this benefit should not be promised to people with dementia on this evidence."
+    }
+   ],
+   "flags": [
+    "Figurative: 'Be straight that'",
+    "Negation: 'the trial did not establish harm'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "scores were slightly worse, by an uncertain amount",
+     "fix": "memory and thinking scores were slightly worse in the exercise group, by an uncertain amount"
+    },
+    {
+     "item": "5",
+     "quote": "offer exercise for strength, not memory",
+     "fix": "do not promise exercise will slow memory loss"
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'for strength, not memory'; this variant never says strength improved"
+   ]
+  },
+  {
+   "tmp_id": "C08-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Scores were slightly worse, by an amount of uncertain importance.",
+     "fix": "Memory and thinking scores were slightly worse in the exercise group, by an amount of uncertain importance."
+    }
+   ],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a separate US study of 237 older people, average age 81, with early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan, 19 (about 8 in 100) would have qualified for the trial.",
+     "fix": "A separate US study looked at 237 older people, average age 81. All had early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan. About 8 in 100 of them (19) would have qualified for the trial."
+    }
+   ],
+   "flags": [
+    "Idiom 'rules out'",
+    "'whatever the cause' is ambiguous"
+   ]
+  },
+  {
+   "tmp_id": "C08-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(median age 82)",
+     "fix": "(half were older than 82)"
+    },
+    {
+     "item": "6",
+     "quote": "In a study of 120 pre-frail or frail older people (median age 82) with amyloid on testing, 24 (1 in 5) would have qualified for the trial.",
+     "fix": "A third study looked at 120 older people with amyloid on testing. All were pre-frail or frail. About 1 in 5 of them (24) would have qualified for the trial."
+    },
+    {
+     "item": "7",
+     "quote": "24 (1 in 5) would have qualified",
+     "fix": "24 (1 in 5) would have qualified. These are different groups, so the 8 in 100 and the 1 in 5 should not be compared with each other."
+    }
+   ],
+   "flags": [
+    "Negation: 'that alone does not rule them out of treatment'",
+    "Idiom 'ruled out'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "with early memory problems and amyloid met the trial rules",
+     "fix": "with early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan met the trial rules"
+    },
+    {
+     "item": "7",
+     "quote": "In a US study, 8 in 100 with early memory problems and amyloid met the trial rules.",
+     "fix": "In a separate US study of different people, 8 in 100 with early memory problems and amyloid met the trial rules."
+    }
+   ],
+   "flags": [
+    "Idiom 'ruled many out'; 'many' unquantified"
+   ]
+  },
+  {
+   "tmp_id": "C08-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "amyloid on a brain scan",
+     "fix": "amyloid (a protein linked with Alzheimer's) on a brain scan"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C08-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction: 'It is not a diagnosis.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Teaching round series take one clinical distinction at a time.",
+     "fix": "(delete; end on 'A yes is a reason to think again and ask for specialist advice before an antipsychotic.')"
+    }
+   ],
+   "flags": [
+    "Setup question answered by the post: 'How big is the risk?'",
+    "Negation: 'a teaching prompt, not a validated screening tool'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction: 'it is not a diagnosis'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction: 'It is not a diagnosis.'",
+    "Fragment: 'Slowness, stiffness or tremor?'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "When the trials are pooled",
+     "fix": "When the results of the trials are added together"
+    },
+    {
+     "item": "6",
+     "quote": "In a Canadian study of about 81,000 older people with dementia, those taking them went to hospital with fainting about 32 times per 1000 people a year, against about 19 in those not taking them.",
+     "fix": "A Canadian study followed about 81,000 older people with dementia. Those taking them went to hospital with fainting about 32 times per 1000 people a year. Those not taking them, about 19."
+    }
+   ],
+   "flags": [
+    "Negation: 'That shows a link, not that the tablet caused every faint.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "When the randomised trials are pooled",
+     "fix": "When the results of the randomised trials are added together"
+    },
+    {
+     "item": "3",
+     "quote": "After leaving hospital, 78 of 138 people went back on a medicine of the same type.",
+     "fix": "After leaving hospital, more than half (78 of 138) went back on a medicine of the same type."
+    },
+    {
+     "item": "5",
+     "quote": "This is practical advice rather than a formal guideline: a small check for a known effect.",
+     "fix": "(delete; end on 'Do not stop the tablet on your own; ask first.')"
+    },
+    {
+     "item": "6",
+     "quote": "In a Canadian study of about 81,000 older people with dementia living at home, those taking these medicines went to hospital with fainting about 32 times per 1000 people each year.",
+     "fix": "A Canadian study followed about 81,000 older people with dementia living at home. Those taking these medicines went to hospital with fainting about 32 times per 1000 people each year."
+    }
+   ],
+   "flags": [
+    "Negation: 'It does not show that the medicine caused every faint.'",
+    "Sickness/diarrhoea paragraph is unconnected to the pulse advice"
+   ]
+  },
+  {
+   "tmp_id": "C08-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'similar dementia tablets' is vague"
+   ]
+  },
+  {
+   "tmp_id": "C08-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In pooled trials",
+     "fix": "When the results of several trials are added together"
+    },
+    {
+     "item": "3",
+     "quote": "hospital visits for fainting were about 32 vs 19 per 1000 people a year",
+     "fix": "hospital visits for fainting were about 32 per 1000 people a year in those taking them, against about 19 in those not taking them"
+    }
+   ],
+   "flags": [
+    "Negation: '(a link, not proof of cause)'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In an English study of 9,324 people with dementia, those who saw the same GP most consistently were prescribed fewer medicines on average: 8.5 against 9.7 in those with the least consistency.",
+     "fix": "An English study looked at 9,324 people with dementia. Those who saw the same GP most often were prescribed 8.5 medicines on average. Those who saw the same GP least often were prescribed 9.7."
+    }
+   ],
+   "flags": [
+    "Setup question: opening question is never answered by the post",
+    "Negation: 'It shows a link, not cause.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Over the next year they were also less likely to have new incontinence recorded, and slightly less likely to be admitted as an emergency, although that last link was weak.",
+     "fix": "Over the next year they were also less likely to have new incontinence recorded. They were slightly less likely to be admitted as an emergency, but that link was weak."
+    }
+   ],
+   "flags": [
+    "Setup question: opening question",
+    "Terse close: 'For practices: count it.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A named GP scheme was not followed by more continuity.",
+     "fix": "A named GP scheme was not followed by more visits to the same GP."
+    },
+    {
+     "item": "2",
+     "quote": "smaller gap after adjustment",
+     "fix": "the gap was smaller after allowing for age, illness and frailty"
+    },
+    {
+     "item": "6",
+     "quote": "those with the most consistent GP were prescribed fewer medicines (8.5 vs 9.7 on average; smaller gap after adjustment). A link, not cause.",
+     "fix": "those with the most consistent GP were prescribed fewer medicines: 8.5 vs 9.7 on average. The gap was smaller after allowing for age, illness and frailty. This is a link, not proof of cause."
+    }
+   ],
+   "flags": [
+    "Negation: 'A link, not cause.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A named GP scheme was not followed by more continuity.",
+     "fix": "A named GP scheme was not followed by more visits to the same GP."
+    },
+    {
+     "item": "2",
+     "quote": "before adjustment",
+     "fix": "before allowing for age, illness and frailty"
+    },
+    {
+     "item": "6",
+     "quote": "those with the most consistent GP had fewer medicines on average (8.5 vs 9.7, before adjustment) and fewer that are often unsafe in older age.",
+     "fix": "those with the most consistent GP had fewer medicines on average: 8.5 vs 9.7, before allowing for age, illness and frailty. They also had fewer that are often unsafe in older age."
+    }
+   ],
+   "flags": [
+    "Setup question: opening question",
+    "Negation: 'A link, not cause.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Since then, a trial of 1,021 care home residents with dementia and low mood in six countries, including the UK, found that neither music therapy groups nor choir singing eased depressive symptoms more than usual care at 6 months.",
+     "fix": "Since then, a trial tested music therapy groups and choir singing against usual care. It included 1,021 care home residents with dementia and low mood, in six countries including the UK. At 6 months, neither music group had eased low mood more than usual care."
+    }
+   ],
+   "flags": [
+    "'depressive symptoms' and 'low mood' used for the same thing"
+   ]
+  },
+  {
+   "tmp_id": "C08-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(moderate-certainty evidence)",
+     "fix": "(evidence we can be fairly, though not fully, confident in)"
+    },
+    {
+     "item": "6",
+     "quote": "Compared with usual care, the review found that sessions probably do not reduce agitation or aggression (moderate-certainty evidence) and probably ease low mood slightly by the end of a course (moderate certainty).",
+     "fix": "Compared with usual care, the review found that sessions probably do not reduce agitation or aggression. It also found they probably ease low mood slightly by the end of a course. Both findings rest on evidence of moderate certainty."
+    }
+   ],
+   "flags": [
+    "Setup question answered by the post: 'So what should families and care staff take from this?'",
+    "Negation: 'They were not tests of the radio or casual listening at home.'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "A later trial in 1,021 care home residents with dementia did not clearly ease low mood vs usual care.",
+     "fix": "A later trial gave music therapy groups or choir singing to 1,021 care home residents with dementia; it did not clearly ease low mood vs usual care."
+    }
+   ],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A later trial of 1,021 care home residents with dementia and low mood, in six countries, did not show that music therapy groups or choir singing eased low mood more than usual care at 6 months.",
+     "fix": "A later trial of 1,021 care home residents with dementia and low mood, in six countries, tested music therapy groups and choir singing. At 6 months, neither had eased low mood more than usual care."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C08-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Figurative: 'kept it going'",
+    "Dementia is never mentioned for the residents in this variant"
+   ]
+  },
+  {
+   "tmp_id": "C08-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C08-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "slightly improved residents' quality of life and agitation over 9 months",
+     "fix": "slightly improved residents' quality of life and agitation over 9 months compared with usual-care homes"
+    }
+   ],
+   "flags": [
+    "Dementia not mentioned for the residents",
+    "No action offered (acceptable under 300 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C08-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "In our view/judgement closing repeated across most of the set"
+   ]
+  },
+  {
+   "tmp_id": "C08-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In England, NICE says",
+     "fix": "In England, NICE (the body that sets national health guidance) says"
+    },
+    {
+     "item": "6",
+     "quote": "A 2023 review of 37 trials found the groups probably give a small boost to memory and thinking by the end of the course, and people communicated and joined in more.",
+     "fix": "A 2023 review of 37 trials found that, by the end of the course, the groups probably help memory and thinking a little. People also communicated and joined in more."
+    }
+   ],
+   "flags": [
+    "Figurative: 'small boost'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In England, NICE guidance says",
+     "fix": "In England, NICE (the body that sets national health guidance) says"
+    },
+    {
+     "item": "6",
+     "quote": "A 2023 Cochrane review of 37 trials and 2,766 people found the groups probably give a small boost to memory and thinking by the end of the course.",
+     "fix": "A 2023 Cochrane review pooled 37 trials with 2,766 people. By the end of the course, the groups probably help memory and thinking a little."
+    }
+   ],
+   "flags": [
+    "Setup question answered by the post: 'What does it do?'",
+    "Figurative: 'small boost'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a cognitive stimulation group",
+     "fix": "a cognitive stimulation group (a small group with talk, word games and puzzles)"
+    },
+    {
+     "item": "2",
+     "quote": "NICE in England says",
+     "fix": "NICE, the body that sets health guidance in England, says"
+    }
+   ],
+   "flags": [
+    "Figurative: 'small, short-term boost'"
+   ]
+  },
+  {
+   "tmp_id": "C08-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NICE in England says it should be offered.",
+     "fix": "NICE, the body that sets health guidance in England, says it should be offered."
+    }
+   ],
+   "flags": [
+    "Figurative: 'boost'"
+   ]
+  }
+ ]
+}

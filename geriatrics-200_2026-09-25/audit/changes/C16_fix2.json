@@ -1,0 +1,338 @@
+[
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.x",
+  "old": "with a pharmacist's advice on each medicine. This is judgement",
+  "new": "with a pharmacist involved. This is judgement",
+  "reason": "Pharmacist instruction appeared twice (cold read flag)."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.x",
+  "old": "leaves less to hide.",
+  "new": "means fewer medicines to hide.",
+  "reason": "Figurative phrase made literal."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.x",
+  "old": "The data are old and from Norway, so UK figures may differ.",
+  "new": "The data were published in 2005 and are from Norway, so UK figures may differ.",
+  "reason": "'Old' gave no year; BMJ 2005 per source."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.linkedin",
+  "old": "How common is it? In a Norwegian study of 1,926 nursing home residents, about 1 in 9 residents in regular units, and 1 in 6 in dementia units, had medicines hidden in food or drink at least once in a week. The practice was written in the record in only 4 in 10 cases. These are old data from Norway, and UK figures may differ.",
+  "new": "A Norwegian study followed 1,926 nursing home residents. In one week, medicines were hidden in food or drink at least once for about 1 in 9 residents in regular units and 1 in 6 in dementia units. The practice was written in the record in only 4 in 10 cases. The data were published in 2005 and are from Norway, so UK figures may differ.",
+  "reason": "Item 6 sentence too long and a self-answered setup question removed; year given for the data."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.linkedin",
+  "old": "Stopping one that no longer helps leaves less to hide.",
+  "new": "Stopping one that no longer helps means fewer medicines to hide.",
+  "reason": "Figurative phrase made literal."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.linkedin",
+  "old": "Check the law and guidance that apply where you work. This post does not set out national requirements.",
+  "new": "Before you hide any medicine in food or drink, check the law and guidance where you work, and ask again whether the person still needs it.",
+  "reason": "Item 5: close was a disclaimer; now an instruction."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.bluesky",
+  "old": "Before hiding a medicine in food or drink, ask if the person still needs it. In an older Norwegian study, medicines were hidden in a week for about 1 in 9 residents of regular nursing home units and 1 in 6 in dementia units; recorded in 4 in 10 cases. Ask a pharmacist how each can be given.",
+  "new": "Before hiding a medicine in food or drink, ask if the person still needs it. In an older Norwegian nursing home study, medicines were hidden in a week for about 1 in 9 residents of regular units and 1 in 6 in dementia units. Only 4 in 10 cases were recorded. Ask a pharmacist about each medicine.",
+  "reason": "Items 3 and 6: unclear 'recorded in 4 in 10 cases' recast as two sentences."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "captions.x",
+  "old": "What has been measured is wider: in a systematic review, about half of adults had at least one unintended discrepancy in their medicines after leaving hospital (median across 11 studies; the middle half of studies reported between 39 and 76 in 100). Definitions varied, and the studies were not limited to care homes.",
+  "new": "Measured figures cover more than this route. In a systematic review, about half of adults had at least one unintended medicine discrepancy after leaving hospital. That is the median across 11 studies. The middle half of the studies reported between 39 and 76 in 100. Definitions varied, and the studies were not limited to care homes.",
+  "reason": "Item 6 long sentence with parenthesis split; vague 'wider' replaced."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "captions.linkedin",
+  "old": "Each handover is a separate chance for the list to differ from the plan: hospital to home, home to GP, GP to pharmacy.",
+  "new": "At each handover the list can differ from the plan: hospital to home, home to GP, GP to pharmacy.",
+  "reason": "Figurative 'separate chance' made literal."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "captions.bluesky",
+  "old": "A tablet stopped in hospital can come back if the GP repeat list isn't updated (an illustrative route, not a measured rate). In a systematic review, the median across 11 studies was about half of adults with an unintended discrepancy after discharge. We should name who checks the list within days.",
+  "new": "A tablet stopped in hospital can come back if the GP repeat list isn't updated (an illustrative route, not a measured rate). In a systematic review, about half of adults had an unintended medicine discrepancy after discharge (median of 11 studies). We should name who checks the list within days.",
+  "reason": "Item 3: 'discrepancy' now says medicine discrepancy; kept under 300 characters."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.x",
+  "old": "'Potentially avoidable' is a label put on emergency admissions using lists of diagnosis codes, and different lists give different totals. In an analysis of all emergency admissions in England in 2005/6 (not care homes specifically), the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature.\n\nThe measure is used to compare services and programmes for care homes. Because lists differ, totals from different lists are not directly comparable.\n\nA 2023 systematic review of ways to reduce unplanned care home admissions described such admissions as 'often necessary' (the authors' framing). It also found that advance care planning was key to the success of most quality improvement programmes, but do-not-hospitalise orders were problematic. Most of the evidence was low quality.\n\nWe should not use the count to argue against sending an individual resident to hospital. For any one case, ask: could the illness have been prevented, could it have been treated in the home, and what did the person want?",
+  "new": "We should not use a count of 'potentially avoidable' admissions to argue against sending an individual resident to hospital. It is a service measure.\n\nThe label is put on emergency admissions using lists of diagnosis codes, and different lists give different totals. The most commonly used NHS list contained 19 of the 36 conditions found in the research literature. This comes from an analysis of all emergency admissions in England in 2005/6, not care homes specifically.\n\nThe measure is used to compare services and programmes for care homes. Because lists differ, totals from different lists are not directly comparable.\n\nA 2023 systematic review of ways to reduce unplanned care home admissions described such admissions as 'often necessary' (the authors' framing, not a measured finding). It also found that advance care planning was key to the success of most quality improvement programmes, but do-not-hospitalise orders were problematic. Most of the evidence was low quality.\n\nFor any one case, ask: could the illness have been prevented, could it have been treated in the home, and what did the person want?",
+  "reason": "Item 1: point now opens the post; item 6: long sentence split and scope stated after the figure; 'subset' made 'list'; closing 'We should' paragraph merged into the opening, ends on the questions."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.linkedin",
+  "old": "and those not on it. The lists vary. In an analysis of all emergency admissions in England in 2005/6, the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature, and the choice of list changed the proportion of admissions counted.",
+  "new": "and those not on it. The lists vary. In an analysis of all emergency admissions in England in 2005/6, the most commonly used NHS list contained 19 of the 36 conditions found in the research literature. The choice of list changed the proportion of admissions counted.",
+  "reason": "Item 6: long sentence split; 'subset' made 'list'."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.linkedin",
+  "old": "'ambulatory care sensitive' conditions (a defined list of diagnoses)",
+  "new": "'ambulatory care sensitive' conditions (the technical name for the list of diagnosis codes behind the label)",
+  "reason": "Cold read: the bracket did not explain the term."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.linkedin",
+  "old": ", for example a matched cohort study in Rushcliffe, England, that compared residents given enhanced support with similar matched residents. It is observational, and it is cited here only to show how the measure is used.",
+  "new": ", for example in a matched cohort study in Rushcliffe, England.",
+  "reason": "Cold read: padding sentence with no result removed."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.bluesky",
+  "old": "'Potentially avoidable' admissions from care homes are counted from lists of diagnosis codes, and different lists give different totals. It is a service measure, not a verdict on one resident's transfer. For one resident, ask: preventable? treatable at home? what did the person want?",
+  "new": "'Potentially avoidable' admissions from care homes are counted from diagnosis code lists, and different lists give different totals. The count measures services, not one resident's transfer. For one resident, ask: could it have been prevented? Could it be treated at home? What did the person want?",
+  "reason": "Cold read: negation-then-correction removed and shorthand questions written out."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.threads",
+  "old": "A 2023 review described care home admissions as 'often necessary' (the authors' framing).",
+  "new": "A 2023 review described care home admissions as 'often necessary' (the authors' view, not a measured finding).",
+  "reason": "Cold read: unexplained bracket and missing noun."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.x",
+  "old": "This was counted from residents already living in a home, not from the day they moved in. After allowing for age and sex, death rates were higher in nursing homes than in residential homes. This study can't show whether the type of home affects how long people live: residents of the two kinds of home may differ in how unwell they are.",
+  "new": "The study counted residents who were already living in a home on one date. It did not follow people from the day they moved in. After allowing for differences in age and sex, death rates were higher in nursing homes than in residential homes. This study can't show whether the type of home affects how long people live. Residents of the two kinds of home may differ in how unwell they are.",
+  "reason": "Item 6 colon sentence split; negation-then-correction recast; plainer age and sex wording."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.x",
+  "old": "it means half the group lived longer and half lived less.",
+  "new": "it is the point where half the group lived longer and half lived for a shorter time.",
+  "reason": "Awkward 'lived less'."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.x",
+  "old": "\n\nMore posts in the Reading the evidence series take one statistic at a time.",
+  "new": "",
+  "reason": "Item 5: series line removed so the post ends on the question to ask."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "If you are searching for a number like this, it helps to know what it describes.\n\n",
+  "new": "",
+  "reason": "Cold read: mild setup sentence removed."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "They were people already living in a home on one date, not people counted from the day they moved in, so it is not a measure of survival from the day someone moves in.",
+  "new": "They were people already living in a home on one date. They were not counted from the day they moved in, so these figures do not show survival from the day someone moves in.",
+  "reason": "Item 6: long negation sentence split."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "After allowing for age and sex,",
+  "new": "After allowing for differences in age and sex,",
+  "reason": "Plainer wording."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "it means half the group lived longer and half lived less.",
+  "new": "it is the point where half the group lived longer and half lived for a shorter time.",
+  "reason": "Awkward 'lived less'."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "\n\nMore posts in the Reading the evidence series take one statistic at a time.",
+  "new": "",
+  "reason": "Item 5: series line removed so the post ends on the question to ask."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.bluesky",
+  "old": "In England and Wales in 2009, about 26 in 100 care home residents aged 65+ died within a year; about 74 in 100 were alive a year later. A group figure can't tell you about one person. Ask their doctor: what do you expect for this person?",
+  "new": "In England and Wales in 2009, about 26 in 100 care home residents aged 65 and over died within a year. About 74 in 100 were alive a year later. A group figure can't tell you about one person. Ask their doctor: what do you expect for this person?",
+  "reason": "Item 6: '65+' spelled out and sentence split."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.threads",
+  "old": "About 26 in 100 people aged 65 and over living in care homes",
+  "new": "About 26 in 100 people aged 65 and over in care homes",
+  "reason": "Space for the plainer age and sex wording."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.threads",
+  "old": "After allowing for age and sex,",
+  "new": "After allowing for differences in age and sex,",
+  "reason": "Plainer wording, consistent with other versions."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.x",
+  "old": "Reablement is short-term help at home, usually lasting weeks rather than months, to help you do everyday things for yourself again. It works towards goals set with you.\n\nThe evidence is thin. A 2016 Cochrane review found only 2 trials and was very uncertain whether reablement helps more than usual home care. One of those two trials was a small Norwegian trial of 61 people. Those offered 10 weeks of reablement rated their own performance of chosen activities somewhat better at 3 and 9 months, with no clear difference in physical capacity or quality of life. A 2026 review of home rehabilitation trials pooled the reablement-based programmes. It did not show a clear difference in chosen activities or physical performance, and the certainty was low to very low.\n\nFew trials exist and the certainty is low, so we do not yet know whether it helps more than usual care. If it is offered, ask: which goals, how long, is there any charge, and when will it be reviewed?",
+  "new": "Reablement is short-term help at home, usually lasting weeks rather than months, to help you do everyday things for yourself again. It works towards goals set with you.\n\nThere is little research on it. A 2016 Cochrane review (a careful summary of all the trials found on a question) found only 2 trials and was very uncertain whether reablement helps more than usual home care. One of those two trials was a small Norwegian trial of 61 people. Those offered 10 weeks of reablement rated their own performance of chosen activities somewhat better than people given usual care, at 3 and 9 months. There was no clear difference in physical capacity or quality of life.\n\nA 2026 review of home rehabilitation trials combined the results of the programmes built on reablement. It did not show a clear difference in chosen activities or physical performance, and the certainty was low to very low. So the small trial's benefit for chosen activities is not firm.\n\nFew trials exist and the certainty is low, so we do not know whether reablement helps more than usual care. If it is offered, ask: which goals, how long, is there any charge, and when will it be reviewed?",
+  "reason": "Items 2, 6, 7: Cochrane glossed, 'pooled' replaced, long sentence split, small-trial result reconciled with the 2026 review; 'evidence is thin' made literal."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.linkedin",
+  "old": "A 2016 Cochrane review found only 2 trials",
+  "new": "A 2016 Cochrane review (a careful summary of all the trials found on a question) found only 2 trials",
+  "reason": "Item 2: gloss for Cochrane review."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.linkedin",
+  "old": "rated their own performance of the everyday activities they had chosen about 1.5 points higher on a 10-point scale at 3 months and at 9 months.",
+  "new": "rated their own performance of the activities they had chosen about 1.5 points higher on a 10-point scale than people given usual care. This held at 3 months and at 9 months.",
+  "reason": "Item 6: split."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.linkedin",
+  "old": "A 2026 review of home rehabilitation trials pooled the reablement-based programmes. It did not show a clear difference in chosen daily activities or physical performance. The certainty of the evidence was low to very low, and the pooled numbers were small. That is a gap in the evidence: we do not know whether it helps more than usual care.",
+  "new": "A 2026 review of home rehabilitation trials combined the results of the programmes built on reablement. It did not show a clear difference in chosen daily activities or physical performance. The certainty of the evidence was low to very low, and few people were included in the combined results (291 for chosen activities, 555 for physical performance). The small trial's benefit for chosen activities is therefore not firm. This is a gap in the evidence, and we do not know whether reablement helps more than usual care.",
+  "reason": "Items 2, 7: 'pooled' replaced, 'small numbers' made specific, small-trial result reconciled with the review."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.linkedin",
+  "old": "\n\nAsk the council about any charge and how long the help will last.",
+  "new": "",
+  "reason": "Cold read: last sentence repeated list items 2 and 3."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.bluesky",
+  "old": "Reablement is short-term help at home to relearn everyday tasks. Evidence is thin: a 2016 Cochrane review found 2 trials; a 2026 home rehabilitation review showed no clear difference for reablement-based programmes (low to very low certainty). Ask: which goals, how long, any charge, when reviewed?",
+  "new": "Reablement is short-term help at home to relearn everyday tasks. A 2016 Cochrane review (a summary of trials) found only 2 trials. A 2026 review found no clear difference from usual care for reablement programmes, with weak evidence. Ask: which goals, how long, any charge, when reviewed?",
+  "reason": "Items 2, 3, 6: two reviews in separate sentences, Cochrane glossed, comparison with usual care stated, shorthand question written out."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.threads",
+  "old": "Reablement is short-term help at home to do everyday things for yourself again, working towards goals set with you.\n\nThe evidence is thin. A 2016 Cochrane review found 2 trials; one, a small Norwegian trial, found people rated their chosen activities somewhat better. A 2026 review of home rehabilitation trials showed no clear difference for reablement-based programmes (low to very low certainty).\n\nIf it is offered, ask: which goals, how long, any charge, and when will it be reviewed?",
+  "new": "Reablement is short-term help at home to do everyday things for yourself again.\n\nThere is little research. A 2016 Cochrane review (a summary of trials) found only 2 trials. In one small trial, people offered reablement rated their own performance of chosen activities somewhat better than usual care. A 2026 review of trials found no clear difference (low to very low certainty), so that result is not firm.\n\nIf it is offered, ask: which goals, how long, any charge, and when will it be reviewed?",
+  "reason": "Items 2, 3, 7: Cochrane glossed, trial comparison stated, trial and review reconciled."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.x",
+  "old": "But in one Scottish study of people with advanced illness who died in 2017, about 1 in 3 KIS did not record resuscitation status and more than 4 in 10 did not record preferred place of care. Those were people near the end of life, not all care home or housebound people.",
+  "new": "One Scottish study looked at people with advanced illness who died in 2017. About 1 in 3 of their KIS did not record resuscitation status. More than 4 in 10 did not record preferred place of care. Those were people near the end of life, not all care home or housebound people.",
+  "reason": "Item 6: long sentence split; abrupt 'But' removed."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.linkedin",
+  "old": "Hours are not demand, and this study did not look at care home residents as a group. It shows that key content can be missing from a shared plan. Which of the six is most often missing in the plans you read?",
+  "new": "This study did not look at care home residents as a group, and it did not count out-of-hours contacts. It shows that key content can be missing from a shared plan. Before you finish a plan, check that an out-of-hours team can open it.",
+  "reason": "Item 5/6: negation shape removed; closing question asked about all six items though the study measured two; now a practical instruction."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.bluesky",
+  "old": "Most hours in a week fall outside weekday surgery hours, so write the care plan for the clinician reading it at 3am. In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 KIS lacked resuscitation status and over 4 in 10 lacked preferred place of care.",
+  "new": "Most hours in a week fall outside weekday surgery hours, so write the care plan for the clinician reading at 3am. In a Scottish study of people with advanced illness who died in 2017, about 1 in 3 Key Information Summaries lacked resuscitation status and over 4 in 10 lacked preferred place of care.",
+  "reason": "Items 2, 6: KIS spelled out and sentence recast; under 300 characters."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.threads",
+  "old": "In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 Key Information Summaries did not record resuscitation status and more than 4 in 10 did not record preferred place of care.",
+  "new": "One Scottish study looked at people with advanced illness who died in 2017. About 1 in 3 Key Information Summaries did not record resuscitation status, and more than 4 in 10 did not record preferred place of care.",
+  "reason": "Item 6: split."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.x",
+  "old": "Care workers are often well placed to notice that someone is eating less, sleeping more or seems unlike themselves. What happens next depends on how that observation is handed over, and on whether anyone tells the care worker what was decided.\n\nRESTORE2 (Recognise Early Soft Signs, Take Observations, Respond, Escalate) is a UK care home tool for monitoring residents. In one UK interview study about a proposed trial of antibiotics for suspected urine infection in care homes, participants strongly supported using RESTORE2 to monitor residents, but worried about training night and temporary staff.\n\nIn a US trial across 85 nursing homes, training staff to use the INTERACT tools did not show a clear drop in hospital admissions overall.\n\nWe should give care workers a structured way to report change, and a named person who must respond and report back.",
+  "new": "Care workers are often in a good position to notice that someone is eating less, sleeping more or seems unlike themselves. What happens next depends on how that observation is handed over, and on whether anyone tells the care worker what was decided.\n\nRESTORE2 (Recognise Early Soft Signs, Take Observations, Respond, Escalate) is a UK care home tool for monitoring residents. An interview study in the UK asked people about a proposed trial of antibiotics for suspected urine infection in care homes. Participants strongly supported using RESTORE2 to monitor residents. They worried about training night and temporary staff.\n\nIn a US trial across 85 nursing homes, training staff to use the INTERACT tools (a set of tools for staff to flag and respond to a resident getting worse) did not show a clear drop in hospital admissions overall. Our judgement is that a report changes little unless someone responds to it.\n\nWe should give care workers a structured way to report change, and a named person who must respond and report back.",
+  "reason": "Items 2, 6: INTERACT glossed, interview-study sentence split, 'well placed' idiom replaced, trial linked to the recommendation as marked judgement."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.linkedin",
+  "old": "training and support for the INTERACT tools did not show",
+  "new": "training and support for the INTERACT tools (a set of tools for staff to flag and respond to a resident getting worse) did not show",
+  "reason": "Item 2: INTERACT glossed."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.linkedin",
+  "old": "Potentially avoidable admissions fell, but that did not hold up after adjusting for multiple comparisons.",
+  "new": "Fewer potentially avoidable admissions were seen in the trained homes than in the comparison homes, but the difference was not reliable after adjusting for multiple comparisons.",
+  "reason": "Item 3: unclear 'fell' made specific."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.linkedin",
+  "old": "the useful test of a handover route is",
+  "new": "the useful test of how an observation is handed over is",
+  "reason": "Figurative 'route'."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.linkedin",
+  "old": "Care workers are often well placed to notice",
+  "new": "Care workers are often in a good position to notice",
+  "reason": "Idiom replaced."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.bluesky",
+  "old": "Care workers are often well placed to notice someone eating less or sleeping more. We should give them a structured way to report it and a named person who responds and reports back. A US trial of INTERACT training in 85 nursing homes showed no clear drop in admissions overall.",
+  "new": "Care workers are often in a good position to notice someone eating less or sleeping more. A US trial of INTERACT training (tools to flag a resident getting worse) in 85 nursing homes showed no clear drop in hospital admissions. Our judgement: a report helps only if a named person responds.",
+  "reason": "Items 1, 2, 3: recommendation and trial linked in plain words, INTERACT glossed, 'hospital admissions' stated."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.threads",
+  "old": "Care workers are often well placed to notice that someone is eating less or sleeping more. What happens next depends on the handover and on whether they hear what was decided.\n\nA US trial of INTERACT training in 85 nursing homes did not show a clear drop in hospital admissions overall.\n\nWe should give care workers a structured way to report change and a named person who responds and reports back.",
+  "new": "Care workers are often in a good position to notice someone eating less or sleeping more. What happens next depends on the handover and on whether they hear what was decided.\n\nA US trial of INTERACT training (tools to flag a resident getting worse) in 85 nursing homes showed no clear drop in hospital admissions. Our judgement is that a report changes little unless someone responds.\n\nWe should give care workers a structured way to report change and a named person who responds and reports back.",
+  "reason": "Items 1, 2: trial linked to the recommendation as marked judgement; INTERACT glossed."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.x",
+  "old": "In one small study of 25 housebound adults aged 60 and over, all with two or more long-term conditions and five or more regular medicines, in two Glasgow practices serving a deprived area, 23 had missed routine reviews of their long-term conditions since becoming housebound, 91 reviews in all. That was",
+  "new": "One small study in two Glasgow practices serving a deprived area looked at 25 housebound adults aged 60 and over. All had two or more long-term conditions and took five or more regular medicines. Of the 25, 23 had missed routine reviews of their long-term conditions since becoming housebound. Between them they had missed 91 reviews. That was",
+  "reason": "Item 0 on 6: 63-word sentence split into four."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.linkedin",
+  "old": "In one small study, 23 of 25 housebound adults aged 60 and over, from two Glasgow practices, had missed routine reviews of their long-term conditions since becoming housebound. Between them they had missed 91 reviews.",
+  "new": "One small study looked at 25 housebound adults aged 60 and over from two Glasgow practices. Of the 25, 23 had missed routine reviews of their long-term conditions since becoming housebound. Between them they had missed 91 reviews.",
+  "reason": "Long sentence split."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.linkedin",
+  "old": "We should plan routine care at home",
+  "new": "Practices should plan routine care at home",
+  "reason": "Item 5: 'We' unclear in a public post."
+ }
+]

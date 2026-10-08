@@ -1,114 +1,618 @@
 [
  {
   "tmp_id": "C16-P01",
-  "where": ".captions.x",
-  "old": "about 1 in 9 nursing home residents, and 1 in 6 in dementia units",
-  "new": "about 1 in 9 residents in ordinary nursing home units, and 1 in 6 in dementia units",
-  "reason": "11% applies to ordinary units only"
+  "where": "captions.bluesky",
+  "old": "Before hiding a medicine in food or drink, ask whether the person still needs it. In an older Norwegian study, about 1 in 9 nursing home residents had medicines hidden in a week; the record said so in 4 in 10 cases. Ask a pharmacist how each medicine can be given.",
+  "new": "Before hiding a medicine in food or drink, ask if the person still needs it. In an older Norwegian study, medicines were hidden in a week for about 1 in 9 residents of regular nursing home units and 1 in 6 in dementia units; recorded in 4 in 10 cases. Ask a pharmacist how each can be given.",
+  "reason": "major: 1 in 9 (11%) is the regular-unit figure only; dementia units were 17% (1 in 6). Subgroup was written as the whole study."
  },
  {
   "tmp_id": "C16-P01",
-  "where": ".captions.bluesky",
-  "old": "about 1 in 9 residents had",
-  "new": "about 1 in 9 residents in ordinary units had",
-  "reason": "11% applies to ordinary units only"
+  "where": "captions.threads",
+  "old": "Before a medicine goes into someone's food or drink, ask whether they still need it.\n\nIn an older Norwegian study, about 1 in 9 nursing home residents had medicines hidden in food or drink in one week, and the record said so in only 4 in 10 cases. UK figures may differ.\n\nWe should hide a medicine only after a documented capacity and best-interests decision, with a pharmacist's advice on each one. Pharmacists check coating, slow release and taste before a tablet is crushed or mixed.",
+  "new": "Before a medicine goes into someone's food or drink, ask whether they still need it.\n\nIn an older Norwegian study, medicines were hidden in food or drink in one week for about 1 in 9 residents in regular nursing home units and 1 in 6 in dementia units. The record said so in only 4 in 10 cases. UK figures may differ.\n\nWe suggest hiding a medicine only after a documented capacity and best-interests decision, with a pharmacist's advice on each one. Check the law where you work.",
+  "reason": "major: 1 in 9 is the regular-unit figure only; dementia-unit figure (1 in 6) restored. The capacity and best-interests sequence is a suggestion, not a flat standard, and best-interests is England and Wales terminology, so the local-law qualifier is added."
  },
  {
   "tmp_id": "C16-P01",
-  "where": ".captions.threads",
-  "old": "about 1 in 9 nursing home residents, and 1 in 6 in dementia units",
-  "new": "about 1 in 9 residents in ordinary nursing home units, and 1 in 6 in dementia units",
-  "reason": "11% applies to ordinary units only"
+  "where": "visual_text.8",
+  "old": "in one week, 1 in 9 residents had medicines hidden in food or drink; 4 in 10 cases were recorded",
+  "new": "in one week, medicines were hidden in food or drink for 1 in 9 residents of regular units and 1 in 6 in dementia units; this was written in the record in 4 in 10 of those cases",
+  "reason": "major: regular-unit figure was presented as all residents; 'cases' was unclear."
  },
  {
   "tmp_id": "C16-P01",
-  "where": ".visual_brief.design_notes",
-  "old": "1 in 9 residents had medicines hidden",
-  "new": "1 in 9 residents in ordinary units had medicines hidden",
-  "reason": "11% applies to ordinary units only"
- },
- {
-  "tmp_id": "C16-P01",
-  "where": ".visual_text[6]",
-  "old": "1 in 9 residents had medicines hidden",
-  "new": "1 in 9 residents in ordinary units had medicines hidden",
-  "reason": "11% applies to ordinary units only"
- },
- {
-  "tmp_id": "C16-P01",
-  "where": ".alt_text[0]",
-  "old": "1 in 9 residents had medicines hidden",
-  "new": "1 in 9 residents in ordinary units had medicines hidden",
-  "reason": "11% applies to ordinary units only"
- },
- {
-  "tmp_id": "C16-P04",
-  "where": ".captions.x",
-  "old": "That reflects how ill people already are when they move in.",
-  "new": "This most likely reflects how ill people already are when they move in; the study did not test the reason.",
-  "reason": "causal claim not tested"
- },
- {
-  "tmp_id": "C16-P04",
-  "where": ".captions.linkedin",
-  "old": "The higher figures reflect how ill people already are when they move in, rather than any effect of the home.",
-  "new": "The higher figures most likely reflect how ill people already are when they move in; the study did not test the reason.",
-  "reason": "causal claim not tested"
- },
- {
-  "tmp_id": "C16-P04",
-  "where": ".captions.bluesky",
-  "old": "Death rates were higher in nursing homes, reflecting how ill people are when they move in.",
-  "new": "Death rates were higher in nursing homes, most likely reflecting how ill people are when they move in; the study did not test why.",
-  "reason": "causal claim not tested"
- },
- {
-  "tmp_id": "C16-P04",
-  "where": ".captions.threads",
-  "old": "which reflects how ill people already are when they move in.",
-  "new": "which most likely reflects how ill people already are when they move in; the study did not test the reason.",
-  "reason": "causal claim not tested"
- },
- {
-  "tmp_id": "C16-P05",
-  "where": ".captions.threads",
-  "old": "one small positive Norwegian trial",
-  "new": "one small Norwegian trial where people rated chosen activities somewhat better, but not physical capacity or quality of life",
-  "reason": "overstated trial result"
- },
- {
-  "tmp_id": "C16-P06",
-  "where": ".source_reply",
-  "old": "Br J Gen Pract 2019;70:",
-  "new": "Br J Gen Pract 2020;70:",
-  "reason": "year/volume mismatch"
- },
- {
-  "tmp_id": "C16-P07",
-  "where": ".captions.threads",
-  "old": "training in similar tools did not",
-  "new": "training staff in the INTERACT tools did not",
-  "reason": "unsupported equivalence"
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "in one week, 1 in 9 residents had medicines hidden in food or drink; 4 in 10 cases were recorded",
+  "new": "in one week, medicines were hidden in food or drink for 1 in 9 residents of regular units and 1 in 6 in dementia units; this was written in the record in 4 in 10 of those cases",
+  "reason": "major: keeps visual_brief consistent with visual_text (regular-unit figure was presented as all residents)."
  },
  {
   "tmp_id": "C16-P01",
   "where": "alt_text.0",
-  "old": "an older woman sits at a table behind",
-  "new": "an older woman sits behind",
-  "reason": "checker: alt text over 400 chars after fix"
+  "old": "A strip notes an older Norwegian study: 1 in 9 residents had medicines hidden in a week; 4 in 10 cases were recorded.",
+  "new": "A strip notes an older Norwegian study: medicines hidden in a week for 1 in 9 residents of regular units, 1 in 6 in dementia units; 4 in 10 recorded.",
+  "reason": "major: alt text gave the regular-unit figure as all residents."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.x",
+  "old": "We should hide a medicine only after a documented capacity assessment and best-interests decision, with a pharmacist's advice on each medicine.",
+  "new": "We suggest hiding a medicine only after a documented capacity assessment and a best-interests decision, with a pharmacist's advice on each medicine. This is judgement, not a legal summary: check the law and guidance where you work.",
+  "reason": "major: flat 'should' standard with no local-law qualifier; best-interests is England and Wales terminology and no law or guidance was opened."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.x",
+  "old": "Pharmacists check whether a tablet is coated or modified-release (made to release slowly), and how it tastes, before it is crushed or mixed into food.",
+  "new": "A pharmacist-developed checklist for judging whether a tablet can be crushed or mixed into food asks about special coating, modified release (made to release slowly) and taste. Ask a pharmacist about each medicine.",
+  "reason": "minor: Tan et al is a pharmacist-consensus algorithm, not a description of what pharmacists routinely do."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.x",
+  "old": "about 1 in 9 residents, and 1 in 6 in dementia units",
+  "new": "about 1 in 9 residents in regular units, and 1 in 6 in dementia units",
+  "reason": "consistency: makes explicit that 1 in 9 is the regular-unit figure."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "captions.linkedin",
+  "old": "On step 4: pharmacists check whether a tablet has a special coating or is modified-release (made to release slowly), and how it tastes, before it is crushed or mixed into food. Ask about each medicine rather than assuming one answer for all of them.",
+  "new": "On step 4: a pharmacist-developed checklist for judging whether a tablet can be crushed or mixed into food asks about special coating, modified release (made to release slowly) and taste. Ask about each medicine rather than assuming one answer for all of them.",
+  "reason": "minor: same Tan et al wording fix, applied to the LinkedIn version for consistency."
+ },
+ {
+  "tmp_id": "C16-P01",
+  "where": "angle",
+  "old": "with the one sourced practical point that pharmacists check coating, modified release and taste.",
+  "new": "with the one sourced practical point that a pharmacist-developed checklist asks about coating, modified release and taste.",
+  "reason": "consistency with the minor fix to the Tan et al wording."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "captions.bluesky",
+  "old": "A tablet stopped in hospital can come back if the GP repeat list isn't updated (an illustrative route, not a measured rate). In a systematic review, about half of adults had an unintended medicine discrepancy after discharge. We should name who checks the repeat list within days.",
+  "new": "A tablet stopped in hospital can come back if the GP repeat list isn't updated (an illustrative route, not a measured rate). In a systematic review, the median across 11 studies was about half of adults with an unintended discrepancy after discharge. We should name who checks the list within days.",
+  "reason": "minor: dropped 'median across studies'; 50% is the median of 11 studies, not a pooled rate."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "series",
+  "old": "Small detail, real effect",
+  "new": "Teaching round",
+  "reason": "minor: series name 'Small detail, real effect' implies a measured benefit of the named-person check; no source tests it."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "visual_text.15",
+  "old": "Small detail, real effect",
+  "new": "Teaching round",
+  "reason": "minor: series name 'Small detail, real effect' implies a measured benefit of the named-person check; no source tests it."
+ },
+ {
+  "tmp_id": "C16-P02",
+  "where": "visual_brief.design_notes",
+  "old": "Footer: Alasdair MacLullich | Small detail, real effect.",
+  "new": "Footer: Alasdair MacLullich | Teaching round.",
+  "reason": "minor: series name 'Small detail, real effect' implies a measured benefit of the named-person check; no source tests it."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.bluesky",
+  "old": "'Potentially avoidable' admissions from care homes are counted from lists of diagnosis codes, and different lists give different totals. Use the count to plan services, not to argue against one resident's transfer. Ask: preventable? treatable at home? what did the person want?",
+  "new": "'Potentially avoidable' admissions from care homes are counted from lists of diagnosis codes, and different lists give different totals. It is a service measure, not a verdict on one resident's transfer. For one resident, ask: preventable? treatable at home? what did the person want?",
+  "reason": "major: the 'use the count to plan services' imperative is not supported; Purdy et al say the inconsistent code lists need resolving before the measure is more useful to decision makers."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.x",
+  "old": "The measure is used to compare services and programmes for care homes, and can help plan where support could improve.",
+  "new": "The measure is used to compare services and programmes for care homes. Because lists differ, totals from different lists are not directly comparable.",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.linkedin",
+  "old": "Our judgement: the count is a planning measure.",
+  "new": "Our judgement: the count is used to compare services.",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.threads",
+  "old": "The count can help plan services.",
+  "new": "The count is used to compare services.",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "insight",
+  "old": "The count can help plan services; it gives no verdict",
+  "new": "The count is used to compare services; it gives no verdict",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "angle",
+  "old": "accepting the measure's use for planning",
+  "new": "accepting its use to compare services",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "position_basis",
+  "old": "Judgement: the count should not be used",
+  "new": "Judgement: the count is a service measure and should not be used",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_brief.slides.0.purpose",
+  "old": "into a planning category",
+  "new": "into a service-measure category",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "Planning measure",
+  "new": "Service measure",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_text.4",
+  "old": "Planning measure",
+  "new": "Service measure",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_brief.slides.0.art",
+  "old": "is labelled 'Planning measure'",
+  "new": "is labelled 'Service measure'",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "alt_text.0",
+  "old": "a planning measure.",
+  "new": "a service measure.",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "gain_note",
+  "old": "A way to use the measure for planning and three questions",
+  "new": "A way to read the measure and three questions",
+  "reason": "major: 'can help plan where support could improve' is not in any source; the sources show only that the measure is used as an outcome to compare services (Lloyd 2019) and that definitions are inconsistent (Purdy 2009)."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.x",
+  "old": "the NHS list used 19 of the 36 conditions found in the research literature",
+  "new": "the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature",
+  "reason": "minor: Purdy et al describe the most frequently used NHS subset (19 conditions), not a single NHS list."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.linkedin",
+  "old": "the NHS list used 19 of the 36 conditions found in the research literature",
+  "new": "the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature",
+  "reason": "minor: Purdy et al describe the most frequently used NHS subset (19 conditions), not a single NHS list."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "one NHS list used 19 of the 36 conditions found in the research literature",
+  "new": "the most commonly used NHS subset has 19 of the 36 conditions found in the research literature",
+  "reason": "minor: Purdy et al describe the most frequently used NHS subset (19 conditions), not a single NHS list."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_text.12",
+  "old": "one NHS list used 19 of the 36 conditions found in the research literature",
+  "new": "the most commonly used NHS subset has 19 of the 36 conditions found in the research literature",
+  "reason": "minor: Purdy et al describe the most frequently used NHS subset (19 conditions), not a single NHS list."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "alt_text.0",
+  "old": "one NHS list used 19 of 36 conditions in the literature",
+  "new": "the most commonly used NHS subset has 19 of the 36 conditions in the literature",
+  "reason": "minor: Purdy et al describe the most frequently used NHS subset (19 conditions), not a single NHS list."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "visual_brief.slides.0.data.0.label",
+  "old": "Conditions in the NHS list out of",
+  "new": "Conditions in the most commonly used NHS subset out of",
+  "reason": "minor: Purdy et al describe the most frequently used NHS subset (19 conditions), not a single NHS list."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.x",
+  "old": "A 2023 systematic review noted that admissions from care homes are often necessary, and that do-not-hospitalise orders were problematic.",
+  "new": "A 2023 systematic review of ways to reduce unplanned care home admissions described such admissions as 'often necessary' (the authors' framing). It also found that advance care planning was key to the success of most quality improvement programmes, but do-not-hospitalise orders were problematic. Most of the evidence was low quality.",
+  "reason": "minor: 'often necessary' is the authors' framing, not a finding, and the do-not-hospitalise point sits within quality improvement programmes where advance care planning was key; stripped of context it reads as a position on a disputed policy."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.linkedin",
+  "old": "Admissions from care homes are often necessary (the authors' framing, not a measured finding), and do-not-hospitalise orders were problematic. The evidence in the review was mostly of low quality.",
+  "new": "The review of ways to reduce unplanned care home admissions described such admissions as 'often necessary' (the authors' framing, not a measured finding). It found that advance care planning was key to the success of most quality improvement programmes, but do-not-hospitalise orders were problematic. The evidence in the review was mostly of low quality.",
+  "reason": "minor: 'often necessary' is the authors' framing, not a finding, and the do-not-hospitalise point sits within quality improvement programmes where advance care planning was key; stripped of context it reads as a position on a disputed policy."
+ },
+ {
+  "tmp_id": "C16-P03",
+  "where": "captions.threads",
+  "old": "A 2023 review noted that care home admissions are often necessary.",
+  "new": "A 2023 review described care home admissions as 'often necessary' (the authors' framing).",
+  "reason": "minor: 'often necessary' is the authors' framing, not a finding, and the do-not-hospitalise point sits within quality improvement programmes where advance care planning was key; stripped of context it reads as a position on a disputed policy."
  },
  {
   "tmp_id": "C16-P04",
-  "where": "captions.bluesky",
-  "old": "how ill people are when they move in;",
-  "new": "how ill people are on arrival;",
-  "reason": "checker: Bluesky over 300 chars after hedge"
+  "where": "captions.x",
+  "old": "The death rate reflects how ill people are when they move in, not the effect of the home.",
+  "new": "This study can't show whether the type of home affects how long people live: residents of the two kinds of home may differ in how unwell they are.",
+  "reason": "major: the abstract gives no reason for the nursing versus residential difference and cannot test the effect of the home; the causal-interpretation sentence is unsupported."
  },
  {
   "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "The death rate reflects how ill people are when they move in, not the effect of the home.",
+  "new": "This study can't show whether the type of home affects how long people live: residents of the two kinds of home may differ in how unwell they are.",
+  "reason": "major: the abstract gives no reason for the nursing versus residential difference and cannot test the effect of the home; the causal-interpretation sentence is unsupported."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.threads",
+  "old": "The death rate reflects how ill people are when they move in, not the effect of the home.",
+  "new": "This study can't show whether the type of home affects survival: residents may differ in how unwell they are.",
+  "reason": "major: the abstract gives no reason for the nursing versus residential difference and cannot test the effect of the home; the causal-interpretation sentence is unsupported."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.x",
+  "old": "Death rates were higher in nursing homes",
+  "new": "After allowing for age and sex, death rates were higher in nursing homes",
+  "reason": "minor: the source compares age- and sex-standardised mortality ratios (419 vs 284), not raw death rates."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.linkedin",
+  "old": "Death rates were higher in nursing homes",
+  "new": "After allowing for age and sex, death rates were higher in nursing homes",
+  "reason": "minor: the source compares age- and sex-standardised mortality ratios (419 vs 284), not raw death rates."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "captions.threads",
+  "old": "Death rates were higher in nursing homes",
+  "new": "After allowing for age and sex, death rates were higher in nursing homes",
+  "reason": "minor: the source compares age- and sex-standardised mortality ratios (419 vs 284), not raw death rates."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "position_basis",
+  "old": "higher mortality reflects how ill people are when they move in.",
+  "new": "the study cannot show whether the type of home affects survival, because residents of the two kinds of home may differ in how unwell they are.",
+  "reason": "major: the abstract gives no reason for the nursing versus residential difference and cannot test the effect of the home; the causal-interpretation sentence is unsupported."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "verification_notes",
+  "old": "higher mortality reflects how ill people are when they move in.",
+  "new": "the difference between home types is not explained in the abstract, so the post says the study cannot show whether the type of home affects survival.",
+  "reason": "major: the abstract gives no reason for the nursing versus residential difference and cannot test the effect of the home; the causal-interpretation sentence is unsupported."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "verification_notes",
+  "old": "Nursing versus residential given only as 'higher in nursing homes'.",
+  "new": "Nursing versus residential given as 'after allowing for age and sex, higher in nursing homes'.",
+  "reason": "minor: the source compares age- and sex-standardised mortality ratios (419 vs 284), not raw death rates."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "visual_brief.slides.0.text.headline",
+  "old": "Out of 100 care home residents, about 74 were alive a year later",
+  "new": "Of 100 care home residents in England and Wales in 2009, about 74 were alive a year later",
+  "reason": "minor: headline carried neither setting nor timeframe; it is a one-year figure for residents of homes in England and Wales in 2009."
+ },
+ {
+  "tmp_id": "C16-P04",
+  "where": "visual_text.1",
+  "old": "Out of 100 care home residents, about 74 were alive a year later",
+  "new": "Of 100 care home residents in England and Wales in 2009, about 74 were alive a year later",
+  "reason": "minor: headline carried neither setting nor timeframe; it is a one-year figure for residents of homes in England and Wales in 2009."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.x",
+  "old": "A 2026 review that pooled reablement trials did not show a clear difference in chosen activities or physical performance, at low certainty.",
+  "new": "A 2026 review of home rehabilitation trials pooled the reablement-based programmes. It did not show a clear difference in chosen activities or physical performance, and the certainty was low to very low.",
+  "reason": "major: Hogstedt 2026 reviews supervised home rehabilitation trials; reablement-based programmes were one of three groups, and certainty was low to very low, not low."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.linkedin",
+  "old": "A 2026 review that pooled reablement trials did not show a clear difference in chosen daily activities or physical performance.",
+  "new": "A 2026 review of home rehabilitation trials pooled the reablement-based programmes. It did not show a clear difference in chosen daily activities or physical performance.",
+  "reason": "major: Hogstedt 2026 reviews supervised home rehabilitation trials; reablement-based programmes were one of three groups, and certainty was low to very low, not low."
+ },
+ {
+  "tmp_id": "C16-P05",
   "where": "captions.bluesky",
-  "old": "A group figure can't tell you about one person.",
-  "new": "A group figure can't predict one person.",
-  "reason": "checker: Bluesky over 300 chars after hedge"
+  "old": "Reablement is short-term help at home to do everyday things for yourself again. Evidence is thin: a 2016 Cochrane review found 2 trials, and a 2026 pooled review showed no clear difference (low certainty). If offered, ask which goals, how long, any charge, and when it's reviewed.",
+  "new": "Reablement is short-term help at home to relearn everyday tasks. Evidence is thin: a 2016 Cochrane review found 2 trials; a 2026 home rehabilitation review showed no clear difference for reablement-based programmes (low to very low certainty). Ask: which goals, how long, any charge, when reviewed?",
+  "reason": "major: Hogstedt 2026 reviews supervised home rehabilitation trials; reablement-based programmes were one of three groups, and certainty was low to very low, not low."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.threads",
+  "old": "Reablement is short-term help at home to do everyday things for yourself again, working towards goals set with you.\n\nThe evidence is thin. A 2016 Cochrane review found 2 trials, and a 2026 pooled review did not show a clear difference at low certainty. One small Norwegian trial found people rated their chosen activities somewhat better.\n\nIf it is offered, ask: which goals, how long, any charge, and when will it be reviewed?",
+  "new": "Reablement is short-term help at home to do everyday things for yourself again, working towards goals set with you.\n\nThe evidence is thin. A 2016 Cochrane review found 2 trials; one, a small Norwegian trial, found people rated their chosen activities somewhat better. A 2026 review of home rehabilitation trials showed no clear difference for reablement-based programmes (low to very low certainty).\n\nIf it is offered, ask: which goals, how long, any charge, and when will it be reviewed?",
+  "reason": "major: Hogstedt 2026 reviews supervised home rehabilitation trials; reablement-based programmes were one of three groups, and certainty was low to very low, not low. Also the Norwegian trial is one of the two Cochrane trials (see minor fix)."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.x",
+  "old": "In one small Norwegian trial of 61 people, those offered 10 weeks of reablement",
+  "new": "One of those two trials was a small Norwegian trial of 61 people. Those offered 10 weeks of reablement",
+  "reason": "minor: the Norwegian trial is one of the two trials in the 2016 Cochrane review, not separate evidence."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.linkedin",
+  "old": "In one small Norwegian trial of 61 people, those offered 10 weeks of reablement",
+  "new": "One of those two trials was a small Norwegian trial of 61 people. Those offered 10 weeks of reablement",
+  "reason": "minor: the Norwegian trial is one of the two trials in the 2016 Cochrane review, not separate evidence."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "captions.x",
+  "old": "Few good trials exist, so we do not yet know",
+  "new": "Few trials exist and the certainty is low, so we do not yet know",
+  "reason": "minor: 'few good trials' judges trial quality, which the sources do not state; they say few trials and low-certainty evidence."
+ },
+ {
+  "tmp_id": "C16-P05",
+  "where": "position_basis",
+  "old": "and the 2026 pooled review.",
+  "new": "and the 2026 home rehabilitation review (reablement-based programmes).",
+  "reason": "major: Hogstedt 2026 reviews supervised home rehabilitation trials; reablement-based programmes were one of three groups, and certainty was low to very low, not low."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.bluesky",
+  "old": "Most hours in a week fall outside weekday surgery hours, so write the care plan for the clinician reading it at 3am. In one Scottish study of people who died in 2017, about 1 in 3 KIS lacked resuscitation status and nearly half lacked preferred place of care.",
+  "new": "Most hours in a week fall outside weekday surgery hours, so write the care plan for the clinician reading it at 3am. In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 KIS lacked resuscitation status and over 4 in 10 lacked preferred place of care.",
+  "reason": "minor: study population was people with advanced progressive illness who had a KIS, not all people who died; 'nearly half' overstated 45%."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.x",
+  "old": "nearly half did not record preferred place of care",
+  "new": "more than 4 in 10 did not record preferred place of care",
+  "reason": "minor: 55% recorded place of care means 45% did not, which is 'more than 4 in 10', not 'nearly half'."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.linkedin",
+  "old": "nearly half did not record preferred place of care",
+  "new": "more than 4 in 10 did not record preferred place of care",
+  "reason": "minor: 55% recorded place of care means 45% did not, which is 'more than 4 in 10', not 'nearly half'."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "captions.threads",
+  "old": "nearly half did not record preferred place of care",
+  "new": "more than 4 in 10 did not record preferred place of care",
+  "reason": "minor: 55% recorded place of care means 45% did not, which is 'more than 4 in 10', not 'nearly half'."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "insight",
+  "old": "nearly half lacked preferred place of care",
+  "new": "more than 4 in 10 lacked preferred place of care",
+  "reason": "minor: 55% recorded place of care means 45% did not, which is 'more than 4 in 10', not 'nearly half'."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "visual_text.11",
+  "old": "Scottish Key Information Summaries, people with",
+  "new": "Scottish Key Information Summaries (712 records) for people with",
+  "reason": "minor: percentages are of the 712 KIS records, not of people; denominator was missing on the visual."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "Scottish Key Information Summaries, people with",
+  "new": "Scottish Key Information Summaries (712 records) for people with",
+  "reason": "minor: percentages are of the 712 KIS records, not of people; denominator was missing on the visual."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "alt_text.0",
+  "old": "Scottish data, deaths in 2017: 68%",
+  "new": "Scottish data, 712 records, deaths in 2017: 68%",
+  "reason": "minor: percentages are of the 712 KIS records, not of people; denominator was missing on the visual."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "series",
+  "old": "Small detail, real effect",
+  "new": "Teaching round",
+  "reason": "minor: series name 'Small detail, real effect' implies a measured effect on care; the study was descriptive and measured only missing content."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "visual_text.13",
+  "old": "Small detail, real effect",
+  "new": "Teaching round",
+  "reason": "minor: series name 'Small detail, real effect' implies a measured effect on care; the study was descriptive and measured only missing content."
+ },
+ {
+  "tmp_id": "C16-P06",
+  "where": "visual_brief.design_notes",
+  "old": "Footer: Alasdair MacLullich | Small detail, real effect.",
+  "new": "Footer: Alasdair MacLullich | Teaching round.",
+  "reason": "minor: series name 'Small detail, real effect' implies a measured effect on care; the study was descriptive and measured only missing content."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "series",
+  "old": "Care that works",
+  "new": "Teaching round",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness)."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "post_type",
+  "old": "good_care",
+  "new": "teaching",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness). post_type aligned with the new series."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "visual_text.0",
+  "old": "Care that works",
+  "new": "Teaching round",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness)."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "visual_text.12",
+  "old": "Care that works",
+  "new": "Teaching round",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness)."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "visual_brief.slides.0.text.kicker",
+  "old": "Illustration, not a real case",
+  "new": "Teaching round: illustration, not a real case",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness). Kicker now carries the new series name; the illustration label is kept."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "visual_brief.design_notes",
+  "old": "Footer: Alasdair MacLullich | Care that works.",
+  "new": "Footer: Alasdair MacLullich | Teaching round.",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness)."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "visual_text.2",
+  "old": "Illustration, not a real case",
+  "new": "Teaching round: illustration, not a real case",
+  "reason": "major: series name 'Care that works' contradicts the evidence cited (INTERACT showed no clear drop in admissions; RESTORE2 study looked at views, not effectiveness). Kicker consistency."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.x",
+  "old": "Staff interviewed in one study worried about training night and temporary staff to use it.",
+  "new": "In one UK interview study about a proposed trial of antibiotics for suspected urine infection in care homes, participants strongly supported using RESTORE2 to monitor residents, but worried about training night and temporary staff.",
+  "reason": "minor: context missing; the interviews concerned a proposed antibiotics trial, the abstract does not say which group raised the training concern, and it reports strong support for RESTORE2."
+ },
+ {
+  "tmp_id": "C16-P07",
+  "where": "captions.linkedin",
+  "old": "The trial tested the training and support, and uptake varied.",
+  "new": "The trial tested the training and support, in nursing homes that had not used INTERACT before.",
+  "reason": "minor: 'uptake varied' is not in the abstract; the 85 homes are the subset with no INTERACT use before the study."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.x",
+  "old": "Housebound people often miss routine reviews at their GP practice.",
+  "new": "Some housebound people go without routine reviews at their GP practice.",
+  "reason": "major: 'often miss' rests on a background sentence in the Ramos abstract, not a finding; the small study cannot show how common this is."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.linkedin",
+  "old": "Housebound people often miss routine reviews at their GP practice, and routine",
+  "new": "Some housebound people go without routine reviews at their GP practice, and routine",
+  "reason": "major: 'often miss' rests on a background sentence in the Ramos abstract, not a finding; the small study cannot show how common this is."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.bluesky",
+  "old": "Housebound people often miss routine GP reviews. In one small Glasgow study, 23 of 25 housebound adults had missed reviews of their long-term conditions. If you or someone you care for no longer gets out, tell the practice and ask what can be done at home, such as vaccines.",
+  "new": "Some housebound people go without routine GP reviews. In one small Glasgow study of 25 housebound adults with several conditions and medicines, 23 had missed reviews. It can't show how common this is. If someone you care for no longer gets out, tell the practice and ask what can be done at home.",
+  "reason": "major: 'often miss' rests on a background sentence in the Ramos abstract, not a finding; the small study cannot show how common this is. Also major: the short version dropped the selection criteria and the 'cannot show how common' qualifier."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.threads",
+  "old": "Housebound people often miss routine reviews at their GP practice. In one small Glasgow study, 23 of 25 housebound adults had missed reviews of their long-term conditions. It can't show how common this is.",
+  "new": "Some housebound people go without routine reviews at their GP practice. In one small Glasgow study of 25 housebound adults with several conditions and medicines, 23 had missed reviews of their long-term conditions. It can't show how common this is.",
+  "reason": "major: 'often miss' rests on a background sentence in the Ramos abstract, not a finding; the small study cannot show how common this is. Threads also lacked the selection criteria."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "insight",
+  "old": "Housebound people often miss routine reviews at their GP practice;",
+  "new": "Some housebound people go without routine reviews at their GP practice;",
+  "reason": "major: 'often miss' rests on a background sentence in the Ramos abstract, not a finding; the small study cannot show how common this is."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "visual_brief.slides.0.text.headline",
+  "old": "In one Glasgow study, 23 of 25 housebound people had missed routine reviews",
+  "new": "In one Glasgow study, 23 of 25 housebound people with several conditions and medicines had missed routine reviews",
+  "reason": "major: headline omitted the selection of the 25 (two or more long-term conditions, five or more regular medicines, two practices serving a deprived area)."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "visual_text.1",
+  "old": "In one Glasgow study, 23 of 25 housebound people had missed routine reviews",
+  "new": "In one Glasgow study, 23 of 25 housebound people with several conditions and medicines had missed routine reviews",
+  "reason": "major: headline omitted the selection of the 25 (two or more long-term conditions, five or more regular medicines, two practices serving a deprived area)."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "Two practices, 25 people. A small study,",
+  "new": "Two practices in a deprived area, 25 people with two or more long-term conditions and five or more regular medicines. A small study,",
+  "reason": "major: headline omitted the selection of the 25 (two or more long-term conditions, five or more regular medicines, two practices serving a deprived area)."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "visual_text.4",
+  "old": "Two practices, 25 people. A small study,",
+  "new": "Two practices in a deprived area, 25 people with two or more long-term conditions and five or more regular medicines. A small study,",
+  "reason": "major: headline omitted the selection of the 25 (two or more long-term conditions, five or more regular medicines, two practices serving a deprived area)."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "alt_text.0",
+  "old": "Grid of 25 house icons: 23 marked as having missed routine long-term condition reviews since becoming housebound, 2 not. Small study in two Glasgow practices, so",
+  "new": "Grid of 25 house icons: 23 housebound people with several conditions and medicines marked as having missed routine long-term condition reviews, 2 not. Small study in two Glasgow practices serving a deprived area, so",
+  "reason": "major: headline omitted the selection of the 25 (two or more long-term conditions, five or more regular medicines, two practices serving a deprived area)."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "captions.x",
+  "old": "In one small study of 25 housebound adults aged 60 and over in two Glasgow practices, 23 had missed",
+  "new": "In one small study of 25 housebound adults aged 60 and over, all with two or more long-term conditions and five or more regular medicines, in two Glasgow practices serving a deprived area, 23 had missed",
+  "reason": "minor: X version lacked the selection criteria."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "source_reply",
+  "old": "Ramos et al, 2026 https",
+  "new": "Ramos et al, Int J Clin Pharm 2026 https",
+  "reason": "minor: journal missing from the citation, unlike the other source replies."
+ },
+ {
+  "tmp_id": "C16-P08",
+  "where": "open_issues",
+  "old": "Source reply for Ramos et al gives only the DOI because the journal was not recorded in the evidence file.",
+  "new": "(removed)",
+  "reason": "Journal added to the source reply (Int J Clin Pharm 2026, per fact-checker), so the issue no longer applies."
  }
 ]

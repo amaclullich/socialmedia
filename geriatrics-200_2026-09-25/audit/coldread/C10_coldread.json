@@ -1,0 +1,982 @@
+{
+ "category": "C10",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 1
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C10-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The history makes stenosis likely; a scan confirms it, and only means something alongside the story.",
+     "fix": "The history makes stenosis likely; a scan can confirm it, but only when read together with the history."
+    },
+    {
+     "item": "6",
+     "quote": "In a Japanese study of 570 people with stenosis seen in specialist clinics, about 7 in 100 also had narrowed leg arteries, and about half of those had not been picked up before.",
+     "fix": "A Japanese study looked at 570 people with stenosis seen in specialist clinics. About 7 in 100 also had narrowed leg arteries. About half of those 7 had not been picked up before."
+    }
+   ],
+   "flags": [
+    "'The two can occur together' - 'the two' is ambiguous after a paragraph about arteries",
+    "Opening questions are patient-directed history questions, not a setup question answered later"
+   ]
+  },
+  {
+   "tmp_id": "C10-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More Teaching round posts take one bedside distinction at a time, with the numbers and their limits.",
+     "fix": "End on the action instead: So ask both questions, and check foot pulses or ankle blood pressure (ABI) even when the story sounds spinal."
+    },
+    {
+     "item": "6",
+     "quote": "The two strongest single pointers to lumbar spinal stenosis (narrowing of the spinal canal in the lower back) were no pain when seated and symptoms that ease on bending forward.",
+     "fix": "The two strongest single pointers to lumbar spinal stenosis were no pain when seated and symptoms that ease on bending forward. Stenosis means narrowing of the spinal canal in the lower back."
+    }
+   ],
+   "flags": [
+    "Empty promotional close",
+    "'strongest single pointers' early on sits against 'Any single feature alone was a weak guide' later; a reader may take these as contradictory unless the two studies are separated plainly",
+    "Opening questions repeat the X opening (same post, acceptable)"
+   ]
+  },
+  {
+   "tmp_id": "C10-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Ask whether it goes on sitting' - 'it' needs a noun (the pain)"
+   ]
+  },
+  {
+   "tmp_id": "C10-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "A scan confirms stenosis only alongside the story.",
+     "fix": "A scan can confirm stenosis, but read it together with the history."
+    }
+   ],
+   "flags": [
+    "'alongside the story' is figurative"
+   ]
+  },
+  {
+   "tmp_id": "C10-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "because many people were lost to follow-up",
+     "fix": "because many people dropped out of the studies before they were checked again"
+    }
+   ],
+   "flags": [
+    "'At 3 months ... it was about 22 in 100' - 'it' unclear; the fall from 22 to 13 is not named as improvement",
+    "Closing shape 'ask these questions' repeats in P06 and P02 (set-level pattern)"
+   ]
+  },
+  {
+   "tmp_id": "C10-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Many people were lost to follow-up, which is why the authors think the figures are too low.",
+     "fix": "Many people dropped out of the studies before they were checked again, which is why the authors think the true figures are higher."
+    },
+    {
+     "item": "6",
+     "quote": "Satisfaction is a different measure from pain, and the survey was published in 2010 and covered one Canadian province.",
+     "fix": "Satisfaction is a different measure from pain. The survey was published in 2010 and covered one Canadian province."
+    },
+    {
+     "item": "7",
+     "quote": "about 4 in 5 people were satisfied with their knee replacement. Satisfaction with pain relief ranged from 72 to 86 in 100, depending on the activity.",
+     "fix": "about 4 in 5 people were satisfied with their knee replacement. Asked only about pain relief, between 72 and 86 in 100 were satisfied, depending on the activity."
+    }
+   ],
+   "flags": [
+    "'The other side is real too' - figurative framing",
+    "Negation-then-correction: 'talk about likely pain before the operation, not after it'"
+   ]
+  },
+  {
+   "tmp_id": "C10-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Unmet expectations were the strongest predictor of dissatisfaction in a Canadian survey.",
+     "fix": "In a Canadian survey, the people most likely to be unhappy with their new knee were those whose hopes had not been met."
+    },
+    {
+     "item": "6",
+     "quote": "So ask before surgery: what are my chances of still having pain afterwards?",
+     "fix": "So ask before surgery, so that your hopes match what is likely: what are my chances of still having pain afterwards?"
+    }
+   ],
+   "flags": [
+    "'Knee replacement eases pain for most people. Not everyone.' is a negation-then-correction fragment",
+    "'dissatisfaction' appears with no earlier mention of satisfaction"
+   ]
+  },
+  {
+   "tmp_id": "C10-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'This was a pretend task with real products, not what they actually did' is a negation-then-correction shape, but it states a real limit",
+    "'take two of these together' - 'these' spans three product types"
+   ]
+  },
+  {
+   "tmp_id": "C10-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about 8 in 10 discharge prescriptions were above those guideline doses",
+     "fix": "about 8 in 10 of the prescriptions given on leaving hospital were above the lower maximum"
+    },
+    {
+     "item": "6",
+     "quote": "In one Australian study of frail or low-weight hospital patients aged 70 and over, about 8 in 10 discharge prescriptions were above those guideline doses.",
+     "fix": "One Australian study looked at frail or low-weight hospital patients aged 70 and over. About 8 in 10 of their prescriptions on leaving hospital were above the lower maximum."
+    }
+   ],
+   "flags": [
+    "Audience shift in last line ('For anyone reviewing an older person's pain relief') after a reader-directed list",
+    "'without anyone noticing' slightly alarming"
+   ]
+  },
+  {
+   "tmp_id": "C10-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "pass the usual 4 g a day",
+     "fix": "pass the usual limit of 4 g a day (eight 500 mg tablets)"
+    }
+   ],
+   "flags": [
+    "Adding the tablet count needs a trim elsewhere to stay under the platform limit"
+   ]
+  },
+  {
+   "tmp_id": "C10-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a pretend task with real products in a US study, 4 in 10 people aged 61 to 80 showed they would double up and go over 4 g.",
+     "fix": "A US study gave people real products and asked how they would take them over a day. 4 in 10 of those aged 61 to 80 showed they would double up and go over 4 g. It was a pretend task."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "The evidence is observational, mostly low quality, and almost all from people with cancer.",
+     "fix": "The studies only watched what happened, and most were of low quality. Almost all the people had cancer."
+    },
+    {
+     "item": "5",
+     "quote": "We think you deserve a straight answer, and the person you love should not wait for relief.",
+     "fix": "If this worry is on your mind at a bedside, say it to the nurse or doctor and ask how the dose is being matched to the symptoms."
+    },
+    {
+     "item": "6",
+     "quote": "Dose explained very little of it, and the link may reflect how ill people were rather than the dose.",
+     "fix": "The dose accounted for very little of the difference in survival. How ill people were may explain the link better."
+    }
+   ],
+   "flags": [
+    "'Rising doses and death arrive close together' is figurative",
+    "Emotional close ('the person you love') reads as patronising and is not an action",
+    "Negation-then-correction: 'rather than the dose'"
+   ]
+  },
+  {
+   "tmp_id": "C10-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Reviews of studies in hospices and palliative care units have not found that starting or increasing opioids",
+     "fix": "Reviews of studies in hospices and palliative care units have not found that starting or increasing morphine and similar medicines"
+    },
+    {
+     "item": "2",
+     "quote": "the studies are observational, mostly retrospective and low quality",
+     "fix": "the studies only watched what happened, mostly by looking back at records, and most were of low quality"
+    },
+    {
+     "item": "6",
+     "quote": "So the careful wording is 'no consistent link', which is what the evidence supports.",
+     "fix": "So the safest summary is: no consistent link was found."
+    }
+   ],
+   "flags": [
+    "'The evidence is not perfectly clean' is figurative",
+    "'arrive close together in time' figurative",
+    "'opioids' never defined for a public reader"
+   ]
+  },
+  {
+   "tmp_id": "C10-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Hospice studies found no consistent link between symptom-adjusted doses and shorter life.",
+     "fix": "Studies in hospices found that raising the dose to ease symptoms did not shorten life."
+    },
+    {
+     "item": "2",
+     "quote": "Observational evidence, mostly in cancer",
+     "fix": "The studies only watched what happened, and mostly involved people with cancer."
+    },
+    {
+     "item": "4",
+     "quote": "one large study found a small link that dose explained very little of",
+     "fix": "One large study found people on higher doses lived slightly less long, but the dose explained very little of that."
+    },
+    {
+     "item": "5",
+     "quote": "Ask the nurse or doctor.",
+     "fix": "If you worry about this at a bedside, tell the nurse or doctor."
+    },
+    {
+     "item": "6",
+     "quote": "Observational evidence, mostly in cancer; one large study found a small link that dose explained very little of.",
+     "fix": "Give the study limits and the one contrary study as two plain sentences; if space is short, drop the contrary study detail and link to the longer post."
+    }
+   ],
+   "flags": [
+    "Telegraphic fragments with semicolons need rereading",
+    "'symptom-adjusted doses' is jargon"
+   ]
+  },
+  {
+   "tmp_id": "C10-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "The studies are observational and mostly in people with cancer",
+     "fix": "The studies only watched what happened, and mostly involved people with cancer"
+    },
+    {
+     "item": "4",
+     "quote": "one found a small link that dose explained very little of",
+     "fix": "one found that people on higher doses lived slightly less long, but the dose explained very little of that"
+    },
+    {
+     "item": "6",
+     "quote": "The studies are observational and mostly in people with cancer, and one found a small link that dose explained very little of.",
+     "fix": "The studies only watched what happened and mostly involved people with cancer. One found a small link between higher doses and shorter survival, but the dose explained very little of it."
+    }
+   ],
+   "flags": [
+    "'this fear' has no antecedent; the fear is never stated",
+    "'Relief should not wait for it' is vague"
+   ]
+  },
+  {
+   "tmp_id": "C10-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In our judgement, dizziness is a reason not to start a medicine that has not been shown to help in an older person who is already unsteady, and to review prescriptions started for sciatica.",
+     "fix": "In our judgement, dizziness is a reason not to start a medicine that has not been shown to help in an older person who is already unsteady. It is also a reason to review prescriptions started for sciatica."
+    }
+   ],
+   "flags": [
+    "3.7 against 3.1 means pregabalin had slightly more pain; direction not stated, though clinicians will infer it"
+   ]
+  },
+  {
+   "tmp_id": "C10-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Side effects were counted per person as well as per event.",
+     "fix": "Delete, or replace with: These counts are people, not individual side effects."
+    },
+    {
+     "item": "6",
+     "quote": "Those trials were mostly in working-age adults, and the evidence on side effects was graded very low to moderate quality in one review and high quality in the other.",
+     "fix": "Those trials were mostly in working-age adults. The evidence on side effects was graded very low to moderate quality in one review and high quality in the other."
+    }
+   ],
+   "flags": [
+    "'Our judgement is simpler:' is a setup phrase",
+    "'we make no falls claim' is a negation shape"
+   ]
+  },
+  {
+   "tmp_id": "C10-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Telegraphic 'vs' and colon, acceptable for practitioners"
+   ]
+  },
+  {
+   "tmp_id": "C10-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Imaging helps when something is unusual or another cause is possible.",
+     "fix": "A scan or X-ray helps when something is unusual or another cause is possible."
+    },
+    {
+     "item": "6",
+     "quote": "Many believed exercise could damage the joint, and many had set it aside.",
+     "fix": "Many believed exercise could damage the joint, and many had stopped exercising."
+    }
+   ],
+   "flags": [
+    "'A small study of beliefs, not proof of cause' is negation-then-correction and its link to the post point is unclear",
+    "'Ask instead:' - instead of what is never stated"
+   ]
+  },
+  {
+   "tmp_id": "C10-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Imaging helps when something is unusual",
+     "fix": "A scan or X-ray helps when something is unusual"
+    },
+    {
+     "item": "3",
+     "quote": "The figures vary widely with how arthritis and pain are defined.",
+     "fix": "How often this happens varies widely, depending on how arthritis and pain are defined."
+    },
+    {
+     "item": "6",
+     "quote": "Comparing knees within one person removes differences between people, such as mood or sensitivity to pain. That helps explain why X-rays match pain poorly across people.",
+     "fix": "Comparing the two knees of one person removes differences between people, such as mood or sensitivity to pain. Those differences help explain why X-rays match pain poorly from one person to the next."
+    }
+   ],
+   "flags": [
+    "'it does not show the X-ray report caused them' is a negation shape"
+   ]
+  },
+  {
+   "tmp_id": "C10-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "Many people with X-ray changes have little pain, and the reverse.",
+     "fix": "Add the opposing finding: Within one person, the worse-looking knee is more often the painful one."
+    },
+    {
+     "item": "6",
+     "quote": "Many people with X-ray changes have little pain, and the reverse.",
+     "fix": "Many people with X-ray changes have little pain, and many with knee pain have fairly normal X-rays."
+    }
+   ],
+   "flags": [
+    "'and the reverse' needs rereading"
+   ]
+  },
+  {
+   "tmp_id": "C10-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "against 1.9 for codeine",
+     "fix": "against 1.9 in 10,000 people starting codeine"
+    },
+    {
+     "item": "6",
+     "quote": "It also raises serotonin and noradrenaline, and much of its opioid effect depends on CYP2D6, a liver enzyme that varies between people and is blocked by some antidepressants.",
+     "fix": "It also raises serotonin and noradrenaline. Much of its opioid effect depends on CYP2D6, a liver enzyme that varies between people and is blocked by some antidepressants."
+    }
+   ],
+   "flags": [
+    "'Roughly twice the rate, with wide uncertainty; still uncommon, in adults of all ages, and observational.' is a dense fragment"
+   ]
+  },
+  {
+   "tmp_id": "C10-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Seizures.' as a bare list item gives no frequency",
+    "'tramadol leaves mainly through the kidneys' figurative verb, mild"
+   ]
+  },
+  {
+   "tmp_id": "C10-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "No frequency given for any harm, so the list may read as more alarming than the observational data support"
+   ]
+  },
+  {
+   "tmp_id": "C10-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "admissions for low sodium in the first month were about 4.6 vs 1.9 per 10,000 on tramadol vs codeine: uncommon, about double, wide uncertainty.",
+     "fix": "about 4.6 in 10,000 people starting tramadol were admitted with low sodium in the first month, against 1.9 in 10,000 starting codeine. That is uncommon and about double, with wide uncertainty."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In an English GP trial, advice to try stopping led about 1 in 4 more people to stop, without a clear rise in cramps, though the trial was small and could not rule out a rise for some people.",
+     "fix": "In an English GP trial, advice to try stopping led about 1 in 4 more people to stop. Cramps did not clearly rise. The trial was small and could not rule out a rise for some people."
+    }
+   ],
+   "flags": [
+    "'Specialist advice' then 'UK prescribing advice ... was to' - two sources and a past tense; unclear which is current",
+    "Opening line is a conditional prompt to the reader, acceptable"
+   ]
+  },
+  {
+   "tmp_id": "C10-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "And calf and hamstring stretches before bed are reasonable to try: no harms were reported in small trials, although the evidence for benefit is mixed.",
+     "fix": "Calf and hamstring stretches before bed are reasonable to try. No harms were reported in small trials, although the evidence for benefit is mixed."
+    }
+   ],
+   "flags": [
+    "'gave people on long-term quinine advice to try stopping, or not' - 'or not' is ambiguous"
+   ]
+  },
+  {
+   "tmp_id": "C10-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Trials: cramps fell from about 9 to 6 or 7 a fortnight (low-quality evidence); rare serious harms.",
+     "fix": "In trials, people on quinine had about 6 or 7 cramps in two weeks, against about 9 on a dummy tablet (low-quality evidence). Rare serious harms exist."
+    },
+    {
+     "item": "2",
+     "quote": "A small stopping trial",
+     "fix": "A small trial of advice to try stopping quinine"
+    },
+    {
+     "item": "4",
+     "quote": "rare serious harms",
+     "fix": "rare serious harms, including a sudden fall in platelets and heart rhythm problems"
+    },
+    {
+     "item": "6",
+     "quote": "UK prescribing advice reported in 2015: pause every 3 months.",
+     "fix": "UK prescribing advice in 2015 was to pause it every 3 months."
+    }
+   ],
+   "flags": [
+    "Telegraphic and dense; reads as a list of fragments"
+   ]
+  },
+  {
+   "tmp_id": "C10-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a sudden fall in platelets",
+     "fix": "a sudden fall in platelets (blood cells that help clotting)"
+    },
+    {
+     "item": "5",
+     "quote": "In an English GP trial, advice to stop led about 1 in 4 more people to stop, with no clear rise in cramps, though a rise was not ruled out.",
+     "fix": "Close on the action: Ask when it was last reviewed, and whether a pause could be tried."
+    },
+    {
+     "item": "6",
+     "quote": "In an English GP trial, advice to stop led about 1 in 4 more people to stop, with no clear rise in cramps, though a rise was not ruled out.",
+     "fix": "In an English GP trial, advice to stop led about 1 in 4 more people to stop. Cramps did not clearly rise, though a rise was not ruled out."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'a link, not a cause' negation-then-correction, states a real limit",
+    "'measured it' - 'it' needs the noun (pain on movement)"
+   ]
+  },
+  {
+   "tmp_id": "C10-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'The difference is large.' is a generic filler line",
+    "'Our recommendation goes a step further' is a mild setup phrase"
+   ]
+  },
+  {
+   "tmp_id": "C10-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C10-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  }
+ ]
+}
