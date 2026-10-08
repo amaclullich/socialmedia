@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P03 Aspirin</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">What gets counted</span></div>
+ <div class="content"><div class="kicker" style="margin-bottom:10px">ASPREE trial, 19,114 people aged 70+</div>
+<h1 class="s" style="font-size:56px">Aspirin in healthy over-70s: counted by what people could still do</h1>
+<p class="body" style="font-size:30px;margin-top:14px">Main outcome: staying alive without dementia or lasting disability</p>
+<h3 style="font-size:30px;margin-top:18px">Lost disability-free survival, per 1000 people per year</h3>
+<div id="b1" class="chart" style="margin-top:6px"></div>
+<div class="badge" id="v1" style="align-self:flex-start;margin-top:4px">No clear difference</div>
+<h3 style="font-size:30px;margin-top:14px">Serious bleeding over median 4.7 years, per 100 people</h3>
+<div id="b2" class="chart" style="margin-top:6px"></div>
+<div class="badge measured" style="align-self:flex-start;margin-top:4px">More bleeding on aspirin</div>
+<div class="panel mint" style="margin-top:16px;padding:16px 30px"><p class="body" style="font-size:28px;margin:0">Had a heart attack or stroke? Keep taking aspirin unless your doctor advises otherwise.</p></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">McNeil et al., NEJM 2018</span></div>
+</div>
+</div>
+<script>
+pairBars('#b1',{max:25,barH:30,size:28,rows:[{text:'Aspirin 21.5',value:21.5},{text:'Dummy tablet 21.2',value:21.2,hatch:1}]});
+pairBars('#b2',{max:25,barH:30,size:28,rows:[{text:'Aspirin 3.8',value:3.8},{text:'Dummy tablet 2.8',value:2.8,hatch:1}]});
+window.__ready = true;
+</script></body></html>

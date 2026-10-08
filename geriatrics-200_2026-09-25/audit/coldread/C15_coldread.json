@@ -1,0 +1,1168 @@
+{
+ "category": "C15",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 3
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 4
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C15-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "US infection guidance for older people living in care homes counts as a fever one oral reading above 37.8°C, repeated oral readings above 37.2°C, or any reading more than 1.1°C above the person's usual temperature (ear, mouth or armpit).",
+     "fix": "US infection guidance for older people living in care homes counts three things as a fever. First, one oral reading above 37.8°C. Second, repeated oral readings above 37.2°C. Third, any reading more than 1.1°C above the person's usual temperature (ear, mouth or armpit)."
+    }
+   ],
+   "flags": [
+    "figurative verb: 'the total score drives escalation'",
+    "negation-then-correction: 'Having no fever does not cause the deaths.'",
+    "long post; the Taiwan mortality paragraph could be cut without losing the point"
+   ]
+  },
+  {
+   "tmp_id": "C15-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "that is 1.5°C above it (illustrative example), which US care home guidance counts as a fever",
+     "fix": "that is 1.5°C above it (illustrative example). US care home guidance counts a reading more than 1.1°C above usual as a fever."
+    }
+   ],
+   "flags": [
+    "the 1.1°C threshold is missing, so the reader cannot see why 1.5°C counts",
+    "negation-led close: 'don't stop looking'"
+   ]
+  },
+  {
+   "tmp_id": "C15-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In 43 US hospitals, 2 in 3 adults hospitalised on general medical wards with pneumonia (median age 70; intensive care patients were not included) got more days of antibiotics than the authors judged necessary.",
+     "fix": "In 43 US hospitals, 2 in 3 adults with pneumonia on general medical wards got more days of antibiotics than the authors judged necessary. Their median age was 70, and intensive care patients were not included."
+    },
+    {
+     "item": "7",
+     "quote": "Across all patients in the study, the middle (median) number of extra days was 2.",
+     "fix": "Give one measure of extra days. Drop the median sentence and write 'about 2.3 versus 2.9 extra days each, on average, after adjustment', or say in words that the median (2) and the averages (2.3, 2.9) are two ways of summarising the same extra days."
+    }
+   ],
+   "flags": [
+    "figurative verb: 'Extra days did not bring fewer deaths'",
+    "'extra' days are the authors' judgement, but the sentence is clear on that"
+   ]
+  },
+  {
+   "tmp_id": "C15-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(cure at day 15: 77 in 100 versus 68 in 100)",
+     "fix": "(cure at day 15: 77 in 100 after stopping at day 3, against 68 in 100 after continuing to day 8)"
+    },
+    {
+     "item": "6",
+     "quote": "stopping antibiotics then was not shown to be worse than continuing to day 8, within a 10 percentage point margin",
+     "fix": "stopping antibiotics then worked about as well as continuing to day 8, allowing a margin of 10 percentage points"
+    },
+    {
+     "item": "6",
+     "quote": "In 43 US hospitals, 2 in 3 adults hospitalised on general medical wards with pneumonia (median age 70; intensive care patients were not included) got more days of antibiotics than the authors judged necessary.",
+     "fix": "In 43 US hospitals, 2 in 3 adults with pneumonia on general medical wards got more days of antibiotics than the authors judged necessary. Their median age was 70, and intensive care patients were not included."
+    },
+    {
+     "item": "7",
+     "quote": "Across all patients in the study, the middle (median) number of extra days was 2.",
+     "fix": "Say 'about 2.3 versus 2.9 extra days each, on average' and drop the median, or explain in words that median and average are two summaries of the same extra days."
+    }
+   ],
+   "flags": [
+    "'not shown to be worse' is a double negative needing a second read",
+    "figurative verb: 'Extra days did not bring better results'",
+    "long; the French trial paragraph is a separate idea from the audit result"
+   ]
+  },
+  {
+   "tmp_id": "C15-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'more antibiotic days than needed' states the authors' judgement as fact; keep 'than the authors judged necessary' if room allows"
+   ]
+  },
+  {
+   "tmp_id": "C15-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Only 1 in 3 summaries gave the total days.",
+     "fix": "Only 1 in 3 discharge summaries gave the total number of antibiotic days."
+    }
+   ],
+   "flags": [
+    "figurative verb: 'Extra days brought no fewer deaths'"
+   ]
+  },
+  {
+   "tmp_id": "C15-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(22 in 100 versus 10 in 100)",
+     "fix": "(22 in 100 versus 10 in 100 died, over the follow-up period the study used; state that period from the source)"
+    },
+    {
+     "item": "6",
+     "quote": "died more often than younger adults with similar injuries (22 in 100 versus 10 in 100), and each extra broken rib was linked with higher odds of death",
+     "fix": "died more often than younger adults with similar injuries (22 in 100 versus 10 in 100). Each extra broken rib was linked with higher odds of death."
+    }
+   ],
+   "flags": [
+    "the closing advice about low falls rests mainly on rib and head data not limited to falls (rib fractures were from any cause)",
+    "three unrelated findings in one post; 'whatever the height of the fall' sits oddly after 'low fall'"
+   ]
+  },
+  {
+   "tmp_id": "C15-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(22 in 100 versus 10 in 100)",
+     "fix": "(22 in 100 versus 10 in 100 died, over the follow-up period the study used; state that period from the source)"
+    },
+    {
+     "item": "6",
+     "quote": "Rib fractures from blunt chest injury of any cause: in one US trauma centre, people aged 65 or over admitted with rib fractures died more often than younger adults with similar injuries",
+     "fix": "Rib fractures first. This was one US trauma centre, and the injuries came from any blunt chest injury. People aged 65 or over admitted with rib fractures died more often than younger adults with similar injuries"
+    }
+   ],
+   "flags": [
+    "negation shape: 'A low fall does not rule out serious injury'",
+    "figurative: 'Three findings show what injury can mean'",
+    "long; four separate evidence strands"
+   ]
+  },
+  {
+   "tmp_id": "C15-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(22 v 10 in 100)",
+     "fix": "(22 in 100 against 10 in 100)"
+    }
+   ],
+   "flags": [
+    "'v' abbreviation reads as shorthand on a phone",
+    "jump from rib fractures and registry data to head injury advice without head data in the post"
+   ]
+  },
+  {
+   "tmp_id": "C15-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(22 versus 10 in 100)",
+     "fix": "(22 in 100 versus 10 in 100 died; add the follow-up period from the source)"
+    },
+    {
+     "item": "3",
+     "quote": "About 1 in 20 older people who attended after a fall had bleeding inside the skull.",
+     "fix": "About 1 in 20 people aged 65 or over who came to an emergency department after a fall had bleeding inside the skull."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "They allowed for age, sex, deprivation, long-term conditions, time of day, month, earlier visits and crowding.",
+     "fix": "They allowed for age, sex, how socially disadvantaged people were, long-term conditions, time of day, month, earlier visits and crowding."
+    },
+    {
+     "item": "2",
+     "quote": "compared with what the researchers' model expected",
+     "fix": "compared with the number of deaths the researchers' model expected from each person's age, health and other details"
+    },
+    {
+     "item": "3",
+     "quote": "The authors estimated 1 extra death for every 82 people delayed beyond 6 to 8 hours.",
+     "fix": "The authors estimated 1 extra death for every 82 people who waited beyond 6 to 8 hours for a ward bed, compared with the deaths their model expected."
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series take one statistic at a time.",
+     "fix": "When you see a figure like '1 extra death in 82', ask what it was compared with and what was allowed for."
+    },
+    {
+     "item": "6",
+     "quote": "From 5 hours after arrival up to 12 hours, the longer the wait, the higher the risk compared with what the researchers' model expected.",
+     "fix": "Between 5 and 12 hours after arrival, the longer the wait, the higher the chance of dying within 30 days."
+    }
+   ],
+   "flags": [
+    "empty close: series plug",
+    "the older-people paragraph (4 hour stays) is a different measure and does not support the main point",
+    "the post does not say it is not limited to older people (threads does)"
+   ]
+  },
+  {
+   "tmp_id": "C15-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "major (type 1) emergency department",
+     "fix": "major emergency department"
+    },
+    {
+     "item": "2",
+     "quote": "The model allowed for age, sex, deprivation, long-term conditions",
+     "fix": "The model allowed for age, sex, how socially disadvantaged people were, long-term conditions"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series take one statistic at a time.",
+     "fix": "When you see '1 extra death in 82', ask what it was compared with, and what was allowed for."
+    },
+    {
+     "item": "6",
+     "quote": "From 5 hours after arrival up to 12 hours, where reliable timing data stopped, the longer the wait, the higher the 30-day risk compared with what the researchers' model expected.",
+     "fix": "Between 5 and 12 hours after arrival (where reliable timing data stopped), the longer the wait, the higher the chance of dying within 30 days."
+    },
+    {
+     "item": "6",
+     "quote": "In one large English emergency department in 2019, 79 in 100 visits by people aged 85 or over lasted 4 hours or more, 71 in 100 for ages 75 to 84, 63 in 100 for 65 to 74, and 44 in 100 for 18 to 64.",
+     "fix": "In one large English emergency department in 2019, 79 in 100 visits by people aged 85 or over lasted 4 hours or more. For adults aged 18 to 64 it was 44 in 100."
+    }
+   ],
+   "flags": [
+    "setup question answered by the post: 'How should that be read?'",
+    "empty close: series plug",
+    "long; four strands (main study, older-people waits, overnight stays in France and Spain, how to read a statistic)"
+   ]
+  },
+  {
+   "tmp_id": "C15-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "The authors estimated 1 extra death in 82 delayed beyond 6 to 8 hours.",
+     "fix": "The authors estimated 1 extra death in 82 people who waited beyond 6 to 8 hours for a bed, compared with the deaths expected."
+    },
+    {
+     "item": "6",
+     "quote": "Among over 5 million people admitted in England: the longer people waited for a bed beyond 5 hours, the higher the 30-day death risk, up to 12 hours.",
+     "fix": "In England, among over 5 million people admitted, those who waited 5 to 12 hours for a bed were more likely to die within 30 days, and the longer the wait the higher the chance."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'A link, not proof'",
+    "'it did not include' has no clear referent"
+   ]
+  },
+  {
+   "tmp_id": "C15-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "the model did not include how ill each person was on arrival",
+     "fix": "the researchers' calculation of expected deaths did not include how ill each person was on arrival"
+    },
+    {
+     "item": "3",
+     "quote": "1 extra death for every 82 people delayed beyond 6 to 8 hours",
+     "fix": "1 extra death for every 82 people who waited beyond 6 to 8 hours for a ward bed, compared with the deaths expected"
+    },
+    {
+     "item": "5",
+     "quote": "When you see a figure like this, ask what it was compared with and what was allowed for.",
+     "fix": "Here the comparison was the number of deaths the researchers' model expected, and it allowed for age, sex, long-term conditions and other details."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'It is a link, not proof'",
+    "close teaches a question the post does not answer"
+   ]
+  },
+  {
+   "tmp_id": "C15-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "That was a secondary outcome.",
+     "fix": "This was not the trial's main question, so treat it as less certain."
+    },
+    {
+     "item": "6",
+     "quote": "A UK trial of 1,055 people (average age 83) tested this in people who were unwell but stable and had been referred for emergency admission, mostly from short-stay acute medical assessment units.",
+     "fix": "A UK trial tested this in 1,055 people, average age 83. They were unwell but stable and had been referred for emergency admission, mostly from short-stay acute medical assessment units."
+    }
+   ],
+   "flags": [
+    "setup question answered by the post: 'Can an older person who is unwell be treated at home instead of in hospital?'",
+    "'The trial did not show a clear difference' may be read as 'no difference'"
+   ]
+  },
+  {
+   "tmp_id": "C15-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "randomised",
+     "fix": "assigned by chance"
+    },
+    {
+     "item": "2",
+     "quote": "physiologically stable",
+     "fix": "medically stable"
+    },
+    {
+     "item": "2",
+     "quote": "That was a secondary outcome.",
+     "fix": "This was not the trial's main question, so treat it as less certain."
+    },
+    {
+     "item": "3",
+     "quote": "(a 32% higher risk in relative terms)",
+     "fix": "Replace with the two counts of people transferred in the first month, for example 'X in 100 versus Y in 100', taken from the source, and drop the relative figure."
+    },
+    {
+     "item": "6",
+     "quote": "Again, no clear difference, and the trial was not designed to show that mortality was equivalent, so the uncertainty around that figure is wide.",
+     "fix": "Again, no clear difference. The trial was not built to show that deaths were the same in both groups, so this figure is uncertain."
+    },
+    {
+     "item": "6",
+     "quote": "A UK trial in nine sites randomised 1,055 older people (average age 83) who were unwell but physiologically stable and had been referred for emergency admission, mostly from short-stay acute medical assessment units.",
+     "fix": "A UK trial in nine sites included 1,055 older people, average age 83. They were unwell but medically stable and had been referred for emergency admission, mostly from short-stay acute medical assessment units."
+    }
+   ],
+   "flags": [
+    "setup question answered by the post",
+    "'As a judgement: ... a reasonable alternative' is a recommendation with mixed trial results; keep, but it leans reassuring"
+   ]
+  },
+  {
+   "tmp_id": "C15-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(secondary outcome)",
+     "fix": "(not the trial's main question)"
+    },
+    {
+     "item": "3",
+     "quote": "Care home: 6 v 9 in 100",
+     "fix": "Moved into a care home by 6 months: 6 in 100 treated at home against 9 in 100 admitted"
+    },
+    {
+     "item": "6",
+     "quote": "Care home: 6 v 9 in 100 (secondary outcome), but in month 1 more treated at home were moved to hospital.",
+     "fix": "Fewer treated at home moved into a care home (6 in 100 against 9 in 100), but in month 1 more of them were moved to hospital."
+    }
+   ],
+   "flags": [
+    "telegraphic fragments and 'v' shorthand"
+   ]
+  },
+  {
+   "tmp_id": "C15-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(secondary outcome)",
+     "fix": "(not the trial's main question)"
+    },
+    {
+     "item": "3",
+     "quote": "About 6 in 100 and 9 in 100 were in residential care",
+     "fix": "About 6 in 100 treated at home and 9 in 100 admitted were in residential care"
+    },
+    {
+     "item": "6",
+     "quote": "About 6 in 100 and 9 in 100 were in residential care (secondary outcome), but in month 1 more of those treated at home were transferred to hospital.",
+     "fix": "About 6 in 100 treated at home and 9 in 100 admitted were in residential care. In month 1, more of those treated at home were transferred to hospital."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "About 8 in 100 on the pathway and 9 in 100 with usual care died.",
+     "fix": "About 8 in 100 treated in the care home and 9 in 100 with usual care died."
+    },
+    {
+     "item": "2",
+     "quote": "quality of life or function",
+     "fix": "quality of life or everyday functioning"
+    },
+    {
+     "item": "6",
+     "quote": "If you or a relative live in a care home, ask what care is possible there if you become ill, and say what you would want.",
+     "fix": "If you or a relative live in a care home, ask what care is possible there during an illness. Say what you would want."
+    }
+   ],
+   "flags": [
+    "'Whether a home can offer that is a judgement to discuss' is slightly abstract"
+   ]
+  },
+  {
+   "tmp_id": "C15-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "The difference was 12 percentage points.",
+     "fix": "That is 12 fewer in every 100."
+    },
+    {
+     "item": "2",
+     "quote": "lower respiratory tract infection, including pneumonia",
+     "fix": "chest infection, including pneumonia"
+    },
+    {
+     "item": "2",
+     "quote": "clinical pathway",
+     "fix": "set plan of care"
+    },
+    {
+     "item": "6",
+     "quote": "The trial did not show a clear difference in deaths, quality of life or function, and the range of uncertainty around the difference in deaths was wide, so the trial could not rule out a difference in either direction.",
+     "fix": "The trial did not show a clear difference in deaths, quality of life or everyday functioning. The deaths figure is uncertain: the trial could not rule out more deaths, or fewer, in either group."
+    }
+   ],
+   "flags": [
+    "figurative verb: 'how well it translates to homes'",
+    "negation-then-correction: 'before an illness, not during it'",
+    "the main result is stated three times (opening, 'led to fewer hospital admissions', and the limits)"
+   ]
+  },
+  {
+   "tmp_id": "C15-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a Canadian trial in 22 nursing homes (2001 to 2005), about 10 in 100 residents with a chest infection treated in the home went to hospital, against 22 in 100 with usual care.",
+     "fix": "In a Canadian trial of 22 nursing homes (2001 to 2005), residents with a chest infection were treated in the home or given usual care. About 10 in 100 treated in the home went to hospital, against 22 in 100 with usual care."
+    },
+    {
+     "item": "6",
+     "quote": "One older trial, with research-nurse monitoring.",
+     "fix": "It is one older trial, and a research nurse did the close monitoring."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "About 8 in 100 on the pathway and 9 in 100 with usual care died",
+     "fix": "About 8 in 100 treated in the care home and 9 in 100 with usual care died"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "died at a middle (median) age 13 years lower than men in the general population, and women 20 years lower",
+     "fix": "The typical (median) age at death was 13 years lower for men with a learning disability than for men in the general population, and 20 years lower for women"
+    },
+    {
+     "item": "2",
+     "quote": "Hospitals should make reasonable adjustments.",
+     "fix": "Hospitals should change how they care for the person to fit their needs (reasonable adjustments)."
+    },
+    {
+     "item": "6",
+     "quote": "In a reviewed subset, problems found more often than in similar deaths of people without a learning disability included care not being adjusted as needs changed, and carers not feeling listened to.",
+     "fix": "Reviewers looked at some of these deaths. They found two problems more often than in similar deaths of people without a learning disability: care not adjusted as needs changed, and carers not feeling listened to."
+    },
+    {
+     "item": "6",
+     "quote": "Of adults with a learning disability who died in English hospitals (2016 to 2021) and whose deaths were reviewed, only about 1 in 3 had input from a liaison nurse, a learning disability specialist nurse.",
+     "fix": "Reviewers looked at adults with a learning disability who died in English hospitals (2016 to 2021). Only about 1 in 3 had input from a liaison nurse, a nurse who specialises in learning disability."
+    }
+   ],
+   "flags": [
+    "'middle (median) age ... lower' can be misread as 'middle age'",
+    "repeated close shape 'ask for ...' across the set"
+   ]
+  },
+  {
+   "tmp_id": "C15-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Hospitals should make reasonable adjustments.",
+     "fix": "Hospitals should change how they care for the person to fit their needs (reasonable adjustments)."
+    },
+    {
+     "item": "6",
+     "quote": "A review of five studies of adults' own experiences found that, in two of them, hospital passports (a record of the person's needs) and liaison nurses were reported to improve the hospital experience.",
+     "fix": "Five studies of adults' own experiences were reviewed. In two, hospital passports (a record of the person's needs) and liaison nurses were reported to improve the hospital experience."
+    },
+    {
+     "item": "6",
+     "quote": "Liaison nurses: of 4,742 adults with a learning disability who died in English general hospitals between 2016 and 2021 and whose deaths were reviewed, about 1 in 3 had learning disability liaison nurse input.",
+     "fix": "Liaison nurses: 4,742 adults with a learning disability died in English general hospitals between 2016 and 2021 and had their deaths reviewed. About 1 in 3 had input from a liaison nurse."
+    }
+   ],
+   "flags": [
+    "long; the passports review is a separate strand"
+   ]
+  },
+  {
+   "tmp_id": "C15-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "died a median 13 years younger",
+     "fix": "died at a typical (median) age 13 years younger"
+    },
+    {
+     "item": "2",
+     "quote": "Ask hospitals for adjustments and the liaison nurse.",
+     "fix": "Ask the hospital to adjust care to the person's needs, and ask for the liaison nurse (a nurse who specialises in learning disability)."
+    },
+    {
+     "item": "6",
+     "quote": "Men with a learning disability in a south-west England inquiry (2010 to 2012) died a median 13 years younger than men in general, women 20 years younger.",
+     "fix": "A south-west England inquiry (2010 to 2012) found men with a learning disability died at a median age 13 years younger than men in general, and women 20 years younger."
+    }
+   ],
+   "flags": [
+    "'13 years' and '13 in 100' sit close together and could be confused"
+   ]
+  },
+  {
+   "tmp_id": "C15-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "died a median of 13 years younger",
+     "fix": "died at a typical (median) age 13 years younger"
+    },
+    {
+     "item": "2",
+     "quote": "ask for the liaison nurse",
+     "fix": "ask for the liaison nurse (a nurse who specialises in learning disability)"
+    },
+    {
+     "item": "6",
+     "quote": "Men with a learning disability in south-west England died a median of 13 years younger than men in the general population, women 20 years younger (inquiry into 247 deaths, 2010 to 2012).",
+     "fix": "An inquiry into 247 deaths in 2010 to 2012 found that men with a learning disability in south-west England died at a typical (median) age 13 years younger than men in general. For women it was 20 years younger."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C15-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "These four requests are a judgement about basic care, not a trial finding.",
+     "fix": "These four requests come from judgement about basic care; no trial is cited for them."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'a judgement ..., not a trial finding'",
+    "close is a disclaimer rather than an action"
+   ]
+  },
+  {
+   "tmp_id": "C15-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A longer stay was linked with new sores only before adjustment, so the study does not show that longer waits independently raise the risk.",
+     "fix": "A longer stay was linked with new sores in the raw figures, but not after allowing for other differences between patients, so the study does not show that longer waits raise the risk by themselves."
+    },
+    {
+     "item": "5",
+     "quote": "We should treat these as ordinary requests for basic care.",
+     "fix": "Ask for these four things early, and ask again if the wait goes on."
+    },
+    {
+     "item": "6",
+     "quote": "A longer stay was linked with new sores only before adjustment, so the study does not show that longer waits independently raise the risk.",
+     "fix": "Split into two sentences as in the item 2 fix."
+    }
+   ],
+   "flags": [
+    "negation shape: 'None of them is claimed to prevent harm.'",
+    "Parkinson's paragraph is a tangent to the four requests",
+    "long, four evidence strands"
+   ]
+  },
+  {
+   "tmp_id": "C15-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about 16 in 100 patients over 75 developed a new pressure sore",
+     "fix": "about 16 in 100 patients over 75 developed a new pressure sore during a stay that averaged 9 hours"
+    },
+    {
+     "item": "6",
+     "quote": "These asks are judgement.",
+     "fix": "These asks come from judgement about basic care."
+    }
+   ],
+   "flags": [
+    "opens with a question the post answers",
+    "'asks' used as a noun reads oddly"
+   ]
+  },
+  {
+   "tmp_id": "C15-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "These asks are judgement, not a trial finding.",
+     "fix": "These asks come from judgement about basic care; no trial is cited for them."
+    },
+    {
+     "item": "6",
+     "quote": "In one French emergency department, about 16 in 100 people over 75 developed a new pressure sore, mostly the earliest stage (reddened, unbroken skin), in stays that averaged 9 hours across all patients.",
+     "fix": "In one French emergency department, about 16 in 100 people over 75 developed a new pressure sore. Most were the earliest stage (reddened, unbroken skin). Stays there averaged 9 hours across all patients."
+    }
+   ],
+   "flags": [
+    "negation-then-correction close"
+   ]
+  },
+  {
+   "tmp_id": "C15-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "for the 94 who did get home, the middle (median) wait was 1 day",
+     "fix": "for the 94 who did get home, the middle (median) wait for discharge was 1 day"
+    },
+    {
+     "item": "5",
+     "quote": "The plan can change, and home is one of several good places to die.",
+     "fix": "End on 'We should ask for one named person to coordinate.' and move the sentence about the plan changing earlier."
+    },
+    {
+     "item": "6",
+     "quote": "In one English hospital project, 10 in 104 people referred to an end-of-life discharge team died before they could leave; for the 94 who did get home, the middle (median) wait was 1 day.",
+     "fix": "In one English hospital project, 10 in 104 people referred to an end-of-life discharge team died before they could leave. For the 94 who did get home, the middle (median) wait for discharge was 1 day."
+    }
+   ],
+   "flags": [
+    "final sentence risks reading as soft reassurance rather than information",
+    "figurative: 'hold-ups'",
+    "repeated 'ask' close pattern across posts"
+   ]
+  },
+  {
+   "tmp_id": "C15-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "National NICE guidance in England covers planning symptom medicines in advance for the last days of life, so they are available at home.",
+     "fix": "National guidance for England covers planning symptom medicines in advance for the last days of life, so they are available at home."
+    },
+    {
+     "item": "5",
+     "quote": "The plan can change, and home is one of several good places to die.",
+     "fix": "End on 'We should ask for both, and be told openly that the person may die before leaving.'"
+    },
+    {
+     "item": "6",
+     "quote": "A further 19 requests that year did not go ahead: 10 because the person got worse very quickly, 7 because the family changed their mind and 2 for medical reasons.",
+     "fix": "A further 19 requests that year did not go ahead. In 10, the person got worse very quickly. In 7, the family changed their mind. In 2, there were medical reasons."
+    }
+   ],
+   "flags": [
+    "setup question answered by the post: 'Does starting everything on the same day work better than starting in turn?'",
+    "final sentence risks reading as soft reassurance",
+    "long; Singapore detail is beyond the request being made"
+   ]
+  },
+  {
+   "tmp_id": "C15-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "10 in 104 referred died before leaving",
+     "fix": "10 in 104 people referred to an end-of-life discharge team died before leaving hospital"
+    }
+   ],
+   "flags": [
+    "negation-then-correction close: 'A reasonable request, not a tested one.'",
+    "telegraphic list 'teams told'"
+   ]
+  },
+  {
+   "tmp_id": "C15-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "10 in 104 people referred died before they could leave",
+     "fix": "10 in 104 people referred to an end-of-life discharge team died before they could leave"
+    }
+   ],
+   "flags": [
+    "negation-then-correction close: 'A reasonable request, not a tested one.'"
+   ]
+  }
+ ]
+}

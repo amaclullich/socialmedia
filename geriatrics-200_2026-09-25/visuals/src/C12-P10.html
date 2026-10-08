@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P10 Sheath or catheter</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>
+ .two { display:grid; grid-template-columns:1fr 1fr; gap:0; margin-top:30px; }
+ .two > div { padding:0 22px; text-align:left; }
+ .two > div:first-child { padding-left:0; border-right:4px solid var(--pale); }
+ .two > div:last-child { padding-right:0; }
+ .cap { font-size:31px; line-height:1.3; font-weight:700; margin-top:14px; }
+ .db { font-size:30px; font-weight:600; color:var(--teal); margin-top:10px; }
+ .ck { margin-top:auto; margin-bottom:30px; padding:30px 38px; }
+ .ck h3 { color:var(--teal); font-size:32px; margin-bottom:12px; }
+ .ck ul { list-style:none; display:flex; flex-direction:column; gap:12px; }
+ .ck li { display:grid; grid-template-columns:46px 1fr; gap:14px; align-items:center; font-size:31px; line-height:1.3; font-weight:600; }
+ .ck li::before { content:""; width:34px; height:34px; border:4px solid var(--teal); border-radius:7px; background:#fff; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Weighing it up</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="s">A sheath collects urine without a tube in the bladder</h1>
+  <p class="lead" style="font-size:33px;margin-top:18px"><b>For men who can empty their bladder but need urine collected</b></p>
+  <div class="two">
+   <div><svg id="d1" viewBox="0 0 420 540" width="100%"></svg><p class="cap">Indwelling catheter: a tube that stays in the bladder</p><p class="db">Drainage bag</p></div>
+   <div><svg id="d2" viewBox="0 0 420 540" width="100%"></svg><p class="cap">Sheath: worn outside the body over the penis</p><p class="db">Drainage bag</p></div>
+  </div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Saint, J Am Geriatr Soc, 2006; Gould, CDC guideline, 2010</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Weighing it up</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <div class="kicker">Trial of 75 hospital men, average age about 73</div>
+  <h1 class="s">More men said it was comfortable. Combined measure mostly bacteria in urine tests.</h1>
+  <p class="body" style="font-size:31px;margin-top:22px">Men with a sheath were more likely to say it was comfortable and not painful. The combined measure was mostly bacteria in the urine on daily testing, and was lower with the sheath only after adjustment. In men with dementia the trial did not show a clear difference.</p>
+  <div class="panel mint ck"><h3>Checklist for a sheath</h3><ul><li>Right size</li><li>Fitted securely, not tightly</li><li>Changed daily</li><li>Skin checked regularly</li><li>Only for men who can pass urine on their own</li></ul></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Saint, J Am Geriatr Soc, 2006; Hamilton, Br J Community Nurs, 2026</span></div>
+</div>
+</div>
+<script>
+const T='#15535B', P='#B9CDCC', O='#C24E12';
+// side-view schematic, front (belly) on the left. Outline of lower torso and upper thigh only.
+const body=`<path d="M160,20 C122,100 120,190 140,258 C150,330 150,430 160,520" fill="none" stroke="${P}" stroke-width="6" stroke-linecap="round"/>
+<path d="M310,20 C342,100 350,250 330,330 C320,400 325,460 330,520" fill="none" stroke="${P}" stroke-width="6" stroke-linecap="round"/>
+<path d="M142,258 C122,268 114,296 118,334" fill="none" stroke="${P}" stroke-width="34" stroke-linecap="round"/>
+<path d="M142,258 C122,268 114,296 118,334" fill="none" stroke="#FBFAF6" stroke-width="24" stroke-linecap="round"/>
+<ellipse cx="228" cy="150" rx="64" ry="52" fill="#DCEBEA" stroke="${T}" stroke-width="5"/>`;
+const bag=`<path d="M200,430 h70 v78 q0,26 -35,26 q-35,0 -35,-26 Z" fill="#FBFAF6" stroke="${T}" stroke-width="5"/><path d="M208,478 h54 v28 q0,20 -27,20 q-27,0 -27,-20 Z" fill="#DCEBEA"/><path d="M222,430 V420 h26 v10" fill="none" stroke="${T}" stroke-width="5"/>`;
+document.getElementById('d1').innerHTML=body+`
+<path d="M232,168 C225,215 175,235 142,262 C124,276 114,300 118,336 C120,372 150,396 235,420" fill="none" stroke="${O}" stroke-width="6" stroke-linecap="round"/>
+<circle cx="232" cy="160" r="9" fill="${O}"/>`+bag;
+document.getElementById('d2').innerHTML=body+`
+<path d="M122,296 L118,342" stroke="${T}" stroke-width="46" stroke-linecap="round"/><path d="M122,296 L118,342" stroke="#DCEBEA" stroke-width="36" stroke-linecap="round"/>
+<path d="M118,350 C122,384 160,404 235,420" fill="none" stroke="${O}" stroke-width="6" stroke-linecap="round"/>`+bag;
+window.__ready=true;
+</script></body></html>

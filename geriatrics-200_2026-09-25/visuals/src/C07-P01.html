@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C07-P01 ICD shocks</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c07_common.js"></script>
+<style>
+.ticks.t li{font-size:30px}
+.xs{font-size:28px;line-height:1.35}
+</style></head><body><div class="sheet">
+<div class="card " id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content"><div class="kicker" style="margin-bottom:10px">Ask this</div>
+<h1 class="s">Switching off ICD shocks: a conversation to have early</h1>
+<div class="scene" id="sc" style="flex:none;height:520px;margin-top:20px"></div>
+<ol class="steps" style="margin-top:22px;gap:10px">
+<li style="font-size:30px;line-height:1.25">No operation: the device is reprogrammed from outside the body</li>
+<li style="font-size:30px;line-height:1.25">Painless, and it can be reversed</li>
+<li style="font-size:30px;line-height:1.25">Pacing keeps working</li>
+<li style="font-size:30px;line-height:1.25">A do-not-resuscitate decision does not switch shocks off</li>
+</ol></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Wan &amp; Chakrabarti, CMAJ 2021; BHRS guideline, Age Ageing 2024</span></div>
+</div>
+</div>
+<script>
+const W=1000,H=520,S=1.15,g=490;
+const desk=Kit.anchor('desk',{x:860,y:g,scale:S});
+const pw={pose:'seated_side',seat:'chair',x:360,y:g,scale:S,age:'older',sex:'f',skin:'brown',hair:'silver',hairStyle:'short',top:'plum',bottom:'stone',extras:['cardigan'],facing:'right'};
+const son={pose:'seated_side',seat:'chair',x:190,y:g,scale:S,age:'adult',sex:'m',skin:'brown',hair:'black',hairStyle:'cropped',top:'denim',bottom:'charcoal',facing:'right',lean:12};
+const ph0={pose:'seated_talking',seat:'stool',x:640,y:g,scale:S,role:'nurse',sex:'f',skin:'fair',hair:'brown',hairStyle:'bun',facing:'left'};
+const sh=Kit.joint(pw,'shoulder');
+const ph={...ph0,hands:{near:{x:sh.x+55,y:sh.y+55},far:{x:sh.x+95,y:sh.y+130}}};
+const g2=Kit.pen(Kit.LW);
+const wand=g2.c(sh.x+48,sh.y+58,22,'#B9CDCC');
+const heart='<path d="M0,12 C-30,-18 -60,12 0,52 C60,12 30,-18 0,12 Z" fill="#fff" stroke="#1F2A30" stroke-width="4" transform="translate('+(sh.x+110)+','+(sh.y-75)+') scale(0.7)"/>';
+Kit.draw('#sc',W,H,[
+ Kit.room('gp_room',{w:W,h:H,ground:g,scale:S}),
+ Kit.desk({x:870,y:g,scale:S}),
+ Kit.notepad({x:desk.top.x,y:desk.top.y,scale:S}),
+ Kit.person(son),Kit.person(pw),Kit.person(ph),wand,heart
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:sh.x+48,y:sh.y+10},{n:2,x:pw.x-50,y:sh.y-85},{n:3,x:sh.x+110,y:sh.y-35},{n:4,x:desk.top.x,y:desk.top.y-70}]);
+console.log(JSON.stringify(sh),JSON.stringify(desk));
+window.__ready = true;
+</script></body></html>
