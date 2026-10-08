@@ -1,0 +1,1267 @@
+{
+ "category": "C12",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 2
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C12-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "negation-then-correction shape: 'This shows a link. It does not show that pads caused the leaking'",
+    "jump from an association to 'help people to the toilet by default' is not labelled as a judgement"
+   ]
+  },
+  {
+   "tmp_id": "C12-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "The adjusted odds ratios were 2.6 for pads and 4.3 for catheters, with wide confidence intervals.",
+     "fix": "Compared with using the toilet, the odds of new incontinence were about 2.6 times higher with pads and 4.3 times higher with a catheter, and the range of uncertainty was wide."
+    },
+    {
+     "item": "6",
+     "quote": "Compared with people who used the toilet themselves, both groups were more likely to report new incontinence at discharge, even after the researchers allowed for age, illness severity, mobility and memory.",
+     "fix": "Both groups were more likely than people who used the toilet themselves to report new incontinence at discharge. This held after the researchers allowed for age, illness severity, mobility and memory."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'It does not show that pads or catheters caused the leaking'",
+    "closing question about recording usual continence is not the point the post argued (toilet by default)",
+    "very long for LinkedIn; the CDC paragraph adds a second argument"
+   ]
+  },
+  {
+   "tmp_id": "C12-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'it' in 'linked with it' refers back two sentences"
+   ]
+  },
+  {
+   "tmp_id": "C12-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "negation-then-correction shape: 'a link, not cause'",
+    "'had been able to before admission' leaves the verb dangling"
+   ]
+  },
+  {
+   "tmp_id": "C12-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about 18 in 100 women taking cranberry had an infection, against about 24 in 100 without it",
+     "fix": "about 18 in 100 women taking cranberry had an infection over the length of the trials, against about 24 in 100 not taking it (state the follow-up period the trials used)"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series look at who a study covers and who it leaves out.",
+     "fix": "End on the action sentence: 'We should not rely on cranberry to prevent infections in a care home.' and move the series line out."
+    }
+   ],
+   "flags": [
+    "empty close: series plug",
+    "'A result applies to the kind of people who were studied' is an abstract general statement",
+    "'fits anything from about 4 fewer to about 3 more' is figurative but readable"
+   ]
+  },
+  {
+   "tmp_id": "C12-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "although the estimate (risk ratio 1.33, 95% confidence interval 1.00 to 1.77) leaves room for a modest increase",
+     "fix": "although the estimate fits anything from no difference to about three-quarters more stomach side effects"
+    },
+    {
+     "item": "2",
+     "quote": "stomach side effects probably did not differ from placebo or no treatment",
+     "fix": "stomach side effects probably did not differ from a dummy treatment or no treatment"
+    },
+    {
+     "item": "3",
+     "quote": "risk ratio 1.33, 95% confidence interval 1.00 to 1.77",
+     "fix": "about one third more side effects with cranberry, and as many as three-quarters more or as few as none more"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series look at who a study covers and who it leaves out.",
+     "fix": "End on: 'A woman who keeps getting infections could reasonably discuss cranberry with her doctor.'"
+    },
+    {
+     "item": "6",
+     "quote": "The same review found cranberry products probably reduce infections in children and in people prone to infection after a medical intervention, and reported that stomach side effects probably did not differ from placebo or no treatment, although the estimate (risk ratio 1.33, 95% confidence interval 1.00 to 1.77) leaves room for a modest increase.",
+     "fix": "The same review found cranberry products probably reduce infections in children and in people prone to infection after a medical intervention. Stomach side effects probably did not differ from a dummy treatment or no treatment. The estimate fits anything from no difference to about three-quarters more."
+    }
+   ],
+   "flags": [
+    "empty close: series plug",
+    "three sentences in the care-home paragraph make the reader hold two certainty ratings at once",
+    "'pooled' and 'Cochrane review' unexplained for a lay reader"
+   ]
+  },
+  {
+   "tmp_id": "C12-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Results apply to those studied.",
+     "fix": "Do not rely on cranberry in a care home."
+    },
+    {
+     "item": "3",
+     "quote": "about 18 in 100 with, 24 in 100 without",
+     "fix": "about 18 in 100 women taking cranberry had an infection, against 24 in 100 not taking it"
+    },
+    {
+     "item": "5",
+     "quote": "Results apply to those studied.",
+     "fix": "Do not rely on cranberry in a care home."
+    }
+   ],
+   "flags": [
+    "empty close: generic statement about studies",
+    "'with, ... without' leaves the noun to be guessed"
+   ]
+  },
+  {
+   "tmp_id": "C12-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "in trials about 18 in 100 had one with cranberry, 24 in 100 without",
+     "fix": "in the trials, about 18 in 100 women taking cranberry had an infection, against about 24 in 100 not taking it, over the follow-up period the trials used"
+    }
+   ],
+   "flags": [
+    "'with real uncertainty' is vague; give the range (about 4 fewer to about 3 more per 100)",
+    "'had one' relies on the earlier word 'infections'"
+   ]
+  },
+  {
+   "tmp_id": "C12-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "raised the chance of laboratory signs of infection a little: about 47 in 100 against 31 in 100",
+     "fix": "raised the chance of laboratory signs of infection from about 31 in 100 to about 47 in 100 residents"
+    },
+    {
+     "item": "6",
+     "quote": "A larger US study of residents already suspected of having an infection found that a change in the urine's colour, smell or blood raised the chance of laboratory signs of infection a little: about 47 in 100 against 31 in 100.",
+     "fix": "A larger US study looked at residents already suspected of having an infection. When the urine had changed in colour or smell, or showed blood, laboratory signs of infection were found in about 47 in 100. When it had not, they were found in about 31 in 100."
+    }
+   ],
+   "flags": [
+    "'a little' sits beside a 16-point gap (47 against 31); the words understate the numbers",
+    "long for X"
+   ]
+  },
+  {
+   "tmp_id": "C12-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "written for surveillance",
+     "fix": "written to track infections across a care home"
+    },
+    {
+     "item": "3",
+     "quote": "(a very imprecise estimate; one trial reported diarrhoea, rash and thrush)",
+     "fix": "(the estimate is very uncertain; one trial reported diarrhoea, rash and thrush)"
+    },
+    {
+     "item": "3",
+     "quote": "A change in the urine raises the chance a little.",
+     "fix": "A change in the urine raises the chance from about 31 in 100 to about 47 in 100."
+    },
+    {
+     "item": "6",
+     "quote": "Their criteria look for new urinary symptoms: pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these.",
+     "fix": "Their criteria look for new urinary symptoms. These are pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these."
+    },
+    {
+     "item": "6",
+     "quote": "Infection experts who wrote criteria for care homes note that changes in colour or smell often occur without infection, for example when someone is not drinking enough.",
+     "fix": "Infection experts wrote criteria for care homes. They note that changes in colour or smell often occur without infection, for example when someone is not drinking enough."
+    }
+   ],
+   "flags": [
+    "far too long for a phone; six distinct topics",
+    "'a little' understates 47 against 31",
+    "'The result that went the other way' is a signpost that works, keep it"
+   ]
+  },
+  {
+   "tmp_id": "C12-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In nursing home studies, smell and changes in the urine were weak guides alone.",
+     "fix": "In nursing home studies, smell and colour changes alone were weak signs of infection."
+    }
+   ],
+   "flags": [
+    "'weak guides' is mildly figurative and does not say guides to what",
+    "no number, so the reader cannot judge how weak"
+   ]
+  },
+  {
+   "tmp_id": "C12-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "judging by smell disagreed with urine tests about 1 time in 3",
+     "fix": "in a small study of 97 wet pads, a judgement by smell disagreed with the urine test about 1 time in 3"
+    }
+   ],
+   "flags": [
+    "'those tests also pick up harmless bacteria' is clear; 'harmless' is slightly stronger than the long version's wording"
+   ]
+  },
+  {
+   "tmp_id": "C12-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "kept to a regular daily cycle",
+     "fix": "had a bowel movement every day"
+    },
+    {
+     "item": "5",
+     "quote": "GPs may use a simple stool test, called FIT, to help decide who needs urgent bowel tests.",
+     "fix": "Put the FIT sentence before the advice and end with: 'Tell your GP about a change from your own usual pattern that lasts, blood from the back passage or in the stool, or weight loss you can't explain.'"
+    },
+    {
+     "item": "6",
+     "quote": "Once a day is the most common bowel pattern, but in a Bristol study of about 1,900 adults (published in 1992) only 40 in 100 men and 33 in 100 women kept to a regular daily cycle.",
+     "fix": "Once a day is the most common bowel pattern. In a 1992 Bristol study of about 1,900 adults, only 40 in 100 men and 33 in 100 women had a bowel movement every day."
+    }
+   ],
+   "flags": [
+    "'Most people were irregular' may alarm; irregular is not defined",
+    "'Once a day is the most common ... only 40 in 100' reads as a contradiction on first pass"
+   ]
+  },
+  {
+   "tmp_id": "C12-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "it is not a diagnostic cut-off",
+     "fix": "it is not a line that separates healthy from unwell"
+    },
+    {
+     "item": "6",
+     "quote": "Doctors call it constipation when problems such as hard or lumpy stools, straining, a feeling of not having emptied, or going fewer than 3 times a week happen a good part of the time.",
+     "fix": "Doctors call it constipation when hard or lumpy stools, straining, or a feeling of not having emptied happen a good part of the time. Going fewer than 3 times a week can also count."
+    },
+    {
+     "item": "6",
+     "quote": "UK specialist guidance recommends that GPs use a simple stool test, called FIT, to help decide who needs urgent bowel tests.",
+     "fix": "UK specialist guidance recommends a simple stool test, called FIT. GPs use it to help decide who needs urgent bowel tests."
+    }
+   ],
+   "flags": [
+    "long for a phone",
+    "'regular daily cycle' appears undefined in the first paragraph"
+   ]
+  },
+  {
+   "tmp_id": "C12-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "had a daily cycle",
+     "fix": "had a bowel movement every day"
+    },
+    {
+     "item": "3",
+     "quote": "Adults who called their bowels normal nearly all went from 3 a day to 3 a week.",
+     "fix": "Of adults who called their bowels normal, nearly all went between 3 times a week and 3 times a day."
+    },
+    {
+     "item": "6",
+     "quote": "Adults who called their bowels normal nearly all went from 3 a day to 3 a week.",
+     "fix": "Of adults who called their bowels normal, nearly all went between 3 times a week and 3 times a day."
+    }
+   ],
+   "flags": [
+    "range is written high to low and reads backwards",
+    "'Not studied in people in their 80s' is a flat claim; the longer version says only that the studies do not tell us"
+   ]
+  },
+  {
+   "tmp_id": "C12-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "kept to a regular daily cycle",
+     "fix": "had a bowel movement every day"
+    },
+    {
+     "item": "6",
+     "quote": "Once a day is the most common bowel pattern, but in a Bristol study of about 1,900 adults only 40 in 100 men and 33 in 100 women kept to a regular daily cycle.",
+     "fix": "Once a day is the most common bowel pattern. In a Bristol study of about 1,900 adults, only 40 in 100 men and 33 in 100 women had a bowel movement every day."
+    }
+   ],
+   "flags": [
+    "'once a day is most common, but only 40 in 100' reads as a contradiction on first pass"
+   ]
+  },
+  {
+   "tmp_id": "C12-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about twice (women) and three times (men) as likely to move into a nursing home",
+     "fix": "about twice as likely (women) and three times as likely (men) to move into a nursing home as people without recorded incontinence"
+    },
+    {
+     "item": "5",
+     "quote": "A care home can still be the right choice.",
+     "fix": "Ask for a continence assessment before the decision about a care home is made."
+    },
+    {
+     "item": "6",
+     "quote": "In a US study from the 1990s of about 6,000 people aged 65 and over, those whose incontinence had been recorded by doctors were about twice (women) and three times (men) as likely to move into a nursing home, after allowing for age and other illnesses.",
+     "fix": "A US study from the 1990s followed about 6,000 people aged 65 and over. Women whose incontinence had been recorded by doctors were about twice as likely to move into a nursing home, and men about three times as likely, after allowing for age and other illnesses."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'This shows a link. It does not show'",
+    "closing line is reassurance that does not follow from anything in the post",
+    "'twice (women) and three times (men)' bracket shorthand is hard on a phone"
+   ]
+  },
+  {
+   "tmp_id": "C12-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "were about twice (women) and three times (men) as likely to move into a nursing home",
+     "fix": "were about twice as likely (women) and three times as likely (men) to move into a nursing home as people without recorded incontinence"
+    },
+    {
+     "item": "5",
+     "quote": "A care home can still be the right choice.",
+     "fix": "End on the judgement: 'When incontinence is a main reason a care home is being considered, a continence assessment should be part of the discussion.'"
+    },
+    {
+     "item": "6",
+     "quote": "In a US study of about 6,000 people aged 65 and over, those whose incontinence had been recorded by doctors were about twice (women) and three times (men) as likely to move into a nursing home, after allowing for age and other illnesses.",
+     "fix": "A US study followed about 6,000 people aged 65 and over. Women whose incontinence had been recorded by doctors were about twice as likely to move into a nursing home, and men about three times as likely, after allowing for age and other illnesses."
+    },
+    {
+     "item": "6",
+     "quote": "Specialists in older people's care advise that clinicians ask about continence and that assessment looks for causes, usually with more than one professional.",
+     "fix": "Specialists in older people's care advise that clinicians ask about continence. They advise that an assessment looks for causes, usually with more than one professional."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'This shows a link. It does not show'",
+    "the carer interview study and the 52-person constipation study do not support the main claim",
+    "closing reassurance"
+   ]
+  },
+  {
+   "tmp_id": "C12-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ask for a continence assessment: causes, medicines, constipation, equipment, night help",
+     "fix": "ask for a continence assessment (a check for the causes of leaking and for what could help): medicines, constipation, equipment, night help"
+    },
+    {
+     "item": "3",
+     "quote": "about twice the likelihood in women, three times in men",
+     "fix": "women were about twice as likely, and men three times as likely, to move in as those without recorded incontinence"
+    },
+    {
+     "item": "5",
+     "quote": "A care home can still be the right choice.",
+     "fix": "End on: 'If it is part of the discussion, ask for a continence assessment.'"
+    }
+   ],
+   "flags": [
+    "no statement that the link does not show cause",
+    "closing reassurance"
+   ]
+  },
+  {
+   "tmp_id": "C12-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "went with about twice (women) and three times (men) the likelihood of moving into a nursing home",
+     "fix": "went with women being about twice as likely, and men three times as likely, to move into a nursing home as those without recorded incontinence"
+    },
+    {
+     "item": "5",
+     "quote": "A care home can still be the right choice.",
+     "fix": "End on the assessment: 'An assessment can look at medicines, constipation, getting to the toilet, equipment, products and help at night.'"
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'found a link ... It does not show'",
+    "'went with' is an odd verb for a statistical link"
+   ]
+  },
+  {
+   "tmp_id": "C12-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ulceration or other concerns about the vaginal tissues",
+     "fix": "sores or other concerns about the vaginal tissues"
+    },
+    {
+     "item": "5",
+     "quote": "Clinic care remains a good choice, and many women prefer it.",
+     "fix": "Put the reassurance before the ask and end with: 'If you use a pessary and think you could manage it, ask whether you can be taught.'"
+    },
+    {
+     "item": "6",
+     "quote": "Women who looked after their own pessary reported slightly fewer pessary problems (on a questionnaire, in a trial where women knew which group they were in), and fewer had ulceration or other concerns about the vaginal tissues on examination (about 18 in 100 against 27 in 100).",
+     "fix": "Women who looked after their own pessary reported slightly fewer pessary problems on a questionnaire. They knew which group they were in. On examination, fewer had sores or other concerns about the vaginal tissues: about 18 in 100 against 27 in 100."
+    }
+   ],
+   "flags": [
+    "very long for X; three outcomes and four limits in one post",
+    "closing reassurance",
+    "'The trial did not report whether that gap was larger than chance' is honest but needs plain wording such as 'we cannot tell if the gap is real'"
+   ]
+  },
+  {
+   "tmp_id": "C12-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ulceration, granulation or other concerns about the vaginal tissues",
+     "fix": "sores, raw or overgrown tissue or other concerns about the vaginal tissues"
+    },
+    {
+     "item": "2",
+     "quote": "no longer statistically clear",
+     "fix": "no longer clearly more than chance"
+    },
+    {
+     "item": "6",
+     "quote": "On examination, ulceration, granulation or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed and about 27 in 100 in clinic care (27 of 152 against 43 of 160 examined).",
+     "fix": "On examination, sores, raw or overgrown tissue or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed. In clinic care it was about 27 in 100 (27 of 152 against 43 of 160 examined)."
+    },
+    {
+     "item": "6",
+     "quote": "The trial did not include women who could not use their hands well enough, women whose memory or thinking problems meant they could not consent or self-manage, or women who needed teaching in a language other than English.",
+     "fix": "The trial left out three groups. They were women who could not use their hands well enough, women whose memory or thinking problems meant they could not consent or self-manage, and women who needed teaching in a language other than English."
+    }
+   ],
+   "flags": [
+    "internal inconsistency: 'The paper does not report a test of this difference' then 'no longer statistically clear' at 4 years",
+    "'likely to be good value' is vague",
+    "very long; 'TOPSY' is an unexplained acronym"
+   ]
+  },
+  {
+   "tmp_id": "C12-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "showed no clear difference in quality of life at 18 months",
+     "fix": "showed no clear difference in quality of life at 18 months compared with going to clinic"
+    },
+    {
+     "item": "3",
+     "quote": "slightly fewer self-reported problems",
+     "fix": "slightly fewer self-reported pessary problems than women who kept going to clinic"
+    },
+    {
+     "item": "6",
+     "quote": "In a UK trial of 340 women, learning to look after your own pessary (a device holding the pelvic organs up) showed no clear difference in quality of life at 18 months, and slightly fewer self-reported problems.",
+     "fix": "In a UK trial of 340 women, some learned to look after their own pessary (a device holding the pelvic organs up). At 18 months there was no clear difference in quality of life compared with clinic care. They reported slightly fewer problems."
+    }
+   ],
+   "flags": [
+    "comparison group (clinic care) never named",
+    "'Ask if you could be taught' is a good close"
+   ]
+  },
+  {
+   "tmp_id": "C12-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a UK trial of 340 women, learning to do it themselves showed no clear difference in quality of life at 18 months, and slightly fewer self-reported pessary problems.",
+     "fix": "In a UK trial of 340 women, those taught to do it themselves had no clear difference in quality of life at 18 months compared with clinic care. They reported slightly fewer pessary problems."
+    }
+   ],
+   "flags": [
+    "'Clinic care remains a good choice' is mild reassurance placed before the ask, acceptable here"
+   ]
+  },
+  {
+   "tmp_id": "C12-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Only half of 267 people whose urinary catheter had been placed in the previous 4 weeks, on UK district nursing caseloads, had any plan for taking it out: a review date, a date to try without it, or a referral to district nurses, urology or a continence service.",
+     "fix": "Of 267 people on UK district nursing caseloads whose urinary catheter had been placed in the previous 4 weeks, only half had any plan for taking it out. A plan meant a review date, a date to try without it, or a referral to district nurses, urology or a continence service."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C12-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a 2017 to 2018 UK survey, only half (134 of 267) of the people whose urinary catheter had been placed in the previous 4 weeks, on district nursing caseloads, had any plan for taking it out: a review date, a date to try without it, or a referral to district nurses, urology or a continence service.",
+     "fix": "In a 2017 to 2018 UK survey of 267 people on district nursing caseloads whose urinary catheter had been placed in the previous 4 weeks, only half (134) had any plan for taking it out. A plan meant a review date, a date to try without it, or a referral to district nurses, urology or a continence service."
+    },
+    {
+     "item": "6",
+     "quote": "In a review of 14 hospital studies, reminders and automatic stop orders together cut the rate of catheter infections by about half and shortened catheter use by about 2.6 days per patient.",
+     "fix": "A review of 14 hospital studies looked at reminders and automatic stop orders together. They cut the rate of catheter infections by about half and shortened catheter use by about 2.6 days per patient."
+    }
+   ],
+   "flags": [
+    "long; the hospital-review and passport paragraphs go beyond the discharge point",
+    "'A judgement:' close followed by a clear three-fact list is good"
+   ]
+  },
+  {
+   "tmp_id": "C12-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "survey year missing, which a clinician may want"
+   ]
+  },
+  {
+   "tmp_id": "C12-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'plan to remove it' drops the other plan types (review date, referral) listed in the long version"
+   ]
+  },
+  {
+   "tmp_id": "C12-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "include watching someone make that trip, from chair or bed to toilet, by day and by night, in a continence assessment",
+     "fix": "include watching someone make that trip, from chair or bed to toilet, by day and by night, in a continence assessment (a check for the causes of leaking)"
+    },
+    {
+     "item": "3",
+     "quote": "leaking with urgency at least weekly was linked with more falls and fractures over about 3 years",
+     "fix": "women who leaked with urgency at least weekly had more falls and fractures over about 3 years than women who did not"
+    },
+    {
+     "item": "5",
+     "quote": "These links do not show cause.",
+     "fix": "Move the research links earlier and end on the advice: 'Ask for the trip to the toilet to be watched, by day and by night.'"
+    },
+    {
+     "item": "6",
+     "quote": "Check the chair height, a walking aid within reach, a clear lit route, a door that opens easily, clothes that are easy to undo, and a commode or urinal bottle at night.",
+     "fix": "Check the chair height, whether a walking aid is within reach, and whether the route is clear and lit. Check that the door opens easily and clothes are easy to undo. At night, check for a commode or urinal bottle."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'These are things to check, not treatments shown to work in trials'",
+    "'the route and room itself' is slightly figurative",
+    "'leaking with urgency' undefined"
+   ]
+  },
+  {
+   "tmp_id": "C12-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "leaking with urgency at least weekly",
+     "fix": "leaking after a sudden strong need to pass urine, at least weekly"
+    },
+    {
+     "item": "2",
+     "quote": "A judgement for continence assessments in older people: include watching the person make that trip",
+     "fix": "A judgement: a continence assessment (a check for the causes of leaking) in an older person should include watching the person make that trip"
+    },
+    {
+     "item": "3",
+     "quote": "a somewhat higher risk of falls",
+     "fix": "a higher risk of falls than in people who do not get up at night (state the review's figure if it gave one)"
+    },
+    {
+     "item": "6",
+     "quote": "Practical things to check are the height of the chair or bed, whether the walking aid is within reach, a clear and lit route, a door that opens easily, whether the toilet can be seen, clothes that are easy to undo, and a raised seat or rails.",
+     "fix": "Practical things to check are the height of the chair or bed, whether the walking aid is within reach, and a clear and lit route. Also check that the door opens easily, the toilet can be seen, clothes are easy to undo, and a raised seat or rails are in place."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'These are things to check. No trial evidence was found'",
+    "'A judgement for continence assessments in older people:' reads as a label rather than a sentence"
+   ]
+  },
+  {
+   "tmp_id": "C12-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A continence assessment should include watching the trip",
+     "fix": "A continence assessment (a check for the causes of leaking) should include watching the trip"
+    },
+    {
+     "item": "5",
+     "quote": "These are things to check, not treatments shown to work.",
+     "fix": "Ask for the trip from chair or bed to toilet to be watched, by day and by night."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'things to check, not treatments shown to work'",
+    "no concrete next step for the reader"
+   ]
+  },
+  {
+   "tmp_id": "C12-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A continence assessment should include watching the person",
+     "fix": "A continence assessment (a check for the causes of leaking) should include watching the person"
+    },
+    {
+     "item": "5",
+     "quote": "These are things to check, not treatments shown to work in trials.",
+     "fix": "Ask for the trip to the toilet to be watched, by day and by night."
+    },
+    {
+     "item": "6",
+     "quote": "Check chair height, walking aid, a lit clear route, the door, clothes, and a commode or bottle at night.",
+     "fix": "Check the chair height, whether the walking aid is within reach, that the route is clear and lit, that the door opens easily, that clothes are easy to undo, and that a commode or urinal bottle is by the bed at night."
+    }
+   ],
+   "flags": [
+    "negation-then-correction shape: 'things to check, not treatments shown to work in trials'",
+    "telegraphic list ('the door, clothes') leaves the reader to guess what is checked"
+   ]
+  },
+  {
+   "tmp_id": "C12-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "You can ask whether a continence service could help.",
+     "fix": "You can ask whether a continence service (a team that assesses and treats leaking) could help."
+    },
+    {
+     "item": "6",
+     "quote": "In a US national survey of adults living at home, about 3 in 100 people in their 20s reported any bowel leakage in the past month (including small amounts of liquid or mucus), against about 15 in 100 (roughly 1 in 7) of those aged 70 and over.",
+     "fix": "A US national survey asked adults living at home about bowel leakage in the past month, including small amounts of liquid or mucus. About 3 in 100 people in their 20s reported it. For those aged 70 and over it was about 15 in 100, roughly 1 in 7."
+    },
+    {
+     "item": "6",
+     "quote": "In two US surveys, one of clinic patients in the 1990s and one of women aged 45 and over, only about 1 in 3 people with leakage had ever talked to a doctor about it.",
+     "fix": "Two US surveys asked people with leakage whether they had told a doctor. One surveyed clinic patients in the 1990s, the other women aged 45 and over. Only about 1 in 3 had."
+    }
+   ],
+   "flags": [
+    "'Common causes can be treated: loose stools' lists a symptom as a cause"
+   ]
+  },
+  {
+   "tmp_id": "C12-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "You can ask: could a continence service help?",
+     "fix": "You can ask whether a continence service (a team that assesses and treats leaking) could help."
+    },
+    {
+     "item": "6",
+     "quote": "First steps: advice on food, fibre and drinks; a regular toilet routine; a fibre supplement or a medicine that firms up loose stools, such as loperamide; pelvic floor exercises; and pads and skin care.",
+     "fix": "First steps are advice on food, fibre and drinks, a regular toilet routine, and pads and skin care. A fibre supplement, a medicine that firms up loose stools such as loperamide, or pelvic floor exercises may also be tried."
+    },
+    {
+     "item": "6",
+     "quote": "In two US surveys, one of clinic patients in the 1990s and one of women aged 45 and over, only about 1 in 3 people with leakage had ever talked to a doctor about it.",
+     "fix": "Two US surveys asked people with leakage whether they had told a doctor. One surveyed clinic patients in the 1990s, the other women aged 45 and over. Only about 1 in 3 had."
+    }
+   ],
+   "flags": [
+    "long; the examination paragraph is not needed for the main point",
+    "closing question is concrete and good"
+   ]
+  },
+  {
+   "tmp_id": "C12-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Causes can often be treated' is vague",
+    "'70+' is shorthand for a lay reader"
+   ]
+  },
+  {
+   "tmp_id": "C12-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "You can ask whether a continence service could help.",
+     "fix": "You can ask whether a continence service (a team that assesses and treats leaking) could help."
+    }
+   ],
+   "flags": [
+    "'only about 1 in 3 people with it' uses 'it' for bowel leakage across a sentence break"
+   ]
+  },
+  {
+   "tmp_id": "C12-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A combined measure of problems (bacteria in the urine on daily testing, symptomatic infection or death) was lower with the sheath after adjustment, but not clearly before it, and bacteria in the urine drove the result.",
+     "fix": "A combined measure of problems (bacteria in the urine on daily testing, symptomatic infection or death) was lower with the sheath after adjustment but not clearly before it. Bacteria in the urine drove the result."
+    }
+   ],
+   "flags": [
+    "'weaker, category II recommendation' is fine for clinicians"
+   ]
+  },
+  {
+   "tmp_id": "C12-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Similar shares of men had at least one event (about 44 in 100 with a sheath, 49 in 100 with a catheter), and symptomatic infections and deaths were few and not clearly different on their own.",
+     "fix": "Similar shares of men had at least one event: about 44 in 100 with a sheath and 49 in 100 with a catheter. Symptomatic infections and deaths were few and not clearly different on their own."
+    },
+    {
+     "item": "7",
+     "quote": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters.",
+     "fix": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. These two figures count different things: events per 1,000 days of use, and men with at least one event."
+    }
+   ],
+   "flags": [
+    "long; the 2026 nursing review and the CDC grade add detail beyond the point",
+    "'The main trial:' is a label rather than a sentence"
+   ]
+  },
+  {
+   "tmp_id": "C12-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "more men said it was comfortable",
+     "fix": "more men with a sheath than with an indwelling catheter said it was comfortable"
+    },
+    {
+     "item": "4",
+     "quote": "the combined problem measure was driven by bacteria in the urine",
+     "fix": "the combined problem measure (bacteria in the urine, symptomatic infection or death) was lower with the sheath after adjustment, mostly because of bacteria in the urine"
+    }
+   ],
+   "flags": [
+    "does not say which way the combined measure went"
+   ]
+  },
+  {
+   "tmp_id": "C12-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "A combined measure of problems was lower after adjustment",
+     "fix": "A combined measure of problems was lower after adjustment but not clearly lower before it"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

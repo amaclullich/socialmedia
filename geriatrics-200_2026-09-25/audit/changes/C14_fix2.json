@@ -45,14 +45,14 @@
     "tmp_id": "C14-P01",
     "where": "captions.bluesky",
     "old": "Ask an older person with dizziness what sets it off. A brief spin on rolling over in bed or looking up should prompt a Dix-Hallpike test for BPPV, positional vertigo. In trials in adults, vertigo fully resolved in about 56 in 100 after the Epley manoeuvre, against 21 in 100 with a sham or control.",
-    "new": "Ask an older person with dizziness what sets it off. A brief spin on rolling over or looking up should prompt a Dix-Hallpike test for BPPV, vertigo set off by head position. In trials, the Epley manoeuvre fully resolved vertigo in about 56 in 100, against 21 in 100 with sham or control. It came back in about 36 in 100.",
+    "new": "Ask an older person with dizziness what sets it off. A brief spin on rolling over or looking up should prompt a Dix-Hallpike test for BPPV (positional vertigo). In trials, the Epley manoeuvre cleared vertigo in about 56 in 100, against 21 with sham or control. It came back in about 36 in 100.",
     "reason": "Cold read item 4: add the result that went the other way (recurrence), which the Bluesky version omitted."
   },
   {
     "tmp_id": "C14-P01",
     "where": "captions.threads",
     "old": "against about 21 in 100 after a sham manoeuvre or a control. It came back in about 36 in 100.",
-    "new": "against about 21 in 100 after a sham or control. BPPV came back in about 36 in 100 people during the trials' short follow-up.",
+    "new": "against about 21 in 100 after a sham or control. It came back in about 36 in 100 during the trials' short follow-up.",
     "reason": "Cold read item 3: the recurrence figure needs its period; the Cochrane review describes the trials as having short follow-up (claim C14-26-c), and no length is given in the evidence. 'Sham manoeuvre or a control' shortened to stay within 500 characters."
   },
   {
@@ -94,7 +94,7 @@
     "tmp_id": "C14-P02",
     "where": "captions.bluesky",
     "old": "Hearing that drops suddenly in one ear should be checked urgently, not assumed to be wax. A clinician has to tell a blocked ear canal from inner ear or nerve damage. Steroids are an option if started within about 2 weeks, though a Cochrane review of three small trials found their value unclear.",
-    "new": "Sudden hearing loss in one ear needs urgent checking, even if wax seems likely. Ask for an ear, nose and throat (ENT) service or an emergency department. Steroids are an option if started within about 2 weeks of the loss starting. A Cochrane review of three small trials found it unclear whether they work.",
+    "new": "Sudden hearing loss in one ear needs urgent checking, even if wax seems likely. Ask for an ear, nose and throat (ENT) service or an emergency department. Steroids can be offered within about 2 weeks of the loss starting. A Cochrane review of three small trials found it unclear whether they work.",
     "reason": "Cold read items 3, 6 and flags: two-week window anchored to onset; steroid sentence split; negation 'not assumed to be wax' recast; who to ask for now stated. The sentence on telling a blocked canal from inner ear damage was dropped to stay within 300 characters; it stays in the other three versions."
   },
   {
@@ -185,7 +185,7 @@
     "tmp_id": "C14-P04",
     "where": "captions.threads",
     "old": "Hearing is said to be the last sense to go. The authors of one hospice study say the belief rests mostly on anecdote.\n\nA small hospice study played tones to 5 people",
-    "new": "It is often said that hearing is one of the last senses to stop working when a person is dying. The authors of one hospice study say the belief rests mostly on anecdote.\n\nThe researchers played tones to 5 people",
+    "new": "It is often said that hearing is one of the last senses to stop working near death. The authors of one hospice study say the belief rests mostly on anecdote.\n\nThe researchers played tones to 5 people",
     "reason": "Plain wording of the belief; the source says hearing is one of the last senses to lose function (C14-15-b), so 'one of' is added. Cold read flag: 'hospice study' repeated in consecutive sentences."
   },
   {
@@ -297,14 +297,14 @@
     "tmp_id": "C14-P06",
     "where": "captions.bluesky",
     "old": "Timolol eye drops reach the bloodstream and can act like a beta-blocker tablet. Case reports describe very slow heart rates and heart block that settled when drops stopped; in one, a milder block later returned. They do not show how often. With a slow pulse in an older person, ask about eye drops.",
-    "new": "Timolol eye drops reach the bloodstream and can act like a beta-blocker tablet. Case reports describe very slow heart rates and heart block that settled when drops stopped; in one, a milder block remained and had worsened a year later. Case reports do not show how often. With a slow pulse in an older person, ask about eye drops.",
-    "reason": "Cold read item 4 and flags: 'a milder block later returned' did not match the case (the block remained and worsened a year later, C14-19-a notes); unclear 'They' replaced."
+    "new": "Timolol eye drops reach the bloodstream and can act like a beta-blocker tablet. Case reports describe slow heart rates and heart block that settled when drops stopped; in one, a milder block remained. They show it can happen, not how often. In an older person with a slow pulse, ask about eye drops.",
+    "reason": "Cold read item 4 and flags: 'a milder block later returned' did not match the case (the block remained, and worsened a year later, C14-19-a notes); 'and worsened' left out of this short version for length, and the other three versions keep it."
   },
   {
     "tmp_id": "C14-P06",
     "where": "captions.threads",
     "old": "Timolol eye drops get into the bloodstream and can act like a beta-blocker tablet.\n\nCase reports describe very slow heart rates and heart block that settled when the drops were stopped, though in one a milder block later worsened. They show it can happen, not how often.\n\nSo in an older person with a slow pulse, ask about eye drops directly. Pressing the inner corner of the eye after the drop lowered blood levels in a small study of 21 adults; whether it prevents a slow pulse was not shown.",
-    "new": "Timolol eye drops get into the bloodstream and can act like a beta-blocker tablet.\n\nCase reports describe very slow heart rates and heart block that settled when the drops were stopped, though in one a milder block remained and worsened. They show it can happen, not how often.\n\nPressing the inner corner of the eye for 5 minutes after the drop lowered the timolol level in the blood in a small study of 21 adults. Whether it prevents a slow pulse was not shown.\n\nSo in an older person with a slow pulse, ask about eye drops directly.",
+    "new": "Timolol eye drops get into the bloodstream and can act like a beta-blocker tablet.\n\nCase reports describe slow heart rates and heart block that settled when drops stopped; in one, a milder block remained and worsened. They show it can happen, not how often.\n\nIn a small study of 21 adults, pressing the inner corner of the eye for 5 minutes after the drop lowered the timolol level in the blood. Whether it prevents a slow pulse was not shown.\n\nSo in an older person with a slow pulse, ask about eye drops.",
     "reason": "Cold read items 3, 5, 6 and flags: 'lowered blood levels' now says timolol level; sentence split; pressing time added so the reader can see what was tested; eye-drop pressing sentence moved before the advice so the post ends on the action; 'later worsened' aligned with the other versions (block remained and worsened)."
   },
   {
@@ -345,8 +345,15 @@
   {
     "tmp_id": "C14-P08",
     "where": "captions.threads",
+    "old": "In one Belfast waiting list, about 1 in 3 people waiting for a first eye were estimated to be at risk of this imbalance.",
+    "new": "In one Belfast list, about 1 in 3 people waiting for a first eye were estimated to be at risk of this imbalance.",
+    "reason": "Trimmed to keep Threads within 500 characters; the Belfast list is still described as one list."
+  },
+  {
+    "tmp_id": "C14-P08",
+    "where": "captions.threads",
     "old": "to be at risk of this imbalance. Second-eye surgery probably helps even it out.\n\nIn a trial of 239 women over 70, a second operation within about a month improved visual function and confidence. The effect on falls was uncertain.",
-    "new": "to be at risk of this imbalance. Second-eye surgery probably reduces it.\n\nIn a trial of 239 women over 70, a second operation within about a month, rather than waiting a year, improved how well they saw, and their confidence. The effect on falls was uncertain.",
+    "new": "to be at risk of this imbalance. Second-eye surgery probably reduces it.\n\nIn a trial of 239 women over 70, a second operation within about a month, not a year later, improved how well they saw and their confidence. The effect on falls was uncertain.",
     "reason": "Cold read items 2, 3 and flag: comparison (waiting a year) added; 'visual function' put in plain words; idiom 'even it out' replaced."
   },
   {
@@ -367,8 +374,8 @@
     "tmp_id": "C14-P09",
     "where": "captions.bluesky",
     "old": "A person who mishears the words in a memory test scores as if they forgot them. In 301 older adults, those with hearing or sight loss passed the MoCA less often, even after adjustment (an association). Put aids in, check glasses, reduce noise, record the adaptations.",
-    "new": "A person who mishears a memory test word list scores as if they forgot it. In 301 older adults, hearing or sight loss was linked with passing the MoCA less often, even after adjusting for items they could not hear or see. Two small studies found amplification left the total score unchanged. Put aids in, check glasses, record the adaptations.",
-    "reason": "Cold read items 3 and 4: adjustment spelled out and the awkward '(an association)' replaced by 'was linked with'; the result that went the other way (amplification did not change the total score, C14-31-b) added. 'Reduce noise' dropped to stay within 300 characters; it stays in the other versions."
+    "new": "Mishearing a memory test word list scores as forgetting it. In 301 older adults, hearing or sight loss was linked with passing the MoCA less often, even after adjusting for items they could not hear or see. In two small studies, amplification did not change the total score. Record the adaptations.",
+    "reason": "Cold read items 3 and 4: adjustment spelled out and the awkward '(an association)' replaced by 'was linked with'; the result that went the other way (amplification did not change the total score, C14-31-b) added. The aids, glasses and noise items of the checklist were dropped to stay within 300 characters; they stay in the other versions."
   },
   {
     "tmp_id": "C14-P09",
@@ -416,14 +423,14 @@
     "tmp_id": "C14-P10",
     "where": "captions.bluesky",
     "old": "In England, NICE says earwax removal should be done in primary care, but a GP's 2020 article described practices as not obliged to provide it unless locally commissioned, with funding varying by area. Ask your practice where NHS wax removal is provided locally.",
-    "new": "Earwax can dull hearing. In England, NICE, the national guidance body, says removal should be done in primary care (the GP practice). A GP's 2020 article described practices as not obliged to provide it unless the local health service paid for it. Ask your practice where NHS wax removal is provided locally.",
+    "new": "Earwax can dull hearing. NICE, the national guidance body, says removal in England should be done in primary care (the GP practice). A GP's 2020 article said practices need not provide it unless the local health service pays. Ask your practice where NHS wax removal is provided locally.",
     "reason": "Cold read items 2 and 6 and flags: opening says why wax removal matters; NICE, primary care and 'locally commissioned' put in plain words; long sentence split after 'primary care'; 'funding varies by area' dropped to stay within 300 characters (kept in other versions)."
   },
   {
     "tmp_id": "C14-P10",
     "where": "captions.threads",
     "old": "In small studies of care home residents, wax needing removal was found in more than half. In one small study of 29 people, hearing improved in most blocked ears once the wax was removed.\n\nIn England, NICE says removal should be done in primary care, but a 2020 article by a GP described practices as not obliged to provide it unless it was commissioned locally.\n\nIf you are told your practice no longer does it, ask where NHS wax removal is provided locally.",
-    "new": "In small studies of care home residents, earwax needing removal was found in more than half. In one small study of 29 people, hearing improved in most blocked ears once the wax was removed.\n\nIn England, NICE, the national guidance body, says removal should be done in primary care, meaning the GP practice. A 2020 article by a GP described practices as not obliged to provide it unless the local health service paid for it.\n\nIf you are told your practice no longer does it, ask where NHS wax removal is provided locally.",
+    "new": "In small studies of care home residents, earwax needing removal was found in more than half. In one small study of 29 people, hearing improved in most blocked ears after removal.\n\nIn England, NICE, the national guidance body, says removal should be done in primary care, meaning the GP practice. A GP's 2020 article said practices need not provide it unless the local health service paid for it.\n\nIf you are told your practice no longer does it, ask where NHS wax removal is provided locally.",
     "reason": "Cold read item 2 and 6: NICE, primary care and 'commissioned locally' put in plain words; long sentence split after 'primary care'; 'wax' made 'earwax' since the post has no other context."
   },
   {

@@ -1,0 +1,744 @@
+[
+ {
+  "tmp_id": "C15-P01",
+  "where": "captions.linkedin",
+  "old": "An earlier review put it at 20 to 30 in 100 older people with infection.",
+  "new": "An earlier review put fever as absent or blunted in 20 to 30 in 100 older people with infection.",
+  "reason": "minor: the two figures measure different things; source says fever 'absent or blunted'"
+ },
+ {
+  "tmp_id": "C15-P01",
+  "where": "captions.linkedin",
+  "old": "the usual temperature is often not known, and no study opened here tested whether the rule improves detection there.",
+  "new": "the usual temperature may not be known, and we found no study testing whether the rule improves detection there.",
+  "reason": "minor: 'often not known' unsourced; 'opened here' is internal process language"
+ },
+ {
+  "tmp_id": "C15-P01",
+  "where": "visual_text[16]",
+  "old": "High et al., Clin Infect Dis 2009; Stone et al., 2012; RCP NEWS2 2017 via Engebretsen et al., 2020",
+  "new": "High et al., Clin Infect Dis 2009; Stone et al., 2012; RCP NEWS2 2017 via Engebretsen et al., 2020; Williams, Clin Med 2022",
+  "reason": "minor: the 'low score should never override concern' statement comes from Williams 2022; add to card credit line"
+ },
+ {
+  "tmp_id": "C15-P01",
+  "where": "visual_brief.slides[0].text.source_line",
+  "old": "High et al., Clin Infect Dis 2009; Stone et al., 2012; RCP NEWS2 2017 via Engebretsen et al., 2020",
+  "new": "High et al., Clin Infect Dis 2009; Stone et al., 2012; RCP NEWS2 2017 via Engebretsen et al., 2020; Williams, Clin Med 2022",
+  "reason": "minor: same credit line fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "captions.x",
+  "old": "2 in 3 adults treated for pneumonia (median age 70) got more days of antibiotics than the authors judged necessary, usually about 2 extra days.",
+  "new": "2 in 3 adults hospitalised on general medical wards with pneumonia (median age 70; intensive care patients were not included) got more days of antibiotics than the authors judged necessary. Across all patients in the study, the middle (median) number of extra days was 2.",
+  "reason": "blocker: median excess of 2 days is across all patients, not those with excess; minor: narrow the population (general ward, ICU excluded)"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "captions.linkedin",
+  "old": "2 in 3 adults treated for pneumonia (median age 70) got more days of antibiotics than the authors judged necessary, usually about 2 extra days.",
+  "new": "2 in 3 adults hospitalised on general medical wards with pneumonia (median age 70; intensive care patients were not included) got more days of antibiotics than the authors judged necessary. Across all patients in the study, the middle (median) number of extra days was 2.",
+  "reason": "blocker: median excess of 2 days is across all patients; minor: narrow the population"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "captions.threads",
+  "old": "2 in 3 adults treated for pneumonia (median age 70) got more antibiotic days than the authors judged necessary, usually about 2 extra days.",
+  "new": "2 in 3 adults on general medical wards with pneumonia (median age 70) got more antibiotic days than the authors judged necessary. Across all patients, the median number of extra days was 2.",
+  "reason": "blocker: median excess of 2 days is across all patients; minor: narrow the population"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "visual_text[1]",
+  "old": "Pneumonia, 43 US hospitals, 6,481 adults",
+  "new": "Pneumonia, 43 US hospitals, 6,481 adults on general medical wards",
+  "reason": "minor: narrow the population"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "visual_brief.slides[0].text.kicker",
+  "old": "Pneumonia, 43 US hospitals, 6,481 adults",
+  "new": "Pneumonia, 43 US hospitals, 6,481 adults on general medical wards",
+  "reason": "minor: narrow the population"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "captions.linkedin",
+  "old": "stopping antibiotics then worked as well as continuing to day 8.",
+  "new": "stopping antibiotics then was not shown to be worse than continuing to day 8, within a 10 percentage point margin (cure at day 15: 77 in 100 versus 68 in 100).",
+  "reason": "minor: non-inferiority design with a 10 percentage point margin; 'worked as well as' was looser"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "insight",
+  "old": "2 in 3 adults treated for pneumonia",
+  "new": "2 in 3 adults hospitalised on general medical wards with pneumonia",
+  "reason": "minor: keep insight field consistent with narrowed population"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.x",
+  "old": "Part of that shift reflects which hospitals reported and more CT scanning, which finds more injuries.",
+  "new": "Some of that shift may reflect which hospitals sent data and more CT scanning, which finds more injuries.",
+  "reason": "major: authors state this only as a possibility"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.linkedin",
+  "old": "Part of the shift reflects changes in which hospitals submitted data",
+  "new": "Some of the shift may reflect changes in which hospitals submitted data",
+  "reason": "major: authors state this only as a possibility"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "visual_text[10]",
+  "old": "Part of the change reflects which hospitals reported and more CT scanning.",
+  "new": "Some of the change may reflect which hospitals reported and more CT scanning.",
+  "reason": "major: authors state this only as a possibility"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "Part of the change reflects which hospitals reported and more CT scanning.",
+  "new": "Some of the change may reflect which hospitals reported and more CT scanning.",
+  "reason": "major: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "alt_text[0]",
+  "old": "Part of the change reflects reporting and CT use.",
+  "new": "Some of the change may reflect reporting and CT use.",
+  "reason": "major: authors state this only as a possibility"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "visual_text[0]",
+  "old": "Major trauma is now often a fall from under 2 metres",
+  "new": "By 2013, a fall from under 2 metres was the commonest recorded cause of major trauma",
+  "reason": "major: 'now' for data that stop in 2013; 'often' understated the finding"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "visual_brief.slides[0].text.headline",
+  "old": "Major trauma is now often a fall from under 2 metres",
+  "new": "By 2013, a fall from under 2 metres was the commonest recorded cause of major trauma",
+  "reason": "major: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.x",
+  "old": "the commonest cause of major trauma in England and Wales was a fall from less than 2 metres: 39 in 100 cases.",
+  "new": "the commonest cause of major trauma recorded in the national trauma registry for England and Wales was a fall from less than 2 metres: 39 in 100 cases.",
+  "reason": "minor: figure is registry cases, not all major trauma"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.linkedin",
+  "old": "the commonest cause of major trauma in England and Wales was a fall from less than 2 metres: 39 in 100 cases.",
+  "new": "the commonest cause of major trauma recorded in the national trauma registry for England and Wales was a fall from less than 2 metres: 39 in 100 cases.",
+  "reason": "minor: figure is registry cases, not all major trauma; kept consistent across versions"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.linkedin",
+  "old": "Three findings show what a low fall can mean for an older person. Each has limits.",
+  "new": "Three findings show what injury can mean for an older person. Each has limits, and only the bleeding estimate concerns people who fell.",
+  "reason": "major: rib fracture and triage studies are not about people who fell"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.linkedin",
+  "old": "Rib fractures: in one US trauma centre,",
+  "new": "Rib fractures from blunt chest injury of any cause: in one US trauma centre,",
+  "reason": "major: rib fracture study population is blunt chest trauma of any cause"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.linkedin",
+  "old": "The height of the fall is a weak guide in older people, and these findings do not say that every low fall needs a trauma call.",
+  "new": "A low fall does not rule out serious injury in an older person, and these findings do not say that every low fall needs a trauma call.",
+  "reason": "minor: 'height is a weak guide' was stated as a finding but is judgement"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.linkedin",
+  "old": "more often than in younger adults.",
+  "new": "more often than across all ages combined.",
+  "reason": "minor: review compares with all ages combined"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_text[1]",
+  "old": "Over 5 million admissions, England, 2016 to 2018",
+  "new": "Over 5 million people admitted, England, 2016 to 2018",
+  "reason": "major: admissions are not people (7.47 million admissions, 5.25 million patients)"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_brief.slides[0].text.kicker",
+  "old": "Over 5 million admissions, England, 2016 to 2018",
+  "new": "Over 5 million people admitted, England, 2016 to 2018",
+  "reason": "major: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "alt_text[0]",
+  "old": "In over 5 million admissions to English hospitals from major emergency departments, 2016 to 2018, about 9 in 100 died within 30 days.",
+  "new": "Among over 5 million people admitted to English hospitals from major emergency departments, 2016 to 2018, about 9 in 100 died within 30 days.",
+  "reason": "major: admissions are not people"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.bluesky",
+  "old": "Over 5 million admissions in England:",
+  "new": "Among over 5 million people admitted in England:",
+  "reason": "major: admissions are not people"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.threads",
+  "old": "The study covered over 5 million admissions (2016 to 2018, all adult ages).",
+  "new": "The study covered over 5 million people admitted (2016 to 2018), not only older people.",
+  "reason": "major: admissions are not people; 'all adult ages' not in source"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.linkedin",
+  "old": "between April 2016 and March 2018, all adult ages.",
+  "new": "between April 2016 and March 2018. It was not limited to older people.",
+  "reason": "major: 'all adult ages' not stated in source"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.x",
+  "old": "They could not allow for how ill each person was on arrival.",
+  "new": "Their model did not include a measure of how ill each person was on arrival.",
+  "reason": "minor: 'could not allow for' was inferred, not stated"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.linkedin",
+  "old": "It could not allow for how ill each person was on arrival, so sicker patients",
+  "new": "It did not include a measure of how ill each person was on arrival, so sicker patients",
+  "reason": "minor: 'could not allow for' was inferred"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.bluesky",
+  "old": "it could not allow for how ill people were on arrival.",
+  "new": "it did not include how ill people were on arrival.",
+  "reason": "minor: 'could not allow for' was inferred"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.threads",
+  "old": "the model could not allow for how ill each person was on arrival",
+  "new": "the model did not include how ill each person was on arrival",
+  "reason": "minor: 'could not allow for' was inferred"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_text[14]",
+  "old": "Not allowed for: how ill each person was on arrival",
+  "new": "Not in the model: how ill each person was on arrival",
+  "reason": "minor: 'could not allow for' was inferred"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_brief.slides[1].text.items[1]",
+  "old": "Not allowed for: how ill each person was on arrival",
+  "new": "Not in the model: how ill each person was on arrival",
+  "reason": "minor: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_text[13]",
+  "old": "Not allowed for",
+  "new": "Not in the model",
+  "reason": "minor: label matched to corrected item text"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_brief.slides[1].text.labels[1]",
+  "old": "Not allowed for",
+  "new": "Not in the model",
+  "reason": "minor: label matched to corrected item text"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_brief.slides[1].art",
+  "old": "headed 'Not allowed for' listing the one gap",
+  "new": "headed 'Not in the model' listing the one gap",
+  "reason": "minor: label matched to corrected item text"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "alt_text[1]",
+  "old": "It did not allow for how ill each person was on arrival.",
+  "new": "Their model did not include a measure of how ill each person was on arrival.",
+  "reason": "minor: 'could not allow for' was inferred"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "captions.x",
+  "old": "Older people stay longer: in one English department, 79 in 100 visits by people aged 85 or over lasted 4 hours or more, against 44 in 100 for adults aged 18 to 64.",
+  "new": "In one English emergency department in 2019, 79 in 100 visits by people aged 85 or over lasted 4 hours or more, against 44 in 100 for adults aged 18 to 64. These count visits, not people, and longer stays may partly reflect more tests and assessment.",
+  "reason": "minor: year, 'visits not people' and tests-and-assessment caveat were missing"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_text[15]",
+  "old": "Older people spend longer in the department",
+  "new": "In one department, older people's visits lasted longer",
+  "reason": "minor: unqualified general headline over single-department data"
+ },
+ {
+  "tmp_id": "C15-P04",
+  "where": "visual_brief.slides[2].text.headline",
+  "old": "Older people spend longer in the department",
+  "new": "In one department, older people's visits lasted longer",
+  "reason": "minor: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.x",
+  "old": "About 17 in 100 in each group had died.",
+  "new": "About 17 in 100 treated at home and 18 in 100 admitted had died.",
+  "reason": "minor: groups were 16.9% and 17.7%; 'each group' hid the direction"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.linkedin",
+  "old": "About 17 in 100 in each group had died by six months.",
+  "new": "About 17 in 100 treated at home and 18 in 100 admitted had died by six months.",
+  "reason": "minor: groups were 16.9% and 17.7%"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "visual_text[10]",
+  "old": "about 17",
+  "new": "about 18",
+  "reason": "minor: admitted group 17.7% rounds to 18"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "visual_brief.slides[0].art",
+  "old": "Row 2 Died: about 17 and 17 (the true values are 16.9 and 17.7, shown as 'about 17').",
+  "new": "Row 2 Died: about 17 and 18 (the true values are 16.9 and 17.7).",
+  "reason": "minor: admitted group 17.7% rounds to 18"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "visual_brief.slides[0].data display",
+  "old": "about 17 in 100",
+  "new": "about 18 in 100",
+  "reason": "keep chart data consistent with corrected text"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "alt_text[0]",
+  "old": "Died: about 17 in each group.",
+  "new": "Died: about 17 treated at home, 18 admitted.",
+  "reason": "minor: admitted group 17.7% rounds to 18"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.x",
+  "old": "had moved into long-term residential care.\n",
+  "new": "had moved into long-term residential care by six months. That was a secondary outcome.\n",
+  "reason": "minor: flag secondary outcome"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.linkedin",
+  "old": "That was a secondary outcome.\n\nThese were selected",
+  "new": "That was a secondary outcome.\n\nIn the first month, more people treated at home were transferred to hospital than in the admitted group (a 32% higher risk in relative terms), though not by six months.\n\nThese were selected",
+  "reason": "major: result that went the other way (month-1 transfer to hospital, RR 1.32) was omitted; stated in plain words rather than relative risk and interval"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.x",
+  "old": "That was a secondary outcome.\n",
+  "new": "That was a secondary outcome. In the first month, more of those treated at home were transferred to hospital.\n",
+  "reason": "major: month-1 transfer to hospital omitted"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "No clear difference in living at home or deaths. Applies to selected people.",
+  "new": "No clear difference in living at home or deaths. In month 1, more people treated at home were transferred to hospital. Applies to selected people.",
+  "reason": "major: month-1 transfer to hospital omitted"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "visual_text[2]",
+  "old": "No clear difference in living at home or deaths. Applies to selected people.",
+  "new": "No clear difference in living at home or deaths. In month 1, more people treated at home were transferred to hospital. Applies to selected people.",
+  "reason": "major: month-1 transfer to hospital omitted"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "alt_text[0]",
+  "old": "No clear difference for living at home or deaths. Applies to selected people.",
+  "new": "No clear difference for living at home or deaths. In month 1, more people treated at home were transferred to hospital. Applies to selected people.",
+  "reason": "major: month-1 transfer to hospital omitted"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.linkedin",
+  "old": "The choice is often put as hospital or nothing. This trial shows a third option that worked when the home could monitor closely. The decision",
+  "new": "In this trial, treating residents in the home on a pathway with close monitoring led to fewer hospital admissions, with no clear difference in deaths, quality of life or function. The trial did not test homes without that monitoring. The decision",
+  "reason": "major: 'hospital or nothing' unsourced; 'worked' vague; no arm tested less monitoring"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.linkedin",
+  "old": "and it was not designed to show a difference in deaths.",
+  "new": "and the range of uncertainty around the difference in deaths was wide, so the trial could not rule out a difference in either direction.",
+  "reason": "minor: 'not designed to show' not stated in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.x",
+  "old": "close checks by a dedicated research nurse.",
+  "new": "close checks by a research nurse.",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.linkedin",
+  "old": "close checks by a dedicated research nurse.",
+  "new": "close checks by a research nurse.",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_text[7]",
+  "old": "5 Close checks by a dedicated nurse",
+  "new": "5 Close checks by a research nurse",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_brief.slides[0].text.items[4]",
+  "old": "5 Close checks by a dedicated nurse",
+  "new": "5 Close checks by a research nurse",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_text[18]",
+  "old": "One older trial; close checks by a dedicated research nurse",
+  "new": "One older trial; close checks by a research nurse",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_brief.slides[1].art",
+  "old": "One older trial; close checks by a dedicated research nurse",
+  "new": "One older trial; close checks by a research nurse",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "alt_text[0]",
+  "old": "close checks by a dedicated nurse.",
+  "new": "close checks by a research nurse.",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "alt_text[1]",
+  "old": "One older trial with a dedicated research nurse.",
+  "new": "One older trial with a research nurse.",
+  "reason": "minor: 'dedicated' not in source"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_text[10]",
+  "old": "Hospital admissions: 10 in 100 with home treatment, 22 in 100 with usual care",
+  "new": "Residents sent to hospital: 10 in 100 with home treatment, 22 in 100 with usual care",
+  "reason": "minor: data are residents hospitalised, not admissions"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_brief.slides[1].text.headline",
+  "old": "Hospital admissions: 10 in 100 with home treatment, 22 in 100 with usual care",
+  "new": "Residents sent to hospital: 10 in 100 with home treatment, 22 in 100 with usual care",
+  "reason": "minor: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.x",
+  "old": "About 8 in 100 and 9 in 100 died.",
+  "new": "About 8 in 100 on the pathway and 9 in 100 with usual care died.",
+  "reason": "minor: group not stated"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.linkedin",
+  "old": "About 8 in 100 and 9 in 100 died.",
+  "new": "About 8 in 100 on the pathway and 9 in 100 with usual care died.",
+  "reason": "minor: group not stated"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.threads",
+  "old": "About 8 in 100 and 9 in 100 died: no clear difference.",
+  "new": "About 8 in 100 on the pathway and 9 in 100 with usual care died: no clear difference.",
+  "reason": "minor: group not stated"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_text[17]",
+  "old": "About 8 in 100 and 9 in 100 died. No clear difference in deaths, quality of life or function.",
+  "new": "About 8 in 100 on the pathway and 9 in 100 with usual care died. No clear difference in deaths, quality of life or function.",
+  "reason": "minor: group not stated"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "visual_brief.slides[1].text.body",
+  "old": "About 8 in 100 and 9 in 100 died. No clear difference in deaths, quality of life or function.",
+  "new": "About 8 in 100 on the pathway and 9 in 100 with usual care died. No clear difference in deaths, quality of life or function.",
+  "reason": "minor: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "alt_text[1]",
+  "old": "Died: about 8 and 9.",
+  "new": "Died: about 8 on the pathway and 9 with usual care.",
+  "reason": "minor: group not stated"
+ },
+ {
+  "tmp_id": "C15-P06",
+  "where": "captions.bluesky",
+  "old": "In a Canadian trial in 22 care homes, about 10 in 100 residents with a chest infection treated in the home with close monitoring went to hospital, against 22 in 100 with usual care. No clear difference in deaths. Ask your care home what care is possible there, and say what you would want.",
+  "new": "In a Canadian trial in 22 nursing homes (2001 to 2005), about 10 in 100 residents with a chest infection treated in the home went to hospital, against 22 in 100 with usual care. No clear difference in deaths. One older trial, with research-nurse monitoring. Ask what care is possible where you live.",
+  "reason": "minor: restore the key limits (one older trial, research-nurse monitoring) and 'nursing homes' with dates; within 300 characters"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "captions.x",
+  "old": "Only about 1 in 3 people with a learning disability who died in English hospitals (2016 to 2021) had seen a liaison nurse, a learning disability specialist.",
+  "new": "Of adults with a learning disability who died in English hospitals (2016 to 2021) and whose deaths were reviewed, only about 1 in 3 had input from a liaison nurse, a learning disability specialist nurse.",
+  "reason": "major: population is reviewed deaths; measure is 'input from', not 'had seen'"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "captions.linkedin",
+  "old": "of people with a learning disability who died in English general hospitals between 2016 and 2021, only about 1 in 3 had learning disability liaison nurse input.",
+  "new": "of 4,742 adults with a learning disability who died in English general hospitals between 2016 and 2021 and whose deaths were reviewed, about 1 in 3 had learning disability liaison nurse input.",
+  "reason": "major: population is reviewed deaths"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "visual_text[18]",
+  "old": "Only about 1 in 3 people with a learning disability who died in English hospitals (2016 to 2021) had seen a learning disability liaison nurse.",
+  "new": "About 1 in 3 adults with a learning disability whose deaths in English hospitals (2016 to 2021) were reviewed had input from a learning disability liaison nurse.",
+  "reason": "major: population is reviewed deaths; measure is 'input from'"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "visual_brief.slides[1].text.body",
+  "old": "Only about 1 in 3 people with a learning disability who died in English hospitals (2016 to 2021) had seen a learning disability liaison nurse.",
+  "new": "About 1 in 3 adults with a learning disability whose deaths in English hospitals (2016 to 2021) were reviewed had input from a learning disability liaison nurse.",
+  "reason": "major: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "alt_text[1]",
+  "old": "Only about 1 in 3 people with a learning disability who died in English hospitals, 2016 to 2021, had seen a liaison nurse.",
+  "new": "About 1 in 3 adults with a learning disability whose deaths in English hospitals, 2016 to 2021, were reviewed had input from a liaison nurse.",
+  "reason": "major: population is reviewed deaths; measure is 'input from'"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "captions.x",
+  "old": "In England in 2021 to 2023, the middle age at death",
+  "new": "In England in 2021 to 2023, among deaths reviewed in the national programme, the middle age at death",
+  "reason": "minor: learning disability figures cover reviewed deaths only"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "captions.linkedin",
+  "old": "A review of studies of people's own experiences found that hospital passports (a record of the person's needs) and liaison nurses made hospital easier.",
+  "new": "A review of five studies of adults' own experiences found that, in two of them, hospital passports (a record of the person's needs) and liaison nurses were reported to improve the hospital experience.",
+  "reason": "minor: small qualitative review; benefit identified in two of five studies"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "visual_text[0]",
+  "old": "Men died 13 years younger, women 20 years younger",
+  "new": "In this inquiry, median age at death was 13 years lower for men and 20 years lower for women",
+  "reason": "minor: headline read as a general fact; add median and inquiry"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "visual_brief.slides[0].text.headline",
+  "old": "Men died 13 years younger, women 20 years younger",
+  "new": "In this inquiry, median age at death was 13 years lower for men and 20 years lower for women",
+  "reason": "minor: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "captions.x",
+  "old": "Problems found more often included care not being adjusted as needs changed, and carers not feeling listened to.",
+  "new": "In a reviewed subset, problems found more often than in similar deaths of people without a learning disability included care not being adjusted as needs changed, and carers not feeling listened to.",
+  "reason": "minor: comparison was in a subset against a comparator group"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "captions.linkedin",
+  "old": "Older people wait longer. At one large English emergency department in 2019,",
+  "new": "Older people's visits tend to last longer. At one large English emergency department in 2019,",
+  "reason": "major: study measured length of stay, not waiting time"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "captions.linkedin",
+  "old": "about 79 in 100 for people aged 85 or over.",
+  "new": "about 79 in 100 for people aged 85 or over. These count visits, not people, and longer stays may partly reflect more tests and assessment, not only waiting for a bed.",
+  "reason": "major: 'visits, not people' and tests-and-assessment caveat were missing"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "captions.bluesky",
+  "old": "Waiting hours on a trolley in A&E with an older person? Ask: can they drink? Can they get to the toilet? When are their usual medicines due? Can they change position? In one French A&E, 16 in 100 over-75s got a new pressure sore in a stay averaging 9 hours. The four asks are judgement, not tested.",
+  "new": "Hours on a trolley in A&E with an older person? Ask: can they drink, get to the toilet, change position? When are their usual medicines due? In one French emergency department, about 16 in 100 patients over 75 developed a new pressure sore, mostly reddened unbroken skin. These asks are judgement.",
+  "reason": "major: earliest-stage qualification omitted ('pressure sore' read as broken skin); 'A&E' not used for France; shortened to fit 300 characters (9-hour whole-sample average dropped)"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "captions.threads",
+  "old": "In one French emergency department, about 16 in 100 people over 75 got a new pressure sore in a stay averaging 9 hours.",
+  "new": "In one French emergency department, about 16 in 100 people over 75 developed a new pressure sore, mostly the earliest stage (reddened, unbroken skin), in stays that averaged 9 hours across all patients.",
+  "reason": "major: earliest-stage qualification omitted; 9 hours is the whole-sample average"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "visual_text[13]",
+  "old": "France, 602 adults, stays averaging 9 hours",
+  "new": "France, one emergency department, June 2010: 602 adults; new sores among those without one on arrival; stays averaging 9 hours",
+  "reason": "minor: rates use patients without a sore on arrival as denominator; one centre, June 2010"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "visual_brief.slides[1].text.kicker",
+  "old": "France, 602 adults, stays averaging 9 hours",
+  "new": "France, one emergency department, June 2010: 602 adults; new sores among those without one on arrival; stays averaging 9 hours",
+  "reason": "minor: same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "captions.linkedin",
+  "old": "In Spanish hospitals, missed Parkinson's doses",
+  "new": "In hospitals in the Basque Country, Spain, missed Parkinson's doses",
+  "reason": "minor: Spanish data are from one region"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "visual_text[2]",
+  "old": "These are judgement about basic care, not a trial finding.",
+  "new": "These four asks are a judgement about basic care, not a trial finding.",
+  "reason": "minor: grammar"
+ },
+ {
+  "tmp_id": "C15-P08",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "These are judgement about basic care, not a trial finding.",
+  "new": "These four asks are a judgement about basic care, not a trial finding.",
+  "reason": "minor: grammar, same fix in visual_brief"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "captions.linkedin",
+  "old": "In the other 2, the person died in hospital after delays in equipment and paperwork. These are single-hospital figures",
+  "new": "In the other 2, the person died in hospital after delays in equipment and paperwork. A further 19 requests that year did not go ahead: 10 because the person got worse very quickly, 7 because the family changed their mind and 2 for medical reasons. The project excluded these from its success rate. These are single-hospital figures",
+  "reason": "major: 59 of 61 used a selective denominator; 19 unsuccessful requests were excluded"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "captions.x",
+  "old": "found the usual hold-ups were getting equipment",
+  "new": "found that hold-ups included getting equipment",
+  "reason": "minor: 'the usual' read as a ranking"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "captions.linkedin",
+  "old": "found the usual hold-ups were getting equipment",
+  "new": "found that hold-ups included getting equipment",
+  "reason": "minor: 'the usual' read as a ranking"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "captions.threads",
+  "old": "found the usual hold-ups were equipment,",
+  "new": "found that hold-ups included equipment,",
+  "reason": "minor: 'the usual' read as a ranking"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "insight",
+  "old": "found the usual hold-ups were equipment,",
+  "new": "found that hold-ups included equipment,",
+  "reason": "minor: keep insight field consistent"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "captions.x",
+  "old": "died before they could leave, even though the middle wait was 1 day.",
+  "new": "died before they could leave; for the 94 who did get home, the middle (median) wait was 1 day.",
+  "reason": "minor: median wait of 1 day is for the 94 who got home"
+ },
+ {
+  "tmp_id": "C15-P09",
+  "where": "captions.linkedin",
+  "old": "died before they could leave, even though the middle (median) wait to discharge was 1 day. The 94 who got home lived a median of 9 days.",
+  "new": "died before they could leave. For the 94 who did get home, the middle (median) wait to discharge was 1 day, and they lived a median of 9 days.",
+  "reason": "minor: median wait of 1 day is for the 94 who got home; kept consistent with X"
+ },
+ {
+  "tmp_id": "C15-P02",
+  "where": "captions.bluesky",
+  "old": "In 43 US hospitals, 2 in 3 adults with pneumonia got more antibiotic days than needed. 93 in 100 of the extra days came from the discharge prescription. Extra days brought no fewer deaths or readmissions. We should write the last day as a date, with the total length, on every discharge antibiotic.",
+  "new": "In 43 US hospitals, 2 in 3 adults on general wards with pneumonia got more antibiotic days than needed. 93 in 100 extra days came from the discharge prescription. Extra days did not cut deaths or readmissions. We should write the last day as a date, with total length, on every discharge antibiotic.",
+  "reason": "minor: population narrowed (general wards, 2 in 3); rewritten to fit 300 characters"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.bluesky",
+  "old": "By 2013 the commonest cause of major trauma in England and Wales was a fall from under 2 metres, and about 1 in 4 cases were over 75. In one US centre, older people with rib fractures died more often than younger adults (22 v 10 in 100). After a low fall, look for head and chest injury.",
+  "new": "By 2013 the commonest cause of major trauma in the England and Wales registry was a fall from under 2 metres; about 1 in 4 cases were over 75. In one US centre, older people with rib fractures died more often than younger adults (22 v 10 in 100). After a low fall, look for head and chest injury.",
+  "reason": "minor: registry wording kept consistent across versions; shortened to fit platform limit"
+ },
+ {
+  "tmp_id": "C15-P03",
+  "where": "captions.threads",
+  "old": "By 2013, the commonest cause of major trauma in England and Wales was a fall from less than 2 metres (39 in 100 cases). In 1990 it was road collisions (59 in 100). About 1 in 4 cases were over 75.\n\nIn one US centre, older people with rib fractures died more often than younger adults (22 versus 10 in 100). About 1 in 20 older people who attended after a fall had bleeding inside the skull.\n\nAfter a low fall, we should look for head and chest injury, whatever the height.",
+  "new": "By 2013, the commonest cause of major trauma in the England and Wales trauma registry was a fall from less than 2 metres (39 in 100 cases). In 1990 it was road collisions (59 in 100). About 1 in 4 cases were over 75.\n\nIn one US centre, older people with rib fractures died more often than younger adults (22 versus 10 in 100). About 1 in 20 older people who attended after a fall had bleeding inside the skull.\n\nAfter a low fall, we should look for head and chest injury, whatever the height.",
+  "reason": "minor: registry wording kept consistent across versions; shortened to fit platform limit"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.bluesky",
+  "old": "UK trial of 1,055 unwell but stable older people referred for emergency admission: about 79 in 100 treated at home by a specialist team and 75 in 100 admitted were living at home 6 months later (no clear difference). About 6 versus 9 in 100 were in a care home. Ask what care at home would involve.",
+  "new": "UK trial of 1,055 unwell but stable older people: 79 in 100 treated at home and 75 in 100 admitted were living at home at 6 months (no clear difference). Care home: 6 v 9 in 100 (secondary outcome), but in month 1 more treated at home were moved to hospital. Ask what care at home would involve.",
+  "reason": "major: month-1 transfer to hospital added; minor: secondary outcome flagged and deaths split (17 v 18 in 100); rewritten to fit platform limit"
+ },
+ {
+  "tmp_id": "C15-P05",
+  "where": "captions.threads",
+  "old": "Can an older person who is unwell be treated at home instead of in hospital? In a UK trial of 1,055 unwell but stable older people (average age 83), about 79 in 100 treated at home by a specialist team and 75 in 100 admitted were living at home six months later. No clear difference. About 17 in 100 in each group had died.\n\nAbout 6 in 100 treated at home and 9 in 100 admitted were in residential care. It applies to selected people. Ask what care at home would involve.",
+  "new": "In a UK trial of 1,055 unwell but stable older people (average age 83), about 79 in 100 treated at home by a specialist team and 75 in 100 admitted were living at home six months later. No clear difference. About 17 in 100 treated at home and 18 in 100 admitted had died.\n\nAbout 6 in 100 and 9 in 100 were in residential care (secondary outcome), but in month 1 more of those treated at home were transferred to hospital. It applies to selected people. Ask what care at home would involve.",
+  "reason": "major: month-1 transfer to hospital added; minor: secondary outcome flagged and deaths split (17 v 18 in 100); rewritten to fit platform limit"
+ },
+ {
+  "tmp_id": "C15-P07",
+  "where": "captions.bluesky",
+  "old": "Men with a learning disability in a south-west England inquiry died a median of 13 years younger than men in general, women 20 years younger. About 37 in 100 of these deaths were from causes good care can usually treat, against 13 in 100. Hospitals should make adjustments. Ask for the liaison nurse.",
+  "new": "Men with a learning disability in a south-west England inquiry (2010 to 2012) died a median 13 years younger than men in general, women 20 years younger. About 37 in 100 deaths were from causes good care can usually treat, against 13 in 100. Ask hospitals for adjustments and the liaison nurse.",
+  "reason": "minor: dates (2010 to 2012) added; shortened to fit 300 characters"
+ }
+]

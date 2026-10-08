@@ -1,0 +1,1334 @@
+{
+ "category": "C19",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 3
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 4
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C19-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "say what would shorten it",
+     "fix": "say which signs would shorten the survival time"
+    }
+   ],
+   "flags": [
+    "'Our suggestion:' close repeats in P01 and P02"
+   ]
+  },
+  {
+   "tmp_id": "C19-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Say which signs would shorten it.",
+     "fix": "Say which signs would shorten the survival time."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'Our suggestion is a judgement, not a tested remedy.'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "were within a third of the true time about 20 in 100 times; 63 in 100 were too optimistic",
+     "fix": "were within a third of the true time in about 20 in 100 cases. About 63 in 100 were too optimistic."
+    }
+   ],
+   "flags": [
+    "'ask a colleague' has no condition (when you know the patient well)"
+   ]
+  },
+  {
+   "tmp_id": "C19-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "say what would shorten it",
+     "fix": "say which signs would shorten the survival time"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "check whether it helps that person",
+     "fix": "ask the care team how they will tell whether it is helping"
+    },
+    {
+     "item": "6",
+     "quote": "In the morning, both groups reported slightly less breathlessness.",
+     "fix": "Both groups, on oxygen and on room air, said their morning breathlessness eased slightly."
+    }
+   ],
+   "flags": [
+    "'natural course of the illness' is soft",
+    "possible false reassurance: 'try a fan first' for a breathless person"
+   ]
+  },
+  {
+   "tmp_id": "C19-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A double-blind trial",
+     "fix": "A trial in which neither the patients nor the staff knew who got oxygen"
+    },
+    {
+     "item": "3",
+     "quote": "3 people (9 in 100) became distressed",
+     "fix": "state how many people were in that small study, and say which end of the 0 to 10 scale is worse"
+    },
+    {
+     "item": "6",
+     "quote": "From the start to day 6, morning breathlessness on a 0 to 10 scale fell by 0.9 points with oxygen and 0.7 with room air. That difference was not clear.",
+     "fix": "Morning breathlessness on a 0 to 10 scale fell by 0.9 points with oxygen and 0.7 with room air. The trial could not show that this gap was real."
+    }
+   ],
+   "flags": [
+    "very long for a lay reader",
+    "'In the morning, both groups...' repeats the 0.9 and 0.7 result in vaguer words"
+   ]
+  },
+  {
+   "tmp_id": "C19-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "check oxygen helps",
+     "fix": "check whether oxygen helps the person"
+    },
+    {
+     "item": "6",
+     "quote": "In a small trial of 50 people with advanced illness, five minutes of a hand-held fan on the face eased breathlessness more than a fan on the legs.",
+     "fix": "A small trial of 50 people with advanced illness compared a hand-held fan on the face with a fan on the legs. Five minutes on the face eased breathlessness more."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "check it helps that person",
+     "fix": "ask the care team how they will tell whether it is helping"
+    },
+    {
+     "item": "6",
+     "quote": "In the morning, both groups reported slightly less breathlessness.",
+     "fix": "Both groups, on oxygen and on room air, said their morning breathlessness eased slightly."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "About 55 in 100 died.",
+     "fix": "About 55 in 100 died within the 18 months."
+    }
+   ],
+   "flags": [
+    "'The study does not show that explaining the course made the difference' does not match the finding, which is about proxies understanding",
+    "'much less likely' has no figure",
+    "two different 41 in 100 figures close together"
+   ]
+  },
+  {
+   "tmp_id": "C19-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "That is an observational finding.",
+     "fix": "That finding comes from watching what happened, not from a trial."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "fewer burdensome interventions",
+     "fix": "fewer hospital transfers, drips and tube feeding"
+    }
+   ],
+   "flags": [
+    "first sentence is 26 words"
+   ]
+  },
+  {
+   "tmp_id": "C19-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "About 53 in 100 had a fever, 41 in 100 had pneumonia and 55 in 100 died.",
+     "fix": "Within those 18 months, about 53 in 100 had a fever, 41 in 100 had pneumonia and 55 in 100 died."
+    },
+    {
+     "item": "6",
+     "quote": "Residents whose health care proxies (the person who decides for them) understood the likely course were linked with fewer burdensome interventions (hospital transfers, drips, tube feeding) at the end.",
+     "fix": "Where the health care proxy (the person who decides for the resident) understood the likely course, residents had fewer hospital transfers, drips and tube feeding at the end. This is a link, not proof of cause."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P04",
+   "platform": "x",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 1
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Where people were asked was linked with the place they named.",
+     "fix": "Split into two posts: one on missing wishes, one on changing wishes. The place where people were asked was linked with the answer they gave."
+    },
+    {
+     "item": "2",
+     "quote": "which was not tested for statistical significance",
+     "fix": "and the studies did not check whether this could be chance"
+    },
+    {
+     "item": "3",
+     "quote": "estimates ranged from about 3 in 10 to nearly 9 in 10",
+     "fix": "the share of patients who preferred home ranged from about 3 in 10 to nearly 9 in 10"
+    },
+    {
+     "item": "6",
+     "quote": "In 10 studies, mostly of lower quality, about 1 in 5 patients changed their preference as illness progressed, which was not tested for statistical significance.",
+     "fix": "In 10 studies, mostly of lower quality, about 1 in 5 patients changed their preference as illness progressed. The studies did not check whether this could be chance."
+    },
+    {
+     "item": "7",
+     "quote": "Among the views that were recorded, most chose home.",
+     "fix": "Among the recorded UK views, most chose home. Across the larger review, the share preferring home varied from about 3 in 10 to nearly 9 in 10 between studies."
+    }
+   ],
+   "flags": [
+    "'Once the missing views are counted' is figurative",
+    "'nobody knows' is absolute",
+    "two reviews crammed into one post"
+   ]
+  },
+  {
+   "tmp_id": "C19-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "the change was not tested for statistical significance",
+     "fix": "the studies did not check whether the change could be chance"
+    },
+    {
+     "item": "7",
+     "quote": "most people chose home",
+     "fix": "Among the recorded UK views most chose home; in the international review the share preferring home ranged from about 3 in 10 to nearly 9 in 10 between studies."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'None of this weakens the case for helping people who choose home. It shows why each person should be asked.'",
+    "'Once the missing views were counted' is figurative",
+    "last-paragraph first sentence is about 27 words"
+   ]
+  },
+  {
+   "tmp_id": "C19-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "most recorded views favoured home",
+     "fix": "most recorded wishes about where to die favoured home"
+    }
+   ],
+   "flags": [
+    "'A separate review:' fragment"
+   ]
+  },
+  {
+   "tmp_id": "C19-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "That was not tested for statistical significance",
+     "fix": "The studies did not check whether this could be chance"
+    }
+   ],
+   "flags": [
+    "'Counting the missing views' is figurative",
+    "'That' is ambiguous"
+   ]
+  },
+  {
+   "tmp_id": "C19-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A 2008 Cochrane review",
+     "fix": "A 2008 review of all the trials"
+    },
+    {
+     "item": "6",
+     "quote": "A 2025 review of 14 studies found general agreement that the sound does not distress the dying person, but only 2 of the studies looked at patients.",
+     "fix": "A 2025 review of 14 studies found general agreement that the sound does not distress the dying person. Only 2 of the studies looked at patients."
+    }
+   ],
+   "flags": [
+    "figurative: 'swallow them away', 'quiets the sound'",
+    "'does not distress' could read as false reassurance despite the caveat"
+   ]
+  },
+  {
+   "tmp_id": "C19-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A Cochrane review found no evidence that any medicine or other measure was better than placebo",
+     "fix": "A review of trials found no evidence that any medicine or other measure was better than a dummy treatment (placebo)"
+    },
+    {
+     "item": "6",
+     "quote": "the abstract does not say whether that difference was more than chance",
+     "fix": "we do not know whether that gap was more than chance"
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'That tested prevention, not treatment.'",
+    "'the abstract' is a leak of source talk",
+    "very long and clinical for a lay reader"
+   ]
+  },
+  {
+   "tmp_id": "C19-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "Changing position is one usual way to manage it.",
+     "fix": "Changing position is one usual way to manage it, but no trial shows that it or any medicine quiets the sound."
+    }
+   ],
+   "flags": [
+    "'does not distress them' could read as false reassurance",
+    "'few looked at patients' has no count"
+   ]
+  },
+  {
+   "tmp_id": "C19-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "Changing position is one usual way to manage it.",
+     "fix": "Changing position is one usual way to manage it, but no trial shows that it or any medicine quiets the sound."
+    }
+   ],
+   "flags": [
+    "'does not distress' could read as false reassurance"
+   ]
+  },
+  {
+   "tmp_id": "C19-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Those who gave spending details reported a median of £370 over the 3 months.",
+     "fix": "Those who gave details of money spent reported a median of £370 over the 3 months."
+    }
+   ],
+   "flags": [
+    "'The published abstract does not say' is source talk"
+   ]
+  },
+  {
+   "tmp_id": "C19-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Among the 72.5% who gave details of spending, the median was £370 over the 3 months.",
+     "fix": "Among the 72.5% who gave details of money spent, the median was £370 over the 3 months."
+    }
+   ],
+   "flags": [
+    "'assumes unlimited unpaid time' is a strong rhetorical claim"
+   ]
+  },
+  {
+   "tmp_id": "C19-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a median of about 69.5 hours",
+     "fix": "a median (the middle value) of about 69.5 hours"
+    },
+    {
+     "item": "6",
+     "quote": "Carers of people who died of cancer in England reported a median of about 69.5 hours of care a week in the last 3 months (survey of 1,504 bereaved relatives, 28.5% replied).",
+     "fix": "Carers of people who died of cancer in England reported a median of about 69.5 hours of care a week in the last 3 months. The survey had 1,504 bereaved relatives, and 28.5% replied."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a median of about 69 and a half hours",
+     "fix": "a median (the middle value) of about 69 and a half hours"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Doses are approximate",
+     "fix": "Converting from levodopa to the patch dose is approximate"
+    },
+    {
+     "item": "6",
+     "quote": "so make it a decision: ask what is causing discomfort",
+     "fix": "so decide deliberately whether to stop them: ask what is making the person uncomfortable"
+    }
+   ],
+   "flags": [
+    "'(in its section on surgery)' leaves the reader unsure how far the list applies"
+   ]
+  },
+  {
+   "tmp_id": "C19-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "it was given in 31 in 100 of those cases",
+     "fix": "say whether 31 in 100 counts all people or only those prescribed one"
+    },
+    {
+     "item": "6",
+     "quote": "If neither is possible, a rotigotine skin patch is the most widely used non-oral option, but no trials show it works at the end of life, and the advice rests on case series and expert opinion.",
+     "fix": "If neither is possible, a rotigotine skin patch is the most widely used non-oral option. No trials show it works at the end of life, and the advice rests on case series and expert opinion."
+    }
+   ],
+   "flags": [
+    "point 3 is one very dense paragraph"
+   ]
+  },
+  {
+   "tmp_id": "C19-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(no trials)",
+     "fix": "(no trials show it works at the end of life)"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "figurative verb: 'picked up'",
+    "negation-then-correction: 'not to forecast a date or limit treatment'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "negation-then-correction: 'a reason to talk, not a reason to label'; 'not strictly a year'",
+    "closing sentence is long"
+   ]
+  },
+  {
+   "tmp_id": "C19-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "7",
+     "quote": "picked up about 67 in 100 people who died within 6 to 18 months. But only about 37 in 100 of those flagged died in that window.",
+     "fix": "Of 100 people who died in that window, about 67 had been flagged. Of 100 people flagged, about 37 died in that window."
+    }
+   ],
+   "flags": [
+    "figurative verb: 'picked up'",
+    "negation-then-correction: 'not to forecast'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "7",
+     "quote": "picked up about 67 in 100 people who died within 6 to 18 months. Of those it flagged, about 37 in 100 died in that window.",
+     "fix": "Of 100 people who died in that window, about 67 had been flagged. Of 100 people flagged, about 37 died in that window."
+    }
+   ],
+   "flags": [
+    "figurative verb: 'picked up'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Pooled studies suggest",
+     "fix": "Combining studies suggests"
+    },
+    {
+     "item": "3",
+     "quote": "About 7 in 10 improved with grief-focused therapy.",
+     "fix": "After 20 weeks, about 7 in 10 improved with grief-focused therapy."
+    }
+   ],
+   "flags": [
+    "two names for the same grief ('prolonged grief disorder', 'complicated grief')",
+    "negation-then-correction: 'another treatment, not with no treatment'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A meta-analysis of 14 studies found a pooled prevalence of about 1 in 10 (9.8%)",
+     "fix": "A review that combined 14 studies found that about 1 in 10 (9.8%) had it"
+    },
+    {
+     "item": "6",
+     "quote": "A meta-analysis of 14 studies found a pooled prevalence of about 1 in 10 (9.8%) among adults bereaved by a non-violent death.",
+     "fix": "Combining 14 studies, about 1 in 10 (9.8%) of adults bereaved by a non-violent death had it."
+    }
+   ],
+   "flags": [
+    "'randomised' and 'responded' are unglossed",
+    "'Grief ... has a name' opening mildly staged"
+   ]
+  },
+  {
+   "tmp_id": "C19-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "helped about 7 in 10, against about 3 in 10 with another therapy",
+     "fix": "after 20 weeks had improved in about 7 in 10, against about 3 in 10 with another therapy"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "in pooled studies",
+     "fix": "when studies were combined"
+    },
+    {
+     "item": "3",
+     "quote": "A grief-focused therapy helped about 7 in 10.",
+     "fix": "After 20 weeks, a grief-focused therapy helped about 7 in 10."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "This comes from a review that combined 112 observational studies",
+     "fix": "This comes from a review that combined 112 studies that watched what happened without assigning treatments"
+    },
+    {
+     "item": "6",
+     "quote": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in deprivation.",
+     "fix": "The more deprived the area, the more likely a death in hospital rather than at home, and the less likely specialist palliative care."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "socioeconomic position",
+     "fix": "how deprived their area was"
+    },
+    {
+     "item": "6",
+     "quote": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in area deprivation.",
+     "fix": "The more deprived the area, the more likely a death in hospital rather than at home, and the less likely specialist palliative care."
+    }
+   ],
+   "flags": [
+    "'acute hospital care' and 'observational' unglossed"
+   ]
+  },
+  {
+   "tmp_id": "C19-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "specialist palliative care",
+     "fix": "specialist palliative care (a team focused on symptom relief and support)"
+    },
+    {
+     "item": "6",
+     "quote": "In a review of studies from high-income countries, people in the poorest neighbourhoods were more likely to die in hospital than at home, and less likely to get specialist palliative care.",
+     "fix": "A review of studies from high-income countries found that people in the poorest neighbourhoods were more likely to die in hospital than at home. They were also less likely to get specialist palliative care."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C19-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "112 observational studies",
+     "fix": "112 studies that watched what happened without assigning treatments"
+    }
+   ],
+   "flags": [
+    "'specialist palliative care' unglossed"
+   ]
+  },
+  {
+   "tmp_id": "C19-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A US trial randomised 151 people",
+     "fix": "A US trial randomly assigned 151 people"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Ask this series each take one question to put to a care team.",
+     "fix": "Delete it and end on: If it is suggested to you, ask whether it would be given alongside your current treatment."
+    },
+    {
+     "item": "6",
+     "quote": "Among the 107 who completed the 12-week assessments, quality of life was better with palliative care, and fewer had depressive symptoms (16 in 100, compared with 38 in 100).",
+     "fix": "107 people completed the 12-week assessments. Their quality of life was better with palliative care. Fewer had depressive symptoms: 16 in 100, compared with 38 in 100."
+    }
+   ],
+   "flags": [
+    "empty close: series plug",
+    "'stigma' unglossed"
+   ]
+  },
+  {
+   "tmp_id": "C19-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "randomised 151 people with newly diagnosed advanced (metastatic) non-small-cell lung cancer",
+     "fix": "randomly assigned 151 people with newly diagnosed advanced lung cancer that had spread"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Ask this series each take one question to put to a care team.",
+     "fix": "Delete it and end on: You can also ask what it would add."
+    },
+    {
+     "item": "6",
+     "quote": "At 12 weeks, among the 107 who completed the assessments (27 people had died by then), the early palliative care group had a better quality of life.",
+     "fix": "107 people completed the 12-week assessments, and 27 had died by then. The early palliative care group had a better quality of life."
+    }
+   ],
+   "flags": [
+    "setup question answered by the post: 'Why ask?'",
+    "'qualitative study' unglossed",
+    "empty close: series plug"
+   ]
+  },
+  {
+   "tmp_id": "C19-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Palliative care can run alongside treatment for the illness itself.",
+     "fix": "Palliative care (care focused on symptoms, support and planning ahead) can be given alongside treatment for the illness itself."
+    },
+    {
+     "item": "6",
+     "quote": "In a trial of 151 people with advanced lung cancer, those given it early had better quality of life at 12 weeks, and fewer had depressive symptoms (16 in 100 vs 38 in 100 among the 107 assessed).",
+     "fix": "A trial of 151 people with advanced lung cancer gave some palliative care early. At 12 weeks, among the 107 assessed, quality of life was better and fewer had depressive symptoms (16 in 100 vs 38 in 100)."
+    }
+   ],
+   "flags": [
+    "figurative: 'run alongside'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A US trial randomised 151 people",
+     "fix": "A US trial randomly assigned 151 people"
+    }
+   ],
+   "flags": [
+    "figurative: 'run alongside'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P12",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "On three US television programmes in 1994 to 1995 (ER, Chicago Hope and Rescue 911), about 2 in 3 people given CPR appeared to survive to leave hospital.",
+     "fix": "On three US television programmes from 1994 to 1995, about 2 in 3 people given CPR appeared to survive to leave hospital. The programmes were ER, Chicago Hope and Rescue 911."
+    }
+   ],
+   "flags": [
+    "negation shape: 'argues neither for nor against CPR'",
+    "'most common kind of heart stop' not named"
+   ]
+  },
+  {
+   "tmp_id": "C19-P12",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "The figures are unadjusted",
+     "fix": "The figures have not been adjusted for differences between patients"
+    },
+    {
+     "item": "6",
+     "quote": "The most common kind of heart stop, in about 7 in 10 arrests, had survival of about 1 in 10.",
+     "fix": "About 7 in 10 arrests were the most common kind of heart stop. About 1 in 10 of those people survived to leave hospital."
+    }
+   ],
+   "flags": [
+    "negation shape: 'These are averages, not predictions for any one person.'"
+   ]
+  },
+  {
+   "tmp_id": "C19-P12",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "people given CPR",
+     "fix": "people given CPR (chest compressions to restart a stopped heart)"
+    }
+   ],
+   "flags": [
+    "'audit data' and 'arrest' unglossed",
+    "'figures that fit you' may promise more than a doctor can give"
+   ]
+  },
+  {
+   "tmp_id": "C19-P12",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "people given CPR",
+     "fix": "people given CPR (chest compressions to restart a stopped heart)"
+    }
+   ],
+   "flags": [
+    "'audit data' and 'arrest' unglossed"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,618 @@
+[
+ {
+  "tmp_id": "C06-P01",
+  "where": "captions.x",
+  "old": "\n\nOptions: a lower dose, a different blood pressure drug, or asking whether it is still needed. A UK narrative review (Drugs & Aging, 2020) judged switching the best approach, with a loop diuretic justified only when other options fail. That is expert opinion, not a trial result.",
+  "new": "\n\nA UK narrative review (Drugs & Aging, 2020) judged switching the best approach, with a loop diuretic justified only when other options fail. That is expert opinion, not a trial result.\n\nThe options are a lower dose, a different blood pressure drug, or asking whether the drug is still needed.",
+  "reason": "cold read item 5: end on the action, with the expert-opinion caveat before it"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "captions.linkedin",
+  "old": "How often does this one happen? In Ontario,",
+  "new": "In Ontario,",
+  "reason": "style: removed self-answered setup question"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "captions.linkedin",
+  "old": "about 1 in 4 had an event within 2 months that may have been due to the diuretic: worse kidney function, a drop in blood pressure on standing, abnormal salts or a fall. Small study",
+  "new": "about 1 in 4 had an event within 2 months. It may have been due to the diuretic. The events were worse kidney function, a drop in blood pressure on standing, abnormal salts or a fall. Small study",
+  "reason": "cold read item 6: split one long sentence; hedge kept"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "captions.bluesky",
+  "old": "Ankle swelling after amlodipine can be a side effect of the drug.\n\nOntario dispensing data: 14 in 1,000 people aged 66+ started on this drug type got a loop diuretic within 3 months; 7 in 1,000 after other blood pressure tablets. Shows who, not why.\n\nReview the first drug before adding a second.",
+  "new": "Ankle swelling can be a side effect of amlodipine.\n\nOntario dispensing data: 14 in 1,000 aged 66+ starting a calcium channel blocker such as amlodipine got a loop diuretic within 3 months; 7 in 1,000 after other blood pressure tablets. Shows who, not why.\n\nReview that drug before adding another.",
+  "reason": "cold read item 3: 'this drug type' named (calcium channel blocker such as amlodipine); kept within 300 characters"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "captions.threads",
+  "old": "started on this type of drug",
+  "new": "started on a calcium channel blocker such as amlodipine",
+  "reason": "cold read item 3: name the drug type"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "captions.threads",
+  "old": "Ankle swelling that starts after amlodipine can be a side effect of amlodipine.",
+  "new": "Swollen ankles that start after amlodipine can be a side effect of the drug.",
+  "reason": "flag: opening repeated X and LinkedIn verbatim; varied"
+ },
+ {
+  "tmp_id": "C06-P02",
+  "where": "captions.x",
+  "old": "In a UK study of 120 people taking a statin, those told that constipation was a 'common' side effect guessed on average that 34 in 100 people would get it.",
+  "new": "A UK study gave 120 people taking a statin a statement about constipation. Those told it was 'common' guessed on average that 34 in 100 people would get it.",
+  "reason": "cold read item 6: split dense sentence; study design stated"
+ },
+ {
+  "tmp_id": "C06-P02",
+  "where": "captions.linkedin",
+  "old": "The limits: the Leeds study was small, allocation was not concealed, and people answered straight after reading one statement.",
+  "new": "The limits are these. The Leeds study was small. The people running it knew in advance which statement each person would get. People answered straight after reading one statement.",
+  "reason": "cold read items 2 and 6: 'allocation was not concealed' put in plain words; split list sentence"
+ },
+ {
+  "tmp_id": "C06-P02",
+  "where": "captions.bluesky",
+  "old": "Those given the number guessed 8.",
+  "new": "Those given the number guessed 8 in 100, still too high.",
+  "reason": "cold read items 3 and 4: unit and meaning added (8 in 100 against the study figure of 2.5 in 100)"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "captions.x",
+  "old": "They also said people with frailty and many medicines should be prioritised for a review with the patient, but time pressure got in the way.\n\nThey also said carrying on a medicine was easier than stopping it, because stopping needs a conversation, and that takes time.",
+  "new": "They also said people who are frail and take many medicines should be prioritised for a review with the patient, but time pressure got in the way.\n\nThe same professionals said carrying on a medicine was easier than stopping it, because stopping needs a conversation, and that takes time.",
+  "reason": "cold read item 2: 'frailty' put in plain words; repeated 'They also' varied"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "captions.x",
+  "old": "Several called it a 'tick box' exercise.",
+  "new": "Several called it a 'tick box' exercise, meaning it was done to be recorded as done.",
+  "reason": "flag: 'tick box' idiom left unexplained"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "captions.x",
+  "old": "In a survey of pharmacists who do them and chose to reply, most were by phone, which still involves the person.",
+  "new": "A survey of pharmacists who do them, answered by those who chose to reply, found most were by phone. A phone call still involves the person.",
+  "reason": "cold read item 6: split; survey limitation kept"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "captions.linkedin",
+  "old": "They also said people with frailty and many medicines should be prioritised for a review with the patient, but time pressure got in the way.\n\nThey also said it was easier to carry on a medicine than to stop it.",
+  "new": "They also said people who are frail and take many medicines should be prioritised for a review with the patient, but time pressure got in the way.\n\nThe same professionals said it was easier to carry on a medicine than to stop it.",
+  "reason": "cold read item 2 and flag: plain words for frailty; repeated 'They also said' varied"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "captions.linkedin",
+  "old": "Several called it a 'tick box' exercise.",
+  "new": "Several called it a 'tick box' exercise, meaning it was done to be recorded as done.",
+  "reason": "flag: 'tick box' idiom left unexplained"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "captions.linkedin",
+  "old": "The interviews also predate a change: since 2020, practices in England have offered a 'structured medication review' to some people, such as care home residents and people on many medicines.",
+  "new": "The interviews were done before a change. Since 2020, practices in England have offered a 'structured medication review' to some people. These include care home residents and people on many medicines.",
+  "reason": "cold read item 6: split long sentence with colon"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.x",
+  "old": "A used fentanyl patch still holds",
+  "new": "A used fentanyl patch (a strong painkiller) still holds",
+  "reason": "cold read item 2 (variant-consistent): fentanyl explained at first use"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.x",
+  "old": "Three habits for fentanyl or buprenorphine patches.",
+  "new": "Three habits for strong painkiller patches (fentanyl or buprenorphine).",
+  "reason": "cold read item 2: plain words first"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.x",
+  "old": "In one Swedish region's incident reports, an old patch left in place was behind 7 of 13 reports of too high a dose (reports are mostly of patches applied by health staff).",
+  "new": "One Swedish region's incident reports included 13 reports of too high a dose. In 7, an old patch had been left in place. Most reports were of patches put on by health staff.",
+  "reason": "cold read item 6 and flag: split, literal verb instead of 'was behind'"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.linkedin",
+  "old": "A used fentanyl patch still holds",
+  "new": "A used fentanyl patch (a strong painkiller) still holds",
+  "reason": "cold read item 2 (variant-consistent): fentanyl explained at first use"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.linkedin",
+  "old": "If you care for someone who uses an opioid patch,",
+  "new": "If you care for someone who uses a strong painkiller (opioid) patch,",
+  "reason": "cold read item 2: plain words"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.linkedin",
+  "old": "an old patch left in place was behind 7 of the 13 reports of too high a dose. Incident reports can't show how often this happens overall, but the fix is easy: check for the old patch, remove it, and write down where and when the new one went on.",
+  "new": "7 of the 13 reports of too high a dose involved an old patch left in place. Incident reports can't show how often this happens overall. The habit: check for the old patch, remove it, and write down where and when the new one went on.",
+  "reason": "cold read item 6 and flags: split, literal verb, removed 'the fix is easy' (false reassurance)"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.bluesky",
+  "old": "A used fentanyl patch still holds enough medicine",
+  "new": "A used fentanyl patch (a strong painkiller) still holds enough medicine",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.bluesky",
+  "old": "Three habits: old patch off before the new one goes on; no hot water bottles or heat pads over it; fold used patches",
+  "new": "Three habits. Old patch off before the new one goes on. No hot water bottles or heat pads over it. Fold used patches",
+  "reason": "cold read item 6: list in semicolons split into sentences"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.threads",
+  "old": "A used fentanyl patch still holds",
+  "new": "A used fentanyl patch (a strong painkiller) still holds",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.threads",
+  "old": "In one Swedish region's incident reports, an old patch left on was behind 7 of 13 too-high-dose reports.",
+  "new": "In one Swedish region's incident reports, 7 of 13 too-high-dose reports involved an old patch left on.",
+  "reason": "flag: literal verb instead of 'was behind'"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "captions.threads",
+  "old": "Fold used patches sticky sides together and dispose of them",
+  "new": "Fold used patches sticky sides together; dispose of them",
+  "reason": "length: keep within 500 characters after adding the plain-word gloss"
+ },
+ {
+  "tmp_id": "C06-P05",
+  "where": "captions.x",
+  "old": "Read such trials as a chain: found, recommended, acted on, kept, outcome changed. At each step, ask whether it differed from the control group.\n\nMore posts in the Reading the evidence series take one study apart at a time.",
+  "new": "Check such trials in order: found, recommended, acted on, kept, outcome changed. At each step, ask whether the reviewed group differed from the control group.",
+  "reason": "cold read item 5: empty series-promotion close replaced by the practical test; image words removed"
+ },
+ {
+  "tmp_id": "C06-P05",
+  "where": "captions.linkedin",
+  "old": "Follow the chain:",
+  "new": "The steps, in order:",
+  "reason": "flag: metaphor removed"
+ },
+ {
+  "tmp_id": "C06-P05",
+  "where": "captions.linkedin",
+  "old": "\n\nMore posts in the Reading the evidence series take one study apart at a time.",
+  "new": "",
+  "reason": "cold read item 5: empty series-promotion close removed; the post already ends on the test"
+ },
+ {
+  "tmp_id": "C06-P05",
+  "where": "captions.bluesky",
+  "old": "OPERAM randomised 2,008 patients aged 70+ to a medicines review or usual care. Review flagged a possible change for 86 in 100.\n\nIn each group, about 42 in 100 had an overused medicine at 2 months and about 22 in 100 were readmitted because of a medicine in a year.\n\nCheck every step against control.",
+  "new": "OPERAM: 2,008 people aged 70+ got a medicines review or usual care. It flagged a change for 86 in 100.\n\nIn both groups, about 42 in 100 took an overused medicine at 2 months and about 22 in 100 were readmitted for a medicine problem in a year. No clear difference.\n\nCheck each step against control.",
+  "reason": "cold read item 4: result that went the other way stated (no clear difference); kept within 300 characters"
+ },
+ {
+  "tmp_id": "C06-P05",
+  "where": "captions.threads",
+  "old": "A European trial (OPERAM: 2,008 people aged 70 or over in hospital, about half assigned to a medicines review) flagged a possible medicines change for 86 in 100 of those reviewed.",
+  "new": "A European trial called OPERAM studied 2,008 people aged 70 or over in hospital. About half were assigned to a medicines review. It flagged a possible medicines change for 86 in 100 reviewed.",
+  "reason": "cold read item 6: split parenthesis-heavy sentence"
+ },
+ {
+  "tmp_id": "C06-P06",
+  "where": "captions.x",
+  "old": "Doctors discharging older people were asked to predict whether this person would have a medicines problem needing healthcare (a hospital readmission or community healthcare) in the next 8 weeks.",
+  "new": "Doctors discharging older people were asked to predict, for each patient, whether a medicines problem would need healthcare in the next 8 weeks (a hospital readmission or community healthcare).",
+  "reason": "cold read item 6 and flag: clearer sentence, 'this person' removed"
+ },
+ {
+  "tmp_id": "C06-P06",
+  "where": "captions.linkedin",
+  "old": "Doctors discharging older people were asked to predict whether this person would have a medicines problem needing healthcare (a hospital readmission or community healthcare) in the next 8 weeks.",
+  "new": "Doctors discharging older people were asked to predict, for each patient, whether a medicines problem would need healthcare in the next 8 weeks (a hospital readmission or community healthcare).",
+  "reason": "cold read item 6: clearer sentence"
+ },
+ {
+  "tmp_id": "C06-P06",
+  "where": "captions.x",
+  "old": "We think medicines follow-up after discharge should not depend on a hunch. Whether routine follow-up prevents harm is not yet settled.",
+  "new": "Whether routine follow-up prevents harm is not yet settled. We think medicines follow-up after discharge should not depend on a hunch.",
+  "reason": "cold read item 5: caveat before the position; ends on the position"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.x",
+  "old": "there is usually no box of it at home. Name it.",
+  "new": "there is usually no box of it at home. Tell the hospital team about it.",
+  "reason": "cold read flag: terse 'Name it.' made clear"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.x",
+  "old": "Also name anything given or supplied by a hospital clinic,",
+  "new": "Also tell them about anything given or supplied by a hospital clinic,",
+  "reason": "consistent with the change above"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.x",
+  "old": "(155 replies, 39% response)",
+  "new": "(155 people replied, about 4 in 10 of those asked)",
+  "reason": "cold read item 3: plain reading of the response rate"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.x",
+  "old": "Some combinations could interact; in a review of studies, the one most often reported was a possible raised bleeding risk with ginkgo, garlic or ginseng taken with aspirin or warfarin.",
+  "new": "Some combinations could interact. A review of studies found the one most often reported was a possible raised bleeding risk. That was with ginkgo, garlic or ginseng taken with aspirin or warfarin.",
+  "reason": "cold read item 6: split; 'possible' kept"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.linkedin",
+  "old": "NICE guidance says the hospital should list all of a person's medicines, including those bought over the counter and herbal or complementary remedies, and should involve the family where appropriate.",
+  "new": "NICE guidance says the hospital should list all of a person's medicines. That includes those bought over the counter and herbal or complementary remedies. It also says to involve the family where appropriate.",
+  "reason": "cold read item 6: split"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.bluesky",
+  "old": "Hospital lists of your medicines often have something missing. A list built from the boxes at home misses the 6-monthly bone injection (denosumab), anything from a hospital clinic, and what you buy yourself: vitamins, herbal remedies.\n\nThen add eye drops, inhalers, patches, creams.",
+  "new": "Hospital medicine lists often miss something. A list from the boxes at home misses the 6-monthly bone injection (denosumab). It also misses hospital clinic medicines and what you buy: vitamins, herbal remedies.\n\nTell staff about these too, and add eye drops, inhalers, patches, creams.",
+  "reason": "cold read items 5 and 6: who to tell added; long sentence split"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.threads",
+  "old": "A list built from the boxes at home will miss the six-monthly bone injection (denosumab), anything from a hospital clinic, and anything you buy yourself, including vitamins and herbal remedies.",
+  "new": "A list built from the boxes at home will miss the six-monthly bone injection (denosumab). It also misses anything from a hospital clinic and anything you buy, including vitamins and herbal remedies.",
+  "reason": "cold read item 6: split"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.threads",
+  "old": "When people are admitted to hospital, their list of medicines often has something missing.",
+  "new": "When people are admitted to hospital, their medicine list often has something missing.",
+  "reason": "length: keep within 500 characters"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "captions.threads",
+  "old": "Then add eye drops, inhalers, patches and creams.",
+  "new": "Tell the hospital team about these, and add eye drops, inhalers, patches and creams.",
+  "reason": "cold read item 5: who to tell added"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.x",
+  "old": "insulin or a gliclazide-type tablet,",
+  "new": "insulin or a diabetes tablet such as gliclazide,",
+  "reason": "cold read item 2: plain words for the drug"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.x",
+  "old": "In 16 Norfolk GP practices, about 3 in 10 people aged 70 or over with type 2 diabetes on these drugs had an HbA1c below 53 mmol/mol (frailty was unrecorded). This was just as common in people with kidney disease or dementia, who are more prone to low sugars.",
+  "new": "A study in 16 Norfolk GP practices found that about 3 in 10 people aged 70 or over with type 2 diabetes on these drugs had an HbA1c below 53 mmol/mol, a low result. It was just as common in people with kidney disease or dementia, who are more prone to low blood sugars. The study did not record frailty.",
+  "reason": "cold read items 3 and 6: a low result explained; parenthesis split into a sentence; 'blood' added to 'low sugars'"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.x",
+  "old": "Low sugars are linked with falls",
+  "new": "Low blood sugars are linked with falls",
+  "reason": "flag: 'low sugars' made 'low blood sugars'"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.x",
+  "old": "have there been any low sugars,",
+  "new": "have there been any low blood sugars,",
+  "reason": "flag: consistent wording"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.linkedin",
+  "old": "For a frail older person taking insulin or a gliclazide-type tablet, a low HbA1c can be a sign of more treatment than they need.\n\nHbA1c is a blood test that reflects average blood sugar over recent months. A low result looks like success. What it doesn't show is whether low blood sugars are happening. In a small US study of 40 older people (37 on insulin) whose HbA1c was 8% or more, 26 had low glucose readings (below 70 mg/dL) over 3 days of continuous monitoring, and 93 in 100 of the 102 low episodes were missed by finger-prick tests and symptoms.\n\nHow common is a low HbA1c on these drugs? In 16 Norfolk GP practices, about 3 in 10 people aged 70 or over with type 2 diabetes taking gliclazide-type tablets or insulin had an HbA1c below 53 mmol/mol, and about 1 in 8 were below 48. It was just as common in people with kidney disease or dementia, who are more prone to low sugars. In US national data from 2001 to 2010, 56 in 100 older people with diabetes and very poor health had an HbA1c below 7% (53 mmol/mol). In relatively healthy older people with diabetes it was 63 in 100. Very poor health meant difficulty with two or more everyday activities, or being on dialysis. Of those in very poor health with an HbA1c below 7%, 6 in 10 were on insulin or a sulfonylurea. Neither study measured low sugars directly.\n\nWhy it counts: in studies of older people treated for diabetes, those with episodes of low blood sugar were more likely to have falls and fractures. That is a link, not proof of cause.\n\nThe other side: across 15 trials and observational studies in people aged 60 or over or frail, tight control was linked with fewer blood vessel complications, but more than twice the rate of severe low sugars, and no clear difference in deaths.\n\nA UK consensus statement says the usual targets of 53 to 59 mmol/mol are too tight for people living with frailty. A deprescribing guideline recommends reducing drugs that cause low sugars in older people at risk.\n\nThe question for the next review: have there been any low sugars, and is this dose still needed? Doses are for the diabetes team or GP to change, not for you to change alone.",
+  "new": "For a frail older person taking insulin or a diabetes tablet such as gliclazide, a low HbA1c can be a sign of more treatment than they need.\n\nHbA1c is a blood test that reflects average blood sugar over recent months. A low result looks like success. What it doesn't show is whether low blood sugars are happening.\n\nA small US study followed 40 older people, 37 of them on insulin, whose HbA1c was 8% or more (64 mmol/mol or more). Over 3 days of continuous monitoring, 26 had low glucose readings (below 70 mg/dL, the level counted as low). Of the 102 low episodes, 95 (93 in 100) were missed by finger-prick tests and symptoms.\n\nIn 16 Norfolk GP practices, about 3 in 10 people aged 70 or over with type 2 diabetes taking insulin or a sulfonylurea (a diabetes tablet that can cause low blood sugar, such as gliclazide) had an HbA1c below 53 mmol/mol, and about 1 in 8 were below 48. It was just as common in people with kidney disease or dementia, who are more prone to low blood sugars.\n\nIn US national data from 2001 to 2010, 56 in 100 older people with diabetes and very poor health had an HbA1c below 53 mmol/mol (7%). In relatively healthy older people it was 63 in 100. Very poor health meant difficulty with two or more everyday activities, or being on dialysis. Neither the Norfolk study nor the national data measured low blood sugars directly.\n\nWhy it counts: in studies of older people treated for diabetes, those with episodes of low blood sugar were more likely to have falls and fractures. That is a link, not proof of cause.\n\nThe other side: across 15 trials and observational studies in people aged 60 or over or frail, tight control was linked with fewer blood vessel complications, but more than twice the rate of severe low blood sugars, and no clear difference in deaths.\n\nA UK consensus statement says the usual targets of 53 to 59 mmol/mol are too tight for people living with frailty. A deprescribing guideline recommends reducing drugs that cause low blood sugars in older people at risk.\n\nThe question for the next review: have there been any low blood sugars, and is this dose still needed? Doses are for the diabetes team or GP to change, not for you to change alone.",
+  "reason": "rewrite (scored 9): the US study sentence split and the '93 in 100 of the 102' count corrected to '95 of the 102 (93 in 100)' per the evidence; mg/dL and 8% given a reading; sulfonylurea and gliclazide explained; setup question removed; two units reconciled; 'low sugars' made 'low blood sugars'; sentence saying which studies did not measure low blood sugars made exact; the sentence giving 6 in 10 on insulin or a sulfonylurea (US national data) dropped to bring the post within about 2,200 characters"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.bluesky",
+  "old": "A low HbA1c in a frail older person on insulin or gliclazide can mean more treatment than they need.\n\nHbA1c doesn't show low sugars, which are linked with falls and fractures.\n\nAsk: have there been any low sugars, and is this dose still needed? Don't change doses alone.",
+  "new": "A low HbA1c in a frail older person on insulin or a diabetes tablet like gliclazide can mean too much treatment.\n\nHbA1c, a blood test of average blood sugar, doesn't show low blood sugars (linked with falls).\n\nAsk: any low blood sugars, and is this dose still needed? Don't change doses alone.",
+  "reason": "cold read item 2: HbA1c and gliclazide explained; kept within 300 characters"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "captions.threads",
+  "old": "For a frail older person on insulin or a gliclazide-type tablet, a low HbA1c (the average blood sugar test) can be a sign of too much treatment.\n\nIn Norfolk, about 3 in 10 people aged 70+ with diabetes on these drugs had an HbA1c below 53, just as often with kidney disease or dementia. The test does not show low sugars, which are linked with falls.\n\nUK specialists say usual targets are too tight in frailty. Ask: any low sugars, and is this dose still needed? Do not change doses alone.",
+  "new": "For a frail older person on insulin or a diabetes tablet like gliclazide, a low HbA1c (average blood sugar test) can mean over-treatment.\n\nIn Norfolk, about 3 in 10 people aged 70+ with diabetes on these drugs had an HbA1c below 53 mmol/mol (low), as often with kidney disease or dementia. HbA1c does not show low blood sugars, linked with falls.\n\nUK specialists say usual targets are too tight in frailty. Ask: any low blood sugars, and is this dose still needed? Don't change doses alone.",
+  "reason": "cold read items 2, 3 and 6: tablet named in plain words; unit and meaning of 53 added; sentence split; kept within 500 characters"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.x",
+  "old": "One recent English hospital audit, citing NICE standards, used this standard:",
+  "new": "One recent English hospital audit (a check of its own practice), citing NICE standards, used this standard:",
+  "reason": "cold read item 2: audit explained"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.x",
+  "old": "a levodopa dose was missed",
+  "new": "a dose of levodopa, a Parkinson's medicine, was missed",
+  "reason": "cold read item 2: levodopa explained"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.linkedin",
+  "old": "Each person's Parkinson's medicine times are set for them. A ward drug round runs to the ward's times. One recent English hospital audit, citing NICE standards, used this standard:",
+  "new": "A ward drug round runs to the ward's times. One recent English hospital audit (a check of its own practice), citing NICE standards, used this standard:",
+  "reason": "cold read item 2 and flag: audit explained; repeated sentence removed"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.linkedin",
+  "old": "a levodopa dose was missed",
+  "new": "a dose of levodopa, a Parkinson's medicine, was missed",
+  "reason": "cold read item 2: levodopa explained"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.linkedin",
+  "old": "Does it make a difference? In 11 Spanish hospitals, admissions in which Parkinson's doses were wrongly left out were linked with a stay about 4 days longer and with higher death rates in hospital.",
+  "new": "Missed doses are linked with worse outcomes. In 11 Spanish hospitals, some admissions had Parkinson's doses wrongly left out. These were linked with a stay about 4 days longer and with higher death rates in hospital.",
+  "reason": "cold read item 6 and flag: removed self-answered question; split"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.bluesky",
+  "old": "ask: can doses be given at their own times, can they use their own supply, and what is the plan if they can't swallow?",
+  "new": "ask three things. Can doses be given at their own times? Can they use their own supply? What is the plan if they can't swallow?",
+  "reason": "cold read item 6: three questions as separate sentences"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "captions.threads",
+  "old": "One recent English hospital audit, citing NICE standards, used a standard of within 30 minutes of that time.",
+  "new": "One recent English hospital audit (a check of its own practice), citing NICE standards, set a target of giving each dose within 30 minutes of that time.",
+  "reason": "cold read items 2 and 6: audit explained; clearer wording"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "captions.x",
+  "old": "Before you buy ibuprofen or naproxen, ask a pharmacist if you take a water tablet, or a blood pressure tablet such as ramipril or losartan. Especially if you take both.\n\nTwo UK studies looked at this. Both link an anti-inflammatory painkiller taken with both a water tablet and a blood pressure tablet such as ramipril or losartan to sudden kidney injury. Only the Scottish one also found extra risk with just one of the two; there, the extra risk in absolute terms was larger with all three together. One study found it greatest in the first month; the other, in people over 75 and in people with weaker kidneys.\n\nIn the Scottish study, for every 158 people taking an anti-inflammatory for a year (regular use, not a few days) alongside both medicines, about 1 extra had a kidney injury on blood tests. With only one of the two, the extra risk was lower, but still there.\n\nHospital admission for kidney injury was uncommon. Both studies looked at prescribed painkillers, and they show a link, not proof of cause.",
+  "new": "Before you buy ibuprofen or naproxen, ask a pharmacist if you take a water tablet, or a blood pressure tablet such as ramipril or losartan. Take extra care if you take both.\n\nTwo UK studies looked at this, one of them in Scotland. Both link an anti-inflammatory painkiller taken with both a water tablet and a blood pressure tablet such as ramipril or losartan to sudden kidney injury. Only the Scottish study also found extra risk when just one of the two was taken. In that study, more people were affected when all three were taken together. One study found the risk greatest in the first month; the other, in people over 75 and in people with weaker kidneys.\n\nIn the Scottish study, for every 158 people taking an anti-inflammatory for a year (regular use, not a few days) alongside both medicines, about 1 extra had a kidney injury on blood tests. With only one of the two, the extra risk was lower, but still there.\n\nHospital admission for kidney injury was uncommon. Both studies looked at prescribed painkillers, and they show a link, not proof of cause.\n\nIf you take either kind of tablet, tell the pharmacist before you buy a painkiller, and ask which one suits you.",
+  "reason": "rewrite (scored 10): 'both' made clear; 'the Scottish one' introduced; 'absolute terms' replaced by plain words; paragraph 2 split into short sentences; caveat placed before an action close"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "captions.linkedin",
+  "old": "Especially if you take both.",
+  "new": "Take extra care if you take both.",
+  "reason": "flag: 'both' was ambiguous"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "captions.linkedin",
+  "old": "Together with these medicines, they can strain the kidneys: the water tablet lowers the fluid reaching the kidneys, the anti-inflammatory narrows the blood vessel into the kidney's filters, and the ACE inhibitor or ARB stops the kidney from making up for it. That is",
+  "new": "Taken with these medicines, they are linked with sudden kidney injury. The water tablet lowers the fluid reaching the kidneys. The anti-inflammatory narrows the blood vessel into the kidney's filters. The blood pressure tablet (an ACE inhibitor or ARB, such as ramipril or losartan) stops the kidney from adjusting to this. That is",
+  "reason": "cold read items 2 and 6: ACE inhibitor or ARB explained; one long sentence split; figurative wording removed; researchers' explanation label kept"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "captions.linkedin",
+  "old": "The check takes a minute. Tell the pharmacist",
+  "new": "Tell the pharmacist",
+  "reason": "flag: removed mildly reassuring sentence"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "captions.bluesky",
+  "old": "Take a water tablet or a blood pressure tablet like ramipril? Ask a pharmacist before buying ibuprofen.\n\nUK studies link anti-inflammatories with these to sudden kidney injury, with larger absolute risk on all three. In one, about 1 extra case per 158 people a year of regular use.",
+  "new": "UK studies link painkillers like ibuprofen, taken with a water tablet and a blood pressure tablet like ramipril, to sudden kidney injury. Risk was higher with all three. In one, about 1 extra case per 158 people a year of regular use.\n\nIf you take either, ask a pharmacist before buying ibuprofen.",
+  "reason": "cold read items 2, 5 and 6: plain words for absolute risk; opening question removed; ends on the action; kept within 300 characters"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "captions.threads",
+  "old": "If you take a water tablet or a blood pressure tablet such as ramipril or losartan, ask a pharmacist before buying ibuprofen or naproxen. Especially if you take both.\n\nTwo UK studies link that mix with sudden kidney injury; only the Scottish one also found a risk with two, and it found the absolute extra risk larger with all three. In the Scottish one, about 1 extra kidney injury per 158 people taking an anti-inflammatory for a year alongside both medicines, not for a few days.",
+  "new": "If you take a water tablet or a blood pressure tablet such as ramipril or losartan, ask a pharmacist before buying ibuprofen or naproxen. Take extra care if you take both.\n\nTwo UK studies, one Scottish, link that mix with sudden kidney injury. Only the Scottish study also found a risk when just one of the two was taken. In that study, more people were affected with all three: about 1 extra kidney injury per 158 people taking an anti-inflammatory for a year with both, not a few days.",
+  "reason": "cold read items 2, 5 and 6: 'the Scottish one' introduced; 'a risk with two' made clear; plain words for absolute risk"
+ },
+ {
+  "tmp_id": "C06-P11",
+  "where": "captions.x",
+  "old": "We think a short list of named risks, with the patients listed, may be a better target than a general call to review everything. The two trials differed in design and in what they measured.",
+  "new": "A 2025 UK trial of broad reviews for people on five or more medicines found no difference in potentially inappropriate prescribing at 6 months. Its aims differed.\n\nWe think a short list of named risks, with the patients listed, may be a better target than a general call to review everything.",
+  "reason": "cold read item 5: 'the two trials' referred to a second trial never mentioned; named it and put the position last"
+ },
+ {
+  "tmp_id": "C06-P11",
+  "where": "captions.bluesky",
+  "old": "In 33 Tayside practices, training, patient lists for 9 named risky prescriptions and paid review time were followed by a fall from 37 to 22 per 1,000 at risk. A post hoc check: about 20 a year after payments stopped.\n\nWe think a short named list may be a better target than a general call to review.",
+  "new": "In 33 Tayside practices, high-risk painkiller and antiplatelet prescribing fell from 37 to 22 per 1,000 patients at risk after training, patient lists and paid review time (about 20 a year after payments stopped, post hoc).\n\nWe think a short named list may beat a broad call to review.",
+  "reason": "cold read item 3: what fell stated; kept within 300 characters"
+ },
+ {
+  "tmp_id": "C06-P11",
+  "where": "captions.threads",
+  "old": "The recipe: training,",
+  "new": "The programme: training,",
+  "reason": "flag: metaphor removed"
+ },
+ {
+  "tmp_id": "C06-P11",
+  "where": "captions.threads",
+  "old": "In 33 Tayside general practices,",
+  "new": "In 33 Tayside practices,",
+  "reason": "length"
+ },
+ {
+  "tmp_id": "C06-P11",
+  "where": "captions.threads",
+  "old": "may beat a general call",
+  "new": "may work better than a general call",
+  "reason": "flag: figurative wording"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.x",
+  "old": "How do your tablets actually go down?\n\nAbout 1 in 7",
+  "new": "About 1 in 7",
+  "reason": "style: removed setup question"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.x",
+  "old": "doctors had not recognised 7 in 10 of those with any difficulty, and more than half had already altered their tablets themselves.",
+  "new": "doctors had not recognised 7 in 10 of those with any difficulty. More than half of those affected had already altered their tablets themselves.",
+  "reason": "cold read item 6: split; 'those affected' made clear"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.linkedin",
+  "old": "How do your tablets actually go down?\n\nA medicines review",
+  "new": "A medicines review",
+  "reason": "style: removed setup question"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.linkedin",
+  "old": "Crushing is a kind workaround, and for some products an unsafe one:",
+  "new": "Crushing is a workaround some people use, and for some products an unsafe one:",
+  "reason": "flag: 'kind workaround' read oddly"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.linkedin",
+  "old": "Doses given in a way that departed from national guidance for any reason, not only crushing, were seen at 57 in 100 observed doses for residents with swallowing difficulty, against about 31 in 100 for other residents.",
+  "new": "Some doses were given in a way that departed from national guidance, for any reason and not only crushing. This was seen at 57 in 100 observed doses for residents with swallowing difficulty, against about 31 in 100 for other residents.",
+  "reason": "cold read item 6: split"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.linkedin",
+  "old": "a formal decision about the person's capacity and what is best for them",
+  "new": "a formal decision about whether the person can decide for themselves and what is best for them",
+  "reason": "cold read item 2: capacity in plain words"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "captions.threads",
+  "old": "How do your tablets actually go down?\n\nAbout 1 in 7",
+  "new": "About 1 in 7",
+  "reason": "style: removed setup question"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P02",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P03",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P04",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P05",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P06",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P07",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P08",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P09",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P10",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P11",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P12",
+  "where": "status",
+  "old": "draft",
+  "new": "text_final",
+  "reason": "all cold-read problems and fix items applied; no unresolved text issue"
+ },
+ {
+  "tmp_id": "C06-P01",
+  "where": "open_issues",
+  "old": "[]",
+  "new": "[\"Checker us_spelling hit on 'Aging' is the journal name Drugs & Aging (proper noun); justified.\", \"check_posts us_spelling? hit on 'Aging': it is part of the journal title 'Drugs & Aging' (Woodford 2020); justified, not changed.\"]",
+  "reason": "record justified checker hit"
+ }
+]
