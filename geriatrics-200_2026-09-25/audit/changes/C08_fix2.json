@@ -1,0 +1,373 @@
+[
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.x",
+  "old": "The cognition difference was above the trial's own threshold for clinical importance; the daily function difference was below it.",
+  "new": "The difference in cognition (1.9 points on a 30-point scale) was larger than the trial's own threshold for clinical importance of 1.4 points. The difference in daily function (3.0 points on a 60-point scale) was smaller than its threshold of 3.5 points.",
+  "reason": "cold read item 6 (semicolon sentence) and flag (no magnitudes); figures from C08-03-b"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.x",
+  "old": "Over the next 3 years the groups ended up similar.",
+  "new": "Over the next 3 years the two groups had similar numbers who had moved into a care home.",
+  "reason": "cold read item 3: say what was similar (C08-03-c safe wording: similar numbers of moves)"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.threads",
+  "old": "After 3 years the groups were similar.",
+  "new": "Over the next 3 years, similar numbers in each group moved.",
+  "reason": "cold read item 3: say what was similar (C08-03-c); kept within 500 characters"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.threads",
+  "old": "against about 20 in 100",
+  "new": "vs about 20 in 100",
+  "reason": "length: keep Threads within 500 after the item 3 fix"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.x",
+  "old": "The deaths were counted as a safety measure; the test of the difference was done after the trial, and the numbers are too small to be sure the drug caused it.",
+  "new": "Deaths were counted as a safety check. The comparison of deaths was run after the trial ended. The numbers are too small to be sure the drug caused them.",
+  "reason": "cold read item 6: split semicolon sentence"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.x",
+  "old": "whose agitation had not settled with non-drug care",
+  "new": "whose agitation had not improved with non-drug care",
+  "reason": "cold read flag: idiom"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.linkedin",
+  "old": "The deaths finding needs care. The test of the difference was done after the trial, the numbers are small, causes of death varied, and an earlier trial of mirtazapine for depression in dementia did not show more deaths.",
+  "new": "Treat the deaths finding with care. The comparison of deaths was run after the trial ended. The numbers are small. Causes of death varied. An earlier trial of mirtazapine for depression in dementia did not show more deaths.",
+  "reason": "cold read item 6: split long sentence"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.linkedin",
+  "old": "agitation that had not settled with non-drug care",
+  "new": "agitation that had not improved with non-drug care",
+  "reason": "cold read flag: idiom"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.linkedin",
+  "old": "That is less of a contradiction than it looks. The therapy aimed at each person's goals and was never aimed at memory scores. The goal ratings measured what it set out to change.",
+  "new": "The therapy aimed at each person's goals. The goal ratings measured what it set out to change. Memory scores measured something else.",
+  "reason": "cold read flags: empty idiom and negation; C08-06-f"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.linkedin",
+  "old": "Judged by quality-adjusted life years, the usual economic measure, the therapy showed no evidence of value for money. Judged by the goals people chose, it did, depending on what a service will pay per point of goal improvement.",
+  "new": "Judged by a standard measure of years of good health gained, the therapy showed no evidence of value for money. Judged by the goals people chose, it may be good value, if a service is willing to pay for each point of goal improvement.",
+  "reason": "cold read items 2 and 6; C08-06-g qualification (depends on willingness to pay)"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.bluesky",
+  "old": "GREAT trial: 475 people with early dementia were randomly assigned to home therapy on goals they chose, or usual care.\n\nGoal ratings rose about 2.6 points vs 0.9 (given by people who knew their group). Quality of life, mood, memory: no clear difference.\n\nIn our view, services should count goals.",
+  "new": "GREAT trial: 475 people with early dementia got home therapy on chosen goals, or usual care.\n\nGoal ratings (0 to 10) rose 2.6 with therapy, 0.9 without, rated by people who knew their group. Quality of life, mood and memory: no clear difference.\n\nIn our view, services should record goal progress.",
+  "reason": "cold read items 3 and 5: scale and comparison stated; close says what services should do"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.linkedin",
+  "old": "In DAPA, though, falls did not show a clear difference (the range of possible effects was wide), so that benefit should not be promised to people with dementia on this evidence.",
+  "new": "In DAPA, falls did not show a clear difference. The range of possible effects was wide. So this benefit should not be promised to people with dementia on this evidence.",
+  "reason": "cold read item 6: split parenthesis sentence"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.bluesky",
+  "old": "In the DAPA trial, 494 people with mild to moderate dementia did 4 months of fairly hard gym exercise or had usual care.\n\nAt 12 months from the start, thinking had not declined more slowly; scores were slightly worse, by an uncertain amount.\n\nIn our view, offer exercise for strength, not memory.",
+  "new": "In the DAPA trial, 494 people with mild to moderate dementia had 4 months of fairly hard gym exercise or usual care.\n\nAt 12 months from the start, memory and thinking scores were slightly worse in the exercise group, by an uncertain amount.\n\nIn our view, do not promise it will slow memory loss.",
+  "reason": "cold read items 3 and 5: name the scores and group; close is an instruction"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.threads",
+  "old": "At 12 months from the start, memory and thinking had not declined more slowly. Scores were slightly worse, by an amount of uncertain importance.",
+  "new": "At 12 months from the start, memory and thinking scores were slightly worse in the exercise group, by an amount of uncertain importance.",
+  "reason": "cold read item 3: name the scores and the group; length"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.x",
+  "old": "In a separate US study of 237 older people, average age 81, with early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan, 19 (about 8 in 100) would have qualified for the trial.",
+  "new": "A separate US study looked at 237 older people, average age 81. All had early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan. About 8 in 100 of them (19) would have qualified for the trial.",
+  "reason": "cold read item 6: split long sentence"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.x",
+  "old": "About 1 in 7 people who saw a Swedish GP with memory symptoms, whatever the cause,",
+  "new": "About 1 in 7 people who saw a Swedish GP with memory symptoms of any cause",
+  "reason": "cold read flag: ambiguous phrase"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.linkedin",
+  "old": "Frailty is a separate question. In a study of 120 pre-frail or frail older people (median age 82) with amyloid on testing, 24 (1 in 5) would have qualified for the trial. Among the 44 who were frail, only 4 would have.",
+  "new": "Frailty is a separate question. A third study looked at 120 older people with amyloid on testing (half were older than 82). All were pre-frail or frail. About 1 in 5 of them (24) would have qualified for the trial. Among the 44 who were frail, only 4 would have. These are different groups, so the 8 in 100 and the 1 in 5 should not be compared with each other.",
+  "reason": "cold read items 2, 6, 7: median age in plain words, split sentence, say the figures are not comparable (as the X version does)"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.bluesky",
+  "old": "About 1 in 7 people seeing a Swedish GP with memory symptoms of any cause met lecanemab (an Alzheimer's drug) criteria after full tests. Blood thinners ruled many out.\n\nIn a US study, 8 in 100 with early memory problems and amyloid met the trial rules.\n\nWould someone like me have been in the trial?",
+  "new": "About 1 in 7 people seeing a Swedish GP for memory symptoms met criteria for lecanemab (an Alzheimer's drug). In a separate US study of people with early memory problems and amyloid (a protein linked with Alzheimer's), 8 in 100 met the trial's rules.\n\nWould someone like me have been in the trial?",
+  "reason": "cold read items 2 and 7: amyloid explained, separate groups stated; removed idiom 'ruled many out' and the unquantified 'many'"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.threads",
+  "old": "whatever the cause,",
+  "new": "of any cause,",
+  "reason": "cold read flag: ambiguous phrase"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.threads",
+  "old": "A separate US study applied the trial's own rules to 237 older people with early memory problems and amyloid on a brain scan. About 8 in 100 would have qualified.",
+  "new": "In a separate US study of 237 older people with early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan, about 8 in 100 met the trial's rules.",
+  "reason": "cold read item 2: amyloid explained; sentence tightened for length"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.linkedin",
+  "old": "\n\nMore posts in the Teaching round series take one clinical distinction at a time.",
+  "new": "",
+  "reason": "cold read item 5: delete the series line so the post ends on the instruction"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.linkedin",
+  "old": "How big is the risk? The figures are old.",
+  "new": "The figures are old.",
+  "reason": "cold read flag: setup question answered by the post"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.threads",
+  "old": "Slowness, stiffness or tremor?",
+  "new": "Is the person slow, stiff or tremulous?",
+  "reason": "cold read flag: fragment"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.x",
+  "old": "When the trials are pooled,",
+  "new": "When the results of the trials are added together,",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.x",
+  "old": "In a Canadian study of about 81,000 older people with dementia, those taking them went to hospital with fainting about 32 times per 1000 people a year, against about 19 in those not taking them.",
+  "new": "A Canadian study followed about 81,000 older people with dementia. Those taking them went to hospital with fainting about 32 times per 1000 people a year. Those not taking them, about 19.",
+  "reason": "cold read item 6: split long sentence"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "When the randomised trials are pooled,",
+  "new": "When the results of the randomised trials are added together,",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "After leaving hospital, 78 of 138 people went back on a medicine of the same type.",
+  "new": "After leaving hospital, more than half (78 of 138) went back on a medicine of the same type.",
+  "reason": "cold read item 3: meaning for the number"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "\n\nDo not stop the tablet on your own; ask first. This is practical advice rather than a formal guideline: a small check for a known effect.",
+  "new": "\n\nDo not stop the tablet on your own; ask first.",
+  "reason": "cold read item 5: delete the closing sentence"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "In a Canadian study of about 81,000 older people with dementia living at home, those taking these medicines went to hospital",
+  "new": "A Canadian study followed about 81,000 older people with dementia living at home. Those taking these medicines went to hospital",
+  "reason": "cold read item 6: split long sentence"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.threads",
+  "old": "In pooled trials, people taking them",
+  "new": "When the results of several trials are added together, people taking them",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.threads",
+  "old": "hospital visits for fainting were about 32 vs 19 per 1000 people a year (a link, not proof of cause)",
+  "new": "hospital visits for fainting were about 32 per 1000 people a year in those taking them, against about 19 in those not (a link, not proof of cause)",
+  "reason": "cold read item 3"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.bluesky",
+  "old": "Donepezil and similar dementia tablets can slow the pulse.",
+  "new": "Donepezil, rivastigmine and galantamine, tablets for dementia, can slow the pulse.",
+  "reason": "cold read flag: 'similar dementia tablets' vague"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.x",
+  "old": "In an English study of 9,324 people with dementia, those who saw the same GP most consistently were prescribed fewer medicines on average: 8.5 against 9.7 in those with the least consistency. They had fewer prescriptions that are often unsafe in older age, and fewer new records of incontinence.",
+  "new": "An English study looked at 9,324 people with dementia. Those who saw the same GP most often were prescribed 8.5 medicines on average. Those who saw the same GP least often were prescribed 9.7. The first group also had fewer prescriptions that are often unsafe in older age, and fewer new records of incontinence.",
+  "reason": "cold read item 6: split long sentence"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.linkedin",
+  "old": "Over the next year they were also less likely to have new incontinence recorded, and slightly less likely to be admitted as an emergency, although that last link was weak.",
+  "new": "Over the next year they were also less likely to have new incontinence recorded. They were slightly less likely to be admitted as an emergency, but that link was weak.",
+  "reason": "cold read item 6: split long sentence"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.bluesky",
+  "old": "In an English study of 9,324 people with dementia, those with the most consistent GP were prescribed fewer medicines (8.5 vs 9.7 on average; smaller gap after adjustment). A link, not cause.\n\nA named GP scheme was not followed by more continuity. In our view, ask for the same GP each time.",
+  "new": "In a study of 9,324 people with dementia in England, those who saw the same GP most often had fewer medicines prescribed: 8.5 vs 9.7 on average (smaller after allowing for age and illness). A link, not proof of cause.\n\nA named GP scheme did not raise same-GP visits. In our view, ask for the same GP.",
+  "reason": "cold read items 2 and 6: say what continuity and the adjustment mean; 'same-GP visits'"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.threads",
+  "old": "A named GP scheme was not followed by more continuity.",
+  "new": "A named GP scheme was not followed by more visits to the same GP.",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.threads",
+  "old": "those with the most consistent GP had fewer medicines on average (8.5 vs 9.7, before adjustment) and fewer that are often unsafe in older age.",
+  "new": "those with the most consistent GP had fewer medicines on average: 8.5 vs 9.7, before allowing for age, illness and frailty. They also had fewer that are often unsafe in older age.",
+  "reason": "cold read items 2 and 6; C08-10-b (figures are unadjusted)"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.x",
+  "old": "Since then, a trial of 1,021 care home residents with dementia and low mood in six countries, including the UK, found that neither music therapy groups nor choir singing eased depressive symptoms more than usual care at 6 months.",
+  "new": "Since then, a trial tested music therapy groups and choir singing against usual care. It included 1,021 care home residents with dementia and low mood, in six countries including the UK. At 6 months, neither music group had eased low mood more than usual care.",
+  "reason": "cold read item 6 and flag: split sentence; 'low mood' used throughout"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.linkedin",
+  "old": "Compared with usual care, the review found that sessions probably do not reduce agitation or aggression (moderate-certainty evidence) and probably ease low mood slightly by the end of a course (moderate certainty).",
+  "new": "Compared with usual care, the review found that sessions probably do not reduce agitation or aggression. It also found they probably ease low mood slightly by the end of a course. Both findings rest on evidence of moderate certainty (fairly, though not fully, reliable).",
+  "reason": "cold read items 2 and 6: C08-25-b keeps the moderate-certainty qualification"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.linkedin",
+  "old": "Neither music group eased depressive symptoms more than usual care",
+  "new": "Neither music group eased low mood more than usual care",
+  "reason": "flag: one term for one outcome"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.linkedin",
+  "old": "So what should families and care staff take from this? In our judgement,",
+  "new": "In our judgement,",
+  "reason": "cold read flag: setup question answered by the post"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "A 2025 Cochrane review of 30 trials: music sessions probably do not calm agitation in dementia. Low mood probably eases slightly by the end of a course.\n\nA later trial in 1,021 care home residents with dementia did not clearly ease low mood vs usual care.\n\nIn our view, offer music for enjoyment.",
+  "new": "A 2025 Cochrane review (30 trials): music sessions probably don't calm agitation in dementia but probably ease low mood slightly.\n\nA later trial of 1,021 care home residents with dementia found neither music therapy nor choir singing clearly eased low mood vs usual care.\n\nOffer music for enjoyment.",
+  "reason": "cold read item 1: say what the later trial tested; closing instruction shortened to fit 300 characters"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.threads",
+  "old": "A later trial of 1,021 care home residents with dementia and low mood, in six countries, did not show that music therapy groups or choir singing eased low mood more than usual care at 6 months.",
+  "new": "A later trial of 1,021 care home residents with dementia and low mood tested music therapy groups and choir singing. At 6 months, neither had eased low mood more than usual care.",
+  "reason": "cold read item 6: split sentence; dropped 'six countries' to stay within 500"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "captions.bluesky",
+  "old": "over 9 months, rated by staff.",
+  "new": "over 9 months compared with usual-care homes, rated by staff.",
+  "reason": "cold read item 3"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "captions.bluesky",
+  "old": "staff training, tailored social activity and",
+  "new": "staff training, tailored activity and",
+  "reason": "length after item 3 fix"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.x",
+  "old": "In England, NICE says",
+  "new": "In England, NICE (the body that sets national health guidance) says",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.x",
+  "old": "A 2023 review of 37 trials found the groups probably give a small boost to memory and thinking by the end of the course, and people communicated and joined in more.",
+  "new": "A 2023 review of 37 trials found that, by the end of the course, the groups probably help memory and thinking a little. People also communicated and joined in more.",
+  "reason": "cold read item 6 and flag: split sentence; 'boost' removed"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.linkedin",
+  "old": "In England, NICE guidance says",
+  "new": "In England, NICE (the body that sets national health guidance) says",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.linkedin",
+  "old": "A 2023 Cochrane review of 37 trials and 2,766 people found the groups probably give a small boost to memory and thinking by the end of the course.",
+  "new": "A 2023 Cochrane review pooled 37 trials with 2,766 people. By the end of the course, the groups probably help memory and thinking a little.",
+  "reason": "cold read item 6 and flag"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.linkedin",
+  "old": "What does it do?\n\nIn an early UK trial",
+  "new": "In an early UK trial",
+  "reason": "cold read flag: setup question"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.bluesky",
+  "old": "After a diagnosis of mild or moderate dementia, ask whether a cognitive stimulation group runs near you.\n\nNICE in England says it should be offered. Trials show a small, short-term boost to memory and thinking, and more communication.\n\nAsk the memory service or GP.",
+  "new": "With mild or moderate dementia, ask whether a cognitive stimulation group (talk and word games) runs near you.\n\nNICE, which sets health guidance in England, says it should be offered. Trials show small, short-term gains in memory and thinking, and more communication.\n\nAsk the memory service or GP.",
+  "reason": "cold read item 2 and flag: explain the group and NICE; 'boost' removed"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.threads",
+  "old": "NICE in England says it should be offered.",
+  "new": "NICE, the body that sets health guidance in England, says it should be offered.",
+  "reason": "cold read item 2"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.threads",
+  "old": "found a small, short-term boost to memory and thinking, and more joining in.",
+  "new": "found a small, short-term improvement in memory and thinking, and more joining in.",
+  "reason": "flag: figurative 'boost'"
+ }
+]

@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C16-P01</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/kit.js"></script>
+<style>
+.rows{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.r{display:grid;grid-template-columns:56px 40px 1fr;gap:20px;align-items:center;background:#fff;border:2px solid var(--line);border-radius:16px;padding:12px 24px;font-size:31px;line-height:1.28}
+.r .n{width:56px;height:56px;border-radius:50%;background:var(--teal);color:#fff;font:800 34px Montserrat;display:flex;align-items:center;justify-content:center}
+.r .bx{width:40px;height:40px;border:4px solid var(--teal);border-radius:9px}
+.r.first{border-left:14px solid var(--orange)}
+.strip1{margin-top:22px;background:var(--mint);border-radius:20px;padding:18px 26px;display:grid;grid-template-columns:100px 1fr;gap:20px;align-items:center;font-size:27px;line-height:1.3}
+.strip1 .ic{width:100px;height:100px;position:relative}.strip1 .ic svg{width:100%;height:100%}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content">
+  <h1 class="s">Before a medicine goes into food or drink: five checks</h1>
+  <p class="small mt-s">Suggested order, professional judgement. Check the law and guidance where you work.</p>
+  <div class="rows">
+   <div class="r first"><span class="n">1</span><span class="bx"></span><span>Is each medicine still needed?</span></div>
+   <div class="r"><span class="n">2</span><span class="bx"></span><span>Capacity for this decision assessed and written down</span></div>
+   <div class="r"><span class="n">3</span><span class="bx"></span><span>Best-interests decision recorded, with prescriber and family</span></div>
+   <div class="r"><span class="n">4</span><span class="bx"></span><span>Pharmacist advice on how each medicine can be given</span></div>
+   <div class="r"><span class="n">5</span><span class="bx"></span><span>Plan in the care record, with a review date</span></div>
+  </div>
+  <div class="strip1"><div class="ic" id="ic"></div><p>Norwegian nursing homes, older data: in one week, medicines were hidden in food or drink for 1 in 9 residents of regular units and 1 in 6 in dementia units; this was written in the record in 4 in 10 of those cases</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kirkevold and Engedal, BMJ 2005; Tan et al, BMJ Open 2022</span></div>
+</div>
+</div><script>
+window.__ready=false;
+Kit.draw('#ic',200,200,[Kit.cup({x:90,y:150,scale:1.8,colour:'teal'}),Kit.medicine_bottle({x:160,y:150,scale:1.2,type:'blister'})],{cls:'art',fit:'xMidYMid meet'});
+window.__ready=true;
+</script></body></html>
