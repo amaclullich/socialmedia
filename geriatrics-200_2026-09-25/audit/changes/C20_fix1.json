@@ -163,9 +163,9 @@
  {
   "tmp_id": "C20-P03",
   "where": "captions.bluesky",
-  "old": "Age can be a fair reason when it changes how long a benefit takes, as in cancer screening.",
-  "new": "Different advice can be fair when a benefit takes years to arrive and the person may not live long enough to receive it, as in cancer screening.",
-  "reason": "major: misattributes the mechanism. Age does not change time to benefit; the criterion is whether the person is expected to live long enough to receive it (life expectancy over 10 years)."
+  "old": "If a treatment is not offered to you, ask: what would you advise if I were 20 years younger, and why?\n\nAge can be a fair reason when it changes how long a benefit takes, as in cancer screening. We should expect reasons about your health and wishes, not only a number.",
+  "new": "If a treatment is not offered, ask: what would you advise if I were 20 years younger, and why?\n\nDifferent advice can be fair when a benefit takes years to arrive and you may not live long enough to receive it, as in cancer screening. We should expect reasons about your health and wishes.",
+  "reason": "major: misattributes the mechanism. Age does not change time to benefit; the criterion is whether the person is expected to live long enough to receive it (life expectancy over 10 years). Rewritten to stay within 300 characters."
  },
  {
   "tmp_id": "C20-P03",
@@ -275,9 +275,9 @@
  {
   "tmp_id": "C20-P04",
   "where": "alt_text[0]",
-  "old": "12 medicines plus a complicated non-drug regimen (US guidelines, 2005).",
-  "new": "12 medicines plus a complicated non-drug regimen if every guideline were followed (published guidelines, 2005).",
-  "reason": "minor: Boyd 2005 aggregated guidelines from national and international organisations, not strictly US guidelines. minor: 12 medicines is conditional on every guideline being followed."
+  "old": "Diagram. Five guideline cards (COPD, type 2 diabetes, osteoporosis, high blood pressure, osteoarthritis) feed into one plan for an imagined 79-year-old woman: 12 medicines plus a complicated non-drug regimen (US guidelines, 2005). A UK review found 133 potentially serious interactions with the NICE diabetes guideline drugs. Advice: review the whole plan against the person's wishes.",
+  "new": "Diagram. Five guideline cards (COPD, type 2 diabetes, osteoporosis, high blood pressure, osteoarthritis) feed into one plan for an imagined 79-year-old woman: 12 medicines plus a complicated non-drug regimen if every guideline were followed (2005 analysis). A UK review found 133 potentially serious interactions with NICE type 2 diabetes guideline drugs. Review the whole plan.",
+  "reason": "minor: Boyd 2005 aggregated guidelines from national and international organisations, not strictly US guidelines. minor: 12 medicines is conditional on every guideline being followed. Trimmed to stay within 400 characters."
  },
  {
   "tmp_id": "C20-P04",
@@ -290,7 +290,7 @@
   "tmp_id": "C20-P04",
   "where": "captions.bluesky",
   "old": "Added up for one imagined 79-year-old woman, US guidelines for five conditions gave 12 medicines (2005 analysis). A UK review found 133 potentially serious interactions between NICE diabetes drugs and drugs for 11 other conditions. We should review the whole plan against what the person most wants.",
-  "new": "If every guideline for five conditions were followed, one imagined 79-year-old woman would be prescribed 12 medicines (2005 analysis). A UK review found 133 potentially serious potential interactions between NICE type 2 diabetes guideline drugs and drugs for 11 other conditions. Review the whole plan.",
+  "new": "A 2005 analysis: following every guideline for five conditions meant 12 medicines for an imagined 79-year-old woman. UK review: 133 potentially serious interactions between NICE type 2 diabetes guideline drugs and drugs for 11 other conditions (potential, not harm seen). Review the whole plan.",
   "reason": "minor: 'US guidelines' to published guidelines; 'gave' read as observed outcome; 'NICE diabetes drugs' loose and omitted that these are potential interactions. Rewritten to stay within 300 characters."
  },
  {
@@ -352,9 +352,9 @@
  {
   "tmp_id": "C20-P06",
   "where": "captions.bluesky",
-  "old": "Observational, and older people reaching these services may be a selected group.",
-  "new": "Raw figures from an observational study; older people reaching these services may be a selected group.",
-  "reason": "Consistency with the raw-figures fix in the X and LinkedIn versions (older people started with milder symptoms)."
+  "old": "In NHS talking therapy services in London, about 53 in 100 people aged 65+ recovered, against 41 in 100 adults aged 18 to 64, and fewer dropped out. Observational, and older people reaching these services may be a selected group. If you are low or anxious, ask your GP about talking therapy.",
+  "new": "In NHS talking therapy in London, about 53 in 100 people aged 65+ recovered, against 41 in 100 aged 18 to 64, and fewer dropped out. Raw figures from an observational study; older people started with milder symptoms. If you are low or anxious, ask your GP about talking therapy.",
+  "reason": "Consistency with the raw-figures fix in the X and LinkedIn versions (older people started with milder symptoms). Rewritten to stay within 300 characters."
  },
  {
   "tmp_id": "C20-P06",

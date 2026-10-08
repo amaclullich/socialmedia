@@ -1,0 +1,58 @@
+[
+  {
+    "tmp_id": "C07-P01",
+    "where": "captions.x",
+    "old": "should have the chance to talk about switching off the shocks towards the end of life.",
+    "new": "should have the chance to talk about switching off the shocks as the end of life gets closer.",
+    "reason": "Cold read item 6: guidance sentence ambiguous about what the talk is for"
+  },
+  {
+    "tmp_id": "C07-P01",
+    "where": "captions.linkedin",
+    "old": "The shocks had been switched off beforehand for 42 in 100. A third of those switch-offs happened on the last day of life. The 42 in 100 is an average across 2006 to 2022. The share was 7 in 100 in 2006 and 59 in 100 in 2022, and it has levelled off since 2015.",
+    "new": "The shocks had been switched off beforehand for 42 in 100. A third of those switch-offs happened on the last day of life.\n\nThe 42 in 100 is an average across 2006 to 2022. The share was 7 in 100 in 2006 and 59 in 100 in 2022. It has stopped rising since 2015.",
+    "reason": "Cold read item 3/6: figurative 'levelled off'; Dutch numbers split so each sentence carries one idea"
+  },
+  {
+    "tmp_id": "C07-P01",
+    "where": "captions.bluesky",
+    "old": "If you have an implanted defibrillator (ICD), its shocks can be switched off near the end of life. No operation, painless, reversible, and pacing keeps working.\n\nA do-not-resuscitate decision does not do this by itself.\n\nAsk your device clinic early, while there is time to think.",
+    "new": "With an implanted defibrillator (ICD), the shocks can be switched off near the end of life. No operation, painless, reversible. The part that stops the heart going too slowly keeps working.\n\nA do-not-resuscitate decision does not do this by itself.\n\nAsk your device clinic early.",
+    "reason": "Cold read item 2: 'pacing' replaced by its plain meaning (evidence safe_wording C07-32-e); rewritten to stay within 300 characters; trim to platform limit"
+  },
+  {
+    "tmp_id": "C07-P01",
+    "where": "captions.threads",
+    "old": "Near the end of life, an implanted defibrillator (ICD) can keep giving shocks. In one Swedish hospital, 31 in 100 people whose devices were read after death had been shocked in their last 24 hours.\n\nA do-not-resuscitate decision does not switch the shocks off. That needs a separate step by the heart rhythm team.\n\nSwitching them off needs no operation, is painless and reversible, and pacing keeps working.\n\nIf you have an ICD, ask your device clinic about it early.",
+    "new": "Near the end of life, an implanted defibrillator (ICD) can keep giving shocks. In one Swedish hospital, 31 in 100 people whose devices were read after death had been shocked in their last 24 hours.\n\nA do-not-resuscitate decision does not switch the shocks off. That needs a separate step by the heart rhythm team.\n\nSwitching them off needs no operation, is painless and can be reversed. The part that stops the heart going too slowly keeps working.\n\nIf you have an ICD, ask your device clinic early.",
+    "reason": "Cold read item 2: 'pacing' replaced by its plain meaning (C07-32-e); trimmed to stay within 500 characters; trim to platform limit"
+  },
+  {
+    "tmp_id": "C07-P02",
+    "where": "captions.x",
+    "old": "A DNACPR decision is about CPR only. DNACPR means 'do not attempt cardiopulmonary resuscitation': a decision not to try to restart the heart if it stops.\n\nIn UK guidance, every other treatment and all care should still be offered on its merits. A national review of NHS practice found the decision was often treated as if it meant 'do not provide active treatment'.\n\nIn a UK scenario study, 231 nurses were randomly given the same deteriorating patient. With a DNACPR form, they planned fewer checks, calls for help and treatments. When the CPR decision sat inside a wider treatment plan, they planned the same care as with no form. This tested intentions, not real care.\n\nIf someone you care for has a DNACPR decision, ask the team: what will still be done?",
+    "new": "A DNACPR decision is about CPR only. DNACPR means 'do not attempt cardiopulmonary resuscitation': a decision not to try to restart the heart if it stops.\n\nIn UK guidance, every other treatment and all care should still be offered on its merits. A national review of NHS practice found the decision was often treated as if it meant 'do not provide active treatment'.\n\nIn a UK scenario study, 231 nurses were given the same written case of a patient who was getting worse. They were randomly given a DNACPR form, a form that made the CPR decision part of a wider treatment plan, or no form. With the DNACPR form, they planned fewer checks, calls for help and treatments. With the wider plan, they planned the same care as with no form. This tested what nurses said they would do, not real care.\n\nIf someone you care for has a DNACPR decision, ask the team: what will still be done?",
+    "reason": "Cold read item 2: plain wording for 'deteriorating patient' and the figurative 'sat inside'; the three study groups are named so the comparison is clear (C07-27-d)"
+  },
+  {
+    "tmp_id": "C07-P02",
+    "where": "captions.linkedin",
+    "old": "A DNACPR decision is about CPR only. DNACPR means 'do not attempt cardiopulmonary resuscitation': a decision not to try to restart the heart if it stops.\n\nIn UK guidance, every other treatment and all care should still be offered on its merits.\n\nThat is not always how it is read. A national review of NHS practice found that DNACPR decisions were often treated as if they meant 'do not provide active treatment'. Staff in some studies expected fewer checks, fewer calls for senior help, and changes to pain relief and fluids.\n\nA UK randomised scenario study tested this. 231 nurses were given the same deteriorating patient. Some saw a DNACPR form, some a form that set the CPR decision inside a wider treatment plan, and some no form. The DNACPR group planned fewer checks, fewer calls for help and fewer treatments. The wider-plan group planned the same care as the no-form group. The study measured what nurses said they would do, not real care.\n\nWriting the decision inside a whole plan has also been tried in practice. In one English hospital, a one-page plan replaced the stand-alone DNACPR form. After that, there were fewer harmful events in patients not for CPR. This was a before-and-after study in one hospital, run by the people who developed the plan, so it shows an association, not proof.\n\nThe ReSPECT form (Recommended Summary Plan for Emergency Care and Treatment) is used across much of the UK. It records the CPR recommendation inside a wider emergency care plan. In English hospitals, about 8 in 10 forms also recorded another treatment recommendation. Most still focused on CPR.\n\nWe should write every CPR decision together with a list of what continues. A decision about one treatment says nothing about a person's worth.\n\nIf someone you care for has a DNACPR decision, ask: what will still be done?",
+    "new": "A DNACPR decision is about CPR only. DNACPR means 'do not attempt cardiopulmonary resuscitation': a decision not to try to restart the heart if it stops.\n\nIn UK guidance, every other treatment and all care should still be offered on its merits.\n\nThat is not always how it is read. A national review of NHS practice found that DNACPR decisions were often treated as if they meant 'do not provide active treatment'. Staff in some studies expected fewer checks, fewer calls for senior help, and changes to pain relief and fluids.\n\nA UK study tested this. 231 nurses were each given the same written case of a patient who was getting worse. They were randomly given a DNACPR form, a form that made the CPR decision part of a wider treatment plan, or no form. The DNACPR group planned fewer checks, fewer calls for help and fewer treatments. The wider-plan group planned the same care as the no-form group. The study measured what nurses said they would do, not real care.\n\nWriting the decision inside a whole plan has also been tried in practice. In one English hospital, a one-page plan replaced the stand-alone DNACPR form. After that, there were fewer harmful events in patients not for CPR. This was a before-and-after study in one hospital. The people who developed the plan ran it. It shows the two went together, not that the plan caused the change.\n\nThe ReSPECT form (Recommended Summary Plan for Emergency Care and Treatment) is used across much of the UK. It records the CPR recommendation as one part of a wider emergency care plan. In English hospitals, about 8 in 10 forms also recorded another treatment recommendation. Most still focused on CPR.\n\nWe should write every CPR decision together with a list of what continues. A decision about one treatment says nothing about a person's worth.\n\nIf someone you care for has a DNACPR decision, ask: what will still be done?",
+    "reason": "Cold read items 2 and 6: study described in plain words; limitation sentences made literal"
+  },
+  {
+    "tmp_id": "C07-P02",
+    "where": "captions.bluesky",
+    "old": "A DNACPR decision means no attempt to restart a stopped heart. It covers CPR only; UK guidance says all other care should still be offered.\n\nIn a UK scenario study, nurses given a DNACPR form planned fewer checks and treatments.\n\nIf someone you love has one, ask: what will still be done?",
+    "new": "A DNACPR decision covers CPR only: no attempt to restart a stopped heart. UK guidance says all other care should still be offered.\n\nIn a UK study, nurses planning care for a written case planned fewer checks and treatments when it came with a DNACPR form.\n\nIf someone you love has one, ask what will still be done.",
+    "reason": "Cold read item 2: Bluesky said 'scenario study' without saying what was measured; rewritten within 300 characters, now says nurses planned care for a written case; trim to platform limit"
+  },
+  {
+    "tmp_id": "C07-P02",
+    "where": "captions.threads",
+    "old": "A DNACPR decision is about CPR only: a decision not to try to restart the heart if it stops. In UK guidance, every other treatment and all care should still be offered on its merits.\n\nIn a UK scenario study, nurses given a DNACPR form planned fewer checks, calls for help and treatments. When the CPR decision sat inside a whole treatment plan, they planned the same care as with no form.\n\nIf someone you care for has a DNACPR decision, ask: what will still be done?",
+    "new": "A DNACPR decision is about CPR only: a decision not to try to restart the heart if it stops. In UK guidance, every other treatment and all care should still be offered on its merits.\n\nIn a UK study, 231 nurses planned care for the same written case. Those given a DNACPR form planned fewer checks, calls for help and treatments. Those given a form that made the CPR decision part of a wider plan planned the same care as with no form.\n\nIf someone you care for has a DNACPR decision, ask: what will still be done?",
+    "reason": "Cold read item 2 and figurative flag: 'scenario study' explained, 'sat inside' replaced; kept under 500 characters; trim to platform limit"
+  }
+]
