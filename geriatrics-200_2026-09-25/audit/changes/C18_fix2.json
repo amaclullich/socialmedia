@@ -79,16 +79,9 @@
   {
     "tmp_id": "C18-P02",
     "where": "captions.threads",
-    "old": "A Cochrane review found only four trials of respite (a planned break for the person giving care) for people with dementia and their carers.",
-    "new": "A review by the Cochrane group found only four trials of respite (a planned break for the person giving care) for people with dementia.",
-    "reason": "Cold read item 2: Cochrane jargon."
-  },
-  {
-    "tmp_id": "C18-P02",
-    "where": "captions.threads",
-    "old": "A break seems to feel like a rest when you believe the person is benefiting too. After one, ask: did I rest, and did they have a good time?",
-    "new": "Research on carers' experiences suggests a break feels like a real rest when the carer believes the person is benefiting too. After one, ask yourself: did I rest, and did they have a good time?",
-    "reason": "Flag: claim had no stated source and read as a finding; now attributed as in the X and evidence safe wording (C18-13-b)."
+    "old": "A Cochrane review found only four trials of respite (a planned break for the person giving care) for people with dementia and their carers. The evidence was rated very low quality, and the trials did not show a clear benefit or harm.\n\nThe authors say this may reflect a lack of good research rather than a lack of benefit.\n\nA break seems to feel like a rest when you believe the person is benefiting too. After one, ask: did I rest, and did they have a good time?",
+    "new": "A review by the Cochrane group found only four trials of respite (a planned break for the person giving care) for people with dementia. The evidence was rated very low quality and showed no clear benefit or harm.\n\nThe authors say this may reflect a lack of good research rather than a lack of benefit.\n\nResearch on carers' experiences suggests a break feels like a rest when the carer believes the person is benefiting too. After one, ask yourself: did I rest, and did they have a good time?",
+    "reason": "Cold read item 2: Cochrane jargon replaced; flag: the claim about what makes a break feel like a rest had no stated source and read as a finding, so it is now attributed (C18-13-b); person made consistent ('ask yourself: did I rest')."
   },
   {
     "tmp_id": "C18-P03",
@@ -108,15 +101,15 @@
     "tmp_id": "C18-P03",
     "where": "captions.bluesky",
     "old": "A UK programme for family carers of people with dementia left them less anxious and depressed over six years of follow-up, a modest average difference. It did not show a clear difference in time to a care home move. We should judge carer support first by the carer's own health.",
-    "new": "A UK trial of a coping programme for family carers of people with dementia left them less anxious and depressed than carers given usual care over six years (a modest average difference). It did not show a clear difference in time to a care home move. Our judgement: judge carer support first by the carer's own health.",
+    "new": "In a UK trial, a coping programme for family carers of people with dementia left them less anxious and depressed than usual care over six years (a modest difference). It did not show a clear difference in time to a care home move. Our judgement: judge carer support first by the carer's own health.",
     "reason": "Cold read item 3: say what the carers were compared with; opinion in close labelled as judgement (flag)."
   },
   {
     "tmp_id": "C18-P03",
     "where": "captions.threads",
     "old": "Should carer support be judged by whether it delays a care home move?\n\nIn a UK trial of 260 family carers of people with dementia, an eight-session coping programme left carers less anxious and depressed over six years of follow-up (a modest average difference). It did not show a clear difference in time to a care home move, and the range of results was wide.\n\nWe should judge carer support first by the carer's own health.",
-    "new": "Carers who had a coping programme had fewer symptoms of anxiety and depression over six years. The programme did not show a clear difference in when the person with dementia moved into a care home.\n\nIn a UK trial of 260 family carers of people with dementia, an eight-session coping programme left carers less anxious and depressed than carers given usual care. This was over six years of follow-up, and the average difference was modest. The range of results for the care home move was wide.\n\nOur judgement, not a finding: we should judge carer support first by the carer's own health.",
-    "reason": "Cold read items 3 and 6: comparison group stated; long sentence split; setup question opening replaced by finding; judgement labelled."
+    "new": "Carers who had a coping programme had fewer symptoms of anxiety and depression over six years. The programme did not show a clear difference in when the person with dementia moved into a care home.\n\nThis was a UK trial of 260 family carers of people with dementia, compared with usual care. The average difference was modest, and the range of results for the care home move was wide.\n\nOur judgement, not a finding: we should judge carer support first by the carer's own health.",
+    "reason": "Cold read items 3 and 6: comparison group stated; long sentence split; setup question opening replaced by finding; judgement labelled; kept within 500 characters."
   },
   {
     "tmp_id": "C18-P03",
@@ -129,22 +122,22 @@
     "tmp_id": "C18-P04",
     "where": "captions.linkedin",
     "old": "On average, carers' depressive symptoms (low mood and loss of interest in things) fell to a clinically significant degree within three months of the death. Within a year, they were substantially lower than while the carers were still caring.",
-    "new": "On average, within three months of the death, carers had less low mood and loss of interest in things (depressive symptoms), by an amount large enough to matter in practice. Within a year, symptoms were substantially lower than while the carers were still caring.",
+    "new": "On average, within three months of the death, carers had less low mood and loss of interest in things (depressive symptoms), by enough to make a real difference in practice. Within a year, symptoms were substantially lower than while the carers were still caring.",
     "reason": "Cold read items 2 and 6: 'clinically significant' put in plain words and long sentence reorganised; source says clinically significant declines (C18-17-b)."
   },
   {
     "tmp_id": "C18-P04",
     "where": "captions.bluesky",
     "old": "In a US study of 217 family carers of people with dementia, 72 in 100 said the death was a relief to them, after long, demanding care. Depressive symptoms fell on average within 3 months. Researchers concluded support was needed most before the death. Ask for help now.",
-    "new": "In a US study of 217 family carers of people with dementia, 72 in 100 said the person's death was a relief. This followed long, demanding care. On average, low mood and loss of interest fell within 3 months. Researchers concluded support was needed most before the death. If you are caring now, ask for help.",
+    "new": "In a US study of 217 family carers of people with dementia, 72 in 100 said the person's death was a relief, after long, demanding care. On average, low mood and loss of interest fell within 3 months. Support was needed most before the death, the researchers concluded. Ask for help now.",
     "reason": "Cold read items 2 and 6: 'the death' made 'the person's death'; 'depressive symptoms' put in plain words; long sentence split."
   },
   {
     "tmp_id": "C18-P04",
     "where": "captions.threads",
-    "old": "On average, their depressive symptoms fell within three months. The researchers concluded that support was needed most before the death.",
-    "new": "On average, their low mood and loss of interest fell within three months. The researchers concluded that support was needed most before the death. This was a US trial sample and the carers reported their own feelings.",
-    "reason": "Cold read item 2: plain words for 'depressive symptoms'; flag: study limits stated (US trial, self-report) as in X and LinkedIn."
+    "old": "In a US study of 217 family carers of people with dementia, 72 in 100 said the person's death was a relief to them. It followed long, demanding care: half had spent at least 46 hours a week helping with daily activities.\n\nOn average, their depressive symptoms fell within three months. The researchers concluded that support was needed most before the death.\n\nIf you are caring now, ask your council or a local carers' centre what support they can offer.",
+    "new": "In a US study of 217 family carers of people with dementia, 72 in 100 said the person's death was a relief. It followed long, demanding care: half had spent at least 46 hours a week helping with daily activities.\n\nOn average, their low mood and loss of interest fell within three months. The researchers concluded that support was needed most before the death. Carers reported their own feelings.\n\nIf you are caring now, ask your council or a local carers' centre what support they can offer.",
+    "reason": "Cold read item 2: plain words for 'depressive symptoms'. Flag: study limit (self-reported) stated; 'a relief to them' shortened to stay within 500 characters."
   },
   {
     "tmp_id": "C18-P05",
@@ -185,7 +178,7 @@
     "tmp_id": "C18-P05",
     "where": "captions.bluesky",
     "old": "A family member who will give care after discharge needs a handover of their own. Trials of discharge plans that included carers were linked with about a quarter fewer readmissions over 3 to 6 months (relative; multi-part programmes). Ask what the carer is willing and able to do.",
-    "new": "A family member who will give care after discharge needs a handover of their own. In trials, discharge plans that included carers were linked with about a quarter fewer readmissions than comparison groups over 3 to 6 months (a relative reduction; the plans had several parts). Ask what the carer is willing and able to do.",
+    "new": "A family member who will give care after discharge needs a handover of their own. Plans that included carers were linked with about a quarter fewer readmissions than comparison groups over 3 to 6 months (a relative reduction; plans had several parts). Ask what the carer is willing and able to do.",
     "reason": "Cold read items 2 and 3: comparison stated, 'relative; multi-part' put in plain words; flag: plans, not trials, were linked with fewer readmissions."
   },
   {
@@ -220,8 +213,8 @@
     "tmp_id": "C18-P06",
     "where": "captions.bluesky",
     "old": "In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, especially the loss of work. In England, interviews described colleagues and managers acknowledging feelings as supportive. We should tell care workers promptly.",
-    "new": "In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, especially the loss of the work with that client. In England, workers described colleagues and managers acknowledging feelings as supportive. We should tell care workers promptly when it happens.",
-    "reason": "Cold read item 2: loss of work clarified; flag: 'tell care workers promptly' did not say tell them what."
+    "new": "In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, especially losing the work with that client. In England, workers found colleagues and managers acknowledging feelings supportive. We should tell workers promptly.",
+    "reason": "Cold read item 2: loss of work clarified; shortened to fit 300 characters. Flag: 'tell care workers promptly' did not say what is to be told; the sentence now follows the client dying."
   },
   {
     "tmp_id": "C18-P06",
@@ -234,8 +227,8 @@
     "tmp_id": "C18-P06",
     "where": "captions.threads",
     "old": "We should tell care workers promptly and personally.",
-    "new": "Our judgement: we should tell care workers promptly and personally when a client dies.",
-    "reason": "Flag: close labelled as judgement and says what to tell."
+    "new": "Our judgement: we should tell care workers promptly and personally.",
+    "reason": "Flag: close not shown by either study; labelled as judgement."
   },
   {
     "tmp_id": "C18-P07",
@@ -276,8 +269,8 @@
     "tmp_id": "C18-P07",
     "where": "captions.threads",
     "old": "We should always listen to a carer. Listening does not require sharing anything about the patient.\n\nIn an Irish survey of 159 carers of people with mental illness, over half had struggled to get information, and lack of the patient's consent was one of the two commonest reasons given.\n\nAsk the patient whom they are happy for information to go to, and record the answer for the next clinician. If the patient is unable to decide, follow your capacity and best-interests procedures.",
-    "new": "We should always listen to a carer. Listening does not require sharing anything about the patient.\n\nIn an Irish survey of 159 carers of people with mental illness recruited through a support group, over half had struggled to get information. Lack of the patient's consent was one of the two commonest reasons given; the other was that no team member was available.\n\nAsk the patient whom they are happy for information to go to, and record the answer for the next clinician. If the patient is unable to decide, follow your capacity and best-interests procedures.",
-    "reason": "Flag: setting caveat (support-group sample) and the other commonest reason added, as in X and LinkedIn."
+    "new": "We should listen to a carer. Listening does not require sharing anything about the patient.\n\nIn an Irish survey of 159 carers of people with mental illness (recruited from a support group), over half struggled to get information. Lack of patient consent was one of the two commonest reasons; the other was an unavailable team member.\n\nAsk the patient whom they are happy for information to go to, and record it. If they are unable to decide, follow your capacity and best-interests procedures.",
+    "reason": "Flag: setting caveat (support-group sample) and the other commonest reason added, as in X and LinkedIn; shortened to stay within 500 characters."
   },
   {
     "tmp_id": "C18-P08",

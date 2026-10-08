@@ -1,0 +1,478 @@
+[
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.x",
+    "old": "This shows a link. It does not show that pads caused the leaking, because frailer people are more likely to be given pads and the study could not fully allow for that.",
+    "new": "This is a link only. Frailer people are more likely to be given pads and the study could not fully allow for that, so pads may not be the cause.",
+    "reason": "Banned negation-then-correction shape; link-versus-cause kept (evidence C12-09-b/c)."
+  },
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.linkedin",
+    "old": "Compared with people who used the toilet themselves, both groups were more likely to report new incontinence at discharge, even after the researchers allowed for age, illness severity, mobility and memory. The adjusted odds ratios were 2.6 for pads and 4.3 for catheters, with wide confidence intervals.",
+    "new": "Both groups were more likely than people who used the toilet themselves to report new incontinence at discharge. This held after the researchers allowed for age, illness severity, mobility and memory. The adjusted odds of new incontinence were about 2.6 times higher with pads and 4.3 times higher with a catheter. Odds are not the same as the chance of it happening, so these figures do not say how many more people were affected, and the range of uncertainty was wide.",
+    "reason": "Cold read items 3 and 6: long sentence split; odds ratio given a plain meaning without turning it into 'times more likely' (evidence QUAL for C12-09-b)."
+  },
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.linkedin",
+    "old": "This shows a link. It does not show that pads or catheters caused the leaking. Frailer people are more likely to be given pads (a Danish study of about 2,000 older patients found this), so part of the link may reflect who is given pads rather than the pads themselves. No observational study can fully remove that.",
+    "new": "This is a link only. Frailer people are more likely to be given pads (a Danish study of about 2,000 older patients found this), so part of the link may come from who is given pads, and pads or catheters may not be the cause. No observational study can fully remove that.",
+    "reason": "Banned negation-then-correction shape; same claim, direct statement."
+  },
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.linkedin",
+    "old": "US infection control guidance (CDC, 2009) says catheters should not be used to manage incontinence, and lists using one as a substitute for nursing care of a person with incontinence as inappropriate. Its list of inappropriate uses rests mainly on expert consensus, and it does not address pads.",
+    "new": "US infection control guidance (CDC, 2009) says catheters should not be used to manage incontinence. It lists using one as a substitute for nursing care as inappropriate. This rests mainly on expert consensus, and the guidance does not cover pads.",
+    "reason": "Flag: long; CDC paragraph tightened without changing the claim (evidence C12-09-d)."
+  },
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.linkedin",
+    "old": "On your ward, is a person's usual continence before admission recorded, and by whom?",
+    "new": "On your ward, who decides that a person who walked in continent needs a pad, and is the reason written down?",
+    "reason": "Flag: closing question did not match the argument (toilet by default); evidence C12-09-e not found, so the question makes no claim about how records are kept."
+  },
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.bluesky",
+    "old": "In an Israeli hospital study, 60 of 352 people aged 70+ who were continent on admission said at discharge they could no longer control their bladder. Pads and catheters were linked with it, though frailer people are given pads more often. We should help people to the toilet by default.",
+    "new": "In an Israeli hospital study, 60 of 352 people aged 70 and over who were continent on admission said at discharge they could no longer control their bladder. Pads and catheters were linked with new leaking, though frailer people get pads more often. We should help people to the toilet by default.",
+    "reason": "Flag: 'it' referred back two sentences; '70+' spelled out. Link-versus-cause caveat kept."
+  },
+  {
+    "tmp_id": "C12-P01",
+    "where": "captions.threads",
+    "old": "60 of 352 people aged 70 and over said they could no longer control their bladder when they left an Israeli hospital ward. All 352 had been able to before admission.\n\nPads or a catheter for most of the stay were linked with it. That shows a link, not cause: frailer people are more likely to be given pads.\n\nWe should help people to the toilet by default, and ask why when a new \"incontinent\" record appears. That takes staff time and call bells answered quickly.",
+    "new": "60 of 352 people aged 70 and over said they could no longer control their bladder when they left an Israeli hospital ward. All 352 had been able to control it before admission.\n\nPads or a catheter for most of the stay were linked with new leaking. This is a link only: frailer people are more likely to be given pads, so pads may not be the cause.\n\nWe should help people to the toilet by default, and ask why when a new \"incontinent\" record appears. That takes staff time and call bells answered quickly.",
+    "reason": "Flags: dangling verb completed; negation-then-correction shape removed; caveat kept."
+  },
+  {
+    "tmp_id": "C12-P02",
+    "where": "captions.x",
+    "old": "In the trials, about 18 in 100 women taking cranberry had an infection, against about 24 in 100 without it.",
+    "new": "In the trials, about 18 in 100 women taking cranberry had an infection over the time each trial followed them, against about 24 in 100 not taking it.",
+    "reason": "Cold read item 3: time period added; follow-up varied between trials (evidence C12-23-b QUAL), so no single period is stated."
+  },
+  {
+    "tmp_id": "C12-P02",
+    "where": "captions.x",
+    "old": "The result is uncertain. It fits anything from about 4 fewer to about 3 more infections per 100 people.\n\nA result applies to the kind of people who were studied. We should not rely on cranberry to prevent infections in a care home.\n\nMore posts in the Reading the evidence series look at who a study covers and who it leaves out.",
+    "new": "The result is uncertain: the true effect could be anywhere from about 4 fewer to about 3 more infections per 100 people.\n\nWe should not rely on cranberry to prevent infections in a care home.",
+    "reason": "Cold read item 5: empty series close removed, ends on the action; abstract sentence removed; figurative 'fits anything' made literal."
+  },
+  {
+    "tmp_id": "C12-P02",
+    "where": "captions.linkedin",
+    "old": "A 2023 Cochrane review of cranberry products pooled 50 trials with 8,857 people. Its answer depends on who was studied.\n\nWomen who keep getting urine infections: cranberry products probably reduced infections. About 18 in 100 women taking cranberry had a symptomatic infection confirmed by a urine culture, compared with about 24 in 100 without it. The certainty was moderate, and the range of uncertainty means the benefit could be small.\n\nOlder people living in care homes or other institutions: three trials with 1,489 people did not show a clear benefit. About 11 in 100 had an infection with or without cranberry. The result is uncertain; it fits anything from about 4 fewer to about 3 more infections per 100. The review rates this evidence as moderate in its summary table and as low in its discussion, so the fair reading is that cranberry may make little or no difference for this group.\n\nThe same review found cranberry products probably reduce infections in children and in people prone to infection after a medical intervention, and reported that stomach side effects probably did not differ from placebo or no treatment, although the estimate (risk ratio 1.33, 95% confidence interval 1.00 to 1.77) leaves room for a modest increase. Its authors concluded that the evidence supports cranberry for women with repeated infections, for children and for people prone to infection after procedures, and does not support it for older people in institutions.\n\nA judgement from this: a result applies to the kind of people who were studied. A care home should not rely on cranberry to prevent infections in its residents, and a woman who keeps getting infections could reasonably discuss cranberry with her doctor.\n\nMore posts in the Reading the evidence series look at who a study covers and who it leaves out.",
+    "new": "A 2023 Cochrane review of cranberry products combined the results of 50 trials with 8,857 people. Cochrane is a group that reviews the evidence from trials. The answer depends on who was studied.\n\nWomen who keep getting urine infections: cranberry products probably reduced infections. About 18 in 100 women taking cranberry had a symptomatic infection confirmed by a urine culture, over the time each trial followed them, compared with about 24 in 100 not taking it. The certainty was moderate, and the range of uncertainty means the benefit could be small.\n\nOlder people living in care homes or other institutions: three trials with 1,489 people did not show a clear benefit. About 11 in 100 had an infection with or without cranberry. The result is uncertain: the true effect could be anywhere from about 4 fewer to about 3 more infections per 100. The review rates how sure we can be as moderate in its summary table and as low in its discussion, so the fair reading is that cranberry may make little or no difference for this group.\n\nThe same review found cranberry products probably reduce infections in children and in people prone to infection after a medical intervention. Stomach side effects probably did not differ from a dummy treatment or no treatment. The estimate fits anything from no difference to about three-quarters more stomach side effects. Its authors concluded that the evidence supports cranberry for women with repeated infections, for children and for people prone to infection after procedures, and does not support it for older people in institutions.\n\nA judgement from this: a care home should not rely on cranberry to prevent infections in its residents, and a woman who keeps getting infections could reasonably discuss cranberry with her doctor.",
+    "reason": "Cold read items 2, 3, 5, 6 (rewrite, total 9): risk ratio and confidence interval replaced by plain range; 'pooled', 'placebo' and 'Cochrane' explained or replaced; follow-up period added; long sentences split; series plug removed and close ends on the judgement. Moderate-versus-low certainty kept (evidence C12-23-c)."
+  },
+  {
+    "tmp_id": "C12-P02",
+    "where": "captions.bluesky",
+    "old": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small: about 18 in 100 with, 24 in 100 without. For older people in care homes or other institutions, trials showed no clear benefit: about 11 in 100 either way. Results apply to those studied.",
+    "new": "Cranberry products probably help women who keep getting urine infections, though maybe only a little: 18 in 100 women taking it had an infection, against 24 in 100 not taking it. For older people in care homes or other institutions, trials showed no clear benefit: about 11 in 100 either way. We should not rely on cranberry in a care home.",
+    "reason": "Cold read items 1, 3, 5: 'with, without' completed; empty close replaced by the action sentence."
+  },
+  {
+    "tmp_id": "C12-P02",
+    "where": "captions.threads",
+    "old": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small: in trials about 18 in 100 had one with cranberry, 24 in 100 without.\n\nFor older people in care homes or other institutions, the trials did not show a clear benefit: about 11 in 100 either way, with real uncertainty.\n\nA result applies to the kind of people who were studied. We should not rely on cranberry to prevent infections in a care home.",
+    "new": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small. In the trials, about 18 in 100 women taking cranberry had an infection over the time each trial followed them, against about 24 in 100 not taking it.\n\nFor older people in care homes or other institutions, the trials did not show a clear benefit: about 11 in 100 had an infection either way. The true effect could be anywhere from about 4 fewer to about 3 more infections per 100 people.\n\nWe should not rely on cranberry to prevent infections in a care home.",
+    "reason": "Cold read item 3 and flags: noun supplied for 'had one', time period added, vague 'real uncertainty' replaced by the range; abstract sentence removed."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.x",
+    "old": "Smell and colour are weak guides on their own.",
+    "new": "Smell and colour alone are weak signs of infection.",
+    "reason": "Figurative 'guides' replaced with a literal phrase."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.x",
+    "old": "A larger US study of residents already suspected of having an infection found that a change in the urine's colour, smell or blood raised the chance of laboratory signs of infection a little: about 47 in 100 against 31 in 100.",
+    "new": "A larger US study looked at residents already suspected of having an infection. When the urine had changed in colour or smell, or showed blood, laboratory signs of infection were found in about 47 in 100. When it had not, they were found in about 31 in 100. So a change raised the chance, but the same laboratory signs are common in residents with no infection.",
+    "reason": "Cold read items 3 and 6: 'a little' sat beside a 16-point gap; both figures now stated as groups; evidence C12-17-b caveat kept."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "Smell and colour are weak guides on their own.",
+    "new": "Smell and colour alone are weak signs of infection.",
+    "reason": "Figurative 'guides' replaced with a literal phrase."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "A change in the urine raises the chance a little. The same laboratory signs are common in residents with no infection.",
+    "new": "A change in the urine raised the chance of these signs from about 31 in 100 to about 47 in 100. The same laboratory signs are common in residents with no infection.",
+    "reason": "Cold read item 3: 'a little' replaced by the two figures."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "Infection experts who wrote criteria for care homes note that changes in colour or smell often occur without infection, for example when someone is not drinking enough. Their criteria look for new urinary symptoms: pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these. The authors say the criteria were written for surveillance and may not suit decisions such as starting antibiotics. People with a catheter, or who are unable to report symptoms, need separate judgement.",
+    "new": "Infection experts wrote criteria for care homes. They note that changes in colour or smell often occur without infection, for example when someone is not drinking enough. Their criteria look for new urinary symptoms. These are pain or burning passing urine, new or much worse urgency, frequency or leaking, pain low in the tummy or in the side, visible blood in the urine, or fever with any of these. The authors say the criteria were written to track infections across a care home and may not suit decisions such as starting antibiotics. People with a catheter, or who are unable to report symptoms, need separate judgement.",
+    "reason": "Cold read items 2 and 6: 'surveillance' replaced; long sentences split. Authors' caveat kept (evidence C12-17-c)."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.linkedin",
+    "old": "(a very imprecise estimate; one trial reported diarrhoea, rash and thrush)",
+    "new": "(the estimate is very uncertain; one trial reported diarrhoea, rash and thrush)",
+    "reason": "Cold read item 3: 'imprecise' replaced."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.bluesky",
+    "old": "Smelly or changed-colour urine is often taken as a sign of infection. In nursing home studies, smell and changes in the urine were weak guides alone. Report new pain or burning, urgency or leaking, low tummy or side pain, or blood. Ask if antibiotics are for smell or colour alone.",
+    "new": "Smelly or changed-colour urine is often taken as a sign of infection. In nursing home studies, smell and colour changes alone were weak signs of infection: smell disagreed with urine tests about 1 time in 3. Report new pain or burning, urgency or leaking, low tummy or side pain, or blood. Ask if antibiotics are for smell or colour alone.",
+    "reason": "Cold read item 6 and flags: 'weak guides' made literal, number added so the reader can judge how weak."
+  },
+  {
+    "tmp_id": "C12-P03",
+    "where": "captions.threads",
+    "old": "In a small US study, judging by smell disagreed with urine tests about 1 time in 3, and those tests also pick up harmless bacteria.",
+    "new": "In a small US study of 97 wet pads, judging by smell disagreed with urine tests about 1 time in 3. Those tests also pick up bacteria that many residents have without any infection.",
+    "reason": "Cold read item 3: study size added; 'harmless' replaced by the wording of evidence C12-17-a."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.x",
+    "old": "Once a day is the most common bowel pattern, but in a Bristol study of about 1,900 adults (published in 1992) only 40 in 100 men and 33 in 100 women kept to a regular daily cycle. Most people were irregular, and a third of the women went less often than once a day.",
+    "new": "Once a day is the most common bowel pattern. In a 1992 Bristol study of about 1,900 adults, only 40 in 100 men and 33 in 100 women had a bowel movement every day. Most people did not follow a fixed daily pattern, and a third of the women went less often than once a day.",
+    "reason": "Cold read items 2 and 6: 'regular daily cycle' defined; contradiction on first read removed by splitting; 'irregular' (undefined, alarming) replaced."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.x",
+    "old": "Tell your GP about a change from your own usual pattern that lasts, blood from the back passage or in the stool, or weight loss you can't explain. GPs may use a simple stool test, called FIT, to help decide who needs urgent bowel tests.",
+    "new": "GPs may use a simple stool test, called FIT, to help decide who needs urgent bowel tests. A normal result does not end the matter if symptoms last. Tell your GP about a change from your own usual pattern that lasts, blood from the back passage or in the stool, or weight loss you can't explain.",
+    "reason": "Cold read item 5: FIT sentence moved before the advice so the post ends on the instruction; normal-FIT qualification added from evidence C12-25-e."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.linkedin",
+    "old": "only 40 in 100 men and 33 in 100 women went on a regular daily cycle. Most people had irregular bowels, and a third of the women went less often than once a day.",
+    "new": "only 40 in 100 men and 33 in 100 women had a bowel movement every day. Most people did not follow a fixed daily pattern, and a third of the women went less often than once a day.",
+    "reason": "Flag: 'regular daily cycle' undefined; 'irregular' replaced."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.linkedin",
+    "old": "it is not a diagnostic cut-off.",
+    "new": "it is not a line that separates healthy from unwell.",
+    "reason": "Cold read item 2: jargon replaced."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.linkedin",
+    "old": "Doctors call it constipation when problems such as hard or lumpy stools, straining, a feeling of not having emptied, or going fewer than 3 times a week happen a good part of the time. Going less than once a day is not constipation on its own, and some straining now and then is common in healthy people.",
+    "new": "Doctors call it constipation when hard or lumpy stools, straining, or a feeling of not having emptied happen a good part of the time. Going fewer than 3 times a week for much of the time can also count. Going less than once a day is not constipation on its own, and some straining now and then is common in healthy people.",
+    "reason": "Cold read item 6: long sentence split; 'a good part of the time' kept (evidence C12-25-d)."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.linkedin",
+    "old": "UK specialist guidance recommends that GPs use a simple stool test, called FIT, to help decide who needs urgent bowel tests.",
+    "new": "UK specialist guidance recommends that GPs use a simple stool test, called FIT. It helps decide who needs urgent bowel tests.",
+    "reason": "Cold read item 6: sentence split; recommendation attribution kept."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.bluesky",
+    "old": "Once a day is the most common bowel pattern, but only 40 in 100 men and 33 in 100 women in a Bristol study had a daily cycle. Adults who called their bowels normal nearly all went from 3 a day to 3 a week. Not studied in people in their 80s. Tell your GP about a lasting change, blood or weight loss.",
+    "new": "Once a day is the most common bowel pattern. In a Bristol study only 40 in 100 men and 33 in 100 women had a bowel movement every day. Adults who called their bowels normal nearly all went between 3 times a week and 3 times a day. Studies say little about people in their 80s. Tell your GP about a lasting change, blood or weight loss.",
+    "reason": "Cold read items 2, 3, 6: 'daily cycle' defined; range written low to high; flat 'not studied' claim softened to match the longer versions (evidence C12-25-b)."
+  },
+  {
+    "tmp_id": "C12-P04",
+    "where": "captions.threads",
+    "old": "Once a day is the most common bowel pattern, but in a Bristol study of about 1,900 adults only 40 in 100 men and 33 in 100 women kept to a regular daily cycle.",
+    "new": "Once a day is the most common bowel pattern. In a Bristol study of about 1,900 adults, only 40 in 100 men and 33 in 100 women had a bowel movement every day.",
+    "reason": "Cold read items 2 and 6: contradiction on first read removed; term defined."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.x",
+    "old": "In a US study from the 1990s of about 6,000 people aged 65 and over, those whose incontinence had been recorded by doctors were about twice (women) and three times (men) as likely to move into a nursing home, after allowing for age and other illnesses. This shows a link. It does not show that treating incontinence prevents a move.",
+    "new": "A US study from the 1990s followed about 6,000 people aged 65 and over. Women whose incontinence had been recorded by doctors were about twice as likely to move into a nursing home as women without it, and men about three times as likely, after allowing for age and other illnesses. This is a link in records. The study did not test whether treating incontinence prevents a move.",
+    "reason": "Cold read items 3 and 6: bracket shorthand replaced, comparison group named; negation-then-correction shape removed (evidence C12-08-a)."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.x",
+    "old": " It may find something that helps, though research on help at home is thin. A care home can still be the right choice.",
+    "new": " It may find something that helps, though research on help at home is thin.",
+    "reason": "Cold read item 5: closing reassurance with no support in the post removed; post now ends on the evidence limit (evidence C12-08-e)."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.linkedin",
+    "old": "In a US study of about 6,000 people aged 65 and over, those whose incontinence had been recorded by doctors were about twice (women) and three times (men) as likely to move into a nursing home, after allowing for age and other illnesses. These are relative figures; the published summary does not say how many in 100 moved. The data are from the 1990s. This shows a link. It does not show that treating incontinence prevents a move.",
+    "new": "A US study followed about 6,000 people aged 65 and over. Women whose incontinence had been recorded by doctors were about twice as likely to move into a nursing home as women without it, and men about three times as likely, after allowing for age and other illnesses. These are relative figures; the published summary does not say how many in 100 moved. The data are from the 1990s. This is a link in records. The study did not test whether treating incontinence prevents a move.",
+    "reason": "Cold read items 3 and 6, flag: sentence split, comparison group named, negation-then-correction removed."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.linkedin",
+    "old": "Specialists in older people's care advise that clinicians ask about continence and that assessment looks for causes, usually with more than one professional.",
+    "new": "Specialists in older people's care advise that clinicians ask about continence. They advise that an assessment looks for causes, usually with more than one professional.",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.linkedin",
+    "old": " It can cover the cause, medicines, constipation, equipment such as a commode or urinal bottle, the products supplied, and help at night. A care home can still be the right choice.",
+    "new": " It can cover the cause, medicines, constipation, equipment such as a commode or urinal bottle, the products supplied, and help at night.",
+    "reason": "Cold read item 5: closing reassurance removed; post ends on the judgement."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.bluesky",
+    "old": "Incontinence is linked with moving into a care home (US study from the 1990s: about twice the likelihood in women, three times in men). If it is part of the discussion, ask for a continence assessment: causes, medicines, constipation, equipment, night help. A care home can still be the right choice.",
+    "new": "A 1990s US study found recorded incontinence linked with moving into a nursing home: women were about twice as likely, and men three times as likely, as people without it. That is a link only. If incontinence is part of a care home discussion, ask for a continence assessment (a check for causes and what could help).",
+    "reason": "Cold read items 2, 3, 5 and flag: comparison group named, link-only statement added, assessment explained, reassurance close removed."
+  },
+  {
+    "tmp_id": "C12-P05",
+    "where": "captions.threads",
+    "old": "Ask for a continence assessment (a check for the causes of leaking) when incontinence is part of why a care home is being discussed.\n\nA US study from the 1990s found a link: recorded incontinence went with about twice (women) and three times (men) the likelihood of moving into a nursing home. It does not show that treatment prevents a move.\n\nAn assessment can look at medicines, constipation, getting to the toilet, equipment, products and help at night. A care home can still be the right choice.",
+    "new": "Ask for a continence assessment (a check for the causes of leaking) when incontinence is part of why a care home is being discussed.\n\nA US study from the 1990s found a link. Women with recorded incontinence were about twice as likely to move into a nursing home as women without it, and men about three times as likely. The study did not test whether treatment prevents a move.\n\nAn assessment can look at medicines, constipation, getting to the toilet, equipment, products and help at night. Research on help at home is thin, so it may or may not find something that helps.",
+    "reason": "Cold read items 3 and 5: 'went with' and bracket shorthand replaced; negation-then-correction removed; closing reassurance replaced by the evidence limit (evidence C12-08-e)."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.x",
+    "old": "Women who looked after their own pessary reported slightly fewer pessary problems (on a questionnaire, in a trial where women knew which group they were in), and fewer had ulceration or other concerns about the vaginal tissues on examination (about 18 in 100 against 27 in 100). The trial did not report whether that gap was larger than chance.",
+    "new": "Women who looked after their own pessary reported slightly fewer pessary problems on a questionnaire. The women knew which group they were in. On examination, fewer had sores or other concerns about the vaginal tissues: about 18 in 100 who looked after their own, against 27 in 100 in clinic care. The paper did not test whether that gap could be down to chance, so it is unclear whether it is real.",
+    "reason": "Cold read items 2 and 6: 'ulceration' replaced; sentence split; comparison group named; plain wording for the untested gap."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.x",
+    "old": "About 1 in 5 women taught to self-manage went back to clinic care. If you use a pessary and think you could manage it, ask whether you can be taught. Clinic care remains a good choice, and many women prefer it.",
+    "new": "About 1 in 5 women taught to self-manage went back to clinic care. Clinic care remains a good choice, and many women prefer it. If you use a pessary and think you could manage it, ask whether you can be taught.",
+    "reason": "Cold read item 5: reassurance moved before the ask so the post ends on the instruction."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "On examination, ulceration, granulation or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed and about 27 in 100 in clinic care (27 of 152 against 43 of 160 examined). The paper does not report a test of this difference. Self-management cost the NHS less (about £578 per woman over 18 months, against £728) and was likely to be good value.",
+    "new": "On examination, sores, raw or overgrown tissue or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed. In clinic care it was about 27 in 100 (27 of 152 against 43 of 160 examined). The paper does not report a test of this examination difference. Self-management cost the NHS less (about £578 per woman over 18 months, against £728) and was probably good value for money (about an 8 in 10 chance, by the trial's own analysis).",
+    "reason": "Cold read items 2 and 6: medical terms replaced; sentence split; vague 'likely to be good value' given its figure (evidence C12-36-d, 80.8%)."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "TOPSY randomly assigned 340 women",
+    "new": "The trial randomly assigned 340 women",
+    "reason": "Flag: unexplained acronym removed."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "At 4 years the difference in complications was similar in size but no longer statistically clear, which may reflect the smaller number of women who answered.",
+    "new": "At 4 years the difference in reported pessary problems was similar in size but no longer clearly more than chance, which may reflect the smaller number of women who answered.",
+    "reason": "Cold read item 2 and flag: jargon replaced; the 4-year questionnaire measure is distinguished from the 18-month examination figure that had no test, removing the apparent inconsistency (evidence C12-36-e)."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.linkedin",
+    "old": "The trial did not include women who could not use their hands well enough, women whose memory or thinking problems meant they could not consent or self-manage, or women who needed teaching in a language other than English.",
+    "new": "The trial left out three groups. They were women who could not use their hands well enough, women whose memory or thinking problems meant they could not consent or self-manage, and women who needed teaching in a language other than English.",
+    "reason": "Cold read item 6: long sentence split."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.bluesky",
+    "old": "In a UK trial of 340 women, learning to look after your own pessary (a device holding the pelvic organs up) showed no clear difference in quality of life at 18 months, and slightly fewer self-reported problems. It left out women with poor hand use or memory problems. Ask if you could be taught.",
+    "new": "In a UK trial of 340 women, some learned to look after their own pessary (a device holding the pelvic organs up). At 18 months there was no clear difference in quality of life from clinic care, and they reported slightly fewer pessary problems. It left out women with poor hand use or memory problems. Ask if you could be taught.",
+    "reason": "Cold read items 1, 3, 6 and flag: comparison group (clinic care) named; long sentence split."
+  },
+  {
+    "tmp_id": "C12-P06",
+    "where": "captions.threads",
+    "old": "In a UK trial of 340 women, learning to do it themselves showed no clear difference in quality of life at 18 months, and slightly fewer self-reported pessary problems.",
+    "new": "In a UK trial of 340 women, those taught to do it themselves had no clear difference in quality of life at 18 months compared with clinic care. They reported slightly fewer pessary problems.",
+    "reason": "Cold read item 6: comparison group named; sentence split."
+  },
+  {
+    "tmp_id": "C12-P07",
+    "where": "captions.x",
+    "old": "Only half of 267 people whose urinary catheter had been placed in the previous 4 weeks, on UK district nursing caseloads, had any plan for taking it out: a review date, a date to try without it, or a referral to district nurses, urology or a continence service. In a 2017 to 2018 survey, the share with a plan ranged from 20 in 100 to 96 in 100 between organisations.",
+    "new": "In a 2017 to 2018 survey of 267 people on UK district nursing caseloads whose urinary catheter had been placed in the previous 4 weeks, only half had any plan for taking it out. A plan meant a review date, a date to try without it, or a referral to district nurses, urology or a continence service. The share with a plan ranged from 20 in 100 to 96 in 100 between organisations.",
+    "reason": "Cold read item 6: long sentence split, survey year placed with the finding."
+  },
+  {
+    "tmp_id": "C12-P07",
+    "where": "captions.linkedin",
+    "old": "In a 2017 to 2018 UK survey, only half (134 of 267) of the people whose urinary catheter had been placed in the previous 4 weeks, on district nursing caseloads, had any plan for taking it out: a review date, a date to try without it, or a referral to district nurses, urology or a continence service.",
+    "new": "In a 2017 to 2018 UK survey of 267 people on district nursing caseloads whose urinary catheter had been placed in the previous 4 weeks, only half (134) had any plan for taking it out. A plan meant a review date, a date to try without it, or a referral to district nurses, urology or a continence service.",
+    "reason": "Cold read item 6: long sentence split."
+  },
+  {
+    "tmp_id": "C12-P07",
+    "where": "captions.linkedin",
+    "old": "In a review of 14 hospital studies, reminders and automatic stop orders together cut the rate of catheter infections by about half and shortened catheter use by about 2.6 days per patient.",
+    "new": "A review of 14 hospital studies looked at reminders and automatic stop orders together. They cut the rate of catheter infections by about half and shortened catheter use by about 2.6 days per patient.",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C12-P07",
+    "where": "captions.bluesky",
+    "old": "In a UK survey of 267 people",
+    "new": "In a 2017 to 2018 UK survey of 267 people",
+    "reason": "Flag: survey year added."
+  },
+  {
+    "tmp_id": "C12-P07",
+    "where": "captions.threads",
+    "old": "Only half of 267 people whose urinary catheter had been placed in the last 4 weeks, on UK district nursing caseloads, had a plan to remove it, in a 2017 to 2018 survey.\n\nNational hospital guidance (epic3) says to record why the catheter went in, when, and the planned removal date, and not to discharge anyone with a short-term catheter without a documented plan. The longer a catheter stays, the higher the infection risk.\n\nA catheter without a reason and a removal plan is an incomplete discharge.",
+    "new": "In a 2017 to 2018 UK survey of 267 people on district nursing caseloads whose urinary catheter had been placed in the last 4 weeks, only half had any plan for taking it out, such as a review date or a referral.\n\nNational hospital guidance (epic3) says to record why the catheter went in, when, and the planned removal date, and not to discharge anyone with a short-term catheter without a documented plan. The longer a catheter stays, the higher the infection risk.\n\nA catheter without a reason and a removal plan is an incomplete discharge.",
+    "reason": "Flag: 'plan to remove it' dropped the other plan types; now says any plan, with examples."
+  },
+  {
+    "tmp_id": "C12-P08",
+    "where": "captions.x",
+    "old": "Some leaks happen because the toilet is hard to reach or hard to use: slow walking, memory problems, or the route and room itself. Getting there in time means standing up, walking, opening a door, finding the toilet, undoing clothes and sitting down.\n\nWe should include watching someone make that trip, from chair or bed to toilet, by day and by night, in a continence assessment. Check the chair height, a walking aid within reach, a clear lit route, a door that opens easily, clothes that are easy to undo, and a commode or urinal bottle at night. These are things to check, not treatments shown to work in trials.\n\nIn a US study of about 6,000 older women, leaking with urgency at least weekly was linked with more falls and fractures over about 3 years. Getting up at night to pass urine is also linked with falls. These links do not show cause.",
+    "new": "Some leaks happen because the toilet is hard to reach or hard to use: slow walking, memory problems, or the layout of the route and room. Getting there in time means standing up, walking, opening a door, finding the toilet, undoing clothes and sitting down.\n\nTwo links from research. In a US study of about 6,000 older women, leaking after a sudden strong need to pass urine at least weekly was linked with more falls and fractures over about 3 years than in women without it. Getting up at night to pass urine is also linked with falls. Neither link shows cause.\n\nWe should include watching someone make that trip, from chair or bed to toilet, by day and by night, in a continence assessment (a check for the causes of leaking). Check the chair height, whether a walking aid is within reach, and whether the route is clear and lit. Check that the door opens easily and clothes are easy to undo. At night, check for a commode or urinal bottle. No trial evidence was found for each of these changes on its own.\n\nAsk for the trip to the toilet to be watched, by day and by night.",
+    "reason": "Cold read items 2, 3, 5, 6: assessment and 'leaking with urgency' explained; comparison group added to the falls link; research links moved before the advice so the post ends on the instruction; checklist split into sentences; negation-then-correction removed. Association language kept (evidence C12-11-b, -c, -d)."
+  },
+  {
+    "tmp_id": "C12-P08",
+    "where": "captions.linkedin",
+    "old": "A judgement for continence assessments in older people: include watching the person make that trip, by day and by night. Practical things to check are the height of the chair or bed, whether the walking aid is within reach, a clear and lit route, a door that opens easily, whether the toilet can be seen, clothes that are easy to undo, and a raised seat or rails. At night, a light and a commode or urinal bottle by the bed. These are things to check. No trial evidence was found for each adaptation on its own.",
+    "new": "A judgement: a continence assessment (a check for the causes of leaking) in an older person should include watching the person make that trip, by day and by night. Practical things to check are the height of the chair or bed, whether the walking aid is within reach, and a clear and lit route. Also check that the door opens easily, the toilet can be seen, clothes are easy to undo, and a raised seat or rails are in place. At night, check for a light and a commode or urinal bottle by the bed. No trial evidence was found for each of these changes on its own.",
+    "reason": "Cold read items 2 and 6: label turned into a sentence, assessment explained, long list split; negation shape removed."
+  },
+  {
+    "tmp_id": "C12-P08",
+    "where": "captions.linkedin",
+    "old": "leaking with urgency at least weekly was linked with more falls and fractures over about 3 years; leaking on coughing was not.",
+    "new": "leaking after a sudden strong need to pass urine, at least weekly, was linked with more falls and fractures over about 3 years; leaking on coughing was not.",
+    "reason": "Cold read item 2: 'leaking with urgency' explained."
+  },
+  {
+    "tmp_id": "C12-P08",
+    "where": "captions.linkedin",
+    "old": "is linked with a somewhat higher risk of falls; whether it causes falls is uncertain.",
+    "new": "is linked with a somewhat higher risk of falls than in people who do not get up at night; whether it causes falls is uncertain.",
+    "reason": "Cold read item 3: comparison added. No figure given because the evidence (C12-11-c) does not allow turning the estimate into a multiplier."
+  },
+  {
+    "tmp_id": "C12-P08",
+    "where": "captions.bluesky",
+    "old": "Some leaks happen because the toilet is hard to reach or use: slow walking, memory problems, the route or room. A continence assessment should include watching the trip from chair or bed to toilet, day and night. These are things to check, not treatments shown to work.",
+    "new": "Some leaks happen because the toilet is hard to reach or use: slow walking, memory problems, the route or room. We should include watching the trip from chair or bed to toilet, by day and night, in a continence assessment (a check for the causes of leaking). Ask for the trip to be watched.",
+    "reason": "Cold read items 2 and 5: assessment explained, ends on a concrete next step; negation-then-correction removed."
+  },
+  {
+    "tmp_id": "C12-P08",
+    "where": "captions.threads",
+    "old": "Some leaks happen because the toilet is hard to reach or hard to use: slow walking, memory problems, or the route and room itself.\n\nA continence assessment should include watching the person get from chair or bed to the toilet, by day and by night. Check chair height, walking aid, a lit clear route, the door, clothes, and a commode or bottle at night. These are things to check, not treatments shown to work in trials.",
+    "new": "Some leaks happen because the toilet is hard to reach or hard to use: slow walking, memory problems, or the layout of the route and room.\n\nA continence assessment (a check for the causes of leaking) should include watching the person get from chair or bed to the toilet, by day and by night. Check the chair height, whether the walking aid is within reach, that the route is clear and lit, that the door opens easily, that clothes are easy to undo, and that a commode or urinal bottle is by the bed at night. No trial has tested each change on its own.\n\nAsk for the trip to be watched.",
+    "reason": "Cold read items 2, 5, 6: assessment explained; telegraphic list written out; negation-then-correction removed; ends on a concrete next step."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.x",
+    "old": "Common causes can be treated: loose stools, or constipation with leakage around hard stool. First steps include",
+    "new": "Loose stools, and constipation with leakage around hard stool, are common causes that can be treated. First steps include",
+    "reason": "Flag: a symptom was listed as a cause after a colon; rewritten as a sentence (evidence C12-26-d)."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.x",
+    "old": "You can ask whether a continence service could help.",
+    "new": "You can ask whether a continence service (a team that assesses and treats leaking) could help.",
+    "reason": "Cold read item 2: term explained."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.x",
+    "old": "In a US national survey of adults living at home, about 3 in 100 people in their 20s reported any bowel leakage in the past month (including small amounts of liquid or mucus), against about 15 in 100 (roughly 1 in 7) of those aged 70 and over. In two US surveys, one of clinic patients in the 1990s and one of women aged 45 and over, only about 1 in 3 people with leakage had ever talked to a doctor about it.",
+    "new": "A US national survey asked adults living at home about bowel leakage in the past month, including small amounts of liquid or mucus. About 3 in 100 people in their 20s reported it. For those aged 70 and over it was about 15 in 100, roughly 1 in 7. Two US surveys asked people with leakage whether they had told a doctor. One surveyed clinic patients in the 1990s, the other women aged 45 and over. Only about 1 in 3 had.",
+    "reason": "Cold read item 6: long sentences split."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.linkedin",
+    "old": "You can ask: could a continence service help?",
+    "new": "You can ask whether a continence service (a team that assesses and treats leaking) could help.",
+    "reason": "Cold read item 2: term explained."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.linkedin",
+    "old": "First steps: advice on food, fibre and drinks; a regular toilet routine; a fibre supplement or a medicine that firms up loose stools, such as loperamide; pelvic floor exercises; and pads and skin care. These simple steps help some people",
+    "new": "First steps are advice on food, fibre and drinks, a regular toilet routine, and pads and skin care. A fibre supplement, a medicine that firms up loose stools such as loperamide, or pelvic floor exercises may also be tried. These simple steps help some people",
+    "reason": "Cold read item 6: semicolon list split into sentences; same first-step content (evidence C12-26-e)."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.linkedin",
+    "old": "In two US surveys, one of clinic patients in the 1990s and one of women aged 45 and over, only about 1 in 3 people with leakage had ever talked to a doctor about it.",
+    "new": "Two US surveys asked people with leakage whether they had told a doctor. One surveyed clinic patients in the 1990s, the other women aged 45 and over. Only about 1 in 3 had.",
+    "reason": "Cold read item 6: sentence split."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.bluesky",
+    "old": "Bowel leakage is more common in older age groups: about 15 in 100 US adults 70+ at home reported some in a month. In two US surveys (clinic patients; women 45+) only about 1 in 3 people with it had told a doctor. Causes can often be treated. Try saying: \"I have had some accidents with my bowels.\"",
+    "new": "Bowel leakage is more common in older age groups: about 15 in 100 US adults aged 70 and over living at home reported some in the past month. In two US surveys (clinic patients; women 45 and over) only about 1 in 3 people with leakage had told a doctor. Loose stools and constipation are common causes that can be treated. Try saying: \"I have had some accidents with my bowels.\"",
+    "reason": "Flags: '70+' spelled out; 'it' replaced; vague 'causes can often be treated' made specific (evidence C12-26-d)."
+  },
+  {
+    "tmp_id": "C12-P09",
+    "where": "captions.threads",
+    "old": "\"I have had some accidents with my bowels\" is a sentence your GP or practice nurse can act on.\n\nIn a US national survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month. In two other US surveys (clinic patients; women 45+), only about 1 in 3 people with it had talked to a doctor. Loose stools and constipation are common causes that can be treated, and simple first steps help some people. You can ask whether a continence service could help.",
+    "new": "\"I have had some accidents with my bowels\" is a sentence your GP or practice nurse can act on.\n\nIn a US national survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month. In two other US surveys (clinic patients; women 45 and over), only about 1 in 3 people with leakage had talked to a doctor. Loose stools and constipation are common causes that can be treated, and simple first steps help some people. You can ask whether a continence service (a team that assesses and treats leaking) could help.",
+    "reason": "Cold read item 2 and flag: continence service explained; 'it' replaced by 'leakage'."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.x",
+    "old": "was lower with the sheath after adjustment, but not clearly before it, and bacteria in the urine drove the result. Similar shares of men had an event (about 44 against 49 in 100).",
+    "new": "was lower with the sheath after adjustment but not clearly before it. Bacteria in the urine drove the result. Similar shares of men had an event (about 44 in 100 with a sheath against 49 in 100 with a catheter).",
+    "reason": "Cold read item 6: sentence split; groups named."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.linkedin",
+    "old": "The main trial: 75 men in a US veterans' hospital, average age about 73, who needed urine collected and had no retention, were randomly given a sheath or an indwelling catheter.",
+    "new": "The main trial gave 75 men in a US veterans' hospital, average age about 73, who needed urine collected and had no retention, either a sheath or an indwelling catheter by random choice.",
+    "reason": "Flag: label turned into a sentence."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.linkedin",
+    "old": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. The unadjusted",
+    "new": "It occurred at 70 per 1,000 patient-days with sheaths and 131 per 1,000 with catheters. A patient-day is one day of follow-up for one man. The unadjusted",
+    "reason": "Cold read item 7: unit explained. The rate and the share of men are reconciled in the next change."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.linkedin",
+    "old": "Similar shares of men had at least one event (about 44 in 100 with a sheath, 49 in 100 with a catheter), and symptomatic infections and deaths were few and not clearly different on their own.",
+    "new": "Similar shares of men had at least one event: about 44 in 100 with a sheath and 49 in 100 with a catheter. That counts men, while the rate above counts events per 1,000 days of follow-up, so the two figures measure different things. Symptomatic infections and deaths were few and not clearly different on their own.",
+    "reason": "Cold read items 6 and 7: sentence split; the two figures for one outcome are reconciled in plain words (STYLE section 5)."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.bluesky",
+    "old": "For a man who can empty his bladder but needs urine collected, a sheath avoids a tube in the bladder. In a 75-man trial, more men said it was comfortable; the combined problem measure was driven by bacteria in the urine. Needs right size, secure fit, daily change, skin checks.",
+    "new": "For a man who can empty his bladder but needs urine collected, a sheath avoids a tube in the bladder. In a 75-man trial, more men with a sheath said it was comfortable. A combined problem measure (bacteria in urine, infection, death) was lower with a sheath after adjustment, mostly from bacteria in the urine.",
+    "reason": "Cold read items 3 and 4: comparison group named; direction of the combined measure stated, with what it contained. Fitting advice (size, change, skin checks) dropped to fit the 300-character limit; it remains in the X, LinkedIn and Threads versions."
+  },
+  {
+    "tmp_id": "C12-P10",
+    "where": "captions.threads",
+    "old": "A combined measure of problems was lower after adjustment, driven mostly by bacteria in the urine on daily testing.",
+    "new": "A combined measure of problems was lower after adjustment but not clearly lower before it, driven mostly by bacteria in the urine.",
+    "reason": "Cold read item 4: unadjusted result added; shortened to stay within 500 characters."
+  }
+]

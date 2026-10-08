@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C11-P03 Cutting down tablets</title><link rel="stylesheet" href="../design_system/base.css"><script>window.__ready = false;</script><script src="c11_common.js"></script>
+<style>
+ .arr{display:flex;gap:40px;margin-top:40px}.arr .a{flex:1}.arr svg{display:block;width:340px;height:auto}
+ .lab{font-size:32px;line-height:1.3;font-weight:700;margin-top:18px}
+ .lab span{display:block;font-family:Montserrat;font-weight:800;font-size:30px;color:var(--teal);margin-bottom:6px}
+ .rws{display:flex;flex-direction:column;gap:22px;margin-top:34px}
+ .rw{display:grid;grid-template-columns:84px 1fr;gap:22px;align-items:center;background:#fff;border:2px solid var(--line);border-radius:20px;padding:22px 26px;font-size:32px;line-height:1.32}
+ .rw svg{width:76px;height:76px}
+ .band{margin-top:auto;margin-bottom:36px;background:var(--mint);border:3px solid var(--teal);border-radius:26px;padding:30px 34px;font-size:34px;line-height:1.36;font-weight:600}
+</style></head><body><div class="sheet">
+<div class="card"><div class="topline"><span class="series">Care that works</span><span class="slidecount">1/2</span></div>
+<div class="content">
+ <h1 class="m">Six months after a booklet on <em>tablet risks</em></h1>
+ <p class="body">People aged 65 to 95 who had taken benzodiazepines for a long time. Stopped means no more pharmacy refills.</p>
+ <div class="arr"><div class="a"><div id="a1"></div><div class="lab"><span>Booklet and a plan for cutting down:</span>about 27 in 100 had stopped</div></div>
+ <div class="a"><div id="a2"></div><div class="lab"><span>Usual care:</span>about 5 in 100 had stopped</div></div></div>
+ <p class="small mt-m">Each grid shows 100 people</p>
+</div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Tannenbaum et al., JAMA Intern Med 2014: 303 people, Quebec community pharmacies</span></div></div>
+<div class="card"><div class="topline"><span class="series">Care that works</span><span class="slidecount">2/2</span></div>
+<div class="content">
+ <h1 class="m">Read it <em>with care</em></h1>
+ <div class="rws">
+  <div class="rw"><svg viewBox="0 0 76 76" fill="none" stroke="#15535B" stroke-width="5" stroke-linejoin="round"><rect x="20" y="22" width="36" height="46" rx="6"/><rect x="16" y="8" width="44" height="14" rx="4"/><path d="M28 44H48M38 34V54"/></svg><div>29 of 77 people who tried to taper in a second Quebec trial reported withdrawal symptoms; none needed hospital care</div></div>
+  <div class="rw"><svg viewBox="0 0 76 76" fill="none" stroke="#15535B" stroke-width="5" stroke-linejoin="round"><rect x="10" y="22" width="56" height="44" rx="6"/><path d="M38 30V58M24 44H52"/><path d="M10 22L38 8L66 22"/></svg><div>Both trials ran through community pharmacies in Quebec</div></div>
+  <div class="rw"><svg viewBox="0 0 76 76" fill="none" stroke="#15535B" stroke-width="5" stroke-linejoin="round"><rect x="8" y="16" width="60" height="44" rx="6"/><path d="M8 20L38 42L68 20"/></svg><div>Mailing information did not reduce use of high-risk medicines (including sedatives) in a large US trial in people with dementia</div></div>
+ </div>
+ <div class="band">Ask your pharmacist for written information on the risks and a slow, agreed plan for cutting down.</div>
+</div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Martin et al., JAMA 2018; Singh et al., JAMA Intern Med 2024</span></div></div></div>
+<script>C11.people('#a1',{total:100,cols:10,filled:27,size:34,gap:6,colour:'#00909A'});C11.people('#a2',{total:100,cols:10,filled:5,size:34,gap:6,colour:'#00909A'});window.__ready=true;</script></body></html>

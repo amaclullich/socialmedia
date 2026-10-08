@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>X</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="s" style="font-size:54px">72 in 100 carers said the death was a relief to them</h1>
+  <p class="body" style="margin-top:12px;font-weight:700;color:var(--teal);font-size:32px">217 US family carers of people with dementia</p>
+  <div style="display:flex;gap:20px;align-items:center;margin-top:16px"><div id="ia"></div><div class="bignum m" style="font-size:150px">72</div></div>
+  <div style="font-size:30px;font-weight:600;margin-top:14px;display:flex;flex-direction:column;gap:6px"><span><i style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#15535B;margin-right:12px"></i>Said the death was a relief to them: 72</span><span><i style="display:inline-block;width:20px;height:20px;border-radius:50%;border:4px solid #15535B;margin-right:12px;box-sizing:border-box"></i>Did not say this: 28</span></div>
+  <p class="small" style="margin-top:16px;font-size:28px">Half had spent at least 46 hours a week helping with daily activities in the year before the death. On average, depressive symptoms fell within 3 months.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Schulz et al., N Engl J Med, 2003</span></div>
+</div>
+<script>
+let s='<svg viewBox="0 0 700 560" width="700" height="560">';
+for(let i=0;i<100;i++){const r=Math.floor(i/10),c=i%10,x=c*70+5,y=r*56+2,on=i<72;
+ const st=on?'fill="#15535B"':'fill="none" stroke="#15535B" stroke-width="3.5"';
+ s+='<circle cx="'+(x+25)+'" cy="'+(y+13)+'" r="12" '+st+'/><path d="M'+(x+4)+','+(y+50)+' V'+(y+40)+' Q'+(x+4)+','+(y+30)+' '+(x+14)+','+(y+30)+' H'+(x+36)+' Q'+(x+46)+','+(y+30)+' '+(x+46)+','+(y+40)+' V'+(y+50)+' Z" '+st+'/>';}
+document.getElementById('ia').innerHTML=s+'</svg>';
+</script></div></body></html>

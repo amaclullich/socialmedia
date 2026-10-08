@@ -1,0 +1,44 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P03 Review comic</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><div class="card sand" id="s1">
+ <div class="topline"><span class="series">What gets counted</span></div>
+ <div class="content" style="padding-top:26px">
+  <div class="kicker" style="font-size:26px;color:var(--ink-2);margin-bottom:10px">Illustration: dialogue is illustrative, not real people</div>
+  <h1 class="s" style="font-size:54px">Was I part of my <em>medicines review</em>?</h1>
+  <div class="strip p3" style="margin-top:20px">
+   <div class="panelbox"><div class="art" id="a1"></div><div class="cap">Interviewees said a review can be done from the notes when a repeat prescription is due.</div></div>
+   <div class="panelbox"><div class="art" id="a2"></div><div class="cap">Was my medicines review done with me, or from the notes?</div></div>
+   <div class="panelbox"><div class="art" id="a3"></div><div class="cap">'What do you actually take, what worries you, and is each one still helping?'</div></div>
+  </div>
+  <div style="display:flex;gap:20px;align-items:flex-start;margin-top:16px"><span class="badge illustrative" style="flex:0 0 auto;font-size:22px;padding:6px 14px">Illustrative example</span>
+  <p class="small" style="font-size:25px;line-height:1.3;color:var(--ink)">In 2017 interviews, 23 GPs and pharmacists said most reviews were done without the patient, because of workload. Small study; patients were not asked.</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Duncan et al., Br J Gen Pract 2019</span></div>
+</div>
+</div>
+<script>
+const W=920,H=190,S=0.8,g=290;
+Kit.draw('#a1',W,H,[Kit.room('gp_room',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:800,y:g-70*S-170,scale:0.6,curtains:'sage'}),
+ Kit.desk({x:420,y:g,w:300,scale:S}),
+ Kit.person({pose:'seated_side',seat:'chair',x:300,y:g,scale:S,sex:'f',skin:'tan',hair:'black',hairStyle:'bun',role:'doctor'}),
+ ...[0,1,2,3].map(i=>Kit.notepad({x:470+i*3,y:Kit.anchor('desk',{x:420,y:g,scale:S}).top.y-i*9,scale:S})),
+],{cls:'art'});
+Kit.draw('#a2',W,H,[Kit.room('kitchen',{w:W,h:H,ground:g,scale:S}),
+ Kit.table({x:470,y:g,w:300,scale:S}),
+ Kit.person({pose:'seated_side',seat:'chair',x:340,y:g,scale:S,age:'older',sex:'m',skin:'dark',hair:'grey',hairStyle:'balding',top:'sage',extras:['cardigan'],tilt:8}),
+ Kit.pill_organiser({x:470,y:Kit.anchor('table',{x:470,y:g,scale:S}).top.y,scale:S*1.2,rows:1}),
+ Kit.phone({x:560,y:Kit.anchor('table',{x:470,y:g,scale:S}).top.y,scale:S}),
+ Kit.stick({x:230,y:g,angle:-8,scale:S}),
+],{cls:'art'});
+const dt=Kit.anchor('desk',{x:500,y:g,scale:S});
+Kit.draw('#a3',W,H,[Kit.room('gp_room',{w:W,h:H,ground:g,scale:S}),
+ Kit.desk({x:500,y:g,w:300,scale:S}),
+ Kit.person({pose:'seated_talking',seat:'chair',x:330,y:g,scale:S,age:'older',sex:'m',skin:'dark',hair:'grey',hairStyle:'balding',top:'sage',extras:['cardigan']}),
+ Kit.person({pose:'seated_talking',seat:'chair',x:680,y:g,scale:S,facing:'left',sex:'f',skin:'tan',hair:'black',hairStyle:'bun',role:'doctor'}),
+ Kit.medicine_bottle({x:440,y:dt.top.y,scale:S}),Kit.medicine_bottle({x:490,y:dt.top.y,scale:S,type:'box'}),Kit.medicine_bottle({x:540,y:dt.top.y,scale:S,type:'blister'}),
+],{cls:'art'});
+window.__ready=true;
+</script></body></html>

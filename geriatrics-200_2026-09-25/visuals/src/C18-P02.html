@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>X</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card mint" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="xl" style="margin-top:20px">After a break, ask <em>two</em> questions</h1>
+  <p class="lead" style="margin-top:22px;font-size:34px">Respite means a planned break for the person giving the care</p>
+  <div class="panel" style="margin-top:34px;display:grid;grid-template-columns:230px 1fr;align-items:center;gap:24px;padding:24px 34px"><div id="a1" style="height:170px"></div><h2 style="font-size:54px;color:var(--ink)">Did you get a rest?</h2></div>
+  <div class="panel" style="display:grid;grid-template-columns:230px 1fr;align-items:center;gap:24px;padding:24px 34px"><div id="a2" style="height:170px"></div><h2 style="font-size:54px;color:var(--ink)">Did they have a good time?</h2></div>
+  <p class="small" style="margin-top:auto;margin-bottom:34px;font-size:30px;color:var(--ink)">A Cochrane review found 4 trials, 753 people, very low quality evidence and no clear benefit or harm. The authors say this may reflect a lack of good research.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Maayan et al., Cochrane, 2014; O'Shea et al., Dementia, 2019</span></div>
+</div>
+<script>
+Kit.draw('#a1',230,170,[Kit.armchair({x:70,y:165,scale:.4,colour:'teal'}),Kit.table({x:175,y:165,w:90,height:100,scale:.5}),Kit.cup({x:175,y:165-50,scale:.8})],{fit:'xMidYMid meet'});
+Kit.draw('#a2',230,170,[Kit.table({x:115,y:165,w:180,height:110,scale:.6}),Kit.cup({x:80,y:99,scale:1}),Kit.cup({x:150,y:99,scale:1,facing:'left'})],{fit:'xMidYMid meet'});
+</script></div></body></html>

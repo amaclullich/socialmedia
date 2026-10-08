@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>X</title><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/chart.js"></script><script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span></div>
+ <div class="content">
+  <h1 class="s">The higher death rate was seen <em>only</em> in carers who reported strain</h1>
+  <p class="body" style="margin-top:18px;color:var(--teal);font-weight:600">US spouse carers aged 66 to 96, followed for about 4 years</p>
+  <p class="small" style="margin-top:14px">Adjusted relative risk of death over about 4 years. 1.0 means the same as non-carers.</p>
+  <div id="plot" style="margin-top:12px"></div>
+  <p class="small" style="margin-top:14px">Later population studies: carers as a whole lived as long as, or longer than, non-carers. All findings are observational.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Schulz and Beach, JAMA, 1999; Roth et al., Gerontologist, 2015</span></div>
+</div>
+<script>
+const X=v=>40+(v-0.5)/2.5*840;
+const rows=[
+ {t:'Non-carers (comparison group): 1.0',v:1.0,lo:null,hi:null,strain:false},
+ {t:'Carers with no strain: 1.08 (0.61 to 1.90), no clear difference',v:1.08,lo:0.61,hi:1.90,strain:false},
+ {t:'Carers with strain: 1.63 (1.00 to 2.65), higher, borderline',v:1.63,lo:1.00,hi:2.65,strain:true}];
+let h='';
+rows.forEach((r,i)=>{
+ const y=56;
+ let s='<line x1="'+X(1)+'" y1="0" x2="'+X(1)+'" y2="'+(y*2-30)+'" stroke="#1F2A30" stroke-width="4"/>';
+ if(r.lo!==null) s+='<line x1="'+X(Math.max(r.lo,0.5))+'" y1="'+y+'" x2="'+X(r.hi)+'" y2="'+y+'" stroke="'+(r.strain?'#C24E12':'#00909A')+'" stroke-width="6"/><line x1="'+X(r.lo)+'" y1="'+(y-14)+'" x2="'+X(r.lo)+'" y2="'+(y+14)+'" stroke="'+(r.strain?'#C24E12':'#00909A')+'" stroke-width="6"/><line x1="'+X(r.hi)+'" y1="'+(y-14)+'" x2="'+X(r.hi)+'" y2="'+(y+14)+'" stroke="'+(r.strain?'#C24E12':'#00909A')+'" stroke-width="6"/>';
+ const cx=X(r.v);
+ s+= r.strain? '<path d="M'+cx+','+(y-26)+' L'+(cx+26)+','+y+' L'+cx+','+(y+26)+' L'+(cx-26)+','+y+' Z" fill="#C24E12" stroke="#1F2A30" stroke-width="3"/>' : '<circle cx="'+cx+'" cy="'+y+'" r="'+(r.lo===null?14:20)+'" fill="'+(r.lo===null?'#1F2A30':'#00909A')+'"/>';
+ h+='<div style="margin-top:14px;font-size:30px;line-height:1.25;'+(r.strain?'font-weight:800;color:var(--orange)':'font-weight:600')+'">'+r.t+'</div><svg viewBox="0 0 920 '+(y+30)+'" width="920" height="'+(y+30)+'">'+s.replace('y2="'+(y*2-30)+'"','y2="'+(y+30)+'"')+'</svg>';
+});
+h+='<svg viewBox="0 0 920 110" width="920" height="110"><line x1="40" y1="14" x2="880" y2="14" stroke="#5F6B76" stroke-width="3"/>';
+[0.5,1,1.5,2,2.5,3].forEach(v=>{h+='<line x1="'+X(v)+'" y1="14" x2="'+X(v)+'" y2="26" stroke="#5F6B76" stroke-width="3"/><text x="'+X(v)+'" y="56" font-size="24" text-anchor="middle" fill="#5F6B76" font-family="Inter">'+v.toFixed(1)+'</text>'});
+h+='<text x="'+X(1)+'" y="98" font-size="26" font-weight="700" text-anchor="middle" fill="#1F2A30" font-family="Inter">Same as non-carers</text><text x="'+X(2.2)+'" y="98" font-size="26" font-weight="700" fill="#C24E12" font-family="Inter">Higher risk &#8594;</text></svg>';
+document.getElementById('plot').innerHTML=h;
+</script></div></body></html>

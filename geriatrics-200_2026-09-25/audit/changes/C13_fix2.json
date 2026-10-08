@@ -201,5 +201,271 @@
     "old": "Where the minutes are missing, the gap is in the plan.",
     "new": "Where the minutes are not counted, the plan has no time for this help.",
     "reason": "item 5: figurative 'the gap is in the plan'"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "x",
+    "old": "In a small US study of 32 mentally aware people dying in a comfort care unit, described as terminally ill with cancer, thirst and a dry mouth could be relieved in every case, usually with mouth care, ice chips, moistened lips and sips of drink. There was no comparison group, and the people studied could say how they felt. The amounts were far smaller than would be needed to prevent dehydration.",
+    "new": "A small US study followed 32 people dying in a comfort care unit. The authors described them as terminally ill with cancer, and all could say how they felt. Thirst and a dry mouth could be relieved in every case, usually with mouth care, ice chips, moistened lips and sips of drink. The amounts were far smaller than would be needed to prevent dehydration. There was no comparison group.",
+    "reason": "item 6: split a 50-word sentence; move the limitation (people who could say how they felt) up front"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "x",
+    "old": "NICE (2015) advises",
+    "new": "UK guidance from NICE (2015) advises",
+    "reason": "item 2: say what NICE is"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "x",
+    "old": "The trials in a 2023 Cochrane review of those fluids were all in people with cancer.",
+    "new": "A 2023 Cochrane review (a review that gathers all the trials on a question) found the trials of those fluids were all in people with cancer.",
+    "reason": "item 2: explain 'Cochrane review'"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "linkedin",
+    "old": "almost all were taking opioids.",
+    "new": "almost all were taking opioids (strong painkillers).",
+    "reason": "item 2: explain 'opioids'"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "linkedin",
+    "old": "About 6 in 10 had no thirst, or thirst only at first. In every case, hunger, thirst and a dry mouth could be relieved,",
+    "new": "About 6 in 10 had no thirst, or thirst only at first. Whenever hunger, thirst or a dry mouth did occur, it could be relieved,",
+    "reason": "item 7: say plainly that the relief applied to everyone who had the symptom"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "linkedin",
+    "old": "It says fluids by drip or under the skin should be considered and reviewed for each person, for example if they have distressing thirst and are unable to drink enough, and stopped if they cause harm or the person no longer wants them.",
+    "new": "It says fluids by drip or under the skin should be considered for each person, for example if they have distressing thirst and cannot drink enough. They should be reviewed, and stopped if they cause harm or the person no longer wants them.",
+    "reason": "item 6: split long sentence"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "linkedin",
+    "old": "given either a litre a day or a token 100 mL.",
+    "new": "given either a litre of fluid a day or only 100 mL.",
+    "reason": "'token' was figurative"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "linkedin",
+    "old": "A 2023 Cochrane review found trials only in people with cancer and too little evidence to say whether drips improve quality of life or prolong life, and its authors say the results do not apply to people dying with dementia or other conditions.\n\nThe trials leave the question open for each person.",
+    "new": "A 2023 Cochrane review found trials only in people with cancer. There was too little evidence to say whether drips improve quality of life or prolong life. Its authors say the results do not apply to people dying with dementia or other conditions, so the decision has to be made for each person without good evidence to guide it.",
+    "reason": "item 6: split long sentence; vague line 'The trials leave the question open' replaced by the authors' stated conclusion"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "linkedin",
+    "old": "What follows is judgement. Frequent mouth care",
+    "new": "Frequent mouth care",
+    "reason": "setup line removed; 'should' still marks the judgement"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "bluesky",
+    "old": "In the last days of life, a dry mouth and thirst can be eased with frequent mouth and lip care and small sips (NICE advises this care; a small US study of 32 people with cancer found thirst could be relieved).",
+    "new": "In the last days of life, frequent mouth and lip care and small sips can ease a dry mouth and thirst. UK guidance (NICE) advises this care. A small US study of 32 people with cancer found thirst could be relieved.",
+    "reason": "items 2 and 6: remove nested parenthesis; say what NICE is"
+  },
+  {
+    "tmp_id": "C13-P05",
+    "where": "threads",
+    "old": "Thirst and a dry mouth in the last days of life can be eased with frequent mouth care, moistened lips and small sips. In a small US study of 32 mentally aware people with cancer and no comparison group, these symptoms could be relieved in every case.\n\nNICE (2015) advises helping the person drink if they want to and encouraging family to help with mouth care. Fluids by drip are a separate decision for each person. Trials in a 2023 Cochrane review were all in cancer.",
+    "new": "Thirst and a dry mouth in the last days of life can be eased with mouth care, moistened lips and small sips. In a small US study of 32 mentally aware people with cancer and no comparison group, these were relieved in every case.\n\nNICE guidance (UK, 2015) advises helping the person drink if they want to and encouraging family to help with mouth care. Fluids by drip are decided person by person. Trials of them in a 2023 Cochrane review were all in people with cancer.",
+    "reason": "items 2 and 6: say what NICE is; 'all in people with cancer'; trimmed to stay within 500 characters"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "x",
+    "old": "In four of the 14 observational studies (36,816 people), PEG tubes (a tube into the stomach through the skin) did not show longer survival, with low certainty.",
+    "new": "It found 14 observational studies (studies that watched what happened without assigning treatment). Four of them, with 36,816 people in all, looked at PEG tubes (a tube into the stomach through the skin). They did not show longer survival. The certainty of this is low, so better studies could change it.",
+    "reason": "items 2, 3, 6: explain 'observational'; say that 36,816 is the four PEG studies, not all 14; explain 'low certainty'"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "x",
+    "old": "US guidance (AGS, 2014)",
+    "new": "US guidance from the American Geriatrics Society (2014)",
+    "reason": "item 2: spell out AGS"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "x",
+    "old": "European guidance (ESPEN, 2024)",
+    "new": "European nutrition guidance (2024)",
+    "reason": "item 2: drop unexplained acronym"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "x",
+    "old": "as a decision about one treatment, never about the person's worth. Food, drink, mouth care and company continue.",
+    "new": "as a decision about one treatment. A person's worth is unchanged, and food, drink, mouth care and company continue.",
+    "reason": "negation-then-correction shape"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "linkedin",
+    "old": "In four studies of PEG tubes (a tube into the stomach through the skin), tubes did not show longer survival, with low certainty.",
+    "new": "Four of the 14 studies looked at PEG tubes (a tube into the stomach through the skin). They did not show longer survival. The certainty of this is low, so better studies could change it.",
+    "reason": "items 2, 3: link the four studies to the 14; explain 'low certainty'"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "linkedin",
+    "old": "says tube feeding can be a temporary option in mild or moderate dementia, but not in severe dementia or near the end of life.",
+    "new": "says tube feeding can be a temporary option in mild or moderate dementia. It says tube feeding is not an option in severe dementia or near the end of life.",
+    "reason": "item 6: split long sentence"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "linkedin",
+    "old": "It focuses on comfort and is unlikely to stop weight loss.",
+    "new": "This kind of hand feeding focuses on comfort and is unlikely to stop weight loss.",
+    "reason": "'It' was unclear"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "linkedin",
+    "old": "What follows is judgement. We should offer careful hand feeding and not use tubes routinely in advanced dementia. We should treat saying no to a tube as a decision about one treatment, never about the person's worth.",
+    "new": "We should offer careful hand feeding and not use tubes routinely in advanced dementia. We should treat saying no to a tube as a decision about one treatment. A person's worth is unchanged.",
+    "reason": "setup line and negation shape removed; 'We should' still marks the judgement"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "bluesky",
+    "old": "(Cochrane 2021: observational studies, low certainty). Guidance recommends careful hand feeding. We should treat saying no to a tube as a choice about one treatment, never the person's worth.",
+    "new": "A 2021 Cochrane review found no trials and low-certainty evidence. Guidance favours careful hand feeding. Saying no to a tube is a choice about one treatment; a person's worth is unchanged.",
+    "reason": "items 2, 6 and negation shape: plain explanation of the evidence; no parenthesis"
+  },
+  {
+    "tmp_id": "C13-P06",
+    "where": "threads",
+    "old": "(Cochrane 2021: no randomised trials, 14 observational studies, low certainty). None showed more comfort.\n\nGuidance recommends careful hand feeding. One expert proposal lists regular offers of food, stopping at distress, then mouth care, talking and touch. It is untested.\n\nWe should treat saying no to a tube as a choice about one treatment, never the person's worth.",
+    "new": "None showed more comfort. A 2021 Cochrane review found no trials, only 14 studies that watched what happened, with low certainty.\n\nGuidance recommends careful hand feeding: offering food regularly and stopping at distress. The plan is expert-proposed, not tested.\n\nWe should treat saying no to a tube as a choice about one treatment; a person's worth is unchanged.",
+    "reason": "items 2, 6 and negation shape: plain explanation of the evidence; no parenthesis"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "x",
+    "old": "A Cochrane review of 24 studies found that urine colour, urine specific gravity, dry mouth, thirst, heart rate and recorded fluid intake were each not useful alone for spotting or ruling out dehydration from too little drinking.",
+    "new": "A Cochrane review of 24 studies found six signs not useful alone for spotting or ruling out dehydration from too little drinking: urine colour, urine specific gravity, dry mouth, thirst, heart rate and recorded fluid intake.",
+    "reason": "item 6: list placed after the claim it belongs to"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "x",
+    "old": "Missing drinks between meals looked promising in one study of 71 people, unconfirmed.",
+    "new": "Missing drinks between meals looked promising in one study of 71 people. It has not been confirmed.",
+    "reason": "fragment made a full sentence"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "x",
+    "old": "+ 14 (mmol/L) estimates it. At 295 it is a screen, not a diagnosis.",
+    "new": "+ 14 (all in mmol/L) gives a calculated osmolarity in mOsm/L, which estimates osmolality (mOsm/kg). A calculated result of 295 or more is a reason to check osmolality or look closer.",
+    "reason": "items 3, 5 and unit mismatch: names osmolarity and its unit, gives an action, removes negation-then-correction"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "linkedin",
+    "old": "In a UK study of 188 care home residents with an average age of 86 (people with heart or kidney failure excluded), 1 in 5 had",
+    "new": "A UK study included 188 care home residents with an average age of 86. People with heart or kidney failure were excluded. One in 5 had",
+    "reason": "item 6: split long sentence"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "linkedin",
+    "old": "If measured osmolality is not available, it can be estimated from routine blood results:",
+    "new": "If measured osmolality (mOsm/kg) is not available, osmolarity (mOsm/L) can be calculated from routine blood results to estimate it:",
+    "reason": "one-line distinction between osmolality and osmolarity"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "linkedin",
+    "old": "It is a screen that prompts a closer look, not a diagnosis.",
+    "new": "It is a screen: a result of 295 or more is a reason to check measured osmolality.",
+    "reason": "removes negation-then-correction; gives the action"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "linkedin",
+    "old": "\n\nMore Teaching round posts take one clinical distinction at a time.",
+    "new": "",
+    "reason": "item 5: promotional close removed; post now ends on the practical instruction"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "threads",
+    "old": "(Cochrane review, 24 studies)",
+    "new": "(Cochrane, 24 studies)",
+    "reason": "trimmed to fit 500 characters"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "threads",
+    "old": "the level counted as dehydrated; thirst",
+    "new": "counted as dehydrated; thirst",
+    "reason": "trimmed to fit 500 characters"
+  },
+  {
+    "tmp_id": "C13-P07",
+    "where": "threads",
+    "old": "When the answer will change care, check osmolality or calculate osmolarity.",
+    "new": "If it will change care, check osmolality (a blood test) or calculate osmolarity from routine results.",
+    "reason": "explains osmolality and where osmolarity comes from"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "x",
+    "old": "Two trials of commercial flavour enhancers in Dutch nursing homes gave mixed results.",
+    "new": "Two trials of commercial flavour enhancers in Dutch nursing homes disagreed. In the first, residents given flavour-enhanced meals gained about 1 kg while others lost a little. In the second, eating and weight did not change.",
+    "reason": "item 4: 'mixed results' replaced by what each trial found"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "linkedin",
+    "old": "asking people about their smell caught only 12% to 18% of those affected in the oldest group.",
+    "new": "when asked, only 12% to 18% of people aged 80 and over with a weak sense of smell said they had a problem.",
+    "reason": "item 3: plain meaning of the percentage; figurative 'caught'"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "linkedin",
+    "old": "a check of their sense of smell and their medicines is a reasonable thing to ask for.",
+    "new": "ask their GP or nurse to check their sense of smell and their medicines.",
+    "reason": "soft close replaced with an action"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "bluesky",
+    "old": "Try stronger flavours (untested; flavour enhancer trials were mixed).",
+    "new": "Try stronger flavours (untested). Two flavour enhancer trials disagreed.",
+    "reason": "item 4: 'mixed' replaced"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "threads",
+    "old": "In a study of 2,491 people aged 53 to 97 in one Wisconsin town,",
+    "new": "In a study of 2,491 people in one Wisconsin town,",
+    "reason": "trimmed to fit 500 characters"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "threads",
+    "old": "so food can seem to taste of less.",
+    "new": "so food can taste blander.",
+    "reason": "trimmed to fit 500 characters"
+  },
+  {
+    "tmp_id": "C13-P08",
+    "where": "threads",
+    "old": "Two trials of commercial flavour enhancers gave mixed results.",
+    "new": "Two trials of flavour enhancers disagreed: one found weight gain, the other no change.",
+    "reason": "item 4: 'mixed results' replaced by what each trial found"
   }
 ]

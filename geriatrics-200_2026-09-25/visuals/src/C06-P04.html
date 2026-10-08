@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C06-P04 Patch scene</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet"><div class="card sand" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content" style="padding-top:24px">
+  <h1 class="s" style="font-size:54px">Three checks for a <em>strong pain patch</em></h1>
+  <div class="scene" id="sc" style="margin-top:18px;flex:0 0 480px"></div>
+  <ol class="steps" style="margin-top:20px;gap:12px">
+   <li style="font-size:32px;grid-template-columns:56px 1fr;line-height:1.3"><span>1. Old patch off before the new one goes on. Note where and when.</span></li>
+   <li style="font-size:32px;grid-template-columns:56px 1fr;line-height:1.3"><span>2. No heat over the patch: hot water bottles, heat pads, electric blankets.</span></li>
+   <li style="font-size:32px;grid-template-columns:56px 1fr;line-height:1.3"><span>3. Fold used patches sticky sides together; dispose of as the pharmacist advises.</span></li>
+  </ol>
+  <div class="panel" style="margin-top:auto;padding:16px 26px;font-size:27px;line-height:1.3;border-color:var(--orange)"><b>A used fentanyl patch still holds enough medicine to harm a child or a pet.</b><br>Unusual sleepiness or slow, shallow breathing: get urgent help.</div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Lövborg et al. 2014; Ashburn et al. 2003; Marquardt et al. 1995; Hilado et al. 2020</span></div>
+</div></div>
+<style>.steps li::before{display:none!important}.steps li{display:block!important}</style>
+<script>
+const W=920,H=480,g=430,S=0.9;
+const bed=Kit.anchor('bed',{x:420,y:g,scale:S,type:'domestic'});
+Kit.draw('#sc',W,H,[Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S}),
+ Kit.shelf({x:780,y:g,height:330,scale:S}),
+ Kit.bag_of_medicines({x:780,y:g-330*S-8,scale:0.9}),
+ Kit.bed({x:430,y:g,type:'domestic',scale:S,colour:'pale'}),
+ Kit.blanket({x:330,y:bed.top.y,w:220,type:'spread',colour:'plum',scale:S}),
+ Kit.person({pose:'seated_side',seat:'none',seatHeight:Kit.dims.bed?Kit.dims.bed*0.9:150,x:310,y:g,scale:S,age:"older",sex:"f",skin:'light',hair:'grey',hairStyle:'pixie',top:'rose',facing:'right',topStyle:'plain',sleeves:'short'}),
+ Kit.person({pose:'seated_side',seat:'none',seatHeight:Kit.dims.bed?Kit.dims.bed*0.9:150,x:165,y:g,scale:S,age:"older",sex:"m",skin:'light',hair:'black',hairStyle:'short',top:'denim',extras:['glasses'],hold:'notepad'}),
+ Kit.rug({x:640,y:g+20,w:220,scale:S}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:325,y:250},{n:2,x:470,y:315},{n:3,x:760,y:115}]);
+window.__ready=true;
+</script></body></html>
