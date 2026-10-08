@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C15-P06 Treatment in the care home</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script src="c15_common.js"></script>
+<style>
+ .key{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;margin-top:20px}
+ .key li{display:flex;align-items:center;gap:14px;font-size:30px;line-height:1.25;font-weight:600}
+ .key .n{flex:0 0 44px;height:44px;border-radius:50%;background:var(--orange);color:#fff;font-family:Montserrat;font-weight:800;font-size:24px;display:flex;align-items:center;justify-content:center}
+ .lg{display:flex;flex-direction:column;gap:12px;margin-top:20px;font-size:30px;font-weight:700}
+ .lg div{display:flex;align-items:center;gap:16px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Weighing it up</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="s">What treatment in the care home <em>included</em></h1>
+  <p class="body" style="font-weight:700;color:var(--teal);font-size:30px;margin-top:14px">Illustrative scene based on the trial's pathway</p>
+  <div class="scene" id="sc" style="flex:0 0 560px"></div>
+  <ul class="key"><li><span class="n">1</span>Antibiotic tablets</li><li><span class="n">2</span>Chest X-ray taken in the home</li><li><span class="n">3</span>Oxygen level checks</li><li><span class="n">4</span>Fluids</li><li><span class="n">5</span>Close checks by a research nurse</li></ul>
+  <p class="small" style="margin-top:14px">One Canadian trial, 22 nursing homes, 2001 to 2005.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Loeb et al., JAMA 2006</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Weighing it up</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="s">Residents sent to hospital: <em>10 in 100 with home treatment, 22 in 100 with usual care</em></h1>
+  <p class="body" style="font-weight:700;color:var(--teal);font-size:30px;margin-top:14px">Chest infection including pneumonia, 680 residents aged 65 or over</p>
+  <div class="lg"><div><svg width="50" height="30"><rect x="1" y="1" width="48" height="28" fill="#0F6F78"/></svg>Treated in the home on the pathway</div><div><svg width="50" height="30"><rect x="2" y="2" width="46" height="26" fill="url(#hb2)" stroke="#00909A" stroke-width="3"/></svg>Usual care</div></div>
+  <div id="ch" style="margin-top:20px"></div>
+  <p class="body" style="font-size:30px;margin-top:10px">About 8 in 100 on the pathway and 9 in 100 with usual care died. No clear difference in deaths, quality of life or function.</p>
+  <p class="chartnote">One older trial; close checks by a research nurse</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Loeb et al., JAMA 2006</span></div>
+</div>
+</div>
+<svg width="0" height="0" style="position:absolute"><defs><pattern id="hb2" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#DCEBEA"/><line x1="0" y1="0" x2="0" y2="12" stroke="#00909A" stroke-width="4"/></pattern></defs></svg>
+<script>
+(function(){
+ const W=920,H=560,S=1.1,g=525;
+ const man={pose:'sitting_up_bed',backrest:55,rails:'down',blanket:'sage',x:400,y:g,scale:S,age:'older',sex:'m',skin:'dark',hair:'grey',hairStyle:'cropped',top:'paleblue',bed:'hospital'};
+ const hand=Kit.joint(man,'nearHand');
+ const nurse={pose:'kneeling',role:'nurse',x:610,y:g,scale:S,facing:'left',sex:'f',skin:'olive',hair:'black',hairStyle:'bun',hands:{near:{x:hand.x+14,y:hand.y+6}}};
+ const bt=Kit.anchor('bedside_table',{x:820,y:g,scale:S});
+ const p=Kit.pen(3);
+ const xr=Kit.at(80,g,1.1, p.r(-50,-20,100,16,6,'#B9CDCC')+p.r(-8,-330,16,312,4,'#5F6B76')+p.r(-8,-338,110,24,6,'#5F6B76')+p.r(64,-338,60,86,8,'#243B55')+p.r(70,-256,48,18,4,'#B9CDCC')+p.c(-38,-8,13,'#1F2A30')+p.c(38,-8,13,'#1F2A30'));
+ const clip=Kit.at(hand.x-4,hand.y-12,1,p.r(-12,-8,26,16,6,'#C24E12'));
+ const kids=[
+  Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S}),
+  Kit.window({x:560,y:g-70*S-190,scale:1.0,curtains:'mustard'}),
+  xr, Kit.person(man), Kit.person(nurse), clip,
+  Kit.bedside_table({x:820,y:g,scale:S}),
+  Kit.water_jug({x:bt.top.x-26,y:bt.top.y,scale:S*0.9,level:0.7}),
+  Kit.glass({x:bt.top.x+8,y:bt.top.y,scale:S*0.9,level:0.6}),
+  Kit.medicine_bottle({x:bt.top.x+38,y:bt.top.y,scale:S*0.7}),
+ ];
+ Kit.draw('#sc',W,H,kids,{cls:'art'});
+ Kit.pins('#sc',[{n:1,x:bt.top.x+38,y:bt.top.y-110},{n:2,x:175,y:g-296},{n:3,x:hand.x,y:hand.y-70},{n:4,x:bt.top.x-26,y:bt.top.y-150},{n:5,x:640,y:g-190}]);
+ window.pairBars('#ch',{max:100,ticks:[0,25,50,75,100],axis:'per 100 residents',labelWidth:16,barH:58,valueRoom:190,groups:[
+  {title:'Went to hospital',rows:[{v:10,disp:'10',style:'a'},{v:22,disp:'22',style:'b'}]},
+  {title:'Died',rows:[{v:8,disp:'about 8',style:'a'},{v:9,disp:'about 9',style:'b'}]}]});
+ window.__ready=true;
+})();
+</script></body></html>

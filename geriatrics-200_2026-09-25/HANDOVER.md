@@ -37,3 +37,6 @@ C01, C02 and C04 are complete (31 posts: text_final and visuals final). C02 and 
 - C19-P07 (drugs to avoid in Parkinson disease near death) names only two drugs a source supports; a clinician should check against NICE NG71 and Scottish palliative guidance, and check the Hewer 2024 full text for the 43 and 31 in 100 figures.
 
 - C12-P02 shows a thin range line on one bar; the design guide discourages intervals on public cards. Review.
+
+## Final status, 8 Oct 2026
+All 200 posts are complete (text final, visual final). See COMPLETION.md for counts, checks and limits. Outputs: INDEX.xlsx, posts/by_id/G###.md, posts/ALL_POSTS.json, evidence/ (sources.csv, claims.csv, SOURCES.json), exports/ (x, linkedin, bluesky, threads CSV), catalogue/index.html, visuals/png and visuals/src. Not independently inspected: visuals beyond a 12-image sample.

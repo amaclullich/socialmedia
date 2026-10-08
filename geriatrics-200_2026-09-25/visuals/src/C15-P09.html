@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C15-P09 Rapid discharge home</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+</head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content">
+  <div class="kicker">A reasonable request, not a tested finding</div>
+  <h1 class="s">Going home to die: <em>start every step the same day</em></h1>
+  <svg id="d" viewBox="0 0 920 620" width="920" height="620" style="margin-top:20px"></svg>
+  <p class="body" style="font-size:32px;margin-top:14px">Ask what each step is waiting for, and who is coordinating. The plan can change.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Alias et al., BMJ Open Qual 2024; Morrison et al., BMJ Open Qual 2024</span></div>
+</div>
+</div>
+<script>
+(function(){
+ const T=(x,y,s,z,w,f,a)=>`<text x="${x}" y="${y}" font-family="Inter" font-size="${z}" font-weight="${w}" fill="${f||'#1F2A30'}" text-anchor="${a||'start'}">${s}</text>`;
+ const lanes=[['Equipment at the house',560],['Medicines for symptoms',640],['Paperwork',520],['Transport',600],['Teams told: ward, GP, community nurses',700]];
+ const x0=70,y0=170,lh=72,gap=16;let h='';
+ // coordinator figure
+ h+=`<circle cx="36" cy="38" r="17" fill="#15535B"/><path d="M8,92 V68 Q8,54 22,54 H50 Q64,54 64,68 V92 Z" fill="#15535B"/><rect x="44" y="64" width="26" height="32" rx="4" fill="#fff" stroke="#15535B" stroke-width="3"/><line x1="50" y1="74" x2="64" y2="74" stroke="#15535B" stroke-width="3"/><line x1="50" y1="83" x2="64" y2="83" stroke="#15535B" stroke-width="3"/>`;
+ h+=T(90,52,'One named person coordinates',30,800,'#15535B');
+ h+=T(x0,138,'Today',30,800,'#C24E12');
+ // bracket
+ const yb=y0,ye=y0+5*lh+4*gap;
+ h+=`<path d="M44,${yb} H30 V${ye} H44" fill="none" stroke="#15535B" stroke-width="5"/><line x1="30" y1="${(yb+ye)/2}" x2="14" y2="${(yb+ye)/2}" stroke="#15535B" stroke-width="5"/>`;
+ // house
+ const hx=800;
+ lanes.forEach((l,i)=>{const y=y0+i*(lh+gap);
+  h+=`<path d="M${x0},${y} H${x0+l[1]-24} L${x0+l[1]},${y+lh/2} L${x0+l[1]-24},${y+lh} H${x0} Z" fill="#15535B"/>`;
+  h+=T(x0+22,y+lh/2+10,l[0],28,700,'#fff');
+  h+=`<line x1="${x0+l[1]+8}" y1="${y+lh/2}" x2="${hx}" y2="${y+lh/2}" stroke="#5F6B76" stroke-width="3" stroke-dasharray="3 7"/>`;});
+ h+=`<line x1="${x0}" y1="${y0-24}" x2="${x0}" y2="${ye+14}" stroke="#C24E12" stroke-width="7"/>`;
+ const cy=(yb+ye)/2;
+ h+=`<path d="M${hx+10},${cy-10} L${hx+55},${cy-60} L${hx+100},${cy-10} V${cy+60} H${hx+10} Z" fill="#DCEBEA" stroke="#1F2A30" stroke-width="4" stroke-linejoin="round"/><rect x="${hx+42}" y="${cy+8}" width="26" height="52" fill="#fff" stroke="#1F2A30" stroke-width="3"/>`;
+ h+=T(hx+55,cy+104,'Home',32,800,'#15535B','middle');
+ document.getElementById('d').innerHTML=h;window.__ready=true;})();
+</script></body></html>

@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C15-P03 Trauma older people</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="c15_common.js"></script>
+<style>
+ .two{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:18px}
+ .yr{border-radius:22px;padding:18px 28px;border:3px solid var(--pale);background:#fff}
+ .yr.n{background:var(--mint);border-color:var(--teal)}
+ .yr .t{font-family:Montserrat;font-weight:800;font-size:44px;color:var(--teal)}
+ .yr .k{font-size:24px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-top:16px}
+ .yr .v{font-size:32px;line-height:1.28;font-weight:700;margin-top:4px}
+ .yr .big{font-family:Montserrat;font-weight:800;font-size:64px;line-height:1}
+ .ia{margin-top:16px;display:flex;gap:30px;align-items:center}
+ .judge{margin-top:auto;border-left:8px solid var(--orange);padding:6px 0 6px 24px;font-size:34px;line-height:1.3;font-weight:700;margin-bottom:10px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="s">By 2013, a fall from under 2 metres was <em>the commonest recorded cause</em> of major trauma</h1>
+  <p class="body" style="font-weight:700;color:var(--teal);font-size:30px;margin-top:14px">England and Wales, trauma registry, 1990 and 2013</p>
+  <div class="two">
+   <div class="yr"><div class="t">1990</div><div class="k">Commonest cause</div><div class="v">Road collisions, 59 in 100 cases</div><div class="k">Average age</div><div class="big">36</div></div>
+   <div class="yr n"><div class="t">2013</div><div class="k">Commonest cause</div><div class="v">Fall from under 2 metres, 39 in 100 cases</div><div class="k">Average age</div><div class="big">54</div></div>
+  </div>
+  <div class="ia"><div id="ia"></div><div><div class="k" style="font-size:24px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--orange)">Over 75</div><p style="font-size:32px;font-weight:700;line-height:1.3;margin-top:6px">2013: about 1 in 4 cases were over 75</p></div></div>
+  <p class="small" style="margin-top:14px">Some of the change may reflect which hospitals reported and more CT scanning.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Kehoe et al., Emerg Med J 2015</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Teaching round</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <h1 class="s">Rib fractures: <em>older people died more often</em></h1>
+  <p class="body" style="font-weight:700;color:var(--teal);font-size:30px;margin-top:14px">One US trauma centre, people admitted with rib fractures</p>
+  <div id="ch" style="margin-top:20px"></div>
+  <p class="chartnote" style="color:var(--ink);font-size:28px;margin-top:6px">Each extra broken rib was linked with higher odds of death. Data published in 2000.</p>
+  <p class="chartnote">Crude figures, one centre</p>
+  <p class="judge">We should look for head and chest injury after a low fall.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Bulger et al., J Trauma 2000</span></div>
+</div>
+</div>
+<script>
+iconArray('#ia',{filled:27,fillColour:'b',shape:'person',size:15,gap:4,width:200});
+pairBars('#ch',{max:40,ticks:[0,10,20,30,40],axis:'per 100 people',labelWidth:280,valueRoom:90,groups:[
+ {title:'Died',rows:[{v:22,disp:'22',style:'a',label:'Aged 65 and over'},{v:10,disp:'10',style:'b',label:'Aged 18 to 64'}]},
+ {title:'Pneumonia',rows:[{v:31,disp:'31',style:'a',label:'Aged 65 and over'},{v:17,disp:'17',style:'b',label:'Aged 18 to 64'}]}]});
+window.__ready=true;
+</script></body></html>

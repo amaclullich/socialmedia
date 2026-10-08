@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C15-P07 Learning disability hospital</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="c15_common.js"></script>
+<style>
+ .item{display:grid;grid-template-columns:76px 1fr;gap:24px;align-items:center;background:#fff;border:3px solid var(--pale);border-radius:22px;padding:26px 30px;margin-top:22px;font-size:36px;line-height:1.3;font-weight:700}
+ .item .n{width:64px;height:64px;border-radius:50%;background:var(--teal);color:#fff;font-family:Montserrat;font-weight:800;font-size:34px;display:flex;align-items:center;justify-content:center}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="s">In this inquiry, median age at death was <em>13 years lower for men and 20 years lower for women</em></h1>
+  <p class="body" style="font-weight:700;color:var(--teal);font-size:30px;margin-top:14px">Learning disability, south-west England, 247 deaths in 2010 to 2012</p>
+  <p class="small" style="font-weight:700;margin-top:18px;color:var(--ink)">Median age at death</p>
+  <div id="ch" style="margin-top:8px"></div>
+  <p class="body" style="font-size:30px;margin-top:6px">About 37 in 100 of these deaths were from causes good health care can usually treat, against 13 in 100 in the general population.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Heslop et al., Lancet 2014</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Who gets left out</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <div class="kicker">Reasonable adjustments</div>
+  <h1 class="s">Going into hospital: <em>three things to ask for</em></h1>
+  <div class="item"><span class="n">1</span><span>The learning disability liaison nurse or team</span></div>
+  <div class="item"><span class="n">2</span><span>The hospital passport: a record of the person's needs</span></div>
+  <div class="item"><span class="n">3</span><span>The person who knows them best, listened to</span></div>
+  <p class="body" style="font-size:30px;margin-top:34px">About 1 in 3 adults with a learning disability whose deaths in English hospitals (2016 to 2021) were reviewed had input from a learning disability liaison nurse.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Sheehan et al., BMJ Open 2024; Heslop et al., Lancet 2014</span></div>
+</div>
+</div>
+<script>
+const br=(a,b,lab)=>(X,y,BH)=>{const x1=X(a),x2=X(b),yy=y+BH/2;return `<rect x="${x1}" y="${y+4}" width="${x2-x1}" height="${BH-8}" fill="none" stroke="#C24E12" stroke-width="4" stroke-dasharray="8 6"/><text x="${x2+14}" y="${yy+11}" font-family="Inter" font-size="32" font-weight="800" fill="#C24E12">${lab}</text>`;};
+const ld=(v,e)=>({v,disp:String(v),style:'a',inside:true,label:'Learning disability',extra:e}),gp=v=>({v,disp:String(v),style:'b',label:'General population'});
+pairBars('#ch',{max:90,ticks:[0,30,60,90],axis:'median age at death, years',labelWidth:290,valueRoom:190,groups:[
+ {title:'Men',rows:[Object.assign(ld(65),{extra:br(65,78,'13 years')}),gp(78)]},
+ {title:'Women',rows:[Object.assign(ld(63),{extra:br(63,83,'20 years')}),gp(83)]}]});
+window.__ready=true;
+</script></body></html>

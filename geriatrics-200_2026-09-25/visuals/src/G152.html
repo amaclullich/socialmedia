@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C15-P05 Home or hospital</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="c15_common.js"></script>
+<style>
+ .lg{display:flex;flex-direction:column;gap:12px;margin-top:22px;font-size:30px;font-weight:700}
+ .lg div{display:flex;align-items:center;gap:16px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Weighing it up</span></div>
+ <div class="content">
+  <h1 class="s">Treated at home or admitted: <em>six months later</em></h1>
+  <p class="body" style="font-weight:700;color:var(--teal);font-size:30px;margin-top:14px">UK trial, 1,055 unwell but stable older people, average age 83</p>
+  <p class="body" style="font-size:32px;margin-top:10px">No clear difference in living at home or deaths. Applies to selected people.</p>
+  <div class="lg"><div><svg width="50" height="30"><rect x="1" y="1" width="48" height="28" fill="#0F6F78"/></svg>Treated at home by the team</div><div><svg width="50" height="30"><rect x="2" y="2" width="46" height="26" fill="url(#hb2)" stroke="#00909A" stroke-width="3"/></svg>Admitted to hospital</div></div>
+  <div id="ch" style="margin-top:20px"></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Shepperd et al., Ann Intern Med 2021</span></div>
+</div>
+</div>
+<svg width="0" height="0" style="position:absolute"><defs><pattern id="hb2" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#DCEBEA"/><line x1="0" y1="0" x2="0" y2="12" stroke="#00909A" stroke-width="4"/></pattern></defs></svg>
+<script>
+pairBars('#ch',{max:100,ticks:[0,25,50,75,100],axis:'per 100 people',labelWidth:16,valueRoom:200,groups:[
+ {title:'Living at home',tag:'No clear difference',rows:[{v:79,disp:'about 79',style:'a'},{v:75,disp:'about 75',style:'b'}]},
+ {title:'Died',tag:'No clear difference',rows:[{v:17,disp:'about 17',style:'a'},{v:18,disp:'about 18',style:'b'}]},
+ {title:'In long-term residential care',tag:'Secondary outcome',tagDash:true,rows:[{v:6,disp:'about 6',style:'a'},{v:9,disp:'about 9',style:'b'}]}]});
+window.__ready=true;
+</script></body></html>

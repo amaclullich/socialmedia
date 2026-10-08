@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C15-P02 Discharge antibiotic line</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>
+ .cal{display:grid;grid-template-columns:560px 1fr;gap:30px;align-items:center;margin-top:20px;padding:20px 34px}
+ .lg{display:flex;flex-direction:column;gap:20px;font-size:30px;font-weight:700}
+ .lg div{display:flex;align-items:center;gap:16px}
+ .line{display:grid;grid-template-columns:70px 1fr;gap:20px;align-items:center;border-radius:20px;padding:22px 26px;margin-top:16px;font-size:32px;line-height:1.3;font-weight:600}
+ .line .l{width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Montserrat;font-weight:800;font-size:32px}
+ .line.a{background:#fff;border:3px solid #8A959C}.line.a .l{border:3px solid #8A959C;color:#5F6B76}
+ .line.b{background:var(--mint);border:4px solid var(--teal)}.line.b .l{background:var(--teal);color:#fff}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Small detail, real effect</span></div>
+ <div class="content">
+  <h1 class="s"><em>93 in 100</em> extra antibiotic days came from the discharge prescription</h1>
+  <p class="body" style="font-weight:700;color:var(--teal);margin-top:16px;font-size:30px">Pneumonia, 43 US hospitals, 6,481 adults on general medical wards</p>
+  <p class="body" style="margin-top:10px;font-size:32px">Only 1 in 3 discharge summaries gave the total number of days.</p>
+  <div class="panel cal"><svg id="cal" viewBox="0 0 560 252" width="560" height="252"></svg>
+   <div class="lg"><span class="badge illustrative" style="align-self:flex-start">Illustrative example</span>
+    <div><svg width="40" height="40"><circle cx="20" cy="20" r="15" fill="#00909A" stroke="#1F2A30" stroke-width="3"/></svg>Start</div>
+    <div><svg width="40" height="40"><circle cx="20" cy="20" r="15" fill="#fff" stroke="#C24E12" stroke-width="6"/></svg>Planned last day</div>
+    <div><svg width="40" height="40"><rect x="3" y="3" width="34" height="34" rx="6" fill="url(#h2)" stroke="#5F6B76" stroke-width="2.5"/></svg>Extra days</div></div></div>
+  <div class="line a"><span class="l">A</span><span>Amoxicillin, continue</span></div>
+  <div class="line b"><span class="l">B</span><span>Amoxicillin 500 mg three times a day, last dose evening of [date]; total 5 days</span></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Vaughn et al., Ann Intern Med 2019</span></div>
+</div>
+</div>
+<svg width="0" height="0" style="position:absolute"><defs><pattern id="h2" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#5F6B76" stroke-width="3.5"/></pattern></defs></svg>
+<script>
+(function(){
+ let h='';const cw=76,ch=60,x0=14,y0=14;
+ for(let i=0;i<28;i++){const r=Math.floor(i/7),c=i%7,x=x0+c*cw,y=y0+r*ch;
+  let fill='#fff',st='#B9CDCC',sw=2;
+  if(i>=6&&i<=17) fill='url(#h2)';
+  h+=`<rect x="${x}" y="${y}" width="${cw-8}" height="${ch-8}" rx="8" fill="${fill}" stroke="${st}" stroke-width="${sw}"/>`;
+  if(i==1) h+=`<circle cx="${x+(cw-8)/2}" cy="${y+(ch-8)/2}" r="18" fill="#00909A" stroke="#1F2A30" stroke-width="3"/>`;
+  if(i==5) h+=`<circle cx="${x+(cw-8)/2}" cy="${y+(ch-8)/2}" r="21" fill="#fff" stroke="#C24E12" stroke-width="6"/>`;}
+ document.getElementById('cal').innerHTML=h;window.__ready=true;})();
+</script></body></html>

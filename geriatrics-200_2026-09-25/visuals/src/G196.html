@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../design_system/base.css">
 <script>window.__ready = false;</script>
 <script src="../design_system/kit.js"></script>
-<style>.strip{margin-top:14px}.panelbox .cap{font-size:27px;padding:12px 20px}.bubble{left:46%;top:14px;max-width:48%}.tagp{position:absolute;left:14px;top:12px;z-index:2}
+<style>.strip{margin-top:14px}.panelbox .cap{font-size:27px;padding:12px 20px}.bubble{left:46%;top:14px;max-width:48%}.tagp{position:absolute;left:50%;transform:translateX(-50%);bottom:10px;font-size:22px;padding:6px 14px;z-index:2}
 .bubble::after{left:-4px;bottom:-18px}</style></head><body><div class="sheet">
 <div class="card" id="s1">
  <div class="topline"><span class="series">Teaching round</span></div>
@@ -11,7 +11,7 @@
   <h1 class="m">One task, <em>three measurements</em></h1>
   <p class="body" style="margin-top:10px;font-size:30px">A function score can record any one of the three. Ask which.</p>
   <div class="strip p3">
-   <div class="panelbox"><div class="art" id="a1"><span class="badge illustrative tagp">Illustrative dialogue</span><div class="bubble" style="left:38%;top:62px;max-width:26%;font-size:24px">Yes, I can make a hot drink.</div></div><div class="cap"><b>Says</b> What the person says.</div></div>
+   <div class="panelbox"><div class="art" id="a1"><span class="badge illustrative tagp">Illustrative dialogue</span><div class="bubble" style="left:31%;top:14px;max-width:24%;font-size:24px">Yes, I can make a hot drink.</div></div><div class="cap"><b>Says</b> What the person says.</div></div>
    <div class="panelbox"><div class="art" id="a2"></div><div class="cap"><b>Test</b> What the person does in a test, with a therapist watching.</div></div>
    <div class="panelbox"><div class="art" id="a3"></div><div class="cap"><b>At home</b> What the person does at home on an ordinary day.</div></div>
   </div>
@@ -25,10 +25,8 @@ const ct=Kit.anchor('kitchen_counter',{x:620,y:g,scale:S});
 const kt={x:470,y:ct.top.y};
 const kitchen=(wu)=>[Kit.kitchen_counter({x:620,y:g,scale:S,w:380,sink:false,wallUnits:wu}),Kit.kettle({x:kt.x,y:kt.y,scale:S}),Kit.cup({x:kt.x+110,y:kt.y,scale:S})];
 Kit.draw('#a1',W,H,[
- Kit.chair({x:330,y:g,scale:S}),
- Kit.person(man({pose:'seated_talking',seat:'none',seatHeight:Kit.dims.chairSeat,x:330,facing:'right'})),
- Kit.chair({x:760,y:g,scale:S,}),
- Kit.person({pose:'seated_side',seat:'none',seatHeight:Kit.dims.chairSeat,x:760,y:g,scale:S,facing:'left',age:'adult',sex:'f',role:'nurse',skin:'fair',hair:'brown',hairStyle:'bun',hold:'notepad'})
+  Kit.person(man({pose:'seated_side',seat:'chair',x:250,facing:'right'})),
+  Kit.person({pose:'seated_side',seat:'chair',x:790,y:232,scale:S,facing:'left',age:'adult',sex:'f',role:'nurse',skin:'fair',hair:'brown',hairStyle:'bun',hold:'notepad'})
 ],{});
 Kit.draw('#a2',W,H,[].concat(kitchen(false),[
  Kit.person(man({pose:'standing',x:380,facing:'right',hands:{near:{x:kt.x-14,y:kt.y-14}}})),
