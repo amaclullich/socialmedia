@@ -1,0 +1,1261 @@
+{
+ "category": "C13",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 2,
+   "scores": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 2
+   }
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5,
+   "scores": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   }
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C13-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'also worked' is vague about what worked (eating more)"
+   ]
+  },
+  {
+   "tmp_id": "C13-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Fewer than a third ate at least a tenth more.",
+     "fix": "Fewer than a third of the 18 people ate at least a tenth more food on blue plates."
+    },
+    {
+     "item": "6",
+     "quote": "Reviews of mealtime changes for people with dementia have not found any single change that is established to help people eat more, help with eating included, because the studies are small and short.",
+     "fix": "Reviews of mealtime changes for people with dementia have found no change that is established to help people eat more. This includes help with eating. The studies are small and short."
+    },
+    {
+     "item": "6",
+     "quote": "Better trials are needed on both.",
+     "fix": "Better trials are needed of contrast plates and of help with eating."
+    }
+   ],
+   "flags": [
+    "'The question stays open.' is an empty-ish line",
+    "'What follows is judgement, not a finding.' is a setup line",
+    "negation-then-correction: 'not a finding'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'also worked' vague"
+   ]
+  },
+  {
+   "tmp_id": "C13-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A look at the first year alone found fewer cases, but it was not planned in advance, and in year two pneumonia was slightly, but not clearly, more common in programme homes.",
+     "fix": "A look at the first year alone found fewer cases, but that look was not planned in advance. In year two, pneumonia was slightly more common in programme homes, but not clearly so."
+    }
+   ],
+   "flags": [
+    "'A look at' is a figurative verb phrase for 'an analysis of'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "The homes were chosen because their residents were often readmitted to hospital with pneumonia, and they were randomised in matched pairs to a staff mouth care programme or usual care.",
+     "fix": "The homes were chosen because their residents were often readmitted to hospital with pneumonia. They were randomised in matched pairs to a staff mouth care programme or usual care."
+    },
+    {
+     "item": "6",
+     "quote": "The Cochrane review found no trial that compared mouth care with no mouth care: it classed each as extra, professional care against usual care.",
+     "fix": "The Cochrane review found no trial of mouth care against no mouth care at all. Each trial compared extra, professional care with usual care."
+    }
+   ],
+   "flags": [
+    "'Two other results differ from this.' is wrong: the year-two result agrees with the headline; say 'Two other results are worth knowing.'",
+    "very long for a phone"
+   ]
+  },
+  {
+   "tmp_id": "C13-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'A first-year look' figurative"
+   ]
+  },
+  {
+   "tmp_id": "C13-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a laboratory test with 34 healthy older volunteers, opening packs lying in a hospital bed took more finger strength and more nimble fingers than sitting in a chair.",
+     "fix": "In a laboratory test, 34 healthy older volunteers opened packs lying in a hospital bed and sitting in a chair. Lying down took more finger strength and more nimble fingers."
+    }
+   ],
+   "flags": [
+    "'more nimble fingers' is awkward phrasing",
+    "negation-then-correction: 'not as refused'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "What these studies do not show: they were done in Australia, the tests used well volunteers, UK packs may differ, and none tested whether opening packets raises how much people eat.",
+     "fix": "These studies have limits. They were done in Australia, and the tests used well volunteers, so UK packs may differ. None tested whether opening packets raises how much people eat."
+    }
+   ],
+   "flags": [
+    "'What follows is judgement.' setup line",
+    "negation-then-correction: 'rather than \"refused\"'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "negation-then-correction: 'not refused'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ate and drank significantly more",
+     "fix": "ate and drank more, by a difference larger than chance would explain"
+    },
+    {
+     "item": "3",
+     "quote": "half ate and drank significantly more during two days of one-to-one help",
+     "fix": "half ate and drank more during two days of one-to-one help than on their usual-care days"
+    },
+    {
+     "item": "5",
+     "quote": "Where the minutes are missing, the gap is in the plan.",
+     "fix": "Where the minutes are not counted, the plan has no time for this help."
+    }
+   ],
+   "flags": [
+    "'the gap is in the plan' is figurative"
+   ]
+  },
+  {
+   "tmp_id": "C13-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ate and drank significantly more with one-to-one help",
+     "fix": "ate and drank more with one-to-one help, by a difference larger than chance would explain"
+    },
+    {
+     "item": "3",
+     "quote": "Among 76 residents with low intake who responded to a two-day trial of the help",
+     "fix": "Among 76 residents with low intake who ate more during a two-day trial of the help"
+    },
+    {
+     "item": "5",
+     "quote": "Where the minutes are missing, the gap is in the plan, not in the effort of care workers.",
+     "fix": "Where the minutes are not counted, the plan has no time for this help. That is not a comment on the effort of care workers."
+    },
+    {
+     "item": "6",
+     "quote": "The help was given by the research team, not the homes' own staff, and the study had no separate control group (residents were compared with their own usual-care days) and no weight outcome.",
+     "fix": "The help was given by the research team, not the homes' own staff. The study had no separate control group: residents were compared with their own usual-care days. It did not measure weight."
+    }
+   ],
+   "flags": [
+    "'What follows is judgement.' setup line",
+    "negation-then-correction: 'not in the effort of care workers'",
+    "'One result needs care.' reads as a setup"
+   ]
+  },
+  {
+   "tmp_id": "C13-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ate and drank significantly more",
+     "fix": "ate and drank more, by a difference larger than chance would explain"
+    },
+    {
+     "item": "3",
+     "quote": "Half of 74 residents ate and drank significantly more, with help from research staff.",
+     "fix": "Half of 74 residents ate and drank more than on their usual-care days when research staff helped them."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "ate and drank significantly more with the help",
+     "fix": "ate and drank more with the help, by a difference larger than chance would explain"
+    },
+    {
+     "item": "5",
+     "quote": "Where the minutes are missing, the gap is in the plan.",
+     "fix": "Where the minutes are not counted, the plan has no time for this help."
+    }
+   ],
+   "flags": [
+    "'the gap is in the plan' is figurative"
+   ]
+  },
+  {
+   "tmp_id": "C13-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NICE (2015) advises",
+     "fix": "UK guidance from NICE (2015) advises"
+    },
+    {
+     "item": "2",
+     "quote": "a 2023 Cochrane review",
+     "fix": "a 2023 Cochrane review (a review that pools all the trials on a question)"
+    },
+    {
+     "item": "6",
+     "quote": "In a small US study of 32 mentally aware people dying in a comfort care unit, described as terminally ill with cancer, thirst and a dry mouth could be relieved in every case, usually with mouth care, ice chips, moistened lips and sips of drink.",
+     "fix": "A small US study followed 32 people dying in a comfort care unit. All had cancer and could say how they felt. Thirst and a dry mouth could be relieved in every case, usually with mouth care, ice chips, moistened lips and sips of drink."
+    }
+   ],
+   "flags": [
+    "the limitation 'the people studied could say how they felt' is buried mid-paragraph"
+   ]
+  },
+  {
+   "tmp_id": "C13-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 1
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "almost all were taking opioids",
+     "fix": "almost all were taking opioids (strong painkillers)"
+    },
+    {
+     "item": "6",
+     "quote": "It says fluids by drip or under the skin should be considered and reviewed for each person, for example if they have distressing thirst and are unable to drink enough, and stopped if they cause harm or the person no longer wants them.",
+     "fix": "It says fluids by drip or under the skin should be considered for each person, for example if they have distressing thirst and cannot drink enough. They should be reviewed, and stopped if they cause harm or the person no longer wants them."
+    },
+    {
+     "item": "6",
+     "quote": "A 2023 Cochrane review found trials only in people with cancer and too little evidence to say whether drips improve quality of life or prolong life, and its authors say the results do not apply to people dying with dementia or other conditions.",
+     "fix": "A 2023 Cochrane review found trials only in people with cancer. There was too little evidence to say whether drips improve quality of life or prolong life. Its authors say the results do not apply to people dying with dementia or other conditions."
+    },
+    {
+     "item": "7",
+     "quote": "About 6 in 10 had no thirst, or thirst only at first.",
+     "fix": "About 6 in 10 had no thirst, or thirst only at first. For everyone who did have hunger, thirst or a dry mouth, it could be relieved."
+    }
+   ],
+   "flags": [
+    "'a token 100 mL' is figurative",
+    "'The trials leave the question open for each person.' is a vague line",
+    "'What follows is judgement.' setup line"
+   ]
+  },
+  {
+   "tmp_id": "C13-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NICE advises this care",
+     "fix": "The UK guidance body NICE advises this care"
+    },
+    {
+     "item": "6",
+     "quote": "In the last days of life, a dry mouth and thirst can be eased with frequent mouth and lip care and small sips (NICE advises this care; a small US study of 32 people with cancer found thirst could be relieved).",
+     "fix": "In the last days of life, a dry mouth and thirst can be eased with frequent mouth and lip care and small sips. NICE advises this care. A small US study of 32 people with cancer found thirst could be relieved."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NICE (2015) advises",
+     "fix": "UK guidance from NICE (2015) advises"
+    },
+    {
+     "item": "6",
+     "quote": "Trials in a 2023 Cochrane review were all in cancer.",
+     "fix": "The trials of drip fluids in a 2023 Cochrane review were all in people with cancer."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "US guidance (AGS, 2014)",
+     "fix": "US guidance from the American Geriatrics Society (2014)"
+    },
+    {
+     "item": "2",
+     "quote": "European guidance (ESPEN, 2024)",
+     "fix": "European nutrition guidance (2024)"
+    },
+    {
+     "item": "2",
+     "quote": "14 observational studies",
+     "fix": "14 studies that watched what happened to people without assigning treatment"
+    },
+    {
+     "item": "3",
+     "quote": "In four of the 14 observational studies (36,816 people)",
+     "fix": "The 14 studies covered 36,816 people. Four of them looked at"
+    },
+    {
+     "item": "6",
+     "quote": "In four of the 14 observational studies (36,816 people), PEG tubes (a tube into the stomach through the skin) did not show longer survival, with low certainty.",
+     "fix": "The 14 studies covered 36,816 people. Four looked at PEG tubes (a tube into the stomach through the skin). They did not show longer survival, and we cannot be sure of that."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'never about the person's worth'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "with low certainty",
+     "fix": "with low certainty (we cannot be sure of the result)"
+    },
+    {
+     "item": "3",
+     "quote": "In four studies of PEG tubes (a tube into the stomach through the skin), tubes did not show longer survival, with low certainty.",
+     "fix": "Four of the 14 studies looked at PEG tubes (a tube into the stomach through the skin). They did not show longer survival, and we cannot be sure of that."
+    },
+    {
+     "item": "6",
+     "quote": "European nutrition guidance (ESPEN, 2024) says tube feeding can be a temporary option in mild or moderate dementia, but not in severe dementia or near the end of life.",
+     "fix": "European nutrition guidance (2024) says tube feeding can be a temporary option in mild or moderate dementia. It says it is not an option in severe dementia or near the end of life."
+    }
+   ],
+   "flags": [
+    "'It focuses on comfort and is unlikely to stop weight loss.' - 'It' is unclear",
+    "'What follows is judgement.' setup line",
+    "negation-then-correction: 'never about the person's worth'",
+    "very long for a phone"
+   ]
+  },
+  {
+   "tmp_id": "C13-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(Cochrane 2021: observational studies, low certainty)",
+     "fix": "(a 2021 Cochrane review of studies that only watched what happened; we cannot be sure of the result)"
+    },
+    {
+     "item": "6",
+     "quote": "Feeding tubes in advanced dementia have not been shown to help people live longer or be more comfortable (Cochrane 2021: observational studies, low certainty).",
+     "fix": "Feeding tubes in advanced dementia have not been shown to help people live longer or be more comfortable. That comes from a 2021 Cochrane review of studies that only watched what happened, with low certainty."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'never the person's worth'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(Cochrane 2021: no randomised trials, 14 observational studies, low certainty)",
+     "fix": "(a 2021 Cochrane review found no trials that assign treatment by chance, and only 14 studies that watched what happened; we cannot be sure of the result)"
+    },
+    {
+     "item": "6",
+     "quote": "Feeding tubes for people with advanced dementia have not been shown to help them live longer (Cochrane 2021: no randomised trials, 14 observational studies, low certainty).",
+     "fix": "Feeding tubes for people with advanced dementia have not been shown to help them live longer. That is the finding of a 2021 Cochrane review: no trials, 14 observational studies, low certainty."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'never the person's worth'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "At 295 it is a screen, not a diagnosis.",
+     "fix": "A result of 295 or more is a prompt to look closer, not a diagnosis."
+    },
+    {
+     "item": "5",
+     "quote": "At 295 it is a screen, not a diagnosis.",
+     "fix": "Calculate it when measuring is not possible, and treat 295 or more as a reason to check."
+    },
+    {
+     "item": "6",
+     "quote": "A Cochrane review of 24 studies found that urine colour, urine specific gravity, dry mouth, thirst, heart rate and recorded fluid intake were each not useful alone for spotting or ruling out dehydration from too little drinking.",
+     "fix": "A Cochrane review of 24 studies found six signs not useful alone for spotting or ruling out dehydration from too little drinking: urine colour, urine specific gravity, dry mouth, thirst, heart rate and recorded fluid intake."
+    }
+   ],
+   "flags": [
+    "unit mismatch: mOsm/kg for the measured test, but the formula gives mOsm/L, without a note",
+    "negation-then-correction: 'a screen, not a diagnosis'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More Teaching round posts take one clinical distinction at a time.",
+     "fix": "(Delete; end on 'In practice: ... note when drinks between meals are missed.')"
+    },
+    {
+     "item": "6",
+     "quote": "In a UK study of 188 care home residents with an average age of 86 (people with heart or kidney failure excluded), 1 in 5 had a serum osmolality over 300 mOsm/kg, the level counted as current dehydration.",
+     "fix": "A UK study included 188 care home residents with an average age of 86. People with heart or kidney failure were excluded. One in 5 had a serum osmolality over 300 mOsm/kg, the level counted as current dehydration."
+    }
+   ],
+   "flags": [
+    "empty promotional close",
+    "osmolality (mOsm/kg) and osmolarity (mOsm/L) both used without a one-line distinction",
+    "negation-then-correction: 'a screen ..., not a diagnosis'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'osmolality' then 'calculate osmolarity' with no formula or distinction in this variant"
+   ]
+  },
+  {
+   "tmp_id": "C13-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "Two trials of commercial flavour enhancers in Dutch nursing homes gave mixed results.",
+     "fix": "Two trials of commercial flavour enhancers in Dutch nursing homes disagreed: in the first, residents gained about 1 kg; in the second, eating and weight did not change."
+    }
+   ],
+   "flags": [
+    "Setup question 'Does food still smell of anything to you?' is then answered by the post"
+   ]
+  },
+  {
+   "tmp_id": "C13-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "asking people about their smell caught only 12% to 18% of those affected in the oldest group",
+     "fix": "when asked, only 12% to 18% of those aged 80 and over with a weak sense of smell said they had a problem"
+    }
+   ],
+   "flags": [
+    "Setup question 'Does food still smell of anything to you?' is then answered by the post",
+    "'caught' is a figurative verb",
+    "'a reasonable thing to ask for' close is soft"
+   ]
+  },
+  {
+   "tmp_id": "C13-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "flavour enhancer trials were mixed",
+     "fix": "two trials of flavour enhancers disagreed"
+    }
+   ],
+   "flags": [
+    "Setup question 'Does food still smell of anything to you?' is then answered by the post"
+   ]
+  },
+  {
+   "tmp_id": "C13-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "Two trials of commercial flavour enhancers gave mixed results.",
+     "fix": "Two trials of commercial flavour enhancers disagreed: in the first, residents gained about 1 kg; in the second, eating and weight did not change."
+    }
+   ],
+   "flags": [
+    "Setup question 'Does food still smell of anything to you?' is then answered by the post"
+   ]
+  },
+  {
+   "tmp_id": "C13-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Over three years they were more likely to be admitted to hospital with pneumonia, or to die of it, than those who took them out, even after the researchers allowed for other health differences they measured.",
+     "fix": "Over three years they were more likely than those who took them out to be admitted to hospital with pneumonia, or to die of it. This held after the researchers allowed for other health differences they measured."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'This link does not show that ... causes pneumonia'",
+    "three topics (advice, study, hospital) in one post"
+   ]
+  },
+  {
+   "tmp_id": "C13-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Over three years they were more likely to be admitted to hospital with pneumonia, or to die of it, than those who took them out, even after the researchers allowed for other health differences they measured.",
+     "fix": "Over three years they were more likely than those who took them out to be admitted to hospital with pneumonia, or to die of it. This held after the researchers allowed for other health differences they measured."
+    }
+   ],
+   "flags": [
+    "'What follows is practical advice, not a trial result.' setup and negation shape",
+    "very long for a phone"
+   ]
+  },
+  {
+   "tmp_id": "C13-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a Japanese study of people aged 85+, sleeping in dentures was linked with more admissions to hospital with pneumonia, or deaths from it, over 3 years (a link, not proof).",
+     "fix": "In a Japanese study of people aged 85+, those who slept in dentures were more often admitted to hospital with pneumonia, or died of it, over 3 years. That is a link, not proof."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'a link, not proof'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a Japanese study of 524 people aged 85 and over, those who slept in dentures were more likely to be admitted with pneumonia or die of it over three years.",
+     "fix": "In a Japanese study of 524 people aged 85 and over, those who slept in dentures were more likely to be admitted to hospital with pneumonia, or to die of it. This was over three years."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'a link, not proof of cause'"
+   ]
+  },
+  {
+   "tmp_id": "C13-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Mouth care was accepted and finished more often, and lasted longer.",
+     "fix": "Compared with carers who cleaned teeth without those techniques, mouth care was accepted and finished more often, and lasted longer."
+    }
+   ],
+   "flags": [
+    "setup scene opening is fine; 'Refusals did not stop' is good plain handling of the wrong-way result"
+   ]
+  },
+  {
+   "tmp_id": "C13-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The techniques are ones that families and care workers can learn.",
+     "fix": "(Move the sentence 'When a person pushes the brush away, we should change the approach before deciding that brushing is not possible.' to the end.)"
+    },
+    {
+     "item": "6",
+     "quote": "In one, trained research staff used calm techniques: coming to the person at or below eye level; doing mouth care at a sink in front of a mirror; giving the person a toothbrush to hold; starting the brushing and letting them carry on; using gestures and short, one-step instructions; gently guiding their hand; and, if things escalated, letting a different carer take over.",
+     "fix": "In one, trained research staff used calm techniques. They came to the person at or below eye level, and did mouth care at a sink in front of a mirror. They gave the person a toothbrush to hold, started the brushing and let them carry on. They used gestures and short, one-step instructions, and gently guided the person's hand. If things escalated, a different carer took over."
+    }
+   ],
+   "flags": [
+    "negation-then-correction: 'rather than a trial result, and it blames no one'",
+    "'What follows is judgement.' setup line",
+    "very long for a phone"
+   ]
+  },
+  {
+   "tmp_id": "C13-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "meant it was accepted and finished more often",
+     "fix": "meant mouth care was accepted and finished more often than in the comparison group"
+    },
+    {
+     "item": "5",
+     "quote": "We should change the approach first.",
+     "fix": "When a person refuses, we should change the approach before deciding brushing is not possible."
+    },
+    {
+     "item": "6",
+     "quote": "In a US trial of 101 residents with dementia who often refused mouth care, eye level, a mirror and handing over the brush meant it was accepted and finished more often.",
+     "fix": "In a US trial of 101 residents with dementia who often refused mouth care, staff used eye level, a mirror and handing over the brush. Mouth care was accepted and finished more often than in the comparison group."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "meant mouth care was accepted and finished more often",
+     "fix": "meant mouth care was accepted and finished more often than in the comparison group"
+    },
+    {
+     "item": "6",
+     "quote": "In a US trial of 101 nursing home residents, calm techniques (eye level, a mirror, handing over the brush, letting the person carry on) meant mouth care was accepted and finished more often.",
+     "fix": "In a US trial of 101 nursing home residents, staff used calm techniques: eye level, a mirror, handing over the brush, letting the person carry on. Mouth care was accepted and finished more often than in the comparison group."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C13-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Quality of life scores held steady with family style meals and fell with plated meals.",
+     "fix": "Quality of life scores held steady with family style meals and were about 6 points lower with plated meals, on a 0 to 100 scale."
+    },
+    {
+     "item": "5",
+     "quote": "For people with dementia, a 2016 systematic review lists family style meals as promising, but not established.",
+     "fix": "For people with dementia, a 2016 systematic review lists family style meals as promising, but not established. Care homes could try shared-table, self-serve meals for residents able to take part, and see what happens to how much people eat."
+    }
+   ],
+   "flags": [
+    "opening is a sentence fragment",
+    "'package' as a figurative noun for a bundle of changes"
+   ]
+  },
+  {
+   "tmp_id": "C13-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 0
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "7",
+     "quote": "lost about 1 kg; the gap between the groups was 1.5 kg",
+     "fix": "lost about 1 kg (delete 'the gap between the groups was 1.5 kg', or explain in plain words why 1 kg and 1.5 kg differ)"
+    },
+    {
+     "item": "6",
+     "quote": "For people with dementia, a systematic review lists family style meals as promising, but the studies are small and short, so the benefit is not established.",
+     "fix": "For people with dementia, a systematic review lists family style meals as promising. The studies are small and short, so the benefit is not established."
+    }
+   ],
+   "flags": [
+    "'What follows is judgement.' setup line",
+    "negation-then-correction: 'not individual people'",
+    "very long for a phone"
+   ]
+  },
+  {
+   "tmp_id": "C13-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a Dutch trial, nursing home residents without dementia who ate family style (dishes on the table, self-serve, staff or volunteers chatting at each table) held their weight and quality of life steady over 6 months; plated-meal residents lost about 1 kg.",
+     "fix": "In a Dutch trial, nursing home residents without dementia ate family style: dishes on the table, self-serve, staff or volunteers chatting at each table. Over 6 months they held weight and quality of life steady; plated-meal residents lost about 1 kg."
+    }
+   ],
+   "flags": [
+    "'package' figurative",
+    "very compressed close"
+   ]
+  },
+  {
+   "tmp_id": "C13-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Quality of life held steady versus fell.",
+     "fix": "Quality of life scores held steady with family style meals and fell with plated meals."
+    },
+    {
+     "item": "6",
+     "quote": "In a Dutch nursing home trial, 178 residents without dementia ate either family style (dishes on the table, self-serve, a staff member or volunteer sitting and chatting at each table) or usual plated meals for six months.",
+     "fix": "In a Dutch nursing home trial, 178 residents without dementia ate either family style or usual plated meals for six months. Family style meant dishes on the table, self-serve, and a staff member or volunteer sitting and chatting at each table."
+    }
+   ],
+   "flags": [
+    "'package of changes' figurative"
+   ]
+  }
+ ]
+}

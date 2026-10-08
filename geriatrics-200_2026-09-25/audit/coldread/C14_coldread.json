@@ -1,0 +1,1264 @@
+{
+ "category": "C14",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 0
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 6
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C14-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "BPPV came back in about 36 in 100.",
+     "fix": "BPPV came back in about 36 in 100 people during the trials' follow-up (give the follow-up length from the source)."
+    },
+    {
+     "item": "5",
+     "quote": "BPPV came back in about 36 in 100.",
+     "fix": "Move the guideline paragraph to the end so the post closes on advice: '... BPPV came back in about 36 in 100. The 2017 US ENT guideline advises against routinely giving antihistamines or benzodiazepines.'"
+    }
+   ],
+   "flags": [
+    "Closes on a bare number, not an action."
+   ]
+  },
+  {
+   "tmp_id": "C14-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "BPPV came back in about 36 in 100, and a few people could not tolerate the manoeuvres",
+     "fix": "State the period: 'BPPV came back in about 36 in 100 people over the trials' follow-up' (length from source)."
+    }
+   ],
+   "flags": [
+    "Figurative: 'can be filed under a general label'.",
+    "Setup question 'what sets it off?' answered by the post.",
+    "Guideline sentence packs two recommendations (27 words); consider splitting."
+   ]
+  },
+  {
+   "tmp_id": "C14-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "vertigo fully resolved in about 56 in 100 after the Epley manoeuvre, against 21 in 100 with a sham or control",
+     "fix": "Add the result that went the other way: '... BPPV came back in about 36 in 100.'"
+    }
+   ],
+   "flags": [
+    "Omits recurrence, so the headline reads more reassuring than the evidence."
+   ]
+  },
+  {
+   "tmp_id": "C14-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "It came back in about 36 in 100.",
+     "fix": "'BPPV came back in about 36 in 100 people over the trials' follow-up.'"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C14-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Steroid treatment is an option if started within about two weeks",
+     "fix": "'... if started within about two weeks of the hearing loss beginning'"
+    },
+    {
+     "item": "5",
+     "quote": "Steroid treatment is an option if started within about two weeks, though a Cochrane review of three small trials found it unclear whether it works.",
+     "fix": "End on the action: move the steroid sentence earlier and finish with 'Ask to be seen urgently by an ENT service or an emergency department and say: my hearing has dropped suddenly in one ear.'"
+    },
+    {
+     "item": "6",
+     "quote": "A clinician first needs to tell whether the ear canal is blocked or the inner ear or nerve is affected, so sudden hearing loss in one ear should be checked urgently and not assumed to be wax.",
+     "fix": "Split: 'A clinician first needs to tell a blocked ear canal from a problem in the inner ear or nerve. So sudden hearing loss in one ear should be checked urgently.' (38 words becomes two sentences of about 19.)"
+    }
+   ],
+   "flags": [
+    "Figurative: 'Waiting can use up the window' (window of what is unstated).",
+    "Negation-then-correction: 'checked urgently and not assumed to be wax'.",
+    "Meta-label 'Our practical advice, not guideline wording' interrupts the instruction.",
+    "Same opening sentence is used in every variant of this post and the 'Our practical advice/suggestions, not guideline wording' shape recurs across several posts in the set."
+   ]
+  },
+  {
+   "tmp_id": "C14-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Steroid treatment is an option if started within about two weeks.",
+     "fix": "'... within about two weeks of the hearing loss starting' (the hearing test line already says 14 days from the start)."
+    },
+    {
+     "item": "6",
+     "quote": "A US guideline for ear, nose and throat (ENT) specialists says prompt recognition and management of sudden hearing loss from the inner ear or nerve may improve recovery.",
+     "fix": "'A US guideline for ear, nose and throat (ENT) specialists says that acting quickly on sudden hearing loss from the inner ear or nerve may improve recovery.'"
+    },
+    {
+     "item": "6",
+     "quote": "A 2013 Cochrane review of three small trials found the value of steroids unclear, so this is a choice to discuss with the specialist, not a sure fix.",
+     "fix": "'A 2013 Cochrane review of three small trials found it unclear whether steroids work. Discuss the choice with the specialist.'"
+    }
+   ],
+   "flags": [
+    "Figurative and hard to parse: 'Waiting can use up the window in which the choice exists.'",
+    "Negation-then-correction: 'not assumed to be wax', 'not a sure fix'.",
+    "Same opening sentence is used in every variant of this post and the 'Our practical advice/suggestions, not guideline wording' shape recurs across several posts in the set."
+   ]
+  },
+  {
+   "tmp_id": "C14-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Steroids are an option if started within about 2 weeks",
+     "fix": "'... within about 2 weeks of the hearing loss starting'"
+    },
+    {
+     "item": "6",
+     "quote": "Steroids are an option if started within about 2 weeks, though a Cochrane review of three small trials found their value unclear.",
+     "fix": "'Steroids are an option if started within about 2 weeks. A Cochrane review of three small trials found it unclear whether they work.'"
+    }
+   ],
+   "flags": [
+    "Negation shape: 'checked urgently, not assumed to be wax'.",
+    "Does not say who to see or what to say."
+   ]
+  },
+  {
+   "tmp_id": "C14-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Steroids are an option if started within about two weeks",
+     "fix": "'... within about two weeks of the hearing loss starting'"
+    },
+    {
+     "item": "5",
+     "quote": "Steroids are an option if started within about two weeks, though a Cochrane review of three small trials found their value unclear.",
+     "fix": "Put the steroid sentence before the advice and end with: 'Ask for an ear, nose and throat service or an emergency department.'"
+    }
+   ],
+   "flags": [
+    "Setup 'the usual guess is wax. It could be.' then correction.",
+    "Meta-label 'Our practical advice, not guideline wording'.",
+    "Same opening sentence is used in every variant of this post and the 'Our practical advice/suggestions, not guideline wording' shape recurs across several posts in the set."
+   ]
+  },
+  {
+   "tmp_id": "C14-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening sentence nests an aside ('most often from macular degeneration, an eye condition,') before the main verb; acceptable but near the load limit.",
+    "'selected group' is left unglossed (minor)."
+   ]
+  },
+  {
+   "tmp_id": "C14-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Eye clinics should mention Charles Bonnet syndrome when they tell someone their sight is failing, so that the first time an image appears, the person knows what it is and who to tell.",
+     "fix": "'Eye clinics should mention Charles Bonnet syndrome when they tell someone their sight is failing. Then, the first time an image appears, the person knows what it is and who to tell.'"
+    }
+   ],
+   "flags": [
+    "Negation shape: 'We should not leave people to discover this alone.'",
+    "'so 60 in 505 is not a figure for everyone with sight loss' is negation-then-correction; could read 'applies only to this group of patients'.",
+    "Vague claim: 'forms a large part of the help'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Many tell no one' is an unquantified claim, acceptable as general statement."
+   ]
+  },
+  {
+   "tmp_id": "C14-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'properly diagnosed' slightly strong for 'given the right explanation'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "It was 5 people, with tones rather than voices, and none had impaired thinking or confusion when they joined.",
+     "fix": "'It was only 5 people. They heard tones, not voices. None had impaired thinking or confusion when they joined.'"
+    }
+   ],
+   "flags": [
+    "Figurative/euphemistic: 'the last sense to go'.",
+    "Negation-then-correction: 'talk to them rather than about them'.",
+    "Setup of a common belief then rebuttal."
+   ]
+  },
+  {
+   "tmp_id": "C14-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "The authors used a less strict analysis than the original study they followed, so the individual results are tentative.",
+     "fix": "Say what that means in plain words: 'The authors checked each person with a looser test than the study they copied, so each person's result is only a hint.'"
+    },
+    {
+     "item": "3",
+     "quote": "Four of the five had also been recorded earlier, when they were still responsive, and 17 healthy students were recorded for comparison.",
+     "fix": "Say what the earlier recordings and the 17 students showed, or drop the numbers; as written they count people without a result attached."
+    },
+    {
+     "item": "5",
+     "quote": "If you could not be there, or found it hard to find the words, nothing in this study suggests you let anyone down.",
+     "fix": "Close on the action instead: 'Say who you are when you arrive, and talk to them rather than about them.' The reassurance is not something the study addresses."
+    },
+    {
+     "item": "6",
+     "quote": "All of the patients had been free of impaired thinking or confusion when they joined, so the results may not apply to people with dementia.",
+     "fix": "'All of the patients were free of impaired thinking or confusion when they joined. So the results may not apply to people with dementia.'"
+    }
+   ],
+   "flags": [
+    "Closing line is emotional reassurance not supported by the study (false reassurance risk, borderline patronising).",
+    "Mixes study report with 'our judgement' advice including hearing aid comfort, which is not evidence-based here.",
+    "Negation shapes: 'not a finding', 'nothing in this study suggests'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'actively dying' is blunt but clear."
+   ]
+  },
+  {
+   "tmp_id": "C14-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Figurative/euphemistic: 'last sense to go'.",
+    "Negation-then-correction: 'speak to the person, not about them'.",
+    "'hospice study' repeated in consecutive sentences."
+   ]
+  },
+  {
+   "tmp_id": "C14-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a very small 1985 experiment with 5 listeners who had hearing loss, speech spoken clearly was understood better than ordinary conversational speech, and the gain was much the same at the loudness levels tested.",
+     "fix": "Split: 'A very small 1985 experiment tested 5 listeners with hearing loss. They understood clear speech better than ordinary conversation. The gain was similar at each loudness level tested.'"
+    }
+   ],
+   "flags": [
+    "Opening quotation then reframe (setup shape).",
+    "'speech spoken clearly' is clumsy.",
+    "Same opening sentence is used in every variant of this post and the 'Our practical advice/suggestions, not guideline wording' shape recurs across several posts in the set."
+   ]
+  },
+  {
+   "tmp_id": "C14-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Five listeners with hearing loss understood speech spoken clearly better than ordinary conversational speech, and the gain was much the same at the different loudness levels tested.",
+     "fix": "'Five listeners with hearing loss understood clear speech better than ordinary conversation. The gain was similar at each loudness level tested.'"
+    }
+   ],
+   "flags": [
+    "Setup question 'What helps?' answered by the post.",
+    "Metaphor plus negation-then-correction: 'a pointer, not a recipe'.",
+    "'before the argument' risks reading as patronising."
+   ]
+  },
+  {
+   "tmp_id": "C14-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "many consonants are high-pitched",
+     "fix": "'many consonants (such as s, f and th) are high-pitched'"
+    }
+   ],
+   "flags": [
+    "Negation-light but 'Our suggestion' is unsourced advice labelled as such; fine."
+   ]
+  },
+  {
+   "tmp_id": "C14-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening quotation then reframe; repeats the opening of the x and linkedin variants."
+   ]
+  },
+  {
+   "tmp_id": "C14-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "or a tissue press, lowered the amount of timolol in the blood",
+     "fix": "Say what a tissue press is, or drop it: 'pressing the inner corner of the eye for 5 minutes after the drop lowered the timolol level in the blood'."
+    },
+    {
+     "item": "3",
+     "quote": "had a heart rate of 29",
+     "fix": "'had a heart rate of 29 beats a minute'"
+    },
+    {
+     "item": "6",
+     "quote": "In a small cross-over study of 21 adults, pressing the inner corner of the eye for 5 minutes after the drop, or a tissue press, lowered the amount of timolol in the blood.",
+     "fix": "'A small cross-over study of 21 adults tested pressing the inner corner of the eye for 5 minutes after the drop. It lowered the timolol level in the blood.'"
+    }
+   ],
+   "flags": [
+    "Figurative: 'an underlying conduction problem that the drops unmasked'.",
+    "Closing 'discuss with the eye team' is short and a little vague about what to ask."
+   ]
+  },
+  {
+   "tmp_id": "C14-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a tissue press method",
+     "fix": "Say what it is, e.g. 'a method using a tissue' described in the trial, or drop it."
+    },
+    {
+     "item": "6",
+     "quote": "In one, a man of 62 who had used timolol for 13 years had a heart rate of 29 beats a minute with complete atrioventricular block, which settled within 48 hours of stopping the drops.",
+     "fix": "'In one case, a man of 62 had used timolol for 13 years. His heart rate was 29 beats a minute with complete atrioventricular block. It settled within 48 hours of stopping the drops.'"
+    }
+   ],
+   "flags": [
+    "Setup question 'Can the absorption be reduced?' answered by the post.",
+    "Figurative: 'easy to leave off the list of suspects'.",
+    "Negation-then-correction: 'The 5 minutes is the trial's method, not a dosing instruction.'"
+   ]
+  },
+  {
+   "tmp_id": "C14-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "in one, a milder block later returned",
+     "fix": "The long version says a milder block remained and had worsened a year later. Use: 'in one, a milder block remained and had worsened a year later'."
+    }
+   ],
+   "flags": [
+    "Accuracy: 'later returned' does not match 'remained and worsened'.",
+    "'They do not show how often' has an unclear 'They'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "lowered blood levels",
+     "fix": "'lowered the timolol level in the blood'"
+    },
+    {
+     "item": "5",
+     "quote": "whether it prevents a slow pulse was not shown.",
+     "fix": "Reorder so the post ends on the action: put the eye-drop sentence about pressing first, then close with 'So in an older person with a slow pulse, ask about eye drops directly.'"
+    },
+    {
+     "item": "6",
+     "quote": "Pressing the inner corner of the eye after the drop lowered blood levels in a small study of 21 adults; whether it prevents a slow pulse was not shown.",
+     "fix": "Split: 'Pressing the inner corner of the eye after the drop lowered the timolol level in the blood in a small study of 21 adults. Whether it prevents a slow pulse was not shown.'"
+    }
+   ],
+   "flags": [
+    "Pressing duration (5 minutes) omitted, so the reader cannot repeat it."
+   ]
+  },
+  {
+   "tmp_id": "C14-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening sentence is identical in all four variants.",
+    "'testing only some of them' leaves open who 'some' are (the linkedin version says those with health problems)."
+   ]
+  },
+  {
+   "tmp_id": "C14-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The reviewers pointed to the middle step, where the person takes up the treatment offered, as the likeliest to fail.",
+     "fix": "Close on the action sentence: 'We should judge any programme to find sight problems by whether sight gets corrected, and make the step from test to glasses or surgery easy to take.'"
+    }
+   ],
+   "flags": [
+    "Figurative: 'the middle step'.",
+    "Opening repeated across all variants."
+   ]
+  },
+  {
+   "tmp_id": "C14-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening repeated across variants."
+   ]
+  },
+  {
+   "tmp_id": "C14-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening sentence about 35 words, at the limit.",
+    "Opening repeated across variants."
+   ]
+  },
+  {
+   "tmp_id": "C14-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "improved their visual function, especially depth perception",
+     "fix": "Replace 'visual function' with what was measured in plain words, e.g. 'improved how well they saw, especially depth perception'; keep to what the source reports."
+    },
+    {
+     "item": "6",
+     "quote": "In one Belfast waiting list, about 1 in 3 people waiting for a first eye (32 in 100) were estimated to be at risk of this troublesome imbalance.",
+     "fix": "'In one Belfast waiting list, about 1 in 3 people waiting for a first eye were estimated to be at risk of this imbalance.' (drop the repeated '32 in 100')."
+    }
+   ],
+   "flags": [
+    "Second long sentence (31 words) also over the public limit: 'In a trial of 239 women over 70, having the second eye done within about a month rather than waiting a year improved their visual function, especially depth perception, and their confidence.'",
+    "Negation-then-correction: 'an estimate of risk in one clinic, not measured symptoms'.",
+    "Idiom: 'even it out'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "improved their visual function and confidence",
+     "fix": "State plainly what improved, e.g. 'improved how well they saw and their confidence', as the source reports."
+    },
+    {
+     "item": "4",
+     "quote": "The overall rate of falls was lower after earlier surgery, but the difference was too uncertain to be sure of a real effect.",
+     "fix": "State the wrong-way result once, plainly: 'More women fell at least once after earlier surgery (40 in 100, against 34 in 100 who waited), though the trial could not show that earlier surgery changes falls either way.'"
+    },
+    {
+     "item": "6",
+     "quote": "In a trial of 239 women over 70 with one cataract still to be done, having the second eye done within about 4 weeks rather than after about 12 months improved their visual function and confidence.",
+     "fix": "Split: 'A trial included 239 women over 70 with one cataract still to be done. Those who had the second eye done within about 4 weeks, rather than after about 12 months, saw better and felt more confident.'"
+    },
+    {
+     "item": "7",
+     "quote": "Over 12 months, 40 in 100 of the women who had earlier surgery and 34 in 100 of those who waited fell at least once. The overall rate of falls was lower after earlier surgery",
+     "fix": "Two falls figures point opposite ways without reconciliation (more fallers after early surgery, but a lower overall rate). Give one, or reconcile: 'More women fell at least once after earlier surgery (40 against 34 in 100), but the total number of falls was lower; both differences were too uncertain to be sure of a real effect.'"
+    }
+   ],
+   "flags": [
+    "Possible false reassurance: 'Having the second eye done helps.' sits beside an uncertain falls result.",
+    "Colon-then-question close is concrete and good."
+   ]
+  },
+  {
+   "tmp_id": "C14-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "were estimated to be at risk",
+     "fix": "'were estimated to be at risk of this imbalance' (say of what)."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C14-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "improved visual function and confidence",
+     "fix": "'improved how well they saw, and their confidence'"
+    },
+    {
+     "item": "3",
+     "quote": "a second operation within about a month improved visual function and confidence",
+     "fix": "Add the comparison: 'a second operation within about a month, rather than waiting a year, improved ...'"
+    }
+   ],
+   "flags": [
+    "Idiom: 'helps even it out'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Use aids anyway' is advice not derived from the null amplification result (no explanation why).",
+    "Repeated shape across set: practical checklist presented without evidence label."
+   ]
+  },
+  {
+   "tmp_id": "C14-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Teaching round series take one bedside point at a time.",
+     "fix": "Delete it and end on the action: 'Recording the adaptations tells the next reader how to interpret the score.'"
+    },
+    {
+     "item": "6",
+     "quote": "In a study of 301 community-dwelling older adults, mean age 71, more people with normal hearing and vision passed the Montreal Cognitive Assessment (MoCA) than people with sensory loss, even after scores were adjusted for items they could not hear or see.",
+     "fix": "Split: 'A study of 301 community-dwelling older adults, mean age 71, compared pass rates on the Montreal Cognitive Assessment (MoCA). More people with normal hearing and vision passed than people with sensory loss. This held after scores were adjusted for items they could not hear or see.'"
+    }
+   ],
+   "flags": [
+    "Empty promotional close.",
+    "Closing text 'The checklist is our practical suggestion, not a trial finding' is a negation-correction shape."
+   ]
+  },
+  {
+   "tmp_id": "C14-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "even after adjustment (an association)",
+     "fix": "'even after scores were adjusted for items they could not hear or see (an association, not proof of cause)'. Keep wording within length."
+    },
+    {
+     "item": "4",
+     "quote": "Put aids in, check glasses, reduce noise, record the adaptations.",
+     "fix": "Add the result that went the other way: 'In two small studies, amplification did not change the total score.'"
+    }
+   ],
+   "flags": [
+    "Parenthetical '(an association)' interrupts reading."
+   ]
+  },
+  {
+   "tmp_id": "C14-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "even after scores were adjusted",
+     "fix": "'even after scores were adjusted for items they could not hear or see'"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C14-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "impacted wax",
+     "fix": "'wax that blocks the ear canal' (plain equivalent beside the term)."
+    },
+    {
+     "item": "2",
+     "quote": "microsuction",
+     "fix": "'microsuction, removal with a suction device'"
+    },
+    {
+     "item": "2",
+     "quote": "NICE",
+     "fix": "'NICE, the national guidance body for England' (check wording against source)."
+    },
+    {
+     "item": "6",
+     "quote": "In one small study of 29 people newly admitted to a US nursing facility, hearing improved after removal in 80 in 100 ears with impacted wax, against 3 in 100 ears without it.",
+     "fix": "Split: 'One small study followed 29 people newly admitted to a US nursing facility. After wax removal, hearing improved in 80 in 100 ears that had impacted wax, and in 3 in 100 ears that did not.'"
+    },
+    {
+     "item": "6",
+     "quote": "The same article noted that getting to hospital for microsuction is a particular problem for people with mobility problems who rely on carers or hospital transport.",
+     "fix": "'The same article noted that getting to hospital for microsuction is hard for people with mobility problems who rely on carers or hospital transport.'"
+    }
+   ],
+   "flags": [
+    "First sentence starts with the finding and never says the post is about ear wax blocking hearing.",
+    "Negation-then-correction: 'should not be the ones who go without'.",
+    "'primary care' and 'commissioned locally' are not glossed."
+   ]
+  },
+  {
+   "tmp_id": "C14-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "microsuction",
+     "fix": "'microsuction, removal with a suction device'"
+    },
+    {
+     "item": "2",
+     "quote": "NICE says wax removal should be done in primary care",
+     "fix": "'NICE (the national guidance body for England) says wax removal should be done in primary care, meaning the GP practice'"
+    },
+    {
+     "item": "6",
+     "quote": "In a study of 29 people over 65 newly admitted to a US skilled nursing facility, hearing improved after removal in 80 in 100 ears with impacted wax, against 3 in 100 ears without it.",
+     "fix": "Split into two sentences: 'A study followed 29 people over 65 newly admitted to a US skilled nursing facility. After wax removal, hearing improved in 80 in 100 ears with impacted wax, and in 3 in 100 ears without it.'"
+    },
+    {
+     "item": "6",
+     "quote": "The article noted that when people are referred to hospital for microsuction, getting there is a particular problem for those with mobility problems who rely on carers or hospital transport.",
+     "fix": "'The article noted that people referred to hospital for microsuction can find it hard to get there, especially if they have mobility problems and rely on carers or hospital transport.'"
+    }
+   ],
+   "flags": [
+    "Negation shape: 'We should not leave people ... as the ones who go without.'",
+    "Two audiences (clinicians and families) served in one post without signposting."
+   ]
+  },
+  {
+   "tmp_id": "C14-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NICE says earwax removal should be done in primary care",
+     "fix": "'NICE, the national guidance body, says earwax removal should be done by the GP practice'"
+    },
+    {
+     "item": "2",
+     "quote": "unless locally commissioned",
+     "fix": "'unless the local health service has paid for it'"
+    },
+    {
+     "item": "6",
+     "quote": "In England, NICE says earwax removal should be done in primary care, but a GP's 2020 article described practices as not obliged to provide it unless locally commissioned, with funding varying by area.",
+     "fix": "Split after 'primary care': 'But a GP's 2020 article described practices as not obliged to provide it unless locally commissioned. Funding varies by area.'"
+    }
+   ],
+   "flags": [
+    "Never says why wax removal matters (no benefit mentioned).",
+    "Closing line is concrete and good."
+   ]
+  },
+  {
+   "tmp_id": "C14-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "NICE says removal should be done in primary care",
+     "fix": "'NICE, the national guidance body, says removal should be done by the GP practice'"
+    },
+    {
+     "item": "2",
+     "quote": "unless it was commissioned locally",
+     "fix": "'unless the local health service had paid for it'"
+    },
+    {
+     "item": "6",
+     "quote": "In England, NICE says removal should be done in primary care, but a 2020 article by a GP described practices as not obliged to provide it unless it was commissioned locally.",
+     "fix": "Split after 'primary care'."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C14-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Across the review, the unusual features reported most often were vertigo, scalp ulceration and dry cough.",
+     "fix": "End on the action: move the review sentences before 'Sight loss can be permanent ...' and finish with 'We should not hold treatment for a scan slot.'"
+    },
+    {
+     "item": "6",
+     "quote": "European (EULAR) recommendations say high-dose steroid, 40 to 60 mg a day of prednisone or equivalent, should start immediately in active giant cell arteritis, and the diagnosis should be confirmed by scan or biopsy.",
+     "fix": "Split: 'European (EULAR) recommendations say to start high-dose steroid immediately in active giant cell arteritis: 40 to 60 mg a day of prednisone or equivalent. They say the diagnosis should be confirmed by scan or biopsy.'"
+    }
+   ],
+   "flags": [
+    "Two topics (ultrasound yield and unusual presentations) in one short post.",
+    "Negation shape: 'We should not hold treatment for a scan slot.'",
+    "Meta-label pattern repeated across set."
+   ]
+  },
+  {
+   "tmp_id": "C14-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(95% confidence intervals 58 to 85 and 38 to 68 in 100)",
+     "fix": "Attach each interval: 'about 73 in 100 (95% confidence interval 58 to 85) before steroids and about 53 in 100 (38 to 68) after'."
+    },
+    {
+     "item": "5",
+     "quote": "Points 2 to 4 are our reading of the studies above, not guideline wording.",
+     "fix": "End the post on the last numbered action: '4. In an older person with unexplained illness and unusual features, check inflammatory markers early.' and put the label above the list."
+    },
+    {
+     "item": "6",
+     "quote": "A systematic review of case reports of 746 people with biopsy-proven disease and at least one unusual feature (median age 72) found that people who had only unusual features had longer delays before treatment started.",
+     "fix": "Split: 'A systematic review of case reports covered 746 people with biopsy-proven disease and at least one unusual feature (median age 72). People who had only unusual features waited longer for treatment to start.'"
+    }
+   ],
+   "flags": [
+    "Figurative: 'One trap is the vague or unusual story.'",
+    "Negation-then-correction: 'Case reports show that such presentations exist ..., not how common they are'; 'not guideline wording'.",
+    "Long post for a single practical point."
+   ]
+  },
+  {
+   "tmp_id": "C14-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Does not say outright not to wait for the scan; implied by 'start immediately'."
+   ]
+  },
+  {
+   "tmp_id": "C14-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Temporal artery ultrasound picked up giant cell arteritis in about 73 in 100 people who had it before steroids, and in about 53 in 100 after 10 days of steroids, in a small Danish study of 48 people.",
+     "fix": "Split: 'In a small Danish study of 48 people, temporal artery ultrasound picked up giant cell arteritis in about 73 in 100 people who had it before steroids. After 10 days of steroids it picked up about 53 in 100.'"
+    }
+   ],
+   "flags": [
+    "Negation shape: 'We should not hold treatment for a scan slot.'"
+   ]
+  }
+ ]
+}

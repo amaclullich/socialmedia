@@ -1,0 +1,1437 @@
+{
+ "category": "C07",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 1
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C07-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "UK heart rhythm guidance (2024) says people with an ICD should have the chance to talk about switching off the shocks towards the end of life.",
+     "fix": "UK heart rhythm guidance (2024) says people with an ICD should have the chance to talk about switching off the shocks. The talk is meant for the end of life."
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'It does not cause death by itself. It means a dangerous rhythm near the end of life will not be shocked.'",
+    "Negation-then-correction: 'A do-not-resuscitate decision does not switch the shocks off. That needs a separate step'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "it has levelled off since 2015",
+     "fix": "the share has stopped rising since 2015"
+    },
+    {
+     "item": "6",
+     "quote": "The 42 in 100 is an average across 2006 to 2022. The share was 7 in 100 in 2006 and 59 in 100 in 2022, and it has levelled off since 2015.",
+     "fix": "The 42 in 100 is an average across 2006 to 2022. The share was 7 in 100 in 2006 and 59 in 100 in 2022. It has stopped rising since 2015."
+    }
+   ],
+   "flags": [
+    "Figurative verb: 'levelled off'",
+    "Dutch paragraph packs five numbers into five sentences; heavy for a phone read",
+    "Negation-then-correction in the list: 'It does not cause death by itself. It means...'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "pacing keeps working",
+     "fix": "the part of the device that stops the heart going too slowly keeps working"
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'A do-not-resuscitate decision does not do this by itself.'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "pacing keeps working",
+     "fix": "the part of the device that stops the heart going too slowly keeps working"
+    }
+   ],
+   "flags": [
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "the same deteriorating patient",
+     "fix": "the same patient who was getting worse"
+    }
+   ],
+   "flags": [
+    "Figurative: 'sat inside a wider treatment plan'",
+    "Negation-then-correction: 'This tested intentions, not real care.'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A UK randomised scenario study tested this.",
+     "fix": "A UK study tested this. Nurses were randomly given different forms and said what care they would plan for the same patient."
+    },
+    {
+     "item": "6",
+     "quote": "This was a before-and-after study in one hospital, run by the people who developed the plan, so it shows an association, not proof.",
+     "fix": "This was a before-and-after study in one hospital. The people who developed the plan ran it. It shows the two went together, not that the plan caused the change."
+    }
+   ],
+   "flags": [
+    "Possibly patronising or emotive: 'A decision about one treatment says nothing about a person's worth.'",
+    "Figurative: 'set the CPR decision inside a wider treatment plan'",
+    "Negation-then-correction: 'an association, not proof'; 'measured what nurses said they would do, not real care'",
+    "Long (about 1,900 characters)",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In a UK scenario study, nurses given a DNACPR form planned fewer checks and treatments.",
+     "fix": "In a UK study where nurses planned care for a patient in a written case, those given a DNACPR form planned fewer checks and treatments."
+    }
+   ],
+   "flags": [
+    "Does not say this measured planned care, not real care, so a hurried reader may take it as real-world harm"
+   ]
+  },
+  {
+   "tmp_id": "C07-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In a UK scenario study",
+     "fix": "In a UK study where nurses planned care for a patient in a written case"
+    }
+   ],
+   "flags": [
+    "Figurative: 'sat inside a whole treatment plan'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Almost 10 years of follow-up showed the same.",
+     "fix": "Following people for almost 10 years showed the same."
+    },
+    {
+     "item": "4",
+     "quote": "serious bleeding happened to about 4 in 100 people on aspirin and 3 in 100 on dummy tablets.",
+     "fix": "serious bleeding was more common on aspirin: about 4 in 100 people on aspirin and 3 in 100 on dummy tablets."
+    }
+   ],
+   "flags": [
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post.",
+    "'Almost 10 years' and 'about 5 years' appear in the same post with no link between them"
+   ]
+  },
+  {
+   "tmp_id": "C07-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "which would dilute any effect",
+     "fix": "which would make any effect harder to see"
+    },
+    {
+     "item": "4",
+     "quote": "Over about 5 years, serious bleeding happened to about 4 in 100 people on aspirin and about 3 in 100 on the dummy tablet.",
+     "fix": "Serious bleeding was more common on aspirin. Over about 5 years it happened to about 4 in 100 people on aspirin and about 3 in 100 on the dummy tablet."
+    },
+    {
+     "item": "6",
+     "quote": "We should expect trials of preventive treatment in older people to report an outcome built on washing, dressing and walking alongside disease events.",
+     "fix": "Trials of preventive treatment in older people should report whether people stay able to wash, dress and walk, as well as counting heart attacks and strokes."
+    }
+   ],
+   "flags": [
+    "Figurative: 'dilute any effect', 'built on'",
+    "'The trial stopped early' sits near 'almost 10 years of follow-up' and may read as a contradiction",
+    "'follow-up' and 'heart failure admissions' are jargon for a lay reader",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Aspirin did not improve it, and serious bleeding was more common.",
+     "fix": "Aspirin did not improve that result, and serious bleeding was more common."
+    }
+   ],
+   "flags": [
+    "Setup question answered by the post: 'Had a heart attack or stroke?'",
+    "Negation-then-correction shape: 'did not improve it'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "Serious bleeding over about 5 years: about 4 in 100 on aspirin, 3 in 100 on dummy tablets.",
+     "fix": "Serious bleeding was more common on aspirin over about 5 years: about 4 in 100 against 3 in 100 on dummy tablets."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C07-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "had no significant disability 3 to 6 months later",
+     "fix": "were left with little or no disability 3 to 6 months later"
+    },
+    {
+     "item": "2",
+     "quote": "In a combined analysis of 9 trials",
+     "fix": "When the results of 9 trials were pooled"
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'not on age alone'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "The relative benefit was similar to that in younger people.",
+     "fix": "Treated people over 80 gained about as much, in proportion, as younger people."
+    },
+    {
+     "item": "6",
+     "quote": "IST-3's own main outcome did not show a clear difference on its own.",
+     "fix": "On its own, IST-3 did not show a clear difference in its main result."
+    }
+   ],
+   "flags": [
+    "Figurative: 'Time changes the balance.' (fix: 'The sooner treatment starts, the more it helps.')",
+    "'The harm is as real as the benefit' may imply equal size",
+    "'All nine members of the guideline group agreed' is odd detail for a lay reader",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Eligibility depends on time since onset",
+     "fix": "Whether treatment is possible depends on how long ago the stroke started"
+    },
+    {
+     "item": "3",
+     "quote": "had no significant disability later",
+     "fix": "had little or no disability 3 to 6 months later"
+    },
+    {
+     "item": "4",
+     "quote": "Bleeding risk is real.",
+     "fix": "Fatal brain bleeds were more common with treatment: about 3 in 100 treated people against fewer than 1 in 100 untreated."
+    }
+   ],
+   "flags": [
+    "Empty emphasis: 'Bleeding risk is real.' with no size"
+   ]
+  },
+  {
+   "tmp_id": "C07-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In a combined analysis of 9 trials",
+     "fix": "When the results of 9 trials were pooled"
+    },
+    {
+     "item": "3",
+     "quote": "about 3 in 100 treated people (all ages) had a fatal brain bleed",
+     "fix": "about 3 in 100 treated people (all ages) had a fatal brain bleed within a week, against fewer than 1 in 100 untreated"
+    }
+   ],
+   "flags": [
+    "Empty emphasis: 'The risk is real'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "fewer people fell (12 against 21 in 100)",
+     "fix": "fewer people fell over the 3 months (12 in 100 against 21 in 100)"
+    },
+    {
+     "item": "6",
+     "quote": "A US trial involved 718 people aged 70 and over with cancer that could not be cured, who were starting a new treatment with a high risk of side effects and had at least one problem found on the assessment.",
+     "fix": "A US trial included 718 people aged 70 and over. They had cancer that could not be cured and were starting a new treatment with a high risk of side effects. Each had at least one problem found on the assessment."
+    }
+   ],
+   "flags": [
+    "Vague: 'UK specialists report that few patients can get it'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about 72 in 100 against 75 in 100 were alive at 6 months",
+     "fix": "about 72 in 100 people whose team had the assessment were alive at 6 months, against 75 in 100 whose team did not"
+    },
+    {
+     "item": "6",
+     "quote": "They had cancer that could not be cured, were starting a new treatment with a high risk of side effects, and had at least one problem found on the assessment.",
+     "fix": "They had cancer that could not be cured. They were starting a new treatment with a high risk of side effects. Each had at least one problem found on the assessment."
+    }
+   ],
+   "flags": [
+    "Long (about 2,000 characters); the second trial dilutes the main point",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "serious side effects were 51 in 100 when the team had a geriatric assessment",
+     "fix": "over 3 months, serious side effects happened to 51 in 100 when the team had a geriatric assessment"
+    },
+    {
+     "item": "6",
+     "quote": "US trial, 718 people aged 70+ starting cancer treatment: serious side effects were 51 in 100 when the team had a geriatric assessment (function, falls, memory, medicines, support), 71 in 100 with usual care.",
+     "fix": "A US trial followed 718 people aged 70+ starting cancer treatment. Over 3 months, serious side effects happened to 51 in 100 when the team had a geriatric assessment (function, falls, memory, medicines, support), and 71 in 100 with usual care."
+    }
+   ],
+   "flags": [
+    "Telegraphic opening 'US trial,'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a US trial of 718 people aged 70 and over starting cancer treatment, some cancer teams got a geriatric assessment: daily function, falls, memory, mood, nutrition, medicines and support at home.",
+     "fix": "A US trial included 718 people aged 70 and over starting cancer treatment. Some cancer teams got a geriatric assessment of each person: daily function, falls, memory, mood, nutrition, medicines and support at home."
+    }
+   ],
+   "flags": [
+    "'without' in '71 in 100 without' should say 'without the assessment'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P06",
+   "platform": "x",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "people whose tumours had no KRAS mutation (a gene change in the tumour), a group picked out after the trial and the one the drug helps most,",
+     "fix": "Cut the subgroup from this post, or give it its own two short sentences after the main point"
+    },
+    {
+     "item": "2",
+     "quote": "a median of 41 against 10",
+     "fix": "the middle person had 41 contact days on the drug, against 10"
+    },
+    {
+     "item": "3",
+     "quote": "more days at home (186 against 132)",
+     "fix": "more days at home (186 days against 132 days); add the period these days were counted over"
+    },
+    {
+     "item": "6",
+     "quote": "In one trial of a drug for advanced bowel cancer (median age 63), people whose tumours had no KRAS mutation (a gene change in the tumour), a group picked out after the trial and the one the drug helps most, had more contact days on the drug (a median of 41 against 10) and more days at home (186 against 132).",
+     "fix": "One trial tested a drug for advanced bowel cancer. People whose tumours had no KRAS mutation (a gene change in the tumour) had more contact days on the drug: the middle person had 41, against 10. They also had more days at home: 186 against 132. This group was picked out after the trial and is the one the drug helps most."
+    }
+   ],
+   "flags": [
+    "Figurative: 'give back'; 'Days taken are one side of the decision'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a median of 28 contact days, against 10",
+     "fix": "the middle person had 28 contact days, against 10"
+    },
+    {
+     "item": "3",
+     "quote": "It also gave more days at home (186 against 132).",
+     "fix": "It also gave more days at home (186 days against 132 days); add the period these days were counted over"
+    },
+    {
+     "item": "6",
+     "quote": "Among people whose tumours had no KRAS mutation (a gene change in the tumour), the group the drug helps most and one picked out after the trial, treatment took more days (a median of 41 against 10).",
+     "fix": "Among people whose tumours had no KRAS mutation (a gene change in the tumour), treatment took more days: the middle person had 41, against 10. This group is the one the drug helps most, and it was picked out after the trial."
+    },
+    {
+     "item": "7",
+     "quote": "a median of 48 contact days in the year after joining. The typical person spent nearly 1 day in every 5 this way.",
+     "fix": "Give one figure only: 'The typical person spent nearly 1 day in every 5 of the time they were followed this way.' (48 days in a year is about 1 in 8, so the two figures look inconsistent as written)"
+    }
+   ],
+   "flags": [
+    "Figurative: 'Days taken are one side of the decision. Days given back are the other.'",
+    "Vague: 'The cost of a treatment day is often shared.'",
+    "'supportive care alone' and 'cetuximab' unexplained",
+    "Long (about 2,200 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C07-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "in the year after joining",
+     "fix": "in the year after joining the trial"
+    }
+   ],
+   "flags": [
+    "Figurative: 'what it may give back'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "people with no KRAS mutation (a group picked out after the trial)",
+     "fix": "people whose tumours had no KRAS mutation (a gene change in the tumour; a group picked out after the trial)"
+    },
+    {
+     "item": "3",
+     "quote": "days at home did not differ clearly overall, but were higher in people with no KRAS mutation",
+     "fix": "days at home did not differ clearly overall between people on the drug and people on supportive care, but were higher on the drug in people with no KRAS mutation"
+    },
+    {
+     "item": "6",
+     "quote": "In one trial, days at home did not differ clearly overall, but were higher in people with no KRAS mutation (a group picked out after the trial).",
+     "fix": "In one trial of a drug for advanced bowel cancer, days at home did not differ clearly overall. They were higher in people with no KRAS mutation. That group was picked out after the trial."
+    }
+   ],
+   "flags": [
+    "Figurative: 'give back'; 'picked out'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "STAREE (NEJM, August 2026; 9971 Australians aged 70+, no heart disease, diabetes or dementia): a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability.",
+     "fix": "STAREE (NEJM, August 2026) studied 9971 Australians aged 70+ with no heart disease, diabetes or dementia. Over 6 years a statin cut major cardiovascular events from about 8 to 6 in 100, but did not clearly change staying alive without dementia or disability."
+    }
+   ],
+   "flags": [
+    "Figurative: 'opens the conversation'",
+    "No size given for muscle, liver and diabetes harm"
+   ]
+  },
+  {
+   "tmp_id": "C07-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about 13 against 14 in 100 lost it",
+     "fix": "about 13 in 100 on the statin against 14 in 100 on the dummy tablet lost it"
+    },
+    {
+     "item": "3",
+     "quote": "it took about 2.5 years of treating 100 people to prevent one event",
+     "fix": "treating 100 people for about 2.5 years prevented one event"
+    },
+    {
+     "item": "6",
+     "quote": "In a 2017 analysis using QRISK2, the version in use when the 10% threshold was set, a never-smoker of healthy weight with a systolic of 110 and a good cholesterol ratio went above 10%.",
+     "fix": "A 2017 analysis used QRISK2, the version in use when the 10% threshold was set. A never-smoker of healthy weight with a systolic of 110 and a good cholesterol ratio went above 10%."
+    }
+   ],
+   "flags": [
+    "Figurative: 'opens the statin conversation'",
+    "Long (about 2,000 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C07-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "More muscle, liver and diabetes problems.",
+     "fix": "More muscle, liver and diabetes-related problems on the statin."
+    }
+   ],
+   "flags": [
+    "Figurative: 'The score starts the talk.'",
+    "Figurative: 'put people above the ... line'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "After 75, the score opens the conversation: goals, time to benefit, frailty, preference.",
+     "fix": "After 75, treat a score above 10% as a reason to discuss the person's goals, time to benefit, frailty and preference."
+    },
+    {
+     "item": "6",
+     "quote": "STAREE (2026), 9971 Australians aged 70+: a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability.",
+     "fix": "STAREE (2026) studied 9971 Australians aged 70+. Over 6 years a statin cut major cardiovascular events from about 8 to 6 in 100, but did not clearly change staying alive without dementia or disability."
+    }
+   ],
+   "flags": [
+    "Figurative: 'opens the conversation'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "SPRINT, the trial behind US and European targets, showed benefit in its 2636 participants aged 75 and over: aiming below 120 systolic rather than 140 (average reached 123 against 135) meant fewer cardiovascular events (about 2.6 vs 3.9 in 100 a year), with serious adverse events similar (about 48 in 100 in each group), though kidney function fell more often on the lower target in people whose kidneys were working normally at the start.",
+     "fix": "SPRINT, the trial behind US and European targets, included 2636 participants aged 75 and over. They were aiming below 120 systolic rather than 140 (average reached 123 against 135). Cardiovascular events were fewer on the lower target (about 2.6 vs 3.9 in 100 a year). Serious adverse events were similar (about 48 in 100 in each group). Kidney function fell more often on the lower target in people whose kidneys were working normally at the start."
+    }
+   ],
+   "flags": [
+    "Ambiguous first line: 'should guide ... as well as any target'",
+    "'extrapolation that needs judgement' is a soft close"
+   ]
+  },
+  {
+   "tmp_id": "C07-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about 2.6 vs 3.9 in 100 each year",
+     "fix": "about 2.6 in 100 each year on the lower target against 3.9 in 100 on the higher"
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'that study does not show the tablets caused the falls'",
+    "Very long (about 2,300 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C07-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "SPRINT, the trial behind US and European blood pressure targets, helped over-75s well enough to join.",
+     "fix": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events with a lower target in over-75s well enough to join."
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'not a target alone'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "found fewer cardiovascular events in over-75s well enough to join",
+     "fix": "found fewer cardiovascular events with a lower blood pressure target in over-75s well enough to join"
+    },
+    {
+     "item": "3",
+     "quote": "(about 2.6 vs 3.9 in 100 a year)",
+     "fix": "(about 2.6 in 100 a year on the lower target against 3.9 in 100 on the higher)"
+    }
+   ],
+   "flags": [
+    "Figurative: 'UK guidance points to the standing reading'",
+    "Jargon: 'Treat to standing pressure'",
+    "The kidney finding from the trial is left out",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P09",
+   "platform": "x",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "total": 7,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Yet a study of leaflets from four UK kidney units found dialysis presented as the expected choice.",
+     "fix": "Lead with one point. Put the choice NICE says to offer first, then the veterans study; move the leaflet study to its own post"
+    },
+    {
+     "item": "2",
+     "quote": "An observational study, designed to imitate a trial,",
+     "fix": "A study that compared what happened to people in real life, set up to copy a trial as closely as it could,"
+    },
+    {
+     "item": "3",
+     "quote": "about 2 weeks fewer days at home",
+     "fix": "about 2 weeks fewer days at home; state the period these days were counted over"
+    },
+    {
+     "item": "6",
+     "quote": "An observational study, designed to imitate a trial, followed about 20,000 US veterans aged 65 and over, nearly all men. Compared with carrying on with usual medical care, starting dialysis as soon as kidney function fell very low was linked with little clear difference in survival over 3 years and about 2 weeks fewer days at home.",
+     "fix": "Split into: 'The study followed about 20,000 US veterans aged 65 and over, nearly all men.' / 'Against carrying on with usual medical care, early dialysis was linked with little clear difference in survival over 3 years.' / 'It was also linked with about 2 weeks fewer days at home.'"
+    },
+    {
+     "item": "7",
+     "quote": "little clear difference in survival over 3 years and about 2 weeks fewer days at home. Compared with never having dialysis, it was linked with about 11 weeks longer survival",
+     "fix": "Both comparisons are against different groups. Against people who carried on with usual care, survival was about the same. Against people who never had dialysis, survival was about 11 weeks longer."
+    }
+   ],
+   "flags": [
+    "'NICE' not expanded",
+    "Dense for a phone read (about 1,100 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C07-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   },
+   "total": 5,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "The choice is not always presented evenly.",
+     "fix": "Choose one lead point (what NICE says to offer) and cut the series of caveats to the ones that change the decision"
+    },
+    {
+     "item": "2",
+     "quote": "An observational study, designed to imitate a trial,",
+     "fix": "A study that compared what happened to people in real life, set up to copy a trial as closely as it could,"
+    },
+    {
+     "item": "3",
+     "quote": "about 2 weeks fewer days at home",
+     "fix": "about 2 weeks fewer days at home; state the period these days were counted over"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Weighing it up series take one treatment decision at a time.",
+     "fix": "End on the questions instead: 'What would each option mean for time at home, travel, hospital visits and symptoms? What would conservative care involve here?'"
+    },
+    {
+     "item": "6",
+     "quote": "Compared with carrying on with usual medical care, starting dialysis as soon as kidney function fell very low was linked with little clear difference in survival over 3 years (about 9 days longer on average, from 17 days shorter to 30 days longer) and about 2 weeks fewer days at home, rather than in hospital or a care home.",
+     "fix": "Split into three sentences: comparison, survival result, days-at-home result"
+    },
+    {
+     "item": "7",
+     "quote": "little clear difference in survival over 3 years (about 9 days longer on average, from 17 days shorter to 30 days longer) ... Compared with never having dialysis, it was linked with about 11 weeks longer survival",
+     "fix": "Against people who carried on with usual care, survival was about the same. Against people who never had dialysis, survival was about 11 weeks longer."
+    }
+   ],
+   "flags": [
+    "Empty close: series plug as the last sentence",
+    "Vague and slightly reassuring: 'Studies disagree on who gains most from dialysis. The choice depends on the person as much as on the numbers.'",
+    "Very long (about 2,300 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C07-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In an observational study of older US veterans",
+     "fix": "In a US study of older veterans that compared what happened to people in real life"
+    },
+    {
+     "item": "3",
+     "quote": "2 weeks fewer days at home",
+     "fix": "2 weeks fewer days at home; state the period these days were counted over"
+    },
+    {
+     "item": "6",
+     "quote": "In an observational study of older US veterans, early dialysis was linked with little clear difference in survival and 2 weeks fewer days at home, against usual medical care.",
+     "fix": "In a US study of older veterans, early dialysis was linked with little clear difference in survival, against usual medical care. It was also linked with 2 weeks fewer days at home."
+    }
+   ],
+   "flags": [
+    "'NICE (England)' not expanded"
+   ]
+  },
+  {
+   "tmp_id": "C07-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In an observational study of 20,000 older US veterans",
+     "fix": "In a study of 20,000 older US veterans that compared what happened to people in real life"
+    },
+    {
+     "item": "3",
+     "quote": "and with 2 weeks fewer days at home",
+     "fix": "and with 2 weeks fewer days at home; state the period these days were counted over"
+    },
+    {
+     "item": "6",
+     "quote": "In an observational study of 20,000 older US veterans, starting dialysis early was linked with little clear difference in survival over 3 years, against usual medical care, and with 2 weeks fewer days at home.",
+     "fix": "In a study of 20,000 older US veterans, starting dialysis early was linked with little clear difference in survival over 3 years, against usual medical care. It was also linked with 2 weeks fewer days at home."
+    }
+   ],
+   "flags": [
+    "'NICE (England)' not expanded",
+    "Figurative-ish: 'presented dialysis as the expected choice'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "were asked about hypothetical treatments, where the alternative was dying of their illness",
+     "fix": "were asked to imagine a treatment, when the alternative was dying of their illness"
+    }
+   ],
+   "flags": [
+    "Setup question opening, answered later by the post and the advice to ask it",
+    "Opinion offered as fact: 'It is fair to argue that...'",
+    "Generalisation: 'Many seriously ill older people weigh independence heavily.'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Since the 2015 Montgomery ruling",
+     "fix": "Since a 2015 court ruling known as Montgomery"
+    }
+   ],
+   "flags": [
+    "Setup question opening",
+    "Opinion offered as fact: 'It is fair to argue that...'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Household tasks took about 6.",
+     "fix": "Household tasks took about 6 months."
+    }
+   ],
+   "flags": [
+    "'on average' missing on the 3 month figure"
+   ]
+  },
+  {
+   "tmp_id": "C07-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "and household tasks about 6",
+     "fix": "and household tasks about 6 months"
+    }
+   ],
+   "flags": [
+    "Setup question opening",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Vague opening claim: 'How the reason was put made a difference to them.'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Screening programmes and ages differ in the UK.",
+     "fix": "Move the caveat before the action and end with: 'We should explain stopping screening in terms of benefit, harm and the person's other health priorities, and offer to talk about prognosis for those who want it.'"
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'does not mean hiding prognosis'; 'not observed behaviour'",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Telegraphic close: 'Explain benefit and priorities; offer prognosis.'"
+   ]
+  },
+  {
+   "tmp_id": "C07-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P12",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Figurative: 'sets out the core'; 'gives it a fair chance'",
+    "Does not say the ICU study was not specific to older people (mean age 64)",
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  },
+  {
+   "tmp_id": "C07-P12",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "fewer people were ventilated (86 against 73 in 100)",
+     "fix": "fewer people were ventilated (86 in 100 before the training, 73 in 100 after)"
+    }
+   ],
+   "flags": [
+    "Figurative: 'a middle path'",
+    "Negation-then-correction: 'That is the rationale, not a measured result.'",
+    "Setup then answer: 'What separates it from \"let's see how it goes\":'",
+    "Long (about 2,000 characters)"
+   ]
+  },
+  {
+   "tmp_id": "C07-P12",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A time-limited trial, as defined for intensive care: give a treatment for an agreed time, with named signs that it is working, a review date, and a plan to continue, stop and focus on comfort, or extend.",
+     "fix": "A time-limited trial, as defined for intensive care, means giving a treatment for an agreed time. It has named signs that it is working, a review date, and a plan to continue, to stop and focus on comfort, or to extend."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C07-P12",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Hospital deaths did not change.",
+     "fix": "Hospital deaths did not change. Write down the signs, the date and the plan for either result."
+    },
+    {
+     "item": "6",
+     "quote": "In intensive care, consensus is to agree with the person or family on the treatment, how long, signs it is working and the review plan (carry on, focus on comfort or extend).",
+     "fix": "In intensive care, the expert consensus is to agree four things with the person or family: the treatment, how long it will run, the signs that it is working, and what happens at the review (carry on, focus on comfort, or extend)."
+    }
+   ],
+   "flags": [
+    "Opening is repeated across the X, LinkedIn and Threads versions of the same post."
+   ]
+  }
+ ]
+}

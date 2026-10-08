@@ -1,0 +1,921 @@
+{
+ "category": "C18",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 0
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C18-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opening 'The detail supports a narrower reading' is vague until the next paragraph.",
+    "'That does not show caring protects health' is a negation without a stated alternative.",
+    "Opening 'A 1999 study' repeats across all four platforms and echoes P05 openings."
+   ]
+  },
+  {
+   "tmp_id": "C18-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Long for a phone read, but each paragraph carries one idea.",
+    "Negation shape: 'This does not show that caring protects health.'"
+   ]
+  },
+  {
+   "tmp_id": "C18-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "found a higher 4-year death rate only in spouse carers who reported strain",
+     "fix": "found a higher 4-year death rate than in non-carers, only among spouse carers who reported strain"
+    }
+   ],
+   "flags": [
+    "'the result was borderline' is unexplained but acceptable for clinicians."
+   ]
+  },
+  {
+   "tmp_id": "C18-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Healthier people may take on caring, so that does not show caring protects health' is a negated inference; acceptable but terse."
+   ]
+  },
+  {
+   "tmp_id": "C18-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A Cochrane review",
+     "fix": "A review of trials by the Cochrane group"
+    },
+    {
+     "item": "2",
+     "quote": "no significant effect of respite compared with no respite on any carer outcome",
+     "fix": "no clear difference in any measure for carers between those who had respite and those who did not"
+    },
+    {
+     "item": "6",
+     "quote": "The trials were too different to combine, and the review found no significant effect of respite compared with no respite on any carer outcome.",
+     "fix": "The trials were too different to combine. The review found no clear difference between respite and no respite on any measure for carers."
+    }
+   ],
+   "flags": [
+    "'We should not withhold breaks because the trials are weak' follows a no-effect finding and could read as a leap or as reassurance; the close ('ask two questions') is not an evidence-based step and is not labelled as judgement.",
+    "Opening repeats 'A Cochrane review found only four trials' across x, linkedin, bluesky, threads."
+   ]
+  },
+  {
+   "tmp_id": "C18-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A 2019 concept analysis of qualitative research describes respite as both a service and a state of mind.",
+     "fix": "A 2019 review of research based on carers' own accounts describes respite as both a service and a feeling of being rested."
+    },
+    {
+     "item": "2",
+     "quote": "had a risk of bias concern",
+     "fix": "had a flaw that could make the results unreliable"
+    },
+    {
+     "item": "6",
+     "quote": "A 2026 systematic review of eight studies of respite programmes for carers of people with disability or dementia (three randomised trials and five other designs) found that they may be linked with better outcomes for carers.",
+     "fix": "A 2026 review looked at eight studies of respite programmes for carers of people with disability or dementia. Three were randomised trials and five used other designs. It found that respite may be linked with better outcomes for carers."
+    },
+    {
+     "item": "6",
+     "quote": "Few poor trials are a gap in the evidence, and they do not show that breaks fail.",
+     "fix": "Having only a few weak trials is a gap in the evidence. It does not show that breaks fail."
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'Few poor trials are a gap in the evidence, and they do not show that breaks fail.'",
+    "'a state of mind' is figurative.",
+    "Very long for a phone; four sources are stacked before the action."
+   ]
+  },
+  {
+   "tmp_id": "C18-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A Cochrane review",
+     "fix": "A review of trials by the Cochrane group"
+    }
+   ],
+   "flags": [
+    "'ask: did you rest' leaves unclear who is asking whom."
+   ]
+  },
+  {
+   "tmp_id": "C18-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A Cochrane review found only four trials",
+     "fix": "A review of trials by the Cochrane group found only four trials"
+    }
+   ],
+   "flags": [
+    "'A break seems to feel like a rest when you believe the person is benefiting too' has no stated source, so it reads as a finding.",
+    "Person switches to 'did I rest', unlike the 'did you' in the other variants."
+   ]
+  },
+  {
+   "tmp_id": "C18-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a model estimated the difference in median time at about 18 months",
+     "fix": "a statistical estimate put the typical delay at about 18 months"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the What gets counted series ask what services measure and what people value.",
+     "fix": "Delete this line and end on: 'We should judge carer support first by the carer's own health and quality of life.'"
+    },
+    {
+     "item": "6",
+     "quote": "A separate US trial of 406 spouse carers of people with Alzheimer disease linked counselling and support with a later nursing home move for the person with the disease: a model estimated the difference in median time at about 18 months.",
+     "fix": "A separate US trial included 406 spouse carers of people with Alzheimer disease. Counselling and support was linked with a later nursing home move for the person with the disease. A statistical estimate put the typical delay at about 18 months."
+    },
+    {
+     "item": "6",
+     "quote": "In a UK trial, 260 family carers of people with dementia were chosen by chance to have an eight-session coping programme (START) or usual care.",
+     "fix": "In a UK trial, 260 family carers of people with dementia were chosen by chance. Some had an eight-session coping programme (START) and some had usual care."
+    }
+   ],
+   "flags": [
+    "Setup question opening answered by the post ('Should carer support be judged by...?'), and P08 does the same.",
+    "Empty promotional close (series plug).",
+    "'We should judge carer support first by...' is an opinion not labelled as judgement in this variant (LinkedIn labels it)."
+   ]
+  },
+  {
+   "tmp_id": "C18-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "an adjusted average difference of 2 points on a 42-point scale",
+     "fix": "on average 2 points lower on a 42-point symptom score"
+    },
+    {
+     "item": "2",
+     "quote": "Care home admission was a secondary outcome.",
+     "fix": "Care home admission was not the main thing the trial set out to measure."
+    },
+    {
+     "item": "3",
+     "quote": "an adjusted average difference of 2 points on a 42-point scale, which is modest",
+     "fix": "on average 2 points lower on a 42-point symptom scale, a modest difference"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the What gets counted series ask what services measure and what people value.",
+     "fix": "Delete this line and end on the paragraph that begins 'Our judgement, not a finding'."
+    },
+    {
+     "item": "6",
+     "quote": "The trial did not show a clear difference in how soon the person with dementia moved into a care home, and the range of results was wide, so that is not evidence of no effect.",
+     "fix": "The trial did not show a clear difference in how soon the person with dementia moved into a care home. The range of results was wide. That is not evidence of no effect."
+    }
+   ],
+   "flags": [
+    "Setup question opening answered by the post.",
+    "Empty series-plug close.",
+    "Negation shapes: 'a later care home move is not automatically a better outcome, and an earlier one is not automatically a failure'; 'that is not evidence of no effect'."
+   ]
+  },
+  {
+   "tmp_id": "C18-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "left them less anxious and depressed over six years of follow-up, a modest average difference",
+     "fix": "left them less anxious and depressed than carers given usual care, over six years of follow-up (a modest average difference)"
+    }
+   ],
+   "flags": [
+    "Opinion in the close not labelled as judgement."
+   ]
+  },
+  {
+   "tmp_id": "C18-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "left carers less anxious and depressed over six years of follow-up (a modest average difference)",
+     "fix": "left carers less anxious and depressed than carers given usual care over six years of follow-up (a modest average difference)"
+    },
+    {
+     "item": "6",
+     "quote": "In a UK trial of 260 family carers of people with dementia, an eight-session coping programme left carers less anxious and depressed over six years of follow-up (a modest average difference).",
+     "fix": "In a UK trial of 260 family carers of people with dementia, an eight-session coping programme left carers less anxious and depressed. This was over six years of follow-up, and the average difference was modest."
+    }
+   ],
+   "flags": [
+    "Setup question opening answered by the post."
+   ]
+  },
+  {
+   "tmp_id": "C18-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Check for false reassurance: 'depressive symptoms fell within three months' could be read as grief resolving; the limits sentence and 'understandable' mitigate it.",
+    "Opening number '72 in 100' repeats across all four variants."
+   ]
+  },
+  {
+   "tmp_id": "C18-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "fell to a clinically significant degree",
+     "fix": "fell by an amount large enough to matter in practice"
+    },
+    {
+     "item": "6",
+     "quote": "On average, carers' depressive symptoms (low mood and loss of interest in things) fell to a clinically significant degree within three months of the death.",
+     "fix": "On average, within three months of the death, carers had less low mood and loss of interest in things (depressive symptoms), by an amount large enough to matter in practice."
+    }
+   ],
+   "flags": [
+    "Negation shapes in 'you do not have to wait for a death to ask for help'; acceptable and kind."
+   ]
+  },
+  {
+   "tmp_id": "C18-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "Depressive symptoms fell on average within 3 months",
+     "fix": "Low mood and loss of interest fell on average within 3 months"
+    },
+    {
+     "item": "6",
+     "quote": "In a US study of 217 family carers of people with dementia, 72 in 100 said the death was a relief to them, after long, demanding care.",
+     "fix": "In a US study of 217 family carers of people with dementia, 72 in 100 said the person's death was a relief. This followed long, demanding care."
+    }
+   ],
+   "flags": [
+    "'the death' is ambiguous out of context; 'the person's death' is clearer.",
+    "No limits or grief context in this short form, so the relief figure plus 'symptoms fell' could read as flat or falsely reassuring."
+   ]
+  },
+  {
+   "tmp_id": "C18-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "their depressive symptoms fell within three months",
+     "fix": "their low mood and loss of interest fell within three months"
+    }
+   ],
+   "flags": [
+    "No study limits stated in this variant (US trial, self-report)."
+   ]
+  },
+  {
+   "tmp_id": "C18-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about a quarter fewer readmissions over the next 3 to 6 months (a relative reduction)",
+     "fix": "about a quarter fewer readmissions over the next 3 to 6 months than in comparison groups (a relative reduction; no baseline rate is given)"
+    },
+    {
+     "item": "6",
+     "quote": "A review of 15 randomised study reports (13 distinct trial populations) in older adults discharged to the community found that discharge plans that brought family carers in were linked with about a quarter fewer readmissions over the next 3 to 6 months (a relative reduction).",
+     "fix": "A review pooled 15 randomised study reports (13 distinct trial populations) in older adults discharged to the community. Discharge plans that included family carers were linked with about a quarter fewer readmissions over the next 3 to 6 months (a relative reduction)."
+    }
+   ],
+   "flags": [
+    "Opening 'A family member who will give the care after discharge needs a handover of their own' is identical across all four platforms.",
+    "'brought family carers in' is mildly figurative.",
+    "The third paragraph (13 of 15, 9 gave, 7 used, 5 used) is a block of counts with no stated purpose before the close."
+   ]
+  },
+  {
+   "tmp_id": "C18-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Items 1 and 5 are good practice we suggest, not components shown to work.",
+     "fix": "Place this caveat before the list so the post ends on step 5, 'Say who to call with questions'."
+    },
+    {
+     "item": "6",
+     "quote": "Plans that integrated family carers were linked with about a quarter fewer readmissions: 25% fewer at 90 days (relative risk 0.75, 95% confidence interval 0.62 to 0.91, from 6 studies) and 24% fewer at 180 days (relative risk 0.76, 95% confidence interval 0.64 to 0.90, from 5 studies).",
+     "fix": "Plans that integrated family carers were linked with about a quarter fewer readmissions. At 90 days the reduction was 25% (relative risk 0.75, 95% confidence interval 0.62 to 0.91, from 6 studies). At 180 days it was 24% (relative risk 0.76, 95% confidence interval 0.64 to 0.90, from 5 studies)."
+    }
+   ],
+   "flags": [
+    "Identical opening across platforms.",
+    "Numbered list mixes tested components with the author's own suggestions, so a skimmer may take all five as evidence-based."
+   ]
+  },
+  {
+   "tmp_id": "C18-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "(relative; multi-part programmes)",
+     "fix": "(a relative reduction; the programmes had several parts)"
+    },
+    {
+     "item": "3",
+     "quote": "about a quarter fewer readmissions over 3 to 6 months",
+     "fix": "about a quarter fewer readmissions than in comparison groups over 3 to 6 months"
+    }
+   ],
+   "flags": [
+    "'Trials of discharge plans ... were linked with' is odd: the plans, not the trials, were linked with fewer readmissions.",
+    "Identical opening."
+   ]
+  },
+  {
+   "tmp_id": "C18-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "about a quarter fewer readmissions over 3 to 6 months (a relative reduction)",
+     "fix": "about a quarter fewer readmissions over 3 to 6 months than in comparison groups (a relative reduction)"
+    },
+    {
+     "item": "6",
+     "quote": "A review of 15 randomised study reports (13 distinct trial populations) found that discharge plans that brought family carers in were linked with about a quarter fewer readmissions over 3 to 6 months (a relative reduction).",
+     "fix": "A review of 15 randomised study reports (13 distinct trial populations) looked at discharge plans. Plans that included family carers were linked with about a quarter fewer readmissions over 3 to 6 months (a relative reduction)."
+    }
+   ],
+   "flags": [
+    "'give a written plan' is advice not shown to be the effective component and is not labelled as judgement.",
+    "Identical opening."
+   ]
+  },
+  {
+   "tmp_id": "C18-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "particularly the loss of work that can follow",
+     "fix": "particularly the loss of the work with that client"
+    },
+    {
+     "item": "6",
+     "quote": "In a New York City study using focus groups and peer interviews, the researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work that can follow.",
+     "fix": "A New York City study used focus groups and peer interviews. The researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of the work with that client."
+    },
+    {
+     "item": "6",
+     "quote": "In interviews with 29 home care workers and 13 managers in England, about caring for people with dementia at the end of life, workers said a client's death could leave them drained and under-prepared.",
+     "fix": "In England, 29 home care workers and 13 managers were interviewed about caring for people with dementia at the end of life. Workers said a client's death could leave them drained and under-prepared."
+    }
+   ],
+   "flags": [
+    "'drained' is figurative but is the workers' reported experience.",
+    "The close ('tell care workers promptly and personally') is not shown by either study and is not labelled as judgement in this variant."
+   ]
+  },
+  {
+   "tmp_id": "C18-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "particularly the loss of work that can follow",
+     "fix": "particularly the loss of the work with that client"
+    },
+    {
+     "item": "6",
+     "quote": "In a New York City study using focus groups and peer interviews, the researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work that can follow.",
+     "fix": "A New York City study used focus groups and peer interviews. The researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of the work with that client."
+    }
+   ],
+   "flags": [
+    "'getting caught up in a client's family conflict' and 'overwhelmed' are figurative.",
+    "Judgement labelling is clear and well done."
+   ]
+  },
+  {
+   "tmp_id": "C18-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "especially the loss of work",
+     "fix": "especially the loss of the work with that client"
+    }
+   ],
+   "flags": [
+    "'tell care workers promptly' does not say tell them what (that a client has died)."
+   ]
+  },
+  {
+   "tmp_id": "C18-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "particularly the loss of work",
+     "fix": "particularly the loss of the work with that client"
+    }
+   ],
+   "flags": [
+    "'In England, workers said it could leave them drained' - 'it' has no clear antecedent (a client's death)."
+   ]
+  },
+  {
+   "tmp_id": "C18-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Follow your regulator's guidance and local policy.",
+     "fix": "Move this sentence earlier and end on: 'record the answer where the next clinician will find it.'"
+    },
+    {
+     "item": "6",
+     "quote": "We should hear what the carer has noticed, say what we can't share and why, ask the patient whom they are happy for information to go to, and record the answer where the next clinician will find it.",
+     "fix": "We should hear what the carer has noticed. We should say what we can't share and why. We should ask the patient whom they are happy for information to go to, and record the answer where the next clinician will find it."
+    }
+   ],
+   "flags": [
+    "Negation shape in the opening: 'Listening does not require sharing anything about the patient.'",
+    "'one of the two commonest reasons' leaves the other reason unnamed.",
+    "Evidence is from mental health services, applied to older people's care; the caveat is present here but absent from bluesky and threads."
+   ]
+  },
+  {
+   "tmp_id": "C18-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Follow your regulator's guidance and your organisation's policy on sharing information.",
+     "fix": "Move the legal-advice disclaimer above the numbered list and end on step 4, 'Record the answer where the next clinician will find it.'"
+    }
+   ],
+   "flags": [
+    "Negation shape in opening.",
+    "Closing disclaimer ('not legal advice') reads as defensive rather than useful."
+   ]
+  },
+  {
+   "tmp_id": "C18-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation shape: 'Listening does not mean sharing patient information.'",
+    "Setting caveat (mental health services, support-group sample) is missing, so the survey may be over-generalised to older people's care."
+   ]
+  },
+  {
+   "tmp_id": "C18-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Setting caveat (mental health services, support-group sample) is missing.",
+    "Negation shape in opening."
+   ]
+  },
+  {
+   "tmp_id": "C18-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a PubMed search in 2026 found no study",
+     "fix": "a 2026 search of the main medical research database found no study"
+    },
+    {
+     "item": "6",
+     "quote": "It can cover their name and main needs, their medicines and where they are kept, who to call first and second, keys and how to get in, their daily routine, and their GP and pharmacy.",
+     "fix": "It can cover their name and main needs, their medicines and where they are kept, and who to call first and second. It can also cover keys and how to get in, their daily routine, and their GP and pharmacy."
+    },
+    {
+     "item": "6",
+     "quote": "This is practical advice rather than a research finding, and a PubMed search in 2026 found no study that tests whether having a plan changes what happens.",
+     "fix": "This is practical advice rather than a research finding. A 2026 search of the main medical research database found no study that tests whether having a plan changes what happens."
+    }
+   ],
+   "flags": [
+    "Setup question opening answered by the post; may also alarm a worried carer.",
+    "Negation-then-correction: 'That is a gap in the evidence, not evidence that plans do not help.'"
+   ]
+  },
+  {
+   "tmp_id": "C18-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A PubMed search in 2026 found no study",
+     "fix": "A 2026 search of the main medical research database found no study"
+    }
+   ],
+   "flags": [
+    "Setup question opening answered by the post.",
+    "Odd and confusing: 'No claim is made that a plan is a legal entitlement.' - a negated claim nobody made; delete.",
+    "Negation-then-correction: 'a gap in the evidence, not evidence that plans do not help'."
+   ]
+  },
+  {
+   "tmp_id": "C18-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Setup question opening answered by the post.",
+    "Terse noun list ('needs, medicines, who to call, keys, routine, GP') is readable but dense."
+   ]
+  },
+  {
+   "tmp_id": "C18-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Setup question opening answered by the post."
+   ]
+  }
+ ]
+}

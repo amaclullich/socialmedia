@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C05-P07 Specialist assessment evidence</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<style>.lg{display:flex;gap:40px;font-size:30px;margin-top:26px;flex-wrap:wrap}.lg .r{display:flex;gap:14px;align-items:center}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">1/2</span></div>
+ <div class="content"><div class="kicker">Cochrane review of 29 trials; each result from 14 to 21 trials; 3 to 12 months</div>
+ <h1 class="m">Specialist assessment in hospital: <em>per 100 people</em></h1>
+ <svg id="ch" viewBox="0 0 920 640" width="920" height="640" style="margin-top:30px"></svg>
+ <div class="lg"><div class="r"><svg width="40" height="30"><rect width="40" height="30" fill="#00909A"/></svg>With</div><div class="r"><svg width="40" height="30"><defs><pattern id="h" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="#fff"/><rect width="5" height="12" fill="#5F6B76"/></pattern></defs><rect width="40" height="30" fill="url(#h)" stroke="#5F6B76" stroke-width="3"/></svg>Without</div></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Ellis et al., Cochrane 2017</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Reading the evidence</span><span class="slidecount">2/2</span></div>
+ <div class="content"><div class="kicker">21 studies of frail older people living at home</div>
+ <h1 class="m">At home, the trials found <em>little or no difference</em> in deaths or care home moves</h1>
+ <p class="lead">Little or no difference in deaths or care home moves. May reduce unplanned admissions (low certainty).</p>
+ <div class="panel mint" style="margin-top:40px"><p class="body" style="margin:0;font-size:32px">What was tested: team assessment, a coordinated plan, and follow-up</p></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Briggs et al., Cochrane 2022</span></div>
+</div>
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+function add(p,t,a,x){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(x)e.textContent=x;p.appendChild(e);return e}
+const s=document.getElementById('ch');
+const defs=add(s,'defs',{});const pa=add(defs,'pattern',{id:'hh',width:12,height:12,patternUnits:'userSpaceOnUse',patternTransform:'rotate(45)'});
+add(pa,'rect',{width:12,height:12,fill:'#FBFAF6'});add(pa,'rect',{width:5,height:12,fill:'#5F6B76'});
+const G=[['Alive and at home',60,56],['Moved into a care home',15,19],['Died',23,23]];
+const x0=0,pw=640,max=70;
+G.forEach((g,i)=>{const y=i*215;
+ add(s,'text',{x:0,y:y+34,'font-size':32,'font-weight':700,fill:'#1F2A30','font-family':'Inter'},g[0]);
+ [[g[1],'#00909A','with'],[g[2],'url(#hh)','without']].forEach((b,j)=>{const by=y+54+j*62,w=pw*b[0]/max;
+  add(s,'rect',{x:x0,y:by,width:w,height:52,fill:b[1],stroke:j?'#5F6B76':'none','stroke-width':3});
+  add(s,'text',{x:w+14,y:by+37,'font-size':32,'font-weight':700,fill:'#1F2A30','font-family':'Inter'},(i==2?'':'about ')+b[0]);});
+});
+add(s,'line',{x1:0,y1:0,x2:0,y2:630,stroke:'#5F6B76','stroke-width':2});
+window.__ready=true;
+</script></body></html>

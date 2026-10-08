@@ -1,801 +1,872 @@
 {
-  "category": "C05",
-  "category_name": "Frailty, function and recovery",
-  "posts": [
-    {
-      "cand_id": "C05-01",
-      "audience": "practitioners",
-      "series": "What gets counted",
-      "post_type": "teaching",
-      "title": "Better than on admission, worse than before",
-      "insight": "Measuring recovery from the day of admission hides loss of function that happened before the person arrived. In one large cohort, about 1 in 3 older medical inpatients went home less able than two weeks before admission, mostly because of loss before arrival that was not regained.",
-      "angle": "Progress measured from the worst day looks like recovery; the useful reference point is the person two weeks before the illness. Position (judgement): record the pre-illness level and state the gap at discharge.",
-      "position_basis": "mixed: cohort findings on decline (empirical); the recording habit is clinical judgement",
-      "captions": {
-        "x": "A ward note saying \"improving since admission\" can be true while the person goes home less able than before they fell ill.\n\nA US study followed 2,293 people aged 70 and over on medical wards. 35 in 100 left hospital less able than they were two weeks before admission. The five tasks were washing, dressing, eating, getting in and out of bed and using the toilet.\n\n23 in 100 had already declined in those tasks before they arrived and had not regained them by discharge. 12 in 100 declined during the stay. Together that makes the 35 in 100.\n\nThe data are over 20 years old. A 2020 review of studies in adults aged 65 and over found about 3 in 10 lost independence in basic daily activities after an acute hospital stay. That share changed little by the year the study began.\n\nWe should record the level two weeks before the illness, and say at discharge how far the person is from it.",
-        "linkedin": "A ward note saying \"improving since admission\" can be true while the person goes home less able than before they became ill.\n\nA note that measures from the day of admission leaves out loss that happened before the person arrived.\n\nA US study followed 2,293 people aged 70 and over admitted to medical wards (Covinsky 2003). 35 in 100 went home less able in basic daily activities than they had been two weeks before admission. The activities were washing, dressing, eating, getting in and out of bed and using the toilet.\n\nMost of that loss came before the ward. 23 in 100 had declined before arrival and had not recovered by discharge. 12 in 100 declined during the stay. That makes the 35 in 100 (23 plus 12). A further 20 in 100 had declined before admission but had recovered by discharge, so they are not in the 35.\n\nThe older the person, the more often they went home less able than before the illness. The share was 23 in 100 at 70 to 74 and 63 in 100 at 90 and over (not adjusted for other differences).\n\nA 2020 review (Loyd, J Am Med Dir Assoc) pooled studies of 7,375 adults aged 65 and over. About 3 in 10 lost independence in basic daily activities after an acute hospital stay, a similar share to the 35 in 100 above. The share changed little by the year the study began. Results varied widely between studies.\n\nLimits: function was reported by patients or relatives, the five activities do not include walking, and the Covinsky data are more than 20 years old.\n\nIn a 2001 study of 525 medical patients aged 70 and over at one US centre, most paper hospital records did not say whether the person could manage individual daily tasks before admission. Walking was the exception. Electronic records may differ.\n\nNo trial has tested whether recording the level before the illness improves outcomes. Even so, we should record what the person could do two weeks before the illness, and write at discharge how far they are from that level. A line such as \"Two weeks before: X. Now: Y.\" gives the next team a reference point.",
-        "bluesky": "A US study followed 2,293 medical inpatients aged 70 and over (data over 20 years old). 35 in 100 went home less able to wash or dress than two weeks before admission. 23 in 100 had declined before arrival and not regained it by discharge.\n\nWe should record the level before the illness.",
-        "threads": "\"Improving since admission\" can still mean worse than before the illness.\n\nA US study followed 2,293 medical inpatients aged 70 and over. 35 in 100 went home less able to wash or dress than two weeks before admission. 23 in 100 had declined before arriving and had not regained it by discharge.\n\nThe data are over 20 years old, but a 2020 review found about 3 in 10 lost independence in daily activities after a hospital stay.\n\nWe should record the level before illness and the gap at discharge."
-      },
-      "source_reply": "Sources: https://doi.org/10.1046/j.1532-5415.2003.51152.x | https://doi.org/10.1016/j.jamda.2019.09.015 | https://doi.org/10.1111/j.1525-1497.2001.00625.x",
-      "claims_used": [
-        "C05-01-a",
-        "C05-01-b",
-        "C05-01-d",
-        "C05-01-e",
-        "C05-01-f",
-        "C05-01-g"
-      ],
-      "sources_used": [
-        "PMID:12657063",
-        "PMID:31734122",
-        "PMID:11722685"
-      ],
-      "visual_brief": {
-        "format": "carousel (timeline diagram, then chart)",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Show why measuring from admission hides loss that happened before arrival (conceptual, not measured)",
-            "text": {
-              "headline": "Better than on admission can still be worse than before",
-              "kicker": "Illustrative example",
-              "body": null,
-              "items": [],
-              "labels": [
-                "Two weeks before",
-                "Admission",
-                "Discharge",
-                "Better than on admission",
-                "Still below the level two weeks before"
-              ],
-              "source_line": "Illustrative diagram, not measured data"
-            },
-            "art": "A simple three-point line drawing on an off-white ground, no numbers on the axis. Three labelled points left to right: 'Two weeks before' (high), 'Admission' (lowest), 'Discharge' (between the two). A teal bracket between Admission and Discharge labelled 'Better than on admission'; a burnt orange bracket between Discharge and the Two weeks before level, with a dotted horizontal line across, labelled 'Still below the level two weeks before'. Brackets differ in shape (solid vs dashed) as well as colour. No people.",
-            "data": []
-          },
-          {
-            "n": 2,
-            "purpose": "Show the measured share in the cohort, including the group that regained function",
-            "text": {
-              "headline": "35 in 100 went home less able than two weeks before",
-              "kicker": "2,293 people aged 70+ on US medical wards",
-              "body": "Basic daily activities, reported by patient or relative. Data over 20 years old.",
-              "items": [],
-              "labels": [
-                "Lost before admission, not regained: 23 in 100",
-                "Lost during the stay: 12 in 100",
-                "Went home less able: 35 in 100",
-                "Lost before admission, regained by discharge: 20 in 100",
-                "Everyone else: 45 in 100"
-              ],
-              "source_line": "Covinsky et al., J Am Geriatr Soc 2003"
-            },
-            "art": "One horizontal bar divided into 100 equal parts: first segment 23 (burnt orange, solid), then 12 (teal, hatched), then 20 (pale teal with dotted outline), then 45 (pale grey, unlabelled except 'Everyone else'). A bracket above the first two segments reads 'Went home less able: 35 in 100'. Segments are identified by label and pattern, not colour alone.",
-            "data": [
-              {
-                "label": "Declined before admission, not recovered by discharge",
-                "value": 23,
-                "display": "23 in 100",
-                "claim_id": "C05-01-a"
-              },
-              {
-                "label": "Declined during the stay",
-                "value": 12,
-                "display": "12 in 100",
-                "claim_id": "C05-01-a"
-              },
-              {
-                "label": "Went home less able (total)",
-                "value": 35,
-                "display": "35 in 100",
-                "claim_id": "C05-01-a"
-              },
-              {
-                "label": "Declined before admission, recovered by discharge",
-                "value": 20,
-                "display": "20 in 100",
-                "claim_id": "C05-01-a"
-              },
-              {
-                "label": "Everyone else (derived: 100 minus 23, 12 and 20)",
-                "value": 45,
-                "display": "45 in 100",
-                "claim_id": "C05-01-a"
-              }
-            ]
-          }
-        ],
-        "design_notes": "Slide 1 is labelled Illustrative example and carries no numbers so it cannot be read as data. Slide 2 uses only the Covinsky 2003 percentages of all 2,293 patients; the 45 is arithmetic on those percentages and is labelled 'Everyone else', not described as unchanged. Footer on both slides: Alasdair MacLullich | What gets counted."
-      },
-      "alt_text": [
-        "Illustrative line diagram, not real data. A person's function is highest two weeks before illness, lowest at admission and in between at discharge. One bracket shows improvement since admission; a second shows the discharge level is still below the level two weeks before.",
-        "Bar of 100 people. In a US study of 2,293 people aged 70+ on medical wards, 23 in 100 lost daily function before admission and had not regained it, 12 in 100 lost it during the stay (35 in 100 went home less able), and 20 in 100 lost it before admission and regained it. Data over 20 years old."
-      ],
-      "attention_note": "The claim that 'improving' notes can coexist with a net loss.",
-      "gain_note": "A concrete reference point (two weeks before) and a discharge line format.",
-      "follow_note": "Careful reading of what routine measures miss.",
-      "verification_notes": "Covinsky 2003 abstract: 35/23/12/20 are percentages of all 2,293 patients, age gradient 23% to 63% (C05-01-a, b; crude figures). Loyd 2020 abstract (published online 2019): pooled about 30% across 7,375 people, large heterogeneity (C05-01-d). Publication year 2003 gives \"over 20 years old\" (C05-01-e). Bogardus 2001 abstract: documentation of individual daily tasks, one centre, paper records (C05-01-f). Recording habit is marked as judgement and as untested (C05-01-g). Walking is not one of the five activities, so mobility is not claimed. Slide 1 is a conceptual diagram labelled Illustrative example with no numbers; the claim that a note measured from admission omits pre-admission loss follows from the 23-in-100 finding. Removed from the earlier draft: the unsupported statements that most people improve from admission and that admission is often the worst day. The \"Two weeks before: X. Now: Y.\" line is a suggested format, not a published standard.",
-      "tmp_id": "C05-P01",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [
-        "Exact enrolment years of the Covinsky cohort were not read (full text closed); text says only \"over 20 years old\"."
-      ],
-      "visual_text": [
-        "Illustrative example",
-        "Better than on admission can still be worse than before",
+ "category": "C05",
+ "category_name": "Frailty, function and recovery",
+ "posts": [
+  {
+   "cand_id": "C05-01",
+   "audience": "practitioners",
+   "series": "What gets counted",
+   "post_type": "teaching",
+   "title": "Better than on admission, worse than before",
+   "insight": "Measuring recovery from the day of admission hides loss of function that happened before the person arrived. In one large cohort, about 1 in 3 older medical inpatients went home less able than two weeks before admission, mostly because of loss before arrival that was not regained.",
+   "angle": "Progress measured from the worst day looks like recovery; the useful reference point is the person two weeks before the illness. Position (judgement): record the pre-illness level and state the gap at discharge.",
+   "position_basis": "mixed: cohort findings on decline (empirical); the recording habit is clinical judgement",
+   "captions": {
+    "x": "A ward note saying \"improving since admission\" can be true while the person goes home less able than before they fell ill.\n\nA US study followed 2,293 people aged 70 and over on medical wards. 35 in 100 left hospital less able than they were two weeks before admission. The five tasks were washing, dressing, eating, getting in and out of bed and using the toilet.\n\n23 in 100 had already declined in those tasks before they arrived and had not regained them by discharge. 12 in 100 declined during the stay. Together that makes the 35 in 100.\n\nThe data are over 20 years old. A 2020 review of studies in adults aged 65 and over found about 3 in 10 lost independence in basic daily activities after an acute hospital stay. That share changed little by the year the study began.\n\nWe should record the level two weeks before the illness, and say at discharge how far the person is from it.",
+    "linkedin": "A ward note saying \"improving since admission\" can be true while the person goes home less able than before they became ill.\n\nA note that measures from the day of admission leaves out loss that happened before the person arrived.\n\nA US study followed 2,293 people aged 70 and over admitted to medical wards (Covinsky 2003). 35 in 100 went home less able in basic daily activities than they had been two weeks before admission. The activities were washing, dressing, eating, getting in and out of bed and using the toilet.\n\nMost of that loss came before the ward. 23 in 100 had declined before arrival and had not recovered by discharge. 12 in 100 declined during the stay. That makes the 35 in 100 (23 plus 12). A further 20 in 100 had declined before admission but had recovered by discharge, so they are not in the 35.\n\nThe older the person, the more often they went home less able than before the illness. The share was 23 in 100 at 70 to 74 and 63 in 100 at 90 and over (not adjusted for other differences).\n\nA 2020 review (Loyd, J Am Med Dir Assoc) pooled studies of 7,375 adults aged 65 and over. About 3 in 10 lost independence in basic daily activities after an acute hospital stay, a similar share to the 35 in 100 above. The share changed little by the year the study began. Results varied widely between studies.\n\nLimits: function was reported by patients or relatives, the five activities do not include walking, and the Covinsky data are more than 20 years old.\n\nIn a 2001 study of 525 medical patients aged 70 and over at one US centre, most paper hospital records did not say whether the person could manage individual daily tasks before admission. Walking was the exception. Electronic records may differ.\n\nNo trial has tested whether recording the level before the illness improves outcomes. Even so, we should record what the person could do two weeks before the illness, and write at discharge how far they are from that level. A line such as \"Two weeks before: X. Now: Y.\" gives the next team a reference point.",
+    "bluesky": "A US study followed 2,293 medical inpatients aged 70 and over (data over 20 years old). 35 in 100 went home less able to wash or dress than two weeks before admission. 23 in 100 had declined before arrival and not regained it by discharge.\n\nWe should record the level before the illness.",
+    "threads": "\"Improving since admission\" can still mean worse than before the illness.\n\nA US study followed 2,293 medical inpatients aged 70 and over. 35 in 100 went home less able to wash or dress than two weeks before admission. 23 in 100 had declined before arriving and had not regained it by discharge.\n\nThe data are over 20 years old, but a 2020 review found about 3 in 10 lost independence in daily activities after a hospital stay.\n\nWe should record the level before illness and the gap at discharge."
+   },
+   "source_reply": "Sources: https://doi.org/10.1046/j.1532-5415.2003.51152.x | https://doi.org/10.1016/j.jamda.2019.09.015 | https://doi.org/10.1111/j.1525-1497.2001.00625.x",
+   "claims_used": [
+    "C05-01-a",
+    "C05-01-b",
+    "C05-01-d",
+    "C05-01-e",
+    "C05-01-f",
+    "C05-01-g"
+   ],
+   "sources_used": [
+    "PMID:12657063",
+    "PMID:31734122",
+    "PMID:11722685"
+   ],
+   "visual_brief": {
+    "format": "carousel (timeline diagram, then chart)",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show why measuring from admission hides loss that happened before arrival (conceptual, not measured)",
+      "text": {
+       "headline": "Better than on admission can still be worse than before",
+       "kicker": "Illustrative example",
+       "body": null,
+       "items": [],
+       "labels": [
         "Two weeks before",
         "Admission",
         "Discharge",
         "Better than on admission",
-        "Still below the level two weeks before",
-        "Illustrative diagram, not measured data",
-        "2,293 people aged 70+ on US medical wards",
-        "35 in 100 went home less able than two weeks before",
-        "Basic daily activities, reported by patient or relative. Data over 20 years old.",
+        "Still below the level two weeks before"
+       ],
+       "source_line": "Illustrative diagram, not measured data"
+      },
+      "art": "A simple three-point line drawing on an off-white ground, no numbers on the axis. Three labelled points left to right: 'Two weeks before' (high), 'Admission' (lowest), 'Discharge' (between the two). A teal bracket between Admission and Discharge labelled 'Better than on admission'; a burnt orange bracket between Discharge and the Two weeks before level, with a dotted horizontal line across, labelled 'Still below the level two weeks before'. Brackets differ in shape (solid vs dashed) as well as colour. No people.",
+      "data": []
+     },
+     {
+      "n": 2,
+      "purpose": "Show the measured share in the cohort, including the group that regained function",
+      "text": {
+       "headline": "35 in 100 went home less able than two weeks before",
+       "kicker": "2,293 people aged 70+ on US medical wards",
+       "body": "Basic daily activities, reported by patient or relative. Data over 20 years old.",
+       "items": [],
+       "labels": [
         "Lost before admission, not regained: 23 in 100",
         "Lost during the stay: 12 in 100",
         "Went home less able: 35 in 100",
         "Lost before admission, regained by discharge: 20 in 100",
-        "Everyone else: 45 in 100",
-        "Covinsky et al., J Am Geriatr Soc 2003",
-        "Alasdair MacLullich | What gets counted"
+        "Everyone else: 45 in 100"
+       ],
+       "source_line": "Covinsky et al., J Am Geriatr Soc 2003"
+      },
+      "art": "One horizontal bar divided into 100 equal parts: first segment 23 (burnt orange, solid), then 12 (teal, hatched), then 20 (pale teal with dotted outline), then 45 (pale grey, unlabelled except 'Everyone else'). A bracket above the first two segments reads 'Went home less able: 35 in 100'. Segments are identified by label and pattern, not colour alone.",
+      "data": [
+       {
+        "label": "Declined before admission, not recovered by discharge",
+        "value": 23,
+        "display": "23 in 100",
+        "claim_id": "C05-01-a"
+       },
+       {
+        "label": "Declined during the stay",
+        "value": 12,
+        "display": "12 in 100",
+        "claim_id": "C05-01-a"
+       },
+       {
+        "label": "Went home less able (total)",
+        "value": 35,
+        "display": "35 in 100",
+        "claim_id": "C05-01-a"
+       },
+       {
+        "label": "Declined before admission, recovered by discharge",
+        "value": 20,
+        "display": "20 in 100",
+        "claim_id": "C05-01-a"
+       },
+       {
+        "label": "Everyone else (derived: 100 minus 23, 12 and 20)",
+        "value": 45,
+        "display": "45 in 100",
+        "claim_id": "C05-01-a"
+       }
       ]
-    },
-    {
-      "cand_id": "C05-02",
-      "audience": "practitioners",
-      "series": "Teaching round",
-      "post_type": "teaching",
-      "title": "Still doing it, but differently",
-      "insight": "A yes or no question about difficulty misses people who have changed how or how often they do a task. That change (preclinical disability) marks people who are already slower and weaker and more likely to develop difficulty.",
-      "angle": "Revised angle: add one history question about changed method or frequency; state population limits; do not claim acting early prevents disability.",
-      "position_basis": "mixed: cohort findings (empirical); adding the question to the history is clinical judgement",
-      "captions": {
-        "x": "\"Any difficulty with stairs?\" \"No.\" That answer can miss the person who now takes them one at a time, holding the rail with both hands.\n\nA Baltimore study in the 1990s followed women in their 70s, among the more able two thirds of women their age. Some reported no difficulty but had changed how or how often they walked or climbed stairs. These women were already slower and weaker than women who had not changed. Over the next 18 months they were more likely to develop difficulty. A smaller Finnish study of men and women aged 75 to 81 found a similar pattern over 2 years.\n\nWe should add one question to the history: \"Have you changed how you do this, or how often, because of your health?\" The researchers proposed this stage as a point to offer help. Whether acting then prevents disability has not been tested.",
-        "linkedin": "\"Any difficulty with stairs?\" \"No.\"\n\nThat answer can miss the person who now takes the stairs one at a time, holding the rail with both hands. Researchers call this stage preclinical disability: the task still gets done, but the method or frequency has changed.\n\nIn a Baltimore study of 436 women aged 70 to 80 (Fried 2001), women who had changed how or how often they walked half a mile or climbed 10 steps, but reported no difficulty, were measured as slower, weaker and less steady than women with no change. They were not as affected as women who reported difficulty.\n\nSome women reported no difficulty at the start. Those who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty over the next 18 months. This held after allowing for walking speed (Fried 2000).\n\nA later analysis of the same women pointed the same way. Women who newly reported such changes were more likely to report new walking difficulty a year and a half later, though the uncertainty was wide (Weiss 2012).\n\nA smaller Finnish study of people aged 75 to 81 found a similar pattern in men and women over 2 years (Mänty 2007).\n\nLimits: the main studies were of women in their 70s in Baltimore, the more able two thirds of their age group, recruited in 1994 and 1995. The researchers proposed this stage as a point to offer help; these studies did not test whether acting then prevents disability.\n\nThe question used in the research: \"Have you changed the way you walk half a mile, or how often you do this, because of a health or physical condition?\"\n\nWe should add this question to the functional history, next to the difficulty question.",
-        "bluesky": "\"Any difficulty with stairs?\" can miss a change in how people climb.\n\nIn more able Baltimore women in their 70s, those who changed how they climbed yet reported no difficulty were slower and more likely to develop difficulty in 18 months. A Finnish study found the same pattern.\n\nAsk about change.",
-        "threads": "\"Any difficulty with stairs?\" can get a no from someone taking them one step at a time.\n\nIn a 1990s Baltimore study of more able women in their 70s, some reported no difficulty but had changed how they walked or climbed stairs. They were already slower and weaker, and more likely to develop difficulty within 18 months. A Finnish study found a similar pattern.\n\nAsk: \"Have you changed how or how often you do this because of your health?\" Whether acting early prevents disability is untested."
-      },
-      "source_reply": "Sources: https://doi.org/10.1016/s0895-4356(01)00357-2 | https://doi.org/10.1093/gerona/55.1.m43 | https://doi.org/10.1016/j.archger.2011.08.018 | https://doi.org/10.1016/j.apmr.2007.06.016",
-      "claims_used": [
-        "C05-02-a",
-        "C05-02-b",
-        "C05-02-c",
-        "C05-02-d",
-        "C05-02-e"
-      ],
-      "sources_used": [
-        "PMID:11520648",
-        "PMID:10719772",
-        "PMID:21944428",
-        "PMID:17826454"
-      ],
-      "visual_brief": {
-        "format": "comic strip",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Show the missed answer and the better question",
-            "text": {
-              "headline": "Two questions about the same stairs",
-              "kicker": "Illustrative example",
-              "body": null,
-              "items": [
-                "Clinician: \"Any difficulty with the stairs?\" Patient: \"No, I manage.\"",
-                "At home, she climbs one step at a time, both hands on the rail.",
-                "Clinician: \"Have you changed how you do it, or how often?\" Patient: \"I only go up once a day now, and slowly.\"",
-                "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies)."
-              ],
-              "labels": [],
-              "source_line": "Fried et al. 2000, 2001; Weiss et al. 2012"
-            },
-            "art": "Three panels, clear line style, captions under panels. Panel 1: a clinic room, a woman in her late 70s with short grey natural hair and dark brown skin, seated, talking with a male clinician in his 40s. Panel 2: same woman at home on a carpeted staircase, both hands on a wooden rail, placing both feet on each step. Panel 3: clinic again, clinician leaning in, listening. No text on surfaces inside drawings.",
-            "data": []
-          }
-        ],
-        "design_notes": "Warm sand backgrounds; captions laid out under panels. Label 'Illustrative example' top left."
-      },
-      "alt_text": [
-        "Illustrative three-panel comic. A clinician asks an older woman about difficulty with stairs; she says no. At home she climbs one step at a time, both hands on the rail. Asked how or how often she does it now, she says once a day, slowly. Caption: changing method before difficulty was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies)."
-      ],
-      "attention_note": "A familiar history question that gets a misleading no.",
-      "gain_note": "One exact question to add to a functional history.",
-      "follow_note": "Practical history-taking points with their evidence limits.",
-      "verification_notes": "Fried 2001 abstract (C05-02-a); Fried 2000 abstract odds ratios (C05-02-b, 'odds' wording); Weiss 2012 full text, question wording and 2012 citation (C05-02-c); Mänty 2007 abstract (C05-02-d); population limits (C05-02-e) in every version. No claim that early action prevents disability. Comic dialogue illustrative.",
-      "tmp_id": "C05-P02",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [
-        "Fried 2001 abstract gives women aged 70 to 80; the cohort was recruited at 70 to 79. Captions say \"in their 70s\"; LinkedIn gives 70 to 80 for Fried 2001 as sourced and \"in their 70s\" in the limits line."
-      ],
-      "visual_text": [
-        "Illustrative example",
-        "Two questions about the same stairs",
+     }
+    ],
+    "design_notes": "Slide 1 is labelled Illustrative example and carries no numbers so it cannot be read as data. Slide 2 uses only the Covinsky 2003 percentages of all 2,293 patients; the 45 is arithmetic on those percentages and is labelled 'Everyone else', not described as unchanged. Footer on both slides: Alasdair MacLullich | What gets counted."
+   },
+   "alt_text": [
+    "Illustrative line diagram, no numbers. Function starts high two weeks before, drops to its lowest at admission, then rises by discharge but stays below the starting level. A solid teal bracket marks the gain since admission; a dashed orange bracket marks the gap still left.",
+    "Bar divided into 100 parts for 2,293 people aged 70+ on US medical wards: 23 lost function before admission and did not regain it, 12 lost it during the stay, 20 lost it before admission but regained it, 45 everyone else. 35 in 100 went home less able. Data over 20 years old."
+   ],
+   "attention_note": "The claim that 'improving' notes can coexist with a net loss.",
+   "gain_note": "A concrete reference point (two weeks before) and a discharge line format.",
+   "follow_note": "Careful reading of what routine measures miss.",
+   "verification_notes": "Covinsky 2003 abstract: 35/23/12/20 are percentages of all 2,293 patients, age gradient 23% to 63% (C05-01-a, b; crude figures). Loyd 2020 abstract (published online 2019): pooled about 30% across 7,375 people, large heterogeneity (C05-01-d). Publication year 2003 gives \"over 20 years old\" (C05-01-e). Bogardus 2001 abstract: documentation of individual daily tasks, one centre, paper records (C05-01-f). Recording habit is marked as judgement and as untested (C05-01-g). Walking is not one of the five activities, so mobility is not claimed. Slide 1 is a conceptual diagram labelled Illustrative example with no numbers; the claim that a note measured from admission omits pre-admission loss follows from the 23-in-100 finding. Removed from the earlier draft: the unsupported statements that most people improve from admission and that admission is often the worst day. The \"Two weeks before: X. Now: Y.\" line is a suggested format, not a published standard.",
+   "tmp_id": "C05-P01",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [
+    "Exact enrolment years of the Covinsky cohort were not read (full text closed); text says only \"over 20 years old\"."
+   ],
+   "visual_text": [
+    "Illustrative example",
+    "Better than on admission can still be worse than before",
+    "Two weeks before",
+    "Admission",
+    "Discharge",
+    "Better than on admission",
+    "Still below the level two weeks before",
+    "Alasdair MacLullich",
+    "Illustrative diagram, not measured data",
+    "2,293 people aged 70+ on US medical wards",
+    "35 in 100 went home less able than two weeks before",
+    "Basic daily activities, reported by patient or relative. Data over 20 years old.",
+    "Went home less able: 35 in 100",
+    "Lost before admission, not regained: 23 in 100",
+    "Lost during the stay: 12 in 100",
+    "Lost before admission, regained by discharge: 20 in 100",
+    "Everyone else: 45 in 100",
+    "Alasdair MacLullich",
+    "Covinsky et al., J Am Geriatr Soc 2003"
+   ],
+   "visual_files": [
+    "C05-P01_1.png",
+    "C05-P01_2.png"
+   ],
+   "visual_source": "visuals/src/C05-P01.html",
+   "visual_format": "carousel (timeline diagram, then chart)",
+   "design_instructions": "Carousel of 2, 1080x1350. Card 1 off-white: SVG three-point line (before high, admission lowest, discharge between), teal solid bracket and orange dashed bracket with dotted level lines, legend; no numbers. Card 2: stacked bar 23/12/20/45 in orange solid, teal hatch, teal dots dashed outline, grey, with 35 bracket and legend. Claim C05-01-a.",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-02",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "title": "Still doing it, but differently",
+   "insight": "A yes or no question about difficulty misses people who have changed how or how often they do a task. That change (preclinical disability) marks people who are already slower and weaker and more likely to develop difficulty.",
+   "angle": "Revised angle: add one history question about changed method or frequency; state population limits; do not claim acting early prevents disability.",
+   "position_basis": "mixed: cohort findings (empirical); adding the question to the history is clinical judgement",
+   "captions": {
+    "x": "\"Any difficulty with stairs?\" \"No.\" That answer can miss the person who now takes them one at a time, holding the rail with both hands.\n\nA Baltimore study in the 1990s followed women in their 70s, among the more able two thirds of women their age. Some reported no difficulty but had changed how or how often they walked or climbed stairs. These women were already slower and weaker than women who had not changed. Over the next 18 months they were more likely to develop difficulty. A smaller Finnish study of men and women aged 75 to 81 found a similar pattern over 2 years.\n\nWe should add one question to the history: \"Have you changed how you do this, or how often, because of your health?\" The researchers proposed this stage as a point to offer help. Whether acting then prevents disability has not been tested.",
+    "linkedin": "\"Any difficulty with stairs?\" \"No.\"\n\nThat answer can miss the person who now takes the stairs one at a time, holding the rail with both hands. Researchers call this stage preclinical disability: the task still gets done, but the method or frequency has changed.\n\nIn a Baltimore study of 436 women aged 70 to 80 (Fried 2001), women who had changed how or how often they walked half a mile or climbed 10 steps, but reported no difficulty, were measured as slower, weaker and less steady than women with no change. They were not as affected as women who reported difficulty.\n\nSome women reported no difficulty at the start. Those who had changed how they walked or climbed stairs had about 3 to 4 times the odds of developing difficulty over the next 18 months. This held after allowing for walking speed (Fried 2000).\n\nA later analysis of the same women pointed the same way. Women who newly reported such changes were more likely to report new walking difficulty a year and a half later, though the uncertainty was wide (Weiss 2012).\n\nA smaller Finnish study of people aged 75 to 81 found a similar pattern in men and women over 2 years (Mänty 2007).\n\nLimits: the main studies were of women in their 70s in Baltimore, the more able two thirds of their age group, recruited in 1994 and 1995. The researchers proposed this stage as a point to offer help; these studies did not test whether acting then prevents disability.\n\nThe question used in the research: \"Have you changed the way you walk half a mile, or how often you do this, because of a health or physical condition?\"\n\nWe should add this question to the functional history, next to the difficulty question.",
+    "bluesky": "\"Any difficulty with stairs?\" can miss a change in how people climb.\n\nIn more able Baltimore women in their 70s, those who changed how they climbed yet reported no difficulty were slower and more likely to develop difficulty in 18 months. A Finnish study found the same pattern.\n\nAsk about change.",
+    "threads": "\"Any difficulty with stairs?\" can get a no from someone taking them one step at a time.\n\nIn a 1990s Baltimore study of more able women in their 70s, some reported no difficulty but had changed how they walked or climbed stairs. They were already slower and weaker, and more likely to develop difficulty within 18 months. A Finnish study found a similar pattern.\n\nAsk: \"Have you changed how or how often you do this because of your health?\" Whether acting early prevents disability is untested."
+   },
+   "source_reply": "Sources: https://doi.org/10.1016/s0895-4356(01)00357-2 | https://doi.org/10.1093/gerona/55.1.m43 | https://doi.org/10.1016/j.archger.2011.08.018 | https://doi.org/10.1016/j.apmr.2007.06.016",
+   "claims_used": [
+    "C05-02-a",
+    "C05-02-b",
+    "C05-02-c",
+    "C05-02-d",
+    "C05-02-e"
+   ],
+   "sources_used": [
+    "PMID:11520648",
+    "PMID:10719772",
+    "PMID:21944428",
+    "PMID:17826454"
+   ],
+   "visual_brief": {
+    "format": "comic strip",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the missed answer and the better question",
+      "text": {
+       "headline": "Two questions about the same stairs",
+       "kicker": "Illustrative example",
+       "body": null,
+       "items": [
         "Clinician: \"Any difficulty with the stairs?\" Patient: \"No, I manage.\"",
         "At home, she climbs one step at a time, both hands on the rail.",
         "Clinician: \"Have you changed how you do it, or how often?\" Patient: \"I only go up once a day now, and slowly.\"",
-        "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies).",
-        "Fried et al. 2000, 2001; Weiss et al. 2012",
-        "Alasdair MacLullich | Teaching round"
-      ]
-    },
-    {
-      "cand_id": "C05-07",
-      "audience": "public",
-      "series": "Care that works",
-      "post_type": "public_explanation",
-      "title": "Frailty can move both ways",
-      "insight": "Frailty often changes over time. About 14 in 100 older people living at home became less frail over about 4 years, while 29 in 100 became more frail; improvement was most often by one step.",
-      "angle": "Public reassurance without false hope: show worsening next to improvement, show that improvement is mostly one step, and give the guideline first step (strength exercise; protein or calories if losing weight).",
-      "position_basis": "mixed: pooled cohort findings and guideline recommendations (empirical); the advice to ask for reassessment is judgement",
-      "captions": {
-        "x": "Being told you are frail describes where you are now. It can change, in both directions.\n\n16 studies followed 42,775 older people living at home. They were reassessed after about 4 years on average (range 1 to 10). 14 in 100 became less frail. 29 in 100 became more frail, about twice as many. 57 in 100 stayed the same. The studies used one checklist of five physical signs of frailty.\n\nAmong people who were frail, 40 in 100 improved to the early stage, called prefrail. Only 3 in 100 lost all signs of frailty.\n\nInternational guidelines name exercise that includes strength training as the first treatment, with extra protein or calories if you are losing weight or not getting enough nourishment.\n\nYou can ask what strength exercise is open to you, and when your frailty will be looked at again.",
-        "linkedin": "Being told you are frail describes where you are now. It can change, in both directions.\n\nA 2019 review pooled 16 studies of 42,775 older people living at home, followed for about 4 years on average (Kojima 2019). Of those reassessed:\n\n1. About 14 in 100 became less frail.\n2. About 29 in 100 became more frail.\n3. About 57 in 100 stayed the same.\n\nSo worsening was about twice as common as improvement. Improvement was real, though. People who were prefrail (the early stage of frailty) were much more likely to lose all frailty signs than people who were frail. About 23 in 100 prefrail people later showed none of the signs. About 18 in 100 became frail.\n\nAmong people who were frail, improvement was mostly to the early stage. About 40 in 100 moved to prefrail, about 55 in 100 stayed frail, and only about 3 in 100 later showed none of the signs. A US study of 754 people found the same: going straight from frail to not frail at all was very rare, under 1 in 100 in each 18-month period. That fits the 3 in 100 above, which covers about 4 years on average.\n\nThese figures come from people living at home, and all the studies used one checklist of five physical signs of frailty.\n\nInternational frailty guidelines recommend, as the first step, an exercise programme that includes strength training. They recommend protein or calorie supplements for people who are losing weight or undernourished. They also recommend a fuller assessment for anyone found to be frail (Dent 2019).\n\nIf you have been told you are frail, you can ask two things: what exercise to build strength is available to you, and when your frailty will be looked at again.",
-        "bluesky": "Frailty can change both ways. Over about 4 years, 14 in 100 older people at home became less frail and 29 in 100 more frail.\n\nAmong frail people, most improvement was to a milder stage.\n\nGuidelines name strength exercise as the first treatment. If called frail, ask when it will be looked at again.",
-        "threads": "Being called frail describes where you are now. It can change in both directions.\n\n16 studies followed 42,775 older people living at home for about 4 years on average. 14 in 100 became less frail and 29 in 100 more frail. Among frail people, 40 in 100 moved to a milder early stage and 3 in 100 lost all signs of frailty.\n\nGuidelines name exercise with strength training as the first treatment, plus protein or calories if you are losing weight.\n\nAsk when your frailty will be looked at again."
+        "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies)."
+       ],
+       "labels": [],
+       "source_line": "Fried et al. 2000, 2001; Weiss et al. 2012"
       },
-      "source_reply": "Sources: https://doi.org/10.1016/j.arr.2019.01.010 | https://doi.org/10.1001/archinte.166.4.418 | https://doi.org/10.1007/s12603-019-1273-z",
-      "claims_used": [
-        "C05-07-a",
-        "C05-07-b",
-        "C05-07-c",
-        "C05-07-d"
-      ],
-      "sources_used": [
-        "PMID:30659942",
-        "PMID:16505261",
-        "PMID:31641726"
-      ],
-      "visual_brief": {
-        "format": "chart",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Show both directions of change with a 10 by 10 icon array",
-            "text": {
-              "headline": "Frailty changed in both directions",
-              "kicker": "100 older people living at home, about 4 years later on average",
-              "body": "Among people who were frail, improvement was mostly to a milder early stage (prefrail)",
-              "items": [],
-              "labels": [
-                "Less frail: 14",
-                "Same: 57",
-                "More frail: 29",
-                "16 studies, 42,775 people living at home; one checklist of five physical signs of frailty"
-              ],
-              "source_line": "Kojima et al., Ageing Res Rev 2019"
-            },
-            "art": "10 by 10 icon array of simple person icons: 14 teal with an upward arrow shape, 57 pale grey plain, 29 burnt orange with a downward arrow shape. Groups contiguous and labelled.",
-            "data": [
-              {
-                "label": "Less frail",
-                "value": 14,
-                "display": "14 in 100",
-                "claim_id": "C05-07-a"
-              },
-              {
-                "label": "Stayed the same",
-                "value": 57,
-                "display": "57 in 100",
-                "claim_id": "C05-07-a"
-              },
-              {
-                "label": "More frail",
-                "value": 29,
-                "display": "29 in 100",
-                "claim_id": "C05-07-a"
-              }
-            ]
-          }
-        ],
-        "design_notes": "Shapes plus colour so meaning is not colour-only. Pooled figures total 100."
-      },
-      "alt_text": [
-        "Icon array of 100 people. Over about 4 years on average, in 16 studies of 42,775 older people living at home, 14 became less frail, 57 stayed the same and 29 became more frail. Among people who were frail, improvement was mostly to a milder early stage. One checklist of five physical signs of frailty was used."
-      ],
-      "attention_note": "A label many people assume is permanent.",
-      "gain_note": "Realistic odds of change and two questions to ask.",
-      "follow_note": "Balanced numbers for older people and families.",
-      "verification_notes": "Kojima 2019 abstract (C05-07-a, b): worsening shown beside improvement; percentages described as of people reassessed (handling of deaths not stated); one definition (five-item frailty phenotype), people living at home. Gill 2006 abstract (C05-07-c): under 1 in 100 per 18 months from frail to non-frail. ICFSR guideline abstract (C05-07-d) wording used instead of \"most consistent evidence\"; protein or calorie supplements are for people losing weight or undernourished. Removed from the earlier draft: the description of prefrail as one or two signs such as slow walking or weak grip (not in the claim file), and a \"few months\" reassessment interval (not supported). Advice to ask about reassessment and exercise is judgement.",
-      "tmp_id": "C05-P03",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [],
-      "visual_text": [
-        "100 older people living at home, about 4 years later on average",
-        "Frailty changed in both directions",
-        "Among people who were frail, improvement was mostly to a milder early stage (prefrail)",
+      "art": "Three panels, clear line style, captions under panels. Panel 1: a clinic room, a woman in her late 70s with short grey natural hair and dark brown skin, seated, talking with a male clinician in his 40s. Panel 2: same woman at home on a carpeted staircase, both hands on a wooden rail, placing both feet on each step. Panel 3: clinic again, clinician leaning in, listening. No text on surfaces inside drawings.",
+      "data": []
+     }
+    ],
+    "design_notes": "Warm sand backgrounds; captions laid out under panels. Label 'Illustrative example' top left."
+   },
+   "alt_text": [
+    "Three-panel comic. A clinician asks a woman in her late 70s about difficulty with stairs and she says no. At home she climbs one step at a time holding the rail with both hands. The clinician then asks whether she has changed how or how often she climbs. Illustrative; linked to later difficulty in Baltimore studies."
+   ],
+   "attention_note": "A familiar history question that gets a misleading no.",
+   "gain_note": "One exact question to add to a functional history.",
+   "follow_note": "Practical history-taking points with their evidence limits.",
+   "verification_notes": "Fried 2001 abstract (C05-02-a); Fried 2000 abstract odds ratios (C05-02-b, 'odds' wording); Weiss 2012 full text, question wording and 2012 citation (C05-02-c); Mänty 2007 abstract (C05-02-d); population limits (C05-02-e) in every version. No claim that early action prevents disability. Comic dialogue illustrative.",
+   "tmp_id": "C05-P02",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [
+    "Fried 2001 abstract gives women aged 70 to 80; the cohort was recruited at 70 to 79. Captions say \"in their 70s\"; LinkedIn gives 70 to 80 for Fried 2001 as sourced and \"in their 70s\" in the limits line."
+   ],
+   "visual_text": [
+    "Illustrative example",
+    "Two questions about the same stairs",
+    "Clinician: \"Any difficulty with the stairs?\" Patient: \"No, I manage.\"",
+    "At home, she climbs one step at a time, both hands on the rail.",
+    "Clinician: \"Have you changed how you do it, or how often?\" Patient: \"I only go up once a day now, and slowly.\"",
+    "Changing how you do a task, before any difficulty, was linked with later difficulty in more able women in their 70s in Baltimore (1990s studies).",
+    "Alasdair MacLullich",
+    "Fried et al. 2000, 2001; Weiss et al. 2012"
+   ],
+   "visual_files": [
+    "C05-P02.png"
+   ],
+   "visual_source": "visuals/src/C05-P02.html",
+   "visual_format": "comic strip",
+   "design_instructions": "Single 1080x1350 sand card, three horizontal comic panels (art left, caption right), illustrative badge. Panels: older Black woman in clinic with doctor; same woman on a staircase hands on rail; clinic with doctor leaning in. Drawn with kit.js; text from visual_brief.",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-07",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "public_explanation",
+   "title": "Frailty can move both ways",
+   "insight": "Frailty often changes over time. About 14 in 100 older people living at home became less frail over about 4 years, while 29 in 100 became more frail; improvement was most often by one step.",
+   "angle": "Public reassurance without false hope: show worsening next to improvement, show that improvement is mostly one step, and give the guideline first step (strength exercise; protein or calories if losing weight).",
+   "position_basis": "mixed: pooled cohort findings and guideline recommendations (empirical); the advice to ask for reassessment is judgement",
+   "captions": {
+    "x": "Being told you are frail describes where you are now. It can change, in both directions.\n\n16 studies followed 42,775 older people living at home. They were reassessed after about 4 years on average (range 1 to 10). 14 in 100 became less frail. 29 in 100 became more frail, about twice as many. 57 in 100 stayed the same. The studies used one checklist of five physical signs of frailty.\n\nAmong people who were frail, 40 in 100 improved to the early stage, called prefrail. Only 3 in 100 lost all signs of frailty.\n\nInternational guidelines name exercise that includes strength training as the first treatment, with extra protein or calories if you are losing weight or not getting enough nourishment.\n\nYou can ask what strength exercise is open to you, and when your frailty will be looked at again.",
+    "linkedin": "Being told you are frail describes where you are now. It can change, in both directions.\n\nA 2019 review pooled 16 studies of 42,775 older people living at home, followed for about 4 years on average (Kojima 2019). Of those reassessed:\n\n1. About 14 in 100 became less frail.\n2. About 29 in 100 became more frail.\n3. About 57 in 100 stayed the same.\n\nSo worsening was about twice as common as improvement. Improvement was real, though. People who were prefrail (the early stage of frailty) were much more likely to lose all frailty signs than people who were frail. About 23 in 100 prefrail people later showed none of the signs. About 18 in 100 became frail.\n\nAmong people who were frail, improvement was mostly to the early stage. About 40 in 100 moved to prefrail, about 55 in 100 stayed frail, and only about 3 in 100 later showed none of the signs. A US study of 754 people found the same: going straight from frail to not frail at all was very rare, under 1 in 100 in each 18-month period. That fits the 3 in 100 above, which covers about 4 years on average.\n\nThese figures come from people living at home, and all the studies used one checklist of five physical signs of frailty.\n\nInternational frailty guidelines recommend, as the first step, an exercise programme that includes strength training. They recommend protein or calorie supplements for people who are losing weight or undernourished. They also recommend a fuller assessment for anyone found to be frail (Dent 2019).\n\nIf you have been told you are frail, you can ask two things: what exercise to build strength is available to you, and when your frailty will be looked at again.",
+    "bluesky": "Frailty can change both ways. Over about 4 years, 14 in 100 older people at home became less frail and 29 in 100 more frail.\n\nAmong frail people, most improvement was to a milder stage.\n\nGuidelines name strength exercise as the first treatment. If called frail, ask when it will be looked at again.",
+    "threads": "Being called frail describes where you are now. It can change in both directions.\n\n16 studies followed 42,775 older people living at home for about 4 years on average. 14 in 100 became less frail and 29 in 100 more frail. Among frail people, 40 in 100 moved to a milder early stage and 3 in 100 lost all signs of frailty.\n\nGuidelines name exercise with strength training as the first treatment, plus protein or calories if you are losing weight.\n\nAsk when your frailty will be looked at again."
+   },
+   "source_reply": "Sources: https://doi.org/10.1016/j.arr.2019.01.010 | https://doi.org/10.1001/archinte.166.4.418 | https://doi.org/10.1007/s12603-019-1273-z",
+   "claims_used": [
+    "C05-07-a",
+    "C05-07-b",
+    "C05-07-c",
+    "C05-07-d"
+   ],
+   "sources_used": [
+    "PMID:30659942",
+    "PMID:16505261",
+    "PMID:31641726"
+   ],
+   "visual_brief": {
+    "format": "chart",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show both directions of change with a 10 by 10 icon array",
+      "text": {
+       "headline": "Frailty changed in both directions",
+       "kicker": "100 older people living at home, about 4 years later on average",
+       "body": "Among people who were frail, improvement was mostly to a milder early stage (prefrail)",
+       "items": [],
+       "labels": [
         "Less frail: 14",
         "Same: 57",
         "More frail: 29",
-        "16 studies, 42,775 people living at home; one checklist of five physical signs of frailty",
-        "Kojima et al., Ageing Res Rev 2019",
-        "Alasdair MacLullich | Care that works"
+        "16 studies, 42,775 people living at home; one checklist of five physical signs of frailty"
+       ],
+       "source_line": "Kojima et al., Ageing Res Rev 2019"
+      },
+      "art": "10 by 10 icon array of simple person icons: 14 teal with an upward arrow shape, 57 pale grey plain, 29 burnt orange with a downward arrow shape. Groups contiguous and labelled.",
+      "data": [
+       {
+        "label": "Less frail",
+        "value": 14,
+        "display": "14 in 100",
+        "claim_id": "C05-07-a"
+       },
+       {
+        "label": "Stayed the same",
+        "value": 57,
+        "display": "57 in 100",
+        "claim_id": "C05-07-a"
+       },
+       {
+        "label": "More frail",
+        "value": 29,
+        "display": "29 in 100",
+        "claim_id": "C05-07-a"
+       }
       ]
-    },
-    {
-      "cand_id": "C05-16",
-      "audience": "practitioners",
-      "series": "Teaching round",
-      "post_type": "teaching",
-      "title": "Two routes to the same CFS 6",
-      "insight": "The Clinical Frailty Scale counts dependence from any cause, so the same score can describe moderate dementia or a physical disability. The number alone does not say which.",
-      "angle": "Write the reason next to the number (practice suggestion, marked as judgement). No claim that outcomes differ by route.",
-      "position_basis": "mixed: scale definitions and developer guidance (empirical/documentary); recording habit is clinical judgement",
-      "captions": {
-        "x": "Two people can both score 6 on the Clinical Frailty Scale for different reasons.\n\nThe scale counts the help a person needs, from any cause. Its developers say level 6 can describe two different people. One has moderate dementia and can wash and dress only with prompting. The other thinks clearly but needs a person standing by because of a physical disability.\n\nFor people with dementia, the guidance says the frailty level generally follows the stage of dementia.\n\nThe score is a clinical judgement and the start of a care plan. We should write the reason next to it: \"CFS 6 (moderate dementia; walks independently)\".",
-        "linkedin": "Two people can both score 6 on the Clinical Frailty Scale (CFS) for different reasons.\n\nThe scale describes how much help a person needs, whatever the cause. Level 7, for example, means complete dependence for personal care, whether the cause is physical or cognitive.\n\nLevel 6 describes someone who needs help with all activities outside the home and with housework. They often have trouble with stairs, need help to bathe, and may need prompting or someone standing by while dressing.\n\nThe developers point out that this pattern fits two quite different people. One has moderate dementia and can wash and dress only with prompting. The other thinks clearly but needs a person standing by because of a physical disability (Rockwood and Theou 2020).\n\nThe guidance adds that in dementia the frailty level generally follows the stage of dementia: mild dementia with level 5, moderate with 6, severe with 7. \"Generally\" marks this as a guide to scoring, with exceptions.\n\nThe developers describe the score as a clinical judgement that summarises function, cognition and mobility. They say a care plan is still needed, and that predicting outcome also needs the severity of the current illness.\n\nNo study was found comparing outcomes for people who reach the same score by different routes, and no published guidance recommends recording the route. The suggestion below follows from how the scale is built.\n\nTwo example entries, not real patients: \"CFS 6 (moderate dementia; walks independently)\" and \"CFS 6 (severe arthritis; needs standby help)\". Each tells the next reader what kind of help to plan for.\n\nWe should write the reason next to the number.",
-        "bluesky": "A Clinical Frailty Scale score of 6 can mean moderate dementia with prompting to dress. It can also mean clear thinking with a physical disability, where someone must stand by. The scale counts help needed from any cause.\n\nWe should write the reason next to the number.",
-        "threads": "Two people can both score 6 on the Clinical Frailty Scale for different reasons.\n\nThe scale counts the help a person needs, from any cause. Its developers say level 6 fits someone with moderate dementia who can dress only with prompting, and someone with intact thinking who needs standby help because of a physical disability.\n\nWe should write the reason next to the number, e.g. \"CFS 6 (moderate dementia; walks independently)\"."
-      },
-      "source_reply": "Source: Rockwood and Theou, Can Geriatr J 2020 https://doi.org/10.5770/cgj.23.463",
-      "claims_used": [
-        "C05-16-a",
-        "C05-16-b",
-        "C05-16-c",
-        "C05-16-d",
-        "C05-16-e",
-        "C05-16-g"
-      ],
-      "sources_used": [
-        "PMID:32904824"
-      ],
-      "visual_brief": {
-        "format": "comparison",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Two drawn people with the same score and different reasons",
-            "text": {
-              "headline": "Same score, different reasons",
-              "kicker": "Illustrative example",
-              "body": "The scale counts help needed from any cause. Write the reason next to the number.",
-              "items": [],
-              "labels": [
-                "CFS 6: moderate dementia; walks independently; needs prompting to dress",
-                "CFS 6: thinking intact; physical disability; needs someone standing by"
-              ],
-              "source_line": "Rockwood and Theou, Can Geriatr J 2020"
-            },
-            "art": "Two side-by-side drawn scenes on warm sand, equal size. Left: a tall man in his 80s, white, walking steadily down a hallway in a cardigan and trousers, a carer beside him holding out a shirt. Right: a woman in her 70s of South Asian heritage, seated on a shower chair in an accessible bathroom, a support worker standing nearby with a towel, a walking frame beside her. Labels sit below each drawing, not inside it. Do not reproduce CFS pictograms or level text.",
-            "data": []
-          }
-        ],
-        "design_notes": "Equal visual weight both sides; no implication one is better off."
-      },
-      "alt_text": [
-        "Illustrative example of two people with the same Clinical Frailty Scale score of 6. Left: a man with moderate dementia who walks independently but needs prompting to dress. Right: a woman with intact thinking and a physical disability who needs someone standing by. The scale counts help needed from any cause; write the reason next to the number."
-      ],
-      "attention_note": "A number clinicians use daily that hides its route.",
-      "gain_note": "A simple documentation habit.",
-      "follow_note": "Scale-use teaching grounded in developer guidance.",
-      "verification_notes": "Rockwood and Theou 2020 full text and Figure 1 (C05-16-a to e). Level 6 wording is paraphrased (copyright). The two-person comparison follows the developers' statement that the level-6 pattern fits moderate dementia and intact thinking with physical disability needing standby help (C05-16-d); drawings and the two sample entries are labelled illustrative. Habit is judgement (C05-16-g); no outcome-by-route claim is made and the evidence gap is stated. Searching for outcome studies was limited.",
-      "tmp_id": "C05-P04",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [],
-      "visual_text": [
-        "Illustrative example",
-        "Same score, different reasons",
+     }
+    ],
+    "design_notes": "Shapes plus colour so meaning is not colour-only. Pooled figures total 100."
+   },
+   "alt_text": [
+    "Ten by ten array of 100 person icons: 14 teal with up arrows are less frail, 57 grey are the same, 29 orange with down arrows are more frail, about 4 years later on average. Pooled from 16 studies of 42,775 people living at home. Improvement among frail people was mostly to prefrail."
+   ],
+   "attention_note": "A label many people assume is permanent.",
+   "gain_note": "Realistic odds of change and two questions to ask.",
+   "follow_note": "Balanced numbers for older people and families.",
+   "verification_notes": "Kojima 2019 abstract (C05-07-a, b): worsening shown beside improvement; percentages described as of people reassessed (handling of deaths not stated); one definition (five-item frailty phenotype), people living at home. Gill 2006 abstract (C05-07-c): under 1 in 100 per 18 months from frail to non-frail. ICFSR guideline abstract (C05-07-d) wording used instead of \"most consistent evidence\"; protein or calorie supplements are for people losing weight or undernourished. Removed from the earlier draft: the description of prefrail as one or two signs such as slow walking or weak grip (not in the claim file), and a \"few months\" reassessment interval (not supported). Advice to ask about reassessment and exercise is judgement.",
+   "tmp_id": "C05-P03",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [],
+   "visual_text": [
+    "100 older people living at home, about 4 years later on average",
+    "Frailty changed in both directions",
+    "Among people who were frail, improvement was mostly to a milder early stage (prefrail)",
+    "Less frail: 14",
+    "Same: 57",
+    "More frail: 29",
+    "16 studies, 42,775 people living at home; one checklist of five physical signs of frailty",
+    "Alasdair MacLullich",
+    "Kojima et al., Ageing Res Rev 2019"
+   ],
+   "visual_files": [
+    "C05-P03.png"
+   ],
+   "visual_source": "visuals/src/C05-P03.html",
+   "visual_format": "chart",
+   "design_instructions": "Single card, 10x10 person icons (14 teal with up arrow, 57 grey, 29 orange with down arrow) with direct legend; claim C05-07-a (Kojima 2019).",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-16",
+   "audience": "practitioners",
+   "series": "Teaching round",
+   "post_type": "teaching",
+   "title": "Two routes to the same CFS 6",
+   "insight": "The Clinical Frailty Scale counts dependence from any cause, so the same score can describe moderate dementia or a physical disability. The number alone does not say which.",
+   "angle": "Write the reason next to the number (practice suggestion, marked as judgement). No claim that outcomes differ by route.",
+   "position_basis": "mixed: scale definitions and developer guidance (empirical/documentary); recording habit is clinical judgement",
+   "captions": {
+    "x": "Two people can both score 6 on the Clinical Frailty Scale for different reasons.\n\nThe scale counts the help a person needs, from any cause. Its developers say level 6 can describe two different people. One has moderate dementia and can wash and dress only with prompting. The other thinks clearly but needs a person standing by because of a physical disability.\n\nFor people with dementia, the guidance says the frailty level generally follows the stage of dementia.\n\nThe score is a clinical judgement and the start of a care plan. We should write the reason next to it: \"CFS 6 (moderate dementia; walks independently)\".",
+    "linkedin": "Two people can both score 6 on the Clinical Frailty Scale (CFS) for different reasons.\n\nThe scale describes how much help a person needs, whatever the cause. Level 7, for example, means complete dependence for personal care, whether the cause is physical or cognitive.\n\nLevel 6 describes someone who needs help with all activities outside the home and with housework. They often have trouble with stairs, need help to bathe, and may need prompting or someone standing by while dressing.\n\nThe developers point out that this pattern fits two quite different people. One has moderate dementia and can wash and dress only with prompting. The other thinks clearly but needs a person standing by because of a physical disability (Rockwood and Theou 2020).\n\nThe guidance adds that in dementia the frailty level generally follows the stage of dementia: mild dementia with level 5, moderate with 6, severe with 7. \"Generally\" marks this as a guide to scoring, with exceptions.\n\nThe developers describe the score as a clinical judgement that summarises function, cognition and mobility. They say a care plan is still needed, and that predicting outcome also needs the severity of the current illness.\n\nNo study was found comparing outcomes for people who reach the same score by different routes, and no published guidance recommends recording the route. The suggestion below follows from how the scale is built.\n\nTwo example entries, not real patients: \"CFS 6 (moderate dementia; walks independently)\" and \"CFS 6 (severe arthritis; needs standby help)\". Each tells the next reader what kind of help to plan for.\n\nWe should write the reason next to the number.",
+    "bluesky": "A Clinical Frailty Scale score of 6 can mean moderate dementia with prompting to dress. It can also mean clear thinking with a physical disability, where someone must stand by. The scale counts help needed from any cause.\n\nWe should write the reason next to the number.",
+    "threads": "Two people can both score 6 on the Clinical Frailty Scale for different reasons.\n\nThe scale counts the help a person needs, from any cause. Its developers say level 6 fits someone with moderate dementia who can dress only with prompting, and someone with intact thinking who needs standby help because of a physical disability.\n\nWe should write the reason next to the number, e.g. \"CFS 6 (moderate dementia; walks independently)\"."
+   },
+   "source_reply": "Source: Rockwood and Theou, Can Geriatr J 2020 https://doi.org/10.5770/cgj.23.463",
+   "claims_used": [
+    "C05-16-a",
+    "C05-16-b",
+    "C05-16-c",
+    "C05-16-d",
+    "C05-16-e",
+    "C05-16-g"
+   ],
+   "sources_used": [
+    "PMID:32904824"
+   ],
+   "visual_brief": {
+    "format": "comparison",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Two drawn people with the same score and different reasons",
+      "text": {
+       "headline": "Same score, different reasons",
+       "kicker": "Illustrative example",
+       "body": "The scale counts help needed from any cause. Write the reason next to the number.",
+       "items": [],
+       "labels": [
         "CFS 6: moderate dementia; walks independently; needs prompting to dress",
-        "CFS 6: thinking intact; physical disability; needs someone standing by",
-        "The scale counts help needed from any cause. Write the reason next to the number.",
-        "Rockwood and Theou, Can Geriatr J 2020",
-        "Alasdair MacLullich | Teaching round"
-      ]
-    },
-    {
-      "cand_id": "C05-24",
-      "audience": "public",
-      "series": "Ask this",
-      "post_type": "public_explanation",
-      "title": "What the frailty number in a letter means",
-      "insight": "\"CFS\" in a letter means the Clinical Frailty Scale, from 1 (very fit) to 9 (terminally ill). Levels 5 to 8 describe increasing need for help; level 4 needs no daily help. It is meant to describe your usual self.",
-      "angle": "A plain translation of the scale plus questions the person can ask.",
-      "position_basis": "empirical (scale definitions and developer guidance); the suggestion to ask is judgement",
-      "captions": {
-        "x": "\"CFS 6\" in a hospital letter means the Clinical Frailty Scale, which runs from 1 (very fit) to 9 (terminally ill).\n\nLevels 1 to 3 are fit or managing well. Level 4 is very mild frailty: you are slowed down, but need no help from others day to day.\n\nLevels 5 to 8 describe increasing need for help. At 5, help with things like money, transport or heavy housework. At 6, help outside the home, with housework and bathing. At 7, complete help with personal care; 8 is the same, near the end of life. Level 9, called terminally ill, is for people expected to live less than about 6 months. They are not otherwise severely frail, and many are still active.\n\nThe score should describe your usual self, such as two weeks before this illness. Level 9 is the exception, based on the current illness. Doctors use it as one input to plan care, so you can ask what yours was based on.",
-        "linkedin": "\"CFS 6\" in a hospital letter with no explanation means the Clinical Frailty Scale.\n\nThe scale has 9 levels, from 1 (very fit) to 9 (terminally ill). In plain words:\n\n1. Levels 1 to 3: very fit, fit, or managing well.\n2. Level 4, very mild frailty: symptoms slow you down, but you do not need help from others day to day.\n3. Level 5, mild frailty: help with things like money, transport and heavy housework.\n4. Level 6, moderate frailty: help with everything outside the home, with housework and with bathing.\n5. Level 7, severe frailty: needing others for all personal care.\n6. Level 8, very severe frailty: the same, and approaching the end of life.\n7. Level 9: expected to live less than about 6 months, but not otherwise severely frail. Many are still active.\n\nSo levels 5 to 8 describe increasing need for help. Older letters may use earlier names, such as \"vulnerable\" for level 4.\n\nThe score is meant to describe how you usually are, not how you seem while ill. The developers give the example of how someone was two weeks before coming into hospital. Level 9 is the one exception, based on the current illness.\n\nDoctors use the score to help judge how someone may cope with illness and treatment and to plan care. It is one input and depends on a clinician's judgement. It was designed for older people. It is not well tested in younger people or in people with a long-standing single disability (Rockwood and Theou 2020). The score is one input. It should not be the only thing that decides treatment.\n\nYou can ask: what was my score based on, does it describe me before this illness, and what is it being used for?",
-        "bluesky": "\"CFS 6\" in a letter means the Clinical Frailty Scale, 1 (very fit) to 9 (terminally ill). Levels 5 to 8 mean increasing need for help; level 4 needs no daily help.\n\nIt should describe your usual self. Ask what it was based on.",
-        "threads": "\"CFS 6\" in a hospital letter means the Clinical Frailty Scale: 1 is very fit, 9 is terminally ill.\n\nLevel 4 means symptoms slow you down but you need no daily help. Levels 5 to 8 describe increasing need for help; 6 means help outside the home, with housework and bathing.\n\nIt should describe your usual self, such as two weeks before the illness. Ask what yours was based on and what it is being used for."
+        "CFS 6: thinking intact; physical disability; needs someone standing by"
+       ],
+       "source_line": "Rockwood and Theou, Can Geriatr J 2020"
       },
-      "source_reply": "Source: Rockwood and Theou, Can Geriatr J 2020 https://doi.org/10.5770/cgj.23.463",
-      "claims_used": [
-        "C05-24-a",
-        "C05-24-b",
-        "C05-24-c",
-        "C05-24-d",
-        "C05-24-e",
-        "C05-24-f"
-      ],
-      "sources_used": [
-        "PMID:32904824"
-      ],
-      "visual_brief": {
-        "format": "diagram",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Plain-word ladder of the 9 levels",
-            "text": {
-              "headline": "What the frailty number in your letter means",
-              "kicker": "Clinical Frailty Scale (CFS), in plain words",
-              "body": "Scored on your usual self, such as two weeks before the illness",
-              "items": [
-                "1 to 3: fit or managing well",
-                "4: slowed down, no daily help needed",
-                "5: help with money, transport, heavy housework",
-                "6: help outside the home, housework, bathing",
-                "7: help with all personal care",
-                "8: as 7, and near the end of life",
-                "9: expected to live under about 6 months, not otherwise severely frail"
-              ],
-              "labels": [
-                "Ask: what was it based on?"
-              ],
-              "source_line": "Rockwood and Theou, Can Geriatr J 2020"
-            },
-            "art": "A simple drawn ladder of 9 rungs, grouped by bracket for 1 to 3; each rung with its plain-word label beside it. No official pictograms.",
-            "data": []
-          },
-          {
-            "n": 2,
-            "purpose": "Questions to ask",
-            "text": {
-              "headline": "Three questions about your score",
-              "kicker": null,
-              "body": null,
-              "items": [
-                "What was my score based on?",
-                "Does it describe me before this illness?",
-                "What is it being used for?"
-              ],
-              "labels": [],
-              "source_line": "Rockwood and Theou, Can Geriatr J 2020"
-            },
-            "art": "Drawn illustration: an older Black woman and her adult son at a kitchen table reading a letter together; papers without legible text.",
-            "data": []
-          }
-        ],
-        "design_notes": "Carousel of 2. Paraphrase only; do not copy scale text or pictograms."
-      },
-      "alt_text": [
-        "Ladder diagram of the Clinical Frailty Scale in plain words: 1 to 3 fit or managing well; 4 slowed down, no daily help; 5 help with money, transport, heavy housework; 6 help outside the home, housework, bathing; 7 help with all personal care; 8 as 7 and near end of life; 9 expected to live under about 6 months. Scored on your usual self.",
-        "Drawing of an older woman and her son reading a letter at a kitchen table, with three questions: What was my score based on? Does it describe me before this illness? What is it being used for?"
-      ],
-      "attention_note": "An unexplained number in their own letter.",
-      "gain_note": "A translation and three questions.",
-      "follow_note": "Plain explanations of hospital jargon.",
-      "verification_notes": "All from Rockwood and Theou 2020 full text and Figure 1 (C05-24-a to f). Editor's guidance applied: levels 5 to 8 describe increasing need for help; level 4 (very mild frailty) needs no daily help. Level 9 described as the one level based on the current illness; two weeks is given as an example of the baseline, not a strict rule. Score described as one input needing clinical judgement. Visual paraphrases the levels in plain words (copyright) and does not reproduce pictograms or level text. The sentence that a person's worth does not depend on a number, and that the score alone should not decide treatment, is ethical judgement, not a finding. One short series invitation (no schedule).",
-      "tmp_id": "C05-P05",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [],
-      "visual_text": [
-        "Clinical Frailty Scale (CFS), in plain words",
-        "What the frailty number in your letter means",
-        "Scored on your usual self, such as two weeks before the illness",
+      "art": "Two side-by-side drawn scenes on warm sand, equal size. Left: a tall man in his 80s, white, walking steadily down a hallway in a cardigan and trousers, a carer beside him holding out a shirt. Right: a woman in her 70s of South Asian heritage, seated on a shower chair in an accessible bathroom, a support worker standing nearby with a towel, a walking frame beside her. Labels sit below each drawing, not inside it. Do not reproduce CFS pictograms or level text.",
+      "data": []
+     }
+    ],
+    "design_notes": "Equal visual weight both sides; no implication one is better off."
+   },
+   "alt_text": [
+    "Two drawn scenes, both scoring CFS 6. On the left an older man with moderate dementia walks on his own while a carer helps with dressing. On the right a woman with intact thinking sits on a shower stool, a walking frame beside her, with a support worker standing by. Write the reason next to the number."
+   ],
+   "attention_note": "A number clinicians use daily that hides its route.",
+   "gain_note": "A simple documentation habit.",
+   "follow_note": "Scale-use teaching grounded in developer guidance.",
+   "verification_notes": "Rockwood and Theou 2020 full text and Figure 1 (C05-16-a to e). Level 6 wording is paraphrased (copyright). The two-person comparison follows the developers' statement that the level-6 pattern fits moderate dementia and intact thinking with physical disability needing standby help (C05-16-d); drawings and the two sample entries are labelled illustrative. Habit is judgement (C05-16-g); no outcome-by-route claim is made and the evidence gap is stated. Searching for outcome studies was limited.",
+   "tmp_id": "C05-P04",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [],
+   "visual_text": [
+    "Illustrative example",
+    "Same score, different reasons",
+    "CFS 6: moderate dementia; walks independently; needs prompting to dress",
+    "CFS 6: thinking intact; physical disability; needs someone standing by",
+    "The scale counts help needed from any cause. Write the reason next to the number.",
+    "Alasdair MacLullich",
+    "Rockwood and Theou, Can Geriatr J 2020"
+   ],
+   "visual_files": [
+    "C05-P04.png"
+   ],
+   "visual_source": "visuals/src/C05-P04.html",
+   "visual_format": "comparison",
+   "design_instructions": "Single sand card, two equal drawn panels: older white man walking with carer helping to dress; older South Asian-heritage style woman on shower stool with frame and support worker. Labels below. No CFS pictograms.",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-24",
+   "audience": "public",
+   "series": "Ask this",
+   "post_type": "public_explanation",
+   "title": "What the frailty number in a letter means",
+   "insight": "\"CFS\" in a letter means the Clinical Frailty Scale, from 1 (very fit) to 9 (terminally ill). Levels 5 to 8 describe increasing need for help; level 4 needs no daily help. It is meant to describe your usual self.",
+   "angle": "A plain translation of the scale plus questions the person can ask.",
+   "position_basis": "empirical (scale definitions and developer guidance); the suggestion to ask is judgement",
+   "captions": {
+    "x": "\"CFS 6\" in a hospital letter means the Clinical Frailty Scale, which runs from 1 (very fit) to 9 (terminally ill).\n\nLevels 1 to 3 are fit or managing well. Level 4 is very mild frailty: you are slowed down, but need no help from others day to day.\n\nLevels 5 to 8 describe increasing need for help. At 5, help with things like money, transport or heavy housework. At 6, help outside the home, with housework and bathing. At 7, complete help with personal care; 8 is the same, near the end of life. Level 9, called terminally ill, is for people expected to live less than about 6 months. They are not otherwise severely frail, and many are still active.\n\nThe score should describe your usual self, such as two weeks before this illness. Level 9 is the exception, based on the current illness. Doctors use it as one input to plan care, so you can ask what yours was based on.",
+    "linkedin": "\"CFS 6\" in a hospital letter with no explanation means the Clinical Frailty Scale.\n\nThe scale has 9 levels, from 1 (very fit) to 9 (terminally ill). In plain words:\n\n1. Levels 1 to 3: very fit, fit, or managing well.\n2. Level 4, very mild frailty: symptoms slow you down, but you do not need help from others day to day.\n3. Level 5, mild frailty: help with things like money, transport and heavy housework.\n4. Level 6, moderate frailty: help with everything outside the home, with housework and with bathing.\n5. Level 7, severe frailty: needing others for all personal care.\n6. Level 8, very severe frailty: the same, and approaching the end of life.\n7. Level 9: expected to live less than about 6 months, but not otherwise severely frail. Many are still active.\n\nSo levels 5 to 8 describe increasing need for help. Older letters may use earlier names, such as \"vulnerable\" for level 4.\n\nThe score is meant to describe how you usually are, not how you seem while ill. The developers give the example of how someone was two weeks before coming into hospital. Level 9 is the one exception, based on the current illness.\n\nDoctors use the score to help judge how someone may cope with illness and treatment and to plan care. It is one input and depends on a clinician's judgement. It was designed for older people. It is not well tested in younger people or in people with a long-standing single disability (Rockwood and Theou 2020). The score is one input. It should not be the only thing that decides treatment.\n\nYou can ask: what was my score based on, does it describe me before this illness, and what is it being used for?",
+    "bluesky": "\"CFS 6\" in a letter means the Clinical Frailty Scale, 1 (very fit) to 9 (terminally ill). Levels 5 to 8 mean increasing need for help; level 4 needs no daily help.\n\nIt should describe your usual self. Ask what it was based on.",
+    "threads": "\"CFS 6\" in a hospital letter means the Clinical Frailty Scale: 1 is very fit, 9 is terminally ill.\n\nLevel 4 means symptoms slow you down but you need no daily help. Levels 5 to 8 describe increasing need for help; 6 means help outside the home, with housework and bathing.\n\nIt should describe your usual self, such as two weeks before the illness. Ask what yours was based on and what it is being used for."
+   },
+   "source_reply": "Source: Rockwood and Theou, Can Geriatr J 2020 https://doi.org/10.5770/cgj.23.463",
+   "claims_used": [
+    "C05-24-a",
+    "C05-24-b",
+    "C05-24-c",
+    "C05-24-d",
+    "C05-24-e",
+    "C05-24-f"
+   ],
+   "sources_used": [
+    "PMID:32904824"
+   ],
+   "visual_brief": {
+    "format": "diagram",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Plain-word ladder of the 9 levels",
+      "text": {
+       "headline": "What the frailty number in your letter means",
+       "kicker": "Clinical Frailty Scale (CFS), in plain words",
+       "body": "Scored on your usual self, such as two weeks before the illness",
+       "items": [
         "1 to 3: fit or managing well",
         "4: slowed down, no daily help needed",
         "5: help with money, transport, heavy housework",
         "6: help outside the home, housework, bathing",
         "7: help with all personal care",
         "8: as 7, and near the end of life",
-        "9: expected to live under about 6 months, not otherwise severely frail",
-        "Ask: what was it based on?",
-        "Rockwood and Theou, Can Geriatr J 2020",
-        "Three questions about your score",
+        "9: expected to live under about 6 months, not otherwise severely frail"
+       ],
+       "labels": [
+        "Ask: what was it based on?"
+       ],
+       "source_line": "Rockwood and Theou, Can Geriatr J 2020"
+      },
+      "art": "A simple drawn ladder of 9 rungs, grouped by bracket for 1 to 3; each rung with its plain-word label beside it. No official pictograms.",
+      "data": []
+     },
+     {
+      "n": 2,
+      "purpose": "Questions to ask",
+      "text": {
+       "headline": "Three questions about your score",
+       "kicker": null,
+       "body": null,
+       "items": [
         "What was my score based on?",
         "Does it describe me before this illness?",
-        "What is it being used for?",
-        "Rockwood and Theou, Can Geriatr J 2020",
-        "Alasdair MacLullich | Ask this"
-      ]
-    },
-    {
-      "cand_id": "C05-19",
-      "audience": "public",
-      "series": "Care that works",
-      "post_type": "good_care",
-      "title": "An occupational therapist, a nurse and a handyperson",
-      "insight": "A US trial that worked on both the person and the home reduced difficulty with basic daily tasks such as washing and dressing (on an overall score) at 5 months, but the gain faded by 12 months and a later trial after hospital did not repeat it.",
-      "angle": "Revised angle: good care that looks at both person and house, with the limits stated as plainly as the benefit; action as a question, no provider named.",
-      "position_basis": "mixed: trial findings (empirical); the suggestion to ask for a combined look is judgement",
-      "captions": {
-        "x": "Difficulty with everyday tasks can come from two places: what your body can do, and how your home is set up.\n\nA Baltimore trial included 300 older people on low incomes. Half were offered up to 10 home visits from an occupational therapist, a nurse and a handyperson. The visits worked on goals each person chose. The rest had social visits. At 5 months the first group reported less difficulty with basic daily tasks, on an overall score. The tasks included washing, dressing and using the toilet. About 8 in 10 of those who answered said it made life easier a great deal, against 4 in 10 of those given social visits.\n\nHousehold tasks did not clearly improve. By 12 months the difference was no longer clear. A 2025 trial of the same programme after hospital did not clearly improve basic daily tasks.\n\nIf tasks are getting harder, ask whether someone can look at both you and your home.",
-        "linkedin": "Difficulty with everyday tasks can come from two places: what your body can do, and how your home is set up.\n\nA US trial called CAPABLE worked on both (Szanton 2019). 300 older people on low incomes in Baltimore, who had difficulty with everyday tasks, took part. About half were offered up to 10 home visits over 5 months: up to 6 from an occupational therapist, up to 4 from a nurse, and repairs or equipment from a handyperson. The visits worked on goals each person chose. The comparison group had 10 friendly social visits.\n\nAfter 5 months, people who had the programme reported less difficulty with basic tasks such as washing, dressing, using the toilet and getting in and out of bed. On a scale of difficulty with daily tasks, from 0 to 16, their average score was about 30% lower than the comparison group's.\n\nAbout 8 in 10 said it made their life easier a great deal, against about 4 in 10 with social visits.\n\nLimits:\n\n1. Household tasks such as shopping and cooking did not clearly improve.\n2. At 12 months, seven months after the visits stopped, the difference between the groups was no longer clear.\n3. A 2025 trial tested the same programme in 268 people about 60 days after leaving hospital. All had already had home health care. Basic daily tasks did not clearly improve compared with no further care. A measure of walking and stairs improved more.\n4. Most participants were Black women with low incomes in one US city.\n\nJudgement: an assessment of difficulty at home should look at the person and the house together. If daily tasks are getting harder for you, ask whether an occupational therapist can look at how you do things and at your home.",
-        "bluesky": "A US trial of 300 low-income older people sent an occupational therapist, nurse and handyperson to half. The rest got social visits. At 5 months the first half reported less difficulty with washing and dressing; by 12 months the difference was unclear.\n\nAsk for someone to look at you and your home.",
-        "threads": "Difficulty at home can come from your body or your home.\n\nA US trial of 300 older people on low incomes sent an occupational therapist, nurse and handyperson to half. At 5 months they reported less difficulty with basic daily tasks such as washing and dressing, on an overall score, than those given social visits. The difference was not clear by 12 months. A 2025 trial after hospital did not clearly improve daily tasks.\n\nIf tasks are getting harder, ask for someone to look at you and your home."
+        "What is it being used for?"
+       ],
+       "labels": [],
+       "source_line": "Rockwood and Theou, Can Geriatr J 2020"
       },
-      "source_reply": "Sources: https://doi.org/10.1001/jamainternmed.2018.6026 | https://doi.org/10.1111/jgs.70116",
-      "claims_used": [
-        "C05-19-a",
-        "C05-19-b",
-        "C05-19-c",
-        "C05-19-d",
-        "C05-19-e",
-        "C05-19-g",
-        "C05-19-h"
-      ],
-      "sources_used": [
-        "PMID:30615024",
-        "PMID:40990312"
-      ],
-      "visual_brief": {
-        "format": "annotated scene",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Show the three roles working on person and home",
-            "text": {
-              "headline": "Working on the person and the home together",
-              "kicker": "Illustrative example of the kind of visit tested",
-              "body": "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
-              "items": [
-                "1. Occupational therapist: up to 6 visits, working on a goal the person chose",
-                "2. Nurse: up to 4 visits",
-                "3. Handyperson: repairs and equipment, such as steadying the stairs",
-                "4. The person's own goal sets the plan"
-              ],
-              "labels": [],
-              "source_line": "Szanton et al., JAMA Intern Med 2019"
-            },
-            "art": "Drawn cutaway of a modest two-storey terraced house: living room, a staircase and a kitchen visible. An older Black woman with a walking stick stands beside an armchair talking with a female occupational therapist; a male nurse sits at a small table with her papers (no legible text); on the staircase a handyperson on one knee steadies a loose handrail with a drill. Numbered callouts 1 to 4 are placed outside the drawing with leader lines. No writing on any surface in the scene.",
-            "data": []
-          }
-        ],
-        "design_notes": "Warm sand background; callout text outside the scene; no writing on surfaces."
-      },
-      "alt_text": [
-        "Cutaway of a home: an occupational therapist talks with an older woman beside an armchair, a nurse sits with her at a table, and a handyperson steadies a handrail on the stairs. Caption: US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months."
-      ],
-      "attention_note": "An unusual team including a handyperson.",
-      "gain_note": "A reason to ask for a combined person-and-home assessment, with honest limits.",
-      "follow_note": "Good care examples told with their limits.",
-      "verification_notes": "Szanton 2019 full text (C05-19-a, b, c, d, e, g): design, 5-month result, unclear household-task result, 12-month fade, 8 in 10 vs 4 in 10 survey of respondents, population limits. Szanton 2025 abstract (C05-19-h). The 30% is a relative comparison of average scores and is not used in captions. No UK provider or availability is claimed (C05-19-i not found). Scene callouts keep to roles and visit numbers the trial reports; nurse content (pain, medicines) removed because it is not in the claim file. \"Two places\" framing is interpretation, not a trial finding.",
-      "tmp_id": "C05-P06",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [],
-      "visual_text": [
-        "Illustrative example of the kind of visit tested",
-        "Working on the person and the home together",
-        "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
+      "art": "Drawn illustration: an older Black woman and her adult son at a kitchen table reading a letter together; papers without legible text.",
+      "data": []
+     }
+    ],
+    "design_notes": "Carousel of 2. Paraphrase only; do not copy scale text or pictograms."
+   },
+   "alt_text": [
+    "Ladder of Clinical Frailty Scale levels in plain words: 1 to 3 fit or managing well; 4 slowed down; 5 help with money, transport, heavy housework; 6 help outside the home and bathing; 7 all personal care; 8 as 7, near end of life; 9 under about 6 months. Ask what the score was based on.",
+    "Three questions to ask about a frailty score: what was it based on, does it describe me before this illness, and what is it being used for. A drawn older Black woman and her adult son sit at a kitchen table with a paper between them."
+   ],
+   "attention_note": "An unexplained number in their own letter.",
+   "gain_note": "A translation and three questions.",
+   "follow_note": "Plain explanations of hospital jargon.",
+   "verification_notes": "All from Rockwood and Theou 2020 full text and Figure 1 (C05-24-a to f). Editor's guidance applied: levels 5 to 8 describe increasing need for help; level 4 (very mild frailty) needs no daily help. Level 9 described as the one level based on the current illness; two weeks is given as an example of the baseline, not a strict rule. Score described as one input needing clinical judgement. Visual paraphrases the levels in plain words (copyright) and does not reproduce pictograms or level text. The sentence that a person's worth does not depend on a number, and that the score alone should not decide treatment, is ethical judgement, not a finding. One short series invitation (no schedule).",
+   "tmp_id": "C05-P05",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [],
+   "visual_text": [
+    "Clinical Frailty Scale (CFS), in plain words",
+    "What the frailty number in your letter means",
+    "Scored on your usual self, such as two weeks before the illness",
+    "1 to 3: fit or managing well",
+    "4: slowed down, no daily help needed",
+    "5: help with money, transport, heavy housework",
+    "6: help outside the home, housework, bathing",
+    "7: help with all personal care",
+    "8: as 7, and near the end of life",
+    "9: expected to live under about 6 months, not otherwise severely frail",
+    "Ask: what was it based on?",
+    "Alasdair MacLullich",
+    "Rockwood and Theou, Can Geriatr J 2020",
+    "Three questions about your score",
+    "What was my score based on?",
+    "Does it describe me before this illness?",
+    "What is it being used for?",
+    "Alasdair MacLullich",
+    "Rockwood and Theou, Can Geriatr J 2020"
+   ],
+   "visual_files": [
+    "C05-P05_1.png",
+    "C05-P05_2.png"
+   ],
+   "visual_source": "visuals/src/C05-P05.html",
+   "visual_format": "diagram",
+   "design_instructions": "Carousel of 2. Card 1: ladder of rows with bar widths rising by level, deep teal panel 'Ask'. Card 2: three question ticks and kitchen-table scene (older Black woman and adult son, blank notepad). Paraphrase only.",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-19",
+   "audience": "public",
+   "series": "Care that works",
+   "post_type": "good_care",
+   "title": "An occupational therapist, a nurse and a handyperson",
+   "insight": "A US trial that worked on both the person and the home reduced difficulty with basic daily tasks such as washing and dressing (on an overall score) at 5 months, but the gain faded by 12 months and a later trial after hospital did not repeat it.",
+   "angle": "Revised angle: good care that looks at both person and house, with the limits stated as plainly as the benefit; action as a question, no provider named.",
+   "position_basis": "mixed: trial findings (empirical); the suggestion to ask for a combined look is judgement",
+   "captions": {
+    "x": "Difficulty with everyday tasks can come from two places: what your body can do, and how your home is set up.\n\nA Baltimore trial included 300 older people on low incomes. Half were offered up to 10 home visits from an occupational therapist, a nurse and a handyperson. The visits worked on goals each person chose. The rest had social visits. At 5 months the first group reported less difficulty with basic daily tasks, on an overall score. The tasks included washing, dressing and using the toilet. About 8 in 10 of those who answered said it made life easier a great deal, against 4 in 10 of those given social visits.\n\nHousehold tasks did not clearly improve. By 12 months the difference was no longer clear. A 2025 trial of the same programme after hospital did not clearly improve basic daily tasks.\n\nIf tasks are getting harder, ask whether someone can look at both you and your home.",
+    "linkedin": "Difficulty with everyday tasks can come from two places: what your body can do, and how your home is set up.\n\nA US trial called CAPABLE worked on both (Szanton 2019). 300 older people on low incomes in Baltimore, who had difficulty with everyday tasks, took part. About half were offered up to 10 home visits over 5 months: up to 6 from an occupational therapist, up to 4 from a nurse, and repairs or equipment from a handyperson. The visits worked on goals each person chose. The comparison group had 10 friendly social visits.\n\nAfter 5 months, people who had the programme reported less difficulty with basic tasks such as washing, dressing, using the toilet and getting in and out of bed. On a scale of difficulty with daily tasks, from 0 to 16, their average score was about 30% lower than the comparison group's.\n\nAbout 8 in 10 said it made their life easier a great deal, against about 4 in 10 with social visits.\n\nLimits:\n\n1. Household tasks such as shopping and cooking did not clearly improve.\n2. At 12 months, seven months after the visits stopped, the difference between the groups was no longer clear.\n3. A 2025 trial tested the same programme in 268 people about 60 days after leaving hospital. All had already had home health care. Basic daily tasks did not clearly improve compared with no further care. A measure of walking and stairs improved more.\n4. Most participants were Black women with low incomes in one US city.\n\nJudgement: an assessment of difficulty at home should look at the person and the house together. If daily tasks are getting harder for you, ask whether an occupational therapist can look at how you do things and at your home.",
+    "bluesky": "A US trial of 300 low-income older people sent an occupational therapist, nurse and handyperson to half. The rest got social visits. At 5 months the first half reported less difficulty with washing and dressing; by 12 months the difference was unclear.\n\nAsk for someone to look at you and your home.",
+    "threads": "Difficulty at home can come from your body or your home.\n\nA US trial of 300 older people on low incomes sent an occupational therapist, nurse and handyperson to half. At 5 months they reported less difficulty with basic daily tasks such as washing and dressing, on an overall score, than those given social visits. The difference was not clear by 12 months. A 2025 trial after hospital did not clearly improve daily tasks.\n\nIf tasks are getting harder, ask for someone to look at you and your home."
+   },
+   "source_reply": "Sources: https://doi.org/10.1001/jamainternmed.2018.6026 | https://doi.org/10.1111/jgs.70116",
+   "claims_used": [
+    "C05-19-a",
+    "C05-19-b",
+    "C05-19-c",
+    "C05-19-d",
+    "C05-19-e",
+    "C05-19-g",
+    "C05-19-h"
+   ],
+   "sources_used": [
+    "PMID:30615024",
+    "PMID:40990312"
+   ],
+   "visual_brief": {
+    "format": "annotated scene",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the three roles working on person and home",
+      "text": {
+       "headline": "Working on the person and the home together",
+       "kicker": "Illustrative example of the kind of visit tested",
+       "body": "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
+       "items": [
         "1. Occupational therapist: up to 6 visits, working on a goal the person chose",
         "2. Nurse: up to 4 visits",
         "3. Handyperson: repairs and equipment, such as steadying the stairs",
-        "4. The person's own goal sets the plan",
-        "Szanton et al., JAMA Intern Med 2019",
-        "Alasdair MacLullich | Care that works"
-      ]
-    },
-    {
-      "cand_id": "C05-08",
-      "audience": "practitioners",
-      "series": "Reading the evidence",
-      "post_type": "evidence_interpretation",
-      "title": "Where comprehensive geriatric assessment has shown benefit",
-      "insight": "Hospital comprehensive geriatric assessment has high-certainty evidence: about 3 more in 100 alive and at home, 3 to 4 fewer moved into care homes. For frail people at home, trials found little or no difference in deaths or care home moves.",
-      "angle": "The same name covers different services; judge a service by the plan and follow-up, and match claims to the evidence for the setting.",
-      "position_basis": "mixed: Cochrane findings (empirical); the standard for services is judgement",
-      "captions": {
-        "x": "Comprehensive geriatric assessment (CGA) has good evidence of modest benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves.\n\nIn a Cochrane review of 29 hospital trials, about 60 in 100 were alive and at home 3 to 12 months later with CGA, against 56 in 100 without. About 15 in 100 had moved into a care home, against 19. Deaths were 23 in 100 in both groups, and need for help with daily tasks barely differed.\n\nIn 21 studies of frail people living at home, unplanned hospital admissions may be lower, but the evidence is low certainty.\n\nIn these reviews CGA means a team assessment followed by a coordinated plan that is followed up. Judgement: a service using the name should be able to show both.",
-        "linkedin": "Comprehensive geriatric assessment (CGA) has good evidence of modest benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves. They found a possible reduction in unplanned admissions, on low-certainty evidence. The name covers both settings, so it helps to know which is which.\n\nIn the Cochrane reviews, CGA means a team assessing a frail older person's medical, mental and functional problems, then making and following up a coordinated plan of treatment. A form or a one-off assessment on its own is not what was tested.\n\nHospital (Ellis 2017; 29 trials, 13,766 people; each result below comes from 14 to 21 of these trials):\n\n1. Alive and living at home 3 to 12 months later: about 60 in 100 with CGA, 56 in 100 without (high certainty).\n2. Moved into a care home: about 15 in 100 against 19 in 100.\n3. Deaths: 23 in 100 in both groups.\n4. Help needed with daily tasks: little or no difference.\n\nThe effects are modest, and trials were mostly in high-income countries over several decades. An earlier analysis suggested dedicated wards did better than visiting teams; the 2017 update said the data were too few to tell.\n\nFrail people at home (Briggs 2022; 21 studies): probably little or no difference in deaths, and little or no difference in care home moves over about a year. It may reduce unplanned hospital admissions, but that evidence is low certainty.\n\nMy judgement: a service that uses the name should be able to show the plan and the follow-up, not only the assessment. Claims for community services should match the more modest evidence, without dismissing them.",
-        "bluesky": "Cochrane, 29 hospital trials: with geriatric assessment about 60 in 100 were alive and at home at 3 to 12 months, vs 56 without. Fewer moved into care homes. Deaths were the same.\n\nIn 21 studies at home, little or no difference in deaths or care home moves. Tested: team assessment, plan, follow-up.",
-        "threads": "Comprehensive geriatric assessment in hospital: in 29 trials, about 60 in 100 were alive and at home 3 to 12 months later, against 56 in 100 without. Fewer went into care homes. Deaths were the same.\n\nFor frail people at home, 21 studies showed probably little or no difference in deaths or care home moves, and possibly fewer unplanned admissions (weak evidence).\n\nThe tested model is a team assessment plus a plan that is followed up. Judgement: a service using the name should show both."
+        "4. The person's own goal sets the plan"
+       ],
+       "labels": [],
+       "source_line": "Szanton et al., JAMA Intern Med 2019"
       },
-      "source_reply": "Sources: https://doi.org/10.1002/14651858.CD006211.pub3 | https://doi.org/10.1002/14651858.CD012705.pub2 | https://doi.org/10.1136/bmj.d6553",
-      "claims_used": [
-        "C05-08-a",
-        "C05-08-b",
-        "C05-08-c",
-        "C05-08-e",
-        "C05-08-f",
-        "C05-08-g"
-      ],
-      "sources_used": [
-        "PMID:28898390",
-        "PMID:35521829",
-        "PMID:22034146"
-      ],
-      "visual_brief": {
-        "format": "chart",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Hospital absolute effects per 100",
-            "text": {
-              "headline": "Specialist assessment in hospital: per 100 people",
-              "kicker": "Cochrane review of 29 trials; each result from 14 to 21 trials; 3 to 12 months",
-              "body": null,
-              "items": [],
-              "labels": [
-                "Alive and at home: about 60 with, about 56 without",
-                "Moved into a care home: about 15 with, about 19 without",
-                "Died: 23 with, 23 without"
-              ],
-              "source_line": "Ellis et al., Cochrane 2017"
-            },
-            "art": "Paired horizontal bars for three outcomes; 'with CGA' solid teal, 'without' hatched grey, values printed at bar ends.",
-            "data": [
-              {
-                "label": "Alive at home, with",
-                "value": 60,
-                "display": "about 60 in 100",
-                "claim_id": "C05-08-b"
-              },
-              {
-                "label": "Alive at home, without",
-                "value": 56,
-                "display": "about 56 in 100",
-                "claim_id": "C05-08-b"
-              },
-              {
-                "label": "Moved into a care home, with",
-                "value": 15,
-                "display": "about 15 in 100",
-                "claim_id": "C05-08-b"
-              },
-              {
-                "label": "Moved into a care home, without",
-                "value": 19,
-                "display": "about 19 in 100",
-                "claim_id": "C05-08-b"
-              },
-              {
-                "label": "Died, with",
-                "value": 23,
-                "display": "23 in 100",
-                "claim_id": "C05-08-b"
-              },
-              {
-                "label": "Died, without",
-                "value": 23,
-                "display": "23 in 100",
-                "claim_id": "C05-08-b"
-              }
-            ]
-          },
-          {
-            "n": 2,
-            "purpose": "Contrast with community evidence in words",
-            "text": {
-              "headline": "At home, the trials found little or no difference in deaths or care home moves",
-              "kicker": "21 studies of frail older people living at home",
-              "body": "Little or no difference in deaths or care home moves. May reduce unplanned admissions (low certainty).",
-              "items": [
-                "What was tested: team assessment, a coordinated plan, and follow-up"
-              ],
-              "labels": [],
-              "source_line": "Briggs et al., Cochrane 2022"
-            },
-            "art": "Statement card, no chart (absolute effects unavailable).",
-            "data": []
-          }
-        ],
-        "design_notes": "Carousel of 2. Keep 'about' on numbers."
-      },
-      "alt_text": [
-        "Bar chart from a Cochrane review of 29 hospital trials (each result from 14 to 21 trials), at 3 to 12 months, per 100 people: alive and at home about 60 with specialist geriatric assessment versus 56 without; moved into a care home about 15 versus 19; died 23 in both.",
-        "Text card: for frail older people living at home, 21 studies found probably little or no difference in deaths or care home moves, and a possible reduction in unplanned admissions on low-certainty evidence. The tested model is team assessment, a coordinated plan and follow-up."
-      ],
-      "attention_note": "A common service name with different evidence by setting.",
-      "gain_note": "Absolute numbers to quote and a test for any service.",
-      "follow_note": "Evidence read in absolute terms.",
-      "verification_notes": "Ellis 2017 full text summary of findings (C05-08-a,b; rounded 'about'); Briggs 2022 abstract (C05-08-c, words only); definition (C05-08-e); wards vs teams (C05-08-f); judgement marked (C05-08-g).",
-      "tmp_id": "C05-P07",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [],
-      "visual_text": [
-        "Cochrane review of 29 trials; each result from 14 to 21 trials; 3 to 12 months",
-        "Specialist assessment in hospital: per 100 people",
+      "art": "Drawn cutaway of a modest two-storey terraced house: living room, a staircase and a kitchen visible. An older Black woman with a walking stick stands beside an armchair talking with a female occupational therapist; a male nurse sits at a small table with her papers (no legible text); on the staircase a handyperson on one knee steadies a loose handrail with a drill. Numbered callouts 1 to 4 are placed outside the drawing with leader lines. No writing on any surface in the scene.",
+      "data": []
+     }
+    ],
+    "design_notes": "Warm sand background; callout text outside the scene; no writing on surfaces."
+   },
+   "alt_text": [
+    "Drawn living room and staircase. An older Black woman with a walking stick talks with an occupational therapist; a nurse sits at a table; a handyperson kneels at the stair rail. Numbered pins match a key: therapist up to 6 visits, nurse up to 4, handyperson repairs, the person's own goal. US trial of 300 people: less daily difficulty at 5 months, not clear at 12."
+   ],
+   "attention_note": "An unusual team including a handyperson.",
+   "gain_note": "A reason to ask for a combined person-and-home assessment, with honest limits.",
+   "follow_note": "Good care examples told with their limits.",
+   "verification_notes": "Szanton 2019 full text (C05-19-a, b, c, d, e, g): design, 5-month result, unclear household-task result, 12-month fade, 8 in 10 vs 4 in 10 survey of respondents, population limits. Szanton 2025 abstract (C05-19-h). The 30% is a relative comparison of average scores and is not used in captions. No UK provider or availability is claimed (C05-19-i not found). Scene callouts keep to roles and visit numbers the trial reports; nurse content (pain, medicines) removed because it is not in the claim file. \"Two places\" framing is interpretation, not a trial finding.",
+   "tmp_id": "C05-P06",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [],
+   "visual_text": [
+    "Illustrative example of the kind of visit tested",
+    "Working on the person and the home together",
+    "US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.",
+    "Occupational therapist: up to 6 visits, working on a goal the person chose",
+    "Nurse: up to 4 visits",
+    "Handyperson: repairs and equipment, such as steadying the stairs",
+    "The person's own goal sets the plan",
+    "Alasdair MacLullich",
+    "Szanton et al., JAMA Intern Med 2019"
+   ],
+   "visual_files": [
+    "C05-P06.png"
+   ],
+   "visual_source": "visuals/src/C05-P06.html",
+   "visual_format": "annotated scene",
+   "design_instructions": "Single sand card: illustrative badge, trial summary, kit scene (older Black woman with stick, OT, nurse at table, handyperson kneeling at stair rail), numbered pins 1 to 4, key list below. Trial summary text unchanged.",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-08",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "title": "Where comprehensive geriatric assessment has shown benefit",
+   "insight": "Hospital comprehensive geriatric assessment has high-certainty evidence: about 3 more in 100 alive and at home, 3 to 4 fewer moved into care homes. For frail people at home, trials found little or no difference in deaths or care home moves.",
+   "angle": "The same name covers different services; judge a service by the plan and follow-up, and match claims to the evidence for the setting.",
+   "position_basis": "mixed: Cochrane findings (empirical); the standard for services is judgement",
+   "captions": {
+    "x": "Comprehensive geriatric assessment (CGA) has good evidence of modest benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves.\n\nIn a Cochrane review of 29 hospital trials, about 60 in 100 were alive and at home 3 to 12 months later with CGA, against 56 in 100 without. About 15 in 100 had moved into a care home, against 19. Deaths were 23 in 100 in both groups, and need for help with daily tasks barely differed.\n\nIn 21 studies of frail people living at home, unplanned hospital admissions may be lower, but the evidence is low certainty.\n\nIn these reviews CGA means a team assessment followed by a coordinated plan that is followed up. Judgement: a service using the name should be able to show both.",
+    "linkedin": "Comprehensive geriatric assessment (CGA) has good evidence of modest benefit in hospital. For frail people living at home, the trials found little or no difference in deaths or care home moves. They found a possible reduction in unplanned admissions, on low-certainty evidence. The name covers both settings, so it helps to know which is which.\n\nIn the Cochrane reviews, CGA means a team assessing a frail older person's medical, mental and functional problems, then making and following up a coordinated plan of treatment. A form or a one-off assessment on its own is not what was tested.\n\nHospital (Ellis 2017; 29 trials, 13,766 people; each result below comes from 14 to 21 of these trials):\n\n1. Alive and living at home 3 to 12 months later: about 60 in 100 with CGA, 56 in 100 without (high certainty).\n2. Moved into a care home: about 15 in 100 against 19 in 100.\n3. Deaths: 23 in 100 in both groups.\n4. Help needed with daily tasks: little or no difference.\n\nThe effects are modest, and trials were mostly in high-income countries over several decades. An earlier analysis suggested dedicated wards did better than visiting teams; the 2017 update said the data were too few to tell.\n\nFrail people at home (Briggs 2022; 21 studies): probably little or no difference in deaths, and little or no difference in care home moves over about a year. It may reduce unplanned hospital admissions, but that evidence is low certainty.\n\nMy judgement: a service that uses the name should be able to show the plan and the follow-up, not only the assessment. Claims for community services should match the more modest evidence, without dismissing them.",
+    "bluesky": "Cochrane, 29 hospital trials: with geriatric assessment about 60 in 100 were alive and at home at 3 to 12 months, vs 56 without. Fewer moved into care homes. Deaths were the same.\n\nIn 21 studies at home, little or no difference in deaths or care home moves. Tested: team assessment, plan, follow-up.",
+    "threads": "Comprehensive geriatric assessment in hospital: in 29 trials, about 60 in 100 were alive and at home 3 to 12 months later, against 56 in 100 without. Fewer went into care homes. Deaths were the same.\n\nFor frail people at home, 21 studies showed probably little or no difference in deaths or care home moves, and possibly fewer unplanned admissions (weak evidence).\n\nThe tested model is a team assessment plus a plan that is followed up. Judgement: a service using the name should show both."
+   },
+   "source_reply": "Sources: https://doi.org/10.1002/14651858.CD006211.pub3 | https://doi.org/10.1002/14651858.CD012705.pub2 | https://doi.org/10.1136/bmj.d6553",
+   "claims_used": [
+    "C05-08-a",
+    "C05-08-b",
+    "C05-08-c",
+    "C05-08-e",
+    "C05-08-f",
+    "C05-08-g"
+   ],
+   "sources_used": [
+    "PMID:28898390",
+    "PMID:35521829",
+    "PMID:22034146"
+   ],
+   "visual_brief": {
+    "format": "chart",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Hospital absolute effects per 100",
+      "text": {
+       "headline": "Specialist assessment in hospital: per 100 people",
+       "kicker": "Cochrane review of 29 trials; each result from 14 to 21 trials; 3 to 12 months",
+       "body": null,
+       "items": [],
+       "labels": [
         "Alive and at home: about 60 with, about 56 without",
         "Moved into a care home: about 15 with, about 19 without",
-        "Died: 23 with, 23 without",
-        "Ellis et al., Cochrane 2017",
-        "21 studies of frail older people living at home",
-        "At home, the trials found little or no difference in deaths or care home moves",
-        "Little or no difference in deaths or care home moves. May reduce unplanned admissions (low certainty).",
-        "What was tested: team assessment, a coordinated plan, and follow-up",
-        "Briggs et al., Cochrane 2022",
-        "Alasdair MacLullich | Reading the evidence"
+        "Died: 23 with, 23 without"
+       ],
+       "source_line": "Ellis et al., Cochrane 2017"
+      },
+      "art": "Paired horizontal bars for three outcomes; 'with CGA' solid teal, 'without' hatched grey, values printed at bar ends.",
+      "data": [
+       {
+        "label": "Alive at home, with",
+        "value": 60,
+        "display": "about 60 in 100",
+        "claim_id": "C05-08-b"
+       },
+       {
+        "label": "Alive at home, without",
+        "value": 56,
+        "display": "about 56 in 100",
+        "claim_id": "C05-08-b"
+       },
+       {
+        "label": "Moved into a care home, with",
+        "value": 15,
+        "display": "about 15 in 100",
+        "claim_id": "C05-08-b"
+       },
+       {
+        "label": "Moved into a care home, without",
+        "value": 19,
+        "display": "about 19 in 100",
+        "claim_id": "C05-08-b"
+       },
+       {
+        "label": "Died, with",
+        "value": 23,
+        "display": "23 in 100",
+        "claim_id": "C05-08-b"
+       },
+       {
+        "label": "Died, without",
+        "value": 23,
+        "display": "23 in 100",
+        "claim_id": "C05-08-b"
+       }
       ]
-    },
-    {
-      "cand_id": "C05-04",
-      "audience": "practitioners",
-      "series": "Reading the evidence",
-      "post_type": "evidence_interpretation",
-      "title": "Which frailty?",
-      "insight": "Applied to the same 5,377 people, 35 frailty tools (29 with a published cut-off) labelled between about 1 in 100 and about 7 in 10 as frail, and often disagreed about who. Results from one tool do not transfer automatically to people labelled by another.",
-      "angle": "Fallback for C05-14. Lead with the same-sample finding; the first question about any 'frail' study is which tool and cut-off.",
-      "position_basis": "mixed: cohort analysis (empirical); the 'first question' is judgement following from it",
-      "captions": {
-        "x": "Before applying any study \"in frail older people\", check which tool decided who was frail.\n\nResearchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England (data from 2004 to 2005). Among the 29 tools with a published cut-off, the share called frail ranged from about 1 in 100 to about 7 in 10, depending only on the tool.\n\nThe tools also disagreed about which individuals were frail. For almost 9 in 10 pairs of tools, agreement was moderate at best. In the authors' worked example, if 20 in 100 people were truly frail, the worst pairs of tools would label about 3 in 10 people differently.\n\nThe authors concluded that most tools can't be swapped for one another. Some tools were rebuilt from the study's data, so they approximate the originals.\n\nBefore applying a study to the person in front of you, check which tool and cut-off it used.",
-        "linkedin": "Before applying any study \"in frail older people\" to the person in front of you, check which tool and cut-off identified them as frail.\n\nAguayo and colleagues (2017) applied 35 published frailty scores to the same 5,377 people aged 60 and over in the English Longitudinal Study of Ageing. Because the people were the same, differences came from the tools alone.\n\nAmong the 29 tools that had a published cut-off, the share classed as frail ranged from about 1 in 100 to about 7 in 10 (up to 65 in 100 men and 72 in 100 women), depending on which tool was used.\n\nThe tools also disagreed about which individuals were frail. Almost 9 in 10 pairs of tools agreed only moderately at best. The authors gave an example. If 20 in 100 people were truly frail, the worst pairs of tools would label about 3 in 10 people differently.\n\nOne caveat: the scores were built from the study's own variables, so some approximate the original tools.\n\nBetween studies the spread is also wide. Community studies have reported frailty in anywhere from 4 in 100 to 59 in 100 older people. That is partly because of definitions and partly because of who was studied. Pooling many studies of people aged 50 and over, tools based on physical measures labelled about 1 in 8 as frail. Tools counting many health problems labelled about 1 in 4.\n\nThe authors concluded that most scores can't be treated as interchangeable. We should treat a trial result, a guideline threshold or a service criterion based on one tool as applying most directly to people identified the same way.",
-        "bluesky": "35 frailty tools were applied to the same 5,377 people aged 60 and over in England. The 29 with a published cut-off called between about 1 in 100 and about 7 in 10 of them frail. The tools often disagreed on who.\n\nBefore using a study \"in frail older people\", ask which tool and cut-off it used.",
-        "threads": "Who counts as frail depends on the tool used.\n\n35 published frailty tools were applied to the same 5,377 people aged 60 and over in England. The 29 with a published cut-off labelled between about 1 in 100 and about 7 in 10 of them frail. For almost 9 in 10 pairs of tools, agreement on who was frail was moderate at best.\n\nThe authors concluded most tools can't be swapped. Before applying a frailty study, check which tool and cut-off it used."
+     },
+     {
+      "n": 2,
+      "purpose": "Contrast with community evidence in words",
+      "text": {
+       "headline": "At home, the trials found little or no difference in deaths or care home moves",
+       "kicker": "21 studies of frail older people living at home",
+       "body": "Little or no difference in deaths or care home moves. May reduce unplanned admissions (low certainty).",
+       "items": [
+        "What was tested: team assessment, a coordinated plan, and follow-up"
+       ],
+       "labels": [],
+       "source_line": "Briggs et al., Cochrane 2022"
       },
-      "source_reply": "Sources: https://doi.org/10.1093/aje/kwx061 | https://doi.org/10.1111/j.1532-5415.2012.04054.x | https://doi.org/10.1093/ageing/afaa219",
-      "claims_used": [
-        "C05-04-a",
-        "C05-04-b",
-        "C05-04-c",
-        "C05-04-d"
-      ],
-      "sources_used": [
-        "PMID:28633404",
-        "PMID:22881367",
-        "PMID:33068107"
-      ],
-      "visual_brief": {
-        "format": "question card",
-        "slides": [
-          {
-            "n": 1,
-            "purpose": "Show the same-people finding and the three questions to ask before using a frailty study",
-            "text": {
-              "headline": "Which tool decided who was frail?",
-              "kicker": "Same 5,377 people aged 60+ in England, 35 frailty tools",
-              "body": "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail.",
-              "items": [
-                "Which tool was used?",
-                "Which cut-off?",
-                "Were the people studied identified the same way as the person in front of you?"
-              ],
-              "labels": [
-                "Lowest: about 1 in 100",
-                "Highest: about 7 in 10",
-                "Questions to ask"
-              ],
-              "source_line": "Aguayo et al., Am J Epidemiol 2017"
-            },
-            "art": "Question card on off-white ground. Top: two large numerals joined by a thin line, 'about 1 in 100' at the left and 'about 7 in 10' at the right, each with a small label above. Below, a numbered list of the three questions in large type. No tool names, no chart axis, no people.",
-            "data": [
-              {
-                "label": "Lowest share called frail across the 29 tools with a published cut-off (men 0.8%, women 1.0%)",
-                "value": 1,
-                "display": "about 1 in 100",
-                "claim_id": "C05-04-b"
-              },
-              {
-                "label": "Highest share called frail across the 29 tools with a published cut-off (men 65.0%, women 72.4%)",
-                "value": 70,
-                "display": "about 7 in 10",
-                "claim_id": "C05-04-b"
-              }
-            ]
-          }
-        ],
-        "design_notes": "The numerals are text, not bars, so no axis implies a precise value; 'about 7 in 10' summarises 65.0% (men) and 72.4% (women) among the 29 tools with a published cut-off. Tools at the extremes are not named (paper's text and table differ). The third question is a judgement drawn from the finding, not a tested rule. Footer: Alasdair MacLullich | Reading the evidence."
-      },
-      "alt_text": [
-        "Question card. When 35 published frailty tools were applied to the same 5,377 people aged 60 and over in England, the share called frail, among the 29 tools with a published cut-off, ranged from about 1 in 100 to about 7 in 10; most pairs of tools agreed only weakly to moderately. Questions: which tool, which cut-off, and were the people studied identified the same way as yours?"
-      ],
-      "attention_note": "A range so wide in one population.",
-      "gain_note": "A first question for reading any frailty study.",
-      "follow_note": "Critical reading of frailty research.",
-      "verification_notes": "Aguayo 2017 full text (C05-04-a,b,c); Collard 2012 and O'Caoimh 2021 abstracts (C05-04-d), range attributed to definitions and populations. Tools at extremes not named. Replaces dropped C05-14 per fallback.",
-      "tmp_id": "C05-P08",
-      "category": "C05",
-      "status": "text_final",
-      "open_issues": [],
-      "visual_text": [
-        "Same 5,377 people aged 60+ in England, 35 frailty tools",
-        "Which tool decided who was frail?",
-        "Lowest: about 1 in 100",
-        "Highest: about 7 in 10",
-        "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail.",
-        "Questions to ask",
+      "art": "Statement card, no chart (absolute effects unavailable).",
+      "data": []
+     }
+    ],
+    "design_notes": "Carousel of 2. Keep 'about' on numbers."
+   },
+   "alt_text": [
+    "Paired bars per 100 people from a Cochrane review of hospital specialist assessment, with versus without. Alive and at home: about 60 versus about 56. Moved into a care home: about 15 versus about 19. Died: 23 versus 23. Teal solid bars are with, hatched grey are without.",
+    "Statement card on Cochrane evidence from 21 studies of frail older people at home: little or no difference in deaths or care home moves; may reduce unplanned admissions, low certainty. What was tested: team assessment, a coordinated plan, and follow-up."
+   ],
+   "attention_note": "A common service name with different evidence by setting.",
+   "gain_note": "Absolute numbers to quote and a test for any service.",
+   "follow_note": "Evidence read in absolute terms.",
+   "verification_notes": "Ellis 2017 full text summary of findings (C05-08-a,b; rounded 'about'); Briggs 2022 abstract (C05-08-c, words only); definition (C05-08-e); wards vs teams (C05-08-f); judgement marked (C05-08-g).",
+   "tmp_id": "C05-P07",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [],
+   "visual_text": [
+    "Cochrane review of 29 trials; each result from 14 to 21 trials; 3 to 12 months",
+    "Specialist assessment in hospital: per 100 people",
+    "Alive and at home",
+    "about 60",
+    "about 56",
+    "Moved into a care home",
+    "about 15",
+    "about 19",
+    "Died",
+    "23",
+    "With",
+    "Without",
+    "Alasdair MacLullich",
+    "Ellis et al., Cochrane 2017",
+    "21 studies of frail older people living at home",
+    "At home, the trials found little or no difference in deaths or care home moves",
+    "Little or no difference in deaths or care home moves. May reduce unplanned admissions (low certainty).",
+    "What was tested: team assessment, a coordinated plan, and follow-up",
+    "Alasdair MacLullich",
+    "Briggs et al., Cochrane 2022"
+   ],
+   "visual_files": [
+    "C05-P07_1.png",
+    "C05-P07_2.png"
+   ],
+   "visual_source": "visuals/src/C05-P07.html",
+   "visual_format": "chart",
+   "design_instructions": "Carousel of 2. Card 1: SVG paired bars (with solid teal, without hatched grey), max 70 per 100, claim C05-08-b (Ellis 2017). Card 2: statement card with Briggs 2022 text.",
+   "visual_status": "final"
+  },
+  {
+   "cand_id": "C05-04",
+   "audience": "practitioners",
+   "series": "Reading the evidence",
+   "post_type": "evidence_interpretation",
+   "title": "Which frailty?",
+   "insight": "Applied to the same 5,377 people, 35 frailty tools (29 with a published cut-off) labelled between about 1 in 100 and about 7 in 10 as frail, and often disagreed about who. Results from one tool do not transfer automatically to people labelled by another.",
+   "angle": "Fallback for C05-14. Lead with the same-sample finding; the first question about any 'frail' study is which tool and cut-off.",
+   "position_basis": "mixed: cohort analysis (empirical); the 'first question' is judgement following from it",
+   "captions": {
+    "x": "Before applying any study \"in frail older people\", check which tool decided who was frail.\n\nResearchers applied 35 published frailty tools to the same 5,377 people aged 60 and over in England (data from 2004 to 2005). Among the 29 tools with a published cut-off, the share called frail ranged from about 1 in 100 to about 7 in 10, depending only on the tool.\n\nThe tools also disagreed about which individuals were frail. For almost 9 in 10 pairs of tools, agreement was moderate at best. In the authors' worked example, if 20 in 100 people were truly frail, the worst pairs of tools would label about 3 in 10 people differently.\n\nThe authors concluded that most tools can't be swapped for one another. Some tools were rebuilt from the study's data, so they approximate the originals.\n\nBefore applying a study to the person in front of you, check which tool and cut-off it used.",
+    "linkedin": "Before applying any study \"in frail older people\" to the person in front of you, check which tool and cut-off identified them as frail.\n\nAguayo and colleagues (2017) applied 35 published frailty scores to the same 5,377 people aged 60 and over in the English Longitudinal Study of Ageing. Because the people were the same, differences came from the tools alone.\n\nAmong the 29 tools that had a published cut-off, the share classed as frail ranged from about 1 in 100 to about 7 in 10 (up to 65 in 100 men and 72 in 100 women), depending on which tool was used.\n\nThe tools also disagreed about which individuals were frail. Almost 9 in 10 pairs of tools agreed only moderately at best. The authors gave an example. If 20 in 100 people were truly frail, the worst pairs of tools would label about 3 in 10 people differently.\n\nOne caveat: the scores were built from the study's own variables, so some approximate the original tools.\n\nBetween studies the spread is also wide. Community studies have reported frailty in anywhere from 4 in 100 to 59 in 100 older people. That is partly because of definitions and partly because of who was studied. Pooling many studies of people aged 50 and over, tools based on physical measures labelled about 1 in 8 as frail. Tools counting many health problems labelled about 1 in 4.\n\nThe authors concluded that most scores can't be treated as interchangeable. We should treat a trial result, a guideline threshold or a service criterion based on one tool as applying most directly to people identified the same way.",
+    "bluesky": "35 frailty tools were applied to the same 5,377 people aged 60 and over in England. The 29 with a published cut-off called between about 1 in 100 and about 7 in 10 of them frail. The tools often disagreed on who.\n\nBefore using a study \"in frail older people\", ask which tool and cut-off it used.",
+    "threads": "Who counts as frail depends on the tool used.\n\n35 published frailty tools were applied to the same 5,377 people aged 60 and over in England. The 29 with a published cut-off labelled between about 1 in 100 and about 7 in 10 of them frail. For almost 9 in 10 pairs of tools, agreement on who was frail was moderate at best.\n\nThe authors concluded most tools can't be swapped. Before applying a frailty study, check which tool and cut-off it used."
+   },
+   "source_reply": "Sources: https://doi.org/10.1093/aje/kwx061 | https://doi.org/10.1111/j.1532-5415.2012.04054.x | https://doi.org/10.1093/ageing/afaa219",
+   "claims_used": [
+    "C05-04-a",
+    "C05-04-b",
+    "C05-04-c",
+    "C05-04-d"
+   ],
+   "sources_used": [
+    "PMID:28633404",
+    "PMID:22881367",
+    "PMID:33068107"
+   ],
+   "visual_brief": {
+    "format": "question card",
+    "slides": [
+     {
+      "n": 1,
+      "purpose": "Show the same-people finding and the three questions to ask before using a frailty study",
+      "text": {
+       "headline": "Which tool decided who was frail?",
+       "kicker": "Same 5,377 people aged 60+ in England, 35 frailty tools",
+       "body": "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail.",
+       "items": [
         "Which tool was used?",
         "Which cut-off?",
-        "Were the people studied identified the same way as the person in front of you?",
-        "Aguayo et al., Am J Epidemiol 2017",
-        "Alasdair MacLullich | Reading the evidence"
+        "Were the people studied identified the same way as the person in front of you?"
+       ],
+       "labels": [
+        "Lowest: about 1 in 100",
+        "Highest: about 7 in 10",
+        "Questions to ask"
+       ],
+       "source_line": "Aguayo et al., Am J Epidemiol 2017"
+      },
+      "art": "Question card on off-white ground. Top: two large numerals joined by a thin line, 'about 1 in 100' at the left and 'about 7 in 10' at the right, each with a small label above. Below, a numbered list of the three questions in large type. No tool names, no chart axis, no people.",
+      "data": [
+       {
+        "label": "Lowest share called frail across the 29 tools with a published cut-off (men 0.8%, women 1.0%)",
+        "value": 1,
+        "display": "about 1 in 100",
+        "claim_id": "C05-04-b"
+       },
+       {
+        "label": "Highest share called frail across the 29 tools with a published cut-off (men 65.0%, women 72.4%)",
+        "value": 70,
+        "display": "about 7 in 10",
+        "claim_id": "C05-04-b"
+       }
       ]
-    }
-  ]
+     }
+    ],
+    "design_notes": "The numerals are text, not bars, so no axis implies a precise value; 'about 7 in 10' summarises 65.0% (men) and 72.4% (women) among the 29 tools with a published cut-off. Tools at the extremes are not named (paper's text and table differ). The third question is a judgement drawn from the finding, not a tested rule. Footer: Alasdair MacLullich | Reading the evidence."
+   },
+   "alt_text": [
+    "Question card. In the same 5,377 people aged 60+ in England, the share called frail across 29 frailty tools with a published cut-off ranged from about 1 in 100 to about 7 in 10. Most tool pairs agreed only weakly to moderately. Three questions: which tool, which cut-off, and were the people studied identified like the person in front of you."
+   ],
+   "attention_note": "A range so wide in one population.",
+   "gain_note": "A first question for reading any frailty study.",
+   "follow_note": "Critical reading of frailty research.",
+   "verification_notes": "Aguayo 2017 full text (C05-04-a,b,c); Collard 2012 and O'Caoimh 2021 abstracts (C05-04-d), range attributed to definitions and populations. Tools at extremes not named. Replaces dropped C05-14 per fallback.",
+   "tmp_id": "C05-P08",
+   "category": "C05",
+   "status": "text_final",
+   "open_issues": [],
+   "visual_text": [
+    "Same 5,377 people aged 60+ in England, 35 frailty tools",
+    "Which tool decided who was frail?",
+    "Share called frail, among the 29 tools with a published cut-off: from about 1 in 100 to about 7 in 10. Most pairs of tools agreed only weakly to moderately on who was frail.",
+    "Lowest",
+    "about 1 in 100",
+    "Highest",
+    "about 7 in 10",
+    "Questions to ask",
+    "Which tool was used?",
+    "Which cut-off?",
+    "Were the people studied identified the same way as the person in front of you?",
+    "Alasdair MacLullich",
+    "Aguayo et al., Am J Epidemiol 2017"
+   ],
+   "visual_files": [
+    "C05-P08.png"
+   ],
+   "visual_source": "visuals/src/C05-P08.html",
+   "visual_format": "question card",
+   "design_instructions": "Single card: kicker, headline, summary text, two large text numerals (about 1 in 100 teal, about 7 in 10 orange) beside a gradient rule, mint panel with three numbered questions. Claim C05-04-b.",
+   "visual_status": "final"
+  }
+ ]
 }

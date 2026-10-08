@@ -1,0 +1,1247 @@
+{
+ "category": "C03",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 1,
+   "scores": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0,
+    "6": 0,
+    "7": 0
+   }
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 6,
+   "scores": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 0
+   }
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C03-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 0,
+    "7": 1
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "straight from an acute ward",
+     "fix": "straight from a hospital ward"
+    },
+    {
+     "item": "4",
+     "quote": "Roughly 4 to 6 in 10 people got back to the mobility they had before.",
+     "fix": "Roughly 4 to 6 in 10 people got back to the mobility they had before. The others did not."
+    },
+    {
+     "item": "6",
+     "quote": "In one large US study of people who lived at home before the fracture (1990 to 1991), that was how long it took on average to reach its best.",
+     "fix": "One large US study followed people who had lived at home before the fracture. On average, their leg function took close to a year to reach its best."
+    },
+    {
+     "item": "6",
+     "quote": "A 2017 paper summarised policy in England and Scotland as saying that moving into a care home straight from an acute ward should be avoided where possible.",
+     "fix": "A 2017 paper said that policy in England and Scotland is to avoid, where possible, moving a person into a care home straight from a hospital ward."
+    },
+    {
+     "item": "7",
+     "quote": "leg function can keep improving for close to a year ... most of the recovery in walking and daily activities came in the first 6 months",
+     "fix": "Most of the gain comes in the first 6 months. After that the gains are smaller, and leg function can go on improving for close to a year."
+    }
+   ],
+   "flags": [
+    "Figurative: 'You should be at the centre of it'; 'settle a permanent move'.",
+    "Double negation: 'unless there is no safe alternative'.",
+    "'In our view' used as opening hedge in several posts in the set.",
+    "Opening repeated across platforms of the same post and across the set (several posts open with the same first sentence on X, LinkedIn and Threads)."
+   ]
+  },
+  {
+   "tmp_id": "C03-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "total": 7,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "on an illustrative usual-care risk",
+     "fix": "compared with 35 in 100 without it"
+    },
+    {
+     "item": "2",
+     "quote": "straight from an acute hospital ward",
+     "fix": "straight from a hospital ward"
+    },
+    {
+     "item": "3",
+     "quote": "about 31 in 100, compared with 35 in 100 on an illustrative usual-care risk",
+     "fix": "about 31 in 100, compared with 35 in 100 without it"
+    },
+    {
+     "item": "5",
+     "quote": "Sources: Magaziner et al, J Gerontol 2000; Dyer et al, BMC Geriatr 2016; Handoll et al, Cochrane 2021; Harrison et al, Age Ageing 2017.",
+     "fix": "Put the Sources line above the questions list so the post ends on the three questions."
+    },
+    {
+     "item": "6",
+     "quote": "In trials, rehabilitation in hospital led by a specialist team probably meant fewer people died or needed a move to a care home over the next 6 to 12 months: about 31 in 100, compared with 35 in 100 on an illustrative usual-care risk.",
+     "fix": "In trials, hospital rehabilitation led by a specialist team probably meant fewer people died or moved to a care home over the next 6 to 12 months. The figure was about 31 in 100, compared with 35 in 100 without it. Deaths and moves are counted together."
+    },
+    {
+     "item": "7",
+     "quote": "leg function to reach its best ... about 4 months ... most of the recovery ... first 6 months",
+     "fix": "Most of the gain comes in the first 6 months. After that the gains are smaller, and leg function can go on improving for close to a year."
+    }
+   ],
+   "flags": [
+    "Figurative: 'Rehabilitation may change the picture'; 'at the centre of that decision'.",
+    "Negation-then-correction: 'Reaching your best is not the same as a full recovery'.",
+    "Source line as final sentence is an empty close.",
+    "Opening repeated across platforms of the same post and across the set (several posts open with the same first sentence on X, LinkedIn and Threads)."
+   ]
+  },
+  {
+   "tmp_id": "C03-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(1990 to 1991)",
+     "fix": "Drop the dates, or say 'in a study run in 1990 and 1991', so they cannot be read as the length of the improvement."
+    }
+   ],
+   "flags": [
+    "'recovery is only just starting' slightly overstates what the single sentence of evidence supports.",
+    "Opening repeated across platforms of the same post and across the set (several posts open with the same first sentence on X, LinkedIn and Threads)."
+   ]
+  },
+  {
+   "tmp_id": "C03-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 0
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(1990 to 1991)",
+     "fix": "Drop the dates, or say 'in a study run in 1990 and 1991'."
+    },
+    {
+     "item": "7",
+     "quote": "leg function can keep improving for close to a year ... Most walking gains come in the first 6 months",
+     "fix": "Most walking gains come in the first 6 months. After that the gains are smaller, and leg function can go on improving for close to a year."
+    }
+   ],
+   "flags": [
+    "Figurative: 'well short of where they will get to'.",
+    "Opening repeated across platforms of the same post and across the set (several posts open with the same first sentence on X, LinkedIn and Threads)."
+   ]
+  },
+  {
+   "tmp_id": "C03-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A Cochrane review found",
+     "fix": "A review that pooled the results of several trials found"
+    },
+    {
+     "item": "6",
+     "quote": "Given early in the emergency department, it can cover the X-ray, the move to the ward and the first hours of nursing care, for as long as it lasts.",
+     "fix": "Given early in the emergency department, it can cover the X-ray and the move to the ward. It can also cover the first hours of nursing care, for as long as it lasts."
+    }
+   ],
+   "flags": [
+    "'UK anaesthetic guidance advises another block at surgery' arrives without context.",
+    "'Scotland's hip fracture standards say so' - 'so' points back to a general statement, slightly loose.",
+    "Opening repeated in LinkedIn and Threads versions."
+   ]
+  },
+  {
+   "tmp_id": "C03-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "name a fascia iliaca block as the first choice",
+     "fix": "name a nerve block (a fascia iliaca block) as the first choice"
+    },
+    {
+     "item": "3",
+     "quote": "Blocks probably mean fewer chest infections and getting out of bed about 11 hours sooner",
+     "fix": "Blocks probably mean fewer chest infections, and people getting out of bed about 11 hours sooner than with no block. The trials were few and small."
+    },
+    {
+     "item": "6",
+     "quote": "A single injection gives several hours of relief: about 8 hours with a long-acting local anaesthetic in one review, while trials measured benefit only to 4 hours.",
+     "fix": "A single injection gives several hours of relief."
+    },
+    {
+     "item": "6",
+     "quote": "NICE asks for pain relief good enough to allow moving for X-rays, nursing care and rehabilitation, and says a block should be considered when paracetamol and morphine-type drugs are not enough.",
+     "fix": "NICE asks for pain relief good enough to allow moving for X-rays, nursing care and rehabilitation. It says to consider a block when paracetamol and morphine-type drugs are not enough."
+    },
+    {
+     "item": "7",
+     "quote": "about 8 hours with a long-acting local anaesthetic in one review, while trials measured benefit only to 4 hours",
+     "fix": "Give one figure: 'The trials measured relief for up to 4 hours; in one review a long-acting anaesthetic lasted about 8 hours.' or drop the 8 hours."
+    }
+   ],
+   "flags": [
+    "Technical name used before it is explained.",
+    "Organisation names (Cochrane, NICE, Association of Anaesthetists) unexplained to a lay reader.",
+    "Opening repeated across platforms."
+   ]
+  },
+  {
+   "tmp_id": "C03-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "cut pain on movement within half an hour in a Cochrane review",
+     "fix": "cut pain on movement within half an hour, compared with no block"
+    },
+    {
+     "item": "2",
+     "quote": "in a Cochrane review",
+     "fix": "in a review that pooled several trials"
+    },
+    {
+     "item": "5",
+     "quote": "it can cover the X-ray and the move to the ward while it lasts.",
+     "fix": "it can cover the X-ray and the move to the ward while it lasts. Ask: has a nerve block been offered?"
+    },
+    {
+     "item": "6",
+     "quote": "A nerve block (local anaesthetic near the hip's nerves) cut pain on movement within half an hour in a Cochrane review, and lasts several hours.",
+     "fix": "A nerve block is local anaesthetic injected near the hip's nerves. It cut pain on movement within half an hour. It lasts several hours."
+    }
+   ],
+   "flags": [
+    "No amount of pain reduction given.",
+    "Dense for a feed post."
+   ]
+  },
+  {
+   "tmp_id": "C03-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In a Cochrane review",
+     "fix": "In a review that pooled several trials"
+    },
+    {
+     "item": "6",
+     "quote": "In a Cochrane review it reduced pain on movement within half an hour. One injection lasts several hours, so giving it early in the emergency department can cover the X-ray and the move to the ward while it lasts.",
+     "fix": "In a review of trials it reduced pain on movement within half an hour. One injection lasts several hours. Given early in the emergency department, it can cover the X-ray and the move to the ward."
+    }
+   ],
+   "flags": [
+    "Opening repeated from X version."
+   ]
+  },
+  {
+   "tmp_id": "C03-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "say within 36 hours",
+     "fix": "say within 36 hours of arriving at hospital (state the start point the guidance uses)"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series put trials and observational studies side by side.",
+     "fix": "Delete it and end on: 'Remove the avoidable delay.'"
+    }
+   ],
+   "flags": [
+    "Series promotion as final sentence is an empty close.",
+    "Figurative: 'a race' style framing; 'got up' for mobilised.",
+    "Dense: three guideline targets in a row without saying how they relate."
+   ]
+  },
+  {
+   "tmp_id": "C03-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 1,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Median time from diagnosis to surgery was 6 hours and 24 hours.",
+     "fix": "Median time from diagnosis to surgery was 6 hours in the accelerated group and 24 hours in the usual-care group."
+    },
+    {
+     "item": "3",
+     "quote": "within 36 hours (Association of Anaesthetists; Scottish standard)",
+     "fix": "within 36 hours of arrival, if that is the start point the guidance uses"
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series put trials and observational studies side by side.",
+     "fix": "Delete it and end on the 'Our reading' sentence."
+    },
+    {
+     "item": "6",
+     "quote": "The trial did not show that racing saves lives, though the fast group got up and left hospital sooner; the cohort data do not excuse drift beyond a day or two.",
+     "fix": "The trial did not show that very fast surgery saves lives. The fast group did get up and leave hospital sooner. The cohort data do not excuse delay beyond a day or two."
+    }
+   ],
+   "flags": [
+    "Figurative: 'racing', 'drift', 'excuse'.",
+    "Series plug as close.",
+    "'Our reading' paragraph carries a trade-off in one sentence."
+   ]
+  },
+  {
+   "tmp_id": "C03-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "at a median 6 h vs 24 h after diagnosis",
+     "fix": "in the fast group (median 6 h) vs usual care (median 24 h) after diagnosis"
+    }
+   ],
+   "flags": [
+    "Figurative: 'not a race'.",
+    "Abbreviations 'h' and 'HIP ATTACK:' as label - fine for clinicians."
+   ]
+  },
+  {
+   "tmp_id": "C03-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Cohort data link waits over a day with slightly more deaths",
+     "fix": "Cohort data link waits over a day with slightly more deaths at 30 days"
+    },
+    {
+     "item": "3",
+     "quote": "UK anaesthetic guidance says within 36 hours",
+     "fix": "UK anaesthetic guidance says within 36 hours of arrival (state start point)"
+    },
+    {
+     "item": "6",
+     "quote": "In the HIP ATTACK trial, hip fracture surgery at a median of 6 hours after diagnosis did not clearly reduce deaths at 90 days (9 vs 10 in 100) or major complications, compared with a median of 24 hours.",
+     "fix": "In the HIP ATTACK trial, surgery at a median of 6 hours after diagnosis did not clearly reduce deaths at 90 days (9 vs 10 in 100) or major complications, compared with 24 hours."
+    }
+   ],
+   "flags": [
+    "'Both fit.' is vague: both what?",
+    "Figurative: 'not a race'."
+   ]
+  },
+  {
+   "tmp_id": "C03-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "They chose; nobody was randomised.",
+     "fix": "Nobody was assigned by chance; each person chose."
+    },
+    {
+     "item": "2",
+     "quote": "median age 88",
+     "fix": "typical (median) age 88"
+    },
+    {
+     "item": "2",
+     "quote": "within a margin the researchers set in advance",
+     "fix": "not lower by more than the researchers had decided in advance would matter"
+    },
+    {
+     "item": "3",
+     "quote": "Scores were a little lower without an operation, but within a margin the researchers set in advance.",
+     "fix": "Say what the scores were rated on, or drop the margin clause."
+    },
+    {
+     "item": "6",
+     "quote": "NICE's guideline group describes surgery as the best form of pain relief for a broken hip, and says surgery should still be considered when a hip fracture comes with a terminal illness.",
+     "fix": "NICE's guideline group describes surgery as the best form of pain relief for a broken hip. It says surgery should still be considered when a broken hip comes with a terminal illness."
+    }
+   ],
+   "flags": [
+    "Possible false reassurance: 'a little lower ... within a margin' next to deaths.",
+    "Negation-then-correction: 'They chose; nobody was randomised.'",
+    "'It should never be a default because someone is old' strong but clear."
+   ]
+  },
+  {
+   "tmp_id": "C03-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "within a margin the researchers set in advance",
+     "fix": "not lower by more than the researchers had decided in advance would matter"
+    },
+    {
+     "item": "2",
+     "quote": "median age 88",
+     "fix": "typical (median) age 88"
+    },
+    {
+     "item": "3",
+     "quote": "Among relatives who answered about a death without an operation, about half rated the dying as good to almost perfect.",
+     "fix": "State how many relatives answered, or drop the sentence."
+    },
+    {
+     "item": "6",
+     "quote": "NICE's guideline group describes surgery as the best form of pain relief for a broken hip, and says that even when a hip fracture comes with a terminal illness, the team should still consider surgery as part of palliative care (care that eases pain and respects the person's wishes).",
+     "fix": "NICE's guideline group describes surgery as the best form of pain relief for a broken hip. Even when a hip fracture comes with a terminal illness, it says the team should still consider surgery as part of palliative care. Palliative care eases pain and respects the person's wishes."
+    }
+   ],
+   "flags": [
+    "Negation-then-correction: 'People chose; they were not allocated at random.'",
+    "Reframing line 'care without an operation is active care' reads as persuasion.",
+    "Possible false reassurance: 'good to almost perfect' dying rating.",
+    "Five-item list mixes caveats and findings."
+   ]
+  },
+  {
+   "tmp_id": "C03-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "NICE's guideline group calls surgery the best pain relief for a broken hip.",
+     "fix": "End with what the reader should think or do, e.g. 'Care without an operation should be discussed only for a few very frail people, with strong pain relief.'"
+    },
+    {
+     "item": "2",
+     "quote": "within a preset margin",
+     "fix": "not lower by more than the researchers had decided in advance would matter"
+    },
+    {
+     "item": "3",
+     "quote": "About 8 in 10 died within a month.",
+     "fix": "About 8 in 10 of those who chose no operation died within a month, compared with 1 in 4 of those who chose surgery. The frailest chose no operation."
+    },
+    {
+     "item": "6",
+     "quote": "In a Dutch study of 172 very frail care home residents, those who chose no operation had quality of life rated a little lower, within a preset margin.",
+     "fix": "A Dutch study followed 172 very frail care home residents. Those who chose no operation had quality of life rated a little lower, within a preset margin."
+    }
+   ],
+   "flags": [
+    "Misleading: the 8 in 10 figure has no comparison and no note that the frailest chose no operation.",
+    "Possible false reassurance: 'a little lower, within a preset margin'.",
+    "Setup/point missing: the NICE sentence is never tied to the study."
+   ]
+  },
+  {
+   "tmp_id": "C03-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "within a preset margin",
+     "fix": "not lower by more than the researchers had decided in advance would matter"
+    },
+    {
+     "item": "3",
+     "quote": "Of those who chose none, about 8 in 10 died within a month.",
+     "fix": "Of those who chose none, about 8 in 10 died within a month, compared with 1 in 4 after surgery. The frailest chose no operation."
+    }
+   ],
+   "flags": [
+    "Fragment close: 'Never as a default for age.'",
+    "Possible false reassurance: 'a little lower, within a preset margin'."
+   ]
+  },
+  {
+   "tmp_id": "C03-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "14 of 18 young adults with ankle fractures kept to almost all of it.",
+     "fix": "14 of 18 young adults with ankle fractures kept to almost all of their weight limit."
+    }
+   ],
+   "flags": [
+    "Minor: 'it' ambiguous."
+   ]
+  },
+  {
+   "tmp_id": "C03-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Negation-then-correction: 'That is an aim, not a ban'.",
+    "Long for a feed post but each paragraph has one job."
+   ]
+  },
+  {
+   "tmp_id": "C03-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "With pressure-sensing insoles, none of 16 people aged 75 and over kept to a partial weight-bearing limit throughout after hip fracture surgery; 11 put over twice the permitted weight through the leg.",
+     "fix": "With pressure-sensing insoles, none of 16 people aged 75 and over kept to a partial weight-bearing limit throughout after hip fracture surgery. 11 of them put over twice the permitted weight through the leg."
+    }
+   ],
+   "flags": [
+    "'NICE: operate so people can bear full weight' states an aim as an instruction."
+   ]
+  },
+  {
+   "tmp_id": "C03-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "walked more slowly but loaded the leg just as much",
+     "fix": "walked more slowly but loaded the leg just as much as people who were allowed full weight"
+    }
+   ],
+   "flags": [
+    "'older people' left without an age."
+   ]
+  },
+  {
+   "tmp_id": "C03-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "36 hours is enough time",
+     "fix": "36 hours from arrival is enough time (use the start point the guidance gives)"
+    },
+    {
+     "item": "6",
+     "quote": "NICE lists nine problems to find and treat straight away, so that they do not delay hip fracture surgery: anaemia, anticoagulation, dehydration, electrolyte problems, uncontrolled diabetes, uncontrolled heart failure, a correctable arrhythmia or ischaemia, chest infection, and a flare of chronic lung disease.",
+     "fix": "NICE lists nine problems to find and treat straight away so that they do not delay hip fracture surgery. They are: anaemia, anticoagulation, dehydration, electrolyte problems, uncontrolled diabetes, uncontrolled heart failure, a correctable arrhythmia or ischaemia, chest infection, and a flare of chronic lung disease."
+    }
+   ],
+   "flags": [
+    "'to-do list' is a light metaphor but clear."
+   ]
+  },
+  {
+   "tmp_id": "C03-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "36 hours (or less)",
+     "fix": "36 hours (or less) from arrival, if that is the guidance's start point"
+    },
+    {
+     "item": "6",
+     "quote": "The Scottish standards add that surgery should not be delayed unless the benefits of more medical treatment outweigh the risks of waiting, and that 36 hours is enough if the work starts at once.",
+     "fix": "The Scottish standards add that surgery should not be delayed unless the benefits of more medical treatment outweigh the risks of waiting. They also say 36 hours is enough if the work starts at once."
+    },
+    {
+     "item": "6",
+     "quote": "An echocardiogram. The Association of Anaesthetists says not to delay surgery for one: the result rarely changes how the anaesthetic is given, and a valve problem is very unlikely to be treated before the hip.",
+     "fix": "The Association of Anaesthetists says not to delay surgery for an echocardiogram. The result rarely changes how the anaesthetic is given. A valve problem is very unlikely to be treated before the hip."
+    }
+   ],
+   "flags": [
+    "Very long for LinkedIn but structured.",
+    "'Three things' list mixes a rule, a test and a drug pair."
+   ]
+  },
+  {
+   "tmp_id": "C03-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'don't wait for an echo or delay for aspirin or clopidogrel' mixes 'wait' and 'delay' for one idea."
+   ]
+  },
+  {
+   "tmp_id": "C03-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "36 hours is enough time to correct the medical obstacles",
+     "fix": "36 hours from arrival is enough time to correct the medical obstacles (use the start point the guidance gives)"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C03-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "But if the person still can't take weight on the leg the day after the injury, despite good pain relief, the guideline says doctors should look again and strongly suspect a hip fracture.",
+     "fix": "But suppose the person still can't take weight on the leg the day after the injury, despite good pain relief. The guideline then says doctors should look again and strongly suspect a hip fracture."
+    },
+    {
+     "item": "6",
+     "quote": "If one is still suspected after normal X-rays, NICE says to offer an MRI, or consider a CT scan if MRI isn't available within 24 hours.",
+     "fix": "If a fracture is still suspected after normal X-rays, NICE says to offer an MRI. If MRI isn't available within 24 hours, it says to consider a CT scan."
+    },
+    {
+     "item": "6",
+     "quote": "In a pooled review of studies of older people whose X-rays showed no definite fracture but whose doctors still suspected one, MRI found a hip fracture needing surgery in about 4 in 10.",
+     "fix": "A pooled review looked at older people whose X-rays showed no definite fracture but whose doctors still suspected one. MRI found a hip fracture needing surgery in about 4 in 10 of them."
+    }
+   ],
+   "flags": [
+    "Opening repeated across four platforms.",
+    "Sentence beginning 'But' continues a thought the reader has barely started."
+   ]
+  },
+  {
+   "tmp_id": "C03-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Being unable to take weight on the leg is a typical sign of a broken hip. The NICE guideline says that if someone still can't take weight on the leg the day after the injury, despite good pain relief, doctors should look again and strongly suspect a hip fracture.",
+     "fix": "Split after 'injury': 'The NICE guideline says that if someone still can't take weight on the leg the day after the injury, despite good pain relief, doctors should look again. They should strongly suspect a hip fracture.'"
+    },
+    {
+     "item": "6",
+     "quote": "In the studies of people whose X-rays showed no definite fracture, MRI found a hip fracture of a type needing surgery in about 4 in 10.",
+     "fix": "Of those people, MRI found a hip fracture needing surgery in about 4 in 10."
+    },
+    {
+     "item": "6",
+     "quote": "A review of 35 studies looked at older people (average age 77) whose doctors suspected a hip fracture that the X-ray did not show.",
+     "fix": "A review of 35 studies looked at older people, average age 77. Their doctors suspected a hip fracture that the X-ray did not show."
+    }
+   ],
+   "flags": [
+    "Setup question answered by the post: 'How often is something found?'",
+    "Negation-then-correction shape: 'It is not the end of the question'; 'Being able to stand does not rule one out, and not being able to stand can have other causes'.",
+    "Opening repeated across platforms."
+   ]
+  },
+  {
+   "tmp_id": "C03-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "If the person still can't take weight on the leg the next day despite pain relief, NICE's guideline says doctors should strongly suspect a fracture.",
+     "fix": "If the person still can't take weight on the leg the next day despite pain relief, NICE says doctors should strongly suspect a fracture."
+    }
+   ],
+   "flags": [
+    "Telegraphic: 'If still suspected: offer MRI'."
+   ]
+  },
+  {
+   "tmp_id": "C03-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "If the person still can't take weight on the leg the next day and a fracture is still suspected, NICE says to offer an MRI, or consider CT if MRI isn't available within 24 hours.",
+     "fix": "If the person still can't take weight on the leg the next day and a fracture is still suspected, NICE says to offer an MRI. If MRI isn't available within 24 hours, consider CT."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C03-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a registered lasting power of attorney for health and welfare",
+     "fix": "a registered lasting power of attorney for health and welfare (a legal document naming someone to make health decisions)"
+    },
+    {
+     "item": "2",
+     "quote": "unless a valid advance decision applies",
+     "fix": "unless she made an earlier written decision refusing that treatment"
+    },
+    {
+     "item": "2",
+     "quote": "a certificate of incapacity",
+     "fix": "a certificate of incapacity (a form saying she cannot decide for herself)"
+    },
+    {
+     "item": "6",
+     "quote": "If she can't decide for herself, the decision falls to someone she appointed under a registered lasting power of attorney for health and welfare, or to a court-appointed deputy with that power (unless a valid advance decision applies).",
+     "fix": "If she can't decide for herself, the decision is made by someone she appointed in a registered legal document called a lasting power of attorney for health and welfare. Or it is made by a court-appointed deputy with that power. An earlier written refusal of treatment can override both."
+    },
+    {
+     "item": "6",
+     "quote": "If she appointed a welfare attorney with power over medical decisions, the doctor must seek that attorney's consent where reasonable and practicable.",
+     "fix": "If she appointed a welfare attorney with power over medical decisions, the doctor must ask that person for consent where this is reasonable and practicable."
+    }
+   ],
+   "flags": [
+    "Figurative: 'the decision falls to'.",
+    "Three legal routes in one post for a worried relative; reads as dense.",
+    "Opening repeated across platforms."
+   ]
+  },
+  {
+   "tmp_id": "C03-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a certificate of incapacity",
+     "fix": "a certificate of incapacity (a form saying she cannot decide for herself)"
+    },
+    {
+     "item": "2",
+     "quote": "a court-appointed deputy",
+     "fix": "a deputy appointed by a court to make decisions for her"
+    },
+    {
+     "item": "5",
+     "quote": "What do you need to know about what she would want?",
+     "fix": "What would you like us to tell you about what she would want? - or reword so it is clearly a question for staff to ask the family: 'Staff may ask: what would she want?'"
+    },
+    {
+     "item": "6",
+     "quote": "If she has appointed a welfare attorney with power over medical decisions, the doctor must ask for that attorney's consent where it is reasonable and practicable.",
+     "fix": "If she has appointed a welfare attorney with power over medical decisions, the doctor must ask that person for consent where it is reasonable and practicable."
+    },
+    {
+     "item": "6",
+     "quote": "Her past and present wishes and feelings must be taken into account, and certain people must be consulted.",
+     "fix": "Her past and present wishes and feelings must be taken into account. Her welfare attorney and others close to her must be consulted where possible."
+    }
+   ],
+   "flags": [
+    "'In England and Wales' repeated twice in the opening.",
+    "Negation-then-correction: 'being next of kin does not give you the legal right'."
+   ]
+  },
+  {
+   "tmp_id": "C03-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A registered health and welfare attorney or court-appointed deputy can",
+     "fix": "A person she appointed in a registered legal document (a health and welfare attorney), or a deputy appointed by a court, can"
+    },
+    {
+     "item": "2",
+     "quote": "in their best interests",
+     "fix": "in what they judge to be the person's best interests"
+    },
+    {
+     "item": "5",
+     "quote": "Scotland's law differs.",
+     "fix": "Ask: who is making this decision, and on what basis? Scotland's law differs."
+    },
+    {
+     "item": "6",
+     "quote": "A registered health and welfare attorney or court-appointed deputy can; otherwise the doctor usually decides in their best interests, asking family if there is time.",
+     "fix": "A registered health and welfare attorney or a court-appointed deputy can. Otherwise the doctor usually decides in the person's best interests. The doctor asks family if there is time."
+    }
+   ],
+   "flags": [
+    "Tail 'Scotland's law differs' leaves Scottish readers with nothing.",
+    "No action for the reader."
+   ]
+  },
+  {
+   "tmp_id": "C03-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a health and welfare attorney",
+     "fix": "a health and welfare attorney (someone she chose in a legal document to make health decisions)"
+    },
+    {
+     "item": "2",
+     "quote": "a certificate of incapacity",
+     "fix": "a certificate of incapacity (a form saying she cannot decide for herself)"
+    }
+   ],
+   "flags": [
+    "Opening repeated from X and LinkedIn versions."
+   ]
+  },
+  {
+   "tmp_id": "C03-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "had a neurological or lung condition",
+     "fix": "had a brain or nerve condition, or a lung condition"
+    },
+    {
+     "item": "6",
+     "quote": "Signs to watch for: coughing or choking, a hoarse or changed voice after swallowing, lots of throat clearing, several swallows for one mouthful, food left in the mouth.",
+     "fix": "Signs to watch for: coughing or choking, a hoarse or changed voice after swallowing, or lots of throat clearing. Also watch for several swallows for one mouthful, or food left in the mouth."
+    }
+   ],
+   "flags": [
+    "Figurative: 'watch the swallow'.",
+    "Does not say what the swallowing problem leads to, so the reader may not see why it matters.",
+    "Opening identical in X, LinkedIn and Threads."
+   ]
+  },
+  {
+   "tmp_id": "C03-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "already had a neurological or lung condition",
+     "fix": "already had a brain or nerve condition, or a lung condition"
+    },
+    {
+     "item": "2",
+     "quote": "one Spanish study that tested everyone with a bedside test",
+     "fix": "one Spanish study that tested everyone at the bedside"
+    },
+    {
+     "item": "3",
+     "quote": "They were also more likely to die within 30 days.",
+     "fix": "They were also more likely to die within 30 days; give the two percentages or drop the sentence."
+    },
+    {
+     "item": "6",
+     "quote": "In a New Zealand hospital, people with hip fracture and a recorded swallowing problem had aspiration pneumonia (a chest infection from food or drink going the wrong way) far more often: about 1 in 10, compared with fewer than 1 in 100.",
+     "fix": "In a New Zealand hospital, people with hip fracture and a recorded swallowing problem more often had aspiration pneumonia. This is a chest infection from food or drink going the wrong way. It affected about 1 in 10 of them, compared with fewer than 1 in 100 of the others."
+    },
+    {
+     "item": "6",
+     "quote": "After hip surgery that may need help and good pain relief.",
+     "fix": "After hip surgery, sitting upright may need help and good pain relief."
+    }
+   ],
+   "flags": [
+    "Figurative: 'watch the swallow'.",
+    "The post's own evidence says no study shows watching the first drink prevents pneumonia, yet the opening presents it as 'a good moment'; mild tension.",
+    "Opening repeated across platforms."
+   ]
+  },
+  {
+   "tmp_id": "C03-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'sit fully upright' is unclear about who sits.",
+    "Does not say why a swallowing problem matters."
+   ]
+  },
+  {
+   "tmp_id": "C03-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Figurative: 'watch the swallow'.",
+    "Opening repeated from X and LinkedIn."
+   ]
+  }
+ ]
+}

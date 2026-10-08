@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C05-P06 Person and home together</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content"><span class="badge illustrative" style="align-self:flex-start">Illustrative example of the kind of visit tested</span>
+ <h1 class="s" style="margin-top:12px;font-size:54px">Working on the person and <em>the home together</em></h1>
+ <p class="body" style="font-size:27px;margin-top:12px;line-height:1.3">US trial, 300 older people on low incomes: the half who had the visits reported less difficulty with basic daily tasks such as washing and dressing at 5 months; no longer clear at 12 months.</p>
+ <div class="scene" id="sc" style="margin-top:16px;flex:0 0 400px"></div>
+ <ol class="steps" style="margin-top:18px;gap:8px">
+  <li style="font-size:27px;grid-template-columns:56px 1fr;line-height:1.25">Occupational therapist: up to 6 visits, working on a goal the person chose</li>
+  <li style="font-size:27px;grid-template-columns:56px 1fr;line-height:1.25">Nurse: up to 4 visits</li>
+  <li style="font-size:27px;grid-template-columns:56px 1fr;line-height:1.25">Handyperson: repairs and equipment, such as steadying the stairs</li>
+  <li style="font-size:27px;grid-template-columns:56px 1fr;line-height:1.25">The person's own goal sets the plan</li>
+ </ol></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Szanton et al., JAMA Intern Med 2019</span></div>
+</div></div>
+<style>.steps li::before{width:46px!important;height:46px!important;font-size:26px!important}</style>
+<script>
+const W=920,H=400,g=370,S=0.8;
+const tb=Kit.anchor('table',{x:560,y:g,scale:S});
+Kit.draw('#sc',W,H,[Kit.room('home_living',{w:W,h:H,ground:g,scale:S}),
+ Kit.stairs({x:640,y:g,steps:6,scale:S*0.8,carpet:'plum'}),
+ Kit.armchair({x:130,y:g,scale:S,colour:'teal',view:'front'}),
+ Kit.person({pose:'stick',x:215,y:g,scale:S,age:'older',sex:'f',skin:'brown',hair:'white',hairStyle:'coily',top:'mustard',bottom:'slate',stickType:'crook'}),
+ Kit.person({pose:'standing',role:'ot',x:330,y:g,scale:S,facing:'left',sex:'f',skin:'light',hair:'auburn',hairStyle:'ponytail'}),
+ Kit.table({x:470,y:g,w:150,scale:S*0.9}),
+ Kit.person({pose:'seated_side',seat:'chair',x:500,y:g,scale:S,facing:'left',role:'nurse',sex:'m',skin:'olive',hair:'black',hairStyle:'short'}),
+Kit.person({pose:'kneeling',x:645,y:g,scale:S,role:'ot',top:'brick',bottom:'denim',topStyle:'shirt',sex:'m',skin:'tan',hair:'dark',hairStyle:'cropped',hands:{near:{x:715,y:g-110}}}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:340,y:38},{n:2,x:490,y:62},{n:3,x:780,y:130},{n:4,x:200,y:38}]);
+window.__ready=true;
+</script></body></html>

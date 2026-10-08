@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../design_system/base.css"><script src="../design_system/kit.js">document.querySelectorAll('#sc .pin').forEach(e=>{if(['4','5','6'].includes(e.textContent.trim()))e.classList.add('lo')});</script>
+<style>.lg{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:18px}.lg li{display:grid;grid-template-columns:36px 1fr;gap:14px;font-size:28px;line-height:1.25;align-items:start}.lg .n{width:32px;height:32px;border-radius:50%;margin-top:2px}.lg .hi .n{background:#C24E12}.lg .lo .n{background:#fff;border:6px solid #00909A}.pin.lo{background:#00909A}</style></head><body><div class="sheet">
+<div class="card" id="s1"><div class="topline"><span class="series">Small detail, real effect</span></div>
+<div class="content"><div class="kicker">Risk factors from two heatwave studies</div><h1 class="m">Heatwave: who to check on</h1>
+<div class="scene" id="sc" style="flex:0 0 420px;margin-top:16px"></div>
+<ul class="lg"><li class="hi"><span class="n"></span><span>1. Top floor under the roof: higher risk</span></li><li class="hi"><span class="n"></span><span>2. Lives alone: higher risk (Chicago)</span></li><li class="hi"><span class="n"></span><span>3. Does not leave home each day, or confined to bed: higher risk</span></li><li class="lo"><span class="n"></span><span>4. Working air conditioning: lower risk (Chicago)</span></li><li class="lo"><span class="n"></span><span>5. Friends nearby and a way to get out: lower risk (Chicago)</span></li><li class="lo"><span class="n"></span><span>6. Light clothing and ways to cool down: lower risk (France)</span></li></ul>
+<p class="small" style="margin-top:16px;font-size:26px">Check daily on older neighbours who live alone. This is a judgement drawn from studies of who died; they show links, not proof of cause.</p></div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Semenza et al., NEJM, 1996 (Chicago 1995); Vandentorren et al., Eur J Public Health, 2006 (France 2003)</span></div></div>
+</div><script>
+window.__ready=false;
+const W=1000,H=420,g=395,S=0.9;
+Kit.draw('#sc',W,H,[
+ Kit.room('home_living',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:640,y:g-110,scale:0.9,curtains:'mustard'}),
+ Kit.person({pose:'seated_side',seat:'armchair',x:560,y:g,scale:S,facing:'right',age:'older',sex:'f',skin:'dark',hair:'white',hairStyle:'coily',top:'cream',bottom:'stone'}),
+ Kit.person({pose:'standing',x:150,y:g,scale:S,sex:'m',age:'adult',skin:'brown',hair:'black',hairStyle:'short',top:'sage',hold:'glass'}),
+ Kit.plant({x:900,y:g-6,scale:1}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:500,y:30},{n:2,x:560,y:150},{n:3,x:690,y:130},{n:4,x:820,y:100},{n:5,x:150,y:150},{n:6,x:600,y:280}]);
+window.__ready=true;
+document.querySelectorAll('#sc .pin').forEach(e=>{if(['4','5','6'].includes(e.textContent.trim()))e.classList.add('lo')});</script></body></html>

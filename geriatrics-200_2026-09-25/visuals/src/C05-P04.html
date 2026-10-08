@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C05-P04 Same score different reasons</title><link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content"><span class="badge illustrative" style="align-self:flex-start">Illustrative example</span>
+ <h1 class="m" style="margin-top:14px">Same score, <em>different reasons</em></h1>
+ <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:26px">
+  <div class="panelbox"><div class="art" id="a1" style="height:440px;flex:none"></div><div class="cap" style="font-size:28px;font-weight:600">CFS 6: moderate dementia; walks independently; needs prompting to dress</div></div>
+  <div class="panelbox"><div class="art" id="a2" style="height:440px;flex:none"></div><div class="cap" style="font-size:28px;font-weight:600">CFS 6: thinking intact; physical disability; needs someone standing by</div></div>
+ </div>
+ <p class="body" style="font-size:32px;margin-top:28px">The scale counts help needed from any cause. Write the reason next to the number.</p></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Rockwood and Theou, Can Geriatr J 2020</span></div>
+</div></div>
+<script>
+const W=450,H=440,g=400,S=0.95;
+Kit.draw('#a1',W,H,[Kit.room('home_living',{w:W,h:H,ground:g,scale:S}),Kit.door({x:380,y:g,w:120,scale:S}),
+ Kit.person({pose:'walking',x:150,y:g,scale:S,age:'older',sex:'m',skin:'fair',hair:'white',hairStyle:'balding',top:'sage',bottom:'slate',extras:['cardigan']}),
+ Kit.person({pose:'standing',role:'care_worker',x:300,y:g,scale:S,facing:'left',sex:'f',skin:'olive',hair:'black',hairStyle:'bun',hands:{near:{x:225,y:g-215}}})],{cls:'art'});
+const s=Kit.anchor('stool',{x:150,y:g,scale:S});
+Kit.draw('#a2',W,H,[Kit.room('bathroom',{w:W,h:H,ground:g,scale:S}),Kit.grab_rail({x:30,y:g-210,length:120,angle:-90,scale:S}),
+ Kit.person({pose:'seated_side',seat:'stool',x:150,y:g,scale:S,age:'older',sex:'f',skin:'tan',hair:'saltpepper',hairStyle:'bun',top:'rose',bottom:'slate',hands:'lap'}),
+ Kit.walking_frame({x:260,y:g,scale:S,type:'standard'}),
+ Kit.person({pose:'standing',role:'hca',x:370,y:g,scale:S,facing:'left',sex:'m',skin:'brown',hair:'black',hairStyle:'cropped'})],{cls:'art'});
+window.__ready=true;
+</script></body></html>

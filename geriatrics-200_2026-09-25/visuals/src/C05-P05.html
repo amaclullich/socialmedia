@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C05-P05</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style>.lg{display:flex;flex-direction:column;gap:14px;font-size:30px;line-height:1.3}.lg .r{display:flex;gap:18px;align-items:center}.lg svg{flex:0 0 auto}.ld{display:flex;gap:18px;align-items:center;padding:10px 0;font-size:30px}.ld svg{flex:0 0 auto}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Ask this</span><span class="slidecount">1/2</span></div>
+ <div class="content"><div class="kicker">Clinical Frailty Scale (CFS), in plain words</div>
+ <h1 class="s">What the frailty number in your letter means</h1>
+ <p class="body" style="font-size:30px;margin-top:14px">Scored on your usual self, such as two weeks before the illness</p>
+ <div id="lad" style="margin-top:22px;display:flex;flex-direction:column;gap:9px"></div>
+ <div class="panel deep" style="margin-top:auto;margin-bottom:26px;padding:24px 34px"><h3 style="font-size:36px">Ask: what was it based on?</h3></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Rockwood and Theou, Can Geriatr J 2020</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Ask this</span><span class="slidecount">2/2</span></div>
+ <div class="content"><h1 class="m">Three questions about your score</h1>
+ <ul class="ticks" style="margin-top:50px;gap:40px"><li class="q" style="font-size:42px;grid-template-columns:70px 1fr">What was my score based on?</li><li class="q" style="font-size:42px;grid-template-columns:70px 1fr">Does it describe me before this illness?</li><li class="q" style="font-size:42px;grid-template-columns:70px 1fr">What is it being used for?</li></ul>
+ <div class="scene" id="sc" style="margin-top:50px"></div></div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Rockwood and Theou, Can Geriatr J 2020</span></div>
+</div>
+</div>
+<script>
+const rows=[[3,'1 to 3: fit or managing well'],[4,'4: slowed down, no daily help needed'],[5,'5: help with money, transport, heavy housework'],[6,'6: help outside the home, housework, bathing'],[7,'7: help with all personal care'],[8,'8: as 7, and near the end of life'],[9,'9: expected to live under about 6 months, not otherwise severely frail']];
+const L=document.getElementById('lad');
+rows.forEach(r=>{const d=document.createElement('div');d.style.cssText='display:flex;align-items:stretch;gap:0;background:#fff;border:2px solid #D9DEDC;border-radius:12px;overflow:hidden';
+ d.innerHTML=`<div style="flex:0 0 ${20+r[0]*14}px;background:#15535B"></div><div style="padding:11px 22px;font-size:30px;line-height:1.25;font-weight:600">${r[1]}</div>`;L.appendChild(d)});
+const W=920,H=330,g=300,S=0.9;
+const t=Kit.anchor('table',{x:460,y:g,scale:S});
+Kit.draw('#sc',W,H,[Kit.room('kitchen',{w:W,h:H,ground:g,scale:S}),Kit.table({x:460,y:g,w:300,scale:S}),Kit.notepad({x:t.top.x,y:t.top.y,scale:S*1.2}),
+ Kit.person({pose:'seated_side',seat:'chair',x:300,y:g,scale:S,age:'older',sex:'f',skin:'brown',hair:'white',hairStyle:'curly',top:'plum',bottom:'stone',extras:['glasses','cardigan']}),
+ Kit.person({pose:'seated_side',seat:'chair',x:620,y:g,scale:S,facing:'left',sex:'m',skin:'dark',hair:'black',hairStyle:'cropped',top:'sage',bottom:'slate'})],{cls:'art'});
+window.__ready=true;
+</script></body></html>
