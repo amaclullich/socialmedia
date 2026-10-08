@@ -125,15 +125,23 @@
     "Alasdair MacLullich | Weighing it up"
    ],
    "alt_text": [
-    "Comparison card. Left, average gain from sleeping tablets in short trials of people over 60: about 25 more minutes of sleep a night, self-reported, and 0.63 fewer wakings a night. Right, more common with the tablets: memory problems and confusion, and daytime tiredness. Glass, BMJ 2005, 24 trials, 2,417 people.",
-    "Two icon arrays from different trials. About 1 in 13 more people reported better sleep than with a dummy pill; about 1 in 6 more had a side effect of any kind. Not the same people; the authors call it a rough guide. Short trials. Glass, BMJ 2005."
+    "Two panels. Average gain: about 25 more minutes of sleep a night and 0.63 fewer wakings a night. More common with the tablets: memory problems and confusion, and daytime tiredness. From 24 trials in 2,417 people aged 60 and over.",
+    "Two small grids of person icons. About 1 in 13 more people reported better sleep than with a dummy pill (1 of 13 shaded). About 1 in 6 more people had a side effect of any kind (1 of 6 shaded). Different trials, so not the same people; a rough guide."
    ],
    "attention_note": "A small, concrete number in minutes that most readers will not expect, with the harms in the same frame.",
    "gain_note": "A fair basis for a decision: what to expect from a tablet, what else is more common, and that CBT for insomnia is the guideline first step.",
    "follow_note": "Weighing it up posts set benefits and harms side by side and say what the numbers do not show.",
    "verification_notes": "Glass 2005 (full text): 25.2 minutes, 0.63 wakings, NNT 13 (4 trials, 1,072 people; CI 6.7 to 62.9), NNH 6 (16 trials, 2,220 people), trim-and-fill 15 minutes, cognitive and daytime fatigue more common (odds ratios not used). Wording says 'short trials' and 'self-reported'; NNT and NNH labelled as different trials. Unsteadiness not claimed. Berry 2013 (abstract): association only, US Z-drugs, care home residents. Beers 2023 (full text) and ACP 2016 and European 2023 guidelines (abstracts) for guideline statements; short-term tablet use allowed by the European guideline. Closing sentence in LinkedIn is marked as judgement.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P01_1.png",
+    "C11-P01_2.png"
+   ],
+   "visual_source": "visuals/src/C11-P01.html",
+   "visual_format": "carousel (comparison card, then two icon arrays)",
+   "design_instructions": "carousel (comparison card, then two small icon arrays). Source html visuals/src/C11-P01.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: Glass et al., BMJ 2005 (C11-16-a, C11-16-c). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P02",
@@ -216,7 +224,7 @@
     "Alasdair MacLullich | Teaching round"
    ],
    "alt_text": [
-    "Checklist card, Acting out dreams in later life: four steps. 1 Ask the bed partner as well as the person about dreams of chasing or attacking and injuries. 2 Assess: refer for a sleep study if in doubt; severe sleep apnoea can look similar. 3 Protect: clear hazards, pad sharp furniture and the headboard, soft rug by the bed. 4 Talk: review medicines and discuss what it may mean."
+    "Checklist of four steps for acting out dreams in later life. 1 Ask the bed partner and the person about chasing or attacking dreams and injuries. 2 Assess: refer for a sleep study if in doubt; severe sleep apnoea can look similar. 3 Protect: clear hazards, pad furniture and headboard, soft rug. 4 Talk: review medicines."
    ],
    "attention_note": "A history question most clinicians are not prompted to ask, tied to a link with later Parkinson's disease and Lewy body dementia.",
    "gain_note": "A history question, a safe-bedroom list and a way to frame the conversation, with the limits of the numbers stated.",
@@ -225,7 +233,14 @@
    "status": "text_final",
    "open_issues": [
     "Editor's guidance: schedule this post apart from C08-17."
-   ]
+   ],
+   "visual_files": [
+    "C11-P02.png"
+   ],
+   "visual_source": "visuals/src/C11-P02.html",
+   "visual_format": "checklist card",
+   "design_instructions": "checklist card. Source html visuals/src/C11-P02.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: none (no numbers). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P03",
@@ -338,15 +353,23 @@
     "Alasdair MacLullich | Care that works"
    ],
    "alt_text": [
-    "Two grids of 100 people. Six months after a booklet on benzodiazepine risks and a plan for cutting down, about 27 in 100 older people had stopped, against about 5 in 100 with usual care. 303 people aged 65 to 95, Quebec pharmacies. Stopped means no more pharmacy refills. Tannenbaum, JAMA Intern Med 2014.",
-    "Read it with care. 29 of 77 people who tried to taper in a second Quebec trial reported withdrawal symptoms; none needed hospital care. Both trials ran through community pharmacies in Quebec. Mailing information did not reduce use of high-risk medicines (including sedatives) in a large US trial in people with dementia. Ask your pharmacist for the risks in writing and a slow plan."
+    "Two grids of 100 person icons. After a booklet on tablet risks and a plan for cutting down, about 27 in 100 older long-term benzodiazepine users had stopped at 6 months, against about 5 in 100 with usual care. 303 people aged 65 to 95, Quebec pharmacies.",
+    "Read it with care. 29 of 77 people who tried to taper in a second Quebec trial reported withdrawal symptoms; none needed hospital care. Both trials were in Quebec pharmacies. Mailing information did not reduce high-risk medicine use in a US trial in dementia. Ask your pharmacist for written information and a slow plan."
    ],
    "attention_note": "A large effect from something as ordinary as a booklet, set against a fair account of what it does not show.",
    "gain_note": "Older people learn they can ask for written information and a slow plan; practitioners see what worked and the setting it needed.",
    "follow_note": "Care that works posts show specific models of good care and what made them work.",
    "verification_notes": "Tannenbaum 2014 (abstract): 303 people aged 65 to 95, 27% vs 5% stopped at 6 months, difference 23 points, further 11% reduced dose, 62% raised it themselves; 'given', not 'posted', because the abstract does not state delivery. Martin 2018 (abstract): sedative-hypnotic subgroup 63/146 vs 14/155; 29/77 withdrawal symptoms; stated as including a message to the doctor. Singh 2024 (abstract): 12,787 people with dementia, 76.7% vs 77.5% still dispensed; presented as setting and follow-through, not disproof. Mak 2022 not used in captions. Statement that results need testing elsewhere attributed to the D-PRESCRIBE trial text via C11-03-e. Closing sentence 'We should offer...' marked as judgement.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P03_1.png",
+    "C11-P03_2.png"
+   ],
+   "visual_source": "visuals/src/C11-P03.html",
+   "visual_format": "carousel (two icon arrays, then limits and what to ask)",
+   "design_instructions": "carousel (two icon arrays, then limits and what to ask). Source html visuals/src/C11-P03.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: C11-03-a, C11-03-d. Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P04",
@@ -456,6 +479,12 @@
     "Vibrating pad under pillow or mattress: 80 to 84",
     "Flashing light: 27",
     "38 adults aged 18 to 80; deep sleep only; not only older people",
+    "0",
+    "25",
+    "50",
+    "75",
+    "100",
+    "Woken out of 100",
     "Bruck and Thomas, Ear Hear 2009",
     "Sleep without hearing aids? Check your alarm",
     "Illustration. Visits are offered by every fire and rescue service in England; what they fit varies.",
@@ -466,8 +495,8 @@
     "Alasdair MacLullich | Small detail, real effect"
    ],
    "alt_text": [
-    "Bar chart. Of adults with mild to moderately severe hearing loss woken from deep sleep in a laboratory: standard high-pitched smoke alarm 56 in 100, lower-pitched alarm 92 in 100, vibrating pad 80 to 84 in 100, flashing light 27 in 100. 38 adults aged 18 to 80, so not only older people; deep sleep only. Bruck and Thomas, Ear Hear 2009.",
-    "Illustration of a bedroom at night: an older woman asleep, a hearing aid case on the bedside table, a vibrating pad under the pillow, a smoke alarm on the ceiling and a phone. Three steps: ask for an alarm you will wake to, ask for a vibrating pad, and ask your fire and rescue service for a home fire safety visit."
+    "Bar chart of how many out of 100 adults with hearing loss were woken from deep sleep in a laboratory: standard high-pitched alarm 56, lower-pitched alarm 92, vibrating pad 80 to 84, flashing light 27. 38 adults aged 18 to 80.",
+    "Illustration of an older Black woman asleep in bed, a hearing aid, glass and phone on the bedside table, a vibrating pad under the pillow and a smoke alarm on the ceiling. Three numbered tips: alarm you will wake to, vibrating pad, and a fire and rescue home safety visit."
    ],
    "attention_note": "A safety fact almost nobody has considered: the alarm that wakes you with your aids in may not wake you with them out.",
    "gain_note": "A specific check and a service to contact, with the small size and adult age range of the study stated.",
@@ -476,7 +505,15 @@
    "status": "text_final",
    "open_issues": [
     "C11-13-d is partly supported (search extract only); used only as a question to ask. Editor may prefer to move this post to C14 (hearing) if the sleep category is crowded."
-   ]
+   ],
+   "visual_files": [
+    "C11-P04_1.png",
+    "C11-P04_2.png"
+   ],
+   "visual_source": "visuals/src/C11-P04.html",
+   "visual_format": "carousel (bar chart, then annotated scene)",
+   "design_instructions": "carousel (bar chart, then annotated scene). Source html visuals/src/C11-P04.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: C11-13-a, C11-13-b. Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P05",
@@ -491,7 +528,7 @@
    "position_basis": "mixed: the trial results and the guideline recommendations are empirical and published; the view that a leaflet should not be the whole response is clinical interpretation consistent with the AASM recommendation.",
    "captions": {
     "x": "In a large English insomnia trial, everyone got a sleep hygiene booklet: advice on caffeine, alcohol, a dark room and screens. Some people also had four sessions of sleep restriction therapy from a practice nurse (time in bed matched to time asleep). At 6 months their insomnia was less severe: an average score of 10.9, against 13.9 for booklet only, on a 0 to 28 scale where lower is less severe. The treatment was likely to be good value for the NHS.\n\nThat trial had 642 adults in 35 practices, mean age 55. In a small US trial of 79 older adults (average age 72), about 2 in 3 had responded at 4 weeks after two nurse sessions and two phone calls of behavioural treatment, against 1 in 4 given printed information.\n\nThe American Academy of Sleep Medicine suggests against sleep hygiene alone for long-term insomnia (a conditional recommendation). Offer sleep restriction therapy or other behavioural treatment, not the booklet alone.",
-    "linkedin": "The comparison group in a large English insomnia trial got a sleep hygiene booklet: advice on caffeine, alcohol, a dark room and screens. People who also had four sessions of sleep restriction therapy from a practice nurse, which sets time in bed close to time asleep, did better.\n\nThe HABIT trial randomised 642 adults in 35 English general practices. At 6 months the average Insomnia Severity Index was 10.9 with sleep restriction plus the booklet against 13.9 with the booklet only (scale 0 to 28, lower is better). The probability that the treatment was cost-effective was 95.3% at the usual NHS threshold of £20,000 per quality-adjusted life year. The trial was open label with a self-reported outcome.\n\nHABIT was not an older-adult trial. Mean age was 55 (range 19 to 88). The older-adult evidence is smaller. A US trial of 79 adults with chronic insomnia (mean age 72) compared brief behavioural treatment, two nurse sessions and two phone calls, with printed information. About 2 in 3 responded against 1 in 4 at 4 weeks, and the benefit held at 6 months. About half (55%) no longer had insomnia against 13%. It was a small single-centre trial, and the printed information is comparable to a leaflet but not identical to a sleep hygiene leaflet.\n\nThe guidelines agree. The American Academy of Sleep Medicine conditionally advises against sleep hygiene as a single treatment for long-term insomnia. It strongly recommends full multicomponent CBT for insomnia. It suggests stimulus control, sleep restriction or relaxation therapy as single treatments. The American College of Physicians recommends CBT for insomnia first.\n\nSleep hygiene can remain part of a multicomponent treatment. It should not be the whole response to long-term insomnia in an older person.",
+    "linkedin": "The comparison group in a large English insomnia trial got a sleep hygiene booklet: advice on caffeine, alcohol, a dark room and screens. People who also had four sessions of sleep restriction therapy from a practice nurse, which sets time in bed close to time asleep, did better.\n\nThe HABIT trial randomised 642 adults in 35 English general practices. At 6 months the average Insomnia Severity Index was 10.9 with sleep restriction plus the booklet against 13.9 with the booklet only (scale 0 to 28, lower is better). The probability that the treatment was cost-effective was 95.3% at the usual NHS threshold of \u00a320,000 per quality-adjusted life year. The trial was open label with a self-reported outcome.\n\nHABIT was not an older-adult trial. Mean age was 55 (range 19 to 88). The older-adult evidence is smaller. A US trial of 79 adults with chronic insomnia (mean age 72) compared brief behavioural treatment, two nurse sessions and two phone calls, with printed information. About 2 in 3 responded against 1 in 4 at 4 weeks, and the benefit held at 6 months. About half (55%) no longer had insomnia against 13%. It was a small single-centre trial, and the printed information is comparable to a leaflet but not identical to a sleep hygiene leaflet.\n\nThe guidelines agree. The American Academy of Sleep Medicine conditionally advises against sleep hygiene as a single treatment for long-term insomnia. It strongly recommends full multicomponent CBT for insomnia. It suggests stimulus control, sleep restriction or relaxation therapy as single treatments. The American College of Physicians recommends CBT for insomnia first.\n\nSleep hygiene can remain part of a multicomponent treatment. It should not be the whole response to long-term insomnia in an older person.",
     "bluesky": "In a large English trial all got a sleep hygiene booklet. Four nurse sessions of sleep restriction did better: insomnia score 10.9 against 13.9, lower being better. In a small US trial of 79 older adults, behavioural treatment beat printed information at 4 weeks: 2 in 3 responded against 1 in 4.",
     "threads": "A sleep hygiene booklet was the comparison group in a large English insomnia trial. Four nurse sessions of sleep restriction did better at 6 months (average score 10.9 against 13.9 on a 0 to 28 scale, lower being better). Mean age was 55.\n\nIn a small US trial of 79 older adults, brief behavioural treatment helped about 2 in 3 at 4 weeks, against 1 in 4 given printed information.\n\nOffer sleep restriction or other behavioural treatment, not the leaflet alone."
    },
@@ -541,6 +578,7 @@
     "Teaching round",
     "A leaflet is a starting point, not the treatment",
     "The comparison group in a large English trial got the booklet. Four nurse sessions of sleep restriction did better.",
+    "+",
     "Sleep hygiene advice",
     "Caffeine and alcohol",
     "A dark room",
@@ -553,14 +591,21 @@
     "Alasdair MacLullich | Teaching round"
    ],
    "alt_text": [
-    "Comparison card. Left, sleep hygiene advice: caffeine and alcohol, a dark room, screens. Right, what treats long-term insomnia: stimulus control, sleep restriction (time in bed matched to time asleep) and full CBT for insomnia. In a large English trial the booklet was the comparison and four nurse sessions of sleep restriction did better. Kyle, Lancet 2023; Buysse 2011; Edinger 2021."
+    "Comparison card. Left: leaflet sleep hygiene advice about caffeine and alcohol, a dark room and screens. Right: what treats long-term insomnia: stimulus control, sleep restriction and full CBT for insomnia. A leaflet is a starting point, not the treatment."
    ],
    "attention_note": "Challenges a near-universal habit: handing over a leaflet and calling it treatment.",
    "gain_note": "The active components to offer instead, with older-adult evidence and the age limits of the English trial.",
    "follow_note": "Teaching round posts update routine practice one distinction at a time.",
-   "verification_notes": "Kyle 2023 (abstract): 642 adults, 35 practices, mean age 55.4 (19 to 88), ISI 10.9 vs 13.9, 95.3% probability cost-effective at £20,000 per QALY; open label, self-reported. Buysse 2011 (abstract): 79 adults mean age 71.7, response 67% vs 25%, 55% vs 13% no insomnia at 4 weeks, maintained at 6 months; stated as small single-centre. Edinger 2021 (abstract): conditional recommendation against sleep hygiene alone; strong for multicomponent CBT-I. Qaseem 2016: ACP CBT-I first. Sleep hygiene definition (caffeine, alcohol, dark room, screens) and the plain gloss of sleep restriction follow the candidate's visual specification. Final LinkedIn sentence is clinical interpretation.",
+   "verification_notes": "Kyle 2023 (abstract): 642 adults, 35 practices, mean age 55.4 (19 to 88), ISI 10.9 vs 13.9, 95.3% probability cost-effective at \u00a320,000 per QALY; open label, self-reported. Buysse 2011 (abstract): 79 adults mean age 71.7, response 67% vs 25%, 55% vs 13% no insomnia at 4 weeks, maintained at 6 months; stated as small single-centre. Edinger 2021 (abstract): conditional recommendation against sleep hygiene alone; strong for multicomponent CBT-I. Qaseem 2016: ACP CBT-I first. Sleep hygiene definition (caffeine, alcohol, dark room, screens) and the plain gloss of sleep restriction follow the candidate's visual specification. Final LinkedIn sentence is clinical interpretation.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P05.png"
+   ],
+   "visual_source": "visuals/src/C11-P05.html",
+   "visual_format": "comparison card",
+   "design_instructions": "comparison card. Source html visuals/src/C11-P05.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: none (no numbers). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P06",
@@ -641,14 +686,21 @@
     "Alasdair MacLullich | Teaching round"
    ],
    "alt_text": [
-    "Flow diagram, 2025 US guideline (AASM). 1 Check ferritin and transferrin saturation. 2 Offer iron if ferritin is 75 or below or transferrin saturation is under 20%; untested expert consensus. 3 Look for aggravators such as sedating antihistamines. 4 Choose treatment with care: dopamine agonists not advised as standard (conditional; augmentation); gabapentinoids cause sleepiness and dizziness."
+    "Flow diagram for restless legs, from a 2025 US guideline. Step 1 check ferritin and transferrin saturation. Step 2 offer iron if ferritin is 75 or below or saturation under 20%. Step 3 look for aggravating medicines and causes. Step 4 choose treatment with care. Notes on dopamine agonists and gabapentinoids."
    ],
    "attention_note": "A guideline change many clinicians have not caught up with, and the point that a normal ferritin can still be too low.",
    "gain_note": "An up-to-date sequence to follow, with the evidence grade and the older-adult trade-off stated.",
    "follow_note": "Teaching round posts keep practice current with the strength of the evidence stated.",
    "verification_notes": "Winkelman 2025 (full text): ferritin 75 or below, TSAT under 20%, 75 to 100 IV only, consensus 'not empirically tested'; aggravators good practice statement; conditional recommendations against pramipexole, ropinirole, rotigotine; gabapentin and pregabalin recommended; dopamine agonists effective short term. Beers 2023 (full text): kidney dose reduction, avoid with opioids, avoid 3 or more CNS-active drugs; antiepileptics (including gabapentinoids) to be avoided after falls except for seizures or mood disorders. Tension between AASM and Beers stated as a trade-off. Labelled as a US guideline; UK guidance (C11-22-f, search extract only) not described. Closing sentence about local UK guidance is advice to check, not a claim about it.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P06.png"
+   ],
+   "visual_source": "visuals/src/C11-P06.html",
+   "visual_format": "diagram (flow)",
+   "design_instructions": "diagram (flow). Source html visuals/src/C11-P06.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: none (no numbers). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P07",
@@ -733,14 +785,21 @@
     "Alasdair MacLullich | Reading the evidence"
    ],
    "alt_text": [
-    "Two grids of 100 people. Over up to 3 years, 12 in 100 older adults (19 of 156) who had CBT for insomnia developed major depression, against 26 in 100 (35 of 135) who had sleep education. Crude proportions of those randomised; 291 adults aged 60 and over. Limits: one trial, one site, more than 8 in 10 White, more CBT drop-out. Irwin, JAMA Psychiatry 2022."
+    "Two grids of 100 person icons. Major depression over up to 3 years: 12 in 100 after CBT for insomnia (19 of 156) and 26 in 100 after sleep education (35 of 135), 291 adults aged 60 and over. Limits: one trial, one site, more than 8 in 10 White, fewer CBT participants completed follow-up."
    ],
    "attention_note": "An unexpected possible benefit of a sleep treatment, set beside a fair account of how far to trust it.",
    "gain_note": "A reason to treat insomnia properly and a worked example of reading a trial fairly.",
    "follow_note": "Reading the evidence posts give the result and its limits.",
    "verification_notes": "Irwin 2022 (abstract): 291 people aged 60+, mean age 70.1, 2 months CBT-I vs sleep education; 19/156 (12.2%) vs 35/135 (25.9%), HR 0.51 (0.29 to 0.88); completion at 24 months 73.1% vs 86.7%, at 36 months 51.9% vs 57.0%; 82.8% White; sustained remission 26.3% vs 19.3%. 82.6% remitter figure deliberately not used (non-randomised comparison). 'Not yet replicated in the sources read' reflects the claim's conflicting-evidence note.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P07.png"
+   ],
+   "visual_source": "visuals/src/C11-P07.html",
+   "visual_format": "chart (two 10 by 10 icon arrays with limitation strip)",
+   "design_instructions": "chart (two 10 by 10 icon arrays with limitation strip). Source html visuals/src/C11-P07.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: C11-28-b. Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P08",
@@ -810,14 +869,21 @@
     "Alasdair MacLullich | Small detail, real effect"
    ],
    "alt_text": [
-    "Drawing of a hospital bedside. An older man sits up in bed talking to a nurse. On the cabinet are his CPAP machine, mask, tubing and power lead. Six callouts: machine, mask, tubing, power lead, tell the nurse when you arrive, ask whether the ward needs to check your machine. Specialist guidance is for planned surgery; if admitted unexpectedly, ask someone to bring it in."
+    "Illustration of a hospital bedside. An older man sits up in bed while a nurse with a notepad stands beside him; on the bedside cabinet are a CPAP machine, mask, tubing and power lead. Numbered tips: bring each part, tell the nurse on arrival, ask whether the ward needs to check the machine."
    ],
    "attention_note": "A concrete, easily overlooked packing detail that affects many households.",
    "gain_note": "An easy action that supports breathing in hospital, with the drug-risk evidence graded.",
    "follow_note": "Small detail, real effect posts take everyday details that prevent avoidable harm.",
    "verification_notes": "Chung 2016 SASM guideline (full text): continue PAP in hospital before and after surgery (moderate evidence, strong recommendation); facilities have equipment or patients bring their own. Memtsoudis 2018 SASM guideline (full text): opioids and IV benzodiazepine sedation may increase risk in OSA (low evidence, weak); PAP is not an alternative to monitoring. Unplanned admissions and the ward-check question are practical suggestions (C11-10-c not found as policy; used only as a question). CPAP and sleep apnoea glosses are standard definitions. CPAP and nocturia claim left out. Final LinkedIn sentence is a judgement.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P08.png"
+   ],
+   "visual_source": "visuals/src/C11-P08.html",
+   "visual_format": "annotated scene",
+   "design_instructions": "annotated scene. Source html visuals/src/C11-P08.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: none (no numbers). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P09",
@@ -909,14 +975,21 @@
     "Alasdair MacLullich | Weighing it up"
    ],
    "alt_text": [
-    "Three-column card. Prescribed melatonin: slow-release, ages 55 and over, up to 3 months (European guideline). Evidence: in Alzheimer's disease it may make little or no difference to sleep; in other sleep problems, in adults and children together, about 7 minutes quicker to sleep and 8 minutes more sleep on average. Ask: what counts as success, when to review, where the product comes from."
+    "Three columns on melatonin. What prescribed melatonin is for: slow-release, ages 55 and over, up to 3 months. What the evidence shows: little or no difference in Alzheimer's disease; about 7 minutes quicker to sleep and 8 more minutes in other sleep problems. What to ask: success, review, product source."
    ],
    "attention_note": "A widely used product that many assume is safe and effective because it feels natural.",
    "gain_note": "Realistic expectations and three questions to ask before starting.",
    "follow_note": "Weighing it up posts give fair, practical judgements, one treatment decision at a time.",
    "verification_notes": "European Insomnia Guideline 2023 (abstract): slow-release melatonin up to 3 months at 55+, fast-release not recommended; UK licence wording (Circadin SPC, C11-24-b) not used because only a search extract. McCleery 2020 Cochrane (abstract): melatonin up to 10 mg, 8 to 10 weeks, total sleep difference 10.68 min (-16.22 to 37.59), low certainty; other medicines showed some benefit (trazodone, orexin antagonists), not named. Ferracioli-Oda 2013: 7.06 and 8.25 minutes, mixed ages including children. Cohen 2023 (full text): 22 of 25 gummies mislabelled, 74 to 347%, one contained none. Erland 2016: Canadian supplements -83% to +478%. UK prescription status not stated. Follow invitation carried here (one in this set).",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P09.png"
+   ],
+   "visual_source": "visuals/src/C11-P09.html",
+   "visual_format": "three-column card",
+   "design_instructions": "three-column card. Source html visuals/src/C11-P09.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: no chart; C11-24-e figures as text. Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P10",
@@ -985,14 +1058,21 @@
     "Alasdair MacLullich | Ask this"
    ],
    "alt_text": [
-    "Drawing of a care home bedroom at night. A man sleeps under a blanket by a low lamp; a care worker in the doorway holds a torch pointed at the floor. Four numbered questions to ask a home: how night checks are planned for each person; how continence care is given to someone asleep; how noise and lights are kept down and what happens at 3am; what time residents go to bed and who decides."
+    "Illustration of a care home bedroom at night. An older man sleeps in bed; a care worker stands in the lit doorway. Four numbered questions to ask a home: how night checks are planned, continence care while asleep, keeping noise and lights down, and bedtimes and who decides."
    ],
    "attention_note": "Families rarely think to ask about nights, and visits usually see the day.",
    "gain_note": "Four ready questions for a visit or review, with the limits of the evidence stated.",
    "follow_note": "Ask this posts turn worry into specific questions.",
    "verification_notes": "Ouslander 1998 and Schnelle 1998/1999 (abstracts): 4% of 1,715 awakenings over 403 nights associated with wet episodes; tailored 2 or 4 hourly checks by skin risk cut care-related waking without skin harm; noise and light changes with limited effect on sleep. Webster 2022 and Nunez 2017 (abstracts): UK staff interviews, dark quiet rooms, too few night staff. Regulations and standards deliberately not cited. Bedtime question flagged as a values question; no sleep claim made. The 7 in 10 daytime sleeping figure (C11-27-a) not used. Final LinkedIn sentence 'We should expect...' is a judgement. Nunez 2017 (abstract) supports the point that UK staff describe constraints at night.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P10.png"
+   ],
+   "visual_source": "visuals/src/C11-P10.html",
+   "visual_format": "annotated scene",
+   "design_instructions": "annotated scene. Source html visuals/src/C11-P10.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: none (no numbers). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P11",
@@ -1095,6 +1175,12 @@
     "Six phone sessions of CBT for insomnia: 56 in 100 (67 of 119)",
     "Information only: 26 in 100 (33 of 128)",
     "Remission means an Insomnia Severity Index score of 7 or less",
+    "0",
+    "25",
+    "50",
+    "75",
+    "100",
+    "Out of 100",
     "McCurry et al., JAMA Intern Med 2021: 327 people, one US health plan",
     "A route that needs the internet leaves some people out",
     "A national study of people living at home in England estimated that about 1 in 5 people aged 60 and over did not use the internet in 2020. The trial did not compare phone with online delivery.",
@@ -1105,15 +1191,23 @@
     "Alasdair MacLullich | Who gets left out"
    ],
    "alt_text": [
-    "Bar chart. A year after treatment, among adults aged 60 and over with insomnia and osteoarthritis pain who were followed up, 56 in 100 (67 of 119) who had six phone sessions of CBT for insomnia had no clinically significant insomnia, against 26 in 100 (33 of 128) given information only. One US health plan. McCurry, JAMA Intern Med 2021.",
-    "Twenty person icons, four marked: a national study of people living at home in England estimated that about 1 in 5 people aged 60 and over did not use the internet in 2020. A route that needs the internet leaves them out. The trial did not compare phone with online delivery. Question to ask your GP practice: can I have CBT for insomnia by phone or in person?"
+    "Bar chart: no clinically significant insomnia at 12 months, 56 in 100 after six phone sessions of CBT for insomnia (67 of 119) against 26 in 100 with information only (33 of 128). Adults 60 and over with osteoarthritis pain.",
+    "Grid of 20 person icons, 4 shaded: about 1 in 5 people aged 60 and over in England did not use the internet in 2020 (estimate). A route needing the internet leaves some out. Ask your GP practice: can I have CBT for insomnia by phone or in person?"
    ],
    "attention_note": "A plain, inclusive answer to an access problem, with the argument and the evidence kept apart.",
    "gain_note": "Knowing that the option exists, that it can be asked for, and how far the evidence goes.",
    "follow_note": "Who gets left out posts attend to people excluded by default designs.",
    "verification_notes": "McCurry 2021 (abstract): 327 people aged 60+, mean 70.2, six sessions of 20 to 30 minutes over 8 weeks, remission (ISI 7 or less) 67/119 (56.3%) vs 33/128 (25.8%) at 12 months, denominators are those with 12-month data; comparator education only; pain difference not sustained. Kung and Steptoe 2023 (full text): the 79% of those 60+ using the internet at any frequency is a single Discussion estimate (comparable ELSA data), not a reported result, so it is worded as an estimate; the Results report daily use in adults 50+ (73.9% in June and July 2020); care homes excluded, non-users may be under-represented; daily use lower with age (85+ vs 50 to 64, 17 points adjusted), deprivation and loneliness. Kyle 2023 (abstract): practice nurses delivered sleep restriction in four sessions; mean age 55; not stated to be by phone. ACP 2016 and AASM 2021: CBT-I first line. NICE and Sleepio claims dropped as unverified. The access argument is flagged as judgement. Slide 2 art: 4 of 20 icons equals about 1 in 5 (79% used the internet).",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P11_1.png",
+    "C11-P11_2.png"
+   ],
+   "visual_source": "visuals/src/C11-P11.html",
+   "visual_format": "carousel (bar comparison, then access card)",
+   "design_instructions": "carousel (bar comparison, then access card). Source html visuals/src/C11-P11.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: C11-09-a, C11-09-d. Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   },
   {
    "tmp_id": "C11-P12",
@@ -1200,14 +1294,21 @@
     "Alasdair MacLullich | Teaching round"
    ],
    "alt_text": [
-    "Checklist. Tonight, ask about pain, needing the toilet, noise, equipment. Tomorrow, day team, review dose times: steroid later than morning; donepezil at night with sleeplessness or vivid dreams. In trials of sleeping tablets taken for at least 5 nights, people over 60 reported about 25 more minutes of sleep on average, with more confusion and daytime tiredness. Wesselius 2018; Glass 2005."
+    "Checklist. Tonight ask about pain, needing the toilet, noise from other patients and medical equipment. Tomorrow, for the day team, review dose times: steroid given later than morning, donepezil at night with sleeplessness or vivid dreams. Sleeping tablets gave about 25 more minutes of sleep in over 60s."
    ],
    "attention_note": "Every doctor knows the 2am call; the useful answer is often in front of them.",
    "gain_note": "A short check for tonight and a drug-chart review for tomorrow that may avoid a sedative.",
    "follow_note": "Teaching round posts give a usable point for the next night shift.",
    "verification_notes": "Wesselius 2018 (abstract): 2,005 inpatients, median age 68, 39 Dutch hospitals, 83 minutes shorter, disturbers; all adult ages, one night. Glass 2005 (full text): 25.2 minutes, cognitive and daytime fatigue more common; trials of at least 5 consecutive nights. Liu 2013: expert advice, single morning dose of glucocorticoid. Jackson 2004, Singer 2005 case series of 8, Moderie 2022: donepezil morning dosing, review and case-series evidence; UK product advice not stated. Diuretic timing (C11-02-e, partly supported) and Parkinson's medicines (C11-02-f, not found) deliberately omitted.",
    "status": "text_final",
-   "open_issues": []
+   "open_issues": [],
+   "visual_files": [
+    "C11-P12.png"
+   ],
+   "visual_source": "visuals/src/C11-P12.html",
+   "visual_format": "checklist card (two lists)",
+   "design_instructions": "checklist card (two lists). Source html visuals/src/C11-P12.html with c11_common.js (person icon grids, hatched filled icons so colour is not the only cue). Grounds: off-white cards, mint/white panels, teal and burnt orange. Data claims: C11-16-a (25 minutes). Drawings via kit.js only on P04 card 2, P08, P10; numbered pins with HTML key.",
+   "visual_status": "final"
   }
  ]
 }
