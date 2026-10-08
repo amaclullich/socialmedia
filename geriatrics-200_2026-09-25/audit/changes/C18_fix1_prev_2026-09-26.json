@@ -1,0 +1,114 @@
+[
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.x",
+  "old": "The commonest reason they were given was that the patient had not consented.",
+  "new": "One of the two commonest reasons they were given was that the patient had not consented.",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.linkedin",
+  "old": "The commonest reason they were given was lack of the patient's consent.",
+  "new": "One of the two commonest reasons they were given (alongside no team member being available) was lack of the patient's consent.",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.bluesky",
+  "old": "most often told the patient had not consented",
+  "new": "often told the patient had not consented",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.threads",
+  "old": "most often told the patient had not consented",
+  "new": "often told the patient had not consented",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "commonest reason given was no patient consent",
+  "new": "one of the two commonest reasons given was no patient consent",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "visual_text[1]",
+  "old": "commonest reason given was no patient consent",
+  "new": "one of the two commonest reasons given was no patient consent",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "alt_text[0]",
+  "old": "most often told the patient had not consented",
+  "new": "one of the two commonest reasons given was no patient consent",
+  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "verification_notes",
+  "old": "stated as 'commonest reason' in safe wording",
+  "new": "stated as 'one of the two commonest reasons' after factcheck",
+  "reason": "Keep notes consistent with corrected wording."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "visual_brief.slides[0].text.labels[2]",
+  "old": "Non-carers (comparison)",
+  "new": "Comparison group",
+  "reason": "Factcheck minor: reference group should not carry a finding label."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "visual_text[7]",
+  "old": "Non-carers (comparison)",
+  "new": "Comparison group",
+  "reason": "Factcheck minor: reference group should not carry a finding label."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "visual_brief.slides[0].art",
+  "old": "Column 2 and 3 in teal with label 'No clear difference'.",
+  "new": "Columns 2 and 3 in teal; column 2 labelled 'No clear difference'; column 3 labelled 'Comparison group' only.",
+  "reason": "Factcheck minor: reference group should not carry a finding label."
+ },
+ {
+  "tmp_id": "C18-P02",
+  "where": "captions.bluesky",
+  "old": "Only 4 trials have tested respite breaks for carers of people with dementia, and the evidence is very low quality.",
+  "new": "A 2014 Cochrane review found only 4 trials of respite breaks for carers of people with dementia, and the evidence was very low quality.",
+  "reason": "Factcheck minor: date the trial count to the 2014 review."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_brief.slides[1].text.items[0]",
+  "old": "Our view",
+  "new": "My view",
+  "reason": "Factcheck minor: posts are in Alasdair's first person."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_text[9]",
+  "old": "Our view",
+  "new": "My view",
+  "reason": "Factcheck minor: posts are in Alasdair's first person."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "alt_text[1]",
+  "old": "Our view",
+  "new": "My view",
+  "reason": "Factcheck minor: posts are in Alasdair's first person."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "alt_text[0]",
+  "old": "Diagram with two separate lanes. Always: the carer speaks and the clinician listens; nothing about the patient is shared. Ask and record: ask the patient what may be shared and with whom, and record it where the next clinician will look. Note: in an Irish survey of 159 carers in mental health services, over half struggled to get information, one of the two commonest reasons given was no patient consent.",
+  "new": "Diagram, two separate lanes. Always: the carer speaks and the clinician listens; nothing about the patient is shared. Ask and record: ask the patient what may be shared and with whom, and record it where the next clinician will look. In an Irish survey of 159 carers in mental health services, over half struggled to get information, one of the two commonest reasons given was no patient consent.",
+  "reason": "check_posts alt_over_400 after factcheck wording; trimmed."
+ }
+]

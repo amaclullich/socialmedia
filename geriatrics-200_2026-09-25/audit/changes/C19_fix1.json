@@ -1,0 +1,961 @@
+[
+ {
+  "tmp_id": "C19-P02",
+  "where": "visual_brief.slides[0].text.headline",
+  "old": "Breathlessness: try a fan before oxygen",
+  "new": "Breathlessness: our suggestion is a fan first, and oxygen only if it helps",
+  "reason": "Headline stated a recommendation as a finding; no trial compared a fan with oxygen. Marked as suggestion (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "visual_text[0]",
+  "old": "Breathlessness: try a fan before oxygen",
+  "new": "Breathlessness: our suggestion is a fan first, and oxygen only if it helps",
+  "reason": "Headline stated a recommendation as a finding; no trial compared a fan with oxygen. Marked as suggestion (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.x",
+  "old": "Both groups felt a little better. That could",
+  "new": "In the morning, both groups reported slightly less breathlessness. That could",
+  "reason": "Only the morning score fell in both arms; evening scores did not (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.linkedin",
+  "old": "Both groups felt a little better. This could",
+  "new": "In the morning, both groups reported slightly less breathlessness. This could",
+  "reason": "Only the morning score fell in both arms (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.threads",
+  "old": "Both groups felt a little better.",
+  "new": "In the morning, both groups reported slightly less breathlessness.",
+  "reason": "Only the morning score fell in both arms (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "visual_brief.slides[0].text.items[2]",
+  "old": "Both groups felt a little better",
+  "new": "Morning breathlessness fell slightly in both groups",
+  "reason": "Only the morning score fell in both arms (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "visual_text[6]",
+  "old": "Both groups felt a little better",
+  "new": "Morning breathlessness fell slightly in both groups",
+  "reason": "Only the morning score fell in both arms (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "alt_text[0]",
+  "old": "both groups improved slightly (-0.9 and -0.7 on a 0 to 10 scale)",
+  "new": "morning breathlessness fell slightly in both groups (-0.9 and -0.7 on a 0 to 10 scale)",
+  "reason": "Only the morning score fell in both arms (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.bluesky",
+  "old": "A hand-held fan on the face eased breathlessness more than a fan on the legs in a trial of 50 people with advanced illness. In 239 people whose blood oxygen was not low, oxygen eased it no more than room air. Our suggestion: try a fan first, and check that oxygen helps.",
+  "new": "In a small trial of 50 people with advanced illness, five minutes of a hand-held fan on the face eased breathlessness more than a fan on the legs. In 239 people whose blood oxygen was not low, oxygen eased it no more than room air. Our suggestion: try a fan first; check oxygen helps.",
+  "reason": "Restore the 5-minute, short-term limit lost in compression (fact-check minor); remaining sentences tightened to stay within 300 characters."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.linkedin",
+  "old": "Oxygen also means tubing and equipment, which some people find hard to live with.",
+  "new": "The authors of the oxygen trial concluded that less burdensome strategies should be considered after a brief check of whether oxygen helps the individual.",
+  "reason": "No opened source says people find tubing or equipment hard to live with; replaced with the trial authors' conclusion (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "captions.linkedin",
+  "old": "A small study looked at 32 people close to death who were not in distress. Switching between oxygen, air and no flow made no difference to breathing distress for most. 3 of the 32 became distressed and went back on oxygen.",
+  "new": "A small US study looked at people close to death who were not in distress at the start. Observers rated their breathing distress while oxygen, air and no flow were switched every 10 minutes. Most tolerated this without distress. 3 people (9 in 100) became distressed and went back on oxygen.",
+  "reason": "n=32 is not in the abstract; abstract gives 91% tolerated and 3 patients (9%). Fact-check replacement used, with the follow-on sentences aligned to the abstract (minor)."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.x",
+  "old": "Those whose families understood the likely course were much less likely to have these.",
+  "new": "Those whose health care proxies (the person who decides for the resident) understood the likely course were much less likely to have these.",
+  "reason": "Exposure in the source is the proxy's understanding, not 'families' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.linkedin",
+  "old": "Residents whose families understood the likely course were much less likely to have these.",
+  "new": "Residents whose health care proxies (the person who decides for the resident) understood the likely course were much less likely to have these.",
+  "reason": "Exposure in the source is the proxy's understanding, not 'families' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.bluesky",
+  "old": "In a US study of 323 care home residents with late-stage dementia, about 86 in 100 developed an eating problem within 18 months. About 55 in 100 died. Families who understood the likely course were linked with fewer hospital-type interventions. Ask the care team what to expect.",
+  "new": "In a US study of 323 care home residents with late-stage dementia, about 86 in 100 developed an eating problem in 18 months and about 55 in 100 died. Residents whose health care proxy (the decision-maker) understood the likely course were linked with fewer burdensome interventions. Ask the care team what to expect.",
+  "reason": "Exposure is the proxy's understanding and the outcome is burdensome interventions (drips, tube feeding), not only hospital-type ones (fact-check minor); wording tightened to fit 300 characters."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.threads",
+  "old": "Families who understood the likely course were linked with fewer hospital-type interventions at the end.",
+  "new": "Residents whose health care proxies (the person who decides for them) understood the likely course were linked with fewer burdensome interventions (hospital transfers, emergency visits, drips, tube feeding) at the end.",
+  "reason": "Exposure is the proxy's understanding; outcome includes drips and tube feeding (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "insight",
+  "old": "residents whose families understood the likely course",
+  "new": "residents whose health care proxies understood the likely course",
+  "reason": "Keep the insight line consistent with the corrected exposure."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.x",
+  "old": "A review of 61 UK studies found that many people's wishes about where to die were never asked or recorded.",
+  "new": "A review of 61 UK studies found that many people's wishes about where to die were not asked, not expressed or not recorded.",
+  "reason": "Source says 'not asked, expressed or reported'; 'never asked' overstated (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "were never asked or recorded.",
+  "new": "were not asked, not expressed or not recorded.",
+  "reason": "Source says 'not asked, expressed or reported'; 'never asked' overstated (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.x",
+  "old": "A larger review of 210 studies from 33 countries agrees that most people who state a preference choose home.",
+  "new": "A larger review of 210 studies from 33 countries also found that home was the most common stated choice.",
+  "reason": "'Agrees' hid a difference between the two reviews' conclusions (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "It agrees that home is the most common stated choice.",
+  "new": "It also found that home is the most common stated choice.",
+  "reason": "'Agrees' hid a difference between the two reviews' conclusions (fact-check minor; applied to LinkedIn for consistency)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.x",
+  "old": "In patients, estimates ranged from about 3 in 10 to nearly 9 in 10. In 10 studies, about 1 in 5 patients changed their preference as illness progressed.",
+  "new": "In the better-quality studies of patients, estimates ranged from about 3 in 10 to nearly 9 in 10. In 10 studies, mostly of lower quality, about 1 in 5 patients changed their preference as illness progressed, which was not tested for statistical significance. About 4 in 5 did not change.",
+  "reason": "Restore the qualifiers LinkedIn carries: high-quality subset, low quality of the 10 studies, significance untested, 4 in 5 unchanged (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.x",
+  "old": "Where people were asked, such as in a hospice or at home, was",
+  "new": "Where people were asked was",
+  "reason": "The examples 'a hospice or at home' are not in the abstract (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "Where people were asked, such as in a hospice or at home, was",
+  "new": "Where people were asked was",
+  "reason": "The examples 'a hospice or at home' are not in the abstract (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.linkedin",
+  "old": "A well-planned death in a hospice, hospital or care home should not be counted as a failure.",
+  "new": "In our view, a well-planned death in a hospice, hospital or care home should not be counted as a failure.",
+  "reason": "Normative position must be marked as the author's view (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.bluesky",
+  "old": "Among UK people whose wishes were recorded, most chose home as the place to die. But a review of 61 studies found many were never asked, so the true share is unknown. About 1 in 5 changed their preference as illness progressed. We should ask, write it down, and ask again.",
+  "new": "In 61 UK studies, most recorded views favoured home, but many views were not asked, expressed or recorded, so the true share is unknown. A separate review: about 1 in 5 patients (10 studies) changed preference as illness progressed. We should ask, record, and ask again.",
+  "reason": "Separate the two reviews and replace 'never asked' (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "captions.threads",
+  "old": "A review of 61 UK studies found many people were never asked where they would like to die. Among the views recorded, most chose home. Counting the missing views, the share who prefer home is unknown.\n\nIn 10 studies, about 1 in 5 patients changed their preference as illness progressed.\n\nWe should ask, record the reasons, and ask again.",
+  "new": "A review of 61 UK studies found many people's wishes about where to die were not asked, not expressed or not recorded. Among the views recorded, most chose home. Counting the missing views, the share who prefer home is unknown.\n\nA separate review of 210 studies found that, in 10 of them, about 1 in 5 patients changed their preference as illness progressed. That was not tested for statistical significance, and about 4 in 5 did not change.\n\nWe should ask, record the reasons, and ask again.",
+  "reason": "Attribute the 1 in 5 figure to the separate review, add the untested significance and the 4 in 5 who did not change, and replace 'never asked' (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "Many people are never asked where they would like to be cared for. About 1 in 5 changed their preference as illness progressed.",
+  "new": "In 61 UK studies, many people's preferences were not asked, expressed or recorded. In a separate review, about 1 in 5 patients (10 studies) changed their preference as illness progressed; about 4 in 5 did not.",
+  "reason": "Visual ran the two reviews together and overstated 'never asked' (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "visual_text[8]",
+  "old": "Many people are never asked where they would like to be cared for. About 1 in 5 changed their preference as illness progressed.",
+  "new": "In 61 UK studies, many people's preferences were not asked, expressed or recorded. In a separate review, about 1 in 5 patients (10 studies) changed their preference as illness progressed; about 4 in 5 did not.",
+  "reason": "Visual ran the two reviews together and overstated 'never asked' (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "alt_text[0]",
+  "old": "Text notes that many people are never asked and that about 1 in 5 changed their preference as illness progressed.",
+  "new": "Text notes that in 61 UK studies many people's preferences were not asked, expressed or recorded, and that in a separate review about 1 in 5 patients (10 studies) changed their preference as illness progressed; about 4 in 5 did not.",
+  "reason": "Alt text matched to corrected visual (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.x",
+  "old": "Changing the person's position is a usual first step. There is little trial evidence that medicines reduce the sound once it has started. Relatives need time and explanation.",
+  "new": "Changing the person's position is one of the usual ways to manage it. A 2008 Cochrane review found no trial evidence that it, or any medicine, quiets the sound once it has started. Relatives need time and explanation.",
+  "reason": "'Usual first step' not in the source, and the no-evidence finding covered non-drug measures too; date added (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "Changing the person's position is a usual first step. A Cochrane review",
+  "new": "Changing the person's position is one of the usual ways to manage it. A Cochrane review",
+  "reason": "'Usual first step' not in the source (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.threads",
+  "old": "Changing position is a usual first step.",
+  "new": "Changing position is one usual way to manage it.",
+  "reason": "'Usual first step' not in the source (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "visual_brief.slides[0].text.items[1]",
+  "old": "Changing the person's position is a usual first step",
+  "new": "Changing the person's position is one usual way to manage the sound",
+  "reason": "'Usual first step' not in the source (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "visual_text[5]",
+  "old": "Changing the person's position is a usual first step",
+  "new": "Changing the person's position is one usual way to manage the sound",
+  "reason": "'Usual first step' not in the source (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "alt_text[0]",
+  "old": "changing position is a usual first step",
+  "new": "changing position is one usual way to manage the sound",
+  "reason": "'Usual first step' not in the source (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.x",
+  "old": "Some relatives are upset by it, especially when they think the person is choking or drowning. Others are not.",
+  "new": "In interview studies, many relatives were upset by it, especially when they thought the person was choking or drowning. Others were not.",
+  "reason": "'Some' undersold the finding; distress was common in the interview studies and the 2025 review (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.threads",
+  "old": "Some relatives are upset, especially if they fear choking. Others are not.",
+  "new": "In interview studies, many relatives were upset, especially if they feared choking. Others were not.",
+  "reason": "'Some' undersold the finding (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.x",
+  "old": "Experts generally agree the sound is unlikely to distress the dying person. This has not been measured well.",
+  "new": "A 2025 review of 14 studies found general agreement that the sound does not distress the dying person, but only 2 of the studies looked at patients.",
+  "reason": "Attributed to the review, not 'experts'; states how few studies looked at patients (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "Experts generally agree the sound is unlikely to distress the dying person. This has not been measured well.",
+  "new": "A 2025 review of 14 studies found general agreement that the sound does not distress the dying person, but only 2 of the studies looked at patients.",
+  "reason": "Attributed to the review, not 'experts'; states how few studies looked at patients (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.threads",
+  "old": "Experts think the sound is unlikely to distress the dying person, though this has not been measured well.",
+  "new": "A 2025 review of 14 studies found general agreement that the sound does not distress the dying person, but only 2 studies looked at patients.",
+  "reason": "Attributed to the review, not 'experts' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "visual_brief.slides[0].text.labels[3]",
+  "old": "Experts think the sound is unlikely to distress the person",
+  "new": "Studies generally find the sound does not distress the person; few looked at patients",
+  "reason": "Attributed to the studies, not 'experts' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "visual_text[7]",
+  "old": "Experts think the sound is unlikely to distress the person",
+  "new": "Studies generally find the sound does not distress the person; few looked at patients",
+  "reason": "Attributed to the studies, not 'experts' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "alt_text[0]",
+  "old": "Experts think the sound is unlikely to distress the person",
+  "new": "Studies generally find the sound does not distress the person; few looked at patients",
+  "reason": "Attributed to the studies, not 'experts' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.bluesky",
+  "old": "The rattling breath near death is thought to be saliva and mucus the person can no longer clear. Experts think it is unlikely to distress them. Some relatives are upset, especially if they fear choking. Changing position is a usual first step. Ask the nurse to explain what you are hearing.",
+  "new": "The rattling breath near death is thought to be saliva and mucus the person can no longer clear. Studies generally find it does not distress them, but few looked at patients. In interviews, many relatives were upset. Changing position is one usual way to manage it. Ask the nurse to explain what you are hearing.",
+  "reason": "Corrects 'experts', 'some relatives' and 'usual first step' (fact-check minor), tightened to fit 300 characters."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.linkedin",
+  "old": "Restlessness was 28 in 100 compared with 23 in 100.",
+  "new": "Restlessness was reported in 28 in 100 on the injection and 23 in 100 on placebo, and the abstract does not say whether that difference was more than chance. Dry mouth was reported in 10 in 100 on the injection and 15 in 100 on placebo.",
+  "reason": "One adverse event was reported without saying if the difference was clear, and another went the other way (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.x",
+  "old": "The figure comes from a national survey of 1,504 bereaved carers.",
+  "new": "The figure comes from a national survey of 1,504 bereaved relatives who had registered a cancer death.",
+  "reason": "Survey went to people who registered a cancer death; not all respondents were carers (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.bluesky",
+  "old": "survey of 1,504 bereaved carers, 28.5% replied",
+  "new": "survey of 1,504 bereaved relatives, 28.5% replied",
+  "reason": "Respondents were relatives who registered a cancer death (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "Self-reported by 1,504 bereaved carers (28.5% replied).",
+  "new": "Self-reported by 1,504 bereaved relatives who had registered a cancer death (28.5% replied).",
+  "reason": "Respondents were relatives who registered a cancer death (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "visual_text[5]",
+  "old": "Self-reported by 1,504 bereaved carers (28.5% replied).",
+  "new": "Self-reported by 1,504 bereaved relatives who had registered a cancer death (28.5% replied).",
+  "reason": "Respondents were relatives who registered a cancer death (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "alt_text[0]",
+  "old": "Survey of 1,504 bereaved carers",
+  "new": "Survey of 1,504 bereaved relatives",
+  "reason": "Respondents were relatives who registered a cancer death (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.x",
+  "old": "The summary does not say whether the hours include time on call.",
+  "new": "The published abstract does not say whether the hours include time on call.",
+  "reason": "'The summary' was unclear; the limit belongs to the published abstract (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "The summary does not say whether the hours include time on call.",
+  "new": "The published abstract does not say whether the hours include time on call.",
+  "reason": "'The summary' was unclear; the limit belongs to the published abstract (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "visual_text[5]",
+  "old": "The summary does not say whether the hours include time on call.",
+  "new": "The published abstract does not say whether the hours include time on call.",
+  "reason": "'The summary' was unclear; the limit belongs to the published abstract (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.linkedin",
+  "old": "A plan that leaves those unanswered assumes unlimited unpaid time.",
+  "new": "In our view, a plan that leaves those unanswered assumes unlimited unpaid time.",
+  "reason": "Inference stated as fact; marked as the author's view (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "visual_brief.slides[0].text.labels[1]",
+  "old": "One week: 168 hours",
+  "new": "One week: 168 hours (for scale only; 69 h 30 min is a median across carers, not one person's week)",
+  "reason": "The comparison bar invites a '41% of the week' reading for one person (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "visual_text[3]",
+  "old": "One week: 168 hours",
+  "new": "One week: 168 hours (for scale only; 69 h 30 min is a median across carers, not one person's week)",
+  "reason": "The comparison bar invites a '41% of the week' reading for one person (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "2. Stopping can still be right. A 2025 practice review notes that some people have good symptom control without the medicines near the end of life. In one study it cites, severe motor symptoms were present in 6 in 100 people in the last 72 hours of life. So ask what is making the person uncomfortable, and decide on purpose rather than by default.",
+  "new": "2. Stopping can still be a choice. A 2025 practice review says experts differ: some argue the medicines can be tapered off at the end of life in some people with limited harm, others continue them until death. It says that if symptoms are controlled with palliative treatments, one can choose to omit them, although stopping suddenly carries a risk of parkinsonism-hyperpyrexia syndrome. So ask what is making the person uncomfortable, and decide on purpose rather than by default.",
+  "reason": "The 6% statistic has no stated medicine status and does not show people do well off the medicines; the review says experts differ (fact-check blocker)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.x",
+  "old": "Some people stay comfortable without the medicines near the end of life, so make it a decision: ask what is causing discomfort.",
+  "new": "Experts differ on whether to taper the medicines off near the end of life, so make it a decision: ask what is causing discomfort.",
+  "reason": "Source says experts disagree; it does not report that people stay comfortable without the medicines (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.x",
+  "old": "Metoclopramide and haloperidol block dopamine and are listed as contraindicated in Parkinson's. Check every anti-sickness, calming and sedative medicine on the chart.",
+  "new": "A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's (in its section on surgery). Check every anti-sickness, calming and sedative medicine on the chart against its dopamine-blocking effect, and ask pharmacy or the Parkinson's team.",
+  "reason": "Attribute the contraindication to its source and context (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "Metoclopramide and haloperidol are listed as contraindicated in Parkinson's.",
+  "new": "A 2025 practice review lists metoclopramide and haloperidol among medicines contraindicated in Parkinson's (in its section on surgery).",
+  "reason": "Attribute the contraindication to its source and context (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "In the same audit, 43 in 100 of the people with Parkinson's were prescribed a contraindicated dopamine blocker and 31 in 100 of those prescriptions were given.",
+  "new": "In the same audit, 43 in 100 of the people with Parkinson's were prescribed a contraindicated dopamine blocker, and it was given in 31 in 100 of those cases. The abstract does not list which drugs.",
+  "reason": "Unit changed from the source: 'administered in 31% of those cases', not prescriptions (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "Check every anti-sickness, calming and sedative medicine against its dopamine-blocking effect.",
+  "new": "Check every anti-sickness, calming and sedative medicine against its dopamine-blocking effect, and ask pharmacy or the Parkinson's team.",
+  "reason": "Matches the attribution fix; adds the route for advice (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "3. A rotigotine skin patch is the most widely used non-oral option, but no trials show it works at the end of life, and the advice rests on case series and expert opinion.",
+  "new": "3. Before a patch, the review's steps include levodopa dispersed in carbonated water or thickened fluid, and a nasogastric tube if that fits the person's wishes. If neither is possible, a rotigotine skin patch is the most widely used non-oral option, but no trials show it works at the end of life, and the advice rests on case series and expert opinion. Skin absorption can fall with sweating, weight loss and poor circulation, which may limit the patch.",
+  "reason": "Add the review's earlier steps and the skin-absorption limit (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.threads",
+  "old": "Metoclopramide and haloperidol block dopamine and are contraindicated in Parkinson's. Check the chart.",
+  "new": "A 2025 practice review lists metoclopramide and haloperidol as contraindicated in Parkinson's (in its section on surgery). Check the chart.",
+  "reason": "Attribute the contraindication to its source and context (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.bluesky",
+  "old": "Near the end of life, 'stop oral medicines' also stops Parkinson's medicines. Sudden withdrawal can bring severe stiffness and pain, so decide on purpose. A rotigotine patch is the most used non-oral route (no trials; agree dose with pharmacy). Metoclopramide and haloperidol are contraindicated.",
+  "new": "When a person with Parkinson's can't swallow, 'stop oral medicines' also stops their Parkinson's medicines. Sudden withdrawal can bring severe stiffness and pain, so decide on purpose. A rotigotine patch is the most used non-oral route (no trials). A 2025 review lists metoclopramide and haloperidol as contraindicated in Parkinson's.",
+  "reason": "Bare directive replaced with an attributed statement (fact-check major); 'agree dose with pharmacy' shortened to fit 300 characters, no trials limit kept."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "visual_brief.slides[0].text.items[3]",
+  "old": "Check the chart: metoclopramide and haloperidol block dopamine and are listed as contraindicated",
+  "new": "Check the chart: a 2025 review lists metoclopramide and haloperidol as contraindicated in Parkinson's (in its section on surgery)",
+  "reason": "Attribute the contraindication to its source and context (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "visual_text[9]",
+  "old": "Check the chart: metoclopramide and haloperidol block dopamine and are listed as contraindicated",
+  "new": "Check the chart: a 2025 review lists metoclopramide and haloperidol as contraindicated in Parkinson's (in its section on surgery)",
+  "reason": "Attribute the contraindication to its source and context (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "alt_text[0]",
+  "old": "4: check the chart for metoclopramide and haloperidol, which are contraindicated.",
+  "new": "4: check the chart; a 2025 review lists metoclopramide and haloperidol as contraindicated in Parkinson's.",
+  "reason": "Alt text matched to corrected visual (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.x",
+  "old": "It appears more common in older groups. The studies",
+  "new": "Studies with older participants on average found higher rates. The studies",
+  "reason": "Ecological inference: the moderator was each study's mean age, not individual age (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.linkedin",
+  "old": "Studies with a higher average age had higher prevalence, so it appears more common in older groups.",
+  "new": "Studies with older participants on average found higher rates.",
+  "reason": "Ecological inference (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.bluesky",
+  "old": "and it appears more common in older groups.",
+  "new": "and studies with older participants on average found higher rates.",
+  "reason": "Ecological inference (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.threads",
+  "old": "Roughly 1 in 10 bereaved adults develop it in pooled studies. It appears more common in older groups.",
+  "new": "Roughly 1 in 10 adults bereaved by a non-violent death had it, in pooled studies. Studies with older participants on average found higher rates.",
+  "reason": "Restore the non-violent bereavement limit; pooled prevalence, not the share who develop it; ecological inference (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "visual_brief.slides[0].text.items[1]",
+  "old": "Appears more common in older groups",
+  "new": "Studies with older participants on average found higher rates",
+  "reason": "Ecological inference (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "visual_text[3]",
+  "old": "Appears more common in older groups",
+  "new": "Studies with older participants on average found higher rates",
+  "reason": "Ecological inference (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "alt_text[0]",
+  "old": "it appears more common in older groups",
+  "new": "studies with older participants on average found higher rates",
+  "reason": "Ecological inference (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "insight",
+  "old": "it appears more common in older groups",
+  "new": "studies with older participants on average found higher rates",
+  "reason": "Keep the insight line consistent (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "About 1 in 10 bereaved adults. In one US trial",
+  "new": "About 1 in 10 adults bereaved by a non-violent death. In one US trial",
+  "reason": "Restore the non-violent bereavement limit (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "visual_text[4]",
+  "old": "About 1 in 10 bereaved adults. In one US trial",
+  "new": "About 1 in 10 adults bereaved by a non-violent death. In one US trial",
+  "reason": "Restore the non-violent bereavement limit (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.linkedin",
+  "old": "used criteria that predate the current diagnosis.",
+  "new": "used differing definitions of the disorder.",
+  "reason": "'The current diagnosis' is not supported by any opened source (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "visual_brief.slides[0].text.headline",
+  "old": "The poorer the neighbourhood, the more hospital deaths",
+  "new": "The poorer the neighbourhood, the more likely a hospital death rather than a home death",
+  "reason": "Headline misstated the outcome: odds of hospital versus home death, not number of hospital deaths (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "visual_text[0]",
+  "old": "The poorer the neighbourhood, the more hospital deaths",
+  "new": "The poorer the neighbourhood, the more likely a hospital death rather than a home death",
+  "reason": "Headline misstated the outcome: odds of hospital versus home death, not number of hospital deaths (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.x",
+  "old": "The gap grew at each step up in deprivation.",
+  "new": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in deprivation.",
+  "reason": "Dose-response was reported for those two outcomes only, not acute hospital care (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.linkedin",
+  "old": "The gap grew at each step up in area deprivation.",
+  "new": "For dying in hospital rather than at home, and for not getting specialist palliative care, the likelihood rose at each step up in area deprivation.",
+  "reason": "Dose-response was reported for those two outcomes only, not acute hospital care (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.x",
+  "old": "This comes from a review that combined 112 observational studies, mostly from North America.",
+  "new": "This comes from a review that combined 112 observational studies, just over half from North America.",
+  "reason": "53.5% is just over half, not 'mostly' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "captions.linkedin",
+  "old": "which were mostly from North America.",
+  "new": "just over half of which were from North America.",
+  "reason": "53.5% is just over half, not 'mostly' (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "Direction of difference only; not to scale. The studies do not show why.",
+  "new": "Direction of difference only; not to scale. The steps show the pattern for dying in hospital rather than at home and for specialist palliative care. Hospital care in the last 3 months is a most-versus-least comparison. The studies do not show why.",
+  "reason": "Step pattern restricted to the two outcomes with a reported gradient (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "visual_text[10]",
+  "old": "Direction of difference only; not to scale. The studies do not show why.",
+  "new": "Direction of difference only; not to scale. The steps show the pattern for dying in hospital rather than at home and for specialist palliative care. Hospital care in the last 3 months is a most-versus-least comparison. The studies do not show why.",
+  "reason": "Step pattern restricted to the two outcomes with a reported gradient (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "visual_brief.slides[0].art",
+  "old": "Three horizontal arrows above the steps run left to right, one per finding, each labelled with its finding in words; the third arrow is drawn pointing downward-right to show 'less likely'.",
+  "new": "Two horizontal arrows above the steps run left to right, for 'more likely to die in hospital than at home' and (drawn pointing downward-right) 'less likely to get specialist palliative care', each labelled in words. Hospital care in the last 3 months is a separate bracket joining the least deprived and most deprived fifths only, with no steps.",
+  "reason": "Step pattern restricted to the two outcomes with a reported gradient (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P10",
+  "where": "alt_text[0]",
+  "old": "Stepped diagram from the least deprived to the most deprived fifth of neighbourhoods. Compared with the least deprived, people in the most deprived were more likely to die in hospital than at home, more likely to have hospital care in the last 3 months of life, and less likely to get specialist palliative care. Review of 112 observational studies; direction only, not to scale; causes not shown.",
+  "new": "Stepped diagram from the least to the most deprived fifth of neighbourhoods. The likelihood of dying in hospital rather than at home, and of not getting specialist palliative care, rose at each step. Most deprived versus least deprived: more hospital care in the last 3 months. Review of 112 observational studies; direction only; causes not shown.",
+  "reason": "Alt text matched to corrected diagram (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.x",
+  "old": "A US trial included 151 people with newly diagnosed advanced lung cancer. Palliative care was given alongside cancer treatment from the start. It improved quality of life. At 12 weeks, fewer people had depressive symptoms (16 in 100, compared with 38 in 100).",
+  "new": "A US trial randomised 151 people with newly diagnosed advanced lung cancer to palliative care alongside cancer treatment, or cancer treatment alone. Among the 107 who completed the 12-week assessments, quality of life was better with palliative care, and fewer had depressive symptoms (16 in 100, compared with 38 in 100).",
+  "reason": "Wrong denominator: results are for the 107 assessed at 12 weeks, not the 151 randomised (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "At 12 weeks, the early palliative care group had a better quality of life.",
+  "new": "At 12 weeks, among the 107 who completed the assessments (27 people had died by then), the early palliative care group had a better quality of life.",
+  "reason": "Wrong denominator: results are for the 107 assessed at 12 weeks (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.bluesky",
+  "old": "Palliative care can run alongside treatment for the illness itself. In a trial of 151 people with advanced lung cancer, those given it from diagnosis had better quality of life, and fewer had depressive symptoms at 12 weeks (16 in 100 vs 38 in 100). Evidence is from lung cancer only.",
+  "new": "Palliative care can run alongside treatment for the illness itself. In a trial of 151 people with advanced lung cancer, those given it early had better quality of life at 12 weeks, and fewer had depressive symptoms (16 in 100 vs 38 in 100 among the 107 assessed). Lung cancer only.",
+  "reason": "Wrong denominator and 'from diagnosis' looser than 'early' (fact-check major); tightened to fit 300 characters."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.threads",
+  "old": "A US trial included 151 people with advanced lung cancer. Those given palliative care from diagnosis had better quality of life. Fewer had depressive symptoms at 12 weeks (16 in 100 vs 38 in 100).",
+  "new": "A US trial randomised 151 people with advanced lung cancer. Those given palliative care early had better quality of life at 12 weeks. Among the 107 assessed, fewer had depressive symptoms (16 in 100 vs 38 in 100).",
+  "reason": "Wrong denominator: results are for the 107 assessed at 12 weeks (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "Trial in advanced lung cancer only: 151 people. At 12 weeks, better quality of life and fewer with depressive symptoms (16 in 100 compared with 38 in 100).",
+  "new": "Trial in advanced lung cancer only: 151 randomised, 107 assessed at 12 weeks. Among those assessed, better quality of life and fewer with depressive symptoms (16 in 100 compared with 38 in 100).",
+  "reason": "Wrong denominator on the visual (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "visual_text[7]",
+  "old": "Trial in advanced lung cancer only: 151 people. At 12 weeks, better quality of life and fewer with depressive symptoms (16 in 100 compared with 38 in 100).",
+  "new": "Trial in advanced lung cancer only: 151 randomised, 107 assessed at 12 weeks. Among those assessed, better quality of life and fewer with depressive symptoms (16 in 100 compared with 38 in 100).",
+  "reason": "Wrong denominator on the visual (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "visual_brief.slides[0].data[0].label",
+  "old": "Depressive symptoms at 12 weeks, early palliative care group",
+  "new": "Depressive symptoms at 12 weeks among the 107 assessed (of 151 randomised), early palliative care group",
+  "reason": "Chart label denominator (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "visual_brief.slides[0].data[1].label",
+  "old": "Depressive symptoms at 12 weeks, standard care alone",
+  "new": "Depressive symptoms at 12 weeks among the 107 assessed (of 151 randomised), standard care alone",
+  "reason": "Chart label denominator (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "alt_text[0]",
+  "old": "Note: in 151 people with advanced lung cancer, early palliative care alongside cancer treatment improved quality of life, and fewer had depressive symptoms at 12 weeks (16 in 100 vs 38 in 100).",
+  "new": "Note: in a trial of 151 people with advanced lung cancer, among the 107 assessed at 12 weeks, early palliative care alongside cancer treatment improved quality of life and fewer had depressive symptoms (16 in 100 vs 38 in 100).",
+  "reason": "Wrong denominator in alt text (fact-check major)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.x",
+  "old": "After receiving it, they described 'ongoing care'",
+  "new": "Those who received early palliative care described 'ongoing care'",
+  "reason": "Only the intervention-arm participants developed this view (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "After receiving early palliative care, participants described it as",
+  "new": "Participants who received early palliative care described it as",
+  "reason": "Only the intervention-arm participants developed this view (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.x",
+  "old": "Palliative care can run alongside treatment for the illness itself. It is care that focuses on symptoms, support and planning ahead.",
+  "new": "Palliative care can be given alongside treatment for the illness itself, as it was in a US lung cancer trial. It is care that focuses on symptoms, support and planning ahead.",
+  "reason": "General statement rested on no opened source; anchored in the trial design (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "captions.linkedin",
+  "old": "Palliative care can run alongside treatment for the illness itself. It is care that focuses on symptoms, support and planning ahead.",
+  "new": "Palliative care can be given alongside treatment for the illness itself, as it was in a US lung cancer trial. It is care that focuses on symptoms, support and planning ahead.",
+  "reason": "General statement rested on no opened source; anchored in the trial design (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.x",
+  "old": "On US television medical dramas in the 1990s, about 2 in 3",
+  "new": "On three US television programmes in 1994 to 1995 (ER, Chicago Hope and Rescue 911), about 2 in 3",
+  "reason": "Rescue 911 is a reality-based rescue programme, not a medical drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.linkedin",
+  "old": "On US television medical dramas in the 1990s, about 2 in 3",
+  "new": "On three US television programmes in 1994 to 1995, about 2 in 3",
+  "reason": "Rescue 911 is a reality-based rescue programme, not a medical drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.bluesky",
+  "old": "On 1990s US TV dramas, about 2 in 3",
+  "new": "On three 1990s US TV programmes, about 2 in 3",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "captions.threads",
+  "old": "On 1990s US TV dramas, about 2 in 3",
+  "new": "On three 1990s US TV programmes, about 2 in 3",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "visual_brief.slides[0].text.labels[0]",
+  "old": "US TV dramas, 1990s: 67 in 100 appeared to survive",
+  "new": "US TV programmes, 1990s: 67 in 100 appeared to survive",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "visual_text[2]",
+  "old": "US TV dramas, 1990s: 67 in 100 appeared to survive",
+  "new": "US TV programmes, 1990s: 67 in 100 appeared to survive",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "visual_brief.slides[0].data[0].label",
+  "old": "US TV dramas 1994 to 1995, appeared to survive",
+  "new": "US TV programmes 1994 to 1995, appeared to survive",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "alt_text[0]",
+  "old": "On US television dramas in the 1990s, 67 in 100",
+  "new": "On three US television programmes in the 1990s, 67 in 100",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "insight",
+  "old": "In 1990s US television dramas about 2 in 3",
+  "new": "In 1990s US television programmes about 2 in 3",
+  "reason": "Rescue 911 is not a drama (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "visual_brief.slides[0].text.body",
+  "old": "UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person.",
+  "new": "The two figures are not like for like. UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person.",
+  "reason": "Caveat did not say the TV and UK figures are not comparable like for like (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "visual_text[7]",
+  "old": "UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person.",
+  "new": "The two figures are not like for like. UK figures cover adults of all ages and vary by type of arrest and by hospital. TV patients were mostly young people with injuries. Not a prediction for any one person.",
+  "reason": "Caveat did not say the TV and UK figures are not comparable like for like (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "alt_text[0]",
+  "old": "UK figures cover all adult ages, vary by hospital, and are not a prediction for any one person.",
+  "new": "The two figures are not like for like. UK figures cover all adult ages, vary by hospital, and are not a prediction for any one person.",
+  "reason": "Alt text matched to corrected caveat (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "captions.linkedin",
+  "old": "The summary does not say whether the hours include time spent on call.",
+  "new": "The published abstract does not say whether the hours include time spent on call.",
+  "reason": "'The summary' was unclear; the limit belongs to the published abstract (fact-check minor)."
+ },
+ {
+  "tmp_id": "C19-P06",
+  "where": "insight",
+  "old": "survey of bereaved carers in England",
+  "new": "survey of bereaved relatives in England",
+  "reason": "Respondents were relatives who registered a cancer death (fact-check minor); insight kept consistent."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "insight",
+  "old": "many UK studies never asked or recorded people's views",
+  "new": "many UK studies did not ask, or did not record, people's views",
+  "reason": "'Never asked' overstated the source (fact-check minor); insight kept consistent."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "insight",
+  "old": "experts think it is unlikely to distress the person, but some relatives are upset",
+  "new": "a 2025 review found general agreement that it does not distress the person, but few studies looked at patients, and many relatives in interview studies were upset",
+  "reason": "Attribution and 'some' fixes (fact-check minor); insight kept consistent."
+ },
+ {
+  "tmp_id": "C19-P02",
+  "where": "alt_text[0]",
+  "old": "Comparison card. Left: in a small trial of 50 people with advanced illness, 5 minutes of a hand-held fan on the face eased breathlessness more than the fan on the legs (short-term). Right: in 239 people whose blood oxygen was not low, oxygen eased breathlessness no more than room air; morning breathlessness fell slightly in both groups (-0.9 and -0.7 on a 0 to 10 scale). People with low blood oxygen were not included.",
+  "new": "Comparison card. Left: in a small trial of 50 people with advanced illness, 5 minutes of a hand-held fan on the face eased breathlessness more than the fan on the legs, short-term. Right: in 239 people whose blood oxygen was not low, oxygen eased breathlessness no more than room air; morning breathlessness fell slightly in both (-0.9 and -0.7 on a 0 to 10 scale). Low blood oxygen excluded.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.bluesky",
+  "old": "In a US study of 323 care home residents with late-stage dementia, about 86 in 100 developed an eating problem in 18 months and about 55 in 100 died. Residents whose health care proxy (the decision-maker) understood the likely course were linked with fewer burdensome interventions. Ask the care team what to expect.",
+  "new": "In 323 US care home residents with advanced dementia, about 86 in 100 had an eating problem in 18 months and about 55 in 100 died. Residents whose health care proxy (the decision-maker) understood the likely course were linked with fewer burdensome interventions. Ask the care team what to expect.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P03",
+  "where": "captions.threads",
+  "old": "(hospital transfers, emergency visits, drips, tube feeding) at the end.",
+  "new": "(hospital transfers, drips, tube feeding) at the end.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P04",
+  "where": "alt_text[0]",
+  "old": "Three-panel comic labelled as an illustration. A community nurse asks an older man where he would like to be cared for; she writes down his answer and reasons; later she asks him again whether it is still what he wants. Text notes that in 61 UK studies many people's preferences were not asked, expressed or recorded, and that in a separate review about 1 in 5 patients (10 studies) changed their preference as illness progressed; about 4 in 5 did not.",
+  "new": "Three-panel illustrated comic. A nurse asks an older man where he would like to be cared for, writes down his answer and reasons, and later asks again. Text: in 61 UK studies many preferences were not asked, expressed or recorded; in a separate review about 1 in 5 patients (10 studies) changed preference as illness progressed, about 4 in 5 did not.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "captions.bluesky",
+  "old": "The rattling breath near death is thought to be saliva and mucus the person can no longer clear. Studies generally find it does not distress them, but few looked at patients. In interviews, many relatives were upset. Changing position is one usual way to manage it. Ask the nurse to explain what you are hearing.",
+  "new": "The rattling breath near death is thought to be saliva and mucus the person can no longer clear. Studies generally find it does not distress them, though few looked at patients. In interviews, many relatives were upset. Changing position is one usual way to manage it. Ask the nurse to explain.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P05",
+  "where": "alt_text[0]",
+  "old": "An older man lies on his side in bed, calm, while a relative sits holding his hand and a nurse leans in to explain.",
+  "new": "A calm older man lies in bed, a relative holds his hand and a nurse leans in to explain.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.bluesky",
+  "old": "When a person with Parkinson's can't swallow, 'stop oral medicines' also stops their Parkinson's medicines. Sudden withdrawal can bring severe stiffness and pain, so decide on purpose. A rotigotine patch is the most used non-oral route (no trials). A 2025 review lists metoclopramide and haloperidol as contraindicated in Parkinson's.",
+  "new": "'Stop oral medicines' also stops Parkinson's medicines when swallowing fails. Sudden withdrawal can bring severe stiffness and pain, so decide on purpose. A rotigotine patch is the most used non-oral route (no trials). A 2025 review lists metoclopramide and haloperidol as contraindicated.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "although stopping suddenly carries a risk of parkinsonism-hyperpyrexia syndrome.",
+  "new": "although stopping suddenly carries the risk described in point 1.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "In one Australian hospital audit of people with Parkinson's who died, only 7 of 52 eligible people received the recommended dose.",
+  "new": "In one Australian audit of people with Parkinson's who died, only 7 of 52 eligible people received the recommended dose.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": " Apomorphine and subcutaneous levodopa are other non-oral routes that need specialist set-up and may not be available.",
+  "new": "",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix. (Unflagged detail removed to fit LinkedIn's 2,200-character limit.)"
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": " Four points for that decision.",
+  "new": "",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix. (Unflagged framing line removed.)"
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "It says that if symptoms are controlled with palliative treatments, one can choose to omit them, although stopping suddenly carries the risk described in point 1.",
+  "new": "If symptoms are controlled with palliative treatments, it says one can choose to omit them, although stopping suddenly carries the risk in point 1.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "captions.linkedin",
+  "old": "decide on purpose rather than by default.",
+  "new": "decide on purpose.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P07",
+  "where": "alt_text[0]",
+  "old": "Flow diagram in four steps for a person with Parkinson's who is unable to swallow. 1: unable to swallow.",
+  "new": "Flow diagram in four steps for a person with Parkinson's. 1: unable to swallow.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "captions.bluesky",
+  "old": "against about 3 in 10 with another talking therapy.",
+  "new": "against about 3 in 10 with another therapy.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "alt_text[0]",
+  "old": "Drawn scene of an older man holding a mug, talking with a counsellor.",
+  "new": "Drawn scene: an older man with a mug talking with a counsellor.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P09",
+  "where": "alt_text[0]",
+  "old": "against about 3 in 10 with another talking therapy.",
+  "new": "against about 3 in 10 with another therapy.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P11",
+  "where": "alt_text[0]",
+  "old": "Concept diagram, not data. A timeline from diagnosis with two parallel bands of equal length: treatment aimed at the illness, and palliative care for symptoms, support and planning ahead. Note: in a trial of 151 people with advanced lung cancer, among the 107 assessed at 12 weeks, early palliative care alongside cancer treatment improved quality of life and fewer had depressive symptoms (16 in 100 vs 38 in 100).",
+  "new": "Concept diagram, not data. Two equal-length timeline bands from diagnosis: treatment aimed at the illness, and palliative care for symptoms, support and planning ahead. Note: in a trial of 151 people with advanced lung cancer, among the 107 assessed at 12 weeks, early palliative care improved quality of life and fewer had depressive symptoms (16 in 100 vs 38 in 100).",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ },
+ {
+  "tmp_id": "C19-P12",
+  "where": "alt_text[0]",
+  "old": "Two grids of 100 figures. On three US television programmes in the 1990s, 67 in 100 people given CPR appeared to survive to leave hospital. In UK hospital audit data, 18 in 100 adults given CPR by the hospital team survived to leave hospital, and about 1 in 10 for the most common kind of arrest. The two figures are not like for like. UK figures cover all adult ages, vary by hospital, and are not a prediction for any one person.",
+  "new": "Two grids of 100 figures. On three US television programmes in the 1990s, 67 in 100 people given CPR appeared to survive to leave hospital. In UK hospital audit data, 18 in 100 adults given CPR survived to leave hospital, about 1 in 10 for the most common kind of arrest. Not like for like: UK figures cover all adult ages and vary by hospital. Not a prediction for any one person.",
+  "reason": "Shortened to keep within the platform limit after the fact-check fix."
+ }
+]

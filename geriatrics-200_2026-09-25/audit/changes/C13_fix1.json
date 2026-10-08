@@ -388,8 +388,8 @@
   "tmp_id": "C13-P05",
   "where": "captions.linkedin",
   "old": "The authors described them as terminally ill with cancer.",
-  "new": "The authors described them as terminally ill with cancer. All were mentally aware and able to say how they felt, so the study says little about people who cannot report thirst.",
-  "reason": "Missing qualification that all patients could report symptoms."
+  "new": "The authors described them as terminally ill with cancer. All were mentally aware and able to say how they felt, so the study says little about people who are unable to report thirst.",
+  "reason": "Missing qualification that all patients could report symptoms. 'cannot' recast as 'are unable to' to keep to the banned-words list."
  },
  {
   "tmp_id": "C13-P05",
@@ -1006,5 +1006,208 @@
   "old": "a care worker sitting and chatting at the table",
   "new": "a care worker or volunteer sitting and chatting at the table",
   "reason": "The protocol required at least one nurse, nutrition assistant or volunteer per table. Applied to the alt text."
+ },
+ {
+  "tmp_id": "C13-P01",
+  "where": "captions.bluesky",
+  "old": "than on white plates, over 10 days.",
+  "new": "than on white plates over 10 days.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P01",
+  "where": "captions.bluesky",
+  "old": "Cheap to try; not a replacement for help at the meal.",
+  "new": "Cheap to try; no substitute for help at the meal.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P01",
+  "where": "captions.threads",
+  "old": " Eight of nine ate or drank more.",
+  "new": "",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters. Dropped the '8 of 9' sentence on Threads only; it stays in the X, LinkedIn and visual versions."
+ },
+ {
+  "tmp_id": "C13-P05",
+  "where": "captions.bluesky",
+  "old": "If you are by the bed, ask the nurse how you can help with mouth care.",
+  "new": "Ask the nurse how to help.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P05",
+  "where": "captions.threads",
+  "old": "thirst and a dry mouth could be relieved in every case.",
+  "new": "these symptoms could be relieved in every case.",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P05",
+  "where": "captions.threads",
+  "old": "The trials in a 2023 Cochrane review were all in cancer.",
+  "new": "Trials in a 2023 Cochrane review were all in cancer.",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P05",
+  "where": "captions.threads",
+  "old": "Ask the nurse how you can help.",
+  "new": "Ask the nurse how to help.",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P06",
+  "where": "captions.threads",
+  "old": "One expert proposal describes it as regular",
+  "new": "One expert proposal lists regular",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P06",
+  "where": "captions.threads",
+  "old": "It has not been tested.",
+  "new": "It is untested.",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "captions.bluesky",
+  "old": "In a study in one US town, about 6 in 10 people aged 80 and over had",
+  "new": "In one US town, about 6 in 10 people aged 80+ had",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "captions.bluesky",
+  "old": "Try stronger flavours (untested; trials of flavour enhancers were mixed) and ask your GP or pharmacist if a medicine could change taste.",
+  "new": "Try stronger flavours (untested; trials of flavour enhancers were mixed). Ask your GP or pharmacist if a medicine could change taste.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters. Split into two sentences."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "captions.threads",
+  "old": "in one Wisconsin town around the year 2000, about",
+  "new": "in one Wisconsin town, about",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "captions.threads",
+  "old": "Things to try, though untested:",
+  "new": "Things to try (untested):",
+  "reason": "Length fit after the fact-check additions: Threads limit 500 characters."
+ },
+ {
+  "tmp_id": "C13-P09",
+  "where": "captions.bluesky",
+  "old": "In hospital, tell staff you wear dentures and use a denture pot.",
+  "new": "In hospital, tell staff and use a denture pot.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P09",
+  "where": "captions.bluesky",
+  "old": "cleaning them daily.",
+  "new": "cleaning daily.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P10",
+  "where": "captions.bluesky",
+  "old": "When a person with dementia pushes the toothbrush away, it may be fear, the authors of one approach suggest. In a US trial (101 residents), eye level, a mirror and handing over the brush meant mouth care was accepted and finished more often. Refusals continued and mouth health showed no clear difference over 3 weeks. We should change the approach first.",
+  "new": "In a US trial of 101 residents with dementia who often refused mouth care, eye level, a mirror and handing over the brush meant it was accepted and finished more often. Refusals continued and mouth health showed no clear difference over 3 weeks. We should change the approach before deciding brushing is not possible.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters. Rewritten to fit after adding the primary-outcome result; the fear idea stays on X, LinkedIn and Threads."
+ },
+ {
+  "tmp_id": "C13-P03",
+  "where": "alt_text",
+  "old": "Drawing of a hospital meal tray from above with numbered callouts.",
+  "new": "Drawing of a hospital tray with numbered callouts.",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P06",
+  "where": "alt_text",
+  "old": "Comparison card. Left, tubes",
+  "new": "Left, tubes",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "alt_text",
+  "old": "a plate of fish, potatoes and green beans with a lemon wedge",
+  "new": "a plate of fish and vegetables with a lemon wedge",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "alt_text",
+  "old": "Text: about 6 in 10",
+  "new": "About 6 in 10",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P09",
+  "where": "alt_text",
+  "old": "Checklist beside a drawn bedside table with a denture pot.",
+  "new": "Checklist with a drawn denture pot.",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P09",
+  "where": "alt_text",
+  "old": "tell the ward staff you wear dentures, keep them in a denture pot,",
+  "new": "tell staff you wear dentures, use a denture pot,",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P11",
+  "where": "alt_text",
+  "old": "with a cloth, glasses and serving dishes,",
+  "new": "with cloth, glasses and dishes,",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P11",
+  "where": "alt_text",
+  "old": "Five numbered callouts. ",
+  "new": "",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "captions.bluesky",
+  "old": "Does food still smell of anything to you?",
+  "new": "Does food still smell of anything?",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "captions.bluesky",
+  "old": "trials of flavour enhancers were mixed",
+  "new": "flavour enhancer trials were mixed",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
+ },
+ {
+  "tmp_id": "C13-P08",
+  "where": "alt_text",
+  "old": "do not stop one on your own",
+  "new": "do not stop one alone",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P09",
+  "where": "alt_text",
+  "old": "cleaned every day, stored",
+  "new": "cleaned daily, stored",
+  "reason": "Length fit after the fact-check additions: alt text 400 characters or fewer."
+ },
+ {
+  "tmp_id": "C13-P10",
+  "where": "captions.bluesky",
+  "old": "We should change the approach before deciding brushing is not possible.",
+  "new": "We should change the approach first.",
+  "reason": "Length fit after the fact-check additions: Bluesky limit 300 characters."
  }
 ]

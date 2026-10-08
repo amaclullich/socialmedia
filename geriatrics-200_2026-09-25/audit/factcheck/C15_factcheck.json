@@ -1,0 +1,509 @@
+{
+ "category": "C15",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C15-P01",
+  "C15-P02",
+  "C15-P03",
+  "C15-P04",
+  "C15-P05",
+  "C15-P06",
+  "C15-P07",
+  "C15-P08",
+  "C15-P09"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:31284301",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC13258130)",
+   "matches_record": true,
+   "note": "Numbers match; but the median excess of 2 days is across all patients, not those with excess (see issue)."
+  },
+  {
+   "key": "PMID:27638347",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34223303",
+   "tool": "PubMed get_full_text_article (PMC8244393)",
+   "matches_record": true,
+   "note": "Tool returned text without Table 1; NEWS2 temperature bands (3/1/0/1/2) agree with the RCP 2017 chart as quoted in the claim record."
+  },
+  {
+   "key": "PMID:26598629",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC4717354)",
+   "matches_record": false,
+   "note": "Numbers match; the record's qualification that shifts partly reflect reporting and CT is stated by the authors only as a possibility."
+  },
+  {
+   "key": "PMID:10866248",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31901331",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:35042695",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "No PMC full text. Abstract gives 7,472,480 admissions for 5,249,891 patients and no age restriction."
+  },
+  {
+   "key": "PMID:33872045",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC7612132)",
+   "matches_record": true,
+   "note": "Numbers match; full text adds a higher month-1 transfer to hospital (RR 1.32) not carried in the post."
+  },
+  {
+   "key": "PMID:16757722",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:24332307",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:42607068",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:39122397",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:33316110",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Benefit of passports and liaison nurses identified in two of five studies."
+  },
+  {
+   "key": "PMID:38816007",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:39009462",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "59 of 61 and the 19 other requests are from the full text as recorded in the evidence file; not re-opened."
+  },
+  {
+   "key": "PMID:23043304",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "602 patients, 4.9% confirmed; 15.7% over 75 and stage I counts are from the full text in the evidence file; not re-opened."
+  },
+  {
+   "key": "PMID:33773631",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C15-P01",
+   "where": "linkedin",
+   "text": "An earlier review put it at 20 to 30 in 100 older people with infection.",
+   "problem": "The two figures measure different things. The guideline sentence is about typically defined fever being absent; the review says fever may be 'absent or blunted'. 'It' in the caption silently equates them.",
+   "source_says": "Norman 2000 abstract: 'Fever, the cardinal sign of infection, may be absent or blunted 20%-30% of the time.'",
+   "severity": "minor",
+   "replacement": "An earlier review put fever as absent or blunted in 20 to 30 in 100 older people with infection."
+  },
+  {
+   "tmp_id": "C15-P01",
+   "where": "linkedin",
+   "text": "In an emergency department the usual temperature is often not known, and no study opened here tested whether the rule improves detection there.",
+   "problem": "'Often not known' has no source (the evidence file lists it as an unsourced caveat) and 'opened here' is internal process language that should not appear in a public post.",
+   "source_says": "C15-16-a conflicting_or_uncertain: no sensitivity or specificity for these thresholds was opened; no source on how often baselines are available.",
+   "severity": "minor",
+   "replacement": "In an emergency department the usual temperature may not be known, and we found no study testing whether the rule improves detection there."
+  },
+  {
+   "tmp_id": "C15-P01",
+   "where": "visual_text",
+   "text": "High et al., Clin Infect Dis 2009; Stone et al., 2012; RCP NEWS2 2017 via Engebretsen et al., 2020",
+   "problem": "The card also carries the 'low score should never override concern' statement, which comes from Williams 2022 (Clin Med), not from any source listed on the card.",
+   "source_says": "C15-16-d: Williams 2022 reports the RCP statement.",
+   "severity": "minor",
+   "replacement": "High et al., Clin Infect Dis 2009; Stone et al., 2012; RCP NEWS2 2017 via Engebretsen et al., 2020; Williams, Clin Med 2022"
+  },
+  {
+   "tmp_id": "C15-P02",
+   "where": "all",
+   "text": "usually about 2 extra days",
+   "problem": "Misattributed statistic. The median excess of 2 days (IQR 0 to 4) is across ALL 6,481 patients, including the one third with zero excess days. The caption attaches it to the 2 in 3 who received excess antibiotics, which implies a typical excess of about 2 days among them. Because 'appropriate' allowed 1 day of leeway, anyone counted as excess had at least 2 extra days and the typical excess among them is higher than 2. Appears in X, LinkedIn and Threads.",
+   "source_says": "Vaughn 2019 full text: 'The median excess duration was 2 days (IQR, 0 to 4 days) overall'; 'given the large number of patients who received 0 days of excess treatment'; appropriate = within 1 day of expected.",
+   "severity": "blocker",
+   "replacement": "X: '...got more days of antibiotics than the authors judged necessary. Across all patients in the study, the middle (median) number of extra days was 2.' LinkedIn (first paragraph) and Threads: same replacement for 'usually about 2 extra days' (delete the phrase and add the sentence 'Across all patients in the study, the middle (median) number of extra days was 2.'). The Bluesky and visual versions do not carry the figure."
+  },
+  {
+   "tmp_id": "C15-P02",
+   "where": "x",
+   "text": "2 in 3 adults treated for pneumonia (median age 70)",
+   "problem": "Population is narrower than 'adults treated for pneumonia': general-care medical patients with community-onset pneumonia, excluding anyone who needed intensive care or a ventilator, had bacteraemia or empyema, or was severely immunocompromised. Same loose population in LinkedIn, Bluesky, Threads and the visual ('6,481 adults').",
+   "source_says": "Vaughn 2019: '6481 general care medical patients with pneumonia'; excluded ICU/ventilated patients, bacteraemia or empyema, severe immunocompromise.",
+   "severity": "minor",
+   "replacement": "2 in 3 adults hospitalised on general medical wards with pneumonia (median age 70; intensive care patients were not included)"
+  },
+  {
+   "tmp_id": "C15-P02",
+   "where": "linkedin",
+   "text": "stopping antibiotics then worked as well as continuing to day 8.",
+   "problem": "The trial was a non-inferiority trial with a 10 percentage point margin (cure at day 15 77% stopping at 3 days vs 68% continuing; CI for the difference -0.38 to 20.04). 'Worked as well as' is looser than 'not worse than, within the margin'.",
+   "source_says": "Dinh 2021: 'discontinuing β-lactam treatment after 3 days was non-inferior to 8 days of treatment'; margin 10 percentage points.",
+   "severity": "minor",
+   "replacement": "stopping antibiotics then was not shown to be worse than continuing to day 8, within a 10 percentage point margin (cure at day 15: 77 in 100 versus 68 in 100)."
+  },
+  {
+   "tmp_id": "C15-P03",
+   "where": "x",
+   "text": "Part of that shift reflects which hospitals reported and more CT scanning, which finds more injuries.",
+   "problem": "Stated as established. The authors say only that inconsistency in which institutions submitted data makes it 'difficult to be certain' the effect is not due to incomplete data collection, and that more CT 'allows the early detection of injuries that previously may have remained undetected'; they say further work is needed. Same overstatement in LinkedIn and in the visual and alt text.",
+   "source_says": "Kehoe 2015 full text, Limitations: 'it is difficult to be certain that the effect observed is not simply due to incomplete data collection'; Discussion: 'they do not reveal whether this is because more elderly patients are actually suffering injury or because the detection and reporting of injury in these groups has improved'.",
+   "severity": "major",
+   "replacement": "X: 'Some of that shift may reflect which hospitals sent data and more CT scanning, which finds more injuries. The data end in 2013.' LinkedIn: 'Some of the shift may reflect changes in which hospitals submitted data and a rise in CT scanning (from 34 to 87 in 100 cases), which finds more injuries.' Visual: 'Some of the change may reflect which hospitals reported and more CT scanning.' Alt text: 'Some of the change may reflect reporting and CT use.'"
+  },
+  {
+   "tmp_id": "C15-P03",
+   "where": "visual_text",
+   "text": "Major trauma is now often a fall from under 2 metres",
+   "problem": "Headline uses 'now' for registry data that stop in 2013 (the evidence file says not to describe the figures as current). 'Often' also understates the finding, which is that it was the commonest recorded cause.",
+   "source_says": "Kehoe 2015: 'by 2013 low falls were responsible for 39.1% of cases and were the most common mechanism'; newer TARN reports were not opened.",
+   "severity": "major",
+   "replacement": "By 2013, a fall from under 2 metres was the commonest recorded cause of major trauma"
+  },
+  {
+   "tmp_id": "C15-P03",
+   "where": "x",
+   "text": "the commonest cause of major trauma in England and Wales was a fall from less than 2 metres: 39 in 100 cases",
+   "problem": "Needs 'recorded in the national trauma registry'. The figure comes from TARN, which includes patients admitted for 72 hours or more, needing critical care or dying, and excludes isolated pubic ramus or proximal femur fractures in people over 65. It is the commonest mechanism among registry cases, not a count of all major trauma.",
+   "source_says": "Kehoe 2015 Methods: TARN collects trauma patients 'admitted to hospital for >=72 h, require critical care resources or who die'; certain fractures in those >65 are excluded.",
+   "severity": "minor",
+   "replacement": "the commonest cause of major trauma recorded in the national trauma registry for England and Wales was a fall from less than 2 metres: 39 in 100 cases"
+  },
+  {
+   "tmp_id": "C15-P03",
+   "where": "linkedin",
+   "text": "Three findings show what a low fall can mean for an older person. Each has limits.",
+   "problem": "Mechanism swap. Only the intracranial bleeding review concerns people who fell (at least 80% ground-level falls). The rib fracture study is of admitted patients with rib fractures from blunt chest trauma of any cause, and the triage reviews are of injured older people generally, so they do not show what a low fall means.",
+   "source_says": "Bulger 2000: 277 patients aged 65 or over with rib fractures from blunt chest trauma admitted to a Level I trauma centre; de Wit 2020: at least 80% of the population had a ground-level fall.",
+   "severity": "major",
+   "replacement": "Three findings show what injury can mean for an older person. Each has limits, and only the bleeding estimate concerns people who fell. Also change 'Rib fractures: in one US trauma centre,' to 'Rib fractures from blunt chest injury of any cause: in one US trauma centre,'."
+  },
+  {
+   "tmp_id": "C15-P03",
+   "where": "linkedin",
+   "text": "The height of the fall is a weak guide in older people, and these findings do not say that every low fall needs a trauma call.",
+   "problem": "'The height of the fall is a weak guide' is stated as a finding but no opened source compares fall height with injury in older people. It is the post's judgement.",
+   "source_says": "No claim record addresses fall height as a predictor of injury; C15-11-c concerns under-triage by ambulance triage tools.",
+   "severity": "minor",
+   "replacement": "A low fall does not rule out serious injury in an older person, and these findings do not say that every low fall needs a trauma call."
+  },
+  {
+   "tmp_id": "C15-P03",
+   "where": "linkedin",
+   "text": "find they miss serious injury in older people more often than in younger adults.",
+   "problem": "The review compares older adults with all ages combined (and with children), not with younger adults.",
+   "source_says": "Lupton 2022: under-triage 'higher for older (>=55 or >=65 years) adults (20.1-72.0%) and pediatric (<15 years) patients (15.9-34.8%) compared to all ages (1.6-33.8%)'.",
+   "severity": "minor",
+   "replacement": "find they miss serious injury in older people more often than across all ages combined."
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "visual_text",
+   "text": "Over 5 million admissions, England, 2016 to 2018",
+   "problem": "Admissions are not people. The dataset was 7,472,480 admissions relating to 5,249,891 individual patients; the 5.25 million figure and the 8.71% mortality are per person admitted. Same error in the Bluesky caption, the Threads caption and the alt text.",
+   "source_says": "Jones 2022 abstract: '7 472 480 patients admitted relating to 5 249 891 individual patients, who constituted the study's dataset'.",
+   "severity": "major",
+   "replacement": "Over 5 million people admitted, England, 2016 to 2018"
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "alt_text",
+   "text": "In over 5 million admissions to English hospitals from major emergency departments, 2016 to 2018, about 9 in 100 died within 30 days.",
+   "problem": "Admissions are not people (see visual issue).",
+   "source_says": "Jones 2022: 5,249,891 individual patients; crude 30-day mortality 8.71%.",
+   "severity": "major",
+   "replacement": "Among over 5 million people admitted to English hospitals from major emergency departments, 2016 to 2018, about 9 in 100 died within 30 days."
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "bluesky",
+   "text": "Over 5 million admissions in England:",
+   "problem": "Admissions are not people (see visual issue).",
+   "source_says": "Jones 2022: 5,249,891 individual patients.",
+   "severity": "major",
+   "replacement": "Among over 5 million people admitted in England:"
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "threads",
+   "text": "The study covered over 5 million admissions (2016 to 2018, all adult ages).",
+   "problem": "Admissions are not people, and 'all adult ages' is not in the abstract or the claim record's passage (see LinkedIn issue).",
+   "source_says": "Jones 2022: 5,249,891 individual patients admitted from type 1 EDs; no age limit stated in the abstract.",
+   "severity": "major",
+   "replacement": "The study covered over 5 million people admitted (2016 to 2018), not only older people."
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "linkedin",
+   "text": "between April 2016 and March 2018, all adult ages.",
+   "problem": "'All adult ages' (also Threads) is not stated in the abstract, which gives no age restriction and counts 26.7 million attendances over two years, so it may include children. The only safe statement is that it was not restricted to older people.",
+   "source_says": "Jones 2022 abstract: 'patients admitted from every type 1 (major) ED in England between April 2016 and March 2018'; no age criteria given.",
+   "severity": "major",
+   "replacement": "between April 2016 and March 2018. It was not limited to older people."
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "all",
+   "text": "They could not allow for how ill each person was on arrival.",
+   "problem": "Inferred, not stated. The abstract lists the variables in the model (sex, age, deprivation, comorbidities, hour of day, month, previous attendances and admissions, crowding), and none is acute illness severity, but the abstract does not say severity could not be allowed for. The full text could not be opened. Appears in X, LinkedIn ('It could not allow for how ill each person was on arrival'), Bluesky, Threads, visual slide 2 and alt text.",
+   "source_says": "Jones 2022 abstract (model adjusts for sex, age, deprivation, comorbidities, hour of day, month, previous ED attendances/emergency admissions and crowding).",
+   "severity": "minor",
+   "replacement": "Their model did not include a measure of how ill each person was on arrival. (LinkedIn: 'It did not include a measure of how ill each person was on arrival, so sicker patients may differ in ways it did not capture.' Visual: 'Not in the model: how ill each person was on arrival'. Bluesky: 'it did not include how ill people were on arrival'. Threads: 'the model did not include how ill each person was on arrival'.)"
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "x",
+   "text": "Older people stay longer: in one English department, 79 in 100 visits by people aged 85 or over lasted 4 hours or more, against 44 in 100 for adults aged 18 to 64.",
+   "problem": "A general headline claim from one hospital, with the year, 'visits not people' and the tests-and-assessment caveat missing (all required by the claim record; the LinkedIn version has most of them).",
+   "source_says": "Ogliari 2022: one Nottingham ED, 2019, 146,636 attendances; stay of 4 hours or more: 43.6% (18 to 64), 79.0% (85 and over); longer stays may partly reflect more tests and assessment.",
+   "severity": "minor",
+   "replacement": "In one English emergency department in 2019, 79 in 100 visits by people aged 85 or over lasted 4 hours or more, against 44 in 100 for adults aged 18 to 64. These count visits, not people, and longer stays may partly reflect more tests and assessment."
+  },
+  {
+   "tmp_id": "C15-P04",
+   "where": "visual_text",
+   "text": "Older people spend longer in the department",
+   "problem": "Unqualified general headline over single-department, single-year visit data (qualified only in the small kicker).",
+   "source_says": "Ogliari 2022: one Nottingham ED, 2019.",
+   "severity": "minor",
+   "replacement": "In one department, older people's visits lasted longer"
+  },
+  {
+   "tmp_id": "C15-P05",
+   "where": "linkedin",
+   "text": "About 6 in 100 treated at home and 9 in 100 admitted had moved into long-term residential care by six months. That was a secondary outcome.",
+   "problem": "Omits a result that goes the other way. The same trial found more people treated at home were transferred to hospital in the first month, which the authors describe as a possible trade-off. A reader of X, Bluesky, Threads or the visual sees only favourable secondary results beside the null primary result.",
+   "source_says": "Shepperd 2021 full text: 'an increased risk of readmission or transfer to hospital in the CGAHAH group at one month (RR 1.32, 95% CI 1.06 to 1.64; P=0.012), and not at six months (RR 0.95, 95% CI 0.86 to 1.06)'; 'a 32% relative increase in transfer to hospital at one month follow-up but not at six months'.",
+   "severity": "major",
+   "replacement": "LinkedIn: add after the residential care paragraph: 'In the first month, more people treated at home were transferred to hospital than in the admitted group (relative risk 1.32, 95% CI 1.06 to 1.64), though not by six months.' X and Threads: add 'In the first month, more of those treated at home were transferred to hospital.' Bluesky: add 'More HAH patients were moved to hospital in month 1.' Visual: add a line under the chart 'In month 1, more people treated at home were transferred to hospital.'"
+  },
+  {
+   "tmp_id": "C15-P05",
+   "where": "x",
+   "text": "About 17 in 100 in each group had died.",
+   "problem": "The groups were 16.9% and 17.7%. 17.7% rounds to 18, so 'about 17 in each group' hides the direction of a small difference. Same rounding in the visual (both bars 'about 17'), alt text and Threads.",
+   "source_says": "Shepperd 2021: 114/673 (16.9%) versus 58/328 (17.7%) had died (RR 0.98, 95% CI 0.65 to 1.47).",
+   "severity": "minor",
+   "replacement": "About 17 in 100 treated at home and 18 in 100 admitted had died. (Visual and alt text: second bar 'about 18'; Threads: 'About 17 in 100 treated at home and 18 in 100 admitted had died.')"
+  },
+  {
+   "tmp_id": "C15-P05",
+   "where": "x",
+   "text": "About 6 in 100 treated at home and 9 in 100 admitted had moved into long-term residential care.",
+   "problem": "Secondary outcome not flagged in X, Bluesky or Threads (LinkedIn and the visual flag it). Residential care and death were both secondary outcomes; the primary outcome was living at home.",
+   "source_says": "Shepperd 2021: 'Secondary outcomes were new admission to long-term residential care, mortality, health status, delirium and patient satisfaction.'",
+   "severity": "minor",
+   "replacement": "About 6 in 100 treated at home and 9 in 100 admitted had moved into long-term residential care by six months. That was a secondary outcome."
+  },
+  {
+   "tmp_id": "C15-P06",
+   "where": "linkedin",
+   "text": "The choice is often put as hospital or nothing. This trial shows a third option that worked when the home could monitor closely.",
+   "problem": "'Hospital or nothing' is an unsourced generalisation. 'Worked' is vague, and 'when the home could monitor closely' implies a tested condition: every home in the trial had research-nurse monitoring and no arm tested less monitoring.",
+   "source_says": "Loeb 2006: fewer hospital admissions (10% v 22%); no significant difference in quality of life or function; mortality 8% v 9% (weighted difference 2.9%, 95% CI -2.0% to 7.9%).",
+   "severity": "major",
+   "replacement": "In this trial, treating residents in the home on a pathway with close monitoring led to fewer hospital admissions, with no clear difference in deaths, quality of life or function. The trial did not test homes without that monitoring."
+  },
+  {
+   "tmp_id": "C15-P06",
+   "where": "linkedin",
+   "text": "and it was not designed to show a difference in deaths.",
+   "problem": "Not stated in the abstract. The abstract gives deaths as one of several outcomes and the uncertainty (weighted mean difference 2.9%, 95% CI -2.0% to 7.9%).",
+   "source_says": "Loeb 2006: study aim was to 'reduce hospital admissions, related complications, and costs'; mortality 8% v 9%.",
+   "severity": "minor",
+   "replacement": "and the range of uncertainty around the difference in deaths was wide, so the trial could not rule out a difference in either direction."
+  },
+  {
+   "tmp_id": "C15-P06",
+   "where": "visual_text",
+   "text": "5 Close checks by a dedicated nurse",
+   "problem": "'Dedicated' is not in the source, and the card elsewhere says 'research nurse'. The pathway used 'close monitoring by a research nurse'. Captions and the chart note also say 'dedicated research nurse'.",
+   "source_says": "Loeb 2006 abstract: 'close monitoring by a research nurse'.",
+   "severity": "minor",
+   "replacement": "5 Close checks by a research nurse (captions and chart note: 'a research nurse')"
+  },
+  {
+   "tmp_id": "C15-P06",
+   "where": "visual_text",
+   "text": "Hospital admissions: 10 in 100 with home treatment, 22 in 100 with usual care",
+   "problem": "The data are residents hospitalised (34 of 327 and 76 of 353), not admissions.",
+   "source_says": "Loeb 2006: 'Thirty-four (10%) of 327 residents in the clinical pathway group were hospitalized compared with 76 (22%) of 353 residents in the usual care group.'",
+   "severity": "minor",
+   "replacement": "Residents sent to hospital: 10 in 100 with home treatment, 22 in 100 with usual care"
+  },
+  {
+   "tmp_id": "C15-P06",
+   "where": "x",
+   "text": "About 8 in 100 and 9 in 100 died.",
+   "problem": "Does not say which group is which (also Threads, and the visual body).",
+   "source_says": "Loeb 2006: mortality 8% (24 deaths) pathway vs 9% (32 deaths) usual care.",
+   "severity": "minor",
+   "replacement": "About 8 in 100 on the pathway and 9 in 100 with usual care died."
+  },
+  {
+   "tmp_id": "C15-P06",
+   "where": "bluesky",
+   "text": "In a Canadian trial in 22 care homes,",
+   "problem": "The shortest version drops the central limits (one older trial, 2001 to 2005, research-nurse monitoring) that the other three carry, and relabels the nursing homes as care homes.",
+   "source_says": "Loeb 2006: 22 nursing homes in Hamilton, Ontario; enrolment 2001 to 2005.",
+   "severity": "minor",
+   "replacement": "In a Canadian trial in 22 nursing homes (2001 to 2005), (and end the caption: 'One older trial with research-nurse monitoring. Ask your care home what care is possible there, and say what you would want.')"
+  },
+  {
+   "tmp_id": "C15-P07",
+   "where": "visual_text",
+   "text": "Only about 1 in 3 people with a learning disability who died in English hospitals (2016 to 2021) had seen a learning disability liaison nurse.",
+   "problem": "Population and measure are loosened. The source is 4,742 adults whose deaths were reviewed in the national review programme, and the measure is 'input from' a liaison nurse, not 'had seen'. It is not all people who died in hospital. Same wording in X, LinkedIn and the second alt text.",
+   "source_says": "Sheehan 2024: '4742 adults with intellectual disability who died in hospital between 2016 and 2021 and whose deaths were reviewed'; 'One-third ... had input from an intellectual disability liaison nurse'.",
+   "severity": "major",
+   "replacement": "About 1 in 3 adults with a learning disability whose deaths in English hospitals (2016 to 2021) were reviewed had input from a learning disability liaison nurse. X: 'Of adults with a learning disability who died in English hospitals (2016 to 2021) and whose deaths were reviewed, only about 1 in 3 had input from a liaison nurse, a learning disability specialist nurse.' LinkedIn: 'of 4,742 adults with a learning disability who died in English general hospitals between 2016 and 2021 and whose deaths were reviewed, about 1 in 3 had learning disability liaison nurse input.'"
+  },
+  {
+   "tmp_id": "C15-P07",
+   "where": "x",
+   "text": "In England in 2021 to 2023, the middle age at death was 65 for adults with a mild or moderate learning disability and 58 for a severe or profound one, against 82 in the general population.",
+   "problem": "Leaves out that the learning disability figures cover deaths reviewed in the national review programme, not every death (the LinkedIn version says so).",
+   "source_says": "Yu 2026: LeDeR and ONS data 2021 to 2023: median age at death 65.0 (mild or moderate), 57.9 (severe or profound), 81.9 (general population).",
+   "severity": "minor",
+   "replacement": "In England in 2021 to 2023, among deaths reviewed in the national programme, the middle age at death was 65 for adults with a mild or moderate learning disability and 58 for a severe or profound one, against 82 in the general population."
+  },
+  {
+   "tmp_id": "C15-P07",
+   "where": "linkedin",
+   "text": "A review of studies of people's own experiences found that hospital passports (a record of the person's needs) and liaison nurses made hospital easier.",
+   "problem": "Overstates a small qualitative review: the benefit was identified in two of the five included studies, and the authors say only that increased use 'may' enhance the experience.",
+   "source_says": "McCormick 2020: 'the use of the hospital passport and the intellectual disability liaison nurse to significantly improve the hospital experience ... was identified in two of the studies' (five studies in total).",
+   "severity": "minor",
+   "replacement": "A review of five studies of adults' own experiences found that, in two of them, hospital passports (a record of the person's needs) and liaison nurses were reported to improve the hospital experience."
+  },
+  {
+   "tmp_id": "C15-P07",
+   "where": "visual_text",
+   "text": "Men died 13 years younger, women 20 years younger",
+   "problem": "Headline drops 'median' and 'in this inquiry'; it reads as a general fact about all men and women with a learning disability (region and years only in the small kicker).",
+   "source_says": "Heslop 2014: median age at death 65 v 78 (men), 63 v 83 (women); 247 deaths, south-west England, June 2010 to May 2012.",
+   "severity": "minor",
+   "replacement": "In this inquiry, median age at death was 13 years lower for men and 20 years lower for women"
+  },
+  {
+   "tmp_id": "C15-P07",
+   "where": "bluesky",
+   "text": "Men with a learning disability in a south-west England inquiry died a median of 13 years younger than men in general, women 20 years younger.",
+   "problem": "No dates. The shortest version drops 'over a decade old' (2010 to 2012), so it reads as current.",
+   "source_says": "Heslop 2014: deaths from June 2010 to May 2012.",
+   "severity": "minor",
+   "replacement": "Men with a learning disability in a south-west England inquiry (2010 to 2012) died a median of 13 years younger than men in general, women 20 years younger."
+  },
+  {
+   "tmp_id": "C15-P07",
+   "where": "x",
+   "text": "Problems found more often included care not being adjusted as needs changed, and carers not feeling listened to.",
+   "problem": "These were compared in a subset of deaths against a matched comparison group and judged by review panels; X and Bluesky-style shorter versions give no sign of that.",
+   "source_says": "Heslop 2014: 'Contributory factors ... in a subset of people with intellectual disabilities compared with a comparator group'.",
+   "severity": "minor",
+   "replacement": "In a reviewed subset, problems found more often than in similar deaths of people without a learning disability included care not being adjusted as needs changed, and carers not feeling listened to."
+  },
+  {
+   "tmp_id": "C15-P08",
+   "where": "linkedin",
+   "text": "Older people wait longer. At one large English emergency department in 2019,",
+   "problem": "The study measured length of stay in the department (4 hours or more), not waiting time, and it is one hospital and one year. The claim record requires 'visits, not people' and the tests-and-assessment caveat, both missing here.",
+   "source_says": "Ogliari 2022: one Nottingham ED, 2019, length of ED stay 4 hours or more; 'Longer stays may partly reflect more tests and assessment'.",
+   "severity": "major",
+   "replacement": "Older people's visits tend to last longer. At one large English emergency department in 2019, (and add after the figures: 'These count visits, not people, and longer stays may partly reflect more tests and assessment, not only waiting for a bed.')"
+  },
+  {
+   "tmp_id": "C15-P08",
+   "where": "bluesky",
+   "text": "In one French A&E, 16 in 100 over-75s got a new pressure sore in a stay averaging 9 hours.",
+   "problem": "Drops the key qualification that most were stage I (reddened, unbroken skin), so 'pressure sore' reads as broken skin. The 9-hour average is for all patients, not over-75s. 'A&E' is not used for France.",
+   "source_says": "Dugaret 2012/2014: 34 of 38 new ulcers were stage I; mean ED stay 9.1 hours in the whole sample; cumulative incidence 15.7% over 75.",
+   "severity": "major",
+   "replacement": "In one French emergency department, about 16 in 100 patients over 75 developed a new pressure sore, mostly the earliest stage (reddened, unbroken skin). Stays averaged 9 hours across all patients."
+  },
+  {
+   "tmp_id": "C15-P08",
+   "where": "threads",
+   "text": "In one French emergency department, about 16 in 100 people over 75 got a new pressure sore in a stay averaging 9 hours.",
+   "problem": "Same omission of the earliest-stage qualification as Bluesky; 9 hours is the whole-sample average.",
+   "source_says": "Dugaret 2012/2014: stage I accounted for 34 of 38 new ulcers.",
+   "severity": "major",
+   "replacement": "In one French emergency department, about 16 in 100 people over 75 developed a new pressure sore, mostly the earliest stage (reddened, unbroken skin), in stays that averaged 9 hours across all patients."
+  },
+  {
+   "tmp_id": "C15-P08",
+   "where": "visual_text",
+   "text": "France, 602 adults, stays averaging 9 hours",
+   "problem": "The 4.9% and 15.7% rates use patients without a sore on arrival as denominator (about 555 and 127), not all 602; one centre, two weeks in June 2010. The card says 'per 100 patients' beside '602 adults'.",
+   "source_says": "Dugaret abstract: 602 patients, 1 to 15 June 2010; 47 had a sore on arrival; cumulative incidence 4.9%. Claim record C15-15-a (B2): rates appear to use patients without a sore on arrival.",
+   "severity": "minor",
+   "replacement": "France, one emergency department, June 2010: 602 adults; new sores among those without one on arrival; stays averaging 9 hours"
+  },
+  {
+   "tmp_id": "C15-P08",
+   "where": "linkedin",
+   "text": "In Spanish hospitals, missed Parkinson's doses were linked with longer stays and more deaths in hospital.",
+   "problem": "The Spanish data come from hospitals in one region (the Basque Country), 2011 to 2012, not Spanish hospitals generally.",
+   "source_says": "Lertxundi 2017: Parkinson's inpatients, Basque Country, 2011 to 2012; omitted dopaminergic doses OR 1.92 for death.",
+   "severity": "minor",
+   "replacement": "In hospitals in the Basque Country, Spain, missed Parkinson's doses were linked with longer stays and more deaths in hospital."
+  },
+  {
+   "tmp_id": "C15-P08",
+   "where": "visual_text",
+   "text": "These are judgement about basic care, not a trial finding.",
+   "problem": "Grammar: reads as a fragment and gives the wrong plural.",
+   "source_says": "n/a",
+   "severity": "minor",
+   "replacement": "These four asks are a judgement about basic care, not a trial finding."
+  },
+  {
+   "tmp_id": "C15-P09",
+   "where": "linkedin",
+   "text": "In the Singapore project, 59 of 61 rapid discharges in the final year got the person home. In the other 2, the person died in hospital after delays in equipment and paperwork.",
+   "problem": "Selective denominator. 61 counts only cases that went through the process; a further 19 requests in the same year did not go ahead and were excluded from the success rate. Quoting 59 of 61 on its own reads as a 97% success rate for people referred, in a post whose point is that some people die before leaving.",
+   "source_says": "Alias 2024 full text (via claim C15-07-b, B2): 'there were 19 unsuccessful ComD cases. Reasons included patient's rapid deterioration despite a smooth process (n=10), family caregiver changing their mind (n=7) and patient being unsuitable for ComD due to medical reasons (n=2)'; 'Unsuccessful ComD cases were excluded' from the success rate.",
+   "severity": "major",
+   "replacement": "In the Singapore project, 59 of 61 rapid discharges in the final year got the person home. In the other 2, the person died in hospital after delays in equipment and paperwork. A further 19 requests that year did not go ahead: 10 because the person got worse very quickly, 7 because the family changed their mind and 2 for medical reasons. The project excluded these from its success rate."
+  },
+  {
+   "tmp_id": "C15-P09",
+   "where": "x",
+   "text": "found the usual hold-ups were getting equipment and medicines to the home, poor communication between teams, and paperwork.",
+   "problem": "'The usual hold-ups were' reads as a ranking. Both projects list barriers that 'included' these items; the English abstract names equipment, communication and paperwork and the Singapore abstract equipment, medication and communication (paperwork appears for the failed cases). The claim record says not to claim a main-barrier ranking. Same phrasing in LinkedIn and Threads.",
+   "source_says": "Alias 2024: 'barriers ... included timely acquisition of home equipment and medication and poor communication among stakeholders'; Morrison 2024: 'Barriers identified included sourcing of equipment, communication between teams and clunky paperwork'.",
+   "severity": "minor",
+   "replacement": "found that hold-ups included getting equipment and medicines to the home, poor communication between teams, and paperwork."
+  },
+  {
+   "tmp_id": "C15-P09",
+   "where": "x",
+   "text": "died before they could leave, even though the middle wait was 1 day.",
+   "problem": "The median wait of 1 day is for the 94 who got home; the 10 who died had a median of 1 day (range 0 to 4) before death. As written, the clause suggests the 10 waited a day and then died.",
+   "source_says": "Morrison 2024: '94 people were discharged to home, with a median of wait of 1 day (range 0-7) to discharge, and 10 (9.6%) died prior to discharge (median 1 day; range 0-4)'.",
+   "severity": "minor",
+   "replacement": "died before they could leave; for the 94 who did get home, the middle (median) wait was 1 day."
+  }
+ ],
+ "posts_to_drop": []
+}

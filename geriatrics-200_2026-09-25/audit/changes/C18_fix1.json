@@ -1,114 +1,492 @@
 [
  {
+  "tmp_id": "C18-P01",
+  "where": "title",
+  "old": "Strain, not the carer role, went with the higher death rate",
+  "new": "The higher death rate was seen only in carers who reported strain",
+  "reason": "Factcheck minor: title implied the carer role carries no excess risk; carers without strain had a wide interval (0.61 to 1.90), which is no clear difference, not no effect."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "visual_brief.slides.0.text.headline",
+  "old": "The higher death rate was in carers who reported strain",
+  "new": "The higher death rate was seen only in carers who reported strain",
+  "reason": "Factcheck minor: align headline with corrected title wording."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "visual_text.0",
+  "old": "The higher death rate was in carers who reported strain",
+  "new": "The higher death rate was seen only in carers who reported strain",
+  "reason": "Factcheck minor: align visual text with corrected headline."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "captions.x",
+  "old": "In 392 US spouse carers and 427 non-carers aged 66 to 96, followed for about 4 years, the higher death rate was seen only in carers",
+  "new": "In 392 US spouse carers and 427 non-carers aged 66 to 96, 103 of the 819 people (12.6%) died within 4 years. The higher death rate was seen only in carers",
+  "reason": "Factcheck minor: relative risk was given with no absolute figure; added whole-cohort absolute figure (103 of 819, not given by group)."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "captions.x",
+  "old": "That does not show caring protects health, and carers still report more depression and anxiety.",
+  "new": "That does not show caring protects health. In cross-sectional studies, carers also report more depression and anxiety.",
+  "reason": "Factcheck minor: depression and anxiety finding comes from cross-sectional studies in Janson 2022; design limit was lost."
+ },
+ {
+  "tmp_id": "C18-P01",
+  "where": "source_reply",
+  "old": "Janson et al., 2022 https",
+  "new": "Janson et al., Int J Environ Res Public Health 2022 https",
+  "reason": "Factcheck minor: journal missing, unlike the other two citations."
+ },
+ {
+  "tmp_id": "C18-P02",
+  "where": "captions.x",
+  "old": "The evidence was rated very low quality, and taken together the trials did not show a clear benefit or harm for carers.",
+  "new": "The evidence was rated very low quality. The trials were too different to combine, and the review found no significant effect of respite compared with no respite on any carer outcome.",
+  "reason": "Factcheck major: the review could not pool the trials, so 'taken together' wrongly implied a pooled estimate."
+ },
+ {
+  "tmp_id": "C18-P02",
+  "where": "captions.linkedin",
+  "old": "Taken together, the trials did not show a clear benefit or harm for carers, and the review had no usable outcomes for the people with dementia themselves.",
+  "new": "The trials were too different to combine. The review found no significant effect of respite compared with no respite on any carer outcome, and no usable outcomes for the people with dementia themselves.",
+  "reason": "Factcheck major: same 'taken together' problem: no pooling was possible."
+ },
+ {
+  "tmp_id": "C18-P02",
+  "where": "captions.linkedin",
+  "old": "A 2026 systematic review of eight studies of respite programmes (three",
+  "new": "A 2026 systematic review of eight studies of respite programmes for carers of people with disability or dementia (three",
+  "reason": "Factcheck minor: population omitted; the 2026 review covers functional disability and dementia, not dementia alone."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "captions.x",
+  "old": "Six years on, carers who had the programme had fewer symptoms",
+  "new": "Over six years of follow-up, carers who had the programme had fewer symptoms",
+  "reason": "Factcheck minor: result is an average over 72 months, not a six-year-point result."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "captions.threads",
+  "old": "left carers less anxious and depressed six years on (a modest average difference)",
+  "new": "left carers less anxious and depressed over six years of follow-up (a modest average difference)",
+  "reason": "Factcheck minor: average over 72 months, not a six-year-point result."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "captions.bluesky",
+  "old": "left them less anxious and depressed for six years, a modest average difference.",
+  "new": "left them less anxious and depressed over six years of follow-up, a modest average difference.",
+  "reason": "Factcheck minor: same 72-month average wording applied for consistency with X and Threads."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_brief.slides.1.text.items.1",
+  "old": "lower for 6 years (modest difference)",
+  "new": "lower over 6 years of follow-up (modest difference)",
+  "reason": "Factcheck minor: same 72-month average wording applied to the visual."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_text.7",
+  "old": "lower for 6 years (modest difference)",
+  "new": "lower over 6 years of follow-up (modest difference)",
+  "reason": "Factcheck minor: same wording in visual text."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "alt_text.1",
+  "old": "anxiety and depression lower for 6 years, a modest difference",
+  "new": "anxiety and depression lower over 6 years of follow-up, a modest difference",
+  "reason": "Factcheck minor: same wording in alt text."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "insight",
+  "old": "improved carers' anxiety and depression for six years",
+  "new": "improved carers' anxiety and depression over six years of follow-up",
+  "reason": "Factcheck minor: same wording in insight field."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "captions.x",
+  "old": "A separate US trial of 406 spouse carers linked counselling and support with a later move to a nursing home: a model estimated the typical delay at about 18 months.",
+  "new": "A separate US trial of 406 spouse carers of people with Alzheimer disease linked counselling and support with a later nursing home move for the person with the disease: a model estimated the difference in median time at about 18 months.",
+  "reason": "Factcheck minor: unclear whose move it was; 557 days is a model-predicted difference in median time."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "captions.linkedin",
+  "old": "In a US trial of 406 spouse carers, counselling and support was linked with a later move to a nursing home. A model estimated the typical delay at about 18 months (557 days).",
+  "new": "In a US trial of 406 spouse carers of people with Alzheimer disease, counselling and support was linked with a later nursing home move for the person with the disease. A model estimated the difference in median time at about 18 months (557 days).",
+  "reason": "Factcheck minor: same ambiguity as X: whose move, and what the 557 days measures."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_brief.slides.1.text.items.3",
+  "old": "US: 406 spouse carers, counselling and support",
+  "new": "US: 406 spouse carers of people with Alzheimer disease, counselling and support",
+  "reason": "Factcheck minor: visual made consistent with X and LinkedIn."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_text.9",
+  "old": "US: 406 spouse carers, counselling and support",
+  "new": "US: 406 spouse carers of people with Alzheimer disease, counselling and support",
+  "reason": "Factcheck minor: visual text made consistent."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_brief.slides.1.text.items.4",
+  "old": "Time to nursing home move: later, model estimate about 18 months (557 days)",
+  "new": "Time to nursing home move: later, model estimate of the difference in median time about 18 months (557 days)",
+  "reason": "Factcheck minor: state what the model estimate measures."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "visual_text.10",
+  "old": "Time to nursing home move: later, model estimate about 18 months (557 days)",
+  "new": "Time to nursing home move: later, model estimate of the difference in median time about 18 months (557 days)",
+  "reason": "Factcheck minor: visual text made consistent."
+ },
+ {
+  "tmp_id": "C18-P03",
+  "where": "captions.linkedin",
+  "old": "Two well-known trials of programmes for family carers of people with dementia give different answers.",
+  "new": "Two trials of programmes for family carers of people with dementia looked at different outcomes in different people.",
+  "reason": "Factcheck minor: 'give different answers' invites the head-to-head comparison the post rules out; 'well-known' is unsourced."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "title",
+  "old": "Relief after a long period of caring is a common response",
+  "new": "In one US study, most carers said the death was a relief after long, demanding care",
+  "reason": "Factcheck minor: title generalised a single US trial sample (self-reported) to carers in general."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "captions.x",
+  "old": "half had spent at least 46 hours a week on it in the year before the death.",
+  "new": "half had spent at least 46 hours a week helping with daily activities in the year before the death.",
+  "reason": "Factcheck minor: the 46 hours refers to help with activities of daily living and instrumental activities, not all care tasks."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "captions.linkedin",
+  "old": "Half of the carers had spent at least 46 hours a week on care in the year before the death.",
+  "new": "Half of the carers had spent at least 46 hours a week helping with daily activities in the year before the death.",
+  "reason": "Factcheck minor: same 46-hours qualification."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "captions.threads",
+  "old": "half had spent at least 46 hours a week on it.",
+  "new": "half had spent at least 46 hours a week helping with daily activities.",
+  "reason": "Factcheck minor: same 46-hours qualification."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "Half had spent at least 46 hours a week on care in the year before the death.",
+  "new": "Half had spent at least 46 hours a week helping with daily activities in the year before the death.",
+  "reason": "Factcheck minor: same 46-hours qualification."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "visual_text.4",
+  "old": "Half had spent at least 46 hours a week on care in the year before the death.",
+  "new": "Half had spent at least 46 hours a week helping with daily activities in the year before the death.",
+  "reason": "Factcheck minor: same 46-hours qualification."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "alt_text.0",
+  "old": "Half had spent at least 46 hours a week on care in the year before the death.",
+  "new": "Half had spent at least 46 hours a week helping with daily activities in the year before the death.",
+  "reason": "Factcheck minor: same 46-hours qualification."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "captions.x",
+  "old": "Feeling relief and grief together is understandable.",
+  "new": "Our judgement, not a finding: feeling relief and grief together is understandable.",
+  "reason": "Factcheck minor: judgement not in the source and not marked as judgement."
+ },
+ {
+  "tmp_id": "C18-P04",
+  "where": "captions.linkedin",
+  "old": "Feeling relief and grief together is understandable.",
+  "new": "Our judgement, not a finding: feeling relief and grief together is understandable.",
+  "reason": "Factcheck minor: judgement not in the source and not marked as judgement."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.x",
+  "old": "A review of 15 randomised trials in older adults discharged to the community",
+  "new": "A review of 15 randomised study reports (13 distinct trial populations) in older adults discharged to the community",
+  "reason": "Factcheck major: the 15 reports cover 13 unique populations; '15 trials' overstated independent trials."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.linkedin",
+  "old": "(15 trials, 4,361 patients)",
+  "new": "(15 study reports covering 13 distinct trial populations, 4,361 patients)",
+  "reason": "Factcheck major: 15 reports, 13 unique populations; 4,361 is the total across the 13."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.threads",
+  "old": "A review of 15 randomised trials found",
+  "new": "A review of 15 randomised study reports (13 distinct trial populations) found",
+  "reason": "Factcheck major: same 15 versus 13 issue."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.linkedin",
+  "old": "a written care plan (9 of 15 trials)",
+  "new": "a written care plan (9 of 15 studies)",
+  "reason": "Consistency with the 15 reports versus 13 populations correction: counts are of studies, not independent trials."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.linkedin",
+  "old": "(relative risk 0.75, 95% confidence interval 0.62 to 0.91, from 6 trials)",
+  "new": "(relative risk 0.75, 95% confidence interval 0.62 to 0.91, from 6 studies)",
+  "reason": "Consistency with the 15 reports versus 13 populations correction."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.linkedin",
+  "old": "(relative risk 0.76, 95% confidence interval 0.64 to 0.90, from 5 trials)",
+  "new": "(relative risk 0.76, 95% confidence interval 0.64 to 0.90, from 5 studies)",
+  "reason": "Consistency with the 15 reports versus 13 populations correction."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "captions.x",
+  "old": "Tested programmes often included a written care plan, links to community services, and showing the carer a task and having them show it back.",
+  "new": "Of the 15 studies, 13 linked carers to community services and 9 gave a written care plan. Seven used teach-back (the carer shows the task back) and five used demonstration.",
+  "reason": "Factcheck minor: 'often' is generous for demonstration (5 of 15) and teach-back (7 of 15)."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "Steps 2 to 4 echo what tested programmes often included.",
+  "new": "Steps 2 to 4 echo components used in some of the tested programmes.",
+  "reason": "Factcheck minor: 'often' does not fit teach-back and demonstration."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "visual_text.7",
+  "old": "Steps 2 to 4 echo what tested programmes often included.",
+  "new": "Steps 2 to 4 echo components used in some of the tested programmes.",
+  "reason": "Factcheck minor: 'often' does not fit teach-back and demonstration."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "alt_text.0",
+  "old": "Drawn hospital discharge bay: an older man in a chair with a walking frame, his daughter holding a folder, and a nurse showing her how to help him stand, with five numbered steps for a carer handover.",
+  "new": "Illustration, not a real case. A hospital discharge bay: an older man with a walking frame, his daughter holding a folder, and a nurse showing her how to help him stand, with five numbered steps for a carer handover.",
+  "reason": "Factcheck minor: scene with specific people was not labelled as illustrative; wording tightened to keep alt text within 400 characters."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "visual_brief.slides.0.text.kicker",
+  "old": "Discharge plans that included carers: about a quarter fewer readmissions over 3 to 6 months (relative; multi-part programmes)",
+  "new": "Illustration, not a real case. Discharge plans that included carers: about a quarter fewer readmissions over 3 to 6 months (relative; multi-part programmes)",
+  "reason": "Factcheck minor: label the scene as illustrative on the visual, matching the alt text."
+ },
+ {
+  "tmp_id": "C18-P05",
+  "where": "visual_text.1",
+  "old": "Discharge plans that included carers: about a quarter",
+  "new": "Illustration, not a real case. Discharge plans that included carers: about a quarter",
+  "reason": "Factcheck minor: label the scene as illustrative on the visual, matching the alt text."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.x",
+  "old": "Home care workers (paid carers who visit people at home) in New York described losing both a close relationship and paid work when a client died, and felt that employers and society underestimated that loss.",
+  "new": "Home care workers are paid carers who visit people at home. In a New York City study using focus groups and peer interviews, the researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work that can follow.",
+  "reason": "Factcheck major: 'lose a close relationship and a job' is a premise in the abstract, not a finding; the finding is the authors' conclusion that grief is underestimated. 'Felt' wrongly attributed the authors' interpretation to workers."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.x",
+  "old": "the job loss finding comes from New York only",
+  "new": "the finding about loss of work comes from New York only",
+  "reason": "Factcheck major: wording follows the corrected New York finding."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.linkedin",
+  "old": "Home care workers (paid carers who visit people at home) in a New York study described losing both a close relationship and paid work when a client died. They felt that employers and society underestimated the loss.",
+  "new": "Home care workers are paid carers who visit people at home. In a New York City study using focus groups and peer interviews, the researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work that can follow.",
+  "reason": "Factcheck major: same premise-versus-finding problem and misattribution of 'felt'."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.linkedin",
+  "old": "The job loss finding comes from the New York study;",
+  "new": "The finding about loss of work comes from the New York study;",
+  "reason": "Factcheck major: wording follows the corrected New York finding."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.bluesky",
+  "old": "Home care workers in a New York study described losing a close relationship and paid work when a client died. In England, workers valued experienced colleagues, managers acknowledging feelings, and for some, time off or a funeral invitation. We should tell care workers promptly.",
+  "new": "In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, especially the loss of work. In England, interviews described colleagues and managers acknowledging feelings as supportive. We should tell care workers promptly.",
+  "reason": "Factcheck major: corrected New York finding; 'valued' and 'funeral invitation' went beyond the abstract (minor). Time off and funeral clause dropped from the Bluesky version to stay within 300 characters."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.threads",
+  "old": "In a New York study, home care workers described losing both a close relationship and paid work when a client died.",
+  "new": "In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work.",
+  "reason": "Factcheck major: same premise-versus-finding problem."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "visual_brief.slides.0.text.items.0",
+  "old": "Panel 1: In a New York study, home care workers described losing both a close relationship and paid work when a client died.",
+  "new": "Panel 1: In a New York study, researchers concluded that home care workers' grief when a client died was underestimated by employers and society, particularly the loss of work.",
+  "reason": "Factcheck major: same premise-versus-finding problem."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "visual_text.2",
+  "old": "In a New York study, home care workers described losing both a close relationship and paid work when a client died.",
+  "new": "In a New York study, researchers concluded that home care workers' grief when a client died was underestimated by employers and society, particularly the loss of work.",
+  "reason": "Factcheck major: same premise-versus-finding problem."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "alt_text.0",
+  "old": "New York workers described losing a close relationship and paid work; English workers found colleagues, managers and funeral attendance helped.",
+  "new": "New York study: researchers concluded workers' grief is underestimated, particularly loss of work. England: supportive colleagues and managers.",
+  "reason": "Factcheck major: same premise-versus-finding problem; 'found ... helped' softened to 'described as supportive'."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "insight",
+  "old": "Interview studies found that home care workers can lose a close relationship when a client dies (and, in New York, paid work as well), and that in England",
+  "new": "Interview studies found that, in New York, researchers concluded employers and society underestimate home care workers' grief when a client dies, particularly the loss of work, and that in England",
+  "reason": "Factcheck major: insight field aligned with corrected New York finding."
+ },
+ {
+  "tmp_id": "C18-P06",
+  "where": "captions.threads",
+  "old": "What helped: experienced colleagues, managers acknowledging their feelings, and for some, time off or encouragement to attend the funeral.",
+  "new": "What was described as supportive: experienced colleagues, managers acknowledging their feelings, and for some, time off or encouragement to attend the funeral.",
+  "reason": "Factcheck minor: 'helped' and 'valued' go beyond the abstract (supportive elements); same wording applied in Threads."
+ },
+ {
   "tmp_id": "C18-P07",
   "where": "captions.x",
-  "old": "The commonest reason they were given was that the patient had not consented.",
-  "new": "One of the two commonest reasons they were given was that the patient had not consented.",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+  "old": "and record the answer where the next clinician will find it. Follow your regulator's guidance and local policy.",
+  "new": "and record the answer where the next clinician will find it. If the patient is unable to decide, follow your capacity and best-interests procedures. Follow your regulator's guidance and local policy.",
+  "reason": "Factcheck major: patients with dementia may lack capacity to decide who is told; practice advice incomplete without a capacity pointer."
  },
  {
   "tmp_id": "C18-P07",
   "where": "captions.linkedin",
-  "old": "The commonest reason they were given was lack of the patient's consent.",
-  "new": "One of the two commonest reasons they were given (alongside no team member being available) was lack of the patient's consent.",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
- },
- {
-  "tmp_id": "C18-P07",
-  "where": "captions.bluesky",
-  "old": "most often told the patient had not consented",
-  "new": "often told the patient had not consented",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+  "old": "3. Ask the patient whom they are happy for information to go to, and for what.",
+  "new": "3. Ask the patient whom they are happy for information to go to, and for what. If the patient may lack capacity to decide, follow your capacity and best-interests procedures.",
+  "reason": "Factcheck major: same capacity gap."
  },
  {
   "tmp_id": "C18-P07",
   "where": "captions.threads",
-  "old": "most often told the patient had not consented",
-  "new": "often told the patient had not consented",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+  "old": "and record the answer for the next clinician.",
+  "new": "and record the answer for the next clinician. If the patient is unable to decide, follow your capacity and best-interests procedures.",
+  "reason": "Factcheck major: same capacity gap."
  },
  {
   "tmp_id": "C18-P07",
-  "where": "visual_brief.slides[0].text.body",
-  "old": "commonest reason given was no patient consent",
-  "new": "one of the two commonest reasons given was no patient consent",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+  "where": "captions.bluesky",
+  "old": "We should always listen to carers. Listening does not require sharing the patient's information. In an Irish survey, over half of 159 carers of people with mental illness struggled to get information. Ask the patient whom they are happy to share with, and record it.",
+  "new": "We should listen to carers. Listening does not mean sharing patient information. In an Irish survey, over half of 159 carers of people with mental illness struggled to get information. Ask the patient whom they are happy to share with, and record it. If they can't decide, follow capacity procedures.",
+  "reason": "Factcheck major: same capacity gap."
  },
  {
   "tmp_id": "C18-P07",
-  "where": "visual_text[1]",
-  "old": "commonest reason given was no patient consent",
-  "new": "one of the two commonest reasons given was no patient consent",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+  "where": "visual_brief.slides.0.text.labels.0",
+  "old": "Follow your regulator's guidance and local policy",
+  "new": "If the patient is unable to decide, follow your capacity and best-interests procedures. Follow your regulator's guidance and local policy",
+  "reason": "Factcheck major: same capacity gap shown on the visual."
  },
  {
   "tmp_id": "C18-P07",
-  "where": "alt_text[0]",
-  "old": "most often told the patient had not consented",
-  "new": "one of the two commonest reasons given was no patient consent",
-  "reason": "Factcheck major: lack of consent tied with staff unavailability (both 46.2%), not the single commonest reason."
+  "where": "visual_text.6",
+  "old": "Follow your regulator's guidance and local policy",
+  "new": "If the patient is unable to decide, follow your capacity and best-interests procedures. Follow your regulator's guidance and local policy",
+  "reason": "Factcheck major: same capacity gap shown on the visual."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "alt_text.0",
+  "old": "A judgement about practice, not legal advice. Based on an Irish survey in which over half of 159 carers of people with mental illness struggled to get information.",
+  "new": "If unable to decide, follow capacity procedures. Practice judgement, not legal advice. Irish survey: over half of 159 carers of people with mental illness struggled to get information.",
+  "reason": "Factcheck major: same capacity gap in alt text."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "alt_text.0",
+  "old": "Four-step flow diagram. 1 Listen",
+  "new": "Four steps. 1 Listen",
+  "reason": "Housekeeping: shorten alt text lead-in so the added capacity line keeps alt text within 400 characters."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.x",
+  "old": "This was mental health care and a self-selected sample, so it may not describe the care of older people.",
+  "new": "This was mental health care and the carers were recruited through a support group, so it may not describe the care of older people.",
+  "reason": "Factcheck minor: 'self-selected' is an inference; the abstract says carers were affiliated with a support group."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.linkedin",
+  "old": "The survey was in mental health services, not older people's services, and the sample was small and self-selected, so it may not describe our own settings.",
+  "new": "The survey was in mental health services, not older people's services, and the carers were recruited through a support group, so it may not describe our own settings.",
+  "reason": "Factcheck minor: 'small' and 'self-selected' are inferences."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "captions.linkedin",
+  "old": "A carer may have noticed changes that the team has not seen,",
+  "new": "In our judgement, a carer may have noticed changes that the team has not seen,",
+  "reason": "Factcheck minor: unsourced general statement presented beside the survey."
+ },
+ {
+  "tmp_id": "C18-P07",
+  "where": "position_basis",
+  "old": "self-selected sample",
+  "new": "carers recruited through a support group",
+  "reason": "Factcheck minor: metadata aligned with corrected limit wording."
  },
  {
   "tmp_id": "C18-P07",
   "where": "verification_notes",
-  "old": "stated as 'commonest reason' in safe wording",
-  "new": "stated as 'one of the two commonest reasons' after factcheck",
-  "reason": "Keep notes consistent with corrected wording."
+  "old": "self-selected small sample",
+  "new": "carers recruited through a support group",
+  "reason": "Factcheck minor: metadata aligned with corrected limit wording."
  },
  {
-  "tmp_id": "C18-P01",
-  "where": "visual_brief.slides[0].text.labels[2]",
-  "old": "Non-carers (comparison)",
-  "new": "Comparison group",
-  "reason": "Factcheck minor: reference group should not carry a finding label."
+  "tmp_id": "C18-P08",
+  "where": "captions.x",
+  "old": "a PubMed search found no study that tests whether having a plan changes what happens.",
+  "new": "a PubMed search in 2026 found no study that tests whether having a plan changes what happens. That is a gap in the evidence, not evidence that plans do not help.",
+  "reason": "Factcheck minor: absence claim should be labelled an evidence gap, not evidence of no benefit."
  },
  {
-  "tmp_id": "C18-P01",
-  "where": "visual_text[7]",
-  "old": "Non-carers (comparison)",
-  "new": "Comparison group",
-  "reason": "Factcheck minor: reference group should not carry a finding label."
- },
- {
-  "tmp_id": "C18-P01",
-  "where": "visual_brief.slides[0].art",
-  "old": "Column 2 and 3 in teal with label 'No clear difference'.",
-  "new": "Columns 2 and 3 in teal; column 2 labelled 'No clear difference'; column 3 labelled 'Comparison group' only.",
-  "reason": "Factcheck minor: reference group should not carry a finding label."
- },
- {
-  "tmp_id": "C18-P02",
-  "where": "captions.bluesky",
-  "old": "Only 4 trials have tested respite breaks for carers of people with dementia, and the evidence is very low quality.",
-  "new": "A 2014 Cochrane review found only 4 trials of respite breaks for carers of people with dementia, and the evidence was very low quality.",
-  "reason": "Factcheck minor: date the trial count to the 2014 review."
- },
- {
-  "tmp_id": "C18-P03",
-  "where": "visual_brief.slides[1].text.items[0]",
-  "old": "Our view",
-  "new": "My view",
-  "reason": "Factcheck minor: posts are in Alasdair's first person."
- },
- {
-  "tmp_id": "C18-P03",
-  "where": "visual_text[9]",
-  "old": "Our view",
-  "new": "My view",
-  "reason": "Factcheck minor: posts are in Alasdair's first person."
- },
- {
-  "tmp_id": "C18-P03",
-  "where": "alt_text[1]",
-  "old": "Our view",
-  "new": "My view",
-  "reason": "Factcheck minor: posts are in Alasdair's first person."
- },
- {
-  "tmp_id": "C18-P07",
-  "where": "alt_text[0]",
-  "old": "Diagram with two separate lanes. Always: the carer speaks and the clinician listens; nothing about the patient is shared. Ask and record: ask the patient what may be shared and with whom, and record it where the next clinician will look. Note: in an Irish survey of 159 carers in mental health services, over half struggled to get information, one of the two commonest reasons given was no patient consent.",
-  "new": "Diagram, two separate lanes. Always: the carer speaks and the clinician listens; nothing about the patient is shared. Ask and record: ask the patient what may be shared and with whom, and record it where the next clinician will look. In an Irish survey of 159 carers in mental health services, over half struggled to get information, one of the two commonest reasons given was no patient consent.",
-  "reason": "check_posts alt_over_400 after factcheck wording; trimmed."
+  "tmp_id": "C18-P08",
+  "where": "captions.linkedin",
+  "old": "A PubMed search found no study that tests whether having such a plan changes what happens, and no claim",
+  "new": "A PubMed search in 2026 found no study that tests whether having such a plan changes what happens. That is a gap in the evidence, not evidence that plans do not help. No claim",
+  "reason": "Factcheck minor: same evidence-gap labelling."
  }
 ]

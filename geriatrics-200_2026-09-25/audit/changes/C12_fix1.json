@@ -1,177 +1,667 @@
 [
  {
-  "tmp_id": "C12-P03",
-  "where": "visual_brief.slides.0.text.items.0",
-  "old": "On their own, poor guides: smell; dark colour; cloudiness",
-  "new": "On their own, poor guides: smell; dark colour",
-  "reason": "major: 'Cloudiness' has no supporting claim. Stone 2012 (C12-17-c) names colour and odour only; Lemoine reports cloudy urine only as a criterion staff used; the UKHSA record is not_found."
+  "tmp_id": "C12-P01",
+  "where": "captions.linkedin",
+  "old": "Frailer people are more likely to be given pads (a Danish study of about 2,000 older patients found this), and they may also be more likely to leak. No observational study can fully remove that.",
+  "new": "Frailer people are more likely to be given pads (a Danish study of about 2,000 older patients found this), so part of the link may reflect who is given pads rather than the pads themselves. No observational study can fully remove that.",
+  "reason": "minor: 'may also be more likely to leak' is not in any opened source; the Danish study only shows frailer patients are more likely to become pad users."
  },
  {
-  "tmp_id": "C12-P03",
-  "where": "visual_text.2",
-  "old": "On their own, poor guides: smell; dark colour; cloudiness",
-  "new": "On their own, poor guides: smell; dark colour",
-  "reason": "major: 'Cloudiness' has no supporting claim. Stone 2012 (C12-17-c) names colour and odour only; Lemoine reports cloudy urine only as a criterion staff used; the UKHSA record is not_found."
+  "tmp_id": "C12-P02",
+  "where": "captions.linkedin",
+  "old": "The same review found cranberry products probably reduce infections in children and in people prone to infection after a bladder procedure, and that stomach side effects were probably no more common than with placebo.",
+  "new": "The same review found cranberry products probably reduce infections in children and in people prone to infection after a medical intervention, and reported that stomach side effects probably did not differ from placebo or no treatment, although the estimate (risk ratio 1.33, 95% confidence interval 1.00 to 1.77) leaves room for a modest increase.",
+  "reason": "major: interval touching 1.00 was read as no excess; comparator was placebo or no specific treatment; the susceptible group is not limited to bladder procedures."
  },
  {
-  "tmp_id": "C12-P03",
-  "where": "alt_text.0",
-  "old": "Left, on their own poor guides to urine infection: smell, dark colour, cloudiness;",
-  "new": "Left, on their own poor guides to urine infection: smell and dark colour;",
-  "reason": "major: The alt text repeats the unsupported 'cloudiness'."
+  "tmp_id": "C12-P02",
+  "where": "captions.linkedin",
+  "old": "The largest review of cranberry products (Cochrane, 2023) pooled 50 trials with 8,857 people.",
+  "new": "A 2023 Cochrane review of cranberry products pooled 50 trials with 8,857 people.",
+  "reason": "minor: 'largest' is a superlative no opened source states."
+ },
+ {
+  "tmp_id": "C12-P02",
+  "where": "captions.x",
+  "old": "Cranberry products probably help women who keep getting urine infections. In the trials,",
+  "new": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small. In the trials,",
+  "reason": "minor: the qualification that the benefit could be small (interval 13 to 24 in 100 against 24) was only in the LinkedIn version."
+ },
+ {
+  "tmp_id": "C12-P02",
+  "where": "captions.threads",
+  "old": "Cranberry products probably help women who keep getting urine infections: in trials",
+  "new": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small: in trials",
+  "reason": "consistency with the X fix: same qualification added to the Threads version."
+ },
+ {
+  "tmp_id": "C12-P02",
+  "where": "captions.bluesky",
+  "old": "Cranberry products probably help women who keep getting urine infections: about 18 in 100 with, 24 in 100 without, in trials. For older people in care homes, the trials showed no clear benefit: about 11 in 100 either way. A result applies to the people studied.",
+  "new": "Cranberry products probably help women who keep getting urine infections, though the benefit could be small: about 18 in 100 with, 24 in 100 without. For older people in care homes or other institutions, trials showed no clear benefit: about 11 in 100 either way. A result applies to the people studied.",
+  "reason": "minor: population narrowed to 'care homes' in the Bluesky version only; the review group is care homes or other institutions. Also carries the 'benefit could be small' qualification."
  },
  {
   "tmp_id": "C12-P03",
   "where": "captions.x",
-  "old": "In a larger US study, a change in colour, smell or visible blood raised the chance of lab signs of infection only a little: about 47 in 100 against 31 in 100.",
-  "new": "In a larger US nursing home study of residents already suspected of infection, a change in colour, smell or visible blood raised the chance of lab signs of infection only a little: about 47 in 100 against 31 in 100.",
-  "reason": "major: The post leaves out that only residents already suspected of infection were studied (a required qualification). Without it, readers may take 47 in 100 as applying to all residents."
+  "old": "A larger US study found that a change in colour, smell or blood raised the chance of laboratory signs a little: about 47 in 100 against 31 in 100.",
+  "new": "A larger US study of residents already suspected of having an infection found that a change in the urine's colour, smell or blood raised the chance of laboratory signs of infection a little: about 47 in 100 against 31 in 100.",
+  "reason": "major: population and setting qualifier missing from a headline number; the 47 v 31 figures come only from episodes in which staff already suspected infection."
  },
  {
-  "tmp_id": "C12-P04",
-  "where": "captions.threads",
-  "old": "Among adults with normal bowels, nearly all go between 3 times a day and 3 times a week.",
-  "new": "In US and Swedish studies of adults up to about 70 with normal bowels, nearly all went between 3 times a day and 3 times a week.",
-  "reason": "major: The range is stated as universal. The qualification says to attribute it to the US and Swedish studies and not to extend it beyond about age 70."
+  "tmp_id": "C12-P03",
+  "where": "captions.x",
+  "old": "In a French survey of 444 urine infections treated in 134 nursing homes, smelly urine was given as a reason in about 3 in 10.",
+  "new": "In a French survey of 444 treated episodes of suspected urine infection in 134 nursing homes, smelly urine was given as a reason in about 3 in 10.",
+  "reason": "minor: the 444 episodes were reported (supposed) diagnoses of treated urine infection, not confirmed infections."
  },
  {
-  "tmp_id": "C12-P04",
-  "where": "visual_brief.slides.0.text.source_line",
-  "old": "Heaton et al., Gut 1992; Mitsuhashi 2017; Walter 2010",
-  "new": "Heaton et al., Gut 1992; Mitsuhashi 2018; Walter 2010",
-  "reason": "minor: Year error: the Mitsuhashi citation is Am J Gastroenterol 2018;113:115-23 (published online in 2017)."
+  "tmp_id": "C12-P03",
+  "where": "captions.linkedin",
+  "old": "In a French survey of 444 urine infections treated in 134 nursing homes, smelly urine was given as a reason in about 3 in 10.",
+  "new": "In a French survey of 444 treated episodes of suspected urine infection in 134 nursing homes, smelly urine was given as a reason in about 3 in 10.",
+  "reason": "minor: the 444 episodes were reported (supposed) diagnoses of treated urine infection, not confirmed infections."
  },
  {
-  "tmp_id": "C12-P04",
-  "where": "visual_text.7",
-  "old": "Heaton et al., Gut 1992; Mitsuhashi 2017; Walter 2010",
-  "new": "Heaton et al., Gut 1992; Mitsuhashi 2018; Walter 2010",
-  "reason": "minor: Year error: the Mitsuhashi citation is Am J Gastroenterol 2018;113:115-23 (published online in 2017)."
- },
- {
-  "tmp_id": "C12-P04",
-  "where": "source_reply",
-  "old": "Mitsuhashi 2017 https://doi.org/10.1038/ajg.2017.213",
-  "new": "Mitsuhashi 2018 https://doi.org/10.1038/ajg.2017.213",
-  "reason": "minor: Same year error."
- },
- {
-  "tmp_id": "C12-P01",
-  "where": "source_reply",
-  "old": "Larsen 2024 https://doi.org/10.1016/j.ijnsa.2023.100131",
-  "new": "Larsen 2023 https://doi.org/10.1016/j.ijnsa.2023.100131",
-  "reason": "minor: Year mismatch: the evidence record cites Int J Nurs Stud Adv 2023;5:100131."
- },
- {
-  "tmp_id": "C12-P09",
-  "where": "captions.bluesky",
-  "old": "Bowel leakage becomes more common with age: about 15 in 100 people aged 70+ in a US survey. Only about 1 in 3 with it had told a doctor.",
-  "new": "Bowel leakage becomes more common with age: about 15 in 100 people aged 70+ living at home had some in the past month, in a US survey. In two other US surveys, only about 1 in 3 people with leakage had told a doctor.",
-  "reason": "major: Population swap. The 1 in 3 figure comes from two different US surveys (clinic attenders in the 1990s; women aged 45 and over), not from the survey of people aged 70 and over. 'With it' attributes it to that group. The post also leaves out 'living at home'."
- },
- {
-  "tmp_id": "C12-P09",
-  "where": "captions.threads",
-  "old": "In two US surveys only about 1 in 3 had ever told a doctor.",
-  "new": "In two other US surveys, only about 1 in 3 people with leakage had ever told a doctor.",
-  "reason": "minor: Placed directly after the 70+ figure, 'had' implies the same people. These are different surveys and populations."
- },
- {
-  "tmp_id": "C12-P09",
-  "where": "visual_brief.slides.0.text.source_line",
-  "old": "Whitehead et al. 2009; Assmann et al., UEG J 2022",
-  "new": "Whitehead et al. 2009; Johanson 1996; Brown et al. 2013; Assmann et al., UEG J 2022",
-  "reason": "minor: The visual states the 1 in 3 figure but does not credit its sources (Johanson 1996; Brown 2013)."
- },
- {
-  "tmp_id": "C12-P09",
-  "where": "visual_text.9",
-  "old": "Whitehead et al. 2009; Assmann et al., UEG J 2022",
-  "new": "Whitehead et al. 2009; Johanson 1996; Brown et al. 2013; Assmann et al., UEG J 2022",
-  "reason": "minor: The visual states the 1 in 3 figure but does not credit its sources (Johanson 1996; Brown 2013)."
- },
- {
-  "tmp_id": "C12-P10",
-  "where": "captions.bluesky",
-  "old": "In a small US trial of 75 men, the sheath was more comfortable, with a composite outcome driven by bacteria in the urine.",
-  "new": "In a small US trial of 75 men, the sheath was more comfortable. A combined measure, mostly bacteria found on urine tests, was lower with the sheath only after adjustment.",
-  "reason": "major: Garbled compression. The sentence gives no direction for the composite and drops the key qualification that it was lower only after adjustment, not clearly without it. Readers may infer fewer infections, which the editor ruling forbids."
- },
- {
-  "tmp_id": "C12-P10",
-  "where": "captions.threads",
-  "old": "In a small US trial of 75 men in hospital, the sheath was more comfortable, with a composite outcome driven by bacteria on urine tests.",
-  "new": "In a small US trial of 75 men in hospital, the sheath was more comfortable. A combined measure, mostly bacteria found on urine tests, was lower with the sheath only after adjustment.",
-  "reason": "major: Same garbled compression with no direction or adjustment qualification."
- },
- {
-  "tmp_id": "C12-P10",
-  "where": "visual_brief.slides.0.text.body",
-  "old": "Small US trial, 75 men: the sheath was more comfortable, with a composite outcome driven by bacteria in the urine.",
-  "new": "Small US trial, 75 men: the sheath was more comfortable. A combined measure, mostly bacteria on urine tests, was lower only after adjustment.",
-  "reason": "major: Same problem on the headline visual."
- },
- {
-  "tmp_id": "C12-P10",
-  "where": "visual_text.2",
-  "old": "Small US trial, 75 men: the sheath was more comfortable, with a composite outcome driven by bacteria in the urine.",
-  "new": "Small US trial, 75 men: the sheath was more comfortable. A combined measure, mostly bacteria on urine tests, was lower only after adjustment.",
-  "reason": "major: Same problem on the headline visual."
- },
- {
-  "tmp_id": "C12-P10",
-  "where": "alt_text.0",
-  "old": "the sheath was more comfortable, with a composite outcome driven by bacteria in the urine.",
-  "new": "the sheath was more comfortable; a combined measure, mostly bacteria on urine tests, was lower only after adjustment.",
-  "reason": "major: Same problem."
+  "tmp_id": "C12-P03",
+  "where": "captions.linkedin",
+  "old": "and caused more side effects, such as diarrhoea, rash and thrush.",
+  "new": "and caused more side effects (a very imprecise estimate; one trial reported diarrhoea, rash and thrush).",
+  "reason": "minor: the side-effect estimate is very imprecise and the named side effects come from one trial only."
  },
  {
   "tmp_id": "C12-P03",
   "where": "source_reply",
-  "old": "Sources: Midthun 2004 https://doi.org/10.3928/0098-9134-20040601-04 ; Juthani-Mehta 2009 https://doi.org/10.1111/j.1532-5415.2009.02227.x ; Stone 2012 https://doi.org/10.1086/667743 ; Krzyzaniak 2022 https://doi.org/10.3399/BJGP.2022.0059",
-  "new": "Sources: Lemoine 2018 https://doi.org/10.1016/j.medmal.2018.04.387 ; Midthun 2004 https://doi.org/10.3928/0098-9134-20040601-04 ; Juthani-Mehta 2009 https://doi.org/10.1111/j.1532-5415.2009.02227.x ; Stone 2012 https://doi.org/10.1086/667743 ; Krzyzaniak 2022 https://doi.org/10.3399/BJGP.2022.0059 ; IDSA 2019 https://doi.org/10.1093/cid/ciy1121",
-  "reason": "minor: Lemoine 2018 and IDSA 2019 cited in captions but missing from sources"
+  "old": "https://doi.org/10.1086/667743 (Stone 2012); https://doi.org/10.3399/BJGP.2022.0059 (Krzyzaniak 2022)",
+  "new": "https://doi.org/10.1086/667743 (Stone 2012); https://doi.org/10.1016/j.medmal.2018.04.387 (Lemoine 2018); https://doi.org/10.3399/BJGP.2022.0059 (Krzyzaniak 2022); https://doi.org/10.1093/cid/ciy1121 (Nicolle 2019, IDSA)",
+  "reason": "minor: the French survey figure and the IDSA statement on unnecessary antibiotic use had no citation in the reply."
+ },
+ {
+  "tmp_id": "C12-P03",
+  "where": "captions.bluesky",
+  "old": "In nursing home studies, smell and colour were weak guides alone.",
+  "new": "In nursing home studies, smell and changes in the urine were weak guides alone.",
+  "reason": "minor: colour was never studied on its own; the larger study combined visible blood, colour and odour."
+ },
+ {
+  "tmp_id": "C12-P03",
+  "where": "captions.x",
+  "old": "Ask whether antibiotics are being suggested for smell or colour alone.",
+  "new": "Ask whether antibiotics are being suggested for smell or colour alone. People with a catheter, or who are unable to say how they feel, need a clinician's judgement.",
+  "reason": "minor: the catheter and unable-to-report qualification was missing from X. 'Cannot' in the suggested wording replaced with 'are unable to' (banned word); same wording as the visual."
+ },
+ {
+  "tmp_id": "C12-P03",
+  "where": "captions.threads",
+  "old": "Ask whether antibiotics are being suggested for smell or colour alone.",
+  "new": "Ask whether antibiotics are being suggested for smell or colour alone. People with a catheter, or who are unable to say how they feel, need a clinician's judgement.",
+  "reason": "minor: same qualification added to Threads for consistency (fact-checker noted it was missing from Threads too)."
+ },
+ {
+  "tmp_id": "C12-P04",
+  "where": "captions.bluesky",
+  "old": "Among adults with normal bowels, nearly all go between 3 times a day and 3 times a week. Tell your GP about a lasting change, blood or weight loss.",
+  "new": "Adults who called their bowels normal nearly all went from 3 times a day to 3 times a week. Not studied in people in their 80s. Tell your GP about a lasting change, blood or weight loss.",
+  "reason": "major: compression dropped that the range describes people who called their own bowels normal, and the age limit stated in every other version."
+ },
+ {
+  "tmp_id": "C12-P04",
+  "where": "source_reply",
+  "old": "https://doi.org/10.3109/00365520903551332 (Walter 2010); https://doi.org/10.1136/gutjnl-2022-327985 (FIT guideline 2022)",
+  "new": "https://doi.org/10.3109/00365520903551332 (Walter 2010); https://doi.org/10.1053/j.gastro.2023.03.214 (Chang 2023); https://doi.org/10.1136/gutjnl-2022-327985 (FIT guideline 2022); https://doi.org/10.1002/ueg2.12213 (Assmann 2022)",
+  "reason": "minor: the constipation definition (Chang 2023) and weight-loss red flag (Assmann 2022) cited on the visual were not in the reply."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "captions.x",
+  "old": "In an older US study of about 6,000 people aged 65 and over,",
+  "new": "In a US study from the 1990s of about 6,000 people aged 65 and over,",
+  "reason": "minor: 'older US study' can be read as a study of older people; the cohort is from the 1990s (published 1997)."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "captions.linkedin",
+  "old": "In an older US study of about 6,000 people aged 65 and over, those whose incontinence had been recorded by doctors were about twice (women) and three times (men) as likely to move into a nursing home, after allowing for age and other illnesses. This is a link from the 1990s. It does not show",
+  "new": "In a US study of about 6,000 people aged 65 and over, those whose incontinence had been recorded by doctors were about twice (women) and three times (men) as likely to move into a nursing home, after allowing for age and other illnesses. These are relative figures; the published summary does not say how many in 100 moved. The data are from the 1990s. This shows a link. It does not show",
+  "reason": "minor: 'older US study' ambiguity; relative figures flagged as relative with no absolute numbers given. 'Abstract' rendered as 'published summary' for a public reader."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "captions.bluesky",
+  "old": "(older US study: about twice the likelihood in women, three times in men)",
+  "new": "(US study from the 1990s: about twice the likelihood in women, three times in men)",
+  "reason": "minor: 'older US study' ambiguity."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "captions.threads",
+  "old": "An older US study found a link",
+  "new": "A US study from the 1990s found a link",
+  "reason": "minor: 'older US study' ambiguity."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "visual_text.1",
+  "old": "In an older US study, people with incontinence recorded by doctors",
+  "new": "In a US study from the 1990s, people with incontinence recorded by doctors",
+  "reason": "minor: 'older US study' ambiguity."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "In an older US study, people with incontinence recorded by doctors",
+  "new": "In a US study from the 1990s, people with incontinence recorded by doctors",
+  "reason": "minor: 'older US study' ambiguity (visual brief body kept in step with visual_text)."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "visual_brief.design_notes",
+  "old": "shown as a link from an older US study",
+  "new": "shown as a link from a US study from the 1990s",
+  "reason": "minor: 'older US study' ambiguity (design notes kept in step)."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "alt_text.0",
+  "old": "An older US study linked recorded incontinence with moving into a nursing home.",
+  "new": "A US study from the 1990s linked recorded incontinence with moving into a nursing home.",
+  "reason": "minor: 'older US study' ambiguity."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "captions.linkedin",
+  "old": "and a review in dementia found too little evidence",
+  "new": "and a 2012 review in dementia found too little evidence",
+  "reason": "minor: the dementia review (Drennan 2012) was undated beside the 2024 review."
+ },
+ {
+  "tmp_id": "C12-P05",
+  "where": "source_reply",
+  "old": "https://doi.org/10.1093/ageing/afac199 (Schlogl 2022); https://doi.org/10.1093/ageing/afae126 (Buck 2024)",
+  "new": "https://doi.org/10.1093/ageing/afac199 (Schlogl 2022); https://doi.org/10.1159/000052776 (Charach 2001); https://doi.org/10.1186/1471-2318-12-77 (Drennan 2012); https://doi.org/10.1093/ageing/afae126 (Buck 2024)",
+  "reason": "minor: the 52-person constipation study and the dementia review in the LinkedIn version had no citation in the reply."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.x",
+  "old": "Women who looked after their own pessary reported fewer pessary problems, and fewer had sore or damaged vaginal skin on examination (about 18 in 100 against 27 in 100).",
+  "new": "Women who looked after their own pessary reported slightly fewer pessary problems (on a questionnaire, in a trial where women knew which group they were in), and fewer had ulceration or other concerns about the vaginal tissues on examination (about 18 in 100 against 27 in 100). The trial did not report whether that gap was larger than chance.",
+  "reason": "major (vaginal tissue outcome): 'sore or damaged vaginal skin' is not what was measured and no test was reported. minor (questionnaire): complications were self-reported on an unvalidated questionnaire in an unblinded trial and the difference was small."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.linkedin",
+  "old": "On examination, sore or damaged vaginal skin was found in about 18 in 100 women who self-managed and about 27 in 100 in clinic care.",
+  "new": "On examination, ulceration, granulation or other concerns about the vaginal tissues were found in about 18 in 100 women who self-managed and about 27 in 100 in clinic care (27 of 152 against 43 of 160 examined). The paper does not report a test of this difference.",
+  "reason": "major: 'sore or damaged vaginal skin' is not what was measured; the paper reports no test; denominators are the women examined."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.linkedin",
+  "old": "Women who looked after their own pessary reported fewer pessary problems, such as",
+  "new": "Women who looked after their own pessary reported slightly fewer pessary problems on a questionnaire (women knew which group they were in), such as",
+  "reason": "minor: same questionnaire/unblinded qualification as the X fix, added to LinkedIn for consistency."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.linkedin",
+  "old": "Complications were again lower with self-management, but that difference was no longer statistically clear.",
+  "new": "At 4 years the difference in complications was similar in size but no longer statistically clear, which may reflect the smaller number of women who answered.",
+  "reason": "major: the 4-year complication difference was not statistically clear and must not be stated as lower. Adapted from the suggested replacement to avoid repeating 'only about half the women answered', already stated in the preceding paragraph."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.bluesky",
+  "old": "and fewer pessary problems.",
+  "new": "and slightly fewer self-reported pessary problems.",
+  "reason": "minor: consistency with the X questionnaire qualification."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.threads",
+  "old": "and fewer pessary problems.",
+  "new": "and slightly fewer self-reported pessary problems.",
+  "reason": "minor: consistency with the X questionnaire qualification."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_text.24",
+  "old": "Sore or damaged vaginal skin on examination: about 18 in 100 who self-managed, about 27 in 100 in clinic care",
+  "new": "Vaginal tissue concerns on examination (ulceration, granulation or other): about 18 in 100 who self-managed, about 27 in 100 in clinic care. No test reported.",
+  "reason": "major: 'sore or damaged vaginal skin' is not what was measured."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_brief.slides.2.text.items.0",
+  "old": "Sore or damaged vaginal skin on examination: about 18 in 100 who self-managed, about 27 in 100 in clinic care",
+  "new": "Vaginal tissue concerns on examination (ulceration, granulation or other): about 18 in 100 who self-managed, about 27 in 100 in clinic care. No test reported.",
+  "reason": "major: visual brief item kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_brief.slides.2.data.0.label",
+  "old": "Sore or damaged vaginal skin on examination, ",
+  "new": "Vaginal tissue concerns on examination, ",
+  "reason": "major: chart data labels kept in step with the corrected outcome name."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_brief.slides.2.data.1.label",
+  "old": "Sore or damaged vaginal skin on examination, ",
+  "new": "Vaginal tissue concerns on examination, ",
+  "reason": "major: chart data labels kept in step with the corrected outcome name."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "alt_text.2",
+  "old": "Sore or damaged vaginal skin on examination: 18 in 100 who self-managed, 27 in 100 in clinic care.",
+  "new": "Vaginal tissue concerns on examination: 18 in 100 who self-managed, 27 in 100 in clinic care; no test reported.",
+  "reason": "major: 'sore or damaged vaginal skin' is not what was measured."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_text.21",
+  "old": "No clear difference in quality of life, fewer complications",
+  "new": "No clear difference in quality of life; fewer self-reported complications at 18 months",
+  "reason": "minor: headline stronger than the evidence; complications were self-reported in an unblinded trial and not clear at 4 years."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_brief.slides.2.text.headline",
+  "old": "No clear difference in quality of life, fewer complications",
+  "new": "No clear difference in quality of life; fewer self-reported complications at 18 months",
+  "reason": "minor: visual brief headline kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "visual_brief.design_notes",
+  "old": "(no clear difference in quality of life, fewer complications)",
+  "new": "(no clear difference in quality of life; fewer self-reported complications at 18 months)",
+  "reason": "minor: design notes kept in step with the headline."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "insight",
+  "old": "showed no clear difference in quality of life at 18 months, fewer complications, and lower cost",
+  "new": "showed no clear difference in quality of life at 18 months, fewer self-reported complications, and lower cost",
+  "reason": "minor: insight kept in step with the corrected headline."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "source_reply",
+  "old": "https://doi.org/10.3310/NWTB5403 (Bugge 2024)",
+  "new": "https://doi.org/10.3310/NWTB5403 (Bugge 2024); https://doi.org/10.1016/j.jval.2024.03.004 (Manoukian 2024, costs)",
+  "reason": "minor: the cost figures in the LinkedIn version come from the cost-effectiveness paper, not cited in the reply."
  },
  {
   "tmp_id": "C12-P07",
-  "where": "visual_brief.slides.0.text.label_caption",
-  "old": "",
-  "new": "One common route; catheters are also placed in the community.",
-  "reason": "minor: timeline implied every catheter came from hospital (C12-05-e qualification)"
+  "where": "captions.linkedin",
+  "old": "In hospital studies, reminders and automatic stop orders about halved the rate of catheter infections and shortened catheter use by about 2.6 days per patient.",
+  "new": "In a review of 14 hospital studies, reminders and automatic stop orders together cut the rate of catheter infections by about half and shortened catheter use by about 2.6 days per patient. The shortening was clear for stop orders but not for reminders alone.",
+  "reason": "minor: pooled figures blurred a subgroup difference and omitted the study count."
  },
  {
   "tmp_id": "C12-P07",
-  "where": "visual_text",
-  "old": "",
-  "new": "One common route; catheters are also placed in the community.",
-  "reason": "minor: timeline implied every catheter came from hospital (C12-05-e qualification)"
+  "where": "visual_text.12",
+  "old": "Small detail, real effect",
+  "new": "Teaching round",
+  "reason": "minor: series label implied a demonstrated effect of a written removal plan; the evidence is a prevalence survey and an association."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "series",
+  "old": "Small detail, real effect",
+  "new": "Teaching round",
+  "reason": "minor: series field kept in step with the visual footer."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "captions.x",
+  "old": "Only half of 267 people with a newly placed urinary catheter on UK district nursing caseloads had any plan",
+  "new": "Only half of 267 people whose urinary catheter had been placed in the previous 4 weeks, on UK district nursing caseloads, had any plan",
+  "reason": "minor: 'newly placed' was undefined; the survey defined it as placed within the previous four weeks."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "captions.threads",
+  "old": "Only half of 267 people with a newly placed urinary catheter on UK district nursing caseloads had any plan",
+  "new": "Only half of 267 people whose urinary catheter had been placed in the previous 4 weeks, on UK district nursing caseloads, had any plan",
+  "reason": "minor: same definition of 'newly placed', applied to Threads."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "captions.bluesky",
+  "old": "In a UK survey of 267 people with a newly placed urinary catheter on district nursing caseloads, only half had a plan to remove it.",
+  "new": "In a UK survey of 267 people whose urinary catheter was placed in the previous 4 weeks, only half had a plan to remove it.",
+  "reason": "minor: same definition of 'newly placed', applied to Bluesky (district nursing caseload dropped for length)."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "captions.linkedin",
+  "old": "the people with a newly placed urinary catheter on district nursing caseloads",
+  "new": "the people whose urinary catheter had been placed in the previous 4 weeks, on district nursing caseloads,",
+  "reason": "minor: same definition of 'newly placed', applied to LinkedIn."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "visual_text.1",
+  "old": "half of the people with a newly placed catheter had a plan",
+  "new": "half of the people whose catheter had been placed in the previous 4 weeks had a plan",
+  "reason": "minor: same definition of 'newly placed', applied to the visual."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "half of the people with a newly placed catheter had a plan",
+  "new": "half of the people whose catheter had been placed in the previous 4 weeks had a plan",
+  "reason": "minor: visual brief body kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "visual_brief.slides.0.data.0.label",
+  "old": "Newly catheterised people with a removal plan",
+  "new": "People whose catheter was placed in the previous 4 weeks and who had a removal plan",
+  "reason": "minor: chart data label kept in step."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "alt_text.0",
+  "old": "134 of 267 people with a new catheter had a removal plan",
+  "new": "134 of 267 people whose catheter was placed in the previous 4 weeks had a removal plan",
+  "reason": "minor: alt text kept in step."
+ },
+ {
+  "tmp_id": "C12-P08",
+  "where": "visual_text.14",
+  "old": "Care that works",
+  "new": "Teaching round",
+  "reason": "major: series label contradicted the content; the visual and captions say these are things to check, not treatments shown to work, and no trial of the adaptations was found."
+ },
+ {
+  "tmp_id": "C12-P08",
+  "where": "series",
+  "old": "Care that works",
+  "new": "Teaching round",
+  "reason": "major: series field kept in step with the visual footer."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.x",
+  "old": "In two US surveys, only about 1 in 3 people with leakage had ever talked to a doctor about it.",
+  "new": "In two US surveys, one of clinic patients in the 1990s and one of women aged 45 and over, only about 1 in 3 people with leakage had ever talked to a doctor about it.",
+  "reason": "major: the 1 in 3 figure was stated without the population and era of the two surveys, and sat beside the older at-home figure of 15 in 100."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.threads",
+  "old": "In a US national survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month, and in two US surveys only about 1 in 3 people with it had talked to a doctor.",
+  "new": "In a US national survey, about 15 in 100 adults aged 70 and over living at home reported bowel leakage in the past month. In two other US surveys (clinic patients; women 45+), only about 1 in 3 people with it had talked to a doctor.",
+  "reason": "major: population of the 1 in 3 figure missing."
  },
  {
   "tmp_id": "C12-P09",
   "where": "captions.bluesky",
-  "old": "Common causes, such as loose stools or constipation, can be treated. \"I've had some bowel accidents\" is enough to start.",
-  "new": "Common causes can be treated. \"I've had some bowel accidents\" is enough to start.",
-  "reason": "Bluesky over 300 after factcheck replacement"
+  "old": "In US surveys only about 1 in 3 people with it had told a doctor.",
+  "new": "In two US surveys (clinic patients; women 45+) only about 1 in 3 people with it had told a doctor.",
+  "reason": "major: population of the 1 in 3 figure missing."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "visual_text.2",
+  "old": "In US surveys, about 15 in 100 adults aged 70 and over living at home reported leakage in the past month, and only about 1 in 3 people with leakage had ever talked to a doctor.",
+  "new": "In a US national survey, about 15 in 100 adults aged 70 and over living at home reported leakage in the past month. In two other US surveys (clinic patients in the 1990s; women aged 45 and over), only about 1 in 3 people with leakage had ever talked to a doctor.",
+  "reason": "major: population and era of the 1 in 3 figure missing."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "visual_brief.slides.0.text.body",
+  "old": "In US surveys, about 15 in 100 adults aged 70 and over living at home reported leakage in the past month, and only about 1 in 3 people with leakage had ever talked to a doctor.",
+  "new": "In a US national survey, about 15 in 100 adults aged 70 and over living at home reported leakage in the past month. In two other US surveys (clinic patients in the 1990s; women aged 45 and over), only about 1 in 3 people with leakage had ever talked to a doctor.",
+  "reason": "major: visual brief body kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "alt_text.0",
+  "old": "Three-panel illustrated strip, labelled not a real conversation. An older woman tells a practice nurse she has had some accidents with her bowels. He asks about her usual bowel pattern. He offers simple first steps and she asks if a continence service could help. Banner: about 15 in 100 US adults aged 70 and over at home reported leakage in a month; about 1 in 3 had talked to a doctor.",
+  "new": "Three-panel illustrated strip, not a real conversation. An older woman tells a practice nurse she has had some accidents with her bowels. He asks about her usual bowel pattern and offers simple first steps; she asks if a continence service could help. Banner: about 15 in 100 US adults aged 70 and over at home reported leakage in a month; in two other US surveys about 1 in 3 had talked to a doctor.",
+  "reason": "major: population of the 1 in 3 figure missing from the banner described in the alt text."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.x",
+  "old": "and to use words like \"accidents\".",
+  "new": "and to take account of the words a person prefers, such as \"accidents\".",
+  "reason": "minor: overstated the guideline, which gives 'accidents' as one example of preferred wording."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.linkedin",
+  "old": "and to use words like \"accidents\".",
+  "new": "and to take account of the words a person prefers, such as \"accidents\".",
+  "reason": "minor: overstated the guideline."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "visual_text.7",
+  "old": "Clinicians are advised to ask directly and to use words like 'accidents'.",
+  "new": "Clinicians are advised to ask directly and to take account of the words a person prefers, such as 'accidents'.",
+  "reason": "minor: overstated the guideline."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "visual_brief.slides.0.text.items.4",
+  "old": "Clinicians are advised to ask directly and to use words like 'accidents'.",
+  "new": "Clinicians are advised to ask directly and to take account of the words a person prefers, such as 'accidents'.",
+  "reason": "minor: visual brief kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.x",
+  "old": "Leakage becomes more common with age. In a US national survey of adults living at home, about 3 in 100 people in their 20s reported any bowel leakage in the past month, rising to about 15 in 100 (roughly 1 in 7) of those aged 70 and over.",
+  "new": "Leakage is more common in older age groups. In a US national survey of adults living at home, about 3 in 100 people in their 20s reported any bowel leakage in the past month (including small amounts of liquid or mucus), against about 15 in 100 (roughly 1 in 7) of those aged 70 and over.",
+  "reason": "minor: 'becomes more common with age' reads as change within people; the source is a one-time cross-sectional survey. X also omitted that any leakage includes small amounts of liquid or mucus."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.linkedin",
+  "old": "Leakage becomes more common with age.",
+  "new": "Leakage is more common in older age groups.",
+  "reason": "minor: cross-sectional survey, not change within people."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.bluesky",
+  "old": "Bowel leakage is more common with age:",
+  "new": "Bowel leakage is more common in older age groups:",
+  "reason": "minor: same cross-sectional wording applied to Bluesky."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "insight",
+  "old": "Accidental bowel leakage becomes more common with age",
+  "new": "Accidental bowel leakage is more common in older age groups",
+  "reason": "minor: insight kept in step."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.x",
+  "old": "Many people improve, and there are further tests and treatments if not.",
+  "new": "These steps help some people, though the evidence for each is modest, and there are further tests and treatments if not.",
+  "reason": "minor: 'many people improve' is not quantified and the evidence for each first step is modest."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.linkedin",
+  "old": "Many people improve with these simple steps.",
+  "new": "These simple steps help some people, though the evidence for each is modest.",
+  "reason": "minor: 'many people improve' is not quantified and the evidence for each first step is modest."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.threads",
+  "old": "simple first steps help many people",
+  "new": "simple first steps help some people",
+  "reason": "minor: 'help many people' not quantified."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "visual_text.9",
+  "old": "First steps help many people",
+  "new": "First steps help some people",
+  "reason": "minor: 'help many people' not quantified."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "visual_brief.slides.0.text.items.6",
+  "old": "First steps help many people",
+  "new": "First steps help some people",
+  "reason": "minor: visual brief kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "source_reply",
+  "old": "https://doi.org/10.1097/SPV.0b013e31828016d3 (Brown 2013)",
+  "new": "https://doi.org/10.1097/SPV.0b013e31828016d3 (Brown 2013); https://doi.org/10.1111/ijcp.12018 (Brown 2012)",
+  "reason": "minor: the 7 in 10 preference figure in the LinkedIn version comes from Brown 2012, not cited in the reply."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "visual_text.8",
+  "old": "Care that works",
+  "new": "Weighing it up",
+  "reason": "minor: series label overstated the evidence (75-man trial, composite driven by bacteriuria, weaker category II recommendation); this is an option to weigh."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "visual_text.20",
+  "old": "Care that works",
+  "new": "Weighing it up",
+  "reason": "minor: series label overstated the evidence (75-man trial, composite driven by bacteriuria, weaker category II recommendation); this is an option to weigh."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "series",
+  "old": "Care that works",
+  "new": "Weighing it up",
+  "reason": "minor: series field kept in step with the visual footers."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "captions.x",
+  "old": "In a trial of 75 men in hospital, aged about 73 on average,",
+  "new": "In a US trial of 75 men in a veterans' hospital, aged about 73 on average,",
+  "reason": "minor: setting omitted; one US veterans' hospital, 1997 to 2001."
  },
  {
   "tmp_id": "C12-P10",
   "where": "captions.bluesky",
-  "old": "For men who leak but can empty their bladder, a sheath collects urine with no tube into the bladder.",
-  "new": "For men who leak but can empty their bladder, a sheath avoids a tube into the bladder.",
-  "reason": "Bluesky over 300 after factcheck replacement"
+  "old": "In a 75-man trial it was more comfortable;",
+  "new": "In a 75-man trial, more men said it was comfortable;",
+  "reason": "minor: comfort was self-reported on a questionnaire, not measured."
  },
  {
   "tmp_id": "C12-P10",
-  "where": "alt_text[0]",
-  "old": "Two line diagrams of the male lower urinary tract. Left: indwelling catheter, a tube into the bladder held by a balloon. Right: sheath outside the body, draining to a leg bag.",
-  "new": "Two line diagrams of the male urinary tract. Left: catheter, a tube into the bladder. Right: sheath outside the body, draining to a leg bag.",
-  "reason": "Alt text over 400 after factcheck replacement"
+  "where": "captions.threads",
+  "old": "In a trial of 75 hospital men it was more comfortable.",
+  "new": "In a trial of 75 hospital men, more of them said it was comfortable.",
+  "reason": "minor: self-reported comfort stated as fact."
  },
  {
   "tmp_id": "C12-P10",
+  "where": "captions.x",
+  "old": "Similar shares of men had an event (about 44 against 49 in 100).",
+  "new": "Similar shares of men had an event (about 44 against 49 in 100). In men with dementia the trial did not show a clear difference.",
+  "reason": "minor: the dementia subgroup result was in LinkedIn but missing from X."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "captions.threads",
+  "old": "driven mostly by bacteria in the urine on daily testing.",
+  "new": "driven mostly by bacteria in the urine on daily testing. In men with dementia the trial did not show a clear difference.",
+  "reason": "minor: dementia subgroup result added to Threads for consistency."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "visual_text.11",
+  "old": "was lower with the sheath only after adjustment.",
+  "new": "was lower with the sheath only after adjustment. In men with dementia the trial did not show a clear difference.",
+  "reason": "minor: dementia subgroup result missing from the visual."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "visual_brief.slides.1.text.body",
+  "old": "was lower with the sheath only after adjustment.",
+  "new": "was lower with the sheath only after adjustment. In men with dementia the trial did not show a clear difference.",
+  "reason": "minor: visual brief kept in step with visual_text."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "alt_text.1",
+  "old": "lower with the sheath only after adjustment. Checklist:",
+  "new": "lower with the sheath only after adjustment; no clear difference in men with dementia. Checklist:",
+  "reason": "minor: dementia subgroup result added to the alt text."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "visual_text.9",
+  "old": "More comfortable. Combined measure mostly bacteria in urine tests.",
+  "new": "More men said it was comfortable. Combined measure mostly bacteria in urine tests.",
+  "reason": "minor: comfort was self-reported; headline kept in step with the Bluesky and Threads fixes."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "visual_brief.slides.1.text.headline",
+  "old": "More comfortable. Combined measure mostly bacteria in urine tests.",
+  "new": "More men said it was comfortable. Combined measure mostly bacteria in urine tests.",
+  "reason": "minor: visual brief headline kept in step."
+ },
+ {
+  "tmp_id": "C12-P10",
+  "where": "insight",
+  "old": "was more comfortable in a small randomised trial",
+  "new": "was more often reported as comfortable in a small randomised trial",
+  "reason": "minor: self-reported comfort; insight kept in step."
+ },
+ {
+  "tmp_id": "C12-P02",
   "where": "captions.bluesky",
-  "old": "Consider it before a catheter, and size it well.",
-  "new": "Consider it before a catheter.",
-  "reason": "Bluesky over 300 after factcheck replacement"
+  "old": "A result applies to the people studied.",
+  "new": "Results apply to those studied.",
+  "reason": "length fix after applying the fact-check replacements: Bluesky back within 300 characters."
+ },
+ {
+  "tmp_id": "C12-P03",
+  "where": "captions.threads",
+  "old": "Many people, including care staff, take smelly urine or a change in colour as a sign of infection. ... Ask whether antibiotics are being suggested for smell or colour alone.",
+  "new": "Smelly urine or a change in colour is often taken as a sign of infection. ... Ask if antibiotics are for smell or colour alone.",
+  "reason": "length fix after applying the fact-check replacements: Threads back within 500 characters; claims unchanged."
+ },
+ {
+  "tmp_id": "C12-P04",
+  "where": "captions.bluesky",
+  "old": "but in a Bristol study only 40 in 100 men and 33 in 100 women kept to a daily cycle. ... went from 3 times a day to 3 times a week.",
+  "new": "but only 40 in 100 men and 33 in 100 women in a Bristol study had a daily cycle. ... went from 3 a day to 3 a week.",
+  "reason": "length fix after applying the fact-check replacements: Bluesky back within 300 characters; claims unchanged."
+ },
+ {
+  "tmp_id": "C12-P06",
+  "where": "captions.bluesky",
+  "old": "slightly fewer self-reported pessary problems",
+  "new": "slightly fewer self-reported problems",
+  "reason": "length fix after applying the fact-check replacements: Bluesky back within 300 characters."
+ },
+ {
+  "tmp_id": "C12-P07",
+  "where": "captions.threads",
+  "old": "had any plan for taking it out, in a 2017 to 2018 survey ... in the previous 4 weeks",
+  "new": "had a plan to remove it, in a 2017 to 2018 survey ... in the last 4 weeks",
+  "reason": "length fix after applying the fact-check replacements: Threads back within 500 characters."
+ },
+ {
+  "tmp_id": "C12-P09",
+  "where": "captions.bluesky",
+  "old": "US adults aged 70+ living at home",
+  "new": "US adults 70+ at home",
+  "reason": "length fix after applying the fact-check replacements: Bluesky back within 300 characters."
  }
 ]

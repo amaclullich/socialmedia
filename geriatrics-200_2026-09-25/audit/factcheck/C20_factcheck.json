@@ -1,0 +1,513 @@
+{
+ "category": "C20",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C20-P01",
+  "C20-P02",
+  "C20-P03",
+  "C20-P04",
+  "C20-P05",
+  "C20-P06",
+  "C20-P07",
+  "C20-P08",
+  "C20-P09"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:12150226",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25365689",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:24643601",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "All numbers match the abstract; 331 is a whole-study (age 50+) denominator and 337 were in the D-dimer band; record's 'about 200 newly excluded' is wrong (157 additional)."
+  },
+  {
+   "key": "PMID:23299842",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:16091574",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25762567",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:22910303",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:9499658",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37481528",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:34274792",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC8411661)",
+   "matches_record": true,
+   "note": "Numbers (52.5 vs 40.9, 18.1 vs 31.6, 3.8%, 100,179) match; depression subgroup claim in record overstates (loses recovery advantage only after propensity matching)."
+  },
+  {
+   "key": "PMID:22288835",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31382999",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC6683336)",
+   "matches_record": true,
+   "note": "Full text confirms 81 trials completed 2015-2018, 15 (18%) allowed inclusion."
+  },
+  {
+   "key": "PMID:38273417",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:22579043",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:20028777",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC2797051)",
+   "matches_record": false,
+   "note": "Medians 5 and 4 and 77.6% (646/832) match, but the disease count is of 18 selected diseases from records plus assessment tests in 729 people, not 'diseases on record'."
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C20-P01",
+   "where": "all",
+   "text": "adjusting for age, sex, income, loneliness and health",
+   "problem": "Covariates paraphrased more loosely than the source: abstract says socioeconomic status and functional health, not income or health generally.",
+   "source_says": "Abstract: 'after age, gender, socioeconomic status, loneliness, and functional health were included as covariates'.",
+   "severity": "minor",
+   "replacement": "adjusting for age, sex, socioeconomic status, loneliness and functional health (X, LinkedIn, visual item 2 and alt text: replace 'income' with 'socioeconomic status' and 'health' with 'functional health')"
+  },
+  {
+   "tmp_id": "C20-P01",
+   "where": "x",
+   "text": "This kind of study does not rule out that people who were already less well viewed ageing more negatively.",
+   "problem": "Ambiguous parse ('less well viewed ageing') and differs from the Threads version; the study did adjust for functional health, so the reverse-causation point should say unmeasured poorer health.",
+   "source_says": "Record qualification: reverse causation (unmeasured illness) and residual confounding possible.",
+   "severity": "minor",
+   "replacement": "This kind of study does not rule out that people who were already in poorer health, in ways it did not measure, went on to view ageing more negatively."
+  },
+  {
+   "tmp_id": "C20-P01",
+   "where": "visual_text",
+   "text": "People with more positive views of ageing lived 7.5 years longer",
+   "problem": "Headline states the 7.5 years as a general result with no study, setting or link-not-cause marker; qualifiers appear only further down the card.",
+   "source_says": "Single US cohort of 660 people aged 50+, observational.",
+   "severity": "minor",
+   "replacement": "In one US study, people with more positive views of ageing lived 7.5 years longer"
+  },
+  {
+   "tmp_id": "C20-P02",
+   "where": "linkedin",
+   "text": "About 200 people in that group were newly ruled out, so the study does not exclude a small risk.",
+   "problem": "Arithmetic error. 200 of 673 were ruled out with the age-adjusted cut-off in total; 43 already were with the fixed cut-off, so the newly ruled-out number is 157. The claim record qualification repeats the same slip.",
+   "source_says": "200 of 673 (29.7%) vs 43 of 673 (6.4%) can be excluded by D-dimer alone.",
+   "severity": "blocker",
+   "replacement": "About 157 more people in that group (200 rather than 43 of 673) were ruled out without a scan, so the study cannot exclude a small risk."
+  },
+  {
+   "tmp_id": "C20-P02",
+   "where": "visual_text",
+   "text": "Between 500 µg/L and the age-based limit, not scanned: 1 of 331 had a clot within 3 months (95% CI 0.1% to 1.7%)",
+   "problem": "Population swap. The 1 of 331 failure rate is for the whole study (age 50 or over, clinical score not high, 2898 eligible), not the 673 people aged 75 or over shown on the card. The abstract gives no failure interval for the 75+ subgroup.",
+   "source_says": "Abstract: 3-month failure rate 1 of 331 (0.3%, 95% CI 0.1%-1.7%) in patients with D-dimer above 500 but below the age-adjusted cutoff (all ages 50+); 75+ subgroup: 'without any additional false-negative findings'.",
+   "severity": "major",
+   "replacement": "Whole study (aged 50 or over, clinical score not high): of 331 people with a D-dimer between 500 µg/L and the age-based limit, not scanned, 1 had a clot within 3 months (0.3%, 95% CI 0.1% to 1.7%)"
+  },
+  {
+   "tmp_id": "C20-P02",
+   "where": "visual_text",
+   "text": "Age-adjusted D-dimer: more people aged 75+ need no scan",
+   "problem": "Headline turns a diagnostic-yield result from a non-randomised management study (failure rate upper limit 1.7%) into a practice instruction ('need no scan') and omits the not-high-score condition.",
+   "source_says": "Abstract: 'larger number of patients in whom PE could be considered ruled out with a low likelihood of subsequent clinical venous thromboembolism'.",
+   "severity": "major",
+   "replacement": "Age-adjusted D-dimer: more people aged 75+ were ruled out without a scan"
+  },
+  {
+   "tmp_id": "C20-P02",
+   "where": "x",
+   "text": "Of 331 such people, 1 had a clot within 3 months (95% CI 0.1% to 1.7%).",
+   "problem": "'Such people' follows the 75+ paragraph; 331 is the whole-study figure (age 50+), and 337 people were in the D-dimer band, 331 being the number in the failure-rate denominator. Same wording in LinkedIn ('Of 331 such people, 1 had a clot').",
+   "source_says": "337 patients (11.6%) in the band; failure rate 1 of 331 (0.3%, 95% CI 0.1%-1.7%).",
+   "severity": "minor",
+   "replacement": "In the whole study (age 50 or over), the 3-month failure rate in that group was 1 of 331 people (0.3%, 95% CI 0.1% to 1.7%)."
+  },
+  {
+   "tmp_id": "C20-P02",
+   "where": "bluesky",
+   "text": "No extra missed clots found. Use only after a clinical probability score.",
+   "problem": "Compression drops 'not a randomised comparison' and that the result is a subgroup, so 'no extra missed clots' reads stronger than the evidence.",
+   "source_says": "Prospective management outcome study, no randomised comparator; 75+ non-high probability subgroup of 673.",
+   "severity": "minor",
+   "replacement": "ADJUST-PE, a non-randomised study: of 673 people aged 75+ with suspected pulmonary embolism and a not-high clinical score, D-dimer alone ruled out a clot in about 6 in 100 with a fixed cut-off and about 30 in 100 with age × 10 µg/L. No extra missed clots found. Use only after a clinical score."
+  },
+  {
+   "tmp_id": "C20-P02",
+   "where": "threads",
+   "text": "No extra missed clots were found in that group.",
+   "problem": "Missing 'non-randomised study' qualifier.",
+   "source_says": "Management study, no randomised comparison.",
+   "severity": "minor",
+   "replacement": "No extra missed clots were found in that group. This was a non-randomised study."
+  },
+  {
+   "tmp_id": "C20-P03",
+   "where": "x",
+   "text": "Age can be a fair reason for different advice when it changes how long a benefit takes.",
+   "problem": "Misattributes the mechanism: age does not change how long a benefit takes; time to benefit is fixed and the issue is whether the person is expected to live long enough. The record says the criterion is life expectancy, not age.",
+   "source_says": "'screening ... is most appropriate for patients with a life expectancy greater than 10 years'.",
+   "severity": "major",
+   "replacement": "Different advice can be fair when a benefit takes years to arrive and the person may not live long enough to receive it."
+  },
+  {
+   "tmp_id": "C20-P03",
+   "where": "linkedin",
+   "text": "Sometimes the advice should differ with age, because age changes how long a benefit takes to arrive.",
+   "problem": "Same error: age does not change time to benefit; it changes remaining life expectancy relative to it. 'Should differ with age' also contradicts the later correct sentence that the criterion is expected survival.",
+   "source_says": "Life expectancy greater than 10 years is the stated criterion.",
+   "severity": "major",
+   "replacement": "Sometimes the advice should differ, because a benefit can take years to arrive and a person's age affects whether they are likely to live long enough to receive it."
+  },
+  {
+   "tmp_id": "C20-P03",
+   "where": "bluesky",
+   "text": "Age can be a fair reason when it changes how long a benefit takes, as in cancer screening.",
+   "problem": "Same error as X; also drops the 'applies to screening only' limit beyond 'as in cancer screening'.",
+   "source_says": "Life expectancy greater than 10 years is the stated criterion for screening.",
+   "severity": "major",
+   "replacement": "Different advice can be fair when a benefit takes years to arrive and the person may not live long enough to receive it, as in cancer screening."
+  },
+  {
+   "tmp_id": "C20-P03",
+   "where": "threads",
+   "text": "Age can be a fair reason when it changes how long a benefit takes. In breast and bowel cancer screening, it took about 10 years before 1 death was prevented per 1000 people screened.",
+   "problem": "Same mechanism error; and '1 death' drops 'cancer', which reads as all-cause death and a different outcome.",
+   "source_says": "'it took 10.7 years (4.4 to 21.6) before one death from breast cancer was prevented for 1000 women screened ... 10.3 years (6.0 to 16.4) ... colorectal cancer'.",
+   "severity": "major",
+   "replacement": "Different advice can be fair when a benefit takes years to arrive and the person may not live long enough to receive it. In breast and bowel cancer screening, it took about 10 years on average before 1 cancer death was prevented per 1000 people screened."
+  },
+  {
+   "tmp_id": "C20-P03",
+   "where": "x",
+   "text": "In trials of breast and bowel cancer screening, it took about 10 years before 1 cancer death was prevented for every 1000 people screened. The researchers suggest screening suits people who are expected to live more than 10 years.",
+   "problem": "Pooled average presented without 'on average' (ranges across trials were wide: 4 to 22 years breast, 6 to 16 bowel); 'suits' is stronger than the authors' 'most appropriate for'. Same in LinkedIn.",
+   "source_says": "'On average across included studies ... 10.7 years (4.4 to 21.6) ... 10.3 years (6.0 to 16.4)'; 'most appropriate for patients with a life expectancy greater than 10 years'.",
+   "severity": "minor",
+   "replacement": "In pooled trials of breast and bowel cancer screening, it took about 10 years on average before 1 cancer death was prevented for every 1000 people screened. The researchers suggest screening is most appropriate for people expected to live more than 10 years."
+  },
+  {
+   "tmp_id": "C20-P03",
+   "where": "linkedin",
+   "text": "The question brings the reasoning into the open without accusing anyone. ... you are entitled to hear them.",
+   "problem": "Presents an untested effect of the question as fact and asserts an entitlement not sourced in the evidence library.",
+   "source_says": "No source on the effect of the question or on entitlement.",
+   "severity": "minor",
+   "replacement": "The question can bring the reasoning into the open without accusing anyone. ... you can ask to hear them."
+  },
+  {
+   "tmp_id": "C20-P04",
+   "where": "all",
+   "text": "US guidelines",
+   "problem": "Boyd 2005 aggregated guidelines promulgated by national and international medical organisations (from the US National Guideline Clearinghouse), not strictly US guidelines. LinkedIn already says 'US and international'; X, Bluesky, Threads, visual and alt text say 'US guidelines'.",
+   "source_says": "'choosing CPGs promulgated by national and international medical organizations'.",
+   "severity": "minor",
+   "replacement": "published guidelines (X: 'Add up the published guidelines for five common conditions'; Bluesky: 'published guidelines for five conditions'; visual and alt text: 'Imagined patient, published guidelines, 2005')"
+  },
+  {
+   "tmp_id": "C20-P04",
+   "where": "x",
+   "text": "one imagined 79-year-old woman is prescribed 12 medicines plus a complicated non-drug regimen",
+   "problem": "Drops the condition 'if the guidelines were followed'; present-tense 'is prescribed' (and Bluesky 'gave 12 medicines', Threads 'gave 12 medicines') reads as an observed outcome.",
+   "source_says": "'If the relevant CPGs were followed, the hypothetical patient would be prescribed 12 medications ... and a complicated nonpharmacological regimen.'",
+   "severity": "minor",
+   "replacement": "one imagined 79-year-old woman would be prescribed 12 medicines plus a complicated non-drug regimen if every guideline were followed (Bluesky and Threads: 'would be prescribed 12 medicines if every guideline were followed')"
+  },
+  {
+   "tmp_id": "C20-P04",
+   "where": "x",
+   "text": "Single-condition guidelines are not built to weigh their combined effect.",
+   "problem": "This is the Hughes paper's background sentence, not one of its findings; stated flatly it reads as established by the studies just cited. The finding is that five NICE guidelines cumulate to a heavy burden without prioritisation guidance.",
+   "source_says": "Background: 'Current guidelines are not designed to consider the cumulative impact of treatment recommendations'. Conclusion: recommendations 'rapidly cumulate to drive polypharmacy, without providing guidance on how best to prioritise'.",
+   "severity": "minor",
+   "replacement": "In a review of five NICE guidelines, the authors found the advice adds up to a heavy treatment burden with no guidance on which to put first."
+  },
+  {
+   "tmp_id": "C20-P04",
+   "where": "bluesky",
+   "text": "A UK review found 133 potentially serious interactions between NICE diabetes drugs and drugs for 11 other conditions.",
+   "problem": "'NICE diabetes drugs' is loose (type 2 diabetes guideline) and omits that these are potential interactions between recommendations and that few were flagged.",
+   "source_says": "133 drug-drug interactions for drugs recommended in the type 2 diabetes guideline; few highlighted.",
+   "severity": "minor",
+   "replacement": "A UK review found 133 potentially serious drug interactions between drugs in the NICE type 2 diabetes guideline and drugs for 11 other conditions. These are potential interactions, not harm seen in patients."
+  },
+  {
+   "tmp_id": "C20-P05",
+   "where": "linkedin",
+   "text": "Using data from the MacArthur Studies of Successful Aging in the US, it described \"a consistent pattern of discordance\"",
+   "problem": "Glass 1998 is a conceptual paper; the MacArthur data were presented to illustrate the point, not as a full study of the size of the gap.",
+   "source_says": "'To illustrate this point, data from the MacArthur Studies of Successful Aging ... are presented.'",
+   "severity": "minor",
+   "replacement": "To illustrate the point, it presented data from the MacArthur Studies of Successful Aging in the US, which showed \"a consistent pattern of discordance\""
+  },
+  {
+   "tmp_id": "C20-P05",
+   "where": "linkedin",
+   "text": "The authors say self-reported items should not be assumed to stand in for performance tests.",
+   "problem": "The authors' statement is specific to the Physical Frailty Phenotype's walking and grip criteria.",
+   "source_says": "'cannot be assumed to stand in for performance-based criteria in the PFP'.",
+   "severity": "minor",
+   "replacement": "The authors say commonly used self-reported disability items should not be assumed to stand in for the walking and grip tests used to define frailty."
+  },
+  {
+   "tmp_id": "C20-P05",
+   "where": "linkedin",
+   "text": "Questions about an ordinary morning at home ask about the third.",
+   "problem": "Unsourced. Asking about an ordinary morning is still self-report; it does not measure what the person actually does.",
+   "source_says": "No source.",
+   "severity": "minor",
+   "replacement": "Asking about an ordinary morning at home is still asking what the person says. Watching what they do at home is a different measurement."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "x",
+   "text": "For depression alone, the recovery gap was not clear; it came mainly from anxiety.",
+   "problem": "Overstated. In the depression subgroup the adjusted models still showed older adults more likely to recover; only after propensity-score matching was the recovery advantage no longer clear (and reliable improvement still favoured older adults). Authors say effects were 'more pronounced' in anxiety, not that the gap came from anxiety.",
+   "source_says": "Full text 3.4: 'after propensity score matching, older adults with depression were no longer more likely to report reliable recovery ... although they were more likely to experience reliable improvement'; abstract: 'Effects were more pronounced in patients with anxiety disorders'.",
+   "severity": "major",
+   "replacement": "The gap was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for how unwell people were at the start, but the recovery gap was no longer clear once each older person was matched with similar working-age adults."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "linkedin",
+   "text": "When depression was looked at on its own, the recovery advantage was not clear. It came mainly from anxiety.",
+   "problem": "Same overstatement as X.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "The advantage was larger for anxiety. For depression alone, older adults were still more likely to recover after allowing for baseline severity, but the recovery gap was no longer clear once each older person was matched with similar working-age adults."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "x",
+   "text": "The difference held after allowing for how unwell people were at the start.",
+   "problem": "The 53 vs 41 in 100 figures are crude; older people started with less severe symptoms, and the adjusted effect was smaller. Saying 'the difference held' directly after the raw figures implies the 12 percentage point gap survived adjustment.",
+   "source_says": "Older adults 'had less severe clinical presentations pre-treatment'; 52.5% vs 40.9% crude; adjusted OR 1.33 (1.24-1.43); 'albeit with reduced effect estimates'.",
+   "severity": "major",
+   "replacement": "These two figures are raw. Older people started with milder symptoms. After allowing for that, older adults were still more likely to recover, but by a smaller margin."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "linkedin",
+   "text": "The recovery difference held after allowing for how unwell people were at the start.",
+   "problem": "Same crude-versus-adjusted problem; the 53 and 41 in 100 are unadjusted.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "The 53 and 41 in 100 are raw figures, and older people started with milder symptoms. After allowing for that, older adults were still more likely to recover, but by a smaller margin."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "visual_text",
+   "text": "Observational study. Older people reaching these services may be a selected group.",
+   "problem": "Icon-array figures are unadjusted but the card does not say so.",
+   "source_says": "Crude 52.5% vs 40.9% recovery; older adults less severe at baseline.",
+   "severity": "major",
+   "replacement": "Observational study. Raw figures: older people started with milder symptoms. Older people reaching these services may be a selected group."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "visual_text",
+   "text": "Out of every 100 people treated for depression or anxiety in eight London services, 2008 to 2019",
+   "problem": "Denominator mismatch. The sample is people who attended at least two sessions with outcome data; dropout was clinician-recorded and counted only among people with three or more sessions who were not referred on, so '18 in 100 dropped out' does not share the 100-person denominator of the recovery icons.",
+   "source_says": "Full text 2.2 and 2.4.2: >=2 sessions, post-baseline outcomes; attrition 'after receiving three or more treatment sessions'.",
+   "severity": "major",
+   "replacement": "Out of every 100 people who attended at least two sessions for depression or anxiety in eight London services, 2008 to 2019 (dropout line: recorded by the service after 3 or more sessions)"
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "x",
+   "text": "Fewer than 4 in 100 of the people treated were 65 or over, though about 18 in 100 of the population are that age.",
+   "problem": "The 18% is a background figure from the paper's discussion, not a finding, and is a general population figure, not one for the London services; X lacks the 'crude comparison' qualifier that LinkedIn carries.",
+   "source_says": "'older people accounted for just 3.8% of patients treated ... over 65 year olds account for approximately 18% of the population'.",
+   "severity": "major",
+   "replacement": "Fewer than 4 in 100 of the people in this study were 65 or over. The authors set this against a general population figure of about 18 in 100, which is only a rough guide."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "x",
+   "text": "The study followed 100,179 people treated for depression or anxiety.",
+   "problem": "'Followed' implies prospective follow-up; the study is a retrospective analysis of routine service records.",
+   "source_says": "'A retrospective dataset was formed ...'",
+   "severity": "minor",
+   "replacement": "The study analysed service records for 100,179 people treated for depression or anxiety."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "linkedin",
+   "text": "Talking therapy means a course of sessions with a trained therapist.",
+   "problem": "These services also deliver low-intensity treatment such as guided self-help.",
+   "source_says": "'low-intensity (LI) treatments such as guided self-help, and formal high intensity (HI) psychological interventions'.",
+   "severity": "minor",
+   "replacement": "Talking therapy means a course of sessions with a trained worker, which can include guided self-help."
+  },
+  {
+   "tmp_id": "C20-P06",
+   "where": "visual_text",
+   "text": "Older adults recovered more often after NHS talking therapy",
+   "problem": "Headline omits London and observational design.",
+   "source_says": "Eight London services, retrospective cohort.",
+   "severity": "minor",
+   "replacement": "Older adults recovered more often after NHS talking therapy in London"
+  },
+  {
+   "tmp_id": "C20-P07",
+   "where": "linkedin",
+   "text": "Many studies of conditions common in later life leave out adults who lack capacity to consent for themselves. The data show how often, and how seldom a reason is given.",
+   "problem": "Overgeneralised and population-swapped. The 127 of 434 figure is about cognitive impairment in one US journal in 2008-09, not lack of capacity; the 15 of 81 figure is about UK registry trials in selected conditions. Neither measures 'studies of conditions common in later life' in general; only Taylor addresses justification.",
+   "source_says": "Taylor: 'explicit exclusion criteria' for cognitive impairment; 6% provided justification. Shepherd: 15 of 81 trials allowed inclusion of adults who lacked capacity.",
+   "severity": "major",
+   "replacement": "Many studies leave out people with cognitive impairment or adults who lack capacity to consent for themselves. Two sets of figures, from different settings, show how often."
+  },
+  {
+   "tmp_id": "C20-P07",
+   "where": "x",
+   "text": "In two years of one leading geriatrics journal, at least 127 of 434 studies (29%) explicitly excluded people with cognitive impairment, and very few gave any justification.",
+   "problem": "Omits the years and that this is a single US journal's 2008 and 2009 output; X and Threads present it alongside 2015-2018 UK data with no sign of the age gap.",
+   "source_says": "J Am Geriatr Soc 2008-2009, 434 articles; 6% gave any justification (denominator not stated in abstract).",
+   "severity": "minor",
+   "replacement": "In the Journal of the American Geriatrics Society in 2008 and 2009, at least 127 of 434 studies (29%) explicitly excluded people with cognitive impairment, and very few gave any justification."
+  },
+  {
+   "tmp_id": "C20-P07",
+   "where": "visual_text",
+   "text": "Exclusion without a reason is common",
+   "problem": "Slide headline generalises from one journal's two years (and a justification percentage whose denominator is unclear) to exclusion in general.",
+   "source_says": "Taylor: at least 29% had explicit exclusion criteria; 6% gave any justification.",
+   "severity": "minor",
+   "replacement": "In one journal, exclusion was common and rarely explained"
+  },
+  {
+   "tmp_id": "C20-P07",
+   "where": "x",
+   "text": "Exclusion by habit is unfair to them.",
+   "problem": "'By habit' is an unsourced claim about why researchers exclude; the sources say unfamiliarity with the legal and ethical frameworks. It sits inside a labelled judgement but still asserts a cause. Visual slide 2 uses 'Habit:'; LinkedIn repeats it.",
+   "source_says": "Shepherd 2024: excluded 'partly because researchers are unfamiliar with the legal and ethical frameworks'.",
+   "severity": "minor",
+   "replacement": "Exclusion without a stated reason is unfair to them. (Visual: change 'Habit: exclude anyone who lacks capacity to consent' to 'Default: exclude anyone who lacks capacity to consent'.)"
+  },
+  {
+   "tmp_id": "C20-P07",
+   "where": "all",
+   "text": "Scotland has its own legislation.",
+   "problem": "True but not in any source opened in this project (the record allows it only as a bare statement).",
+   "source_says": "Shepherd 2019 and 2024 cover England and Wales only.",
+   "severity": "minor",
+   "replacement": "Remove the sentence (X, Threads, LinkedIn, slide 3 and alt text), or keep 'The law in England and Wales' and leave the other UK nations unmentioned."
+  },
+  {
+   "tmp_id": "C20-P08",
+   "where": "visual_text",
+   "text": "Several long-term conditions become common 10 to 15 years earlier",
+   "problem": "'Several' is not the study's definition; multimorbidity was two or more conditions.",
+   "source_says": "'We defined multimorbidity as the presence of two or more disorders.'",
+   "severity": "minor",
+   "replacement": "Two or more long-term conditions become common 10 to 15 years earlier"
+  },
+  {
+   "tmp_id": "C20-P08",
+   "where": "x",
+   "text": "That comes from a study of 1.75 million people registered with 314 Scottish general practices, using data from 2007.",
+   "problem": "Missing cross-sectional caveat in X: 'onset' is read from different age groups at one time, not from following people. LinkedIn carries it.",
+   "source_says": "'In a cross-sectional study we extracted data ... as of March, 2007.'",
+   "severity": "minor",
+   "replacement": "That comes from a cross-sectional study of 1.75 million people registered with 314 Scottish general practices in March 2007. It compares age groups at one point in time rather than following people."
+  },
+  {
+   "tmp_id": "C20-P08",
+   "where": "alt_text",
+   "text": "A service or study opening at a fixed age therefore reaches people in deprived areas later in the course of their conditions.",
+   "problem": "'Therefore' presents the interpretation as a result; captions label it an implication. Same for visual line 'people in deprived areas have lived with their conditions for longer by then', which is an individual-level reading of population data.",
+   "source_says": "Population-level cross-sectional difference only.",
+   "severity": "minor",
+   "replacement": "As an implication, a service or study opening at a fixed age may reach people in deprived areas later in the course of their conditions. (Visual: 'Implication: by that age, two or more conditions have been common for longer in deprived areas')"
+  },
+  {
+   "tmp_id": "C20-P09",
+   "where": "x",
+   "text": "The typical 85-year-old woman in a Newcastle study had 5 diseases on record, and the typical man had 4.",
+   "problem": "Mislabelled measure. The medians are a count of 18 selected chronic diseases, drawn from GP records plus health-assessment tests (ECG, eGFR, haemoglobin; IHD, diabetes and thyroid from either source), in the 729 people with complete data, not 'diseases on record'.",
+   "source_says": "Full text: 'simple disease count (maximum score 18) ... Only participants in whom all variables were scored ... The disease count is reported on the 729 participants'; medians women 5, men 4.",
+   "severity": "major",
+   "replacement": "The typical 85-year-old woman in a Newcastle study had 5 chronic diseases from a list of 18 that the researchers counted, and the typical man had 4. The counts drew on GP records and some health-assessment tests, for the 729 people with complete data."
+  },
+  {
+   "tmp_id": "C20-P09",
+   "where": "linkedin",
+   "text": "The typical 85-year-old woman in a Newcastle study had 5 diseases on record, and the typical man had 4. ... A list of diagnoses counts what has been recorded.",
+   "problem": "Same mislabel ('on record'); also the paragraph contrasts 'what has been recorded' with self-rating.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "The typical 85-year-old woman in a Newcastle study had 5 chronic diseases from a list of 18 that the researchers counted, and the typical man had 4. ... A disease count reflects what was recorded and tested."
+  },
+  {
+   "tmp_id": "C20-P09",
+   "where": "bluesky",
+   "text": "the typical woman had 5 diseases on record and the typical man 4",
+   "problem": "Same mislabel in Bluesky and Threads ('5 diseases on record' / 'the typical man 4').",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "the typical woman had 5 chronic diseases from a list of 18 and the typical man 4"
+  },
+  {
+   "tmp_id": "C20-P09",
+   "where": "visual_text",
+   "text": "Several diseases on record. Health still rated good. / What the record lists / Typical number of diseases on record",
+   "problem": "Same mislabel on the visual, and 'Most common' groups hearing impairment (59.6%, assessment-based) with recorded diseases although it is more common than either.",
+   "source_says": "Disease count of 18 chronic diseases from records and tests; hypertension 57.5% and osteoarthritis 51.8% of 1030 (record review); hearing impairment 59.6% of 848 (assessment).",
+   "severity": "major",
+   "replacement": "Several chronic diseases counted. Health still rated good. / What was counted / Typical number of chronic diseases counted (list of 18; GP records and tests) / Recorded diseases, most common: high blood pressure (over half), osteoarthritis (about half). Hearing impairment, found on assessment: about 6 in 10."
+  },
+  {
+   "tmp_id": "C20-P09",
+   "where": "alt_text",
+   "text": "Left: the typical woman had 5 diseases on record and the typical man 4; high blood pressure, osteoarthritis and hearing loss were common.",
+   "problem": "Same mislabel in the alt text.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Left: the typical woman had 5 chronic diseases from a list of 18 and the typical man 4; high blood pressure, osteoarthritis and hearing impairment were common."
+  },
+  {
+   "tmp_id": "C20-P09",
+   "where": "x",
+   "text": "People who compare themselves with others their age may rate their health on the optimistic side.",
+   "problem": "Hedged but unsourced in the claim record; the paper's discussion does cite a meta-analysis, which should be what the post leans on.",
+   "source_says": "'A meta-analysis found higher levels of optimism for self rated health in people aged 75 or more ... when comparative measures (compared with people of the same age) ... were used.'",
+   "severity": "minor",
+   "replacement": "The authors point to a meta-analysis finding that, in people aged 75 or more, comparing yourself with others your age gives more optimistic ratings."
+  }
+ ],
+ "posts_to_drop": []
+}
