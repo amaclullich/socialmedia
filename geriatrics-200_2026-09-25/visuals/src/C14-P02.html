@@ -31,19 +31,19 @@
 </div>
 <script>window.__ready=false;
 
-const W=800,H=430,g=520,S=1.0;
+const W=800,H=430,g=455,S=1.0;
 const f={age:'older',sex:'f',skin:'brown',hair:'grey',hairStyle:'cropped',top:'plum',bottom:'slate'};
 const bd=Kit.anchor('bed',{x:360,y:g,scale:S,type:'domestic'});
 Kit.draw('#a1',W,H,[Kit.room('home_bedroom',{w:W,h:H,ground:g,scale:S}),Kit.bed({x:360,y:g,type:'domestic',colour:'pale'}),
- Kit.person(Object.assign({pose:'seated_side',seat:'none',seatHeight:Kit.dims.bedTop||95,x:330,y:g,scale:S,facing:'right',tilt:8},f,{hands:{near:Kit.joint(Object.assign({pose:'seated_side',x:330,y:g,scale:S},f),'head'),far:{x:300,y:g-110}}}))]);
+ Kit.person(Object.assign({pose:'seated_side',seat:'none',seatHeight:Kit.dims.bedTop||95,x:330,y:g,scale:S,facing:'right',tilt:8},f,{hands:{near:Kit.joint(Object.assign({pose:'seated_side',x:330,y:g,scale:S},f),'head'),far:{x:300,y:g-110}}}))],{cls:'art'});
 const tb=Kit.anchor('table',{x:560,y:g,scale:S});
 Kit.draw('#a2',W,H,[Kit.room('kitchen',{w:W,h:H,ground:g,scale:S}),Kit.table({x:560,y:g,scale:S}),Kit.cup({x:tb.top.x-40,y:tb.top.y,scale:S}),
- Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:330,y:g,scale:S,facing:'right',hold:'phone'},f))]);
+ Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:330,y:g,scale:S,facing:'right',hold:'phone'},f))],{cls:'art'});
 Kit.draw('#a3',W,H,[Kit.room('gp_room',{w:W,h:H,ground:g,scale:S}),
  Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:560,y:g,scale:S,facing:'left'},f)),
- Kit.person({pose:'standing',role:'doctor',x:330,y:g,scale:S,skin:'olive',hair:'black',sex:'m',hairStyle:'short',facing:'right'})]);
+ Kit.person({pose:'standing',role:'doctor',x:330,y:g,scale:S,skin:'olive',hair:'black',sex:'m',hairStyle:'short',facing:'right'})],{cls:'art'});
 Kit.draw('#a4',W,H,[Kit.room('gp_room',{w:W,h:H,ground:g,scale:S}),Kit.desk({x:400,y:g,w:280,scale:S}),
  Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:600,y:g,scale:S,facing:'left'},f)),
- Kit.person({pose:'seated_talking',role:'doctor',x:200,y:g,scale:S,skin:'olive',hair:'black',sex:'m',hairStyle:'short',facing:'right'})]);
+ Kit.person({pose:'seated_talking',role:'doctor',x:200,y:g,scale:S,skin:'olive',hair:'black',sex:'m',hairStyle:'short',facing:'right'})],{cls:'art'});
 
 window.__ready=true;</script></body></html>

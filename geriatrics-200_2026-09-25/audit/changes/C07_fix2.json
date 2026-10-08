@@ -215,5 +215,33 @@
     "old": "By about 75, QRISK2 puts almost everyone above the 10% statin line, even with ideal numbers. QRISK3 is poor at separating older people's risks.\n\nSTAREE (2026), 9971 Australians aged 70+: a statin cut major cardiovascular events from about 8 to 6 in 100 over 6 years, but did not clearly change staying alive without dementia or disability. More muscle, liver and diabetes-related problems on the statin.\n\nAfter 75, the score opens the conversation: goals, time to benefit, frailty, preference.",
     "new": "By about 75, QRISK2 puts almost everyone above the 10% statin threshold, even with ideal numbers.\n\nSTAREE (2026) studied 9971 Australians aged 70+. Over 6 years a statin cut major cardiovascular events from about 8 to 6 in 100, but did not clearly change staying alive without dementia or disability. More muscle, liver and diabetes-related problems on the statin.\n\nAfter 75, treat a score above 10% as a reason to discuss the person's goals, time to benefit, frailty and preference.",
     "reason": "Cold read items 5 and 6: STAREE sentence split; closing made a literal instruction"
+  },
+  {
+    "tmp_id": "C07-P08",
+    "where": "captions.x",
+    "old": "Standing blood pressure, falls, symptoms and the person's goals should guide blood pressure treatment in an older person, as well as any target.\n\nSPRINT, the trial behind US and European targets, showed benefit in its 2636 participants aged 75 and over: aiming below 120 systolic rather than 140 (average reached 123 against 135) meant fewer cardiovascular events (about 2.6 vs 3.9 in 100 a year), with serious adverse events similar (about 48 in 100 in each group), though kidney function fell more often on the lower target in people whose kidneys were working normally at the start. About 3 in 10 were classed as frail, and benefit looked similar in them in an exploratory analysis.\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, expected to live under 3 years, or whose systolic fell below 110 after a minute standing. Its readings were unattended automated averages; routine clinic readings ran about 5 to 7 mmHg higher.\n\nUK guidance: measure standing pressure at 80 and over, in type 2 diabetes and with postural dizziness, and judge treatment on the standing reading if systolic falls by more than 20.\n\nOver-75s well enough to join the trial gained from treatment. For people it left out, its target is an extrapolation that needs judgement.",
+    "new": "In an older person, blood pressure treatment should take account of the standing reading, falls, symptoms and the person's goals, alongside the target number.\n\nSPRINT, the trial behind US and European targets, included 2636 participants aged 75 and over. They were aiming for a systolic below 120 rather than 140 (average reached 123 against 135). Cardiovascular events were fewer on the lower target (about 2.6 vs 3.9 in 100 a year). Serious adverse events were similar (about 48 in 100 in each group). Kidney function fell more often on the lower target in people whose kidneys were working normally at the start. About 3 in 10 were classed as frail, and benefit looked similar in them in an exploratory analysis.\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, expected to live under 3 years, or whose systolic fell below 110 after a minute standing. Its readings were unattended automated averages; routine clinic readings ran about 5 to 7 mmHg higher.\n\nUK guidance: measure standing pressure at 80 and over, in type 2 diabetes and with postural dizziness, and judge treatment on the standing reading if systolic falls by more than 20.\n\nOver-75s well enough to join the trial gained from treatment. For people it left out, the trial does not show the right target, so the standing reading, falls and the person's goals should guide treatment.",
+    "reason": "Cold read item 6: long SPRINT sentence split into four; ambiguous first line made literal; soft close replaced by the authors' stated limit (C07-03-b)"
+  },
+  {
+    "tmp_id": "C07-P08",
+    "where": "captions.linkedin",
+    "old": "about 2.6 vs 3.9 in 100 each year.",
+    "new": "about 2.6 in 100 each year on the lower target against 3.9 in 100 on the higher.",
+    "reason": "Cold read item 3: group labels added to the two rates"
+  },
+  {
+    "tmp_id": "C07-P08",
+    "where": "captions.bluesky",
+    "old": "SPRINT, the trial behind US and European blood pressure targets, helped over-75s well enough to join. It left out care home residents and people with dementia, diabetes, stroke or a big standing drop.\n\nFor them, check standing BP, falls and goals, not a target alone.",
+    "new": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events with a lower target in over-75s well enough to join. It excluded care home residents and people with dementia, diabetes, stroke or a big standing drop.\n\nFor them, weigh standing BP, falls and goals.",
+    "reason": "Cold read item 1: the finding stated, not just 'helped'"
+  },
+  {
+    "tmp_id": "C07-P08",
+    "where": "captions.threads",
+    "old": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events in over-75s well enough to join (about 2.6 vs 3.9 in 100 a year).\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, or whose systolic fell below 110 on standing.\n\nFor them, UK guidance points to the standing reading. Treat to standing pressure, falls and goals.",
+    "new": "SPRINT, the trial behind US and European blood pressure targets, found fewer cardiovascular events with a lower target in over-75s well enough to join: about 2.6 in 100 a year against 3.9 in 100 on the higher. Kidney function fell more often on the lower target in people with normal kidneys.\n\nIt did not enrol people in care homes, with dementia, diabetes or previous stroke, or whose systolic fell below 110 on standing.\n\nFor them, use the standing reading, falls and the person's goals.",
+    "reason": "Cold read items 1 and 3 and flags: finding stated with group labels; kidney result added (C07-03-d); figurative 'points to' and jargon 'treat to standing pressure' removed; trim to platform limit"
   }
 ]
