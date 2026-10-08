@@ -92,6 +92,21 @@
    "tool_used": "PubMed get_article_metadata",
    "correction_check": "PubMed search with retracted publication[pt], hasretractionin, haserratumin on 2026-09-26: no retraction or erratum found",
    "quality_note": "Single centre; small; survival was not primary outcome."
+  },
+  {
+   "key": "PMID:27091801",
+   "citation": "Zimmermann C, Swami N, Krzyzanowska M, Leighl N, Rydall A, Rodin G, Tannock I, Hannon B. Perceptions of palliative care among patients with advanced cancer and their caregivers. CMAJ. 2016;188(10):E217-27.",
+   "pmid": "27091801",
+   "pmcid": "PMC4938707",
+   "doi": "10.1503/cmaj.151171",
+   "public_url": "https://doi.org/10.1503/cmaj.151171",
+   "design": "Qualitative interview study (grounded theory) nested in a cluster randomised trial of early palliative care",
+   "population_setting": "48 patients and 23 caregivers, advanced cancer, Toronto, Canada",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed record read 2026-09-25: no retraction or erratum notice shown in the record; formal retracted publication[pt] search not repeated",
+   "quality_note": "Small qualitative sample, cancer only; shows perceptions, not prevalence."
   }
  ],
  "claims": [
@@ -365,7 +380,7 @@
    "verdict": "supported_with_qualification",
    "safe_wording": "A large US study of older people found that those who died with frailty already needed help with daily activities a year before death and needed more near the end, while people dying of cancer often stayed independent until the last few months.",
    "qualifications": "Group averages from 1980s-90s US data; individuals vary widely; dementia grouped under frailty in this study only by inference - do not claim dementia specifically from Lunney.",
-   "conflicting_or_uncertain": "Murray 2005 (PMID 15860828, no abstract, not opened) describes three trajectories conceptually.",
+   "conflicting_or_uncertain": "Murray 2005 (PMID 15860828, PMC557152): PubMed has no abstract and the PMC full text returned empty on 2026-09-25, so it was not opened and cannot be cited for the three-trajectory model.",
    "numbers": [
     {
      "value": "2.92 vs 5.84",
@@ -429,24 +444,31 @@
    "claim_type": "definition",
    "verdict": "not_found",
    "safe_wording": "Omit the WHO attribution; the Temel trial itself shows palliative care given alongside treatment.",
-   "qualifications": "WHO page not opened.",
+   "qualifications": "WHO page not openable here; PubMed record of Sepulveda 2002 (PMID 12231124, WHO global perspective) has no abstract, so the definition wording could not be checked. Official WHO web pages cannot be opened from this environment.",
    "conflicting_or_uncertain": "",
    "numbers": []
   },
   {
    "claim_id": "C19-36-c",
    "cand_id": "C19-36",
-   "claim": "People often associate palliative care with death and loss of hope (Zimmermann 2016).",
-   "source_keys": [],
-   "supporting_passage": "",
-   "location": "Abstract",
-   "pico_timeframe": "n/a",
+   "claim": "In interviews, people with advanced cancer and their caregivers initially associated palliative care with death and hopelessness.",
+   "source_keys": [
+    "PMID:27091801"
+   ],
+   "supporting_passage": "Participants' initial perceptions of palliative care in both trial arms were of death, hopelessness, dependency and end-of-life comfort care for inpatients. These perceptions provoked fear and avoidance, and often originated from interactions with health care professionals. During the trial, those in the intervention arm developed a broader concept of palliative care as \"ongoing care\" that improved their \"quality of living\" but still felt that the term itself carried a stigma.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "48 patients and 23 caregivers with advanced cancer, Toronto; semistructured interviews after a trial of early palliative care",
    "claim_type": "empirical",
-   "verdict": "not_found",
-   "safe_wording": "Omit as a finding; may say 'some people worry' as observation.",
-   "qualifications": "Not verified.",
-   "conflicting_or_uncertain": "",
-   "numbers": []
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a Canadian interview study of 48 people with advanced cancer and 23 carers, many first thought of palliative care as meaning death and hopelessness, which led to fear and avoidance. After receiving early palliative care, participants described it as 'ongoing care' that improved their 'quality of living'.",
+   "qualifications": "Small qualitative study in cancer; shows what these participants said, not how common the view is. Do not say 'most people' or give a percentage.",
+   "conflicting_or_uncertain": "Participants who had received palliative care still felt the term carried stigma.",
+   "numbers": [
+    {
+     "value": "48 patients, 23 caregivers",
+     "meaning": "interview participants"
+    }
+   ]
   }
  ],
  "candidates": [
@@ -494,10 +516,11 @@
   {
    "cand_id": "C19-36",
    "status": "revise",
-   "reason": "Temel verified; WHO definition and Zimmermann not opened.",
-   "revised_angle": "Anchor 'alongside treatment' in Temel trial design, drop WHO attribution, no age claim, survival not leading.",
+   "reason": "Temel (quality of life, mood, alongside standard care) and Zimmermann (initial associations with death and hopelessness, stigma persisting) verified from abstracts. WHO definition not verified (no openable source).",
+   "revised_angle": "Anchor 'alongside treatment' in the Temel trial design (palliative care integrated with standard oncology care), not in the WHO definition; cancer-only evidence; no 'younger people' claim; survival must not lead; use Zimmermann only as 'some people first think it means death and hopelessness'.",
    "essential_claim_ids": [
-    "C19-36-a"
+    "C19-36-a",
+    "C19-36-c"
    ]
   }
  ]

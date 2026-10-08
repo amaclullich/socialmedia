@@ -1,34 +1,840 @@
-{"batch":"C15-B2","category":"C15","date_checked":"2026-09-25",
-"sources":[
-{"key":"PMID:33872045","citation":"Shepperd S, Butler C, Cradduck-Bamford A, Ellis G, Gray A, Hemsley A, et al. Is comprehensive geriatric assessment admission avoidance hospital at home an alternative to hospital admission for older persons? A randomized trial. Ann Intern Med. 2021;174(7):889-98.","pmid":"33872045","pmcid":"PMC7612132","doi":"10.7326/M20-5688","public_url":"https://doi.org/10.7326/M20-5688","design":"Multisite randomised trial, 2:1 allocation","population_setting":"1055 medically unwell, physiologically stable older people referred for admission, 9 UK sites; mean age 83.3","year":2021,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search for retracted publication/published erratum linked to PMID: none found (2026-09-25). A letter/reply exists (PMID 34781721), not a correction.","quality_note":"Large pragmatic UK RCT; residential care RR 0.58 is adjusted and differs from crude proportions; carer outcomes not in abstract."},
-{"key":"PMID:16757722","citation":"Loeb M, Carusone SC, Goeree R, Walter SD, Brazil K, Krueger P, et al. Effect of a clinical pathway to reduce hospitalizations in nursing home residents with pneumonia: a randomized controlled trial. JAMA. 2006;295(21):2503-10.","pmid":"16757722","pmcid":null,"doi":"10.1001/jama.295.21.2503","public_url":"https://doi.org/10.1001/jama.295.21.2503","design":"Cluster randomised controlled trial","population_setting":"680 residents aged 65+ with lower respiratory tract infection, 22 nursing homes, Hamilton, Ontario, 2001-2005","year":2006,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search for retracted publication/published erratum: none found (2026-09-25).","quality_note":"Single Canadian region, older trial; pathway included research nurse monitoring and portable chest X-ray; not powered for mortality."},
-{"key":"PMID:21444623","citation":"van Walraven C, Bennett C, Jennings A, Austin PC, Forster AJ. Proportion of hospital readmissions deemed avoidable: a systematic review. CMAJ. 2011;183(7):E391-402.","pmid":"21444623","pmcid":"PMC3080556","doi":"10.1503/cmaj.101860","public_url":"https://doi.org/10.1503/cmaj.101860","design":"Systematic review (34 studies)","population_setting":"Studies of hospital readmissions published 1966 to July 2010","year":2011,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search for retracted publication/published erratum: none found (2026-09-25).","quality_note":"Included studies methodologically weak and heterogeneous; review itself is dated (search to 2010)."},
-{"key":"PMID:35199849","citation":"Gonçalves-Bradley DC, Lannin NA, Clemson L, Cameron ID, Shepperd S. Discharge planning from hospital. Cochrane Database Syst Rev. 2022;2(2):CD000313.","pmid":"35199849","pmcid":"PMC8867723","doi":"10.1002/14651858.CD000313.pub6","public_url":"https://doi.org/10.1002/14651858.CD000313.pub6","design":"Cochrane systematic review and meta-analysis of RCTs","population_setting":"33 trials, 12,242 hospital inpatients; 30 trials medical diagnosis, average age 60 to 84","year":2022,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search for retracted publication/published erratum: none found (2026-09-25).","quality_note":"High-quality review; control-group readmission rate not in abstract so no absolute per-100 figure."},
-{"key":"PMID:32125666","citation":"Alqenae FA, Steinke D, Keers RN. Prevalence and nature of medication errors and medication-related harm following discharge from hospital to community settings: a systematic review. Drug Saf. 2020;43(6):517-37.","pmid":"32125666","pmcid":"PMC7235049","doi":"10.1007/s40264-020-00918-3","public_url":"https://doi.org/10.1007/s40264-020-00918-3","design":"Systematic review (54 studies)","population_setting":"Adults and children after discharge from hospital to community, studies 1990-2019","year":2020,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search for retracted publication/published erratum: none found (2026-09-25).","quality_note":"Few studies per outcome; wide IQRs; definitions vary."},
-{"key":"PMID:21463347","citation":"Arnet I, Bernhardt V, Hersberger KE. Methotrexate intoxication: the Pharmaceutical Care process reveals a critical error. J Clin Pharm Ther. 2012;37(2):242-4.","pmid":"21463347","pmcid":null,"doi":"10.1111/j.1365-2710.2011.01263.x","public_url":"https://doi.org/10.1111/j.1365-2710.2011.01263.x","design":"Case report","population_setting":"78-year-old woman, community pharmacy, Switzerland","year":2011,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"Not checked separately; case report only.","quality_note":"Case report; illustrates hazard, not frequency."}
-],
-"claims":[
-{"claim_id":"C15-12-a","cand_id":"C15-12","claim":"Living at home at 6 months similar with hospital at home vs admission","source_keys":["PMID:33872045"],"supporting_passage":"At 6-month follow-up, 528 of 672 (78.6%) participants in the CGA HAH group versus 247 of 328 (75.3%) participants in the hospital group were living at home (relative risk [RR], 1.05 [95% CI, 0.95 to 1.15];= 0.36)","location":"Abstract, Results","pico_timeframe":"Stable older people referred for admission / HAH with CGA / hospital admission / living at home / 6 months","claim_type":"empirical","verdict":"supported","safe_wording":"About 79 in 100 treated at home and 75 in 100 admitted were living at home six months later; the trial did not show a clear difference.","qualifications":"Selected, physiologically stable people, mean age 83, mostly from acute medical assessment units; 2:1 randomisation.","conflicting_or_uncertain":"CI 0.95 to 1.15.","numbers":[{"value":"78.6% vs 75.3%","meaning":"living at home at 6 months, 528/672 vs 247/328"},{"value":"1055","meaning":"participants randomised"},{"value":"83.3","meaning":"mean age"}]},
-{"claim_id":"C15-12-b","cand_id":"C15-12","claim":"Deaths at 6 months similar","source_keys":["PMID:33872045"],"supporting_passage":"114 of 673 (16.9%) versus 58 of 328 (17.7%) had died (RR, 0.98 [CI, 0.65 to 1.47];= 0.92)","location":"Abstract, Results","pico_timeframe":"as above / death / 6 months","claim_type":"empirical","verdict":"supported","safe_wording":"About 17 in 100 in each group had died by six months; no clear difference.","qualifications":"Wide CI; not powered as equivalence on mortality.","conflicting_or_uncertain":"CI 0.65 to 1.47.","numbers":[{"value":"16.9% vs 17.7%","meaning":"died by 6 months"}]},
-{"claim_id":"C15-12-c","cand_id":"C15-12","claim":"Fewer in long-term residential care at 6 months","source_keys":["PMID:33872045"],"supporting_passage":"37 of 646 (5.7%) versus 27 of 311 (8.7%) were in long-term residential care (RR, 0.58 [CI, 0.45 to 0.76];< 0.001)","location":"Abstract, Results","pico_timeframe":"as above / new long-term residential care / 6 months","claim_type":"empirical","verdict":"supported_with_qualification","safe_wording":"About 6 in 100 treated at home and 9 in 100 admitted had moved into long-term residential care by six months.","qualifications":"Use absolute figures only; the RR 0.58 does not match the crude proportions (adjusted), so do not quote it.","conflicting_or_uncertain":"Secondary outcome.","numbers":[{"value":"5.7% vs 8.7%","meaning":"in long-term residential care at 6 months, 37/646 vs 27/311"}]},
-{"claim_id":"C15-12-d","cand_id":"C15-12","claim":"Applicability: selected stable older people","source_keys":["PMID:33872045"],"supporting_passage":"The findings are most applicable to older persons referred from a hospital short-stay acute medical assessment unit; episodes of delirium may have been undetected.","location":"Abstract, Limitations","pico_timeframe":"n/a","claim_type":"empirical","verdict":"supported","safe_wording":"The trial included older people who were unwell but stable, mostly referred from short-stay acute medical assessment units; it applies to selected people, not everyone.","qualifications":"","conflicting_or_uncertain":"","numbers":[]},
-{"claim_id":"C15-12-e","cand_id":"C15-12","claim":"Carer outcomes (what hospital at home asks of families)","source_keys":[],"supporting_passage":"","location":"","pico_timeframe":"","claim_type":"empirical","verdict":"not_found","safe_wording":"Do not state any trial finding about carers or carer strain. The post may say, as judgement, that families should ask what help at home involves.","qualifications":"Carer data not in abstract; full text/NIHR report not opened.","conflicting_or_uncertain":"","numbers":[]},
-{"claim_id":"C15-23-a","cand_id":"C15-23","claim":"Pathway halved hospitalisation in nursing home residents with pneumonia","source_keys":["PMID:16757722"],"supporting_passage":"Thirty-four (10%) of 327 residents in the clinical pathway group were hospitalized compared with 76 (22%) of 353 residents in the usual care group. Adjusting for clustering of residents in nursing homes, the weighted mean reduction in hospitalizations was 12% (95% confidence interval [CI], 5%-18%; P = .001).","location":"Abstract, Results","pico_timeframe":"680 residents 65+ with lower respiratory tract infection, 22 Ontario nursing homes / on-site pathway / usual care / hospitalisation / trial follow-up 2001-2005","claim_type":"empirical","verdict":"supported","safe_wording":"In a Canadian trial, about 10 in 100 residents treated in the home on the pathway went to hospital, against 22 in 100 with usual care.","qualifications":"Population was lower respiratory tract infection including pneumonia; Canada, 2001-05; the 12% is a percentage-point difference adjusted for clustering.","conflicting_or_uncertain":"Single trial, older.","numbers":[{"value":"10% (34/327) vs 22% (76/353)","meaning":"hospitalised"},{"value":"12 percentage points (95% CI 5 to 18)","meaning":"cluster-adjusted absolute reduction"},{"value":"680; 22","meaning":"residents; nursing homes"}]},
-{"claim_id":"C15-23-b","cand_id":"C15-23","claim":"No clear difference in deaths, quality of life or function","source_keys":["PMID:16757722"],"supporting_passage":"The mortality rate was 8% (24 deaths) in the clinical pathway group vs 9% (32 deaths) in the usual care group, with a weighted mean difference of 2.9% (95% CI, -2.0% to 7.9%; P = .23). There were no significant differences between the groups in health-related quality of life or functional status.","location":"Abstract, Results","pico_timeframe":"as above / mortality, HRQoL, function","claim_type":"empirical","verdict":"supported_with_qualification","safe_wording":"About 8 in 100 and 9 in 100 died; the trial did not show a clear difference in deaths, quality of life or function.","qualifications":"Not powered to show a mortality difference; say 'did not show a clear difference', not 'no effect'.","conflicting_or_uncertain":"","numbers":[{"value":"8% vs 9%","meaning":"mortality, 24 vs 32 deaths"}]},
-{"claim_id":"C15-23-c","cand_id":"C15-23","claim":"What the pathway included","source_keys":["PMID:16757722"],"supporting_passage":"Treatment in nursing homes according to a clinical pathway, which included use of oral antimicrobials, portable chest radiographs, oxygen saturation monitoring, rehydration, and close monitoring by a research nurse, or usual care.","location":"Abstract, Interventions","pico_timeframe":"n/a","claim_type":"empirical","verdict":"supported","safe_wording":"The home treatment included antibiotic tablets, chest X-rays taken in the home, oxygen level checks, fluids, and close checks by a dedicated research nurse.","qualifications":"UK applicability to homes without this monitoring is a judgement and should be framed as such.","conflicting_or_uncertain":"","numbers":[]},
-{"claim_id":"C15-22-a","cand_id":"C15-22","claim":"Proportion of readmissions judged avoidable varies widely","source_keys":["PMID:21444623"],"supporting_passage":"The median proportion of readmissions deemed avoidable was 27.1% but varied from 5% to 79%.","location":"Abstract, Results","pico_timeframe":"34 studies of hospital readmissions, 1966-2010 / case-review judgement / proportion avoidable","claim_type":"empirical","verdict":"supported","safe_wording":"Across 34 studies, reviewers judged between 5 and 79 in 100 readmissions avoidable; the middle value was about 27 in 100.","qualifications":"Denominator is readmissions, not patients.","conflicting_or_uncertain":"Review dated (to 2010).","numbers":[{"value":"27.1%","meaning":"median proportion of readmissions deemed avoidable across studies"},{"value":"5% to 79%","meaning":"range across 34 studies"}]},
-{"claim_id":"C15-22-b","cand_id":"C15-22","claim":"Methods mostly subjective, single centre, one reviewer; true proportion unclear","source_keys":["PMID:21444623"],"supporting_passage":"Most of the studies were conducted at single teaching hospitals, did not consider information from the community or treating physicians, and used only one reviewer to decide whether readmissions were avoidable. ... All but three of the studies used subjective criteria to determine whether readmissions were avoidable. ... The true proportion of hospital readmissions that are potentially avoidable remains unclear.","location":"Abstract, Results and Interpretation","pico_timeframe":"n/a","claim_type":"empirical","verdict":"supported","safe_wording":"Most studies relied on one reviewer's judgement at a single teaching hospital, so the true share of avoidable readmissions remains unclear.","qualifications":"Position that a rate should prompt case review is judgement.","conflicting_or_uncertain":"Auerbach 2016 not checked; do not cite it.","numbers":[{"value":"34","meaning":"studies"},{"value":"3","meaning":"studies not using subjective criteria"}]},
-{"claim_id":"C15-18-a","cand_id":"C15-18","claim":"Discharge planning slightly shortened initial stay for people admitted with a medical condition","source_keys":["PMID:35199849"],"supporting_passage":"Participants allocated to discharge planning and who were in hospital for a medical condition had a small reduction in the initial hospital length of stay (MD - 0.73, 95% confidence interval (CI) - 1.33 to - 0.12; 11 trials, 2113 participants; moderate-certainty evidence)","location":"Abstract, Main results","pico_timeframe":"Inpatients with a medical condition (average age 60 to 84) / individual discharge plan / routine discharge / length of stay","claim_type":"empirical","verdict":"supported","safe_wording":"Stays were on average about three quarters of a day shorter (moderate certainty).","qualifications":"Medical-condition subgroup, 11 trials.","conflicting_or_uncertain":"","numbers":[{"value":"-0.73 days (95% CI -1.33 to -0.12)","meaning":"mean difference in initial length of stay"},{"value":"33 trials, 12,242 participants","meaning":"whole review"}]},
-{"claim_id":"C15-18-b","cand_id":"C15-18","claim":"Modestly fewer readmissions over about three months","source_keys":["PMID:35199849"],"supporting_passage":"and a relative reduction in readmission to hospital over an average of three months follow-up (RR 0.89, 95% CI 0.81 to 0.97; 17 trials, 5126 participants; moderate-certainty evidence)","location":"Abstract, Main results","pico_timeframe":"as above / readmission / average 3 months","claim_type":"empirical","verdict":"supported_with_qualification","safe_wording":"Readmissions over about three months were somewhat lower, roughly a tenth fewer in relative terms (moderate certainty).","qualifications":"Relative effect only; control rate not available, so no per-100 figure.","conflicting_or_uncertain":"","numbers":[{"value":"RR 0.89 (0.81 to 0.97)","meaning":"relative readmission risk, 17 trials, 5126 participants"}]},
-{"claim_id":"C15-18-c","cand_id":"C15-18","claim":"Little or no difference in mortality and function; satisfaction may increase; costs uncertain","source_keys":["PMID:35199849"],"supporting_passage":"There was little or no difference in participant's health status (mortality at three- to nine-month follow-up: RR 1.05, 95% CI 0.85 to 1.29; 8 trials, 2721 participants; moderate certainty) functional status and psychological health ... low certainty evidence). There was some evidence that satisfaction might be increased ... (very low certainty evidence). The cost of a structured discharge plan compared with routine discharge is uncertain","location":"Abstract, Main results","pico_timeframe":"as above","claim_type":"empirical","verdict":"supported","safe_wording":"There was little or no difference in deaths or day-to-day function; satisfaction may be higher and costs are uncertain.","qualifications":"Certainty low to very low for function and satisfaction.","conflicting_or_uncertain":"","numbers":[{"value":"RR 1.05 (0.85 to 1.29)","meaning":"mortality at 3-9 months"}]},
-{"claim_id":"C15-04-a","cand_id":"C15-04","claim":"Medication errors and discrepancies are common after discharge","source_keys":["PMID:32125666"],"supporting_passage":"For adult patients, the median rate of medication errors and unintentional medication discrepancies following discharge was 53% [interquartile range 33-60.5] (n = 5 studies) and 50% [interquartile range 39-76] (n = 11), respectively.","location":"Abstract, Results","pico_timeframe":"Adults discharged to community / errors and discrepancies / follow-up 2-180 days","claim_type":"empirical","verdict":"supported_with_qualification","safe_wording":"Studies commonly find medicine errors or unintended differences after leaving hospital; in most studies between a third and three quarters of patients were affected.","qualifications":"Few studies (5 and 11), varying definitions; give as a range.","conflicting_or_uncertain":"","numbers":[{"value":"median 53% (IQR 33-60.5)","meaning":"medication errors, 5 studies"},{"value":"median 50% (IQR 39-76)","meaning":"unintentional discrepancies, 11 studies"}]},
-{"claim_id":"C15-04-b","cand_id":"C15-04","claim":"Taking weekly methotrexate daily by mistake can cause serious harm; MHRA measures","source_keys":["PMID:21463347"],"supporting_passage":"Intoxication with oral low-dose methotrexate (MTX) is a well-known and frequent problem, which is often discovered accidently. The major reason is error in the frequency of dosing, mostly of daily instead of weekly intake.","location":"Abstract","pico_timeframe":"case report","claim_type":"empirical","verdict":"partly_supported","safe_wording":"Taking a once-weekly medicine such as methotrexate every day by mistake can cause serious poisoning.","qualifications":"Case-report level only; MHRA Drug Safety Update not opened, so do not cite MHRA.","conflicting_or_uncertain":"","numbers":[]},
-{"claim_id":"C15-04-c","cand_id":"C15-04","claim":"On discharge day the ward may already have given that day's doses, and a weekly medicine's day may change during admission, causing doubled or missed doses at home","source_keys":[],"supporting_passage":"","location":"","pico_timeframe":"","claim_type":"service or policy fact","verdict":"not_found","safe_wording":"No source found; cannot be stated as fact.","qualifications":"Central premise of the post.","conflicting_or_uncertain":"","numbers":[]}
-],
-"candidates":[
-{"cand_id":"C15-12","status":"revise","reason":"Main outcomes supported by abstract; carer outcome claim not verified and RR 0.58 must not be used.","revised_angle":"Keep the per-100 comparison (living at home, died, residential care) with applicability to selected stable people; remove the promise of trial findings on families and replace with a judgement-framed prompt for families to ask what care at home involves.","essential_claim_ids":["C15-12-a","C15-12-b","C15-12-c","C15-12-d"]},
-{"cand_id":"C15-23","status":"ready","reason":"All figures and pathway content in abstract; frame as one Canadian trial with dedicated nurse monitoring.","revised_angle":null,"essential_claim_ids":["C15-23-a","C15-23-b","C15-23-c"]},
-{"cand_id":"C15-18","status":"ready","reason":"All estimates confirmed as the medical-condition subgroup; readmission as relative effect only (no per-100 figure available).","revised_angle":null,"essential_claim_ids":["C15-18-a","C15-18-b","C15-18-c"]},
-{"cand_id":"C15-22","status":"ready","reason":"Range, median and method weaknesses confirmed; do not use Auerbach or Fischer (unchecked).","revised_angle":null,"essential_claim_ids":["C15-22-a","C15-22-b"]},
-{"cand_id":"C15-04","status":"drop","reason":"Central claim C15-04-c (doses already given on discharge day / weekly day shifting causing doubled or missed doses) has no source; MHRA alert not opened. Per editor guidance replace with C15-15.","revised_angle":null,"essential_claim_ids":["C15-04-a","C15-04-b","C15-04-c"]}
-]}
+{
+ "batch": "C15-B2",
+ "category": "C15",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:33872045",
+   "citation": "Shepperd S, Butler C, Cradduck-Bamford A, Ellis G, Gray A, Hemsley A, et al. Is comprehensive geriatric assessment admission avoidance hospital at home an alternative to hospital admission for older persons? A randomized trial. Ann Intern Med. 2021;174(7):889-98.",
+   "pmid": "33872045",
+   "pmcid": "PMC7612132",
+   "doi": "10.7326/M20-5688",
+   "public_url": "https://doi.org/10.7326/M20-5688",
+   "design": "Multisite randomised trial, 2:1 allocation",
+   "population_setting": "1055 medically unwell, physiologically stable older people referred for admission, 9 UK sites; mean age 83.3",
+   "year": 2021,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search for retracted publication/published erratum linked to PMID: none found (2026-09-25). A letter/reply exists (PMID 34781721), not a correction.",
+   "quality_note": "Large pragmatic UK RCT; residential care RR 0.58 is adjusted and differs from crude proportions; carer outcomes not in abstract."
+  },
+  {
+   "key": "PMID:16757722",
+   "citation": "Loeb M, Carusone SC, Goeree R, Walter SD, Brazil K, Krueger P, et al. Effect of a clinical pathway to reduce hospitalizations in nursing home residents with pneumonia: a randomized controlled trial. JAMA. 2006;295(21):2503-10.",
+   "pmid": "16757722",
+   "pmcid": null,
+   "doi": "10.1001/jama.295.21.2503",
+   "public_url": "https://doi.org/10.1001/jama.295.21.2503",
+   "design": "Cluster randomised controlled trial",
+   "population_setting": "680 residents aged 65+ with lower respiratory tract infection, 22 nursing homes, Hamilton, Ontario, 2001-2005",
+   "year": 2006,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search for retracted publication/published erratum: none found (2026-09-25).",
+   "quality_note": "Single Canadian region, older trial; pathway included research nurse monitoring and portable chest X-ray; not powered for mortality."
+  },
+  {
+   "key": "PMID:21444623",
+   "citation": "van Walraven C, Bennett C, Jennings A, Austin PC, Forster AJ. Proportion of hospital readmissions deemed avoidable: a systematic review. CMAJ. 2011;183(7):E391-402.",
+   "pmid": "21444623",
+   "pmcid": "PMC3080556",
+   "doi": "10.1503/cmaj.101860",
+   "public_url": "https://doi.org/10.1503/cmaj.101860",
+   "design": "Systematic review (34 studies)",
+   "population_setting": "Studies of hospital readmissions published 1966 to July 2010",
+   "year": 2011,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search for retracted publication/published erratum: none found (2026-09-25).",
+   "quality_note": "Included studies methodologically weak and heterogeneous; review itself is dated (search to 2010)."
+  },
+  {
+   "key": "PMID:35199849",
+   "citation": "Gonçalves-Bradley DC, Lannin NA, Clemson L, Cameron ID, Shepperd S. Discharge planning from hospital. Cochrane Database Syst Rev. 2022;2(2):CD000313.",
+   "pmid": "35199849",
+   "pmcid": "PMC8867723",
+   "doi": "10.1002/14651858.CD000313.pub6",
+   "public_url": "https://doi.org/10.1002/14651858.CD000313.pub6",
+   "design": "Cochrane systematic review and meta-analysis of RCTs",
+   "population_setting": "33 trials, 12,242 hospital inpatients; 30 trials medical diagnosis, average age 60 to 84",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search for retracted publication/published erratum: none found (2026-09-25).",
+   "quality_note": "High-quality review; control-group readmission rate not in abstract so no absolute per-100 figure."
+  },
+  {
+   "key": "PMID:32125666",
+   "citation": "Alqenae FA, Steinke D, Keers RN. Prevalence and nature of medication errors and medication-related harm following discharge from hospital to community settings: a systematic review. Drug Saf. 2020;43(6):517-37.",
+   "pmid": "32125666",
+   "pmcid": "PMC7235049",
+   "doi": "10.1007/s40264-020-00918-3",
+   "public_url": "https://doi.org/10.1007/s40264-020-00918-3",
+   "design": "Systematic review (54 studies)",
+   "population_setting": "Adults and children after discharge from hospital to community, studies 1990-2019",
+   "year": 2020,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search for retracted publication/published erratum: none found (2026-09-25).",
+   "quality_note": "Few studies per outcome; wide IQRs; definitions vary."
+  },
+  {
+   "key": "PMID:21463347",
+   "citation": "Arnet I, Bernhardt V, Hersberger KE. Methotrexate intoxication: the Pharmaceutical Care process reveals a critical error. J Clin Pharm Ther. 2012;37(2):242-4.",
+   "pmid": "21463347",
+   "pmcid": null,
+   "doi": "10.1111/j.1365-2710.2011.01263.x",
+   "public_url": "https://doi.org/10.1111/j.1365-2710.2011.01263.x",
+   "design": "Case report",
+   "population_setting": "78-year-old woman, community pharmacy, Switzerland",
+   "year": 2011,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "Not checked separately; case report only.",
+   "quality_note": "Case report; illustrates hazard, not frequency."
+  },
+  {
+   "key": "PMID:23043304",
+   "citation": "Dugaret E, Videau MN, Faure I, Gabinski C, Bourdel-Marchasson I, Salles N. Prevalence and incidence rates of pressure ulcers in an Emergency Department. Int Wound J. 2014;11(4):386-91.",
+   "pmid": "23043304",
+   "pmcid": "PMC7950920",
+   "doi": "10.1111/j.1742-481X.2012.01103.x",
+   "public_url": "https://doi.org/10.1111/j.1742-481X.2012.01103.x",
+   "design": "Prospective observational study",
+   "population_setting": "602 adults (27.4% over 75) in one emergency department, Bordeaux, France, 1 to 15 June 2010",
+   "year": 2014,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs (full PDF: Results, Tables 2 and 3, limitations)",
+   "correction_check": "PubMed (2026-09-25): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR published erratum[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records). Scite not used: monthly usage limit reached.",
+   "quality_note": "Single centre, two weeks, 2010; trauma and neurology patients seen elsewhere; 361 of 963 excluded for missing data. Online 2012, print 2014."
+  },
+  {
+   "key": "PMID:36074240",
+   "citation": "Ogliari G, Coffey F, Keillor L, Aw D, Azad MY, Allaboudy M, et al. Emergency department use and length of stay by younger and older adults: Nottingham cohort study in the emergency department (NOCED). Aging Clin Exp Res. 2022;34(11):2873-85.",
+   "pmid": "36074240",
+   "pmcid": "PMC9453701",
+   "doi": "10.1007/s40520-022-02226-5",
+   "public_url": "https://doi.org/10.1007/s40520-022-02226-5",
+   "design": "Retrospective cohort study",
+   "population_setting": "146,636 adult attendances at the single emergency department of Nottingham University Hospitals (Queen's Medical Centre), England, 2019",
+   "year": 2022,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata (abstract); Undermind read_pdfs (Table 3, Methods)",
+   "correction_check": "PubMed (2026-09-25): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR published erratum[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records). Scite not used: monthly usage limit reached.",
+   "quality_note": "Single large English ED, pre-pandemic; attendances, not people; 4-hour cut-off only (12-hour waits not analysed)."
+  },
+  {
+   "key": "PMID:35402654",
+   "citation": "Richard G, Redmond A, Penugonda M, Bradley D. Parkinson's disease medication prescribing and administration during unplanned hospital admissions. Mov Disord Clin Pract. 2022;9(3):334-9.",
+   "pmid": "35402654",
+   "pmcid": "PMC8974884",
+   "doi": "10.1002/mdc3.13408",
+   "public_url": "https://doi.org/10.1002/mdc3.13408",
+   "design": "Retrospective observational study",
+   "population_setting": "102 unplanned admissions of 70 people with Parkinson's disease on time-critical medicines, one Dublin hospital, 15 months",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed (2026-09-25): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR published erratum[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records). Scite not used: monthly usage limit reached.",
+   "quality_note": "Single centre, small; inpatient doses, not ED waits."
+  },
+  {
+   "key": "PMID:28065403",
+   "citation": "Lertxundi U, Isla A, Solinis MA, Domingo-Echaburu S, Hernandez R, Peral-Aguirregoitia J, et al. Medication errors in Parkinson's disease inpatients in the Basque Country. Parkinsonism Relat Disord. 2017;36:57-62.",
+   "pmid": "28065403",
+   "pmcid": null,
+   "doi": "10.1016/j.parkreldis.2016.12.028",
+   "public_url": "https://doi.org/10.1016/j.parkreldis.2016.12.028",
+   "design": "Retrospective multicentre observational study",
+   "population_setting": "1,628 people with Parkinson's disease (2,546 admissions), 11 public acute hospitals, Basque Country, 2011 to 2012",
+   "year": 2017,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed (2026-09-25): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR published erratum[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records). Scite not used: monthly usage limit reached.",
+   "quality_note": "Observational; sicker people may have had more errors. The abstract prints an internally inconsistent CI for the antipsychotic OR (1.91, CI 1.33-1.73): do not use that figure."
+  },
+  {
+   "key": "PMID:39009462",
+   "citation": "Alias R, Neo YL, Wang L, Sie LZ, Goh HJ, Mohamed Hussein MY, et al. Fulfilling last wishes: improving the compassionate discharge process. BMJ Open Qual. 2024;13(3):e002666.",
+   "pmid": "39009462",
+   "pmcid": "PMC11253726",
+   "doi": "10.1136/bmjoq-2023-002666",
+   "public_url": "https://doi.org/10.1136/bmjoq-2023-002666",
+   "design": "Single-centre quality improvement project (three PDSA cycles), no control group",
+   "population_setting": "Changi General Hospital, Singapore; compassionate (rapid) discharges for people expected to die within hours to 7 days; cycles May 2020 to April 2023",
+   "year": 2024,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; PubMed get_full_text_article (PMC11253726)",
+   "correction_check": "PubMed (2026-09-25): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR published erratum[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records). Scite not used: monthly usage limit reached.",
+   "quality_note": "Singapore, one hospital, no baseline failure data and no comparison group, success cannot be attributed to the resource package alone (authors' own limitation). Internal inconsistency: the Measures section places 'two patients (3.3%) dying in hospital' after the second cycle, but Results give 2 failed discharges in the third cycle (59 of 61 successful, 96.7%); use only the third-cycle wording."
+  },
+  {
+   "key": "PMID:27251915",
+   "citation": "Hodgkinson S, Ruegger J, Field-Smith A, Latchem S, Ahmedzai SH. Care of dying adults in the last days of life. Clin Med (Lond). 2016;16(3):254-8.",
+   "pmid": "27251915",
+   "pmcid": "PMC5922704",
+   "doi": "10.7861/clinmedicine.16-3-254",
+   "public_url": "https://doi.org/10.7861/clinmedicine.16-3-254",
+   "design": "Concise guideline summary of NICE NG31",
+   "population_setting": "Adults in the last days of life, England",
+   "year": 2016,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed (2026-09-25): search of this PMID with retracted publication[pt] OR retraction of publication[pt] OR published erratum[pt] OR expression of concern[pt] returned no record (positive-control search of the same PMID set without the filter returned all records). Scite not used: monthly usage limit reached.",
+   "quality_note": "Summary of NICE NG31; the recommendation text itself was not opened. NICE applies formally to England."
+  },
+  {
+   "key": "URL:https://www.gov.uk/government/publications/nhs-continuing-healthcare-fast-track-pathway-tool/fast-track-pathway-tool-for-nhs-continuing-healthcare-guidance",
+   "citation": "Department of Health and Social Care. Fast Track Pathway Tool for NHS Continuing Healthcare guidance. GOV.UK; July 2022 (updated 23 August 2022 per search result).",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.gov.uk/government/publications/nhs-continuing-healthcare-fast-track-pathway-tool/fast-track-pathway-tool-for-nhs-continuing-healthcare-guidance",
+   "design": "Official guidance (England)",
+   "population_setting": "England: integrated care boards and NHS England",
+   "year": 2022,
+   "access": "search_extract",
+   "tool_used": "WebSearch (allowed_domains gov.uk); page could not be opened",
+   "correction_check": "Not applicable; not opened. Check currency before any use.",
+   "quality_note": "Search extract only, so not enough for an essential claim. Recommendation: leave Fast Track out of the post."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C15-12-a",
+   "cand_id": "C15-12",
+   "claim": "Living at home at 6 months similar with hospital at home vs admission",
+   "source_keys": [
+    "PMID:33872045"
+   ],
+   "supporting_passage": "At 6-month follow-up, 528 of 672 (78.6%) participants in the CGA HAH group versus 247 of 328 (75.3%) participants in the hospital group were living at home (relative risk [RR], 1.05 [95% CI, 0.95 to 1.15];= 0.36)",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Stable older people referred for admission / HAH with CGA / hospital admission / living at home / 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 79 in 100 treated at home and 75 in 100 admitted were living at home six months later; the trial did not show a clear difference.",
+   "qualifications": "Selected, physiologically stable people, mean age 83, mostly from acute medical assessment units; 2:1 randomisation.",
+   "conflicting_or_uncertain": "CI 0.95 to 1.15.",
+   "numbers": [
+    {
+     "value": "78.6% vs 75.3%",
+     "meaning": "living at home at 6 months, 528/672 vs 247/328"
+    },
+    {
+     "value": "1055",
+     "meaning": "participants randomised"
+    },
+    {
+     "value": "83.3",
+     "meaning": "mean age"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-12-b",
+   "cand_id": "C15-12",
+   "claim": "Deaths at 6 months similar",
+   "source_keys": [
+    "PMID:33872045"
+   ],
+   "supporting_passage": "114 of 673 (16.9%) versus 58 of 328 (17.7%) had died (RR, 0.98 [CI, 0.65 to 1.47];= 0.92)",
+   "location": "Abstract, Results",
+   "pico_timeframe": "as above / death / 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "About 17 in 100 in each group had died by six months; no clear difference.",
+   "qualifications": "Wide CI; not powered as equivalence on mortality.",
+   "conflicting_or_uncertain": "CI 0.65 to 1.47.",
+   "numbers": [
+    {
+     "value": "16.9% vs 17.7%",
+     "meaning": "died by 6 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-12-c",
+   "cand_id": "C15-12",
+   "claim": "Fewer in long-term residential care at 6 months",
+   "source_keys": [
+    "PMID:33872045"
+   ],
+   "supporting_passage": "37 of 646 (5.7%) versus 27 of 311 (8.7%) were in long-term residential care (RR, 0.58 [CI, 0.45 to 0.76];< 0.001)",
+   "location": "Abstract, Results",
+   "pico_timeframe": "as above / new long-term residential care / 6 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "About 6 in 100 treated at home and 9 in 100 admitted had moved into long-term residential care by six months.",
+   "qualifications": "Use absolute figures only; the RR 0.58 does not match the crude proportions (adjusted), so do not quote it.",
+   "conflicting_or_uncertain": "Secondary outcome.",
+   "numbers": [
+    {
+     "value": "5.7% vs 8.7%",
+     "meaning": "in long-term residential care at 6 months, 37/646 vs 27/311"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-12-d",
+   "cand_id": "C15-12",
+   "claim": "Applicability: selected stable older people",
+   "source_keys": [
+    "PMID:33872045"
+   ],
+   "supporting_passage": "The findings are most applicable to older persons referred from a hospital short-stay acute medical assessment unit; episodes of delirium may have been undetected.",
+   "location": "Abstract, Limitations",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The trial included older people who were unwell but stable, mostly referred from short-stay acute medical assessment units; it applies to selected people, not everyone.",
+   "qualifications": "",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-12-e",
+   "cand_id": "C15-12",
+   "claim": "Carer outcomes (what hospital at home asks of families)",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "",
+   "pico_timeframe": "",
+   "claim_type": "empirical",
+   "verdict": "not_found",
+   "safe_wording": "Do not state any trial finding about carers or carer strain. The post may say, as judgement, that families should ask what help at home involves.",
+   "qualifications": "Carer data not in abstract; full text/NIHR report not opened.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-23-a",
+   "cand_id": "C15-23",
+   "claim": "Pathway halved hospitalisation in nursing home residents with pneumonia",
+   "source_keys": [
+    "PMID:16757722"
+   ],
+   "supporting_passage": "Thirty-four (10%) of 327 residents in the clinical pathway group were hospitalized compared with 76 (22%) of 353 residents in the usual care group. Adjusting for clustering of residents in nursing homes, the weighted mean reduction in hospitalizations was 12% (95% confidence interval [CI], 5%-18%; P = .001).",
+   "location": "Abstract, Results",
+   "pico_timeframe": "680 residents 65+ with lower respiratory tract infection, 22 Ontario nursing homes / on-site pathway / usual care / hospitalisation / trial follow-up 2001-2005",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a Canadian trial, about 10 in 100 residents treated in the home on the pathway went to hospital, against 22 in 100 with usual care.",
+   "qualifications": "Population was lower respiratory tract infection including pneumonia; Canada, 2001-05; the 12% is a percentage-point difference adjusted for clustering.",
+   "conflicting_or_uncertain": "Single trial, older.",
+   "numbers": [
+    {
+     "value": "10% (34/327) vs 22% (76/353)",
+     "meaning": "hospitalised"
+    },
+    {
+     "value": "12 percentage points (95% CI 5 to 18)",
+     "meaning": "cluster-adjusted absolute reduction"
+    },
+    {
+     "value": "680; 22",
+     "meaning": "residents; nursing homes"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-23-b",
+   "cand_id": "C15-23",
+   "claim": "No clear difference in deaths, quality of life or function",
+   "source_keys": [
+    "PMID:16757722"
+   ],
+   "supporting_passage": "The mortality rate was 8% (24 deaths) in the clinical pathway group vs 9% (32 deaths) in the usual care group, with a weighted mean difference of 2.9% (95% CI, -2.0% to 7.9%; P = .23). There were no significant differences between the groups in health-related quality of life or functional status.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "as above / mortality, HRQoL, function",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "About 8 in 100 and 9 in 100 died; the trial did not show a clear difference in deaths, quality of life or function.",
+   "qualifications": "Not powered to show a mortality difference; say 'did not show a clear difference', not 'no effect'.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "8% vs 9%",
+     "meaning": "mortality, 24 vs 32 deaths"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-23-c",
+   "cand_id": "C15-23",
+   "claim": "What the pathway included",
+   "source_keys": [
+    "PMID:16757722"
+   ],
+   "supporting_passage": "Treatment in nursing homes according to a clinical pathway, which included use of oral antimicrobials, portable chest radiographs, oxygen saturation monitoring, rehydration, and close monitoring by a research nurse, or usual care.",
+   "location": "Abstract, Interventions",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "The home treatment included antibiotic tablets, chest X-rays taken in the home, oxygen level checks, fluids, and close checks by a dedicated research nurse.",
+   "qualifications": "UK applicability to homes without this monitoring is a judgement and should be framed as such.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-22-a",
+   "cand_id": "C15-22",
+   "claim": "Proportion of readmissions judged avoidable varies widely",
+   "source_keys": [
+    "PMID:21444623"
+   ],
+   "supporting_passage": "The median proportion of readmissions deemed avoidable was 27.1% but varied from 5% to 79%.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "34 studies of hospital readmissions, 1966-2010 / case-review judgement / proportion avoidable",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Across 34 studies, reviewers judged between 5 and 79 in 100 readmissions avoidable; the middle value was about 27 in 100.",
+   "qualifications": "Denominator is readmissions, not patients.",
+   "conflicting_or_uncertain": "Review dated (to 2010).",
+   "numbers": [
+    {
+     "value": "27.1%",
+     "meaning": "median proportion of readmissions deemed avoidable across studies"
+    },
+    {
+     "value": "5% to 79%",
+     "meaning": "range across 34 studies"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-22-b",
+   "cand_id": "C15-22",
+   "claim": "Methods mostly subjective, single centre, one reviewer; true proportion unclear",
+   "source_keys": [
+    "PMID:21444623"
+   ],
+   "supporting_passage": "Most of the studies were conducted at single teaching hospitals, did not consider information from the community or treating physicians, and used only one reviewer to decide whether readmissions were avoidable. ... All but three of the studies used subjective criteria to determine whether readmissions were avoidable. ... The true proportion of hospital readmissions that are potentially avoidable remains unclear.",
+   "location": "Abstract, Results and Interpretation",
+   "pico_timeframe": "n/a",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Most studies relied on one reviewer's judgement at a single teaching hospital, so the true share of avoidable readmissions remains unclear.",
+   "qualifications": "Position that a rate should prompt case review is judgement.",
+   "conflicting_or_uncertain": "Auerbach 2016 not checked; do not cite it.",
+   "numbers": [
+    {
+     "value": "34",
+     "meaning": "studies"
+    },
+    {
+     "value": "3",
+     "meaning": "studies not using subjective criteria"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-18-a",
+   "cand_id": "C15-18",
+   "claim": "Discharge planning slightly shortened initial stay for people admitted with a medical condition",
+   "source_keys": [
+    "PMID:35199849"
+   ],
+   "supporting_passage": "Participants allocated to discharge planning and who were in hospital for a medical condition had a small reduction in the initial hospital length of stay (MD - 0.73, 95% confidence interval (CI) - 1.33 to - 0.12; 11 trials, 2113 participants; moderate-certainty evidence)",
+   "location": "Abstract, Main results",
+   "pico_timeframe": "Inpatients with a medical condition (average age 60 to 84) / individual discharge plan / routine discharge / length of stay",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "Stays were on average about three quarters of a day shorter (moderate certainty).",
+   "qualifications": "Medical-condition subgroup, 11 trials.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "-0.73 days (95% CI -1.33 to -0.12)",
+     "meaning": "mean difference in initial length of stay"
+    },
+    {
+     "value": "33 trials, 12,242 participants",
+     "meaning": "whole review"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-18-b",
+   "cand_id": "C15-18",
+   "claim": "Modestly fewer readmissions over about three months",
+   "source_keys": [
+    "PMID:35199849"
+   ],
+   "supporting_passage": "and a relative reduction in readmission to hospital over an average of three months follow-up (RR 0.89, 95% CI 0.81 to 0.97; 17 trials, 5126 participants; moderate-certainty evidence)",
+   "location": "Abstract, Main results",
+   "pico_timeframe": "as above / readmission / average 3 months",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Readmissions over about three months were somewhat lower, roughly a tenth fewer in relative terms (moderate certainty).",
+   "qualifications": "Relative effect only; control rate not available, so no per-100 figure.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "RR 0.89 (0.81 to 0.97)",
+     "meaning": "relative readmission risk, 17 trials, 5126 participants"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-18-c",
+   "cand_id": "C15-18",
+   "claim": "Little or no difference in mortality and function; satisfaction may increase; costs uncertain",
+   "source_keys": [
+    "PMID:35199849"
+   ],
+   "supporting_passage": "There was little or no difference in participant's health status (mortality at three- to nine-month follow-up: RR 1.05, 95% CI 0.85 to 1.29; 8 trials, 2721 participants; moderate certainty) functional status and psychological health ... low certainty evidence). There was some evidence that satisfaction might be increased ... (very low certainty evidence). The cost of a structured discharge plan compared with routine discharge is uncertain",
+   "location": "Abstract, Main results",
+   "pico_timeframe": "as above",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "There was little or no difference in deaths or day-to-day function; satisfaction may be higher and costs are uncertain.",
+   "qualifications": "Certainty low to very low for function and satisfaction.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "RR 1.05 (0.85 to 1.29)",
+     "meaning": "mortality at 3-9 months"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-04-a",
+   "cand_id": "C15-04",
+   "claim": "Medication errors and discrepancies are common after discharge",
+   "source_keys": [
+    "PMID:32125666"
+   ],
+   "supporting_passage": "For adult patients, the median rate of medication errors and unintentional medication discrepancies following discharge was 53% [interquartile range 33-60.5] (n = 5 studies) and 50% [interquartile range 39-76] (n = 11), respectively.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Adults discharged to community / errors and discrepancies / follow-up 2-180 days",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Studies commonly find medicine errors or unintended differences after leaving hospital; in most studies between a third and three quarters of patients were affected.",
+   "qualifications": "Few studies (5 and 11), varying definitions; give as a range.",
+   "conflicting_or_uncertain": "",
+   "numbers": [
+    {
+     "value": "median 53% (IQR 33-60.5)",
+     "meaning": "medication errors, 5 studies"
+    },
+    {
+     "value": "median 50% (IQR 39-76)",
+     "meaning": "unintentional discrepancies, 11 studies"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-04-b",
+   "cand_id": "C15-04",
+   "claim": "Taking weekly methotrexate daily by mistake can cause serious harm; MHRA measures",
+   "source_keys": [
+    "PMID:21463347"
+   ],
+   "supporting_passage": "Intoxication with oral low-dose methotrexate (MTX) is a well-known and frequent problem, which is often discovered accidently. The major reason is error in the frequency of dosing, mostly of daily instead of weekly intake.",
+   "location": "Abstract",
+   "pico_timeframe": "case report",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "Taking a once-weekly medicine such as methotrexate every day by mistake can cause serious poisoning.",
+   "qualifications": "Case-report level only; MHRA Drug Safety Update not opened, so do not cite MHRA.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-04-c",
+   "cand_id": "C15-04",
+   "claim": "On discharge day the ward may already have given that day's doses, and a weekly medicine's day may change during admission, causing doubled or missed doses at home",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "",
+   "pico_timeframe": "",
+   "claim_type": "service or policy fact",
+   "verdict": "not_found",
+   "safe_wording": "No source found; cannot be stated as fact.",
+   "qualifications": "Central premise of the post.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-07-a",
+   "cand_id": "C15-07",
+   "claim": "Rapid discharge home for a person expected to die soon depends on several separate arrangements, and the usual causes of delay are getting home equipment, medicines and discharge documents, and poor communication between teams.",
+   "source_keys": [
+    "PMID:39009462"
+   ],
+   "supporting_passage": "Process mapping, an Ishikawa diagram and a Pareto chart were used to identify barriers, which included timely acquisition of home equipment and medication and poor communication among stakeholders. | After the team debrief, it was determined that the reasons for the two failed ComD after the third PDSA cycle from May 2022–April 2023 were due to delays in obtaining home equipment and discharge documents. | Delays in obtaining discharge medications were sometimes due to the cumbersome task of filling in manual prescription forms for controlled drugs",
+   "location": "Abstract (Methods); Results, Outcome, process and balance measures; Results, PDSA cycle 3",
+   "pico_timeframe": "People in one Singapore hospital expected to die within hours to 7 days and discharged home; QI project May 2020 to April 2023",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "A hospital improvement project in Singapore found that the usual causes of delay in getting a dying person home were getting equipment and medicines to the house, discharge paperwork, and poor communication between teams.",
+   "qualifications": "One hospital, no control group. Barriers were identified by a staff team using process mapping and voting, not measured in a trial. Do not say these are 'the main barriers' everywhere. Another batch (C13-B3, PMID:38816007) found similar barriers in an English project; not re-opened here.",
+   "conflicting_or_uncertain": "None found. Applicability to Scottish or other UK hospitals is not tested in this source.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-07-b",
+   "cand_id": "C15-07",
+   "claim": "Some people who are referred for rapid discharge to die at home die in hospital before the discharge happens.",
+   "source_keys": [
+    "PMID:39009462"
+   ],
+   "supporting_passage": "Cases where patients could not go home due to delays were termed 'failed ComD'. | After the first PDSA cycle from May 2020 to April 2021, the ComD success rate was 88.9% (n=16). Postpandemic awareness of ComD increased, with success rates of 94.2% (n=49) after the second PDSA cycle from May 2021 to Apr 2022 and 96.7% (n=59) after the third PDSA cycle from May 2022 to April 2023. Unsuccessful ComD cases were excluded as they were unrelated to the process. | After the team debrief, it was determined that the reasons for the two failed ComD after the third PDSA cycle from May 2022–April 2023 were due to delays in obtaining home equipment and discharge documents. | In the period from May 2022 to April 2023 after PDSA cycle 3, there were 19 unsuccessful ComD cases. Reasons included patient's rapid deterioration despite a smooth process (n=10), family caregiver changing their mind (n=7) and patient being unsuitable for ComD due to medical reasons (n=2). | A failed ComD is when the patient dies in the hospital despite initiating the workflow, with the failure potentially due to the workflow (eg, delays).",
+   "location": "Methods, Measures; Results, Outcome, process and balance measures; Figure 2 legend",
+   "pico_timeframe": "One Singapore hospital; people with death expected within hours to 7 days; 12 months after each of three cycles (2020 to 2023)",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one Singapore hospital's improvement project, in the year to April 2023, 59 of 61 rapid discharges got the person home (about 97 in 100); in the other 2 the person died in hospital after delays in equipment and paperwork. A further 19 requests did not go ahead for other reasons, mostly because the person got worse very quickly (10) or the family changed their mind (7).",
+   "qualifications": "Single hospital in Singapore, quality improvement project, not UK data; no comparison group or pre-project failure rate. The denominator 61 is the number of cases in which the checklist was used (stated in the paper); the 2 of 61 = 3.3% matches the paper's own '3.3%'. No UK source found for how often people die before a rapid discharge happens. Keep wording as 'in one hospital' and do not generalise to a UK rate.",
+   "conflicting_or_uncertain": "Internal inconsistency in the paper: the Measures section ties '2 patients (3.3%) dying in the hospital' to the second cycle, whereas Results tie 2 failed discharges to the third cycle. Use only the third-cycle figures. Whether the 10 who deteriorated died in hospital is not stated; say 'did not get home', not 'died'.",
+   "numbers": [
+    {
+     "value": "59 of 61 (96.7%)",
+     "meaning": "successful rapid discharges, May 2022 to April 2023, one Singapore hospital"
+    },
+    {
+     "value": "2",
+     "meaning": "failed discharges (died in hospital) in that year, due to delays in equipment and documents"
+    },
+    {
+     "value": "19",
+     "meaning": "requests that did not proceed for reasons unrelated to the workflow: 10 rapid deterioration, 7 family changed mind, 2 medically unsuitable"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-07-c",
+   "cand_id": "C15-07",
+   "claim": "Starting every step on the same day (equipment, symptom medicines, community nurses, GP, overnight care, transport) gives the best chance of getting home in time.",
+   "source_keys": [
+    "PMID:39009462"
+   ],
+   "supporting_passage": "ComD activation involves various tasks happening simultaneously. Primary doctors coordinate home palliative care, prescribe medications and discharge documents while managing other acutely ill patients. Pharmacists ensure safe and timely dispensing of opioids. Ward nurses provide caregiver training (CGT) on tasks like injectables and diaper changes, arrange oxygen and transport and communicate discharge instructions. | It is acknowledged that the success rate of ComD cannot be attributed to using the ComD resource package alone.",
+   "location": "Methods, Context; Limitations",
+   "pico_timeframe": "Descriptive account of process in one hospital; not a comparison of parallel versus sequential working",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "Rapid discharge involves several tasks that happen at the same time (equipment, medicines, paperwork, transport, training for family), and a delay in any one can stop the person getting home. Asking for each to be started at once is a reasonable judgement, but no study found here compared starting all steps together with starting them in turn.",
+   "qualifications": "The paper describes parallel tasks and a checklist; it does not test same-day starting or a named coordinator. Mark 'start everything the same day, with one named coordinator' as judgement ('We should', 'It makes sense to'), not a finding. Do not write that it 'gives the best chance'.",
+   "conflicting_or_uncertain": "Success cannot be attributed to the package (authors' limitation).",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-07-d",
+   "cand_id": "C15-07",
+   "claim": "National guidance recommends planning symptom medicines in advance (anticipatory prescribing) for the last days of life.",
+   "source_keys": [
+    "PMID:27251915"
+   ],
+   "supporting_passage": "This Concise Guideline overviews NICE Clinical Guideline (NG31), which addresses: recognising dying; communication and shared decision making; maintaining hydration; and pharmacological symptom control, including anticipatory prescribing.",
+   "location": "Abstract",
+   "pico_timeframe": "Adults in the last days of life; NICE NG31 (2015)",
+   "claim_type": "guideline recommendation",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "National NICE guidance on care in the last days of life covers planning symptom medicines in advance, so they are available at home.",
+   "qualifications": "Abstract of a summary article only; NG31 text not opened. NICE guidance formally applies to England; do not present as Scottish guidance. Do not state which medicines or how many.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-07-e",
+   "cand_id": "C15-07",
+   "claim": "In England, NHS Continuing Healthcare Fast Track funds care quickly for people who are rapidly deteriorating and may be entering a terminal phase.",
+   "source_keys": [
+    "URL:https://www.gov.uk/government/publications/nhs-continuing-healthcare-fast-track-pathway-tool/fast-track-pathway-tool-for-nhs-continuing-healthcare-guidance"
+   ],
+   "supporting_passage": "Search-engine summary only (page not opened): the tool is for people whose condition is rapidly deteriorating and may be entering a terminal phase; it is the version integrated care boards and NHS England should use from 1 July 2022; a completed tool is sufficient on its own to establish eligibility.",
+   "location": "WebSearch extract",
+   "pico_timeframe": "England, guidance July 2022",
+   "claim_type": "service or policy fact",
+   "verdict": "partly_supported",
+   "safe_wording": "Leave out. If the editor insists, say only 'In England, NHS Continuing Healthcare has a fast track route for people who are rapidly worsening', and label it England only.",
+   "qualifications": "Access is search_extract, which is not enough for an essential claim. Scotland and other UK nations use different arrangements; no source opened for them. The post's same-day principle does not depend on this claim.",
+   "conflicting_or_uncertain": "Guidance currency after August 2022 not confirmed.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C15-15-a",
+   "cand_id": "C15-15",
+   "claim": "New pressure sores develop during emergency department stays, more often in people over 75; most are early (stage I) and on the heels and sacrum.",
+   "source_keys": [
+    "PMID:23043304"
+   ],
+   "supporting_passage": "A total of 27 patients developed new PU during their ED stay, among them 20 were aged over 75 years. The cumulative incidence was 4·9% and this rate increased to 15·7% in patients aged over 75 years. | Heels and sacrum were both the main sites of PUs, and new PUs were most often localised on these two sites with a greater tendency to appear on the heels. Stage I PUs were the most often stages registered among the 38 new PUs that occurred during the ED stay [i.e. 34 (89·5%) PUs]. | Length of stay, hours (mean ± SD) 9·1 (8·5) | A proportion of 165 (27·4%) patients were older than 75 years.",
+   "location": "Results; Table 2",
+   "pico_timeframe": "602 adults in one French ED, 1 to 15 June 2010; skin examined at admission and discharge by trained nurses; new pressure ulcers (including stage I) during the ED stay; mean stay 9.1 hours",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In one French emergency department, about 5 in 100 patients developed a new pressure sore during a stay that averaged 9 hours; among people over 75 it was about 16 in 100. Most were stage I, the earliest stage (reddened skin that is still unbroken), mostly on the heels and the base of the spine.",
+   "qualifications": "One centre, two weeks in 2010; stage I included; 361 of 963 patients excluded for missing data. The incidence denominators appear to be patients without a sore on arrival (overall 602 minus 47 = 555 gives 27/555 = 4.9%; over-75s 165 minus 38 = 127 gives 20/127 = 15.7%): this is the checker's arithmetic, not a statement in the paper. 20 of 165 over-75s would be 12%, so do not compute any other percentage. Say 'in one French emergency department'.",
+   "conflicting_or_uncertain": "Stay longer than 4 hours was linked with new sores only before adjustment (92.6% of those with new sores versus 67.5% without, P = 0.014); after adjustment length of stay was not independent (OR 1.5, 95% CI 0.3 to 7.5, P = 0.618), whereas more long-term conditions (OR 1.3) and higher CRP (OR 1.005) were. So the study does not show that longer waits independently raise the risk; the abstract's wording that a short stay is 'sufficient to induce' sores is causal and must not be repeated. The study did not test repositioning or any preventive measure.",
+   "numbers": [
+    {
+     "value": "4.9%",
+     "meaning": "cumulative incidence of new pressure ulcers during ED stay, all patients without a sore on arrival"
+    },
+    {
+     "value": "15.7%",
+     "meaning": "same, patients over 75"
+    },
+    {
+     "value": "20 of 27",
+     "meaning": "patients with new ulcers who were over 75"
+    },
+    {
+     "value": "34 of 38 (89.5%)",
+     "meaning": "new ulcers that were stage I"
+    },
+    {
+     "value": "9.1 hours (SD 8.5)",
+     "meaning": "mean ED length of stay"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-b",
+   "cand_id": "C15-15",
+   "claim": "Older people are more likely than younger adults to have long emergency department stays.",
+   "source_keys": [
+    "PMID:36074240"
+   ],
+   "supporting_passage": "Attendances of adults aged 65 to 74 years, 75 to 84 years and ≥ 85 years, respectively, had an increased risk (odds ratio (95% confidence interval) of length of ED stay ≥ 4 h of 1.52 (1.45-1.58), 1.65 (1.58-1.72), and 1.84 (1.75-1.93), compared to those of adults 18 to 64 years (all p < 0.001). | Table 3 (stay ≥ 4 h, all attendances): Aged 18 to 64 years 45,311 (43.6); 65 to 74 years 9,027 (63.1); 75 to 84 years 11,156 (71.4); ≥ 85 years 10,142 (79.0)",
+   "location": "Abstract, Results; Table 3",
+   "pico_timeframe": "146,636 adult attendances, one English ED, 2019; stay of 4 hours or more; odds ratios adjusted for socio-demographic and clinical factors including triage acuity",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "At one large English emergency department in 2019, about 44 in 100 visits by adults aged 18 to 64 lasted 4 hours or more, compared with about 71 in 100 visits by people aged 75 to 84 and about 79 in 100 by people aged 85 or over.",
+   "qualifications": "One hospital, one year; counts visits (a person can attend more than once), not people; 4 hours is the cut-off, so it says nothing about 12-hour waits. Percentages are the crude figures; the adjusted odds ratios should not be turned into 'times more likely'.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "43.6% / 63.1% / 71.4% / 79.0%",
+     "meaning": "visits with ED stay of 4 hours or more, ages 18-64 / 65-74 / 75-84 / 85+, Nottingham 2019"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-c",
+   "cand_id": "C15-15",
+   "claim": "Usual medicines can be given late or missed in hospital, and for time-critical medicines such as Parkinson's drugs this is linked with harm.",
+   "source_keys": [
+    "PMID:35402654",
+    "PMID:28065403"
+   ],
+   "supporting_passage": "Richard 2022: Time-critical medications were prescribed correctly on admission in 50% of admissions, with errors in medication timing most common (31.6%). Of all doses, 51.7% were administered >30 minutes late, and 29.7% of doses were administered >1 hour late. | Lertxundi 2017: Medication errors, affecting almost one third of admissions and half of patients, were associated with higher mortality: inappropriately omitted dopaminergic drug doses OR = 1.92 CI 95% (1.34-2.76). Inappropriately omitted doses and both inappropriate antipsychotic and antiemetic administration were associated with a significant 4-day increase in median hospital stay.",
+   "location": "Abstracts, Results",
+   "pico_timeframe": "People with Parkinson's disease admitted to hospital (Dublin 15 months; Basque Country 2011-2012); dose timing/omission; length of stay and in-hospital mortality",
+   "claim_type": "empirical",
+   "verdict": "partly_supported",
+   "safe_wording": "For some medicines, such as Parkinson's drugs, timing matters. In one Dublin hospital, about half of Parkinson's doses were given more than 30 minutes late. In Spanish hospitals, missed Parkinson's doses were linked with longer stays and more deaths in hospital.",
+   "qualifications": "Inpatient wards, not emergency department waits; Parkinson's only; observational (link, not proof). The sources do not cover medicines in general, and the NPSA 2010 report on omitted and delayed medicines was not opened, so do not cite it. Ask 'when are my usual medicines due?' as a question without claiming harm from a missed dose for all medicines.",
+   "conflicting_or_uncertain": "No emergency-department-specific source on missed doses during long waits was found.",
+   "numbers": [
+    {
+     "value": "51.7% and 29.7%",
+     "meaning": "Parkinson's doses given more than 30 minutes and more than 1 hour late, Dublin, 102 admissions"
+    },
+    {
+     "value": "OR 1.92 (1.34 to 2.76)",
+     "meaning": "in-hospital death, omitted dopaminergic doses, adjusted odds ratio, Basque Country; do not convert to 'times more likely'"
+    }
+   ]
+  },
+  {
+   "claim_id": "C15-15-d",
+   "cand_id": "C15-15",
+   "claim": "During a long wait an older person still needs a drink (if allowed), help to the toilet, and help to change position, and it is reasonable to ask for each.",
+   "source_keys": [],
+   "supporting_passage": "No source opened on dehydration, continence or repositioning during emergency department waits.",
+   "location": "Not applicable",
+   "pico_timeframe": "",
+   "claim_type": "definition",
+   "verdict": "not_found",
+   "safe_wording": "Present as a judgement and as questions ('Ask whether they are allowed to drink', 'Ask for help to the toilet', 'Ask whether they can be helped to change position'). Make no claim that any of these prevents harm in the emergency department.",
+   "qualifications": "The pressure-sore data (C15-15-a) show the risk exists but do not test repositioning.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C15-12",
+   "status": "revise",
+   "reason": "Main outcomes supported by abstract; carer outcome claim not verified and RR 0.58 must not be used.",
+   "revised_angle": "Keep the per-100 comparison (living at home, died, residential care) with applicability to selected stable people; remove the promise of trial findings on families and replace with a judgement-framed prompt for families to ask what care at home involves.",
+   "essential_claim_ids": [
+    "C15-12-a",
+    "C15-12-b",
+    "C15-12-c",
+    "C15-12-d"
+   ]
+  },
+  {
+   "cand_id": "C15-23",
+   "status": "ready",
+   "reason": "All figures and pathway content in abstract; frame as one Canadian trial with dedicated nurse monitoring.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-23-a",
+    "C15-23-b",
+    "C15-23-c"
+   ]
+  },
+  {
+   "cand_id": "C15-18",
+   "status": "ready",
+   "reason": "All estimates confirmed as the medical-condition subgroup; readmission as relative effect only (no per-100 figure available).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-18-a",
+    "C15-18-b",
+    "C15-18-c"
+   ]
+  },
+  {
+   "cand_id": "C15-22",
+   "status": "ready",
+   "reason": "Range, median and method weaknesses confirmed; do not use Auerbach or Fischer (unchecked).",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-22-a",
+    "C15-22-b"
+   ]
+  },
+  {
+   "cand_id": "C15-04",
+   "status": "drop",
+   "reason": "Central claim C15-04-c (doses already given on discharge day / weekly day shifting causing doubled or missed doses) has no source; MHRA alert not opened. Per editor guidance replace with C15-15. Further PubMed searches (2026-09-25) for last-dose-time information at discharge and for weekly-dosing errors at transfer found no source for the central claim; fallback is C15-15.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C15-04-a",
+    "C15-04-b",
+    "C15-04-c"
+   ]
+  },
+  {
+   "cand_id": "C15-07",
+   "status": "revise",
+   "reason": "Barriers to rapid discharge (equipment, medicines, paperwork, communication) and the fact that a small number of people die in hospital before rapid discharge are supported by one Singapore quality improvement project (full text opened), not by UK data. The claim that starting everything the same day gives the best chance is untested (judgement only). Fast Track is search_extract only and England only. NICE NG31 anticipatory prescribing supported by abstract only.",
+   "revised_angle": "Same-day principle for all UK readers framed as judgement: a rapid discharge home to die involves several separate tasks (equipment, medicines for symptoms, paperwork, community nurses, transport), delays in any one can stop it, so ask for each to be started at once and ask who is coordinating. Use the Singapore figures as 'in one hospital' (59 of 61 got home; 2 died in hospital after delays in equipment and paperwork). Leave NHS Continuing Healthcare Fast Track out. Fallback C15-15 if the editor wants UK-sourced numbers.",
+   "essential_claim_ids": [
+    "C15-07-a",
+    "C15-07-b",
+    "C15-07-c",
+    "C15-07-d"
+   ]
+  },
+  {
+   "cand_id": "C15-15",
+   "status": "revise",
+   "reason": "Risk context supported (pressure sores in one French ED; older people have longer ED stays in Nottingham), but the stay-length link is not independent after adjustment, medicine-timing evidence is Parkinson's inpatient only, and the four basic-care requests have no source (judgement).",
+   "revised_angle": "Keep the four requests as questions framed as judgement. Add one verified fact: in one French emergency department about 5 in 100 patients (about 16 in 100 over 75) developed a new, mostly early, pressure sore in a stay averaging 9 hours; and in Nottingham about 79 in 100 visits by people aged 85 or over lasted 4 hours or more. Do not say longer waits cause sores or that repositioning prevents them. Schedule apart from C15-14.",
+   "essential_claim_ids": [
+    "C15-15-a",
+    "C15-15-b",
+    "C15-15-c",
+    "C15-15-d"
+   ]
+  }
+ ]
+}

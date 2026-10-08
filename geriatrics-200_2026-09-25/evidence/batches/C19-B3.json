@@ -212,6 +212,51 @@
    "tool_used": "PubMed get_article_metadata",
    "correction_check": "PubMed search 2026-09-26: PMID with retracted publication[pt], retraction of publication[pt], expression of concern[pt], hasretractionin, haserratumin: no records. Scite not used.",
    "quality_note": "Single region, US; active comparator."
+  },
+  {
+   "key": "PMID:40619871",
+   "citation": "Beckers M, Hommel D, Lennaerts H, Stuijt C, Smit P, Bloem BR. Discontinuation or acute unplanned cessation of oral dopaminergic medications in persons with Parkinson's disease: a practice review. J Parkinsons Dis. 2025;15(6):1062-77.",
+   "pmid": "40619871",
+   "pmcid": "PMC13347516",
+   "doi": "10.1177/1877718X251356896",
+   "public_url": "https://doi.org/10.1177/1877718X251356896",
+   "design": "Narrative practice review with expert-derived stepwise strategy",
+   "population_setting": "People with Parkinson's disease who cannot take oral dopaminergic medicines (hospital, late-stage disease, end of life)",
+   "year": 2025,
+   "access": "full_text",
+   "tool_used": "PubMed get_full_text_article (PMC13347516)",
+   "correction_check": "PubMed search 2026-10-08: PMID with retracted publication[pt], retraction of publication[pt], published erratum[pt], expression of concern[pt], hasretractionin, haserratumin: no records. Scite not used.",
+   "quality_note": "Expert practice review, not a guideline or systematic review; recommendations rest on case series and opinion. Authors state the evidence for rotigotine at end of life is scarce."
+  },
+  {
+   "key": "PMID:37838081",
+   "citation": "Hewer C, Richfield E, Halton C, Alty J. Transdermal rotigotine at end-of-life for Parkinson's disease: association with measures of distress. J Pain Symptom Manage. 2024;67(2):e121-8.",
+   "pmid": "37838081",
+   "pmcid": null,
+   "doi": "10.1016/j.jpainsymman.2023.10.002",
+   "public_url": "https://doi.org/10.1016/j.jpainsymman.2023.10.002",
+   "design": "Retrospective audit of case records",
+   "population_setting": "People with Parkinson's disease who died Jan 2019 to May 2022 at one Australian hospital; last 72 hours of life",
+   "year": 2023,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search 2026-10-08: PMID with retracted publication[pt], retraction of publication[pt], published erratum[pt], expression of concern[pt], hasretractionin, haserratumin: no records. Scite not used.",
+   "quality_note": "Single-centre retrospective audit; small numbers (about 63 people, 52 eligible for rotigotine); associations only."
+  },
+  {
+   "key": "PMID:36126303",
+   "citation": "Kim W, Watt CL, Enright P, Sikora L, Zwicker J. Management of motor symptoms for patients with advanced Parkinson's disease without safe oral access: a scoping review. J Palliat Med. 2023;26(1):131-41.",
+   "pmid": "36126303",
+   "pmcid": null,
+   "doi": "10.1089/jpm.2022.0193",
+   "public_url": "https://doi.org/10.1089/jpm.2022.0193",
+   "design": "Scoping review (20 articles: 5 case reports, 1 retrospective cohort, 1 book chapter, 13 narrative reviews)",
+   "population_setting": "People with Parkinson's disease and dysphagia eligible for palliative care or at end of life",
+   "year": 2022,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search 2026-10-08: PMID with retracted publication[pt], retraction of publication[pt], published erratum[pt], expression of concern[pt], hasretractionin, haserratumin: no records. Scite not used.",
+   "quality_note": "Shows how thin the evidence is; no trials."
   }
  ],
  "claims": [
@@ -418,16 +463,17 @@
    "cand_id": "C19-22",
    "claim": "Abrupt stopping of Parkinson's medicines can rarely cause parkinsonism-hyperpyrexia syndrome, a dangerous condition resembling neuroleptic malignant syndrome.",
    "source_keys": [
+    "PMID:40619871",
     "PMID:35811538"
    ],
-   "supporting_passage": "Parkinsonism-hyperpyrexia syndrome (PHS) and dyskinesia-hyperpyrexia syndrome (DHS) are rare but exhibit life-threatening complications in Parkinson's disease (PD). ... The first case was diagnosed as PHS ... caused by abrupt withdrawal of antiparkinsonian medication. ... There were stark differences between PHS and DHS, including triggers (abrupt drug stoppage versus drug abuse), symptoms (worsened tremor and rigidity versus continuous dyskinesia)",
-   "location": "Abstract",
+   "supporting_passage": "Beckers 2025 (full text, Introduction): \"In rare cases, acute cessation causes parkinsonism-hyperpyrexia syndrome. This potentially life-limiting syndrome is a specific form of neuroleptic malignant syndrome and consists of severe rigidity, autonomic dysfunction (e.g., hyperthermia, tachycardia), rhabdomyolysis and disturbances of consciousness.\" And: \"Acute cessation of levodopa might result in a severe relapse of PD symptoms ... This includes a worsening of motor symptoms, such as akinesia, rigidity or tremor, and also of non-motor symptoms, such as anxiety and pain.\" End-of-life section: \"If a person has sufficient symptom control with palliative treatments, including palliative sedation, one can opt to omit dopaminergic treatment altogether – although sudden cessation carries a risk of parkinsonism-hyperpyrexia syndrome.\" Also: \"In the 72 h before death, severe motor symptoms were present in only 6% of persons in one study.\" Wang 2022 abstract (retained): \"...caused by abrupt withdrawal of antiparkinsonian medication.\"",
+   "location": "Beckers: Introduction; 'Unplanned cessation ... at the end of life'. Wang: Abstract",
    "pico_timeframe": "Case reports and review of 56 cases",
    "claim_type": "empirical",
    "verdict": "supported_with_qualification",
-   "safe_wording": "Stopping Parkinson's medicines suddenly can, rarely, trigger a dangerous reaction with high fever and severe stiffness.",
-   "qualifications": "Rare; evidence from case reports.",
-   "conflicting_or_uncertain": "Frequency near death unknown.",
+   "safe_wording": "Stopping Parkinson's medicines suddenly can bring severe stiffness, pain and anxiety, and in rare cases a dangerous reaction with high fever. At the end of life, some people have good symptom control without them, so the decision is individual: ask what is making the person uncomfortable, and decide on purpose rather than by default.",
+   "qualifications": "Withdrawal syndrome is rare. Expert review, not trial evidence. Reviewers note that tapering off dopaminergic medicine may be possible with limited harm in some people; terminal stiffness was documented in only 3 of 51 people in the 72 hours before death (Wilson 2024) and 6% in one study cited by Beckers. The post must not say that stopping is always harmful.",
+   "conflicting_or_uncertain": "Several experts argue dopaminergic medicine can be tapered at the end of life with limited negative consequences; others continue it until death. Frequency of the withdrawal syndrome near death is unknown.",
    "numbers": []
   },
   {
@@ -435,44 +481,70 @@
    "cand_id": "C19-22",
    "claim": "A rotigotine skin patch is commonly used when oral Parkinson's medicines can no longer be swallowed at the end of life; conversion is approximate.",
    "source_keys": [
+    "PMID:40619871",
     "PMID:34213758",
-    "PMID:33264385"
+    "PMID:33264385",
+    "PMID:37838081",
+    "PMID:36126303"
    ],
-   "supporting_passage": "Hindmarsh: \"when oral administration of antiparkinsonian medications is no longer possible in dying patients, it is becoming common place to initiate transdermal rotigotine, despite a paucity of evidence to guide dosing. ... The majority of patients were converted to transdermal rotigotine (90%). Patients converted to a higher than equivalent dose of rotigotine were more likely to be agitated (p < 0.05)\" Ibrahim: \"25 (30%) patients were prescribed the recommended dose of Rotigotine; 31 (37%) higher and 28 (33%) lower than recommended. ... Inappropriate dosing may precipitate or worsen delirium/hallucinations. Use at end-of-life requires further evaluation.\"",
-   "location": "Abstracts",
+   "supporting_passage": "Hindmarsh: \"when oral administration of antiparkinsonian medications is no longer possible in dying patients, it is becoming common place to initiate transdermal rotigotine, despite a paucity of evidence to guide dosing. ... The majority of patients were converted to transdermal rotigotine (90%). Patients converted to a higher than equivalent dose of rotigotine were more likely to be agitated (p < 0.05)\" Ibrahim: \"25 (30%) patients were prescribed the recommended dose of Rotigotine; 31 (37%) higher and 28 (33%) lower than recommended. ... Inappropriate dosing may precipitate or worsen delirium/hallucinations. Use at end-of-life requires further evaluation.\" || Beckers 2025: \"Based on these studies, transdermal rotigotine is the most widely used non-oral strategy at the end of life. In a UK-based cohort of 51 PwP at the end-of-life, 55% had dopaminergic medication substituted with transdermal rotigotine at death. However, evidence regarding its effectiveness is scarce\" and \"The equivalency factor from levodopa to transdermal rotigotine is 30:1 and the maximum dose of rotigotine is 16 mg/24 h, corresponding to 480 mg levodopa.\" and \"it can sometimes induce psychotic symptoms or worsen autonomic symptoms\" and \"as many as 24% of subjects developed a delirium\" (in a study of people with advanced PD started on a rotigotine patch). || Hewer 2024 abstract: \"83% (n = 52) of PWP were eligible for rotigotine and, of those, 13% (n = 7) received the correct dose, 38% (n = 20) a lower dose, 12% (n = 6) a higher dose and 37% (n = 19) did not receive any. ... Rotigotine dose and admission LEDD were both associated with proxy measures of distress in the last 72 hours of life. This suggests cautious use of rotigotine at EOL.\" || Kim 2023 abstract: \"Although rotigotine patch and apormorphine injections are most frequently recommended, there are no clinical trials in this patient population to support those recommendations.\"",
+   "location": "Beckers: 'Unplanned cessation ... at the end of life' and Table 1; Hewer, Kim: Abstracts",
    "pico_timeframe": "UK hospital inpatients with Parkinson's, retrospective",
    "claim_type": "empirical",
    "verdict": "supported_with_qualification",
-   "safe_wording": "When a person with Parkinson's can no longer swallow near the end of life, a rotigotine skin patch is often used instead. Getting the dose right is hard: in one UK hospital only 3 in 10 patches matched the recommended conversion, and higher doses were linked with confusion or agitation. Ask pharmacy or the Parkinson's team.",
-   "qualifications": "Observational single-centre studies; dosing evidence thin.",
-   "conflicting_or_uncertain": "Hindmarsh found lower-than-equivalent doses possibly better tolerated.",
+   "safe_wording": "When a person with Parkinson's can no longer swallow, a rotigotine skin patch is the most widely used non-oral option near the end of life, but no trials show it works there. Doses are approximate (about 30 mg of levodopa to 1 mg of rotigotine), the patch cannot replace high levodopa doses, and too high a dose is linked with confusion, hallucinations and agitation. In one Australian hospital, only 7 of 52 eligible people got the recommended dose. Agree the dose with pharmacy or the Parkinson's team.",
+   "qualifications": "Observational and expert-opinion evidence only. Absorption through skin can be reduced by sweating, weight loss and poor circulation. Apomorphine and subcutaneous levodopa are other non-oral routes but need specialist set-up and may be unavailable. Use the conversion ratio only if the practitioner audience is the target and label it approximate.",
+   "conflicting_or_uncertain": "Case reports conflict (two improved, two had insufficient effect). Hindmarsh found lower-than-equivalent doses possibly better tolerated. Rotigotine dose was associated with more benzodiazepine use in the last 72 hours (Hewer).",
    "numbers": [
+    {
+     "value": "30:1",
+     "meaning": "levodopa to rotigotine equivalence factor; maximum rotigotine 16 mg/24 h corresponds to 480 mg levodopa (Beckers)"
+    },
+    {
+     "value": "7 of 52 (13%)",
+     "meaning": "eligible people given the correct rotigotine dose in the last 72 hours of life, one Australian hospital (Hewer)"
+    },
+    {
+     "value": "25 of 84 (30%)",
+     "meaning": "patches prescribed at the recommended dose, UK teaching hospital (Ibrahim)"
+    },
     {
      "value": "90%",
      "meaning": "of 100 dying inpatients converted to rotigotine (Hindmarsh)"
     },
     {
-     "value": "25 of 84 (30%)",
-     "meaning": "prescribed recommended dose (Ibrahim)"
+     "value": "55% of 51",
+     "meaning": "UK cohort with dopaminergic medicine substituted with rotigotine at death (quoted by Beckers)"
     }
    ]
   },
   {
    "claim_id": "C19-22-c",
    "cand_id": "C19-22",
-   "claim": "Centrally acting dopamine-blocking anti-sickness and antipsychotic drugs should be avoided in Parkinson's.",
+   "claim": "Dopamine-blocking medicines (for example metoclopramide and haloperidol) are contraindicated in Parkinson's disease, including near the end of life, and are still prescribed.",
    "source_keys": [
+    "PMID:37838081",
+    "PMID:40619871",
     "PMID:28065403"
    ],
-   "supporting_passage": "Medication errors involved incorrect timing or the complete omission of administration for dopaminergic drugs, and the administration of centrally acting antidopaminergics. ... inappropriate antiemetic administration OR = 2.15 CI 95% (1.36-3.39); and inappropriate antipsychotic administration OR = 1.91 ... Inappropriately omitted doses and both inappropriate antipsychotic and antiemetic administration were associated with a significant 4-day increase in median hospital stay.",
-   "location": "Abstract",
+   "supporting_passage": "Hewer 2024 abstract: \"Contraindicated dopamine antagonists were prescribed for 43% of PWP and administered in 31% of those cases.\" || Beckers 2025 (full text, surgery section): \"certain drugs which are commonly used periprocedurally are contraindicated in PwP (examples include ketamine, metoclopramide and haloperidol).\" || Lertxundi 2017 abstract: \"...the administration of centrally acting antidopaminergics. ... inappropriate antiemetic administration OR = 2.15 CI 95% (1.36-3.39); and inappropriate antipsychotic administration OR = 1.91 ... Inappropriately omitted doses and both inappropriate antipsychotic and antiemetic administration were associated with a significant 4-day increase in median hospital stay.\"",
+   "location": "Hewer: Abstract (Results). Beckers: Surgery section. Lertxundi: Abstract",
    "pico_timeframe": "1628 PD inpatients, Spain / antidopaminergic drugs / none / mortality, LOS",
    "claim_type": "empirical",
    "verdict": "supported_with_qualification",
-   "safe_wording": "Anti-sickness and calming medicines that block dopamine in the brain count as medication errors in Parkinson's, and in one large hospital study their use was linked with longer stays and more deaths. Check each medicine with pharmacy.",
-   "qualifications": "Observational; not end-of-life-specific. Named drugs (haloperidol, metoclopramide) appear only as keywords; NICE NG71 wording not opened. Do not name 'safe' alternatives: not verified.",
-   "conflicting_or_uncertain": "Levomepromazine and other palliative staples also block dopamine; guideline not opened.",
-   "numbers": []
+   "safe_wording": "Metoclopramide and haloperidol block dopamine and are listed as contraindicated in Parkinson's disease. In an Australian audit of people with Parkinson's who died in hospital, 43% were prescribed a contraindicated dopamine blocker and 31% of those prescriptions were given. Check every anti-sickness, calming and sedative medicine on the chart against its dopamine-blocking effect.",
+   "qualifications": "Beckers names metoclopramide and haloperidol (with ketamine) in a perioperative context, not specifically for the last days of life; the Hewer audit is end-of-life but its abstract does not list the drugs. Do not name safe alternatives or other drugs (for example levomepromazine, prochlorperazine) as unsafe or safe: not verified from an opened source. NICE NG71 and Scottish guideline text could not be opened. Lertxundi is observational and not end-of-life specific.",
+   "conflicting_or_uncertain": "Beckers notes opioids and benzodiazepines, otherwise best avoided in earlier disease, are the mainstay at the end of life; and for confusion lorazepam or midazolam subcutaneously are suggested. Guideline-level list of dopamine-blocking drugs to avoid not verified.",
+   "numbers": [
+    {
+     "value": "43%",
+     "meaning": "of people with Parkinson's who died at one Australian hospital were prescribed a contraindicated dopamine antagonist (Hewer; denominator about 63 people, check full text before using)"
+    },
+    {
+     "value": "31%",
+     "meaning": "of those prescriptions were administered"
+    }
+   ]
   },
   {
    "claim_id": "C19-29-a",
@@ -581,8 +653,8 @@
   {
    "cand_id": "C19-22",
    "status": "revise",
-   "reason": "Withdrawal risk, rotigotine use and dosing difficulty, and avoidance of dopamine-blocking drugs supported (observational/case-level). Named 'safe' alternatives and guideline wording (NICE NG71, Scottish guidelines) not verified.",
-   "revised_angle": "Do not simply stop Parkinson's medicines when swallowing stops: ask pharmacy or the Parkinson's team about a rotigotine patch (dosing is approximate; too high a dose is linked with confusion), and avoid anti-sickness and calming drugs that block dopamine. Do not name specific alternative drugs.",
+   "reason": "Withdrawal risk, rotigotine as the most widely used non-oral route (with scarce effectiveness evidence and approximate dosing), and dopamine blockers contraindicated (metoclopramide, haloperidol named in an opened full text; 43% prescribed in an Australian end-of-life audit) are now supported by an opened full-text practice review plus abstracts. The editor's position 'convert, not simply stop' is stronger than the evidence: the review says some people do well with tapering and omission when comfort is controlled. NICE NG71 and Scottish guideline text not opened; no named safe alternatives.",
+   "revised_angle": "Teaching round: 'stop all oral medicines' is a decision, not a default, for a person with Parkinson's who can no longer swallow. Sudden withdrawal can bring severe stiffness, pain and anxiety and, rarely, a dangerous fever reaction. Ask what is causing discomfort and decide on purpose. A rotigotine patch is the most widely used non-oral route (no trial evidence; dose approximate and agreed with pharmacy or the Parkinson's team; too high a dose is linked with confusion and agitation). Whatever is chosen, check the chart for dopamine-blocking medicines (metoclopramide, haloperidol named), which are contraindicated. Do not name alternative drugs.",
    "essential_claim_ids": [
     "C19-22-a",
     "C19-22-b",

@@ -1,128 +1,534 @@
 [
   {
-    "tmp_id": "C10-P08",
-    "where": "captions.threads",
-    "old": "UK specialists advise pausing it every 3 months to check it still helps.",
-    "new": "UK prescribing advice is to pause it every 3 months to check it still helps.",
-    "reason": "major: Misattribution. The 3-monthly pause is UK prescribing advice (BNF 2010 as reported by Cochrane). The 'specialist' review (Rabbitt 2016, Age Ageing) is by geriatricians in Galway, Ireland, and says only: restrict to severe symptoms, review regularly, discuss risks and benefits."
-  },
-  {
-    "tmp_id": "C10-P08",
-    "where": "captions.linkedin",
-    "old": "What UK specialists advise:",
-    "new": "What the advice says (a review by specialists in older people's medicine, and UK prescribing advice reported in a Cochrane review):",
-    "reason": "major: Same misattribution. Rabbitt 2016 is Irish, and points 2 and 3 (4 weeks, 3-monthly pause) come from the BNF 2010 as reported in the Cochrane review, not from specialists."
-  },
-  {
-    "tmp_id": "C10-P08",
-    "where": "captions.x",
-    "old": "Specialist advice is to keep it for severe cramps and pause it every 3 months to check it still helps.",
-    "new": "Specialist advice is to keep it for severe cramps and review it regularly; UK prescribing advice is to pause it every 3 months to check it still helps.",
-    "reason": "minor: Merges two sources: the 3-monthly pause is UK prescribing advice (BNF 2010), not the specialist review."
-  },
-  {
-    "tmp_id": "C10-P08",
-    "where": "captions.bluesky",
-    "old": "In trials it cut cramps from about 9 to 6 or 7 a fortnight, with rare serious harms. Advice is to pause it every 3 months to check it helps; many people stop without a clear rise in cramps.",
-    "new": "In trials it cut cramps from about 9 to 6 or 7 a fortnight (low-quality evidence), with rare serious harms. UK advice is to pause it every 3 months; in one trial, advice to stop did not show a clear rise in cramps.",
-    "reason": "minor: The 'low quality evidence' qualification is dropped, and 'many people stop' overstates the trial finding (26.5 percentage points more had stopped at 12 weeks; the cramp comparison was uncertain)."
-  },
-  {
-    "tmp_id": "C10-P06",
-    "where": "visual_brief.slides.0.text.body",
-    "old": "Many people with marked changes have little pain. Many with knee pain have fairly normal X-rays.",
-    "new": "Many people with arthritis changes on the X-ray have little pain. Many with knee pain have fairly normal X-rays.",
-    "reason": "major: 'Marked' is stronger than the source. Bedson and Croft describe radiographic OA in general, and Neogi shows severe (KL grade 4) changes are strongly associated with pain. The claim record wording is 'arthritis changes'."
-  },
-  {
-    "tmp_id": "C10-P06",
-    "where": "visual_text.2",
-    "old": "Many people with marked changes have little pain. Many with knee pain have fairly normal X-rays.",
-    "new": "Many people with arthritis changes on the X-ray have little pain. Many with knee pain have fairly normal X-rays.",
-    "reason": "major: 'Marked' is stronger than the source. Bedson and Croft describe radiographic OA in general, and Neogi shows severe (KL grade 4) changes are strongly associated with pain. The claim record wording is 'arthritis changes'."
-  },
-  {
-    "tmp_id": "C10-P06",
-    "where": "captions.bluesky",
-    "old": "Many people with marked changes have little pain, and the reverse.",
-    "new": "Many people with arthritis changes on the X-ray have little pain, and the reverse.",
-    "reason": "major: 'Marked' overstates the source, as on the visual."
-  },
-  {
-    "tmp_id": "C10-P06",
-    "where": "alt_text.0",
-    "old": "Many people with marked X-ray changes have little pain",
-    "new": "Many people with arthritis changes on the X-ray have little pain",
-    "reason": "major: Same overstatement."
-  },
-  {
-    "tmp_id": "C10-P06",
-    "where": "captions.x",
-    "old": "all described their knee as 'bone on bone', and many had set exercise aside for fear of damage.",
-    "new": "all described their knee as 'bone on bone'. Many believed exercise could damage the joint, and many had set it aside. A small study of beliefs, not proof of cause.",
-    "reason": "minor: Links avoidance to a single motive, and does not say that this small qualitative study shows beliefs, not cause."
-  },
-  {
-    "tmp_id": "C10-P05",
-    "where": "captions.bluesky",
-    "old": "Few older people were included. We would not start it for sciatica, and would review it.",
-    "new": "Average age was early to mid 50s. In our judgement, it should not be started for sciatica, and existing prescriptions deserve review.",
-    "reason": "minor: 'Few older people' is not quantified in the source (mean age 52 to 55, SD about 16 to 17). The opinion is stated as a first-person practice claim without the 'judgement' framing the other versions use."
-  },
-  {
-    "tmp_id": "C10-P02",
-    "where": "visual_brief.slides.0.text.labels.1",
-    "old": "No troublesome pain reported: about 87 in 100",
-    "new": "Other 87 in 100: did not report troublesome pain in these studies",
-    "reason": "minor: The complement is presented as a finding. The authors rated confidence as low and think true figures are higher because of loss to follow-up, so '87 in 100 without pain' is too confident."
-  },
-  {
-    "tmp_id": "C10-P02",
-    "where": "visual_text.6",
-    "old": "No troublesome pain reported: about 87 in 100",
-    "new": "Other 87 in 100: did not report troublesome pain in these studies",
-    "reason": "minor: The complement is presented as a finding. The authors rated confidence as low and think true figures are higher because of loss to follow-up, so '87 in 100 without pain' is too confident."
-  },
-  {
-    "tmp_id": "C10-P02",
-    "where": "captions.x",
-    "old": "Studies defined troublesome pain in different ways, and the authors think the true figures are probably higher",
-    "new": "Studies defined troublesome pain in different ways, the authors rated their confidence as low, and they think the true figures are probably higher",
-    "reason": "minor: Drops the authors' low-confidence rating."
-  },
-  {
-    "tmp_id": "C10-P07",
-    "where": "captions.x",
-    "old": "Roughly twice the rate, still uncommon, and observational.",
-    "new": "Roughly twice the rate, with wide uncertainty; still uncommon, in adults of all ages, and observational.",
-    "reason": "minor: Drops the wide uncertainty qualification (adjusted HR 2.05, 95% CI 1.08 to 3.86) and the all-ages population."
+    "tmp_id": "C10-P01",
+    "where": "bluesky",
+    "old": "Both point strongly to lumbar spinal stenosis. Artery pain eases on standing still. The two can coexist, so check foot pulses or ankle pressure anyway.",
+    "new": "Both point strongly to lumbar spinal stenosis. Calf pain that eases on standing still points towards the arteries. The two can coexist, so check foot pulses or ankle pressure anyway.",
+    "reason": "major: 'Artery pain eases on standing still' was a general rule; only Nadeau 2013 (53 diagnosed patients, single features weak) supports calf pain easing on standing still as a pointer."
   },
   {
     "tmp_id": "C10-P01",
-    "where": "captions.x",
-    "old": "no pain when sitting and relief on bending forward were the strongest single pointers to lumbar spinal stenosis",
-    "new": "no pain when sitting and relief on bending forward were the strongest single pointers to lumbar spinal stenosis (mostly in specialist clinics)",
-    "reason": "minor: Drops the required qualification that the estimates come mostly from specialist clinics."
+    "where": "threads",
+    "old": "Artery pain usually eases on standing still and isn't helped by bending forward.",
+    "new": "Calf pain that eases on standing still points towards the arteries, and artery pain is usually not helped by bending forward.",
+    "reason": "major: 'usually eases on standing still' is not a finding."
+  },
+  {
+    "tmp_id": "C10-P01",
+    "where": "visual_text",
+    "old": "They can occur together: check foot pulses or ankle pressure anyway.",
+    "new": "No single answer settles it, and the two can occur together: check foot pulses or ankle pressure anyway.",
+    "reason": "major: card must say that single features are weak guides (C10-22-d)."
+  },
+  {
+    "tmp_id": "C10-P01",
+    "where": "visual_brief.slides[0].text.body",
+    "old": "They can occur together: check foot pulses or ankle pressure anyway.",
+    "new": "No single answer settles it, and the two can occur together: check foot pulses or ankle pressure anyway.",
+    "reason": "Keep visual_brief consistent with visual_text (major fix)."
+  },
+  {
+    "tmp_id": "C10-P01",
+    "where": "alt_text",
+    "old": "Bottom line: the two can occur together, so check foot pulses or ankle pressure anyway.",
+    "new": "Bottom line: no single answer settles it, and the two can occur together, so check foot pulses or ankle pressure anyway.",
+    "reason": "minor: mirror of visual text."
+  },
+  {
+    "tmp_id": "C10-P01",
+    "where": "x",
+    "old": "In a Japanese study of 570 people with stenosis, about 7 in 100 also had narrowed leg arteries, and half of those had not been picked up.",
+    "new": "In a Japanese study of 570 people with stenosis seen in specialist clinics, about 7 in 100 also had narrowed leg arteries, and about half of those had not been picked up before.",
+    "reason": "minor: setting omitted; 'half' is 18 of 38."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "x",
+    "old": "because people with poor results often drop out of follow-up.",
+    "new": "because many people were lost to follow-up.",
+    "reason": "minor: who dropped out is an inference; paper says loss to follow-up and risk of bias."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "linkedin",
+    "old": "The authors rated their confidence as low and think the true figures are probably higher. People with poor results are often the ones missing from follow-up.",
+    "new": "The authors rated their confidence as low. Many people were lost to follow-up, which is why the authors think the figures are too low.",
+    "reason": "minor: unsupported inference about who is missing; first sentence trimmed to avoid repeating 'probably higher'."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "linkedin",
+    "old": "Satisfaction with pain relief ranged from about 7 in 10 to 9 in 10, depending on the activity.",
+    "new": "Satisfaction with pain relief ranged from 72 to 86 in 100, depending on the activity.",
+    "reason": "minor: 86% was rounded up to 9 in 10."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "linkedin",
+    "old": "and those were older implants in one province.",
+    "new": "and the survey was published in 2010 and covered one Canadian province.",
+    "reason": "minor: 'older implants' not in source."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "verification_notes",
+    "old": "older implants, one Canadian province",
+    "new": "published 2010, one Canadian province",
+    "reason": "Keep notes consistent with corrected limitation."
+  },
+  {
+    "tmp_id": "C10-P03",
+    "where": "x",
+    "old": "In a US study, people were shown real shop products. About 4 in 10 of those aged 61 to 80 said taking two paracetamol products together would be safe. That was what they said, not what they did.",
+    "new": "In a US study, people were asked to show how they would take real shop products over a day. About 4 in 10 of those aged 61 to 80 showed they would take two paracetamol products together and go over 4 g. This was a pretend task with real products, not what they actually did.",
+    "reason": "major: Wolf 2012 outcome was demonstrated dosing exceeding 4 g in a simulated task, not a stated belief that it was safe. First sentence adjusted so the setting matches."
+  },
+  {
+    "tmp_id": "C10-P03",
+    "where": "linkedin",
+    "old": "In a US study, nearly half of 500 adults shown real shop products said it would be safe to take two paracetamol-containing products together. Among those aged 61 to 80 it was 4 in 10. The study measured what people said they would do, not what they did.",
+    "new": "In a US study, 500 adults were asked to show how they would take real shop products over a day. Nearly half (46 in 100) would have gone over 4 g by taking two paracetamol-containing products together. Among those aged 61 to 80 it was 4 in 10. This was a pretend task, not what people actually did.",
+    "reason": "major: same misdescription of the Wolf 2012 outcome."
+  },
+  {
+    "tmp_id": "C10-P03",
+    "where": "threads",
+    "old": "In a US study, 4 in 10 people aged 61 to 80 said doubling up like this would be safe.",
+    "new": "In a US study, 4 in 10 people aged 61 to 80 showed they would double up like this and go over 4 g, in a pretend task with real products.",
+    "reason": "major: same misdescription of the Wolf 2012 outcome."
+  },
+  {
+    "tmp_id": "C10-P03",
+    "where": "linkedin",
+    "old": "Some guidelines advise a lower daily dose if you weigh under 50 kg",
+    "new": "Some Australian guidelines for older people advise a lower daily dose if you weigh under 50 kg",
+    "reason": "minor: guidelines opened were Australian consensus guidelines for older people."
+  },
+  {
+    "tmp_id": "C10-P03",
+    "where": "verification_notes",
+    "old": "US, stated intentions, 4 in 10 aged 61 to 80",
+    "new": "US, demonstrated dosing in a simulated task (not stated belief), 4 in 10 aged 61 to 80",
+    "reason": "Keep notes consistent with corrected description of outcome."
   },
   {
     "tmp_id": "C10-P04",
-    "where": "visual_brief.slides.0.text.source_line",
-    "old": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., 2006",
-    "new": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., J Pain Symptom Manage 2006",
-    "reason": "minor: Journal missing for Portenoy."
+    "where": "linkedin",
+    "old": "Families sometimes carry that fear silently, and staff can hesitate over an as-needed dose.",
+    "new": "Families may worry about this.",
+    "reason": "major: claims about family and staff behaviour not in any source."
   },
   {
     "tmp_id": "C10-P04",
-    "where": "visual_text.5",
-    "old": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., 2006",
-    "new": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., J Pain Symptom Manage 2006",
-    "reason": "minor: Journal missing for Portenoy."
+    "where": "bluesky",
+    "old": "Morphine doses often rise in the last days of life because symptoms change. Studies in hospices have not found that doses adjusted to symptoms shorten life, though the evidence is observational and mostly in cancer. If you fear this at a bedside, ask the nurse or doctor.",
+    "new": "Morphine doses often rise in the last days of life as symptoms change. Hospice studies have not found a consistent link between symptom-adjusted doses and shorter life. The evidence is observational and mostly in cancer; one large study found a small link that dose explained very little of. Worried? Ask the nurse or doctor.",
+    "reason": "major: Bluesky dropped the contrary Portenoy finding; uses 'no consistent link'. Surrounding sentences recast to stay within 300 characters."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "visual_text",
+    "old": "Studies in hospices and palliative care units have not found that doses adjusted to symptoms shorten life.",
+    "new": "Studies in hospices and palliative care units have not found a consistent link between doses adjusted to symptoms and shorter life. One large study found a small link that dose explained very little of.",
+    "reason": "major: card omitted the Portenoy finding cited in its source line."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "visual_brief.slides[0].text.body",
+    "old": "Studies in hospices and palliative care units have not found that doses adjusted to symptoms shorten life.",
+    "new": "Studies in hospices and palliative care units have not found a consistent link between doses adjusted to symptoms and shorter life. One large study found a small link that dose explained very little of.",
+    "reason": "Keep visual_brief consistent with visual_text (major fix)."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "alt_text",
+    "old": "Studies in hospices and palliative care units have not found that doses adjusted to symptoms shorten life.",
+    "new": "Studies in hospices and palliative care units have not found a consistent link between doses adjusted to symptoms and shorter life; one large study found a small link that dose explained very little of.",
+    "reason": "major: mirror of visual text."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "x",
+    "old": "Dose explained very little of it, and people on higher doses are often sicker.",
+    "new": "Dose explained very little of it, and the link may reflect how ill people were rather than the dose.",
+    "reason": "minor: 'higher doses are often sicker' is not a finding."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "linkedin",
+    "old": "People on higher doses are often sicker, so the link may reflect illness rather than the drug.",
+    "new": "The link may reflect how ill people were rather than the drug.",
+    "reason": "minor: same unsupported statement."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "x",
+    "old": "Symptoms such as pain and breathlessness change as death comes closer.",
+    "new": "Symptoms change as death comes closer.",
+    "reason": "minor: named symptoms not in the supporting passages."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "linkedin",
+    "old": "Symptoms such as pain and breathlessness change as death comes closer.",
+    "new": "Symptoms change as death comes closer.",
+    "reason": "minor: same wording appears in the LinkedIn opening."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "threads",
+    "old": "because pain and breathlessness change as death comes closer.",
+    "new": "because symptoms change as death comes closer.",
+    "reason": "minor: named symptoms not in the supporting passages."
   },
   {
     "tmp_id": "C10-P05",
-    "where": "captions.bluesky",
-    "old": "it should not be started for sciatica, and existing prescriptions deserve review.",
-    "new": "do not start it for sciatica, and review existing prescriptions.",
-    "reason": "check_posts over_limit: Bluesky 309 characters after fact-check replacement; shortened to fit 300."
+    "where": "x",
+    "old": "dizziness was the most common.",
+    "new": "dizziness was more common on pregabalin.",
+    "reason": "major: abstract says only that dizziness was more common on pregabalin."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "linkedin",
+    "old": "Dizziness was the most common.",
+    "new": "Dizziness was more common on pregabalin than on placebo.",
+    "reason": "major: same."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "bluesky",
+    "old": "In a trial of 207 adults with sciatica, pregabalin did not ease leg pain more than placebo at 8 weeks or 1 year. 64 in 100 had side effects vs 43, mostly dizziness. Average age was early to mid 50s. In our judgement, dizziness is a reason not to start it in someone unsteady.",
+    "new": "In a trial of 207 adults with sciatica, average age early to mid 50s, pregabalin showed no clear difference from placebo in leg pain at 8 weeks or 1 year. 64 in 100 on pregabalin had a side effect against 43 on placebo; dizziness was more common. In our judgement, that is a reason not to start it in someone unsteady.",
+    "reason": "major+minor: ambiguous '64 in 100' and unsupported 'mostly dizziness'; 'did not ease' recast as 'showed no clear difference'. Recast to stay within 300 characters."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "threads",
+    "old": "About 64 in 100 on pregabalin had side effects against 43 in 100 on placebo, dizziness most often.",
+    "new": "About 64 in 100 on pregabalin had at least one side effect against 43 in 100 on placebo, and dizziness was more common on pregabalin.",
+    "reason": "major: 'most often' not supported."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "alt_text",
+    "old": "dizziness most common.",
+    "new": "dizziness more common on pregabalin.",
+    "reason": "major: not supported."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "linkedin",
+    "old": "and the evidence on side effects ranges from very low to moderate quality.",
+    "new": "and the evidence on side effects was graded very low to moderate quality in one review and high quality in the other.",
+    "reason": "major: quality grading misreported; Enke 2018 rated it high."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "x",
+    "old": "In our judgement, for an older person who is already unsteady, that is a reason not to start a medicine that has not been shown to help, and to review prescriptions started for sciatica.",
+    "new": "In our judgement, dizziness is a reason not to start a medicine that has not been shown to help in an older person who is already unsteady, and to review prescriptions started for sciatica.",
+    "reason": "minor: 'that' pointed to the age and kidney exclusion rather than dizziness."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "bluesky",
+    "old": "Many people with arthritis changes on the X-ray have little pain, and the reverse. Typical knee arthritis needs no X-ray to diagnose.",
+    "new": "Many people with X-ray changes have little pain, and the reverse. European guidance says typical knee arthritis needs no X-ray to diagnose.",
+    "reason": "major: attribution to European (EULAR) guidance restored. First sentence shortened to stay within 300 characters."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "linkedin",
+    "old": "The words used about an X-ray can stay with people. In interviews with 27 people waiting for a knee replacement in Australia, all described their knee as 'bone on bone'.",
+    "new": "Many people describe their knee as 'bone on bone'. In interviews with 27 people waiting for a knee replacement in Australia, all of them did.",
+    "reason": "minor: opener implied X-ray wording produced the beliefs; second sentence adjusted to avoid repeating the phrase."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "linkedin",
+    "old": "Imaging helps when something is unusual, when another cause is possible, or when the knee gets worse unexpectedly.",
+    "new": "Imaging helps when something is unusual or another cause is possible, and should be considered if the knee gets worse unexpectedly.",
+    "reason": "minor: abstract says consideration is required with unexpected deterioration."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "visual_text",
+    "old": "Something unusual, another possible cause, or unexpected worsening: imaging helps",
+    "new": "Something unusual or another possible cause: imaging helps. Unexpected worsening: consider imaging",
+    "reason": "minor: as above."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "visual_brief.slides[1].text.items[1]",
+    "old": "Something unusual, another possible cause, or unexpected worsening: imaging helps",
+    "new": "Something unusual or another possible cause: imaging helps. Unexpected worsening: consider imaging",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "alt_text",
+    "old": "imaging helps if something is unusual, another cause is possible or the knee worsens unexpectedly.",
+    "new": "imaging helps if something is unusual or another cause is possible, and should be considered if the knee worsens unexpectedly.",
+    "reason": "minor: mirror of visual text."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "threads",
+    "old": "In UK records, admission for low sodium was about 4.6 vs 1.9 per 10,000 people per month for tramadol vs codeine: uncommon, but about double.",
+    "new": "In UK records of adults of all ages starting treatment, admission for low sodium in the first month was about 4.6 vs 1.9 per 10,000 people for tramadol vs codeine: uncommon, about double, with wide uncertainty. It is an observational study.",
+    "reason": "major: qualifications (population, first month, uncertainty, observational) restored."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "visual_text",
+    "old": "Sodium: admissions for low sodium about 4.6 vs 1.9 per 10,000 people per month, tramadol vs codeine",
+    "new": "Sodium: in the first month after starting, admissions for low sodium about 4.6 vs 1.9 per 10,000 people, tramadol vs codeine",
+    "reason": "major: timeframe missing."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "visual_brief.slides[0].text.items[1]",
+    "old": "Sodium: admissions for low sodium about 4.6 vs 1.9 per 10,000 people per month, tramadol vs codeine",
+    "new": "Sodium: in the first month after starting, admissions for low sodium about 4.6 vs 1.9 per 10,000 people, tramadol vs codeine",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "visual_text",
+    "old": "Low sodium figures: UK adults of all ages, observational; uncommon",
+    "new": "Low sodium figures: UK adults of all ages starting treatment for non-cancer pain, observational, wide uncertainty; uncommon",
+    "reason": "minor: new starters and wide uncertainty missing."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "visual_brief.slides[0].text.labels[0]",
+    "old": "Low sodium figures: UK adults of all ages, observational; uncommon",
+    "new": "Low sodium figures: UK adults of all ages starting treatment for non-cancer pain, observational, wide uncertainty; uncommon",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "alt_text",
+    "old": "Sodium (admissions for low sodium about 4.6 versus 1.9 per 10,000 people per month on tramadol versus codeine; UK adults of all ages, observational, uncommon).",
+    "new": "Sodium (in the first month after starting, admissions for low sodium about 4.6 versus 1.9 per 10,000 people on tramadol versus codeine; UK adults of all ages, observational, wide uncertainty, uncommon).",
+    "reason": "minor: timeframe missing."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "x",
+    "old": "about 4.6 in 10,000 people taking tramadol for a month were admitted with low sodium, against 1.9 for codeine.",
+    "new": "about 4.6 in 10,000 people were admitted with low sodium in the first month after starting tramadol, against 1.9 for codeine.",
+    "reason": "minor: rate applies to the first 30 days after starting."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "linkedin",
+    "old": "about 4.6 in every 10,000 people taking tramadol for a month were admitted to hospital with low sodium, against about 1.9 for codeine.",
+    "new": "about 4.6 in every 10,000 people were admitted to hospital with low sodium in the first month after starting tramadol, against about 1.9 for codeine.",
+    "reason": "minor: same timeframe imprecision."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "visual_brief.slides.0.data.0.label",
+    "old": "Admission with low sodium, tramadol",
+    "new": "Admission with low sodium in first month after starting, tramadol",
+    "reason": "Keep chart data labels consistent with the timeframe fix."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "visual_brief.slides.0.data.1.label",
+    "old": "Admission with low sodium, codeine",
+    "new": "Admission with low sodium in first month after starting, codeine",
+    "reason": "Keep chart data labels consistent with the timeframe fix."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "x",
+    "old": "UK prescribing advice is to pause it every 3 months to check it still helps.",
+    "new": "UK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months to check it still helps.",
+    "reason": "major: source is BNF 2010 as reported by Cochrane; current BNF not opened."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "bluesky",
+    "old": "UK advice is to pause it every 3 months; in one trial, advice to stop did not show a clear rise in cramps.",
+    "new": "UK prescribing advice reported in 2015 was to pause it every 3 months; in one small trial, advice to stop did not show a clear rise in cramps, but one could not be ruled out.",
+    "reason": "major+minor: advice dated and attributed; Coppin limit restored. 'a 2015 Cochrane review' shortened to 'reported in 2015' to fit 300 characters; the source reply names the review."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "threads",
+    "old": "UK prescribing advice is to pause it every 3 months to check it still helps.",
+    "new": "UK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months to check it still helps.",
+    "reason": "major: same as X."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_text",
+    "old": "Panel 3: 'Advice is to pause it every 3 months to check. Could any of your other medicines be linked?'",
+    "new": "Panel 3: 'UK prescribing advice has been to pause it every 3 months to check. Could any of your other medicines be linked?'",
+    "reason": "major: advice dated."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_brief.slides[0].text.items[2]",
+    "old": "Panel 3: 'Advice is to pause it every 3 months to check. Could any of your other medicines be linked?'",
+    "new": "Panel 3: 'UK prescribing advice has been to pause it every 3 months to check. Could any of your other medicines be linked?'",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "alt_text",
+    "old": "Advice is to pause it every 3 months to check, and to ask whether other medicines are linked.",
+    "new": "UK prescribing advice has been to pause it every 3 months to check, and to ask whether other medicines are linked.",
+    "reason": "minor: mirror of panel 3."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_text",
+    "old": "Panel 2: 'In trials, cramps fell from about 9 to 6 or 7 a fortnight. Rare harms can be serious.'",
+    "new": "Panel 2: 'In trials, cramps fell from about 9 to 6 or 7 a fortnight, on low-quality evidence. Rare harms can be serious.'",
+    "reason": "major: quality qualifier missing."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_brief.slides[0].text.items[1]",
+    "old": "Panel 2: 'In trials, cramps fell from about 9 to 6 or 7 a fortnight. Rare harms can be serious.'",
+    "new": "Panel 2: 'In trials, cramps fell from about 9 to 6 or 7 a fortnight, on low-quality evidence. Rare harms can be serious.'",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "alt_text",
+    "old": "She says that in trials cramps fell from about 9 to 6 or 7 a fortnight and rare harms can be serious.",
+    "new": "She says that in trials cramps fell from about 9 to 6 or 7 a fortnight, on low-quality evidence, and rare harms can be serious.",
+    "reason": "minor: mirror of panel 2."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "linkedin",
+    "old": "And calf and hamstring stretches before bed are harmless in trials and reasonable to try, although their benefit is uncertain.",
+    "new": "And calf and hamstring stretches before bed are reasonable to try: no harms were reported in small trials, although the evidence for benefit is mixed.",
+    "reason": "major: 'harmless' overstates; trials too small to detect uncommon harms."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_text",
+    "old": "Caption under panel 4: stretching is harmless in trials; its benefit is uncertain",
+    "new": "Caption under panel 4: no harms were reported in small stretching trials; evidence for benefit is mixed",
+    "reason": "major: same."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_brief.slides[0].text.labels[0]",
+    "old": "Caption under panel 4: stretching is harmless in trials; its benefit is uncertain",
+    "new": "Caption under panel 4: no harms were reported in small stretching trials; evidence for benefit is mixed",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "alt_text",
+    "old": "stretching is harmless in trials but its benefit is uncertain.",
+    "new": "no harms were reported in small stretching trials but the evidence for benefit is mixed.",
+    "reason": "major: same."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "x",
+    "old": "with no clear rise in cramps.",
+    "new": "without a clear rise in cramps, though the trial was small and could not rule out a rise for some people.",
+    "reason": "minor: Coppin interval was wide."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "threads",
+    "old": "without a clear rise in cramps.",
+    "new": "without a clear rise in cramps, though the trial could not rule out a rise for some people.",
+    "reason": "minor: same."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "threads",
+    "old": "Rare harms include a sudden fall in platelets and heart rhythm problems.",
+    "new": "Rare serious harms include a sudden fall in platelets and heart rhythm problems, especially after too many tablets.",
+    "reason": "minor: context on overdose restored."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_text",
+    "old": "El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., 2005",
+    "new": "El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., Br J Gen Pract 2005; Garrison et al., Arch Intern Med 2012; Hawke et al., Cochrane 2021",
+    "reason": "minor: source line omitted sources for panels 3 and 4."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "visual_brief.slides[0].text.source_line",
+    "old": "El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., 2005",
+    "new": "El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., Br J Gen Pract 2005; Garrison et al., Arch Intern Med 2012; Hawke et al., Cochrane 2021",
+    "reason": "Keep visual_brief consistent with visual_text."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "source_reply",
+    "old": "Garrison et al., Arch Intern Med 2012 https://doi.org/10.1001/archinternmed.2011.1029",
+    "new": "Garrison et al., Arch Intern Med 2012 https://doi.org/10.1001/archinternmed.2011.1029 ; Hawke et al., Cochrane 2021 https://doi.org/10.1002/14651858.CD008496.pub3",
+    "reason": "Source line on the visual now cites Hawke 2021; its DOI (from evidence batch C10-B3) added to the source reply."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "verification_notes",
+    "old": "Hawke 2021 (abstract): stretching uncertain.",
+    "new": "Hawke 2021 (abstract): stretching may reduce severity in one small trial; no adverse events reported but trials too small to detect uncommon ones; evidence mixed.",
+    "reason": "Keep notes consistent with corrected stretching wording."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "visual_text",
+    "old": "After surgery, pain on movement averaged roughly 2 to 3 times the pain at rest in trials that measured both.",
+    "new": "After surgery, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, in trials that measured both. The trials were not specifically in older people.",
+    "reason": "major: 'averaged' wrong (range across trials); timeframe and population added."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "visual_brief.slides[0].text.body",
+    "old": "After surgery, pain on movement averaged roughly 2 to 3 times the pain at rest in trials that measured both.",
+    "new": "After surgery, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, in trials that measured both. The trials were not specifically in older people.",
+    "reason": "Keep visual_brief consistent with visual_text (major fix)."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "alt_text",
+    "old": "In surgical trials, pain on movement averaged roughly 2 to 3 times pain at rest.",
+    "new": "In surgical trials that measured both, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days; the trials were not specifically in older people.",
+    "reason": "major: same."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "bluesky",
+    "old": "A pain score taken lying still misses the pain of standing, turning or walking. After surgery, movement pain averaged 2 to 3 times higher in trials, yet most trials did not measure it. Record pain on standing beside pain at rest before therapy.",
+    "new": "A pain score taken lying still misses the pain of standing or walking. In surgical trials that measured both, movement pain was about 2 to 3 times as high as rest pain in the first 3 days. Only about 4 in 10 trials reviewed measured it. Record pain on standing beside pain at rest.",
+    "reason": "major: 'averaged' wrong, timeframe and 'measured both' missing, denominator for 'most trials'. Surrounding wording shortened to stay within 300 characters."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "x",
+    "old": "In surgical trials that measured both, it scored roughly 2 to 3 times higher in the first 3 days. Only about 4 in 10 trials measured it at all.",
+    "new": "In trials of chest surgery, knee replacement and hysterectomy that measured both, it was about 2 to 3 times as high in the first 3 days, depending on the trial. Of the trials reviewed, only about 4 in 10 measured it at all.",
+    "reason": "minor: range across trials, ambiguous 'times higher', denominator of the 4 in 10."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "threads",
+    "old": "In surgical trials that measured both, pain on movement scored roughly 2 to 3 times higher in the first 3 days. Only about 4 in 10 trials measured it.",
+    "new": "In surgical trials that measured both, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, depending on the trial. Of the trials reviewed, only about 4 in 10 measured it.",
+    "reason": "minor: same."
+  },
+  {
+    "tmp_id": "C10-P09",
+    "where": "linkedin",
+    "old": "In postsurgical trials that measured both, pain on movement scored roughly 2 to 3 times higher than pain at rest in the first 3 days. Yet only about 4 in 10 of those trials measured pain on movement at all.",
+    "new": "In postsurgical trials that measured both, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, depending on the trial. Yet only about 4 in 10 of the postsurgical trials reviewed measured pain on movement at all.",
+    "reason": "minor: 'those trials' referred back to trials that measured both; ambiguous 'times higher'."
   }
 ]

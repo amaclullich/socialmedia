@@ -1,0 +1,617 @@
+{
+ "category": "C03",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C03-P01",
+  "C03-P02",
+  "C03-P03",
+  "C03-P04",
+  "C03-P05",
+  "C03-P06",
+  "C03-P07",
+  "C03-P08",
+  "C03-P09"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:10995047",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "11.2 months leg; 3.9/4.3/4.4 months mood/arm/cognition; 674 community-residing, Baltimore 1990-91"
+  },
+  {
+   "key": "PMID:27590604",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "bulk of recovery within 6 months; 40-60% regain mobility; fewer from residential care"
+  },
+  {
+   "key": "PMID:34766330",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "RR 0.88; 41 fewer per 1000 on illustrative risk of 347; moderate certainty"
+  },
+  {
+   "key": "PMID:27744305",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "abstract has only background statement on policy documents; single centre, mostly medical admissions"
+  },
+  {
+   "key": "PMID:33238043",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "SMD -1.05, -2.5 on 0-10 vs no block/sham; 11 trials 503; chest infection 3 trials 131; mobilisation -10.8 h 3 trials 208"
+  },
+  {
+   "key": "PMID:32050090",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "9% vs 10%, 22% vs 22%; medians 6 h and 24 h (IQR 10-42); major complication composite includes mortality"
+  },
+  {
+   "key": "PMID:29183076",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "6.5% vs 5.8% matched; timed from arrival; 42,230"
+  },
+  {
+   "key": "PMID:35234817",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "172, 88/84, 83% vs 25% 30-day mortality, 51% good-almost perfect dying; EQ-5D point estimates lower in nonoperative group within 0.15 margin"
+  },
+  {
+   "key": "PMID:29870444",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "0 of 16 complied, 1 briefly, 11/16 >2x; young group 14/18 almost entire (and 16/18 by another measure)"
+  },
+  {
+   "key": "PMID:31053870",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "pre-post, 19 vs 22, pertrochanteric, day 5; Parker 3.21 vs 4.73, gait 0.16 vs 0.28 m/s, load 350 vs 353 N"
+  },
+  {
+   "key": "PMID:32633673",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "39% is the no-definite-fracture subset of 35 studies; 92% in the GT-fracture subset"
+  },
+  {
+   "key": "PMID:31169031",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "LPA/deputy, otherwise usually responsible clinician; unless valid advance decision"
+  },
+  {
+   "key": "PMID:23531439",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "34% (61/181), mean age 83; multivariable associations"
+  },
+  {
+   "key": "PMID:38101112",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "hip fracture 32% [15-54], 7 studies, scoping review"
+  },
+  {
+   "key": "PMID:33744920",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "55% (176/320) with Volume-Viscosity test within 72 h; DOI missing from P09 source_reply"
+  },
+  {
+   "key": "PMID:31314145",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true,
+   "note": "9.7% vs 0.7% aspiration pneumonia; 18% vs 4% 30-day mortality; unadjusted; age 85 vs 78"
+  },
+  {
+   "key": "PMID:27785002",
+   "tool": "PubMed get_article_metadata (abstract only; passage-level claims relied on record full-text excerpt)",
+   "matches_record": true,
+   "note": "abstract does not contain the signs or posture passages; those not re-checked"
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C03-P01",
+   "where": "bluesky",
+   "text": "A permanent care home decision in the first weeks is made at the lowest point. Where it is safe, ask for rehabilitation first and a date to decide.",
+   "problem": "'Made at the lowest point' is stated as fact. No claim record shows when function is lowest; it is an inference from group averages that improve over months, and the Bluesky version drops the 'in our view' marker.",
+   "source_says": "Magaziner 2000: group averages of time to maximum recovery (about 4 months for mood, arm function, thinking; 11.2 months for leg function). Nothing measures the lowest point or says when it occurs.",
+   "severity": "major",
+   "replacement": "In our view, a permanent care home decision in the first weeks is made while recovery is only just starting. Where it is safe, ask for rehabilitation first and a date to decide."
+  },
+  {
+   "tmp_id": "C03-P01",
+   "where": "x",
+   "text": "Recovery goes on for months, so function is usually at its lowest in the first weeks in hospital. In our view, that is the wrong moment",
+   "problem": "'Function is usually at its lowest in the first weeks' is an inference presented as a finding, before the judgement marker 'In our view'.",
+   "source_says": "Magaziner 2000 and Dyer 2016 give averages that improve over months; neither reports a nadir or its timing.",
+   "severity": "minor",
+   "replacement": "Recovery goes on for months, so in the first weeks in hospital a person is usually well short of where they will get to. In our view, that is the wrong moment"
+  },
+  {
+   "tmp_id": "C03-P01",
+   "where": "threads",
+   "text": "So function is usually lowest in the first weeks in hospital.",
+   "problem": "Same unsourced inference stated as fact.",
+   "source_says": "As above: averages only.",
+   "severity": "minor",
+   "replacement": "So in the first weeks in hospital a person is usually well short of where they will get to."
+  },
+  {
+   "tmp_id": "C03-P01",
+   "where": "visual_text",
+   "text": "First weeks: in hospital, function usually at its lowest",
+   "problem": "Timeline label states the inference as a measured fact. The alt text repeats it ('marked as when function is usually lowest').",
+   "source_says": "No source measures the lowest point.",
+   "severity": "minor",
+   "replacement": "First weeks: in hospital, early in recovery (alt text: 'The first weeks in hospital are marked as early in recovery.')"
+  },
+  {
+   "tmp_id": "C03-P01",
+   "where": "x",
+   "text": "In one large US study, that was how long it took on average to reach its best.",
+   "problem": "X, Bluesky and Threads drop the population and date: the study was of people who lived at home before the fracture, in Baltimore in 1990 to 1991. Care has changed since, and care home residents are not represented.",
+   "source_says": "Magaziner 2000: 674 community-residing people, Baltimore, 1990 to 1991.",
+   "severity": "minor",
+   "replacement": "In one large US study of people who lived at home before the fracture (1990 to 1991), that was how long it took on average to reach its best."
+  },
+  {
+   "tmp_id": "C03-P01",
+   "where": "x",
+   "text": "Policy in England and Scotland has said that moving into a care home straight from an acute ward should be avoided where possible.",
+   "problem": "The only support is a background sentence in a 2017 single-centre paper (Harrison; Alasdair is a co-author); the policy documents were not opened and current versions were not checked. Stated as flat fact. Same sentence in LinkedIn.",
+   "source_says": "Harrison 2017 abstract: 'policy documents advising against this transition'; full text: NHS England and Scottish Government policy 'argue that care home admission from acute hospitals should be avoided'.",
+   "severity": "minor",
+   "replacement": "A 2017 paper summarised policy in England and Scotland as saying that moving into a care home straight from an acute ward should be avoided where possible."
+  },
+  {
+   "tmp_id": "C03-P01",
+   "where": "linkedin",
+   "text": "Rehabilitation changes the picture. In trials, rehabilitation in hospital led by a specialist team probably meant fewer people died or needed a move to a care home over the next 6 to 12 months: about 31 in 100, compared with 35 in 100.",
+   "problem": "'Changes the picture' is stronger than a 'probably' result of moderate certainty; 31 vs 35 in 100 is derived from an illustrative usual-care risk, not an observed rate.",
+   "source_says": "Handoll 2021: RR 0.88 (0.80 to 0.98), moderate certainty; 'based on an illustrative risk of 347 in 1000... 41 (7 to 69) fewer'.",
+   "severity": "minor",
+   "replacement": "Rehabilitation may change the picture. In trials, rehabilitation in hospital led by a specialist team probably meant fewer people died or needed a move to a care home over the next 6 to 12 months: about 31 in 100, compared with 35 in 100 on an illustrative usual-care risk."
+  },
+  {
+   "tmp_id": "C03-P02",
+   "where": "visual_text",
+   "text": "Pain on movement fell by about 2.5 points out of 10 within half an hour (Cochrane review).",
+   "problem": "Reads as a within-group fall. The 2.5 points is the difference between blocked and unblocked groups, not a change from baseline. Alt text repeats it ('fell by about 2.5 points out of 10').",
+   "source_says": "Guay and Kopp 2020: PNBs reduced pain on movement within 30 minutes versus no block or sham, SMD -1.05, equivalent to -2.5 on a 0 to 10 scale; 11 trials, 503 people.",
+   "severity": "major",
+   "replacement": "Compared with no block, pain on movement was about 2.5 points lower out of 10 within half an hour (Cochrane review). (Alt text: 'Compared with no block, pain on movement was about 2.5 points lower out of 10 within half an hour in a Cochrane review.')"
+  },
+  {
+   "tmp_id": "C03-P02",
+   "where": "x",
+   "text": "Given early, it covers the X-ray, the move to the ward and the first hours of nursing care.",
+   "problem": "Stated as fact. No source says what the block covers or when the X-ray, ward move and nursing care happen; the transfer sequence claim (C03-06-h) was not found. Evidence supports only 'several hours' (about 8 h narrative review; benefit measured to 4 h in trials, low certainty). The visual's fading bar across those stations implies the same.",
+   "source_says": "Verbeek 2021: about 8 h with bupivacaine (narrative review). Makkar 2021: benefit within 30 min to 4 h, low-certainty evidence.",
+   "severity": "major",
+   "replacement": "Given early in the emergency department, it can cover the X-ray, the move to the ward and the first hours of nursing care, for as long as it lasts."
+  },
+  {
+   "tmp_id": "C03-P02",
+   "where": "linkedin",
+   "text": "Given early in the emergency department, it covers the X-ray, the move to the ward and the first hours of nursing care.",
+   "problem": "Same unsupported coverage claim stated as fact.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Given early in the emergency department, it can cover the X-ray, the move to the ward and the first hours of nursing care, for as long as it lasts."
+  },
+  {
+   "tmp_id": "C03-P02",
+   "where": "bluesky",
+   "text": "Given early in the emergency department, it covers the X-ray and the move to the ward.",
+   "problem": "Same unsupported coverage claim stated as fact.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Given early in the emergency department, it can cover the X-ray and the move to the ward while it lasts."
+  },
+  {
+   "tmp_id": "C03-P02",
+   "where": "threads",
+   "text": "so giving it early in the emergency department covers the X-ray and the move to the ward.",
+   "problem": "Same unsupported coverage claim; 'so' presents it as following from the duration.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "so giving it early in the emergency department can cover the X-ray and the move to the ward while it lasts."
+  },
+  {
+   "tmp_id": "C03-P02",
+   "where": "x",
+   "text": "reduced pain on movement within half an hour by about 2.5 points on a 0 to 10 scale.",
+   "problem": "The comparator is missing; reads as a within-group change. LinkedIn states 'compared with no block'.",
+   "source_says": "Guay and Kopp 2020: versus no nerve block or sham block; everyone could have other pain relief.",
+   "severity": "minor",
+   "replacement": "reduced pain on movement within half an hour by about 2.5 points on a 0 to 10 scale, compared with no block."
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "visual_text",
+   "text": "Faster than a day: no clear difference",
+   "problem": "Headline is wider than the finding. 'No clear difference' applies to the two co-primary outcomes (deaths and major complications at 90 days); secondary outcomes (mobilisation, hospital stay) favoured accelerated surgery. A headline read alone suggests speed makes no difference.",
+   "source_says": "HIP ATTACK: accelerated surgery did not significantly lower mortality or the composite of major complications. Secondary outcomes per Association of Anaesthetists 2020: faster mobilisation, shorter stay, no harm.",
+   "severity": "major",
+   "replacement": "Surgery in 6 hours, not 24: no clear difference in deaths or major complications"
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "visual_text",
+   "text": "Major complications by 90 days",
+   "problem": "The HIP ATTACK 'major complications' outcome is a composite that includes death. As a separate bar beside 'Died by 90 days' it looks like a different set of events (and the 22 vs 22 appears to exclude deaths).",
+   "source_says": "HIP ATTACK abstract: composite of 'mortality and non-fatal myocardial infarction, stroke, venous thromboembolism, sepsis, pneumonia, life-threatening bleeding, and major bleeding'; 321 (22%) vs 331 (22%).",
+   "severity": "major",
+   "replacement": "Death or major complication by 90 days (combined measure)"
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "x",
+   "text": "Major complications: 22 in 100 in both.",
+   "problem": "Does not say that the composite includes death, so it can be read as additional to the 9 and 10 in 100 who died. Same on LinkedIn ('Major complications affected about 22 in 100 in both').",
+   "source_says": "HIP ATTACK abstract: composite includes mortality.",
+   "severity": "minor",
+   "replacement": "Death or a major complication (a combined measure): 22 in 100 in both."
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "x",
+   "text": "The UK aim is the day of or the day after admission, within 36 hours.",
+   "problem": "Merges three different targets: NICE asks for surgery on the day of admission or the day after (which can exceed 36 hours); 36 hours is the Association of Anaesthetists limit (from fracture) and the Scottish standard (from admission). NICE formally applies to England and Wales. The visual body and alt text repeat the merge.",
+   "source_says": "NICE 4.2.2: day of, or day after, admission. Griffiths 2021: 36 h limit from fracture to surgery. Scottish standard 6: within 36 hours of admission.",
+   "severity": "minor",
+   "replacement": "NICE asks for surgery on the day of admission or the day after. UK anaesthetic guidance and the Scottish standard say within 36 hours."
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "x",
+   "text": "In secondary outcomes, the fast group got up sooner and went home sooner, with no sign of harm.",
+   "problem": "Source is the Association of Anaesthetists' summary of the trial, not the trial paper (not opened); not attributed in X, Bluesky-free but unattributed here. 'Went home' is not the source wording (inpatient stay was shorter).",
+   "source_says": "Griffiths 2021: accelerated surgery 'did not harm patients'... 'reduced... length of inpatient stay, and improved the speed of postoperative mobilisation'.",
+   "severity": "minor",
+   "replacement": "In secondary outcomes, as summarised in UK anaesthetic guidance, the fast group got up sooner and left hospital sooner, with no sign of harm."
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "bluesky",
+   "text": "Waits over a day are linked with more deaths in cohort data.",
+   "problem": "Compression drops 'slightly', the 30-day timeframe and the Ontario setting; reads stronger than the 0.8 percentage point matched difference.",
+   "source_says": "Pincus 2017: 6.5% vs 5.8% 30-day mortality in matched groups, absolute difference 0.79 points.",
+   "severity": "minor",
+   "replacement": "In Ontario cohort data, waits over a day were linked with slightly more deaths at 30 days."
+  },
+  {
+   "tmp_id": "C03-P03",
+   "where": "linkedin",
+   "text": "The trial does not support racing; the cohort data do not excuse drift beyond a day or two.",
+   "problem": "'Does not support racing' goes beyond 'did not clearly reduce deaths or major complications' and sits against the caption's own statement that secondary outcomes favoured speed.",
+   "source_says": "HIP ATTACK: no significant difference in the co-primary outcomes; secondary outcomes favoured accelerated surgery.",
+   "severity": "minor",
+   "replacement": "The trial did not show that racing saves lives, though the fast group got up and left hospital sooner; the cohort data do not excuse drift beyond a day or two."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "x",
+   "text": "For almost everyone who breaks a hip, an operation is the best pain relief. NICE's guideline group says so,",
+   "problem": "'Almost everyone' is not NICE's wording and is attributed to NICE. NICE's guideline group says surgery is the best form of analgesia (discussion text, not a recommendation). Same in LinkedIn.",
+   "source_says": "NICE full guideline: 'It is recognized surgery is the best form of analgesia'.",
+   "severity": "minor",
+   "replacement": "NICE's guideline group describes surgery as the best form of pain relief for a broken hip,"
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "threads",
+   "text": "For almost everyone who breaks a hip, an operation is the best pain relief.",
+   "problem": "'For almost everyone' stated as fact with no attribution; it is not in the source.",
+   "source_says": "NICE guideline group discussion: 'surgery is the best form of analgesia'.",
+   "severity": "major",
+   "replacement": "NICE's guideline group describes surgery as the best form of pain relief for a broken hip."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "visual_text",
+   "text": "Surgery gives the best pain relief for almost everyone. FRAIL-HIP: 172 very frail care home residents who chose, not randomised.",
+   "problem": "Unattributed 'almost everyone' on the visual (source line names NICE but the claim is not NICE's wording). Alt text repeats it.",
+   "source_says": "NICE guideline group discussion only.",
+   "severity": "major",
+   "replacement": "NICE's guideline group describes surgery as the best form of pain relief. FRAIL-HIP: 172 very frail care home residents who chose, not randomised."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "x",
+   "text": "Relatives and staff rated quality of life in the following weeks as no worse without an operation, by the study's own test.",
+   "problem": "A non-inferiority result reported as 'no worse'. The margin was wide (0.15 on a utility scale) and the point estimates were lower without an operation (week 1 0.17 vs 0.26; week 4 0.24 vs 0.34). Short versions drop even the 'own test' wording.",
+   "source_says": "Loggers 2022: EQ-5D by proxies 'remained within the set 0.15 noninferiority limit'; nonoperative scores numerically lower at weeks 1, 2 and 4. Authors: validity reduced after 30 days because of deaths.",
+   "severity": "major",
+   "replacement": "Relatives and staff rated quality of life in the following weeks. Scores were a little lower without an operation, but within a margin the researchers set in advance."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "linkedin",
+   "text": "Relatives and care staff rated quality of life in the following weeks as no worse, by the study's own test, when there was no operation.",
+   "problem": "Same non-inferiority-as-'no worse' problem.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "Relatives and care staff rated quality of life in the following weeks. Scores were a little lower when there was no operation, but within a margin the researchers set in advance (a non-inferiority test)."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "bluesky",
+   "text": "Surgery is the best pain relief for almost everyone who breaks a hip.\n\nIn a Dutch study of 172 very frail care home residents with short life expectancy, those who chose no operation had quality of life rated no worse by relatives in the next weeks. Researchers judged their pain undertreated.",
+   "problem": "Compression makes it stronger and misleading: 'no worse' quality of life with no mention that about 8 in 10 of the no-operation group died within a month (which also undermines later-week comparisons), and 'almost everyone' is unattributed.",
+   "source_says": "Loggers 2022: 30-day mortality 83% vs 25%; non-inferiority within a 0.15 margin; pain undertreated.",
+   "severity": "major",
+   "replacement": "NICE's guideline group calls surgery the best pain relief for a broken hip.\n\nIn a Dutch study of 172 very frail care home residents who chose no operation, relatives rated quality of life a little lower, within a preset margin. About 8 in 10 died within a month. Researchers judged pain undertreated."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "threads",
+   "text": "For almost everyone who breaks a hip, an operation is the best pain relief.\n\nA Dutch study followed 172 very frail care home residents with short life expectancy who chose, after discussion, whether to have surgery. Relatives rated quality of life in the next weeks as no worse without an operation. The researchers judged pain undertreated in that group.\n\nWe should be able to discuss care without an operation for a few people, with strong pain relief. Never as a default for being old.",
+   "problem": "Same compression: 'no worse' quality of life without the mortality context or the preset margin, and unattributed 'almost everyone'.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "NICE's guideline group calls surgery the best pain relief for a broken hip.\n\nA Dutch study followed 172 very frail care home residents with short life expectancy who chose whether to have surgery. For those who chose no operation, relatives rated quality of life a little lower in the next weeks, within a preset margin; about 8 in 10 died within a month. The researchers judged their pain undertreated.\n\nWe should be able to discuss care without an operation for a few people, with strong pain relief. Never as a default for being old."
+  },
+  {
+   "tmp_id": "C03-P04",
+   "where": "visual_text",
+   "text": "Two kinds of active care after a broken hip",
+   "problem": "Headline sets non-operative care beside surgery as equals; the evidence is one non-randomised cohort in a very small group and the authors judged pain undertreated. The kicker helps but the headline is read alone.",
+   "source_says": "Loggers 2022: selected by choice; non-operative care was a 'viable option' for frail, institutionalised people with limited life expectancy.",
+   "severity": "minor",
+   "replacement": "Two paths after a broken hip, for a very small group"
+  },
+  {
+   "tmp_id": "C03-P05",
+   "where": "linkedin",
+   "text": "So for many older people the instruction reduces walking without reducing load.",
+   "problem": "Causal verb ('reduces') from a small non-randomised pre-post comparison (19 vs 22 people, one fracture type, one hospital), generalised to 'many older people'.",
+   "source_says": "Pfeufer 2019: 41 patients with pertrochanteric fracture, pre-post design; Parker score 3.21 vs 4.73, gait speed 0.16 vs 0.28 m/s, peak force 350 vs 353 N.",
+   "severity": "major",
+   "replacement": "In these two small studies, older people told to restrict weight walked more slowly but did not load the leg any less."
+  },
+  {
+   "tmp_id": "C03-P05",
+   "where": "threads",
+   "text": "A second small study found restriction slowed walking without reducing load.",
+   "problem": "Causal verb ('slowed') for a non-randomised pre-post comparison; also omits that it was a different group of 41 people with one fracture type.",
+   "source_says": "Pfeufer 2019: pre-post study, not randomised.",
+   "severity": "major",
+   "replacement": "A second small, non-randomised study found that people told to restrict weight walked more slowly but loaded the leg just as much."
+  },
+  {
+   "tmp_id": "C03-P05",
+   "where": "visual_text",
+   "text": "Partial weight-bearing: 0 of 16 kept to it",
+   "problem": "Headline omits 'throughout'. One person managed the limit briefly, so '0 of 16 kept to it' is not exactly the finding (labels below say 'throughout'). Body says the young group 'kept to it' but the source says 'almost the entire' restriction.",
+   "source_says": "Kammerlander 2018: none able to comply as recommended; 1 managed for a short period; 14 of 18 young adults achieved almost the entire restriction.",
+   "severity": "minor",
+   "replacement": "Partial weight-bearing: 0 of 16 kept to it throughout (body: 'Most young adults with ankle fractures (14 of 18) kept to almost all of it.')"
+  },
+  {
+   "tmp_id": "C03-P05",
+   "where": "x",
+   "text": "Most young adults with ankle fractures could keep to it.",
+   "problem": "'Keep to it' overstates; source says 'almost the entire' restriction. Age of the older group (75 and over) is also left out of X and Bluesky.",
+   "source_says": "Kammerlander 2018: patients 75 and over vs 18 to 40; 14 of 18 achieved almost the entire restriction.",
+   "severity": "minor",
+   "replacement": "14 of 18 young adults with ankle fractures kept to almost all of it."
+  },
+  {
+   "tmp_id": "C03-P05",
+   "where": "bluesky",
+   "text": "none of 16 older people kept to a partial weight-bearing limit after hip fracture surgery",
+   "problem": "Drops 'throughout' and 'one managed briefly', and the age (75 and over).",
+   "source_says": "Kammerlander 2018.",
+   "severity": "minor",
+   "replacement": "none of 16 people aged 75 and over kept to a partial weight-bearing limit throughout after hip fracture surgery"
+  },
+  {
+   "tmp_id": "C03-P06",
+   "where": "x",
+   "text": "36 hours is enough to correct most problems if work starts at once.",
+   "problem": "Unattributed, and 'most problems' is the author's gloss. The guidance says 36 hours (or less) is sufficient time to correct medical obstacles to surgery; 'provided this is instigated immediately' is from the Scottish standards, not the 2020 Association of Anaesthetists text. DOAC timing, where waits commonly exceed 36 hours, was deliberately omitted, so the line can mislead about anticoagulation on the same list. Same text in the visual body and Threads.",
+   "source_says": "Griffiths 2021: '36 h (or less) provides sufficient time for the proactive involvement of anaesthetists in correcting medical obstacles to surgery'. Scottish standard 6: sufficient 'provided this is instigated immediately at presentation'.",
+   "severity": "major",
+   "replacement": "UK guidance says 36 hours is enough time to correct the medical obstacles to surgery if work starts at once."
+  },
+  {
+   "tmp_id": "C03-P06",
+   "where": "threads",
+   "text": "36 hours is enough to correct most problems if work starts at once.",
+   "problem": "As X: unattributed gloss.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "UK guidance says 36 hours is enough time to correct the medical obstacles to surgery if work starts at once."
+  },
+  {
+   "tmp_id": "C03-P06",
+   "where": "visual_text",
+   "text": "36 hours is enough to correct most problems if work starts at once.",
+   "problem": "As X: unattributed gloss on the visual; source line also omits the Scottish standards, which supply 'if work starts at once'.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "UK guidance: 36 hours is enough time to correct the medical obstacles to surgery if work starts at once. (Source line: 'NICE CG124; Association of Anaesthetists 2020; Scottish standards of care for hip fracture patients 2025')"
+  },
+  {
+   "tmp_id": "C03-P06",
+   "where": "linkedin",
+   "text": "The 2020 guidance also says surgery should be delayed only if the benefit of more medical treatment outweighs the risk of waiting, that 36 hours is enough to correct most problems if work starts at once, and that the team should say what needs to happen and document the decision.",
+   "problem": "Misattribution. The 'benefits outweigh the risks of delaying' wording and 'if instigated immediately' are in the Scottish standards (standard 6), not in the Association of Anaesthetists passage recorded. 'Most problems' is a gloss. 'Document the decision' refers to decisions after a medical cancellation.",
+   "source_says": "Griffiths 2021: 36 h (or less) sufficient for correcting medical obstacles; anaesthetists should communicate what needs to happen and document any decisions. Scottish standards: surgery not delayed unless 'the benefits of additional medical treatment outweigh the risks of delaying surgery'.",
+   "severity": "major",
+   "replacement": "The 2020 guidance says 36 hours (or less) is enough time to correct medical obstacles to surgery, and that the team should say what needs to happen and document any decisions. The Scottish standards add that surgery should not be delayed unless the benefits of more medical treatment outweigh the risks of waiting, and that 36 hours is enough if the work starts at once."
+  },
+  {
+   "tmp_id": "C03-P06",
+   "where": "bluesky",
+   "text": "UK anaesthetic guidance: don't wait for an echo, or for aspirin or clopidogrel to wear off. Name any delay and its end time.",
+   "problem": "'To wear off' is not in the source (it says not to delay because of these drugs). The closing instruction is Alasdair's judgement but is unmarked here.",
+   "source_says": "Griffiths 2021: surgery should not be delayed in patients taking aspirin or clopidogrel; not recommended to delay for echocardiography.",
+   "severity": "minor",
+   "replacement": "UK anaesthetic guidance: don't wait for an echo or delay for aspirin or clopidogrel. In our view, any delay should name the problem and when it will be fixed."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "x",
+   "text": "A hip X-ray that looks normal is usually right.",
+   "problem": "Sensitivity (90 to 98 in 100 fractures seen) is turned into a statement about how often a normal film is right, which depends on how many people have a fracture. In the group the post is about (still suspected after normal films) about 4 in 10 had one. Repeated in LinkedIn (twice), Bluesky and Threads.",
+   "source_says": "NICE: hip radiographs have 'an estimated sensitivity of between 90% and 98%'. Haj-Mirzaian 2020: 39% hidden surgical fractures in the selected suspected group.",
+   "severity": "major",
+   "replacement": "A hip X-ray finds most broken hips."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "linkedin",
+   "text": "A hip X-ray that looks normal is usually right. It is not the end of the question if the person still can't take weight on the leg the next day.\n\nX-rays find most broken hips. The NICE guideline estimates they pick up 90 to 98 in every 100. A normal X-ray is usually right.",
+   "problem": "Same sensitivity-to-'usually right' conversion, stated twice.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A hip X-ray finds most broken hips, but not all. It is not the end of the question if the person still can't take weight on the leg the next day.\n\nThe NICE guideline estimates that X-rays pick up 90 to 98 in every 100 broken hips."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "bluesky",
+   "text": "A normal hip X-ray is usually right.",
+   "problem": "Same conversion.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A hip X-ray finds most broken hips."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "threads",
+   "text": "A hip X-ray that looks normal is usually right. The NICE guideline estimates X-rays find 90 to 98 in every 100 broken hips.",
+   "problem": "Same conversion.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "A hip X-ray finds most broken hips. The NICE guideline estimates X-rays find 90 to 98 in every 100."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "x",
+   "text": "In a review of 35 studies of older people in that position, sent for MRI, about 4 in 10 had a hidden fracture needing surgery.",
+   "problem": "Population swap. 'That position' is can't take weight the next day with a fracture still suspected; the review's people were older patients clinically suspected of a hip fracture with no definite fracture on X-ray, not defined by weight-bearing. The 39% is also from the subset of studies with no definite fracture, not all 35.",
+   "source_says": "Haj-Mirzaian 2020: 39% (1110 of 2835; 95% CI 35 to 43) in studies of patients with no definite radiographic fracture; 92% in studies with isolated greater trochanter fracture.",
+   "severity": "major",
+   "replacement": "In a pooled review of studies of older people whose X-rays showed no definite fracture but whose doctors still suspected one, MRI found a hip fracture needing surgery in about 4 in 10."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "threads",
+   "text": "About 4 in 10 older people in that position had a hidden fracture needing surgery.",
+   "problem": "Same population swap; 'in that position' defined in Threads as can't take weight plus fracture still suspected.",
+   "source_says": "As above.",
+   "severity": "major",
+   "replacement": "In a review of older people with normal X-rays but a still-suspected fracture, MRI found one needing surgery in about 4 in 10."
+  },
+  {
+   "tmp_id": "C03-P07",
+   "where": "linkedin",
+   "text": "A review of 35 studies looked at older people, average age 77, whose X-rays showed no clear fracture but whose doctors still suspected one. MRI found a hip fracture of a type needing surgery in about 4 in 10.",
+   "problem": "The 39% is the result for studies of people with no definite fracture; the 35 studies also include a group with isolated greater trochanter fractures (92%). Subgroup written as the whole.",
+   "source_says": "Haj-Mirzaian 2020.",
+   "severity": "minor",
+   "replacement": "A review of 35 studies looked at older people (average age 77) whose doctors suspected a hip fracture that the X-ray did not show. In the studies of people whose X-rays showed no definite fracture, MRI found a hip fracture of a type needing surgery in about 4 in 10."
+  },
+  {
+   "tmp_id": "C03-P08",
+   "where": "visual_text",
+   "text": "In England and Wales, next of kin can't consent to surgery",
+   "problem": "Headline lacks the condition: it applies to an adult who can't decide for themselves. Read alone it suggests next of kin never consent (a person with capacity consents for themselves; the kicker supplies the condition).",
+   "source_says": "Wade and Kitzinger 2019: appointed decision-maker (LPA, deputy), otherwise usually the responsible clinician, for those without capacity.",
+   "severity": "minor",
+   "replacement": "In England and Wales, next of kin can't consent to surgery for an adult who can't decide (alt text slide 1 to match)"
+  },
+  {
+   "tmp_id": "C03-P08",
+   "where": "x",
+   "text": "someone she appointed under a registered lasting power of attorney for health and welfare, or to a court-appointed deputy. If there is no one like that, the doctor responsible decides, in her best interests.",
+   "problem": "Omits that a valid advance decision applies first, that a deputy must hold health and welfare authority, and 'usually' for the clinician.",
+   "source_says": "Wade and Kitzinger 2019: 'Unless there is a valid and applicable Advance Decision... Deputy appointed by the court. Otherwise the decision-maker is usually the responsible clinician.'",
+   "severity": "minor",
+   "replacement": "someone she appointed under a registered lasting power of attorney for health and welfare, or to a court-appointed deputy with that power (unless a valid advance decision applies). If there is no one like that, the doctor responsible usually decides, in her best interests."
+  },
+  {
+   "tmp_id": "C03-P08",
+   "where": "x",
+   "text": "Her past and present wishes must be taken into account.",
+   "problem": "The Scottish duty is 'as far as this is practicable'.",
+   "source_says": "Edwardson and Baruah 2018: past and present wishes and feelings taken into account 'as far as this is practicable'.",
+   "severity": "minor",
+   "replacement": "Her past and present wishes must be taken into account as far as practicable."
+  },
+  {
+   "tmp_id": "C03-P08",
+   "where": "bluesky",
+   "text": "In England and Wales, being next of kin does not let you consent to an operation for an adult who can't decide. An appointed health and welfare attorney can; otherwise the doctor decides in their best interests, after asking family if there is time. Scotland's law differs.",
+   "problem": "Compression: 'an appointed health and welfare attorney' omits that the power of attorney must be registered and that a court-appointed deputy can also decide; 'the doctor decides' drops 'usually' and 'responsible'.",
+   "source_says": "Wade and Kitzinger 2019; Orr and Baruah 2018 (LPA must be registered).",
+   "severity": "minor",
+   "replacement": "In England and Wales, next of kin cannot consent to an operation for an adult who can't decide. A registered health and welfare attorney or court-appointed deputy can; otherwise the doctor usually decides in their best interests, asking family if there is time. Scotland's law differs."
+  },
+  {
+   "tmp_id": "C03-P09",
+   "where": "linkedin",
+   "text": "No study has tested whether watching the first drink prevents pneumonia.",
+   "problem": "Universal negative with no search behind it. Only a narrower statement is supported: no source opened shows that screening or watching reduces pneumonia or death. An evidence gap must not read as proof nothing exists.",
+   "source_says": "Claim record: 'No trial shows screening after hip fracture reduces pneumonia or death' (not a systematic search).",
+   "severity": "major",
+   "replacement": "We did not find a study showing that watching the first drink prevents pneumonia."
+  },
+  {
+   "tmp_id": "C03-P09",
+   "where": "linkedin",
+   "text": "Families and staff are often both present at the first drink.",
+   "problem": "Unsourced statement about ward practice.",
+   "source_says": "No claim record.",
+   "severity": "minor",
+   "replacement": "Families may be present at the first drink as well as staff."
+  },
+  {
+   "tmp_id": "C03-P09",
+   "where": "bluesky",
+   "text": "often without noticing",
+   "problem": "'Often' is stronger than the source, which says many older people are unaware of their swallowing problem (a general statement about older people with dysphagia, not about this unit).",
+   "source_says": "Baijens 2016: 'many older people are unaware of their swallowing dysfunction'.",
+   "severity": "minor",
+   "replacement": "many without noticing"
+  },
+  {
+   "tmp_id": "C03-P09",
+   "where": "x",
+   "text": "stay upright for about half an hour after.",
+   "problem": "Source says at least 30 minutes after a meal, as general advice for people with swallowing difficulty (consensus, not hip-specific). The visual says 'about 30 minutes' and lists posture as item 1 among the 'signs' that prompt 'ask for a swallowing assessment'.",
+   "source_says": "Baijens 2016: 'maintain this posture after the meal for at least 30 minutes'.",
+   "severity": "minor",
+   "replacement": "stay upright for at least half an hour after a meal. (Visual: relabel item 1 'Sit fully upright, and stay upright for at least 30 minutes after a meal' and move it out of the list of signs.)"
+  },
+  {
+   "tmp_id": "C03-P09",
+   "where": "x",
+   "text": "Many older people don't notice these themselves, and some problems cause no cough at all.",
+   "problem": "'Some problems cause no cough at all' has no passage in the claim record (only a note that silent aspiration can occur). Same phrase in LinkedIn.",
+   "source_says": "Baijens 2016 passage recorded: 'many older people are unaware of their swallowing dysfunction'.",
+   "severity": "minor",
+   "replacement": "Many older people don't notice these themselves."
+  },
+  {
+   "tmp_id": "C03-P09",
+   "where": "source_reply",
+   "text": "Sources: https://doi.org/10.1093/ageing/aft037 https://doi.org/10.1016/j.archger.2023.105312 https://doi.org/10.1002/lary.28194 https://doi.org/10.2147/CIA.S107750",
+   "problem": "LinkedIn cites a Spanish study (55% with a bedside test) that is not in the source reply.",
+   "source_says": "Mateos-Nozal 2021, Age Ageing, doi 10.1093/ageing/afab032 (PMID 33744920).",
+   "severity": "minor",
+   "replacement": "Sources: https://doi.org/10.1093/ageing/aft037 https://doi.org/10.1016/j.archger.2023.105312 https://doi.org/10.1093/ageing/afab032 https://doi.org/10.1002/lary.28194 https://doi.org/10.2147/CIA.S107750"
+  }
+ ],
+ "posts_to_drop": []
+}

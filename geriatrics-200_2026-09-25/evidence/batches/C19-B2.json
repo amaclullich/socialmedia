@@ -15,7 +15,7 @@
    "year": 2015,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
    "quality_note": "Missing-data recalculation limited to reported data."
   },
   {
@@ -30,7 +30,7 @@
    "year": 2013,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
    "quality_note": "68% of quantitative studies low quality; preference change data from 10 studies, significance untested."
   },
   {
@@ -45,7 +45,7 @@
    "year": 2017,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
    "quality_note": "28.5% response; self-report; cancer only; abstract does not say whether hours include time on call."
   },
   {
@@ -60,7 +60,7 @@
    "year": 2019,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
    "quality_note": "Observational; adjusted ORs pooled; modest effects."
   },
   {
@@ -73,9 +73,9 @@
    "design": "Systematic review, narrative synthesis (34 papers)",
    "population_setting": "Adults at end of life in the community",
    "year": 2019,
-   "access": "abstract",
-   "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata; get_full_text_article (PMC6350182)",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] returned no records; Scite not used.",
    "quality_note": "Narrative synthesis; searches to May 2017."
   },
   {
@@ -90,8 +90,8 @@
    "year": 2015,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
-   "quality_note": "US TV; 69.6% is immediate survival."
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
+   "quality_note": "US TV; 69.6% is immediate survival after CPR (abstract: 71.9% of immediate survivors survived to discharge). Not directly comparable with survival to discharge."
   },
   {
    "key": "PMID:8628340",
@@ -105,7 +105,7 @@
    "year": 1996,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
    "quality_note": "Mostly young, trauma arrests on TV."
   },
   {
@@ -120,7 +120,7 @@
    "year": 2014,
    "access": "abstract",
    "tool_used": "PubMed get_article_metadata",
-   "correction_check": "PubMed search of PMID with retracted publication[pt] OR erratum[pt] returned no records (2026-09-25); Scite not used.",
+   "correction_check": "Re-checked 2026-10-08: PubMed search of the PMID with retracted publication[pt] OR published erratum[pt] OR retraction of publication[pt] returned no records; Scite not used.",
    "quality_note": "Unadjusted; data now over a decade old."
   }
  ],
@@ -132,8 +132,8 @@
    "source_keys": [
     "PMID:26555077"
    ],
-   "supporting_passage": "Missing data were common. Across all health conditions when missing data were excluded the majority preference was for home: when missing data were included, it was not known what proportion of patients with cancer, non-cancer or multiple conditions preferred home.",
-   "location": "Abstract, Results",
+   "supporting_passage": "Missing data were common. Across all health conditions when missing data were excluded the majority preference was for home: when missing data were included, it was not known what proportion of patients with cancer, non-cancer or multiple conditions preferred home. Caution should be exercised if asserting that most patients prefer to die at home.",
+   "location": "Abstract, Results and Conclusions",
    "pico_timeframe": "UK adults, 61 studies 2000-2015 / reported preference for place of death",
    "claim_type": "empirical",
    "verdict": "supported",
@@ -306,8 +306,8 @@
    "claim_type": "empirical",
    "verdict": "supported",
    "safe_wording": "Professionals believe 'just in case' medicines help, but research has not yet shown whether they improve comfort or prevent hospital admissions.",
-   "qualifications": "",
-   "conflicting_or_uncertain": "",
+   "qualifications": "Say \"professionals believe\"; the review found the evidence inadequate, not evidence of no benefit. Review concerns injectable medicines in the community, searches to May 2017.",
+   "conflicting_or_uncertain": "Gap in evidence (patients' views unknown, impact on symptoms and admissions not established); not evidence that they do not work.",
    "numbers": [
     {
      "value": "34",
@@ -386,6 +386,47 @@
      "meaning": "shockable, 16.9% of arrests"
     }
    ]
+  },
+  {
+   "claim_id": "C19-11-c",
+   "cand_id": "C19-11",
+   "claim": "Anticipatory medicines are often not all used: use after prescription varies by setting.",
+   "source_keys": [
+    "PMID:30513254"
+   ],
+   "supporting_passage": "Use in nursing homes appears to be less common: one retrospective study reported that 'less than a third' of patients required the administration of prescribed medications, and a qualitative study of nursing home nurses reported that very few dying patients required the administration of prescribed drugs. Much higher proportions of use have been reported at home, ranging from 70%-77%. [Table, home study:] A significant amount of medicines went unused, but 77% of boxes issued had at least one drug used.",
+   "location": "Full text, Discussion (and results table)",
+   "pico_timeframe": "Adults at end of life; community and nursing homes; use of prescribed anticipatory medicines (mostly UK); review of 34 papers, searches to 2017",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In studies reviewed, the box was used in most home deaths (about 7 in 10 to 3 in 4 of those studied) but less often in nursing homes (fewer than 1 in 3 patients), and many individual medicines in the box go unused. Having a box does not mean death is close or that every medicine will be given.",
+   "qualifications": "Few, low-to-medium quality studies; use data are limited (review says literature on use after prescription is limited); the 70%-77% for home is the range reported by the review, not a national figure. 'Boxes' study is a single service evaluation.",
+   "conflicting_or_uncertain": "Rates of use are not the same as benefit.",
+   "numbers": [
+    {
+     "value": "70% to 77%",
+     "meaning": "use of prescribed medicines at home, as reported across studies in the review"
+    },
+    {
+     "value": "less than a third",
+     "meaning": "patients in nursing homes given prescribed medicines, one retrospective study"
+    }
+   ]
+  },
+  {
+   "claim_id": "C19-11-d",
+   "cand_id": "C19-11",
+   "claim": "What families should do with unused anticipatory medicines after the death.",
+   "source_keys": [],
+   "supporting_passage": "",
+   "location": "",
+   "pico_timeframe": "",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Do not state. Official guidance (NICE, local policy) could not be opened; the Bowers review gives costs of unused medicines, not disposal advice.",
+   "qualifications": "",
+   "conflicting_or_uncertain": "",
+   "numbers": []
   }
  ],
  "candidates": [
@@ -422,16 +463,17 @@
   {
    "cand_id": "C19-11",
    "status": "revise",
-   "reason": "Reserve. Bowers supports evidence gap; NICE recommendation and contents not verified.",
-   "revised_angle": "Present as a way to avoid delay whose benefit is not yet proven; omit NICE specifics and paramedic claims unless verified.",
+   "reason": "Reserve. Bowers 2019 (full text opened) supports the evidence gap and that use after prescription varies (about 7 in 10 to 3 in 4 at home, under 1 in 3 in nursing homes); NICE recommendation, contents list, paramedic and disposal claims not verified.",
+   "revised_angle": "Present as a way to avoid delay at night or weekends, with benefit not yet proven by research; say the box may not be used; omit NICE specifics, drug classes as guideline fact, paramedic and disposal claims.",
    "essential_claim_ids": [
-    "C19-11-a"
+    "C19-11-a",
+    "C19-11-c"
    ]
   },
   {
    "cand_id": "C19-26",
    "status": "ready",
-   "reason": "Diem (discharge, matched outcome) vs NCAA 18.4% and 10.5%; drop frailty and rib claims.",
+   "reason": "Diem (survival to discharge, 67%) can be set against NCAA 18.4% and 10.5% (non-shockable, 72.3% of arrests); Portanova 69.6% is immediate survival so must not be set against the audit figure. Frailty and rib-fracture claims not verified: drop them.",
    "revised_angle": null,
    "essential_claim_ids": [
     "C19-26-a",

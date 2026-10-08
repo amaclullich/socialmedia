@@ -14,100 +14,337 @@
  "sources_reopened": [
   {
    "key": "PMID:15561732",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata (abstract)",
    "matches_record": true
   },
   {
-   "key": "PMID:31848198",
-   "tool": "mcp__PubMed__get_article_metadata",
-   "matches_record": true
-  },
-  {
-   "key": "PMID:23305759",
-   "tool": "mcp__PubMed__get_article_metadata",
-   "matches_record": true
-  },
-  {
-   "key": "PMID:27726122",
-   "tool": "mcp__PubMed__get_article_metadata",
-   "matches_record": true
-  },
-  {
-   "key": "PMID:42380867",
-   "tool": "mcp__PubMed__get_article_metadata",
-   "matches_record": true
-  },
-  {
-   "key": "PMID:42730948",
-   "tool": "mcp__PubMed__get_article_metadata",
-   "matches_record": true
-  },
-  {
-   "key": "PMID:37916580",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "key": "PMID:36153038",
+   "tool": "PubMed get_article_metadata (abstract)",
    "matches_record": true
   },
   {
    "key": "PMID:32125666",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata (abstract) + get_full_text_article PMC7235049 (to confirm 50% is per-patient, at least one discrepancy)",
    "matches_record": true
   },
   {
-   "key": "PMID:28672291",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "key": "PMID:19144363",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:30956202",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37916580",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:23305759",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:27726122",
+   "tool": "PubMed get_article_metadata (abstract)",
    "matches_record": true
   },
   {
    "key": "PMID:26537789",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:42380867",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:31848198",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:28672291",
+   "tool": "PubMed get_article_metadata (abstract); get_full_text_article PMC5710568 returned abstract only",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37225255",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:42730948",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:41371942",
+   "tool": "PubMed get_article_metadata (abstract)",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:37402549",
+   "tool": "PubMed get_article_metadata (abstract)",
    "matches_record": true
   }
  ],
  "issues": [
   {
-   "tmp_id": "C16-P04",
-   "where": "all",
-   "text": "Death rates were higher in nursing homes than in residential homes. That reflects how ill people already are when they move in.",
-   "problem": "Causal explanation stated as fact; Shah 2013 reports standardised mortality ratios only and does not test why. LinkedIn adds 'rather than any effect of the home', which the study did not examine.",
-   "source_says": "The age and sex standardised mortality ratio for nursing homes was 419 (95% CI: 396-442) and for residential homes was 284 (266-302).",
+   "tmp_id": "C16-P01",
+   "where": "bluesky",
+   "text": "about 1 in 9 nursing home residents had medicines hidden in a week",
+   "problem": "Subgroup written as the whole study. The 11% (1 in 9) figure is for regular nursing home units only; dementia units were 17% (1 in 6). The Bluesky version drops the dementia-unit figure and presents 1 in 9 as all nursing home residents.",
+   "source_says": "Kirkevold and Engedal, BMJ 2005 (abstract): 11% of patients in regular nursing home units and 17% in special care units for people with dementia received drugs mixed in food or beverages at least once during seven days; documented in records in 40% (96/241) of cases. 1362 patients in regular units and 564 in dementia units.",
    "severity": "major",
-   "replacement": "Death rates were higher in nursing homes than in residential homes. This most likely reflects how ill people already are when they move in; the study did not test the reason. (LinkedIn: replace 'The higher figures reflect how ill people already are when they move in, rather than any effect of the home.' with 'The higher figures most likely reflect how ill people already are when they move in; the study did not test the reason.' Apply same hedge in bluesky and threads.)"
+   "replacement": "Full replacement caption: \"Before hiding a medicine in food or drink, ask if the person still needs it. In an older Norwegian study, medicines were hidden in a week for about 1 in 9 residents of regular nursing home units and 1 in 6 in dementia units; recorded in 4 in 10 cases. Ask a pharmacist how each can be given.\" (291 characters)"
+  },
+  {
+   "tmp_id": "C16-P01",
+   "where": "threads",
+   "text": "about 1 in 9 nursing home residents had medicines hidden in food or drink in one week",
+   "problem": "Same subgroup-as-whole compression: 1 in 9 is regular units only; the Threads version omits the 1 in 6 dementia-unit figure. Also states the capacity and best-interests sequence as a flat 'should' with no 'check the law where you work' qualifier, although best-interests is an England and Wales concept and the post cites no guidance or law.",
+   "source_says": "Kirkevold and Engedal, BMJ 2005 (abstract): 11% of patients in regular nursing home units and 17% in special care units for people with dementia received drugs mixed in food or beverages at least once during seven days; documented in records in 40% (96/241) of cases. 1362 patients in regular units and 564 in dementia units.",
+   "severity": "major",
+   "replacement": "Full replacement caption: \"Before a medicine goes into someone's food or drink, ask whether they still need it.\\n\\nIn an older Norwegian study, medicines were hidden in food or drink in one week for about 1 in 9 residents in regular nursing home units and 1 in 6 in dementia units. The record said so in only 4 in 10 cases. UK figures may differ.\\n\\nWe suggest hiding a medicine only after a documented capacity and best-interests decision, with a pharmacist's advice on each one. Check the law where you work.\" (479 characters)"
+  },
+  {
+   "tmp_id": "C16-P01",
+   "where": "visual_text",
+   "text": "Norwegian nursing homes, older data: in one week, 1 in 9 residents had medicines hidden in food or drink; 4 in 10 cases were recorded",
+   "problem": "Visual text and alt text give 1 in 9 as the figure for 'residents' of Norwegian nursing homes; it is the regular-unit figure only, and the visual data block itself lists 17% for dementia units. Also 'cases' is unclear: 4 in 10 is the share of residents receiving hidden medicines whose record said so.",
+   "source_says": "Kirkevold and Engedal, BMJ 2005 (abstract): 11% of patients in regular nursing home units and 17% in special care units for people with dementia received drugs mixed in food or beverages at least once during seven days; documented in records in 40% (96/241) of cases. 1362 patients in regular units and 564 in dementia units.",
+   "severity": "major",
+   "replacement": "Visual text: \"Norwegian nursing homes, older data: in one week, medicines were hidden in food or drink for 1 in 9 residents of regular units and 1 in 6 in dementia units; this was written in the record in 4 in 10 of those cases\". Alt text: \"A strip notes an older Norwegian study: medicines hidden in a week for 1 in 9 residents of regular units and 1 in 6 in dementia units; 4 in 10 were recorded.\""
   },
   {
    "tmp_id": "C16-P01",
    "where": "x",
-   "text": "about 1 in 9 nursing home residents, and 1 in 6 in dementia units",
-   "problem": "11% applies to regular (ordinary) units only, not to all nursing home residents; LinkedIn states this correctly.",
-   "source_says": "11% of the patients in regular nursing home units and 17% of the patients in special care units for people with dementia",
-   "severity": "minor",
-   "replacement": "about 1 in 9 residents in ordinary nursing home units, and 1 in 6 in dementia units, (same fix in threads; bluesky: 'about 1 in 9 residents in ordinary units'; visual line: 'In one Norwegian study, 1 in 9 residents in ordinary units had medicines hidden in one week; 4 in 10 cases were recorded.')"
+   "text": "We should hide a medicine only after a documented capacity assessment and best-interests decision, with a pharmacist's advice on each medicine.",
+   "problem": "The covert-administration sequence is stated as a flat standard in the X and Threads versions, in Alasdair's voice, with no qualifier. Only the LinkedIn version and the visual say it is suggested judgement and to check local law. Best-interests is England and Wales terminology; Scots law uses different tests, and no guidance or law was opened. This is an inferred position on a contested practice and a compression that removes the necessary qualification.",
+   "source_says": "Evidence file: C16-17-c not_found; safe wording says state as professional judgement and do not attribute steps to NICE or MWC. Local law is not sourced.",
+   "severity": "major",
+   "replacement": "We suggest hiding a medicine only after a documented capacity assessment and a best-interests decision, with a pharmacist's advice on each medicine. This is judgement, not a legal summary: check the law and guidance where you work."
   },
   {
-   "tmp_id": "C16-P06",
-   "where": "source_reply",
-   "text": "Finucane et al., Br J Gen Pract 2019;70:e20-e28",
-   "problem": "Volume 70 is the 2020 print issue (epub Dec 2019); year and volume mismatch.",
-   "source_says": "Br J Gen Pract, vol 70, issue 690, e20-e28; epub 2019-12-26",
+   "tmp_id": "C16-P01",
+   "where": "x",
+   "text": "Pharmacists check whether a tablet is coated or modified-release (made to release slowly), and how it tastes, before it is crushed or mixed into food.",
+   "problem": "Tan et al is a Singapore pharmacist-consensus algorithm (50 patients with swallowing difficulty, nursing home and neurology ward) listing coating, modified release and taste among considerations. It is not a description of what pharmacists routinely do, and the setting is tablet modification for dysphagia rather than covert administration.",
+   "source_says": "Tan 2022, BMJ Open (abstract): considerations included by consensus in the INGEST algorithm were special coating or modified release, hazardous nature and taste of the active ingredients, manufacturer's advice and tube feeding.",
    "severity": "minor",
-   "replacement": "Source: Finucane et al., Br J Gen Pract 2020;70:e20-e28 https://doi.org/10.3399/bjgp19X707117"
+   "replacement": "A pharmacist-developed checklist for judging whether a tablet can be crushed or mixed into food asks about special coating, modified release (made to release slowly) and taste. Ask a pharmacist about each medicine."
+  },
+  {
+   "tmp_id": "C16-P02",
+   "where": "bluesky",
+   "text": "In a systematic review, about half of adults had an unintended medicine discrepancy after discharge.",
+   "problem": "Compression drops 'median across studies' and the wide spread. The 50% is the median of 11 studies (IQR 39 to 76%, range 14 to 93.5%), not a pooled rate.",
+   "source_says": "Alqenae 2020 (abstract and full text opened): median rate of unintentional medication discrepancies 50% (IQR 39-76), 11 studies, per-patient (at least one discrepancy); range 14-93.5%.",
+   "severity": "minor",
+   "replacement": "Full replacement caption: \"A tablet stopped in hospital can come back if the GP repeat list isn't updated (an illustrative route, not a measured rate). In a systematic review, the median across 11 studies was about half of adults with an unintended discrepancy after discharge. We should name who checks the list within days.\" (298 characters)"
+  },
+  {
+   "tmp_id": "C16-P02",
+   "where": "visual_text",
+   "text": "Alasdair MacLullich | Small detail, real effect",
+   "problem": "The footer series name 'Small detail, real effect' asserts a demonstrated effect of the suggested fix (a named person checking the repeat list). The only evidence is the discrepancy rate after discharge; no study of the check is cited. The review's full text says none of the reviewed intervention reviews reported consistent reductions in these outcomes. Same issue applies to the X, LinkedIn, Bluesky and Threads series metadata.",
+   "source_says": "No source opened tests a named-person repeat-list check.",
+   "severity": "minor",
+   "replacement": "Change series and footer to \"Alasdair MacLullich | Teaching round\"."
+  },
+  {
+   "tmp_id": "C16-P03",
+   "where": "bluesky",
+   "text": "Use the count to plan services, not to argue against one resident's transfer.",
+   "problem": "Imperative endorses use of the count for service planning, which no source supports. Purdy et al conclude the code-list definitions are inconsistent enough that the measure needs resolving before it is 'more useful to decision makers'. Lloyd et al only show it is used as an outcome in evaluations.",
+   "source_says": "Purdy 2009 (abstract): definitions and codes vary widely and affect admission rates, length of stay and costs; 'Some resolution of these inconsistencies is required for this measure to be more useful to decision makers.' Lloyd 2019: potentially avoidable emergency admissions used as an outcome.",
+   "severity": "major",
+   "replacement": "Full replacement caption: \"'Potentially avoidable' admissions from care homes are counted from lists of diagnosis codes, and different lists give different totals. It is a service measure, not a verdict on one resident's transfer. For one resident, ask: preventable? treatable at home? what did the person want?\" (284 characters)"
+  },
+  {
+   "tmp_id": "C16-P03",
+   "where": "x",
+   "text": "The measure is used to compare services and programmes for care homes, and can help plan where support could improve.",
+   "problem": "'Can help plan where support could improve' is not in any source. Evidence supports only that the measure is used as an outcome to compare services (Lloyd 2019), and Purdy flags the definitional inconsistency. The same 'planning measure' claim appears in the LinkedIn text, the Threads text and the visual tab 'Planning measure'.",
+   "source_says": "Lloyd 2019 (abstract): 'potentially avoidable emergency admissions' is one outcome compared between participating care homes and matched controls. Purdy 2009: ACSC admission rates are 'increasingly used as a measure of the effectiveness of primary care'.",
+   "severity": "major",
+   "replacement": "The measure is used to compare services and programmes for care homes. Because lists differ, totals from different lists are not directly comparable. (LinkedIn: replace 'the count is a planning measure' with 'the count is used to compare services'. Threads: replace 'The count can help plan services.' with 'The count is used to compare services.' Visual: change the tab 'Planning measure' to 'Service measure'.)"
+  },
+  {
+   "tmp_id": "C16-P03",
+   "where": "x",
+   "text": "the NHS list used 19 of the 36 conditions found in the research literature.",
+   "problem": "Purdy says the most frequently used NHS subset contains 19 ACSCs; it does not describe a single NHS list. The visual repeats 'one NHS list'. Also the study concerns ambulatory care sensitive condition lists, and the equation with 'potentially avoidable' is the post's inference.",
+   "source_says": "Purdy 2009 (abstract): 36 potential ACSCs identified; 'The most frequently used subset of ACSCs in the NHS only contains 19 ACSCs'; the NHS 19 account for 35% of ACSC admissions under the full 36-condition set (4,659,054 emergency admissions in England, 2005/6).",
+   "severity": "minor",
+   "replacement": "the most commonly used NHS subset contained 19 of the 36 conditions found in the research literature. (Visual: \"Different lists give different totals: the most commonly used NHS subset has 19 of the 36 conditions found in the research literature (all emergency admissions, England, 2005/6).\")"
+  },
+  {
+   "tmp_id": "C16-P03",
+   "where": "x",
+   "text": "A 2023 systematic review noted that admissions from care homes are often necessary, and that do-not-hospitalise orders were problematic.",
+   "problem": "Two decontextualisations. 'Often necessary' is the authors' background framing of unplanned admissions, not a finding (LinkedIn says so; X and Threads do not). 'Do-not-hospitalise orders were problematic' is stated in the review in the context of quality improvement programmes, where advance care planning was key to success; stripped of that, it reads as a position on a disputed policy.",
+   "source_says": "Chambers 2023 (abstract): 'While often necessary, such admissions can be distressing...'; 'Advance care planning was key to the success of most quality improvement programmes but do-not-hospitalise orders were problematic.' Much of the evidence was low quality.",
+   "severity": "minor",
+   "replacement": "A 2023 systematic review of ways to reduce unplanned care home admissions described such admissions as 'often necessary' (the authors' framing). It also found that advance care planning was key to the success of most quality improvement programmes, but do-not-hospitalise orders were problematic. Most of the evidence was low quality."
+  },
+  {
+   "tmp_id": "C16-P04",
+   "where": "x",
+   "text": "The death rate reflects how ill people are when they move in, not the effect of the home.",
+   "problem": "Unsupported causal-interpretation sentence stated as fact in X, LinkedIn and Threads. The abstract reports the standardised mortality ratios and says nothing about why nursing homes differ or about illness at move-in. It also asserts 'not the effect of the home', which the study cannot test either way.",
+   "source_says": "Shah 2013 (abstract): 2,558 (26.2%) of 9,772 care home residents died within 1 year; age and sex standardised mortality ratio 419 (396-442) for nursing homes and 284 (266-302) for residential homes. No explanation of the difference is given.",
+   "severity": "major",
+   "replacement": "This study cannot show whether the type of home affects how long people live: residents of the two kinds of home may differ in how unwell they are."
+  },
+  {
+   "tmp_id": "C16-P04",
+   "where": "x",
+   "text": "Death rates were higher in nursing homes than in residential homes.",
+   "problem": "Imprecise: the source compares age- and sex-standardised mortality ratios (419 vs 284, population = 100), not raw death rates. Also the sample counts people living in homes in 2009 with the 26% figure pooled across both types.",
+   "source_says": "Shah 2013 (abstract): age and sex standardised mortality ratio nursing homes 419, residential homes 284.",
+   "severity": "minor",
+   "replacement": "After allowing for age and sex, death rates were higher in nursing homes than in residential homes."
+  },
+  {
+   "tmp_id": "C16-P04",
+   "where": "visual_text",
+   "text": "Out of 100 care home residents, about 74 were alive a year later",
+   "problem": "Headline carries neither the setting nor the timeframe, only the body label does. A reader seeing the headline alone would read it as a general survival figure (it is a one-year figure for residents already living in homes in England and Wales in 2009, not survival from moving in).",
+   "source_says": "Shah 2013 (abstract): 9,772 care home residents aged 65-104, 293 practices in England and Wales, 2009; 26.2% died within 1 year.",
+   "severity": "minor",
+   "replacement": "Of 100 care home residents in England and Wales in 2009, about 74 were alive a year later"
   },
   {
    "tmp_id": "C16-P05",
-   "where": "threads",
-   "text": "one small positive Norwegian trial",
-   "problem": "Compression drops that the trial showed no clear difference in physical capacity or quality of life; reads stronger than other versions.",
-   "source_says": "No significant group differences were found concerning COPM satisfaction at 3 months, physical capacity or health-related quality of life.",
+   "where": "x",
+   "text": "A 2026 review that pooled reablement trials did not show a clear difference in chosen activities or physical performance, at low certainty.",
+   "problem": "Population/intervention swap and certainty understated. Hogstedt 2026 is a review of supervised home rehabilitation delivered by occupational therapy or physiotherapy (it excluded interventions mainly delivered by home help service staff); the 'reablement-based' trials were one of three intervention groups. The post equates this with the home-care reablement defined in the first sentence and the Cochrane review. The certainty was 'low to very low', not 'low'. Same wording in LinkedIn, Bluesky and Threads.",
+   "source_says": "Hogstedt 2026 (abstract): 27 RCTs of supervised home rehabilitation; 'Reablement-based interventions showed no significant effects on selected ADL tasks measured with COPM (n = 291, COPM performance MD 0.30, 95% CI -0.25 to 0.86...) or physical performance (n = 555, SMD 0.12, 95% CI -0.05 to 0.28), with low to very low evidence according to GRADE.'",
+   "severity": "major",
+   "replacement": "A 2026 review of home rehabilitation trials pooled the reablement-based programmes. It did not show a clear difference in chosen activities or physical performance, and the certainty was low to very low. (Bluesky full replacement: \"Reablement is short-term help at home to relearn everyday tasks. Evidence is thin: a 2016 Cochrane review found 2 trials; a 2026 home rehabilitation review showed no clear difference for reablement-based programmes (low to very low certainty). Ask: which goals, how long, any charge, when reviewed?\" (298 characters). Threads: swap in the same sentence and 'low to very low certainty'.)"
+  },
+  {
+   "tmp_id": "C16-P05",
+   "where": "x",
+   "text": "In one small Norwegian trial of 61 people, those offered 10 weeks of reablement",
+   "problem": "The Norwegian trial is one of the two trials in the 2016 Cochrane review (Western Australia, 750 participants; Norway, 61 participants; total 811). The post presents them in sequence as if separate evidence.",
+   "source_says": "Cochrane 2016 (abstract): two studies, 811 participants; one in Western Australia (750), the second in Norway (61 participants, mean age 79).",
    "severity": "minor",
-   "replacement": "one small Norwegian trial where people rated chosen activities somewhat better, but not physical capacity or quality of life"
+   "replacement": "One of those two trials was a small Norwegian trial of 61 people. Those offered 10 weeks of reablement"
+  },
+  {
+   "tmp_id": "C16-P05",
+   "where": "x",
+   "text": "Few good trials exist, so we do not yet know whether it helps more than usual care.",
+   "problem": "'Few good trials' judges trial quality, which the sources do not say. The sources say few trials and low-certainty evidence.",
+   "source_says": "Cochrane 2016: very low quality evidence; 'urgent need for high quality trials'. Hogstedt 2026: low to very low certainty for reablement outcomes.",
+   "severity": "minor",
+   "replacement": "Few trials exist and the certainty is low, so we do not yet know whether it helps more than usual care."
+  },
+  {
+   "tmp_id": "C16-P06",
+   "where": "bluesky",
+   "text": "In one Scottish study of people who died in 2017, about 1 in 3 KIS lacked resuscitation status and nearly half lacked preferred place of care.",
+   "problem": "Population compression: the study population for the KIS content figures is people with an advanced progressive illness who had a KIS (712 records), not all people who died. 'Nearly half' is a stretch for 45% (55% recorded).",
+   "source_says": "Finucane 2019 (abstract): 1304 decedents; 79% (1034) had an advanced progressive illness; 69% (712) of those had a KIS; 68% (482) of KIS included resuscitation status and 55% (390) preferred place of care.",
+   "severity": "minor",
+   "replacement": "Full replacement caption: \"Most hours in a week fall outside weekday surgery hours, so write the care plan for the clinician reading it at 3am. In one Scottish study of people with advanced illness who died in 2017, about 1 in 3 KIS lacked resuscitation status and over 4 in 10 lacked preferred place of care.\" (282 characters). In X, LinkedIn and Threads change 'nearly half' to 'more than 4 in 10'."
+  },
+  {
+   "tmp_id": "C16-P06",
+   "where": "visual_text",
+   "text": "Scottish Key Information Summaries, people with advanced illness who died in 2017: 68% recorded resuscitation status; 55% recorded preferred place of care",
+   "problem": "Chart percentages have no denominator on the visual. They are percentages of the 712 KIS records, not of people.",
+   "source_says": "Finucane 2019 (abstract): 68% (=482) of KIS included resuscitation status and 55% (=390) preferred place of care; 712 KIS.",
+   "severity": "minor",
+   "replacement": "Scottish Key Information Summaries (712 records) for people with advanced illness who died in 2017: 68% recorded resuscitation status; 55% recorded preferred place of care"
+  },
+  {
+   "tmp_id": "C16-P06",
+   "where": "visual_text",
+   "text": "Alasdair MacLullich | Small detail, real effect",
+   "problem": "Series name 'Small detail, real effect' implies a measured benefit of writing plans for the out-of-hours reader. The study is descriptive and measured only missing content; it did not test an effect on care.",
+   "source_says": "Finucane 2019: descriptive; people with a KIS were more likely to die in the community (61% vs 30%), an association the post does not use.",
+   "severity": "minor",
+   "replacement": "Change series and footer to \"Alasdair MacLullich | Teaching round\"."
   },
   {
    "tmp_id": "C16-P07",
-   "where": "threads",
-   "text": "training in similar tools did not show a clear drop in admissions",
-   "problem": "Calls INTERACT 'similar' to RESTORE2 without a source for equivalence.",
-   "source_says": "Training and support for INTERACT implementation ... had no effect on hospitalization or ED visit rates in the overall population",
+   "where": "visual_text",
+   "text": "Alasdair MacLullich | Care that works",
+   "problem": "Series name 'Care that works' contradicts the evidence presented: the only trial cited (INTERACT) did not show a clear drop in admissions, and the RESTORE2 study looked at views, not effectiveness. The comic then shows the handover chain as the model of working care. Headline claim 'works' is unsupported for the whole post (all platforms carry this series metadata).",
+   "source_says": "Kane 2017: no effect on hospitalisation or ED visit rates overall. Wilcox 2023: qualitative views of a proposed trial; no effectiveness data.",
+   "severity": "major",
+   "replacement": "Change series and footer to \"Alasdair MacLullich | Teaching round\" and kicker to \"Teaching round\"."
+  },
+  {
+   "tmp_id": "C16-P07",
+   "where": "x",
+   "text": "Staff interviewed in one study worried about training night and temporary staff to use it.",
+   "problem": "Context missing. The interviews concerned a proposed trial of antibiotics for suspected urine infection in care home residents; participants were 16 care home staff and 11 primary care clinicians, and the abstract does not say which group raised the training concern. The same abstract says there was strong support for using RESTORE2, which the X version omits.",
+   "source_says": "Wilcox 2023 (abstract): interviews with 16 care home staff and 11 primary care clinicians on a potential RCT of antibiotics for suspected UTI; 'strong support for using the RESTORE2 ... tool to monitor residents; however, there were concerns about associated training requirements, especially for night and temporary staff.'",
    "severity": "minor",
-   "replacement": "training staff in the INTERACT tools did not show a clear drop in admissions"
+   "replacement": "In one UK interview study about a proposed trial of antibiotics for suspected urine infection in care homes, participants strongly supported using RESTORE2 to monitor residents, but worried about training night and temporary staff."
+  },
+  {
+   "tmp_id": "C16-P07",
+   "where": "linkedin",
+   "text": "The trial tested the training and support, and uptake varied.",
+   "problem": "'Uptake varied' is not in the abstract of Kane et al and full text could not be opened to confirm it. The 85 nursing homes are the analysis subset that reported no INTERACT use before the study, which is not stated.",
+   "source_says": "Kane 2017 (abstract): analysis focused on 85 NHs (36,717 residents) that reported no use of INTERACT during the preintervention period; training and support 'had no effect on hospitalization or ED visit rates in the overall population'.",
+   "severity": "minor",
+   "replacement": "The trial tested the training and support, in nursing homes that had not used INTERACT before."
+  },
+  {
+   "tmp_id": "C16-P08",
+   "where": "x",
+   "text": "Housebound people often miss routine reviews at their GP practice.",
+   "problem": "Opening headline claim (X, LinkedIn, Bluesky, Threads, and the study-level framing) rests on a background sentence in the Ramos abstract, not a finding. The study measured 23 of 25 in a selected sample and the post itself says it cannot show how common this is, so 'often' contradicts the qualification. Background statements are not findings.",
+   "source_says": "Ramos 2026 (abstract): Background: 'People who are housebound frequently miss general practice-based long-term condition (LTC) reviews.' Results: twenty-five patients included; twenty-three had missed 91 LTC reviews since becoming housebound.",
+   "severity": "major",
+   "replacement": "Some housebound people go without routine reviews at their GP practice. (Apply the same opening wording in LinkedIn, Bluesky and Threads. Optional attribution in the body: 'The researchers say housebound people frequently miss these reviews; their small study could not measure how often.')"
+  },
+  {
+   "tmp_id": "C16-P08",
+   "where": "visual_text",
+   "text": "In one Glasgow study, 23 of 25 housebound people had missed routine reviews",
+   "problem": "Selected-subgroup population swap in the headline. The 25 were housebound adults 60+ with two or more long-term conditions and five or more regular medicines, in two practices serving a deprived area, excluding people lacking capacity or receiving palliative care. All of that is missing from the headline and, in X, Bluesky and Threads, partly or wholly missing from the captions.",
+   "source_says": "Ramos 2026 (abstract): inclusion adults >=60 coded housebound with >=2 LTCs and >=5 regular medicines; excluded adults lacking capacity or receiving palliative care; two practices serving a socioeconomically deprived locality; 25 patients, median age 81; 56% in most deprived SIMD quintile; 23 had missed 91 LTC reviews.",
+   "severity": "major",
+   "replacement": "Headline: \"In one Glasgow study, 23 of 25 housebound people with several conditions and medicines had missed routine reviews\". Body: \"Two practices in a deprived area, 25 people with two or more long-term conditions and five or more regular medicines. A small study, so it can't show how common this is.\" Alt text: add 'with several conditions and medicines, in two practices serving a deprived area'."
+  },
+  {
+   "tmp_id": "C16-P08",
+   "where": "bluesky",
+   "text": "In one small Glasgow study, 23 of 25 housebound adults had missed reviews of their long-term conditions.",
+   "problem": "Drops both the selection criteria and the 'it can't show how common this is' qualifier that the X, LinkedIn and Threads versions carry, so the short version reads as a prevalence for housebound adults.",
+   "source_says": "Ramos 2026 (abstract): feasibility pre-post study, 25 patients; no prevalence estimate.",
+   "severity": "major",
+   "replacement": "Full replacement caption: \"Some housebound people go without routine GP reviews. In one small Glasgow study of 25 housebound adults with several conditions and medicines, 23 had missed reviews. It can't show how common this is. If someone you care for no longer gets out, tell the practice and ask what can be done at home.\" (296 characters)"
+  },
+  {
+   "tmp_id": "C16-P08",
+   "where": "x",
+   "text": "In one small study of 25 housebound adults aged 60 and over in two Glasgow practices, 23 had missed routine reviews of their long-term conditions since becoming housebound, 91 reviews in all.",
+   "problem": "Selection criteria not stated in X and Threads (two or more long-term conditions, five or more regular medicines, deprived-area practices). 'Small, selected sample' does not tell the reader how it was selected.",
+   "source_says": "Ramos 2026 (abstract): adults >=60 coded housebound with >=2 LTCs and >=5 regular medicines, two practices serving a socioeconomically deprived locality.",
+   "severity": "minor",
+   "replacement": "In one small study of 25 housebound adults aged 60 and over, all with two or more long-term conditions and five or more regular medicines, in two Glasgow practices serving a deprived area, 23 had missed routine reviews of their long-term conditions since becoming housebound, 91 reviews in all."
+  },
+  {
+   "tmp_id": "C16-P08",
+   "where": "source_reply",
+   "text": "Ramos et al, 2026 https://doi.org/10.1007/s11096-026-02211-2",
+   "problem": "Citation lacks the journal, unlike every other source reply in the set. DOI matches the record.",
+   "source_says": "Ramos T, et al. Int J Clin Pharm 2026, doi 10.1007/s11096-026-02211-2 (PubMed 42730948).",
+   "severity": "minor",
+   "replacement": "Ramos et al, Int J Clin Pharm 2026 https://doi.org/10.1007/s11096-026-02211-2"
   }
  ],
  "posts_to_drop": []

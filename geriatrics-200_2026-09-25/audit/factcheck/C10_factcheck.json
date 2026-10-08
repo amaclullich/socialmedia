@@ -1,29 +1,675 @@
-{"category":"C10","checked":"2026-09-25",
-"posts_checked":["C10-P01","C10-P02","C10-P03","C10-P04","C10-P05","C10-P06","C10-P07","C10-P08","C10-P09"],
-"sources_reopened":[
-{"key":"PMID:21156951","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:23053583","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:40398950","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:22638604","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:28328324","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:25460534","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:25842375","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:27515677","tool":"mcp__PubMed__get_article_metadata","matches_record":true},
-{"key":"PMID:21402445","tool":"mcp__PubMed__get_article_metadata","matches_record":true}],
-"issues":[
-{"tmp_id":"C10-P08","where":"threads","text":"UK specialists advise pausing it every 3 months to check it still helps.","problem":"Misattribution. The 3-monthly pause is UK prescribing advice (BNF 2010 as reported by Cochrane). The 'specialist' review (Rabbitt 2016, Age Ageing) is by geriatricians in Galway, Ireland, and says only: restrict to severe symptoms, review regularly, discuss risks and benefits.","source_says":"Rabbitt 2016 affiliations: Galway University Hospitals, Ireland. Cochrane 2015 Discussion: the BNF (2010) advises interrupting treatment every 3 months.","severity":"major","replacement":"UK prescribing advice is to pause it every 3 months to check it still helps."},
-{"tmp_id":"C10-P08","where":"linkedin","text":"What UK specialists advise:","problem":"Same misattribution. Rabbitt 2016 is Irish, and points 2 and 3 (4 weeks, 3-monthly pause) come from the BNF 2010 as reported in the Cochrane review, not from specialists.","source_says":"See C10-03-d: Rabbitt gives the severe-only, regular review and discussion advice; BNF 2010 via Cochrane gives the 4-week and 3-monthly advice.","severity":"major","replacement":"What the advice says (a review by specialists in older people's medicine, and UK prescribing advice reported in a Cochrane review):"},
-{"tmp_id":"C10-P08","where":"x","text":"Specialist advice is to keep it for severe cramps and pause it every 3 months to check it still helps.","problem":"Merges two sources: the 3-monthly pause is UK prescribing advice (BNF 2010), not the specialist review.","source_says":"C10-03-d.","severity":"minor","replacement":"Specialist advice is to keep it for severe cramps and review it regularly; UK prescribing advice is to pause it every 3 months to check it still helps."},
-{"tmp_id":"C10-P08","where":"bluesky","text":"In trials it cut cramps from about 9 to 6 or 7 a fortnight, with rare serious harms. Advice is to pause it every 3 months to check it helps; many people stop without a clear rise in cramps.","problem":"The 'low quality evidence' qualification is dropped, and 'many people stop' overstates the trial finding (26.5 percentage points more had stopped at 12 weeks; the cramp comparison was uncertain).","source_says":"Cochrane: low quality evidence. Coppin 2005: 26.5% more stopped; no significant difference in cramps (wide CI).","severity":"minor","replacement":"In trials it cut cramps from about 9 to 6 or 7 a fortnight (low-quality evidence), with rare serious harms. UK advice is to pause it every 3 months; in one trial, advice to stop did not show a clear rise in cramps."},
-{"tmp_id":"C10-P06","where":"visual_text","text":"Many people with marked changes have little pain. Many with knee pain have fairly normal X-rays.","problem":"'Marked' is stronger than the source. Bedson and Croft describe radiographic OA in general, and Neogi shows severe (KL grade 4) changes are strongly associated with pain. The claim record wording is 'arthritis changes'.","source_says":"Bedson 2008: in those with radiographic knee OA the proportion with pain ranged from 15% to 81%. Neogi 2009: KL 4 vs 0 OR for pain 151 (MOST).","severity":"major","replacement":"Many people with arthritis changes on the X-ray have little pain. Many with knee pain have fairly normal X-rays."},
-{"tmp_id":"C10-P06","where":"bluesky","text":"Many people with marked changes have little pain, and the reverse.","problem":"'Marked' overstates the source, as on the visual.","source_says":"C10-16-a safe wording: 'arthritis changes'.","severity":"major","replacement":"Many people with arthritis changes on the X-ray have little pain, and the reverse."},
-{"tmp_id":"C10-P06","where":"alt_text","text":"Many people with marked X-ray changes have little pain","problem":"Same overstatement.","source_says":"C10-16-a.","severity":"major","replacement":"Many people with arthritis changes on the X-ray have little pain"},
-{"tmp_id":"C10-P06","where":"x","text":"all described their knee as 'bone on bone', and many had set exercise aside for fear of damage.","problem":"Links avoidance to a single motive, and does not say that this small qualitative study shows beliefs, not cause.","source_says":"Bunzli 2019: most believed loading could damage the joint; many avoided exercise. Qualitative, 27 people, one hospital.","severity":"minor","replacement":"all described their knee as 'bone on bone'. Many believed exercise could damage the joint, and many had set it aside. A small study of beliefs, not proof of cause."},
-{"tmp_id":"C10-P05","where":"bluesky","text":"Few older people were included. We would not start it for sciatica, and would review it.","problem":"'Few older people' is not quantified in the source (mean age 52 to 55, SD about 16 to 17). The opinion is stated as a first-person practice claim without the 'judgement' framing the other versions use.","source_says":"Enke 2018 Table 1: mean age 52.4 and 55.2 years; creatinine clearance below 60 ml/min excluded.","severity":"minor","replacement":"Average age was early to mid 50s. In our judgement, it should not be started for sciatica, and existing prescriptions deserve review."},
-{"tmp_id":"C10-P02","where":"visual_text","text":"No troublesome pain reported: about 87 in 100","problem":"The complement is presented as a finding. The authors rated confidence as low and think true figures are higher because of loss to follow-up, so '87 in 100 without pain' is too confident.","source_says":"Cheng 2025: 12.6% (95% CrI 9.9% to 15.9%) at 12 months; low confidence because of substantial loss to follow-up.","severity":"minor","replacement":"Other 87 in 100: did not report troublesome pain in these studies"},
-{"tmp_id":"C10-P02","where":"x","text":"Studies defined troublesome pain in different ways, and the authors think the true figures are probably higher","problem":"Drops the authors' low-confidence rating.","source_says":"Cheng 2025: 'low confidence in the results'.","severity":"minor","replacement":"Studies defined troublesome pain in different ways, the authors rated their confidence as low, and they think the true figures are probably higher"},
-{"tmp_id":"C10-P07","where":"x","text":"Roughly twice the rate, still uncommon, and observational.","problem":"Drops the wide uncertainty qualification (adjusted HR 2.05, 95% CI 1.08 to 3.86) and the all-ages population.","source_says":"Fournier 2015: 4.6 (2.4 to 8.0) vs 1.9 (1.4 to 2.5) per 10,000 person-months; adults of all ages.","severity":"minor","replacement":"Roughly twice the rate, with wide uncertainty; still uncommon, in adults of all ages, and observational."},
-{"tmp_id":"C10-P01","where":"x","text":"no pain when sitting and relief on bending forward were the strongest single pointers to lumbar spinal stenosis","problem":"Drops the required qualification that the estimates come mostly from specialist clinics.","source_says":"C10-22-a qualification.","severity":"minor","replacement":"no pain when sitting and relief on bending forward were the strongest single pointers to lumbar spinal stenosis (mostly in specialist clinics)"},
-{"tmp_id":"C10-P04","where":"visual_text","text":"Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., 2006","problem":"Journal missing for Portenoy.","source_says":"Portenoy RK et al. J Pain Symptom Manage. 2006;32(6):532-40.","severity":"minor","replacement":"Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., J Pain Symptom Manage 2006"}
-],
-"posts_to_drop":[]}
+{
+ "category": "C10",
+ "checked": "2026-09-25",
+ "posts_checked": [
+  "C10-P01",
+  "C10-P02",
+  "C10-P03",
+  "C10-P04",
+  "C10-P05",
+  "C10-P06",
+  "C10-P07",
+  "C10-P08",
+  "C10-P09"
+ ],
+ "sources_reopened": [
+  {
+   "key": "PMID:21156951",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "4 studies, 741 patients; LR 7.4 and 6.4 confirmed"
+  },
+  {
+   "key": "PMID:23053583",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "570 patients, 38 (6.7%) PAD, 18 (3.2%) undetected confirmed"
+  },
+  {
+   "key": "PMID:40398950",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "68 studies, 598,498; 21.9% at 3 months, 12.6% at 12 months; low confidence confirmed"
+  },
+  {
+   "key": "PMID:19844772",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "19% not satisfied; pain relief 72-86%; abstract frames implants as contemporary, not older"
+  },
+  {
+   "key": "PMID:22638604",
+   "tool": "PubMed get_article_metadata; get_full_text_article (returned abstract only)",
+   "matches_record": false,
+   "note": "Numbers match (500 adults, 45.6%) but the outcome is demonstrated dosing exceeding 4 g in a simulated task, not a stated belief that it is safe; the record safe_wording paraphrase is inaccurate"
+  },
+  {
+   "key": "PMID:39222216",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "14,380 exposures; approximately 20% involved multiple paracetamol products"
+  },
+  {
+   "key": "PMID:28328324",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": false,
+   "note": "All numbers match (3.7 vs 3.1; 209 randomised, 2 excluded; CI -0.2 to 1.2) but the abstract says only that dizziness was more common on pregabalin, not the most common adverse event"
+  },
+  {
+   "key": "PMID:25460534",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "4.6 vs 1.9 per 10,000 person-months in first 30 days after initiation; HR 2.05 (1.08-3.86)"
+  },
+  {
+   "key": "PMID:25485799",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "OR 1.52; first 30 days OR 2.61; DOI matches source reply"
+  },
+  {
+   "key": "PMID:25842375",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "28% fewer cramps over two weeks; RD 3% minor adverse events; low quality evidence for cramp number"
+  },
+  {
+   "key": "PMID:15808033",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "191 patients, 28 practices; 26.5% more taking no quinine; cramp CI wide"
+  },
+  {
+   "key": "PMID:27515677",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Rabbitt 2016: restrict to severe symptoms, regular review; authors are geriatricians (Galway)"
+  },
+  {
+   "key": "PMID:22157068",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Sequence ratios 2.42 LABA, 2.12 K-sparing, 1.48 thiazide-like"
+  },
+  {
+   "key": "PMID:21402445",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": false,
+   "note": "Abstract gives 95-226% more intense as a range across trials in first 3 postoperative days; posts say 'averaged'"
+  },
+  {
+   "key": "PMID:26207652",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "13 end-of-life studies, 11 very low-quality retrospective, no consistent association"
+  },
+  {
+   "key": "PMID:17157755",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "1,306 patients, 13 programmes; <10% variance; authors conclusion confirmed"
+  },
+  {
+   "key": "PMID:12732169",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "Sykes and Thorns 2003 conclusion confirmed"
+  },
+  {
+   "key": "PMID:10972375",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true,
+   "note": "238 patients, letter, retrospective; abstract does not state UK"
+  },
+  {
+   "key": "DOI check",
+   "tool": "PubMed convert_article_ids (DOI to PMID) plus get_article_metadata",
+   "matches_record": true,
+   "note": "All DOIs in the source_reply fields resolve to the cited authors, journal and year"
+  }
+ ],
+ "issues": [
+  {
+   "tmp_id": "C10-P01",
+   "where": "bluesky",
+   "text": "Artery pain eases on standing still.",
+   "problem": "Stated as a general rule. Only Nadeau 2013 (53 people already diagnosed with one condition or the other) links calf pain easing on standing still with vascular claudication, and that study found single features weak. Suri 2010 does not say this.",
+   "source_says": "Suri 2010 (JAMA, PMID 21156951) abstract: no pain when seated (LR 7.4, 95% CI 1.9-30) and improvement on bending forward (LR 6.4, 4.1-9.9) are the most useful individual findings for lumbar spinal stenosis. Nadeau 2013 (53 patients already diagnosed with one condition or the other): calf symptoms relieved by standing alone had a strong likelihood of vascular claudication (PLR 20), but pain alleviators and location were 'weak' individually and the 'classic symptom attributes ... are at best weakly valid independently'; combinations are more indicative.",
+   "severity": "major",
+   "replacement": "Calf pain that eases on standing still points towards the arteries."
+  },
+  {
+   "tmp_id": "C10-P01",
+   "where": "threads",
+   "text": "Artery pain usually eases on standing still and isn't helped by bending forward.",
+   "problem": "Same over-generalisation: 'usually eases on standing still' is not a finding. Suri says vascular claudication is typically not improved by posture; Nadeau's standing-still result is for calf pain in a small study where single features were weak.",
+   "source_says": "Suri 2010 (JAMA, PMID 21156951) abstract: no pain when seated (LR 7.4, 95% CI 1.9-30) and improvement on bending forward (LR 6.4, 4.1-9.9) are the most useful individual findings for lumbar spinal stenosis. Nadeau 2013 (53 patients already diagnosed with one condition or the other): calf symptoms relieved by standing alone had a strong likelihood of vascular claudication (PLR 20), but pain alleviators and location were 'weak' individually and the 'classic symptom attributes ... are at best weakly valid independently'; combinations are more indicative.",
+   "severity": "major",
+   "replacement": "Calf pain that eases on standing still points towards the arteries, and artery pain is usually not helped by bending forward."
+  },
+  {
+   "tmp_id": "C10-P01",
+   "where": "visual_text",
+   "text": "They can occur together: check foot pulses or ankle pressure anyway.",
+   "problem": "The card gives a two-column rule (sitting and bending forward vs standing still) with no statement that single features are weak guides. The claim record (C10-22-d) requires saying that the combination of features helps most and that any one feature alone is a weak guide.",
+   "source_says": "Suri 2010 (JAMA, PMID 21156951) abstract: no pain when seated (LR 7.4, 95% CI 1.9-30) and improvement on bending forward (LR 6.4, 4.1-9.9) are the most useful individual findings for lumbar spinal stenosis. Nadeau 2013 (53 patients already diagnosed with one condition or the other): calf symptoms relieved by standing alone had a strong likelihood of vascular claudication (PLR 20), but pain alleviators and location were 'weak' individually and the 'classic symptom attributes ... are at best weakly valid independently'; combinations are more indicative.",
+   "severity": "major",
+   "replacement": "No single answer settles it, and the two can occur together: check foot pulses or ankle pressure anyway."
+  },
+  {
+   "tmp_id": "C10-P01",
+   "where": "alt_text",
+   "text": "Bottom line: the two can occur together, so check foot pulses or ankle pressure anyway.",
+   "problem": "Mirror of the visual: omits that single features are weak guides.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Bottom line: no single answer settles it, and the two can occur together, so check foot pulses or ankle pressure anyway."
+  },
+  {
+   "tmp_id": "C10-P01",
+   "where": "x",
+   "text": "In a Japanese study of 570 people with stenosis, about 7 in 100 also had narrowed leg arteries, and half of those had not been picked up.",
+   "problem": "Setting omitted. The 570 people were patients with stenosis at 64 Japanese facilities (orthopaedic population); prevalence may differ in UK primary care (record C10-22-e). 'Half' is 18 of 38 (47%).",
+   "source_says": "Uesugi 2012 abstract (PMID 23053583): 570 patients with LSS at 64 facilities; PAD in 38 (6.7%); 20 pre-diagnosed, 18 (3.2%) undetected.",
+   "severity": "minor",
+   "replacement": "In a Japanese study of 570 people with stenosis seen in specialist clinics, about 7 in 100 also had narrowed leg arteries, and about half of those had not been picked up before."
+  },
+  {
+   "tmp_id": "C10-P02",
+   "where": "x",
+   "text": "They think the true figures are probably higher, because people with poor results often drop out of follow-up.",
+   "problem": "The paper attributes the underestimate to loss to follow-up and risk of bias; it does not say that people with poor results are the ones who drop out. That is an inference.",
+   "source_says": "Cheng 2025 (BMJ Open): 'Substantial loss to follow-up and risk of bias led to low confidence'; rates 'likely underestimated due to loss to follow-up and the high risk of bias'.",
+   "severity": "minor",
+   "replacement": "They think the true figures are probably higher, because many people were lost to follow-up."
+  },
+  {
+   "tmp_id": "C10-P02",
+   "where": "linkedin",
+   "text": "People with poor results are often the ones missing from follow-up.",
+   "problem": "Same inference stated as fact.",
+   "source_says": "Cheng 2025: underestimate attributed to loss to follow-up and risk of bias; no statement about who is lost.",
+   "severity": "minor",
+   "replacement": "Many people were lost to follow-up, which is why the authors think the figures are too low."
+  },
+  {
+   "tmp_id": "C10-P02",
+   "where": "linkedin",
+   "text": "Satisfaction with pain relief ranged from about 7 in 10 to 9 in 10, depending on the activity.",
+   "problem": "The top of the range was 86%, closer to 8.5 in 10 than 9 in 10; the rounding up overstates it.",
+   "source_says": "Bourne 2010 (PMID 19844772): satisfaction with pain relief varied from 72-86% for specific activities.",
+   "severity": "minor",
+   "replacement": "Satisfaction with pain relief ranged from 72 to 86 in 100, depending on the activity."
+  },
+  {
+   "tmp_id": "C10-P02",
+   "where": "linkedin",
+   "text": "Satisfaction is a different measure from pain, and those were older implants in one province.",
+   "problem": "'Older implants' is not in the source: the abstract says the study set out to test whether contemporary implants improved satisfaction. The safe limitations are the 2010 date and one province.",
+   "source_says": "Bourne 2010 abstract: 'we reexamined this issue to determine if contemporary TKA implants might be associated with improved patient satisfaction'; 1703 TKAs in Ontario.",
+   "severity": "minor",
+   "replacement": "Satisfaction is a different measure from pain, and the survey was published in 2010 and covered one Canadian province."
+  },
+  {
+   "tmp_id": "C10-P03",
+   "where": "x",
+   "text": "About 4 in 10 of those aged 61 to 80 said taking two paracetamol products together would be safe. That was what they said, not what they did.",
+   "problem": "Misdescribes the measured outcome. Participants were asked to show how they would take real products over 24 hours; the outcome was dosing that went over 4 g by combining two paracetamol products. It was not a stated belief that this was safe.",
+   "source_says": "Wolf 2012 (PMID 22638604) abstract: measurement was 'Demonstration of how and when patients would take over-the-counter medications containing acetaminophen'; '45.6 % of adults demonstrated they would overdose by double-dipping with two acetaminophen-containing products' (exceeding 4 g in 24 h in a simulated task). Table 4 (per record): 40.0% in the 61-80 group. The abstract does not report anyone saying the combination would be 'safe'.",
+   "severity": "major",
+   "replacement": "About 4 in 10 of those aged 61 to 80 showed they would take two paracetamol products together and go over 4 g. This was a pretend task with real products, not what they actually did."
+  },
+  {
+   "tmp_id": "C10-P03",
+   "where": "linkedin",
+   "text": "In a US study, nearly half of 500 adults shown real shop products said it would be safe to take two paracetamol-containing products together. Among those aged 61 to 80 it was 4 in 10. The study measured what people said they would do, not what they did.",
+   "problem": "Same misdescription: the outcome was demonstrated dosing in a simulated task that exceeded 4 g with two products, not a statement that it was safe.",
+   "source_says": "Wolf 2012 (PMID 22638604) abstract: measurement was 'Demonstration of how and when patients would take over-the-counter medications containing acetaminophen'; '45.6 % of adults demonstrated they would overdose by double-dipping with two acetaminophen-containing products' (exceeding 4 g in 24 h in a simulated task). Table 4 (per record): 40.0% in the 61-80 group. The abstract does not report anyone saying the combination would be 'safe'.",
+   "severity": "major",
+   "replacement": "In a US study, 500 adults were asked to show how they would take real shop products over a day. Nearly half (46 in 100) would have gone over 4 g by taking two paracetamol-containing products together. Among those aged 61 to 80 it was 4 in 10. This was a pretend task, not what people actually did."
+  },
+  {
+   "tmp_id": "C10-P03",
+   "where": "threads",
+   "text": "In a US study, 4 in 10 people aged 61 to 80 said doubling up like this would be safe.",
+   "problem": "Same misdescription of the outcome.",
+   "source_says": "Wolf 2012 (PMID 22638604) abstract: measurement was 'Demonstration of how and when patients would take over-the-counter medications containing acetaminophen'; '45.6 % of adults demonstrated they would overdose by double-dipping with two acetaminophen-containing products' (exceeding 4 g in 24 h in a simulated task). Table 4 (per record): 40.0% in the 61-80 group. The abstract does not report anyone saying the combination would be 'safe'.",
+   "severity": "major",
+   "replacement": "In a US study, 4 in 10 people aged 61 to 80 showed they would double up like this and go over 4 g, in a pretend task with real products."
+  },
+  {
+   "tmp_id": "C10-P03",
+   "where": "linkedin",
+   "text": "Some guidelines advise a lower daily dose if you weigh under 50 kg (about 7 stone 12 lb) or are frail.",
+   "problem": "The guidelines in the evidence are Australian consensus guidelines for older people; no UK guidance was opened.",
+   "source_says": "Reid 2022 (PMID 35535712): consensus guidelines recommended <=60 mg/kg/day for older people under 50 kg and <=3000 mg/day for frail older people (Australian, hospital study).",
+   "severity": "minor",
+   "replacement": "Some Australian guidelines for older people advise a lower daily dose if you weigh under 50 kg (about 7 stone 12 lb) or are frail."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "linkedin",
+   "text": "Families sometimes carry that fear silently, and staff can hesitate over an as-needed dose.",
+   "problem": "Claims about families' and staff behaviour are not in any claim record or opened source.",
+   "source_says": "None of the sources (Sykes 2003, Boland 2015, Thorns 2000, Portenoy 2006) report family or staff behaviour.",
+   "severity": "major",
+   "replacement": "Families may worry about this."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "bluesky",
+   "text": "Studies in hospices have not found that doses adjusted to symptoms shorten life, though the evidence is observational and mostly in cancer.",
+   "problem": "Compression drops the contrary finding. One large hospice study (Portenoy) did find a small statistical link between higher dose and shorter survival; X and Threads carry it, Bluesky does not. Safe wording is 'no consistent link'.",
+   "source_says": "Portenoy 2006 (PMID 17157755): 1,306 hospice patients; shorter survival associated with higher opioid dose, a cancer diagnosis, unresponsiveness and pain below 5/10, none of the models explaining more than 10% of variance; 'concern about hastening death does not justify withholding opioid therapy'. Boland 2015 (PMID 26207652): 13 end-of-life studies (11 very low-quality retrospective) 'did not find a consistent association'; evidence 'should be interpreted with caution'.",
+   "severity": "major",
+   "replacement": "Studies in hospices have not found a consistent link between symptom-adjusted doses and shorter life. The evidence is observational and mostly in cancer, and one large study found a small link that dose explained very little of."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "visual_text",
+   "text": "Symptoms change in the last days. Studies in hospices and palliative care units have not found that doses adjusted to symptoms shorten life.",
+   "problem": "The statement card gives the headline claim without the Portenoy finding, although Portenoy is cited in its source line. The reader cannot see that one large study found a small link.",
+   "source_says": "Portenoy 2006 (PMID 17157755): 1,306 hospice patients; shorter survival associated with higher opioid dose, a cancer diagnosis, unresponsiveness and pain below 5/10, none of the models explaining more than 10% of variance; 'concern about hastening death does not justify withholding opioid therapy'. Boland 2015 (PMID 26207652): 13 end-of-life studies (11 very low-quality retrospective) 'did not find a consistent association'; evidence 'should be interpreted with caution'.",
+   "severity": "major",
+   "replacement": "Symptoms change in the last days. Studies in hospices and palliative care units have not found a consistent link between doses adjusted to symptoms and shorter life. One large study found a small link that dose explained very little of."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "alt_text",
+   "text": "Studies in hospices and palliative care units have not found that doses adjusted to symptoms shorten life.",
+   "problem": "Mirror of the visual text.",
+   "source_says": "Portenoy 2006 (PMID 17157755): 1,306 hospice patients; shorter survival associated with higher opioid dose, a cancer diagnosis, unresponsiveness and pain below 5/10, none of the models explaining more than 10% of variance; 'concern about hastening death does not justify withholding opioid therapy'. Boland 2015 (PMID 26207652): 13 end-of-life studies (11 very low-quality retrospective) 'did not find a consistent association'; evidence 'should be interpreted with caution'.",
+   "severity": "major",
+   "replacement": "Studies in hospices and palliative care units have not found a consistent link between doses adjusted to symptoms and shorter life; one large study found a small link that dose explained very little of."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "x",
+   "text": "Dose explained very little of it, and people on higher doses are often sicker.",
+   "problem": "'People on higher doses are often sicker' is not a finding. Portenoy linked shorter survival with higher dose, a cancer diagnosis, unresponsiveness and lower pain scores; it did not say the high-dose group was sicker.",
+   "source_says": "Portenoy 2006 (PMID 17157755): 1,306 hospice patients; shorter survival associated with higher opioid dose, a cancer diagnosis, unresponsiveness and pain below 5/10, none of the models explaining more than 10% of variance; 'concern about hastening death does not justify withholding opioid therapy'. Boland 2015 (PMID 26207652): 13 end-of-life studies (11 very low-quality retrospective) 'did not find a consistent association'; evidence 'should be interpreted with caution'.",
+   "severity": "minor",
+   "replacement": "Dose explained very little of it, and the link may reflect how ill people were rather than the dose."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "linkedin",
+   "text": "People on higher doses are often sicker, so the link may reflect illness rather than the drug.",
+   "problem": "Same unsupported statement of fact. Boland notes that greater analgesic need may be mediated by painful progressive cancer, which is a hedge, not a finding about this study.",
+   "source_says": "Boland 2015: 'the relationship between greater analgesic requirements and shorter survival may be mediated by painful progressive cancer'.",
+   "severity": "minor",
+   "replacement": "The link may reflect how ill people were rather than the drug."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "x",
+   "text": "Symptoms such as pain and breathlessness change as death comes closer.",
+   "problem": "The claim record says only that symptoms change; naming pain and breathlessness is not in the supporting passages.",
+   "source_says": "Sykes 2003: patients receive higher doses of opioids and sedatives as they get closer to death. No named symptoms.",
+   "severity": "minor",
+   "replacement": "Symptoms change as death comes closer."
+  },
+  {
+   "tmp_id": "C10-P04",
+   "where": "threads",
+   "text": "Doses of morphine often go up in the last days of life, because pain and breathlessness change as death comes closer.",
+   "problem": "As above.",
+   "source_says": "As above.",
+   "severity": "minor",
+   "replacement": "Doses of morphine often go up in the last days of life, because symptoms change as death comes closer."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "x",
+   "text": "dizziness was the most common.",
+   "problem": "Not supported by the abstract: it says only that dizziness was more common on pregabalin than placebo. 'Most common' would need the adverse-event table.",
+   "source_says": "Mathieson 2017 (NEJM, PMID 28328324) abstract: 'Dizziness was more common in the pregabalin group than in the placebo group'. 227 vs 124 adverse events. The abstract does not say dizziness was the most common adverse event; the full text was not available in PMC.",
+   "severity": "major",
+   "replacement": "dizziness was more common on pregabalin."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "linkedin",
+   "text": "Dizziness was the most common.",
+   "problem": "As above.",
+   "source_says": "Mathieson 2017 (NEJM, PMID 28328324) abstract: 'Dizziness was more common in the pregabalin group than in the placebo group'. 227 vs 124 adverse events. The abstract does not say dizziness was the most common adverse event; the full text was not available in PMC.",
+   "severity": "major",
+   "replacement": "Dizziness was more common on pregabalin than on placebo."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "bluesky",
+   "text": "64 in 100 had side effects vs 43, mostly dizziness.",
+   "problem": "Ambiguous (64 in 100 of whom?) and 'mostly dizziness' is not supported; the abstract says only that dizziness was more common on pregabalin.",
+   "source_says": "Mathieson 2017 (NEJM, PMID 28328324) abstract: 'Dizziness was more common in the pregabalin group than in the placebo group'. 227 vs 124 adverse events. The abstract does not say dizziness was the most common adverse event; the full text was not available in PMC.",
+   "severity": "major",
+   "replacement": "64 in 100 on pregabalin had at least one side effect against 43 in 100 on placebo; dizziness was more common on pregabalin."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "bluesky",
+   "text": "pregabalin did not ease leg pain more than placebo at 8 weeks or 1 year.",
+   "problem": "Close to 'no effect'. STYLE section 9 asks for 'did not show a clear difference'. The 8-week interval (-0.2 to 1.2 points) includes a slight benefit.",
+   "source_says": "Mathieson 2017: adjusted mean difference 0.5 (95% CI -0.2 to 1.2) at 8 weeks; 0.3 (-0.5 to 1.0) at 52 weeks; 'did not significantly reduce' leg pain.",
+   "severity": "minor",
+   "replacement": "pregabalin showed no clear difference from placebo in leg pain at 8 weeks or 1 year."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "threads",
+   "text": "About 64 in 100 on pregabalin had side effects against 43 in 100 on placebo, dizziness most often.",
+   "problem": "'Most often' not supported (see above).",
+   "source_says": "Mathieson 2017 (NEJM, PMID 28328324) abstract: 'Dizziness was more common in the pregabalin group than in the placebo group'. 227 vs 124 adverse events. The abstract does not say dizziness was the most common adverse event; the full text was not available in PMC.",
+   "severity": "major",
+   "replacement": "About 64 in 100 on pregabalin had at least one side effect against 43 in 100 on placebo, and dizziness was more common on pregabalin."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "alt_text",
+   "text": "dizziness most common.",
+   "problem": "Not supported (see above).",
+   "source_says": "Mathieson 2017 (NEJM, PMID 28328324) abstract: 'Dizziness was more common in the pregabalin group than in the placebo group'. 227 vs 124 adverse events. The abstract does not say dizziness was the most common adverse event; the full text was not available in PMC.",
+   "severity": "major",
+   "replacement": "dizziness more common on pregabalin."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "linkedin",
+   "text": "and the evidence on side effects ranges from very low to moderate quality.",
+   "problem": "Misreports the quality grading. The 'very low to moderate' range is Shanthanna 2017 (chronic low back pain); Enke 2018 rated the evidence for more adverse events with gabapentinoids as high quality (RR 1.4, 1.2 to 1.7).",
+   "source_says": "Enke 2018 (PMID 29970367): 'the level of evidence is high' for increased adverse events; Shanthanna 2017 (PMID 28809936): adverse-event evidence very low to moderate quality.",
+   "severity": "major",
+   "replacement": "and the evidence on side effects was graded very low to moderate quality in one review and high quality in the other."
+  },
+  {
+   "tmp_id": "C10-P05",
+   "where": "x",
+   "text": "In our judgement, for an older person who is already unsteady, that is a reason not to start a medicine that has not been shown to help, and to review prescriptions started for sciatica.",
+   "problem": "'That' points back to the trial's age and kidney exclusion, not to dizziness, so the reasoning reads as if the exclusion were the reason. The record's judgement is about dizziness and drowsiness in someone already unsteady.",
+   "source_says": "C10-26-f safe wording: 'Dizziness and drowsiness are the commonest side effects; for someone who is already unsteady, that is a reason not to start a medicine that has not been shown to help.' (judgement). 'Commonest' is itself not supported by the PRECISE abstract.",
+   "severity": "minor",
+   "replacement": "In our judgement, dizziness is a reason not to start a medicine that has not been shown to help in an older person who is already unsteady, and to review prescriptions started for sciatica."
+  },
+  {
+   "tmp_id": "C10-P06",
+   "where": "bluesky",
+   "text": "Typical knee arthritis needs no X-ray to diagnose.",
+   "problem": "Unattributed professional guidance stated as fact. X, LinkedIn and Threads attribute it to European (EULAR) guidance; the short version loses the attribution.",
+   "source_says": "Sakellariou 2017 (EULAR, PMID 28389554) abstract: recommendations cover 'the lack of need for diagnostic imaging in patients with typical symptoms; the role of imaging in differential diagnosis; ... though consideration is required when unexpected clinical deterioration occurs'. Exact recommendation wording not seen.",
+   "severity": "major",
+   "replacement": "European guidance says typical knee arthritis needs no X-ray to diagnose."
+  },
+  {
+   "tmp_id": "C10-P06",
+   "where": "linkedin",
+   "text": "The words used about an X-ray can stay with people.",
+   "problem": "Implies that wording about an X-ray produces the beliefs. Bunzli 2019 is a qualitative study of 27 people on a surgical waiting list that describes beliefs; it did not examine how the 'bone on bone' idea arose. The paragraph's own limit sentence contradicts the opener.",
+   "source_says": "Bunzli 2019 (PMID 31192807): all 27 believed their knee was 'bone on bone'; many (>20) believed exercise would increase pain; qualitative, one hospital.",
+   "severity": "minor",
+   "replacement": "Many people describe their knee as 'bone on bone'."
+  },
+  {
+   "tmp_id": "C10-P06",
+   "where": "linkedin",
+   "text": "Imaging helps when something is unusual, when another cause is possible, or when the knee gets worse unexpectedly.",
+   "problem": "The abstract says consideration of imaging is required with unexpected deterioration, in the context of monitoring; 'helps' is firmer than that and the exact wording was not seen.",
+   "source_says": "Sakellariou 2017 (EULAR, PMID 28389554) abstract: recommendations cover 'the lack of need for diagnostic imaging in patients with typical symptoms; the role of imaging in differential diagnosis; ... though consideration is required when unexpected clinical deterioration occurs'. Exact recommendation wording not seen.",
+   "severity": "minor",
+   "replacement": "Imaging helps when something is unusual or another cause is possible, and should be considered if the knee gets worse unexpectedly."
+  },
+  {
+   "tmp_id": "C10-P06",
+   "where": "visual_text",
+   "text": "Something unusual, another possible cause, or unexpected worsening: imaging helps",
+   "problem": "As above.",
+   "source_says": "Sakellariou 2017 (EULAR, PMID 28389554) abstract: recommendations cover 'the lack of need for diagnostic imaging in patients with typical symptoms; the role of imaging in differential diagnosis; ... though consideration is required when unexpected clinical deterioration occurs'. Exact recommendation wording not seen.",
+   "severity": "minor",
+   "replacement": "Something unusual or another possible cause: imaging helps. Unexpected worsening: consider imaging"
+  },
+  {
+   "tmp_id": "C10-P07",
+   "where": "threads",
+   "text": "In UK records, admission for low sodium was about 4.6 vs 1.9 per 10,000 people per month for tramadol vs codeine: uncommon, but about double.",
+   "problem": "Compression strips the qualifications that X and LinkedIn carry: adults of all ages, observational, wide uncertainty, and that the figures are for the first month after starting. 'About double' with no uncertainty reads as firmer than a hazard ratio of 2.05 with CI 1.08 to 3.86.",
+   "source_says": "Fournier 2015 (Am J Med, PMID 25460534) abstract: 332,880 adults initiating tramadol or codeine for non-cancer pain, UK CPRD-HES 1998-2012; hospitalisation for hyponatraemia 'in the first 30 days after initiation': 4.6 (95% CI 2.4-8.0) vs 1.9 (1.4-2.5) per 10,000 person-months; adjusted HR 2.05 (1.08-3.86); cohort study, ages not restricted.",
+   "severity": "major",
+   "replacement": "In UK records of adults of all ages starting treatment, admission for low sodium in the first month was about 4.6 vs 1.9 per 10,000 people for tramadol vs codeine: uncommon, about double, with wide uncertainty. It is an observational study."
+  },
+  {
+   "tmp_id": "C10-P07",
+   "where": "visual_text",
+   "text": "Sodium: admissions for low sodium about 4.6 vs 1.9 per 10,000 people per month, tramadol vs codeine",
+   "problem": "Timeframe and population missing from the number: the rates are for the first 30 days after starting treatment in new users with non-cancer pain, not for people already established on tramadol.",
+   "source_says": "Fournier 2015 (Am J Med, PMID 25460534) abstract: 332,880 adults initiating tramadol or codeine for non-cancer pain, UK CPRD-HES 1998-2012; hospitalisation for hyponatraemia 'in the first 30 days after initiation': 4.6 (95% CI 2.4-8.0) vs 1.9 (1.4-2.5) per 10,000 person-months; adjusted HR 2.05 (1.08-3.86); cohort study, ages not restricted.",
+   "severity": "major",
+   "replacement": "Sodium: in the first month after starting, admissions for low sodium about 4.6 vs 1.9 per 10,000 people, tramadol vs codeine"
+  },
+  {
+   "tmp_id": "C10-P07",
+   "where": "visual_text",
+   "text": "Low sodium figures: UK adults of all ages, observational; uncommon",
+   "problem": "Label omits that the figures are for new starters and that uncertainty is wide (tramadol rate 95% CI 2.4 to 8.0).",
+   "source_says": "Fournier 2015 (Am J Med, PMID 25460534) abstract: 332,880 adults initiating tramadol or codeine for non-cancer pain, UK CPRD-HES 1998-2012; hospitalisation for hyponatraemia 'in the first 30 days after initiation': 4.6 (95% CI 2.4-8.0) vs 1.9 (1.4-2.5) per 10,000 person-months; adjusted HR 2.05 (1.08-3.86); cohort study, ages not restricted.",
+   "severity": "minor",
+   "replacement": "Low sodium figures: UK adults of all ages starting treatment for non-cancer pain, observational, wide uncertainty; uncommon"
+  },
+  {
+   "tmp_id": "C10-P07",
+   "where": "alt_text",
+   "text": "Sodium (admissions for low sodium about 4.6 versus 1.9 per 10,000 people per month on tramadol versus codeine; UK adults of all ages, observational, uncommon).",
+   "problem": "Mirror of the visual: timeframe (first month after starting) missing.",
+   "source_says": "Fournier 2015 (Am J Med, PMID 25460534) abstract: 332,880 adults initiating tramadol or codeine for non-cancer pain, UK CPRD-HES 1998-2012; hospitalisation for hyponatraemia 'in the first 30 days after initiation': 4.6 (95% CI 2.4-8.0) vs 1.9 (1.4-2.5) per 10,000 person-months; adjusted HR 2.05 (1.08-3.86); cohort study, ages not restricted.",
+   "severity": "minor",
+   "replacement": "Sodium (in the first month after starting, admissions for low sodium about 4.6 versus 1.9 per 10,000 people on tramadol versus codeine; UK adults of all ages, observational, wide uncertainty, uncommon)."
+  },
+  {
+   "tmp_id": "C10-P07",
+   "where": "x",
+   "text": "In UK GP records, about 4.6 in 10,000 people taking tramadol for a month were admitted with low sodium, against 1.9 for codeine.",
+   "problem": "The rate applies to the first 30 days after starting, not to people taking tramadol for any month.",
+   "source_says": "Fournier 2015 (Am J Med, PMID 25460534) abstract: 332,880 adults initiating tramadol or codeine for non-cancer pain, UK CPRD-HES 1998-2012; hospitalisation for hyponatraemia 'in the first 30 days after initiation': 4.6 (95% CI 2.4-8.0) vs 1.9 (1.4-2.5) per 10,000 person-months; adjusted HR 2.05 (1.08-3.86); cohort study, ages not restricted.",
+   "severity": "minor",
+   "replacement": "In UK GP records, about 4.6 in 10,000 people were admitted with low sodium in the first month after starting tramadol, against 1.9 for codeine."
+  },
+  {
+   "tmp_id": "C10-P07",
+   "where": "linkedin",
+   "text": "about 4.6 in every 10,000 people taking tramadol for a month were admitted to hospital with low sodium, against about 1.9 for codeine.",
+   "problem": "Same timeframe imprecision.",
+   "source_says": "Fournier 2015 (Am J Med, PMID 25460534) abstract: 332,880 adults initiating tramadol or codeine for non-cancer pain, UK CPRD-HES 1998-2012; hospitalisation for hyponatraemia 'in the first 30 days after initiation': 4.6 (95% CI 2.4-8.0) vs 1.9 (1.4-2.5) per 10,000 person-months; adjusted HR 2.05 (1.08-3.86); cohort study, ages not restricted.",
+   "severity": "minor",
+   "replacement": "about 4.6 in every 10,000 people were admitted to hospital with low sodium in the first month after starting tramadol, against about 1.9 for codeine."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "x",
+   "text": "UK prescribing advice is to pause it every 3 months to check it still helps.",
+   "problem": "Presented as current advice. The source is the 2010 BNF as reported in a 2015 Cochrane review; the current BNF was not opened.",
+   "source_says": "UK advice (4 weeks to see effect, interrupt every three months) comes from El-Tawil 2015 (Cochrane, PMID 25842375) Discussion, citing BNF 2010. The current BNF and the MHRA 2010 update were not opened (record C10-03-d, -e).",
+   "severity": "major",
+   "replacement": "UK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months to check it still helps."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "bluesky",
+   "text": "UK advice is to pause it every 3 months;",
+   "problem": "Presented as current advice from a 2010 source.",
+   "source_says": "UK advice (4 weeks to see effect, interrupt every three months) comes from El-Tawil 2015 (Cochrane, PMID 25842375) Discussion, citing BNF 2010. The current BNF and the MHRA 2010 update were not opened (record C10-03-d, -e).",
+   "severity": "major",
+   "replacement": "UK prescribing advice reported in a 2015 Cochrane review was to pause it every 3 months;"
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "threads",
+   "text": "UK prescribing advice is to pause it every 3 months to check it still helps.",
+   "problem": "Presented as current advice from a 2010 source.",
+   "source_says": "UK advice (4 weeks to see effect, interrupt every three months) comes from El-Tawil 2015 (Cochrane, PMID 25842375) Discussion, citing BNF 2010. The current BNF and the MHRA 2010 update were not opened (record C10-03-d, -e).",
+   "severity": "major",
+   "replacement": "UK prescribing advice, as reported in a 2015 Cochrane review, was to pause it every 3 months to check it still helps."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "visual_text",
+   "text": "Panel 3: 'Advice is to pause it every 3 months to check. Could any of your other medicines be linked?'",
+   "problem": "Presented as current advice from a 2010 source.",
+   "source_says": "UK advice (4 weeks to see effect, interrupt every three months) comes from El-Tawil 2015 (Cochrane, PMID 25842375) Discussion, citing BNF 2010. The current BNF and the MHRA 2010 update were not opened (record C10-03-d, -e).",
+   "severity": "major",
+   "replacement": "Panel 3: 'UK prescribing advice has been to pause it every 3 months to check. Could any of your other medicines be linked?'"
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "alt_text",
+   "text": "Advice is to pause it every 3 months to check, and to ask whether other medicines are linked.",
+   "problem": "Mirror of the visual panel 3.",
+   "source_says": "UK advice (4 weeks to see effect, interrupt every three months) comes from El-Tawil 2015 (Cochrane, PMID 25842375) Discussion, citing BNF 2010. The current BNF and the MHRA 2010 update were not opened (record C10-03-d, -e).",
+   "severity": "minor",
+   "replacement": "UK prescribing advice has been to pause it every 3 months to check, and to ask whether other medicines are linked."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "visual_text",
+   "text": "Panel 2: 'In trials, cramps fell from about 9 to 6 or 7 a fortnight. Rare harms can be serious.'",
+   "problem": "The benefit figure carries no quality qualifier. Every caption says the evidence is low quality (X, LinkedIn, Bluesky); the comic gives the figure as settled.",
+   "source_says": "El-Tawil 2015: 'low quality evidence that quinine ... significantly reduces cramp number'; heterogeneity I2 71%.",
+   "severity": "major",
+   "replacement": "Panel 2: 'In trials, cramps fell from about 9 to 6 or 7 a fortnight, on low-quality evidence. Rare harms can be serious.'"
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "alt_text",
+   "text": "She says that in trials cramps fell from about 9 to 6 or 7 a fortnight and rare harms can be serious.",
+   "problem": "Mirror: no quality qualifier.",
+   "source_says": "El-Tawil 2015: low quality evidence for fewer cramps.",
+   "severity": "minor",
+   "replacement": "She says that in trials cramps fell from about 9 to 6 or 7 a fortnight, on low-quality evidence, and rare harms can be serious."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "linkedin",
+   "text": "And calf and hamstring stretches before bed are harmless in trials and reasonable to try, although their benefit is uncertain.",
+   "problem": "'Harmless' overstates. The trials reported no adverse events but were too small to detect uncommon ones; evidence on benefit is conflicting.",
+   "source_says": "Hawke 2021 (Cochrane, PMID 33998664, per evidence record): stretching 'may reduce severity' in one trial of 80 people (low certainty), little or no difference for calf stretching alone; adverse-event evidence 'moderate certainty as the studies were too small to detect uncommon events'. Coppin 2005 (PMID 15808033): 'Calf-stretching exercises are not effective in reducing the frequency or severity of night cramps' (people on quinine). Rabbitt 2016: 'conflicting evidence' on stretching.",
+   "severity": "major",
+   "replacement": "And calf and hamstring stretches before bed are reasonable to try: no harms were reported in small trials, although the evidence for benefit is mixed."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "visual_text",
+   "text": "Caption under panel 4: stretching is harmless in trials; its benefit is uncertain",
+   "problem": "Same 'harmless' overstatement.",
+   "source_says": "Hawke 2021 (Cochrane, PMID 33998664, per evidence record): stretching 'may reduce severity' in one trial of 80 people (low certainty), little or no difference for calf stretching alone; adverse-event evidence 'moderate certainty as the studies were too small to detect uncommon events'. Coppin 2005 (PMID 15808033): 'Calf-stretching exercises are not effective in reducing the frequency or severity of night cramps' (people on quinine). Rabbitt 2016: 'conflicting evidence' on stretching.",
+   "severity": "major",
+   "replacement": "Caption under panel 4: no harms were reported in small stretching trials; evidence for benefit is mixed"
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "alt_text",
+   "text": "stretching is harmless in trials but its benefit is uncertain.",
+   "problem": "Same 'harmless' overstatement.",
+   "source_says": "Hawke 2021 (Cochrane, PMID 33998664, per evidence record): stretching 'may reduce severity' in one trial of 80 people (low certainty), little or no difference for calf stretching alone; adverse-event evidence 'moderate certainty as the studies were too small to detect uncommon events'. Coppin 2005 (PMID 15808033): 'Calf-stretching exercises are not effective in reducing the frequency or severity of night cramps' (people on quinine). Rabbitt 2016: 'conflicting evidence' on stretching.",
+   "severity": "major",
+   "replacement": "no harms were reported in small stretching trials but the evidence for benefit is mixed."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "x",
+   "text": "with no clear rise in cramps.",
+   "problem": "The short version drops the limit LinkedIn states: the cramp interval was wide (up to +8.4 cramps per 4 weeks) and the trial could not rule out a rise for some people.",
+   "source_says": "Coppin 2005 (PMID 15808033) abstract: 191 patients, 28 southern English practices; at 12 weeks no significant difference in cramps in the previous 4 weeks (quinine cessation 3.45, 95% CI -1.52 to 8.41); 26.5% (13.3 to 39.7) more advised to stop were taking no quinine.",
+   "severity": "minor",
+   "replacement": "without a clear rise in cramps, though the trial was small and could not rule out a rise for some people."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "threads",
+   "text": "without a clear rise in cramps.",
+   "problem": "Same dropped limit.",
+   "source_says": "Coppin 2005 (PMID 15808033) abstract: 191 patients, 28 southern English practices; at 12 weeks no significant difference in cramps in the previous 4 weeks (quinine cessation 3.45, 95% CI -1.52 to 8.41); 26.5% (13.3 to 39.7) more advised to stop were taking no quinine.",
+   "severity": "minor",
+   "replacement": "without a clear rise in cramps, though the trial could not rule out a rise for some people."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "bluesky",
+   "text": "in one trial, advice to stop did not show a clear rise in cramps.",
+   "problem": "Same dropped limit.",
+   "source_says": "Coppin 2005 (PMID 15808033) abstract: 191 patients, 28 southern English practices; at 12 weeks no significant difference in cramps in the previous 4 weeks (quinine cessation 3.45, 95% CI -1.52 to 8.41); 26.5% (13.3 to 39.7) more advised to stop were taking no quinine.",
+   "severity": "minor",
+   "replacement": "in one small trial, advice to stop did not show a clear rise in cramps, but a rise could not be ruled out."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "threads",
+   "text": "Rare harms include a sudden fall in platelets and heart rhythm problems.",
+   "problem": "Drops the context that heart rhythm problems occur especially after too many tablets, and that the trials could not measure rare harms.",
+   "source_says": "El-Tawil 2015 background: arrhythmias 'especially in overdosage'; trials too small for serious adverse events.",
+   "severity": "minor",
+   "replacement": "Rare serious harms include a sudden fall in platelets and heart rhythm problems, especially after too many tablets."
+  },
+  {
+   "tmp_id": "C10-P08",
+   "where": "visual_text",
+   "text": "El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., 2005",
+   "problem": "Source line omits the sources for panel 3 (medicines linked with cramps) and panel 4 (stretching).",
+   "source_says": "Garrison 2012 (Arch Intern Med, PMID 22157068) for medicine links; Hawke 2021 (Cochrane) for stretching.",
+   "severity": "minor",
+   "replacement": "El-Tawil et al., Cochrane 2015; Rabbitt et al., Age Ageing 2016; Coppin et al., Br J Gen Pract 2005; Garrison et al., Arch Intern Med 2012; Hawke et al., Cochrane 2021"
+  },
+  {
+   "tmp_id": "C10-P09",
+   "where": "visual_text",
+   "text": "After surgery, pain on movement averaged roughly 2 to 3 times the pain at rest in trials that measured both.",
+   "problem": "'Averaged' is wrong: 95% to 226% more intense is a range across trials, not a mean. The card also drops the first-3-days window and that the trials were of adults of all ages after three types of operation, while the picture shows an older woman in a hospital bay.",
+   "source_says": "Srikandarajah and Gilron 2011 (Pain, PMID 21402445) abstract: reviewed thoracotomy, knee arthroplasty and hysterectomy trials and meta-analyses; 'Only 39% of trials measured MEP'; 'Trials measuring both MEP and PAR suggest that MEP is 95-226% more intense than PAR in the first 3 postoperative days' (a range across trials, about 1.95 to 3.3 times); all ages, not older people specifically.",
+   "severity": "major",
+   "replacement": "After surgery, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, in trials that measured both. The trials were not specifically in older people."
+  },
+  {
+   "tmp_id": "C10-P09",
+   "where": "alt_text",
+   "text": "In surgical trials, pain on movement averaged roughly 2 to 3 times pain at rest.",
+   "problem": "Same 'averaged' error and missing timeframe and population.",
+   "source_says": "Srikandarajah and Gilron 2011 (Pain, PMID 21402445) abstract: reviewed thoracotomy, knee arthroplasty and hysterectomy trials and meta-analyses; 'Only 39% of trials measured MEP'; 'Trials measuring both MEP and PAR suggest that MEP is 95-226% more intense than PAR in the first 3 postoperative days' (a range across trials, about 1.95 to 3.3 times); all ages, not older people specifically.",
+   "severity": "major",
+   "replacement": "In surgical trials that measured both, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days; the trials were not specifically in older people."
+  },
+  {
+   "tmp_id": "C10-P09",
+   "where": "bluesky",
+   "text": "After surgery, movement pain averaged 2 to 3 times higher in trials, yet most trials did not measure it.",
+   "problem": "'Averaged' is wrong (range across trials); 'times higher' reads as 3 to 4 times as high; timeframe and the 'trials that measured both' limit are missing; and 'most trials' needs its denominator (39% of the trials reviewed measured it).",
+   "source_says": "Srikandarajah and Gilron 2011 (Pain, PMID 21402445) abstract: reviewed thoracotomy, knee arthroplasty and hysterectomy trials and meta-analyses; 'Only 39% of trials measured MEP'; 'Trials measuring both MEP and PAR suggest that MEP is 95-226% more intense than PAR in the first 3 postoperative days' (a range across trials, about 1.95 to 3.3 times); all ages, not older people specifically.",
+   "severity": "major",
+   "replacement": "In surgical trials that measured both, movement pain was about 2 to 3 times as high as pain at rest in the first 3 days. Only about 4 in 10 of the trials reviewed measured it."
+  },
+  {
+   "tmp_id": "C10-P09",
+   "where": "x",
+   "text": "After an operation, pain on movement is usually much worse than pain at rest. In surgical trials that measured both, it scored roughly 2 to 3 times higher in the first 3 days. Only about 4 in 10 trials measured it at all.",
+   "problem": "The figure is a range across trials (95% to 226% more intense), not a typical value; 'times higher' is ambiguous; the 4 in 10 refers to the trials reviewed (chest surgery, knee replacement, hysterectomy), not all surgical trials.",
+   "source_says": "Srikandarajah and Gilron 2011 (Pain, PMID 21402445) abstract: reviewed thoracotomy, knee arthroplasty and hysterectomy trials and meta-analyses; 'Only 39% of trials measured MEP'; 'Trials measuring both MEP and PAR suggest that MEP is 95-226% more intense than PAR in the first 3 postoperative days' (a range across trials, about 1.95 to 3.3 times); all ages, not older people specifically.",
+   "severity": "minor",
+   "replacement": "After an operation, pain on movement is usually much worse than pain at rest. In trials of chest surgery, knee replacement and hysterectomy that measured both, it was about 2 to 3 times as high in the first 3 days, depending on the trial. Of the trials reviewed, only about 4 in 10 measured it at all."
+  },
+  {
+   "tmp_id": "C10-P09",
+   "where": "threads",
+   "text": "In surgical trials that measured both, pain on movement scored roughly 2 to 3 times higher in the first 3 days. Only about 4 in 10 trials measured it.",
+   "problem": "Same ambiguity and denominator.",
+   "source_says": "Srikandarajah and Gilron 2011 (Pain, PMID 21402445) abstract: reviewed thoracotomy, knee arthroplasty and hysterectomy trials and meta-analyses; 'Only 39% of trials measured MEP'; 'Trials measuring both MEP and PAR suggest that MEP is 95-226% more intense than PAR in the first 3 postoperative days' (a range across trials, about 1.95 to 3.3 times); all ages, not older people specifically.",
+   "severity": "minor",
+   "replacement": "In surgical trials that measured both, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, depending on the trial. Of the trials reviewed, only about 4 in 10 measured it."
+  },
+  {
+   "tmp_id": "C10-P09",
+   "where": "linkedin",
+   "text": "In postsurgical trials that measured both, pain on movement scored roughly 2 to 3 times higher than pain at rest in the first 3 days. Yet only about 4 in 10 of those trials measured pain on movement at all.",
+   "problem": "'Those trials' refers back to trials that measured both, which by definition measured movement pain. The 4 in 10 is a share of all trials reviewed. 'Times higher' is ambiguous.",
+   "source_says": "Srikandarajah and Gilron 2011 (Pain, PMID 21402445) abstract: reviewed thoracotomy, knee arthroplasty and hysterectomy trials and meta-analyses; 'Only 39% of trials measured MEP'; 'Trials measuring both MEP and PAR suggest that MEP is 95-226% more intense than PAR in the first 3 postoperative days' (a range across trials, about 1.95 to 3.3 times); all ages, not older people specifically.",
+   "severity": "minor",
+   "replacement": "In postsurgical trials that measured both, pain on movement was about 2 to 3 times as high as pain at rest in the first 3 days, depending on the trial. Yet only about 4 in 10 of the postsurgical trials reviewed measured pain on movement at all."
+  }
+ ],
+ "posts_to_drop": [],
+ "notes": "No post needs dropping: every issue has a replacement within the evidence. Not re-opened (relied on record passages): Nadeau 2013 abstract, Reid 2022, Craig 2012, Bedson 2008, Neogi 2009, EULAR 2017, Bunzli 2019, Enke 2018, Khorami 2021. P08 comic is a labelled illustrative example, which STYLE section 3 permits sparingly. Delirium, religion, first-person clinical anecdotes: none found."
+}

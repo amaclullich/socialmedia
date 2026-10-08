@@ -1,19 +1,382 @@
-{"batch":"C20-B3","category":"C20","date_checked":"2026-09-25",
-"sources":[
-{"key":"PMID:24643601","citation":"Righini M, Van Es J, Den Exter PL, et al. Age-adjusted D-dimer cutoff levels to rule out pulmonary embolism: the ADJUST-PE study. JAMA. 2014;311(11):1117-24.","pmid":"24643601","pmcid":null,"doi":"10.1001/jama.2014.2135","public_url":"https://doi.org/10.1001/jama.2014.2135","design":"Prospective multicentre management outcome study","population_setting":"3346 consecutive ED outpatients with suspected PE, 19 centres in Belgium, France, Netherlands, Switzerland, 2010-2013","year":2014,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search of PMID with retracted publication[pt] OR erratum: none found (2026-09-25). Scite not used.","quality_note":"Single-arm management study (no randomised comparator); failure rate CI 0.1-1.7%. Assay: highly sensitive D-dimer, cut-offs in ug/L."},
-{"key":"PMID:17855638","citation":"O'Hare AM, Choi AI, Bertenthal D, et al. Age affects outcomes in chronic kidney disease. J Am Soc Nephrol. 2007;18(10):2758-65.","pmid":"17855638","pmcid":null,"doi":"10.1681/ASN.2007040422","public_url":"https://doi.org/10.1681/ASN.2007040422","design":"Retrospective cohort","population_setting":"209,622 US veterans with CKD stages 3-5 (eGFR <60), mean follow-up 3.2 years","year":2007,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"PubMed search of PMID with retracted publication[pt] OR erratum: none found (2026-09-25).","quality_note":"Veterans cohort, predominantly men; outcome is treated ESRD vs all-cause death; stage-3-specific figures for 85+ not in abstract."},
-{"key":"PMID:23111824","citation":"Hallan SI, Matsushita K, Sang Y, et al. Age and association of kidney measures with mortality and end-stage renal disease. JAMA. 2012;308(22):2349-60.","pmid":"23111824","pmcid":"PMC3936348","doi":"10.1001/jama.2012.16817","public_url":"https://doi.org/10.1001/jama.2012.16817","design":"Individual-participant meta-analysis (CKD Prognosis Consortium)","population_setting":"2,051,244 participants, 46 cohorts, multiple continents, mean follow-up 5.8 years","year":2012,"access":"abstract","tool_used":"PubMed get_article_metadata","correction_check":"Not specifically searched for erratum; no notice shown in PubMed record.","quality_note":"Large, high-quality; supports albuminuria adding risk information at all ages."},
-{"key":"PMID:38490803","citation":"Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-S314.","pmid":"38490803","pmcid":null,"doi":"10.1016/j.kint.2023.10.018","public_url":"https://doi.org/10.1016/j.kint.2023.10.018","design":"Clinical practice guideline","population_setting":"International","year":2024,"access":"search_extract","tool_used":"PubMed search (record only; no abstract, text not opened)","correction_check":"Not checked","quality_note":"Located but text NOT opened; cannot support wording yet."}
-],
-"claims":[
-{"claim_id":"C20-19-a","cand_id":"C20-19","claim":"ADJUST-PE: age x 10 cut-off (age 50+) after clinical probability score; 3-month failure 1 of 331 below the age-adjusted cut-off.","source_keys":["PMID:24643601"],"supporting_passage":"All consecutive outpatients who presented to the emergency department with clinically suspected PE were assessed by a sequential diagnostic strategy based on the clinical probability assessed using either the simplified, revised Geneva score or the 2-level Wells score for PE; highly sensitive D-dimer measurement; and computed tomography pulmonary angiography (CTPA). ... The 3-month failure rate in patients with a D-dimer level higher than 500 µg/L but below the age-adjusted cutoff was 1 of 331 patients (0.3% [95% CI, 0.1%-1.7%]).","location":"Abstract, Design/Results","pico_timeframe":"ED outpatients with suspected PE and non-high/unlikely clinical probability; age-adjusted vs 500 ug/L cut-off; adjudicated VTE at 3 months","claim_type":"empirical","verdict":"supported","safe_wording":"In a 2014 European study of 3346 emergency patients with suspected PE, people aged 50 or over whose clinical score was not high used a cut-off of age x 10 µg/L; of 331 followed without a scan, 1 had a clot within 3 months.","qualifications":"Only after a non-high/unlikely clinical probability score; units µg/L (assay-dependent, FEU not stated in abstract); no randomised comparator.","conflicting_or_uncertain":"Upper CI 1.7%.","numbers":[{"value":"3346","meaning":"patients enrolled"},{"value":"1 of 331 (0.3%, 95% CI 0.1-1.7%)","meaning":"3-month failure among those between 500 and age-adjusted cut-off, untreated"},{"value":"age x 10","meaning":"cut-off in µg/L for age 50+"}]},
-{"claim_id":"C20-19-b","cand_id":"C20-19","claim":"Among 673 people 75+ with non-high probability, scan-free exclusion rose from 6.4% to 29.7% without additional false negatives.","source_keys":["PMID:24643601"],"supporting_passage":"Among the 766 patients 75 years or older, of whom 673 had a nonhigh clinical probability, using the age-adjusted cutoff instead of the 500 µg/L cutoff increased the proportion of patients in whom PE could be excluded on the basis of D-dimer from 43 of 673 patients (6.4% [95% CI, 4.8%-8.5%) to 200 of 673 patients (29.7% [95% CI, 26.4%-33.3%), without any additional false-negative findings.","location":"Abstract, Results","pico_timeframe":"Age 75+, non-high clinical probability; age-adjusted vs 500 ug/L; 3 months","claim_type":"empirical","verdict":"supported","safe_wording":"Among 673 people aged 75 or over whose clinical score was not high, a clot could be ruled out without a scan in about 6 in 100 with the standard cut-off and about 30 in 100 with the age-adjusted cut-off, with no extra missed clots found in that group.","qualifications":"Subgroup of 75+ with non-high probability only; 'no additional false negatives' applies to this group.","conflicting_or_uncertain":"None identified in abstract.","numbers":[{"value":"43 of 673 (6.4%)","meaning":"excluded with 500 µg/L cut-off"},{"value":"200 of 673 (29.7%)","meaning":"excluded with age-adjusted cut-off"}]},
-{"claim_id":"C20-19-c","cand_id":"C20-19","claim":"NICE NG158 advises considering age-adjusted D-dimer for people over 50.","source_keys":[],"supporting_passage":"","location":"","pico_timeframe":"","claim_type":"guideline recommendation","verdict":"not_found","safe_wording":"Do not state what UK guidance says; not opened.","qualifications":"NICE pages cannot be opened here.","conflicting_or_uncertain":"","numbers":[]},
-{"claim_id":"C20-20-a","cand_id":"C20-20","claim":"In US veterans with CKD 3-5, older patients had higher death and lower ESRD rates at comparable eGFR; at 85+ death risk always exceeded ESRD risk.","source_keys":["PMID:17855638"],"supporting_passage":"among those with comparable levels of eGFR, older patients had higher rates of death and lower rates of ESRD than younger patients. ... Among those 85 years or older, the risk of death always exceeded the risk of ESRD in this cohort.","location":"Abstract, Results","pico_timeframe":"209,622 US veterans, CKD stages 3-5; death (all causes) vs treated ESRD; mean 3.2 years","claim_type":"empirical","verdict":"supported_with_qualification","safe_wording":"In a 2007 study of over 200,000 US veterans (mostly men) with reduced kidney function, people aged 85 or over were more likely to die than to reach kidney failure needing dialysis, at every level of kidney function studied.","qualifications":"All-cause death, not 'other causes'; stages 3-5 combined; US veterans; observational; follow-up ~3 years.","conflicting_or_uncertain":"Hallan 2012 shows low eGFR and albuminuria still carry higher absolute death risk at older ages, so the label is not meaningless.","numbers":[{"value":"209,622","meaning":"veterans, CKD 3-5"},{"value":"3.2 years","meaning":"mean follow-up"}]},
-{"claim_id":"C20-20-b","cand_id":"C20-20","claim":"Urine albumin adds risk information alongside eGFR at all ages.","source_keys":["PMID:23111824"],"supporting_passage":"Both low eGFR and high albuminuria were independently associated with mortality and ESRD regardless of age across a wide range of populations.","location":"Abstract, Conclusions","pico_timeframe":"2.05 million people, 46 cohorts; eGFR and ACR vs death and ESRD; mean 5.8 years","claim_type":"empirical","verdict":"supported_with_qualification","safe_wording":"Across large studies of people of all ages, both lower kidney function on the blood test and more albumin in the urine were linked with higher risk, so the urine test adds useful information.","qualifications":"Association; does not directly show that normal albumin means low kidney-failure risk.","conflicting_or_uncertain":"","numbers":[]},
-{"claim_id":"C20-20-c","cand_id":"C20-20","claim":"KDIGO/NICE grade CKD by eGFR and albuminuria; NICE recommends ACR; some medicines need dose adjustment.","source_keys":["PMID:38490803"],"supporting_passage":"","location":"","pico_timeframe":"","claim_type":"guideline recommendation","verdict":"not_found","safe_wording":"Not verified; guideline text not opened. Dose-adjustment point may rely on C06-19 evidence if it exists.","qualifications":"","conflicting_or_uncertain":"","numbers":[]}
-],
-"candidates":[
-{"cand_id":"C20-19","status":"ready","reason":"ADJUST-PE abstract supports all study numbers and conditions; NICE claim unverified so omit UK-guidance statement.","revised_angle":null,"essential_claim_ids":["C20-19-a","C20-19-b"]},
-{"cand_id":"C20-20","status":"revise","reason":"O'Hare and Hallan support the core finding and the value of the urine test; KDIGO/NICE wording and medicine-dosing question not verified; 'other causes' wrong.","revised_angle":"Say 'more likely to die than to reach kidney failure needing dialysis' (2007, US veterans, mostly men, stages 3-5); ask about stability and urine albumin; drop or separately source the medicines and guideline claims.","essential_claim_ids":["C20-20-a","C20-20-b"]}
-]}
+{
+ "batch": "C20-B3",
+ "category": "C20",
+ "date_checked": "2026-09-25",
+ "sources": [
+  {
+   "key": "PMID:24643601",
+   "citation": "Righini M, Van Es J, Den Exter PL, Roy PM, Verschuren F, Ghuysen A, et al. Age-adjusted D-dimer cutoff levels to rule out pulmonary embolism: the ADJUST-PE study. JAMA. 2014;311(11):1117-24.",
+   "pmid": "24643601",
+   "pmcid": null,
+   "doi": "10.1001/jama.2014.2135",
+   "public_url": "https://doi.org/10.1001/jama.2014.2135",
+   "design": "Prospective multicentre management outcome study (single strategy, no randomised comparator; the 500 vs age-adjusted comparison is of the proportion excludable)",
+   "population_setting": "3346 consecutive ED outpatients with clinically suspected PE; 19 centres in Belgium, France, Netherlands, Switzerland; 2010-2013",
+   "year": 2014,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search 2026-09-25/2026-10-08 of PMID with retracted publication[pt] OR published erratum[pt]: no retraction or erratum linked. Scite not used (monthly limit reached).",
+   "quality_note": "Abstract read in this project; full text not open-access in PMC. Highly sensitive D-dimer assays, cut-offs in ug/L (FEU not stated in abstract). Failure rate 1/331, 95% CI 0.1-1.7%. The 75+ 'no additional false negatives' statement has no confidence interval given in the abstract."
+  },
+  {
+   "key": "PMID:17855638",
+   "citation": "O'Hare AM, Choi AI, Bertenthal D, Bacchetti P, Garg AX, Kaufman JS, et al. Age affects outcomes in chronic kidney disease. J Am Soc Nephrol. 2007;18(10):2758-65.",
+   "pmid": "17855638",
+   "pmcid": null,
+   "doi": "10.1681/ASN.2007040422",
+   "public_url": "https://doi.org/10.1681/ASN.2007040422",
+   "design": "Retrospective cohort",
+   "population_setting": "209,622 US veterans with CKD stages 3 to 5 (eGFR below 60), mean follow-up 3.2 years",
+   "year": 2007,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search 2026-09-25/2026-10-08 of PMID with retracted publication[pt] OR published erratum[pt]: no retraction or erratum linked. Scite not used (monthly limit reached).",
+   "quality_note": "Abstract only (no PMC full text; Scite full text unavailable at usage limit). Outcome is all-cause death versus treated ESRD, stages 3-5 combined; sex mix, albuminuria and stage-3-specific figures for 85+ are not in the abstract. 2007 data."
+  },
+  {
+   "key": "PMID:23111824",
+   "citation": "Hallan SI, Matsushita K, Sang Y, Mahmoodi BK, Black C, Ishani A, et al. Age and association of kidney measures with mortality and end-stage renal disease. JAMA. 2012;308(22):2349-60.",
+   "pmid": "23111824",
+   "pmcid": "PMC3936348",
+   "doi": "10.1001/jama.2012.16817",
+   "public_url": "https://doi.org/10.1001/jama.2012.16817",
+   "design": "Individual-participant meta-analysis (CKD Prognosis Consortium)",
+   "population_setting": "2,051,244 participants, 33 general-population/high-risk cohorts and 13 CKD cohorts, Asia, Australasia, Europe, the Americas, mean follow-up 5.8 years",
+   "year": 2012,
+   "access": "full_text",
+   "tool_used": "PubMed get_article_metadata and get_full_text_article (PMC3936348)",
+   "correction_check": "PubMed search 2026-09-25/2026-10-08 of PMID with retracted publication[pt] OR published erratum[pt]: no retraction or erratum linked. Scite not used (monthly limit reached).",
+   "quality_note": "Large; observational and adjusted; albuminuria partly measured by dipstick in some cohorts; models not an individual prediction tool (authors' own statement)."
+  },
+  {
+   "key": "PMID:15882252",
+   "citation": "Levey AS, Eckardt KU, Tsukamoto Y, Levin A, Coresh J, Rossert J, et al. Definition and classification of chronic kidney disease: a position statement from Kidney Disease: Improving Global Outcomes (KDIGO). Kidney Int. 2005;67(6):2089-100.",
+   "pmid": "15882252",
+   "pmcid": null,
+   "doi": "10.1111/j.1523-1755.2005.00365.x",
+   "public_url": "https://doi.org/10.1111/j.1523-1755.2005.00365.x",
+   "design": "Consensus position statement (definition)",
+   "population_setting": "International",
+   "year": 2005,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata",
+   "correction_check": "PubMed search 2026-09-25/2026-10-08 of PMID with retracted publication[pt] OR published erratum[pt]: no retraction or erratum linked. Scite not used (monthly limit reached).",
+   "quality_note": "Old definitional source (2005); the 2012/2024 KDIGO guidelines were not opened. Use only for the 3-month persistence in the definition."
+  },
+  {
+   "key": "PMID:24078751",
+   "citation": "MacCallum PK, Mathur R, Hull SA, Saja K, Green L, Morris JK, et al. Patient safety and estimation of renal function in patients prescribed new oral anticoagulants for stroke prevention in atrial fibrillation: a cross-sectional study. BMJ Open. 2013;3(9):e003343.",
+   "pmid": "24078751",
+   "pmcid": "PMC3787476",
+   "doi": "10.1136/bmjopen-2013-003343",
+   "public_url": "https://doi.org/10.1136/bmjopen-2013-003343",
+   "design": "Cross-sectional study of GP records",
+   "population_setting": "4120 people with known AF in a GP-registered population in east London",
+   "year": 2013,
+   "access": "abstract",
+   "tool_used": "PubMed get_article_metadata (re-opened here; also used in batch C06-B2)",
+   "correction_check": "PubMed search 2026-09-25/2026-10-08 of PMID with retracted publication[pt] OR published erratum[pt]: no retraction or erratum linked. Scite not used (monthly limit reached).",
+   "quality_note": "Abstract re-read in this project. Supports that some anticoagulant eligibility and dose depend on kidney function and on which formula is used; it is a single-population study and one drug class."
+  },
+  {
+   "key": "URL:https://www.medicinesresources.nhs.uk/venous-thromboembolism-in-adults-summary-of-updated-nice-guidance-on-diagnosis-management-and-thrombophilia-testing.html",
+   "citation": "NHS Specialist Pharmacy Service / Medicines Resources. Venous thromboembolism in adults: summary of updated NICE guidance on diagnosis, management, and thrombophilia testing. (summary page of NICE NG158)",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.medicinesresources.nhs.uk/venous-thromboembolism-in-adults-summary-of-updated-nice-guidance-on-diagnosis-management-and-thrombophilia-testing.html",
+   "design": "Secondary summary of an official guideline",
+   "population_setting": "UK adults",
+   "year": 2020,
+   "access": "search_extract",
+   "tool_used": "WebSearch (page could not be opened)",
+   "correction_check": "Not applicable",
+   "quality_note": "Search-engine paraphrase only: an NHS summary 'says it includes using an age-adjusted D-dimer when assessing people aged over 50'. Not verbatim, NG158 recommendation text not opened. Not sufficient for an essential claim."
+  },
+  {
+   "key": "PMID:38490803",
+   "citation": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-S314.",
+   "pmid": "38490803",
+   "pmcid": null,
+   "doi": "10.1016/j.kint.2023.10.018",
+   "public_url": "https://doi.org/10.1016/j.kint.2023.10.018",
+   "design": "Clinical practice guideline",
+   "population_setting": "International",
+   "year": 2024,
+   "access": "search_extract",
+   "tool_used": "PubMed record only (abstract not available; text not opened)",
+   "correction_check": "Not checked",
+   "quality_note": "Located but NOT opened; cannot support any wording. Do not cite for claims."
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C20-19-a",
+   "cand_id": "C20-19",
+   "claim": "ADJUST-PE: in people 50 or over with a non-high/unlikely clinical probability, a D-dimer cut-off of age x 10 ug/L was used; of 331 people with a D-dimer between 500 ug/L and their age-adjusted cut-off who were left untreated, 1 had a clot event within 3 months.",
+   "source_keys": [
+    "PMID:24643601"
+   ],
+   "supporting_passage": "To prospectively validate whether an age-adjusted D-dimer cutoff, defined as age × 10 in patients 50 years or older, is associated with an increased diagnostic yield of D-dimer in elderly patients with suspected PE. ... Patients with a D-dimer value between the conventional cutoff of 500 µg/L and their age-adjusted cutoff did not undergo CTPA and were left untreated and formally followed-up for a 3-month period. ... The 3-month failure rate in patients with a D-dimer level higher than 500 µg/L but below the age-adjusted cutoff was 1 of 331 patients (0.3% [95% CI, 0.1%-1.7%]).",
+   "location": "Abstract (Objective, Design, Results)",
+   "pico_timeframe": "ED outpatients with suspected PE and non-high/unlikely clinical probability, age 50+; age x 10 ug/L versus 500 ug/L; adjudicated thromboembolic events at 3 months among untreated patients",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a European study of 3346 emergency patients with suspected pulmonary embolism, people aged 50 or over whose clinical score was not high were not scanned if their D-dimer was below age x 10 (in ug/L). Of 331 people in that band between 500 and their age-based limit, 1 had a clot within 3 months.",
+   "qualifications": "Only after a clinical probability score (simplified revised Geneva or 2-level Wells). Management study with no randomised comparator. Assay and units matter (highly sensitive assay, ug/L; check the lab's units). The upper confidence limit for the failure rate is 1.7%, so 'safe' should not be read as 'zero risk'.",
+   "conflicting_or_uncertain": "Confidence interval 0.1-1.7% for failure rate. Other work (not opened) reports lower sensitivity with age-adjusted thresholds; the abstract-level evidence here is from one prospective study.",
+   "numbers": [
+    {
+     "value": "3346",
+     "meaning": "patients with suspected PE enrolled"
+    },
+    {
+     "value": "age x 10 ug/L",
+     "meaning": "cut-off for age 50 or over (500 ug/L below 50)"
+    },
+    {
+     "value": "1 of 331 (0.3%, 95% CI 0.1-1.7%)",
+     "meaning": "3-month failure among patients between 500 ug/L and age-adjusted cut-off, untreated"
+    },
+    {
+     "value": "19%",
+     "meaning": "prevalence of PE in the whole cohort"
+    }
+   ]
+  },
+  {
+   "claim_id": "C20-19-b",
+   "cand_id": "C20-19",
+   "claim": "Among 673 people aged 75 or over with a non-high clinical probability, the share in whom PE could be excluded by D-dimer alone rose from 6.4% (43/673) with the 500 ug/L cut-off to 29.7% (200/673) with the age-adjusted cut-off, without any additional false-negative findings.",
+   "source_keys": [
+    "PMID:24643601"
+   ],
+   "supporting_passage": "Among the 766 patients 75 years or older, of whom 673 had a nonhigh clinical probability, using the age-adjusted cutoff instead of the 500 µg/L cutoff increased the proportion of patients in whom PE could be excluded on the basis of D-dimer from 43 of 673 patients (6.4% [95% CI, 4.8%-8.5%) to 200 of 673 patients (29.7% [95% CI, 26.4%-33.3%), without any additional false-negative findings.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "Age 75+ with non-high clinical probability (673 of 766 aged 75+); 500 ug/L versus age-adjusted cut-off; PE excluded without imaging; false negatives over 3-month follow-up",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Among 673 people aged 75 or over whose clinical score was not high, a clot could be ruled out by blood test alone in about 6 in 100 with the fixed cut-off and about 30 in 100 with the age-adjusted cut-off (a rise of about 23 percentage points), and no extra missed clots were found in that group.",
+   "qualifications": "Subgroup (75+ with non-high probability, 673 people). 'No additional false negatives' means none found in the study; with about 200 people newly excluded, a small risk cannot be excluded (no confidence interval is given for this subgroup in the abstract). Differences are percentage points (29.7 minus 6.4 = 23.3). 'Ruled out' means no scan was needed after a negative score-plus-D-dimer pathway, not that clots are impossible.",
+   "conflicting_or_uncertain": "Subgroup analysis; the abstract gives no subgroup-specific failure CI.",
+   "numbers": [
+    {
+     "value": "43 of 673 (6.4%, 95% CI 4.8-8.5%)",
+     "meaning": "aged 75+, non-high probability, PE excluded with 500 ug/L cut-off"
+    },
+    {
+     "value": "200 of 673 (29.7%, 95% CI 26.4-33.3%)",
+     "meaning": "same group, PE excluded with age-adjusted cut-off"
+    },
+    {
+     "value": "23.3 percentage points",
+     "meaning": "difference (calculated from the two figures)"
+    },
+    {
+     "value": "766",
+     "meaning": "all patients aged 75+; 673 of them had non-high probability"
+    }
+   ]
+  },
+  {
+   "claim_id": "C20-19-c",
+   "cand_id": "C20-19",
+   "claim": "NICE NG158 advises considering an age-adjusted D-dimer threshold for people over 50.",
+   "source_keys": [
+    "URL:https://www.medicinesresources.nhs.uk/venous-thromboembolism-in-adults-summary-of-updated-nice-guidance-on-diagnosis-management-and-thrombophilia-testing.html"
+   ],
+   "supporting_passage": "(Search-engine paraphrase, not verbatim) An NHS summary of the updated NICE guidance says it includes using an age-adjusted D-dimer when assessing people aged over 50.",
+   "location": "Search extract only",
+   "pico_timeframe": "UK guidance, NG158",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not state what NICE or UK guidance says. The post can say the rule was validated in ADJUST-PE and leave guidance out, or add a UK guidance statement only after the NG158 text is opened by a human.",
+   "qualifications": "Search extract only; NICE page cannot be opened; exact wording ('consider'), recommendation number and clinical-probability condition unconfirmed.",
+   "conflicting_or_uncertain": "Not checked against NG158.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C20-20-a",
+   "cand_id": "C20-20",
+   "claim": "In 209,622 US veterans with CKD stages 3 to 5, older patients had higher death rates and lower treated end-stage kidney disease rates than younger patients at comparable eGFR; among those aged 85 or over the risk of death always exceeded the risk of ESRD.",
+   "source_keys": [
+    "PMID:17855638"
+   ],
+   "supporting_passage": "However, among those with comparable levels of eGFR, older patients had higher rates of death and lower rates of ESRD than younger patients. ... Among those 85 years or older, the risk of death always exceeded the risk of ESRD in this cohort.",
+   "location": "Abstract, Results",
+   "pico_timeframe": "US veterans, CKD stages 3-5 (eGFR below 60), baseline eGFR; all-cause death versus treated ESRD; mean follow-up 3.2 years",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "In a 2007 study of about 210,000 US veterans with reduced kidney function (stages 3 to 5), people aged 85 or over were more likely to die over roughly three years than to start dialysis or transplant, at every level of kidney function studied.",
+   "qualifications": "All-cause death, not 'other causes'; 'treated ESRD' means dialysis or transplant, so untreated kidney failure is not counted; stages 3-5 combined, so not specific to stage 3 (the abstract does not give stage-3 figures); US veterans (sex mix not checked in the opened text, do not say 'mostly men' unless confirmed); observational; mean follow-up 3.2 years; 2007 data. It does not say kidney care is pointless: it says which outcome is likelier over a few years.",
+   "conflicting_or_uncertain": "Hallan 2012 (2 million people) found eGFR and albuminuria linked with mortality and ESRD at every age and argued that older adults should not be left out of CKD management. The authors of O'Hare conclude that age is a major effect modifier, 'challenging us to move beyond a uniform stage-based approach'.",
+   "numbers": [
+    {
+     "value": "209,622",
+     "meaning": "US veterans with CKD stages 3-5"
+    },
+    {
+     "value": "3.2 years",
+     "meaning": "mean follow-up"
+    },
+    {
+     "value": "47%",
+     "meaning": "share of the cohort aged 75 or over (cohort composition, not an outcome)"
+    },
+    {
+     "value": "85 or over",
+     "meaning": "age group in which death risk always exceeded ESRD risk"
+    }
+   ]
+  },
+  {
+   "claim_id": "C20-20-b",
+   "cand_id": "C20-20",
+   "claim": "Urine albumin gives risk information beyond eGFR at every age: higher albuminuria and lower eGFR were each linked with higher mortality and ESRD risk.",
+   "source_keys": [
+    "PMID:23111824"
+   ],
+   "supporting_passage": "Mortality (112,325 deaths) and ESRD (8411 events) risks were higher at lower eGFR and higher albuminuria in every age category. ... Both low eGFR and high albuminuria were independently associated with mortality and ESRD regardless of age across a wide range of populations.",
+   "location": "Abstract, Results and Conclusions",
+   "pico_timeframe": "2,051,244 participants in 46 cohorts; eGFR and albuminuria versus all-cause mortality and ESRD; mean 5.8 years; adjusted",
+   "claim_type": "empirical",
+   "verdict": "supported",
+   "safe_wording": "In a pooled analysis of about 2 million people in 46 studies, both a lower kidney blood test (eGFR) and more albumin in the urine were each linked with a higher chance of dying and of kidney failure, in every age group, so the urine test adds information that the blood test alone does not.",
+   "qualifications": "Association, adjusted; does not by itself show what happens to an individual with stage 3 and normal albumin.",
+   "conflicting_or_uncertain": "Albuminuria measured by dipstick in some cohorts.",
+   "numbers": [
+    {
+     "value": "2,051,244",
+     "meaning": "participants, 46 cohorts"
+    },
+    {
+     "value": "5.8 years",
+     "meaning": "mean follow-up"
+    }
+   ]
+  },
+  {
+   "claim_id": "C20-20-c",
+   "cand_id": "C20-20",
+   "claim": "A stage 3 CKD result with normal urine albumin carries a low risk of kidney failure in older people.",
+   "source_keys": [
+    "PMID:23111824"
+   ],
+   "supporting_passage": "For example, even at age 75+ persons with eGFR 45–59 ml/min/1.73m and optimally low albuminuria had significantly increased mortality risk, though they had lower relative hazards and higher absolute risks than at younger ages.",
+   "location": "Full text, Discussion",
+   "pico_timeframe": "Age 75+, eGFR 45-59, lowest albuminuria category; mortality (not ESRD)",
+   "claim_type": "empirical",
+   "verdict": "not_supported",
+   "safe_wording": "Do not say a stable stage 3 result without albumin carries a low risk of kidney failure. Say instead that the urine albumin test adds information and that higher albumin goes with higher risk.",
+   "qualifications": "The opened full text gives no absolute ESRD risk for stage 3 with normal ACR. The passage found shows increased mortality risk even with low albuminuria at 75+, so 'reassuring' framing is not supported.",
+   "conflicting_or_uncertain": "A stage-by-albumin absolute risk table (for example KDIGO heat map or kidney failure risk equation) was not opened.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C20-20-d",
+   "cand_id": "C20-20",
+   "claim": "CKD is defined by kidney damage or reduced GFR persisting for 3 months or more, so a single result needs repeating (the 'is it stable?' question).",
+   "source_keys": [
+    "PMID:15882252"
+   ],
+   "supporting_passage": "CKD is defined as kidney damage or glomerular filtration rate (GFR) <60 mL/min/1.73 m(2) for 3 months or more, irrespective of cause. Kidney damage in many kidney diseases can be ascertained by the presence of albuminuria, defined as albumin-to-creatinine ratio >30 mg/g in two of three spot urine specimens.",
+   "location": "Abstract",
+   "pico_timeframe": "Definition (KDIGO 2005 position statement)",
+   "claim_type": "definition",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Chronic kidney disease is defined by kidney function that is reduced for at least 3 months, so asking whether the result has been repeated and has stayed the same is a fair question.",
+   "qualifications": "2005 statement; current KDIGO 2024 and NICE NG203 wording not opened. The 'repeat before labelling' inference is mine from the definition; the statement does not say what a clinician must do after one test. 'Stage 3' means eGFR 30-59 in the standard staging (not stated in this abstract).",
+   "conflicting_or_uncertain": "None found; current guidelines not opened.",
+   "numbers": [
+    {
+     "value": "3 months or more",
+     "meaning": "duration required in the definition"
+    },
+    {
+     "value": "eGFR below 60",
+     "meaning": "mL/min/1.73 m2, threshold in the definition"
+    }
+   ]
+  },
+  {
+   "claim_id": "C20-20-e",
+   "cand_id": "C20-20",
+   "claim": "Some medicines are dosed or chosen according to kidney function, so a kidney result can change prescribing.",
+   "source_keys": [
+    "PMID:24078751"
+   ],
+   "supporting_passage": "In clinical trials of dabigatran and rivaroxaban for stroke prevention in atrial fibrillation (AF), drug eligibility and dosing were determined using the Cockcroft-Gault equation to estimate creatine clearance as a measure of renal function. ... Were the MDRD-derived eGFR to be used instead of Cockcroft-Gault in prescribing these new agents, many elderly patients with AF would either incorrectly become eligible for them or would receive too high a dose.",
+   "location": "Abstract",
+   "pico_timeframe": "4120 people with AF in east London; anticoagulant eligibility and dose by kidney-function formula",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Some medicines, such as certain blood thinners for atrial fibrillation, are chosen or dosed by kidney function, so it is reasonable to ask whether any of your medicines depend on it.",
+   "qualifications": "Evidence is for one drug class; do not generalise to all medicines or to a particular dose threshold. The kidney measure used for dosing is often creatinine clearance (Cockcroft-Gault), not the eGFR on the lab report (see C06-19). The claim that stage 3 label changes heart or blood pressure care was not sourced and should be left out.",
+   "conflicting_or_uncertain": "Another study (see C06-B2, PMID:38046038, not re-opened here) found no outcome difference by formula in very old people on DOACs.",
+   "numbers": [
+    {
+     "value": "14.9%",
+     "meaning": "of 1414 people aged 80+ with AF ineligible for dabigatran by Cockcroft-Gault who would have been judged eligible by MDRD (East London, 2013) - background only, probably not needed"
+    }
+   ]
+  },
+  {
+   "claim_id": "C20-20-f",
+   "cand_id": "C20-20",
+   "claim": "Whether CKD should be defined by the same eGFR threshold at all ages is debated.",
+   "source_keys": [
+    "PMID:23111824"
+   ],
+   "supporting_passage": "Supporters of the former approach have cited a dramatic rise in the prevalence of nephrosclerosis with age in kidney biopsies, even among healthy kidney donors, and suggested the concept of natural inevitable senescence of the kidneys suggesting age specific cutoffs for defining normal kidney function. ... In contrast, our meta-analysis documents that risk of mortality and ESRD is increased at approximately 60 ml/min/1.73m, the threshold used for defining CKD over the last 10 years, across all age groups.",
+   "location": "Full text, Discussion",
+   "pico_timeframe": "Narrative discussion within a 2012 meta-analysis",
+   "claim_type": "empirical",
+   "verdict": "supported_with_qualification",
+   "safe_wording": "Doctors disagree about whether one kidney-function cut-off for 'kidney disease' suits every age; the post should take no side.",
+   "qualifications": "Authors of Hallan argue for a common definition; Delanaye 2019 (age-adapted definition) not opened, so cite no one for the opposing view beyond saying the debate exists.",
+   "conflicting_or_uncertain": "This is the debate itself.",
+   "numbers": []
+  },
+  {
+   "claim_id": "C20-20-g",
+   "cand_id": "C20-20",
+   "claim": "KDIGO grades CKD risk by eGFR and albuminuria together; NICE NG203 recommends urine ACR alongside eGFR.",
+   "source_keys": [
+    "PMID:38490803"
+   ],
+   "supporting_passage": "",
+   "location": "",
+   "pico_timeframe": "",
+   "claim_type": "guideline recommendation",
+   "verdict": "not_found",
+   "safe_wording": "Do not attribute this to KDIGO or NICE. Hallan 2012 supports that the two measures are used together to stage CKD ('recently ... suggested that the definition and staging of CKD ... should be determined by the combination of estimated GFR and albuminuria', background statement) but the guideline text was not opened.",
+   "qualifications": "KDIGO 2024 PubMed record has no abstract; NICE pages cannot be opened.",
+   "conflicting_or_uncertain": "",
+   "numbers": []
+  }
+ ],
+ "candidates": [
+  {
+   "cand_id": "C20-19",
+   "status": "ready",
+   "reason": "ADJUST-PE abstract supports the rule, the condition (age 50 or over, after a clinical probability score), the failure rate (1/331, 95% CI 0.1-1.7%) and the 75+ subgroup figures (6.4% to 29.7%, no additional false negatives). Post must omit any statement about NICE/UK guidance (not opened), say 'in this study', stay with the subgroup wording, give the units (ug/L) and avoid implying zero risk.",
+   "revised_angle": null,
+   "essential_claim_ids": [
+    "C20-19-a",
+    "C20-19-b"
+   ]
+  },
+  {
+   "cand_id": "C20-20",
+   "status": "revise",
+   "reason": "O'Hare supports the death-versus-ESRD point but only as 'more likely to die than to receive dialysis or transplant', stages 3-5 combined, US veterans, 2007; 'other causes', 'stage 3 specific' and 'mostly men' are not supported by what was opened. 'Low risk with normal albumin' is not supported (Hallan shows increased mortality even with low albuminuria at 75+). Guideline (KDIGO/NICE) wording and heart/BP care claims not verified.",
+   "revised_angle": "Lead with three questions: has the result been repeated over at least 3 months, what does the urine albumin test show, and does any medicine depend on kidney function. Then, as context, say: in a 2007 study of about 210,000 US veterans with reduced kidney function, people 85 or over were more likely to die than to start dialysis or transplant over about three years. Do not say the result is harmless or low risk, do not attribute to KDIGO or NICE, and note that doctors disagree on whether one threshold suits all ages.",
+   "essential_claim_ids": [
+    "C20-20-a",
+    "C20-20-b",
+    "C20-20-d",
+    "C20-20-e"
+   ]
+  }
+ ]
+}

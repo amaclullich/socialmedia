@@ -1,0 +1,128 @@
+[
+  {
+    "tmp_id": "C10-P08",
+    "where": "captions.threads",
+    "old": "UK specialists advise pausing it every 3 months to check it still helps.",
+    "new": "UK prescribing advice is to pause it every 3 months to check it still helps.",
+    "reason": "major: Misattribution. The 3-monthly pause is UK prescribing advice (BNF 2010 as reported by Cochrane). The 'specialist' review (Rabbitt 2016, Age Ageing) is by geriatricians in Galway, Ireland, and says only: restrict to severe symptoms, review regularly, discuss risks and benefits."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "captions.linkedin",
+    "old": "What UK specialists advise:",
+    "new": "What the advice says (a review by specialists in older people's medicine, and UK prescribing advice reported in a Cochrane review):",
+    "reason": "major: Same misattribution. Rabbitt 2016 is Irish, and points 2 and 3 (4 weeks, 3-monthly pause) come from the BNF 2010 as reported in the Cochrane review, not from specialists."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "captions.x",
+    "old": "Specialist advice is to keep it for severe cramps and pause it every 3 months to check it still helps.",
+    "new": "Specialist advice is to keep it for severe cramps and review it regularly; UK prescribing advice is to pause it every 3 months to check it still helps.",
+    "reason": "minor: Merges two sources: the 3-monthly pause is UK prescribing advice (BNF 2010), not the specialist review."
+  },
+  {
+    "tmp_id": "C10-P08",
+    "where": "captions.bluesky",
+    "old": "In trials it cut cramps from about 9 to 6 or 7 a fortnight, with rare serious harms. Advice is to pause it every 3 months to check it helps; many people stop without a clear rise in cramps.",
+    "new": "In trials it cut cramps from about 9 to 6 or 7 a fortnight (low-quality evidence), with rare serious harms. UK advice is to pause it every 3 months; in one trial, advice to stop did not show a clear rise in cramps.",
+    "reason": "minor: The 'low quality evidence' qualification is dropped, and 'many people stop' overstates the trial finding (26.5 percentage points more had stopped at 12 weeks; the cramp comparison was uncertain)."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "visual_brief.slides.0.text.body",
+    "old": "Many people with marked changes have little pain. Many with knee pain have fairly normal X-rays.",
+    "new": "Many people with arthritis changes on the X-ray have little pain. Many with knee pain have fairly normal X-rays.",
+    "reason": "major: 'Marked' is stronger than the source. Bedson and Croft describe radiographic OA in general, and Neogi shows severe (KL grade 4) changes are strongly associated with pain. The claim record wording is 'arthritis changes'."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "visual_text.2",
+    "old": "Many people with marked changes have little pain. Many with knee pain have fairly normal X-rays.",
+    "new": "Many people with arthritis changes on the X-ray have little pain. Many with knee pain have fairly normal X-rays.",
+    "reason": "major: 'Marked' is stronger than the source. Bedson and Croft describe radiographic OA in general, and Neogi shows severe (KL grade 4) changes are strongly associated with pain. The claim record wording is 'arthritis changes'."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "captions.bluesky",
+    "old": "Many people with marked changes have little pain, and the reverse.",
+    "new": "Many people with arthritis changes on the X-ray have little pain, and the reverse.",
+    "reason": "major: 'Marked' overstates the source, as on the visual."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "alt_text.0",
+    "old": "Many people with marked X-ray changes have little pain",
+    "new": "Many people with arthritis changes on the X-ray have little pain",
+    "reason": "major: Same overstatement."
+  },
+  {
+    "tmp_id": "C10-P06",
+    "where": "captions.x",
+    "old": "all described their knee as 'bone on bone', and many had set exercise aside for fear of damage.",
+    "new": "all described their knee as 'bone on bone'. Many believed exercise could damage the joint, and many had set it aside. A small study of beliefs, not proof of cause.",
+    "reason": "minor: Links avoidance to a single motive, and does not say that this small qualitative study shows beliefs, not cause."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "captions.bluesky",
+    "old": "Few older people were included. We would not start it for sciatica, and would review it.",
+    "new": "Average age was early to mid 50s. In our judgement, it should not be started for sciatica, and existing prescriptions deserve review.",
+    "reason": "minor: 'Few older people' is not quantified in the source (mean age 52 to 55, SD about 16 to 17). The opinion is stated as a first-person practice claim without the 'judgement' framing the other versions use."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "visual_brief.slides.0.text.labels.1",
+    "old": "No troublesome pain reported: about 87 in 100",
+    "new": "Other 87 in 100: did not report troublesome pain in these studies",
+    "reason": "minor: The complement is presented as a finding. The authors rated confidence as low and think true figures are higher because of loss to follow-up, so '87 in 100 without pain' is too confident."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "visual_text.6",
+    "old": "No troublesome pain reported: about 87 in 100",
+    "new": "Other 87 in 100: did not report troublesome pain in these studies",
+    "reason": "minor: The complement is presented as a finding. The authors rated confidence as low and think true figures are higher because of loss to follow-up, so '87 in 100 without pain' is too confident."
+  },
+  {
+    "tmp_id": "C10-P02",
+    "where": "captions.x",
+    "old": "Studies defined troublesome pain in different ways, and the authors think the true figures are probably higher",
+    "new": "Studies defined troublesome pain in different ways, the authors rated their confidence as low, and they think the true figures are probably higher",
+    "reason": "minor: Drops the authors' low-confidence rating."
+  },
+  {
+    "tmp_id": "C10-P07",
+    "where": "captions.x",
+    "old": "Roughly twice the rate, still uncommon, and observational.",
+    "new": "Roughly twice the rate, with wide uncertainty; still uncommon, in adults of all ages, and observational.",
+    "reason": "minor: Drops the wide uncertainty qualification (adjusted HR 2.05, 95% CI 1.08 to 3.86) and the all-ages population."
+  },
+  {
+    "tmp_id": "C10-P01",
+    "where": "captions.x",
+    "old": "no pain when sitting and relief on bending forward were the strongest single pointers to lumbar spinal stenosis",
+    "new": "no pain when sitting and relief on bending forward were the strongest single pointers to lumbar spinal stenosis (mostly in specialist clinics)",
+    "reason": "minor: Drops the required qualification that the estimates come mostly from specialist clinics."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "visual_brief.slides.0.text.source_line",
+    "old": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., 2006",
+    "new": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., J Pain Symptom Manage 2006",
+    "reason": "minor: Journal missing for Portenoy."
+  },
+  {
+    "tmp_id": "C10-P04",
+    "where": "visual_text.5",
+    "old": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., 2006",
+    "new": "Sykes and Thorns, Lancet Oncol 2003; Boland et al., Pain 2015; Portenoy et al., J Pain Symptom Manage 2006",
+    "reason": "minor: Journal missing for Portenoy."
+  },
+  {
+    "tmp_id": "C10-P05",
+    "where": "captions.bluesky",
+    "old": "it should not be started for sciatica, and existing prescriptions deserve review.",
+    "new": "do not start it for sciatica, and review existing prescriptions.",
+    "reason": "check_posts over_limit: Bluesky 309 characters after fact-check replacement; shortened to fit 300."
+  }
+]

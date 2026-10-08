@@ -278,5 +278,565 @@
   "old": "planned music sessions ... Offer music for enjoyment, not as treatment.",
   "new": "music sessions ... Offer music for enjoyment.",
   "reason": "trim to 300 characters"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.linkedin",
+  "old": "scored slightly better on memory and thinking tests and on everyday activities than those who stopped. The difference in everyday activities was smaller than the size the researchers had set as clinically important. So the benefit is small.",
+  "new": "scored better on memory and thinking tests and on everyday activities than those who stopped. The difference in memory and thinking scores (1.9 points on a 30-point scale) was larger than the 1.4 points the researchers had set as clinically important. The difference in everyday activities (3.0 points on a 60-point scale) was smaller than their 3.5-point threshold.",
+  "reason": "major: only the function result was set against the importance threshold and the whole benefit called small; cognition exceeded the threshold (SMMSE 1.9 vs 1.4); 'slightly' dropped (minor)"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.x",
+  "old": "did slightly better on cognition and daily function than those who stopped. The function difference was below the trial's own threshold for clinical importance.",
+  "new": "did better on cognition and daily function than those who stopped. The cognition difference was above the trial's own threshold for clinical importance; the daily function difference was below it.",
+  "reason": "major: cognition difference exceeded the threshold, function difference did not; both were reported as below"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.bluesky",
+  "old": "those who kept taking it did slightly better over a year.",
+  "new": "those who kept taking it did better over a year on thinking and daily activities.",
+  "reason": "minor: 'slightly' understated cognition result"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "captions.threads",
+  "old": "those who kept taking it did slightly better over a year.",
+  "new": "those who kept taking it did better over a year on thinking and daily activities.",
+  "reason": "minor: 'slightly' understated cognition result"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "visual_text",
+  "old": "Moved to a care home within 1 year: stopped 37 in 100",
+  "new": "DOMINO-AD, moved permanently to a care home within 1 year: about 37 in 100 who stopped, about 20 in 100 who continued",
+  "reason": "minor: add 'about' (Kaplan-Meier estimates), 'permanently', and name DOMINO-AD beside the bars; replacement text covers both bar labels"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "visual_text",
+  "old": "Continued 20 in 100",
+  "new": "(removed; merged into previous item)",
+  "reason": "minor: checker replacement gives both figures in one label"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "visual_brief.slides[0].text.labels",
+  "old": "Moved to a care home within 1 year: stopped 37 in 100",
+  "new": "DOMINO-AD, moved permanently to a care home within 1 year: about 37 in 100 who stopped, about 20 in 100 who continued",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "visual_brief.slides[0].text.labels",
+  "old": "Continued 20 in 100",
+  "new": "(removed; merged into previous label)",
+  "reason": "minor: matches visual_text"
+ },
+ {
+  "tmp_id": "C08-P01",
+  "where": "alt_text[0]",
+  "old": "about 37 in 100 who stopped moved to a care home within a year versus 20 in 100 who continued",
+  "new": "about 37 in 100 who stopped moved permanently to a care home within a year versus about 20 in 100 who continued",
+  "reason": "minor: keep alt text consistent with visual label"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.x",
+  "old": "This came from an analysis after the trial, and the numbers are too small to be sure the drug caused it.",
+  "new": "The deaths were counted as a safety measure; the test of the difference was done after the trial, and the numbers are too small to be sure the drug caused it.",
+  "reason": "minor: the deaths were counted in the safety follow-up; the statistical test was post hoc"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.linkedin",
+  "old": "It came from an analysis after the trial, the numbers are small, causes of death varied, and an earlier trial of mirtazapine did not show more deaths.",
+  "new": "The test of the difference was done after the trial, the numbers are small, causes of death varied, and an earlier trial of mirtazapine for depression in dementia did not show more deaths.",
+  "reason": "minor: post hoc applies to the test; earlier trial was in depression in dementia"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.linkedin",
+  "old": "In US care homes, as antipsychotic use fell, use of other sedating drugs such as gabapentin and valproate rose, possibly as a substitute.",
+  "new": "In US care homes between 2009 and 2014, antipsychotic use fell while use of mood stabilisers, such as valproate and carbamazepine, rose, possibly as a substitute.",
+  "reason": "blocker: Maust 2018 names mood stabilisers (valproic acid, carbamazepine); gabapentin and 'sedating' are not in the source; years added"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "captions.threads",
+  "old": "Mirtazapine is sometimes used for agitation in dementia because it seems safer than an antipsychotic.",
+  "new": "Mirtazapine is sometimes used for agitation in dementia, partly because it seems safer than an antipsychotic.",
+  "reason": "minor: source gives avoiding antipsychotics as one reason"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "visual_text",
+  "old": "Analysis after the trial; too few deaths to be sure of cause",
+  "new": "Difference tested after the trial; too few deaths to be sure of cause",
+  "reason": "minor: the test, not the death count, was post hoc"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "visual_brief.slides[0].text.labels",
+  "old": "Analysis after the trial; too few deaths to be sure of cause",
+  "new": "Difference tested after the trial; too few deaths to be sure of cause",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P02",
+  "where": "alt_text[0]",
+  "old": "analysis after the trial, too few deaths to be sure of cause",
+  "new": "difference tested after the trial, too few deaths to be sure of cause",
+  "reason": "minor: keep alt text consistent"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.bluesky",
+  "old": "In the GREAT trial, 475 people with early dementia chose everyday goals and worked on them at home with a therapist.\n\nGoal ratings rose about 2.6 points vs 0.9 with usual care (raters knew their group). Quality of life, mood and memory scores: no clear difference.\n\nServices should count goals.",
+  "new": "GREAT trial: 475 people with early dementia were randomly assigned to home therapy on goals they chose, or usual care.\n\nGoal ratings rose about 2.6 points vs 0.9 (given by people who knew their group). Quality of life, mood, memory: no clear difference.\n\nIn our view, services should count goals.",
+  "reason": "major: old text implied all 475 had therapy; 'services should count goals' is judgement and now marked. Wording 'given by people who knew their group' used in place of checker's 'raters knew the group', which the checker itself called ambiguous"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.threads",
+  "old": "People with early dementia in the GREAT trial each chose up to three everyday activities they wanted to manage better, and worked on them at home with a therapist.\n\nOn a 0 to 10 scale, their goal ratings rose about 2.6 points, against about 0.9 with usual care. Standard scores for quality of life, mood and memory showed no clear difference.\n\nThe raters knew they had had therapy. In our view, services should count the person's own goals too.",
+  "new": "In the GREAT trial, people with early dementia each chose up to three everyday activities to manage better. About half were randomly assigned to work on them at home with a therapist; the rest had usual care.\n\nOn a 0 to 10 scale, goal ratings rose about 2.6 points with therapy, against about 0.9 with usual care. Quality of life, mood and memory scores showed no clear difference.\n\nThe people giving the ratings knew their group. In our view, services should count the person's own goals too.",
+  "reason": "major: old text implied every participant had therapy; rater wording clarified (checker replacement, with 'raters' changed to 'the people giving the ratings' to match the checker's own x fix)"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.x",
+  "old": "Two cautions: raters knew they had had therapy, and an attentive visitor may explain some of the gain.",
+  "new": "Two cautions: the people giving the ratings knew they had had therapy, and an attentive visitor may explain some of the gain.",
+  "reason": "minor: 'raters' ambiguous; researchers were blinded, participants and families giving ratings were not"
+ },
+ {
+  "tmp_id": "C08-P03",
+  "where": "captions.x",
+  "old": "475 people living at home were randomly assigned",
+  "new": "475 people living at home, each with a family member involved, were randomly assigned",
+  "reason": "minor: every participant needed a willing family carer"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.linkedin",
+  "old": "In DAPA, though, falls were no different, so that benefit should not be promised to people with dementia on this evidence.",
+  "new": "In DAPA, though, falls did not show a clear difference (the range of possible effects was wide), so that benefit should not be promised to people with dementia on this evidence.",
+  "reason": "major: non-significant falls result reported as no difference"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.threads",
+  "old": "Falls and daily activities did not differ.",
+  "new": "Falls and daily activities did not show a clear difference.",
+  "reason": "minor: non-significant result reported as no difference"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.x",
+  "old": "A year later, their memory and thinking had not declined more slowly.",
+  "new": "At 12 months from the start, their memory and thinking had not declined more slowly.",
+  "reason": "minor: outcome was 12 months after randomisation, not a year after the classes"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.linkedin",
+  "old": "A year later, their memory and thinking had not declined more slowly.",
+  "new": "At 12 months from the start, their memory and thinking had not declined more slowly.",
+  "reason": "minor: as x"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.bluesky",
+  "old": "A year on, thinking had not declined more slowly;",
+  "new": "At 12 months from the start, thinking had not declined more slowly;",
+  "reason": "minor: as x"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.threads",
+  "old": "A year later, their memory and thinking had not declined more slowly.",
+  "new": "At 12 months from the start, their memory and thinking had not declined more slowly.",
+  "reason": "minor: as x"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.x",
+  "old": "Other trials show people with dementia can build strength.",
+  "new": "A German trial of frail older people with dementia found they could build strength.",
+  "reason": "minor: plural 'trials' but one small trial (Hauer 2012)"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.linkedin",
+  "old": "Other trials show that people with dementia can build strength. In a German trial, 3 months of strength and balance training made people stronger and quicker at standing up from a chair than a gentle comparison activity.",
+  "new": "A German trial of 122 frail older people with mild to moderate dementia found that 3 months of strength and functional training made them stronger and quicker at standing up from a chair than a gentle comparison activity.",
+  "reason": "minor: one trial, intervention was resistance and functional training (no 'balance'), population specified"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "captions.linkedin",
+  "old": "In our judgement, offer exercise to people with dementia for strength, getting up from a chair, and enjoyment.",
+  "new": "In DAPA, 23 of 329 people in the exercise group (about 7 in 100) had a health problem linked to the exercise, and 4 had a serious one; this was recorded only in that group. In our judgement, offer exercise to people with dementia for strength and getting up from a chair, and for enjoyment if they like it.",
+  "reason": "minor: add DAPA harms data; 'enjoyment' qualified. 'Exercise-related adverse event' rendered as 'a health problem linked to the exercise' for plain English"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "visual_text",
+  "old": "Fitter in class, but memory decline not slowed",
+  "new": "Fitness rose in class (exercise group only); memory decline not slowed",
+  "reason": "minor: authors cannot conclude definitively that the programme improved fitness"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "visual_brief.slides[0].text.headline",
+  "old": "Fitter in class, but memory decline not slowed",
+  "new": "Fitness rose in class (exercise group only); memory decline not slowed",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "alt_text[0]",
+  "old": "fitness improved during classes (about 18 metres more in a 6-minute walk, measured in the exercise group only)",
+  "new": "fitness rose during classes (about 18 metres more in a 6-minute walk, measured in the exercise group only)",
+  "reason": "minor: keep alt text consistent with headline"
+ },
+ {
+  "tmp_id": "C08-P04",
+  "where": "source_reply",
+  "old": "https://doi.org/10.1111/j.1532-5415.2011.03778.x",
+  "new": "https://doi.org/10.1111/j.1532-5415.2011.03778.x | exercise and falls https://doi.org/10.1002/14651858.CD012424.pub2",
+  "reason": "minor: LinkedIn falls claim from Sherrington had no link"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.x",
+  "old": "The trial rules were stricter still. In a US study of 237 people, average age 81, with early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan, 19 (about 8 in 100) would have qualified for the trial. In a study of 44 frail older people, 4 would have.",
+  "new": "The trial's own rules are stricter than the criteria used in clinics. In a separate US study of 237 older people, average age 81, with early memory problems and amyloid (a protein linked with Alzheimer's) on a brain scan, 19 (about 8 in 100) would have qualified for the trial. In another study of 120 older people with amyloid, 4 of the 44 who were frail would have. These are different groups, so the figures cannot be compared with each other.",
+  "reason": "major: 'stricter still' compared unlike groups; the 44 are a frail subgroup of 120, not a study of 44"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.linkedin",
+  "old": "In a study of 120 older people (median age 82) with amyloid and early memory problems, 24 (1 in 5) would have qualified for the trial.",
+  "new": "In a study of 120 pre-frail or frail older people (median age 82) with amyloid on testing, 24 (1 in 5) would have qualified for the trial.",
+  "reason": "major: abstract does not say participants had early memory problems"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.linkedin",
+  "old": "Frailty narrows it further. In a study",
+  "new": "Frailty is a separate question. In a study",
+  "reason": "consistency with the major 'stricter still' issue: the Swedish, US and frailty figures come from different groups and are not a sequence of narrowing"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.linkedin",
+  "old": "Under the looser rules recommended for clinic use, about half of the frail group could be considered.",
+  "new": "Under the looser rules recommended for clinic use, about half of the 120 could be considered.",
+  "reason": "accuracy: the 'about half' (50.8% and 47.5%) is of all 120 pre-frail and frail people, not of the 44 frail; checker's own source_says gives it for the 120"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.threads",
+  "old": "The trial rules were stricter: in a US study of 237 older people, 8 in 100 would have qualified.",
+  "new": "A separate US study applied the trial's own rules to 237 older people with early memory problems and amyloid on a brain scan. About 8 in 100 would have qualified.",
+  "reason": "major: dropped population and compared unlike groups"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.threads",
+  "old": "About 1 in 7 people who saw a Swedish GP with memory symptoms met the criteria for lecanemab, a new Alzheimer's drug, after full tests.",
+  "new": "About 1 in 7 people who saw a Swedish GP with memory symptoms, whatever the cause, met the criteria for lecanemab, a new Alzheimer's drug, after full tests.",
+  "reason": "major: denominator is everyone presenting with memory symptoms from any cause"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "captions.bluesky",
+  "old": "About 1 in 7 people seeing a Swedish GP with memory symptoms met the criteria for lecanemab, an Alzheimer's drug. Blood thinners",
+  "new": "About 1 in 7 people seeing a Swedish GP with memory symptoms of any cause met the criteria for lecanemab, an Alzheimer's drug, after full tests. Blood thinners",
+  "reason": "major: denominator qualification and 'after full tests'"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "visual_text",
+  "old": "Trial rules are stricter than clinic rules",
+  "new": "In a separate study of 120 pre-frail and frail people with amyloid: 1 in 5 met the trial's rules, about half met clinic-use recommendations",
+  "reason": "major: statement was not supported by the slide's own data"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "visual_text",
+  "old": "Frail older people: 4 of 44 met trial rules",
+  "new": "Separate study of 120 pre-frail and frail people with amyloid: 4 of the 44 who were frail met trial rules",
+  "reason": "major: different study from the 237-person funnel"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "visual_brief.slides[1].text.labels",
+  "old": "Frail older people: 4 of 44 met trial rules",
+  "new": "Separate study of 120 pre-frail and frail people with amyloid: 4 of the 44 who were frail met trial rules",
+  "reason": "major: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "visual_brief.slides[1].text.labels",
+  "old": "Trial rules are stricter than clinic rules",
+  "new": "In a separate study of 120 pre-frail and frail people with amyloid: 1 in 5 met the trial's rules, about half met clinic-use recommendations",
+  "reason": "major: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "alt_text[1]",
+  "old": "In a separate study, 4 of 44 frail older people met trial rules. Trial rules are stricter than clinic rules.",
+  "new": "In a separate study of 120 older people with amyloid, 4 of the 44 who were frail met trial rules; about half of the 120 met clinic-use recommendations.",
+  "reason": "minor: alt text repeated the unsupported statement; checker's 'about half of the frail group' changed to 'of the 120' because the source figure is for all 120"
+ },
+ {
+  "tmp_id": "C08-P05",
+  "where": "source_reply",
+  "old": "https://doi.org/10.1186/s13195-026-01966-0",
+  "new": "https://doi.org/10.1186/s13195-026-01966-0 | UK licence https://doi.org/10.1002/bcp.70021",
+  "reason": "minor: UK licence statement had no link"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.x",
+  "old": "The ones at highest risk have Lewy body disease, and the diagnosis is often missing from the notes.",
+  "new": "The risk is particularly high in people with Lewy body disease, which is often missed or labelled as Alzheimer's disease.",
+  "reason": "major: 'highest risk' is a superlative across all dementias; sources compare Lewy body with Alzheimer's only"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.linkedin",
+  "old": "The ones at highest risk have Lewy body disease, and the diagnosis is often missing from the notes.",
+  "new": "The risk is particularly high in people with Lewy body disease, which is often missed or labelled as Alzheimer's disease.",
+  "reason": "major: as x"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.linkedin",
+  "old": "Lewy body dementia is often missed or labelled as Alzheimer's disease. So check the four core features",
+  "new": "So check the four core features",
+  "reason": "removes duplicate of the sentence now in the opening"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.threads",
+  "old": "Some people with dementia react severely to antipsychotics: those with Lewy body disease, which is often missing from the notes.",
+  "new": "Some people with dementia react severely to antipsychotics. The risk is particularly high in people with Lewy body disease, which is often missed or labelled as Alzheimer's disease.",
+  "reason": "major: as x (same sentence in Threads)"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "captions.linkedin",
+  "old": "The best-known figures are old.",
+  "new": "The figures are old.",
+  "reason": "minor: 'best-known' unsourced"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "visual_text",
+  "old": "McKeith et al., Neurology 2017; NICE NG97",
+  "new": "Core features: McKeith et al., Neurology 2017. Antipsychotic caution: NICE NG97. Advice to ask for specialist input is ours.",
+  "reason": "minor: source line sat under house advice"
+ },
+ {
+  "tmp_id": "C08-P06",
+  "where": "visual_brief.slides[0].text.source_line",
+  "old": "McKeith et al., Neurology 2017; NICE NG97",
+  "new": "Core features: McKeith et al., Neurology 2017. Antipsychotic caution: NICE NG97. Advice to ask for specialist input is ours.",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "The side effects people usually hear about, and the commonest in trials, are feeling sick, vomiting and diarrhoea.\n\nThey can also slow the heart.",
+  "new": "In donepezil trials, the commonest side effects were feeling sick, vomiting and diarrhoea.\n\nThese medicines can also slow the heart.",
+  "reason": "minor: evidence is donepezil trials only; 'They' changed to 'These medicines' so the sentence still reads clearly"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "captions.linkedin",
+  "old": "After leaving hospital, 78 of 138 people went back on the same medicine.",
+  "new": "After leaving hospital, 78 of 138 people went back on a medicine of the same type.",
+  "reason": "minor: source says resumed cholinesterase inhibitor therapy, not necessarily the same drug"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "visual_text",
+  "old": "About 81,000 older people with dementia, Canada",
+  "new": "About 81,000 older people with dementia, Ontario, Canada, 2002 to 2004",
+  "reason": "minor: add place and timeframe"
+ },
+ {
+  "tmp_id": "C08-P07",
+  "where": "visual_brief.slides[1].text.labels",
+  "old": "About 81,000 older people with dementia, Canada",
+  "new": "About 81,000 older people with dementia, Ontario, Canada, 2002 to 2004",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.x",
+  "old": "Being given a named GP in 2014 did not make people over 75 see the same GP more often.",
+  "new": "A named GP scheme for people aged 75 and over, introduced in England in 2014, was not followed by more visits to the same GP.",
+  "reason": "major: causal verb for observational policy evaluation; age boundary"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.linkedin",
+  "old": "from 2014, people over 75 in England were given a named GP. A study found this did not increase how often they saw the same GP.",
+  "new": "from 2014, people aged 75 and over in England were given a named GP. A study found this was not followed by an increase in how often they saw the same GP.",
+  "reason": "minor: age boundary and causal wording"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.linkedin",
+  "old": "(average age 84)",
+  "new": "(average age about 85)",
+  "reason": "minor: mean age 84.5"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.x",
+  "old": "So ask to book with the same GP each time, and note who you saw.",
+  "new": "In our view, a sensible step is to ask to book with the same GP each time, and note who you saw.",
+  "reason": "minor: practical advice marked as judgement"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.bluesky",
+  "old": "(8.5 vs 9.7 on average, before adjustment). A link, not cause.\n\nA named GP alone did not help. Ask to book with the same GP each time.",
+  "new": "(8.5 vs 9.7 on average; the gap was smaller after adjustment). A link, not cause.\n\nA named GP scheme was not followed by more continuity. In our view, ask to book with the same GP each time.",
+  "reason": "minor x3: bluesky dropped the adjustment point; causal wording on named GP; advice marked as judgement"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "captions.threads",
+  "old": "A named GP alone did not raise consistency. Ask to book with the same GP each time.",
+  "new": "A named GP scheme was not followed by more continuity. In our view, ask to book with the same GP each time.",
+  "reason": "minor x2: causal wording on named GP; advice marked as judgement"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "visual_text",
+  "old": "A named GP alone did not raise continuity in England. Keep a note of who you saw.",
+  "new": "A named GP scheme was not followed by more continuity in England. Keep a note of who you saw.",
+  "reason": "minor: causal verb for observational policy evaluation"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "visual_brief.slides[1].text.body",
+  "old": "A named GP alone did not raise continuity in England. Keep a note of who you saw.",
+  "new": "A named GP scheme was not followed by more continuity in England. Keep a note of who you saw.",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "alt_text[1]",
+  "old": "In England a named GP alone did not raise how often people saw the same GP.",
+  "new": "In England a named GP scheme was not followed by people seeing the same GP more often.",
+  "reason": "minor: keep alt text consistent"
+ },
+ {
+  "tmp_id": "C08-P08",
+  "where": "source_reply",
+  "old": "2025 editorial https://doi.org/10.3399/BJGP.2025.0199",
+  "new": "2025 editorial https://doi.org/10.3399/BJGP.2025.0199 | simple measure https://doi.org/10.3399/bjgp19X701813",
+  "reason": "minor: continuity-as-share-of-appointments source was not linked"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "captions.bluesky",
+  "old": "Offer music for enjoyment.",
+  "new": "In our view, offer music for enjoyment.",
+  "reason": "minor: advice marked as judgement"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "visual_text",
+  "old": "A month after sessions stopped: no benefit shown",
+  "new": "A month after sessions stopped: no benefit shown (weak evidence)",
+  "reason": "minor: qualifier on weak evidence present in captions but missing from visual"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "visual_brief.slides[0].text.items",
+  "old": "A month after sessions stopped: no benefit shown",
+  "new": "A month after sessions stopped: no benefit shown (weak evidence)",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P09",
+  "where": "alt_text[0]",
+  "old": "no benefit shown a month after sessions stopped",
+  "new": "no benefit shown a month after sessions stopped (weak evidence)",
+  "reason": "minor: keep alt text consistent"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "visual_text",
+  "old": "What changed in 69 nursing homes",
+  "new": "A care programme tested in 69 nursing homes",
+  "reason": "major: headline implied all 69 homes changed and read as an outcome claim"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "visual_brief.slides[0].text.headline",
+  "old": "What changed in 69 nursing homes",
+  "new": "A care programme tested in 69 nursing homes",
+  "reason": "major: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "visual_text",
+  "old": "2. Social activity tailored to each resident: about an hour a week",
+  "new": "2. Social activity tailored to each resident: aiming for an hour a week",
+  "reason": "minor: programme aimed at 60 minutes a week"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "visual_brief.slides[0].text.items",
+  "old": "2. Social activity tailored to each resident: about an hour a week",
+  "new": "2. Social activity tailored to each resident: aiming for an hour a week",
+  "reason": "minor: same as visual_text"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "captions.threads",
+  "old": "an hour a week of social activity tailored to each resident,",
+  "new": "social activity tailored to each resident (aiming for an hour a week),",
+  "reason": "minor: Threads stated delivery as fact"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "alt_text[0]",
+  "old": "an hour a week of tailored social activity",
+  "new": "tailored social activity, aiming for an hour a week",
+  "reason": "minor: keep alt text consistent"
+ },
+ {
+  "tmp_id": "C08-P10",
+  "where": "captions.linkedin",
+  "old": "The researchers' own view was that the planned social activity probably helped most.",
+  "new": "The researchers speculated that the planned social activity probably helped most.",
+  "reason": "minor: authors 'would speculate'"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.linkedin",
+  "old": "In the first large trial, 201 people with dementia took part.",
+  "new": "In an early UK trial in 2003, 201 people with dementia took part.",
+  "reason": "minor: 'first large' not in the opened abstract"
+ },
+ {
+  "tmp_id": "C08-P11",
+  "where": "captions.linkedin",
+  "old": "about 2 points on a standard memory test",
+  "new": "about 2 points on a 30-point test of memory and thinking",
+  "reason": "minor: MMSE is a general test of thinking"
  }
 ]
