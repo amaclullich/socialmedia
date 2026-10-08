@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P01</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<style>
+ .zones { margin-top: 30px; display: flex; flex-direction: column; gap: 14px; }
+ .zones .z { display: flex; align-items: center; gap: 22px; font-size: 32px; line-height: 1.28; font-weight: 600; }
+ .zones svg { flex: 0 0 auto; }
+ .assess { font-family: Montserrat; font-weight: 800; font-size: 40px; color: var(--orange); margin-top: 6px; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Teaching round</span></div>
+ <div class="content center">
+  <div class="kicker">Treatment decisions in medical patients</div>
+  <h1 class="m">An MMSE score is <em>not</em> a capacity assessment</h1>
+  <svg width="920" height="230" viewBox="0 0 920 230" style="margin-top:30px">
+   <defs>
+    <pattern id="pA" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#15535B"/><rect width="6" height="16" fill="#DCEBEA"/></pattern>
+    <pattern id="pB" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#DCEBEA"/><circle cx="7" cy="7" r="2.6" fill="#15535B"/></pattern>
+    <pattern id="pC" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#B9CDCC"/><rect width="2" height="8" fill="#15535B"/></pattern>
+   </defs>
+   <rect x="0" y="20" width="613" height="90" fill="url(#pA)" stroke="#1F2A30" stroke-width="3"/>
+   <rect x="613" y="20" width="123" height="90" fill="url(#pB)" stroke="#1F2A30" stroke-width="3"/>
+   <rect x="736" y="20" width="184" height="90" fill="url(#pC)" stroke="#1F2A30" stroke-width="3"/>
+   <g stroke="#1F2A30" stroke-width="3"><line x1="1.5" y1="110" x2="1.5" y2="126"/><line x1="613" y1="110" x2="613" y2="126"/><line x1="736" y1="110" x2="736" y2="126"/><line x1="918.5" y1="110" x2="918.5" y2="126"/></g>
+   <g font-family="Inter" font-weight="700" font-size="32" fill="#1F2A30">
+    <text x="0" y="162" text-anchor="start">0</text><text x="613" y="162" text-anchor="middle">20</text><text x="736" y="162" text-anchor="middle">24</text><text x="920" y="162" text-anchor="end">30</text></g>
+   <path d="M2 184 V204 H918 V184" fill="none" stroke="#0F3C4F" stroke-width="5"/>
+   <line x1="460" y1="204" x2="460" y2="222" stroke="#0F3C4F" stroke-width="5"/>
+  </svg>
+  <div class="assess" style="text-align:center;margin-top:-4px">Then assess the decision.</div>
+  <div class="zones">
+   <div class="z"><svg width="56" height="40"><rect x="2" y="2" width="52" height="36" fill="url(#pA)" stroke="#1F2A30" stroke-width="3"/></svg><span>Below 20: incapacity more likely (likelihood ratio 6.3)</span></div>
+   <div class="z"><svg width="56" height="40"><rect x="2" y="2" width="52" height="36" fill="url(#pB)" stroke="#1F2A30" stroke-width="3"/></svg><span>20 to 24: no clear change (0.87)</span></div>
+   <div class="z"><svg width="56" height="40"><rect x="2" y="2" width="52" height="36" fill="url(#pC)" stroke="#1F2A30" stroke-width="3"/></svg><span>Above 24: incapacity less likely, not ruled out (0.14)</span></div>
+  </div>
+  <p class="small" style="margin-top:22px">MMSE bands only. Not for other tests.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Sessums et al, JAMA 2011</span></div>
+</div>
+</div></body></html>

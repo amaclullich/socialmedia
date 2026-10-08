@@ -26,7 +26,7 @@
  <div class="topline"><span class="series">Ask this</span><span class="slidecount">2/2</span></div>
  <div class="content">
   <div><span class="badge illustrative">Illustration, not a real conversation</span></div>
-  <div class="pb" style="margin-top:22px"><div class="art" id="p2"><div class="bubble" style="right:4%;top:7%">Thank you for telling me. What is your bowel pattern like most days?</div></div>
+  <div class="pb" style="margin-top:22px"><div class="art" id="p2"><div class="bubble" style="right:3%;top:4%;max-width:66%;font-size:27px">Thank you for telling me. What is your bowel pattern like most days?</div></div>
    <div class="cap">They may ask about your usual bowel pattern, childbirth and past surgery, and examine you gently.</div></div>
   <div class="pb"><div class="art" id="p3"><div class="bubble" style="left:4%;top:3%;max-width:42%;font-size:27px">Could a continence service help?</div><div class="bubble" style="right:4%;top:3%;max-width:42%;font-size:27px">We can start with some simple steps.</div></div>
    <div class="cap">First steps help some people: food, fibre and drinks, a toilet routine, pelvic floor exercises, pads and skin care. If these do not help enough, there are further tests and treatments.</div></div>
@@ -38,7 +38,7 @@
 const K=Kit;
 const wm={age:'older',sex:'f',skin:'dark',hair:'grey',hairStyle:'coily',top:'#4F7A5E',extras:['cardigan'],cardigan:'#3F6553',bottom:'charcoal'};
 const nu={role:'nurse',sex:'m',skin:'olive',hair:'black',hairStyle:'short',age:'adult'};
-const S=0.78;
+const S=0.68;
 function sc(id,h,fn){ const W=1000,H=Math.round(1000*h/920),g=H-22; K.draw(id,W,H,fn(g,H)); }
 sc('#p1',385,(g,H)=>[K.room('gp_room',{w:1000,h:H,ground:g,scale:S}),K.desk({x:520,y:g,w:200,scale:S}),
  K.person(Object.assign({pose:'seated_side',seat:'chair',x:260,y:g,scale:S,tilt:6},wm)),
