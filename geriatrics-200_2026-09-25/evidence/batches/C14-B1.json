@@ -227,6 +227,21 @@
    "tool_used": "PubMed get_article_metadata",
    "correction_check": "PubMed search 26 Sep 2026: PMID with retracted publication[pt], retraction of publication[pt], published erratum[pt], expression of concern[pt]: no record. Scite at monthly limit, not checked there.",
    "quality_note": "Classic but tiny."
+  },
+  {
+   "key": "URL:https://www.nice.org.uk/guidance/ng98/chapter/recommendations",
+   "citation": "National Institute for Health and Care Excellence. Hearing loss in adults: assessment and management. NICE guideline NG98. 2018.",
+   "pmid": null,
+   "pmcid": null,
+   "doi": null,
+   "public_url": "https://www.nice.org.uk/guidance/ng98/chapter/recommendations",
+   "design": "National guideline (England)",
+   "population_setting": "Adults with hearing loss, England",
+   "year": 2018,
+   "access": "search_extract",
+   "tool_used": "WebSearch (page itself could not be opened: proxy 403)",
+   "correction_check": "Not checked; official page not openable. Recommendation number not confirmed from the snippet.",
+   "quality_note": "Search-engine extract only; not enough alone for an essential claim."
   }
  ],
  "claims": [
@@ -458,6 +473,32 @@
    "qualifications": "Recording adaptations is judgement/good practice, not a finding.",
    "conflicting_or_uncertain": "Directly conflicts with an implied promise that adaptations fix scores.",
    "numbers": []
+  },
+  {
+   "claim_id": "C14-10-c",
+   "cand_id": "C14-10",
+   "claim": "NICE NG98: sudden hearing loss (over 3 days or less, within 30 days) should be referred immediately, to be seen within 24 hours, to ENT or an emergency department.",
+   "source_keys": [
+    "URL:https://www.nice.org.uk/guidance/ng98/chapter/recommendations"
+   ],
+   "supporting_passage": "If the hearing loss developed suddenly (over a period of 3 days or less) within the past 30 days, refer immediately (to be seen within 24 hours) to an ear, nose and throat service or an emergency department.",
+   "location": "Search-engine extract of NG98 recommendations (recommendation number not confirmed)",
+   "pico_timeframe": "Adults / sudden hearing loss / referral timing / 24 hours",
+   "claim_type": "guideline recommendation",
+   "verdict": "partly_supported",
+   "safe_wording": "Do not quote NICE as the sole source. If used, say NICE advises that sudden hearing loss in an adult is seen within 24 hours by an ear, nose and throat service or an emergency department, and pair it with the opened AAO-HNS 2019 guideline.",
+   "qualifications": "search_extract only; page not opened. Do not cite a recommendation number. Needs opening of NG98 (or its PDF) in a later pass before it can carry an essential claim alone.",
+   "conflicting_or_uncertain": "None found.",
+   "numbers": [
+    {
+     "value": "24 hours",
+     "meaning": "time to be seen after immediate referral"
+    },
+    {
+     "value": "3 days or less / 30 days",
+     "meaning": "onset speed / time since onset in the NICE criterion"
+    }
+   ]
   }
  ],
  "candidates": [
@@ -474,8 +515,8 @@
   {
    "cand_id": "C14-10",
    "status": "revise",
-   "reason": "Urgency and uncertain steroid benefit supported (AAO-HNS 2019, Cochrane). NICE NG98 24-hour wording not opened.",
-   "revised_angle": "Sudden one-ear hearing loss needs urgent same-day assessment, not wax drops; cite AAO-HNS (separate blocked ear from inner-ear loss; steroids an option within 2 weeks with uncertain benefit). Add NICE 24-hour wording only if a later batch opens it.",
+   "reason": "Urgency and uncertain steroid benefit supported (AAO-HNS 2019, Cochrane). NICE NG98 24-hour wording not opened. NICE 24-hour wording seen as a search extract only (claim C14-10-c, not essential).",
+   "revised_angle": "Sudden hearing loss in one ear needs urgent assessment (ENT or emergency department), not wax drops at home; cite AAO-HNS 2019 (separate blocked ear from inner-ear loss; steroids an option within 2 weeks, benefit uncertain). Use the NICE '24 hours' wording only after NG98 is opened; do not say 'same-day GP appointment'.",
    "essential_claim_ids": [
     "C14-10-a",
     "C14-10-b"
