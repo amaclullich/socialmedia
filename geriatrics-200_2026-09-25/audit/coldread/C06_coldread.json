@@ -1,0 +1,1292 @@
+{
+ "category": "C06",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 2
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C06-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "That is expert opinion, not a trial result.",
+     "fix": "End on the options instead: move 'Options: a lower dose, a different blood pressure drug, or asking whether it is still needed.' to the last line and put the expert-opinion caveat before it."
+    }
+   ],
+   "flags": [
+    "Fragment 'Options:' reads as a list label, acceptable for clinicians."
+   ]
+  },
+  {
+   "tmp_id": "C06-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "about 1 in 4 had an event within 2 months that may have been due to the diuretic: worse kidney function, a drop in blood pressure on standing, abnormal salts or a fall.",
+     "fix": "about 1 in 4 had an event within 2 months. It may have been due to the diuretic. The events were worse kidney function, a drop in blood pressure on standing, abnormal salts or a fall."
+    }
+   ],
+   "flags": [
+    "Setup question 'How often does this one happen?' answered by the post.",
+    "Very long for LinkedIn; several sentences near 45 words."
+   ]
+  },
+  {
+   "tmp_id": "C06-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "started on this drug type",
+     "fix": "started on a calcium channel blocker such as amlodipine"
+    }
+   ],
+   "flags": [
+    "'Shows who, not why.' is a terse fragment but understandable to clinicians."
+   ]
+  },
+  {
+   "tmp_id": "C06-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "started on this type of drug",
+     "fix": "started on a calcium channel blocker such as amlodipine"
+    }
+   ],
+   "flags": [
+    "Opening repeats P01 x and linkedin opening sentence verbatim."
+   ]
+  },
+  {
+   "tmp_id": "C06-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a UK study of 120 people taking a statin, those told that constipation was a 'common' side effect guessed on average that 34 in 100 people would get it.",
+     "fix": "A UK study gave 120 people taking a statin a statement about constipation. Those told it was 'common' guessed on average that 34 in 100 people would get it."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "allocation was not concealed",
+     "fix": "the people running the study knew in advance which group each person would join"
+    },
+    {
+     "item": "6",
+     "quote": "The limits: the Leeds study was small, allocation was not concealed, and people answered straight after reading one statement.",
+     "fix": "The limits. The Leeds study was small. People answered straight after reading one statement."
+    }
+   ],
+   "flags": [
+    "Long for the platform but each section earns its place."
+   ]
+  },
+  {
+   "tmp_id": "C06-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Those given the number guessed 8.",
+     "fix": "Those given the number guessed 8 in 100."
+    },
+    {
+     "item": "4",
+     "quote": "Those given the number guessed 8.",
+     "fix": "Those given the number guessed 8 in 100, still too high."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "people with frailty and many medicines",
+     "fix": "people who are frail and take many medicines"
+    },
+    {
+     "item": "6",
+     "quote": "In a survey of pharmacists who do them and chose to reply, most were by phone, which still involves the person.",
+     "fix": "A survey of pharmacists who do them, answered by those who chose to reply, found most were by phone. A phone call still involves the person."
+    }
+   ],
+   "flags": [
+    "'tick box' is an idiom left unexplained; 'They also' repeats twice."
+   ]
+  },
+  {
+   "tmp_id": "C06-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "people with frailty and many medicines",
+     "fix": "people who are frail and take many medicines"
+    },
+    {
+     "item": "6",
+     "quote": "The interviews also predate a change: since 2020, practices in England have offered a 'structured medication review' to some people, such as care home residents and people on many medicines.",
+     "fix": "The interviews were before a change. Since 2020, practices in England have offered a 'structured medication review' to some people. These include care home residents and people on many medicines."
+    }
+   ],
+   "flags": [
+    "'That is a question of respect as much as efficiency' risks reading as moralising.",
+    "'They also said' repeated twice in succession."
+   ]
+  },
+  {
+   "tmp_id": "C06-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'from the notes' may be read as the patient's own notes; 'from the records' is clearer."
+   ]
+  },
+  {
+   "tmp_id": "C06-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "fentanyl or buprenorphine patches",
+     "fix": "strong painkiller patches (fentanyl or buprenorphine)"
+    },
+    {
+     "item": "6",
+     "quote": "In one Swedish region's incident reports, an old patch left in place was behind 7 of 13 reports of too high a dose (reports are mostly of patches applied by health staff).",
+     "fix": "One Swedish region's incident reports described 13 cases of too high a dose. In 7, an old patch had been left in place. Most reports were of patches put on by health staff."
+    }
+   ],
+   "flags": [
+    "'was behind' is a figurative verb."
+   ]
+  },
+  {
+   "tmp_id": "C06-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "opioid patch",
+     "fix": "strong painkiller (opioid) patch"
+    },
+    {
+     "item": "6",
+     "quote": "Incident reports can't show how often this happens overall, but the fix is easy: check for the old patch, remove it, and write down where and when the new one went on.",
+     "fix": "Incident reports can't show how often this happens overall. The fix: check for the old patch, remove it, and write down where and when the new one went on."
+    }
+   ],
+   "flags": [
+    "'was behind' is a figurative verb.",
+    "'the fix is easy' risks false reassurance."
+   ]
+  },
+  {
+   "tmp_id": "C06-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A used fentanyl patch",
+     "fix": "A used fentanyl (strong painkiller) patch"
+    },
+    {
+     "item": "6",
+     "quote": "Three habits: old patch off before the new one goes on; no hot water bottles or heat pads over it; fold used patches sticky sides together and dispose of them as the pharmacist advises.",
+     "fix": "Three habits. Old patch off before the new one goes on. No hot water bottles or heat pads over it. Fold used patches sticky sides together and dispose of them as the pharmacist advises."
+    }
+   ],
+   "flags": [
+    "No warning sign of overdose appears on this variant."
+   ]
+  },
+  {
+   "tmp_id": "C06-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "A used fentanyl patch still holds a substantial amount of medicine.",
+     "fix": "A used fentanyl (strong painkiller) patch still holds a substantial amount of medicine."
+    }
+   ],
+   "flags": [
+    "'was behind' is a figurative verb."
+   ]
+  },
+  {
+   "tmp_id": "C06-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series take one study apart at a time.",
+     "fix": "At each step, ask whether the reviewed group differed from the control group."
+    }
+   ],
+   "flags": [
+    "Empty close: series promotion.",
+    "'chain' metaphor; 'take one study apart' figurative."
+   ]
+  },
+  {
+   "tmp_id": "C06-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 0,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "More posts in the Reading the evidence series take one study apart at a time.",
+     "fix": "The test for any trial like this: at each step, did it differ from the control group, and was the outcome one patients value?"
+    }
+   ],
+   "flags": [
+    "Empty close: series promotion.",
+    "'Follow the chain' metaphor; 'take one study apart' figurative."
+   ]
+  },
+  {
+   "tmp_id": "C06-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "4",
+     "quote": "In each group, about 42 in 100 had an overused medicine at 2 months and about 22 in 100 were readmitted because of a medicine in a year.",
+     "fix": "Add: No clear difference between the groups at either point."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A European trial (OPERAM: 2,008 people aged 70 or over in hospital, about half assigned to a medicines review) flagged a possible medicines change for 86 in 100 of those reviewed.",
+     "fix": "A European trial called OPERAM studied 2,008 people aged 70 or over in hospital. About half were assigned to a medicines review. The review flagged a possible medicines change for 86 in 100 of those reviewed."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Whether routine follow-up prevents harm is not yet settled.",
+     "fix": "Put this caveat before the position and end on: We think medicines follow-up after discharge should not depend on a hunch."
+    },
+    {
+     "item": "6",
+     "quote": "Doctors discharging older people were asked to predict whether this person would have a medicines problem needing healthcare (a hospital readmission or community healthcare) in the next 8 weeks.",
+     "fix": "Doctors discharging older people were asked to predict, for each patient, whether a medicines problem would need healthcare in the next 8 weeks (a hospital readmission or community healthcare)."
+    }
+   ],
+   "flags": [
+    "'hunch' is informal; acceptable. 'this person' in opening is odd."
+   ]
+  },
+  {
+   "tmp_id": "C06-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Doctors discharging older people were asked to predict whether this person would have a medicines problem needing healthcare (a hospital readmission or community healthcare) in the next 8 weeks.",
+     "fix": "Doctors discharging older people were asked to predict, for each patient, whether a medicines problem would need healthcare in the next 8 weeks (a hospital readmission or community healthcare)."
+    }
+   ],
+   "flags": [
+    "'hunch' is informal; acceptable."
+   ]
+  },
+  {
+   "tmp_id": "C06-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'hunch' informal."
+   ]
+  },
+  {
+   "tmp_id": "C06-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(155 replies, 39% response)",
+     "fix": "(155 people replied, about 4 in 10 of those asked)"
+    },
+    {
+     "item": "6",
+     "quote": "Some combinations could interact; in a review of studies, the one most often reported was a possible raised bleeding risk with ginkgo, garlic or ginseng taken with aspirin or warfarin.",
+     "fix": "Some combinations could interact. A review of studies found the one most often reported was a possible raised bleeding risk. That was with ginkgo, garlic or ginseng taken with aspirin or warfarin."
+    }
+   ],
+   "flags": [
+    "'Name it.' is a terse imperative with unclear object until the previous sentence is reread."
+   ]
+  },
+  {
+   "tmp_id": "C06-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "NICE guidance says the hospital should list all of a person's medicines, including those bought over the counter and herbal or complementary remedies, and should involve the family where appropriate.",
+     "fix": "NICE guidance says the hospital should list all of a person's medicines. That includes those bought over the counter and herbal or complementary remedies. It also says to involve the family where appropriate."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Then add eye drops, inhalers, patches, creams.",
+     "fix": "Tell the staff about these as well, and add eye drops, inhalers, patches and creams."
+    },
+    {
+     "item": "6",
+     "quote": "A list built from the boxes at home misses the 6-monthly bone injection (denosumab), anything from a hospital clinic, and what you buy yourself: vitamins, herbal remedies.",
+     "fix": "A list built from the boxes at home misses the 6-monthly bone injection (denosumab). It also misses anything from a hospital clinic, and what you buy yourself: vitamins, herbal remedies."
+    }
+   ],
+   "flags": [
+    "Post never says who to tell or what to do with the list."
+   ]
+  },
+  {
+   "tmp_id": "C06-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Then add eye drops, inhalers, patches and creams.",
+     "fix": "Tell the hospital team about these as well, and add eye drops, inhalers, patches and creams."
+    },
+    {
+     "item": "6",
+     "quote": "A list built from the boxes at home will miss the six-monthly bone injection (denosumab), anything from a hospital clinic, and anything you buy yourself, including vitamins and herbal remedies.",
+     "fix": "A list built from the boxes at home will miss the six-monthly bone injection (denosumab). It will also miss anything from a hospital clinic, and anything you buy yourself, including vitamins and herbal remedies."
+    }
+   ],
+   "flags": [
+    "Post never says who to tell."
+   ]
+  },
+  {
+   "tmp_id": "C06-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a gliclazide-type tablet",
+     "fix": "a diabetes tablet such as gliclazide"
+    },
+    {
+     "item": "3",
+     "quote": "an HbA1c below 53 mmol/mol",
+     "fix": "an HbA1c below 53 mmol/mol (a low result)"
+    },
+    {
+     "item": "6",
+     "quote": "In 16 Norfolk GP practices, about 3 in 10 people aged 70 or over with type 2 diabetes on these drugs had an HbA1c below 53 mmol/mol (frailty was unrecorded).",
+     "fix": "This was in 16 Norfolk GP practices. About 3 in 10 people aged 70 or over with type 2 diabetes on these drugs had an HbA1c below 53 mmol/mol. Frailty was not recorded."
+    }
+   ],
+   "flags": [
+    "'low sugars' used without 'blood'."
+   ]
+  },
+  {
+   "tmp_id": "C06-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 0,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a sulfonylurea",
+     "fix": "a sulfonylurea (a tablet that can cause low blood sugar)"
+    },
+    {
+     "item": "3",
+     "quote": "93 in 100 of the 102 low episodes were missed by finger-prick tests and symptoms",
+     "fix": "of the 102 low episodes, 93 in 100 were missed by finger-prick tests and symptoms"
+    },
+    {
+     "item": "3",
+     "quote": "(below 70 mg/dL)",
+     "fix": "(below 70 mg/dL, the level counted as low)"
+    },
+    {
+     "item": "6",
+     "quote": "In a small US study of 40 older people (37 on insulin) whose HbA1c was 8% or more, 26 had low glucose readings (below 70 mg/dL) over 3 days of continuous monitoring, and 93 in 100 of the 102 low episodes were missed by finger-prick tests and symptoms.",
+     "fix": "A small US study followed 40 older people, 37 of them on insulin, whose HbA1c was 8% or more. Over 3 days of continuous monitoring, 26 had low glucose readings. Of 102 low episodes, 93 in 100 were missed by finger-prick tests and symptoms."
+    }
+   ],
+   "flags": [
+    "Three studies and two units in one post; consider splitting into two posts.",
+    "'The other side:' is a good plain signpost."
+   ]
+  },
+  {
+   "tmp_id": "C06-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "HbA1c doesn't show low sugars",
+     "fix": "HbA1c, a blood test of average blood sugar over recent months, doesn't show low sugars"
+    }
+   ],
+   "flags": [
+    "'gliclazide' is not explained as a diabetes tablet."
+   ]
+  },
+  {
+   "tmp_id": "C06-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a gliclazide-type tablet",
+     "fix": "a diabetes tablet such as gliclazide"
+    },
+    {
+     "item": "3",
+     "quote": "had an HbA1c below 53",
+     "fix": "had an HbA1c below 53 mmol/mol (a low result)"
+    },
+    {
+     "item": "6",
+     "quote": "In Norfolk, about 3 in 10 people aged 70+ with diabetes on these drugs had an HbA1c below 53, just as often with kidney disease or dementia.",
+     "fix": "In Norfolk, about 3 in 10 people aged 70 or over with diabetes on these drugs had an HbA1c below 53 mmol/mol. That was just as common in people with kidney disease or dementia."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P09",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a levodopa dose was missed",
+     "fix": "a dose of levodopa, a Parkinson's medicine, was missed"
+    },
+    {
+     "item": "2",
+     "quote": "One recent English hospital audit, citing NICE standards, used this standard",
+     "fix": "One recent English hospital audit (a review of its own practice), citing NICE standards, used this standard"
+    }
+   ],
+   "flags": [
+    "The audit result is never given, so the sentence hangs."
+   ]
+  },
+  {
+   "tmp_id": "C06-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a levodopa dose was missed",
+     "fix": "a dose of levodopa, a Parkinson's medicine, was missed"
+    },
+    {
+     "item": "6",
+     "quote": "In 11 Spanish hospitals, admissions in which Parkinson's doses were wrongly left out were linked with a stay about 4 days longer and with higher death rates in hospital.",
+     "fix": "In 11 Spanish hospitals, some admissions had Parkinson's doses wrongly left out. These were linked with a stay about 4 days longer and with higher death rates in hospital."
+    }
+   ],
+   "flags": [
+    "Setup question 'Does it make a difference?' answered by the post.",
+    "Repeats 'Parkinson's medicine times are set for each person' in consecutive paragraphs."
+   ]
+  },
+  {
+   "tmp_id": "C06-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "If someone is admitted, ask: can doses be given at their own times, can they use their own supply, and what is the plan if they can't swallow?",
+     "fix": "If someone is admitted, ask three things. Can doses be given at their own times? Can they use their own supply? What is the plan if they can't swallow?"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "One recent English hospital audit, citing NICE standards, used a standard of within 30 minutes of that time.",
+     "fix": "One recent English hospital audit (a review of its own practice) set a target: each dose within 30 minutes of that time, citing NICE standards."
+    },
+    {
+     "item": "6",
+     "quote": "One recent English hospital audit, citing NICE standards, used a standard of within 30 minutes of that time.",
+     "fix": "One recent English hospital audit set a target of giving each dose within 30 minutes of that time."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "the extra risk in absolute terms",
+     "fix": "the number of extra people affected"
+    },
+    {
+     "item": "5",
+     "quote": "Both studies looked at prescribed painkillers, and they show a link, not proof of cause.",
+     "fix": "Put the caveat earlier and end on: Before you buy ibuprofen or naproxen, ask a pharmacist."
+    },
+    {
+     "item": "6",
+     "quote": "Only the Scottish one also found extra risk with just one of the two; there, the extra risk in absolute terms was larger with all three together.",
+     "fix": "Only the Scottish study also found extra risk with one of the two medicines. In that study, more people were affected when all three were taken together."
+    }
+   ],
+   "flags": [
+    "'Especially if you take both.' is ambiguous: both what?",
+    "'the Scottish one' appears without being introduced.",
+    "Paragraph 2 is hard to follow on a first read."
+   ]
+  },
+  {
+   "tmp_id": "C06-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "the ACE inhibitor or ARB stops the kidney from making up for it",
+     "fix": "the blood pressure tablet (an ACE inhibitor or ARB, such as ramipril or losartan) stops the kidney from making up for it"
+    },
+    {
+     "item": "6",
+     "quote": "the water tablet lowers the fluid reaching the kidneys, the anti-inflammatory narrows the blood vessel into the kidney's filters, and the ACE inhibitor or ARB stops the kidney from making up for it.",
+     "fix": "The water tablet lowers the fluid reaching the kidneys. The anti-inflammatory narrows the blood vessel into the kidney's filters. The blood pressure tablet stops the kidney making up for this."
+    }
+   ],
+   "flags": [
+    "'strain the kidneys' and 'making up for it' are figurative.",
+    "'The check takes a minute' may read as slightly reassuring."
+   ]
+  },
+  {
+   "tmp_id": "C06-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "larger absolute risk",
+     "fix": "more people affected"
+    },
+    {
+     "item": "5",
+     "quote": "In one, about 1 extra case per 158 people a year of regular use.",
+     "fix": "Move the figure up and end on: Ask a pharmacist before buying ibuprofen if you take either."
+    },
+    {
+     "item": "6",
+     "quote": "UK studies link anti-inflammatories with these to sudden kidney injury, with larger absolute risk on all three.",
+     "fix": "UK studies link anti-inflammatory painkillers taken with these tablets to sudden kidney injury. More people were affected when all three were taken."
+    }
+   ],
+   "flags": [
+    "Opens with a setup question 'Take a water tablet or a blood pressure tablet like ramipril?'."
+   ]
+  },
+  {
+   "tmp_id": "C06-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "the absolute extra risk larger with all three",
+     "fix": "more people affected with all three"
+    },
+    {
+     "item": "5",
+     "quote": "In the Scottish one, about 1 extra kidney injury per 158 people taking an anti-inflammatory for a year alongside both medicines, not for a few days.",
+     "fix": "Add a last line: Ask a pharmacist before buying either."
+    },
+    {
+     "item": "6",
+     "quote": "only the Scottish one also found a risk with two, and it found the absolute extra risk larger with all three.",
+     "fix": "only the Scottish study also found a risk when just one of the two was taken. In that study, more people were affected when all three were taken."
+    }
+   ],
+   "flags": [
+    "'the Scottish one' is not introduced.",
+    "'a risk with two' is unclear."
+   ]
+  },
+  {
+   "tmp_id": "C06-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The two trials differed in design and in what they measured.",
+     "fix": "A 2025 UK trial of broad reviews for people on five or more medicines found no difference in potentially inappropriate prescribing at 6 months; its aims differed. We think a short named list may be a better target than a general call to review everything."
+    }
+   ],
+   "flags": [
+    "'The two trials' refers to a second trial never mentioned in this variant."
+   ]
+  },
+  {
+   "tmp_id": "C06-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'got practices to sign up' and 'kept it going' are mildly figurative."
+   ]
+  },
+  {
+   "tmp_id": "C06-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "a fall from 37 to 22 per 1,000 at risk",
+     "fix": "a fall in high-risk anti-inflammatory and antiplatelet prescribing from 37 to 22 per 1,000 patients at risk"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'The recipe:' is a metaphor; 'may beat' is mildly figurative."
+   ]
+  },
+  {
+   "tmp_id": "C06-P12",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a German GP survey of adults of all ages, doctors had not recognised 7 in 10 of those with any difficulty, and more than half had already altered their tablets themselves.",
+     "fix": "In a German GP survey of adults of all ages, doctors had not recognised 7 in 10 of those with any difficulty. More than half of those affected had already altered their tablets themselves."
+    }
+   ],
+   "flags": [
+    "Opens with a setup question 'How do your tablets actually go down?'."
+   ]
+  },
+  {
+   "tmp_id": "C06-P12",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "a formal decision about the person's capacity and what is best for them",
+     "fix": "a formal decision about whether the person can decide for themselves and what is best for them"
+    },
+    {
+     "item": "6",
+     "quote": "Doses given in a way that departed from national guidance for any reason, not only crushing, were seen at 57 in 100 observed doses for residents with swallowing difficulty, against about 31 in 100 for other residents.",
+     "fix": "Some doses were given in a way that departed from national guidance, for any reason and not only crushing. This was seen at 57 in 100 observed doses for residents with swallowing difficulty, against about 31 in 100 for other residents."
+    }
+   ],
+   "flags": [
+    "Setup question 'How do your tablets actually go down?'.",
+    "'Crushing is a kind workaround' is slightly patronising and odd."
+   ]
+  },
+  {
+   "tmp_id": "C06-P12",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": []
+  },
+  {
+   "tmp_id": "C06-P12",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Setup question 'How do your tablets actually go down?' repeats x and linkedin opening."
+   ]
+  }
+ ]
+}

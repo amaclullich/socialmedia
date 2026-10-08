@@ -1,0 +1,1397 @@
+{
+ "category": "C11",
+ "controls": [
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 2
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
+ ],
+ "variants": [
+  {
+   "tmp_id": "C11-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In the same review, in 4 of the trials, for every 13 people who took a tablet, about 1 more rated their sleep quality as improved than with a dummy pill.",
+     "fix": "In 4 of those trials, about 1 more person in 13 rated their sleep quality as improved with a tablet than with a dummy pill."
+    }
+   ],
+   "flags": [
+    "Opens with a bare number fragment; acceptable but the sentence 'These come from different trials and outcomes, so they are not the same people.' is a defensive aside the reader must work to use."
+   ]
+  },
+  {
+   "tmp_id": "C11-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "guidelines recommend CBT for insomnia as the first treatment",
+     "fix": "CBT is not explained in this variant. Write: 'CBT for insomnia (a structured talking and sleep-scheduling treatment)'."
+    },
+    {
+     "item": "2",
+     "quote": "their corrected estimate of the gain was about 15 minutes",
+     "fix": "'allowed for unpublished negative trials' and 'corrected estimate' are statistician terms. Write: 'the authors also checked for missing trials that found no benefit, and after that check the gain was about 15 minutes'."
+    },
+    {
+     "item": "3",
+     "quote": "(the range of uncertainty was about 7 to 63)",
+     "fix": "Reader cannot tell what 7 to 63 counts. Write: '(the true figure could be anywhere from 1 in 7 to 1 in 63)'."
+    },
+    {
+     "item": "6",
+     "quote": "In 4 of the trials (1,072 people, testing zaleplon, brotizolam, nitrazepam or loprazolam), for every 13 people who took a tablet, about 1 more rated their sleep quality as improved than with a dummy pill (the range of uncertainty was about 7 to 63).",
+     "fix": "Split in three: 'In 4 of the trials (1,072 people), about 1 more person in 13 rated their sleep quality as improved with a tablet than with a dummy pill. The true figure could be anywhere from 1 in 7 to 1 in 63. The tablets tested were zaleplon, brotizolam, nitrazepam and loprazolam.'"
+    }
+   ],
+   "flags": [
+    "Very long for a feed post; five or six separate ideas.",
+    "'Other evidence points the same way' is a figurative summary.",
+    "Drug names (zaleplon, brotizolam, nitrazepam, loprazolam) add load for a lay reader with no payoff."
+   ]
+  },
+  {
+   "tmp_id": "C11-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "sleeping tablets added about 25 minutes of sleep a night, self-reported",
+     "fix": "Say what the 25 minutes is against. Write: 'sleeping tablets added about 25 minutes of sleep a night compared with a dummy pill, as reported by the people taking them'."
+    }
+   ],
+   "flags": [
+    "'Guidelines put CBT ... first' is mildly figurative ('put first')."
+   ]
+  },
+  {
+   "tmp_id": "C11-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "For every 6 people who took one, about 1 more had a side effect of any kind",
+     "fix": "Comparator missing. Write: 'For every 6 people who took one, about 1 more had a side effect of any kind than with a dummy pill'. Also state the dummy-pill comparison for the 25 minutes."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 0
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Among 1,280 people in 24 specialist centres whose REM sleep behaviour disorder was confirmed by a sleep study and who did not yet have Parkinson's disease or dementia, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition.",
+     "fix": "Split: '1,280 people in 24 specialist centres had REM sleep behaviour disorder confirmed by a sleep study. None yet had Parkinson's disease or dementia. About 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition.'"
+    },
+    {
+     "item": "7",
+     "quote": "about 6 in 100 a year went on to develop",
+     "fix": "6 a year and 3 in 4 by 12 years look inconsistent to the reader. Either give only one figure or add the plain link already in the source wording, for example 'about 6 in 100 each year, which added up to about 3 in 4 by 12 years'."
+    }
+   ],
+   "flags": [
+    "Opens with a setup question that the post then answers.",
+    "Fast sequence of imperatives at the end is fine but the 'Parkinson's' number block is dense for a phone."
+   ]
+  },
+  {
+   "tmp_id": "C11-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 0
+   },
+   "total": 8,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "although their five-year risk of going on to develop Parkinson's disease or dementia was lower than in people without antidepressants (22 in 100 against 59 in 100)",
+     "fix": "Direction and groups unclear. Write: 'five-year risk of Parkinson's disease or dementia was 22 in 100 in people whose symptoms came with antidepressants, against 59 in 100 in people without antidepressants'."
+    },
+    {
+     "item": "5",
+     "quote": "We should offer the conversation about what it may mean with time, honesty about uncertainty and follow-up.",
+     "fix": "Soft and abstract. Write a concrete act: 'Book a follow-up visit to talk through what the diagnosis may mean, and say plainly that the future is uncertain.'"
+    },
+    {
+     "item": "6",
+     "quote": "In 1,280 people in 24 specialist centres whose REM sleep behaviour disorder was confirmed by a sleep study and who had no Parkinson's disease or dementia at the start, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition, and the estimated figure by 12 years was about 3 in 4 (average follow-up was 4.6 years).",
+     "fix": "Split into three sentences: who was studied; the yearly figure; the 12-year figure."
+    },
+    {
+     "item": "7",
+     "quote": "and the estimated figure by 12 years was about 3 in 4 (average follow-up was 4.6 years)",
+     "fix": "Two figures for the same effect, not reconciled. Give one, or say 'the yearly rate adds up over time to about 3 in 4 by 12 years'."
+    }
+   ],
+   "flags": [
+    "Far too long for LinkedIn feed reading; five separate topics (diagnosis, numbers, population study, safety steps, medicines).",
+    "Numbered list items are dense.",
+    "Medicines paragraph carries a counter-intuitive result in one 70-word sentence."
+   ]
+  },
+  {
+   "tmp_id": "C11-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Opens with a setup question ('Shouting, punching or kicking in sleep in later life?') that the post then answers.",
+    "'Linked with later Parkinson's disease' gives no size, so the reader cannot weigh it."
+   ]
+  },
+  {
+   "tmp_id": "C11-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In specialist centres, about 6 in 100 confirmed cases a year went on to develop Parkinson's disease or Lewy body dementia, but that is not a prognosis for everyone who acts out dreams: in a Swiss study, 21 of 368 who reported it had the disorder.",
+     "fix": "Split: 'In specialist centres, about 6 in 100 confirmed cases a year went on to develop Parkinson's disease or Lewy body dementia. That is not a prognosis for everyone who acts out dreams. In a Swiss study, only 21 of 368 people who reported it had the disorder.'"
+    }
+   ],
+   "flags": [
+    "Opens with a setup question answered by the post.",
+    "'but that is not ...' is a correction-shaped caveat in the middle of a long sentence.",
+    "'Refer,' leaves out refer to whom or for what."
+   ]
+  },
+  {
+   "tmp_id": "C11-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "who tried to taper",
+     "fix": "'taper' is not explained. Write: 'who tried to cut down slowly'."
+    },
+    {
+     "item": "6",
+     "quote": "were far more likely to have stopped six months later: about 27 in 100, against about 5 in 100 with usual care",
+     "fix": "Split: 'Six months later about 27 in 100 had stopped, against about 5 in 100 given usual care.'"
+    }
+   ],
+   "flags": [
+    "'Read it with care.' is a stock phrase that does not say what to do.",
+    "The US dementia trial is a different group and outcome dropped in without a link back; reader may think it contradicts the booklet result."
+   ]
+  },
+  {
+   "tmp_id": "C11-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "not confirmed abstinence",
+     "fix": "'abstinence' is a clinical word. Write: 'not confirmed that the person had stopped taking the tablets'."
+    },
+    {
+     "item": "6",
+     "quote": "A second Quebec trial, in which pharmacists were encouraged to send patients a brochure and to send their doctors a recommendation to stop, found something similar among people taking sleeping tablets or similar sedatives: 43 in 100 had stopped at 6 months, against 9 in 100 with usual care.",
+     "fix": "Split: 'A second Quebec trial encouraged pharmacists to send patients a brochure and to send their doctors a recommendation to stop. Among people taking sleeping tablets or similar sedatives, 43 in 100 had stopped at 6 months, against 9 in 100 with usual care.'"
+    }
+   ],
+   "flags": [
+    "Very long for LinkedIn; four trials in one post.",
+    "'The limits, for anyone planning this.' is a fragment lead-in.",
+    "'Differences in population, delivery and health system may explain this.' is vague."
+   ]
+  },
+  {
+   "tmp_id": "C11-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "benzodiazepines",
+     "fix": "Not explained in this variant. Write: 'benzodiazepines (calming and sleeping tablets)'."
+    },
+    {
+     "item": "6",
+     "quote": "In a Quebec trial, older people given a booklet on the risks of long-term benzodiazepines and a plan for cutting down were more likely to have stopped refilling at 6 months: 27 in 100 against 5 in 100 with usual care.",
+     "fix": "Split: 'In a Quebec trial, older people were given a booklet on the risks of long-term benzodiazepines and a plan for cutting down. At 6 months, 27 in 100 had stopped refilling them, against 5 in 100 given usual care.'"
+    }
+   ],
+   "flags": [
+    "'Stopped refilling' is not the same as stopped taking; the caveat is dropped."
+   ]
+  },
+  {
+   "tmp_id": "C11-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "Older people given a booklet on the risks of long-term benzodiazepines (calming and sleeping tablets) and a plan for cutting down were more likely to have stopped at 6 months: about 27 in 100, against 5 in 100 with usual care.",
+     "fix": "Split after 'cutting down': 'Older people were given a booklet on the risks ... and a plan for cutting down. At 6 months about 27 in 100 had stopped, against 5 in 100 with usual care.'"
+    }
+   ],
+   "flags": [
+    "'usual care' is not defined."
+   ]
+  },
+  {
+   "tmp_id": "C11-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "The study was small: 38 adults aged 18 to 80 with mild to moderately severe hearing loss, so not only older people, tested in deep sleep only.",
+     "fix": "Split: 'The study was small: 38 adults aged 18 to 80 with mild to moderately severe hearing loss. They were not all older people. They were tested in deep sleep only.'"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "A trial that set out to test this recruited only 63 of a planned 1,156 people and could not run its planned analyses; its authors concluded the evidence remains inconclusive.",
+     "fix": "Split: 'A trial set out to test this. It recruited only 63 of a planned 1,156 people and could not run its planned analyses. Its authors concluded the evidence remains inconclusive.'"
+    }
+   ],
+   "flags": [
+    "Last third drifts to falls and quality of life from visits, a different question from the alarm result."
+   ]
+  },
+  {
+   "tmp_id": "C11-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "lower-pitched 92, a vibrating pad 80 to 84, a flashing light 27",
+     "fix": "Counted noun missing. Write: 'a lower-pitched alarm woke 92 in 100, a vibrating pad 80 to 84 in 100, a flashing light 27 in 100'."
+    },
+    {
+     "item": "6",
+     "quote": "In a sleep lab, a standard smoke alarm woke 56 in 100 adults with hearing loss from deep sleep; lower-pitched 92, a vibrating pad 80 to 84, a flashing light 27.",
+     "fix": "Split into two sentences, one for the standard alarm and one for the other three."
+    }
+   ],
+   "flags": [
+    "'If you sleep without them' - 'them' (hearing aids) is far from its noun."
+   ]
+  },
+  {
+   "tmp_id": "C11-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "a vibrating pad 80 to 84, a flashing light 27",
+     "fix": "Counted noun missing. Write: 'a vibrating pad 80 to 84 in 100, a flashing light 27 in 100'."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Offer the active parts.",
+     "fix": "'active parts' is not defined. Write: 'Offer sleep restriction therapy or other behavioural treatment, not the booklet alone.'"
+    },
+    {
+     "item": "6",
+     "quote": "People who also had four sessions of sleep restriction therapy from a practice nurse (time in bed matched to time asleep) had less severe insomnia at 6 months: an average score of 10.9 against 13.9 on a 0 to 28 scale.",
+     "fix": "Split: 'Some people also had four sessions of sleep restriction therapy from a practice nurse (time in bed matched to time asleep). At 6 months their average insomnia score was 10.9, against 13.9 for booklet only, on a 0 to 28 scale where lower is less severe.'"
+    }
+   ],
+   "flags": [
+    "The first sentence names the comparison group before the treatment, so the claim arrives late."
+   ]
+  },
+  {
+   "tmp_id": "C11-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "It strongly recommends full multicomponent CBT for insomnia, and suggests stimulus control, sleep restriction or relaxation therapy as single treatments.",
+     "fix": "Split: 'It strongly recommends full multicomponent CBT for insomnia. It suggests stimulus control, sleep restriction or relaxation therapy as single treatments.'"
+    }
+   ],
+   "flags": [
+    "Long for a feed post."
+   ]
+  },
+  {
+   "tmp_id": "C11-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "score 10.9 against 13.9",
+     "fix": "Scale and direction missing. Write: 'average insomnia score 10.9 against 13.9, lower being better'."
+    },
+    {
+     "item": "6",
+     "quote": "In a large English trial the comparison group got a sleep hygiene booklet; four nurse sessions of sleep restriction did better (score 10.9 against 13.9; mean age 55).",
+     "fix": "Split into two sentences: comparison group, then result."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "(score 10.9 against 13.9 on a 0 to 28 scale)",
+     "fix": "Direction missing. Write: '(average score 10.9 against 13.9 on a 0 to 28 scale, lower being better)'."
+    },
+    {
+     "item": "5",
+     "quote": "Offer the active parts.",
+     "fix": "'active parts' not defined. Write: 'Offer sleep restriction or other behavioural treatment, not the leaflet alone.'"
+    }
+   ],
+   "flags": [
+    "'A leaflet is a starting point' is a mild metaphor and sits oddly with the data showing the leaflet group did worse."
+   ]
+  },
+  {
+   "tmp_id": "C11-P06",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "It advises checking ferritin and transferrin saturation in everyone with troublesome restless legs, and offering iron if ferritin is 75 or below or transferrin saturation is under 20%.",
+     "fix": "Split: 'It advises checking ferritin and transferrin saturation in everyone with troublesome restless legs. It advises offering iron if ferritin is 75 or below, or transferrin saturation is under 20%.'"
+    }
+   ],
+   "flags": [
+    "Ferritin cut-off has no units in this variant (ng/mL)."
+   ]
+  },
+  {
+   "tmp_id": "C11-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "The guideline strongly recommends gabapentin and pregabalin (and, with appropriate iron status, intravenous iron) and conditionally advises against pramipexole, ropinirole and rotigotine as standard treatment.",
+     "fix": "Split: 'The guideline strongly recommends gabapentin and pregabalin, and intravenous iron where iron status is appropriate. It conditionally advises against pramipexole, ropinirole and rotigotine as standard treatment.'"
+    }
+   ],
+   "flags": [
+    "Long for a feed post; five separate recommendations."
+   ]
+  },
+  {
+   "tmp_id": "C11-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "2025 US guideline (AASM): iron if ferritin is 75 or below, even if the result looks normal (untested consensus); conditionally advises against pramipexole and ropinirole as standard.",
+     "fix": "Split into two sentences, iron then dopamine drugs, and drop the nested bracket."
+    }
+   ],
+   "flags": [
+    "Telegraphic fragments; 'conditionally advises against' is guideline jargon."
+   ]
+  },
+  {
+   "tmp_id": "C11-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "because of augmentation",
+     "fix": "Not explained here. Write: 'because of augmentation (symptoms starting earlier in the day and spreading)'."
+    },
+    {
+     "item": "5",
+     "quote": "It advises against pramipexole and ropinirole as standard treatment, because of augmentation.",
+     "fix": "Ends on a reason, not an act. Write: 'Check ferritin and the medicines list before treating, and avoid pramipexole and ropinirole as first choice.'"
+    }
+   ],
+   "flags": [
+    "'It advises against' - 'It' has no clear referent after the aggravators sentence."
+   ]
+  },
+  {
+   "tmp_id": "C11-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Only just over half completed 3 years.",
+     "fix": "Groups missing. Write: 'Only just over half in each group completed 3 years.'"
+    },
+    {
+     "item": "5",
+     "quote": "Promising, not settled.",
+     "fix": "Empty close on a post over 300 characters. Write: 'Insomnia in later life is worth treating with CBT for insomnia; whether it prevents depression needs more trials.'"
+    }
+   ],
+   "flags": [
+    "'Read it with care.' is a stock phrase.",
+    "Close is a slogan-shaped contrast."
+   ]
+  },
+  {
+   "tmp_id": "C11-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "crude proportions",
+     "fix": "Statistician term. Write: 'simple proportions of everyone randomised, without adjustment for time'."
+    },
+    {
+     "item": "6",
+     "quote": "The main analysis was time to first episode: the risk over time was about half as high with CBT (hazard ratio 0.51, 95% confidence interval 0.29 to 0.88, so the true reduction could be smaller or larger).",
+     "fix": "Split: 'The main analysis was time to first episode. The risk over time was about half as high with CBT (hazard ratio 0.51). The true reduction could be smaller or larger (95% confidence interval 0.29 to 0.88).'"
+    }
+   ],
+   "flags": [
+    "'What limits it:' colon lead-in then numbered list; list item 3 is about remission, not a limit on the depression result."
+   ]
+  },
+  {
+   "tmp_id": "C11-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "CBT for insomnia",
+     "fix": "Not explained. Write: 'CBT for insomnia (a structured talking and sleep-scheduling treatment)'."
+    }
+   ],
+   "flags": [
+    "'One site, uneven drop-out' is clipped shorthand; drop-out from what is not said.",
+    "'Promising, not settled.' is a slogan-shaped close."
+   ]
+  },
+  {
+   "tmp_id": "C11-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "CBT for insomnia",
+     "fix": "Not explained. Write: 'CBT for insomnia (a structured talking and sleep-scheduling treatment)'."
+    },
+    {
+     "item": "3",
+     "quote": "73 against 87 in 100 completed 2 years",
+     "fix": "Groups not named. Write: '73 in 100 of the CBT group completed 2 years of follow-up, against 87 in 100 of the sleep education group'."
+    },
+    {
+     "item": "5",
+     "quote": "Promising, not settled.",
+     "fix": "Empty close on a post over 300 characters. Write: 'It is a reason to offer CBT for insomnia and a reason for more trials.'"
+    }
+   ],
+   "flags": [
+    "Repeats the opening of the Bluesky variant ('One trial of 291 people aged 60 ...')."
+   ]
+  },
+  {
+   "tmp_id": "C11-P08",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'keep using it around an operation' is mildly figurative.",
+    "'ask someone to bring your machine in' goes beyond the guidance, but the post says so ('The guidance is for planned surgery')."
+   ]
+  },
+  {
+   "tmp_id": "C11-P08",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "graded weak",
+     "fix": "'graded weak' and 'graded low' are guideline jargon. Write: 'the guideline rates its confidence in these recommendations as low'."
+    },
+    {
+     "item": "6",
+     "quote": "A second SASM guideline, on care during surgery, says strong painkillers such as morphine-type drugs, and intravenous sedatives of the benzodiazepine type, may make breathing problems more likely in people with sleep apnoea.",
+     "fix": "Split: 'A second SASM guideline covers care during surgery. It says strong painkillers such as morphine-type drugs may make breathing problems more likely in people with sleep apnoea. It says the same of sedatives given into a vein.'"
+    }
+   ],
+   "flags": [
+    "'CPAP is not an alternative to appropriate monitoring.' is jargon and a negation shape.",
+    "Long for LinkedIn."
+   ]
+  },
+  {
+   "tmp_id": "C11-P08",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "sleep apnoea",
+     "fix": "Not explained in this variant. Write: 'sleep apnoea (breathing that repeatedly stops and starts in sleep)'."
+    },
+    {
+     "item": "6",
+     "quote": "Specialists advise keeping it up around a planned operation, and strong painkillers may worsen breathing problems in sleep apnoea.",
+     "fix": "Split into two sentences: advice to keep using it, then the painkiller risk."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P08",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'keeping it up around a planned operation' is figurative and ambiguous; 'keep using it before and after a planned operation' is plainer."
+   ]
+  },
+  {
+   "tmp_id": "C11-P09",
+   "platform": "x",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Melatonin (up to 10 mg) may make little or no difference",
+     "fix": "Three separate messages (Alzheimer's trials, other sleep problems, supplement labels) with no single point. Pick one point, for example: 'Melatonin may make little or no difference to sleep in people with Alzheimer's disease, so decide what would count as success before trying it.'"
+    },
+    {
+     "item": "5",
+     "quote": "More Weighing it up posts take one treatment decision at a time.",
+     "fix": "Series promotion, not an act. End on the earlier line: 'Before a trial of melatonin, decide what would count as success and when you will stop if it has not helped.'"
+    },
+    {
+     "item": "6",
+     "quote": "In people with insomnia and other sleep problems, adults and children together, melatonin helped people fall asleep about 7 minutes sooner and sleep about 8 minutes longer than a dummy pill, on average.",
+     "fix": "Split: 'In a review of adults and children with insomnia and other sleep problems, melatonin helped people fall asleep about 7 minutes sooner than a dummy pill. They slept about 8 minutes longer.'"
+    }
+   ],
+   "flags": [
+    "'That does not mean nothing helps' is a negation-then-correction shape.",
+    "'Weighing it up posts' means nothing to a first-time reader."
+   ]
+  },
+  {
+   "tmp_id": "C11-P09",
+   "platform": "linkedin",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 9,
+   "verdict": "rewrite",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Melatonin (up to 10 mg) may make little or no difference",
+     "fix": "Post carries four messages; the ending ('can be a reasonable short trial') sits against the opening ('little or no difference'). Pick one: Alzheimer's evidence, or product quality."
+    },
+    {
+     "item": "2",
+     "quote": "low in certainty",
+     "fix": "Say 'we can have little confidence in the result' and explain 'Cochrane review' as 'a systematic review of trials'."
+    },
+    {
+     "item": "5",
+     "quote": "More Weighing it up posts take one treatment decision at a time.",
+     "fix": "Series promotion as the last line. End on: 'Melatonin can be a short trial with a review date, but it is not an established treatment for sleep problems in dementia.'"
+    },
+    {
+     "item": "6",
+     "quote": "Across people with insomnia and other primary sleep problems, adults and children together, melatonin helped people fall asleep about 7 minutes sooner and sleep about 8 minutes longer than a dummy pill, on average.",
+     "fix": "Split: 'A review of adults and children with insomnia and other sleep problems found melatonin helped people fall asleep about 7 minutes sooner than a dummy pill. They slept about 8 minutes longer.'"
+    }
+   ],
+   "flags": [
+    "'Melatonin can be a reasonable short trial for some older people' risks reading as reassurance after 'little or no difference' for Alzheimer's.",
+    "'What is in the bottle.' / 'What to ask.' fragment headings.",
+    "'In a 2023 US study, 22 of 25 melatonin gummies ...' sentence is also over 35 words."
+   ]
+  },
+  {
+   "tmp_id": "C11-P09",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Melatonin may make little or no difference to sleep in people with Alzheimer's, in trials.",
+     "fix": "Three messages. Keep one and add the act: 'Melatonin may make little or no difference to sleep in people with Alzheimer's disease. Decide what counts as success and when to stop.'"
+    },
+    {
+     "item": "3",
+     "quote": "the gain averaged about 7 minutes quicker to sleep",
+     "fix": "Comparator missing. Write: 'people fell asleep about 7 minutes sooner than with a dummy pill'."
+    }
+   ],
+   "flags": [
+    "'missed the label' is figurative; 'did not contain what the label said' is plain."
+   ]
+  },
+  {
+   "tmp_id": "C11-P09",
+   "platform": "threads",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Melatonin may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials.",
+     "fix": "Three messages with no single point. Keep the Alzheimer's finding and the act, and cut the rest."
+    },
+    {
+     "item": "3",
+     "quote": "the average gain was about 7 minutes quicker to sleep and 8 minutes more of it",
+     "fix": "Comparator missing. Write: 'compared with a dummy pill, people fell asleep about 7 minutes sooner and slept about 8 minutes longer'."
+    }
+   ],
+   "flags": [
+    "'did not match the label' lacks a size."
+   ]
+  },
+  {
+   "tmp_id": "C11-P10",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "continence care",
+     "fix": "Not a lay phrase. Write: 'care for someone who cannot control their bladder or bowels'."
+    },
+    {
+     "item": "5",
+     "quote": "These questions are about a home's plan, not blame for night staff.",
+     "fix": "Negation-shaped, not an act. Write: 'Ask the home to explain its plan for the night, and ask who is responsible for it.'"
+    },
+    {
+     "item": "6",
+     "quote": "That individualised care set each person's checks by their own skin risk and gave care when they were already awake, with no harm to skin.",
+     "fix": "Split: 'That care set each person's checks by their own skin risk. It gave care when they were already awake. Their skin was not harmed.'"
+    }
+   ],
+   "flags": [
+    "'Why these?' is a setup question answered by the post.",
+    "'awakenings caused by the light and noise of continence care fell' is hard to parse on a first reading."
+   ]
+  },
+  {
+   "tmp_id": "C11-P10",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 10,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "noise abatement",
+     "fix": "Jargon. Write: 'efforts to reduce noise'. Also explain 'continence care'."
+    },
+    {
+     "item": "5",
+     "quote": "These are questions about a home's plan, not blame for night staff.",
+     "fix": "Negation-shaped, not an act. Write: 'Ask the home to explain its plan for the night.'"
+    },
+    {
+     "item": "6",
+     "quote": "In another US trial (267 residents with incontinence in eight nursing homes), staff feedback on noise, noise abatement and less disruptive night continence care reduced noise and light changes.",
+     "fix": "Split: 'Another US trial included 267 residents with incontinence in eight nursing homes. Staff were given feedback on noise, tried to reduce noise, and gave less disruptive night care. Noise and light changes fell.'"
+    }
+   ],
+   "flags": [
+    "Very long for LinkedIn.",
+    "'What the studies found.' / 'What the studies do not show.' fragment headings.",
+    "Negation-then-correction: 'The fourth question is about choice. No evidence here shows ...'."
+   ]
+  },
+  {
+   "tmp_id": "C11-P10",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "continence care",
+     "fix": "Not a lay phrase. Write: 'care for someone who cannot control their bladder or bowels'."
+    },
+    {
+     "item": "6",
+     "quote": "Ask a care home about the night: how are checks planned for each person, how is continence care done for someone asleep, how are noise and lights kept down, and who decides bedtimes?",
+     "fix": "Split into the four short questions, each as its own sentence."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P10",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "continence care",
+     "fix": "Not a lay phrase. Write: 'care for someone who cannot control their bladder or bowels'."
+    },
+    {
+     "item": "5",
+     "quote": "These are questions about a plan, not blame.",
+     "fix": "Negation-shaped, not an act. Write: 'Ask the home to explain its plan for the night.'"
+    },
+    {
+     "item": "6",
+     "quote": "In small US studies of residents with incontinence, checks set by each person's skin risk cut care-related waking with no adverse change in skin health over the study period.",
+     "fix": "Split: 'In small US studies of residents with incontinence, checks were set by each person's skin risk. Waking caused by care fell. Skin health did not change for the worse.'"
+    }
+   ],
+   "flags": [
+    "'adverse change in skin health' is clinical phrasing."
+   ]
+  },
+  {
+   "tmp_id": "C11-P11",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "no clinically significant insomnia",
+     "fix": "Jargon. Write: 'insomnia that was no longer bad enough to count as a clinical problem'."
+    },
+    {
+     "item": "6",
+     "quote": "In a national study of people living at home in England, the authors' estimate was that about 79 in 100 people aged 60 and over used the internet at all in 2020, so about 1 in 5 did not.",
+     "fix": "Split: 'A national study of people living at home in England estimated that about 79 in 100 people aged 60 and over used the internet in 2020. So about 1 in 5 did not.'"
+    }
+   ],
+   "flags": [
+    "'That is a judgement' is a vague aside; say 'This is the author's argument, not a test result.'"
+   ]
+  },
+  {
+   "tmp_id": "C11-P11",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "no clinically significant insomnia",
+     "fix": "Jargon. Write: 'insomnia no longer bad enough to count as a clinical problem'. Also 'sleep restriction therapy' needs a gloss: 'limiting time in bed to time asleep'."
+    },
+    {
+     "item": "6",
+     "quote": "A route to it that needs the internet misses many older people. In a national study of people living at home in England, the authors' estimate was that about 79 in 100 people aged 60 and over used the internet at all in 2020, so about 1 in 5 did not.",
+     "fix": "Split the national-study sentence in two, as in the X variant fix, and cut 'misses many older people' until the figure is given."
+    }
+   ],
+   "flags": [
+    "Very long; several tangents (pain, sleep restriction by nurses).",
+    "'the real figure is probably higher' does not say which figure."
+   ]
+  },
+  {
+   "tmp_id": "C11-P11",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "CBT for insomnia by phone",
+     "fix": "CBT not explained. Write: 'CBT for insomnia (a structured talking and sleep-scheduling treatment) by phone'. Also replace 'no clinically significant insomnia' with 'insomnia no longer bad enough to count as a clinical problem'."
+    },
+    {
+     "item": "3",
+     "quote": "26 in 100 given information",
+     "fix": "Say what information: 'given information about sleep and arthritis'."
+    },
+    {
+     "item": "6",
+     "quote": "CBT for insomnia by phone helped older adults with insomnia and osteoarthritis pain in a US trial: at a year, among those followed up, 56 in 100 had no clinically significant insomnia against 26 in 100 given information.",
+     "fix": "Split into two sentences: the trial group, then the one-year result."
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P11",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "CBT for insomnia has been tested by phone.",
+     "fix": "CBT not explained. Write: 'CBT for insomnia (a structured talking and sleep-scheduling treatment) has been tested by phone.' Also replace 'no clinically significant insomnia'."
+    },
+    {
+     "item": "6",
+     "quote": "In a US trial of 327 people aged 60 and over with insomnia and osteoarthritis pain, a year later 56 in 100 of those followed up had no clinically significant insomnia, against 26 in 100 given information.",
+     "fix": "Split: 'In a US trial, 327 people aged 60 and over had insomnia and osteoarthritis pain. A year later, of those followed up, 56 in 100 had insomnia that was no longer a clinical problem, against 26 in 100 given information.'"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "tmp_id": "C11-P12",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Questions 'Is a steroid given later than the morning?' and 'Is donepezil given at night...?' are setup questions the post answers.",
+    "Survey figure (83 minutes less) comes from adults of all ages, not only older people, which the post states."
+   ]
+  },
+  {
+   "tmp_id": "C11-P12",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "The evidence is from reviews and a case series of 8, not a randomised trial of timing, so this is a question for the prescriber the next day, not an overnight change.",
+     "fix": "Split: 'The evidence is from reviews and a case series of 8, not a randomised trial of timing. So raise it with the prescriber the next day. Do not change it overnight.'"
+    }
+   ],
+   "flags": [
+    "Fragment headings ('Tonight.', 'Steroids.', 'Donepezil.').",
+    "Long for LinkedIn."
+   ]
+  },
+  {
+   "tmp_id": "C11-P12",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "with more confusion and daytime tiredness",
+     "fix": "Comparator missing. Write: 'with more confusion and daytime tiredness than with a dummy pill'."
+    }
+   ],
+   "flags": [
+    "Opens with a setup question ('Awake at night, an older inpatient?') that the post answers."
+   ]
+  },
+  {
+   "tmp_id": "C11-P12",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "tablets added only about 25 minutes of self-reported sleep on average",
+     "fix": "Comparator missing. Write: 'tablets added only about 25 minutes of self-reported sleep on average compared with a dummy pill'."
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

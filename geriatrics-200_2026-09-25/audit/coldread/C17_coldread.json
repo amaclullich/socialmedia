@@ -1,174 +1,906 @@
 {
  "category": "C17",
  "controls": [
-  {"tmp_id": "CONTROL-1", "total": 1},
-  {"tmp_id": "CONTROL-2", "total": 4}
+  {
+   "tmp_id": "CONTROL-1",
+   "total": 2
+  },
+  {
+   "tmp_id": "CONTROL-2",
+   "total": 5
+  }
  ],
  "variants": [
   {
-   "tmp_id": "C17-P01", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":1,"6":2,"7":2}, "total": 13, "verdict": "pass",
+   "tmp_id": "C17-P01",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
    "problems": [
-    {"item":"5","quote":"Loneliness is painful to live with, and that is reason enough to take it seriously.","fix":"Loneliness is painful to live with, and that alone is reason to ask an older person about it and offer support."}
+    {
+     "item": "2",
+     "quote": "It was not a head-to-head test.",
+     "fix": "The chart did not test smoking and social relationships against each other in the same people."
+    },
+    {
+     "item": "3",
+     "quote": "Loneliness itself was measured in only 8 results.",
+     "fix": "Only 8 of the results it pooled measured loneliness itself."
+    },
+    {
+     "item": "6",
+     "quote": "A chart in it set the link between social relationships and survival beside smoking fewer than 15 cigarettes a day, using numbers from different reviews of different people.",
+     "fix": "A chart in it showed the link between social relationships and survival next to the effect of smoking fewer than 15 cigarettes a day. The numbers came from different reviews of different people."
+    }
    ],
-   "flags": ["closing sentiment ('painful ... reason enough') repeated near-verbatim across all four platform variants of this post"]
+   "flags": [
+    "Negation-then-correction: 'The review does not itself say... A chart in it set...', 'It was not a head-to-head test', 'That case does not need a comparison with cigarettes'",
+    "'head-to-head' is a figurative sports phrase",
+    "'fewer than 15' versus the slogan's '15' is easy to misread by a tired reader"
+   ]
   },
   {
-   "tmp_id": "C17-P01", "platform": "linkedin",
-   "scores": {"1":1,"2":2,"3":2,"4":2,"5":2,"6":1,"7":2}, "total": 12, "verdict": "fix",
+   "tmp_id": "C17-P01",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 1
+   },
+   "total": 9,
+   "verdict": "rewrite",
    "problems": [
-    {"item":"1","quote":"whole post (four numbered claims plus three stacked findings before the verdict)","fix":"State the headline up front in one line: 'The smoking-a-day comparison for loneliness is based on weak evidence and should be dropped' — then give the numbered detail."},
-    {"item":"6","quote":"In the English Longitudinal Study of Ageing (about 6,500 people aged 52 and over, followed for about 7 years), lonely people were more likely to die at first.","fix":"Split into two sentences: 'One English study followed about 6,500 people aged 52 and over for 7 years. At first, lonely people were more likely to die.'"}
+    {
+     "item": "2",
+     "quote": "higher odds of dying",
+     "fix": "a higher chance of dying"
+    },
+    {
+     "item": "2",
+     "quote": "It was not a head-to-head test.",
+     "fix": "The chart did not test the two against each other in the same people."
+    },
+    {
+     "item": "2",
+     "quote": "All of this is observational, so none of it shows cause.",
+     "fix": "All of this compares people as they are, without assigning them, so none of it shows cause."
+    },
+    {
+     "item": "3",
+     "quote": "Loneliness itself was measured in only 8 results.",
+     "fix": "Only 8 of the results it pooled measured loneliness itself."
+    },
+    {
+     "item": "6",
+     "quote": "That does not show that loneliness has no effect on survival: the result was too uncertain to say, and the range that fitted the data included both a lower and a slightly higher risk of dying.",
+     "fix": "That does not show that loneliness has no effect on survival. The result was too uncertain to say either way. The data were compatible with both a slightly lower and a slightly higher risk of dying."
+    },
+    {
+     "item": "7",
+     "quote": "found loneliness linked with higher odds of dying, about the same as for social isolation and living alone",
+     "fix": "Say in plain words that reviews differ: the 2015 review found loneliness and isolation linked about equally with dying, while the two recent reviews found loneliness the smaller link."
+    }
    ],
-   "flags": ["repeated closing sentiment shared with sibling variants ('Loneliness is painful to live with')"]
+   "flags": [
+    "Point 1 ('about the same as for social isolation') and point 3 ('smaller than for isolation') appear to contradict each other",
+    "Negation-then-correction repeated: 'does not itself say', 'It was not', 'That does not show', 'That case does not need'",
+    "'headline figure' is figurative",
+    "Very long for a phone; the numbered list repeats the same point three times"
+   ]
   },
   {
-   "tmp_id": "C17-P01", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "tmp_id": "C17-P01",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "A chart in a 2010 review set social relationships and survival beside smoking fewer than 15 cigarettes a day.",
+     "fix": "A popular line says loneliness is as harmful as 15 cigarettes a day. It traces to a chart in a 2010 review that set social relationships and survival beside smoking fewer than 15 cigarettes a day."
+    },
+    {
+     "item": "2",
+     "quote": "less than isolation",
+     "fix": "less strongly than social isolation (little contact with others)"
+    },
+    {
+     "item": "3",
+     "quote": "Most measured marriage and support, not loneliness.",
+     "fix": "Most of the studies in it measured marriage and support, not loneliness."
+    }
+   ],
+   "flags": [
+    "The slogan being tested is never stated, so the reader cannot tell what the claim is",
+    "'Most measured' has no noun to attach to",
+    "Negation shape 'not loneliness'"
+   ]
+  },
+  {
+   "tmp_id": "C17-P01",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "It was not a head-to-head test.",
+     "fix": "The chart did not test the two against each other in the same people."
+    },
+    {
+     "item": "2",
+     "quote": "less strongly than isolation",
+     "fix": "less strongly than social isolation (little contact with others)"
+    },
+    {
+     "item": "3",
+     "quote": "Most of those studies measured marriage and support, not loneliness.",
+     "fix": "Most of the studies in that review measured marriage and support, not loneliness."
+    }
+   ],
+   "flags": [
+    "'head-to-head' is figurative",
+    "Negation shape 'not loneliness' and 'It was not a head-to-head test'",
+    "Opening 'A popular line says' repeats across X, LinkedIn and Threads (acceptable across platforms)"
+   ]
+  },
+  {
+   "tmp_id": "C17-P02",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "more likely to die in the following months",
+     "fix": "more likely to die in the following 16 months"
+    },
+    {
+     "item": "5",
+     "quote": "That is a judgement; no study tested it.",
+     "fix": "No study tested this, so it is a judgement: for an older person, a missed appointment should prompt contact to find out why before any discharge."
+    }
+   ],
+   "flags": [
+    "Negation shape 'The study does not show that missing it causes death'",
+    "'among the most likely' gives no size"
+   ]
+  },
+  {
+   "tmp_id": "C17-P02",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
    "problems": [],
-   "flags": ["closing line 'Loneliness is painful: reason enough to help' repeats the sentiment used to close every other variant of this post"]
+   "flags": [
+    "Long for a phone but each sentence reads once",
+    "Negation shape 'not a tested protocol' is clear and honest"
+   ]
   },
   {
-   "tmp_id": "C17-P01", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
+   "tmp_id": "C17-P02",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
    "problems": [],
-   "flags": ["closing line reuses the 'painful ... take seriously' phrasing common to all variants in this set"]
+   "flags": [
+    "Negation shape 'not proof of cause' is brief and acceptable",
+    "'ask why' leaves who is asked implicit, but it is clear to a clinician"
+   ]
   },
   {
-   "tmp_id": "C17-P02", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P02", "platform": "linkedin",
-   "scores": {"1":1,"2":2,"3":2,"4":2,"5":2,"6":1,"7":2}, "total": 12, "verdict": "fix",
+   "tmp_id": "C17-P02",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
    "problems": [
-    {"item":"1","quote":"whole post (two studies, four numbered questions, then a caveat)","fix":"Open with the single takeaway: 'Missed GP appointments are a warning sign, not bad behaviour — call before you discharge someone,' then give the detail."},
-    {"item":"6","quote":"In the first, covering 550,083 patients from 2013 to 2016, people over 90 and people living in the most deprived areas were among the most likely to miss appointments repeatedly.","fix":"Split: 'The first study covered 550,083 patients from 2013 to 2016. People over 90, and people in the most deprived areas, were among the most likely to miss appointments repeatedly.'"}
+    {
+     "item": "5",
+     "quote": "That is a judgement.",
+     "fix": "That is a judgement: before discharging an older person for not attending, we should contact them to ask why."
+    }
    ],
-   "flags": []
+   "flags": [
+    "Close ends on a hedge rather than the action",
+    "Negation shape 'not proof of cause'"
+   ]
   },
   {
-   "tmp_id": "C17-P02", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P02", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P03", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P03", "platform": "linkedin",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":0,"6":2,"7":2}, "total": 12, "verdict": "fix",
+   "tmp_id": "C17-P03",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
    "problems": [
-    {"item":"5","quote":"More posts in the Care that works series look at one programme at a time: what it did and what it showed.","fix":"Delete this promotional sentence and end on the actual verdict: 'My reading: this is a cheap, specific programme that services could try now, as long as they measure what happens after the first month.'"}
+    {
+     "item": "2",
+     "quote": "randomised trial",
+     "fix": "a trial in which people were assigned to calls or no calls by chance"
+    },
+    {
+     "item": "5",
+     "quote": "Nobody yet knows whether the benefit lasts once calls stop.",
+     "fix": "Nobody yet knows whether the benefit lasts once calls stop, so befriending services could test regular calls from a trained listener before relying on them."
+    },
+    {
+     "item": "6",
+     "quote": "Each was assigned to one caller, who phoned every weekday in the first week and then as often as the person chose, 2 to 5 times a week, for 4 weeks.",
+     "fix": "Each person was assigned one caller. The caller phoned every weekday in the first week, then as often as the person chose, 2 to 5 times a week, for 4 weeks."
+    }
    ],
-   "flags": ["closing sentence is a series-promo tag, not a statement about this study — reads as an empty close"]
+   "flags": [
+    "'They had no scripts and no therapy training' is a negation list but clear",
+    "Opening 'Callers aged 17 to 23' repeats in X and LinkedIn",
+    "Group sizes are not given, so 240 has no split between calls and no calls"
+   ]
   },
   {
-   "tmp_id": "C17-P03", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P03", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P04", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P04", "platform": "linkedin",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":1,"6":2,"7":2}, "total": 13, "verdict": "pass",
+   "tmp_id": "C17-P03",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 0,
+    "6": 0,
+    "7": 2
+   },
+   "total": 8,
+   "verdict": "rewrite",
    "problems": [
-    {"item":"5","quote":"The study is American, over 20 years old, and about dementia carers. The questions still apply wherever you are.","fix":"Move the caveat earlier and close on the action instead: 'If you are that partner, ask who will check on you, and how the fees assessment treats your home and income if you stay.'"}
+    {
+     "item": "2",
+     "quote": "randomised trial",
+     "fix": "a trial in which people were assigned to calls or no calls by chance"
+    },
+    {
+     "item": "2",
+     "quote": "People with cognitive impairment were not included.",
+     "fix": "People with memory or thinking problems were not included."
+    },
+    {
+     "item": "3",
+     "quote": "More people dropped out of the call group (13) than the comparison group (1).",
+     "fix": "13 people dropped out of the group that got calls and 1 from the group that did not."
+    },
+    {
+     "item": "5",
+     "quote": "More posts in the Care that works series say what made the difference and what was left unmeasured.",
+     "fix": "Delete this line and end on: Befriending services could test the same elements: a regular caller, trained to listen, led by what the person wants to talk about."
+    },
+    {
+     "item": "6",
+     "quote": "Nobody yet knows whether the benefit lasts once calls stop, and a 2024 review of loneliness programmes for older adults, with searches that ended in June 2021, found too little evidence to judge telephone programmes as a group.",
+     "fix": "Nobody yet knows whether the benefit lasts once calls stop. A 2024 review of loneliness programmes for older adults found too little evidence to judge telephone programmes as a group. Its searches ended in June 2021."
+    }
    ],
-   "flags": []
+   "flags": [
+    "Empty promotional close (series plug)",
+    "Sentence on limits runs about 41 words",
+    "'This is one promising result' is mild but could read as reassurance",
+    "Opening repeats X ('Callers aged 17 to 23 ...')"
+   ]
   },
   {
-   "tmp_id": "C17-P04", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P04", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P05", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P05", "platform": "linkedin",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P05", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P05", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P06", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P06", "platform": "linkedin",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":1,"7":2}, "total": 13, "verdict": "pass",
+   "tmp_id": "C17-P03",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
    "problems": [
-    {"item":"6","quote":"The studies included one non-randomised controlled trial, one pilot randomised trial, one before-and-after study, three qualitative studies and eight case studies.","fix":"Simplify: 'The 14 studies were mostly small and weakly designed — only two used random assignment.'"}
+    {
+     "item": "6",
+     "quote": "In a 2020 Texas trial, 240 people getting Meals on Wheels were assigned calls from callers aged 17 to 23, trained for about 2 hours to listen, or no calls.",
+     "fix": "In a 2020 Texas trial, 240 people getting Meals on Wheels were assigned either calls or no calls. The callers were aged 17 to 23 and had about 2 hours of training in listening."
+    }
    ],
-   "flags": []
+   "flags": [
+    "'assigned calls ... or no calls' is awkward on first read",
+    "Close is a bare statement of ignorance, acceptable at this length"
+   ]
   },
   {
-   "tmp_id": "C17-P06", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P06", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
-  },
-  {
-   "tmp_id": "C17-P07", "platform": "x",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":0,"6":2,"7":2}, "total": 12, "verdict": "fix",
+   "tmp_id": "C17-P03",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
    "problems": [
-    {"item":"5","quote":"But do not assume the blood pressure tablet is to blame: in one trial of five blood pressure medicines, only chlorthalidone clearly differed from placebo, and only over the first 2 years.","fix":"End on the instruction instead: 'Ask about sexual side effects at every medicines review — and don't assume the blood pressure tablet is to blame before checking which one it is.'"}
+    {
+     "item": "2",
+     "quote": "randomised trial",
+     "fix": "a trial in which people were assigned to calls or no calls by chance"
+    },
+    {
+     "item": "5",
+     "quote": "Nobody yet knows whether the benefit lasts.",
+     "fix": "Nobody yet knows whether the benefit lasts once calls stop, so befriending services could test regular calls from a trained listener."
+    },
+    {
+     "item": "6",
+     "quote": "In a randomised trial in Texas in 2020, 240 people getting Meals on Wheels at home were assigned calls from callers aged 17 to 23 or no calls.",
+     "fix": "In a trial in Texas in 2020, 240 people getting Meals on Wheels at home were assigned to calls or no calls. The callers were aged 17 to 23."
+    }
    ],
-   "flags": []
+   "flags": [
+    "Close states an unknown rather than something to act on or dispute"
+   ]
   },
   {
-   "tmp_id": "C17-P07", "platform": "linkedin",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
+   "tmp_id": "C17-P04",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 1
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "Nearly half the carers were then at risk of clinical depression.",
+     "fix": "Nearly half of those 180 carers were then at risk of clinical depression."
+    },
+    {
+     "item": "7",
+     "quote": "Carers were as depressed and anxious after a relative with dementia moved into a care home as they were before the move.",
+     "fix": "On average their depression and anxiety scores did not change after the move, though nearly half of those 180 carers were at risk of clinical depression."
+    }
+   ],
+   "flags": [
+    "Opening 'as depressed and anxious ... as ... before' can be read as reassurance when nearly half were at risk",
+    "'most affected' does not say affected how",
+    "Opening repeats on LinkedIn"
+   ]
   },
   {
-   "tmp_id": "C17-P07", "platform": "bluesky",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
+   "tmp_id": "C17-P04",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 1
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "It is also a US study of dementia carers only.",
+     "fix": "Put this limit before the questions and end on: Ask whoever carries out the fees assessment for the answers."
+    },
+    {
+     "item": "7",
+     "quote": "Average depression and anxiety scores showed no clear change after the move.",
+     "fix": "On average scores did not change, but nearly half of the carers were still at risk of clinical depression after the move."
+    }
+   ],
+   "flags": [
+    "Money questions 2 and 3 arrive with no link to the study findings",
+    "'fees assessment' and 'pension' are UK terms not explained",
+    "Close ends on a limitation, not an action"
+   ]
   },
   {
-   "tmp_id": "C17-P07", "platform": "threads",
-   "scores": {"1":2,"2":2,"3":2,"4":2,"5":2,"6":2,"7":2}, "total": 14, "verdict": "pass",
-   "problems": [], "flags": []
+   "tmp_id": "C17-P04",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "A judgement: small support trials found no clear effect on depression or strain.",
+     "fix": "That is a judgement. Small trials of support after a move found no clear effect on depression or strain."
+    },
+    {
+     "item": "6",
+     "quote": "A judgement: small support trials found no clear effect on depression or strain.",
+     "fix": "We should offer the partner at home their own conversation. That is a judgement. Small trials of support after a move found no clear effect on depression or strain."
+    }
+   ],
+   "flags": [
+    "The last sentence reads as if the judgement is that trials found no effect",
+    "'as depressed and anxious ... as before' may read as reassurance",
+    "'most affected' does not say how"
+   ]
+  },
+  {
+   "tmp_id": "C17-P04",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 1
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "That is a judgement; small trials of support after a move have shown no clear effects on depression or strain.",
+     "fix": "Small trials of support after a move have shown no clear effects on depression or strain. We should still offer the partner at home their own conversation; that is a judgement."
+    },
+    {
+     "item": "6",
+     "quote": "In a US study of 1,222 pairs of family carers and relatives with dementia, the 180 carers whose relative moved into a care home were as depressed and anxious afterwards as before.",
+     "fix": "A US study followed 1,222 pairs of family carers and relatives with dementia. In 180 pairs the relative moved into a care home. Those 180 carers were as depressed and anxious afterwards as before."
+    },
+    {
+     "item": "7",
+     "quote": "were as depressed and anxious afterwards as before. Nearly half were at risk of clinical depression afterwards",
+     "fix": "On average they were no more depressed or anxious than before, though nearly half were at risk of clinical depression afterwards."
+    }
+   ],
+   "flags": [
+    "'afterwards' appears twice in close succession",
+    "Possible false reassurance in 'as depressed ... as before'"
+   ]
+  },
+  {
+   "tmp_id": "C17-P05",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The studies show links, not proof of cause.",
+     "fix": "End on the action: Check on older neighbours who live alone every day when it is hot; that is a judgement from studies that show links, not proof of cause."
+    },
+    {
+     "item": "6",
+     "quote": "In France in 2003, among people aged 65 and over living at home, being unable to get about, poor insulation and sleeping on the top floor right under the roof were linked with dying.",
+     "fix": "In France in 2003, a study looked at people aged 65 and over living at home. Being unable to get about, poor insulation and sleeping on the top floor right under the roof were linked with dying."
+    },
+    {
+     "item": "6",
+     "quote": "In the 1995 Chicago heatwave, the people most likely to die were those with medical problems who were confined to bed, and those who did not leave home each day.",
+     "fix": "In the 1995 Chicago heatwave, people with medical problems who were confined to bed were the most likely to die. So were people who did not leave home each day."
+    }
+   ],
+   "flags": [
+    "Negation shape 'show links, not proof of cause'",
+    "Close is a caveat, not an action"
+   ]
+  },
+  {
+   "tmp_id": "C17-P05",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In the August 2003 heatwave in France, a similar study of people aged 65 and over living at home found that being unable to get about, living in a poorly insulated home and sleeping on the top floor right under the roof were linked with dying.",
+     "fix": "In the August 2003 heatwave in France, a similar study looked at people aged 65 and over living at home. Being unable to get about, living in a poorly insulated home and sleeping on the top floor right under the roof were linked with dying."
+    },
+    {
+     "item": "6",
+     "quote": "Our judgement from these studies is that relatives and neighbours should check daily during a heatwave on older people who live alone or rarely go out, especially in top-floor flats, and should help them find ways to cool down.",
+     "fix": "Our judgement from these studies is that relatives and neighbours should check daily during a heatwave on older people who live alone or rarely go out. Top-floor flats matter most. They should also help them find ways to cool down."
+    },
+    {
+     "item": "6",
+     "quote": "The risk list is also a list of isolation and housing.",
+     "fix": "Delete, or say plainly: Living alone, rarely going out and housing were all linked with dying."
+    }
+   ],
+   "flags": [
+    "'The risk list is also a list of isolation and housing' is abstract and figurative",
+    "Negation shape 'show links and not proof of cause'",
+    "Two sentences run 40 to 47 words"
+   ]
+  },
+  {
+   "tmp_id": "C17-P05",
+   "platform": "bluesky",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "Daily checks are a judgement.",
+     "fix": "Our judgement is that older neighbours who live alone should get a daily check in hot weather."
+    },
+    {
+     "item": "5",
+     "quote": "Daily checks are a judgement.",
+     "fix": "Our judgement is that older neighbours who live alone should get a daily check in hot weather."
+    }
+   ],
+   "flags": [
+    "Telegraphic labels ('Chicago 1995:', 'France 2003:') read as note form",
+    "'Cooling' has no noun; the reader must guess it means ways to cool down",
+    "Nobody is told who should do the daily checks"
+   ]
+  },
+  {
+   "tmp_id": "C17-P05",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "The studies show links, not proof of cause.",
+     "fix": "End on the action: Check on older neighbours who live alone daily when it is hot; that is a judgement from studies that show links, not proof of cause."
+    },
+    {
+     "item": "6",
+     "quote": "In the 1995 Chicago heatwave, people who died were more likely to be confined to bed (among those with medical problems), not to leave home each day, to live on the top floor or to live alone.",
+     "fix": "In the 1995 Chicago heatwave, people who died were more likely to live on the top floor or to live alone. Among people with medical problems, being confined to bed raised the risk. So did not leaving home each day."
+    }
+   ],
+   "flags": [
+    "Parenthesis '(among those with medical problems)' reads as attaching to the whole list",
+    "Negation shape 'links, not proof of cause'"
+   ]
+  },
+  {
+   "tmp_id": "C17-P06",
+   "platform": "x",
+   "scores": {
+    "1": 1,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "1",
+     "quote": "A second 2022 review of UK free advice services reached a similar view.",
+     "fix": "A second 2022 review of 15 articles on UK free advice services found advice often linked with better mental health and wellbeing."
+    },
+    {
+     "item": "5",
+     "quote": "All 14 studies reported a money gain, but their quality was mostly poor, so firm conclusions about money or health are not yet possible.",
+     "fix": "End on the action: Health services that see older people on low incomes should offer a route to this advice. That is a judgement."
+    }
+   ],
+   "flags": [
+    "The poor-quality caveat is stated three times; 'That leaves an evidence gap, and weak studies leave open whether advice improves health' repeats the previous sentence",
+    "'reached a similar view' says nothing the reader can use",
+    "Close repeats a limitation rather than giving the action"
+   ]
+  },
+  {
+   "tmp_id": "C17-P06",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "Second review 'agreed' and 'looks promising' could read as stronger than the first review's poor-quality finding",
+    "'Weak studies leave open whether advice improves health' repeats the line before"
+   ]
+  },
+  {
+   "tmp_id": "C17-P06",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 14,
+   "verdict": "pass",
+   "problems": [],
+   "flags": [
+    "'Most were of poor quality' differs slightly from the longer versions ('generally poor')",
+    "Judgement tag after a semicolon is brief but clear"
+   ]
+  },
+  {
+   "tmp_id": "C17-P06",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "That is a judgement.",
+     "fix": "That is a judgement: services seeing older people on low incomes should offer a route to this advice."
+    }
+   ],
+   "flags": [
+    "'an evidence gap' is tacked on as an appositive",
+    "Close ends on a hedge"
+   ]
+  },
+  {
+   "tmp_id": "C17-P07",
+   "platform": "x",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 2,
+    "6": 2,
+    "7": 2
+   },
+   "total": 13,
+   "verdict": "pass",
+   "problems": [
+    {
+     "item": "3",
+     "quote": "These data are not specific to older adults.",
+     "fix": "The antidepressant data are not specific to older adults."
+    }
+   ],
+   "flags": [
+    "Mixes three sets of figures (activity, problems, discussion with doctor) with different age ranges in one short post"
+   ]
+  },
+  {
+   "tmp_id": "C17-P07",
+   "platform": "linkedin",
+   "scores": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 1,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "2",
+     "quote": "In ELSA (6,201 people aged 50 and over, 2012 to 2013)",
+     "fix": "In the English Longitudinal Study of Ageing (6,201 people aged 50 and over, 2012 to 2013)"
+    },
+    {
+     "item": "6",
+     "quote": "In a blinded trial of five blood pressure tablets in people aged 45 to 69, men on chlorthalidone had more new erection problems over 2 years than men on placebo, about 17 in 100 compared with 8 in 100.",
+     "fix": "In a blinded trial of five blood pressure tablets in people aged 45 to 69, men on chlorthalidone had more new erection problems over 2 years than men on placebo. About 17 in 100 had a new problem on chlorthalidone compared with 8 in 100 on placebo."
+    }
+   ],
+   "flags": [
+    "'English data agree on the main point' does not say which point",
+    "Very long; the blood pressure trial is in a younger age group and is not flagged as such",
+    "Opening line repeats across X and LinkedIn"
+   ]
+  },
+  {
+   "tmp_id": "C17-P07",
+   "platform": "bluesky",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 2,
+    "6": 0,
+    "7": 2
+   },
+   "total": 12,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "6",
+     "quote": "In a US survey, about 1 in 4 people aged 75 to 85 had been sexually active with a partner in the past year; only about 4 in 10 men and 1 in 5 women aged 57 to 85 had discussed sex with a doctor since 50.",
+     "fix": "In a US survey, about 1 in 4 people aged 75 to 85 had been sexually active with a partner in the past year. Only about 4 in 10 men and 1 in 5 women aged 57 to 85 had discussed sex with a doctor since 50."
+    }
+   ],
+   "flags": [
+    "Two statistics with different age bands share one 46-word sentence"
+   ]
+  },
+  {
+   "tmp_id": "C17-P07",
+   "platform": "threads",
+   "scores": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 1,
+    "6": 0,
+    "7": 2
+   },
+   "total": 11,
+   "verdict": "fix",
+   "problems": [
+    {
+     "item": "5",
+     "quote": "Sexual side effects of some antidepressants often go unmentioned unless asked.",
+     "fix": "Put the antidepressant line before the close and end on: We should ask, especially when starting or reviewing medicines."
+    },
+    {
+     "item": "6",
+     "quote": "In a US national survey, about 1 in 4 people aged 75 to 85 had been sexually active with a partner in the past year, and among all the sexually active people in the survey (aged 57 to 85), about half had a problem that bothered them.",
+     "fix": "In a US national survey, about 1 in 4 people aged 75 to 85 had been sexually active with a partner in the past year. Among all the sexually active people in the survey (aged 57 to 85), about half had a problem that bothered them."
+    }
+   ],
+   "flags": [
+    "Close is a fact, not the action",
+    "46-word first sentence with a parenthesis"
+   ]
   }
+ ],
+ "set_flags": [
+  "Repeated 'That is a judgement' / 'a judgement' tag appears in nearly every post",
+  "Repeated negation-then-correction shapes ('not proof of cause', 'does not show') across the set",
+  "Openings repeat across platforms of the same post (P01, P03, P04, P05) but not between posts"
  ]
 }
