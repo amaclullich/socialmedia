@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C19-P09 Prolonged grief</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .scene{flex:0 0 500px;margin-top:26px}
+ .badge{position:absolute;left:20px;top:20px;z-index:2}
+ .facts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
+ .facts .f{background:var(--mint);border-left:8px solid var(--teal);border-radius:0 16px 16px 0;padding:16px 22px;font-size:30px;font-weight:700;line-height:1.3}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content" style="padding-top:28px">
+  <div class="kicker">Prolonged grief disorder</div>
+  <h1 class="s">Grief that stays intense and disabling has a name</h1>
+  <div class="scene" id="sc"><span class="badge illustrative">Illustration</span></div>
+  <div class="facts"><div class="f">Roughly 1 in 10 adults bereaved by a non-violent death</div><div class="f">Studies with older participants on average found higher rates</div></div>
+  <p class="body" style="font-size:30px;margin-top:20px;margin-bottom:20px">In one US trial of people aged 50 and over, a grief-focused therapy helped about 7 in 10, compared with about 3 in 10 with another talking therapy.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Lundorff et al., 2017; Shear et al., JAMA Psychiatry 2014</span></div>
+</div>
+</div>
+<script>
+const W=1000,H=520,S=1.0,g=470;
+Kit.draw('#sc',W,H,[Kit.room('home_living',{w:W,h:H,ground:g,scale:S}),
+ Kit.window({x:500,y:g-70-130,scale:1,curtains:'plum'}),Kit.plant({x:900,y:g-6,scale:1.1}),
+ Kit.person({pose:'seated_side',seat:'armchair',x:330,y:g,scale:S,age:'older',sex:'m',skin:'tan',hair:'grey',hairStyle:'balding',extras:['beard'],beardColour:'grey',top:'denim',tilt:8,hold:'cup',hands:'lap'}),
+ Kit.person({pose:'seated_talking',seat:'armchair',x:700,y:g,scale:S,facing:'left',sex:'f',skin:'brown',hair:'black',hairStyle:'coily',top:'mustard',bottom:'charcoal',hold:'notepad'})],{cls:'art'});
+window.__ready=true;
+</script></body></html>

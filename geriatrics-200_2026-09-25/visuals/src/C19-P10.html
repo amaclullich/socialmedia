@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C19-P10 Deprivation steps</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .arr{margin-top:14px}
+ .arr .t{font-size:30px;font-weight:700;line-height:1.25}
+ .steps5{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;align-items:end;height:200px;margin-top:20px}
+ .steps5 div{background:var(--teal);border-radius:8px 8px 0 0}
+ .labs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;font-size:25px;line-height:1.2;font-weight:700;text-align:center;margin-top:8px}
+ .labs span:first-child,.labs span:last-child{font-size:25px}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content">
+  <div class="kicker">Review of 112 observational studies, high-income countries</div>
+  <h1 class="s">The poorer the neighbourhood, the more likely a hospital death rather than a home death</h1>
+  <div class="arr"><div class="t">More likely to die in hospital than at home</div>
+   <svg width="920" height="56" viewBox="0 0 920 56"><path d="M20 46 L880 12" stroke="#C24E12" stroke-width="6" stroke-linecap="round"/><path d="M900 10 L868 0 L870 30 Z" fill="#C24E12"/></svg></div>
+  <div class="arr"><div class="t">More likely to have hospital care in the last 3 months</div>
+   <svg width="920" height="50" viewBox="0 0 920 50"><path d="M20 38 V16 H880 V38" stroke="#C24E12" stroke-width="6" fill="none" stroke-linejoin="round"/><path d="M880 46 L866 30 H894 Z" fill="#C24E12"/></svg></div>
+  <div class="arr"><div class="t">Less likely to get specialist palliative care</div>
+   <svg width="920" height="56" viewBox="0 0 920 56"><path d="M20 10 L880 44" stroke="#C24E12" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 14"/><path d="M900 46 L868 56 L870 26 Z" fill="#C24E12"/></svg></div>
+  <div class="steps5"><div style="height:20%"></div><div style="height:40%"></div><div style="height:60%"></div><div style="height:80%"></div><div style="height:100%"></div></div>
+  <div class="labs"><span>Least deprived fifth</span><span>2nd</span><span>3rd</span><span>4th</span><span>Most deprived fifth</span></div>
+  <p class="small" style="margin-top:20px">Direction of difference only; not to scale. The steps show the pattern for dying in hospital rather than at home and for specialist palliative care. Hospital care in the last 3 months is a most-versus-least comparison. The studies do not show why.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Davies et al., PLoS Med 2019</span></div>
+</div>
+</div><script>window.__ready = true;</script></body></html>

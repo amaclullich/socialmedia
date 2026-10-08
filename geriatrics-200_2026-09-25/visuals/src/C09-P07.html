@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C09-P07</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .content > .badge { align-self: flex-start; }
+ h1.m { margin-top: 12px; }
+ .scene { height: 560px; flex: none; margin-top: 18px; }
+ .key { margin-top: 18px; display:grid; grid-template-columns: 1fr 1fr; gap: 10px 20px; font-size: 30px; font-weight: 600; line-height:1.25; }
+ .key .n { display:inline-flex; width:40px; height:40px; border-radius:50%; background: var(--orange); color:#fff; font-family:Montserrat; font-weight:800; font-size:22px; align-items:center; justify-content:center; margin-right:10px; vertical-align:middle; }
+</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">Who gets left out</span></div>
+ <div class="content">
+  <div class="kicker">Aphasia after stroke</div>
+  <h1 class="m">Has the person had a way to answer?</h1>
+  <div style="margin-top:12px"><span class="badge illustrative">Illustrative example</span></div>
+  <div class="scene" id="sc"></div>
+  <ul class="key" style="list-style:none;padding:0"><li><span class="n">1</span> Key words written down</li><li><span class="n">2</span> Pictures of the options</li><li><span class="n">3</span> A trained conversation partner</li><li><span class="n">4</span> More time</li></ul>
+  <p class="small" style="margin-top:14px">Supports that can help, from research on people with aphasia.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Stipinovich et al 2023; Kim et al 2020</span></div>
+</div>
+</div>
+<script>
+const K = Kit, W = 920, H = 560, S = 0.95, g = 520;
+const ob = K.anchor('over_bed_table', { x: 440, y: g, scale: S });
+const ty = ob.top.y;
+const pad = `<rect x="355" y="${ty-52}" width="62" height="50" rx="4" fill="#FBFAF6" stroke="#1F2A30" stroke-width="3"/><g stroke="#1F2A30" stroke-width="7" stroke-linecap="round"><line x1="366" y1="${ty-38}" x2="406" y2="${ty-38}"/><line x1="366" y1="${ty-22}" x2="396" y2="${ty-22}"/></g>`;
+const cd = (x, c, gl) => `<rect x="${x}" y="${ty-44}" width="44" height="42" rx="5" fill="#FBFAF6" stroke="#1F2A30" stroke-width="3"/>${gl(x+22, ty-23, c)}`;
+const house = (x,y,c)=>`<path d="M${x-12} ${y+9} V${y-3} L${x} ${y-13} L${x+12} ${y-3} V${y+9}Z" fill="${c}"/>`;
+const bed = (x,y,c)=>`<rect x="${x-13}" y="${y-4}" width="26" height="12" fill="${c}"/><rect x="${x-13}" y="${y-10}" width="6" height="18" fill="${c}"/>`;
+const per = (x,y,c)=>`<circle cx="${x}" cy="${y-6}" r="6" fill="${c}"/><path d="M${x-10} ${y+10} Q${x} ${y-2} ${x+10} ${y+10}Z" fill="${c}"/>`;
+const cards = cd(430,'#15535B',house)+cd(480,'#C24E12',bed)+cd(530,'#15535B',per);
+K.draw('#sc', W, H, [
+  K.room('hospital_bay', { w: W, h: H, ground: g, scale: S }),
+  K.person({ pose: 'seated_side', seat: 'armchair', seatColour: 'sage', x: 190, y: g, scale: S, age: 'older', sex: 'm', skin: 'brown', hair: 'grey', hairStyle: 'cropped', top: 'sage', bottom: 'slate', extras: ['cardigan'], cardigan: 'navy', hands: 'lap', tilt: -4 }),
+  K.over_bed_table({ x: 440, y: g, scale: S }),
+  pad + cards,
+  K.person({ pose: 'seated_side', seat: 'chair', x: 640, y: g, scale: S, facing: 'left', role: 'doctor', sex: 'f', skin: 'olive', hair: 'black', hairStyle: 'bun', hold: 'notepad', tilt: 6 }),
+  K.person({ pose: 'standing', x: 800, y: g, scale: S, facing: 'left', role: 'physio', top: 'lilac', extras: ['lanyard'], sex: 'f', skin: 'medium', hair: 'auburn', hairStyle: 'wavy', hands: { near: { x: 745, y: g - 215 }, far: { x: 760, y: g - 225 } } })
+], { cls: 'art' });
+K.pins('#sc', [{ n: 1, x: 386, y: ty - 100 }, { n: 2, x: 480, y: ty - 100 }, { n: 3, x: 800, y: g - 440 }, { n: 4, x: 640, y: g - 345 }]);
+window.__ready = true;
+</script></body></html>

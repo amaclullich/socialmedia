@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C20-P02 D-dimer</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/chart.js"></script>
+<script src="../design_system/kit.js"></script>
+<style>.hl{font-size:30px;font-weight:700;color:var(--teal);margin-top:26px}.panel p{font-size:28px;line-height:1.34;margin:0}.panel p+p{margin-top:14px}</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Care that works</span></div>
+ <div class="content">
+  <h1 class="m">Age-adjusted D-dimer: <em>more people aged 75+</em> were ruled out without a scan</h1>
+  <p class="body" style="margin-top:18px">673 people aged 75 or over, suspected pulmonary embolism, clinical score not high</p>
+  <div class="hl">Clot ruled out by D-dimer alone</div>
+  <div id="bars" class="chart"></div>
+  <div class="panel mint" style="margin-top:14px"><p>Rule: age × 10 µg/L for people aged 50 or over, used after a clinical probability score</p>
+  <p>Whole study (aged 50 or over, clinical score not high): of 331 people with a D-dimer between 500 µg/L and the age-based limit, not scanned, 1 had a clot within 3 months (0.3%, 95% CI 0.1% to 1.7%)</p>
+  <p><b>No extra missed clots found in this group. Management study, no randomised comparison.</b></p></div>
+ </div>
+<div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Righini et al., JAMA 2014 (ADJUST-PE)</span></div>
+</div></div>
+<script>
+barChart("#bars",[{label:"Fixed cut-off 500 µg/L: 43 of 673 (6.4%)",value:6.4,display:"",colour:"empty"},{label:"Age-adjusted cut-off: 200 of 673 (29.7%)",value:29.7,display:"",colour:"a"}],{max:100,width:920,ticks:[0,25,50,75,100],tickFmt:t=>t+"%",gap:40,valueRoom:20});
+window.__ready=true;
+</script></body></html>
