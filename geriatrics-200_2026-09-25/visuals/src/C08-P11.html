@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C08-P11 Cognitive stimulation group</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/kit.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .scene{flex:0 0 auto;height:420px;margin-top:22px}
+ .facts{list-style:none;display:flex;flex-direction:column;gap:14px;margin-top:22px}
+ .facts li{background:var(--white);border:2px solid var(--line);border-radius:16px;padding:16px 24px;font-size:31px;line-height:1.3;font-weight:600;border-left:10px solid var(--teal)}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Ask this</span></div>
+ <div class="content">
+  <div class="kicker">Mild to moderate dementia</div>
+  <h1 class="s" style="font-size:56px">Is there a cognitive stimulation group near me?</h1>
+  <p class="body" style="margin-top:14px;font-size:32px">NICE in England says it should be offered. Ask the memory service or GP.</p>
+  <div class="scene" id="sc"></div>
+  <ul class="facts">
+   <li>Small group, usually twice a week for 7 weeks</li>
+   <li>Talk, word games, puzzles and music</li>
+   <li>Small, short-term boost to memory and thinking; more communication</li>
+  </ul>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">NICE NG97; Woods et al., Cochrane 2023</span></div>
+</div>
+</div>
+<script>
+const K=Kit,W=920,H=420,S=0.8,g=385;
+const t=K.anchor('table',{x:460,y:g,scale:S}),tt=t.top.y;
+const rect=(x,y,w,h,c)=>{const p=K.pen(K.LW);return K.at(x,y,1,p.r(0,0,w,h,3,c));};
+K.draw('#sc',W,H,[
+ K.room('care_home_lounge',{w:W,h:H,ground:g,scale:S,wall:'#F6EEDF'}),
+ K.window({x:470,y:g-70*S-250,scale:0.8,w:180,h:150,curtains:'sage'}),
+ K.person({pose:'seated_side',seat:'chair',x:300,y:g,scale:S,age:'older',sex:'f',skin:'brown',hair:'plum',hairStyle:'headscarf',top:'mustard',bottom:'slate',tilt:8,hands:{near:{x:420,y:tt-22}}}),
+ K.person({pose:'seated_side',seat:'chair',x:150,y:g,scale:S,age:'older',sex:'m',skin:'light',hair:'white',hairStyle:'balding',top:'denim',bottom:'stone',extras:['hearing_aid'],build:'broad',tilt:6}),
+ K.table({x:470,y:g,scale:S,w:230}),
+ rect(450,tt-12,18,12,'#C98B86'),rect(472,tt-12,18,12,'#A9C4DA'),
+ K.walking_frame({x:640,y:g,scale:S,type:'standard',facing:'left'}),
+ K.person({pose:'seated_side',seat:'chair',x:700,y:g,scale:S,facing:'left',age:'older',sex:'f',skin:'olive',hair:'grey',hairStyle:'bob',top:'sage',bottom:'charcoal'}),
+ K.person({pose:'standing',x:850,y:g,scale:S,facing:'left',role:'ot',sex:'f',skin:'tan',hair:'black',hairStyle:'long',hands:{near:{x:790,y:g-230*S}}}),
+ rect(770,g-250*S-20,50,38,'#F3EDDF'),
+],{cls:'art'});
+window.__ready = true;
+</script></body></html>

@@ -14,96 +14,314 @@
  "sources_reopened": [
   {
    "key": "PMID:10605972",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:26035608",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:35627399",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:24435941",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:28659025",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:42568209",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:31298169",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:17101889",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:14614169",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:28369687",
-   "tool": "mcp__PubMed__get_article_metadata",
-   "matches_record": true
-  },
-  {
-   "key": "PMID:25018144",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata + get_full_text_article (PMC5555776)",
    "matches_record": true
   },
   {
    "key": "PMID:30264669",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
    "matches_record": true
   },
   {
    "key": "PMID:30430628",
-   "tool": "mcp__PubMed__get_article_metadata",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PMID:25018144",
+   "tool": "PubMed get_article_metadata",
+   "matches_record": true
+  },
+  {
+   "key": "PubMed search: Cochrane respite (no update after 2014)",
+   "tool": "PubMed search_articles",
+   "matches_record": true
+  },
+  {
+   "key": "PubMed search: carer emergency plan studies (none testing outcomes)",
+   "tool": "PubMed search_articles",
    "matches_record": true
   }
  ],
  "issues": [
   {
-   "tmp_id": "C18-P07",
+   "tmp_id": "C18-P01",
    "where": "all",
-   "text": "The commonest reason they were given was that the patient had not consented. / most often told the patient had not consented / commonest reason given was no patient consent",
-   "problem": "Lack of consent was tied with staff unavailability (both 46.2%); 'commonest' / 'most often' implies it was the single leading reason.",
-   "source_says": "The main reasons given ... include: lack of patient consent (46.2%) and unavailability of a team member (46.2%).",
-   "severity": "major",
-   "replacement": "x: 'One of the two commonest reasons they were given was that the patient had not consented.' linkedin: 'One of the two commonest reasons they were given (alongside no team member being available) was lack of the patient's consent.' bluesky/threads: 'often told the patient had not consented'. visual_text and alt_text: 'one of the two commonest reasons given was no patient consent'."
+   "text": "Strain, not the carer role, went with the higher death rate",
+   "problem": "Title/headline implies the carer role itself carries no excess risk. Carers without strain had RR 1.08 with a wide interval (0.61 to 1.90), which is 'no clear difference', not evidence of no effect.",
+   "source_says": "RR 1.08 (95% CI 0.61-1.90) for carers without strain: not elevated, but the interval is wide.",
+   "severity": "minor",
+   "replacement": "The higher death rate was seen only in carers who reported strain"
   },
   {
    "tmp_id": "C18-P01",
-   "where": "visual_text",
-   "text": "Column 2 and 3 in teal with label 'No clear difference' (third column: 'Non-carers (comparison)')",
-   "problem": "Non-carers are the reference group; labelling them 'No clear difference' is meaningless and could be read as a finding.",
-   "source_says": "RRs are relative to noncaregiving controls.",
+   "where": "x",
+   "text": "In 392 US spouse carers and 427 non-carers aged 66 to 96, followed for about 4 years, the higher death rate was seen only in carers who reported mental or emotional strain (adjusted relative risk 1.63, 95% confidence interval 1.00 to 2.65, so borderline).",
+   "problem": "Relative risk given with no absolute figure (house rule: absolute first). Follow-up is an average of 4.5 years with 4-year mortality as the outcome.",
+   "source_says": "Prospective population-based cohort, average 4.5 years follow-up; 103 of 819 participants (12.6%) died within 4 years across the whole cohort (not given by group).",
    "severity": "minor",
-   "replacement": "Label column 3 'Comparison group' only; keep 'No clear difference' on column 2."
+   "replacement": "In 392 US spouse carers and 427 non-carers aged 66 to 96, 103 of the 819 people (12.6%) died within 4 years. The higher death rate was seen only in carers who reported mental or emotional strain (adjusted relative risk 1.63, 95% confidence interval 1.00 to 2.65, so borderline)."
+  },
+  {
+   "tmp_id": "C18-P01",
+   "where": "x",
+   "text": "Five later population studies found carers as a whole lived as long as, or longer than, non-carers. That does not show caring protects health, and carers still report more depression and anxiety.",
+   "problem": "The depression and anxiety finding comes from cross-sectional studies in the 2022 review; as written it reads as a general finding and loses the design limit.",
+   "source_says": "Janson 2022: 'In cross-sectional evaluations, informal caregiving seemed to be associated with a higher occurrence of depression and of anxiety'; cross-sectional studies cannot determine temporal relationships.",
+   "severity": "minor",
+   "replacement": "Five later population studies found carers as a whole lived as long as, or longer than, non-carers. That does not show caring protects health. In cross-sectional studies, carers also report more depression and anxiety."
+  },
+  {
+   "tmp_id": "C18-P01",
+   "where": "source_reply",
+   "text": "Janson et al., 2022 https://doi.org/10.3390/ijerph19105864",
+   "problem": "Journal missing, unlike the other two citations. DOI and PMID match.",
+   "source_says": "Int J Environ Res Public Health 2022;19(10):5864.",
+   "severity": "minor",
+   "replacement": "Janson et al., Int J Environ Res Public Health 2022 https://doi.org/10.3390/ijerph19105864"
   },
   {
    "tmp_id": "C18-P02",
-   "where": "bluesky",
-   "text": "Only 4 trials have tested respite breaks for carers of people with dementia",
-   "problem": "Present tense implies current count; the review dates from 2014 with no update found.",
-   "source_says": "Four trials are now included in the review (2014).",
+   "where": "x",
+   "text": "The evidence was rated very low quality, and taken together the trials did not show a clear benefit or harm for carers.",
+   "problem": "The review could not pool the trials, so 'taken together' wrongly implies a pooled estimate. The finding came from re-analysis of each trial's outcomes against no respite. (Same wording is in the LinkedIn caption and in the claim record's safe_wording.)",
+   "source_says": "'They were different in many ways ... so pooling of data was not possible.' 'Re-analysis ... found no significant effects of respite care compared to no respite care on any caregiver variable.' One comparison (n=38) favoured polarity therapy over respite for perceived stress.",
+   "severity": "major",
+   "replacement": "The evidence was rated very low quality. The trials were too different to combine, and the review found no significant effect of respite compared with no respite on any carer outcome."
+  },
+  {
+   "tmp_id": "C18-P02",
+   "where": "linkedin",
+   "text": "Taken together, the trials did not show a clear benefit or harm for carers, and the review had no usable outcomes for the people with dementia themselves.",
+   "problem": "Same 'taken together' problem: no pooling was possible.",
+   "source_says": "Pooling not possible; no studies reported evaluable data on outcomes for people with dementia.",
+   "severity": "major",
+   "replacement": "The trials were too different to combine. The review found no significant effect of respite compared with no respite on any carer outcome, and no usable outcomes for the people with dementia themselves."
+  },
+  {
+   "tmp_id": "C18-P02",
+   "where": "linkedin",
+   "text": "A 2026 systematic review of eight studies of respite programmes (three randomised trials and five other designs) found that they may be linked with better outcomes for carers.",
+   "problem": "Population omitted: the 2026 review covers carers of people with functional disability and dementia, not dementia alone, which sits beside a dementia-only Cochrane review.",
+   "source_says": "Title: 'respite care models for people with functional disability and dementia and their caregivers'; 'Home-based and day-care programs may be associated with improvements in caregiver outcomes'.",
    "severity": "minor",
-   "replacement": "A 2014 Cochrane review found only 4 trials of respite breaks for carers of people with dementia, and the evidence was very low quality."
+   "replacement": "A 2026 systematic review of eight studies of respite programmes for carers of people with disability or dementia (three randomised trials and five other designs) found that they may be linked with better outcomes for carers."
   },
   {
    "tmp_id": "C18-P03",
-   "where": "visual_text",
-   "text": "Our view: judge carer support first by the carer's health.",
-   "problem": "Posts are in Alasdair's first person; 'Our' implies an organisational position.",
-   "source_says": "n/a (judgement)",
+   "where": "x",
+   "text": "Six years on, carers who had the programme had fewer symptoms of anxiety and depression.",
+   "problem": "The result is an average difference across 72 months of follow-up, not a result at the six-year point alone. Same wording in the Threads caption ('six years on').",
+   "source_says": "'Over 72 months, compared with TAU, the intervention group had improved scores on HADS-T (adjusted mean difference -2.00 points, 95% CI -3.38 to -0.63).'",
    "severity": "minor",
-   "replacement": "My view: judge carer support first by the carer's health."
+   "replacement": "Over six years of follow-up, carers who had the programme had fewer symptoms of anxiety and depression."
+  },
+  {
+   "tmp_id": "C18-P03",
+   "where": "threads",
+   "text": "an eight-session coping programme left carers less anxious and depressed six years on (a modest average difference)",
+   "problem": "Same as X: average over 72 months, not a six-year-point result.",
+   "source_says": "Over 72 months adjusted mean difference -2.00 (-3.38 to -0.63).",
+   "severity": "minor",
+   "replacement": "an eight-session coping programme left carers less anxious and depressed over six years of follow-up (a modest average difference)"
+  },
+  {
+   "tmp_id": "C18-P03",
+   "where": "x",
+   "text": "A separate US trial of 406 spouse carers linked counselling and support with a later move to a nursing home: a model estimated the typical delay at about 18 months.",
+   "problem": "Unclear whose move: it is the nursing home placement of the person with Alzheimer disease. Also the 557 days is a model-predicted difference in median time, adjusted.",
+   "source_says": "Mittelman 2006: 'difference in model-predicted median time to placement was 557 days'; patients with Alzheimer disease.",
+   "severity": "minor",
+   "replacement": "A separate US trial of 406 spouse carers of people with Alzheimer disease linked counselling and support with a later nursing home move for the person with the disease: a model estimated the difference in median time at about 18 months."
+  },
+  {
+   "tmp_id": "C18-P03",
+   "where": "linkedin",
+   "text": "Two well-known trials of programmes for family carers of people with dementia give different answers.",
+   "problem": "'Give different answers' invites the head-to-head comparison the post later rules out; 'well-known' is unsourced.",
+   "source_says": "Claim record: different population, era and programme; do not compare head to head.",
+   "severity": "minor",
+   "replacement": "Two trials of programmes for family carers of people with dementia looked at different outcomes in different people."
+  },
+  {
+   "tmp_id": "C18-P04",
+   "where": "all",
+   "text": "Relief after a long period of caring is a common response",
+   "problem": "Title generalises a single US trial sample (self-reported) to carers in general.",
+   "source_says": "72% of 217 carers in one US sample said the death was a relief to them.",
+   "severity": "minor",
+   "replacement": "In one US study, most carers said the death was a relief after long, demanding care"
+  },
+  {
+   "tmp_id": "C18-P04",
+   "where": "x",
+   "text": "half had spent at least 46 hours a week on it in the year before the death.",
+   "problem": "The 46 hours refers to help with activities of daily living and instrumental activities, not all care tasks. Same wording in LinkedIn, Threads, visual text and alt text.",
+   "source_says": "'Half the caregivers reported spending at least 46 hours per week assisting patients with activities of daily living and instrumental activities of daily living.'",
+   "severity": "minor",
+   "replacement": "half had spent at least 46 hours a week helping with daily activities in the year before the death."
+  },
+  {
+   "tmp_id": "C18-P04",
+   "where": "x",
+   "text": "Feeling relief and grief together is understandable.",
+   "problem": "Judgement not in the source (the abstract does not report grief) and not marked as judgement in X, LinkedIn or Threads.",
+   "source_says": "Claim record: any statement about grief is judgement, not from this source.",
+   "severity": "minor",
+   "replacement": "Our judgement, not a finding: feeling relief and grief together is understandable."
+  },
+  {
+   "tmp_id": "C18-P05",
+   "where": "x",
+   "text": "A review of 15 randomised trials in older adults discharged to the community",
+   "problem": "The 15 included studies cover 13 unique study populations (two reports came from the same trial). '15 trials' overstates the number of independent trials. Same in Threads and LinkedIn ('15 trials, 4,361 patients').",
+   "source_says": "Full text: 'summarizes the details of the 15 ... RCTs. Two included studies reported different results from the same trial.' 'The 13 unique study populations included a total of 4361 patients.'",
+   "severity": "major",
+   "replacement": "A review of 15 randomised study reports (13 distinct trial populations) in older adults discharged to the community"
+  },
+  {
+   "tmp_id": "C18-P05",
+   "where": "linkedin",
+   "text": "(15 trials, 4,361 patients)",
+   "problem": "As above: 15 reports, 13 unique populations; 4,361 patients is the total across the 13 populations.",
+   "source_says": "13 unique study populations, 4,361 patients; 11 studies had readmission data (6 at 90 days, 5 at 180 days).",
+   "severity": "major",
+   "replacement": "(15 study reports covering 13 distinct trial populations, 4,361 patients)"
+  },
+  {
+   "tmp_id": "C18-P05",
+   "where": "threads",
+   "text": "A review of 15 randomised trials found",
+   "problem": "Same 15 versus 13 issue.",
+   "source_says": "13 unique study populations.",
+   "severity": "major",
+   "replacement": "A review of 15 randomised study reports (13 distinct trial populations) found"
+  },
+  {
+   "tmp_id": "C18-P05",
+   "where": "x",
+   "text": "Tested programmes often included a written care plan, links to community services, and showing the carer a task and having them show it back.",
+   "problem": "'Often' is generous for demonstrations (5 of 15) and teach-back (7 of 15). Same in visual text ('Steps 2 to 4 echo what tested programmes often included').",
+   "source_says": "13 of 15 linked carers to community resources; 9 of 15 had written care plans; 5 included live or video demonstration; 7 used teach-back. Authors note teach-back was less commonly reported.",
+   "severity": "minor",
+   "replacement": "Of the 15 studies, 13 linked carers to community services and 9 gave a written care plan. Seven used teach-back (the carer shows the task back) and five used demonstration."
+  },
+  {
+   "tmp_id": "C18-P05",
+   "where": "visual_text",
+   "text": "Steps 2 to 4 echo what tested programmes often included. Steps 1 and 5 are our suggestions.",
+   "problem": "As above: 'often' does not fit teach-back and demonstration.",
+   "source_says": "See above.",
+   "severity": "minor",
+   "replacement": "Steps 2 to 4 echo components used in some of the tested programmes. Steps 1 and 5 are our suggestions."
+  },
+  {
+   "tmp_id": "C18-P05",
+   "where": "alt_text",
+   "text": "Drawn hospital discharge bay: an older man in a chair with a walking frame, his daughter holding a folder, and a nurse showing her how to help him stand",
+   "problem": "Scene with specific people is not labelled as illustrative (compare C18-P06).",
+   "source_says": "STYLE 4/13: invented scenes must be clearly labelled.",
+   "severity": "minor",
+   "replacement": "Illustration, not a real case. Drawn hospital discharge bay: an older man in a chair with a walking frame, his daughter holding a folder, and a nurse showing her how to help him stand"
+  },
+  {
+   "tmp_id": "C18-P06",
+   "where": "all",
+   "text": "Home care workers (paid carers who visit people at home) in New York described losing both a close relationship and paid work when a client died, and felt that employers and society underestimated that loss.",
+   "problem": "'Often lose both a close relationship and a job' is a premise sentence in the abstract, not a finding; the finding is the authors' interpretation (from focus groups and peer interviews) that workers' grief is disenfranchised by employer and societal underestimation, particularly of job loss. 'Felt' attributes the authors' interpretation to the workers. Applies to X, LinkedIn, Threads, Bluesky, visual text and alt text.",
+   "source_says": "'When a client dies, home care workers often lose both a close relationship and a job.' [premise] ... 'Our findings suggest that home care workers' grief is disenfranchised via employer and societal underestimations of their relationships with clients and their losses when clients die, particularly job loss.'",
+   "severity": "major",
+   "replacement": "X/LinkedIn: 'In a New York City study using focus groups and peer interviews, the researchers concluded that home care workers' grief after a client's death often goes unrecognised by employers and society, particularly the loss of work that can follow.' Bluesky: 'In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work.' Threads: 'In a New York study, researchers concluded that employers and society underestimate home care workers' grief when a client dies, particularly the loss of work.' Visual and alt text: 'In a New York study, researchers concluded that home care workers' grief when a client died was underestimated by employers and society, particularly the loss of work.'"
+  },
+  {
+   "tmp_id": "C18-P06",
+   "where": "bluesky",
+   "text": "In England, workers valued experienced colleagues, managers acknowledging feelings, and for some, time off or a funeral invitation.",
+   "problem": "'Valued' and 'funeral invitation' go beyond the abstract (supportive elements; some were offered time off or encouraged to attend the funeral).",
+   "source_says": "'Supportive elements include receiving encouragement and learning from experienced peers and their feelings being acknowledged by managers... Some workers were offered time off or encouraged to attend the client's funeral.'",
+   "severity": "minor",
+   "replacement": "In England, interviews described experienced colleagues and managers acknowledging feelings as supportive, and for some, time off or encouragement to attend the funeral."
+  },
+  {
+   "tmp_id": "C18-P07",
+   "where": "all",
+   "text": "Ask the patient whom they are happy for information to go to, and record the answer for the next clinician.",
+   "problem": "For older people, many patients (for example with dementia) may lack capacity to decide who is told. The practice advice is incomplete without a pointer to capacity processes; the survey was of mental health services and gives no basis for this step. Applies to X, LinkedIn, Bluesky, Threads, visual and alt text.",
+   "source_says": "Survey of 159 carers of people with mental illness; says nothing about capacity or older people's services.",
+   "severity": "major",
+   "replacement": "Ask the patient whom they are happy for information to go to, and record the answer for the next clinician. If they cannot decide, follow your capacity and best-interests procedures. Add to LinkedIn list item 3: 'If the patient may lack capacity to decide, follow your capacity and best-interests procedures.'"
+  },
+  {
+   "tmp_id": "C18-P07",
+   "where": "linkedin",
+   "text": "The survey was in mental health services, not older people's services, and the sample was small and self-selected, so it may not describe our own settings.",
+   "problem": "The abstract says carers were 'affiliated with a support group in Ireland'; 'self-selected' and 'small' are inferences. Same 'self-selected' in X.",
+   "source_says": "Carers or family members of persons with mental illness 'who were affiliated with a support group in Ireland'; 18-item self-report questionnaire; 159 respondents.",
+   "severity": "minor",
+   "replacement": "The survey was in mental health services, not older people's services, and the carers were recruited through a support group, so it may not describe our own settings."
+  },
+  {
+   "tmp_id": "C18-P07",
+   "where": "linkedin",
+   "text": "A carer may have noticed changes that the team has not seen, and may want to say what worries them.",
+   "problem": "Unsourced general statement presented alongside the survey.",
+   "source_says": "Not in the source.",
+   "severity": "minor",
+   "replacement": "In our judgement, a carer may have noticed changes that the team has not seen, and may want to say what worries them."
+  },
+  {
+   "tmp_id": "C18-P08",
+   "where": "x",
+   "text": "a PubMed search found no study that tests whether having a plan changes what happens.",
+   "problem": "Absence claim; reproduced on re-check (PubMed searches 2026-10-08 found no study testing a carer emergency plan; one 2021 survey only counted caregivers who had a contingency plan). Acceptable, but should say it is an evidence gap, not evidence of no benefit. Same in LinkedIn.",
+   "source_says": "No trial or study of carer emergency plans found.",
+   "severity": "minor",
+   "replacement": "a PubMed search in 2026 found no study that tests whether having a plan changes what happens. That is a gap in the evidence, not evidence that plans do not help."
   }
  ],
  "posts_to_drop": []

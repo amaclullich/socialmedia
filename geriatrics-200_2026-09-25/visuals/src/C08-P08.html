@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C08-P08 Seeing the same GP</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script src="../design_system/chart.js"></script>
+<script>window.__ready = false;</script>
+<style>
+ .sec{font-family:Montserrat;font-weight:800;font-size:34px;line-height:1.25;color:var(--teal);margin-top:30px}
+ .note{font-size:30px;line-height:1.38;color:var(--ink-2);margin-top:14px}
+ .chart{margin-top:6px}
+ .chartsvg{display:block}
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <div class="kicker">9,324 people with dementia, England</div>
+  <h1 class="s">Seeing the same GP is <em>linked with fewer medicines</em></h1>
+  <div class="sec">Average medicines: most consistent GP 8.5, least consistent 9.7</div>
+  <div id="c1" class="chart"></div>
+  <div class="sec" style="margin-top:20px">Prescriptions often unsafe in older age: 2.1 and 2.5</div>
+  <div id="c2" class="chart"></div>
+  <p class="note">Averages before adjustment; smaller gap after adjustment. A link, not proof of cause.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Delgado et al., Br J Gen Pract 2022</span></div>
+</div>
+<div class="card dark" id="s2">
+ <div class="topline"><span class="series">What gets counted</span><span class="slidecount">2/2</span></div>
+ <div class="content center">
+  <h1>Ask to book with <em>the same GP</em> each time</h1>
+  <p class="lead">A named GP scheme was not followed by more continuity in England. Keep a note of who you saw.</p>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Tammes et al., BMJ Open 2019</span></div>
+</div>
+</div>
+<script>
+const o={max:10,width:920,valueRoom:150,barH:42,gap:40,ticks:[0,5,10]};
+barChart('#c1',[{label:'Most consistent GP',value:8.52,display:'8.5',colour:'a'},{label:'Least consistent GP',value:9.67,display:'9.7',colour:'b'}],o);
+barChart('#c2',[{label:'Most consistent GP',value:2.09,display:'2.1',colour:'a'},{label:'Least consistent GP',value:2.5,display:'2.5',colour:'b'}],o);
+window.__ready = true;
+</script></body></html>
