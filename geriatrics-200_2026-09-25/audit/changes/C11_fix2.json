@@ -1,0 +1,527 @@
+[
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.x",
+  "old": "That was the average gain from sleeping tablets in short trials of people aged 60 and over, as reported by the people taking them.",
+  "new": "That was the average gain from sleeping tablets, compared with a dummy pill, in short trials of people aged 60 and over, as reported by the people taking them.",
+  "reason": "Cold read item 3: say what the 25 minutes is measured against (dummy pill)."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.x",
+  "old": "In the same review, in 4 of the trials, for every 13 people who took a tablet, about 1 more rated their sleep quality as improved than with a dummy pill. For every 6, about 1 more had a side effect of any kind. These come from different trials and outcomes, so they are not the same people.",
+  "new": "In 4 of those trials, about 1 more person in 13 rated their sleep quality as improved with a tablet than with a dummy pill. In a different set of trials, about 1 more person in 6 had a side effect of any kind with a tablet than with a dummy pill. These are different trials and outcomes, so they do not describe the same people.",
+  "reason": "Cold read item 6: shorter sentences, subject first; comparator stated for both figures; same meaning and the not-the-same-people qualification kept."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.linkedin",
+  "old": "About 25 extra minutes of sleep a night. That was the average gain from sleeping tablets in a pooled analysis of 24 trials (2,417 people aged 60 and over) with insomnia. Sleep time was reported by the people taking the tablets, and treatment lasted from 5 nights to 9 weeks. Waking in the night fell by 0.63 wakings a night on average.",
+  "new": "About 25 extra minutes of sleep a night, compared with a dummy pill. That was the average gain from sleeping tablets in an analysis that combined 24 trials (2,417 people aged 60 and over) with insomnia. Sleep time was reported by the people taking the tablets. Treatment lasted from 5 nights to 9 weeks. Waking in the night fell by 0.63 wakings a night on average.",
+  "reason": "Comparator added (item 3); 'pooled analysis' replaced by plain words; long sentence split (item 6)."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.linkedin",
+  "old": "The authors also allowed for unpublished negative trials, and their corrected estimate of the gain was about 15 minutes.",
+  "new": "The authors also checked for missing trials that found no benefit. After that check, the gain was about 15 minutes.",
+  "reason": "Cold read item 2: statistician terms replaced (cold read fix wording)."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.linkedin",
+  "old": "Two more figures from the same review, to be read as a rough guide only. In 4 of the trials (1,072 people, testing zaleplon, brotizolam, nitrazepam or loprazolam), for every 13 people who took a tablet, about 1 more rated their sleep quality as improved than with a dummy pill (the range of uncertainty was about 7 to 63). For every 6, about 1 more had a side effect, most often drowsiness or tiredness, headache, nightmares or stomach upset.",
+  "new": "Two more figures from the same review, to be read as a rough guide only. In 4 of the trials (1,072 people), about 1 more person in 13 rated their sleep quality as improved with a tablet than with a dummy pill. The true figure could be anywhere from 1 in 7 to 1 in 63. The tablets tested were zaleplon, brotizolam, nitrazepam and loprazolam.\n\nIn a different set of trials, about 1 more person in 6 who took a tablet had a side effect than with a dummy pill, most often drowsiness or tiredness, headache, nightmares or stomach upset.",
+  "reason": "Cold read items 3 and 6: split into short sentences; range of uncertainty explained in plain words (1 in 7 to 1 in 63, i.e. NNT 6.7 to 62.9); side-effect comparator added."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.linkedin",
+  "old": "The trials are old (published to 2003) and short, and most tested benzodiazepines, a group of calming and sleeping tablets, and Z-drugs, a related group.",
+  "new": "The trials are old (published up to 2003) and short. Most tested benzodiazepines (a group of calming and sleeping tablets) and Z-drugs (a related group).",
+  "reason": "Sentence split; glosses moved into brackets."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.linkedin",
+  "old": "Other evidence points the same way. In a US study of care home residents, hip fractures were more likely",
+  "new": "A US study of care home residents found hip fractures were more likely",
+  "reason": "Cold read flag: 'points the same way' is figurative; stated literally."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.linkedin",
+  "old": "European and American guidelines recommend CBT for insomnia as the first treatment",
+  "new": "European and American guidelines recommend CBT for insomnia (a structured talking and sleep-scheduling treatment) as the first treatment",
+  "reason": "Cold read item 2: CBT explained (matches safe_wording C11-16-g)."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.bluesky",
+  "old": "sleeping tablets added about 25 minutes of sleep a night, self-reported. Memory problems, confusion and daytime tiredness were more common than with a dummy pill. Guidelines put CBT for insomnia, a talking treatment, first.",
+  "new": "sleeping tablets added about 25 minutes of sleep a night compared with a dummy pill, as reported by the people taking them. Memory problems, confusion and daytime tiredness were also more common. Guidelines recommend CBT for insomnia, a talking treatment, first.",
+  "reason": "Cold read item 3: comparator stated; 'put first' replaced by literal verb."
+ },
+ {
+  "tmp_id": "C11-P02",
+  "where": "captions.x",
+  "old": "This can be REM sleep behaviour disorder. Among 1,280 people in 24 specialist centres whose REM sleep behaviour disorder was confirmed by a sleep study and who did not yet have Parkinson's disease or dementia, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition. The estimate by 12 years was about 3 in 4. They were mostly men, and this is not a personal prognosis.",
+  "new": "This can be REM sleep behaviour disorder. In 24 specialist centres, 1,280 people had it confirmed by a sleep study. None yet had Parkinson's disease or dementia. About 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition, and the estimate for the whole 12 years was about 3 in 4. They were mostly men, and this is not a personal prognosis.",
+  "reason": "Cold read items 6 and 7: one long sentence split into who was studied and the result; yearly and 12-year figures linked by period so they read as consistent."
+ },
+ {
+  "tmp_id": "C11-P02",
+  "where": "captions.linkedin",
+  "old": "The numbers need care. In 1,280 people in 24 specialist centres whose REM sleep behaviour disorder was confirmed by a sleep study and who had no Parkinson's disease or dementia at the start, about 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition, and the estimated figure by 12 years was about 3 in 4 (average follow-up was 4.6 years). Most (82.5%) were men, and these are specialist-centre patients. It is not a personal prognosis for everyone who acts out dreams.",
+  "new": "The numbers need care. A study followed 1,280 people in 24 specialist centres. Each had REM sleep behaviour disorder confirmed by a sleep study. None had Parkinson's disease or dementia at the start.\n\nAbout 6 in 100 a year went on to develop Parkinson's disease, dementia with Lewy bodies or a related condition. The estimate for the whole 12 years was about 3 in 4. Average follow-up was 4.6 years.\n\nMost (82.5%) were men, and these are specialist-centre patients. This is not a personal prognosis for everyone who acts out dreams.",
+  "reason": "Cold read items 6 and 7: split into who was studied, the yearly figure and the 12-year figure, with the two figures tied to period."
+ },
+ {
+  "tmp_id": "C11-P02",
+  "where": "captions.linkedin",
+  "old": "In one small specialist cohort, people whose symptoms came with antidepressants still had abnormalities on tests of nerve-cell loss, although their five-year risk of going on to develop Parkinson's disease or dementia was lower than in people without antidepressants (22 in 100 against 59 in 100). So a medicines review should not end the assessment.",
+  "new": "In one small specialist cohort, some people's symptoms came with antidepressants. They still had abnormalities on tests of nerve-cell loss. Their five-year risk of Parkinson's disease or dementia was 22 in 100, against 59 in 100 in people without antidepressants. So a medicines review should not end the assessment.",
+  "reason": "Cold read item 3: groups and direction made explicit; 70-word sentence split."
+ },
+ {
+  "tmp_id": "C11-P02",
+  "where": "captions.linkedin",
+  "old": "We should offer the conversation about what it may mean with time, honesty about uncertainty and follow-up. A recent review found that patients and professionals both see it as essential, and professionals find individual prognosis hard to give.",
+  "new": "We should give people time to talk through what a diagnosis may mean, book a follow-up visit, and say clearly that the future is uncertain. A recent review found that patients and professionals both see this conversation as essential, and professionals find individual prognosis hard to give.",
+  "reason": "Cold read item 5: abstract close replaced by concrete acts (still marked as judgement with 'We should'; matches C11-21-g)."
+ },
+ {
+  "tmp_id": "C11-P02",
+  "where": "captions.threads",
+  "old": "In specialist centres, about 6 in 100 confirmed cases a year went on to develop Parkinson's disease or Lewy body dementia, but that is not a prognosis for everyone who acts out dreams: in a Swiss study, 21 of 368 who reported it had the disorder.\n\nRefer, make the bedroom safe, review medicines.",
+  "new": "In specialist centres, about 6 in 100 confirmed cases a year went on to develop Parkinson's disease or Lewy body dementia. That is not a prognosis for everyone who acts out dreams. In a Swiss study, only 21 of 368 people who reported it had the disorder.\n\nIf in doubt, refer for a sleep study. Make the bedroom safe. Review medicines.",
+  "reason": "Cold read item 6 and flag: long sentence split; 'Refer' now says to what."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.x",
+  "old": "were far more likely to have stopped six months later: about 27 in 100, against about 5 in 100 with usual care. A further 11 in 100 had cut their dose.",
+  "new": "were far more likely to have stopped six months later. About 27 in 100 had stopped, against about 5 in 100 given usual care (no booklet). A further 11 in 100 had cut their dose.",
+  "reason": "Cold read item 6: split; 'usual care' made concrete."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.x",
+  "old": "Read it with care. Stopped meant no more pharmacy refills. In a second Quebec trial, 29 of 77 people who tried to taper reported withdrawal symptoms, though none needed hospital care. Mailing information to people with dementia and their prescribers did not reduce use of high-risk medicines, including sedatives, in a large US trial.",
+  "new": "The result has limits. Stopped meant no more pharmacy refills. In a second Quebec trial, 29 of 77 people who tried to cut down slowly reported withdrawal symptoms, though none needed hospital care. Mail alone has not always worked: in a large US trial, mailing information to people with dementia and their prescribers did not reduce use of high-risk medicines, including sedatives.",
+  "reason": "Cold read item 2 and flags: 'taper' replaced; stock phrase 'Read it with care' replaced; US trial linked to the Quebec result so it does not read as a contradiction (per C11-03-f safe wording)."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.linkedin",
+  "old": "A second Quebec trial, in which pharmacists were encouraged to send patients a brochure and to send their doctors a recommendation to stop, found something similar among people taking sleeping tablets or similar sedatives: 43 in 100 had stopped at 6 months, against 9 in 100 with usual care.",
+  "new": "A second Quebec trial encouraged pharmacists to send patients a brochure and to send their doctors a recommendation to stop. Among people taking sleeping tablets or similar sedatives, 43 in 100 had stopped at 6 months, against 9 in 100 with usual care.",
+  "reason": "Cold read item 6: split."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.linkedin",
+  "old": "The limits, for anyone planning this. Stopped meant no more pharmacy refills, not confirmed abstinence. Cutting down can be uncomfortable. In the second trial, 29 of 77 people who tried to taper reported withdrawal symptoms,",
+  "new": "There are limits for anyone planning this. Stopped meant no more pharmacy refills, not confirmed that the person had stopped taking the tablets. Cutting down can be uncomfortable. In the second trial, 29 of 77 people who tried to cut down slowly reported withdrawal symptoms,",
+  "reason": "Cold read item 2: 'abstinence' and 'taper' replaced; fragment lead-in replaced."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.linkedin",
+  "old": "Differences in population, delivery and health system may explain this.",
+  "new": "The people studied (all with dementia), the delivery (mail only, with no pharmacist enrolling them) and the health system all differed. Any of these may explain the difference; this was not tested directly.",
+  "reason": "Cold read flag: vague sentence made specific, using the uncertainty stated in C11-03-f."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.threads",
+  "old": "Older people given a booklet on the risks of long-term benzodiazepines (calming and sleeping tablets) and a plan for cutting down were more likely to have stopped at 6 months: about 27 in 100, against 5 in 100 with usual care. This was a Quebec pharmacy trial; stopped meant no more refills.",
+  "new": "Older people were given a booklet on the risks of long-term benzodiazepines (calming and sleeping tablets) and a plan for cutting down. At 6 months about 27 in 100 had stopped, against 5 in 100 given usual care (no booklet). This was a Quebec pharmacy trial; stopped meant no more refills.",
+  "reason": "Cold read item 6 and flag: split; 'usual care' made concrete."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.x",
+  "old": "The study was small: 38 adults aged 18 to 80 with mild to moderately severe hearing loss, so not only older people, tested in deep sleep only. It did not say whether hearing aids were worn.",
+  "new": "The study was small: 38 adults aged 18 to 80 with mild to moderately severe hearing loss. The group included younger adults. They were tested in deep sleep only. It did not say whether hearing aids were worn.",
+  "reason": "Cold read item 6: split."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.linkedin",
+  "old": "A trial that set out to test this recruited only 63 of a planned 1,156 people and could not run its planned analyses; its authors concluded the evidence remains inconclusive.",
+  "new": "A trial set out to test this. It recruited only 63 of a planned 1,156 people and could not run its planned analyses. Its authors concluded the evidence remains inconclusive.",
+  "reason": "Cold read item 6: split."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.threads",
+  "old": "A lower-pitched alarm woke 92 in 100, a vibrating pad 80 to 84, a flashing light 27.",
+  "new": "A lower-pitched alarm woke 92 in 100, a vibrating pad 80 to 84 in 100, a flashing light 27 in 100.",
+  "reason": "Cold read item 3: counted noun missing."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.linkedin",
+  "old": "Slow tapering, agreed with a doctor or pharmacist, is the approach that was tested.",
+  "new": "Cutting down slowly, with a plan agreed with a doctor or pharmacist, is the approach that was tested.",
+  "reason": "Consistency with the cold read fix for 'taper' (plain wording across the whole caption)."
+ },
+ {
+  "tmp_id": "C11-P05",
+  "where": "captions.x",
+  "old": "The comparison group in a large English insomnia trial got a sleep hygiene booklet: advice on caffeine, alcohol, a dark room and screens. People who also had four sessions of sleep restriction therapy from a practice nurse (time in bed matched to time asleep) had less severe insomnia at 6 months: an average score of 10.9 against 13.9 on a 0 to 28 scale. The treatment was likely to be good value for the NHS.",
+  "new": "In a large English insomnia trial, everyone got a sleep hygiene booklet: advice on caffeine, alcohol, a dark room and screens. Some people also had four sessions of sleep restriction therapy from a practice nurse (time in bed matched to time asleep). At 6 months their insomnia was less severe: an average score of 10.9, against 13.9 for booklet only, on a 0 to 28 scale where lower is less severe. The treatment was likely to be good value for the NHS.",
+  "reason": "Cold read item 6 and flag: treatment named before the comparison group; split; scale direction stated."
+ },
+ {
+  "tmp_id": "C11-P05",
+  "where": "captions.x",
+  "old": "(a conditional recommendation). Offer the active parts.",
+  "new": "(a conditional recommendation). Offer sleep restriction therapy or other behavioural treatment, not the booklet alone.",
+  "reason": "Cold read item 5: 'active parts' undefined; replaced by a concrete act."
+ },
+ {
+  "tmp_id": "C11-P05",
+  "where": "captions.linkedin",
+  "old": "It strongly recommends full multicomponent CBT for insomnia, and suggests stimulus control, sleep restriction or relaxation therapy as single treatments.",
+  "new": "It strongly recommends full multicomponent CBT for insomnia. It suggests stimulus control, sleep restriction or relaxation therapy as single treatments.",
+  "reason": "Cold read item 6: split."
+ },
+ {
+  "tmp_id": "C11-P05",
+  "where": "captions.threads",
+  "old": "(score 10.9 against 13.9 on a 0 to 28 scale)",
+  "new": "(average score 10.9 against 13.9 on a 0 to 28 scale, lower being better)",
+  "reason": "Cold read item 3: direction of scale added."
+ },
+ {
+  "tmp_id": "C11-P05",
+  "where": "captions.threads",
+  "old": "A leaflet is a starting point. Offer the active parts.",
+  "new": "Offer sleep restriction or other behavioural treatment, not the leaflet alone.",
+  "reason": "Cold read item 5: 'active parts' undefined; leaflet metaphor removed (flag)."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "captions.x",
+  "old": "It advises checking ferritin and transferrin saturation in everyone with troublesome restless legs, and offering iron if ferritin is 75 or below or transferrin saturation is under 20%. Those cut-offs are expert consensus and have not been tested directly.",
+  "new": "It advises checking ferritin and transferrin saturation in everyone with troublesome restless legs. It advises offering iron if ferritin is 75 or below (ng/mL, the same as micrograms per litre), or transferrin saturation is under 20%. Those cut-offs are expert consensus and have not been tested directly.",
+  "reason": "Cold read item 6 and flag: split; ferritin units added (C11-22-a qualification)."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "captions.x",
+  "old": "It strongly recommends gabapentin and pregabalin (and, with appropriate iron status, intravenous iron). In older people",
+  "new": "It strongly recommends gabapentin and pregabalin, and intravenous iron where iron status is appropriate. In older people",
+  "reason": "Nested bracket removed for first-reading clarity."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "captions.linkedin",
+  "old": "The guideline strongly recommends gabapentin and pregabalin (and, with appropriate iron status, intravenous iron) and conditionally advises against pramipexole, ropinirole and rotigotine as standard treatment. The reason",
+  "new": "The guideline strongly recommends gabapentin and pregabalin, and intravenous iron where iron status is appropriate. It conditionally advises against pramipexole, ropinirole and rotigotine as standard treatment. The reason",
+  "reason": "Cold read item 6: split (cold read fix wording)."
+ },
+ {
+  "tmp_id": "C11-P07",
+  "where": "captions.x",
+  "old": "Read it with care. It was one trial at one site, and more than 8 in 10 were White. More people in the CBT group dropped out of follow-up: 73 in 100 completed 2 years, against 87 in 100. Only just over half completed 3 years. Promising, not settled.",
+  "new": "The trial has limits. It was one trial at one site, and more than 8 in 10 were White. More people in the CBT group dropped out of follow-up: 73 in 100 of the CBT group completed 2 years, against 87 in 100 of the sleep education group. Only just over half in each group completed 3 years.\n\nInsomnia in later life is worth treating with CBT for insomnia. Whether that lowers the chance of depression needs more trials.",
+  "reason": "Cold read items 3 and 5 and flags: groups named; stock phrase replaced; slogan close replaced by a concrete close."
+ },
+ {
+  "tmp_id": "C11-P07",
+  "where": "captions.linkedin",
+  "old": "The main analysis was time to first episode: the risk over time was about half as high with CBT (hazard ratio 0.51, 95% confidence interval 0.29 to 0.88, so the true reduction could be smaller or larger). The 12 and 26 in 100 are crude proportions of everyone randomised.",
+  "new": "The main analysis was time to first episode. The risk over time was about half as high with CBT (hazard ratio 0.51). The true reduction could be smaller or larger (95% confidence interval 0.29 to 0.88). The 12 and 26 in 100 are simple proportions of everyone randomised, without adjustment for time.",
+  "reason": "Cold read items 2 and 6: split; 'crude proportions' explained."
+ },
+ {
+  "tmp_id": "C11-P07",
+  "where": "captions.linkedin",
+  "old": "What limits it:",
+  "new": "Three things to know about this trial:",
+  "reason": "Cold read flag: list item 3 is not a limit on the depression result, so the lead-in is now neutral."
+ },
+ {
+  "tmp_id": "C11-P07",
+  "where": "captions.bluesky",
+  "old": "One trial of 291 people aged 60+ with insomnia: over up to 3 years, 12 in 100 who had CBT for insomnia developed major depression, against 26 in 100 who had sleep education. One site, uneven drop-out. Promising, not settled.",
+  "new": "One trial of 291 people aged 60+ with insomnia: over up to 3 years, 12 in 100 who had CBT for insomnia (a talking and sleep-scheduling treatment) developed major depression, against 26 in 100 who had sleep education. One site, and more drop-out from the CBT group. It needs more trials.",
+  "reason": "Cold read item 2 and flags: CBT explained; 'drop-out' clarified; slogan close replaced."
+ },
+ {
+  "tmp_id": "C11-P07",
+  "where": "captions.threads",
+  "old": "One trial of 291 people aged 60 and over with insomnia: over up to 3 years, 12 in 100 who had CBT for insomnia developed major depression, against 26 in 100 who had sleep education.\n\nOne site, more than 8 in 10 White, and more drop-out in the CBT group (73 against 87 in 100 completed 2 years). Promising, not settled.",
+  "new": "In one trial of 291 people aged 60 and over with insomnia, 12 in 100 who had CBT for insomnia (a structured talking and sleep-scheduling treatment) developed major depression over up to 3 years, against 26 in 100 who had sleep education.\n\nOne site, more than 8 in 10 White, and more drop-out in the CBT group: 73 in 100 of the CBT group completed 2 years, against 87 in 100 of the sleep education group. It is a reason to offer CBT for insomnia and a reason for more trials.",
+  "reason": "Cold read items 2, 3, 5: CBT explained, groups named, empty close replaced; opening reworded so it no longer repeats the Bluesky opening (flag)."
+ },
+ {
+  "tmp_id": "C11-P08",
+  "where": "captions.linkedin",
+  "old": "The recommendations are graded weak, and the evidence for the painkiller statement is graded low. CPAP is not an alternative to appropriate monitoring.",
+  "new": "The guideline calls these recommendations weak, and rates the evidence for the painkiller statement as low. Staff still need to monitor breathing in people who use CPAP.",
+  "reason": "Cold read item 2 and flag: guideline grading jargon replaced; jargon negation replaced (meaning from C11-10-b: PAP is not an alternative to appropriate monitoring)."
+ },
+ {
+  "tmp_id": "C11-P08",
+  "where": "captions.linkedin",
+  "old": "A second SASM guideline, on care during surgery, says strong painkillers such as morphine-type drugs, and intravenous sedatives of the benzodiazepine type, may make breathing problems more likely in people with sleep apnoea.",
+  "new": "A second SASM guideline covers care during surgery. It says strong painkillers such as morphine-type drugs may make breathing problems more likely in people with sleep apnoea. It says the same of sedatives of the benzodiazepine type given into a vein.",
+  "reason": "Cold read item 6: split."
+ },
+ {
+  "tmp_id": "C11-P08",
+  "where": "captions.threads",
+  "old": "Anaesthesia and sleep specialists advise keeping it up around a planned operation.",
+  "new": "Anaesthesia and sleep specialists advise using it before and after a planned operation.",
+  "reason": "Cold read flag: 'keeping it up' is figurative and ambiguous."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "captions.x",
+  "old": "Melatonin (up to 10 mg) may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials lasting 8 to 10 weeks. The evidence is limited and no serious side effects were reported. That does not mean nothing helps: the same review found some evidence of benefit for other medicines.\n\nIn people with insomnia and other sleep problems, adults and children together, melatonin helped people fall asleep about 7 minutes sooner and sleep about 8 minutes longer than a dummy pill, on average.",
+  "new": "Melatonin (up to 10 mg) may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials lasting 8 to 10 weeks. So decide what would count as success before trying it. The evidence is limited and no serious side effects were reported. The same review found some evidence of benefit for other medicines.\n\nIn a review of adults and children with insomnia and other sleep problems, melatonin helped people fall asleep about 7 minutes sooner than a dummy pill. They slept about 8 minutes longer. These are averages.",
+  "reason": "Cold read items 1 and 6 and flags: single point stated (little or no difference, so set a test of success), negation-then-correction removed, long sentence split."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "captions.x",
+  "old": "Before a trial of melatonin, decide what would count as success and when you will stop if it has not helped.\n\nMore Weighing it up posts take one treatment decision at a time.",
+  "new": "Before a trial of melatonin, decide when you will stop if it has not helped.",
+  "reason": "Cold read item 5: series promotion removed so the post ends on the act (success criterion now in the opening)."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "captions.threads",
+  "old": "Melatonin may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials. In adults and children together with insomnia and other sleep problems, the average gain was about 7 minutes quicker to sleep and 8 minutes more of it.\n\nSupplements tested in the US and Canada often did not match the label.\n\nDecide what counts as success and when you will stop if it has not helped.",
+  "new": "Melatonin may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials. Decide what counts as success and when you will stop if it has not helped.\n\nIn adults and children with insomnia and other sleep problems, melatonin helped people fall asleep about 7 minutes sooner and sleep about 8 minutes longer than a dummy pill.\n\nSupplements tested in the US and Canada often did not match the label: in one US study, 22 of 25 gummies were wrongly labelled.",
+  "reason": "Cold read items 1 and 3 and flag: one point plus the act together, comparator added, size given for the label problem (C11-24-d)."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.x",
+  "old": "How is continence care given to someone who is asleep?",
+  "new": "How is continence care (help for someone with bladder or bowel leaks) given to someone who is asleep?",
+  "reason": "Cold read item 2: 'continence care' explained."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.x",
+  "old": "Why these? In US nursing home studies of residents with incontinence, a wet episode was linked with about 4 in 100 night-time awakenings, and awakenings caused by the light and noise of continence care fell when care was individualised. That individualised care set each person's checks by their own skin risk and gave care when they were already awake, with no harm to skin.",
+  "new": "These questions come from US nursing home studies of residents with incontinence. A wet episode was linked with about 4 in 100 night-time awakenings, and the light and noise of night-time checks were linked with waking. In the studies, care set each person's checks by their own skin risk and gave care when they were already awake. Waking caused by care fell, and skin was not harmed.",
+  "reason": "Cold read item 6 and flags: setup question removed; hard-to-parse clause and long sentence split; meaning kept (C11-27-c)."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.x",
+  "old": "These questions are about a home's plan, not blame for night staff.",
+  "new": "Ask the home to explain its plan for the night, and ask who is responsible for it.",
+  "reason": "Cold read item 5: negation close replaced by an act."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": "2. How is continence care given to someone who is asleep?",
+  "new": "2. How is continence care (help for someone with bladder or bowel leaks) given to someone who is asleep?",
+  "reason": "Cold read item 2: continence care explained."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": "In another US trial (267 residents with incontinence in eight nursing homes), staff feedback on noise, noise abatement and less disruptive night continence care reduced noise and light changes. It reduced awakenings linked with light, and with noise plus light, but did not improve most other measures of sleep.",
+  "new": "Another US trial included 267 residents with incontinence in eight nursing homes. Staff were given feedback on noise, tried to reduce noise, and gave less disruptive night continence care. Noise and light changes fell. Awakenings linked with light, and with noise plus light, also fell, but most other measures of sleep did not improve.",
+  "reason": "Cold read items 2 and 6: 'noise abatement' replaced; split into short sentences."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": "The fourth question is about choice. No evidence here shows that it changes sleep.",
+  "new": "The fourth question is about choice. The studies did not test whether it changes sleep.",
+  "reason": "Cold read flag: negation-then-correction shape removed."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.linkedin",
+  "old": "These are questions about a home's plan, not blame for night staff.",
+  "new": "Ask the home to explain its plan for the night, and ask who is responsible for it.",
+  "reason": "Cold read item 5: negation close replaced by an act."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.bluesky",
+  "old": "Ask a care home about the night: how are checks planned for each person, how is continence care done for someone asleep, how are noise and lights kept down, and who decides bedtimes? Small US studies in residents with incontinence: checks set by skin risk cut care-related waking with no skin harm.",
+  "new": "Ask a care home about the night. How are checks planned for each person? How is help with bladder or bowel leaks given to someone asleep? How are noise and lights kept down? Who decides bedtimes? In small US studies, checks set by skin risk cut care-related waking with no skin harm.",
+  "reason": "Cold read items 2 and 6: four short questions; 'continence care' replaced by plain words."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.threads",
+  "old": "How is continence care given to someone asleep?",
+  "new": "How is help with bladder or bowel leaks given to someone asleep?",
+  "reason": "Cold read item 2: 'continence care' replaced."
+ },
+ {
+  "tmp_id": "C11-P10",
+  "where": "captions.threads",
+  "old": "In small US studies of residents with incontinence, checks set by each person's skin risk cut care-related waking with no adverse change in skin health over the study period. Some checks are needed. These are questions about a plan, not blame.",
+  "new": "In small US studies of residents with incontinence, checks were set by each person's skin risk. Waking caused by care fell. Skin health did not get worse over the study period. Some checks are needed. Ask the home to explain its plan for the night.",
+  "reason": "Cold read items 5 and 6 and flag: split; clinical phrasing simplified; negation close replaced by an act."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.x",
+  "old": "CBT for insomnia can be delivered by phone. In a US trial",
+  "new": "CBT for insomnia (a structured talking and sleep-scheduling treatment) can be delivered by phone. In a US trial",
+  "reason": "CBT explained at first use."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.x",
+  "old": "56 in 100 in the phone group had no clinically significant insomnia, against 26 in 100 in the information group.",
+  "new": "56 in 100 in the phone group had insomnia that was no longer bad enough to count as a clinical problem, against 26 in 100 in the information group.",
+  "reason": "Cold read item 2: jargon replaced."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.x",
+  "old": "CBT for insomnia, a structured talking and sleep-scheduling treatment, is the recommended first treatment for long-term insomnia. In a national study of people living at home in England, the authors' estimate was that about 79 in 100 people aged 60 and over used the internet at all in 2020, so about 1 in 5 did not. A route that needs the internet leaves them out. That is a judgement; the trial did not compare phone with online delivery, and people also kept sleep diaries and had written materials.",
+  "new": "CBT for insomnia is the recommended first treatment for long-term insomnia. A national study of people living at home in England estimated that about 79 in 100 people aged 60 and over used the internet at all in 2020. So about 1 in 5 did not. A route that needs the internet leaves them out. This is an argument, not a test result: the trial did not compare phone with online delivery, and people also kept sleep diaries and had written materials.",
+  "reason": "Cold read item 6 and flag: split; vague 'judgement' aside replaced."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": "CBT for insomnia can be delivered by phone. In a US trial",
+  "new": "CBT for insomnia (a structured talking and sleep-scheduling treatment) can be delivered by phone. In a US trial",
+  "reason": "CBT explained at first use."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": "had no clinically significant insomnia, against 26 in 100 (33 of 128) in the information group.",
+  "new": "had insomnia no longer bad enough to count as a clinical problem, against 26 in 100 (33 of 128) in the information group.",
+  "reason": "Cold read item 2: jargon replaced."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": "CBT for insomnia, a structured talking and sleep-scheduling treatment, is the initial treatment recommended for long-term insomnia by the American College of Physicians, and is strongly recommended by the American Academy of Sleep Medicine. A route to it that needs the internet misses many older people. In a national study of people living at home in England, the authors' estimate was that about 79 in 100 people aged 60 and over used the internet at all in 2020, so about 1 in 5 did not. Daily use was lower in the oldest age groups, in more deprived areas and among lonelier people. Care home residents were not included, and the real figure is probably higher.",
+  "new": "CBT for insomnia is the initial treatment recommended for long-term insomnia by the American College of Physicians, and is strongly recommended by the American Academy of Sleep Medicine. In a national study of people living at home in England, the authors estimated that about 79 in 100 people aged 60 and over used the internet at all in 2020. So about 1 in 5 did not. Daily use was lower in the oldest age groups, in more deprived areas and among lonelier people. Care home residents were not included, and the real share of people offline is probably higher. A route to CBT for insomnia that needs the internet leaves these people out.",
+  "reason": "Cold read items 2 and 6 and flags: figure given before the claim it supports; split; 'the real figure' now says which figure."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": " Pain improved after treatment, but the difference was not sustained at a year.",
+  "new": "",
+  "reason": "Cut for length and focus (cold read flag: tangents); keeps the LinkedIn caption near the 2,200-character guide after the added glosses. The pain result is not needed for the post's point."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.linkedin",
+  "old": "In England, a trial showed practice nurses can deliver sleep restriction therapy, a core part of CBT for insomnia, in four sessions.",
+  "new": "In England, a trial showed practice nurses can deliver sleep restriction therapy (limiting time in bed to time asleep), a core part of CBT for insomnia, in four sessions.",
+  "reason": "Cold read item 2: sleep restriction therapy explained."
+ },
+ {
+  "tmp_id": "C11-P12",
+  "where": "captions.linkedin",
+  "old": "The evidence is from reviews and a case series of 8, not a randomised trial of timing, so this is a question for the prescriber the next day, not an overnight change.",
+  "new": "The evidence is from reviews and a case series of 8, not a randomised trial of timing. So raise it with the prescriber the next day. Do not change it overnight.",
+  "reason": "Cold read item 6: split."
+ },
+ {
+  "tmp_id": "C11-P12",
+  "where": "captions.threads",
+  "old": "tablets added only about 25 minutes of self-reported sleep on average, with more confusion and daytime tiredness.",
+  "new": "tablets added only about 25 minutes of self-reported sleep on average compared with a dummy pill, with more confusion and daytime tiredness.",
+  "reason": "Cold read item 3: comparator missing."
+ },
+ {
+  "tmp_id": "C11-P01",
+  "where": "captions.threads",
+  "old": "In short trials of people aged 60 and over, sleeping tablets added about 25 minutes of sleep a night on average, self-reported.\n\nMemory problems, confusion and daytime tiredness were more common than with a dummy pill. For every 6 people who took one, about 1 more had a side effect of any kind (a rough guide, from different trials than the sleep figures).\n\nGuidelines recommend CBT for insomnia, a talking treatment, first for long-term insomnia. If a tablet is offered, ask what gain to expect.",
+  "new": "In short trials of people aged 60 and over, sleeping tablets added about 25 minutes of sleep a night on average compared with a dummy pill, self-reported.\n\nMemory problems, confusion and daytime tiredness were also more common. About 1 more person in 6 had a side effect of any kind than with a dummy pill (a rough guide, from different trials).\n\nGuidelines recommend CBT for insomnia, a talking treatment, first for long-term insomnia. If a tablet is offered, ask what gain to expect.",
+  "reason": "Cold read item 3: dummy-pill comparison stated for the 25 minutes and for the side effects; wording tightened to stay within 500 characters."
+ },
+ {
+  "tmp_id": "C11-P03",
+  "where": "captions.bluesky",
+  "old": "In a Quebec trial, older people given a booklet on the risks of long-term benzodiazepines and a plan for cutting down were more likely to have stopped refilling at 6 months: 27 in 100 against 5 in 100 with usual care. Ask your pharmacist for the risks in writing and a slow, agreed plan.",
+  "new": "In a Quebec trial, older people got a booklet on the risks of long-term benzodiazepines (calming and sleeping tablets) and a plan for cutting down. At 6 months, 27 in 100 had stopped refilling them, against 5 in 100 given usual care. Ask your pharmacist for the risks in writing and a slow plan.",
+  "reason": "Cold read items 2 and 6: benzodiazepines explained; sentence split; 'stopped refilling' caveat kept; trimmed to 300 characters."
+ },
+ {
+  "tmp_id": "C11-P04",
+  "where": "captions.bluesky",
+  "old": "In a sleep lab, a standard smoke alarm woke 56 in 100 adults with hearing loss from deep sleep; lower-pitched 92, a vibrating pad 80 to 84, a flashing light 27. Small study, ages 18 to 80; hearing aid use not stated. If you sleep without them, ask your fire service about a vibrating pad alarm.",
+  "new": "In a sleep lab, a standard smoke alarm woke 56 in 100 adults with hearing loss from deep sleep. A lower-pitched alarm woke 92 in 100, a vibrating pad 80 to 84 in 100, a flashing light 27 in 100. Small study, ages 18 to 80. If you sleep without hearing aids, ask fire services about vibrating pads.",
+  "reason": "Cold read items 3 and 6: split into two sentences; counted noun 'in 100' given at the start of the second sentence and carried through the list; 'them' made explicit. 'Hearing aid use not stated' dropped for length; the conditional 'if you sleep without hearing aids' avoids claiming what participants did."
+ },
+ {
+  "tmp_id": "C11-P05",
+  "where": "captions.bluesky",
+  "old": "In a large English trial the comparison group got a sleep hygiene booklet; four nurse sessions of sleep restriction did better (score 10.9 against 13.9; mean age 55). In a small US trial of 79 older adults, behavioural treatment beat printed information at 4 weeks: 2 in 3 responded against 1 in 4.",
+  "new": "In a large English trial all got a sleep hygiene booklet. Four nurse sessions of sleep restriction did better: insomnia score 10.9 against 13.9, lower being better. In a small US trial of 79 older adults, behavioural treatment beat printed information at 4 weeks: 2 in 3 responded against 1 in 4.",
+  "reason": "Cold read items 3 and 6: comparison group and result in separate sentences; scale direction added. 'Mean age 55' dropped for length; the small older-adult US trial remains and the full age caveat stays in the other three versions."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "captions.bluesky",
+  "old": "Restless legs in an older person: check ferritin and medicines first. 2025 US guideline (AASM): iron if ferritin is 75 or below, even if the result looks normal (untested consensus); conditionally advises against pramipexole and ropinirole as standard. Weigh gabapentinoid sleepiness and dizziness.",
+  "new": "Restless legs in an older person: check ferritin and medicines first. The 2025 US guideline (AASM) advises iron if ferritin is 75 or below, even if the result looks normal; this cut-off is untested consensus. It advises against pramipexole and ropinirole as standard treatment.",
+  "reason": "Cold read item 6 and flag: split into short sentences, nested bracket and 'conditionally advises against' jargon removed. Gabapentin sleepiness warning dropped for length; it stays in the X, LinkedIn and Threads versions."
+ },
+ {
+  "tmp_id": "C11-P06",
+  "where": "captions.threads",
+  "old": "Restless legs: a ferritin normal by the usual standard can still be low enough for iron to help. The 2025 US guideline (AASM) suggests iron if ferritin is 75 or below or transferrin saturation is under 20%; those cut-offs are untested consensus.\n\nCheck for aggravators, such as sedating antihistamines and some antidepressants. It advises against pramipexole and ropinirole as standard treatment, because of augmentation.",
+  "new": "Restless legs: a ferritin normal by the usual standard can still be low enough for iron to help. The 2025 US guideline suggests iron if ferritin is 75 or below or transferrin saturation is under 20%; those cut-offs are untested consensus.\n\nCheck for aggravators, such as sedating antihistamines. The guideline advises against pramipexole and ropinirole as standard treatment, because of augmentation (symptoms starting earlier and spreading).\n\nCheck ferritin and the medicines list before you treat.",
+  "reason": "Cold read items 2 and 5 and flag: augmentation explained; 'It' replaced by 'The guideline'; close is now an act."
+ },
+ {
+  "tmp_id": "C11-P08",
+  "where": "captions.bluesky",
+  "old": "If you use a CPAP machine for sleep apnoea, take it to hospital: machine, mask, tubing and power lead. Specialists advise keeping it up around a planned operation, and strong painkillers may worsen breathing problems in sleep apnoea. Tell the staff you use it.",
+  "new": "If you use a CPAP machine for sleep apnoea (breathing that repeatedly stops and starts in sleep), take it to hospital with the mask, tubing and power lead. Specialists advise using it before and after a planned operation. Strong painkillers may worsen breathing problems in sleep apnoea. Tell staff.",
+  "reason": "Cold read items 2 and 6 and flag: sleep apnoea explained; split into separate sentences; 'keeping it up' replaced by literal wording."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "captions.bluesky",
+  "old": "Melatonin may make little or no difference to sleep in people with Alzheimer's, in trials. In adults and children with other sleep problems, the gain averaged about 7 minutes quicker to sleep. Tested US and Canadian supplements often missed the label. Decide what counts as success and when to stop.",
+  "new": "Melatonin may make little or no difference to sleep in people with Alzheimer's disease, in trials. Decide what counts as success and when to stop. In other sleep problems, adults and children fell asleep about 7 minutes sooner than with a dummy pill. Many tested supplements did not match the label.",
+  "reason": "Cold read items 1 and 3 and flag: one point plus the act kept together; dummy-pill comparator added; 'missed the label' replaced by plain wording. 'US and Canadian' dropped for length (the region is stated in the X, LinkedIn and Threads versions)."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.bluesky",
+  "old": "CBT for insomnia by phone helped older adults with insomnia and osteoarthritis pain in a US trial: at a year, among those followed up, 56 in 100 had no clinically significant insomnia against 26 in 100 given information. About 1 in 5 over 60s in England may be offline. Offer a non-internet route.",
+  "new": "In a US trial, CBT for insomnia (talking therapy) by phone helped older adults with osteoarthritis pain and insomnia. A year on, 56 in 100 of those followed up had insomnia that was no longer a clinical problem, against 26 in 100 given information. 1 in 5 over 60s in England were offline in 2020.",
+  "reason": "Cold read items 2, 3, 6: CBT explained, clinical jargon replaced, split into sentences. 'May be offline' made specific to the 2020 national estimate (C11-09-d). Closing 'Offer a non-internet route' dropped to fit 300 characters; the full act stays in the other three versions."
+ },
+ {
+  "tmp_id": "C11-P11",
+  "where": "captions.threads",
+  "old": "CBT for insomnia has been tested by phone. In a US trial of 327 people aged 60 and over with insomnia and osteoarthritis pain, a year later 56 in 100 of those followed up had no clinically significant insomnia, against 26 in 100 given information.\n\nA national study estimated that about 1 in 5 people aged 60 and over living at home in England did not use the internet in 2020. We should offer a route that does not need it. Ask your GP practice if you can have it by phone or in person.",
+  "new": "CBT for insomnia (a talking and sleep-scheduling treatment) has been tested by phone. In a US trial of 327 people aged 60+ with insomnia and osteoarthritis pain, 56 in 100 of those followed up a year later had insomnia that was no longer a clinical problem, against 26 in 100 given information.\n\nAbout 1 in 5 people aged 60+ living at home in England did not use the internet in 2020. We should offer a route that does not need it. Ask your GP practice if you can have it by phone or in person.",
+  "reason": "Cold read items 2 and 6: CBT explained, jargon replaced, split."
+ },
+ {
+  "tmp_id": "C11-P12",
+  "where": "captions.bluesky",
+  "old": "Awake at night, an older inpatient? Ask first about noise, equipment, pain and the toilet (reported most by 2,005 Dutch inpatients). In trials of at least 5 nights in over 60s, sleeping tablets added about 25 minutes of self-reported sleep on average, with more confusion and daytime tiredness.",
+  "new": "Awake at night, an older inpatient? Ask first about noise, equipment, pain and the toilet (reported most by 2,005 Dutch inpatients). In trials of 5+ nights in over 60s, sleeping tablets added about 25 minutes of self-reported sleep, with more confusion and daytime tiredness than with a dummy pill.",
+  "reason": "Cold read item 3: comparator added ('than with a dummy pill'); 'on average' and wording tightened to stay within 300 characters."
+ },
+ {
+  "tmp_id": "C11-P09",
+  "where": "captions.linkedin",
+  "old": "Melatonin (up to 10 mg) may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials lasting 8 to 10 weeks. The evidence is low in certainty and limited to small trials. For total night-time sleep, melatonin gave about 11 minutes more (from two small trials of 184 people), and the range ran from 16 minutes less to 38 minutes more. No serious side effects were reported.\n\nThat does not mean nothing helps. The same Cochrane review found some evidence of benefit for other medicines.\n\nWhat prescribed melatonin is for. European guidance says prescribed slow-release melatonin can be used for up to 3 months in people aged 55 and over with insomnia. It does not recommend ordinary fast-release melatonin for insomnia. Across people with insomnia and other primary sleep problems, adults and children together, melatonin helped people fall asleep about 7 minutes sooner and sleep about 8 minutes longer than a dummy pill, on average.\n\nWhat is in the bottle. In a 2023 US study, 22 of 25 melatonin gummies were wrongly labelled, with actual amounts from about three quarters to more than three times the stated dose, and one contained none. A Canadian study of supplements found amounts from 83% under to 478% over the label. These were North American supplements. They do not describe prescribed tablets in the UK, and UK shop products were not tested.\n\nWhat to ask. What would count as success for you, and by when? When will you stop or review if it has not helped? Where does the product come from, and is it prescribed or a regulated medicine?\n\nMelatonin can be a reasonable short trial for some older people with realistic expectations and a review date. It is not an established treatment for sleep problems in dementia.\n\nMore Weighing it up posts take one treatment decision at a time.",
+  "new": "Melatonin (up to 10 mg) may make little or no difference to sleep in people with Alzheimer's disease and poor sleep, in trials lasting 8 to 10 weeks. A Cochrane review (a systematic review of trials) found we can have little confidence in the result. The trials were small. For total night-time sleep, melatonin gave about 11 minutes more (from two small trials of 184 people). The true figure could lie anywhere from 16 minutes less to 38 minutes more. No serious side effects were reported. The same review found some evidence of benefit for other medicines.\n\nOutside dementia, the average gains are also small. A review of adults and children with insomnia and other sleep problems found melatonin helped people fall asleep about 7 minutes sooner than a dummy pill. They slept about 8 minutes longer. European guidance says prescribed slow-release melatonin can be used for up to 3 months in people aged 55 and over with insomnia. It does not recommend ordinary fast-release melatonin for insomnia.\n\nThe product can differ from the label. In a 2023 US study, 22 of 25 melatonin gummies were wrongly labelled. Amounts ranged from about three quarters to more than three times the stated dose, and one contained none. A Canadian study of supplements found amounts from 83% under to 478% over the label. These were North American supplements. They do not describe prescribed tablets in the UK, and UK shop products were not tested.\n\nBefore a trial of melatonin, decide what would count as success for you, and by when. Decide when you will stop or review it if it has not helped. Ask where the product comes from, and whether it is prescribed or a regulated medicine.\n\nMelatonin can be a short trial with a review date, but it is not an established treatment for sleep problems in dementia.",
+  "reason": "Cold read scored 9 (rewrite): items 1, 2, 5, 6. Rewritten from the findings around one point (expect little; set a test of success and a stop date). Cochrane review and 'low in certainty' explained in plain words; sentences split; series promotion removed so the post ends on the act and the caution that melatonin is not an established treatment in dementia; fragment headings removed; the 16 to 38 minute range stated as a range for the true figure. All facts kept (C11-24-a, c, d, e)."
+ }
+]

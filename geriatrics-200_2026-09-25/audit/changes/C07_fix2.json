@@ -129,15 +129,15 @@
     "tmp_id": "C07-P04",
     "where": "captions.bluesky",
     "old": "In trials, people over 80 with stroke gained from clot-busting treatment: about 18 in 100 treated had no significant disability later, against 13 in 100 untreated. Bleeding risk is real.\n\nEligibility depends on time since onset, a brain scan and other checks. Call 999 straight away, at any age.",
-    "new": "People over 80 with stroke gained from clot-busting treatment in pooled trials: 18 in 100 treated had little or no disability 3 to 6 months later, against 13 in 100 untreated. Fatal brain bleeds (all ages): about 3 in 100 treated, under 1 in 100 untreated.\n\nWhether it is possible depends on when the stroke started and a brain scan. Call 999 straight away, at any age.",
-    "reason": "Cold read items 2, 3, 4: bleeding risk now sized (3 in 100 against under 1 in 100) instead of 'real'; period (3 to 6 months) added; 'eligibility' replaced by plain wording"
+    "new": "Pooled trials, people over 80 with stroke: 18 in 100 given clot-busting treatment had little or no disability at 3 to 6 months, against 13 in 100 untreated. Fatal brain bleeds, all ages: 3 in 100 treated, under 1 in 100 not.\n\nCall 999 at once at any age. Timing and a brain scan decide treatment.",
+    "reason": "Cold read items 2, 3, 4: bleeding risk now sized (3 in 100 against under 1 in 100) instead of 'real'; period (3 to 6 months) added; 'eligibility' replaced by plain wording; trim to platform limit"
   },
   {
     "tmp_id": "C07-P04",
     "where": "captions.threads",
     "old": "Stroke symptoms at 85 need the same immediate 999 call as at 55.\n\nIn a combined analysis of 9 trials, 1729 people were over 80. About 18 in 100 given clot-busting treatment had no significant disability 3 to 6 months later, against 13 in 100 without it. The risk is real: about 3 in 100 treated people (all ages) had a fatal brain bleed.\n\nEligibility depends on time since onset, a brain scan and other checks. Call 999 straight away, whatever the age.",
-    "new": "Stroke symptoms at 85 need the same immediate 999 call as at 55.\n\nWhen the results of 9 trials were pooled, 1729 people were over 80. About 18 in 100 given clot-busting treatment were left with little or no disability 3 to 6 months later, against 13 in 100 without it. Across all ages, about 3 in 100 treated people had a fatal brain bleed within a week, against fewer than 1 in 100 untreated.\n\nWhether treatment is possible depends on time since onset and a brain scan. Call 999 straight away, whatever the age.",
-    "reason": "Cold read items 2 and 3: 'pooled' wording; bleeding period and comparison added"
+    "new": "Stroke symptoms at 85 need the same immediate 999 call as at 55.\n\nIn 9 pooled trials, 1729 people were over 80. About 18 in 100 given clot-busting treatment were left with little or no disability 3 to 6 months later, against 13 in 100 without it. Across all ages, about 3 in 100 treated people had a fatal brain bleed within a week, against fewer than 1 in 100 untreated.\n\nWhether treatment is possible depends on time since onset and a brain scan. Call 999 straight away, whatever the age.",
+    "reason": "Cold read items 2 and 3: 'pooled' wording; bleeding period and comparison added; trim to platform limit"
   },
   {
     "tmp_id": "C07-P05",
@@ -159,5 +159,33 @@
     "old": "UK specialists report that few patients can get it from a specialist team.",
     "new": "UK specialists reported in 2024 that only a small proportion of patients can get this from a specialist team.",
     "reason": "Cold read items 3 and 6: period added to falls; long sentence split; vague UK sentence made specific (C07-23-g)"
+  },
+  {
+    "tmp_id": "C07-P05",
+    "where": "captions.linkedin",
+    "old": "They had cancer that could not be cured, were starting a new treatment with a high risk of side effects, and had at least one problem found on the assessment.",
+    "new": "They had cancer that could not be cured. They were starting a new treatment with a high risk of side effects. Each had at least one problem found on the assessment.",
+    "reason": "Cold read items 3 and 6: long sentences split; survival figures labelled by group"
+  },
+  {
+    "tmp_id": "C07-P05",
+    "where": "captions.linkedin",
+    "old": "about 72 in 100 against 75 in 100 were alive at 6 months, a difference that could be chance.",
+    "new": "about 72 in 100 people whose team had the assessment were alive at 6 months, against 75 in 100 whose team did not. That difference could be chance.",
+    "reason": "Cold read items 3 and 6: long sentences split; survival figures labelled by group"
+  },
+  {
+    "tmp_id": "C07-P05",
+    "where": "captions.bluesky",
+    "old": "US trial, 718 people aged 70+ starting cancer treatment: serious side effects were 51 in 100 when the team had a geriatric assessment (function, falls, memory, medicines, support), 71 in 100 with usual care. Survival was similar.\n\nStarting treatment? Ask if an assessment is possible.",
+    "new": "In a US trial of 718 people aged 70+ starting cancer treatment, serious side effects over 3 months happened to 51 in 100 when the team had a geriatric assessment (function, falls, memory, medicines, support), and 71 in 100 with usual care. Survival was similar.\n\nAsk if an assessment is possible.",
+    "reason": "Cold read items 3 and 6: period added, sentence made plainer, 'Telegraphic opening' fixed; trim to platform limit"
+  },
+  {
+    "tmp_id": "C07-P05",
+    "where": "captions.threads",
+    "old": "In a US trial of 718 people aged 70 and over starting cancer treatment, some cancer teams got a geriatric assessment: daily function, falls, memory, mood, nutrition, medicines and support at home.\n\nSerious side effects over 3 months: about 51 in 100 with the assessment, 71 in 100 without. Fewer falls too. Survival was similar, though the trial was not built to test it.\n\nStarting cancer treatment? You can ask the team whether an assessment is possible.",
+    "new": "A US trial included 718 people aged 70 and over starting cancer treatment. Some cancer teams got a geriatric assessment of each person: daily function, falls, memory, mood, nutrition, medicines and support at home.\n\nSerious side effects over 3 months: about 51 in 100 with the assessment, 71 in 100 without it. Fewer falls too. Survival was similar, though the trial was not built to test it.\n\nStarting cancer treatment? You can ask the team whether an assessment is possible.",
+    "reason": "Cold read item 6 and flag: sentence split; 'without' made 'without it'"
   }
 ]
