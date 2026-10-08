@@ -33,24 +33,24 @@
 </div>
 <script>
 const K=Kit, W=1000,H=560,S=0.95,g=505;
-const man={pose:'rising',seat:'armchair',seatColour:'sage',x:310,y:g,scale:S,age:'older',sex:'m',skin:'brown',hair:'white',hairStyle:'short',top:'#8D8FB0',bottom:'stone',extras:['cardigan'],cardigan:'#6B4E6E',shoeStyle:'slipper',shoes:'#5C3C28'};
+const man={pose:'rising',seat:'armchair',seatColour:'sage',x:290,y:g,scale:S,age:'older',sex:'m',skin:'brown',hair:'white',hairStyle:'short',top:'#8D8FB0',bottom:'stone',extras:['cardigan'],cardigan:'#6B4E6E',shoeStyle:'slipper',shoes:'#5C3C28'};
 const moon=(x,y)=>K.at(x,y,1,`<circle cx="0" cy="0" r="24" fill="#fff" stroke="#1F2A30" stroke-width="3"/><path d="M6,-14 A15,15 0 1 0 6,14 A11,11 0 1 1 6,-14 Z" fill="#15535B"/>`);
 K.draw('#sc',W,H,[
  K.at(0,0,1,K.room('home_bedroom',{w:520,h:H,ground:g,scale:S})),
- K.at(520,0,1,K.room('home_living',{w:180,h:H,ground:g,scale:S,wall:'#F3EDDF'})),
- K.at(700,0,1,K.room('bathroom',{w:300,h:H,ground:g,scale:S})),
- K.bed({x:50,y:g,type:'domestic',scale:S*0.9,colour:'denim',blanket:'sage'}),
+ K.at(520,0,1,K.room('home_living',{w:150,h:H,ground:g,scale:S,wall:'#F3EDDF'})),
+ K.at(670,0,1,K.room('bathroom',{w:330,h:H,ground:g,scale:S})),
+ K.bed({x:35,y:g,type:'domestic',scale:S*0.9,colour:'denim',blanket:'sage'}),
  K.person(man),
- K.commode({x:500,y:g,scale:S*0.8}),
- K.walking_frame({x:410,y:g,scale:S,type:'rollator'}),
- K.door({x:690,y:g,w:150,open:true,scale:S}),
- K.toilet_with_grab_rails({x:935,y:g,scale:S,raised:true,facing:'left'}),
- K.at(585,g-150,1,`<circle cx="0" cy="0" r="46" fill="#F7E3A8" opacity="0.55"/><rect x="-14" y="-12" width="28" height="24" rx="8" fill="#FFF3C9" stroke="#1F2A30" stroke-width="3"/>`),
- K.at(225,g-2,1,`<path d="M0,0 h30 v-30 q0,-10 -8,-14 l-14,-6 q-8,-4 -8,6 Z" fill="#DCEBEA" stroke="#1F2A30" stroke-width="3" transform="translate(40,0)"/>`),
- K.stool({x:630,y:g,scale:S*0.8}),
- K.blanket({x:630,y:g-106*S*0.8,w:70,colour:'sage'}),
- moon(500,g-230), moon(585,g-250), moon(270,g-110),
+ K.commode({x:495,y:g,scale:S*0.8}),
+ K.walking_frame({x:385,y:g,scale:S,type:'rollator'}),
+ K.door({x:665,y:g,w:150,open:true,scale:S}),
+ K.toilet_with_grab_rails({x:905,y:g,scale:S,raised:true,facing:'left'}),
+ K.at(565,g-150,1,`<circle cx="0" cy="0" r="46" fill="#F7E3A8" opacity="0.55"/><rect x="-14" y="-12" width="28" height="24" rx="8" fill="#FFF3C9" stroke="#1F2A30" stroke-width="3"/>`),
+ K.at(215,g-2,1,`<path d="M0,0 h30 v-30 q0,-10 -8,-14 l-14,-6 q-8,-4 -8,6 Z" fill="#DCEBEA" stroke="#1F2A30" stroke-width="3" transform="translate(40,0)"/>`),
+ K.stool({x:615,y:g,scale:S*0.8}),
+ K.blanket({x:615,y:g-106*S*0.8,w:70,colour:'sage'}),
+ moon(495,g-230), moon(565,g-275), moon(255,g-95),
 ],{cls:'art'});
-K.pins('#sc',[{n:1,x:262,y:g-120},{n:2,x:405,y:g-215},{n:3,x:585,y:g-190},{n:4,x:690,y:g-330},{n:5,x:960,y:g-250},{n:6,x:630,y:g-175},{n:7,x:880,y:g-215}]);
+K.pins('#sc',[{n:1,x:245,y:g-200},{n:2,x:385,y:g-215},{n:3,x:555,y:g-215},{n:4,x:665,y:g-330},{n:5,x:930,y:g-90},{n:6,x:625,y:g-125},{n:7,x:855,y:g-215}]);
 window.__ready=true;
 </script></body></html>

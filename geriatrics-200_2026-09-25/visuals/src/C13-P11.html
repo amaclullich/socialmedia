@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C13-P11</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>.list{display:grid;grid-template-columns:1fr;gap:6px;margin-top:16px;font-size:28px;line-height:1.25}.list b{color:var(--orange);font-weight:800}
+.res{margin-top:18px;padding:22px 30px;margin-bottom:26px}.res p{font-size:29px;line-height:1.32}</style></head><body><div class="sheet">
+<div class="card sand" id="s1">
+ <div class="topline"><span class="series">One trial, one package</span></div>
+ <div class="content">
+  <h1 class="s">A meal shared at the table</h1>
+  <div class="scene" id="sc" style="flex:0 0 440px;margin-top:18px"></div>
+  <div class="list">
+   <p><b>1.</b> Food in dishes on the table</p>
+   <p><b>2.</b> Residents serve themselves</p>
+   <p><b>3.</b> A member of staff or volunteer sits and chats</p>
+   <p><b>4.</b> Cloth, glasses, proper plates</p>
+   <p><b>5.</b> No interruptions during the meal</p>
+  </div>
+  <div class="panel deep res"><p>Over 6 months: weight held steady with family style meals, against about 1 kg lost with plated meals. Quality of life held steady with family style meals and fell with plated meals. Residents did not have dementia.</p></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Nijs et al., BMJ 2006. 178 residents, 5 Dutch nursing homes</span></div>
+</div>
+</div>
+<script>
+const W=920,H=440,g=400,S=0.78,L='#1F2A30';
+const st=`stroke="${L}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"`;
+const ty=g-168*S;           // table top y approx
+const tx0=250,tx1=730;
+const cloth=`<g><rect x="${tx0-14}" y="${ty-6}" width="${tx1-tx0+28}" height="20" rx="4" fill="#fff" ${st}/><path d="M${tx0-14} ${ty+14}h${tx1-tx0+28}v34l-12-8-14 8-14-8-14 8 -14-8" fill="#fff" ${st} opacity="0"/></g>`;
+const dish=(x,c)=>`<g ${st}><ellipse cx="${x}" cy="${ty-8}" rx="34" ry="9" fill="#fff"/><path d="M${x-30} ${ty-10}q0-22 30-22t30 22z" fill="${c}"/></g>`;
+const plate=(x)=>`<ellipse cx="${x}" cy="${ty-7}" rx="22" ry="6" fill="#fff" ${st}/>`;
+const P=(o)=>Kit.person(Object.assign({pose:'seated_front',seat:'chair',scale:S,age:'older',shadow:true},o));
+Kit.draw('#sc',W,H,[
+ Kit.room('care_home_lounge',{w:W,h:H,ground:g,scale:S}),
+ Kit.door({x:860,y:g-60,w:110,scale:0.9}),
+ Kit.window({x:140,y:g-70*S-170,scale:1.0,curtains:'mustard'}),
+ P({x:330,y:g-26,sex:'f',skin:'light',hair:'white',hairStyle:'bob',top:'plum',hands:'lap'}),
+ P({x:450,y:g-26,sex:'f',skin:'fair',hair:'grey',hairStyle:'pixie',top:'sage',extras:['glasses']}),
+ P({x:570,y:g-26,sex:'m',skin:'brown',hair:'white',hairStyle:'balding',top:'mustard',build:'broad'}),
+ P({x:690,y:g-26,sex:'f',skin:'olive',hair:'silver',hairStyle:'bun',top:'denim'}),
+ Kit.walking_frame({x:785,y:g-26,scale:S*0.9,type:'standard'}),
+ Kit.person({pose:'wheelchair',x:205,y:g+20,scale:S,facing:'right',age:'older',sex:'m',skin:'tan',hair:'grey',hairStyle:'short',top:'teal',bottom:'slate',hands:{near:{x:tx0+60,y:ty-20}}}),
+ Kit.person({pose:'seated_talking',seat:'chair',x:790,y:g+20,scale:S,facing:'left',age:'adult',role:'care_worker',sex:'f',skin:'dark',hair:'black',hairStyle:'bun',shadow:true}),
+ Kit.table({x:490,y:g+30,w:480,scale:S}),
+ cloth, dish(380,'#7FA86A'), dish(560,'#E4C98A'), plate(440), plate(620),
+ Kit.glass({x:500,y:ty-6,scale:S,level:0.6}), Kit.glass({x:330,y:ty-6,scale:S,level:0.5}),
+],{cls:'art'});
+Kit.pins('#sc',[{n:1,x:380,y:ty-62},{n:2,x:262,y:ty-40},{n:3,x:775,y:150},{n:4,x:700,y:ty+34},{n:5,x:860,y:g-210}]);
+window.__ready=true;
+</script></body></html>

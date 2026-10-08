@@ -7,7 +7,7 @@
  <div class="topline"><span class="series">Care worth trying</span></div>
  <div class="content">
   <h1 class="m">When the toothbrush is pushed away</h1>
-  <p class="body" style="font-size:30px;margin-top:14px"><span class="badge illustrative" style="font-size:22px;padding:6px 16px;margin-right:6px">Illustrative example</span> Illustrative example, not a real person. Techniques from a US trial of 101 nursing home residents.</p>
+  <p class="body" style="font-size:30px;margin-top:14px"><span class="badge illustrative" style="font-size:22px;padding:6px 16px;margin-right:6px">Illustrative example</span> Not a real person. Techniques from a US trial of 101 nursing home residents.</p>
   <div class="strip p4" style="margin-top:22px;margin-bottom:26px">
    <div class="panelbox"><div class="art" id="a1"></div><div class="cap">1. The brush is pushed away.</div></div>
    <div class="panelbox"><div class="art" id="a2"></div><div class="cap">2. The carer comes to eye level, calmly.</div></div>
@@ -30,7 +30,7 @@ const man=(o={})=>Kit.person(Object.assign({pose:'seated_side',seat:'chair',x:25
 const carer=(o={})=>Kit.person(Object.assign({pose:'standing',role:'care_worker',x:120,y:g,scale:S,sex:'f',skin:'olive',hair:'brown',hairStyle:'bun',age:'adult',facing:'right',shadow:false},o));
 const room=Kit.room('bathroom',{w:W,h:H,ground:g,scale:S});
 Kit.draw('#a1',W,H,[room,basin,man({lean:-8,tilt:-6,hands:{near:{x:340,y:232}}}),carer({x:90,hands:{near:{x:330,y:240}}}),brush(318,238,352,226)],{cls:'art'});
-Kit.draw('#a2',W,H,[room,basin,man({x:300}),Kit.person({pose:'kneeling',role:'care_worker',x:150,y:g,scale:S,sex:'f',skin:'olive',hair:'brown',hairStyle:'bun',facing:'right',reach:false,shadow:false}),brush(215,300,245,330)],{cls:'art'});
+Kit.draw('#a2',W,H,[room,basin,man({x:300,facing:'left'}),Kit.person({pose:'kneeling',role:'care_worker',x:130,hands:{near:{x:222,y:296}},y:g,scale:S,sex:'f',skin:'olive',hair:'brown',hairStyle:'bun',facing:'right',reach:false,shadow:false}),brush(222,296,246,326)],{cls:'art'});
 Kit.draw('#a3',W,H,[room,basin,man({x:260,hands:{near:{x:342,y:196}}}),carer({x:110}),brush(342,196,372,176)],{cls:'art'});
 Kit.draw('#a4',W,H,[room,basin,man({x:260,hands:{near:{x:342,y:196}}}),carer({x:150,hands:{near:{x:346,y:192}},lean:10}),brush(342,196,372,176)],{cls:'art'});
 window.__ready=true;

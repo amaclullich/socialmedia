@@ -1,0 +1,54 @@
+<!doctype html><html><head><meta charset="utf-8"><title>C12-P09 Raising bowel leakage</title>
+<link rel="stylesheet" href="../design_system/base.css">
+<script>window.__ready = false;</script>
+<script src="../design_system/kit.js"></script>
+<style>
+ .pb { border:4px solid var(--ink); border-radius:14px; overflow:hidden; background:#fff; margin-top:26px; display:flex; flex-direction:column; }
+ .pb + .pb { margin-top:22px; }
+ .pb .art { position:relative; height:345px; background:var(--sand); }
+ .pb .art svg { position:absolute; inset:0; width:100%; height:100%; }
+ .pb .cap { padding:16px 24px; font-size:29px; line-height:1.3; border-top:4px solid var(--ink); background:#fff; }
+ .bubble { font-size:29px; font-weight:600; max-width:48%; }
+ .bubble::after { left:auto; right:60px; }
+</style></head><body><div class="sheet">
+<div class="card" id="s1">
+ <div class="topline"><span class="series">Ask this</span><span class="slidecount">1/2</span></div>
+ <div class="content">
+  <h1 class="s" style="text-wrap:balance">Bowel leakage: how to raise it</h1>
+  <div style="margin-top:16px"><span class="badge illustrative">Illustration, not a real conversation</span></div>
+  <p class="body" style="font-size:30px;margin-top:18px">In a US national survey, about 15 in 100 adults aged 70 and over living at home reported leakage in the past month. In two other US surveys (clinic patients in the 1990s; women aged 45 and over), only about 1 in 3 people with leakage had ever talked to a doctor.</p>
+  <div class="pb" style="margin-top:22px"><div class="art" id="p1" style="height:385px"><div class="bubble" style="left:4%;top:7%">I have had some accidents with my bowels.</div></div>
+   <div class="cap"><b>Say it in plain words.</b> Clinicians are advised to ask directly and to take account of the words a person prefers, such as 'accidents'.</div></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Whitehead, Gastroenterology, 2009; Johanson, Am J Gastroenterol, 1996; Assmann, United European Gastroenterol J, 2022</span></div>
+</div>
+<div class="card" id="s2">
+ <div class="topline"><span class="series">Ask this</span><span class="slidecount">2/2</span></div>
+ <div class="content">
+  <div><span class="badge illustrative">Illustration, not a real conversation</span></div>
+  <div class="pb" style="margin-top:22px"><div class="art" id="p2"><div class="bubble" style="right:4%;top:7%">Thank you for telling me. What is your bowel pattern like most days?</div></div>
+   <div class="cap">They may ask about your usual bowel pattern, childbirth and past surgery, and examine you gently.</div></div>
+  <div class="pb"><div class="art" id="p3"><div class="bubble" style="left:4%;top:3%;max-width:42%;font-size:27px">Could a continence service help?</div><div class="bubble" style="right:4%;top:3%;max-width:42%;font-size:27px">We can start with some simple steps.</div></div>
+   <div class="cap">First steps help some people: food, fibre and drinks, a toilet routine, pelvic floor exercises, pads and skin care. If these do not help enough, there are further tests and treatments.</div></div>
+ </div>
+ <div class="foot"><span class="author">Alasdair MacLullich</span><span class="src">Whitehead, Gastroenterology, 2009; Johanson, Am J Gastroenterol, 1996; Assmann, United European Gastroenterol J, 2022</span></div>
+</div>
+</div>
+<script>
+const K=Kit;
+const wm={age:'older',sex:'f',skin:'dark',hair:'grey',hairStyle:'coily',top:'#4F7A5E',extras:['cardigan'],cardigan:'#3F6553',bottom:'charcoal'};
+const nu={role:'nurse',sex:'m',skin:'olive',hair:'black',hairStyle:'short',age:'adult'};
+const S=0.78;
+function sc(id,h,fn){ const W=1000,H=Math.round(1000*h/920),g=H-22; K.draw(id,W,H,fn(g,H)); }
+sc('#p1',385,(g,H)=>[K.room('gp_room',{w:1000,h:H,ground:g,scale:S}),K.desk({x:520,y:g,w:200,scale:S}),
+ K.person(Object.assign({pose:'seated_side',seat:'chair',x:260,y:g,scale:S,tilt:6},wm)),
+ K.stick({x:130,y:g,scale:S,angle:-12,type:'crook'}),
+ K.person(Object.assign({pose:'seated_side',seat:'chair',x:780,y:g,scale:S,facing:'left',tilt:4},nu))]);
+sc('#p2',345,(g,H)=>[K.room('gp_room',{w:1000,h:H,ground:g,scale:S}),K.desk({x:520,y:g,w:200,scale:S}),
+ K.person(Object.assign({pose:'seated_talking',x:250,y:g,scale:S},wm)),
+ K.person(Object.assign({pose:'seated_side',seat:'chair',x:780,y:g,scale:S,facing:'left',tilt:3},nu))]);
+sc('#p3',345,(g,H)=>[K.room('gp_room',{w:1000,h:H,ground:g,scale:S}),K.desk({x:520,y:g,w:200,scale:S}),
+ K.person(Object.assign({pose:'seated_side',seat:'chair',x:250,y:g,scale:S,tilt:-3},wm)),
+ K.person(Object.assign({pose:'seated_talking',x:790,y:g,scale:S,facing:'left',hold:'notepad'},nu))]);
+window.__ready=true;
+</script></body></html>
